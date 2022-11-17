@@ -1,0 +1,259 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "CLI",
+  "scopeName": "source.cli",
+  "fileTypes": [".cli"],
+  "patterns": [
+    {
+      "include": "#output"
+    },
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#commands"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#placeholder"
+    },
+    {
+      "include": "#interpolation"
+    },
+    {
+      "include": "#operators"
+    }
+  ],
+  "repository": {
+    "$self": {},
+    "commandArgs": {
+      "name": "keyword.command-arg.cli",
+      "match": "[\\./~@]*\\b[\\w\\/:\\\\-]+\\b/?"
+    },
+    "commandName": {
+      "patterns": [
+        {
+          "include": "#commandNameStart"
+        },
+        {
+          "include": "#commandNameInterpolation"
+        },
+        {
+          "include": "#commandNameAfterShellPrefix"
+        },
+        {
+          "include": "#commandNameAfterOperator"
+        }
+      ]
+    },
+    "commandNameAfterOperator": {
+      "name": "meta.commandNameAfterOperator.cli",
+      "match": "(?<=([\\&|])\\s)(\\S+)",
+      "captures": {
+        "2": {
+          "name": "keyword.command-name.cli"
+        }
+      }
+    },
+    "commandNameAfterShellPrefix": {
+      "name": "keyword.command-name.cli",
+      "match": "^(\\$)\\s(\\S)+",
+      "captures": {
+        "1": {
+          "name": "punctuation.cli"
+        }
+      }
+    },
+    "commandNameInterpolation": {
+      "name": "keyword.command-name.cli",
+      "match": "\\b(?<=\\$\\()\\S+\\b"
+    },
+    "commandNameStart": {
+      "name": "keyword.command-name.cli",
+      "match": "^([^$\\s])+"
+    },
+    "commands": {
+      "patterns": [
+        {
+          "include": "#commandName"
+        },
+        {
+          "include": "#commandArgs"
+        },
+        {
+          "include": "#flags"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "include": "#line-comment"
+        }
+      ]
+    },
+    "doubleDashFlag": {
+      "name": "flag.double-dash.cli",
+      "match": "\\s(--)([\\w\\-\\_\\.]+)(=([^\\s\\(\\)]+))?",
+      "captures": {
+        "1": {
+          "name": "punctuation.cli"
+        },
+        "2": {
+          "patterns": [
+            {
+              "include": "#flagDot"
+            }
+          ]
+        },
+        "3": {
+          "name": "keyword.operator.assignment.cli"
+        },
+        "4": {
+          "name": "string.cli",
+          "patterns": [
+            {
+              "include": "#strings"
+            }
+          ]
+        }
+      }
+    },
+    "doubleQuoteString": {
+      "name": "string.cli",
+      "begin": "\"",
+      "end": "\"",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.cli"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.cli"
+        }
+      }
+    },
+    "flagDot": {
+      "name": "punctuation.cli",
+      "match": "\\."
+    },
+    "flags": {
+      "patterns": [
+        {
+          "include": "#doubleDashFlag"
+        },
+        {
+          "include": "#singleDashFlag"
+        }
+      ]
+    },
+    "interpolation": {
+      "name": "meta.interpolation.cli",
+      "begin": "\\$\\(",
+      "end": "\\)\\s",
+      "beginCaptures": {
+        "0": {
+          "name": "interpolation.begin.cli"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "interpolation.end.cli"
+        }
+      },
+      "patterns": [
+        {
+          "include": "#$self"
+        }
+      ]
+    },
+    "line-comment": {
+      "name": "comment.line.double-slash.cli",
+      "match": "(#|//).*(?=$)"
+    },
+    "operators": {
+      "name": "operators.cli",
+      "match": "\\s[>|\\\\&]+\\s"
+    },
+    "output": {
+      "name": "string.cli",
+      "begin": "^(\\$<<<)",
+      "end": "^(>>>\\$)",
+      "beginCaptures": {
+        "0": {
+          "name": "output.begin.cli"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "output.end.cli"
+        }
+      },
+      "patterns": [
+        {
+          "include": "#source.json"
+        }
+      ]
+    },
+    "placeholder": {
+      "name": "placeholder.cli",
+      "begin": "<",
+      "end": ">",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.cli"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.cli"
+        }
+      }
+    },
+    "singleDashFlag": {
+      "name": "flag.single-dash.cli",
+      "match": "\\s(-)([\\w\\-\\_\\.]+)",
+      "captures": {
+        "1": {
+          "name": "punctuation.cli"
+        },
+        "2": {
+          "patterns": [
+            {
+              "include": "#flagDot"
+            }
+          ]
+        }
+      }
+    },
+    "singleQuoteString": {
+      "name": "string.cli",
+      "begin": "'",
+      "end": "'",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.cli"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.cli"
+        }
+      }
+    },
+    "source.json": {},
+    "strings": {
+      "patterns": [
+        {
+          "include": "#singleQuoteString"
+        },
+        {
+          "include": "#doubleQuoteString"
+        }
+      ]
+    }
+  }
+}

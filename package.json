@@ -1,0 +1,12 @@
+{
+  "name": "docs.nativescript.org",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "vitepress": "^1.0.0-alpha.29"
+  }
+}

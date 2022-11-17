@@ -1,0 +1,6 @@
+node_modules
+content/api/**/*
+.vitepress/dist
+
+yarn.lock
+.DS_Store

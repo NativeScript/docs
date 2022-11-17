@@ -1,0 +1,98 @@
+{
+  "name": "CLI Theme",
+  "fg": "#f3f4f6",
+  "bg": "#111827",
+  "type": "dark",
+  "colors": {
+    "editor.foreground": "#d1d5db",
+    "editor.background": "#111827"
+  },
+  "settings": [
+    {
+      "name": "CLI Command Punctuation",
+      "scope": ["punctuation.cli"],
+      "settings": {
+        "foreground": "#9ca3af"
+      }
+    },
+    {
+      "name": "CLI Command Name",
+      "scope": ["keyword.command-name.cli"],
+      "settings": {
+        "foreground": "#f472b6"
+      }
+    },
+    {
+      "name": "CLI Command Arg",
+      "scope": ["keyword.command-arg.cli"],
+      "settings": {
+        "foreground": "#a3e635"
+      }
+    },
+    {
+      "name": "CLI Double-Dash Flag",
+      "scope": ["flag.double-dash.cli"],
+      "settings": {
+        "foreground": "#22d3ee"
+      }
+    },
+    {
+      "name": "CLI Single-Dash Flag",
+      "scope": ["flag.single-dash.cli"],
+      "settings": {
+        "foreground": "#67e8f9",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "CLI Assignment",
+      "scope": ["keyword.operator.assignment.cli"],
+      "settings": {
+        "foreground": "#c4b5fd"
+      }
+    },
+    {
+      "name": "CLI String",
+      "scope": ["string.cli"],
+      "settings": {
+        "foreground": "#fb7185"
+      }
+    },
+    {
+      "name": "CLI Single-Line Comment",
+      "scope": ["comment.line.double-slash.cli"],
+      "settings": {
+        "foreground": "#6b7280"
+      }
+    },
+    {
+      "name": "CLI Placeholder",
+      "scope": ["placeholder.cli"],
+      "settings": {
+        "foreground": "#34d399",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "CLI Interpolation",
+      "scope": ["interpolation.begin.cli", "interpolation.end.cli"],
+      "settings": {
+        "foreground": "#65a30d"
+      }
+    },
+    {
+      "name": "CLI Operators",
+      "scope": ["operators.cli"],
+      "settings": {
+        "foreground": "#14b8a6"
+      }
+    },
+    {
+      "name": "CLI Output",
+      "scope": ["output.begin.cli", "output.end.cli"],
+      "settings": {
+        "foreground": "#000001"
+      }
+    }
+  ]
+}
