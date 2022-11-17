@@ -3,7 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "vitepress dev"
+    "dev": "vitepress dev",
+    "build": "vitepress build"
   },
   "devDependencies": {
     "prettier": "^2.7.1",

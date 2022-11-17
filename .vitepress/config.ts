@@ -22,7 +22,7 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     editLink: {
-      pattern: "https://pr.new/github.com/NativeScript/docs/edit/main/:path",
+      pattern: "https://pr.new/github.com/NativeScript/docs/edit/main/content/:path",
       // "https://pr.new/github.com/NativeScript/docs/edit/main/:filePath?initialPath=:path",
     },
     sidebar,
