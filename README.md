@@ -9,8 +9,8 @@ This repository holds the source for the **beta** version of our docs. This is a
 ## Goals
 
 - streamline onboarding to NativeScript
-- simplify content to it's core, reword and restructure to make pages relevant and to the point
-- make the docs SEO friendly and easy to navigate
+- simplify content to its core, reword and restructure to make pages relevant and to-the-point
+- make the docs SEO-friendly and easy to navigate
 
 ## Writing workflow
 
