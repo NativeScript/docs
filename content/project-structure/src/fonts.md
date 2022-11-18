@@ -2,7 +2,7 @@
 title: The Fonts folder
 ---
 
-A dedicated folder for storing custom fonts. Any `.ttf` files placed here are automatically picked up by NativeScript.
+A folder for storing custom fonts. Any `.ttf` files placed here are automatically picked up by NativeScript.
 
 ## Using Custom Fonts
 
@@ -34,7 +34,7 @@ Add a new css class (for example in [`app.css`](/project-structure/src/app-css-s
 ```
 
 ::: info Note
-Using `ns fonts` is optional, however we recommend using it because there is a conceptual difference in how **.ttf** fonts are recognized on iOS and Android. On Android, the font is recognized by its **file name** while on iOS it is recognized by its **font name**. This means that fonts that are created with a font name which is different from the file name has to be registered with both names in your CSS rule.
+Using `ns fonts` is optional, however we recommend using it because iOS and Android recognize `.ttf` files differently. On Android, the font is recognized by its **file name** while on iOS it is recognized by its **font name**. Fonts that have a different font name than the file name have to be registered with both names in the CSS rule.
 :::
 
 You are ready to use the new fonts, apply the font class to an element and it will use the new font.
@@ -60,7 +60,7 @@ When using an `Image`, you can control the size with `font-size`, but you need t
 If an icon doesn't appear, or renders unintended characters, make sure you are using the correct font family and weight.
 
 ::: warning Note for Vue users
-In Vue, when using html entities like the char codes above, use the `.decode` modifier on the property, in this case `text.decode` and `src.decode` to opt-into parsing HTML entities, which are disabled by default:
+In Vue, when using html entities like the char codes above, use the `.decode` modifier on the property, in this case `text.decode` and `src.decode` to opt-into parsing HTML entities (disabled by default).
 
 ```xml
 <Label class="far" text.decode="&#xf019;" />
