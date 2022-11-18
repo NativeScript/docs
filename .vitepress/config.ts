@@ -1,15 +1,7 @@
 import { defineConfig } from "vitepress";
-import sidebar from "../content/sidebar";
-// https://mysticmind.dev/vitepress-fenced-code-block-syntax-highlighting-quirks-with-net-or-other-languages
-import { BUNDLED_LANGUAGES } from "shiki";
-import cliLanguageGrammar from "./shiki/cli.tmLanguage.json";
 
-BUNDLED_LANGUAGES.push({
-  id: "cli",
-  scopeName: "source.cli",
-  // @ts-ignore
-  grammar: cliLanguageGrammar,
-});
+import nav from "./nav";
+import mainSidebar from "../content/sidebar";
 
 export default defineConfig({
   srcDir: "./content",
@@ -22,9 +14,17 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     editLink: {
-      pattern: "https://pr.new/github.com/NativeScript/docs/edit/main/content/:path",
-      // "https://pr.new/github.com/NativeScript/docs/edit/main/:filePath?initialPath=:path",
+      pattern:
+        "https://pr.new/github.com/NativeScript/docs/edit/main/content/:filePath?initialPath=:path",
     },
-    sidebar,
+    algolia: {
+      appId: "",
+      apiKey: "8d41b4ae92a02aea355e1dc8cfad1899",
+      indexName: "nativescript",
+    },
+    nav,
+    sidebar: {
+      "/": mainSidebar,
+    },
   },
 });
