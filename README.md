@@ -15,9 +15,10 @@ This repository holds the source for the **beta** version of our docs. This is a
 ## Writing workflow
 
 1. clone the repository
-2. run `yarn` and then `yarn dev` - open http://localhost:5173/
-3. open the docs folder (or the content folder) in your favorite editor like VSCode - optionally open the `content.code-workspace` for a more focused experience.
-4. write! ✍️
+2. run `yarn` to install the dependencies
+3. run `yarn dev`, then open http://localhost:5173/
+4. open the repository root (or the `content` folder) in your favorite editor like VSCode. In case of VSCode you can optionally open the `content.code-workspace` for a more focused experience either from the terminal with `code content.code-workspace` or from the **File > Open Workspace from file...** menu and selecting the `content.code-workspace`.
+5. write! ✍️
 
 ## Contributing
 
@@ -26,7 +27,7 @@ This repository holds the source for the **beta** version of our docs. This is a
 Pick a topic/page that nobody is working on yet, create a new branch, add the necessary markdown file and an entry to `content/sidebar.ts`.
 Open a draft PR and start working on the page. Once you are ready for feedback, mark the PR as ready for review. During the review process, address any feedback until the content is approved.
 
-If you have any questions, feel free to ask them in your PR and ping @rigor789.
+If you have any questions, feel free to ask them in your PR and ping [@rigor789](https://github.com/rigor789).
 
 > **Note**: in the current stage of the beta docs, please try to only include a single page + the sidebar config change in a PR to make the review process easier, and reduce possible conflicts. Once we have the majority of the pages complete, we can focus on adding cross-links and references where necessary, and do any additional cleanup passes - at which point this requirement will be dropped.
 
