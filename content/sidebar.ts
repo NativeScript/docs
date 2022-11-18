@@ -84,7 +84,7 @@ export default [
       //   ],
       // },
       // { text: 'tsconfig.json', link: '//#', icon: 'file' },
-      // { text: 'references.d.ts', link: '//#', icon: 'file' },
+      { text: 'references.d.ts', link: '/project-structure/references-d-ts', icon: 'file' },
     ],
   },
   {
