@@ -83,7 +83,7 @@ export default [
       //     },
       //   ],
       // },
-      // { text: 'tsconfig.json', link: '//#', icon: 'file' },
+     { text: 'tsconfig.json', link: '/project-structure/tsconfig-json', icon: 'file' },
       // { text: 'references.d.ts', link: '//#', icon: 'file' },
     ],
   },
