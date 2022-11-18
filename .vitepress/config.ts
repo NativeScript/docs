@@ -1,5 +1,7 @@
 import { defineConfig } from "vitepress";
 
+import "./theme/cliLanguage";
+
 import nav from "./nav";
 import mainSidebar from "../content/sidebar";
 
