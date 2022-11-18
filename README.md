@@ -9,16 +9,18 @@ This repository holds the source for the **beta** version of our docs. This is a
 ## Goals
 
 - streamline onboarding to NativeScript
-- simplify content to it's core, reword and restructure to make pages relevant and to the point
-- make the docs SEO friendly and easy to navigate
+- simplify content to its core, reword and restructure to make pages relevant and to-the-point
+- make the docs SEO-friendly and easy to navigate
 
 ## Writing workflow
 
 1. clone the repository
 2. run `yarn` to install the dependencies
-3. run `yarn dev`, then open http://localhost:5173/
-4. open the repository root (or the `content` folder) in your favorite editor like VSCode. In case of VSCode you can optionally open the `content.code-workspace` for a more focused experience either from the terminal with `code content.code-workspace` or from the **File > Open Workspace from file...** menu and selecting the `content.code-workspace`.
+3. run `yarn dev`, then visit http://localhost:5173/
+4. open the repository root (or the `content` folder) in your favorite editor like VSCode.
 5. write! ✍️
+
+> **Tip** In case of VSCode you can optionally open the `docs.code-workspace` for a more focused experience either from the terminal with `code docs.code-workspace` or from the **File > Open Workspace from file...** menu and selecting the `docs.code-workspace`.
 
 ## Contributing
 

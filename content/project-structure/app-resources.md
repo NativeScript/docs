@@ -75,12 +75,12 @@ class HelloJava {
 Given the example above, your JavaScript or TypeScript code can reference the Kotlin or Java code by using the full class names, e.g.
 
 ```typescript
-const helloKotlin = new com.example.HelloKotlin();
-console.log('Kotlin says: ' + helloKotlin.hello);
+const helloKotlin = new com.example.HelloKotlin()
+console.log('Kotlin says: ' + helloKotlin.hello)
 // prints: Kotlin says: Hello from Kotlin!
 
-const helloJava = new com.example.HelloJava();
-console.log('Java says: ' + helloJava.getString());
+const helloJava = new com.example.HelloJava()
+console.log('Java says: ' + helloJava.getString())
 // prints: Java says: Hello from Java!
 ```
 
@@ -89,7 +89,7 @@ console.log('Java says: ' + helloJava.getString());
 If using TypeScript, you may need to generate typings, or alternatively declare the top level package name as `any`, e.g.
 
 ```typescript
-declare const com: any;
+declare const com: any
 ```
 
 :::

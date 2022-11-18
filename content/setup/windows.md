@@ -43,7 +43,6 @@ If any of the above failed, we recommend checking out the [Microsoft Docs for Se
 
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) open an Administrator Command Prompt (right click and select "Run as Administrator") and run the following command:
 
-
 ```cli
 choco install -y temurin11
 ```
@@ -111,7 +110,6 @@ Next, add Android **platform-tools** to path:
 
 Install the NativeScript CLI globally:
 
-
 ```cli
 npm install -g nativescript
 ```
@@ -121,7 +119,6 @@ npm install -g nativescript
 ### Verifying the environment
 
 To verify that the installation was successful, open a new Command Prompt window (to ensure the new environment variables are loaded) and run:
-
 
 ```cli
 ns doctor android

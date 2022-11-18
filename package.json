@@ -4,11 +4,18 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build"
+    "build": "vitepress build",
+    "lint:check": "prettier --check ./content/**/*.md",
+    "lint": "prettier --write ./content/**/*.md"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "prettier": "^2.7.1",
     "vitepress": "^1.0.0-alpha.29"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 80,
+    "singleQuote": true
   }
 }
