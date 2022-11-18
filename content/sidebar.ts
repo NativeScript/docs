@@ -98,6 +98,10 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'Data Binding',
+        link: '/guide/data-binding'
+      }
     ],
   },
   //   {
