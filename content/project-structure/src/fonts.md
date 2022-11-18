@@ -52,13 +52,6 @@ In case of font icons, you will need to set the `text` to the correct char code 
 <Image class="far" src="font://&#xf019;"></Image>
 ```
 
-::: details Sizing font images
-Images have specific stretch options (`none`, `aspectFit`, `aspectFill`). Font icons on the other hand usually use `font-size` to control the size of the icon.
-When using an `Image`, you can control the size with `font-size`, but you need to set `stretch="none"` for it to take effect. Setting `stretch` to anything other than `none` will cause the icon to be streched by measuring the image.
-:::
-
-If an icon doesn't appear, or renders unintended characters, make sure you are using the correct font family and weight.
-
 ::: warning Note for Vue users
 In Vue, when using html entities like the char codes above, use the `.decode` modifier on the property, in this case `text.decode` and `src.decode` to opt-into parsing HTML entities (disabled by default).
 
@@ -66,6 +59,13 @@ In Vue, when using html entities like the char codes above, use the `.decode` mo
 <Label class="far" text.decode="&#xf019;" />
 <Image class="far" src.decode="font://&#xf019;" />
 ```
+
+::: details Sizing font images
+Images have specific stretch options (`none`, `aspectFit`, `aspectFill`). Font icons on the other hand usually use `font-size` to control the size of the icon.
+When using an `Image`, you can control the size with `font-size`, but you need to set `stretch="none"` for it to take effect. Setting `stretch` to anything other than `none` will cause the icon to be streched by measuring the image.
+:::
+
+If an icon doesn't appear, or renders unintended characters, make sure you are using the correct font family and weight.
 
 :::
 
