@@ -41,10 +41,78 @@ ns create myCoolApp --svelte
 
 ## Official Templates
 
+Here are some of the default templates you may want to try:
+
 ### Blank Template
+
+A basic template with a single page and no custom styles.
+<DeviceFrame type="ios">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-ios.png">
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-android.png">
+</DeviceFrame>
+
+To use, run:
+
+```cli
+ns create myCoolApp --template @nativescript/template-blank
+```
 
 ### Drawer Template
 
+A simple template with a side drawer.
+
+<!-- TODO: make nicer images -->
+
+<DeviceFrame type="ios">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-ios.png">
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-android.png">
+</DeviceFrame>
+
+To use, run:
+
+```cli
+ns create myCoolApp --template @nativescript/template-drawer-navigation
+```
+
 ### Tabs Template
 
+A simple template with multiple tabs.
+
+<!-- TODO: make nicer images -->
+
+<DeviceFrame type="ios">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-ios.png">
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-android.png">
+</DeviceFrame>
+
+To use, run:
+
+```cli
+ns create myCoolApp --template @nativescript/template-tab-navigation
+```
+
 ### List & Details Template
+
+A simple template with a ListView and a details screen.
+<DeviceFrame type="ios">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-ios.png">
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-android.png">
+</DeviceFrame>
+
+To use, run:
+
+```cli
+ns create myCoolApp --template @nativescript/template-master-detail
+```
+
+### Creating custom template
+
+The NativeScript CLI can create projects using custom templates either from `npm` or a local path by passing the `--template` `<npm_package_name_or_local_path>` flag to the `ns create` command.
