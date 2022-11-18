@@ -99,7 +99,7 @@ Let's start with creating the files for our home feature with the following cont
 ```typescript
 // src/app/features/home/home.component.ts
 
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   moduleId: module.id,
@@ -114,17 +114,17 @@ export class HomeComponent {}
 ```typescript
 // src/app/features/home/home-routing.module.ts
 
-import { NgModule } from '@angular/core';
-import { Routes } from '@angular/router';
-import { NativeScriptRouterModule } from '@nativescript/angular';
-import { HomeComponent } from './home.component';
+import { NgModule } from '@angular/core'
+import { Routes } from '@angular/router'
+import { NativeScriptRouterModule } from '@nativescript/angular'
+import { HomeComponent } from './home.component'
 
 export const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
   },
-];
+]
 
 @NgModule({
   imports: [NativeScriptRouterModule.forChild(routes)],
@@ -137,10 +137,10 @@ export class HomeRoutingModule {}
 ```typescript
 // src/app/features/home/home.module.ts
 
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
-import { NativeScriptCommonModule } from '@nativescript/angular';
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core'
+import { NativeScriptCommonModule } from '@nativescript/angular'
+import { HomeRoutingModule } from './home-routing.module'
+import { HomeComponent } from './home.component'
 
 @NgModule({
   imports: [NativeScriptCommonModule, HomeRoutingModule],
@@ -193,16 +193,16 @@ Before we create the UI of our home page, let's create our `FlickModel` and `Fli
 // src/app/core/models/flick.model.ts
 
 export interface FlickModel {
-  id: number;
-  genre: string;
-  title: string;
-  image: string;
-  url: string;
-  description: string;
+  id: number
+  genre: string
+  title: string
+  image: string
+  url: string
+  description: string
   details: {
-    title: string;
-    body: string;
-  }[];
+    title: string
+    body: string
+  }[]
 }
 ```
 
@@ -211,8 +211,8 @@ We will then use the `FlickModel` in our `FlickService` to return our flick data
 ```typescript
 // src/app/core/services/flick.service.ts
 
-import { Injectable } from '@angular/core';
-import { FlickModel } from '~/app/core/models';
+import { Injectable } from '@angular/core'
+import { FlickModel } from '~/app/core/models'
 
 @Injectable({
   providedIn: 'root',
@@ -305,14 +305,14 @@ export class FlickService {
         },
       ],
     },
-  ];
+  ]
 
   getFlicks(): FlickModel[] {
-    return this.flicks;
+    return this.flicks
   }
 
   getFlickById(id: number): FlickModel | undefined {
-    return this.flicks.find((flick) => flick.id === id) || undefined;
+    return this.flicks.find((flick) => flick.id === id) || undefined
   }
 }
 ```
@@ -481,7 +481,7 @@ Let's start with creating the files for our details feature with the following c
 ```typescript
 // src/app/features/details/details.component.ts
 
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   moduleId: module.id,
@@ -496,17 +496,17 @@ export class DetailsComponent {}
 ```typescript
 // src/app/features/details/details-routing.module.ts
 
-import { NgModule } from '@angular/core';
-import { Routes } from '@angular/router';
-import { NativeScriptRouterModule } from '@nativescript/angular';
-import { DetailsComponent } from './details.component';
+import { NgModule } from '@angular/core'
+import { Routes } from '@angular/router'
+import { NativeScriptRouterModule } from '@nativescript/angular'
+import { DetailsComponent } from './details.component'
 
 export const routes: Routes = [
   {
     path: '',
     component: DetailsComponent,
   },
-];
+]
 
 @NgModule({
   imports: [NativeScriptRouterModule.forChild(routes)],
@@ -519,10 +519,10 @@ export class DetailsRoutingModule {}
 ```typescript
 // src/app/features/details/details.module.ts
 
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
-import { NativeScriptCommonModule } from '@nativescript/angular';
-import { DetailsRoutingModule } from './details-routing.module';
-import { DetailsComponent } from './details.component';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core'
+import { NativeScriptCommonModule } from '@nativescript/angular'
+import { DetailsRoutingModule } from './details-routing.module'
+import { DetailsComponent } from './details.component'
 
 @NgModule({
   imports: [NativeScriptCommonModule, DetailsRoutingModule],

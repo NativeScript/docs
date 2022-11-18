@@ -40,7 +40,6 @@ To install **Node** we recommend using a node version manager, such as [nvm](htt
 
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) run the following command:
 
-
 ```cli
 brew tap homebrew/cask-versions
 brew install --cask temurin11
@@ -92,7 +91,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 Install the **NativeScript CLI** globally:
 
-
 ```cli
 npm install -g nativescript
 ```
@@ -102,7 +100,6 @@ npm install -g nativescript
 ### Verifying the environment
 
 To verify that the installation was successful, open a new Command Prompt window (to ensure the new environment variables are loaded) and run:
-
 
 ```cli
 ns doctor android
@@ -157,7 +154,6 @@ Open `XCode › Preferences › Locations` and make sure **Command Line Tools** 
 
 Install **ruby 2.7** and link it so it's available in your shell environment:
 
-
 ```cli
 brew install ruby@2.7
 brew link ruby@2.7
@@ -183,7 +179,6 @@ In a new terminal window, install the **<abbr title="A package manager for manag
 <!-- Note: xcodeproj seems to be installed when installing cocoapods via brew -->
 <!-- brew install cocoapods # this will install both cocoapods and xcodeproj -->
 <!-- gem install ... # requires root privileges on macOS. sudo works. -->
-
 
 ```cli
 sudo gem install cocoapods
@@ -220,7 +215,6 @@ python --version
 
 Next, update **<abbr title="Python package manager">pip</abbr>** and install **<abbr title="Python 2 & 3 compatibility package used by NativeScript">six</abbr>** by running the following:
 
-
 ```cli
 python -m pip install --upgrade pip
 python -m pip install six
@@ -229,7 +223,6 @@ python -m pip install six
 ### Installing the NativeScript CLI
 
 Install the **NativeScript CLI** globally:
-
 
 ```cli
 npm install -g nativescript
@@ -240,7 +233,6 @@ npm install -g nativescript
 ### Verifying the environment
 
 To verify that the installation was successful, open a new Terminal window (to ensure the new environment variables are loaded) and run:
-
 
 ```cli
 ns doctor ios

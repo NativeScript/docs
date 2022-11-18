@@ -11,7 +11,7 @@ You can author the config file as plain `.js` file as well, however we recommend
 By default a config looks somewhat like the following
 
 ```ts
-import { NativeScriptConfig } from '@nativescript/core';
+import { NativeScriptConfig } from '@nativescript/core'
 
 export default {
   id: 'org.nativescript.app',
@@ -21,7 +21,7 @@ export default {
     v8Flags: '--expose_gc',
     markingMode: 'none',
   },
-} as NativeScriptConfig;
+} as NativeScriptConfig
 ```
 
 ## Configuration Reference
@@ -29,7 +29,7 @@ export default {
 ### id
 
 ```ts
-id: string = 'com.mycompany.myapp';
+id: string = 'com.mycompany.myapp'
 ```
 
 Controls the Application ID of your app, this setting can be overridden per platform via [ios.id](#ios-id) and [android.id](#android-id).
@@ -37,7 +37,7 @@ Controls the Application ID of your app, this setting can be overridden per plat
 ### main
 
 ```ts
-main: string = './src/custom-main.ts';
+main: string = './src/custom-main.ts'
 ```
 
 Sets the entry point to your app. This value is usually set in [package.json](/project-structure/package-json) in the `main` field.
@@ -45,7 +45,7 @@ Sets the entry point to your app. This value is usually set in [package.json](/p
 ### appPath
 
 ```ts
-appPath: string = 'custom-src';
+appPath: string = 'custom-src'
 ```
 
 Specifies where your app source is located, usually `src` or `app`.
@@ -53,7 +53,7 @@ Specifies where your app source is located, usually `src` or `app`.
 ### appResourcesPath
 
 ```ts
-appResourcesPath: string = '../shared/app_resources';
+appResourcesPath: string = '../shared/app_resources'
 ```
 
 Specifies where your app resources are located, usually `App_Resources`.
@@ -91,7 +91,7 @@ TODO: document or remove?
 ### webpackConfigPath
 
 ```ts
-webpackConfigPath: string = 'custom-webpack.config.js';
+webpackConfigPath: string = 'custom-webpack.config.js'
 ```
 
 Specifies the [webpack config](/webpack) location. The default is `webpack.config.js` in the root however you can use a custom name and place elsewhere.
@@ -125,7 +125,7 @@ A list of npm package names to ignore when attaching native dependencies to the 
 ### cli
 
 ```ts
-cli: Object = {};
+cli: Object = {}
 ```
 
 See [CLI Configuration Reference](#cli-configuration-reference)
@@ -133,7 +133,7 @@ See [CLI Configuration Reference](#cli-configuration-reference)
 ### android
 
 ```ts
-android: Object = {};
+android: Object = {}
 ```
 
 See [Android Configuration Reference](#android-configuration-reference)
@@ -141,7 +141,7 @@ See [Android Configuration Reference](#android-configuration-reference)
 ### ios
 
 ```ts
-ios: Object = {};
+ios: Object = {}
 ```
 
 See [iOS Configuration Reference](#ios-configuration-reference)
@@ -149,7 +149,7 @@ See [iOS Configuration Reference](#ios-configuration-reference)
 ### hooks
 
 ```ts
-hooks: Array = [];
+hooks: Array = []
 ```
 
 See [Hooks Configuration Reference](#hooks-configuration-reference)
@@ -330,7 +330,7 @@ hooks: [
     type: 'before-<hookName>' | 'after-<hookName>',
     script: './path/to/script.js',
   },
-];
+]
 ```
 
 Allows defining project-persistent hooks.

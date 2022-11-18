@@ -22,7 +22,7 @@ For optimal results when using the Workers API, follow these guidelines:
 Creating a new worker is simple, all you need is to call the `Worker()` constructor with a path to the worker script (relative to current file, or an aliased path eg. `~/path/to/worker.ts`). The worker itself can be written in JavaScript or TypeScript.
 
 ```ts
-const myWorker = new Worker('./worker.ts');
+const myWorker = new Worker('./worker.ts')
 ```
 
 ### Sending messages to a worker
@@ -31,7 +31,7 @@ To send messages to the worker, use the [`postMessage()`](#postmessage) method o
 
 ```ts
 // send myMessage to the worker
-myWorker.postMessage(myMessage);
+myWorker.postMessage(myMessage)
 ```
 
 ### Receiving messages from a worker
@@ -41,9 +41,9 @@ To receive messages from the worker, use the [`onmessage`](#onmessage) callback 
 ```ts
 // attach a message handler that will receive messages from the worker thread
 myWorker.onmessage = (e) => {
-  console.log('Message received from the worker thread.');
-  const data = e.data; // data from the worker
-};
+  console.log('Message received from the worker thread.')
+  const data = e.data // data from the worker
+}
 ```
 
 ### Sending messages to main thread
@@ -52,7 +52,7 @@ To send messages back to the main thread use the [`self.postMessage()`](#postmes
 
 ```ts
 // send the workerResult back to the main thread
-self.postMessage(workerResult);
+self.postMessage(workerResult)
 ```
 
 ### Receiving messages from main thread
@@ -62,9 +62,9 @@ To receive messages in the worker, use the [`self.onmessage`](#onmessage-1) even
 ```ts
 // attach a message handler that will receive the messages from the main thread
 self.onmessage = (e) => {
-  console.log('Message received from the main thread.');
-  const data = e.data; // data from myMessage
-};
+  console.log('Message received from the main thread.')
+  const data = e.data // data from myMessage
+}
 ```
 
 <!-- ### Sending messages to and from a worker
@@ -102,7 +102,7 @@ self.onmessage = (e) => {
 If you need to stop executing the worker, you can terminate it from the main thread using the `terminate` method on the `Worker` instance:
 
 ```ts
-myWorker.terminate();
+myWorker.terminate()
 ```
 
 The worker thread is killed immediately.
@@ -115,20 +115,20 @@ Runtime errors inside the worker are reported back to the main thread through th
 myWorker.onerror = (e) => {
   console.log(
     `Error occured in the worker thread in file ${e.filename} on line ${e.lineno}`
-  );
-  console.log(e.message, e.stackTrace);
-};
+  )
+  console.log(e.message, e.stackTrace)
+}
 ```
 
 The worker can also self-handle errors by setting up an `onerror` handler, which can mark the error as "handled" and prevent the callback on the main thread from being called.
 
 ```ts
 self.onerror = (e) => {
-  console.log('Error occured, error:', e);
+  console.log('Error occured, error:', e)
 
   // return true-like to stop the event from being passed onto the main thread
-  return true;
-};
+  return true
+}
 ```
 
 ## Workers API
@@ -146,7 +146,7 @@ Creates an instance of a Worker and spawns a new OS thread, where the script poi
 ### postMessage
 
 ```ts
-myWorker.postMessage(message);
+myWorker.postMessage(message)
 ```
 
 Sends a JSON-serializable message to the associated script's `onmessage` event handler.
@@ -156,7 +156,7 @@ Sends a JSON-serializable message to the associated script's `onmessage` event h
 ### terminate
 
 ```ts
-myWorker.terminate();
+myWorker.terminate()
 ```
 
 Terminates the execution of the worker thread on the next run loop tick.
@@ -166,7 +166,7 @@ Terminates the execution of the worker thread on the next run loop tick.
 ### onmessage
 
 ```ts
-myWorker.onmessage = function handler(message: { data: any }) {};
+myWorker.onmessage = function handler(message: { data: any }) {}
 ```
 
 Handles incoming messages sent from the associated worker thread. **Note** that you are responsible for creating & setting the handler function.
@@ -179,11 +179,11 @@ The `data` in the `message` object is the JSON-serializable message the worker s
 
 ```ts
 myWorker.onerror = function handler(error: {
-  message: string; // the error message
-  stackTrace?: string; // the stack trace if applicable
-  filename: string; // the file where the uncaught error was thrown
-  lineno: number; // the line where the uncaught error was thrown
-}) {};
+  message: string // the error message
+  stackTrace?: string // the stack trace if applicable
+  filename: string // the file where the uncaught error was thrown
+  lineno: number // the line where the uncaught error was thrown
+}) {}
 ```
 
 Handles uncaught errors from the worker thread. **Note** that you are responsible for creating & setting the handler function.
@@ -197,7 +197,7 @@ Each worker gets it's own global scope (so `global.foo` in the worker is not the
 ### self
 
 ```ts
-self === global; // true
+self === global // true
 ```
 
 Returns a reference to the `WorkerGlobalScope` itself - also available as `global`
@@ -207,7 +207,7 @@ Returns a reference to the `WorkerGlobalScope` itself - also available as `globa
 ### postMessage
 
 ```ts
-self.postMessage(message);
+self.postMessage(message)
 ```
 
 Sends a JSON-serializable message to the Worker instance's [`onmessage`](#onmessage) event handler on the main thread.
@@ -217,7 +217,7 @@ Sends a JSON-serializable message to the Worker instance's [`onmessage`](#onmess
 ### close
 
 ```ts
-self.close();
+self.close()
 ```
 
 Terminates the execution of the worker thread on the next run loop tick.
@@ -227,7 +227,7 @@ Terminates the execution of the worker thread on the next run loop tick.
 ### onmessage
 
 ```ts
-self.onmessage = function handler(message: { data: any }) {};
+self.onmessage = function handler(message: { data: any }) {}
 ```
 
 Handles incoming messages sent from the main thread.
@@ -240,8 +240,8 @@ The `data` in the `message` object is the JSON-serializable message the main thr
 
 ```ts
 self.onerror = function handler(error: Error): boolean {
-  return true;
-};
+  return true
+}
 ```
 
 Handles uncaught errors occurring during execution of functions inside the Worker Scope (worker thread).
@@ -257,7 +257,7 @@ After `onerror` is called in the worker thread, execution is not terminated and 
 ```ts
 self.onclose = function handler() {
   // do cleanup work
-};
+}
 ```
 
 Handles any "clean-up" work. Suitable for freeing up resources, closing streams and sockets.
@@ -270,7 +270,7 @@ Handles any "clean-up" work. Suitable for freeing up resources, closing streams 
 In order to use `setTimeout`, `setInterval`, or other globals coming from the `@nativescript/core`, you will need to include them in your worker script:
 
 ```ts
-import '@nativescript/core/globals';
+import '@nativescript/core/globals'
 ```
 
 <!--  -->
@@ -280,31 +280,31 @@ import '@nativescript/core/globals';
 ```ts
 // main-view-model.js
 
-const worker = new Worker('./workers/image-processor');
+const worker = new Worker('./workers/image-processor')
 
 // send a message to our worker
-worker.postMessage({ src: imageSource, mode: 'scale', options: options });
+worker.postMessage({ src: imageSource, mode: 'scale', options: options })
 
 // handle incoming messages from the worker
 worker.onmessage = function (message) {
   if (message.data.success) {
     // the src received from the worker
-    const src = message.data.src;
+    const src = message.data.src
 
     // terminate worker or send another message...
-    worker.terminate();
+    worker.terminate()
   } else {
     // handle unsuccessful task
   }
-};
+}
 
 // handle worker errors
 worker.onerror = function (err) {
   console.log(
     `An unhandled error occurred in worker: ${err.filename}, line: ${err.lineno} :`,
     err.message
-  );
-};
+  )
+}
 ```
 
 <!--  -->
@@ -313,36 +313,36 @@ worker.onerror = function (err) {
 // workers/image-processor.js
 
 // load NativeScript globals in the worker thread
-import '@nativescript/core/globals';
+import '@nativescript/core/globals'
 
 self.onmessage = function (message) {
-  const src = message.data.src;
-  const mode = message.data.mode || 'noop';
-  const options = message.data.options;
+  const src = message.data.src
+  const mode = message.data.mode || 'noop'
+  const options = message.data.options
 
-  const result = processImage(src, mode, options);
+  const result = processImage(src, mode, options)
 
   if (result) {
     // send the result back to the main thread
     self.postMessage({
       success: true,
       src: result,
-    });
+    })
 
-    return;
+    return
   }
 
   // no result, send back an empty object for example
-  self.postMessage({});
-};
+  self.postMessage({})
+}
 
 // example heavy function to process an image
 function processImage(src, mode, options) {
-  console.log(options);
+  console.log(options)
   // image processing logic
   // save image, retrieve location
   // return source to processed image
-  return updatedImgSrc;
+  return updatedImgSrc
 }
 ```
 

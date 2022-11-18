@@ -89,9 +89,9 @@ Let's start with creating the file for our home feature with the following conte
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue';
+import Vue from 'nativescript-vue'
 
-export default Vue.extend({});
+export default Vue.extend({})
 </script>
 ```
 
@@ -126,16 +126,16 @@ Before we create the UI of our home page, let's create our `FlickModel` and `Fli
 // app/models/Flick.ts
 
 export interface FlickModel {
-  id: number;
-  genre: string;
-  title: string;
-  image: string;
-  url: string;
-  description: string;
+  id: number
+  genre: string
+  title: string
+  image: string
+  url: string
+  description: string
   details: {
-    title: string;
-    body: string;
-  }[];
+    title: string
+    body: string
+  }[]
 }
 ```
 
@@ -144,7 +144,7 @@ We will then use the `FlickModel` in our `FlickService` to return our flick data
 ```typescript
 // app/services/FlickService.ts
 
-import { FlickModel } from '../models/Flick';
+import { FlickModel } from '../models/Flick'
 
 export default class FlickService {
   private flicks: FlickModel[] = [
@@ -234,14 +234,14 @@ export default class FlickService {
         },
       ],
     },
-  ];
+  ]
 
   getFlicks(): FlickModel[] {
-    return this.flicks;
+    return this.flicks
   }
 
   getFlickById(id: number): FlickModel | undefined {
-    return this.flicks.find((flick) => flick.id === id) || undefined;
+    return this.flicks.find((flick) => flick.id === id) || undefined
   }
 }
 ```
@@ -453,9 +453,9 @@ Let's start with creating the file for our details feature with the following co
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue';
+import Vue from 'nativescript-vue'
 
-export default Vue.extend({});
+export default Vue.extend({})
 </script>
 ```
 
