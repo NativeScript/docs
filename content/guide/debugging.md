@@ -14,7 +14,22 @@ ns debug android|ios
 
 The `ns debug` command builds and deploys the app on a connected device or emulator, in case you have multiple devices available you will need to pick one from a list, or pass in the `--device <id>` from `ns devices`.
 
-### Adding breakpoints via code
+Once the app starts, a URL is printed to the console
+
+```cli{5-6}
+Setting up debugger proxy...
+Press Ctrl + C to terminate, or disconnect.
+
+Opened localhost 41000
+To start debugging, open the following URL in Chrome:
+devtools://devtools/bundled/inspector.html?ws=localhost:41000
+```
+
+Visit the printed URL (**devtools://devtools/bundled/inspector.html?ws=localhost:41000**) in Google Chrome to attach to the debugger session.
+
+If you are new to JavaScript debugging, we recommend reading the following resources from **Chrome Developers** to get familiar with the basics:
+
+- [Debugging JavaScript](https://developer.chrome.com/docs/devtools/javascript/)
 
 ## Debugging with VSCode
 
@@ -27,6 +42,34 @@ The VSCode extension for NativeScript is currently outdated and may not work. We
 ## Debugging with XCode
 
 If you need to debug parts of the native stack instead of the JavaScript part of your app, you can use the XCode debugger as well as all the XCode Instruments to find issues in your app such as memory leaks, hangs, CPU heavy tasks and more.
+
+To start, prepare the iOS app:
+
+```cli
+ns prepare ios
+```
+
+This compiles your app source, creates the `platforms/ios` folder (if it doesn't exist yet). You can pass any of the flags you would normally pass to `ns run`.
+
+Next, open the `platforms/ios/<project-name>.xcworkspace` in XCode, either through the XCode browse menu, or from the command line:
+
+```cli
+open platforms/ios/<project-name>.xcworkspace
+```
+
+Select a target device or simulator, and then run the app via the "Play" button. Navigate to the native code in the XCode project, and place breakpoints, when the app hits those it will pause execution and you will be able to step through the native code.
+
+If a crash occurs, the XCode debugger will stop the execution and print a thread dump and a location where the app is crashing. In many cases the stack will point to symbol identifiers like `0x1088f3960` which usually means the source code is not availble for the offending code (could be an external pre-compiled library). If the crash occurs in the NativeScript runtime itself, you can attach the runtime source to be able to see the exact line that is crashing, and also place breakpoints and step throuhg the runtime code with your application. A detailed guide can be found in the [NativeScript iOS Runtime Readme](https://github.com/NativeScript/ns-v8ios-runtime#attaching-the-runtime-to-a-nativescript-app).
+
+Since NativeScript utilises a standard XCode project structure, you can do everything you would typically do with a pure iOS application:
+
+- view the view hiearchy
+- memory dumps/graphs
+- XCode Instruments: leaks, cpu profiling, hangs and more
+
+**Additional Resources:**
+
+- [Apple XCode user guide for debugging iOS apps](https://developer.apple.com/documentation/xcode/diagnosing-and-resolving-bugs-in-your-running-app?language=objc)
 
 ## Debugging with Android Studio
 
