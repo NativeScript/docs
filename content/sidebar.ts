@@ -19,10 +19,15 @@ export default [
         text: 'Creating a new Project',
         link: '/creating-a-new-project',
       },
-      // {
-      //   text: 'Development Workflow',
-      //   link: '//#',
-      // },
+      {
+        text: 'Development Workflow',
+        items:[
+          {
+            text: 'Running app on device',
+            link: '/guide/development-workflow/running-app-on-device'
+          }
+        ],
+      },
       {
         text: 'Tutorials',
         link: '/tutorials/',
