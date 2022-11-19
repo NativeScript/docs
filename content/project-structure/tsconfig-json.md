@@ -28,5 +28,4 @@ For more information see the official [TypeScript documentation](https://www.typ
   "files": ["./references.d.ts"],
   "exclude": ["node_modules", "platforms"]
 }
-
 ```
