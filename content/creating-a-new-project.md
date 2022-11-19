@@ -113,6 +113,6 @@ To use, run:
 ns create myCoolApp --template @nativescript/template-master-detail
 ```
 
-### Creating custom templates
+## Creating custom templates
 
 The NativeScript CLI can create projects using custom templates either from `npm` or a local path by passing the `--template` `<npm_package_name_or_local_path>` flag to the `ns create` command. If you need a custom template, start with one of the official templates and customize it for your needs.
