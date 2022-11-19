@@ -2,7 +2,9 @@
 title: tsconfig.json
 ---
 
-The `tsconfig.json` file is present only in TypeScript projects. It contains the options for the `tsc` CLI. You can fine-tune the transpilation process by configuring the various [compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html). For more information about tsconfig.json, see the official [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+Projects using TypeScript use the `tsconfig.json` to control the TypeScript compilation. Our templates ship with curated default values, however if you need to, you can fine-tune the [compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+
+For more information see the official [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
 ```json
 {
@@ -18,11 +20,11 @@ The `tsconfig.json` file is present only in TypeScript projects. It contains the
     "lib": ["es2017", "dom"],
     "baseUrl": ".",
     "paths": {
-      "~/*": ["app/*"],
-      "@/*": ["app/*"]
+      "~/*": ["src/*"],
+      "@/*": ["src/*"]
     }
   },
-  "include": ["app/**/*", "activity.android.ts", "application.android.ts", "application.android.ts", "activity.android.ts"],
+  "include": ["src/**/*", "activity.android.ts", "application.android.ts"],
   "files": ["./references.d.ts"],
   "exclude": ["node_modules", "platforms"]
 }
