@@ -24,7 +24,7 @@ export default [
         items: [
           {
             text: 'Debugging',
-            link: '/guide/development-workflow/debugging'
+            link: '/guide/debugging'
           }
         ]
       },
