@@ -1,31 +1,40 @@
 ---
-title: Debugging in NativeScript
+title: Debugging
 ---
 
-This section looks at the available options for debugging a NativeScript app.
+There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments or the Android Studio developer tools.
 
-### Debugging NativeScript app with Chrome DevTools
+## Debugging with Chrome DevTools
 
-To start the debugger for Android, run the following command:
-
-```cli
-ns debug android
-```
-
-To start the debugger for iOS, run the following command:
+To start a Chrome debugging session, run your app in debug mode:
 
 ```cli
-ns debug ios
+ns debug android|ios
 ```
 
-The `debug` command builds and deploys the app on a connected device or emulator. By default, it also automatically restarts the application after changes save.
+The `ns debug` command builds and deploys the app on a connected device or emulator, in case you have multiple devices available you will need to pick one from a list, or pass in the `--device <id>` from `ns devices`.
 
-::: tip Note
-Changes inside `App_Resources` folder (e.g. `AndroidManifest.xml`, `Info.plist` or any of the resources folders) trigger a rebuild after which live syncing is resumed.
+### Adding breakpoints via code
+
+## Debugging with VSCode
+
+VSCode uses the same protocol as the Chrome DevTools, in order to start a debugging session in VSCode you need to install the [NativeScript extension for VS Code](https://marketplace.visualstudio.com/items?itemName=NativeScript.nativescript).
+
+::: warning Note
+The VSCode extension for NativeScript is currently outdated and may not work. We are planning on revamping the project and bring it up-to-date with all the latest features soon.
 :::
 
-For security reasons, the debugging agent **can't be started automatically** from the command-line. That's why NativeScript CLI generates a URL which is printed on the screen instead. **You need to manually copy it in Google Chrome's address bar to start debugging.**
+## Debugging with XCode
 
+If you need to debug parts of the native stack instead of the JavaScript part of your app, you can use the XCode debugger as well as all the XCode Instruments to find issues in your app such as memory leaks, hangs, CPU heavy tasks and more.
+
+## Debugging with Android Studio
+
+<!-- divider - rewriting the content above -->
+
+---
+
+For security reasons, the debugging agent **can't be started automatically** from the command-line. That's why NativeScript CLI generates a URL which is printed on the screen instead. **You need to manually copy it in Google Chrome's address bar to start debugging.**
 
 You can customize the `ns debug` command using any of the following options:
 
@@ -60,7 +69,6 @@ The following are the Chrome DevTools features supported by NativeScript:
 | Elements (Styles)          | ✘                       | ✘                       | ✘                   | not applicable   |
 | Memory Profiling           | ✘                       | ✘                       | ✘                   | not applicable   |
 | Timeline and CPU Profiling | ✘                       | ✔                       | ✘                   | not applicable   |
-
 
 ### Debugger
 
@@ -206,7 +214,6 @@ The Elements panel in DevTools displays information about the current view tree,
 _Figure 11: The DOM tree view of a NativeScript application:_
 ![DOM tree view of a NativeScript application](/assets/images/development-workflow/elements-dom-tree-view.png)
 
-
 ### Debugging plugins
 
 Writing plugins is a great way to give back to the community by making application development ever easier by abstracting complex logic through a simple interface. What is even better is when your plugin can integrate almost seamlessly with the expanding arsenal of debugging tools provided by the platform. Following are the optional requirements and interfaces your plugin should comply to, to have your plugin's components/data shown in the respective DevTools panels.
@@ -248,7 +255,7 @@ Writing plugins is a great way to give back to the community by making applicati
     global.__inspector.responseReceived(responseData)
     global.__inspector.loadingFinished({
       requestId: requestIdStr,
-      timestamp: getTimeStamp()
+      timestamp: getTimeStamp(),
     })
     global.__inspector.dataForRequestId(successfulRequestData)
     ```
@@ -261,10 +268,8 @@ Writing plugins is a great way to give back to the community by making applicati
 Portions of this page are modifications based on work created and [shared by Google](https://developers.google.com/terms/site-policies) and used according to terms described in the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/).
 :::
 
-
 ### Debugging in VS Code
 
 To debug NativeScript applications in [Visual Studio Code](https://code.visualstudio.com/), you need the [NativeScript extension for VS Code](https://marketplace.visualstudio.com/items?itemName=Telerik.nativescript).
 
 <!-- TODO: example -->
-
