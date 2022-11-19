@@ -39,9 +39,7 @@ ns create myCoolApp --svelte
 ...to create the app with the default template for the specified flavor.
 :::
 
-## Official Templates
-
-Here are some of the default templates you may want to try:
+## Official Starter Templates
 
 ### Blank Template
 
