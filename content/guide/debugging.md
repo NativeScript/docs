@@ -4,6 +4,18 @@ title: Debugging
 
 There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments or the Android Studio developer tools.
 
+## Console
+
+### Measure execution times
+
+The `time()` method starts a new timer and is very useful to measure how long something took. Pass a string to the method to give the marker a name. When you want to stop the timer, call `timeEnd()` and pass it the same string passed to the initializer. The console then logs the label and time elapsed when the `timeEnd()` method fires.
+
+```ts
+console.time('myLabel')
+await someLongTask()
+console.timeEnd('myLabel')
+```
+
 ## Debugging with Chrome DevTools
 
 To start a Chrome debugging session, run your app in debug mode:
@@ -27,9 +39,31 @@ devtools://devtools/bundled/inspector.html?ws=localhost:41000
 
 Visit the printed URL (**devtools://devtools/bundled/inspector.html?ws=localhost:41000**) in Google Chrome to attach to the debugger session.
 
+You can customize the `ns debug` command using any of the following options:
+
+- `--debug-brk` - stops execution at the first JavaScript line until either the debugger frontend connects or a 30 seconds timeout elapses.
+- `--start` - attaches the debug tools to an already deployed and running app.
+- `--emulator` - specifies that you want to debug the app in an emulator.
+- `--timeout` - number of seconds that the NativeScript CLI will wait for the debugger to boot. Default is 90 seconds.
+- `--no-watch` - changes in your code will not be livesynced.
+- `--clean` - forces rebuilding the native application.
+
 If you are new to JavaScript debugging, we recommend reading the following resources from **Chrome Developers** to get familiar with the basics:
 
 - [Debugging JavaScript](https://developer.chrome.com/docs/devtools/javascript/)
+
+### Supported Chrome DevTools features
+
+| DevTools Feature           | Android                       | iOS                           |
+| -------------------------- | ----------------------------- | ----------------------------- |
+| Debugger                   | :white_check_mark:            | :white_check_mark:            |
+| Console                    | :white_check_mark:            | :white_check_mark:            |
+| Resources                  | :white_check_mark:            | :white_check_mark:            |
+| Network                    | :white_check_mark:            | :white_check_mark:            |
+| Elements (DOM)             | :white_check_mark:            | :white_check_mark:            |
+| Elements (Styles)          | :orange_circle: computed only | :orange_circle: computed only |
+| Memory Profiling           | :white_check_mark:            | :white_check_mark:            |
+| Timeline and CPU Profiling | :white_check_mark:            | :white_check_mark:            |
 
 ## Debugging with VSCode
 
@@ -73,11 +107,38 @@ Since NativeScript utilises a standard XCode project structure, you can do every
 
 ## Debugging with Android Studio
 
-<!-- divider - rewriting the content above -->
+If you need to debug parts of the native stack instead of the JavaScript part of your app, you can use Android Studio to find issues in your app.
 
----
+To start, prepare the Android app:
 
-For security reasons, the debugging agent **can't be started automatically** from the command-line. That's why NativeScript CLI generates a URL which is printed on the screen instead. **You need to manually copy it in Google Chrome's address bar to start debugging.**
+```cli
+ns prepare android
+```
+
+This compiles your app source, creates the `platforms/android` folder (if it doesn't exist yet). You can pass any of the flags you would normally pass to `ns run`.
+
+Next, open the `platforms/android` folder in Android Studio, through the Android Studio browse menu.
+
+:::tip Tip
+If you set up the `studio` command line launcher, you can quickly open the NativeScript project from the command line with
+
+```cli
+studio platforms/android
+```
+
+:::
+
+Since NativeScript follows a standard gradle/android application structure, you can do everything you would typically do with a pure Android application:
+
+- view the view hieararchy
+- memory dumps/graphs
+
+<!-- previous content for reference: -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- For security reasons, the debugging agent **can't be started automatically** from the command-line. That's why NativeScript CLI generates a URL which is printed on the screen instead. **You need to manually copy it in Google Chrome's address bar to start debugging.**
 
 You can customize the `ns debug` command using any of the following options:
 
@@ -86,9 +147,9 @@ You can customize the `ns debug` command using any of the following options:
 - `--emulator` - Specifies that you want to debug the app in an emulator.
 - `--timeout` - Sets the number of seconds that the NativeScript CLI will wait for the debugger to boot. If not set, the default timeout is 90 seconds.
 - `--no-watch` - If set, changes in your code will not be livesynced.
-- `--clean` - If set forces rebuilding the native application.
+- `--clean` - If set forces rebuilding the native application. -->
 
-#### iOS specific options
+<!-- #### iOS specific options
 
 - `--inspector` - Flag to use the embedded Webkit Web Inspector debugger (default is Chrome DevTools).
 
@@ -102,18 +163,18 @@ For iOS debugging, run any the following commands:
 
 The following are the Chrome DevTools features supported by NativeScript:
 
-|                            | ANDROID CHROME DEVTOOLS | IOS SAFARI APPINSPECTOR | IOS CHROME DEVTOOLS | VSCODE EXTENSION |
-| -------------------------- | ----------------------- | ----------------------- | ------------------- | ---------------- |
-| Debugger                   | ✔                       | ✔                       | ✔                   | ✔                |
-| Console                    | ✔                       | ✔                       | ✔                   | ✔                |
-| Resources                  | ✔                       | ✔                       | ✔                   | not applicable   |
-| Network                    | ✔                       | ✔                       | ✔                   | not applicable   |
-| Elements (DOM)             | ✔                       | ✘                       | ✔                   | not applicable   |
-| Elements (Styles)          | ✘                       | ✘                       | ✘                   | not applicable   |
-| Memory Profiling           | ✘                       | ✘                       | ✘                   | not applicable   |
-| Timeline and CPU Profiling | ✘                       | ✔                       | ✘                   | not applicable   |
+|                            | ANDROID CHROME DEVTOOLS | IOS SAFARI APPINSPECTOR | IOS CHROME DEVTOOLS | VSCODE EXTENSION   |
+| -------------------------- | ----------------------- | ----------------------- | ------------------- | ------------------ |
+| Debugger                   | :white_check_mark:      | :white_check_mark:      | :white_check_mark:  | :white_check_mark: |
+| Console                    | :white_check_mark:      | :white_check_mark:      | :white_check_mark:  | :white_check_mark: |
+| Resources                  | :white_check_mark:      | :white_check_mark:      | :white_check_mark:  | not applicable     |
+| Network                    | :white_check_mark:      | :white_check_mark:      | :white_check_mark:  | not applicable     |
+| Elements (DOM)             | :white_check_mark:      | :x:                     | :white_check_mark:  | not applicable     |
+| Elements (Styles)          | :x:                     | :x:                     | :x:                 | not applicable     |
+| Memory Profiling           | :x:                     | :x:                     | :x:                 | not applicable     |
+| Timeline and CPU Profiling | :x:                     | :white_check_mark:      | :x:                 | not applicable     | -->
 
-### Debugger
+<!-- ### Debugger
 
 The debugger feature can help you find and diagnose the bugs occurring at runtime using the following techniques:
 
@@ -154,12 +215,12 @@ _Figure 5: Call stack: Call stack_
 
 :::tip Note:
 To be able to debug code other than JavaScript, the transpiled sources should include [inlined source maps](https://www.typescriptlang.org/docs/handbook/compiler-options.html) for your code (default when developing NativeScript apps with TypeScript).
-::::
+:::: -->
 
-### Console
+<!-- ### Console -->
 
-#### [Writing to the console](https://developer.chrome.com/docs/devtools/console/api/#log)
-
+<!-- #### [Writing to the console](https://developer.chrome.com/docs/devtools/console/api/#log) -->
+<!--
 One of the most natural things you can do to debug apps in any environment is writing to the system’s log. In NativeScript logging works a lot as it does on the web, as most of the same `console` APIs that work on the web also work in NativeScript.
 
 For a more configurable console logging, see the [Tracing in NativeScript](/guide/nativescript-core/tracing) page.
@@ -193,29 +254,25 @@ JS:     "color": "Red"
 JS: }
 JS: === dump(): dumping function and properties names ===
 JS: === dump(): finished ===
-```
+``` -->
 
-#### Autocompleting commands and expressions
+<!-- #### Autocompleting commands and expressions
 
 When you type in the Console, the Console automatically displays an autocomplete dropdown menu (Figure 6) of relevant methods that match the text that you have already typed. This includes previous commands that you executed.
 
 _Figure 6: Console autocomplete: Console autocomplete_
 
-![Console autocomplete](https://wd.imgix.net/image/admin/7HsvmvxxZifd5ZqkP4Hg.png?auto=format&w=1600)
+![Console autocomplete](https://wd.imgix.net/image/admin/7HsvmvxxZifd5ZqkP4Hg.png?auto=format&w=1600) -->
 
-#### [Measure execution times](https://developer.chrome.com/docs/devtools/console/api/#time)
+<!-- #### Evaluate expressions
 
-The `time()` method starts a new timer and is very useful to measure how long something took. Pass a string to the method to give the marker a name. When you want to stop the timer, call `timeEnd()` and pass it the same string passed to the initializer. The console then logs the label and time elapsed when the `timeEnd()` method fires.
+Explore the state of any object of your global application scope, or the paused local scope from the Console by evaluating an expression just by typing it. -->
 
-#### Evaluate expressions
+<!-- ### Resources
 
-Explore the state of any object of your global application scope, or the paused local scope from the Console by evaluating an expression just by typing it.
+Scripts loaded by the JavaScript Virtual Machine appear in the Sources panel, which you can then debug and place breakpoints in. Besides scripts all other text and image resources found in your application are also listed in the Sources panel, grouped by folder name by default. You can inspect and search inside the contents of XML, HTML, CSS, JSON, and image files. Text and image network responses are also stored there. -->
 
-### Resources
-
-Scripts loaded by the JavaScript Virtual Machine appear in the Sources panel, which you can then debug and place breakpoints in. Besides scripts all other text and image resources found in your application are also listed in the Sources panel, grouped by folder name by default. You can inspect and search inside the contents of XML, HTML, CSS, JSON, and image files. Text and image network responses are also stored there.
-
-### Network
+<!-- ### Network
 
 DevTools shows **all\*** network requests in the Network panel while the DevTools are open. In the panel you will find information about the requests made, whether they've completed, the response status and data.
 
@@ -248,16 +305,16 @@ _Figure 10: The Headers tab, outlined in blue: Headers tab_
 
 :::tip Note:
 This is currently available for the built-in [http module](https://docs.nativescript.org/http.html). For third-party modules that do network requests, additional code must be implemented to populate the Network Tab. See [Plugin author's guide](#plugin-authors-guide) for details on how to do it for your plugin.
-:::
-
+::: -->
+<!--
 ### Elements
 
 The Elements panel in DevTools displays information about the current view tree, the attributes of each child, and its computed styles.
 
 _Figure 11: The DOM tree view of a NativeScript application:_
-![DOM tree view of a NativeScript application](/assets/images/development-workflow/elements-dom-tree-view.png)
+![DOM tree view of a NativeScript application](/assets/images/development-workflow/elements-dom-tree-view.png) -->
 
-### Debugging plugins
+<!-- ### Debugging plugins
 
 Writing plugins is a great way to give back to the community by making application development ever easier by abstracting complex logic through a simple interface. What is even better is when your plugin can integrate almost seamlessly with the expanding arsenal of debugging tools provided by the platform. Following are the optional requirements and interfaces your plugin should comply to, to have your plugin's components/data shown in the respective DevTools panels.
 
@@ -303,16 +360,15 @@ Writing plugins is a great way to give back to the community by making applicati
     global.__inspector.dataForRequestId(successfulRequestData)
     ```
 
-- Debugging typescript-transpiledTo debug your TypeScript plugin based on the sources, and not the transpiled JS, it is enough to edit the respective `tsconfig.json` to output sources with inlined maps. That will ensure that the TypeScript sources will also show in the Sources pane, and allow you to debug it. Don't forget to transpile the sources without source maps before publishing the plugin.
-
+- Debugging typescript-transpiledTo debug your TypeScript plugin based on the sources, and not the transpiled JS, it is enough to edit the respective `tsconfig.json` to output sources with inlined maps. That will ensure that the TypeScript sources will also show in the Sources pane, and allow you to debug it. Don't forget to transpile the sources without source maps before publishing the plugin. -->
+<!--
 ### Credits
 
 :::tip Note:
 Portions of this page are modifications based on work created and [shared by Google](https://developers.google.com/terms/site-policies) and used according to terms described in the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/).
-:::
-
+::: -->
+<!--
 ### Debugging in VS Code
 
 To debug NativeScript applications in [Visual Studio Code](https://code.visualstudio.com/), you need the [NativeScript extension for VS Code](https://marketplace.visualstudio.com/items?itemName=Telerik.nativescript).
-
-<!-- TODO: example -->
+ -->
