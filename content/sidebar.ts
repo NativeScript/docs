@@ -19,10 +19,15 @@ export default [
         text: 'Creating a new Project',
         link: '/creating-a-new-project',
       },
-      // {
-      //   text: 'Development Workflow',
-      //   link: '//#',
-      // },
+      {
+        text: 'Development Workflow',
+        items: [
+          {
+            text: 'Updating',
+            link: '/guide/development-workflow/updating-a-nativescript-app'
+          }
+        ]
+      },
       {
         text: 'Tutorials',
         link: '/tutorials/',
