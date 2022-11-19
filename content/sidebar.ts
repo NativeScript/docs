@@ -109,11 +109,13 @@ export default [
       },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
-  //       { text: 'Styling', link: '//#' },
-  //       { text: 'Interactivity', link: '//#' },
+  {
+    text: 'UI Components',
+    items: [
+      {
+        text: 'Accessibility',
+        link: '/guide/ui-components/accessibility-in-nativescript',
+      },
   //       {
   //         text: 'Layout Containers',
   //         items: [
@@ -170,8 +172,8 @@ export default [
   //           { text: 'PromptDialog', link: '//#' },
   //         ],
   //       },
-  //     ],
-  //   },
+      ],
+    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],
