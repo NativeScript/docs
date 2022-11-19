@@ -1,4 +1,4 @@
-import { NSSidebarGroup } from '@packages/vitepress-theme/src';
+import { NSSidebarGroup } from '@packages/vitepress-theme/src'
 
 export default [
   {
@@ -60,7 +60,11 @@ export default [
             link: '/project-structure/src/app-css-scss',
             icon: 'file',
           },
-          // { text: 'main.(js|ts)', link: '//#', icon: 'file' },
+          {
+            text: 'main.(js|ts)',
+            link: '/project-structure/src/main-js-ts',
+            icon: 'file',
+          },
         ],
       },
       {
@@ -214,4 +218,4 @@ export default [
   //     },
   //   ],
   // },
-] as NSSidebarGroup[];
+] as NSSidebarGroup[]
