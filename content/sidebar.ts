@@ -72,6 +72,11 @@ export default [
         link: '/project-structure/nativescript-config',
         icon: 'file',
       },
+      {
+        text: 'package.json',
+        link: '/project-structure/package-json',
+        icon: 'file',
+      },
       { text: 'webpack.config.js', link: '/webpack', icon: 'file' },
       // {
       //   text: 'package.json',
