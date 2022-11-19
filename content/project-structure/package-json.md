@@ -10,8 +10,8 @@ NativeScript plugins should always be installed as `dependencies`, because Nativ
 
 ```json
 {
-  "name": "core-docs-tester",
-  "main": "app/app.ts",
+  "name": "my-cool-app",
+  "main": "src/main.ts",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@ NativeScript plugins should always be installed as `dependencies`, because Nativ
     "@nativescript/android": "8.4.0",
     "@nativescript/ios": "8.4.0",
     "@nativescript/types": "~8.4.0",
-    "@nativescript/webpack": "~5.0.9",
+    "@nativescript/webpack": "~5.0.10",
     "typescript": "~4.5.5"
   }
 }
