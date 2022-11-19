@@ -47,10 +47,10 @@ Here are some of the default templates you may want to try:
 
 A basic template with a single page and no custom styles.
 <DeviceFrame type="ios">
-<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-ios.png">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-ios.png">
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-android.png">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-android.png">
 </DeviceFrame>
 
 To use, run:
@@ -113,6 +113,6 @@ To use, run:
 ns create myCoolApp --template @nativescript/template-master-detail
 ```
 
-### Creating custom template
+### Creating custom templates
 
-The NativeScript CLI can create projects using custom templates either from `npm` or a local path by passing the `--template` `<npm_package_name_or_local_path>` flag to the `ns create` command.
+The NativeScript CLI can create projects using custom templates either from `npm` or a local path by passing the `--template` `<npm_package_name_or_local_path>` flag to the `ns create` command. If you need a custom template, start with one of the official templates and customize it for your needs.
