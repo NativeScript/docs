@@ -97,6 +97,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items: [
+      {
+        text: 'Connectivity',
+        link: '/guide/nativescript-core/connectivity',
+      },
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
