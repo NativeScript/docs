@@ -100,6 +100,16 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Extending Classes and interfaces',
+        link: '/guide/subclassing/',
+        items: [
+          {
+            text: 'Android',
+            link: '/guide/subclassing/extending-classes-and-implementing-interfaces-android',
+          }
+        ]
+        },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
