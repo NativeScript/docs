@@ -107,6 +107,10 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'Metadata',
+        link: '/guide/metadata-in-nativescript'
+      }
     ],
   },
   //   {
