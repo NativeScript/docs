@@ -100,6 +100,10 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Error Handling',
+        link: '/guide/error-handling'
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
