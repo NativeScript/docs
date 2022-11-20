@@ -97,6 +97,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript-core',
+    items: [
+      {
+        text: 'Trace',
+        link: '/guide/nativescript-core/tracing'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
