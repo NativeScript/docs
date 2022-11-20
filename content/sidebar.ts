@@ -107,6 +107,15 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'Marshalling',
+        items: [
+          {
+            text: 'Android Marshalling',
+            link: '/guide/marshalling/nativescript-android-marshalling',
+          },
+        ],
+      }
     ],
   },
   //   {
