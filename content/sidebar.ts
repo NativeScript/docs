@@ -107,6 +107,10 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'Marshalling',
+        link: '/guide/marshalling/'
+      }
     ],
   },
   //   {
