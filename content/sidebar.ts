@@ -100,6 +100,16 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Extending Classes and interfaces',
+        link: '/guide/subclassing/',
+        items: [
+          {
+            text: 'iOS',
+            link: '/guide/subclassing/extending-classes-and-conforming-to-protocols-ios',
+          }
+        ]
+        },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
