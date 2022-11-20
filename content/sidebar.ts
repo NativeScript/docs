@@ -100,6 +100,10 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Adding Native Code',
+        link: '/guide/adding-native-code'
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
