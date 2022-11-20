@@ -107,6 +107,10 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'The Layout Process',
+        link: '/guide/the-layout-process'
+      }
     ],
   },
   //   {
