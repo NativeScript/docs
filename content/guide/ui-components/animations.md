@@ -1,5 +1,5 @@
 ---
-title: Animations in NativeScript
+title: Animations
 ---
 <!-- TODO: SB+Preview with Animation class example -->
 
@@ -12,7 +12,7 @@ For your convenience, we expose two ways of creating animations:
 
 This article demonstrates the different CSS animations available in NativeScript.
 
-## Animating UI components(views) with CSS in NativeScript
+## Animating UI components(views) with CSS
 
 CSS animations are based on the simple and easy to use [CSS3 animations API](http://www.w3schools.com/css/css3_animations.asp) standard. You can use them to animate almost every native view without even having to know JavaScript.  You can use multiple frames and change the animation direction. Finally, with CSS animations, you can separate the animation code from your application logic.
 
@@ -335,7 +335,7 @@ The `Button` component has a built-in special state `highlighted` to for the `to
 ///
  -->
 
-## Animating UI components(views) with code in NativeScript
+## Animating UI components(views) with code
 
 The easiest way to animate a single [View](https://docs.nativescript.org/api-reference/classes/view.html) is by using the `View.animate` method which accepts an [`AnimationDefinition`](https://docs.nativescript.org/api-reference/interfaces/animationdefinition.html), immediately starts the animation and then returns its finished promise.
 
@@ -420,7 +420,7 @@ view
 
 ### OR
 
-### Access CSS animations from code in NativeScript
+### Access CSS animations from code
 
 To trigger a animation defined in CSS is by changing the view's `className` property:
 

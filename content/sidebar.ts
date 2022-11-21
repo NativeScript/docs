@@ -114,7 +114,7 @@ export default [
   items: [
     {
       text: 'Animations',
-      link: '/guide/ui-components/animations-in-nativescript',
+      link: '/guide/ui-components/animations',
     },
   //       {
   //         text: 'Layout Containers',
