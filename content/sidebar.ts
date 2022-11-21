@@ -101,7 +101,7 @@ export default [
     items: [
       {
         text: 'Connectivity',
-        link: '/guide/nativescript-core/connectivity',
+        link: '/guide/core/connectivity',
       },
     ]
   },
