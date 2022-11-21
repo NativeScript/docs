@@ -112,7 +112,7 @@ export default [
         items: [
           {
             text: 'iOS Marshalling',
-            link: '/guide/marshalling/nativescript-ios-marshalling',
+            link: '/guide/ios-marshalling',
           },
         ]
       }
