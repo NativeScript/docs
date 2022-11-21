@@ -6,9 +6,9 @@ There are multiple ways to debug issues in your apps, starting with the simplest
 
 ## Console
 
-The quickest way to inspect state is to log values to the console. NativeScript supports the basic console methods like `log`, `info`, `warn`, `error`, `trace`, `dir`, `time` and `timeEnd`.
+The quickest way to inspect state is to log values to the console. NativeScript supports console methods like `log`, `info`, `warn`, `error`, `trace`, `dir`, `time` and `timeEnd`.
 
-The `time(label: string)` method starts a new timer and is very useful to measure how long something took. To stop the timer, call `timeEnd(label)` with the same label, and the execution time will be printed to the output.
+The `time(label: string)` method starts a new timer and is very useful to measure how long something took. To stop the timer, call `timeEnd` with the same label, and the execution time will be printed to the console.
 
 ```ts
 console.log('General message')
@@ -28,6 +28,10 @@ await someLongTask()
 // ends a timer and prints elapsed time
 console.timeEnd('myLabel')
 ```
+
+**Additional Resources:**
+
+- [MDN Console documentation](https://developer.mozilla.org/en-US/docs/Web/API/console)
 
 ## Debugging with Chrome DevTools
 
@@ -67,16 +71,16 @@ If you are new to JavaScript debugging, we recommend reading the following resou
 
 ### Supported Chrome DevTools features
 
-| DevTools Feature           | Android                       | iOS                           |
-| -------------------------- | ----------------------------- | ----------------------------- |
-| Debugger                   | :white_check_mark:            | :white_check_mark:            |
-| Console                    | :white_check_mark:            | :white_check_mark:            |
-| Resources                  | :white_check_mark:            | :white_check_mark:            |
-| Network                    | :white_check_mark:            | :white_check_mark:            |
-| Elements (DOM)             | :white_check_mark:            | :white_check_mark:            |
-| Elements (Styles)          | :orange_circle: computed only | :orange_circle: computed only |
-| Memory Profiling           | :white_check_mark:            | :white_check_mark:            |
-| Timeline and CPU Profiling | :white_check_mark:            | :white_check_mark:            |
+| DevTools Feature           | Android                        | iOS                            |
+| -------------------------- | ------------------------------ | ------------------------------ |
+| Debugger                   | :white_check_mark:             | :white_check_mark:             |
+| Console                    | :white_check_mark:             | :white_check_mark:             |
+| Resources (source files)   | :white_check_mark:             | :white_check_mark:             |
+| Network                    | :white_check_mark:             | :white_check_mark:             |
+| Elements (DOM)             | :white_check_mark: (view only) | :white_check_mark: (view only) |
+| Elements (Styles)          | :orange_circle: computed only  | :orange_circle: computed only  |
+| Memory Profiling           | :white_check_mark:             | :white_check_mark:             |
+| Timeline and CPU Profiling | :white_check_mark:             | :white_check_mark:             |
 
 ## Debugging with VSCode
 
@@ -110,13 +114,15 @@ If a crash occurs, the XCode debugger will stop the execution and print a thread
 
 Since NativeScript utilises a standard XCode project structure, you can do everything you would typically do with a pure iOS application:
 
-- view the view hiearchy
+- debug view hiearchy
 - memory dumps/graphs
 - XCode Instruments: leaks, cpu profiling, hangs and more
 
 **Additional Resources:**
 
-- [Apple XCode user guide for debugging iOS apps](https://developer.apple.com/documentation/xcode/diagnosing-and-resolving-bugs-in-your-running-app?language=objc)
+- [Apple XCode: Debugging iOS apps](https://developer.apple.com/documentation/xcode/diagnosing-and-resolving-bugs-in-your-running-app?language=objc)
+- [Apple XCode: Setting breakpoints](https://developer.apple.com/documentation/xcode/setting-breakpoints-to-pause-your-running-app?language=objc)
+- [Attaching the NativeScript runtime to an app](https://github.com/NativeScript/ns-v8ios-runtime#attaching-the-runtime-to-a-nativescript-app)
 
 ## Debugging with Android Studio
 
@@ -133,7 +139,7 @@ This compiles your app source, creates the `platforms/android` folder (if it doe
 Next, open the `platforms/android` folder in Android Studio, through the Android Studio browse menu.
 
 :::tip Tip
-If you set up the `studio` command line launcher, you can quickly open the NativeScript project from the command line with
+If you [set up the `studio` command line launcher](https://stackoverflow.com/a/48266060/2270725), you can quickly open the NativeScript project from the command line with
 
 ```cli
 studio platforms/android
@@ -143,8 +149,14 @@ studio platforms/android
 
 Since NativeScript follows a standard gradle/android application structure, you can do everything you would typically do with a pure Android application:
 
-- view the view hieararchy
+- debug view hieararchy
 - memory dumps/graphs
+
+**Additional Resources:**
+
+- [Android Studio: Layout Inspector](https://developer.android.com/studio/debug/layout-inspector)
+- [Android Studio: view Logcat logs](https://developer.android.com/studio/debug/am-logcat)
+- [Androud Studio: Debug your app](https://developer.android.com/studio/debug#startdebug)
 
 <!-- previous content for reference: -->
 <!--  -->
