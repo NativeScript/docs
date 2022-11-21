@@ -105,7 +105,7 @@ export default [
         items: [
           {
             text: 'Android',
-            link: '/guide/subclassing/extending-classes-and-implementing-interfaces-android',
+            link: '/guide/extending-classes-and-implementing-interfaces-android',
           }
         ]
         },

@@ -2,7 +2,7 @@
 title: Android Subclassing and Implementing interfaces
 ---
 
-## Extending Java/Kotlin classes in NativeScript
+## Extending Java/Kotlin classes
 
 The following examples demonstrate how to subclass Java/Kotlin classes in NativeScript:
 
@@ -443,7 +443,7 @@ module.exports = (env) => {
 }
 ```
 
-## Implementing Java/Kotlin interfaces in NativeScript
+## Implementing Java/Kotlin interfaces
 
 The next example shows how to implement an interface in Java/Kotlin and NativeScript. The main difference between inheriting classes and implementing interfaces in NativeScript is the use of the `extend` keyword. Basically, you implement an interface by passing the implementation object to the interface constructor function. The syntax is identical to the [Java Anonymous Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html).
 
@@ -535,7 +535,7 @@ function initializeClickListener(): void {
 }
 ```
 
-### Implementing multiple interfaces in NativeScript
+### Implementing multiple interfaces
 Suppose you have the following interfaces in Java/Kotlin:
 
 ```java
