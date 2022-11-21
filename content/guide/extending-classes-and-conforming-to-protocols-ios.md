@@ -1,9 +1,9 @@
 ---
-title: iOS Subclassing and conforming to protocols in NativeScript
+title: iOS Subclassing and conforming to protocols
 ---
 <!-- TODO: add Preview -->
 
-## Extending iOS classes in NativeScript
+## Extending iOS classes
 
 The following example shows how to extend the `UIViewController`:
 
@@ -138,7 +138,7 @@ var MyObject = NSObject.extend({
 
 ```
 
-## Conforming to Objective-C/Swift protocols in NativeScript
+## Conforming to Objective-C/Swift protocols
 
 The following example conforms to the `UIApplicationDelegate` protocol:
 

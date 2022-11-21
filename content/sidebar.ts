@@ -105,7 +105,7 @@ export default [
         items: [
           {
             text: 'iOS',
-            link: '/guide/subclassing/extending-classes-and-conforming-to-protocols-ios',
+            link: '/guide/extending-classes-and-conforming-to-protocols-ios',
           }
         ]
         },
