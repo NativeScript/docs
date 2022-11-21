@@ -1,5 +1,5 @@
 ---
-title: UI Styling in NativeScript
+title: Styling
 ---
 
 In NativeScript you style the UI similarly to how you do it in a web application using Cascading Style Sheets (CSS), or by changing the style property of the views in JavaScript/Typescript. For CSS styling, NativeScript supports tools such as [Tailwind](https://docs.nativescript.org/plugins/tailwindcss.html), [SASS](#using-sass). 

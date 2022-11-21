@@ -113,8 +113,8 @@ export default [
     text: 'UI Components',
     items: [
       {
-        text: 'UI Styling',
-        link: '/guide/ui-components/ui-styling-in-nativescript',
+        text: 'Styling',
+        link: '/guide/ui-components/styling',
       },
   //       {
   //         text: 'Layout Containers',
