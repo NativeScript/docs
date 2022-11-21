@@ -25,7 +25,7 @@ export default [
         items: [
           {
             text: 'CLI Basics',
-            link: '/guide/development-workflow/cli-basics',
+            link: '/guide/cli-basics',
           },
         ]
       },

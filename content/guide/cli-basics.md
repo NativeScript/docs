@@ -1,5 +1,5 @@
 ---
-title: NativeScript CLI Basics
+title: CLI Basics
 ---
 
 The development workflow starts with the [NativeScript CLI](https://www.npmjs.com/package/nativescript).
@@ -8,7 +8,7 @@ The development workflow starts with the [NativeScript CLI](https://www.npmjs.co
 
 In this article, you'll  learn the basics of the NativeScript command-line interface, including how to create new apps, how to get those apps running on devices, and how to set up a development workflow that lets you iterate fast.
 
-### Creating a new project in NativeScript
+### Creating a new project
 
 To create a new NativeScript app project, run:
 
@@ -29,7 +29,7 @@ For a full list of the templates you can use, see the [full list here](https://g
 
 The `create` command will take a minute to complete, as the NativeScript CLI needs to download a few dependencies while setting up your new app.
 
-### Cleaning a NativeScript project
+### Cleaning a project
 
 Some times you have trouble running your application, or you have added new dependencies and you're issues. To fix try running:
 
@@ -40,7 +40,7 @@ ns clean
 ```
 Running `ns clean` is similar to running "Clean Build Folder" in XCode or other IDE environments. It deletes the `node_modules`, `hooks`, and `platforms` directories from your project.
 
-### Running NativeScript app on a device or simulator
+### Running an app on a device or simulator
 
 To run your app on all connected devices and emulators, run:
 
@@ -120,7 +120,7 @@ ns device
 | 2 | mlv5n_global_com | Android  | LGM250KVGQSWVKJZFQ | Device   | Connected | USB |
 | 3 | iPhone 14 Pro    | iOS      | 38356C8F-073B-4F07-B65E-3BFA7B22977A | Emulator | Connected|Local|
 
-### NativeScript cli help
+### help
 
 To get the CLI's documentation, run:
 
