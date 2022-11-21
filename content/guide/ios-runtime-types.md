@@ -125,23 +125,23 @@ Creates a new reference around a JavaScript `value`. The native representation o
 
 ---
 
-## new Reference(type: Type\<T\>, data: Pointer)
+### new Reference(type: Type\<T\>, data: Pointer)
 
 Creates a reference from to the pointer with a given type.
 
 ---
 
-## new Reference(type: Type\<T\>, value: any)
+### new Reference(type: Type\<T\>, value: any)
 
 Creates a new reference around a `value` of a certain `type`.
 
 ---
 
-## new FunctionReference(func: T)
+### new FunctionReference(func: T)
 
 Creates a function reference that can be marshalled as a native function pointer. The JavaScript reference must be held alive as long as the native code needs the function.
 
-## interop types
+### interop types
 
 
 - "void": Type\<void\>
@@ -167,13 +167,13 @@ Creates a function reference that can be marshalled as a native function pointer
 
 ----
 
-## new StructType()
+### new StructType()
 
 Create a new instance of the struct.
 
 ---
 
-## new StructType (obj: T)
+### new StructType (obj: T)
 
 Create a new instance of the struct and initialize it from the fields of the provided object.
 
@@ -190,3 +190,4 @@ Checks two structs for equality.
 ---
 
 ### new NSErrorWrapper (error: NSError)
+<!-- TODO: Add description -->
