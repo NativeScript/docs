@@ -1,5 +1,5 @@
 ---
-title: Metadata in NativeScript
+title: Metadata
 ---
 
 

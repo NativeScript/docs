@@ -109,7 +109,7 @@ export default [
       },
       {
         text: 'Metadata',
-        link: '/guide/metadata-in-nativescript'
+        link: '/guide/metadata'
       }
     ],
   },
