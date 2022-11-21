@@ -1,5 +1,5 @@
 ---
-title: Adding custom native code to NativeScript project
+title: Adding custom native code to a project
 ---
 
 
