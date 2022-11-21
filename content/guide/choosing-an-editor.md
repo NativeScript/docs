@@ -1,5 +1,5 @@
 ---
-title: Choosing An Editor for NativeScript Project
+title: Choosing An Editor
 ---
 
 

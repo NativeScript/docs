@@ -24,7 +24,7 @@ export default [
         items:[
           {
             text: 'Choosing an editor',
-            link: '/guide/development-workflow/choosing-an-editor'
+            link: '/guide/choosing-an-editor'
           }
         ]
       },
