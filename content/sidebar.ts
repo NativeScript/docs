@@ -99,7 +99,7 @@ export default [
   {
     text: '@nativescript/core',
     items: [
-      { text: 'Application', link: '/guide/nativescript-core/application' },
+      { text: 'Application', link: '/guide/core/application' },
     ]
   },
   {
