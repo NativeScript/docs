@@ -1,5 +1,5 @@
 ---
-title: Updating a NativeScript app
+title: Updating an app
 ---
 
 To upgrade a NativeScript application you need to upgrade several things: NativeScript CLI Tooling, the iOS and Android runtimes and the `@nativescript/core` module. In the steps below you will see how to do this.
@@ -10,10 +10,7 @@ To get the latest version of the NativeScript CLI, run:
 npm install -g nativescript
 ```
 
-#### Upgrading a NativeScript application
-
-You should execute the **update** command in the root folder of your project to upgrade it with the latest versions of iOS/Android runtimes and cross-platform modules.
-
+To upgrade an app, run:
 
 ```cli
 ns update

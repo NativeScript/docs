@@ -24,7 +24,7 @@ export default [
         items: [
           {
             text: 'Updating',
-            link: '/guide/development-workflow/updating-a-nativescript-app'
+            link: '/guide/updating-an-app'
           }
         ]
       },
