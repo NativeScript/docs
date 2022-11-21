@@ -117,6 +117,7 @@ Since NativeScript utilises a standard XCode project structure, you can do every
 - debug view hiearchy
 - memory dumps/graphs
 - XCode Instruments: leaks, cpu profiling, hangs and more
+- ...and more
 
 **Additional Resources:**
 
@@ -151,6 +152,8 @@ Since NativeScript follows a standard gradle/android application structure, you 
 
 - debug view hieararchy
 - memory dumps/graphs
+- cpu profiling
+- ...and more
 
 **Additional Resources:**
 
