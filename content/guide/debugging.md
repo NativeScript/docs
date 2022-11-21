@@ -6,13 +6,26 @@ There are multiple ways to debug issues in your apps, starting with the simplest
 
 ## Console
 
-### Measure execution times
+The quickest way to inspect state is to log values to the console. NativeScript supports the basic console methods like `log`, `info`, `warn`, `error`, `trace`, `dir`, `time` and `timeEnd`.
 
-The `time()` method starts a new timer and is very useful to measure how long something took. Pass a string to the method to give the marker a name. When you want to stop the timer, call `timeEnd()` and pass it the same string passed to the initializer. The console then logs the label and time elapsed when the `timeEnd()` method fires.
+The `time(label: string)` method starts a new timer and is very useful to measure how long something took. To stop the timer, call `timeEnd(label)` with the same label, and the execution time will be printed to the output.
 
 ```ts
+console.log('General message')
+console.info('Informational message')
+console.warn('Warning')
+console.error('Error')
+
+// also prints a stack trace to the current line
+console.trace('Trace message')
+
+// prints all members of someVariable
+console.dir(someVariable)
+
+// starts a timer
 console.time('myLabel')
 await someLongTask()
+// ends a timer and prints elapsed time
 console.timeEnd('myLabel')
 ```
 
