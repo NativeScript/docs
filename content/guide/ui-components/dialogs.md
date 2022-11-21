@@ -1,5 +1,5 @@
 ---
-title: Dialogs in NativeScript
+title: Dialogs
 ---
 
 <!-- TODO: Add SB+Preview -->
@@ -13,7 +13,7 @@ All the dialogs take a `DialogOption` object with the properties:
 - `cancelable`(`android only`): Sets if the dialog can be canceled by taping outside of the dialog. 
 - `theme`(`android only`): Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style
 	 
-## Creating an alert dialog in NativeScript
+## Creating an alert dialog
 
 To create an alert, use the `Dialogs.alert()` method:
 
@@ -41,7 +41,7 @@ const alertOptions: AlertOptions = {
 ```
 :::
 
-## Creating an action dialog in NativeScript
+## Creating an action dialog
 
 To let the user choose an input from a list, use `Dialogs.action()`:
 For the `action` dialog, there are 3 more properties available:
@@ -65,7 +65,7 @@ Dialogs.action(actionOptions).then((result) => {
 });
 ```
 
-## confirm dialog in NativeScript
+## confirm dialog
 
 For a user's action that requires confirmation, use the `Dialogs.confirm`:
 
@@ -91,7 +91,7 @@ const confirmOptions = {
 
 ```
 
-## prompt dialog in NativeScript
+## prompt dialog
 
 To request for a user's input, use `Dialogs.prompt`:
 
@@ -128,7 +128,7 @@ export function showPromptDialog() {
 }
 ```
 
-## login dialog in NativeScript
+## login dialog
 
 To have an isolated login form, use `Dialogs.login`:
 

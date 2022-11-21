@@ -114,7 +114,7 @@ export default [
     items: [
       {
         text: 'Dialogs',
-        link: '/guide/ui-components/dialogs-in-nativescript',
+        link: '/guide/ui-components/dialogs',
       },
   //       {
   //         text: 'Layout Containers',
