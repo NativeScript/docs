@@ -1,8 +1,7 @@
 ---
-title: Error handling in NativeScript
+title: Error handling
 ---
 
-### Error handling
 
 You handle errors in NativeScript differently to how you do in a web application. By default, when an unhandled exception is thrown in NativeScript, the app will crash, and an error with the corresponding stack trace will be shown. When the app is in **development** mode this may be the desired behaviour. However, when the app is in **production** similar application crashes can seriously hurt your application credibility and drive away customers. In many cases, you might prefer something else (e.g. app freeze, blank screen, failed navigation) to an actual crash with an error log.
 
