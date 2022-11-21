@@ -101,7 +101,7 @@ export default [
     items: [
       {
         text: 'ApplicationSettings',
-        link: '/guide/nativescript-core/application-settings',
+        link: '/guide/core/application-settings',
       },
     ]
   },
