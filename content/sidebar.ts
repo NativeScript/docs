@@ -114,7 +114,7 @@ export default [
     items: [
       {
         text: 'Accessibility',
-        link: '/guide/ui-components/accessibility-in-nativescript',
+        link: '/guide/ui-components/accessibility',
       },
   //       {
   //         text: 'Layout Containers',
