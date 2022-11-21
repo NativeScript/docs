@@ -1,5 +1,5 @@
 ---
-title: Gestures in NativeScript
+title: Gestures
 ---
 <!-- TODO: SB for gestures -->
 <!-- TODO: Add flavor tabs for the gestures -->
@@ -25,7 +25,7 @@ All the gesture events, except the `tap`, provide the following data in common:
 | `ios` | `UIGestureRecognizer `| Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/).|
 | `android`| `android.view.GestureDetector`| Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)|
 
-## Tap gesture in NativeScript
+## Tap gesture
 
 **Action**: Briefly touching a component.
 
@@ -66,7 +66,7 @@ onTap(args: EventData) {
 ```
 /// -->
 
-## Double tap gesture in NativeScript
+## Double tap gesture
 
 **Action**: Two taps on a component in a quick succession.
 
@@ -107,7 +107,7 @@ onDoubleTap(args: GestureEventData) {
 ///
  -->
 
- ## Long press gesture in NativeScript
+ ## Long press gesture
 
  **Action**: A component is pressed for a few moments.
 
@@ -148,7 +148,7 @@ onLongPress(args: GestureEventDataWithState) {
 ///
  -->
 
- ## Swipe gesture in NativeScript
+ ## Swipe gesture
 
  **Action**: Swiftly sliding a finger across the screen. Swipes are quick and affect the screen even after the finger is lifted off the screen:
 
@@ -196,7 +196,7 @@ Available directions:
 - `up = 4`,
 - `down = 8`,
 
-## Pan gesture in NativeScript
+## Pan gesture
 
 **Action**: A pan gesture occurs when a user presses down a component and immediately start moving it around. Pans are executed more slowly and allow for more precision and the screen stops responding as soon as the finger is lifted off it
 
@@ -243,7 +243,7 @@ onPan(args: PanGestureEventData) {
 ///
  -->
 
-## Pinch gesture in NativeScript
+## Pinch gesture
 
 **Action**: A user touches a component with two fingers, then moves them towards each other or away from each other.
 
@@ -290,7 +290,7 @@ onPinch(args: PinchGestureEventData) {
 
 Possible usage: Zoom into content or out of content.
 
-## Rotate gesture in NativeScript
+## Rotate gesture
 
 **Action**: A user touches a component with two fingers, then rotate them simultaneously left or right.
 
@@ -331,7 +331,7 @@ onRotate(args: RotationGestureEventData) {
 /// -->
 
 
-## Touch gesture in NativeScript
+## Touch gesture
 
 This is a general purpose gesture that is triggered whenever a pointer (usually a finger) has performed a touch action (up, down, move or cancel).
  
@@ -381,7 +381,7 @@ onTouch(args: TouchGestureEventData) {
 
 /// -->
 
-## Subscribing to Multiple Gestures in NativeScript
+## Subscribing to Multiple Gestures
 
 You can handle multiple gestures as follows:
 

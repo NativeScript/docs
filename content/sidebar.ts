@@ -114,7 +114,7 @@ export default [
     items: [
       {
         text: 'Gestures',
-        link: '/guide/ui-components/gestures-in-nativescript',
+        link: '/guide/ui-components/gestures',
       },
   //       {
   //         text: 'Layout Containers',
