@@ -24,7 +24,7 @@ export default [
         items: [
           {
             text: 'Testing',
-            link: '/guide/development-workflow/testing-in-nativescript'
+            link: '/guide/testing'
           }
         ]
       },

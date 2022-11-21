@@ -1,5 +1,5 @@
 ---
-title: Testing in NativeScript
+title: Testing
 ---
 
 ::: warning Note
