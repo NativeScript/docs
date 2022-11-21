@@ -1,5 +1,5 @@
 ---
-title: Tracing in NativeScript
+title: Tracing
 ---
 
 The Trace class allows you to:

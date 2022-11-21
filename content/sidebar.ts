@@ -101,7 +101,7 @@ export default [
     items: [
       {
         text: 'Trace',
-        link: '/guide/nativescript-core/tracing'
+        link: '/guide/core/tracing'
       }
     ]
   },
