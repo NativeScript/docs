@@ -102,6 +102,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items: [
+      {
+        text: 'FileSystem',
+        link: '/guide/core/file-system'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
