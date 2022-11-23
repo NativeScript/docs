@@ -709,3 +709,19 @@ const pathSeparator: string = path.separator
 Gets the string used to separate file paths.
 
 ---
+
+
+## API References
+
+- [File](https://docs.nativescript.org/api-reference/classes/file) class
+- [Folder](https://docs.nativescript.org/api-reference/classes/folder) class
+- [FileSystemEntity](https://docs.nativescript.org/api-reference/classes/folder) class
+- [knownFolders](https://docs.nativescript.org/api-reference/modules/knownfolders) module
+- [path](https://docs.nativescript.org/api-reference/modules/path) module
+
+## Native Component
+
+- Android: [java.io.File](https://developer.android.com/reference/java/io/File)
+
+- iOS: [NSFileManager](https://developer.apple.com/documentation/foundation/nsfilemanager)
+
