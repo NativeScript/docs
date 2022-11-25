@@ -21,16 +21,16 @@ export default [
       },
       {
         text: 'Development Workflow',
-        items:[
+        items: [
           {
-            text: 'Running app on device',
-            link: '/guide/development-workflow/running-app-on-device'
+            text: 'Running the app',
+            link: '/guide/running-the-app',
           },
           {
             text: 'Debugging',
-            link: '/guide/debugging'
-          }
-        ]
+            link: '/guide/debugging',
+          },
+        ],
       },
       {
         text: 'Tutorials',
@@ -101,7 +101,11 @@ export default [
       //     },
       //   ],
       // },
-     { text: 'tsconfig.json', link: '/project-structure/tsconfig-json', icon: 'file' },
+      {
+        text: 'tsconfig.json',
+        link: '/project-structure/tsconfig-json',
+        icon: 'file',
+      },
       // { text: 'references.d.ts', link: '//#', icon: 'file' },
     ],
   },

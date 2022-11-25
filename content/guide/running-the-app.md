@@ -1,16 +1,17 @@
 ---
-title: Running app on device
+title: Running the app
 ---
 
 ## Running on physical devices
-You can install your app on a device during development via two ways: 
+
+You can install your app on a device during development via two ways:
 
 - Enabling USB Debugging
 - Wifi. To debug over Wifi, follow the steps at [Connect to a device over Wi-Fi (Android 11+)](https://developer.android.com/studio/command-line/adb#connect-to-a-device-over-wi-fi-android-11+) and [Connect to a device over Wi-Fi (Android 10 and lower)](https://developer.android.com/studio/command-line/adb#wireless).
 
 ### Enable Debugging over USB on Android devices
 
-Follow the steps below to enable Debugging over USB: 
+Follow the steps below to enable Debugging over USB:
 
 1. Activate the `Developer options` menu:
 
@@ -30,7 +31,7 @@ adb devices
 
 The device should be listed. See the full [adb documentation](https://developer.android.com/studio/command-line/adb) for troubleshooting and detailed information.
 
-To see the list of all the connected Android devices, you can run: 
+To see the list of all the connected Android devices, you can run:
 
 ```cli
 ns device android
@@ -44,11 +45,11 @@ Launch your app on the device:
 ns run android
 ```
 
-### Launching an app on an iOS physical device 
+### Launching an app on an iOS physical device
 
 1. Connect your iOS device to your Mac
 
-Use a USB to Lightning cable to connect the device to the Mac machine. Navigate to the `ios` folder in your project under `platforms`, then open the `.xcodeproj` file, or if you are using CocoaPods open the `.xcworkspace` in  Xcode.
+Use a USB to Lightning cable to connect the device to the Mac machine. Navigate to the `ios` folder in your project under `platforms`, then open the `.xcodeproj` file, or if you are using CocoaPods open the `.xcworkspace` in Xcode.
 
 If this is your first time running an app on your iOS device, you may need to register your device for development. Open the `Product` menu from Xcode's menubar, then go to `Destination`. Look for and select your device from the list. Xcode will then register your device for development.
 
@@ -108,6 +109,7 @@ The above command suggest that the system image is already downloaded. To downlo
 :::
 
 The following describes the usages for the other options:
+
 - `-c {path|size}`: The path to the SD card image for this AVD or the size of a new SD card image to create for this AVD, in KB or MB, denoted with K or M. For example, -c path/to/sdcard/ or -c 1000M.
 - `-f`: Force creation of the AVD. Use this option if you need to overwrite an existing AVD with a new AVD using the same name.
 - `-p path`: Path to the location where the directory for this AVD's files will be created. If you do not specify a path, the AVD will be created in ~/.android/avd/.
