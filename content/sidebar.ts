@@ -25,8 +25,12 @@ export default [
           {
             text: 'Running app on device',
             link: '/guide/development-workflow/running-app-on-device'
+          },
+          {
+            text: 'Debugging',
+            link: '/guide/debugging'
           }
-        ],
+        ]
       },
       {
         text: 'Tutorials',
