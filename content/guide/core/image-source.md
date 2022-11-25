@@ -2,7 +2,7 @@
 title: ImagaSource
 ---
 
-This class encapsulates the common abstraction over a platform-specific (Bitmap for Android and UIImage for iOS) image objects.
+This class encapsulates the common abstraction over a platform-specific (Bitmap for Android and UIImage for iOS) image object.
 <!-- TODO: add links -->
 <!-- TODO: add Preview -->
 ## Using ImageSource
@@ -10,7 +10,7 @@ This class encapsulates the common abstraction over a platform-specific (Bitmap 
 
 ### Loading an image using a resource name
 
-To load an image from the [App_Resources]() folders, use the [fromResource()](#fromresource) or [fromResourceSync()](#fromresourcesync) method:
+To load an image from the [App_Resources]() folder, use the [fromResource()](#fromresource) or [fromResourceSync()](#fromresourcesync) method:
 
 ```ts
 ImageSource.fromResource('logo')
@@ -24,7 +24,7 @@ ImageSource.fromResource('logo')
 
 ### Loading an image from the device file system
 
-To load an image from a file, use any of [fromFile()](#fromfile), [fromFileOrResourceSync()](#fromfileorresourcesync) or the [fromFileSync()] method:
+To load an image from a file, use any of [fromFile()](#fromfile), [fromFileOrResourceSync()](#fromfileorresourcesync) or the [fromFileSync()](#fromfilesync) method:
 
 ```ts
 async function loadImage(){
@@ -41,7 +41,7 @@ const imageFromFile: ImageSource = await ImageSource.fromFile(filePath)
 
 ### Creating an image from a base64 string
 
-To create an image from a base64 string, use the [fromBase64()](#tobase64string) or [fromBase64Sync()](#frombase64sync):
+To create an image from a base64 string, use the [fromBase64()](#tobase64string) or [fromBase64Sync()](#frombase64sync) method:
 
 ```ts
 const base64Str = "some base64Str"
@@ -51,7 +51,7 @@ const image: ImageSource = ImageSource.fromBase64Sync(base64Str)
 
 ### Saving an image to a file
 
-To save an ImageSource instance to a file, call the [saveToFile()](#savetofile) method on the instance.
+To save an ImageSource instance to a file, call the [saveToFile()](#savetofile) or [saveToFileAsync()](#savetofileasync) method on the instance.
 
 ```ts
 async function saveImage(){
@@ -80,7 +80,7 @@ try {
 ```ts
 const imageSource = new ImageSource(nativeSource)
 ```
- Creates a new ImageSource instance and sets the provided native source object. `nativeSource` object will update either the android or ios properties, depending on the target os.
+ Creates a new ImageSource instance and sets the provided native source object. `nativeSource` object will update either the android or ios properties, depending on the target platform.
 
 ---
 The ImageSource class provides the following image static methods loaders.
@@ -131,7 +131,7 @@ ImageSource.fromData(data)
     // handle errror
 })
 ```
-Loads an ImageSource instance from the specified native image data(byte array) asynchronously. `data` can be a Stream on Android and [NSData](https://developer.apple.com/documentation/foundation/nsdata) on iOS.
+Asynchronously loads an ImageSource instance from the specified native image data(byte array) asynchronously. `data` can be a Stream on Android or [NSData](https://developer.apple.com/documentation/foundation/nsdata) on iOS.
 
 ---
 ### fromDataSync()
@@ -140,7 +140,7 @@ Loads an ImageSource instance from the specified native image data(byte array) a
 const imageSource: ImageSource = ImageSource.fromDataSync(data);
 ```
 
-Loads an ImageSource instance from the specified native image data(byte array) synchronously.
+Loads an ImageSource instance from the specified native image data(byte array).
 
 ---
 
@@ -163,7 +163,7 @@ Loads an ImageSource instance from the specified file asynchronously.
 const imageSource: ImageSource = ImageSource.fromFileSync(data);
 ```
 
-Loads an ImageSource instance from the specified file synchronously.
+Loads an ImageSource instance from the specified file.
 
 ### fromFileOrResourceSync()
 ```ts
@@ -180,6 +180,10 @@ const imageSource: ImageSource = ImageSource.fromFontIconCodeSync(source, font, 
 ```
 
 Creates a new ImageSource instance from the specified font icon code.
+
+- `source`
+- `font`
+- `color`
 
 ---
 ### fromResource()
@@ -216,7 +220,7 @@ ImageSource.fromUrl(url)
 })
 ```
 
-Downloads and decodes the image from the provided Url and creates a new ImageSource instance from it.
+Downloads and decodes the image from the provided url and creates a new ImageSource instance from it.
 
 ---
 The following is the API for the loaded ImageSource instance.
@@ -225,7 +229,7 @@ The following is the API for the loaded ImageSource instance.
 ```ts
 const imageAndroid: android.graphics.BitMap = imageSource.android
 ```
-The Android-specific [Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html) instance.
+The Android-specific([Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html)) instance.
 
 ---
 
@@ -233,7 +237,7 @@ The Android-specific [Bitmap](http://developer.android.com/reference/android/gra
 ```ts
 const imageIOS: UIImage = imageSource.ios
 ```
- The iOS-specific [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class/) instance.
+ The iOS-specific([UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class/)) instance.
 
 ---
 
