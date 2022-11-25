@@ -102,6 +102,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items: [
+      {
+        text: 'Observable',
+        link: '/guide/core/observable'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
