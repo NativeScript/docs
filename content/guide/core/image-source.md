@@ -97,7 +97,7 @@ ImageSource.fromAsset(asset: ImageAsset)
 })
 ```
 
-Loads an ImageSource instance from the specified ImageAsset instance asynchronously.
+Loads an ImageSource instance from the specified [ImageAsset]() instance asynchronously.
 
 ---
 ### fromBase64()
