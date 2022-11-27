@@ -8,30 +8,8 @@ Observable is used when you want to be notified when a change occurs. Its instan
 
 ### Creating an Observable instance by subclassing
 
-To use it for data binding, create a class extending it as shown below:
+Create a class extending it as shown below:
 
-<!-- ```xml
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
-    <ActionBar title="My app"/>
-
-    <StackLayout>
-        <Button text="Tap" tap="{{ onTap }}"/>
-        <Label text="{{ name }}" />
-        <Label text="{{ 'Latest fruit: '+ fruits[0] }}" />
-    </StackLayout>
-</Page>
-
-```
-```ts
-import { EventData, Page } from '@nativescript/core'
-import { HelloWorldModel } from './main-view-model'
-
-export function navigatingTo(args: EventData) {
-  const page = <Page>args.object
-  page.bindingContext = new HelloWorldModel()
-}
-
-``` -->
 <!-- tabs: main-page-model -->
 ```ts
 export class HelloWorldModel extends Observable {
@@ -58,6 +36,30 @@ export class HelloWorldModel extends Observable {
     }
 }
 ```
+
+You can also use the [fromObject](#fromobject) or [fromObjectRecursive](#fromobjectrecursive) function create an Observable instance.
+
+
+### Emitting an event
+
+To emit a custom event call the [notify()](#notify) method:
+
+```ts
+observable.notify({
+  eventName: "custom-event"
+})
+```
+
+### Emitting an event for a property change
+
+To emit an event for a property change, use the [notifyPropertyChange()](#notifypropertychange) method:
+
+```ts
+this.fruits.unshift("Kaki")
+
+this.notifyPropertyChange("fruits", this.fruits)
+```
+
 
 ## Observable API
 
@@ -178,17 +180,32 @@ Updates the specified property with the provided value.
 
 ---
 
+### notify()
+
+```ts
+observable.notify({
+  eventName: "some-event-name",
+  object
+})
+```
+
+Allows you to manually emit an event(custom or NativeScript provided)
+- `eventName` is the name of the event to be emitted.
+- _Optional_: `object` is an Observable instance that has raised the event.
+---
+
 ### notifyPropertyChange()
 
 ```ts
 observable.notifyPropertyChange(propertyName, value, oldValue)
 ```
 
-Notifies all the registered listeners for the propertyChangeEvent.
+Notifies all the registered listeners for the propertyChange event.
 - `propertyName` is the property whose value has changed.
 - `value` the new value of the property.
 - _Optional_: `oldValue` the previous value of the property.
 ---
+
 
 ### hasListeners()
 ```ts
@@ -198,3 +215,23 @@ const hasListeners: boolean = observable.hasListeners(eventName)
 Checks whether a listener is registered for the specified event name.
 
 ---
+
+### fromObject()
+```ts
+import { fromObject } from "@nativescript/core"
+
+const observable: Observable = fromObject(obj)
+```
+
+Creates an Observable instance and sets its properties to the properties of the specified object.
+
+---
+
+### fromObjectRecursive()
+```ts
+import { fromObjectRecursive } from "@nativescript/core"
+
+const observable: Observable = fromObjectRecursive(obj)
+```
+
+Creates an Observable instance and sets its properties to the properties of the specified object. For each nested object (except for arrays and functions) in the supplied object, it creates an Observable instance.
