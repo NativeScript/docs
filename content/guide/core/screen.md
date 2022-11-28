@@ -30,7 +30,7 @@ const widthDIPs: number = Screen.mainScreeen.widthDIPs
 const widthPixels: number = Screen.mainScreeen.widthPixels
 ```
 
-## Getting screen display density
+### Getting screen display density
 ```ts
 const scale: number = Screen.mainScreen.scale // 2.75
 ```
