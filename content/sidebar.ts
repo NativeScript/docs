@@ -102,6 +102,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items: [
+      {
+        text: 'Screen',
+        link: '/guide/core/screen'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
