@@ -102,6 +102,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items:[
+      {
+        text: 'XmlParser',
+        link: '/guide/core/xml-parser'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
