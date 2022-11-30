@@ -1,6 +1,6 @@
 # NativeScript Docs (Beta)
 
-Live version: https://nativescript-docs-beta.pages.dev/
+Live version: https://beta.docs.nativescript.org/
 
 ---
 
