@@ -102,6 +102,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items:[
+      {
+        text: 'Utils',
+        link: '/guide/core/utils'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
