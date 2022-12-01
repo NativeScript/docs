@@ -1,5 +1,5 @@
 ---
-title: Running the app
+title: Running a Project
 ---
 
 To run a NativeScript app, you will need a device &mdash; either a physical or a virtual device.
@@ -9,19 +9,19 @@ To run a NativeScript app, you will need a device &mdash; either a physical or 
 Running a project is done with the `ns run` command, there's also a `ns debug` command we cover in the [debugging documentation](/guide/debugging#debugging-with-chrome-devtools).
 
 ```cli
-ns run ios
 ns run android
+ns run ios
 ```
 
 The `run` command will run the app on all connected devices matching the platform, you can control which devices to run on with the following flags
 
-```cli
---simulator     # only run on virtual devices
---emulator
+#### --simulator, --emulator
 
---device <id>   # only run on the specified device (from ns devices)
-```
+These flags are identical. Passing them will only run the project on virtual devices.
 
+#### --device &lt;id&gt;
+
+Only run on the specified device, the id is taken from running `ns devices`.
 
 ## Running on physical devices
 
