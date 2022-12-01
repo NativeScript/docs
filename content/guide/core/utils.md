@@ -190,11 +190,30 @@ A simple throttle utility.
 
 ---
 ### isFontIconURI()
+```ts
+const isFontIconURI: boolean = Utils.isFontIconURI("font://&#xf51e;")
+```
+Returns true if the specified URI is a font icon URI.
+
+---
 ### executeOnMainThread()
+```ts
+Utils.executeOnMainThread(fn: Function)
+
+```
+Checks if the current thread is the main thread. Directly calls the passed function if it is, or dispatches it to the main thread otherwise.
+
+---
 ### executeOnUIThread()
+```ts
+Utils.executeOnUIThread(fn: Function)
+```
+Runs the passed function on the UI Thread.
+
+---
 ### mainThreadify()
 ```ts
-Utils.mainThreadify(func: Function): (...args: any[])
+Utils.mainThreadify(fn: Function): (...args: any[])
 ```
 
 Returns a function wrapper which executes the supplied function on the main thread. The wrapper behaves like the original function and passes all of its arguments BUT discards its return value.
@@ -209,7 +228,7 @@ Boolean value indicating whether the current thread is the main thread.
 ---
 ### dispatchToMainThread()
 ```ts
-Utils.dispatchToMainThread(func: Function)
+Utils.dispatchToMainThread(fn: Function)
 ```
 Dispatches the passed function for execution on the main thread.
 
@@ -286,11 +305,16 @@ Checks if the specified value not `undefined`.
 ```ts
 const isUndefined: boolean = Utils.isUndefined(someValue)
 ```
+
+Checks if a value is `undefined`.
+
 ---
 ### isNullOrUndefined()
 ```ts
 const isNullOrUndefined: boolean = Utils.isNullOrUndefined(someValue)
 ```
+
+ Checks if a value is `null` or `undefined`.
 
 ---
 ### isFunction()
@@ -303,18 +327,24 @@ Checks if a value is a function.
 
 ### isNumber()	
 ```ts
-const isNumber: boolean = Utils.isNumber()
+const isNumber: boolean = Utils.isNumber(someValue)
 ```
+Checks if a value is a valid number.
+
 ---
 ### isObject()
 ```ts
 const isObject: boolean = Utils.isObject(someValue)
 ```
+Returns true if a value is an object or array.
+
 ---
 ### isString()
 ```ts
 const isString = boolean = Utils.isString(someValue)
 ```
+Checks if a value is a string.
+
 ---
 ### toUIString()
 ```ts
@@ -381,7 +411,7 @@ Hides any keyboard on the screen. See also
 ```ts
 const app: android.app.Application = Utils.android.getApplication()
 ```
-(`Android-only`)Gets the native Android application instance. Also see [native app](/guide/core/application#nativeapp)
+(`Android-only`)Gets the native Android application instance. Also see [native app](/guide/core/application#nativeapp).
 
 ---
 ### getApplicationContext()
@@ -389,7 +419,7 @@ const app: android.app.Application = Utils.android.getApplication()
 Utils.android.getApplicationContext()
 ```
 
-(`Android-only`) Gets the Android application [context](https://developer.android.com/reference/android/content/Context)
+(`Android-only`) Gets the Android application [context](https://developer.android.com/reference/android/content/Context).
 
 ---
 ### getInputMethodManager()
@@ -398,7 +428,7 @@ Utils.android.getApplicationContext()
 const inputMethodManager: android.view.inputmethod.InputMethodManager  = Utils.android.getInputMethodManager()
 ```
 
-Gets the native Android [InputMethodManager](https://developer.android.com/reference/android/view/inputmethod/InputMethodManager)
+(`Android-only`)Gets the native Android [InputMethodManager](https://developer.android.com/reference/android/view/inputmethod/InputMethodManager)
 instance.
 
 ---
@@ -411,18 +441,82 @@ Utils.android.showSoftInput(nativeView)
 
 ---
 ### stringArrayToStringSet()
+```ts
+const stringSet: java.util.HashSet = Utils.android.collections.stringArrayToStringSet(str: string[])
+```
+Converts string array into a String [hash set](http://developer.android.com/reference/java/util/HashSet.html).
+
+---
 ### stringSetToStringArray()
+```ts
+const stringArray:  string[] = Utils.android.collections.stringSetToStringArray(stringSet)
+```
+Converts string hash set into array of strings.
+
+---
 ### getDrawableId()
-### getDrawableId()
+```ts
+Utils.android.resources.getDrawableId(resourceName)
+```
+
+Gets the drawable id from a given resource name.
+
+---
 ### getStringId()
+```ts
+Utils.android.resources.getStringId(resourceName)
+```
+
+Gets the string id from a given resource name.
+
+---
 ### getId()
+```ts
+```
 ### getPaletteColor()
+```ts
+const paletteColor: number = Utils.android.resources.getPaletteColor(resourceName, Utils.android.getApplicationContext())
+
+```
+Gets a color from the current theme.
+
+---
+
 ### joinPaths()
+```ts
+const joinedPath: string = Utils.ios.joinPaths("photos", "cat.png")
+```
+
+Joins the passed strings into a path.
+
+---
+### getWindow()
+```ts
+const window: UIWindow = Utils.ios.getWindow()
+```
+Get the UIWindow of the app.
+
+---
+
+### copyToClipboard()
+```ts
+Utils.copyToClipboard(value):
+```
+
+Copies the specified value to device clipboard.
+
+---
 ### getCurrentAppPath()
 ### getVisibleViewController()
 ### getShadowLayer()
 ### createUIDocumentInteractionControllerDelegate()
 ### jsArrayToNSArray()
+```ts
+const jsArrayToNSArray : NSArray<T> =Utils.ios.collections.jsArrayToNSArray<T>(str: T[])
+```
+Converts JavaScript array with elements of type `T` to [NSArray](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/) of type `T`. 
+
+---
 ### nsArrayToJSArray()
 
 ## API Reference(s)
