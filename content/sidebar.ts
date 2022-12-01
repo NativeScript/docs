@@ -15,34 +15,38 @@ export default [
           { text: 'Linux', link: '/setup/linux' },
         ],
       },
-      {
-        text: 'Creating a new Project',
-        link: '/creating-a-new-project',
-      },
-      {
-        text: 'Development Workflow',
-        items: [
-          {
-            text: 'Running the app',
-            link: '/guide/running-the-app',
-          },
-          {
-            text: 'Debugging',
-            link: '/guide/debugging',
-          },
-        ],
-      },
+      // {
+      //   text: 'Creating a new Project',
+      //   link: '/creating-a-new-project',
+      // },
       {
         text: 'Tutorials',
         link: '/tutorials/',
       },
       {
-        text: 'Publishing',
-        link: '/guide/publishing/',
-      },
-      {
         text: 'Troubleshooting',
         link: '/troubleshooting',
+      },
+    ],
+  },
+  {
+    text: 'Development Workflow',
+    items: [
+      {
+        text: 'Creating a Project',
+        link: '/guide/creating-a-project',
+      },
+      {
+        text: 'Running',
+        link: '/guide/running',
+      },
+      {
+        text: 'Debugging',
+        link: '/guide/debugging',
+      },
+      {
+        text: 'Publishing',
+        link: '/guide/publishing/',
       },
     ],
   },

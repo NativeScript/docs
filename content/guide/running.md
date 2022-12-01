@@ -2,48 +2,66 @@
 title: Running the app
 ---
 
+To run a NativeScript app, you will need a device &mdash; either a physical or a virtual device.
+
+## Running a project
+
+Running a project is done with the `ns run` command, there's also a `ns debug` command we cover in the [debugging documentation](/guide/debugging#debugging-with-chrome-devtools).
+
+```cli
+ns run ios
+ns run android
+```
+
+The `run` command will run the app on all connected devices matching the platform, you can control which devices to run on with the following flags
+
+```cli
+--simulator     # only run on virtual devices
+--emulator
+
+--device <id>   # only run on the specified device (from ns devices)
+```
+
+
 ## Running on physical devices
 
-You can install your app on a device during development via two ways:
+You can develop on physical devices in a couple ways:
 
-- Enabling USB Debugging
-- Wifi. To debug over Wifi, follow the steps at [Connect to a device over Wi-Fi (Android 11+)](https://developer.android.com/studio/command-line/adb#connect-to-a-device-over-wi-fi-android-11+) and [Connect to a device over Wi-Fi (Android 10 and lower)](https://developer.android.com/studio/command-line/adb#wireless).
+- Through **USB** by [enabling USB Debugging](#enable-usb-debugging-on-android-devices)
+- **Wirelessly** by following these guides:
+  - [Connect to a device over Wi-Fi (Android 11+)](https://developer.android.com/studio/command-line/adb#connect-to-a-device-over-wi-fi-android-11+)
+  - [Connect to a device over Wi-Fi (Android 10 and lower)](https://developer.android.com/studio/command-line/adb#wireless).
 
-### Enable Debugging over USB on Android devices
+### Enable USB Debugging on Android devices
 
-Follow the steps below to enable Debugging over USB:
+#### 1. Activate the `Developer options` menu and enable USB debugging
 
-1. Activate the `Developer options` menu:
+Go to `Settings › About phone › Software info` and then tap `Build number` at least 7 times until a message pops up saying "You are now a developer".
 
-`Settings` → `About phone` → `Software info` and then tapping the `Build number` row at the bottom `7 times`
+Next, navigate back to `Settings › System › Developer options` and enable `USB debugging`.
 
-Then back to `Settings` → `System` → `Developer options` to enable `USB debugging`.
+#### 2. Plug in your device via USB and verify it's detected
 
-2. Plug in your device via USB
-
-Plug in your device via USB to your development machine.
-
-Now check that your device is properly connected to ADB, the Android Debug Bridge, by running:
+Plug in your device via USB and check that it is correctly being detected by <abbr title="Android Debug Bridge">ADB</abbr>:
 
 ```cli
 adb devices
 ```
 
-The device should be listed. See the full [adb documentation](https://developer.android.com/studio/command-line/adb) for troubleshooting and detailed information.
-
-To see the list of all the connected Android devices, you can run:
+To verify NativeScript can also detect the device, run:
 
 ```cli
-ns device android
+ns devices android
 ```
 
-3. Run your app
+Your device should appear in both lists.
 
-Launch your app on the device:
+::: warning Troubleshooting
 
-```cli
-ns run android
-```
+If any of the above failed, we recommend checking out the [Android ADB documentation](https://developer.android.com/studio/command-line/adb), or asking in [our Community Discord](https://nativescript.org/discord) for assistance.
+
+:::
+
 
 ### Launching an app on an iOS physical device
 
