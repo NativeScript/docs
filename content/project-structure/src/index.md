@@ -1,5 +1,5 @@
 ---
-title: The src fodler
+title: The src folder
 ---
 
 Most of the application logic lives in the `src` folder (sometimes named `app`). The general structure can vary, and will depended on the falvor you are using.

@@ -16,8 +16,9 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     editLink: {
-      pattern:
-        "https://pr.new/github.com/NativeScript/docs/edit/main/content/:filePath?initialPath=:path",
+      pattern: "https://github.com/NativeScript/docs/blob/main/content/:filePath",
+      // pattern:
+      //   "https://pr.new/github.com/NativeScript/docs/edit/main/content/:filePath?initialPath=:path",
     },
     algolia: {
       appId: "",
