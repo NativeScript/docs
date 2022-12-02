@@ -456,7 +456,7 @@ Converts string hash set into array of strings.
 ---
 ### getDrawableId()
 ```ts
-Utils.android.resources.getDrawableId(resourceName)
+const drawableId: number = Utils.android.resources.getDrawableId(resourceName)
 ```
 
 Gets the drawable id from a given resource name.
@@ -464,15 +464,13 @@ Gets the drawable id from a given resource name.
 ---
 ### getStringId()
 ```ts
-Utils.android.resources.getStringId(resourceName)
+const stringId: number = Utils.android.resources.getStringId(resourceName)
 ```
 
 Gets the string id from a given resource name.
 
 ---
-### getId()
-```ts
-```
+
 ### getPaletteColor()
 ```ts
 const paletteColor: number = Utils.android.resources.getPaletteColor(resourceName, Utils.android.getApplicationContext())
