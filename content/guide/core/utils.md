@@ -21,7 +21,7 @@ const isPathValid: boolean = Utils.isFileOrResourcePath('res://icon') // true
 
 ### Check if a URI is a data URI
 
-To check if a specific [URI](https://en.wikipedia.org/wiki/Data_URI_scheme) is a valid data URI, use the [isDataURI()](#isdatauri).
+To check if a specific [URI](https://en.wikipedia.org/wiki/Data_URI_scheme) is a valid data URI, use the [isDataURI()](#isdatauri) method.
 
 ```ts
 const isDataURI: boolean = Utils.isDataURI(`data:image/png;base64,iVBORw0KGgoAAA
@@ -45,7 +45,7 @@ const didUrlOpen: boolean = Utils.openUrl('https://thiscatdoesnotexist.com/')
 ```
 
 ### Escaping regex symbols
-To escape regex metacharacters in string, use the [escapeRegexSymbols](#escaperegexsymbols)
+To escape regex metacharacters in string, use the [escapeRegexSymbols()](#escaperegexsymbols) method.
 ```ts
     const escapedString: string = Utils.escapeRegexSymbols('$hello') // \$hello
 ```
@@ -56,7 +56,7 @@ const isOnPhysicalDevice: boolean = Utils.isRealDevice()
 ```
 
 ### Checking if a value is a number
-To check if a value is a number, use the [isNumber()](#isnumber).
+To check if a value is a number, use the [isNumber()](#isnumber) method.
 
 ```ts
 const isANumber: boolean = Utils.isNumber(2) // true
@@ -83,7 +83,7 @@ const labelHierarchy: Array<string> = Utils.getBaseClasses(new Label());
 
 ### Hiding a keyboard
 
-To hide a soft keyboard on the screen, use the [dismissKeyboard()](#dismisskeyboard)
+To hide a soft keyboard on the screen, use the [dismissKeyboard()](#dismisskeyboard) method.
 
 ```ts
 Utils.dismissKeyboard()
