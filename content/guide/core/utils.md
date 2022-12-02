@@ -506,18 +506,67 @@ Utils.copyToClipboard(value):
 Copies the specified value to device clipboard.
 
 ---
+### setWindowBackgroundColor()
+```ts
+Utils.ios.setWindowBackgroundColor(someColorString)
+```
+
+Sets the window background color of base view of the app. Often this is shown when opening a modal as the view underneath scales down revealing the window color.
+
+---
 ### getCurrentAppPath()
+```ts
+const appPath: string = Utils.ios.getCurrentAppPath()
+```
+Gets the root folder for the current application. Also see [currentApp()](/guide/core/file-system#currentapp)
+
+---
 ### getVisibleViewController()
+```ts
+const visibleView: UIViewController = Utils.ios.getVisibleViewController(rootViewController: UIViewController)
+```
+
+Gets the currently visible(topmost) UIViewController.`rootViewController` is the root UIViewController instance to start searching from (normally window.rootViewController).
+
+---
+
+### getRootViewController()
+```ts
+const rootView: UIViewController = Utils.ios.getRootViewController()
+```
+Gets the root [UIViewController](https://developer.apple.com/documentation/uikit/uiviewcontroller) of the app.
+
+---
+
 ### getShadowLayer()
+```ts
+const shadowLayer: CALayer = Utils.ios.getShadowLayer(nativeView, name, create)
+```
+
+---
+- `nativeView` is a [UIView](https://developer.apple.com/documentation/uikit/uiview/) instance to find shadow layer with
+- _Optional_: `name`(`string`) is the name of the shadow layer if looking for a specific layer.
+- _Optional_: `create`(`boolean`) if set to `true`, it indicates that a new layer should be created if no layer is found. 
+
 ### createUIDocumentInteractionControllerDelegate()
+Create a [UIDocumentInteractionControllerDelegate](https://developer.apple.com/documentation/uikit/uidocumentinteractioncontrollerdelegate) implementation for use with [UIDocumentInteractionController](https://developer.apple.com/documentation/uikit/uidocumentinteractioncontroller)
+
+
+---
 ### jsArrayToNSArray()
 ```ts
 const jsArrayToNSArray : NSArray<T> =Utils.ios.collections.jsArrayToNSArray<T>(str: T[])
 ```
-Converts JavaScript array with elements of type `T` to [NSArray](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/) of type `T`. 
+(`iOS only`)Converts JavaScript array with elements of type `T` to [NSArray](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/) of type `T`. 
 
 ---
 ### nsArrayToJSArray()
+```ts
+const nsArrayToJSArray: Array<T> = nsArrayToJSArray<T>(a: NSArray<T>)
+```
+(`iOS only`)Converts NSArray of elements of a type `T` to an equivalent JavaScript array.
+
+---
 
 ## API Reference(s)
 
