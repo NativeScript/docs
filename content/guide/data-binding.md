@@ -194,6 +194,14 @@ Supported operators: `>`,`<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 Other supported operators are: `<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 
 ---
+:::tip Note
+Special characters need to be escaped as follows:
+
+- double quotes(`"`) => `&quot;`
+- single quote(`'`) => `&apos;`
+- less than(`<`) => `&lt;`
+- greater than(`>`) => `&gt;`
+- ampersand(`&`) => `&amp;`
 
 ## Using data converters
 
