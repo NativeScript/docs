@@ -60,7 +60,7 @@ export class HelloWorldModel extends Observable {
 
 ## Accessing parent bindingContext
 
-A parent UI component and a child UI component can have different binding contexts and the child UI might need to bind its property to a source property in its parent's **bindingContext**.
+A parent  and a child UI components can have different binding contexts and the child component might need to bind its property to a source property in its parent's **bindingContext**.
 
 <!-- TODO: fix links -->
 Generally, the binding context is inheritable, but not when the components are created dynamically based on some data source. For example, [ListView]() creates its child items based on an `itemТemplate`, which describes what the ListView component will look like. When this component is added to the visual tree, for binding context it gets an element from a `ListView` items array (with the corresponding index). 
@@ -113,15 +113,17 @@ To access a value stored in an object property of the bindingContext, use the pr
 
 ---
 
-## logical operators
+### logical operators
 
-You can use the not(`!`) operator to reveserve the logical state of a binding context property.
+You can use the not(`!`) operator to reverse the logical state of a binding context property.
 
 ```xml
 
 <Label text="{{  !isUserLoggedIn  }}" textWrap="true" />
 
 ```
+
+Supported operators: `&&`, `||` and `!`.
 
 ---
 
@@ -149,9 +151,49 @@ Converts a property value to a `number`. To convert a property to a `number` and
 
 ```xml
 
+<Label text="{{  prop1 > prop2  }}" textWrap="true" />
+
+```
+
+Supported operators: `>`,`<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
+
+---
+
+### ternary operator
+
+```xml
+
+<Label text="{{  prop1 ? prop2 : prop3  }}" textWrap="true" />
+
+```
+---
+### grouping parenthesis
+
+```xml
+
+<Label text="{{  prop1*(prop2 + prop3)  }}" textWrap="true" />
+
+```
+---
+### function calls
+
+```xml
+
+<Label text="{{  someMethod(p1,p2,...,pN)  }}" textWrap="true" />
+
+```
+---
+### comparison operators
+
+```xml
+
 <Label text="{{  property1 > property2  }}" textWrap="true" />
 
 ```
+
+Other supported operators are: `<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
+
+---
 
 ## Using data converters
 
