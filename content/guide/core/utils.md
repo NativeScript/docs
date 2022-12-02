@@ -65,7 +65,7 @@ const isNumber: boolean = Utils.isNumber(true) // false
 ```
 
 ### Get a class hierarchy of an object 
-To get list all the classes an object is an instance of, use the [getBaseClasses()](#getbaseclasses) method:
+To list all the classes an object is an instance of, use the [getBaseClasses()](#getbaseclasses) method:
 
 ```ts
 const labelHierarchy: Array<string> = Utils.getBaseClasses(new Label());
@@ -96,7 +96,7 @@ Utils.dismissKeyboard()
 const majorVersion: number = Utils.ios
 ```
 
-(`iOS only`) Gets the iOS device major version. For example, for 16.0 ,it returns 16.
+(`iOS only`) Gets the iOS device major version. For example, for `16.0` ,it returns `16`.
 
 ---
 
@@ -128,7 +128,7 @@ Opens the passed url using the default application.
 const escapedString: string = Utils.escapeRegexSymbols(string)
 ```
 
-Escapes special regex characters (`.`, `*`, `^`, `$` and so on) in string and return a valid regex from it.
+Escapes special regex characters (`.`, `*`, `^`, `$` and so on) in a string and returns a valid regex.
 
 ---
 ### convertString()
@@ -136,7 +136,7 @@ Escapes special regex characters (`.`, `*`, `^`, `$` and so on) in string and re
 const toStr: number | boolean  = Utils.convertString(value)
 ```
 
-Converts a string value to number or boolean. If it can not convert, it returns the passed string.
+Converts a string value to a number or boolean. If it can not convert, it returns the passed string.
 
 ---
 ### GC()
@@ -201,7 +201,7 @@ Returns true if the specified URI is a font icon URI.
 Utils.executeOnMainThread(fn: Function)
 
 ```
-Checks if the current thread is the main thread. Directly calls the passed function if it is, or dispatches it to the main thread otherwise.
+Checks if the current thread is the main thread. If it is, calls the passed function. Otherwise, it dispatches it to the main thread.
 
 ---
 ### executeOnUIThread()
@@ -252,7 +252,7 @@ Gets module name from the specified path.
 ```ts
 const didFileOpen: boolean = Utils.openFile(filePath, title)
 ```
-Opens the file at specified `filePath`. 
+Opens the file at the specified `filePath`. 
 _Optional_: (`Android-only`) `title` is the title of the file viewer.
 
 ---
@@ -260,7 +260,7 @@ _Optional_: (`Android-only`) `title` is the title of the file viewer.
 ```ts
 const isOnPhysicalDevice: boolean = Utils.isRealDevice()
 ```
-Checks whether the application is running on a physical device and not on simulator/emulator.
+Checks whether the application is running on a physical device and not on a simulator/emulator.
 
 ---
 ### getClass()
@@ -298,7 +298,7 @@ Checks if the specified value is a valid boolean.
 const isValueDefined: boolean = Utils.isDefined(someValue)
 ```
 
-Checks if the specified value not `undefined`.
+Checks if the specified value is not `undefined`.
 
 ---
 ### isUndefined()
@@ -379,14 +379,14 @@ const timerID: number = Utils.setInterval((args)=>{
 
 }, milliseconds,[arg1, arg2])
 ```
-A timer method that allows you to run `callback` every `milliseconds`(milliseconds). It returns returns an id that is used to [stop](#clearinterval) the timer.
+A timer method that allows you to run `callback` every `milliseconds`(milliseconds). It returns an id that is used to [stop](#clearinterval) the timer.
 
 ---
 ### clearInterval()
 ```ts
 Utils.clearInterval(timerID)
 ```
-Stops the interval timer for the provided id.
+Stops the interval timer of the provided id.
 
 ---
 ### setTimeout()
@@ -395,7 +395,7 @@ const timerId: number = Utils.setTimeout((args)=>{
 }, milliseconds,[arg1, arg2])
 ```
 
-A timer method that allows you to wait `milliseconds`(milliseconds) before running `callback`. It returns an id to be used to [stop](#clearinterval) the timer.
+A timer method that allows you to wait `milliseconds`(milliseconds) before running the `callback`. It returns an id to be used to [stop](#clearinterval) the timer.
 
 ---
 
@@ -403,7 +403,7 @@ A timer method that allows you to wait `milliseconds`(milliseconds) before runni
 ```ts
 Utils.dismissKeyboard()
 ```
-Hides any keyboard on the screen. See also 
+Hides any keyboard on the screen.
 
 ---
 ### getApplication()
@@ -428,8 +428,7 @@ Utils.android.getApplicationContext()
 const inputMethodManager: android.view.inputmethod.InputMethodManager  = Utils.android.getInputMethodManager()
 ```
 
-(`Android-only`)Gets the native Android [InputMethodManager](https://developer.android.com/reference/android/view/inputmethod/InputMethodManager)
-instance.
+(`Android-only`)Gets the native Android [InputMethodManager](https://developer.android.com/reference/android/view/inputmethod/InputMethodManager) instance.
 
 ---
 ### showSoftInput()
@@ -437,7 +436,7 @@ instance.
 Utils.android.showSoftInput(nativeView)
 ```
 
-(`Android-only`)Shows the soft input interface, usually a soft keyboard. `nativeView` is an `android.view.View` instance to disable the soft input for.
+(`Android-only`)Shows a soft keyboard. `nativeView` is an `android.view.View` instance to disable the soft input for.
 
 ---
 ### stringArrayToStringSet()
@@ -492,7 +491,7 @@ Joins the passed strings into a path.
 ```ts
 const window: UIWindow = Utils.ios.getWindow()
 ```
-Get the UIWindow of the app.
+Gets the UIWindow of the app.
 
 ---
 
