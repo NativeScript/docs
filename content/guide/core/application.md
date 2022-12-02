@@ -78,7 +78,7 @@ For iOS, it returns the reference to a [UIApplication](https://developer.apple.c
 const foregroundActivity = androidApp.foregroundActivity
 ```
 
-Gets the currently active (loaded) [android Activity](http://developer.android.com/reference/android/app/Activity.html). This property is automatically updated upon Activity events.
+Gets the currently visible(topmost) [android Activity](http://developer.android.com/reference/android/app/Activity.html).
 
 ---
 
