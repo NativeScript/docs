@@ -110,11 +110,11 @@ export default [
     ],
   },
   {
-    text: 'UI Components',
+    text: 'UI',
     items: [
       {
         text: 'Accessibility',
-        link: '/guide/ui-components/accessibility',
+        link: '/guide/ui/accessibility',
       },
   //       {
   //         text: 'Layout Containers',
