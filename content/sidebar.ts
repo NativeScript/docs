@@ -110,11 +110,11 @@ export default [
     ],
   },
   {
-    text: 'UI Components',
+    text: 'UI',
     items: [
       {
         text: 'Styling',
-        link: '/guide/ui-components/styling',
+        link: '/guide/ui/styling',
       },
   //       {
   //         text: 'Layout Containers',
