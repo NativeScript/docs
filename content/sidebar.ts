@@ -114,10 +114,18 @@ export default [
       },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
-  //       { text: 'Styling', link: '//#' },
+  {
+    text: 'UI',
+    items: [
+      {
+        text: 'Image',
+        items: [
+          {
+            text: 'ImageCache',
+            link: '/guide/ui/image-cache'
+          },
+        ],
+      },
   //       { text: 'Interactivity', link: '//#' },
   //       {
   //         text: 'Layout Containers',
@@ -163,8 +171,8 @@ export default [
   //           { text: 'TextView', link: '//#' },
   //           { text: 'TimePicker', link: '//#' },
   //           { text: 'WevView', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Dialogs',
   //         items: [
