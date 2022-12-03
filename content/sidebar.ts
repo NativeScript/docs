@@ -110,11 +110,11 @@ export default [
     ],
   },
   {
-    text: 'UI Components',
+    text: 'UI',
     items: [
       {
         text: 'Gestures',
-        link: '/guide/ui-components/gestures',
+        link: '/guide/ui/gestures',
       },
   //       {
   //         text: 'Layout Containers',
