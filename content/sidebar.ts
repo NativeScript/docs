@@ -110,11 +110,11 @@ export default [
     ],
   },
   {
-    text: 'UI Components',
+    text: 'UI',
     items: [
       {
         text: 'Dialogs',
-        link: '/guide/ui-components/dialogs',
+        link: '/guide/ui/dialogs',
       },
   //       {
   //         text: 'Layout Containers',
