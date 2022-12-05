@@ -29,7 +29,7 @@ this.imageCache.enqueue(
     {
         url: this.url,
         key: "cat",
-        completed(image: android.graphics.Bitmap, key) {
+        completed(image: android.graphics.Bitmap  | UIImage, key) {
           console.log("Successfully retrived and cached the cat image")
         },
         error(key) {
