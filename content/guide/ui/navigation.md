@@ -43,12 +43,22 @@ frame.goBack()
 ```
 
 ### Avoid Navigating Back
-To avoid navigating to the previous page, set the (#goback) method of the Frame instance.
+To avoid navigating to the previous page, use the [NavigationEntry](#navigation-entry-interface) object and set the [clearHistory](#clearhistory) property to `true`.
 ```ts
-frame.goBack()
+frame.navigate({
+    moduleName: "details/details-page",
+    clearHistory: true
+})
 ```
 ### Passing data between pages
-To pass data, pass a 
+To pass data to the page be navigated to, set the value of the [context](#context) property of the NavigationEntry to the data you would like to pass.
+```ts
+frame.navigate({
+    moduleName: "details/details-page",
+    context: { id: 2 }
+})
+```
+To access the passed data, handle the `navigatedTo` event for the `details/details-page` page and access the `context` property on the event's NavigatedData object.
 
 
 ### Applying transition to navigation
@@ -77,34 +87,49 @@ const defaultTransition: NavigationTransition = Frame.defaultTransition
 
 ```
 
-Gets or sets the default [NavigationTransition](#navigation-transition-interface) for all frames across the app.
+Gets or sets the default [NavigationTransition](#navigation-transition-interface) for all frames across the app. To set a naviagation transtion for a specific frame instance, use the [transition](#transition) property.
 
 ---
 
 ### backStack
 ```ts
+const backStack: Array<BackstackEntry> = frame.backStack
 ```
+
 
 ---
 ### currentPage
 ```ts
+const page: Page = frame.currentPage
 ```
+Gets the Page instance the Frame is currently navigated to.
 
 ---
 ### currentEntry
 ```ts
+const currentEntry: NavigationEntry = frame.currentEntry
 ```
+Gets the NavigationEntry instance the Frame is currently navigated to.
 
 ---
 ### animated
 ```ts
+const animated: boolean = frame.animated.
+//or
+frame.animated = true
 ```
+Gets or sets if navigation transitions should be animated.
 
 ---
 ### transition
 ```ts
-```
+const transtion: NavigationTransition = frame.transition
+//or
+frame.transition = {
 
+}
+```
+Gets or sets the default navigation transition for this frame.
 ---
 ### actionBarVisibility
 ```ts
@@ -144,6 +169,12 @@ const canGoBack: boolean = frame.canGoBack()
 ```
 ## Navigation Transition Interface
 
+## Navigated Data Interface
+### context
+### isBackNavigation
+
+## Navigation Entry Interface
+
 ### moduleName
 ```ts
 {
@@ -176,51 +207,40 @@ Creates a the page(View instance) to be navigated to
 ### context	
 ```ts
 {
-    context
+    context: anything
 }
 ```
-An object use to pass data to the page navigated to.
+An object used to pass data to the page navigated to.
 
 ---
-### Back Stack Entry Interface
-
 ### bindingContext
 ```ts
+{
+  frame.bindingContext =  {
+    id:567
+  }
+}
 ```
 _Optional_: an object to become the binding context of the page to be navigated to.
 
 ---
-### animated
-```ts
-```
-
-to navigate to the new Page using animated transitions, false otherwise.
-
----
-### transition	
-```ts
-```
-
-Specifies an optional navigation transition for all platforms. If not specified, the default platform transition will be used.
-
----
 ### transitionAndroid
-```ts
-```
-Specifies an optional navigation transition for Android. If not specified, the default platform transition will be used.
+
+_Optional_: Specifies a navigation transition for Android. This property has a higher priority than the [transition](#transition) property.
+
 
 ---
 ### transitioniOS
-```ts
-```
-NavigationTransition	Specifies an optional navigation transition for iOS. If not specified, the default platform transition will be used.
+
+_Optional_: Specifies a navigation transition for iOS. This property has a higher priority than the [transition](#transition) property.
 
 ---
 ### backstackVisible
 ```ts
+frame.backstackVisible = true
 ```	
 
-to record the navigation in the backstack, false otherwise. If the parameter is set to false then the Page will be displayed but once navigated from it will not be able to be navigated back to.
+A boolean value, if set to `true`, it records the navigation in the backstack. If set to `false`, the Page will be displayed but once navigated from it is not possible to navigate back.
 
 ---
 ### clearHistory
@@ -230,3 +250,6 @@ to record the navigation in the backstack, false otherwise. If the parameter is 
 }
 ```
 If set to `true`, it clears the navigation history. This very useful when navigating away from a login page.
+
+### Back Stack Entry Interface
+
