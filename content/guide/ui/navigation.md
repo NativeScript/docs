@@ -1,16 +1,19 @@
 ---
 title: Navigation
 ---
+<!--TODO: Add Preview -->
+<!--TODO: Add flavors -->
 
 Navigation in NativeScript is enabled by the `Frame` class.
 
 ## Using Frame
 
 ### Navigating to another page
-To navigate to a page, first get the instance of the desired Frame instance. Then call the instance's [navigate()](#navigate) method passing it the path of the page to navigate to.
+To navigate to a page, first get the desired Frame instance. Then  for a simple navigation, call the instance's [navigate()](#navigate) method passing it the path of the page to navigate to.
 ```ts
 frame.navigate("~/pages/details/details-page")
 ```
+
 The following are some of the ways to obtain an intance of the Frame class:
 
 - `Frame.topmost()` returns the top Frame in the frames stack.
@@ -51,18 +54,32 @@ frame.navigate({
 })
 ```
 ### Passing data between pages
-To pass data to the page be navigated to, set the value of the [context](#context) property of the NavigationEntry to the data you would like to pass.
+To pass data to another page, set the value of the [context](#context) property of the NavigationEntry to the data you would like to pass.
 ```ts
 frame.navigate({
     moduleName: "details/details-page",
     context: { id: 2 }
 })
 ```
-To access the passed data, handle the `navigatedTo` event for the `details/details-page` page and access the `context` property on the event's NavigatedData object.
 
+To access the passed data, handle the `navigatedTo` event for the `details/details-page` page and access the `context` property on the event's [NavigatedData](https://docs.nativescript.org/api-reference/interfaces/navigateddata) object.
 
-### Applying transition to navigation
+```ts
+import { NavigatedData } from "@nativescript/core"
 
+onNavigatedTo(args: NavigatedData) {
+        this.id = args.context.id
+        this.notifyPropertyChange("id", args.context.id)
+    }
+```
+### Creating Multiple Frames
+If you need to create multiple frames, you can do so by wrapping them in a Layout, for example if you want to have 2 frames side-by-side:
+```xml
+<GridLayout columns="*, *">
+  <Frame col="0" />
+  <Frame col="1" />
+</GridLayout>
+```
 ## Frame API
 ### defaultAnimatedNavigation
 
@@ -81,12 +98,10 @@ const defaultTransition: NavigationTransition = {
     name: "slideRight"
 }
 Frame.defaultTransition = defaultTransition
-
 //or
 const defaultTransition: NavigationTransition = Frame.defaultTransition
 
 ```
-
 Gets or sets the default [NavigationTransition](#navigation-transition-interface) for all frames across the app. To set a naviagation transtion for a specific frame instance, use the [transition](#transition) property.
 
 ---
@@ -95,7 +110,7 @@ Gets or sets the default [NavigationTransition](#navigation-transition-interface
 ```ts
 const backStack: Array<BackstackEntry> = frame.backStack
 ```
-
+Gets the back stack for a Frame instance. It is empty if the current page is the app's initial page(eg `main-page`) or if the [clearHistory](#clearhistory) property is set to `true`.
 
 ---
 ### currentPage
@@ -126,25 +141,44 @@ Gets or sets if navigation transitions should be animated.
 const transtion: NavigationTransition = frame.transition
 //or
 frame.transition = {
-
-}
+            curve: CoreTypes.AnimationCurve.easeInOut,
+            duration: 500,
+            name: "slideRight",
+        }
 ```
-Gets or sets the default navigation transition for this frame.
+Gets or sets the default [navigation transition](#navigation-transition-interface) for this frame.
+
 ---
 ### actionBarVisibility
 ```ts
+frame.actionBarVisibility = "never"
 ```
+
+It controls the visibility of an actionbar across all the pages in a Frame instance.
+Available values:
+- `auto`
+- `always`
+- `never` (hides the action bar for all pages)
 
 ---
 ### navigate()
+This method has the following overloads:
+- `navigate(pageFileName: string)` - navigates to the page instance in the specified file.
+- `navigate(create: () => Page)` - creates a new Page instance using the provided callback and navigates to that instance.
+
+- `navigate(entry: NavigationEntry)` is for a more customized navigation. It allows you to pass data to another page or set transition animation, etc.
 
 ### goBack()
 
 ```ts
 frame.goBack(to)
 ```
-Navigates back using the navigation hierarchy (if any). Updates the Frame stack as needed. This method will start from the topmost Frame and will recursively search for an instance that has the canGoBack operation available. 
-- _Optional_ `to`: The [backstack entry](#back-stack-entry-interface) to navigate back to.
+Navigates back using the navigation hierarchy (if any). Updates the Frame stack as needed. This method will start from the topmost Frame and will recursively search for an instance that has the [canGoBack](#cangoback) operation available. 
+- _Optional_ `to`: The back stack entry object for where to navigate back to. The object has the following properties:
+
+- `entry`(type: [NavigationEntry](#navigation-entry-interface))
+	
+- (`resolvedPage`)(type: Page)
 
 ---
 ### getFrameById()
@@ -167,11 +201,66 @@ Gets the topmost frame in the frames stack.
 ```ts
 const canGoBack: boolean = frame.canGoBack()
 ```
-## Navigation Transition Interface
+Checks whether the goBack operation is available.
 
-## Navigated Data Interface
-### context
-### isBackNavigation
+---
+## Navigation Transition Interface
+The Navigation Transition interface has the following members:
+
+### name
+```ts
+{
+  name: "slideLeft"
+}
+```
+The type of the transition. Possible values:
+
+- `curl` (same as curlUp) (iOS only)
+- `curlUp` (iOS only)
+- `curlDown` (iOS only)
+- `explode` (Android Lollipop(21) and up only)
+- `fade`
+- `flip` (same as flipRight)
+- `flipRight`
+- `flipLeft`
+- `slide` (same as slideLeft)
+- `slideLeft`
+- `slideRight`
+- `slideTop`
+- `slideBottom`
+---
+
+### custom transition
+```ts
+{
+  instance: customTransitionInstance
+}
+```
+This property allows you to define custom transition instance of the [Transition](https://docs.nativescript.org/api-reference/classes/transition) class.
+
+---
+
+### duration
+```ts
+{
+  duration: 500
+}
+```
+The length of the transition in milliseconds
+
+---
+### curve
+```ts
+import { CoreTypes } from "@nativescript/core";
+
+{
+  curve: CoreTypes.AnimationCurve.easeInOut,
+}
+```
+A transition animation curve with available values contained in the [AnimationCurve enumeration](https://docs.nativescript.org/api-reference/modules/coretypes.animationcurve).
+Alternatively, you can pass an instance of type [UIViewAnimationCurve](https://developer.apple.com/documentation/uikit/uiview/animationcurve) for iOS or [android.animation.TimeInterpolator](https://developer.android.com/reference/android/animation/TimeInterpolator) for Android.
+
+---
 
 ## Navigation Entry Interface
 
@@ -207,27 +296,16 @@ Creates a the page(View instance) to be navigated to
 ### context	
 ```ts
 {
-    context: anything
+    context: any
 }
 ```
 An object used to pass data to the page navigated to.
 
 ---
-### bindingContext
-```ts
-{
-  frame.bindingContext =  {
-    id:567
-  }
-}
-```
-_Optional_: an object to become the binding context of the page to be navigated to.
 
----
 ### transitionAndroid
 
 _Optional_: Specifies a navigation transition for Android. This property has a higher priority than the [transition](#transition) property.
-
 
 ---
 ### transitioniOS
@@ -251,5 +329,8 @@ A boolean value, if set to `true`, it records the navigation in the backstack. I
 ```
 If set to `true`, it clears the navigation history. This very useful when navigating away from a login page.
 
-### Back Stack Entry Interface
-
+## API Reference(s)
+- [Frame](https://docs.nativescript.org/api-reference/classes/frame) class
+## Native Component
+- `Android`: [org.nativescript.widgets.ContentLayout](https://github.com/NativeScript/NativeScript/blob/master/packages/ui-mobile-base/android/widgets/src/main/java/org/nativescript/widgets/ContentLayout.java)
+- `iOS`: [UINavigationController](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
