@@ -112,6 +112,10 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'Property System',
+        link: '/guide/property-system'
+      }
     ],
   },
   //   {
