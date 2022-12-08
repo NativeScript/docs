@@ -16,7 +16,7 @@ The following example shows how to use the Connectivity class:
 ### getConnectionType
 
 ```ts
-const type = Connectivity.getConnectionType()
+type = Connectivity.getConnectionType()
 ```
 
 Gets the type of connection.
@@ -26,9 +26,7 @@ Returns a `number` value from the connectivity.connectionType ` enumeration. To 
 ### startMonitoring
 
 ```ts
-
 Connectivity.startMonitoring(connectionTypeChangedCallback: (newConnectionType: number) => void): void
-
 ```
 
 Starts monitoring the connection type.
@@ -65,19 +63,10 @@ Defines the different connection types.
 
 ---
 
-:::details References
+## API Reference(s)
+- [@nativescript/core/connectivity](https://docs.nativescript.org/api-reference/modules.html#connectivity) module
+- [connectionType](https://docs.nativescript.org/api-reference/modules.html#connectivity) enum  
 
-## API References
-
-| Name                                                                                                     | Type     |
-| -------------------------------------------------------------------------------------------------------- | -------- |
-| [@nativescript/core/connectivity](https://docs.nativescript.org/api-reference/modules.html#connectivity) | `Module` |
-| [connectionType](https://docs.nativescript.org/api-reference/modules.html#connectivity)                  | `Enum`   |
-
-## Native Component
-
-| Android                                                                                                           | iOS                                                                                                              |
-| :---------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
-| [CONNECTIVITY_SERVICE (android.content.Context)](https://developer.android.com/reference/android/content/Context) | [SCNetworkReachability](https://developer.apple.com/documentation/systemconfiguration/scnetworkreachability-g7d) |
-
-:::
+### Native Component
+- `Android`: [CONNECTIVITY_SERVICE (android.content.Context)](https://developer.android.com/reference/android/content/Context)
+- `iOS`: [SCNetworkReachability](https://developer.apple.com/documentation/systemconfiguration/scnetworkreachability-g7d)
