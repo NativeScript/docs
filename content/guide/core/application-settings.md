@@ -14,7 +14,7 @@ ApplicationSettings provides setters(and getters) for different data types. Use 
 To store a string value, use the [setString()](#setstring)  method:
 
 ```ts
-    ApplicationSettings.setString("username", "Wolfgang");
+ApplicationSettings.setString("username", "Wolfgang");
 ```
 
 You can use this method with the `JSON.stringify()` to store an object or an array as a string and then use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
@@ -25,7 +25,7 @@ You can use this method with the `JSON.stringify()` to store an object or an arr
 To store a boolean value, use the [setBoolean()](#setboolean) method:
 
 ```ts
-    ApplicationSettings.setBoolean("isTurnedOn", true);
+ApplicationSettings.setBoolean("isTurnedOn", true);
 ```
 
 ### Storing a numeric value
@@ -33,9 +33,8 @@ To store a boolean value, use the [setBoolean()](#setboolean) method:
 To store a number, use the [setNumber()](#setnumber) method:
 
 ```ts
-    ApplicationSettings.setNumber("locationX", 54.321);
+ApplicationSettings.setNumber("locationX", 54.321);
 ```
-
 
 ## ApplicationSettings API
 
@@ -43,7 +42,6 @@ To store a number, use the [setNumber()](#setnumber) method:
 
 ```ts
 ApplicationSettings.setString(key: string, value: string)
-
 ```
 
 Stores a string value for the specified key.
@@ -53,9 +51,7 @@ Stores a string value for the specified key.
 ### getString
 
 ```ts
-
 ApplicationSettings.getString(key: string, deafaultValue?: string)
-
 ```
 
 Gets a value (if existing) for a key as a `String` object. A default value can be provided in case there is no existing value.
@@ -131,18 +127,10 @@ Returns an array of all stored keys or an empty array if no keys exist in the de
 
 ---
 
-:::details References
 
-## API References
-
-| Name                                                                                                               | Type     |
-| ------------------------------------------------------------------------------------------------------------------ | -------- |
-| [@nativescript/core/application-settings](https://docs.nativescript.org/api-reference/modules#applicationsettings) | `Module` |
+## API Reference(s)
+- [@nativescript/core/application-settings](https://docs.nativescript.org/api-reference/modules#applicationsettings) module
 
 ## Native Component
-
-| Android                                                                                        | iOS                                                                                   |
-| :--------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
-| [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences) | [NSUserDefaults](https://developer.apple.com/documentation/foundation/nsuserdefaults) |
-
-:::
+- `Android`: [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
+- `iOS`: [NSUserDefaults](https://developer.apple.com/documentation/foundation/nsuserdefaults)
