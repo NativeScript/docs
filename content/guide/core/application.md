@@ -34,18 +34,43 @@ const observer: any = iOSApp.addNotificationObserver(
 
 ### Removing a notification observer
 
-To remove a notification observer, use the ``
+To remove a notification observer, use the `removeNotificationObserver()` method
 ```ts
 iOSApp.removeNotificationObserver(observer, UIDeviceBatteryStateDidChangeNotification)
 ```
 
 
-## Application API
+## Cross platform application events reference
+
+```ts
+Application.on('orientationChanged', (args: ApplicationEventData) => {
+  // handle the event
+})
+```
+
+:::details More events
+
+- `livesync`
+- `cssChanged`
+- `launch`
+- `displayed`
+- `suspend`
+- `resume`
+- `exit`
+- `lowMemory`
+- `uncaughtError`
+- `discardedError`
+- `orientationChanged`
+- `systemAppearanceChanged`
+- `fontScaleChanged`
+
+:::
+## Android Reference
 
 ### android
 
 ```ts
-const androidApp: AndroidApplication = Application.android
+androidApp: AndroidApplication = Application.android
 ```
 
 The property gives you the `AndroidApplication` object, a Nativescript wrapper, around the native android application instance.
@@ -54,13 +79,10 @@ The property gives you the `AndroidApplication` object, a Nativescript wrapper, 
 
 ### nativeApp
 
-
 ```ts
-const nativeApp: android.app.Application = androidApp.nativeApp
-
+nativeApp: android.app.Application = androidApp.nativeApp
 // or 
-
-const nativeApp: UIApplication = iOSApp.nativeApp
+nativeApp: UIApplication = iOSApp.nativeApp
 ```
 
 This is a native application reference. 
@@ -75,7 +97,7 @@ For iOS, it returns the reference to a [UIApplication](https://developer.apple.c
 ### foregroundActivity
 
 ```ts
-const foregroundActivity = androidApp.foregroundActivity
+foregroundActivity = androidApp.foregroundActivity
 ```
 
 Gets the currently visible(topmost) [android Activity](http://developer.android.com/reference/android/app/Activity.html).
@@ -85,7 +107,7 @@ Gets the currently visible(topmost) [android Activity](http://developer.android.
 ### startActivity
 
 ```ts
-const startActivity = androidApp.startActivity
+startActivity = androidApp.startActivity
 ```
 
 Gets the main (start) Activity for the application.
@@ -95,7 +117,7 @@ Gets the main (start) Activity for the application.
 ### paused
 
 ```ts
-const isSuspended: boolean = androidApp.paused
+isSuspended: boolean = androidApp.paused
 ```
 
 Returns `true` if the main application activity is not running (suspended), otherwise false is returned.
@@ -105,7 +127,7 @@ Returns `true` if the main application activity is not running (suspended), othe
 ### backgrounded
 
 ```ts
-const isInBackground: boolean = androidApp.backgrounded
+isInBackground: boolean = androidApp.backgrounded
 ```
 
 Returns `true` if the main application activity is in background
@@ -115,7 +137,7 @@ Returns `true` if the main application activity is in background
 ### registerBroadcastReceiver
 
 ```ts
-const receiver = androidApp.registerBroadcastReceiver(intentFilter, onReceiveCallback)
+receiver = androidApp.registerBroadcastReceiver(intentFilter, onReceiveCallback)
 ```
 
 Registers a [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver)to be run in the main activity thread. The receiver will be called with any broadcast Intent that matches the intent filter.
@@ -170,11 +192,11 @@ androidApp.on('activityResumed', args => {
 :::
 
 ---
-
+## iOS Reference
 ### ios
 
 ```ts
-const iOSApp = Application.ios
+iOSApp = Application.ios
 ```
 
 The property gives you the `iOSApplication` object, Nativescript wrapper, the around the native iOS application instance.
@@ -184,7 +206,7 @@ The property gives you the `iOSApplication` object, Nativescript wrapper, the ar
 ### rootController
 
 ```ts
-const rootController: UIViewController = iOSApp.rootController
+rootController: UIViewController = iOSApp.rootController
 ```
 
 The root view controller for the iOS application.
@@ -252,9 +274,9 @@ For a complete list of the iOS lifecycle events, visit [UIApplicationDelegate](h
 ### orientation
 
 ```ts
-const orientation = androidApp.orientation
+orientation = androidApp.orientation
 // or
-const orientation = iOSApp.orientation
+orientation = iOSApp.orientation
 ```
 
 Gets or sets the orientation of the application. <br>Possible values: `portrait`\| `landscape`\| `unknown`
@@ -264,40 +286,16 @@ Gets or sets the orientation of the application. <br>Possible values: `portrait`
 ### systemAppearance
 
 ```ts
-const systemAppearance = androidApp.systemAppearance
+systemAppearance = androidApp.systemAppearance
 // or
-const systemAppearance = iOSApp.systemAppearance
+systemAppearance = iOSApp.systemAppearance
 ```
 
 Returns whether the system appearance is `dark`, `light` or `null`(for iOS <= 11).
 
 ---
 
-### NativeScript application events
 
-```ts
-Application.on('orientationChanged', (args: ApplicationEventData) => {
-  // handle the event
-})
-```
-
-:::details More events
-
-- `livesync`
-- `cssChanged`
-- `launch`
-- `displayed`
-- `suspend`
-- `resume`
-- `exit`
-- `lowMemory`
-- `uncaughtError`
-- `discardedError`
-- `orientationChanged`
-- `systemAppearanceChanged`
-- `fontScaleChanged`
-
-:::
 
 :::details References
 
