@@ -25,7 +25,7 @@ export class HelloWorldModel extends Observable {
       if (args.propertyName == "name") {
         this.fruits.unshift("Kaki")
 
-        this.notifyPropertyChange("fruits", this.fruits)
+        this.set("fruits", this.fruits)
       }
     })
       
@@ -60,6 +60,10 @@ this.fruits.unshift("Kaki")
 this.notifyPropertyChange("fruits", this.fruits)
 ```
 
+### Avoiding Event Handler Memory Leak
+To ensure that your app doesn't have memory leak caused by handlers that are no longer needed, use the [addWeakEventListener()](#addweakeventlistener) function:
+
+<!-- TODO: Add a working example -->
 
 ## Observable API
 
@@ -122,7 +126,7 @@ Adds one-time listener function for the specified event.
 - _Optional_: `thisArg` is a parameter which will be used as `this` context for callback execution.
 
 ---
-
+### addWeakEventListener()
 ### removeEventListener()
 
 ```ts
