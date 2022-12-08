@@ -30,7 +30,6 @@ To apply the JS value to the exposed native view, call the [setNative]() method 
 [textProperty.setNative](value: string) {
     this.nativeView.texty = value
 }
-
 ```
 For a complete real world example about exposing a native UI Component to NativeScript developers, and how the Property system is used, read the [How to create a NativeScript plugin that uses native iOS & Android views (Part 1) - Label Marquee!](https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label/) article.
 ### Adding a new CSS property
@@ -98,7 +97,6 @@ To create a shorthand property, use the CssPropery class to define all the prope
 <!-- TODO: Add an example -->
 ```ts
 import { ShorthandProperty, Style } from "@nativescript-core"
-
 ```
 ### Creating a coercible property
 <!-- TODO: Add a proper explanation about when to create this property -->
@@ -140,35 +138,34 @@ Then when setting the property value, you call the `coerce()` method:
  ...
     selectedIndexProperty.coerce(this);
 }
-
 ```
-## Property System API
+## Property System Reference
 ### Property class
 The Property class has the following members.
 #### constructor
 ```ts
-const property = new Property<MyClass, U>(propertyOptions)
+property = new Property<MyClass, U>(propertyOptions)
 ```
 ### enumerable
 ```ts
-const isEnumerable: boolean = property.enumerable
+isEnumerable: boolean = property.enumerable
 ```
 ---
 
 ### configurable
 ```ts
-const isConfigurable: boolean = property.configurable
+isConfigurable: boolean = property.configurable
 ```
 ---
 ### writable
 ```ts
-const isWritable: boolean = property.writable
+isWritable: boolean = property.writable
 ```
 ---
 
 #### name
 ```ts
-const propertyName: string = property.name
+propertyName: string = property.name
 ```
 ---
 #### getDefault
@@ -184,7 +181,7 @@ const propertyName: string = property.name
 
 #### defaultValue
 ```ts
-const defaultValue: U = property.defaultValue
+defaultValue: U = property.defaultValue
 ```
 ---
 #### nativeValueChange
@@ -194,17 +191,17 @@ property.nativeValueChange(owner: T, value: U)
 ---
 #### isStyleProperty
 ```ts
-const isStyleProperty: boolean = property.isStyleProperty
+isStyleProperty: boolean = property.isStyleProperty
 ```
 ---
 ### get()
 ```ts
- const propertyValue: U = property.get()
+propertyValue: U = property.get()
 ```
 ---
 ### set()
 ```ts
-    property.set(value: U)
+property.set(value: U)
 ```
 ---
 ### register()
@@ -214,22 +211,21 @@ property.register(SomeClass)
 ---
 ### isSet()
 ```ts
-const isPropertySet: boolean = property.isSet(instance: T)
+isPropertySet: boolean = property.isSet(instance: T)
 ```
- 
 ---
-#### overrideHandlers()
+### overrideHandlers()
 
 ```ts
 property.overrideHandlers(options: PropertyOptions<T, U>)
 ```
 ---
 
-### Property Options Interface
+### PropertyOptions Interface
 #### name
 ```ts
 {
-name: "propertyName"
+    name: "propertyName"
 }
 ```
 
@@ -263,7 +259,7 @@ name: "propertyName"
 {
     valueChanged: (target: T, oldValue: U, newValue: U)=>{
     
-}
+    }
 }
 ```
 #### valueConverter
@@ -279,9 +275,9 @@ name: "propertyName"
 ### CssPropertyOptions interface
 #### cssName
    ```ts
-   {
+{
     cssName: "my-css-property"
-   }
+}
    ```
 The name of the property to be used in a CSS rule.
 
@@ -295,9 +291,9 @@ The name of the property to be used in a CSS rule.
 ---
 #### cssName
    ```ts
-   {
+{
     cssName: "my-css-property"
-   }
+}
    ```
 
 ---
@@ -317,4 +313,3 @@ The name of the property to be used in a CSS rule.
     }
 }
 ```
----
