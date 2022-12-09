@@ -114,22 +114,22 @@ export default [
       },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
+    {
+      text: 'UI',
+      items: [
   //       { text: 'Styling', link: '//#' },
   //       { text: 'Interactivity', link: '//#' },
-  //       {
-  //         text: 'Layout Containers',
-  //         items: [
+        {
+          text: 'Layout Containers',
+          items: [
   //           { text: 'StackLayout', link: '//#' },
-  //           { text: 'GridLayout', link: '//#' },
+            { text: 'GridLayout', link: '/guide/ui/grid-layout' },
   //           { text: 'RootLayout', link: '//#' },
   //           { text: 'FlexboxLayout', link: '//#' },
   //           { text: 'WrapLayout', link: '//#' },
   //           { text: 'AbsoluteLayout', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Navigation Components',
   //         items: [
@@ -138,8 +138,8 @@ export default [
   //           { text: 'ActionBar', link: '//#' },
   //           { text: 'ActionItem', link: '//#' },
   //           { text: 'NavigationButton', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Components',
   //         items: [
