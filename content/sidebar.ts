@@ -114,22 +114,22 @@ export default [
       },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
+    {
+       text: 'UI',
+        items: [
   //       { text: 'Styling', link: '//#' },
   //       { text: 'Interactivity', link: '//#' },
-  //       {
-  //         text: 'Layout Containers',
-  //         items: [
+        {
+          text: 'Layout Containers',
+          items: [
   //           { text: 'StackLayout', link: '//#' },
   //           { text: 'GridLayout', link: '//#' },
   //           { text: 'RootLayout', link: '//#' },
   //           { text: 'FlexboxLayout', link: '//#' },
   //           { text: 'WrapLayout', link: '//#' },
-  //           { text: 'AbsoluteLayout', link: '//#' },
-  //         ],
-  //       },
+              { text: 'AbsoluteLayout', link: '/guide/ui/absolute-layout' },
+          ],
+        },
   //       {
   //         text: 'Navigation Components',
   //         items: [
@@ -163,8 +163,8 @@ export default [
   //           { text: 'TextView', link: '//#' },
   //           { text: 'TimePicker', link: '//#' },
   //           { text: 'WevView', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Dialogs',
   //         items: [
