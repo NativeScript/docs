@@ -114,22 +114,22 @@ export default [
       },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
+    {
+      text: 'UI',
+      items: [
   //       { text: 'Styling', link: '//#' },
   //       { text: 'Interactivity', link: '//#' },
-  //       {
-  //         text: 'Layout Containers',
-  //         items: [
+        {
+          text: 'Layout Containers',
+          items: [
   //           { text: 'StackLayout', link: '//#' },
   //           { text: 'GridLayout', link: '//#' },
-  //           { text: 'RootLayout', link: '//#' },
+           { text: 'RootLayout', link: '/guide/ui/root-layout' },
   //           { text: 'FlexboxLayout', link: '//#' },
   //           { text: 'WrapLayout', link: '//#' },
   //           { text: 'AbsoluteLayout', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Navigation Components',
   //         items: [
@@ -175,8 +175,8 @@ export default [
   //           { text: 'PromptDialog', link: '//#' },
   //         ],
   //       },
-  //     ],
-  //   },
+      ],
+    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],
