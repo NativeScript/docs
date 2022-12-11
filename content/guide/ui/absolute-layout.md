@@ -10,7 +10,7 @@ The `<AbsoluteLayout>` container is the simplest layout container in NativeScrip
 - Doesn't enforce any layout constraints on its children.
 - Doesn't resize its children at runtime when its size changes.
 
-#### Example: a grid-like layout
+### Creating a simple grid-like layout
 
 The following example creates a simple grid. For more information about creating grid layouts, see [GridLayout](/ui-and-styling.html#gridlayout).
 
@@ -53,7 +53,7 @@ The following example creates a simple grid. For more information about creating
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/absolute_layout_grid.svg" />
 
-#### Example: Overlapping elements
+### Overlapping elements
 
 The following example creates a group of overlapping items.
 
@@ -80,14 +80,16 @@ The following example creates a group of overlapping items.
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/absolute_layout_overlap.svg" />
 
-#### Props
+## AbsoluteLayout Reference(s)
+
+### Props
 
 | Name           | Type        | Description                                                                                                                                 |
 | -------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | `N/A`          | `N/A`       | None.                                                                                                                                       |
 | `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/absolutelayout) |
 
-#### Additional children props
+### Children props
 
 When an element is a direct child of `<AbsoluteLayout>`, you can set the following additional properties.
 
