@@ -10,9 +10,9 @@ you will likely get better performance by switching to a `<GridLayout>` or `<Fle
 <!-- See [Layout Nesting](/common-pitfalls.html#layout-nesting) for more information. -->
 :::
 
-#### Example: Default stacking
+## Vertical stacking
 
-The following example creates a vertical stack of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
+By default, `<StackLayout>` stacks its child items vertically.  The following example creates a vertical stack of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
 
 ```html
 <StackLayout backgroundColor="#3c495e">
@@ -24,21 +24,9 @@ The following example creates a vertical stack of 3 equally-sized elements. Item
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_vertical.svg" />
 
-#### Example: Horizontal stacking
+### Stack layout with horizontally aligned children
 
-The following example creates a horizontal stack of 3 equally-sized elements. Items are stretched to cover the entire height of the screen. Items are placed in the order they were declared in.
-
-```html
-<StackLayout orientation="horizontal" backgroundColor="#3c495e">
-  <label text="first" width="70" backgroundColor="#43b883" />
-  <label text="second" width="70" backgroundColor="#289062" />
-  <label text="third" width="70" backgroundColor="#1c6b48" />
-</StackLayout>
-```
-
-<img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_horizontal.svg" />
-
-#### Example: Stack layout with horizontally aligned children
+ To align a child element horizontally in a `StackLayout` with `orientation='vertical'`, use the child's `horizontalAlignment` property.
 
 The following example creates a diagonal stack of items with responsive sizes. Items are vertically stacked.
 
@@ -76,9 +64,26 @@ The following example creates a diagonal stack of items with responsive sizes. I
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_vertical_align_children.svg" />
 
-#### Example: Horizontal stack layout with vertically aligned children
+## Horizontal stacking
 
-The following example creates a diagonal stack of items with responsive sizes. Items are horizontally stacked.
+To stack items horizontally, set `StackLayout`'s `orientation` to `horizontal`.
+
+The following example creates a horizontal stack of 3 equally-sized elements. Items are stretched to cover the entire height of the screen. Items are placed in the order they were declared in.
+
+```html
+<StackLayout orientation="horizontal" backgroundColor="#3c495e">
+  <label text="first" width="70" backgroundColor="#43b883" />
+  <label text="second" width="70" backgroundColor="#289062" />
+  <label text="third" width="70" backgroundColor="#1c6b48" />
+</StackLayout>
+```
+
+<img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_horizontal.svg" />
+
+### Horizontal stack layout with vertically aligned children
+
+To align a child element vertically in a `StackLayout` with `orientation='horizontal'` use the child's `verticalAlignment` property.
+The following example creates a diagonal stack of items with responsive sizes. 
 
 ```html
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
@@ -114,13 +119,15 @@ The following example creates a diagonal stack of items with responsive sizes. I
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_horizontal_align_children.svg" />
 
-#### Props
+## StackLayout Reference(s)
+
+### Props
 
 | Name           | Type        | Description                                                                                                                              |
 | -------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | `orientation`  | `String`    | Specifies the stacking direction.<br/>Valid values: `vertical` and `horizontal`.<br/>Default value: `vertical`.                          |
 | `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/stacklayout) |
 
-#### Additional children props
+### Children props
 
 None.
