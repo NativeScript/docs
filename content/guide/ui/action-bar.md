@@ -407,51 +407,6 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// -->
 
-## Removing the border from ActionBar
-
-By default, a border is drawn at the bottom of the `<ActionBar>`. In addition to the border, on iOS devices a translucency filter is also applied over the `<ActionBar>`.
-
-To remove this styling from your app, you can set the `flat` property to `true`.
-
-<!-- /// flavor vue
-
-```html
-<ActionBar title="ActionBar Title" flat="true" />
-```
-
-///
-
-/// flavor svelte
-
-```html
-<actionBar title="ActionBar Title" flat="true" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-<actionBar title="ActionBar Title" flat={true} />
-```
-
-///
-
-/// flavor plain -->
-
-```html
-<ActionBar title="ActionBar Title" flat="true" />
-```
-<!-- 
-///
-
-/// flavor angular
-
-```html
-<ActionBar title="ActionBar Title" flat="true"> </ActionBar>
-```
-
-/// -->
 
 ## Styling ActionBar
 
@@ -509,6 +464,52 @@ To style the `<ActionBar>`, you can use only `background-color` and `color` prop
 :::warning Note
 In iOS, the color property affects the color of the title and the action items. In Android, the color property affects only the title text. However, you can set the default color of the text in the action items by adding an `actionMenuTextColor` item in the Android theme (inside `App_Resources\Android\values\styles.xml`).
 :::
+
+### Removing the border from ActionBar
+
+By default, a border is drawn at the bottom of the `<ActionBar>`. In addition to the border, on iOS devices a translucency filter is also applied over the `<ActionBar>`.
+
+To remove this styling from your app, you can set the `flat` property to `true`.
+
+<!-- /// flavor vue
+
+```html
+<ActionBar title="ActionBar Title" flat="true" />
+```
+
+///
+
+/// flavor svelte
+
+```html
+<actionBar title="ActionBar Title" flat="true" />
+```
+
+///
+
+/// flavor react
+
+```tsx
+<actionBar title="ActionBar Title" flat={true} />
+```
+
+///
+
+/// flavor plain -->
+
+```html
+<ActionBar title="ActionBar Title" flat="true" />
+```
+<!-- 
+///
+
+/// flavor angular
+
+```html
+<ActionBar title="ActionBar Title" flat="true"> </ActionBar>
+```
+
+/// -->
 
 ## Reference(s)
 
