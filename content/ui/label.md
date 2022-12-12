@@ -1,7 +1,7 @@
 ---
 title: Label
 ---
-
+<!-- TODO: Add flavors -->
 `<Label>` is a UI component that displays read-only text.
 
 ::: warning  :orange_circle: Note
