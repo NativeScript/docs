@@ -114,9 +114,9 @@ export default [
       },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
+    {
+      text: 'UI',
+      items: [
   //       { text: 'Styling', link: '//#' },
   //       { text: 'Interactivity', link: '//#' },
   //       {
@@ -140,11 +140,11 @@ export default [
   //           { text: 'NavigationButton', link: '//#' },
   //         ],
   //       },
-  //       {
-  //         text: 'Components',
-  //         items: [
+        {
+          text: 'Components',
+          items: [
   //           { text: 'ActivityIndicator', link: '//#' },
-  //           { text: 'Button', link: '//#' },
+            { text: 'Button', link: '/guide/ui/button' },
   //           { text: 'DatePicker', link: '//#' },
   //           { text: 'HtmlView', link: '//#' },
   //           { text: 'Image', link: '/' },
@@ -163,8 +163,8 @@ export default [
   //           { text: 'TextView', link: '//#' },
   //           { text: 'TimePicker', link: '//#' },
   //           { text: 'WevView', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Dialogs',
   //         items: [
@@ -175,8 +175,8 @@ export default [
   //           { text: 'PromptDialog', link: '//#' },
   //         ],
   //       },
-  //     ],
-  //   },
+      ],
+    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],
