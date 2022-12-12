@@ -144,9 +144,9 @@ export default [
       //           { text: 'NavigationButton', link: '//#' },
       //         ],
       //       },
-      //       {
-      //         text: 'Components',
-      //         items: [
+            {
+              text: 'Components',
+              items: [
       //           { text: 'ActivityIndicator', link: '//#' },
       //           { text: 'Button', link: '//#' },
       //           { text: 'DatePicker', link: '//#' },
@@ -155,7 +155,7 @@ export default [
       //           { text: 'Label', link: '//#' },
       //           { text: 'ListPicker', link: '//#' },
       //           { text: 'ListView', link: '//#' },
-      //           { text: 'Placeholder', link: '//#' },
+                { text: 'Placeholder', link: '/ui/placeholder' },
       //           { text: 'Progress', link: '//#' },
       //           { text: 'ScrollView', link: '//#' },
       //           { text: 'SearchBar', link: '//#' },
@@ -179,8 +179,8 @@ export default [
   //           { text: 'PromptDialog', link: '//#' },
   //         ],
   //       },
-  //     ],
-  //   },
+      ],
+    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],
