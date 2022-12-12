@@ -114,9 +114,9 @@ export default [
       },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
+    {
+      text: 'UI',
+      items: [
   //       { text: 'Styling', link: '//#' },
   //       { text: 'Interactivity', link: '//#' },
   //       {
@@ -130,16 +130,16 @@ export default [
   //           { text: 'AbsoluteLayout', link: '//#' },
   //         ],
   //       },
-  //       {
-  //         text: 'Navigation Components',
-  //         items: [
+        {
+          text: 'Navigation',
+          items: [
   //           { text: 'Frame', link: '//#' },
   //           { text: 'Page', link: '//#' },
-  //           { text: 'ActionBar', link: '//#' },
+              { text: 'ActionBar', link: '/guide/ui/action-bar' },
   //           { text: 'ActionItem', link: '//#' },
   //           { text: 'NavigationButton', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Components',
   //         items: [
@@ -163,8 +163,8 @@ export default [
   //           { text: 'TextView', link: '//#' },
   //           { text: 'TimePicker', link: '//#' },
   //           { text: 'WevView', link: '//#' },
-  //         ],
-  //       },
+          ],
+        },
   //       {
   //         text: 'Dialogs',
   //         items: [
