@@ -6,7 +6,7 @@ title: Image
 
 <!-- TODO: fix links -->
 
-::: tip Tip
+::: tip :green_circle: Tip
 When working with images following [the best practices](/performance.html#image-optimizations) is a must.
 :::
 
@@ -98,7 +98,7 @@ When working with images following [the best practices](/performance.html#image-
 
 ###  Displaying an image from a URL
 
-:::tip Note
+:::tip :green_circle: Note
 
 Setting `loadMode` to `async` will prevent freezing the UI on Android when loading photos async (e.g. from online API)
 
