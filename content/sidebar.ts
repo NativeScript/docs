@@ -124,7 +124,7 @@ export default [
           items: [
   //           { text: 'StackLayout', link: '//#' },
   //           { text: 'GridLayout', link: '//#' },
-           { text: 'RootLayout', link: '/guide/ui/root-layout' },
+           { text: 'RootLayout', link: '/ui/root-layout' },
   //           { text: 'FlexboxLayout', link: '//#' },
   //           { text: 'WrapLayout', link: '//#' },
   //           { text: 'AbsoluteLayout', link: '//#' },
