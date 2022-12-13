@@ -144,92 +144,93 @@ export default [
       //           { text: 'NavigationButton', link: '//#' },
       //         ],
       //       },
+      {
+        text: 'Components',
+        items: [
+          //           { text: 'ActivityIndicator', link: '//#' },
+          //           { text: 'Button', link: '//#' },
+          //           { text: 'DatePicker', link: '//#' },
+          //           { text: 'HtmlView', link: '//#' },
+          //           { text: 'Image', link: '/' },
+          //           { text: 'Label', link: '//#' },
+          //           { text: 'ListPicker', link: '//#' },
+          //           { text: 'ListView', link: '//#' },
+          //           { text: 'Placeholder', link: '//#' },
+          //           { text: 'Progress', link: '//#' },
+                    { text: 'Repeater', link: '/ui/repeater' },
+          //           { text: 'ScrollView', link: '//#' },
+          //           { text: 'SearchBar', link: '//#' },
+          //           { text: 'SegmentedBar', link: '//#' },
+          //           { text: 'Slider', link: '//#' },
+          //           { text: 'Switch', link: '//#' },
+          //           { text: 'TabView', link: '//#' },
+          //           { text: 'TextField', link: '//#' },
+          //           { text: 'TextView', link: '//#' },
+          //           { text: 'TimePicker', link: '//#' },
+          //           { text: 'WevView', link: '//#' },
+        ],
+      },
       //       {
-      //         text: 'Components',
+      //         text: 'Dialogs',
       //         items: [
-      //           { text: 'ActivityIndicator', link: '//#' },
-      //           { text: 'Button', link: '//#' },
-      //           { text: 'DatePicker', link: '//#' },
-      //           { text: 'HtmlView', link: '//#' },
-      //           { text: 'Image', link: '/' },
-      //           { text: 'Label', link: '//#' },
-      //           { text: 'ListPicker', link: '//#' },
-      //           { text: 'ListView', link: '//#' },
-      //           { text: 'Placeholder', link: '//#' },
-      //           { text: 'Progress', link: '//#' },
-      //           { text: 'ScrollView', link: '//#' },
-      //           { text: 'SearchBar', link: '//#' },
-      //           { text: 'SegmentedBar', link: '//#' },
-      //           { text: 'Slider', link: '//#' },
-      //           { text: 'Switch', link: '//#' },
-      //           { text: 'TabView', link: '//#' },
-      //           { text: 'TextField', link: '//#' },
-      //           { text: 'TextView', link: '//#' },
-      //           { text: 'TimePicker', link: '//#' },
-      //           { text: 'WevView', link: '//#' },
-    ],
-  },
-  //       {
-  //         text: 'Dialogs',
-  //         items: [
-  //           { text: 'ActionDialog', link: '//#' },
-  //           { text: 'AlertDialog', link: '//#' },
-  //           { text: 'ConfirmDialog', link: '//#' },
-  //           { text: 'LoginDialog', link: '//#' },
-  //           { text: 'PromptDialog', link: '//#' },
-  //         ],
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     text: 'Diving Deeper',
-  //     items: [{ text: 'Architecture concepts', link: '//#' }],
-  //   },
-  // {
-  //   text: 'UI & Styling',
-  //   items: [
-  //     {
-  //       text: 'UI & Styling',
-  //       link: '//#',
-  //     },
-  //     { text: 'Interaction', link: '//#' },
-  //   ],
-  // },
-  // {
-  //   text: 'Networking & Security',
-  //   items: [
-  //     { text: 'Networking', link: '//#' },
-  //     {
-  //       text: 'Security (Nathanael)',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: 'Performance',
-  //   items: [{ text: 'Performance', link: '//#' }],
-  // },
+      //           { text: 'ActionDialog', link: '//#' },
+      //           { text: 'AlertDialog', link: '//#' },
+      //           { text: 'ConfirmDialog', link: '//#' },
+      //           { text: 'LoginDialog', link: '//#' },
+      //           { text: 'PromptDialog', link: '//#' },
+      //         ],
+      //       },
+          ],
+        },
+      //   {
+      //     text: 'Diving Deeper',
+      //     items: [{ text: 'Architecture concepts', link: '//#' }],
+      //   },
+      // {
+      //   text: 'UI & Styling',
+      //   items: [
+      //     {
+      //       text: 'UI & Styling',
+      //       link: '//#',
+      //     },
+      //     { text: 'Interaction', link: '//#' },
+      //   ],
+      // },
+      // {
+      //   text: 'Networking & Security',
+      //   items: [
+      //     { text: 'Networking', link: '//#' },
+      //     {
+      //       text: 'Security (Nathanael)',
+      //       link: '//#',
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: 'Performance',
+      //   items: [{ text: 'Performance', link: '//#' }],
+      // },
 
-  // {
-  //   text: 'Distribution',
-  //   items: [
-  //     {
-  //       text: 'Releasing your app',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: 'Troubleshooting',
-  //   items: [
-  //     {
-  //       text: 'Common Issues',
-  //       link: '//#',
-  //     },
-  //     {
-  //       text: 'Common Pitfalls',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-] as NSSidebarGroup[]
+      // {
+      //   text: 'Distribution',
+      //   items: [
+      //     {
+      //       text: 'Releasing your app',
+      //       link: '//#',
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: 'Troubleshooting',
+      //   items: [
+      //     {
+      //       text: 'Common Issues',
+      //       link: '//#',
+      //     },
+      //     {
+      //       text: 'Common Pitfalls',
+      //       link: '//#',
+      //     },
+      //   ],
+      // },
+    ] as NSSidebarGroup[]
