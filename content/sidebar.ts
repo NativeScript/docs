@@ -143,7 +143,7 @@ export default [
         {
           text: 'Components',
           items: [
-            { text: 'ActivityIndicator', link: '/guide/ui/activity-indicator' },
+            { text: 'ActivityIndicator', link: '/ui/activity-indicator' },
   //           { text: 'Button', link: '//#' },
   //           { text: 'DatePicker', link: '//#' },
   //           { text: 'HtmlView', link: '//#' },
