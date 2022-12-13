@@ -114,7 +114,7 @@ export default [
     items: [
       {
         text: 'Gestures',
-        link: '/guide/ui/gestures',
+        link: '/ui/gestures',
       },
   //       {
   //         text: 'Layout Containers',
