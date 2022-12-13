@@ -114,7 +114,7 @@ export default [
     items: [
       {
         text: 'Dialogs',
-        link: '/guide/ui/dialogs',
+        link: '/ui/dialogs',
       },
   //       {
   //         text: 'Layout Containers',
