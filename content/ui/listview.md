@@ -2,7 +2,7 @@
 title: ListView
 ---
 <!-- TODO: Add flavors -->
-`<ListView>` is a UI component that shows items in a vertically scrolling list. To set how the list shows individual items, you can use the `<v-template>` component. Using a ListView requires some special attention due to the complexity of the native implementations, with custom item templates, bindings and so on.
+`<ListView>` is a UI component that shows items in a vertically scrolling list. To set how the list shows individual items, you can use a `template` component,e.g `<ListView.itemTemplate>` for plain JS. Using a ListView requires some special attention due to the complexity of the native implementations, with custom item templates, bindings and so on.
 
 The NativeScript modules provides a custom component which simplifies the way native ListView is used.
 
