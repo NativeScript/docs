@@ -135,7 +135,7 @@ export default [
           items: [
   //           { text: 'Frame', link: '//#' },
   //           { text: 'Page', link: '//#' },
-              { text: 'ActionBar', link: '/guide/ui/action-bar' },
+              { text: 'ActionBar', link: '/ui/action-bar' },
   //           { text: 'ActionItem', link: '//#' },
   //           { text: 'NavigationButton', link: '//#' },
           ],
