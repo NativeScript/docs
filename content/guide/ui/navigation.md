@@ -14,30 +14,31 @@ To navigate to a page, first get the desired Frame instance. Then  for a simple 
 frame.navigate("~/pages/details/details-page")
 ```
 
-The following are some of the ways to obtain an intance of the Frame class:
+:::tip Note
+For a complete navigation example, have a look at [Setup navigation from home to details component](/tutorials/build-a-master-detail-app-with-plain-typescript#setup-navigation-from-home-to-details-component).
+:::
+
+### Getting a Frame instance
+
+The following are some of the ways to obtain an instance of the Frame class:
 
 - `Frame.topmost()` returns the top Frame in the frames stack.
 ```ts
 const frame: Frame = Frame.topmost();
 ```
-- `page.frame` via the `frame` property of a [Page]() instance.
-You can use the option in a [tap]() event handler, for example:
+- `page.frame` via the `frame` property of a [Page](/ui/page) instance.
+For example, you can get the current Frame instance from a `tap` event data:
 
 ```ts
 onFlickTap(args: EventData): void {
     const btn = args.object as Button;
-    const page = btn.page. 
-    page.frame.navigate('details/details-page')
+    const frame = btn.page.frame
   }
 ```
 - `Frame.getFrameById(frame-id)` a frame with a specific id.
 ```ts
-rame.getFrameById("frame-id").navigate('details/details-page')
+const frame = Frame.getFrameById("frame-id")
 ```
-
-:::tip Note
-For a complete real life navigation example, have a look at [Setup navigation from home to details component](/tutorials/build-a-master-detail-app-with-plain-typescript#setup-navigation-from-home-to-details-component)
-:::
 
 ### Navigating Back
 To navigate back to the previous page, use the [goBack()](#goback) method of the Frame instance.
