@@ -134,16 +134,16 @@ export default [
           { text: 'AbsoluteLayout', link: '/ui/absolute-layout' },
         ],
       },
-      //       {
-      //         text: 'Navigation Components',
-      //         items: [
+            {
+              text: 'Navigation',
+              items: [
       //           { text: 'Frame', link: '//#' },
-      //           { text: 'Page', link: '//#' },
+                { text: 'Page', link: '/ui/page' },
       //           { text: 'ActionBar', link: '//#' },
       //           { text: 'ActionItem', link: '//#' },
       //           { text: 'NavigationButton', link: '//#' },
-      //         ],
-      //       },
+              ],
+            },
       //       {
       //         text: 'Components',
       //         items: [
