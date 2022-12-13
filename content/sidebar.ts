@@ -125,7 +125,7 @@ export default [
   //           { text: 'StackLayout', link: '//#' },
   //           { text: 'GridLayout', link: '//#' },
   //           { text: 'RootLayout', link: '//#' },
-            { text: 'FlexboxLayout', link: '/guide/ui/flexbox-layout' },
+            { text: 'FlexboxLayout', link: '/ui/flexbox-layout' },
   //           { text: 'WrapLayout', link: '//#' },
   //           { text: 'AbsoluteLayout', link: '//#' },
           ],
