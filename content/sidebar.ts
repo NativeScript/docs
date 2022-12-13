@@ -114,7 +114,7 @@ export default [
   items: [
     {
       text: 'Animations',
-      link: '/guide/ui/animations',
+      link: '/ui/animations',
     },
   //       {
   //         text: 'Layout Containers',
