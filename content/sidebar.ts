@@ -114,7 +114,7 @@ export default [
     items: [
       {
         text: 'Accessibility',
-        link: '/guide/ui/accessibility',
+        link: '/ui/accessibility',
       },
   //       {
   //         text: 'Layout Containers',
