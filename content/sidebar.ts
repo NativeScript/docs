@@ -123,7 +123,7 @@ export default [
           text: 'Layout Containers',
           items: [
   //           { text: 'StackLayout', link: '//#' },
-            { text: 'GridLayout', link: '/guide/ui/grid-layout' },
+            { text: 'GridLayout', link: '/ui/grid-layout' },
   //           { text: 'RootLayout', link: '//#' },
   //           { text: 'FlexboxLayout', link: '//#' },
   //           { text: 'WrapLayout', link: '//#' },
