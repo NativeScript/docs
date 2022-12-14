@@ -58,9 +58,14 @@ export class BasicSwitchComponent {
 /// flavor vue
 
 ```html
-<Switch checked="true" />
+<Switch checked="true" @checkedChange="onCheckedChange"/>
 ```
-
+```ts
+onCheckedChange(args: PropertyChangeData) {
+      
+    console.log(args.value)
+}
+```
 `<Switch>`provides two-way data binding using `v-model`.
 
 ```html
