@@ -90,7 +90,10 @@ export class BasicSwitchComponent {
 ```
 
 /// -->
-
+### Styling Switch
+```xml
+<Switch checked="true" loaded="onSwitchLoaded"  color="#BFCDAC" backgroundColor="green" offBackgroundColor="#DC493D"/>
+```
 ## Switch Reference(s)
 
 ### Props
@@ -98,9 +101,9 @@ export class BasicSwitchComponent {
 | Name           | Type        | Description                                                                                                                         |
 | -------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | `checked`      | `Boolean`   | Gets or sets the value of the switch selection.<br/>Default value: `false`.                                                         |
+| `offBackgroundColor` | `Color` | 	Gets or sets the off-state color.|
 | `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/switch) |
 
-<!-- TODO: fix links -->
 
 ### Events
 
