@@ -253,9 +253,16 @@ returnKeyType: CoreTypes.ReturnKeyType = textField.returnKeyType
 Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://docs.nativescript.org/api-reference/modules/coretypes.returnkeytype) for available values.
 
 ---
-### maxLength
----
-### secure
+
+### maxLines
+```xml
+<TextView maxLines="2" />
+```
+```ts
+textField.maxLines = 2
+```
+Limits input to a certain number of lines.
+
 ---
 ### autocorrect
 ```xml
@@ -271,7 +278,7 @@ Enables or disables autocorrect.
 ---
 
 ### Inherited  props
-                                                                   For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textview) 
+For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textview) 
 
 ### Events
 
