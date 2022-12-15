@@ -1,0 +1,170 @@
+---
+title: WebView
+---
+
+`<WebView>` is a UI component that lets you show web content in your app. You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
+
+See also: [HtmlView](/ui/htmlview).
+
+---
+
+<!-- /// flavor plain -->
+
+```xml
+<WebView row="1" loaded="onWebViewLoaded" id="myWebView" src="{{ webViewSrc }}" />
+```
+
+<!-- ///
+
+/// flavor angular
+
+```html
+<WebView
+  [src]="webViewSrc"
+  (loadStarted)="onLoadStarted($event)"
+  (loadFinished)="onLoadFinished($event)"
+>
+</WebView>
+```
+
+///
+
+/// flavor vue
+
+```html
+<WebView src="http://nativescript-vue.org/" />
+
+<WebView src="~/html/index.html" />
+
+<WebView src="<div><h1>Some static HTML</h1></div>" />
+```
+
+///
+
+/// flavor svelte
+
+```html
+<webView src="http://nativescript.org/" />
+
+<webView src="~/html/index.html" />
+
+<webView src="<div><h1>Some static HTML</h1></div>" />
+```
+
+///
+
+/// flavor react
+
+```tsx
+<webView src="http://nativescript.org/" />
+
+<webView src="~/html/index.html" />
+
+<webView src="<div><h1>Some static HTML</h1></div>" />
+```
+
+/// -->
+
+::: tip Tip
+To be able to use gestures in WebView component on Android, we should first disabled the zoom control. To do that we could access the android property and with the help of setDisplayZoomControls to set this control to false.
+:::
+
+## Props
+### src
+
+```xml
+<WebView />
+```
+```ts
+webView.src = "someContent"
+```
+Gets or sets the web content to be displayed.Valid values: 
+- an absolute URL,
+- the path to a local HTML file, 
+- or static HTML.   
+
+---
+### canGoBack
+```ts
+canGoBack: boolean = webView.canGoBack
+```
+Gets a value indicating whether the WebView can navigate back.
+
+---
+### canGoForward
+```ts
+canGoForward: boolean = webView.canGoForward
+```
+
+Gets a value indicating whether the WebView can navigate forward.
+
+---
+### disableZoom
+```ts
+webView.disableZoom = true
+```
+Disable scrolling in the WebView.
+
+---
+### iosAllowInlineMediaPlayback
+```ts
+webView.iosAllowInlineMediaPlayback = true
+```
+Enables inline media playback on iOS. By default, webview forces iPhone into fullscreen media playback. 
+
+---
+
+### stopLoading()
+```ts
+webView.stopLoading()
+```
+
+Stops loading the current content (if any).
+
+---
+### goBack()
+```ts
+webView.goBack()
+```
+
+Navigates back.
+
+---
+### goForward()
+```ts
+webView.goForward()
+```
+
+Navigates forward.
+
+---
+
+### reload()
+```ts
+webView.reload()
+```
+Reloads the current url.
+
+---
+### Inherited 
+For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/webview) 
+
+
+## Events
+
+### loadStarted
+
+Emitted when the page has started loading in the `<WebView>`.
+
+---
+### loadFinished
+
+Emitted when the page has finished loading in the `<WebView>`.
+
+---
+
+### Native component
+
+| Android                                                                                    | iOS                                                                       |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| [`android.webkit.WebView`](https://developer.android.com/reference/android/webkit/WebView) | [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview) |

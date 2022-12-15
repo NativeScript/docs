@@ -144,9 +144,9 @@ export default [
       //           { text: 'NavigationButton', link: '//#' },
       //         ],
       //       },
-      //       {
-      //         text: 'Components',
-      //         items: [
+            {
+              text: 'Components',
+              items: [
       //           { text: 'ActivityIndicator', link: '//#' },
       //           { text: 'Button', link: '//#' },
       //           { text: 'DatePicker', link: '//#' },
@@ -166,7 +166,7 @@ export default [
       //           { text: 'TextField', link: '//#' },
       //           { text: 'TextView', link: '//#' },
       //           { text: 'TimePicker', link: '//#' },
-      //           { text: 'WevView', link: '//#' },
+                { text: 'WebView', link: '/ui/webview' },
     ],
   },
   //       {
@@ -179,8 +179,8 @@ export default [
   //           { text: 'PromptDialog', link: '//#' },
   //         ],
   //       },
-  //     ],
-  //   },
+      ],
+    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],
