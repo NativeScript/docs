@@ -2,11 +2,11 @@
 title: Data Binding in NativeScript
 ---
 
-_Data Binding_ refers to a connection (_binding_) and data flow between _Data Model_ (Model) and _User Interface_ (UI).
+_Data Binding_ refers to a connection (_binding_) and data flow between _ViewModel_ (Model) and _User Interface_ (UI).
 
 It gets activated through three steps:
 
-1. Create a Data Model(let's call it DataModel) class extending the `Observable` class
+1. Create a ViewModel(let's call it DataModel) class extending the `Observable` class
 2. Make DataModel available to the UI by setting `page.bindingContext` = `new DataModel()`
 3. Using the mustach syntax ({{ }} ), bind the UI components properties to the members of the `DataModel` instance.
 
@@ -205,7 +205,7 @@ Special characters need to be escaped as follows:
 
 ## Using data converters
 
-Often data within Data Model is stored in a way that is optimized for best performance of tasks like search, replace and so on. Unfortunately, the way computers store data differs a lot with a human readable format. Probably the best example is the `Date` object. In JavaScript, Date actually is a very big number that represents milliseconds from `01.01.1970` which does not speak much to any human. Here comes the use of data converters which basically are functions that formats the data (from Model) in a human readable format (display in UI). 
+Often data within ViewModel is stored in a way that is optimized for best performance of tasks like search, replace and so on. Unfortunately, the way computers store data differs a lot with a human readable format. Probably the best example is the `Date` object. In JavaScript, Date actually is a very big number that represents milliseconds from `01.01.1970` which does not speak much to any human. Here comes the use of data converters which basically are functions that formats the data (from Model) in a human readable format (display in UI). 
 
  <!-- TODO: Add SB+Preview -->
 
