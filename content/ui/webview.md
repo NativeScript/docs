@@ -70,15 +70,24 @@ To be able to use gestures in WebView component on Android, we should first disa
 :::
 
 ## Props
+
 ### src
 
 ```xml
-<WebView />
+<WebView src="http://nativescript-vue.org/" />
+
+<WebView src="~/html/index.html" />
+
+<WebView src="<div><h1>Some static HTML</h1></div>" />
 ```
 ```ts
-webView.src = "someContent"
+webView.src = "http://nativescript-vue.org/" 
+//or
+webView.src = "~/html/index.html" 
+//or
+webView.src = "<div><h1>Some static HTML</h1></div>"
 ```
-Gets or sets the web content to be displayed.Valid values: 
+Gets or sets the web content to be displayed. Valid values: 
 - an absolute URL,
 - the path to a local HTML file, 
 - or static HTML.   
@@ -107,10 +116,13 @@ Disable scrolling in the WebView.
 
 ---
 ### iosAllowInlineMediaPlayback
+```xml
+<WebView src="https://docs.nativescript.org/" iosAllowInlineMediaPlayback="true"/>
+```
 ```ts
 webView.iosAllowInlineMediaPlayback = true
 ```
-Enables inline media playback on iOS. By default, webview forces iPhone into fullscreen media playback. 
+(`iOS only`) Enables inline media playback on iOS. By default, webview forces iPhone into fullscreen media playback. 
 
 ---
 
@@ -153,13 +165,36 @@ For additional inherited properties not shown, refer to the [API Reference](http
 ## Events
 
 ### loadStarted
+```xml
+<WebView src="https://docs.nativescript.org/" loadStarted="onLoadStarted"/>
+```
 
-Emitted when the page has started loading in the `<WebView>`.
+```ts
+export function onLoadStarted(args) {
+  const webView = args.object as WebView
+  
+  console.log("Can go back? ", Object.keys(args))
+  console.log("Can go forward? ", webView.canGoForward)
+}
+```
+
+Emitted when the page has started loading in the `<WebView>`. The event data is of [LoadEventData](https://docs.nativescript.org/api-reference/interfaces/loadeventdata) type.
 
 ---
 ### loadFinished
+```xml
+<WebView src="https://docs.nativescript.org/" loadFinished="onLoadFinished"/>
+```
 
-Emitted when the page has finished loading in the `<WebView>`.
+```ts
+export function onLoadFinished(args) {
+  const webView = args.object as WebView
+  
+  console.log("Can go back? ", Object.keys(args))
+  console.log("Can go forward? ", webView.canGoForward)
+}
+```
+Emitted when the page has finished loading in the `<WebView>`. The event data is of [LoadEventData](https://docs.nativescript.org/api-reference/interfaces/loadeventdata) type.
 
 ---
 
