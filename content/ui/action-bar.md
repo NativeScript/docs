@@ -511,46 +511,136 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// -->
 
-## Reference(s)
+##  Props
+### title
 
-### Properties
+```ts
+actionBar.title = "About"
+```
+Gets or sets the action bar title.  
 
-#### ActionBar Properties
+---
+### titleView
+```ts
+actionBar.titleView = customView
+```
+Replaces the title property with the custom [View](https://docs.nativescript.org/api-reference/classes/view) instance.
 
-| Name                   | Type                                                             | Description                                                                                                                                                                                   |
-| :--------------------- | :--------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `title`                | `string`                                                         | Gets or sets the action bar title.                                                                                                                                                            |
-| `titleView`            | [View](https://docs.nativescript.org/api-reference/classes/view) | Gets or sets the title view. When set - replaces the title with a custom view.                                                                                                                |
-| `flat`                 | `boolean`                                                        | Removes the border on Android and the translucency on iOS. Default value is `false`.                                                                                                          |
-| `navigationButton`     | `NavigationButton`                                               | Gets or sets the navigation button (a.k.a. the back button).                                                                                                                                  |
-| `actionItems`          | `ActionItems`                                                    | Gets the collection of action items.                                                                                                                                                          |
-| `android`              | `AndroidActionBarSettings`                                       | Gets the android specific options of the action bar.                                                                                                                                          |
-| `ios`                  | `UINavigationBar`                                                | Gets the native iOS [UINavigationBar](https://developer.apple.com/documentation/uikit/uinavigationbar) that represents the user interface for this component. Valid only when running on iOS. |
-| `iosIconRenderingMode` | `'automatic' \| 'alwaysOriginal' \| 'alwaysTemplate'`            | Gets or set the UIImageRenderingMode of the action bar icons in iOS. Defaults to "alwaysOriginal"                                                                                             |
-|  |
+---
+### flat
+```xml
+<ActionBar title="My App" flat="true" />
+```
+```ts
+actionBar.flat = true
+//or
+isFlat: boolean = actionBar.flat
+```
+Removes the border on Android and the translucency on iOS. Default value is `false`.  
 
-### ActionItem Properties
+---
+### navigationButton
+```ts
+navigationButton: NavigationButton  = actionBar.navigationButton
+//or
+navigationButton = new NavigationButton() 
+actionBar.navigationButton = navigationButton
+```
+Gets or sets the navigation button (back button). 
 
-| Name                 | Type                                            | Description                                                                                                                                                           |
-| :------------------- | :---------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `text`               | `string`                                        | Gets or sets the text of the action item.                                                                                                                             |
-| `icon`               | `string`                                        | Gets or sets the icon of the action item. Supports local images (`~/`), resources (`res://`) and icon fonts (`fonts://`)                                              |
-| `ios.position`       | `enum`: `left`, `right`                         | Sets the position of the item (default value is `left`).                                                                                                              |
-| `android.position`   | `enum`: `actionBar`, `popup`, `actionBarIfRoom` | Sets the position of the item (default value is `actionBar`).                                                                                                         |
-| `ios.systemIcon`     | `number`                                        | **iOS only** Sets the icon of the action item while using [UIBarButtonSystemIcon](https://developer.apple.com/documentation/uikit/uibarbuttonsystemitem) enumeration. |
-| `android.systemIcon` | `string`                                        | **Android only** Sets a path to a resource icon ( see the [list of Android system drawables](https://developer.android.com/reference/android/R.drawable))             |
-| `actionBar`          | `ActionBar`                                     | Gets the action bar that contains the action item.                                                                                                                    |
-| `ios`                | `IOSActionItemSettings`                         | Gets the iOS specific options of the action item.                                                                                                                     |
-| `android`            | `AndroidActionItemSettings`                     | Gets the Android specific options of the action item.                                                                                                                 |
+---
+### actionItems
+```ts
+actionItems: ActionItems = actionBar.actionItems
+```
+Gets the collection of action items.
 
-### NavigationButton Properties
+---
+### iosIconRenderingMode
+```ts
+actionBar.iosIconRenderingMode
+```
+ Gets or set the [UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode) of the action bar icons in iOS. Defaults to `alwaysOriginal`. Available values:
+ - `automatic`       
+ - `alwaysTemplate`
+ - `automatic`                                                               
 
-| Name   | Type     | Description                               |
-| :----- | :------- | :---------------------------------------- |
-| `text` | `string` | Gets or sets the text of the action item. |
-| `icon` | `string` | Gets or sets the icon of the action item. |
+---
 
-### Events
+## ActionItem Properties
+### text
+```xml
+<ActionItem text="John Doe"/>
+```
+Gets or sets the text of the action item.        
+
+---
+
+### icon
+```xml
+<ActionItem icon="~/assets/images/cat.jpeg"/>
+```
+Gets or sets the icon of the action item. Supports local images (`~/`), resources (`res://`) and fonts icons (`fonts://`)
+
+---
+### ios.position
+```xml
+<ActionItem ios.position="right">
+```
+Sets the position of the item. Avaibable values: `left` or `right`. Defaults to `left`.
+
+---
+### android.position
+```xml
+<ActionItem android.position="popup">
+```
+Sets the position of the item. Avaibable values: ``enum`: `actionBar`, `popup`, `actionBarIfRoom`. Defaults to `actionBar`.
+
+---
+### ios.systemIcon
+```xml
+<ActionItem ios.systemIcon="4">
+```
+Sets the icon of the action item while using [UIBarButton.SystemIcon](https://developer.apple.com/documentation/uikit/uibarbuttonsystemitem) enumeration.
+
+---
+### android.systemIcon
+```xml
+<ActionItem android.systemIcon="btn_plus">
+```
+Sets a path to a resource icon ( see the [list of Android system drawables](https://developer.android.com/reference/android/R.drawable)) 
+
+---
+### actionBar
+```ts
+actionBar: ActionBar = actionItem.actionBar
+```
+Gets the action bar that contains the action item.   
+
+---
+
+## NavigationButton Props
+### text
+```xml
+<NavigationButton text="Back" />
+```
+Gets or sets the text of the button.
+
+---
+### icon
+```xml
+<NavigationButton icon="~/assets/go-back-left-arrow-64x64.png"/>
+```
+```ts
+navigationButton.icon = "~/assets/go-back-left-arrow-64x64.png"
+//or
+iconFile: string = navigationButton.icon
+```
+Gets or sets the icon of the action item.
+
+---
+
+## Events
 
 | Name            | Description                                                                |
 | :-------------- | :------------------------------------------------------------------------- |
