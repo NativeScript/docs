@@ -7,6 +7,7 @@ title: DatePicker
 
 See also: [TimePicker](/ui/timepicker).
 
+---
 <!-- /// flavor plain -->
 
 ```xml
@@ -155,26 +156,112 @@ import { EventData } from '@nativescript/core'
 
 /// -->
 
-## DatePicker Reference(s)
+## Props
 
-### Props
+### date
+```xml
+<DatePicker date="{{ date }}" />
+```
+```ts
+export class HelloWorldModel extends Observable{
+  date = new Date()
+}
+```
+Gets or sets the complete date.                                                                    
 
-| Name                          | Type        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ----------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `date`                        | `Date`      | Gets or sets the complete date.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| `minDate`                     | `Date`      | Gets or sets the earliest possible date to select.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| `maxDate`                     | `Date`      | Gets or sets the latest possible date to select.                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| `day`                         | `Number`    | Gets or sets the day.                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| `month`                       | `Number`    | Gets or sets the month.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| `year`                        | `Number`    | Gets or sets the year.                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| `iosPreferredDatePickerStyle` | `number`    | Gets or set the UIDatePickerStyle of the date picker in iOS 13.4+. Defaults to 0.<br> Valid values are numbers:<br><br>`0 = automatic`: system picks the concrete style based on the current platform and date picker mode<br>`1 = wheels`: the date picker displays as a wheel picker<br>`2 = compact` : the date picker displays as a label that when tapped displays a calendar-style editor<br>`3 = inline` : the date pickers displays as an inline, editable field |
-| `...Inherited`                | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/datepicker)                                                                                                                                                                                                                                                                                                                                  |
+---
+### dateMin
+```xml
+<DatePicker minDate="{{ minDate }}" />
+```
+```ts
+export class HelloWorldModel extends Observable{
+  minDate = new Date("2021-01-01")
+}
+```
+Gets or sets the earliest possible date to select.
 
-### Events
+---
+### dateMax
+```xml
+<DatePicker maxDate="{{ maxDate }}" />
+```
+```ts
+export class HelloWorldModel extends Observable{
+  minDate = new Date("2023-12-31")
+}
+```
+Gets or sets the latest possible date to select.                                        
 
-| Name         | Description                             |
-| ------------ | --------------------------------------- |
-| `dateChange` | Emitted when the selected date changes. |
+---
+### day
+```xml
+<DatePicker day="{{ day }}" />
+```
+```ts
+export class HelloWorldModel extends Observable{
+  day = 1
+}
+```
+Gets or sets the day of the month.
+
+---
+### month
+```xml
+<DatePicker month="{{ month }}" />
+```
+```ts
+export class HelloWorldModel extends Observable{
+  month = 1
+}
+```
+Gets or sets the month.
+
+---
+### year
+```xml
+<DatePicker year="{{ year }}" />
+```
+```ts
+export class HelloWorldModel extends Observable{
+  year = 2022
+}
+```
+Gets or sets the year.
+
+---
+### iosPreferredDatePickerStyle
+```xml
+<DatePicker iosPreferredDatePickerStyle="2"/>
+```
+```ts
+datePicker.iosPreferredDatePickerStyle = 2
+```
+Gets or set the UIDatePickerStyle of the date picker in iOS `13.4+`. Defaults to `0`.
+Valid values are numbers:
+- `0 = automatic`: system picks the concrete style based on the current platform and date picker mode.
+- `1 = wheels`: the date picker displays as a wheel picker.
+- `2 = compact` : the date picker displays as a label that when tapped displays a calendar-style editor.
+- `3 = inline` : the date pickers displays as an inline, editable field
+
+---
+
+## Event(s)
+### dateChange
+```xml
+<DatePicker loaded="{{ onDatePickerLoaded }}"/>
+```
+```ts
+onDatePickerLoaded(args: EventData) {
+    const picker = args.object as DatePicker
+    picker.on("dateChange", (args: PropertyChangeData) => {
+    console.log("New date: ", args.value)
+    })
+  }
+```
+Emitted when the selected date changes. See the [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) interface for the event data.
+
+---
 
 ### Native component
 
