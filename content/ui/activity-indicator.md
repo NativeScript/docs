@@ -12,7 +12,6 @@ title: ActivityIndicator
 <ActivityIndicator
   busy="{{ isBusy }}"
   busyChange="{{ onBusyChanged }}"
-  loaded="indicatorLoaded"
 />
 ```
 
@@ -91,21 +90,44 @@ export default {
 
 /// -->
 
-### Properties
+## Props
+### busy
+```xml
+<ActivityIndicator busy="{{ isBusy }}"
+/>
+```
+```ts
+export class HelloWorldModel extends Observable {
+  isBusy = true
+}
+```
+Gets or sets whether the indicator is active.
 
-| Name      | Type                         | Description                                                                                                                                                                                                                                          |
-| --------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `busy`    | `Boolean`                    | Gets or sets whether the indicator is active. When `true`, the indicator is active.                                                                                                                                                                  |
-| `android` | `android.widget.ProgressBar` | Gets the native [android widget](http://developer.android.com/reference/android/widget/ProgressBar.html) that represents the user interface for this component. Valid only when running on Android OS.                                               |
-| `ios`     | `UIActivityIndicatorView`    | Gets the native iOS [UIActivityIndicatorView](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityIndicatorView_Class/index.html) that represents the user interface for this component. Valid only when running on iOS. |
+---
+### Inherited
+For additional inherited properties,refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/activityindicator).
 
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/activityindicator) |
+## Events
+### busyChange
 
-#### Events
+```xml
+<ActivityIndicator
+  busyChange="{{ onBusyChanged }}"
+/>
+```
+```ts
+export class HelloWorldModel extends Observable {
+    onBusyChanged(args: EventData) {
+        const indicator: ActivityIndicator = args.object as ActivityIndicator
+        console.log(`indicator.busy changed to: ${indicator.busy}`)
+      }
+}
+```
 
-| Name         | Description                                  |
-| ------------ | -------------------------------------------- |
-| `busyChange` | Emitted when the `busy` property is changed. |
+Emitted when the [busy](#busy) property is changed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata).
+
+---
+
 
 ### Native component
 
