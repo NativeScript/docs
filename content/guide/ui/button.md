@@ -5,8 +5,9 @@ title: Button
 
 `<Button>` is a UI component that displays a button which reacts to a user gesture.
 
-For more information about the available gestures, see [Gestures in the documentation](/guide/ui/gestures).
+For more information about the available gestures, see [Gestures](/guide/ui/gestures).
 
+---
 
 <!-- /// flavor plain -->
 
