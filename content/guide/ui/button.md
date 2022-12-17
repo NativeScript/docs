@@ -87,23 +87,48 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 </button>
 ```
 
-### Props
+## Props
+### text
+```xml
+<Button text="Tap me!"/>
+```
+Sets the label of the button.
 
-| Name           | Type        | Description                                                                                                                         |
-| -------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| `text`         | `String`    | Sets the label of the button.                                                                                                       |
-| `textWrap`     | `Boolean`   | Gets or sets whether the widget wraps the text of the label. Useful for longer labels. Default value is `false`.                    |
-| `isEnabled `   | `Boolean`   | Make the button disabled or enabled. A disabled button is unusable and un-clickable. Default value is `true`.                       |
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/button) |
+---
+### textWrap
+```xml
+<Button text="Tap me!" textWrap="true" />
+```
+Gets or sets whether the widget wraps the text of the label. Useful for longer labels. Default value is `false`.
 
+---
+### isEnabled
+```ts
+button.isEnabled = false
+```
+Make the button disabled or enabled. A disabled button is unusable and un-clickable. Default value is `true`.     
 
-### Events
+---
+### Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/button).
 
-| Name  | Description                        |
-| ----- | ---------------------------------- |
-| `tap` | Emitted when the button is tapped. |
+---
 
+## Event(s)
+### tap
+```xml
+<Button text="Tap me!" tap="{{ onTap }}" />
+```
+```ts
+export class HelloWorldModel extends Observable {
+  onTap(args: EventData){
 
+  }
+}
+```
+Emitted when the button is tapped. Event type is [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+
+---
 
 ### Native component
 
