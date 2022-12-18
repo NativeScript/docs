@@ -137,10 +137,57 @@ import { Color } from '@nativescript/core'
 
 /// -->
 
-## Label Reference(s)
+## Props
+### letterSpacing
 
-### Props
+Gets or sets [letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) style property. 
 
+---
+### lineHeight
+Gets or sets [line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) style property.
+
+---
+### text
+Gets or sets the text displayed or to be displayed by the Label instance.    
+
+---
+### textAlignment
+```xml
+<Label text="Hello there!" textAlignment="center" />
+```
+Gets or sets text-alignment style property. Valid values:
+`"initial"` | `"left"` | `"center"` | `"right"`. Defaults to `"left"`
+
+---
+### textDecoration
+```xml
+<Label text="Hello there!" textDecoration="underline" />
+```
+Gets or sets text decoration style property. See [TextDecorationType](https://docs.nativescript.org/api-reference/modules/coretypes#textdecorationtype) for valid values.
+
+---
+### textTransform
+```xml
+<Label text="Hello there!" textTransform="capitalize"/>
+```
+Gets or sets text transform style property. See [TextTransformType](https://docs.nativescript.org/api-reference/modules/coretypes#texttransformtype) for valid values. Defaults to `"initial"`.
+
+---
+### textWrap
+```xml
+<Label text="Hello there!" textWrap="true" />
+```
+Gets or sets whether the Label wraps text or not. Defaults to `false`. 
+
+---
+### whiteSpace
+
+Gets or sets the white space style. 
+Valid values: `"initial"` | `"normal"` | `"nowrap"`
+Defaults to `"initial"`.              
+
+---
+### ...Inherited
 | Name             | Type                                                             | Description                                                                                                                        |
 | ---------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | `letterSpacing`  | `number`                                                         | Gets or sets letterSpace style property.                                                                                           |
