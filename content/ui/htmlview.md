@@ -76,14 +76,33 @@ export class HtmlViewUsageComponent {
 
 /// -->
 
-## HtmlView Reference(s)
-### Props
+## Props
+### html
+```xml
+<HtmlView html="{{ html }}" />
+```
+```ts
+export class HelloWorldModel extends Observable {
+  html = `<span>
+  <h1><font color=\"blue\">NativeScript HtmlView</font></h1></br>
+  <h3>This component accept simple HTML strings</h3></span>`
+}
+```
+The HTML content to be shown.
 
-| Name           | Type        | Description                                                                                                                           |
-| -------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `html`         | `String`    | The HTML content to be shown.                                                                                                         |
-| `selectable` | `boolean`| Gets or sets a value indicating whether HtmlView is selectable.|
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/htmlview) |
+---
+### selectable
+```xml
+<HtmlView html="{{ html }}" selectable="false"/>
+```
+```ts
+htmlView.selectable = false
+```
+Gets or sets a value indicating whether HtmlView is selectable.
+
+---
+### Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/htmlview).
 
 ### Native component
 
