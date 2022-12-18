@@ -5,6 +5,8 @@ title: Image
 `<Image>` is a UI component that shows an image from an [ImageSource](https://docs.nativescript.org/api-reference/classes/imagesource) or from a URL.
 
 <!-- TODO: fix links -->
+<!-- TODO: add flavors -->
+
 
 ::: tip :green_circle: Tip
 When working with images following [the best practices](/performance.html#image-optimizations) is a must.
@@ -250,21 +252,68 @@ In NativeScript-Vue, `.decode` is required for parsing properties that have HTML
 
 /// -->
 
-## Image Reference(s)
 
-### Props
+## Props
+### src
+```xml
+<Image src="{{ src }}" />
 
-| Name           | Type                                                                                         | Description                                                                                                                                                                                                                                                                       |
-| -------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `src`          | `String` or [`ImageSource`](https://docs.nativescript.org/api-reference/classes/imagesource) | Gets or sets the source of the image as a URL or an image source. If you use the new font:// icon protocol in {N} 6.2, make sure you add .decode to the name of the property - e.g. `src.decode="font://&#xf004;"`                                                                |
-| `imageSource`  | [`ImageSource`](https://docs.nativescript.org/api-reference/classes/imagesource)             | Gets or sets the image source of the image.                                                                                                                                                                                                                                       |
-| `tintColor`    | `Color`                                                                                      | (Style property) Sets a color to tint template images.                                                                                                                                                                                                                            |
-| `stretch`      | `ImageStretch`                                                                               | (Style property) Gets or sets the way the image is resized to fill its allocated space.<br/>Valid values: `none`, `aspectFill`, `aspectFit`, or `fill`.<br/>For more information, see [ImageStretch](https://docs.nativescript.org/api-reference/modules/coretypes.imagestretch). |
-| `loadMode`     |                                                                                              | Gets or sets the loading strategy for the images on the local file system.<br/>Valid values: `sync` or `async`.<br/>Default value: `async`.<br/>For more information, see [loadMode](https://docs.nativescript.org/api-reference/classes/image#loadmode).                         |
-| `...Inherited` | `Inherited`                                                                                  | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/image)                                                                                                                                                |
+<Image src="font://&#xf004;" />
 
+<Image src="~/assets/images/cat.jpeg" />
+```
+```ts
+export class HelloWorldModel extends Observable {
 
-### Native component
+  src: string | ImageSource = "~/assets/images/cat.jpeg"
+
+} 
+```
+Gets or sets the source([`ImageSource`](https://docs.nativescript.org/api-reference/classes/imagesource)) of the image.
+
+---
+### imageSource
+```ts
+ImageSource.fromUrl(url)
+.then((imageSource: ImageSource) =>{
+
+image.imageSource = imageSource
+
+})
+.catch(error =>{
+    // handle errror
+})
+```
+### tintColor
+```xml
+<Image src="{{ src }}" tintColor="#ff00ffaa"/>
+```
+Sets a color to tint template images.                      
+
+---
+### stretch
+```xml
+<Image src="{{ src }}" class="fas" stretch="aspectFill"/>
+```
+Gets or sets the way the image is resized to fill its allocated space. For valid values, see [ImageStretch](https://docs.nativescript.org/api-reference/modules/coretypes.imagestretch).
+
+---
+### loadMode
+```xml
+<Image src="{{ src }}" loadMode="sync"/>
+
+```
+Gets or sets the loading strategy for the images on the local file system. 
+Valid values:
+- `sync` - blocks the UI if necessary to display immediately. Only recommeded for small icons.
+- `async` (`default`) - will load in the background, may appear with short delay, good for large images. When loading images from web they are always loaded async no regardless `loadMode` value.
+
+---
+### ...Inherited
+
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/image). 
+
+## Native component
 
 | Android                                                                                        | iOS                                                                          |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
