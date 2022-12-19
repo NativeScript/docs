@@ -202,32 +202,102 @@ Developers coming from a web background would usually reach for the `mounted` li
 
 <!-- TODO: examples in all flavors -->
 
-### Props
+## Props
+### actionBar
+```ts
+actionBar: ActionBar = page.actionBar
+```
+Gets the ActionBar for this page.
 
-| Name                           | Type        | Description                                                                                                                       |
-| ------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `actionBarHidden`              | `Boolean`   | Shows or hides the `<ActionBar>` for the page.<br/>Default value: `false`.                                                        |
-| `backgroundSpanUnderStatusBar` | `Boolean`   | Gets or sets whether the background of the page spans under the status bar.<br/>Default value: `false`.                           |
-| `androidStatusBarBackground`   | `Color`     | (Android-only) Gets or sets the color of the status bar on Android devices.                                                       |
-| `enableSwipeBackNavigation`    | `Boolean`   | (iOS-only) Gets or sets whether the page can be swiped back on iOS.<br/>Default value: `true`.                                    |
-| `statusBarStyle`               | `String`    | Gets or sets the style of the status bar.<br/>Valid values:<br/>`light`,<br/>`dark`.                                              |
-| `...Inherited`                 | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/page) |
+---
+### actionBarHidden
+```xml
+<Page actionBarHidden="true">
+```
+```ts
+page.actionBarHidden = true
+```
+Shows or hides the `<ActionBar>` for the page. Defaults to `false`.          
 
-### Events
+---
+### frame
+```ts
+frame: Frame = page.frame
+```
+The Frame instance containing the page.
 
-| Name             | Description                                                      |
-| ---------------- | ---------------------------------------------------------------- |
-| `loaded`         | Emitted after the page has been loaded.                          |
-| `navigatedFrom`  | Emitted after the app has navigated away from the current page.  |
-| `navigatedTo`    | Emitted after the app has navigated to the current page.         |
-| `navigatingFrom` | Emitted before the app has navigated away from the current page. |
-| `navigatingTo`   | Emitted before the app has navigated to the current page.        |
+---
+### navigationContext 
+```ts
+navigationContext = page.navigationContext
+```
+A property that is used to pass data to another page. 
+
+---
+### backgroundSpanUnderStatusBar
+Gets or sets whether the background of the page spans under the status bar. Defaults to `false`.
+
+---
+### androidStatusBarBackground
+```xml
+<Page androidStatusBarBackground="blue">
+ ```
+(`Android-only`) Gets or sets the color of the status bar on Android devices.                                            
+
+---
+### enableSwipeBackNavigation
+```xml
+<Page enableSwipeBackNavigation="false">
+```
+```ts
+page.enableSwipeBackNavigation = false
+```
+(`iOS-only`) Gets or sets whether the page can be swiped back on iOS. Defaults to `true`. 
+
+---
+### statusBarStyle
+Gets or sets the style of the status bar. 
+```xml
+<Page statusBarStyle="light">
+ ```
+ ```ts
+ page.statusBarStyle = "light"
+ ```
+Valid values:`light`or `dark`. 
+
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/page).
+
+---
+## Events
+
+### loaded
+Emitted after the page has been loaded.
+
+---
+### navigatedFrom
+Emitted after the app has navigated away from the current page.
+
+---
+### navigatedTo
+Emitted after the app has navigated to the current page.
+
+---
+### navigatingFrom
+Emitted before the app has navigated away from the current page.
+
+---
+### navigatingTo
+Emitted before the app has navigated to the current page. 
+
+---
 
 ::: warning Note
 The events loaded, unloaded and layoutChanged are UI component lifecycles events and are universal for all classes that extend the View class (including Page). They can be used with all NativeScript elements (e.g. layouts, buttons, UI plugins, etc.).
 :::
 
-### Native component
+## Native component
 
 | Android                                                                                                                                                                                          | iOS                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
