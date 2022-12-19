@@ -106,10 +106,11 @@ Gets or set the items collection of the `ListView`. The items property can be se
 ---
 ### itemTemplateSelector
 A function that returns the appropriate keyed template based on the data item.                                                         
-
+<!-- TODO: Add description -->
  ---
 ### itemTemplates
 Gets or set the list of item templates for the item template selector.                                                   
+<!-- TODO: Add description -->
 
 ---
 ### separatorColor
@@ -159,7 +160,7 @@ isItemVisible: boolean = listView.isItemAtIndexVisible(index: number)
 Checks if the item with the specified index is visible.
 
 ---
-## Events
+## Event(s)
 ### itemTap
 ```ts
  onListViewLoaded(args: EventData) {
