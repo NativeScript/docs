@@ -4,7 +4,7 @@ title: Progress
 
 `<Progress>` is a UI component that shows a bar to indicate the progress of a task.
 
-See also: [ActivityIndicator](#activity-indicator).
+See also: [ActivityIndicator](/ui/activity-indicator).
 
 ---
 
@@ -115,23 +115,32 @@ Using `backgroundColor` (**CSS**: `background-color`) & color to change the Prog
 <progress value="25" maxValue="100" class="bg-red-500 text-red-900"></progress>
 ```
 
-## Progress Reference(s)
 
-### Props
+## Props
+### value
+```xml
+<Progress value="{{ progressValue }}" />
+```
+ets or sets the current value of the progress bar. Must be within the range of 0 to [maxValue](#maxvalue). 
 
-| Name           | Type        | Description                                                                                                                           |
-| -------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `value`        | `Number`    | Gets or sets the current value of the progress bar. Must be within the range of 0 to `maxValue`.                                      |
-| `maxValue`     | `Number`    | Gets or sets the maximum value of the progress bar.<br/>Default value: `100`.                                                         |
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/progress) |
+---
+### maxValue
+```xml
+<Progress maxValue="{{ progressMaxValue }}" />
+```
+Gets or sets the maximum value of the progress bar. Defaults to: `100`.     
 
-### Events
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/progress)
 
-| Name          | Description                                |
-| ------------- | ------------------------------------------ |
-| `valueChange` | Emitted when the `value` property changes. |
+## Events
+### valueChange
+Emitted when the `value` property changes.
 
-### Native Component
+---
+
+## Native Component
 
 | Android                                                                                                                         | iOS                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
