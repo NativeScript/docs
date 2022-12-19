@@ -6,33 +6,27 @@ title: ListPicker
 `<ListPicker>` is a UI component that lets the user select a value from a pre-configured list.
 
 
-### Simple List Picker
+### Creating A Simple ListPicker
 
 <!-- /// flavor plain -->
 
 ```xml
-<ListPicker items="{{ years }}" selectedIndex="0" loaded="onListPickerLoaded" />
+<ListPicker items="{{ years }}" loaded="{{ onListPickerLoaded }}" />
 ```
 
 ```ts
-import { EventData, fromObject, ListPicker, Page } from '@nativescript/core'
+import { EventData, Observable, ListPicker, Page } from '@nativescript/core'
+export class HelloWorldModel extends Observable{
 
-const years = [1980, 1990, 2000, 2010, 2020]
+years = [1980, 1990, 2000, 2010, 2020]
 
-export function onNavigatingTo(args: EventData) {
-  const page = <Page>args.object
-  const vm = fromObject({
-    years: years
-  })
-  page.bindingContext = vm
-}
-
-export function onListPickerLoaded(args) {
+onListPickerLoaded(args) {
   const listPickerComponent = args.object
-  listPickerComponent.on('selectedIndexChange', (data: EventData) => {
+  listPickerComponent.on('selectedIndexChange', (data: ProperyChangeData) => {
     const picker = data.object as ListPicker
     console.log(`index: ${picker.selectedIndex}; item" ${years[picker.selectedIndex]}`)
   })
+}
 }
 ```
 <!-- 
@@ -104,22 +98,38 @@ import { EventData, ListPicker } from '@nativescript/core'
 
 /// -->
 
-## ListPicker Reference(s)
-### Props
+## Props
+### items
+```xml
+<ListPicker items="{{ years }}" />
+```
+```ts
+export class HelloWorldModel extends Observable {
+  years = [1980, 1990, 2000, 2010, 2020]
+}
+```
+Gets or sets the specified items array as options in the list picker.                           
 
-| Name            | Type            | Description                                                                                                                             |
-| --------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `items`         | `Array<String>` | Gets or sets the items displayed as options in the list picker.                                                                         |
-| `selectedIndex` | `Number`        | Gets or sets the index of the currently selected item.                                                                                  |
-| `...Inherited`  | `Inherited`     | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/listpicker) |
+---
+### selectedIndex
+```ts
+listPicker.selectedIndex
+//or
+listPicker.selectedIndex = 2
+```
+Gets or sets the index of the currently selected item. 
 
-### Events
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/listpicker).
 
-| Name                  | Description                                                                                                    |
-| --------------------- | -------------------------------------------------------------------------------------------------------------- |
-| `selectedIndexChange` | Emitted when the currently selected option (index) changes. The new index can be retrieved via `$event.value`. |
+## Event(s)
+### selectedIndexChange
+See [Creating a simple ListPicker](#creating-a-simple-listpicker)
+Emitted when the currently selected option (index) changes.
 
-### Native component
+
+## Native component
 
 | Android                                                                                                   | iOS                                                                            |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
