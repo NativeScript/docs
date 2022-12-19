@@ -4,12 +4,10 @@ title: ListView
 <!-- TODO: Add flavors -->
 `<ListView>` is a UI component that shows items in a vertically scrolling list. To set how the list shows individual items, you can use a `template` component,e.g `<ListView.itemTemplate>` for plain JS. Using a ListView requires some special attention due to the complexity of the native implementations, with custom item templates, bindings and so on.
 
-The NativeScript modules provides a custom component which simplifies the way native ListView is used.
-
 ---
 
 <!-- TODO: examples in all flavors -->
-
+## Creating a ListView
 ::: warning Note
 The ListView's item template can contain only a single root view container.
 :::
@@ -66,14 +64,12 @@ export function onListViewLoaded(args: EventData) {
   const listView = args.object as ListView
 }
 
-// The event will be raise when an item inside the ListView is tapped.
+
 export function onItemTap(args: ItemEventData) {
   const index = args.index
   console.log(`Second ListView item tap ${index}`)
 }
 
-// The event will be raised when the ListView is scrolled so that the last item is visible.
-// This even is intended to be used to add additional data in the ListView.
 export function onLoadMoreItems(args: ItemEventData) {
   if (loadMore) {
     console.log('ListView -> LoadMoreItemsEvent')
@@ -100,16 +96,102 @@ export function onLoadMoreItems(args: ItemEventData) {
 }
 ```
 
-### Properties
+## Props
+### items
+```xml
+<ListView items="{{ years }}">
+```
+Gets or set the items collection of the `ListView`. The items property can be set to an array or an object defining length and getItem(index) method.
 
-| Name                    | Type                          | Description                                                                                                                                           |
-| ----------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `items`                 | `Array<any>` \| `ItemsSource` | Gets or set the items collection of the `ListView`. The items property can be set to an array or an object defining length and getItem(index) method. |
-| `itemTemplateSelector`  | `function`                    | A function that returns the appropriate ket template based on the data item.                                                                          |
-| `itemTemplates`         | `Array<KeyedTemplate>`        | Gets or set the list of item templates for the item template selector.                                                                                |
-| `separatorColor`        | `string` \| `Color`           | Gets or set the items separator line color of the ListView.                                                                                           |
-| `rowHeight`             | `Length`                      | Gets or set row height of the ListView.                                                                                                               |
-| `iosEstimatedRowHeight` | `Length`                      | Gets or set the estimated height of rows in the ListView. Default value: **44px**                                                                     |
+---
+### itemTemplateSelector
+A function that returns the appropriate keyed template based on the data item.                                                         
+
+ ---
+### itemTemplates
+Gets or set the list of item templates for the item template selector.                                                   
+
+---
+### separatorColor
+```xml
+<ListView items="{{ titlesArray }}" separatorColor="orangered">
+```
+Gets or set the color of the separator line for the ListView instance.                                                   
+
+---
+### rowHeight
+```xml
+<ListView items="{{ titlesArray }}" rowHeight="50">
+```
+Gets or set row height of the ListView.
+
+---
+### iosEstimatedRowHeight
+Gets or set the estimated height of rows in the ListView. Default value: `44px`                                                     
+
+---
+## Methods
+### refresh()
+```ts
+listView.refresh()
+```
+Forces the ListView to reload all its items.
+
+---
+### scrollToIndex()
+```ts
+listView.scrollToIndex(index: number)
+```
+Scrolls the item with the specified index into view.
+
+---
+### scrollToIndexAnimated()
+```ts
+listView.scrollToIndexAnimated(index: number)
+```
+Scrolls the item with the specified index into view with animation.
+
+---
+### isItemAtIndexVisible()   
+```ts
+isItemVisible: boolean = listView.isItemAtIndexVisible(index: number)
+```
+Checks if the item with the specified index is visible.
+
+---
+## Events
+### itemTap
+```ts
+ onListViewLoaded(args: EventData) {
+    const listView = args.object as ListView
+    
+    listView.on("itemTap", (itemTapData: ItemEventData) => {
+      console.log(Object.keys(itemTapData))
+    })
+  }
+```
+The event is raised when an item inside the ListView is tapped.
+See [ItemEventData](https://docs.nativescript.org/api-reference/interfaces/itemeventdata) interface for the event data.
+
+---
+### itemsLoading
+```ts
+ onListViewLoaded(args: EventData) {
+    const listView = args.object as ListView
+    
+    listView.on("itemsLoading", (itemsLoadingData: ItemEventData) => {
+      
+    })
+  }
+```
+Visit [ItemsLoading interface](https://docs.nativescript.org/api-reference/interfaces/itemsloading)  for the event data.
+
+---
+### loadMoreItems
+
+The event will be raised when the ListView is scrolled so that the last item is visible. It is intended to be used to add additional data in the ListView.
+
+---
  <!-- 
 ///
 
@@ -375,10 +457,9 @@ Using the ListView component inside a ScrollView or ScrollView inside the ListVi
 | `scrollToIndex(index: number)`                 | Scrolls the specified item with index into view.                |
 | `scrollToIndexAnimated(index: number)`         | Scrolls the specified item with index into view with animation. |
 | `isItemAtIndexVisible(index: number): boolean` | Checks if specified item with index is visible.                 |
-
-### Native component
+-->
+## Native component
 
 | Android                                                                                           | iOS                                                                          |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | [`android.widget.ListView`](https://developer.android.com/reference/android/widget/ListView.html) | [`UITableView`](https://developer.apple.com/documentation/uikit/uitableview) |
--->
