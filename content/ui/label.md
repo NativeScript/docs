@@ -139,15 +139,29 @@ import { Color } from '@nativescript/core'
 
 ## Props
 ### letterSpacing
+```xml
+<Label text="Hello there!" letterSpacing="1"/>
+```
+_Type_: `number`
 
 Gets or sets [letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) style property. 
 
 ---
 ### lineHeight
+
+```xml
+<Label text="Hello there!" lineHeight="10"/>
+```
+_Type_: `number`
+
 Gets or sets [line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) style property.
 
 ---
 ### text
+```xml
+<Label text="Hello there!" />
+```
+_Type_: `string`
 Gets or sets the text displayed or to be displayed by the Label instance.    
 
 ---
@@ -163,7 +177,7 @@ Gets or sets text-alignment style property. Valid values:
 ```xml
 <Label text="Hello there!" textDecoration="underline" />
 ```
-Gets or sets text decoration style property. See [TextDecorationType](https://docs.nativescript.org/api-reference/modules/coretypes#textdecorationtype) for valid values.
+Gets or sets text decoration style property. See [TextDecorationType](https://docs.nativescript.org/api-reference/modules/coretypes#textdecorationtype) for valid values. Defaults to `"none"`.
 
 ---
 ### textTransform
@@ -175,12 +189,15 @@ Gets or sets text transform style property. See [TextTransformType](https://docs
 ---
 ### textWrap
 ```xml
-<Label text="Hello there!" textWrap="true" />
+<Label text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available." textWrap="true"/>
 ```
-Gets or sets whether the Label wraps text or not. Defaults to `false`. 
+Gets or sets whether the text breaks and renders on the next line if the current runs out of space. Defaults to `false`. 
 
 ---
 ### whiteSpace
+```xml
+<Label text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available." whiteSpace="normal"/>
+```
 
 Gets or sets the white space style. 
 Valid values: `"initial"` | `"normal"` | `"nowrap"`
@@ -188,30 +205,28 @@ Defaults to `"initial"`.
 
 ---
 ### ...Inherited
-| Name             | Type                                                             | Description                                                                                                                        |
-| ---------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `letterSpacing`  | `number`                                                         | Gets or sets letterSpace style property.                                                                                           |
-| `lineHeight`     | `number`                                                         | Gets or sets lineHeight style property.                                                                                            |
-| `text`           | `string`                                                         | Gets or sets the Label text.                                                                                                       |
-| `textAlignment`  | `initial`, `left`, `center`, `right`, `justify`                  | Gets or sets text-alignment style property.                                                                                        |
-| `textDecoration` | `none`, `underline`, `line-through`, `underline`, `line-through` | Gets or sets text swcoration style property.                                                                                       |
-| `textTransform`  | `initial`, `none`, `capitalize`, `uppercase`, `lowercase`        | Gets or sets text transform style property.                                                                                        |
-| `textWrap`       | `boolean`                                                        | Gets or sets whether the Label wraps text or not.                                                                                  |
-| `whiteSpace`     | `initial`, `normal`, `nowrap`                                    | Gets or sets the white space style.                                                                                                |
-| `...Inherited`   | `Inherited`                                                      | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/label) |
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/label).
 
-<!-- TODO: fix links -->
+## Event(s)
+### textChange
+```xml
+    <Label text="{{ greeting }}" loaded="{{ onLabelLoaded }}"/>
+```
+```ts
+onLabelLoaded(args: EventData) {
+    const label = args.object as Label
 
-### Events
+    label.on("textChange", (textChangeEvent: PropertyChangeData)=>{
+      
+    console.log(textChangeEvent.eventName)
+    })
+}
+```
+Emitted when the label text is changed.
 
-| Name         | Description                             |
-| ------------ | --------------------------------------- |
-| `textChange` | Emitted when the label text is changed. |
-
-### Native component
+---
+## Native component
 
 | Android                                                                                           | iOS                                                                  |
 | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html) | [`UILabel`](https://developer.apple.com/documentation/uikit/uilabel) |
-
-<!-- TODO: reference link: https://github.com/nativescript-vue/nativescript-vue.org/tree/master/content/docs/en/elements/components -->
