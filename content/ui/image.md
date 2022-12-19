@@ -204,7 +204,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// -->
 
-### Image with CSS and an icon fonts
+### Rendering a font icon as image
 
 <!-- /// flavor plain -->
 
