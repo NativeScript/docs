@@ -7,7 +7,6 @@ This class encapsulates the common abstraction over a platform-specific (Bitmap 
 <!-- TODO: add Preview -->
 ## Using ImageSource
 
-
 ### Loading an image using a resource name
 
 To load an image from the [App_Resources]() folder, use the [fromResource()](#fromresource) or [fromResourceSync()](#fromresourcesync) method:
@@ -48,7 +47,12 @@ const base64Str = "some base64Str"
 const image: ImageSource = ImageSource.fromBase64Sync(base64Str)
 
 ```
-
+### Creating an image source from a font icon code
+```ts
+const font = new Font("sans serif")
+const color = new Color("black")
+const imageSource: ImageSource = ImageSource.fromFontIconCodeSync("\uf004", font, color)
+```
 ### Saving an image to a file
 
 To save an ImageSource instance to a file, call the [saveToFile()](#savetofile) or [saveToFileAsync()](#savetofileasync) method on the instance.
@@ -181,9 +185,9 @@ const imageSource: ImageSource = ImageSource.fromFontIconCodeSync(source, font, 
 
 Creates a new ImageSource instance from the specified font icon code.
 
-- `source`
-- `font`
-- `color`
+- `source`: The unicode string. 
+- `font`: Font instance.
+- `color`: Color instance.
 
 ---
 ### fromResource()
