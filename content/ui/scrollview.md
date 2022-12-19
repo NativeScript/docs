@@ -131,30 +131,54 @@ export class TipsAndTricksComponent {
 ///
 -->
 
-## ScrollView Reference(S)
-### Props
+## Props
+### orientation
+Gets or sets the direction in which the content can be scrolled: `horizontal` or `vertical`. Defaults to `vertical`. 
 
-| name                        | type        | description                                                                                                                             |
-| --------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `orientation`               | `String`    | Gets or sets the direction in which the content can be scrolled: `horizontal` or `vertical`.<br/>Default value: `vertical`.             |
-| `scrollBarIndicatorVisible` | `Boolean`   | Specifies if the scrollbar is visible.<br/>Default value: `true`.                                                                       |
-| `isScrollEnabled`| `boolean`| Gets or sets a value indicating whether scroll is enabled.|
-| `verticalOffset` | `number`| Gets a value that contains the vertical offset of the scrolled content. |
-| `horizontalOffset` | `number`| Gets a value that contains the horizontal offset of the scrolled content.|
-| `scrollableHeight` | `number` | Gets the maximum value for the `verticalOffset`.|
-| `scrollableWidth`| `number`| Gets the maximum value for the horizontalOffset.|
-|`scrollBarIndicatorVisible` | `boolean` | Toggles scrollbar indicator visibility|
-| `scrollToVerticalOffset(value: number, animated: boolean)`|`void`| Scrolls the content the specified vertical offset position. Set `animated` to `true` for animated scroll, `false` for immediate scroll.|
-|`scrollToHorizontalOffset(value: number, animated: boolean)` |`void`| Scrolls the content the specified horizontal offset position.  Set `animated` to `true` for animated scroll, `false` for immediate scroll.|
-| `...Inherited`              | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/scrollview) |
+---
+### scrollBarIndicatorVisible
+Specifies if the scrollbar is visible. Defaults to `true`. 
 
-### Events
+---
+### isScrollEnabled
+Gets or sets a value indicating whether scroll is enabled.
 
-| Name     | Description                         |
-| -------- | ----------------------------------- |
-| `scroll` | Emitted when a scroll event occurs. For the event's data, see [ScrollEventData Interface](https://docs.nativescript.org/api-reference/interfaces/scrolleventdata).
+---
+### verticalOffset
+Gets a value that contains the vertical offset of the scrolled content.
 
-### Native component
+---
+### horizontalOffset
+Gets a value that contains the horizontal offset of the scrolled content.
+
+---
+### scrollableHeight
+Gets the maximum value for the [verticalOffset](#verticaloffset).
+
+---
+### scrollableWidth
+Gets the maximum value for the [horizontalOffset](#horizontaloffset).
+
+---
+### scrollToVerticalOffset()
+```ts
+scrollView.scrollToVerticalOffset(value: number, animated: boolean)
+```
+Scrolls the content the specified vertical offset position. Set `animated` to `true` for animated scroll, `false` for immediate scroll.
+
+---
+### scrollToHorizontalOffset()
+Scrolls the content the specified horizontal offset position.  Set `animated` to `true` for animated scroll, `false` for immediate scroll.
+
+---
+
+## Event(s)
+### scroll
+Emitted when a scroll event occurs. For the event's data, see [ScrollEventData Interface](https://docs.nativescript.org/api-reference/interfaces/scrolleventdata).
+
+---
+
+## Native component
 
 | Android                                                                          | iOS                                                                            |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
