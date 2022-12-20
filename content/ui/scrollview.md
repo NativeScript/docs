@@ -133,30 +133,51 @@ export class TipsAndTricksComponent {
 
 ## Props
 ### orientation
+```xml
+ <ScrollView orientation="horizontal">
+``` 
 Gets or sets the direction in which the content can be scrolled: `horizontal` or `vertical`. Defaults to `vertical`. 
 
 ---
 ### scrollBarIndicatorVisible
+```xml
+ <ScrollView scrollBarIndicatorVisible="false">
+```
 Specifies if the scrollbar is visible. Defaults to `true`. 
 
 ---
 ### isScrollEnabled
+```xml
+ <ScrollView isScrollEnabled="false">
+```
 Gets or sets a value indicating whether scroll is enabled.
 
 ---
 ### verticalOffset
+```ts
+verticalOffset: number = scrollView.verticalOffset
+```
 Gets a value that contains the vertical offset of the scrolled content.
 
 ---
 ### horizontalOffset
+```ts
+horizontalOffset: number = scrollView.horizontalOffset
+```
 Gets a value that contains the horizontal offset of the scrolled content.
 
 ---
 ### scrollableHeight
+```ts
+scrollableHeight: number = scrollView.scrollableHeight
+```
 Gets the maximum value for the [verticalOffset](#verticaloffset).
 
 ---
 ### scrollableWidth
+```ts
+scrollableWidth: number = scrollView.scrollableWidth
+```
 Gets the maximum value for the [horizontalOffset](#horizontaloffset).
 
 ---
@@ -164,11 +185,14 @@ Gets the maximum value for the [horizontalOffset](#horizontaloffset).
 ```ts
 scrollView.scrollToVerticalOffset(value: number, animated: boolean)
 ```
-Scrolls the content the specified vertical offset position. Set `animated` to `true` for animated scroll, `false` for immediate scroll.
+Scrolls the content to the specified vertical offset position. Set `animated` to `true` for animated scroll, `false` for immediate scroll.
 
 ---
 ### scrollToHorizontalOffset()
-Scrolls the content the specified horizontal offset position.  Set `animated` to `true` for animated scroll, `false` for immediate scroll.
+```ts
+scrollView.scrollToHorizontalOffset(value: number, animated: boolean)
+```
+Scrolls the content to the specified horizontal offset position.  Set `animated` to `true` for animated scroll, `false` for immediate scroll.
 
 ---
 
