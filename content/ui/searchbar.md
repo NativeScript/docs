@@ -9,39 +9,44 @@ title: SearchBar
 ### A simple SearchBar handling the clear and submit events
 
 ```xml
-<SearchBar
-  id="searchBar"
-  hint="Enter search term here ..."
-  text="{{sbText}}"
-  clear="onClear"
-  submit="onSubmit"
-/>
+<SearchBar id="searchBar"
+     hint="Enter search term here ..." 
+     text="{{ searchText }}" clear="{{ onClear }}" 
+     submit="{{ onSubmit }}" 
+     loaded="{{ onSearchBarLoaded }}"/>
 ```
 
 ```ts
-import { Observable, Page, PropertyChangeData, SearchBar } from '@nativescript/core'
+import { Observable, Page, SearchBar } from '@nativescript/core'
 
 export function onNavigatingTo(args) {
   const page = args.object as Page
-  const vm = new Observable()
-  vm.set('sbText', '')
-  vm.on(Observable.propertyChangeEvent, (propertyChangeData: PropertyChangeData) => {
-    if (propertyChangeData.propertyName === 'sbText') {
-      const searchBar = propertyChangeData.object as SearchBar
-      console.log(`Input changed! New value: ${propertyChangeData.value}`)
-    }
-  })
+  const vm = new HelloWorldModel()
   page.bindingContext = vm
 }
 
-export function onSubmit(args) {
-  const searchBar = args.object as SearchBar
-  console.log(`Searching for ${searchBar.text}`)
-}
+export class HelloWorldModel extends Observable {
+  searchText= ""
+  constructor() {
+    super()
+  }
 
-export function onClear(args) {
-  const searchBar = args.object as SearchBar
-  console.log(`Clear event raised`)
+  onSearchBarLoaded(args: EventData){
+    const searchBar = args.object as SearchBar;
+    searchBar.on("textChange",(args: PropertyChangeData)=>{
+
+    console.log("Event name: ",args.eventName)
+})
+  }
+onSubmit(args: EventData) {
+    const searchBar = args.object as SearchBar
+    console.log(`Searching for ${searchBar.text}`)
+  }
+
+  onClear(args: EventData) {
+    const searchBar = args.object as SearchBar
+    console.log(`Clear event raised`)
+  }
 }
 ```
 
@@ -142,28 +147,84 @@ export class UsageComponent {
 
 /// -->
 
-## SearchBar Reference(s)
-### Props
+## Props
 
-| Name                       | Type        | Description                                                                                                                            |
-| -------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `hint`                     | `String`    | Gets or sets placeholder text for the input area.                                                                                      |
-| `text`                     | `String`    | Gets or sets the value of the search query.                                                                                            |
-| `textFieldBackgroundColor` | `Color`     | Gets or sets the background color of the input area.                                                                                   |
-| `textFieldHintColor`       | `Color`     | Gets or sets the color of the placeholder text.                                                                                        |
-| `...Inherited`             | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/searchbar) |
+### hint
+```xml
+<SearchBar hint="Enter search term here ..."  />
+```
+Gets or sets placeholder text for the input area.
 
-<!-- TODO: fix links -->
+---
+### text
+```xml
+<SearchBar text="{{ searchText }}" />
+```
+Gets or sets the value of the search query.
 
-### Events
+---
+### textFieldBackgroundColor
+```xml
+ <SearchBar textFieldBackgroundColor="#76ABEB"/>
+```
+Gets or sets the background color of the input area.
 
-| name         | description                                                                                  |
-| ------------ | -------------------------------------------------------------------------------------------- |
-| `textChange` | Emitted when the text is changed.                                                            |
-| `submit`     | Emitted when the search input is submitted.                                                  |
-| `clear`      | Emitted when the current search input is cleared through the **X** button in the input area. |
+---
+### textFieldHintColor
+```xml
+ <SearchBar textFieldHintColor="#fff"/>
+```
+Gets or sets the color of the placeholder text.
 
-### Native Component
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/searchbar)
+
+## Event(s)
+### textChange
+```ts
+searchBar.on("textChange", (args: PropertyChangeData) => {
+
+      console.log("Event name: ", args.oldValue)
+      
+    })
+```
+Emitted when the search text is changed.
+
+---
+### submit
+```xml
+<SearchBar submit="{{ onSubmit }}" />
+```
+```ts
+export class HelloWorldModel extends Observable {
+  onSubmit(args: EventData) {
+    const searchBar = args.object as SearchBar
+    console.log(`Searching for ${searchBar.text}`)
+  }
+}
+```
+Emitted when the search text is submitted.
+
+---
+### clear
+```xml
+<SearchBar clear="{{ onClear }}" />
+```
+```ts
+export class HelloWorldModel extends Observable {
+
+  onClear(args: EventData) {
+    const searchBar = args.object as SearchBar
+    console.log(`Clear event raised`)
+  }
+}
+```
+Emitted when the current search input is cleared through the **X** button in the input area.
+
+---
+
+## Native Component
 
 | Android                                                                                               | iOS                                                                          |
 | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
