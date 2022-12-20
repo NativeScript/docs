@@ -94,7 +94,7 @@ To handle a `selectedIndex` change, listen to the `selectedIndexChanged` event.
 import { Observable } from '@nativescript/core'
 export class HelloWorldModel extends Observable {
     sbSelectedIndex = 0;
-    ....
+    
     onSelectedIndexChange(args: SelectedIndexChangedEventData) {
     console.log("new value: "+ args.newIndex, "old: " + args.oldIndex)
   }
@@ -206,31 +206,70 @@ let listOfItems = ['First', 'Second', 'Third']
 
 /// --> 
 
-## SegmentedBar Reference(s)
+## Props
 
-### Props
+### items
+```ts
+const segmentedBarItem1 = new SegmentedBarItem()
+segmentedBarItem1.title = "Item 1"
 
-| Name                      | Type                      | Description                                                                                                                                                   |
-| ------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `items`                   | `Array<SegmentedBarItem>` | An array of items to be displayed in the segmented bar. Represents the button labels or icons of the segmented bar.<br/>The array must be created in advance. |
-| `selectedIndex`           | `Number`                  | Gets or sets the index of the selected item.                                                                                                                  |
-| `selectedBackgroundColor` | `Color`                   | (Style property) Gets or sets the background color of the selected item. To set the background color of the entire bar, use `backgroundColor`.                |
-| `...Inherited`            | `Inherited`               | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/segmentedbar)                     |
+const segmentedBarItem2 = new SegmentedBarItem()
+segmentedBarItem2.title = "Item 2"
+    
+//SegmentedBar
+const segmentedBar = new SegmentedBar()
 
-### Events
+segmentedBar.items = [segmentedBarItem1, segmentedBarItem2]
+```    
+An array of items to be displayed in the segmented bar. Represents the button labels or icons of the segmented bar.
 
-| Name                   | Description                                              |
-| ---------------------- | -------------------------------------------------------- |
-| `selectedIndexChanged` | Emitted when the an item on the segmented bar is tapped. See the |
+---
+### selectedIndex
+```xml
+<SegmentedBar selectedIndex="{{ sbSelectedIndex }}">
+``` 
+```ts
+export class HelloWorldModel extends Observable {
+    sbSelectedIndex = 0;
+}
+```
+Gets or sets the index of the selected item.
 
-#### SelectedIndexChangedEventData
+---
+### selectedBackgroundColor
+```xml
+<SegmentedBar selectedBackgroundColor="red">
+</SegmentedBar>
+```
+Gets or sets the background color of the selected item. To set the background color of the entire bar, use `backgroundColor`.                
+
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/segmentedbar).
+
+
+## Events
+### selectedIndexChanged
+```xml
+<SegmentedBar selectedIndexChanged=" {{ onSelectedIndexChange }} ">
+```
+```ts
+onSelectedIndexChange(args: SelectedIndexChangedEventData) {
+    const segmentedBar = args.object as SegmentedBar 
+}
+```
+Emitted when the an item on the segmented bar is tapped. See the [SelectedIndexChangedEventData interface](#selectedindexchangedeventdata-interface) for the event data.
+
+---
+
+### SelectedIndexChangedEventData interface
 The `SelectedIndexChangedEventData` object provides the following data:
 | Name | Type | Description |
 |------|------|-------------|
 | `oldIndex`| `number`| The old selected index.|
 | `newIndex`| `number`| The new selected index.|
 
-### Native component
+## Native component
 
 | Android                                                                                         | iOS                                                                                        |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
