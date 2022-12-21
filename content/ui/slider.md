@@ -4,23 +4,31 @@ title: Slider
 <!-- TODO: Add flavors -->
 `<Slider>` is a UI component that provides a slider control for picking values within a specified numeric range.
 
+---
 ### Simple Slider and listening to its value change event
 
 <!-- /// flavor plain -->
 To listen to the `valueChange` event, register the listener in the Slider's `loaded` event handler. 
 <!-- Is the preceeding phrase accurate -->
 ```xml
-<Slider value="10" minValue="0" maxValue="100" loaded="onSliderLoaded" />
+<Slider value="10" minValue="0" maxValue="100" loaded="{{ onSliderLoaded }}" />
 ```
 
 ```ts
-import { Slider } from '@nativescript/core'
+import { Observable, Slider } from '@nativescript/core'
 
-export function onSliderLoaded(args) {
-  const sliderComponent = args.object as Slider
-  sliderComponent.on('valueChange', data => {
-    console.log(`Slider new value ${data.value}`)
-  })
+export class HelloWorldModel extends Observable {
+  constructor() {
+    super()
+  }
+  onSliderLoaded(args: EventData){
+    const slider = args.object as Slider;
+
+    slider.on("valueChange", (args: PropertyChangeData)=>{
+
+    console.log("valueChange: ", args.value, "Old: "+args.oldValue)
+    })
+  }
 }
 ```
 
@@ -92,26 +100,46 @@ export class UsageComponent {
 
 /// -->
 
-## Slider Reference(s)
+## Props
+### value
+```xml
+<Slider value="10" />
+```
+Gets or sets the currently selected value of the slider. Defaults to `0`.                                             
 
-### Props
+---
+### minValue
+```xml
+<Slider minValue="0" />
+```
+Gets or sets the minimum value of the slider.
 
-| Name           | Type        | Description                                                                                                                         |
-| -------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| `value`        | `Number`    | Gets or sets the currently selected value of the slider.<br/>Default value: `0`.                                                    |
-| `minValue`     | `Number`    | Gets or sets the minimum value of the slider.<br/>Default value: `0`.                                                               |
-| `maxValue`     | `Number`    | Gets or sets the maximum value of the slider.<br/>Default value: `100`.                                                             |
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/slider) |
+---
+### maxValue
+```xml
+<Slider maxValue="100"/>
+```
+Gets or sets the maximum value of the slider.
 
-<!-- TODO: fix links -->
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/slider).
 
-### Events
+## Event(s)
 
-| Name          | Description                                   |
-| ------------- | --------------------------------------------- |
-| `valueChange` | Emitted when the value of the slider changes. See [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) interface for available data|
+### valueChange
+```ts
+slider.on("valueChange", (args: PropertyChangeData)=>{
+      
+console.log("valueChange: ", args.value, "Old: "+args.oldValue)
 
-### Native component
+})
+```
+Emitted when the value of the slider changes. See [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) interface for available data.
+
+---
+
+## Native component
 
 | Android                                                                                         | iOS                                                                    |
 | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
