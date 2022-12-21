@@ -2,9 +2,9 @@
 title: TabView
 ---
 
-
 `<TabView>` is a navigation component that shows content grouped into tabs and lets users switch between tabs.
 
+---
 ### Simple TabView
 
 <!-- /// flavor plain -->
@@ -238,32 +238,62 @@ You can use images for tab icons instead of icon fonts. For more information abo
 
 The `TabView` component has the following unique styling properties:
 
-- `tabTextColor` (corresponding CSS property `tab-text-color` ) - Changes the text color for the tabs.
+- [tabTextColor](#tabtextcolor)
 
-- `selectedTabTextColor` (corresponding CSS property `selected-tab-text-color` ) - Changes the color of the text for the selected tab.
+- [selectedTabTextColor](#tabtextcolor)
 
-- `tabBackgroundColor` (corresponding CSS property `tab-background-color`) - Sets the background color of the tabs.
+- [tabBackgroundColor](#tabbackgroundcolor)
 
-- `tabTextFontSize` (corresponding CSS property `tab-text-font-size`) - Sets the font size of the tabs.
+- [tabTextFontSize](#tabtextfontsize)
 
-- `textTransform` (corresponding CSS property `text-transform`) - Sets the text transform individually for every `TabViewItem`. Value options: `capitalize`, `lowercase`, `none`, and `uppercase`.
+- [textTransform](#texttransform)
 
-- `androidSelectedTabHighlightColor`<sup>android specific property</sup> (corresponding CSS property `android-selected-tab-highlight-color`) - Sets the underline color of the tabs in Android.
+- [androidSelectedTabHighlightColor](#androidselectedtabhighlightcolor)
 
-### Props
+## Props
+### selectedIndex
+Gets or sets the currently selected tab. Default is `0`.
 
-| Name                               | Type                                            | Description                                                                                                                          |
-| ---------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `selectedIndex`                    | `Number`                                        | Gets or sets the currently selected tab. Default is `0`.                                                                             |
-| `tabTextColor`                     | `Color`                                         | (Style property) Gets or sets the text color of the tabs titles.                                                                     |
-| `tabTextFontSize`                  | `Color`                                         | Gets or sets the font size of the tabs titles.                                                                                       |
-| `tabBackgroundColor`               | `Color`                                         | (Style property) Gets or sets the background color of the tabs.                                                                      |
-| `selectedTabTextColor`             | `Color`                                         | (Style property) Gets or sets the text color of the selected tab title.                                                              |
-| `androidTabsPosition`              | `String`                                        | Sets the position of the TabView in Android platform<br/>Valid values: `top` or `bottom`.                                            |
-| `androidOffscreenTabLimit`         | `number`                                        | Gets or sets the number of tabs that should be retained to either side of the current tab in the view hierarchy in an idle state.    |
-| `androidSelectedTabHighlightColor` | `Color`                                         | Gets or sets the color of the horizontal line drawn below the currently selected tab on Android.                                     |
-| `iosIconRenderingMode`             | `automatic`, `alwaysOriginal`, `alwaysTemplate` | Gets or sets the icon rendering mode on iOS.                                                                                         |
-| `...Inherited`                     | `Inherited`                                     | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/tabview) |
+---
+### tabTextColor
+Corresponding CSS: `tab-text-color`
+
+Gets or sets the text color of the tabs titles. 
+
+---
+### tabTextFontSize
+Corresponding CSS: `tab-text-font-size`
+
+Gets or sets the font size of the tabs titles.
+
+---
+### tabBackgroundColor
+Corresponding CSS: `tab-background-color`
+
+Sets the background color of the tabs.
+
+---
+### tabTextFontSize
+Corresponding CSS: `tab-text-font-size`
+
+Sets the font size of the tabs.
+
+---
+### textTransform
+Corresponding CSS: `text-transform` 
+
+Sets the text transform individually for every `TabViewItem`. Value options: `capitalize`, `lowercase`, `none`, and `uppercase`.
+
+---
+### androidSelectedTabHighlightColor
+
+Corresponding CSS: `android-selected-tab-highlight-color`
+
+(`Android-only`)Sets the underline color of the tabs.
+
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/tabview).
 
 ### TabViewItem Properties
 
@@ -272,12 +302,11 @@ The `TabView` component has the following unique styling properties:
 | `title`      | `string` | Gets or sets the title of the tab strip entry.                                                                                               |
 | `iconSource` | `string` | Gets or sets the icon source of the tab strip entry. Supports local image paths (`~`), resource images (`res://`) and icon fonts (`font://`) |
 
-### Events
+## Event(s)
+### selectedIndexChange
+Raised when the selected index changes.
 
-| Name                  | Description                                                                                                                                                                                                                                                    |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `selectedIndexChange` | Raised when the selected index changes. |
-
+---
 #### SelectedIndexChangedEventData
 The `SelectedIndexChangedEventData` object provides the following data:
 | Name | Type | Description |
@@ -286,7 +315,7 @@ The `SelectedIndexChangedEventData` object provides the following data:
 | `newIndex`| `number`| The new selected index.|
 
 
-### Native component
+## Native component
 
 | Android                                                                                                               | iOS                                                                                        |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
