@@ -252,58 +252,130 @@ The `TabView` component has the following unique styling properties:
 
 ## Props
 ### selectedIndex
+```xml
+ <TabView selectedIndex="{{ tabSelectedIndex }}" />
+```
+```ts
+selectedIndex = tabView.selectedIndex
+```   
 Gets or sets the currently selected tab. Default is `0`.
 
 ---
 ### tabTextColor
-Corresponding CSS: `tab-text-color`
+```xml
+<TabView tabTextColor="#fff" />
+``` 
 
+Corresponding CSS: `tab-text-color`
+```css
+.tab-view {
+  tab-text-color: #fff;
+}
+```
 Gets or sets the text color of the tabs titles. 
 
 ---
 ### tabTextFontSize
 Corresponding CSS: `tab-text-font-size`
-
+```css
+.tab-view{
+  tab-text-font-size: 24;
+}
+```
 Gets or sets the font size of the tabs titles.
 
 ---
 ### tabBackgroundColor
+```xml
+<TabView tabBackgroundColor="#3d5a80">
+```
 Corresponding CSS: `tab-background-color`
-
+```css
+.tab-view{
+  tab-background-color: #3d5a80;
+}
+```
 Sets the background color of the tabs.
 
 ---
-### tabTextFontSize
-Corresponding CSS: `tab-text-font-size`
-
-Sets the font size of the tabs.
-
----
-### textTransform
-Corresponding CSS: `text-transform` 
-
-Sets the text transform individually for every `TabViewItem`. Value options: `capitalize`, `lowercase`, `none`, and `uppercase`.
-
----
 ### androidSelectedTabHighlightColor
-
+```xml
+<TabView androidSelectedTabHighlightColor="#76ABEB">
+```
 Corresponding CSS: `android-selected-tab-highlight-color`
-
+```css
+.tab-view {
+  android-selected-tab-highlight-color: #76ABEB;
+}
+```
 (`Android-only`)Sets the underline color of the tabs.
+
+---
+### androidTabsPosition
+```xml
+ <TabView androidTabsPosition="top" >
+```
+Sets the position of the TabView in Android platform. 
+
+Valid values: `top` or `bottom`. Defaults to `top`.                            
+
+---
+### iosIconRenderingMode
+
+Gets or sets the icon rendering mode([UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode)) on iOS.
+
+Defaults to `automatic`.
+
+Valid values are: `automatic`| `alwaysOriginal`| `alwaysTemplate`
 
 ---
 ### ...Inherited
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/tabview).
 
-### TabViewItem Properties
+## TabViewItem Props
+### title
+```xml
+ <TabViewItem title="Profile">
+```
+Gets or sets the title of the tab strip entry.                     
 
-| Name         | Type     | Description                                                                                                                                  |
-| ------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| `title`      | `string` | Gets or sets the title of the tab strip entry.                                                                                               |
-| `iconSource` | `string` | Gets or sets the icon source of the tab strip entry. Supports local image paths (`~`), resource images (`res://`) and icon fonts (`font://`) |
+---
+### textTransform
+```xml
+<TabViewItem title="Profile" textTransform="capitalize" />
+```
+Corresponding CSS: `text-transform` 
+```css
+.tab-view-item {
+  text-transform: capitalize;
+}
+```
+Sets the text transform individually for every `TabViewItem`. See [textTransformType](https://docs.nativescript.org/api-reference/modules/coretypes#texttransformtype) for valid options.
+
+---
+### iconSource
+```xml
+ <TabViewItem title="Profile" 
+ iconSource="~/assets/images/cat.jpeg" >
+```
+
+Gets or sets the icon source of the tab strip entry. Supports local image paths (`~`), resource images (`res://`) and icon fonts (`font://`).
 
 ## Event(s)
+
 ### selectedIndexChange
+```xml
+ <TabView loaded="{{ onTabViewLoaded }}" >
+```
+```ts
+onTabViewLoaded(args: EventData){
+    const tabView = args.object as TabView
+
+    tabView.on("selectedIndexChanged",(args: SelectedIndexChangedEventData)=>{
+      
+    })
+  }
+```
 Raised when the selected index changes.
 
 ---
