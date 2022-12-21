@@ -6,6 +6,7 @@ title: Switch
 
 The default state is `false` or OFF.
 
+---
 ### Simple Switch
 
 To be notified when the Switch state changes, listen  for the `checkedChange` event.
@@ -13,20 +14,25 @@ To be notified when the Switch state changes, listen  for the `checkedChange` ev
 <!-- /// flavor plain -->
 
 ```xml
-<Switch checked="true" loaded="onSwitchLoaded" />
+<Switch checked="{{ checked }}" loaded="{{ onSwitchLoaded }}" />
 ```
-
 ```ts
-import { Switch } from '@nativescript/core'
+export class HelloWorldModel extends Observable {
+  checked = true
+  constructor() {
+    super()
+  }
 
-export function onSwitchLoaded(argsloaded) {
-  const mySwitch = argsloaded.object as Switch
-  mySwitch.on('checkedChange', args => {
-    const sw = args.object as Switch
-    const isChecked = sw.checked
-    console.log(`Switch new value ${isChecked}`)
-  })
-}
+  onSwitchLoaded(args: EventData){
+    const switchComponent = args.object as Switch;
+
+    switchComponent.on("checkedChange", (args: PropertyChangeData)=>{
+
+    console.log("checkedChange: ", args.value, "Old: "+args.oldValue)
+
+    })
+  }
+} 
 ```
 
 <!-- ///
@@ -97,26 +103,47 @@ onCheckedChange(args: PropertyChangeData) {
 /// -->
 ### Styling Switch
 ```xml
-<Switch checked="true" loaded="onSwitchLoaded"  color="#BFCDAC" backgroundColor="green" offBackgroundColor="#DC493D"/>
+<Switch checked="true" color="#BFCDAC" backgroundColor="green" offBackgroundColor="#DC493D"/>
 ```
-## Switch Reference(s)
 
-### Props
+## Props
+### checked
+```xml
+<Switch checked="true"/>
+```
+```ts
+switchComponent.checked = false
+```
+Gets or sets the state value of the switch.
 
-| Name           | Type        | Description                                                                                                                         |
-| -------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| `checked`      | `Boolean`   | Gets or sets the value of the switch selection.<br/>Default value: `false`.                                                         |
-| `offBackgroundColor` | `Color` | 	Gets or sets the off-state color.|
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/switch) |
+---
+### offBackgroundColor
+```xml
+<Switch offBackgroundColor="#DC493D"/>
+```
+Gets or sets the off-state color.
 
+---
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/switch).
 
-### Events
+## Event(s)
 
-| Name            | Description                                |
-| --------------- | ------------------------------------------ |
-| `checkedChange` | Emitted when the switch selection changes. See [PropertyChangeData Interface](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) for the event data.|
+### checkedChange
+```ts
+onSwitchLoaded(args: EventData){
+    const switchComponent = args.object as Switch;
 
-### Native component
+    switchComponent.on("checkedChange", (args: PropertyChangeData)=>{
+
+    console.log("checkedChange: ", args.value, "Old: "+args.oldValue)
+
+    })
+}
+```
+Emitted when the switch state changes. See [PropertyChangeData Interface](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) for the event data.
+
+## Native component
 
 | Android                                                                                       | iOS                                                                    |
 | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
