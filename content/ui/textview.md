@@ -202,7 +202,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 <TextView text="{{ viewDate }}" />
 ```
 ```ts
-text: string = textField.text
+text: string = textView.text
 ```
 Gets or sets the `text` value of the component. 
 
@@ -212,7 +212,7 @@ Gets or sets the `text` value of the component.
 <TextView hint="hint" />
 ```
 ```ts
-hint: string = textField.hint
+hint: string = textView.hint
 ```
 Gets or sets the placeholder text for the component.
 
@@ -222,9 +222,9 @@ Gets or sets the placeholder text for the component.
 <TextView editable="false" />
 ```
 ```ts
-editable: boolean = textField.editable
+editable: boolean = textView.editable
 //or
-textField.editable = false
+textView.editable = false
 ```
 Toggles the ability to take user input.
 
@@ -234,9 +234,9 @@ Toggles the ability to take user input.
 <TextView keyboardType="number" />
 ```
 ```ts
-textField.keyboardType = CoreTypes.KeyboardType.number
+textView.keyboardType = CoreTypes.KeyboardType.number
 //or
-keyboardType: CoreTypes.KeyboardType = textField.keyboardType
+keyboardType: CoreTypes.KeyboardType = textView.keyboardType
 ```
 Shows the appropriate keyboard keys for the data the TextField will capture. See [CoreTypes.KeyboardType](https://docs.nativescript.org/api-reference/modules/coretypes.keyboardtype) for available values.
 
@@ -246,9 +246,9 @@ Shows the appropriate keyboard keys for the data the TextField will capture. See
 <TextView returnKeyType="next" />
 ```
 ```ts
-textField.returnKeyType = CoreTypes.ReturnKeyType.next
+textView.returnKeyType = CoreTypes.ReturnKeyType.next
 //or
-returnKeyType: CoreTypes.ReturnKeyType = textField.returnKeyType
+returnKeyType: CoreTypes.ReturnKeyType = textView.returnKeyType
 ```
 Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://docs.nativescript.org/api-reference/modules/coretypes.returnkeytype) for available values.
 
@@ -259,7 +259,7 @@ Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://
 <TextView maxLines="2" />
 ```
 ```ts
-textField.maxLines = 2
+textView.maxLines = 2
 ```
 Limits input to a certain number of lines.
 
@@ -269,18 +269,19 @@ Limits input to a certain number of lines.
 <TextView returnKeyType="autocorrect" />
 ```
 ```ts
-textField.autocorrect = true
+textView.autocorrect = true
 //or
-autocorrect: boolean = textField.autocorrect
+autocorrect: boolean = textView.autocorrect
 ```
 Enables or disables autocorrect. 
 
 ---
 
-### Inherited  props
-For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textview) 
+### ...Inherited 
+For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textview).
 
-### Events
+---
+## Events
 
 | Name          | Description                             |
 | ------------- | --------------------------------------- |
@@ -289,7 +290,7 @@ For additional inherited properties not shown, refer to the [API Reference](http
 | `focus`       | Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)  |
 | `blur`        | Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)|
 
-### Native component
+## Native component
 
 | Android                                                                                           | iOS                                                                        |
 | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
