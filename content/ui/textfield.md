@@ -146,45 +146,172 @@ The following example shows a TextField styled with `@nativescript/tailwind`.
     textChange="{{ onFirstNameChange }}"
     class="border border-gray-500 rounded-lg pl-2 text-gray-700"/>
 ```
-## Reference(s)
+## Props
+### text
+```xml
+<TextView text="{{ viewDate }}" />
+```
+```ts
+text: string = textField.text
+```
+Gets or sets the `text` value of the component. 
 
-### Props
+---
+### hint
+```xml
+<TextView hint="hint" />
+```
+```ts
+hint: string = textField.hint
+```
+Gets or sets the placeholder text for the component.
 
-| Name                     | Type                                                                                                             | Description                                                                                                                            |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `text`                   | `String`                                                                                                         | Gets or sets the value of the field.                                                                                                   |
-| `hint`                   | `String`                                                                                                         | Gets or sets the placeholder text.                                                                                                     |
-| `isEnabled`              | `Boolean`                                                                                                        | Make the field disabled or enabled. Default value is `true`.                                                                           |
-| `editable`               | `Boolean`                                                                                                        | When `true`, indicates that the user can edit the value of the field.                                                                  |
-| `maxLength`              | `Number`                                                                                                         | Limits input to the specified number of characters.                                                                                    |
-| `secure`                 | `Boolean`                                                                                                        | Hides the entered text when `true`. Use this property to create password input fields.<br/>Default value: `false`.                     |
-| `secureWithoutAutofill`  | `Boolean`                                                                                                        | Prevent iOS 12+ auto suggested strong password handling (iOS Only)                                                                     |
-| `keyboardType`           | `KeyboardType`                                                                                                   | Shows a custom keyboard for easier text input.<br/>Valid values: `datetime`, `phone`, `number`, `url`, or `email`.                     |
-| `returnKeyType`          | `ReturnKeyType`                                                                                                  | Gets or sets the label of the return key.<br/>Valid values: `done`, `next`, `go`, `search`, or `send`.                                 |
-| `autocorrect`            | `Boolean`                                                                                                        | Enables or disables autocorrect.                                                                                                       |
-| `autocapitalizationType` | [`AutocapitalizationType`](https://docs.nativescript.org/api-reference/modules/coretypes.autocapitalizationtype) | Gets or sets the autocapitalization type.                                                                                              |
-| `letterSpacing`          | `number`                                                                                                         | Gets or sets letter space style property.                                                                                              |
-| `lineHeight`             | `number`                                                                                                         | Gets or sets line height style property.                                                                                               |
-| `textAlignment`          | `TextAlignment`                                                                                                  | Gets or sets the text alignment.                                                                                                       |
-| `textDecoration`         | `TextDecoration`                                                                                                 | Gets or sets the text decoration.                                                                                                      |
-| `textTransform`          | `TextTransform`                                                                                                  | Gets or sets the text transform.                                                                                                       |
-| `whiteSpace`             | `WhiteSpace`                                                                                                     | Gets or sets white space style property.                                                                                               |
-| `...Inherited`           | `Inherited`                                                                                                      | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textfield) |
+---
+### editable
+```xml
+<TextView editable="false" />
+```
+```ts
+editable: boolean = textField.editable
+//or
+textField.editable = false
+```
+Toggles the ability to take user input.
 
-### Methods
-| Name | Type | Description |
-|------|------|-------------|
-| `focus()` | `boolean`| Focuses the TextField and returns `true` if the focus is succeessful. |  
-| `dismissSoftInput()` | `void`| Hides the keyboard on the screen.|  
+---
+### keyboardType
+```xml
+<TextView keyboardType="number" />
+```
+```ts
+textField.keyboardType = CoreTypes.KeyboardType.number
+//or
+keyboardType: CoreTypes.KeyboardType = textField.keyboardType
+```
+Shows the appropriate keyboard keys for the data the TextField will capture. See [CoreTypes.KeyboardType](https://docs.nativescript.org/api-reference/modules/coretypes.keyboardtype) for available values.
 
-### Events
+---
+### returnKeyType
+```xml
+<TextView returnKeyType="next" />
+```
+```ts
+textField.returnKeyType = CoreTypes.ReturnKeyType.next
+//or
+returnKeyType: CoreTypes.ReturnKeyType = textField.returnKeyType
+```
+Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://docs.nativescript.org/api-reference/modules/coretypes.returnkeytype) for available values.
 
-| Name          | Description                             |
-| ------------- | --------------------------------------- |
-| `textChange`  | Emitted when the text changes. Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)         |
-| `returnPress` | Emitted when the return key is pressed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)  |
-| `focus`       | Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)  |
-| `blur`        | Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)|
+---
+### isEnabled
+Allows or disallow the field to be editted. Default value is `true`. 
+
+---
+### maxLength
+```xml
+<TextView maxLength="10" />
+```
+```ts
+textView.maxLength = 10
+```
+Limits input to the specified number of characters.   
+
+---
+### secure
+```xml
+<TextView secure="true" />
+```
+Hides the entered text when `true`. Use this property for password input fields. Default value: `false`.   
+
+---
+### secureWithoutAutofill
+
+(`iOS-only`) Prevents iOS 12+ auto suggested strong password handling.
+
+---
+### autocapitalizationType
+```xml
+<TextField text="Hello" autocapitalizationType="words" />  
+```
+Gets or sets the autocapitalization type. See [AutocapitalizationType](https://docs.nativescript.org/api-reference/modules/coretypes.autocapitalizationtype) interface for valid options. 
+
+---
+### letterSpacing
+```xml
+<TextField text="Hello" letterSpacing="4" />  
+```
+Gets or sets letter space style property.
+
+---
+<!-- Is the lineHeight necessary for a TextField -->
+<!-- ### lineHeight
+```xml
+<TextField text="Hello" lineHeight="4" />  
+```
+Gets or sets line height style property.
+
+--- -->
+### textAlignment
+```xml
+<TextView textAlignment="center" />
+```
+Gets or sets the text alignment. See [TextAlignment](https://docs.nativescript.org/api-reference/modules/coretypes.textalignment) for valid options.
+                                                                         
+---                             
+### textDecoration
+ Gets or sets the text decoration. See [TextDecoration](https://docs.nativescript.org/api-reference/modules/coretypes.textdecoration) for valid options.
+
+---
+### textTransform
+```xml
+<TextField hint="" text="Hello" textTransform="uppercase">
+```
+Gets or sets the text transform.  See [TextTransform](https://docs.nativescript.org/api-reference/modules/coretypes.texttransform) for valid options.
+ 
+---
+### whiteSpace
+Gets or sets white space style property.  See [WhiteSpace](https://docs.nativescript.org/api-reference/modules/coretypes.whitespace) for valid options.                                                                       
+
+---                     
+### ...Inherited
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textfield).
+
+---
+
+## Methods
+
+### focus()
+```ts
+isFieldFocused: boolean = textField.focus()
+```
+Focuses the TextField and returns `true` if the focus is succeessful.
+
+---
+### dismissSoftInput()
+```ts
+textField.dismissSoftInput()
+```
+Hides the keyboard on the screen.
+
+---
+## Events
+
+### textChange
+Emitted when the input value text changes. Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)
+
+---
+### returnPress
+Emitted when the return key is pressed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+
+---
+### focus
+Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+
+---
+### blur
+Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+
+---
 
 ### Native component
 
