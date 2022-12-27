@@ -125,7 +125,7 @@ webView.iosAllowInlineMediaPlayback = true
 (`iOS only`) Enables inline media playback on iOS. By default, webview forces iPhone into fullscreen media playback. 
 
 ---
-
+## Methods
 ### stopLoading()
 ```ts
 webView.stopLoading()
