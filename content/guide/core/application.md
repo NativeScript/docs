@@ -1,17 +1,17 @@
 ---
 title: Application
-description: Application global state handling
+description: Handling application global state
 ---
 
-The Application module provides abstraction over the platform-specific application implementations. It lets you handle the app's lifecycle events, send Broadcasts on Android or add a Notification observer on IOS, etc.
+The Application class provides abstraction over the platform-specific application implementations. It lets you handle the app's lifecycle events, send Broadcasts on Android or add a Notification observer on IOS, etc.
 
 ## Using Application
 
 ### Registering a broadcast receiver
 
-The following is an example of how to register a broadcast receiver in Android 
+The following is an example of how to register a broadcast receiver with a custom intent filter. For system intent filters, see [Standard Broadcast Actions](https://developer.android.com/reference/android/content/Intent#standard-broadcast-actions).
 
-<!-- TODO: add a Preview -->
+<!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-khnhes?file=app/app.ts -->
 
 ### Unregistering a broadcast receiver
 
@@ -21,7 +21,7 @@ androidApp.unregisterBroadcastReceiver(android.content.Intent.ACTION_BATTERY_CHA
 
 ### Adding a notification observer
 
-To add an iOS notification observer, use the `addNotificationObserver` method:
+To add an iOS notification observer, use the `addNotificationObserver` method.
 
 ```ts
 const observer: any = iOSApp.addNotificationObserver(
@@ -31,6 +31,8 @@ const observer: any = iOSApp.addNotificationObserver(
   }
 )
 ```
+
+You can try out other notifications at [Managing Notification](https://developer.apple.com/documentation/uikit/uideviceorientationdidchangenotification).
 
 ### Removing a notification observer
 
@@ -140,7 +142,7 @@ Returns `true` if the main application activity is in background
 receiver = androidApp.registerBroadcastReceiver(intentFilter, onReceiveCallback)
 ```
 
-Registers a [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver)to be run in the main activity thread. The receiver will be called with any broadcast Intent that matches the intent filter.
+Registers a [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver) to be run in the main activity thread. The receiver will be called with any broadcast Intent that matches the intent filter.
 
 `onReceiveCallback`: a callback function that will be called each time a broadcast is received.
 
