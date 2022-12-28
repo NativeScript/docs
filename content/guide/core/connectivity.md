@@ -67,6 +67,6 @@ Defines the different connection types.
 - [@nativescript/core/connectivity](https://docs.nativescript.org/api-reference/modules.html#connectivity) module
 - [connectionType](https://docs.nativescript.org/api-reference/modules.html#connectivity) enum  
 
-### Native Component
+## Native Component
 - `Android`: [CONNECTIVITY_SERVICE (android.content.Context)](https://developer.android.com/reference/android/content/Context)
 - `iOS`: [SCNetworkReachability](https://developer.apple.com/documentation/systemconfiguration/scnetworkreachability-g7d)
