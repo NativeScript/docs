@@ -6,12 +6,7 @@ This class allows you to create a color object with all color components(in the 
 
 ## Using Color
 
-First import the Color from `@nativescript/core`:
-
-```ts
-import { Color } from '@nativescript/core'
-```
-
+<!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-x2y7k6?file=app/main-view-model.ts -->
 ### Creating a color from hex values
 
 ```ts
