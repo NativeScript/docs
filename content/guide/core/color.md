@@ -369,7 +369,5 @@ Returns the color complement.
 
 ---
 ## Native Component
-
-| Android | iOS |
-|---------|-----|
-| [android.graphics.Color](https://developer.android.com/reference/android/graphics/Color) | [UIColor](https://developer.apple.com/documentation/uikit/uicolor?language=objc)|
+- `Android`: [android.graphics.Color](https://developer.android.com/reference/android/graphics/Color)
+- `iOS`: [UIColor](https://developer.apple.com/documentation/uikit/uicolor?language=objc)
