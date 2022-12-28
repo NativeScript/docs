@@ -4,10 +4,11 @@ description: Persist data on the device
 ---
 
 The `ApplicationSettings` class allows you to store and retrieve data on the device.
-<!-- TODO: Add Preview -->
+
 ## Using ApplicationSettings
 
 ApplicationSettings provides setters(and getters) for different data types. Use the appropriate setter, otherwise an error will be thrown.
+<!-- https://stackblitz.com/edit/nativescript-stackblitz-templates-5ns4cv?file=app/main-view-model.ts -->
 
 ### Storing a string value
 
@@ -17,7 +18,7 @@ To store a string value, use the [setString()](#setstring)  method:
 ApplicationSettings.setString("username", "Wolfgang");
 ```
 
-You can use this method with the `JSON.stringify()` to store an object or an array as a string and then use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
+You can use this method with the `JSON.stringify()`(as shown in the `saveObjectAsString()` method) to store an object or an array as a string and then use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
 
 
 ### Storing a boolean value
@@ -38,7 +39,7 @@ ApplicationSettings.setNumber("locationX", 54.321);
 
 ## ApplicationSettings API
 
-### setString
+### setString()
 
 ```ts
 ApplicationSettings.setString(key: string, value: string)
@@ -48,7 +49,7 @@ Stores a string value for the specified key.
 
 ---
 
-### getString
+### getString()
 
 ```ts
 ApplicationSettings.getString(key: string, deafaultValue?: string)
@@ -58,7 +59,7 @@ Gets a value (if existing) for a key as a `String` object. A default value can b
 
 ---
 
-### setNumber
+### setNumber()
 
 ```ts
 ApplicationSettings.setNumber(key: string, value: number)
@@ -68,7 +69,7 @@ Sets a `Number` object for a key.
 
 ---
 
-### getNumber
+### getNumber()
 
 ```ts
 ApplicationSettings.getNumber(key: string, deafaultValue?: number)
@@ -78,7 +79,7 @@ Gets a value (if existing) for a key as a `Number` object. A default value can b
 
 ---
 
-### setBoolean
+### setBoolean()
 
 ```ts
 ApplicationSettings.setBoolean(key: string, value: boolean)
@@ -88,7 +89,7 @@ Sets a `boolean` for a key.
 
 ---
 
-### getBoolean
+### getBoolean()
 
 ```ts
 ApplicationSettings.getBoolean(key: string, deafaultValue?: boolean)
@@ -98,7 +99,7 @@ Gets a value (if existing) for a key as a `boolean`.  A default value can be pro
 
 ---
 
-### remove
+### remove()
 
 ```ts
 ApplicationSettings.remove(key: string)
@@ -108,7 +109,7 @@ Removes the key and its value from the device storage.
 
 ---
 
-### clear
+### clear()
 
 ```ts
 ApplicationSettings.clear()
@@ -118,7 +119,7 @@ Removes all values from the device storage.
 
 ---
 
-### getAllKeys
+### getAllKeys()
 
 ```ts
 ApplicationSettings.getAllKeys(): Array<string>
