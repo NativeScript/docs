@@ -8,12 +8,12 @@ The connectivity class provides a common abstraction of the functionality respon
 
 The following example shows how to use the Connectivity class:
 
-<!-- TODO: Add Preview -->
+<!--Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-1xb9ys?file=app/main-view-model.ts -->
 
 
 ## Connectivity API
 
-### getConnectionType
+### getConnectionType()
 
 ```ts
 type = Connectivity.getConnectionType()
@@ -23,7 +23,7 @@ Gets the type of connection.
 Returns a `number` value from the connectivity.connectionType ` enumeration. To use this method on Android you need to have the android.permission.ACCESS_NETWORK_STATE` permission added to the `AndroidManifest.xml` file.
 
 ---
-### startMonitoring
+### startMonitoring()
 
 ```ts
 Connectivity.startMonitoring(connectionTypeChangedCallback: (newConnectionType: number) => void): void
@@ -33,7 +33,7 @@ Starts monitoring the connection type.
 `connectionTypeChangedCallback`:  A function that will be called when the connection type changes.
 
 ---
-### stopMonitoring
+### stopMonitoring()
 
 ```ts
 Connectivity.stopMonitoring()
