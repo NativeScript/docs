@@ -32,7 +32,6 @@ const appRootFolder = knownFolders.currentApp()
 To create a folder, call the `getFolder()` method on an instance of the `Folder`(any of the root folders above or one you create) class and  pass it the name of the folder.
 
 ```ts
-
 folder.getFolder("folder-name")
 ```
 
@@ -41,7 +40,6 @@ You can also use the [fromPath](#frompath) static method of the Folder class.
 ```ts
 const folderPath = path.join(knownFolders.documents().path, 'music')
 const folder: Folder = Folder.fromPath(folderPath)
-
 ```
 
 ### Renaming a folder
@@ -49,7 +47,6 @@ const folder: Folder = Folder.fromPath(folderPath)
 To rename a folder, use the `rename` or `renameSync` method:
 
 ```ts
-
 folder
   .rename(newName)
   .then(res => {
@@ -60,14 +57,11 @@ folder
     //Folder couldn't be renamed
     console.error(err)
   })
-
 ```
 ### Check if a folder exists
 
 ```ts
-
 const folderExists: boolean = Folder.exists('folder-path')
-
 ```
 
 ### Accessing a folder's content
@@ -76,12 +70,10 @@ To get a folder's files and folders, use the `getEntitiesSync` or  `getEntities`
 
 
 ```ts
-
 folder
   .getEntities()
   .then((entities: FileSystemEntity[]) => {
-    
-  
+    // do something
   })
   .catch(err => {
     console.log(err)
@@ -122,22 +114,41 @@ console.error(error.message)
 })
 ```
 
-### Creating a file
-
-To create a file, call the `getFile()` method on an instance of the `Folder` class and pass it the file name with the extension.
-
-```ts
-folder.getFile("text.txt")
-```
-
-Alternatively, you can create a file from a path using the File class's  [fromPath](#frompath) static method.
+### Creating, writing to and reading from a file
+<!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-5yndru?file=app/main-view-model.ts -->
+- To create a file, call the `getFile()` method on an instance of the `Folder` class and pass it the file name with the extension.
 
 ```ts
-const documentsFolder = knownFolders.documents()
-const filePath = path.join(documentsFolder.path, 'FileFromPath.txt')
+folder.getFile("my-text.txt")
+//or 
+const filePath = path.join(folder.path, 'my-text.txt')
 const file = File.fromPath(filePath)
 ```
 
+- To save a text to a file, use the `writeText` or `writeTextSync` method:
+
+```ts
+file
+  .writeText('Some text')
+  .then(result => {
+    // Succeeded writing to the file.
+ 
+  })
+  .catch(error => {
+    console.log(error)
+  })
+
+```
+- To read data from a text file, use the `readText` or `readTextSync` method of the file instance:
+```ts
+   file.readText().then(res => {
+      // Succeeded read from file.
+      
+    })
+    .catch(error => {
+
+  })
+```
 ### Check if a file exists
 
 To check if a file exists, call the static [exists](#exists) method of the File class and pass it the file path string:
@@ -156,23 +167,6 @@ file.rename("new-name.ext").then((value)=>{
 }).catch(err=>{
 
 })
-```
-
-### Saving a text to a file
-
-To save a text to a file, use the `writeText` or `writeTextSync` method:
-
-```ts
-file
-  .writeText('Some text')
-  .then(result => {
-    // Succeeded writing to the file.
- 
-  })
-  .catch(error => {
-    console.log(error)
-  })
-
 ```
 
 ### Saving a binary data to a file
@@ -210,7 +204,6 @@ To read data from a text file, use the `readText` or `readTextSync` method of th
 To read binary data, use the `read` or `readSync` method of the File instance. For example, you can save an image on the device and retrive it as follows:
 
 ```ts
-
 async readAnImage() {
 
     const folder = knownFolders.documents()
@@ -239,7 +232,6 @@ async readAnImage() {
 To remove a file, use the [remove](#remove) or [removeSync](#removesync) method of the File instance:
 
 ```ts
-
 file
   .remove()
   .then((res: boolean) => {
@@ -247,7 +239,6 @@ file
   })
   .catch(err => {
   })
-
  ``` 
 
  ### Normalizing a path
@@ -266,7 +257,6 @@ path.normalize(documentsFolder.path + testPath)
 
 ```ts
 const folder: Folder = knownFolders.documents()
-
 ```
 
 Gets the Documents folder available for the current application. This Folder is private for the application and not accessible from Users/External apps.
@@ -287,7 +277,6 @@ Gets the Documents folder available for the current application on an external s
 
 ```ts
 const folder: Folder = knownFolders.temp()
-
 ```
 Gets the Temporary (Caches) folder available for the current application. This Folder is private for the application and not accessible from Users/External apps.
 
@@ -382,7 +371,6 @@ File.fromPath(path: string): File
 or 
 
 ```ts
-
 Folder.fromPath(path: string): Folder
 ```
 
@@ -393,7 +381,6 @@ Gets or creates a Folder or File entity at the specified path.
 ### getFolder
 ```ts
 folder.getFolder(name: string): Folder
-
 ```
 
 Gets or creates a Folder entity with the specified name within a Folder.
