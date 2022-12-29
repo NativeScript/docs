@@ -114,7 +114,7 @@ console.error(error.message)
 })
 ```
 
-### Creating, writing to and reading from a file
+### Creating, writing to and reading from a text file
 <!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-5yndru?file=app/main-view-model.ts -->
 - To create a file, call the `getFile()` method on an instance of the `Folder` class and pass it the file name with the extension.
 
@@ -186,18 +186,6 @@ file
 
 ```
 
-### Reading text from a file
-
-To read data from a text file, use the `readText` or `readTextSync` method of the file instance:
-```ts
-   file.readText().then(res => {
-      // Succeeded read from file.
-      
-    })
-    .catch(error => {
-
-  })
-```
 
 ### Reading a binary data from a file
 
