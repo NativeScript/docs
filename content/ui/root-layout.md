@@ -2,6 +2,8 @@
 title: RootLayout
 ---
 <!-- TODO: Add Preview -->
+<!-- TODO: Add flavors tabs -->
+
 `<RootLayout>` is a layout container designed to be used as the primary root layout container for your app with a built-in API to easily control dynamic view layers. It extends a [GridLayout]() so has all the features of a grid but enhanced with additional apis.
 ## Table of Contents
 * [Usage](#usage)
@@ -23,7 +25,7 @@ To use the `RootLayout` element, add it to a HTML file
 
 Then in the ViewModel, get its reference and call the `open()` method on it to open a [View](https://docs.nativescript.org/api-reference/classes/view) instance of interest.
 
-### Core
+<!-- /// flavor plain -->
 
 ```html
 <RootLayout height="100%" width="100%">
@@ -81,6 +83,7 @@ function getPopup(color: string, size: number, offset: number): View {
   return layout
 }
 ```
+<!-- /// flavor vue 
 
 ### Vue 
 
@@ -99,6 +102,9 @@ const nsView = createNativeView(Snackbar, props)
 getRootLayout()
              .open(nsView,...)
 ```
+-->
+
+<!-- /// flavor angular 
 
 ### Angular
 Convert the Angular component to a View instance as follows:
@@ -128,7 +134,7 @@ import { generateNativeScriptView } from '@nativescript/angular';
 
   })
 ```
-
+-->
 ### Listening to a view closed event
 
 To handle a closed view event, listen to the view's  `unloaded` event.
