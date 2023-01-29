@@ -6,6 +6,8 @@ title: ActivityIndicator
 
 ---
 
+| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ActivityIndicator.png" alt="Android ActivityIndicator Example" height="300" width="400"/> | <img alt="iOS ActivityIndicator Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ActivityIndicator.png" height="300" width="400"/>
+|:-------|:----------
 <!-- /// flavor plain -->
 
 ```xml
