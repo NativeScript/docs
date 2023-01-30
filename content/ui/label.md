@@ -9,6 +9,17 @@ This `<Label>` is **not** the same as the HTML `<label>`.
 :::
 
 ---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Label.png" alt="Android Label Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS Label Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Label.png" />
+</div>
+</div>
+</div>
 
 ### Simple label
 
