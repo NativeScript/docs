@@ -5,6 +5,17 @@ title: TabView
 `<TabView>` is a navigation component that shows content grouped into tabs and lets users switch between tabs.
 
 ---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TabView.png" alt="Android TabView Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS TabView Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TabView.png" />
+</div>
+</div>
+</div>
 ### Simple TabView
 
 <!-- /// flavor plain -->
