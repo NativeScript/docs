@@ -6,6 +6,9 @@ title: HtmlView
 
 See also: [WebView](#/ui/webview).
 
+---
+| <img class="w-full sm:w-1/2"  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/HtmlView.png" alt="Android HtmlView Example" height="300" width="400"/> | <img class="w-full sm:w-1/2"  alt="iOS HtmlView Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/HtmlView.png" height="300" width="400"/>
+|:-------|:----------
 
 <!-- /// flavor plain -->
 
