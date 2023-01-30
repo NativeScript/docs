@@ -14,7 +14,8 @@ All the dialogs take a `DialogOption` object with the properties:
 - `theme`(`android only`): Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style
 	 
 ## Creating an alert dialog
-
+| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/AlertDialog.png" alt="Android AlertDialog Example" height="300"/> | <img alt="iOS AlertDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/AlertDialog.png" height="300" />
+|:-------|:----------
 To create an alert, use the `Dialogs.alert()` method:
 
 `Dialogs.alert` has additonal `okButtonText` property.
@@ -42,7 +43,8 @@ const alertOptions: AlertOptions = {
 :::
 
 ## Creating an action dialog
-
+| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ActionDialog.png" alt="Android ActionDialog Example" height="200" width="300"/> | <img alt="iOS ActionDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ActionDialog.png" height="00" width="300"/>
+|:-------|:----------
 To let the user choose an input from a list, use `Dialogs.action()`:
 For the `action` dialog, there are 3 more properties available:
 
@@ -65,8 +67,9 @@ Dialogs.action(actionOptions).then((result) => {
 });
 ```
 
-## confirm dialog
-
+## Creating a confirm dialog
+| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ConfirmDialog.png" alt="Android ConfirmDialog Example" height="300" width="400"/> | <img alt="iOS ConfirmDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ConfirmDialog.png" height="300" width="400"/>
+|:-------|:----------
 For a user's action that requires confirmation, use the `Dialogs.confirm`:
 
 Additional properties for the parameter object are:
@@ -91,8 +94,10 @@ const confirmOptions = {
 
 ```
 
-## prompt dialog
+## Creating a prompt dialog
 
+| <img class="w-full sm:w-1/2"  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/PromptDialog.png" alt="Android PromptDialog Example" height="300" width="400"/> | <img class="w-full sm:w-1/2"  alt="iOS PromptDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/PromptDialog.png" height="300" width="400"/>
+|:-------|:----------
 To request for a user's input, use `Dialogs.prompt`:
 
 Other properties available for the `Dialogs.prompt`:
@@ -128,8 +133,9 @@ export function showPromptDialog() {
 }
 ```
 
-## login dialog
-
+## Creating a login dialog
+| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/LoginDialog.png" class="w-full sm:w-1/2" alt="Android LoginDialog Example" height="300" width="400"/> | <img alt="iOS LoginDialog Example" class="w-full sm:w-1/2"  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/LoginDialog.png" height="300" width="400"/>
+|:-------|:----------
 To have an isolated login form, use `Dialogs.login`:
 
 :::details Additional Resources
