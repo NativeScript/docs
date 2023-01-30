@@ -13,6 +13,17 @@ When working with images following [the best practices](/performance.html#image-
 :::
 
 ---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Image.png" alt="Android Image Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS Image Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Image.png" />
+</div>
+</div>
+</div>
 
 ### Displaying an image from `App_Resources`
 
