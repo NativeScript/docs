@@ -5,6 +5,18 @@ title: Slider
 `<Slider>` is a UI component that provides a slider control for picking values within a specified numeric range.
 
 ---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Slider.png" alt="Android Slider Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS Slider Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Slider.png" />
+</div>
+</div>
+</div>
+
 ### Simple Slider and listening to its value change event
 
 <!-- /// flavor plain -->
