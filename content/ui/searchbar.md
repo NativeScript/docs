@@ -5,6 +5,19 @@ title: SearchBar
 
 `<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
 
+---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/SearchBar.png" alt="Android SearchBar Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS SearchBar Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/SearchBar.png" />
+</div>
+</div>
+</div>
+
 <!-- /// flavor plain -->
 ### A simple SearchBar handling the clear and submit events
 
