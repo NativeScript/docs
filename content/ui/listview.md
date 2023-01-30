@@ -5,6 +5,17 @@ title: ListView
 `<ListView>` is a UI component that shows items in a vertically scrolling list. To set how the list shows individual items, you can use a `template` component,e.g `<ListView.itemTemplate>` for plain JS. Using a ListView requires some special attention due to the complexity of the native implementations, with custom item templates, bindings and so on.
 
 ---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ListView.png" alt="Android ListView Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS ListView Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ListView.png" />
+</div>
+</div>
+</div>
 
 <!-- TODO: examples in all flavors -->
 ## Creating a ListView
