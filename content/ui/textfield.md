@@ -7,6 +7,17 @@ title: TextField
 `<TextField>` extends [`TextBase`](https://docs.nativescript.org/api-reference/classes/textbase) and [`EditableTextBase`](https://docs.nativescript.org/api-reference/classes/editabletextbase) which provide additional properties and events.
 
 ---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TextField.png" alt="Android TextField Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS TextField Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TextField.png" />
+</div>
+</div>
+</div>
 
 ### Creating a simple TextField
 Below is a simple TextField component listening to a user input change event.
