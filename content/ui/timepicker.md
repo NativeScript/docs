@@ -22,6 +22,7 @@ See also: [DatePicker](/ui/datepicker).
 </div>
 
 ## Creating a simple TimePicker
+
 To listen to time change event, handle the `timeChange` event in the `loaded` event handler of the `<TimePicker>`
 <!-- /// flavor plain -->
 
