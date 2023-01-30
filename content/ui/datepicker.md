@@ -8,6 +8,8 @@ title: DatePicker
 See also: [TimePicker](/ui/timepicker).
 
 ---
+| <img class="w-full sm:w-1/2"  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/DatePicker.png" alt="Android DatePicker Example" height="300" width="400"/> | <img class="w-full sm:w-1/2"  alt="iOS DatePicker Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/DatePicker.png" height="300" width="400"/>
+|:-------|:----------
 <!-- /// flavor plain -->
 
 ```xml
