@@ -7,6 +7,18 @@ title: Switch
 The default state is `false` or OFF.
 
 ---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Switch.png" alt="Android Switch Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS Switch Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Switch.png" />
+</div>
+</div>
+</div>
+
 ### Simple Switch
 
 To be notified when the Switch state changes, listen  for the `checkedChange` event.
