@@ -5,6 +5,18 @@ title: ListPicker
 <!-- TODO: Add flavors -->
 `<ListPicker>` is a UI component that lets the user select a value from a pre-configured list.
 
+---
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ListPicker.png" alt="Android ListPicker Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS ListPicker Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ListPicker.png" />
+</div>
+</div>
+</div>
 
 ### Creating A Simple ListPicker
 
