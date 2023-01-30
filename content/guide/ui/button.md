@@ -9,6 +9,9 @@ For more information about the available gestures, see [Gestures](/guide/ui/gest
 
 ---
 
+| <img class="w-full sm:w-1/2"  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Button.png" alt="Android Button Example" height="300" width="400"/> | <img class="w-full sm:w-1/2"  alt="iOS Button Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Button.png" height="300" width="400"/>
+|:-------|:----------
+
 <!-- /// flavor plain -->
 
 ```xml
