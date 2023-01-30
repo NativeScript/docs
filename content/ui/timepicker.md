@@ -8,6 +8,19 @@ See also: [DatePicker](/ui/datepicker).
 
 ---
 
+<div>
+<div class="flex flex-wrap p-4 sm:p-8">
+<div  class="w-full sm:w-1/2">
+ <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TimePicker.png" alt="Android TimePicker Example"/> 
+</div>
+
+<div  class="w-full sm:w-1/2 sm:pl-8">
+<img alt="iOS TimePicker Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TimePicker.png" />
+</div>
+
+</div>
+</div>
+
 ## Creating a simple TimePicker
 To listen to time change event, handle the `timeChange` event in the `loaded` event handler of the `<TimePicker>`
 <!-- /// flavor plain -->
