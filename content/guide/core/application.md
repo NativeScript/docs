@@ -3,23 +3,49 @@ title: Application
 description: Handling application global state
 ---
 
-The Application class provides abstraction over the platform-specific application implementations. It lets you handle the app's lifecycle events, send Broadcasts on Android or add a Notification observer on IOS, etc.
+The Application class provides abstraction over the platform-specific application implementations([android.app.Application](https://developer.android.com/reference/android/app/Application) for Android and [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication?language=objc) for iOS). It lets you handle the app's lifecycle events, send Broadcasts on Android or add a Notification observer on IOS, etc.
 
-## Using Application
+## Use Application class
 
-### Registering a broadcast receiver
+### Register a broadcast receiver
 
-The following is an example of how to register a broadcast receiver with a custom intent filter. For system intent filters, see [Standard Broadcast Actions](https://developer.android.com/reference/android/content/Intent#standard-broadcast-actions).
-
-<!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-khnhes?file=app/app.ts -->
-
-### Unregistering a broadcast receiver
-
+To register a broadcast receiver, you follow these 3 steps:
+1. Import the `Application` class.
 ```ts
-androidApp.unregisterBroadcastReceiver(android.content.Intent.ACTION_BATTERY_CHANGED);
+import { Application, isAndroid } from '@nativescript/core';
+```
+2. Get the wrapper for Android application instance.
+Use the `android` property to get the wrapper around [android.app.Application](https://developer.android.com/reference/android/app/Application).
+```ts
+const androidApp: AndroidApplication = Application.android
 ```
 
-### Adding a notification observer
+3. Call the [registerBroadcastReceiver](#registerbroadcastreceiver) method.
+Call the `registerBroadcastReceiver` method on `androidApp`.
+```ts
+androidApp.registerBroadcastReceiver()
+```
+
+For a complete example that shows how to register a broadcast receiver with a custom intent filter, visit the following link. 
+
+<!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-khnhes?file=app/app.ts -->
+For system intent filters, see [Standard Broadcast Actions](https://developer.android.com/reference/android/content/Intent#standard-broadcast-actions).
+
+### Unregister a broadcast receiver
+
+To unregister a broadcast receiver, call the [unregisterBroadcastReceiver](#unregisterbroadcastreceiver) on the wrapper around an [android.app.Application](https://developer.android.com/reference/android/app/Application) passing it the intent filter for which to unregister the broacast receiver. The example below unregisters a broadcast receiver for the `android.content.Intent.ACTION_BATTERY_CHANGED` intent filter.
+
+```ts
+import { Application, isAndroid } from '@nativescript/core';
+if(isAndroid){
+const androidApp: AndroidApplication = Application.android
+
+androidApp.unregisterBroadcastReceiver(android.content.Intent.ACTION_BATTERY_CHANGED);
+}
+
+```
+
+### Add a notification observer
 
 To add an iOS notification observer, use the `addNotificationObserver` method.
 
@@ -34,7 +60,7 @@ const observer: any = iOSApp.addNotificationObserver(
 
 You can try out other notifications at [Managing Notification](https://developer.apple.com/documentation/uikit/uideviceorientationdidchangenotification).
 
-### Removing a notification observer
+### Remove a notification observer
 
 To remove a notification observer, use the `removeNotificationObserver()` method
 ```ts
