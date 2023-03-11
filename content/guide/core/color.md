@@ -2,19 +2,19 @@
 title: Color
 ---
 
-This class allows you to create a color object with all color components(in the [0, 255] range) - alpha, red, green, blue - using a diffent input types.
+This class allows you to create a color object with all color components(alpha, red, green, blue in the [0, 255] range) from different types of input. The properties `ios` and `android` of an instance of this class provide the color object for the respective native platform.
 
-## Using Color
+## Use the Color class
 
 <!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-x2y7k6?file=app/main-view-model.ts -->
-### Creating a color from hex values
+### Create a color object from hex values
 
 ```ts
 const color = new Color('#FF00CC');
 const colorShortHex = new Color('#F0C');
 ```
 
-### Creating a color with an alpha value
+### Create a color object from an alpha value
 
 ```ts
 const colorARGB = new Color(100, 255, 100, 100);
@@ -22,19 +22,31 @@ const colorARGB = new Color(100, 255, 100, 100);
 
 ## Color API
 
+The Color class offers the following properties and methods.
+
 ### constructor
 
-Represents a color object. The Color class the following overloads:
+Creates a color object. The Color class offers the following constructor overloads:
 
 ```ts
-const color = new Color(knownColor: string)
+const color = new Color(knownColor)
 ```
+Creates a Color instance from a known color name.
+- `knownColor` : A color name string such as `'red'`, `'purple'`, `'orange'`.
+
 ```ts
-const color = new Color(hex: string)
+const color = new Color(hex)
 ```
+Creates a Color instance from a color hexidecimal code.
+
+- `hex`: A string of a hexidecimal color value such as `'#fff'` or `'#FF00CC'`.
+
 ```ts
-const color = new Color(argb: number)
+const color = new Color(argb)
 ```
+Creates a Color instance from a number representing a color with an alpha.
+- `argb`: A number  such as `4293377432` as, representing color.
+
 ```ts
 const color = new Color(alpha: number, red: number, green:number, blue: number, type?: 'rgb' | 'hsl' | 'hsv')
 ```
@@ -43,57 +55,57 @@ const color = new Color(alpha: number, red: number, green:number, blue: number, 
 ### a
 
 ```ts
-color.a
+colorAlpha: number = color.a
 ```
 
-Gets the Alpha component of the color. This is a read-only
+Gets the Alpha component of the color. This is a `read-only` property.
 
 ---
 
 ### r
 
 ```ts
-color.r
+colorRed: number = color.r
 ```
 
-Gets the Red component of the color. This is a read-only property.
+Gets the Red component of the color. This is a `read-only` property.
 
 ---
 
 ### g
 
 ```ts
-color.g
+colorGreen: number = color.g
 ```
 
-Gets the Green component of the color. This is a read-only property.
+Gets the Green component of the color. This is a `read-only` property.
 
 ---
 
 ### b
 
 ```ts
-color.b
+colorBlue: number = color.b
 ```
 
-Gets the Blue component of the color. This is a read-only property.
+Gets the Blue component of the color. This is a `read-only` property.
 
 ---
 
 ### argb
 
 ```ts
-color.argb
+colorARGB : number = color.argb
 ```
 
-Gets the Argb Number representation of this color where each 8 bits represent a single color component. This is a read-only property.
+Gets the Argb Number representation of this color where each 8 bits represent a single color component. This is a `read-only` property.
 
 ---
 
 ### hex
 
 ```ts
-color.hex
+colorHex: string = color.hex
 ```
 
 Gets the Hexadecimal string representation of the color.
@@ -103,7 +115,7 @@ Gets the Hexadecimal string representation of the color.
 ### name
 
 ```ts
-color.name
+colorName: string =color.name
 ```
 
 Gets the known name of this instance. Defined only if it has been constructed from a known color name - e.g. "red".
@@ -123,80 +135,80 @@ Gets the android-specific integer value representation. Same as the Argb one.
 ### ios
 
 ```ts
-color.ios
+iOSColor: UIColor = color.ios
 ```
 
-Gets the iOS-specific `UIColor` value representation.
+Gets the iOS-specific [UIColor](https://developer.apple.com/documentation/uikit/uicolor) value representation.
 
 ---
 
-### Color.equals
+### Color.equals()
 
 ```ts
-Color.equals(value1: Color, value2: Color)
+equalColors: boolean = Color.equals(value1: Color, value2: Color)
 ```
 
-Compares two `Color` instances.
+A static Color class method that compares two `Color` instances and returns `true` if they are the same or `false` otherwise.
 
 ---
 
-### Color.isValid
+###  Color.isValid()
 
 ```ts
-Color.isValid(value: any)
+isValidColorValue: boolean = Color.isValid(value)
 ```
 
-Validates if a value can be converted to a color.
+A static Color class method that validates if a value can be converted to a color.
 
 ---
 
-### Color.fromIosColor
+### Color.fromIosColor()
 
 ```ts
-Color.fromIosColor(value: UIColor)
+color: Color = Color.fromIosColor(value)
 ```
 
-Creates color from iOS-specific UIColor value representation.
+Creates a Color instance from iOS-specific UIColor value representation. `value` is of type [UIColor](https://developer.apple.com/documentation/uikit/uicolor).
 
 ---
 
-### Color.mix
+### Color.mix()
 
 ```ts
-Color.mix(color1: Color, color2: Color, amount: number)
+color: Color = Color.mix(color1: Color, color2: Color, amount: number)
 ```
 
-Creates a mixture of two colors.
+A static method that creates a Color instance from mixture of two colors.
 
 ---
 
-### Color.fromHSL
+### Color.fromHSL()
 
 ```ts
-Color.fromHSL(a, h, s, l)
+color: Color = Color.fromHSL(a, h, s, l)
 ```
 
-Returns a new Color from HSL.
+A static method that returns a new Color from HSL.
 
 ---
 
-### Color.fromHSV
+### Color.fromHSV()
 
 ```ts
-Color.fromHSV(a, h, s, v)
+color: Color = Color.fromHSV(a, h, s, v)
 ```
 
-Returns a new Color from HSV.
+A static method that returns a new Color from HSV.
 
 ---
 
 ### equals
 
 ```ts
-color.equals(value: Color)
+color.equals(value)
 ```
 
-Checks whether the created Color is equal to the Color parameter.
+A Color instance method that checks whether the color instance on which the method is called equals the Color instance passed to the method. 
 
 ---
 
@@ -206,11 +218,11 @@ Checks whether the created Color is equal to the Color parameter.
 color.isDark()
 ```
 
-Returns true if `brightenss < 128`
+A Color instance method that returns true if `brightenss < 128`.
 
 ---
 
-### isLight
+### isLight()
 
 ```ts
 color.isLight()
