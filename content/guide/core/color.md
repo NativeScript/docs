@@ -2,7 +2,7 @@
 title: Color
 ---
 
-This class allows you to create a color object with all color components(alpha, red, green, blue in the [0, 255] range) from different types of input. The properties `ios` and `android` of an instance of this class provide the color object for the respective native platform.
+This class allows you to create a color object with all color components(alpha, red, green, blue in the [0, 255] range) from different types of color representations such as, ARGB, color name, hex, etc. The properties `ios` and `android` of an instance of this class provide the color object for the respective native platform.
 
 ## Use the Color class
 
@@ -125,7 +125,7 @@ Gets the known name of this instance. Defined only if it has been constructed fr
 ### android
 
 ```ts
-color.android
+androidColor = color.android
 ```
 
 Gets the android-specific integer value representation. Same as the Argb one.
@@ -145,7 +145,7 @@ Gets the iOS-specific [UIColor](https://developer.apple.com/documentation/uikit/
 ### Color.equals()
 
 ```ts
-equalColors: boolean = Color.equals(value1: Color, value2: Color)
+areColorsEqual: boolean = Color.equals(value1: Color, value2: Color)
 ```
 
 A static Color class method that compares two `Color` instances and returns `true` if they are the same or `false` otherwise.
@@ -165,7 +165,7 @@ A static Color class method that validates if a value can be converted to a colo
 ### Color.fromIosColor()
 
 ```ts
-color: Color = Color.fromIosColor(value)
+colorFromIosColor: Color = Color.fromIosColor(value)
 ```
 
 Creates a Color instance from iOS-specific UIColor value representation. `value` is of type [UIColor](https://developer.apple.com/documentation/uikit/uicolor).
@@ -175,7 +175,7 @@ Creates a Color instance from iOS-specific UIColor value representation. `value`
 ### Color.mix()
 
 ```ts
-color: Color = Color.mix(color1: Color, color2: Color, amount: number)
+colorMix: Color = Color.mix(color1: Color, color2: Color, amount: number)
 ```
 
 A static method that creates a Color instance from mixture of two colors.
@@ -185,7 +185,7 @@ A static method that creates a Color instance from mixture of two colors.
 ### Color.fromHSL()
 
 ```ts
-color: Color = Color.fromHSL(a, h, s, l)
+colorNew: Color = Color.fromHSL(a, h, s, l)
 ```
 
 A static method that returns a new Color from HSL.
@@ -195,14 +195,14 @@ A static method that returns a new Color from HSL.
 ### Color.fromHSV()
 
 ```ts
-color: Color = Color.fromHSV(a, h, s, v)
+colorNew: Color = Color.fromHSV(a, h, s, v)
 ```
 
 A static method that returns a new Color from HSV.
 
 ---
 
-### equals
+### equals()
 
 ```ts
 color.equals(value)
@@ -212,13 +212,13 @@ A Color instance method that checks whether the color instance on which the meth
 
 ---
 
-### isDark
+### isDark()
 
 ```ts
 color.isDark()
 ```
 
-A Color instance method that returns true if `brightenss < 128`.
+A Color instance method that returns `true` if the color is dark or returns`false` otherwise. A color is dark when `brightenss < 128`.
 
 ---
 
@@ -228,158 +228,160 @@ A Color instance method that returns true if `brightenss < 128`.
 color.isLight()
 ```
 
-Returns true if `brightenss >= 128`
+A Color instance method that returns `true` if the color is light or returns`false` otherwise.A color is light when `brightenss >= 128`
 
 ---
 
-### getBrightness
+### getBrightness()
 
 ```ts
-color.getBrightness()
+colorBrightness: number = color.getBrightness()
 ```
 
-Returns the [brightness](http://www.w3.org/TR/AERT#color-contrast).
+Returns the color's [brightness](http://www.w3.org/TR/AERT#color-contrast) value.
 
 ---
 
 ### getLuminance
 
 ```ts
-color.getLuminance()
+colorLuminance: number = color.getLuminance()
 ```
 
-Returns the [luminance](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef).
+Returns the color's [luminance](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef) value.
 
 ---
 
-### setAlpha
+### setAlpha()
 
 ```ts
-color.setAlpha(a: number)
+colorWithAlpha: Color = color.setAlpha(a)
 ```
+Adds the specified alpha to the color instance on which the method is called and returns the result as a new Color instance.
 
-`a` is a value between `0` and `255`. Return the created color (as a new Color instance) with the provided alpha.
+`a` is a value between `0` and `255`. 
 
 ---
 
-### toHsl
+### toHsl()
 
 ```ts
-color.toHsl()
+colorHsl: { h: number; s: number; l: number; a: number } = color.toHsl()
 ```
 
-Return the hsl(`{ h: number; s: number; l: number; a: number }`) representation of the color.
+Returns the hsl(`{ h: number; s: number; l: number; a: number }`) representation of the color.
 
 ---
 
-### toHslString
+### toHslString()
 
 ```ts
-color.toHslString()
+colorHslString: string = color.toHslString()
 ```
 
-Returns the [CSS hsl](https://www.w3schools.com/Css/css_colors_hsl.asp) representation of the color
+Returns the [CSS hsl](https://www.w3schools.com/Css/css_colors_hsl.asp) representation of the color.
 
 ---
 
-### toHsv
+### toHsv()
 
 ```ts
-color.toHsv()
+colorHsv: { h: number; s: number; v: number; a: number } = color.toHsv()
 ```
 
 Returns the hsv(`{ h: number; s: number; v: number; a: number }`) representation of the color
 
 ---
 
-### toHsvString
+### toHsvString()
 
 ```ts
-color.toHsvString()
+colorHsvString: string = color.toHsvString()
 ```
 
 Returns the [CSS rgb](https://www.w3schools.com/Css/css_colors_rgb.asp) representation of the color.
 
 ---
 
-### desaturate
+### desaturate()
 
 ```ts
-color.desaturate(amount: number)
+colorDesaturated: Color = color.desaturate(amount)
 ```
 
-Desaturates the color a given amount, from `0` to `100`. Providing `100` is the same as calling [greyscale](#greyscale).
+Desaturates the color by the specified amount. `amount` is a number between `0` and `100` inclusive. Providing `100` is the same as calling [greyscale](#greyscale).
 
 ---
 
-### saturate
+### saturate()
 
 ```ts
-color.saturate(amount: number)
+colorSaturated: Color = color.saturate(amount)
 ```
 
-Saturates the color a given amount, from `0` to `100`.
+Saturates the color by the specified amount.`amount` is a number between `0` and `100` inclusive.
 
 ---
 
-### greyscale
+### greyscale()
 
 ```ts
-color.greyscale()
+colorGrayscaled: Color = color.greyscale()
 ```
 
 Completely desaturates a color into greyscale. Same as calling [desaturate(100)](#desaturate).
 
 ---
 
-### lighten
+### lighten()
 
 ```ts
-color.lighten()
+colorLightened: Color = color.lighten(amount)
 ```
 
-Lightens the color a given amount, from `0` to `100`. Providing `100` returns white.
+Lightens the color by the specified amount.`amount` is a number between `0` and `100` inclusive. Providing `100` returns white.
 
 ---
 
-### brighten
+### brighten()
 
 ```ts
-color.brighten(amount: number)
+colorBrightened: Color = color.brighten(amount)
 ```
 
-Brightens the color a given amount, from `0` to `100`.
+Brightens the color by the specified amount.`amount` is a number between `0` and `100` inclusive.
 
 ---
 
-### darken
+### darken()
 
 ```ts
-color.darken(amount: number)
+colorDarkened: Color = color.darken(amount: number)
 ```
 
-Darkens the color a given amount, from `0` to `100`. `100` returns black.
+Darkens the color by the specified amount.`amount` is a number between `0` and `100` inclusive. `100` returns black.
 
 ---
 
-### spin
+### spin()
 
 ```ts
-color.darken(amount: number)
+colorSpinned: Color = color.spin(amount)
 ```
 
-Spins the hue a given amount, from -`360` to `360`. Calling with `0`, `360`, or -`360` does nothing since it sets the hue back to what it was before.
+Spins the hue by the given amount, from -`360` to `360`. Calling with `0`, `360`, or -`360` does nothing since it sets the hue back to what it was before.
 
 ---
-### complement
+### complement()
 
 ```ts
-color.complement()
+colorComplement: Color = color.complement()
 ```
 
-Returns the color complement.
+Returns a Color instance that is the complement of the current color.
 
 ---
+
 ## Native Component
 - `Android`: [android.graphics.Color](https://developer.android.com/reference/android/graphics/Color)
 - `iOS`: [UIColor](https://developer.apple.com/documentation/uikit/uicolor?language=objc)
