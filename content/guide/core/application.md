@@ -3,19 +3,20 @@ title: Application
 description: Handling application global state
 ---
 
-The Application class provides abstraction over the platform-specific application implementations([android.app.Application](https://developer.android.com/reference/android/app/Application) for Android and [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication?language=objc) for iOS). It lets you handle the app's lifecycle events, send Broadcasts on Android or add a Notification observer on IOS, etc.
+The Application class provides the wrapper around [android.app.Application](https://developer.android.com/reference/android/app/Application) for Android and [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication?language=objc) for iOS. With this class you handle the app's lifecycle events, send Broadcasts on Android or add a Notification observer on IOS, etc.
 
 ## Use Application class
 
 ### Register a broadcast receiver
 
 To register a broadcast receiver, you follow these 3 steps:
-1. Import the `Application` class.
+1. Import the `Application` class from `@nativescript/core`.
 ```ts
 import { Application, isAndroid } from '@nativescript/core';
 ```
-2. Get the wrapper for Android application instance.
+2. Get the wrapper object for [android.app.Application](https://developer.android.com/reference/android/app/Application) instance.
 Use the `android` property to get the wrapper around [android.app.Application](https://developer.android.com/reference/android/app/Application).
+
 ```ts
 const androidApp: AndroidApplication = Application.android
 ```
@@ -47,7 +48,21 @@ androidApp.unregisterBroadcastReceiver(android.content.Intent.ACTION_BATTERY_CHA
 
 ### Add a notification observer
 
-To add an iOS notification observer, use the `addNotificationObserver` method.
+To add an iOS notification observer, follow the steps below: 
+
+1. Import the `Application` class from `@nativescript/core`.
+
+```ts
+import { Application, isIOS } from '@nativescript/core';
+```
+
+2. Get the wrapper object for [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication?language=objc) instance.
+```ts
+const iOSApp: iOSApplication = Application.ios
+```
+
+3. Call the `addNotificationObserver` method.
+Call the `addNotificationObserver` passing it the name of the notification([NSNotificationName](https://developer.apple.com/documentation/foundation/nsnotificationname)) you would like to observe as the first parameter and as a second parameter, a callback function to be called when that notification occurs.
 
 ```ts
 const observer: any = iOSApp.addNotificationObserver(
@@ -58,17 +73,19 @@ const observer: any = iOSApp.addNotificationObserver(
 )
 ```
 
-You can try out other notifications at [Managing Notification](https://developer.apple.com/documentation/uikit/uideviceorientationdidchangenotification).
+Find the complete example [here](https://stackblitz.com/edit/nativescript-stackblitz-templates-khnhes?file=app%2Fapp.ts%3AL14)
 
 ### Remove a notification observer
 
-To remove a notification observer, use the `removeNotificationObserver()` method
+To remove a notification observer, use the `removeNotificationObserver` method on a `Application.ios` reference the observer id, returned by the `addNotificationObserver` as the first argument and the name of the notification to stop observing.
+
 ```ts
 iOSApp.removeNotificationObserver(observer, UIDeviceBatteryStateDidChangeNotification)
 ```
 
 
-## Cross platform application events reference
+## Cross platform application events
+This class allows you to listen to the following lifecycle events on both platforms.
 
 ```ts
 Application.on('orientationChanged', (args: ApplicationEventData) => {
