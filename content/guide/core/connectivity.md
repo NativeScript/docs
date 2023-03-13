@@ -2,9 +2,9 @@
 title: Connectivity
 ---
 
-The connectivity class provides a common abstraction of the functionality responsible for receiving information about the connection type and availability of the network.
+The connectivity class abstracts the native API that is responsible for receiving information about the connection type and availability of the network.
 
-## Using Connectivity
+## Use Connectivity class
 
 The following example shows how to use the Connectivity class:
 
@@ -12,6 +12,7 @@ The following example shows how to use the Connectivity class:
 
 
 ## Connectivity API
+The Connectivity class offers the following API:
 
 ### getConnectionType()
 
