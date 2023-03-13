@@ -2,7 +2,7 @@
 title: ImagaSource
 ---
 
-The ImagaSource class encapsulates the common abstraction over a platform-specific ([android.graphics.Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html) for Android and [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class) for iOS) image object allowing your to create an image source from source such as URL, local file, base64 string, etc.
+The ImagaSource class encapsulates the common abstraction over a platform-specific ([android.graphics.Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html) for Android and [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class) for iOS) image object, allowing you to create an image source from sources such as URL, local file, base64 string, etc.
 <!-- TODO: add links -->
 <!-- TODO: add Preview -->
 
@@ -233,7 +233,7 @@ Downloads and decodes the image from the provided url and creates a new ImageSou
 
 ### android
 ```ts
-const imageAndroid: android.graphics.BitMap = imageSource.android
+imageAndroid: android.graphics.BitMap = imageSource.android
 ```
 The Android-specific([Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html)) instance.
 
@@ -241,7 +241,7 @@ The Android-specific([Bitmap](http://developer.android.com/reference/android/gra
 
 ### ios
 ```ts
-const imageIOS: UIImage = imageSource.ios
+imageIOS: UIImage = imageSource.ios
 ```
  The iOS-specific([UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class/)) instance.
 
@@ -249,21 +249,21 @@ const imageIOS: UIImage = imageSource.ios
 
 ### height
 ```ts
-const height: number = imageSource.height
+height: number = imageSource.height
 ```
 Gets the height of the instance.
 
 ---
 ### width
 ```ts
-const width: number = imageSource.width
+width: number = imageSource.width
 ```
 Gets the width of the instance.
 
 ---
 ### rotationAngle
 ```ts
-const rotationAngle: number = imageSource.rotationAngle
+rotationAngle: number = imageSource.rotationAngle
 ```
 
 `Android-only`: Gets or sets the rotation angle that should be applied to the image.
@@ -289,7 +289,7 @@ Asynchronously returns a new ImageSource that is a resized version of the imageS
 ### resize()
 
 ```ts
-const resizedImage: ImageSource = imageSource.resize(maxSize, options)
+resizedImage: ImageSource = imageSource.resize(maxSize, options)
 ```
 
 Returns a new ImageSource that is a resized version of the imageSource with the same aspect ratio, and the max dimension set to the provided `maxSize`.
@@ -298,7 +298,7 @@ Returns a new ImageSource that is a resized version of the imageSource with the 
 
 ### saveToFile()
 ```ts
-const isSaved: boolean = imageSource.saveToFile(path, format, quality)
+isSaved: boolean = imageSource.saveToFile(path, format, quality)
 ```
 
 Saves this instance to the specified file, using the provided image `format` and `quality`.
@@ -333,7 +333,7 @@ Sets the provided native source object, either a Bitmap for Android or a UIImage
 ### toBase64String()
 
 ```ts
-const base64String : string = imageSource.toBase64String(format, quality)
+base64String : string = imageSource.toBase64String(format, quality)
 ```
 
 Converts the image to base64 encoded string, using the provided image format and quality.
