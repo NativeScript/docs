@@ -27,7 +27,7 @@ Call the `registerBroadcastReceiver` method on `androidApp`.
 androidApp.registerBroadcastReceiver()
 ```
 
-For a complete example that shows how to register a broadcast receiver with a custom intent filter, visit the following link. 
+For a complete example that shows how to register a broadcast receiver with a custom intent filter, visit the following link: 
 
 <!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-khnhes?file=app/app.ts -->
 For system intent filters, see [Standard Broadcast Actions](https://developer.android.com/reference/android/content/Intent#standard-broadcast-actions).
