@@ -1,35 +1,34 @@
 ---
 title: ApplicationSettings
-description: Persist data on the device
+description: Persist data on the device storage
 ---
 
-The `ApplicationSettings` class allows you to store and retrieve data on the device.
+The `ApplicationSettings` class allows you to store and retrieve data from the device local storage. ApplicationSettings provides setters and getters for storing and retrieving different data types. Use the appropriate setter to avoid errors.
 
-## Using ApplicationSettings
+## Use ApplicationSettings class
 
-ApplicationSettings provides setters(and getters) for different data types. Use the appropriate setter, otherwise an error will be thrown.
 <!-- https://stackblitz.com/edit/nativescript-stackblitz-templates-5ns4cv?file=app/main-view-model.ts -->
 
-### Storing a string value
+### Store a string value
 
-To store a string value, use the [setString()](#setstring)  method:
+To store a string value, use the [setString](#setstring)  method:
 
 ```ts
 ApplicationSettings.setString("username", "Wolfgang");
 ```
+:::tip :green_circle: Tip
+You can use this method with the `JSON.stringify()`(as shown in the `saveObjectAsString` method in the StackBlitz demo app) to store an object or an array as a string. Then use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
+:::
 
-You can use this method with the `JSON.stringify()`(as shown in the `saveObjectAsString()` method) to store an object or an array as a string and then use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
+### Store a boolean value
 
-
-### Storing a boolean value
-
-To store a boolean value, use the [setBoolean()](#setboolean) method:
+To store a boolean value, call the [setBoolean](#setboolean) method passing the key as the first argument and the value as second argument.
 
 ```ts
 ApplicationSettings.setBoolean("isTurnedOn", true);
 ```
 
-### Storing a numeric value
+### Store a numeric value
 
 To store a number, use the [setNumber()](#setnumber) method:
 
