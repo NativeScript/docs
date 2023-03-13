@@ -2,14 +2,15 @@
 title: ImagaSource
 ---
 
-This class encapsulates the common abstraction over a platform-specific (Bitmap for Android and UIImage for iOS) image object.
+The ImagaSource class encapsulates the common abstraction over a platform-specific ([android.graphics.Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html) for Android and [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class) for iOS) image object allowing your to create an image source from source such as URL, local file, base64 string, etc.
 <!-- TODO: add links -->
 <!-- TODO: add Preview -->
-## Using ImageSource
 
-### Loading an image using a resource name
+## Use ImageSource class
 
-To load an image from the [App_Resources]() folder, use the [fromResource()](#fromresource) or [fromResourceSync()](#fromresourcesync) method:
+### Load an image using a resource name
+
+To load an image from the [App_Resources]() folder, use the [fromResource](#fromresource) or [fromResourceSync](#fromresourcesync) method:
 
 ```ts
 ImageSource.fromResource('logo')
@@ -21,9 +22,9 @@ ImageSource.fromResource('logo')
   })
 ```
 
-### Loading an image from the device file system
+### Load an image from the device file system
 
-To load an image from a file, use any of [fromFile()](#fromfile), [fromFileOrResourceSync()](#fromfileorresourcesync) or the [fromFileSync()](#fromfilesync) method:
+To load an image from a file, use any of [fromFile](#fromfile), [fromFileOrResourceSync](#fromfileorresourcesync) or the [fromFileSync](#fromfilesync) method:
 
 ```ts
 async function loadImage(){
@@ -38,24 +39,24 @@ const imageFromFile: ImageSource = await ImageSource.fromFile(filePath)
 }
 ```
 
-### Creating an image from a base64 string
+### Create an image from a base64 string
 
-To create an image from a base64 string, use the [fromBase64()](#tobase64string) or [fromBase64Sync()](#frombase64sync) method:
+To create an image from a base64 string, use the [fromBase64](#tobase64string) or [fromBase64Sync](#frombase64sync) method:
 
 ```ts
 const base64Str = "some base64Str"
 const image: ImageSource = ImageSource.fromBase64Sync(base64Str)
 
 ```
-### Creating an image source from a font icon code
+### Create an image source from a font icon code
 ```ts
 const font = new Font("sans serif")
 const color = new Color("black")
 const imageSource: ImageSource = ImageSource.fromFontIconCodeSync("\uf004", font, color)
 ```
-### Saving an image to a file
+### Save an image to a file on the File System
 
-To save an ImageSource instance to a file, call the [saveToFile()](#savetofile) or [saveToFileAsync()](#savetofileasync) method on the instance.
+To save an ImageSource instance to a file, call the [saveToFile](#savetofile) or [saveToFileAsync](#savetofileasync) method on the instance.
 
 ```ts
 async function saveImage(){
@@ -80,7 +81,7 @@ try {
 
 ## ImageSource API
 
-### constructor
+### constructor()
 ```ts
 const imageSource = new ImageSource(nativeSource)
 ```
@@ -227,7 +228,8 @@ ImageSource.fromUrl(url)
 Downloads and decodes the image from the provided url and creates a new ImageSource instance from it.
 
 ---
-The following is the API for the loaded ImageSource instance.
+
+#### The loaded ImageSource instance has the following properties and methods.
 
 ### android
 ```ts

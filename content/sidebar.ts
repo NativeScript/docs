@@ -102,15 +102,6 @@ export default [
     ],
   },
   {
-    text: '@nativescript/core',
-    items:[
-      {
-        text: 'ImageSource',
-        link: '/guide/core/image-source'
-      }
-    ]
-  },
-  {
     text: 'Advanced Concepts',
     items: [
       {
