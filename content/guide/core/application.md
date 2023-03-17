@@ -110,6 +110,51 @@ Application.on('orientationChanged', (args: ApplicationEventData) => {
 - `fontScaleChanged`
 
 :::
+## getResources()
+```ts
+resources: any = Application.getResources()
+```
+Gets application-level static resources.
+
+---
+## setResources()
+```ts
+Application.setResources(resources)
+```
+Sets application-level static resources.
+
+---
+## setCssFileName()
+```ts
+Application.setCssFileName(filePath)
+```
+Sets css file name for the application.
+
+---
+## getCssFileName()
+```ts
+cssFileName: string = Application.getCssFileName()
+```
+Gets css file name for the application.
+
+---
+## loadAppCss()
+```ts
+loadedCss: any = Applicatioin.loadAppCss()
+```
+Loads immediately the app.css. By default the app.css file is loaded shortly after "loaded". For the Android snapshot the CSS can be parsed during the snapshot generation, as the CSS does not depend on runtime APIs, and loadAppCss will be called explicitly.
+
+---
+## addCss()
+```ts
+Application.addCss(cssText, attributeScoped)
+```
+Adds new values to the application styles.
+- `cssText` - A valid CSS styles to be add to the current application styles.
+- _Optional_: `attributeScoped` - sets whether the styles are attribute scoped. Adding attribute scoped styles does not perform a full application styling refresh.
+ 
+---
+
 ## Android Reference
 
 ### android
