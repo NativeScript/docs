@@ -83,6 +83,8 @@ Each transition engages in this sequence:
 2. Consider custom configuration options provided through `SharedTransition.custom` to apply to the `pageStart`, `pageEnd`, and `pageReturn` characteristics.
 3. When the transition begins, the `sharedTransitionTag` matches will animate between their starting and ending locations between both screens. The outgoing/incoming pages as a whole will animate based on the configuration options provided with the `SharedTransition` API.
 
+You can create dynamic bindings of `sharedTransitionTag` values between screens and even declare `sharedTransitionIgnore` as a *boolean* to conditionally opt that view in/out under different dynamic conditions.
+
 ## API
 
 ### SharedTransition
