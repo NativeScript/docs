@@ -171,3 +171,8 @@ Used internally to finish the state after a transition has completed. Provided i
 - For iOS, interactive dismissal will work well when all sharedTransitionTag's match between both screens. If there are "independent" sharedTransitionTag's declared on only one or the other screens will interfere with interactive dismissal options.
 - Android needs matching `sharedTransitionTag`'s between screens to behave properly, however iOS supports some advanced abilities to allow "independently" tagged elements which are not shared between screens to participate in animations. See `SharedTransitionPageProperties` optional 
 - Android supports page navigation at the moment but will support modal transitions in the future, however iOS supports both right now.
+
+## Troubleshooting
+
+- It's easy to provide mis-matching `sharedTransitionTag` between two different screens. Always check for matching tags when encountering issues with Shared Element Transitions.
+- Try to avoid using `sharedTransitionTag` on `Label`'s since they usually won't exhibit expected behavior you're after.
