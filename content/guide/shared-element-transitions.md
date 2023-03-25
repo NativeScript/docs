@@ -3,7 +3,7 @@ title: Shared Element Transitions 8.5+
 description: Shared Element Transitions allow you to auto animate shared elements from one screen to the next allowing you to deliver smooth navigational experiences.
 ---
 
-When looking for ways to elevate user experience of your apps, Shared Element Transitions can help create associated movement of visuals throughout your app.
+When looking for ways to elevate user experience of your apps, Shared Element Transitions can help create associated movement of visuals throughout your app. They can even be used to create morphing effects between one component to another.
 
 ::: info Note
 The iOS platform has supported "Shared Element Transitions" via "tagging" of UIViews alongside the introduction of [UIViewControllerAnimatedTransitioning](UIViewControllerAnimatedTransitioning) protocol long time ago starting in iOS 7.
@@ -16,6 +16,9 @@ NativeScript has allowed developers to use "Shared Element Transitions" for seve
 Starting with @nativescript/core 8.5, you can now enable them easier for both iOS and Android.
 
 Inspired by [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/docs/api/sharedElementTransitions/), you can declare `sharedTransitionTag` attributes on components across different pages alongside a custom `SharedTransition` to create engaging visual effects.
+
+<img src="/assets/images/transitions/ns-shared-element-transitions.gif"  width="360" height="360">
+
 
 ## Usage
 
@@ -174,5 +177,5 @@ Used internally to finish the state after a transition has completed. Provided i
 
 ## Troubleshooting
 
-- It's easy to provide mis-matching `sharedTransitionTag` between two different screens. Always check for matching tags when encountering issues with Shared Element Transitions.
-- Try to avoid using `sharedTransitionTag` on `Label`'s since they usually won't exhibit expected behavior you're after.
+- It's easy to accidentally provide mis-matching `sharedTransitionTag` values between two different screens. Always check for matching tags when encountering issues with Shared Element Transitions.
+- Try to avoid using `sharedTransitionTag` on `Label`'s since they usually won't exhibit expected behavior.
