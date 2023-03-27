@@ -121,13 +121,13 @@ To provide flexible page and modal transition handling out of the box, `@natives
 A Shared Element Transition engages in this sequence:
 
 1. Find Views with matching `sharedTransitionTag` values between starting and ending pages.
-2. When the transition begins, views tagged with `sharedTransitionTag` that are found on both pages will animate between their starting and ending locations.
+2. When the transition begins, views tagged with `sharedTransitionTag` that are found on both pages will animate between their starting and ending states.
 3. Simultaneously, the incoming page will animate from the state provided in `pageStart` to the state provided in `pageEnd` in the configuration.
 4. On back navigation, the outgoing page will animate from it's current state to the state provided through `pageReturn`.
 
 The `sharedTransitionTag` value can be dynamically bound for more unique possibilities.
 
-The `sharedTransitionIgnore` can be used to opt view in and out of the shared transition.
+The `sharedTransitionIgnore` can be used to opt views in and out of the shared transition.
 
 ## Attributes
 
@@ -149,8 +149,6 @@ All tags must be unique on each given page. Duplicate values may result in unexp
 
 - When declaring images with `sharedTransitionTag`, ensure that valid dimensions are declared on the image (width/height).
 - Although `Label` components can be tagged, it's generally not recommended since the text size and styling might differ between the two states.
-<!-- - For iOS, interactive dismissal will work well when all sharedTransitionTag's match between both pages. If there are "independent" sharedTransitionTag's declared on only one or the other pages will interfere with interactive dismissal options.
-- Android needs matching `sharedTransitionTag`'s between pages to behave properly, however iOS supports some advanced abilities to allow "independently" tagged elements which are not shared between pages to participate in animations. See `SharedTransitionPageProperties` optional -->
 
 ### sharedTransitionIgnore
 
@@ -183,23 +181,12 @@ SharedTransition.custom(
 
 The primary API for setting up a Shared Element Transition. The returned object can be passed directly as the `transition` to the core page and modal navigation APIs.
 
-<!-- The returned object contains a `Transition` instance (`{ instance: Transition }`) -->
-
 The first parameter will usually be a `PageTransition` or a `ModalTransition` depending on the navigation type. The second, optional parameter allows configuring various aspects of the transition. The function returns the configured transition instance for use in the visual transition and sets it up for internal state tracking.
-
-<!-- - `SharedTransitionConfig`: Various options to configure your transition.
-  - `pageStart`: View settings to **start** your transition with.
-  - `pageEnd`: View settings to **end** your transition with.
-  - `pageReturn`: View settings to **return** to the original page with.
-  - `interactive`: Interactive options (_iOS only_)
-    - `dismiss`: Dismissal options
-      - `finishThreshold`: When the pan exceeds this percentage and you let go, finish the transition.
-      - `percentFormula`: Create your own percent formula used for determing the interactive value. -->
 
 ```ts
 interface SharedTransitionConfig {
   /**
-   * State applied to the incoming page transition tart
+   * State applied to the incoming page transition on start
    */
   pageStart?: SharedTransitionPageProperties
   /**
@@ -282,10 +269,21 @@ SharedTransition.events(): Observable
 
 Exposes an Ovservable for listening to various shared element transition events.
 
-- `SharedTransition.startedEvent`: When the transition starts.
-- `SharedTransition.finishedEvent`: When the transition finishes.
-- `SharedTransition.interactiveCancelledEvent`: When the interactive transition cancels.
-- `SharedTransition.interactiveUpdateEvent`: When the interactive transition updates with the percent value.
+#### `SharedTransition.startedEvent`
+
+Emitted when the transition starts.
+
+#### `SharedTransition.finishedEvent`
+
+Emitted when the transition finishes.
+
+#### `SharedTransition.interactiveCancelledEvent`
+
+Emitted when the interactive transition cancels.
+
+#### `SharedTransition.interactiveUpdateEvent`
+
+Emitted when the interactive transition updates with the percent value.
 
 ```ts
 interface SharedTransitionEventData {
@@ -377,7 +375,7 @@ Used internally to finish the state after a transition has completed. Provided i
 
 ## Troubleshooting
 
-- It's easy to accidentally provide mis-matching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
+- It's easy to accidentally provide mismatching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
 - Try avoiding `sharedTransitionTag` on Labels since they usually won't exhibit expected behavior.
 
 ## Acknowledgements
