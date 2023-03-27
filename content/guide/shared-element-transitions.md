@@ -1,183 +1,385 @@
 ---
-title: Shared Element Transitions 8.5+
+title: Shared Element Transitions
 description: Shared Element Transitions allow you to auto animate shared elements from one screen to the next allowing you to deliver smooth navigational experiences.
 ---
 
-When looking for ways to elevate user experience of your apps, Shared Element Transitions can help create associated movement of visuals throughout your app. They can even be used to create morphing effects between one component to another.
+::: tip API Availabilty
 
-::: info Note
-The iOS platform has supported "Shared Element Transitions" via "tagging" of UIViews alongside the introduction of [UIViewControllerAnimatedTransitioning](UIViewControllerAnimatedTransitioning) protocol long time ago starting in iOS 7.
+The Shared Element Transition API is available in `@nativescript/core` version `8.5.0` or newer.
 
-The Android platform has supported "Shared Element Transitions" through Fragments as early as API Level 21 (Android 5) via the [setSharedElementEnterTransition](https://developer.android.com/reference/android/app/Fragment#setSharedElementEnterTransition(android.transition.Transition)) and related APIs.
-
-NativeScript has allowed developers to use "Shared Element Transitions" for several years through these natural APIs.
 :::
 
-Starting with @nativescript/core 8.5, you can now enable them easier for both iOS and Android.
+When looking for ways to elevate user experience of your apps, Shared Element Transitions can help create associated movement of visuals throughout your app. They can even be used to create morphing effects between one component to another.
 
-Inspired by [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/docs/api/sharedElementTransitions/), you can declare `sharedTransitionTag` attributes on components across different pages alongside a custom `SharedTransition` to create engaging visual effects.
+In essence you can declare `sharedTransitionTag` attributes on components across different pages, and pass in a custom `SharedTransition` to create engaging visual effects.
 
-<img src="/assets/images/transitions/ns-shared-element-transitions.gif"  width="360" height="360">
+<DeviceFrame type="ios">
+<img src="/assets/images/guide/shared-element-transitions.gif">
+</DeviceFrame>
 
+| Shared Element Transition Type | iOS                | Android            |
+| ------------------------------ | ------------------ | ------------------ |
+| Page Navigation                | :white_check_mark: | :white_check_mark: |
+| Modal Navigation               | :white_check_mark: | _Unavailable_      |
 
-## Usage
+## Using Shared Element Transitions
 
-Working with Shared Element Transitions involves 2 steps.
+Working with Shared Element Transitions requires views to be tagged on both "ends" of the transition and the [`SharedTransition`](#sharedtransition) class to configure it.
 
-|       | iOS      | Android |
-| ----------- | ----------- | ----------- |
-| Page Navigation      | ✅       | ✅        |
-| Modals   | ✅    | *Planned for 8.6*        |
+### Tagging views to share
 
-
-### 1. Declare sharedTransitionTag
-
-You can declare any View component with the `sharedTransitionTag` attribute containing a unique value on any given Page:
+You can tag any View component with the `sharedTransitionTag` attribute containing a **unique value** on any given Page.
 
 #### Page A
 
-```html
-<Image sharedTransitionTag="hero"/>
-```
+Tag a view on the page your are **navigating from**
 
-On the page you are navigating to, you can declare the same `sharedTransitionTag` on a View component which has an associated visual you'd like animated to:
+```xml
+<!-- Page A content -->
+<Image sharedTransitionTag="hero" />
+```
 
 #### Page B
 
-```html
-<Image sharedTransitionTag="hero"/>
+Tag a view on the page your are **navigating to** with the same matching `sharedTransitionTag`. Once the transition starts, the view will transition from the starting "shape" as styled on **Page A** to the target "shape" as styled on **Page B**.
+
+```xml
+<!-- Page B content -->
+<Image sharedTransitionTag="hero" />
 ```
 
-### 2. Define your SharedTransition
+### Using the default SharedTransition
 
-Use `SharedTransition` with various configuration options to define your transition.
+You can customize the transition in various ways using the `SharedTransition.custom()` API.
+
+For example, set up a shared element Page transition using the default values:
 
 ```ts
-import { SharedTransition, PageTransition } from '@nativescript/core';
+import { SharedTransition, PageTransition } from '@nativescript/core'
 
 page.frame.navigate({
   moduleName: `views/detail`,
   transition: SharedTransition.custom(new PageTransition()),
-});
+})
 ```
 
-Or when opening a modal (*iOS only at the moment*):
+Or when opening a modal (_iOS only_):
 
 ```ts
-import { SharedTransition, ModalTransition } from '@nativescript/core';
+import { SharedTransition, ModalTransition } from '@nativescript/core'
 
 page.showModal('views/modal', {
   transition: SharedTransition.custom(new ModalTransition()),
   closeCallback(args) {
-    // modal closed
+    // ... modal closed
   },
-});
+})
 ```
 
-## Understanding
+### Independent shared elements
 
-`SharedTransition` contains a number of advanced options. To provide flexible page and modal transition handling out of the box, @nativescript/core provides `PageTransition` and `ModalTransition` preconfigured for a wide majority of popular use cases.
+In some cases you might not have an element present on both "ends", or just need to animate additional elements during the transition. That's what "independent" shared elements solve.
 
-Each transition engages in this sequence:
-1. Finds Views with matching `sharedTransitionTag` values between starting and ending screens.
-2. Consider custom configuration options provided through `SharedTransition.custom` to apply to the `pageStart`, `pageEnd`, and `pageReturn` characteristics.
-3. When the transition begins, the `sharedTransitionTag` matches will animate between their starting and ending locations between both screens. The outgoing/incoming pages as a whole will animate based on the configuration options provided with the `SharedTransition` API.
+Consider the following example:
 
-You can create dynamic bindings of `sharedTransitionTag` values between screens and even declare `sharedTransitionIgnore` as a *boolean* to conditionally opt that view in/out under different dynamic conditions.
+```ts
+SharedTransition.custom(new PageTransition(), {
+  pageEnd: {
+    opacity: 1,
+    sharedTransitionTags: {
+      spaceman: {
+        opacity: 0,
+        y: 20,
+        scale: {
+          x: 6,
+          y: 6,
+        },
+      },
+      title: {
+        opacity: 0,
+        x: -200,
+      },
+    },
+  },
+  // ...
+})
+```
+
+The view tagged as `spaceman` will move 20<abbr title="Device Independent Pixels">dips</abbr> down and scale up 6x on both x and y axis.
+
+The view tagged as `title` will fade out and move left by 200<abbr title="Device Independent Pixels">dips</abbr>.
+
+#### Notes
+
+- Independent shared elements are only supported on iOS at the moment.
+- Using "independent" elements with with interactive transitions is not recommended (and will likely lead to unexpected behavior).
+
+## How Shared Element Tranitions work
+
+To provide flexible page and modal transition handling out of the box, `@nativescript/core` provides a `PageTransition` and a `ModalTransition` preconfigured for a wide majority of popular use cases, however `SharedTransition` contains a number of advanced options to custimize the default behavior.
+
+A Shared Element Transition engages in this sequence:
+
+1. Find Views with matching `sharedTransitionTag` values between starting and ending pages.
+2. When the transition begins, views tagged with `sharedTransitionTag` that are found on both pages will animate between their starting and ending locations.
+3. Simultaneously, the incoming page will animate from the state provided in `pageStart` to the state provided in `pageEnd` in the configuration.
+4. On back navigation, the outgoing page will animate from it's current state to the state provided through `pageReturn`.
+
+The `sharedTransitionTag` value can be dynamically bound for more unique possibilities.
+
+The `sharedTransitionIgnore` can be used to opt view in and out of the shared transition.
+
+## Attributes
+
+### sharedTransitionTag
+
+```xml
+<View sharedTransitionTag="hero" />
+```
+
+A string value used to identify views eligible for a shared element transition.
+
+:::warning Important!
+
+All tags must be unique on each given page. Duplicate values may result in unexpected behavior.
+
+:::
+
+#### Notes:
+
+- When declaring images with `sharedTransitionTag`, ensure that valid dimensions are declared on the image (width/height).
+- Although `Label` components can be tagged, it's generally not recommended since the text size and styling might differ between the two states.
+<!-- - For iOS, interactive dismissal will work well when all sharedTransitionTag's match between both screens. If there are "independent" sharedTransitionTag's declared on only one or the other screens will interfere with interactive dismissal options.
+- Android needs matching `sharedTransitionTag`'s between screens to behave properly, however iOS supports some advanced abilities to allow "independently" tagged elements which are not shared between screens to participate in animations. See `SharedTransitionPageProperties` optional -->
+
+### sharedTransitionIgnore
+
+```xml
+<View sharedTransitionIgnore="{{ someCondition }}" />
+```
+
+A boolean value indicating whether or not a view should be ignored during a shared element transition.
+
+::: info Note
+
+This attribute is most commonly used with a dynamic binding as otherwise it wouldn't be any different than not tagging a view in the first place.
+
+:::
 
 ## API
 
 ### SharedTransition
 
-Used to configure Shared Element Transitions.
+A class exposing various `static` methods used to configure Shared Element Transitions.
 
-#### custom
+### custom
 
 ```ts
-static custom(transition: Transition, options?: SharedTransitionConfig): { instance: Transition }
+SharedTransition.custom(
+  transition: Transition,
+  options?: SharedTransitionConfig
+)
 ```
 
-Define which `Transition` you'd like to use with an optional custom configuration. Returns the configured instance for use in the visual transition and sets it up for internal state tracking.
+The primary API for setting up a Shared Element Transition. The returned object can be passed directly as the `transition` to the core page and modal navigation APIs.
 
-- `SharedTransitionConfig`: Various options to configure your transition.
+<!-- The returned object contains a `Transition` instance (`{ instance: Transition }`) -->
+
+The first parameter will usually be a `PageTransition` or a `ModalTransition` depending on the navigation type. The second, optional parameter allows configuring various aspects of the transition. The function returns the configured transition instance for use in the visual transition and sets it up for internal state tracking.
+
+<!-- - `SharedTransitionConfig`: Various options to configure your transition.
   - `pageStart`: View settings to **start** your transition with.
   - `pageEnd`: View settings to **end** your transition with.
   - `pageReturn`: View settings to **return** to the original page with.
-  - `interactive`: Interactive options (*iOS only - Android planned for 8.6*)
+  - `interactive`: Interactive options (_iOS only_)
     - `dismiss`: Dismissal options
       - `finishThreshold`: When the pan exceeds this percentage and you let go, finish the transition.
-      - `percentFormula`: Create your own percent formula used for determing the interactive value.
-
-#### events
+      - `percentFormula`: Create your own percent formula used for determing the interactive value. -->
 
 ```ts
-static events(): Observable
+interface SharedTransitionConfig {
+  /**
+   * State applied to the incoming page transition tart
+   */
+  pageStart?: SharedTransitionPageProperties
+  /**
+   * State that the incoming page transitions to.
+   */
+  pageEnd?: SharedTransitionPageProperties
+  /**
+   * State that the outgoing page transitions to.
+   * (from it's current state)
+   */
+  pageReturn?: SharedTransitionPageProperties
+
+  /** @ios - only supported on iOS */
+  interactive?: {
+    dismiss?: {
+      /**
+       * A threshold (percentage) that if exceeded by the pan gesture
+       * will finish the transition once the touch is released.
+       *
+       * Default: 0.5
+       */
+      finishThreshold?: number
+      /**
+       * You can create your own percent formula used for determing
+       * the interactive value. By default, we handle this with the
+       * following formula:
+       *
+       *   eventData.deltaX / (eventData.ios.view.bounds.size.width / 2)
+       *
+       * @param eventData PanGestureEventData
+       * @returns The percentage value to be used as the finish/cancel threshold
+       */
+      percentFormula?: (eventData: PanGestureEventData) => number
+    }
+  }
+}
+
+interface SharedProperties {
+  x?: number
+  y?: number
+  width?: number
+  height?: number
+  opacity?: number
+  scale?: {
+    x?: number
+    y?: number
+  }
+}
+
+type SharedTransitionPageProperties = SharedProperties & {
+  /**
+   * @ios - only supported on iOS
+   * Allow "independent" elements found only on one of the
+   * screens to take part in the animation.
+   */
+  sharedTransitionTags?: Record<string, SharedProperties>
+  /**
+   * Spring animation settings.
+   * Defaults:
+   *  tension: 140
+   *  friction: 10
+   */
+  spring?: {
+    tension?: number
+    friction?: number
+    mass?: number
+    delay?: number
+    velocity?: number
+    /** @ios - UIViewAnimationOptions */
+    animateOptions?: any
+  }
+}
 ```
 
-Listen to various shared element transition events.
+### events
+
+```ts
+SharedTransition.events(): Observable
+```
+
+Exposes an Ovservable for listening to various shared element transition events.
 
 - `SharedTransition.startedEvent`: When the transition starts.
 - `SharedTransition.finishedEvent`: When the transition finishes.
 - `SharedTransition.interactiveCancelledEvent`: When the interactive transition cancels.
 - `SharedTransition.interactiveUpdateEvent`: When the interactive transition updates with the percent value.
 
-For example:
-
 ```ts
-SharedTransition.events().on(SharedTransition.finishedEvent, (data) => {
-  // data.id = transition instance id
-  // data.type = 'page' | 'modal'
-  // data.action = detailed action if present (eg: 'interactiveFinish')
-  // data.percent = with interaction options enabled, receive the percent of interaction from start to finish
-})
-```
-
-#### getSharedElements
-
-```ts
-static getSharedElements(fromPage: View, toPage: View): {
-  sharedElements: Array<View>;
-  presented: Array<View>;
-  presenting: Array<View>;
+interface SharedTransitionEventData {
+  id: number // transition instance id
+  type: 'page' | 'modal'
+  action?: 'present' | 'dismiss' | 'interactiveStart' | 'interactiveFinish'
+  percent?: number
 }
 ```
 
-Used internally with each transition however also a useful public utility which will take any 2 views and return shared elements between them as well as *all* declared `sharedTransitionTag` elements (*even when not shared*) between both screens.
-
-#### getState
+For example:
 
 ```ts
-static getState(id: number): SharedTransitionState
+SharedTransition.events().on(
+  SharedTransition.finishedEvent,
+  (data: SharedTransitionEventData) => {
+    //
+  }
+)
 ```
 
-Get the current state for any transition.
-
-#### updateState
+### getSharedElements
 
 ```ts
-static updateState(id: number, state: SharedTransitionState): void
+SharedTransition.getSharedElements(fromPage: View, toPage: View): {
+  sharedElements: Array<View>
+  presented: Array<View>
+  presenting: Array<View>
+}
 ```
 
-Used internally to update the state as transitions change. Provided in case, for whatever reason, you needed to update the internal state.
+Primarily used internally by the `PageTransition` and `ModalTransition`.
 
-#### finishState
+Can also be used as a utility to get shared elements between two views, as well as get a list of _all_ declared `sharedTransitionTag` elements (_even when not shared between the two views_).
+
+### getState
 
 ```ts
-static finishState(id: number): void
+SharedTransition.getState(id: number): SharedTransitionState
 ```
 
-Used internally to finish the state after a transition has completed. Provided in case, for whatever reason, you needed to finish the state early.
+Get the current state of a transition by id.
 
-## Notes
+```ts
+interface SharedTransitionState extends SharedTransitionConfig {
+  /**
+   * @internal the preconfigured transition instance
+   */
+  instance?: Transition
+  /**
+   * the Page which will start the transition.
+   */
+  page?: ViewBase
+  activeType?: SharedTransitionAnimationType
+  toPage?: ViewBase
+  /**
+   * Whether interactive transition has began.
+   */
+  interactiveBegan?: boolean
+  /**
+   * Whether interactive transition was cancelled.
+   */
+  interactiveCancelled?: boolean
+}
+```
 
-- All `sharedTransitionTag`'s must be unique on each given page. Duplicate values for any given `sharedTransitionTag` will result in unexpected behavior.
-- When declaring images with `sharedTransitionTag`, ensure that valid dimensions are declared on the image (width/height).
-- Although `Label` components can be tagged, it's generally not recommended to tag `Label` since the presenting font size and weight often will not match that of the presented view.
-- For iOS, interactive dismissal will work well when all sharedTransitionTag's match between both screens. If there are "independent" sharedTransitionTag's declared on only one or the other screens will interfere with interactive dismissal options.
-- Android needs matching `sharedTransitionTag`'s between screens to behave properly, however iOS supports some advanced abilities to allow "independently" tagged elements which are not shared between screens to participate in animations. See `SharedTransitionPageProperties` optional 
-- Android supports page navigation at the moment but will support modal transitions in the future, however iOS supports both right now.
+```ts
+enum SharedTransitionAnimationType {
+  present,
+  dismiss,
+}
+```
+
+### updateState
+
+```ts
+SharedTransition.updateState(id: number, state: SharedTransitionState): void
+```
+
+Used internally to update the state as transitions progress. Provided in case, (for whatever reason) you needed to update the internal state.
+
+### finishState
+
+```ts
+SharedTransition.finishState(id: number): void
+```
+
+Used internally to finish the state after a transition has completed. Provided in case, (for whatever reason) you needed to finish the state early.
 
 ## Troubleshooting
 
 - It's easy to accidentally provide mis-matching `sharedTransitionTag` values between two different screens. Always check for matching tags when encountering issues with Shared Element Transitions.
-- Try to avoid using `sharedTransitionTag` on `Label`'s since they usually won't exhibit expected behavior.
+- Try avoiding `sharedTransitionTag` on Labels since they usually won't exhibit expected behavior.
+
+## Acknowledgements
+
+The API for the Shared Element Transitions was inspired by [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/docs/api/sharedElementTransitions/).
