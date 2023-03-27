@@ -1,6 +1,6 @@
 ---
 title: Shared Element Transitions
-description: Shared Element Transitions allow you to auto animate shared elements from one screen to the next allowing you to deliver smooth navigational experiences.
+description: Shared Element Transitions allow you to auto animate shared elements from one page to the next allowing you to deliver smooth navigational experiences.
 ---
 
 ::: tip API Availabilty
@@ -149,8 +149,8 @@ All tags must be unique on each given page. Duplicate values may result in unexp
 
 - When declaring images with `sharedTransitionTag`, ensure that valid dimensions are declared on the image (width/height).
 - Although `Label` components can be tagged, it's generally not recommended since the text size and styling might differ between the two states.
-<!-- - For iOS, interactive dismissal will work well when all sharedTransitionTag's match between both screens. If there are "independent" sharedTransitionTag's declared on only one or the other screens will interfere with interactive dismissal options.
-- Android needs matching `sharedTransitionTag`'s between screens to behave properly, however iOS supports some advanced abilities to allow "independently" tagged elements which are not shared between screens to participate in animations. See `SharedTransitionPageProperties` optional -->
+<!-- - For iOS, interactive dismissal will work well when all sharedTransitionTag's match between both pages. If there are "independent" sharedTransitionTag's declared on only one or the other pages will interfere with interactive dismissal options.
+- Android needs matching `sharedTransitionTag`'s between pages to behave properly, however iOS supports some advanced abilities to allow "independently" tagged elements which are not shared between pages to participate in animations. See `SharedTransitionPageProperties` optional -->
 
 ### sharedTransitionIgnore
 
@@ -253,7 +253,7 @@ type SharedTransitionPageProperties = SharedProperties & {
   /**
    * @ios - only supported on iOS
    * Allow "independent" elements found only on one of the
-   * screens to take part in the animation.
+   * pages to take part in the animation.
    */
   sharedTransitionTags?: Record<string, SharedProperties>
   /**
@@ -377,7 +377,7 @@ Used internally to finish the state after a transition has completed. Provided i
 
 ## Troubleshooting
 
-- It's easy to accidentally provide mis-matching `sharedTransitionTag` values between two different screens. Always check for matching tags when encountering issues with Shared Element Transitions.
+- It's easy to accidentally provide mis-matching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
 - Try avoiding `sharedTransitionTag` on Labels since they usually won't exhibit expected behavior.
 
 ## Acknowledgements
