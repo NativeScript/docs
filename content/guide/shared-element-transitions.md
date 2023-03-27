@@ -41,7 +41,7 @@ Tag a view on the page your are **navigating from**
 
 #### Page B
 
-Tag a view on the page your are **navigating to** with the same matching `sharedTransitionTag`. Once the transition starts, the view will transition from the starting "shape" as styled on **Page A** to the target "shape" as styled on **Page B**.
+Tag a view on the page your are **navigating to** with the same matching `sharedTransitionTag`. Once the transition starts, the view will transition from the starting state as presented on **Page A** to the target state as presented on **Page B**.
 
 ```xml
 <!-- Page B content -->
