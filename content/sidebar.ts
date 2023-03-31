@@ -157,7 +157,7 @@ export default [
       //           { text: 'HtmlView', link: '//#' },
       //           { text: 'Image', link: '/' },
       //           { text: 'Label', link: '//#' },
-      //           { text: 'ListPicker', link: '//#' },
+                { text: 'ListPicker', link: '/ui/listpicker' },
       //           { text: 'ListView', link: '//#' },
                 { text: 'Placeholder', link: '/ui/placeholder' },
       //           { text: 'Progress', link: '//#' },
