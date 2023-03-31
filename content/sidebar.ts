@@ -214,26 +214,26 @@ export default [
   //   items: [{ text: 'Performance', link: '//#' }],
   // },
 
-  // {
-  //   text: 'Distribution',
-  //   items: [
-  //     {
-  //       text: 'Releasing your app',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: 'Troubleshooting',
-  //   items: [
-  //     {
-  //       text: 'Common Issues',
-  //       link: '//#',
-  //     },
-  //     {
-  //       text: 'Common Pitfalls',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-] as NSSidebarGroup[]
+      // {
+      //   text: 'Distribution',
+      //   items: [
+      //     {
+      //       text: 'Releasing your app',
+      //       link: '//#',
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: 'Troubleshooting',
+      //   items: [
+      //     {
+      //       text: 'Common Issues',
+      //       link: '//#',
+      //     },
+      //     {
+      //       text: 'Common Pitfalls',
+      //       link: '//#',
+      //     },
+      //   ],
+      // },
+    ] as NSSidebarGroup[]
