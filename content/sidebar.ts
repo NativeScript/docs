@@ -163,7 +163,7 @@ export default [
       //           { text: 'Progress', link: '//#' },
       //           { text: 'ScrollView', link: '//#' },
       //           { text: 'SearchBar', link: '//#' },
-      //           { text: 'SegmentedBar', link: '//#' },
+                { text: 'SegmentedBar', link: '/ui/segmentedbar' },
       //           { text: 'Slider', link: '//#' },
                 { text: 'Switch', link: '/ui/switch' },
       //           { text: 'TabView', link: '//#' },
