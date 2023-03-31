@@ -1,7 +1,9 @@
 ---
 title: Repeater
 ---
+
 <!-- TODO: Add examples for other flavors and code tabs -->
+
 The Repeater component allows you to display a collection of data, which is present in an array.
 
 :::tip Note
@@ -9,6 +11,7 @@ The Repeater component allows you to display a collection of data, which is pres
 :::
 
 ### Creating a Repeater
+
 <!-- ---
 
 /// flavor plain -->
@@ -48,17 +51,20 @@ export function onNavigatingTo(args) {
   page.bindingContext = vm
 }
 ```
-<!-- 
+
+<!--
 /// -->
 
 ::: tip Note
 Changing the array after the repeater is shown will not update the UI. You can force-update the UI using the `refresh()` method.
+
 ```ts
-colors.push("yellow");
+colors.push('yellow')
 // Manually trigger the update so that the new color is shown.
-const repeater: Repeater = page.getViewById("firstRepeater")
-repeater.refresh();
+const repeater: Repeater = page.getViewById('firstRepeater')
+repeater.refresh()
 ```
+
 When using `ObservableArray` the repeater will be automatically updated when items are added or removed form the array.
 :::
 

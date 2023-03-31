@@ -1,16 +1,16 @@
 ---
 title: ActionBar
 ---
+
 <!-- TODO: Add flavors -->
 
 The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https://developer.android.com/training/appbar/) and iOS [NavigationBar](https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/). It represents a toolbar at the top of the activity window, and can have a title, application-level navigation, as well as other custom interactive items.
-
 
 ## Simple ActionBar with title
 
 <!-- /// flavor vue
 
-```html
+```xml
 <ActionBar title="ActionBar Title" />
 ```
 
@@ -18,7 +18,7 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 
 /// flavor svelte
 
-```html
+```xml
 <actionBar title="ActionBar Title" />
 ```
 
@@ -26,7 +26,7 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 
 /// flavor plain -->
 
-```html
+```xml
 <ActionBar title="ActionBar Title" />
 ```
 
@@ -34,7 +34,7 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 
 /// flavor angular
 
-```html
+```xml
 <ActionBar title="ActionBar Title"> </ActionBar>
 ```
 
@@ -42,7 +42,7 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 
 /// flavor react
 
-```html
+```xml
 <actionBar title="ActionBar Title" />
 ```
 
@@ -57,8 +57,8 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 ```tsx
 <actionBar>
   <stackLayout nodeRole="titleView" orientation="horizontal">
-    <image src="res://icon" width={40} height={40} verticalAlignment="center" />
-    <label text="NativeScript" fontSize={24} verticalAlignment="center" />
+    <Image src="res://icon" width={40} height={40} verticalAlignment="center" />
+    <Label text="NativeScript" fontSize={24} verticalAlignment="center" />
   </stackLayout>
 </actionBar>
 ```
@@ -67,11 +67,11 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 
 /// flavor vue
 
-```html
+```xml
 <ActionBar>
   <StackLayout orientation="horizontal">
-    <image src="res://icon" width="40" height="40" verticalAlignment="center" />
-    <label text="ActionBar Title" fontSize="24" verticalAlignment="center" />
+    <Image src="res://icon" width="40" height="40" verticalAlignment="center" />
+    <Label text="ActionBar Title" fontSize="24" verticalAlignment="center" />
   </StackLayout>
 </ActionBar>
 ```
@@ -93,11 +93,11 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 
 /// flavor angular
 
-```html
+```xml
 <ActionBar>
   <StackLayout orientation="horizontal">
-    <image src="res://icon" width="40" height="40" verticalAlignment="center"></image>
-    <label text="ActionBar Title" fontSize="24" verticalAlignment="center"></label>
+    <Image src="res://icon" width="40" height="40" verticalAlignment="center"></image>
+    <Label text="ActionBar Title" fontSize="24" verticalAlignment="center"></label>
   </StackLayout>
 </ActionBar>
 ```
@@ -106,11 +106,11 @@ The ActionBar is NativeScript’s abstraction over the Android [ActionBar](https
 
 /// flavor svelte
 
-```html
+```xml
 <actionBar>
   <stackLayout orientation="horizontal">
-    <image src="res://icon" width="40" height="40" verticalAlignment="center" />
-    <label text="ActionBar Title" fontSize="24" verticalAlignment="center" />
+    <Image src="res://icon" width="40" height="40" verticalAlignment="center" />
+    <Label text="ActionBar Title" fontSize="24" verticalAlignment="center" />
   </stackLayout>
 </actionBar>
 ```
@@ -136,7 +136,7 @@ The `<ActionItem>` component supports the platform-specific position and systemI
 
 <!-- /// flavor svelte
 
-```html
+```xml
 <actionBar title="ActionBar Title">
   <actionItem
     on:tap="{onTapShare}"
@@ -159,7 +159,7 @@ The `<ActionItem>` component supports the platform-specific position and systemI
 
 /// flavor vue
 
-```html
+```xml
 <ActionBar title="ActionBar Title">
   <ActionItem
     @tap="onTapShare"
@@ -215,7 +215,8 @@ The `<ActionItem>` component supports the platform-specific position and systemI
 
 /// flavor plain
  -->
-```html
+
+```xml
 <ActionBar title="ActionBar Title">
   <ActionItem
     tap="onShare()"
@@ -235,12 +236,13 @@ The `<ActionItem>` component supports the platform-specific position and systemI
   </ActionItem>
 </ActionBar>
 ```
+
 <!--
 ///
 
 /// flavor angular
 
-```html
+```xml
 <ActionBar title="ActionBar Title">
   <ActionItem
     (tap)="onShare()"
@@ -269,7 +271,7 @@ The `<ActionItem>` component supports the platform-specific position and systemI
 
 <!-- /// flavor vue
 
-```html
+```xml
 <ActionBar title="ActionBar Title">
   <NavigationButton text="Go back" android.systemIcon="ic_menu_back" @tap="goBack" />
 </ActionBar>
@@ -297,7 +299,7 @@ The `<ActionItem>` component supports the platform-specific position and systemI
 
 /// flavor svelte
 
-```html
+```xml
 <actionBar title="ActionBar Title">
   <navigationButton text="Go back" android.systemIcon="ic_menu_back" on:tap="{goBack}" />
 </actionBar>
@@ -307,9 +309,13 @@ The `<ActionItem>` component supports the platform-specific position and systemI
 
 /// flavor plain -->
 
-```html
+```xml
 <ActionBar title="ActionBar Title">
-  <NavigationButton text="Go back" android.systemIcon="ic_menu_back" tap="goBack" />
+  <NavigationButton
+    text="Go back"
+    android.systemIcon="ic_menu_back"
+    tap="goBack"
+  />
 </ActionBar>
 ```
 
@@ -317,7 +323,7 @@ The `<ActionItem>` component supports the platform-specific position and systemI
 
 /// flavor angular
 
-```html
+```xml
 <ActionBar title="ActionBar Title">
   <NavigationButton
     text="Go back"
@@ -349,7 +355,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 <!-- /// flavor vue
 
-```html
+```xml
 <ActionBar
   title="ActionBar Title"
   android.icon="res://icon"
@@ -361,7 +367,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor svelte
 
-```html
+```xml
 <actionBar
   title="ActionBar Title"
   android.icon="res://icon"
@@ -384,7 +390,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor plain -->
 
-```html
+```xml
 <ActionBar
   title="ActionBar Title"
   android.icon="res://icon"
@@ -396,7 +402,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor angular
 
-```html
+```xml
 <ActionBar
   title="ActionBar Title"
   android.icon="res://icon"
@@ -407,14 +413,13 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// -->
 
-
 ## Styling ActionBar
 
 To style the `<ActionBar>`, you can use only `background-color` and `color` properties. Alternatively, you can use [@nativescript/tailwind](https://docs.nativescript.org/plugins/tailwindcss.html) and use the default styles for each different theme. The icon property of `ActionItem` can use Icon Fonts with the `font://` prefix. By setting up this prefix, a new image will be generated, which will be set as an `<ActionItem>`'s icon resource. While using this functionality, we need to specify the font-size, which will calculate the size of the generated image base on the device's dpi.
 
 <!-- /// flavor angular
 
-```html -->
+```xml -->
 <!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
 <!-- <ActionBar title="ActionBar Title"> -->
   <!-- Explicitly hiding the NavigationBar to prevent the default one on iOS-->
@@ -441,22 +446,28 @@ To style the `<ActionBar>`, you can use only `background-color` and `color` prop
 
 /// flavor plain -->
 
-```html
- <!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
-  <ActionBar title="ActionBar Title">
-    <!-- Explicitly hiding the NavigationBar to prevent the default one on iOS-->
-    <NavigationButton visibility="collapsed" />
+```xml
+<!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
+<ActionBar title="ActionBar Title">
+  <!-- Explicitly hiding the NavigationBar to prevent the default one on iOS-->
+  <NavigationButton visibility="collapsed" />
 
-    <!-- Using the icon property and Icon Fonts -->
-    <ActionItem position="left" icon="font://&#xf0a8;" class="far text-xl" backgroundColor="red" tap="goBack" />
+  <!-- Using the icon property and Icon Fonts -->
+  <ActionItem
+    position="left"
+    icon="font://&#xf0a8;"
+    class="far text-xl"
+    backgroundColor="red"
+    tap="goBack"
+  />
 
-    <!-- Creating custom views for ActionItem-->
-    <ActionItem ios.position="right">
-      <GridLayout width="100">
-        <button text="Theme" class="rounded-full text-white bg-purple-700 m-2" />
-      </GridLayout>
-    </ActionItem>
-  </ActionBar>
+  <!-- Creating custom views for ActionItem-->
+  <ActionItem ios.position="right">
+    <GridLayout width="100">
+      <button text="Theme" class="rounded-full text-white bg-purple-700 m-2" />
+    </GridLayout>
+  </ActionItem>
+</ActionBar>
 ```
 
 <!-- /// -->
@@ -473,7 +484,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 <!-- /// flavor vue
 
-```html
+```xml
 <ActionBar title="ActionBar Title" flat="true" />
 ```
 
@@ -481,7 +492,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// flavor svelte
 
-```html
+```xml
 <actionBar title="ActionBar Title" flat="true" />
 ```
 
@@ -497,145 +508,192 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// flavor plain -->
 
-```html
+```xml
 <ActionBar title="ActionBar Title" flat="true" />
 ```
-<!-- 
+
+<!--
 ///
 
 /// flavor angular
 
-```html
+```xml
 <ActionBar title="ActionBar Title" flat="true"> </ActionBar>
 ```
 
 /// -->
 
-##  Props
+## Props
+
 ### title
 
 ```ts
-actionBar.title = "About"
+actionBar.title = 'About'
 ```
-Gets or sets the action bar title.  
+
+Gets or sets the action bar title.
 
 ---
+
 ### titleView
+
 ```ts
 actionBar.titleView = customView
 ```
+
 Replaces the title property with the custom [View](https://docs.nativescript.org/api-reference/classes/view) instance.
 
 ---
+
 ### flat
+
 ```xml
 <ActionBar title="My App" flat="true" />
 ```
+
 ```ts
 actionBar.flat = true
 //or
 isFlat: boolean = actionBar.flat
 ```
-Removes the border on Android and the translucency on iOS. Default value is `false`.  
+
+Removes the border on Android and the translucency on iOS. Default value is `false`.
 
 ---
+
 ### navigationButton
+
 ```ts
-navigationButton: NavigationButton  = actionBar.navigationButton
+navigationButton: NavigationButton = actionBar.navigationButton
 //or
-navigationButton = new NavigationButton() 
+navigationButton = new NavigationButton()
 actionBar.navigationButton = navigationButton
 ```
-Gets or sets the navigation button (back button). 
+
+Gets or sets the navigation button (back button).
 
 ---
+
 ### actionItems
+
 ```ts
 actionItems: ActionItems = actionBar.actionItems
 ```
+
 Gets the collection of action items.
 
 ---
+
 ### iosIconRenderingMode
+
 ```ts
 actionBar.iosIconRenderingMode
 ```
- Gets or set the [UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode) of the action bar icons in iOS. Defaults to `alwaysOriginal`. Available values:
- - `automatic`       
- - `alwaysTemplate`
- - `automatic`                                                               
+
+Gets or set the [UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode) of the action bar icons in iOS. Defaults to `alwaysOriginal`. Available values:
+
+- `automatic`
+- `alwaysTemplate`
+- `automatic`
 
 ---
 
 ## ActionItem Properties
+
 ### text
+
 ```xml
 <ActionItem text="John Doe"/>
 ```
-Gets or sets the text of the action item.        
+
+Gets or sets the text of the action item.
 
 ---
 
 ### icon
+
 ```xml
 <ActionItem icon="~/assets/images/cat.jpeg"/>
 ```
+
 Gets or sets the icon of the action item. Supports local images (`~/`), resources (`res://`) and fonts icons (`fonts://`)
 
 ---
+
 ### ios.position
+
 ```xml
 <ActionItem ios.position="right">
 ```
+
 Sets the position of the item. Avaibable values: `left` or `right`. Defaults to `left`.
 
 ---
+
 ### android.position
+
 ```xml
 <ActionItem android.position="popup">
 ```
+
 Sets the position of the item. Avaibable values: ``enum`: `actionBar`, `popup`, `actionBarIfRoom`. Defaults to `actionBar`.
 
 ---
+
 ### ios.systemIcon
+
 ```xml
 <ActionItem ios.systemIcon="4">
 ```
+
 Sets the icon of the action item while using [UIBarButton.SystemIcon](https://developer.apple.com/documentation/uikit/uibarbuttonsystemitem) enumeration.
 
 ---
+
 ### android.systemIcon
+
 ```xml
 <ActionItem android.systemIcon="btn_plus">
 ```
-Sets a path to a resource icon ( see the [list of Android system drawables](https://developer.android.com/reference/android/R.drawable)) 
+
+Sets a path to a resource icon ( see the [list of Android system drawables](https://developer.android.com/reference/android/R.drawable))
 
 ---
+
 ### actionBar
+
 ```ts
 actionBar: ActionBar = actionItem.actionBar
 ```
-Gets the action bar that contains the action item.   
+
+Gets the action bar that contains the action item.
 
 ---
 
 ## NavigationButton Props
+
 ### text
+
 ```xml
 <NavigationButton text="Back" />
 ```
+
 Gets or sets the text of the button.
 
 ---
+
 ### icon
+
 ```xml
 <NavigationButton icon="~/assets/go-back-left-arrow-64x64.png"/>
 ```
+
 ```ts
-navigationButton.icon = "~/assets/go-back-left-arrow-64x64.png"
+navigationButton.icon = '~/assets/go-back-left-arrow-64x64.png'
 //or
 iconFile: string = navigationButton.icon
 ```
+
 Gets or sets the icon of the action item.
 
 ---

@@ -1,6 +1,7 @@
 ---
 title: Page
 ---
+
 <!-- TODO: Add flavors -->
 
 `<Page>` is a UI component that represents an application screen. NativeScript apps typically consist of one or more `<Page>` that wrap content such as an [`<ActionBar>`](#actionbar) and other UI widgets.
@@ -10,11 +11,11 @@ title: Page
 
 <!-- /// flavor svelte
 
-```html
+```xml
 <page>
   <actionBar title="My App" />
   <gridLayout>
-    <label text="My Content" />
+    <Label text="My Content" />
   </gridLayout>
 </page>
 ```
@@ -23,11 +24,11 @@ title: Page
 
 /// flavor vue
 
-```html
+```xml
 <Page>
   <ActionBar title="My App" />
   <GridLayout>
-    <label text="My Content" />
+    <Label text="My Content" />
   </GridLayout>
 </Page>
 ```
@@ -40,7 +41,7 @@ title: Page
 <page>
   <actionBar title="My App" />
   <gridLayout>
-    <label>My Content</label>
+    <Label>My Content</label>
   </gridLayout>
 </page>
 ```
@@ -63,11 +64,11 @@ You'd expect to be able to set ActionBar as the content view by specifying `<act
 
 /// flavor plain -->
 
-```html
+```xml
 <Page>
   <ActionBar title="My App" />
   <GridLayout>
-    <label text="My Content" />
+    <Label text="My Content" />
   </GridLayout>
 </Page>
 ```
@@ -75,9 +76,11 @@ You'd expect to be able to set ActionBar as the content view by specifying `<act
 <!-- /// -->
 
 ### Getting current page reference
+
 NativeScript provides various ways to access the current Page instance.
 
 #### Via Page Eventes
+
 ```ts
 // loaded event
 onPageLoaded(args: LoadEventData) {
@@ -91,16 +94,20 @@ export function onNavigatedTo(args) {
 ```
 
 #### Via the page property of a View instance
+
 ```ts
 onTap(args: EventData) {
     const btn = args.object as Button
     const page: Page = btn.page;
 }
 ```
+
 #### Via the currentPage property of a Frame instance
+
 ```ts
 const currentPage: Page = Frame.topmost().currentPage
 ```
+
 See [Getting a Frame instance](/guide/ui/navigation#getting-a-frame-instance) for more ways to get a Frame instance.
 
 ### Using the `loaded` event for triggering UI changes
@@ -173,11 +180,11 @@ export function onNavigatedFrom(args: NavigatedData) {
 
 /// flavor vue
 
-```html
+```xml
 <Page @loaded="greet">
   <ActionBar title="My App" />
   <GridLayout>
-    <label text="My Content" />
+    <Label text="My Content" />
   </GridLayout>
 </Page>
 ```
@@ -203,93 +210,132 @@ Developers coming from a web background would usually reach for the `mounted` li
 <!-- TODO: examples in all flavors -->
 
 ## Props
+
 ### actionBar
+
 ```ts
 actionBar: ActionBar = page.actionBar
 ```
+
 Gets the ActionBar for this page.
 
 ---
+
 ### actionBarHidden
+
 ```xml
 <Page actionBarHidden="true">
 ```
+
 ```ts
 page.actionBarHidden = true
 ```
-Shows or hides the `<ActionBar>` for the page. Defaults to `false`.          
+
+Shows or hides the `<ActionBar>` for the page. Defaults to `false`.
 
 ---
+
 ### frame
+
 ```ts
 frame: Frame = page.frame
 ```
+
 The Frame instance containing the page.
 
 ---
-### navigationContext 
+
+### navigationContext
+
 ```ts
 navigationContext = page.navigationContext
 ```
-A property that is used to pass data to another page. 
+
+A property that is used to pass data to another page.
 
 ---
+
 ### backgroundSpanUnderStatusBar
+
 Gets or sets whether the background of the page spans under the status bar. Defaults to `false`.
 
 ---
+
 ### androidStatusBarBackground
+
 ```xml
 <Page androidStatusBarBackground="blue">
- ```
-(`Android-only`) Gets or sets the color of the status bar on Android devices.                                            
+```
+
+(`Android-only`) Gets or sets the color of the status bar on Android devices.
 
 ---
+
 ### enableSwipeBackNavigation
+
 ```xml
 <Page enableSwipeBackNavigation="false">
 ```
+
 ```ts
 page.enableSwipeBackNavigation = false
 ```
-(`iOS-only`) Gets or sets whether the page can be swiped back on iOS. Defaults to `true`. 
+
+(`iOS-only`) Gets or sets whether the page can be swiped back on iOS. Defaults to `true`.
 
 ---
+
 ### statusBarStyle
-Gets or sets the style of the status bar. 
+
+Gets or sets the style of the status bar.
+
 ```xml
 <Page statusBarStyle="light">
- ```
- ```ts
- page.statusBarStyle = "light"
- ```
-Valid values:`light`or `dark`. 
+```
+
+```ts
+page.statusBarStyle = 'light'
+```
+
+Valid values:`light`or `dark`.
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/page).
 
 ---
+
 ## Events
 
 ### loaded
+
 Emitted after the page has been loaded.
 
 ---
+
 ### navigatedFrom
+
 Emitted after the app has navigated away from the current page.
 
 ---
+
 ### navigatedTo
+
 Emitted after the app has navigated to the current page.
 
 ---
+
 ### navigatingFrom
+
 Emitted before the app has navigated away from the current page.
 
 ---
+
 ### navigatingTo
-Emitted before the app has navigated to the current page. 
+
+Emitted before the app has navigated to the current page.
 
 ---
 

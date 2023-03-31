@@ -118,8 +118,8 @@ export default [
       },
       {
         text: 'Shared Element Transitions',
-        link: '/guide/shared-element-transitions'
-      }
+        link: '/guide/shared-element-transitions',
+      },
     ],
   },
   {
@@ -130,61 +130,62 @@ export default [
       {
         text: 'Layout Containers',
         items: [
-          //           { text: 'StackLayout', link: '//#' },
-          //           { text: 'GridLayout', link: '//#' },
-          //           { text: 'RootLayout', link: '//#' },
-          //           { text: 'FlexboxLayout', link: '//#' },
-          //           { text: 'WrapLayout', link: '//#' },
+          { text: 'StackLayout', link: '/ui/stack-layout' },
+          { text: 'GridLayout', link: '/ui/grid-layout' },
+          { text: 'RootLayout', link: '/ui/root-layout' },
+          { text: 'FlexboxLayout', link: '/ui/flexbox-layout' },
+          { text: 'WrapLayout', link: '/ui/wrap-layout' },
+          { text: 'DockLayout', link: '/ui/dock-layout' },
           { text: 'AbsoluteLayout', link: '/ui/absolute-layout' },
         ],
       },
+      {
+        text: 'Navigation Components',
+        items: [
+          //           { text: 'Frame', link: '//#' },
+          { text: 'Page', link: '/ui/page' },
+          { text: 'ActionBar', link: '/ui/action-bar' },
+          //           { text: 'ActionItem', link: '//#' },
+          //           { text: 'NavigationButton', link: '//#' },
+        ],
+      },
+      {
+        text: 'Components',
+        items: [
+          { text: 'ActivityIndicator', link: '/ui/activity-indicator' },
+          { text: 'Button', link: '/ui/button' },
+          { text: 'DatePicker', link: '/ui/datepicker' },
+          { text: 'HtmlView', link: '/ui/htmlview' },
+          { text: 'Image', link: '/ui/image' },
+          { text: 'Label', link: '/ui/label' },
+          { text: 'ListPicker', link: '/ui/listpicker' },
+          { text: 'ListView', link: '/ui/listview' },
+          { text: 'Placeholder', link: '/ui/placeholder' },
+          { text: 'Progress', link: '/ui/progress' },
+          { text: 'ScrollView', link: '/ui/scrollview' },
+          { text: 'SearchBar', link: '/ui/searchbar' },
+          { text: 'SegmentedBar', link: '/ui/segmentedbar' },
+          { text: 'Slider', link: '/ui/slider' },
+          { text: 'Switch', link: '/ui/switch' },
+          { text: 'TabView', link: '/ui/tabview' },
+          { text: 'TextField', link: '/ui/textfield' },
+          { text: 'TextView', link: '/ui/textview' },
+          { text: 'TimePicker', link: '/ui/timepicker' },
+          { text: 'WebView', link: '/ui/webview' },
+        ],
+      },
       //       {
-      //         text: 'Navigation Components',
+      //         text: 'Dialogs',
       //         items: [
-      //           { text: 'Frame', link: '//#' },
-      //           { text: 'Page', link: '/ui/page' },
-      //           { text: 'ActionBar', link: '//#' },
-      //           { text: 'ActionItem', link: '//#' },
-      //           { text: 'NavigationButton', link: '//#' },
+      //           { text: 'ActionDialog', link: '//#' },
+      //           { text: 'AlertDialog', link: '//#' },
+      //           { text: 'ConfirmDialog', link: '//#' },
+      //           { text: 'LoginDialog', link: '//#' },
+      //           { text: 'PromptDialog', link: '//#' },
       //         ],
       //       },
-            {
-              text: 'Components',
-              items: [
-      //           { text: 'ActivityIndicator', link: '//#' },
-      //           { text: 'Button', link: '//#' },
-                  { text: 'DatePicker', link: '/ui/datepicker' },
-      //           { text: 'HtmlView', link: '//#' },
-                { text: 'Image', link: '/ui/image' },
-      //           { text: 'Label', link: '//#' },
-                { text: 'ListPicker', link: '/ui/listpicker' },
-      //           { text: 'ListView', link: '//#' },
-                { text: 'Placeholder', link: '/ui/placeholder' },
-      //           { text: 'Progress', link: '//#' },
-                { text: 'ScrollView', link: '/ui/scrollview' },
-      //           { text: 'SearchBar', link: '//#' },
-                { text: 'SegmentedBar', link: '/ui/segmentedbar' },
-      //           { text: 'Slider', link: '//#' },
-                { text: 'Switch', link: '/ui/switch' },
-      //           { text: 'TabView', link: '//#' },
-      //           { text: 'TextField', link: '//#' },
-                { text: 'TextView', link: '/ui/textview' },
-      //           { text: 'TimePicker', link: '//#' },
-                { text: 'WebView', link: '/ui/webview' },
     ],
   },
-  //       {
-  //         text: 'Dialogs',
-  //         items: [
-  //           { text: 'ActionDialog', link: '//#' },
-  //           { text: 'AlertDialog', link: '//#' },
-  //           { text: 'ConfirmDialog', link: '//#' },
-  //           { text: 'LoginDialog', link: '//#' },
-  //           { text: 'PromptDialog', link: '//#' },
-  //         ],
-  //       },
-      ],
-    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],
@@ -214,26 +215,26 @@ export default [
   //   items: [{ text: 'Performance', link: '//#' }],
   // },
 
-      // {
-      //   text: 'Distribution',
-      //   items: [
-      //     {
-      //       text: 'Releasing your app',
-      //       link: '//#',
-      //     },
-      //   ],
-      // },
-      // {
-      //   text: 'Troubleshooting',
-      //   items: [
-      //     {
-      //       text: 'Common Issues',
-      //       link: '//#',
-      //     },
-      //     {
-      //       text: 'Common Pitfalls',
-      //       link: '//#',
-      //     },
-      //   ],
-      // },
-    ] as NSSidebarGroup[]
+  // {
+  //   text: 'Distribution',
+  //   items: [
+  //     {
+  //       text: 'Releasing your app',
+  //       link: '//#',
+  //     },
+  //   ],
+  // },
+  // {
+  //   text: 'Troubleshooting',
+  //   items: [
+  //     {
+  //       text: 'Common Issues',
+  //       link: '//#',
+  //     },
+  //     {
+  //       text: 'Common Pitfalls',
+  //       link: '//#',
+  //     },
+  //   ],
+  // },
+] as NSSidebarGroup[]

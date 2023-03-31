@@ -7,38 +7,39 @@ title: TextField
 `<TextField>` extends [`TextBase`](https://docs.nativescript.org/api-reference/classes/textbase) and [`EditableTextBase`](https://docs.nativescript.org/api-reference/classes/editabletextbase) which provide additional properties and events.
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TextField.png" alt="Android TextField Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS TextField Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TextField.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TextField.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TextField.png" />
+</DeviceFrame>
 
 ### Creating a simple TextField
+
 Below is a simple TextField component listening to a user input change event.
 
 <!-- /// flavor plain -->
 
-```html
- <TextField hint="Your first name"
-    text="{{ firstName }}"
-    textChange="{{ onFirstNameChange }}"/>
+```xml
+<TextField
+  hint="Your first name"
+  text="{{ firstName }}"
+  textChange="{{ onFirstNameChange }}"
+/>
 ```
+
 ```ts
   onFirstNameChange(args: PropertyChangeData) {
     console.log(args.value)
   }
 ```
+
 <!-- ///
 
 /// flavor angular
 
-```html
+```xml
 <TextField
   hint="Enter Date"
   secure="false"
@@ -113,13 +114,13 @@ export class UsageComponent {
 
 /// flavor vue
 
-```html
+```xml
 <TextField :text="textFieldValue" hint="Enter text..." />
 ```
 
 `<TextField>` provides two-way data binding using `v-model`.
 
-```html
+```xml
 <TextField v-model="textFieldValue" />
 ```
 
@@ -133,7 +134,7 @@ export class UsageComponent {
 
 `<textField>` provides two-way data binding using `bind`.
 
-```html
+```xml
 <textField bind:text="{textFieldValue}" />
 ```
 
@@ -157,134 +158,184 @@ The following example shows a TextField styled with `@nativescript/tailwind`.
     textChange="{{ onFirstNameChange }}"
     class="border border-gray-500 rounded-lg pl-2 text-gray-700"/>
 ```
+
 ## Props
+
 ### text
+
 ```xml
 <TextView text="{{ viewDate }}" />
 ```
+
 ```ts
 text: string = textField.text
 ```
-Gets or sets the `text` value of the component. 
+
+Gets or sets the `text` value of the component.
 
 ---
+
 ### hint
+
 ```xml
 <TextView hint="hint" />
 ```
+
 ```ts
 hint: string = textField.hint
 ```
+
 Gets or sets the placeholder text for the component.
 
 ---
+
 ### editable
+
 ```xml
 <TextView editable="false" />
 ```
+
 ```ts
 editable: boolean = textField.editable
 //or
 textField.editable = false
 ```
+
 Toggles the ability to take user input.
 
 ---
+
 ### keyboardType
+
 ```xml
 <TextView keyboardType="number" />
 ```
+
 ```ts
 textField.keyboardType = CoreTypes.KeyboardType.number
 //or
 keyboardType: CoreTypes.KeyboardType = textField.keyboardType
 ```
+
 Shows the appropriate keyboard keys for the data the TextField will capture. See [CoreTypes.KeyboardType](https://docs.nativescript.org/api-reference/modules/coretypes.keyboardtype) for available values.
 
 ---
+
 ### returnKeyType
+
 ```xml
 <TextView returnKeyType="next" />
 ```
+
 ```ts
 textField.returnKeyType = CoreTypes.ReturnKeyType.next
 //or
 returnKeyType: CoreTypes.ReturnKeyType = textField.returnKeyType
 ```
+
 Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://docs.nativescript.org/api-reference/modules/coretypes.returnkeytype) for available values.
 
 ---
+
 ### isEnabled
-Allows or disallow the field to be editted. Default value is `true`. 
+
+Allows or disallow the field to be editted. Default value is `true`.
 
 ---
+
 ### maxLength
+
 ```xml
 <TextView maxLength="10" />
 ```
+
 ```ts
 textView.maxLength = 10
 ```
-Limits input to the specified number of characters.   
+
+Limits input to the specified number of characters.
 
 ---
+
 ### secure
+
 ```xml
 <TextView secure="true" />
 ```
-Hides the entered text when `true`. Use this property for password input fields. Default value: `false`.   
+
+Hides the entered text when `true`. Use this property for password input fields. Default value: `false`.
 
 ---
+
 ### secureWithoutAutofill
 
 (`iOS-only`) Prevents iOS 12+ auto suggested strong password handling.
 
 ---
+
 ### autocapitalizationType
+
 ```xml
-<TextField text="Hello" autocapitalizationType="words" />  
+<TextField text="Hello" autocapitalizationType="words" />
 ```
-Gets or sets the autocapitalization type. See [AutocapitalizationType](https://docs.nativescript.org/api-reference/modules/coretypes.autocapitalizationtype) interface for valid options. 
+
+Gets or sets the autocapitalization type. See [AutocapitalizationType](https://docs.nativescript.org/api-reference/modules/coretypes.autocapitalizationtype) interface for valid options.
 
 ---
+
 ### letterSpacing
+
 ```xml
-<TextField text="Hello" letterSpacing="4" />  
+<TextField text="Hello" letterSpacing="4" />
 ```
+
 Gets or sets letter space style property.
 
 ---
+
 <!-- Is the lineHeight necessary for a TextField -->
 <!-- ### lineHeight
 ```xml
-<TextField text="Hello" lineHeight="4" />  
+<TextField text="Hello" lineHeight="4" />
 ```
 Gets or sets line height style property.
 
 --- -->
+
 ### textAlignment
+
 ```xml
 <TextView textAlignment="center" />
 ```
+
 Gets or sets the text alignment. See [TextAlignment](https://docs.nativescript.org/api-reference/modules/coretypes.textalignment) for valid options.
-                                                                         
----                             
-### textDecoration
- Gets or sets the text decoration. See [TextDecoration](https://docs.nativescript.org/api-reference/modules/coretypes.textdecoration) for valid options.
 
 ---
+
+### textDecoration
+
+Gets or sets the text decoration. See [TextDecoration](https://docs.nativescript.org/api-reference/modules/coretypes.textdecoration) for valid options.
+
+---
+
 ### textTransform
+
 ```xml
 <TextField hint="" text="Hello" textTransform="uppercase">
 ```
-Gets or sets the text transform.  See [TextTransform](https://docs.nativescript.org/api-reference/modules/coretypes.texttransform) for valid options.
- 
----
-### whiteSpace
-Gets or sets white space style property.  See [WhiteSpace](https://docs.nativescript.org/api-reference/modules/coretypes.whitespace) for valid options.                                                                       
 
----                     
+Gets or sets the text transform. See [TextTransform](https://docs.nativescript.org/api-reference/modules/coretypes.texttransform) for valid options.
+
+---
+
+### whiteSpace
+
+Gets or sets white space style property. See [WhiteSpace](https://docs.nativescript.org/api-reference/modules/coretypes.whitespace) for valid options.
+
+---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textfield).
 
 ---
@@ -292,34 +343,47 @@ For additional inherited properties, refer to the [API Reference](https://docs.n
 ## Methods
 
 ### focus()
+
 ```ts
 isFieldFocused: boolean = textField.focus()
 ```
+
 Focuses the TextField and returns `true` if the focus is succeessful.
 
 ---
+
 ### dismissSoftInput()
+
 ```ts
 textField.dismissSoftInput()
 ```
+
 Hides the keyboard on the screen.
 
 ---
+
 ## Events
 
 ### textChange
+
 Emitted when the input value text changes. Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)
 
 ---
+
 ### returnPress
+
 Emitted when the return key is pressed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
 
 ---
+
 ### focus
+
 Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
 
 ---
+
 ### blur
+
 Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
 
 ---

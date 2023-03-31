@@ -1,29 +1,26 @@
 ---
 title: TimePicker
 ---
+
 <!-- TODO: Add flavors -->
+
 `<TimePicker>` is a UI component that lets users select time.
 
 See also: [DatePicker](/ui/datepicker).
 
 ---
 
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TimePicker.png" alt="Android TimePicker Example"/> 
-</div>
-
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS TimePicker Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TimePicker.png" />
-</div>
-
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TimePicker.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TimePicker.png" />
+</DeviceFrame>
 
 ## Creating a simple TimePicker
 
 To listen to time change event, handle the `timeChange` event in the `loaded` event handler of the `<TimePicker>`
+
 <!-- /// flavor plain -->
 
 ```xml
@@ -49,7 +46,7 @@ export function onPickerLoaded(args) {
   timePicker.minMinute = 10
   timePicker.maxMinute = 45
 
-  timePicker.on('timeChange', (data: PropertyChangeData ) => {
+  timePicker.on('timeChange', (data: PropertyChangeData) => {
     // data is of type PropertyChangeData
     console.log('Picked TIME: ', data.value)
     console.log('Previous TIME: ', data.oldValue)
@@ -61,7 +58,7 @@ export function onPickerLoaded(args) {
 
 /// flavor angular
 
-```html
+```xml
 <TimePicker
   hour="9"
   minute="25"
@@ -97,13 +94,13 @@ export class UsageComponent {
 
 /// flavor vue
 
-```html
+```xml
 <TimePicker :hour="selectedHour" :minute="selectedMinute" />
 ```
 
 `<TimePicker>` provides two-way data binding using `v-model`.
 
-```html
+```xml
 <TimePicker v-model="selectedTime" />
 ```
 
@@ -117,7 +114,7 @@ export class UsageComponent {
 
 `<timePicker>` provides two-way data binding using `bind`.
 
-```html
+```xml
 <timePicker bind:time="{selectedTime}" />
 ```
 
@@ -132,100 +129,134 @@ export class UsageComponent {
 /// -->
 
 ## Props
+
 ### hour
+
 ```xml
 <TimePicker hour="10"/>
 ```
+
 ```ts
 timePicker.hour = 10
 ```
+
 Gets or sets the selected hour.
 
 ---
+
 ### minute
+
 ```xml
 <TimePicker minute="10"/>
 ```
+
 ```ts
 timePicker.minute = 25
 ```
+
 Gets or sets the selected minute.
 
 ---
+
 ### time
+
 ```ts
 time: Date = timePicker.time
 ```
-Gets or sets the selected time.                              
+
+Gets or sets the selected time.
 
 ---
+
 ### minHour
+
 ```xml
 <TimePicker minHour="7"/>
 ```
+
 ```ts
 timePicker.minHour = 7
 ```
-Gets or sets the minimum selectable hour. 
+
+Gets or sets the minimum selectable hour.
 
 ---
+
 ### maxHour
+
 ```xml
 <TimePicker maxHour="7"/>
 ```
+
 ```ts
 timePicker.maxHour = 11
-``` 
-Gets or sets the maximum selectable hour. 
+```
+
+Gets or sets the maximum selectable hour.
 
 ---
+
 ### minMinute
+
 ```xml
 <TimePicker minMinute="10"/>
 ```
+
 ```ts
 timePicker.minMinute = 10
 ```
-Gets or sets the minimum selectable minute.                            
+
+Gets or sets the minimum selectable minute.
 
 ---
+
 ### maxMinute
+
 ```xml
 <TimePicker maxMinute="45"/>
 ```
+
 ```ts
 timePicker.maxMinute = 45
 ```
-Gets or sets the maximum selectable minute.                            
+
+Gets or sets the maximum selectable minute.
 
 ---
+
 ### minuteInterval
+
 ```xml
 <TimePicker minuteInterval="45"/>
 ```
+
 ```ts
 timePicker.minuteInterval = 45
 ```
 
-Gets or sets the selectable minute interval. `Default`:`1`.                                      
+Gets or sets the selectable minute interval. `Default`:`1`.
 
 ---
 
 ### Inherited Props
- For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/timepicker) |
+
+For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/timepicker) |
 
 ## Events
 
 ### timeChange
+
 ```ts
-timePicker.on('timeChange', (data: PropertyChangeData ) => {
-    console.log('Picked TIME: ', data.value)
-    console.log('Previous TIME: ', data.oldValue)
-  })
-  ```
+timePicker.on('timeChange', (data: PropertyChangeData) => {
+  console.log('Picked TIME: ', data.value)
+  console.log('Previous TIME: ', data.oldValue)
+})
+```
+
 Emitted when the selected time changes. See the [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) interface for available event data properties.
 
 ---
+
 ## Native component
 
 | Android                                                                                          | iOS                                                                            |

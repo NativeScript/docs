@@ -1,23 +1,21 @@
 ---
 title: HtmlView
 ---
+
 <!-- TODO: Add flavors -->
+
 `<HtmlView>` is a UI component that lets you show static HTML content.
 
 See also: [WebView](#/ui/webview).
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/HtmlView.png" alt="Android HtmlView Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS HtmlView Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/HtmlView.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/HtmlView.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/HtmlView.png" />
+</DeviceFrame>
 
 <!-- /// flavor plain -->
 
@@ -35,12 +33,13 @@ export function onHtmlLoaded(args) {
         <h3>This component accept simple HTML strings</h3></span>`
 }
 ```
-<!-- 
+
+<!--
 ///
 
 /// flavor angular
 
-```html
+```xml
 <HtmlView [html]="htmlString"></HtmlView>
 ```
 
@@ -66,7 +65,7 @@ export class HtmlViewUsageComponent {
 
 /// flavor vue
 
-```html
+```xml
 <HtmlView html="<div><h1>HtmlView</h1></div>" />
 ```
 
@@ -82,17 +81,20 @@ export class HtmlViewUsageComponent {
 
 /// flavor svelte
 
-```html
+```xml
 <htmlView html="<div><h1>HtmlView</h1></div>" />
 ```
 
 /// -->
 
 ## Props
+
 ### html
+
 ```xml
 <HtmlView html="{{ html }}" />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
   html = `<span>
@@ -100,20 +102,27 @@ export class HelloWorldModel extends Observable {
   <h3>This component accept simple HTML strings</h3></span>`
 }
 ```
+
 The HTML content to be shown.
 
 ---
+
 ### selectable
+
 ```xml
 <HtmlView html="{{ html }}" selectable="false"/>
 ```
+
 ```ts
 htmlView.selectable = false
 ```
+
 Gets or sets a value indicating whether HtmlView is selectable.
 
 ---
+
 ### Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/htmlview).
 
 ## Native component

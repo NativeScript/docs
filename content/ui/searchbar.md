@@ -1,31 +1,29 @@
 ---
 title: SearchBar
 ---
+
 <!-- TODO: Add flavors -->
 
 `<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/SearchBar.png" alt="Android SearchBar Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS SearchBar Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/SearchBar.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/SearchBar.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/SearchBar.png" />
+</DeviceFrame>
 
 <!-- /// flavor plain -->
+
 ### A simple SearchBar handling the clear and submit events
 
 ```xml
 <SearchBar id="searchBar"
-     hint="Enter search term here ..." 
-     text="{{ searchText }}" clear="{{ onClear }}" 
-     submit="{{ onSubmit }}" 
+     hint="Enter search term here ..."
+     text="{{ searchText }}" clear="{{ onClear }}"
+     submit="{{ onSubmit }}"
      loaded="{{ onSearchBarLoaded }}"/>
 ```
 
@@ -39,19 +37,18 @@ export function onNavigatingTo(args) {
 }
 
 export class HelloWorldModel extends Observable {
-  searchText= ""
+  searchText = ''
   constructor() {
     super()
   }
 
-  onSearchBarLoaded(args: EventData){
-    const searchBar = args.object as SearchBar;
-    searchBar.on("textChange",(args: PropertyChangeData)=>{
-
-    console.log("Event name: ",args.eventName)
-})
+  onSearchBarLoaded(args: EventData) {
+    const searchBar = args.object as SearchBar
+    searchBar.on('textChange', (args: PropertyChangeData) => {
+      console.log('Event name: ', args.eventName)
+    })
   }
-onSubmit(args: EventData) {
+  onSubmit(args: EventData) {
     const searchBar = args.object as SearchBar
     console.log(`Searching for ${searchBar.text}`)
   }
@@ -67,7 +64,7 @@ onSubmit(args: EventData) {
 
 /// flavor angular
 
-```html
+```xml
 <SearchBar
   hint="Enter search term here ..."
   [text]="searchPhrase"
@@ -110,7 +107,7 @@ export class UsageComponent {
 
 /// flavor vue
 
-```html
+```xml
 <SearchBar
   hint="Search hint"
   :text="searchPhrase"
@@ -121,7 +118,7 @@ export class UsageComponent {
 
 `<SearchBar>` provides two-way data binding using `v-model`.
 
-```html
+```xml
 <SearchBar v-model="searchQuery" />
 ```
 
@@ -140,7 +137,7 @@ export class UsageComponent {
 
 `<SearchBar>` provides two-way data binding for `text`.
 
-```html
+```xml
 <searchBar bind:text="{searchQuery}" />
 ```
 
@@ -163,52 +160,69 @@ export class UsageComponent {
 ## Props
 
 ### hint
+
 ```xml
 <SearchBar hint="Enter search term here ..."  />
 ```
+
 Gets or sets placeholder text for the input area.
 
 ---
+
 ### text
+
 ```xml
 <SearchBar text="{{ searchText }}" />
 ```
+
 Gets or sets the value of the search query.
 
 ---
+
 ### textFieldBackgroundColor
+
 ```xml
  <SearchBar textFieldBackgroundColor="#76ABEB"/>
 ```
+
 Gets or sets the background color of the input area.
 
 ---
+
 ### textFieldHintColor
+
 ```xml
  <SearchBar textFieldHintColor="#fff"/>
 ```
+
 Gets or sets the color of the placeholder text.
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/searchbar)
 
 ## Event(s)
-### textChange
-```ts
-searchBar.on("textChange", (args: PropertyChangeData) => {
 
-      console.log("Event name: ", args.oldValue)
-      
-    })
+### textChange
+
+```ts
+searchBar.on('textChange', (args: PropertyChangeData) => {
+  console.log('Event name: ', args.oldValue)
+})
 ```
+
 Emitted when the search text is changed.
 
 ---
+
 ### submit
+
 ```xml
 <SearchBar submit="{{ onSubmit }}" />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
   onSubmit(args: EventData) {
@@ -217,22 +231,26 @@ export class HelloWorldModel extends Observable {
   }
 }
 ```
+
 Emitted when the search text is submitted.
 
 ---
+
 ### clear
+
 ```xml
 <SearchBar clear="{{ onClear }}" />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
-
   onClear(args: EventData) {
     const searchBar = args.object as SearchBar
     console.log(`Clear event raised`)
   }
 }
 ```
+
 Emitted when the current search input is cleared through the **X** button in the input area.
 
 ---

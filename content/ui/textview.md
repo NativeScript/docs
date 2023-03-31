@@ -6,19 +6,15 @@ title: TextView
 
 `<TextView>` extends [`TextBase`](https://docs.nativescript.org/api-reference/classes/textbase) and [`EditableTextBase`](https://docs.nativescript.org/api-reference/classes/editabletextbase) which provide additional properties and events.
 
-
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TextView.png" alt="Android TextView Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS TextView Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TextView.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TextView.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TextView.png" />
+</DeviceFrame>
+
 <!-- /// flavor plain -->
 
 ```xml
@@ -45,11 +41,11 @@ export function onNavigatingTo(args) {
 }
 export function onTextViewLoaded(argsloaded) {
   const textView = argsloaded.object as TextView
-  textView.on('focus', args => {
+  textView.on('focus', (args) => {
     const view = args.object as TextView
     console.log('On TextView focus')
   })
-  textView.on('blur', args => {
+  textView.on('blur', (args) => {
     const view = args.object as TextView
     console.log('On TextView blur')
   })
@@ -60,7 +56,7 @@ export function onTextViewLoaded(argsloaded) {
 
 /// flavor angular
 
-```html
+```xml
 <TextView hint="Enter some text..." [text]="tvtext" (textChange)="onTextChange($event)">
 </TextView>
 ```
@@ -87,13 +83,13 @@ export class UsageComponent {
 
 /// flavor vue
 
-```html
+```xml
 <TextView text="Multi\nLine\nText" />
 ```
 
 `<TextView>` provides two-way data binding using `v-model`.
 
-```html
+```xml
 <TextView v-model="textViewValue" />
 ```
 
@@ -101,13 +97,13 @@ export class UsageComponent {
 
 /// flavor svelte
 
-```html
+```xml
 <textView text="Multi\nLine\nText" />
 ```
 
 `<textView>` provides two-way data binding using `bind`.
 
-```html
+```xml
 <textView bind:text="{textViewValue}" />
 ```
 
@@ -127,7 +123,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 <!-- /// flavor vue
 
-```html
+```xml
 <TextView editable="false">
   <FormattedString>
     <span text="You can use text attributes such as " />
@@ -159,7 +155,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 /// flavor plain -->
 
-```html
+```xml
 <TextView editable="false">
   <FormattedString>
     <span text="You can use text attributes such as " />
@@ -175,7 +171,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 /// flavor angular
 
-```html
+```xml
 <TextView editable="false">
   <FormattedString>
     <span text="You can use text attributes such as "></span>
@@ -185,7 +181,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
     <span text="underline." textDecoration="Underline"></span>
   </FormattedString>
 </TextView>
-``` 
+```
 
  ///
 
@@ -199,106 +195,135 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
     <span text="italic " fontStyle="italic" />
     <span text="and " />
     <span text="underline." textDecoration="underline" />
-     To set text on the <span> element, please do use the `text` prop; it can't safely take text nodes as children! 
+     To set text on the <span> element, please do use the `text` prop; it can't safely take text nodes as children!
   </formattedString>
 </textView>
 ```
 
-/// --> 
+/// -->
 
 ## Props
+
 ### text
+
 ```xml
 <TextView text="{{ viewDate }}" />
 ```
+
 ```ts
 text: string = textView.text
 ```
-Gets or sets the `text` value of the component. 
+
+Gets or sets the `text` value of the component.
 
 ---
+
 ### hint
+
 ```xml
 <TextView hint="hint" />
 ```
+
 ```ts
 hint: string = textView.hint
 ```
+
 Gets or sets the placeholder text for the component.
 
 ---
+
 ### editable
+
 ```xml
 <TextView editable="false" />
 ```
+
 ```ts
 editable: boolean = textView.editable
 //or
 textView.editable = false
 ```
+
 Toggles the ability to take user input.
 
 ---
+
 ### keyboardType
+
 ```xml
 <TextView keyboardType="number" />
 ```
+
 ```ts
 textView.keyboardType = CoreTypes.KeyboardType.number
 //or
 keyboardType: CoreTypes.KeyboardType = textView.keyboardType
 ```
+
 Shows the appropriate keyboard keys for the data the TextField will capture. See [CoreTypes.KeyboardType](https://docs.nativescript.org/api-reference/modules/coretypes.keyboardtype) for available values.
 
 ---
+
 ### returnKeyType
+
 ```xml
 <TextView returnKeyType="next" />
 ```
+
 ```ts
 textView.returnKeyType = CoreTypes.ReturnKeyType.next
 //or
 returnKeyType: CoreTypes.ReturnKeyType = textView.returnKeyType
 ```
+
 Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://docs.nativescript.org/api-reference/modules/coretypes.returnkeytype) for available values.
 
 ---
 
 ### maxLines
+
 ```xml
 <TextView maxLines="2" />
 ```
+
 ```ts
 textView.maxLines = 2
 ```
+
 Limits input to a certain number of lines.
 
 ---
+
 ### autocorrect
+
 ```xml
 <TextView returnKeyType="autocorrect" />
 ```
+
 ```ts
 textView.autocorrect = true
 //or
 autocorrect: boolean = textView.autocorrect
 ```
-Enables or disables autocorrect. 
+
+Enables or disables autocorrect.
 
 ---
 
-### ...Inherited 
+### ...Inherited
+
 For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textview).
 
 ---
+
 ## Events
 
-| Name          | Description                             |
-| ------------- | --------------------------------------- |
-| `textChange`  | Emitted when the text changes. Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)         |
-| `returnPress` | Emitted when the return key is pressed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)  |
-| `focus`       | Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)  |
-| `blur`        | Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)|
+| Name          | Description                                                                                                                                     |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `textChange`  | Emitted when the text changes. Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) |
+| `returnPress` | Emitted when the return key is pressed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)          |
+| `focus`       | Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)              |
+| `blur`        | Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)              |
 
 ## Native component
 

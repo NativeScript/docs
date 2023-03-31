@@ -8,11 +8,11 @@ title: FlexBoxLayout
 
 By default, `<FlexboxLayout>` creates a row of `n`( 3 in the below example ) equally-sized elements that span across the entire height of the screen.
 
-```html
+```xml
 <FlexboxLayout backgroundColor="#3c495e">
-  <label text="first" width="70" backgroundColor="#43b883" />
-  <label text="second" width="70" backgroundColor="#1c6b48" />
-  <label text="third" width="70" backgroundColor="#289062" />
+  <Label text="first" width="70" backgroundColor="#43b883" />
+  <Label text="second" width="70" backgroundColor="#1c6b48" />
+  <Label text="third" width="70" backgroundColor="#289062" />
 </FlexboxLayout>
 ```
 
@@ -20,13 +20,13 @@ By default, `<FlexboxLayout>` creates a row of `n`( 3 in the below example ) equ
 
 ### Placing the child elements at the top of the screen
 
-To place the items at the top of the screen, set the `<FlexboxLayout>`'s  `alignItems` property to `flex-start`. Items are placed in the order they were declared in.
+To place the items at the top of the screen, set the `<FlexboxLayout>`'s `alignItems` property to `flex-start`. Items are placed in the order they were declared in.
 
-```html
+```xml
 <FlexboxLayout alignItems="flex-start" backgroundColor="#3c495e">
-  <label text="first" width="70" height="70" backgroundColor="#43b883" />
-  <label text="second" width="70" height="70" backgroundColor="#1c6b48" />
-  <label text="third" width="70" height="70" backgroundColor="#289062" />
+  <Label text="first" width="70" height="70" backgroundColor="#43b883" />
+  <Label text="second" width="70" height="70" backgroundColor="#1c6b48" />
+  <Label text="third" width="70" height="70" backgroundColor="#289062" />
 </FlexboxLayout>
 ```
 
@@ -36,11 +36,29 @@ To place the items at the top of the screen, set the `<FlexboxLayout>`'s  `align
 
 To place the child items in a certain order, set the child's `order` property to the position number.
 
-```html
+```xml
 <FlexboxLayout backgroundColor="#3c495e">
-  <label text="first" order="2" width="70" height="70" backgroundColor="#43b883" />
-  <label text="second" order="3" width="70" height="70" backgroundColor="#1c6b48" />
-  <label text="third" order="1" width="70" height="70" backgroundColor="#289062" />
+  <Label
+    text="first"
+    order="2"
+    width="70"
+    height="70"
+    backgroundColor="#43b883"
+  />
+  <Label
+    text="second"
+    order="3"
+    width="70"
+    height="70"
+    backgroundColor="#1c6b48"
+  />
+  <Label
+    text="third"
+    order="1"
+    width="70"
+    height="70"
+    backgroundColor="#289062"
+  />
 </FlexboxLayout>
 ```
 
@@ -50,12 +68,12 @@ To place the child items in a certain order, set the child's `order` property to
 
 To wrap an item to the next line when the current row runs out of space, set the `<FlexboxLayout>`'s `flexWrap` property to `wrap`.
 
-```html
+```xml
 <FlexboxLayout flexWrap="wrap" backgroundColor="#3c495e">
-  <label text="first" width="30%" backgroundColor="#43b883" />
-  <label text="second" width="30%" backgroundColor="#1c6b48" />
-  <label text="third" width="30%" backgroundColor="#289062" />
-  <label text="fourth" width="30%" backgroundColor="#289062" />
+  <Label text="first" width="30%" backgroundColor="#43b883" />
+  <Label text="second" width="30%" backgroundColor="#1c6b48" />
+  <Label text="third" width="30%" backgroundColor="#289062" />
+  <Label text="fourth" width="30%" backgroundColor="#289062" />
 </FlexboxLayout>
 ```
 
@@ -63,53 +81,56 @@ To wrap an item to the next line when the current row runs out of space, set the
 
 ## Placing elements vertically
 
-To place the child elements vertically from top to bottom, set the `<FlexboxLayout>`'s  `flexDirection` property to `column`.
+To place the child elements vertically from top to bottom, set the `<FlexboxLayout>`'s `flexDirection` property to `column`.
 
-```html
+```xml
 <FlexboxLayout flexDirection="column" backgroundColor="#3c495e">
-  <label text="first" height="70" backgroundColor="#43b883" />
-  <label text="second" height="70" backgroundColor="#1c6b48" />
-  <label text="third" height="70" backgroundColor="#289062" />
+  <Label text="first" height="70" backgroundColor="#43b883" />
+  <Label text="second" height="70" backgroundColor="#1c6b48" />
+  <Label text="third" height="70" backgroundColor="#289062" />
 </FlexboxLayout>
 ```
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/flexbox_layout_column_stretch.svg" />
 
 ### Placing items vertically from bottom to top
+
 To place child items vertically starting from the bottom, set `flexDirection` to `column-reverse`.
 
-The example below shows how to combine `flexDirection` with 
+The example below shows how to combine `flexDirection` with
+
 - `justifyContent` to create equal spacing between the vertically placed items.
 - `alignSelf` to modify the position of items across the main axis.
 
-```html
+```xml
 <FlexboxLayout
   flexDirection="column-reverse"
   justifyContent="space-around"
   backgroundColor="#3c495e"
 >
-  <label text="first" height="70" backgroundColor="#43b883" />
-  <label
+  <Label text="first" height="70" backgroundColor="#43b883" />
+  <Label
     text="second"
     alignSelf="center"
     width="70"
     height="70"
     backgroundColor="#1c6b48"
   />
-  <label
+  <Label
     text="third\nflex-end"
     alignSelf="flex-end"
     width="70"
     height="70"
     backgroundColor="#289062"
   />
-  <label text="fourth" height="70" backgroundColor="#289062" />
+  <Label text="fourth" height="70" backgroundColor="#289062" />
 </FlexboxLayout>
 ```
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/flexbox_layout_column_reverse_space_around_align_self.svg" />
 
 ## FlexboxLayout Reference
+
 ### Props
 
 | Name             | Type        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -125,10 +146,10 @@ The example below shows how to combine `flexDirection` with
 
 When an element is a direct child of `<FlexboxLayout>`, you can work with the following additional properties.
 
-| Name             | Type      | Description                                                                                                                                      |
+| Name             | Type      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `order`          | `Number`  | Sets the order in which child element appear in relation to one another.                                                                            |
-| `flexGrow`       | `Number`  | Indicates that the child should grow in size, if necessary. Sets how much the child will grow in proportion to the rest of the child elements in the flex container.                                                   |
+| `order`          | `Number`  | Sets the order in which child element appear in relation to one another.                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `flexGrow`       | `Number`  | Indicates that the child should grow in size, if necessary. Sets how much the child will grow in proportion to the rest of the child elements in the flex container.                                                                                                                                                                                                                                                                                                                                    |
 | `flexShrink`     | `Number`  | Indicates that the child should shrink when the row runs out of space. Sets how much the flex item will shrink in proportion to the rest of the child elements in the flex container. When not specified, its value is set to `1`.                                                                                                                                                                                                                                                                      |
 | `alignSelf`      | `String`  | (Android-only) Overrides the `alignItems` value for the child.<br/>Valid values:<br/>`flex-start` (cross-start margin edge of the item is placed on the cross-start line),<br/>`flex-end` (cross-end margin edge of the item is placed on the cross-end line),<br/>`center` (item is centered on the cross axis),<br/>`baseline` (the item baselines are aligned), and<br/>`stretch` (items is stretched to fill the container but respects `min-width` and `max-width`).<br/>Default value: `stretch`. |
-| `flexWrapBefore` | `Boolean` | When `true`, forces the item to wrap onto a new line. This property is not part of the official Flexbox specification.<br/>Default value: `false`. |
+| `flexWrapBefore` | `Boolean` | When `true`, forces the item to wrap onto a new line. This property is not part of the official Flexbox specification.<br/>Default value: `false`.                                                                                                                                                                                                                                                                                                                                                      |

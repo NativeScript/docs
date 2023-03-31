@@ -4,8 +4,6 @@ title: Placeholder
 
 `<Placeholder>` allows you to add any native widget to your application. To do that, you need to put a Placeholder somewhere in the UI hierarchy and then create and configure the native widget that you want to appear there. Finally, pass your native widget to the event arguments of the creatingView event.
 
-
-
 ### Creating a Simple Placeholder
 
 <!-- /// flavor plain -->
@@ -25,7 +23,9 @@ export function creatingView(args) {
     nativeView.text = 'Native View (iOS)'
   } else if (global.isAndroid) {
     // Example with TextView in Android
-    nativeView = new android.widget.TextView(Utils.android.getApplicationContext())
+    nativeView = new android.widget.TextView(
+      Utils.android.getApplicationContext()
+    )
     nativeView.setText('Native View (Android)')
   }
 
@@ -66,7 +66,7 @@ import { isIOS, isAndroid } from '@nativescript/core'
 
 /// flavor angular
 
-```html
+```xml
 <Placeholder (creatingView)="creatingView($event)" />
 ```
 
@@ -95,7 +95,7 @@ function creatingView(args) {
 
 /// flavor vue
 
-```html
+```xml
 <Placeholder @creatingView="creatingView" />
 ```
 
@@ -132,14 +132,16 @@ methods: {
 | `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/placeholder) |
 
 <!-- TODO: Add description for  creatingView event-->
-### Events
-| Name | Description |
-|-----|-------------|
-| `creatingView` | | 
 
-### CreateViewEventData 
-| Name | Type| Description |
-|------|-----|-------------|
-| `view` | `any` | The native view that should be added to the visual tree. |
-| `context` | `any`| _Optional_: An optional context for creating the view.|
- 
+### Events
+
+| Name           | Description |
+| -------------- | ----------- |
+| `creatingView` |             |
+
+### CreateViewEventData
+
+| Name      | Type  | Description                                              |
+| --------- | ----- | -------------------------------------------------------- |
+| `view`    | `any` | The native view that should be added to the visual tree. |
+| `context` | `any` | _Optional_: An optional context for creating the view.   |

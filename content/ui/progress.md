@@ -7,18 +7,13 @@ title: Progress
 See also: [ActivityIndicator](/ui/activity-indicator).
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Progress.png" alt="Android Progress Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS Progress Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Progress.png" />
-</div>
-</div>
-</div>
-
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Progress.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Progress.png" />
+</DeviceFrame>
 
 ### Creating a Progress
 
@@ -34,11 +29,16 @@ See also: [ActivityIndicator](/ui/activity-indicator).
 ```
 
 ```ts
-import { Observable, Page, Progress, PropertyChangeData } from '@nativescript/core'
+import {
+  Observable,
+  Page,
+  Progress,
+  PropertyChangeData,
+} from '@nativescript/core'
 
 export function onNavigatingTo(args) {
   const page = args.object as Page
-   vm.set('progressValue', 10) // Initial value
+  vm.set('progressValue', 10) // Initial value
   vm.set('progressMaxValue', 100) // Maximum value
   // Forcing progress value change (for demonstration)
   setInterval(() => {
@@ -61,7 +61,7 @@ export function onProgressLoaded(args) {
 
 /// flavor angular
 
-```html
+```xml
 <progress value="25" maxValue="100" (valueChanged)="onValueChanged($event)"></progress>
 ```
 
@@ -99,7 +99,7 @@ function getTaskCompletionPercent() {
 
 /// flavor vue
 
-```html
+```xml
 <progress :value="currentProgress" />
 ```
 
@@ -107,7 +107,7 @@ function getTaskCompletionPercent() {
 
 /// flavor svelte
 
-```html
+```xml
 <progress value="{currentProgress}" />
 ```
 
@@ -121,33 +121,47 @@ Using `backgroundColor` (**CSS**: `background-color`) & color to change the Prog
 `backgroundColor` will work only on `iOS`; on `Android` the background will be the color with applied opacity.
 :::
 
-```html
-<progress value="50" maxValue="100" backgroundColor="red" color="green"></progress>
+```xml
+<progress
+  value="50"
+  maxValue="100"
+  backgroundColor="red"
+  color="green"
+></progress>
 <!-- Using @nativescript/tailwind to change the Progress style -->
 <progress value="25" maxValue="100" class="bg-red-500 text-red-900"></progress>
 ```
 
-
 ## Props
+
 ### value
+
 ```xml
 <Progress value="{{ progressValue }}" />
 ```
-ets or sets the current value of the progress bar. Must be within the range of 0 to [maxValue](#maxvalue). 
+
+ets or sets the current value of the progress bar. Must be within the range of 0 to [maxValue](#maxvalue).
 
 ---
+
 ### maxValue
+
 ```xml
 <Progress maxValue="{{ progressMaxValue }}" />
 ```
-Gets or sets the maximum value of the progress bar. Defaults to: `100`.     
+
+Gets or sets the maximum value of the progress bar. Defaults to: `100`.
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/progress)
 
 ## Events
+
 ### valueChange
+
 Emitted when the `value` property changes.
 
 ---

@@ -1,7 +1,9 @@
 ---
 title: SegmentedBar
 ---
+
 <!-- TODO: Add flavors -->
+
 `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection. Can show text or images.
 
 As opposed to [`<TabView>`](#tabview):
@@ -11,17 +13,13 @@ As opposed to [`<TabView>`](#tabview):
 - You need to handle the content shown after selection separately.
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/SegmentedBar.png" alt="Android SegmentedBar Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS SegmentedBar Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/SegmentedBar.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/SegmentedBar.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/SegmentedBar.png" />
+</DeviceFrame>
 
 ### Creating a SegmentedBar with `SegmentedBarItem`
 
@@ -39,7 +37,7 @@ As opposed to [`<TabView>`](#tabview):
 
 /// flavor angular
 
-```html
+```xml
 <SegmentedBar>
   <SegmentedBarItem title="First"></SegmentedBarItem>
   <SegmentedBarItem title="Second"></SegmentedBarItem>
@@ -51,7 +49,7 @@ As opposed to [`<TabView>`](#tabview):
 
 /// flavor svelte
 
-```html
+```xml
 <segmentedBar>
   <segmentedBarItem title="First" />
   <segmentedBarItem title="Second" />
@@ -75,7 +73,7 @@ As opposed to [`<TabView>`](#tabview):
 
 /// flavor vue
 
-```html
+```xml
 <SegmentedBar>
   <SegmentedBarItem title="First" />
   <SegmentedBarItem title="Second" />
@@ -85,13 +83,15 @@ As opposed to [`<TabView>`](#tabview):
 
 ///
 -->
+
 ### SegmentedBar with `selectedIndex`
+
 To handle a `selectedIndex` change, listen to the `selectedIndexChanged` event.
 
 <!-- /// flavor plain -->
 
 ```xml
-<SegmentedBar row="0" class="m-5" selectedIndex="{{ sbSelectedIndex }}" 
+<SegmentedBar row="0" class="m-5" selectedIndex="{{ sbSelectedIndex }}"
  selectedIndexChanged=" {{ onSelectedIndexChange }} ">
   <SegmentedBar.items>
     <SegmentedBarItem title="Item 1" />
@@ -104,10 +104,10 @@ To handle a `selectedIndex` change, listen to the `selectedIndexChanged` event.
 ```ts
 import { Observable } from '@nativescript/core'
 export class HelloWorldModel extends Observable {
-    sbSelectedIndex = 0;
-    
-    onSelectedIndexChange(args: SelectedIndexChangedEventData) {
-    console.log("new value: "+ args.newIndex, "old: " + args.oldIndex)
+  sbSelectedIndex = 0
+
+  onSelectedIndexChange(args: SelectedIndexChangedEventData) {
+    console.log('new value: ' + args.newIndex, 'old: ' + args.oldIndex)
   }
 }
 ```
@@ -116,7 +116,7 @@ export class HelloWorldModel extends Observable {
 
 /// flavor angular
 
-```html
+```xml
 <SegmentedBar
   [items]="mySegmentedBarItems"
   selectedIndex="0"
@@ -161,7 +161,7 @@ export class BasicSegmentedBarComponent {
 
 /// flavor vue
 
-```html
+```xml
 <SegmentedBar
   :items="listOfItems"
   selectedIndex="0"
@@ -171,7 +171,7 @@ export class BasicSegmentedBarComponent {
 
 `<SegmentedBar>` provides two-way data binding using `v-model`.
 
-```html
+```xml
 <SegmentedBar :items="listOfItems" v-model="selectedItem" />
 ```
 
@@ -179,13 +179,13 @@ export class BasicSegmentedBarComponent {
 
 /// flavor svelte
 
-```html
+```xml
 <segmentedBar selectedIndex="0" on:selectedIndexChanged="{onSelectedIndexChange}" />
 ```
 
 `<segmentedBar>` can be populated with `{each}` block.
 
-```html
+```xml
 <segmentedBar>
   {#each listOfItems as item}
   <segmentedBarItem title="{item}" />
@@ -215,65 +215,80 @@ let listOfItems = ['First', 'Second', 'Third']
 />
 ```
 
-/// --> 
+/// -->
 
 ## Props
 
 ### items
+
 ```ts
 const segmentedBarItem1 = new SegmentedBarItem()
-segmentedBarItem1.title = "Item 1"
+segmentedBarItem1.title = 'Item 1'
 
 const segmentedBarItem2 = new SegmentedBarItem()
-segmentedBarItem2.title = "Item 2"
-    
+segmentedBarItem2.title = 'Item 2'
+
 //SegmentedBar
 const segmentedBar = new SegmentedBar()
 
 segmentedBar.items = [segmentedBarItem1, segmentedBarItem2]
-```    
+```
+
 An array of items to be displayed in the segmented bar. Represents the button labels or icons of the segmented bar.
 
 ---
+
 ### selectedIndex
+
 ```xml
 <SegmentedBar selectedIndex="{{ sbSelectedIndex }}">
-``` 
+```
+
 ```ts
 export class HelloWorldModel extends Observable {
-    sbSelectedIndex = 0;
+  sbSelectedIndex = 0
 }
 ```
+
 Gets or sets the index of the selected item.
 
 ---
+
 ### selectedBackgroundColor
+
 ```xml
 <SegmentedBar selectedBackgroundColor="red">
 </SegmentedBar>
 ```
-Gets or sets the background color of the selected item. To set the background color of the entire bar, use `backgroundColor`.                
+
+Gets or sets the background color of the selected item. To set the background color of the entire bar, use `backgroundColor`.
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/segmentedbar).
 
-
 ## Events
+
 ### selectedIndexChanged
+
 ```xml
 <SegmentedBar selectedIndexChanged=" {{ onSelectedIndexChange }} ">
 ```
+
 ```ts
 onSelectedIndexChange(args: SelectedIndexChangedEventData) {
-    const segmentedBar = args.object as SegmentedBar 
+    const segmentedBar = args.object as SegmentedBar
 }
 ```
+
 Emitted when the an item on the segmented bar is tapped. See the [SelectedIndexChangedEventData interface](#selectedindexchangedeventdata-interface) for the event data.
 
 ---
 
 ### SelectedIndexChangedEventData interface
+
 The `SelectedIndexChangedEventData` object provides the following data:
 | Name | Type | Description |
 |------|------|-------------|

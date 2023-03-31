@@ -1,13 +1,20 @@
 ---
 title: ActivityIndicator
 ---
+
 <!-- TODO: Add flavors -->
+
 `<ActivityIndicator>` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
 
 ---
 
-| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ActivityIndicator.png" alt="Android ActivityIndicator Example" height="300" width="400"/> | <img alt="iOS ActivityIndicator Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ActivityIndicator.png" height="300" width="400"/>
-|:-------|:----------
+<DeviceFrame type="ios">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ActivityIndicator.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ActivityIndicator.png" />
+</DeviceFrame>
+
 <!-- /// flavor plain -->
 
 ```xml
@@ -30,7 +37,7 @@ onBusyChanged(args: EventData) {
 
 /// flavor angular
 
-```html
+```xml
 <ActivityIndicator [busy]="isBusy" (busyChange)="onBusyChanged($event)">
 </ActivityIndicator>
 ```
@@ -48,7 +55,7 @@ onBusyChanged(args: EventData) {
 
 /// flavor vue
 
-```html
+```xml
 <ActivityIndicator busy="true" @busyChange="onBusyChanged" />
 ```
 
@@ -75,7 +82,7 @@ export default {
 
 /// flavor svelte
 
-```html
+```xml
 <activityIndicator busy="{true}" on:busyChange="{onBusyChanged}" />
 ```
 
@@ -93,23 +100,30 @@ export default {
 /// -->
 
 ## Props
+
 ### busy
+
 ```xml
 <ActivityIndicator busy="{{ isBusy }}"
 />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
   isBusy = true
 }
 ```
+
 Gets or sets whether the indicator is active.
 
 ---
+
 ### Inherited
+
 For additional inherited properties,refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/activityindicator).
 
 ## Events
+
 ### busyChange
 
 ```xml
@@ -117,19 +131,19 @@ For additional inherited properties,refer to the [API Reference](https://docs.na
   busyChange="{{ onBusyChanged }}"
 />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
-    onBusyChanged(args: EventData) {
-        const indicator: ActivityIndicator = args.object as ActivityIndicator
-        console.log(`indicator.busy changed to: ${indicator.busy}`)
-      }
+  onBusyChanged(args: EventData) {
+    const indicator: ActivityIndicator = args.object as ActivityIndicator
+    console.log(`indicator.busy changed to: ${indicator.busy}`)
+  }
 }
 ```
 
 Emitted when the [busy](#busy) property is changed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata).
 
 ---
-
 
 ### Native component
 

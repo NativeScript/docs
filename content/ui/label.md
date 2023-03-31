@@ -1,25 +1,23 @@
 ---
 title: Label
 ---
+
 <!-- TODO: Add flavors -->
+
 `<Label>` is a UI component that displays read-only text.
 
-::: warning  :orange_circle: Note
-This `<Label>` is **not** the same as the HTML `<label>`.
+::: warning :orange_circle: Note
+This `<Label>` is **not** the same as the HTML `<Label>`.
 :::
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Label.png" alt="Android Label Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS Label Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Label.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Label.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Label.png" />
+</DeviceFrame>
 
 ### Simple label
 
@@ -28,13 +26,14 @@ This `<Label>` is **not** the same as the HTML `<label>`.
 ```xml
 <Label text="Label" />
 ```
-<!-- 
+
+<!--
 ///
 
 /// flavor angular
 
-```html
-<label text="Label"></label>
+```xml
+<Label text="Label"></label>
 ```
 
 ///
@@ -42,23 +41,23 @@ This `<Label>` is **not** the same as the HTML `<label>`.
 /// flavor react
 
 ```tsx
-<label>Label</label>
+<Label>Label</label>
 ```
 
 ///
 
 /// flavor vue
 
-```html
-<label text="Label" />
+```xml
+<Label text="Label" />
 ```
 
 ///
 
 /// flavor svelte
 
-```html
-<label text="Label" />
+```xml
+<Label text="Label" />
 ```
 
 /// -->
@@ -85,8 +84,8 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 
 /// flavor angular
 
-```html
-<label textWrap="true">
+```xml
+<Label textWrap="true">
   <FormattedString>
     <span text="This text has a "></span>
     <span text="red " style="color: red"></span>
@@ -103,7 +102,7 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 
 ```tsx
 import { Color } from '@nativescript/core'
-;<label textWrap={true}>
+;<Label textWrap={true}>
   <formattedString>
     <span>This text has a </span>
     <span color={new Color('red')}>red </span>
@@ -118,8 +117,8 @@ import { Color } from '@nativescript/core'
 
 /// flavor vue
 
-```html
-<label textWrap="true">
+```xml
+<Label textWrap="true">
   <FormattedString>
     <span text="This text has a " />
     <span text="red " style="color: red" />
@@ -134,8 +133,8 @@ import { Color } from '@nativescript/core'
 
 /// flavor svelte
 
-```html
-<label textWrap="{true}">
+```xml
+<Label textWrap="{true}">
   <formattedString>
     <span text="This text has a " />
     <span text="red " style="color: red" />
@@ -149,93 +148,122 @@ import { Color } from '@nativescript/core'
 /// -->
 
 ## Props
+
 ### letterSpacing
+
 ```xml
 <Label text="Hello there!" letterSpacing="1"/>
 ```
+
 _Type_: `number`
 
-Gets or sets [letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) style property. 
+Gets or sets [letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) style property.
 
 ---
+
 ### lineHeight
 
 ```xml
 <Label text="Hello there!" lineHeight="10"/>
 ```
+
 _Type_: `number`
 
 Gets or sets [line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) style property.
 
 ---
+
 ### text
+
 ```xml
 <Label text="Hello there!" />
 ```
+
 _Type_: `string`
-Gets or sets the text displayed or to be displayed by the Label instance.    
+Gets or sets the text displayed or to be displayed by the Label instance.
 
 ---
+
 ### textAlignment
+
 ```xml
 <Label text="Hello there!" textAlignment="center" />
 ```
+
 Gets or sets text-alignment style property. Valid values:
 `"initial"` | `"left"` | `"center"` | `"right"`. Defaults to `"left"`
 
 ---
+
 ### textDecoration
+
 ```xml
 <Label text="Hello there!" textDecoration="underline" />
 ```
+
 Gets or sets text decoration style property. See [TextDecorationType](https://docs.nativescript.org/api-reference/modules/coretypes#textdecorationtype) for valid values. Defaults to `"none"`.
 
 ---
+
 ### textTransform
+
 ```xml
 <Label text="Hello there!" textTransform="capitalize"/>
 ```
+
 Gets or sets text transform style property. See [TextTransformType](https://docs.nativescript.org/api-reference/modules/coretypes#texttransformtype) for valid values. Defaults to `"initial"`.
 
 ---
+
 ### textWrap
+
 ```xml
 <Label text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available." textWrap="true"/>
 ```
-Gets or sets whether the text breaks and renders on the next line if the current runs out of space. Defaults to `false`. 
+
+Gets or sets whether the text breaks and renders on the next line if the current runs out of space. Defaults to `false`.
 
 ---
+
 ### whiteSpace
+
 ```xml
 <Label text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available." whiteSpace="normal"/>
 ```
 
-Gets or sets the white space style. 
+Gets or sets the white space style.
 Valid values: `"initial"` | `"normal"` | `"nowrap"`
-Defaults to `"initial"`.              
+Defaults to `"initial"`.
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/label).
 
 ## Event(s)
+
 ### textChange
+
 ```xml
     <Label text="{{ greeting }}" loaded="{{ onLabelLoaded }}"/>
 ```
+
 ```ts
 onLabelLoaded(args: EventData) {
     const label = args.object as Label
 
     label.on("textChange", (textChangeEvent: PropertyChangeData)=>{
-      
+
     console.log(textChangeEvent.eventName)
     })
 }
 ```
+
 Emitted when the label text is changed.
 
 ---
+
 ## Native component
 
 | Android                                                                                           | iOS                                                                  |

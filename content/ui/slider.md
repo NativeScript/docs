@@ -1,27 +1,28 @@
 ---
 title: Slider
 ---
+
 <!-- TODO: Add flavors -->
+
 `<Slider>` is a UI component that provides a slider control for picking values within a specified numeric range.
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Slider.png" alt="Android Slider Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS Slider Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Slider.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Slider.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Slider.png" />
+</DeviceFrame>
 
 ### Simple Slider and listening to its value change event
 
 <!-- /// flavor plain -->
-To listen to the `valueChange` event, register the listener in the Slider's `loaded` event handler. 
+
+To listen to the `valueChange` event, register the listener in the Slider's `loaded` event handler.
+
 <!-- Is the preceeding phrase accurate -->
+
 ```xml
 <Slider value="10" minValue="0" maxValue="100" loaded="{{ onSliderLoaded }}" />
 ```
@@ -33,12 +34,11 @@ export class HelloWorldModel extends Observable {
   constructor() {
     super()
   }
-  onSliderLoaded(args: EventData){
-    const slider = args.object as Slider;
+  onSliderLoaded(args: EventData) {
+    const slider = args.object as Slider
 
-    slider.on("valueChange", (args: PropertyChangeData)=>{
-
-    console.log("valueChange: ", args.value, "Old: "+args.oldValue)
+    slider.on('valueChange', (args: PropertyChangeData) => {
+      console.log('valueChange: ', args.value, 'Old: ' + args.oldValue)
     })
   }
 }
@@ -48,7 +48,7 @@ export class HelloWorldModel extends Observable {
 
 /// flavor angular
 
-```html
+```xml
 <Slider
   value="10"
   minValue="0"
@@ -78,13 +78,13 @@ export class UsageComponent {
 
 /// flavor vue
 
-```html
+```xml
 <Slider value="80" @valueChange="onValueChanged" />
 ```
 
 `<Slider>` provides two-way data binding using `v-model`:
 
-```html
+```xml
 <Slider v-model="value" />
 ```
 
@@ -98,7 +98,7 @@ export class UsageComponent {
 
 `<slider>` provides two-way data binding of `value`:
 
-```html
+```xml
 <slider bind:value="{value}" />
 ```
 
@@ -113,40 +113,51 @@ export class UsageComponent {
 /// -->
 
 ## Props
+
 ### value
+
 ```xml
 <Slider value="10" />
 ```
-Gets or sets the currently selected value of the slider. Defaults to `0`.                                             
+
+Gets or sets the currently selected value of the slider. Defaults to `0`.
 
 ---
+
 ### minValue
+
 ```xml
 <Slider minValue="0" />
 ```
+
 Gets or sets the minimum value of the slider.
 
 ---
+
 ### maxValue
+
 ```xml
 <Slider maxValue="100"/>
 ```
+
 Gets or sets the maximum value of the slider.
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/slider).
 
 ## Event(s)
 
 ### valueChange
-```ts
-slider.on("valueChange", (args: PropertyChangeData)=>{
-      
-console.log("valueChange: ", args.value, "Old: "+args.oldValue)
 
+```ts
+slider.on('valueChange', (args: PropertyChangeData) => {
+  console.log('valueChange: ', args.value, 'Old: ' + args.oldValue)
 })
 ```
+
 Emitted when the value of the slider changes. See [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) interface for available data.
 
 ---

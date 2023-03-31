@@ -1,33 +1,32 @@
 ---
 title: Switch
 ---
+
 <!-- TODO: Add flvaors& Vue checkedChange event listener-->
+
 `<Switch>` is a UI component that lets users toggle between two states.
 
 The default state is `false` or OFF.
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Switch.png" alt="Android Switch Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS Switch Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Switch.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Switch.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Switch.png" />
+</DeviceFrame>
 
 ### Simple Switch
 
-To be notified when the Switch state changes, listen  for the `checkedChange` event.
+To be notified when the Switch state changes, listen for the `checkedChange` event.
 
 <!-- /// flavor plain -->
 
 ```xml
 <Switch checked="{{ checked }}" loaded="{{ onSwitchLoaded }}" />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
   checked = true
@@ -35,23 +34,21 @@ export class HelloWorldModel extends Observable {
     super()
   }
 
-  onSwitchLoaded(args: EventData){
-    const switchComponent = args.object as Switch;
+  onSwitchLoaded(args: EventData) {
+    const switchComponent = args.object as Switch
 
-    switchComponent.on("checkedChange", (args: PropertyChangeData)=>{
-
-    console.log("checkedChange: ", args.value, "Old: "+args.oldValue)
-
+    switchComponent.on('checkedChange', (args: PropertyChangeData) => {
+      console.log('checkedChange: ', args.value, 'Old: ' + args.oldValue)
     })
   }
-} 
+}
 ```
 
 <!-- ///
 
 /// flavor angular
 
-```html
+```xml
 <Switch checked="true" (checkedChange)="onCheckedChange($event)"> </Switch>
 ```
 
@@ -75,18 +72,18 @@ export class BasicSwitchComponent {
 
 /// flavor vue
 
-```html
+```xml
 <Switch checked="true" @checkedChange="onCheckedChange"/>
 ```
 ```ts
 onCheckedChange(args: PropertyChangeData) {
-      
+
     console.log(args.value)
 }
 ```
 `<Switch>`provides two-way data binding using `v-model`.
 
-```html
+```xml
 <Switch v-model="itemEnabled" />
 ```
 
@@ -113,35 +110,47 @@ onCheckedChange(args: PropertyChangeData) {
 ```
 
 /// -->
+
 ### Styling Switch
+
 ```xml
 <Switch checked="true" color="#BFCDAC" backgroundColor="green" offBackgroundColor="#DC493D"/>
 ```
 
 ## Props
+
 ### checked
+
 ```xml
 <Switch checked="true"/>
 ```
+
 ```ts
 switchComponent.checked = false
 ```
+
 Gets or sets the state value of the switch.
 
 ---
+
 ### offBackgroundColor
+
 ```xml
 <Switch offBackgroundColor="#DC493D"/>
 ```
+
 Gets or sets the off-state color.
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/switch).
 
 ## Event(s)
 
 ### checkedChange
+
 ```ts
 onSwitchLoaded(args: EventData){
     const switchComponent = args.object as Switch;
@@ -153,6 +162,7 @@ onSwitchLoaded(args: EventData){
     })
 }
 ```
+
 Emitted when the switch state changes. See [PropertyChangeData Interface](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) for the event data.
 
 ## Native component

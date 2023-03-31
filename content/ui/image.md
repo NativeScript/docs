@@ -7,23 +7,18 @@ title: Image
 <!-- TODO: fix links -->
 <!-- TODO: add flavors -->
 
-
 ::: tip :green_circle: Tip
 When working with images following [the best practices](/performance.html#image-optimizations) is a must.
 :::
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Image.png" alt="Android Image Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS Image Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Image.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Image.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Image.png" />
+</DeviceFrame>
 
 ### Displaying an image from `App_Resources`
 
@@ -37,8 +32,8 @@ When working with images following [the best practices](/performance.html#image-
 
 /// flavor angular
 
-```html
-<image src="res://icon" stretch="aspectFill"> </image>
+```xml
+<Image src="res://icon" stretch="aspectFill"> </image>
 ```
 
 ///
@@ -46,23 +41,23 @@ When working with images following [the best practices](/performance.html#image-
 /// flavor react
 
 ```tsx
-<image src="res://icon" stretch="aspectFill" />
+<Image src="res://icon" stretch="aspectFill" />
 ```
 
 ///
 
 /// flavor vue
 
-```html
-<image src="res://icon" stretch="aspectFill" />
+```xml
+<Image src="res://icon" stretch="aspectFill" />
 ```
 
 ///
 
 /// flavor svelte
 
-```html
-<image src="res://icon" stretch="aspectFill" />
+```xml
+<Image src="res://icon" stretch="aspectFill" />
 ```
 
 /// -->
@@ -79,8 +74,8 @@ When working with images following [the best practices](/performance.html#image-
 
 /// flavor angular
 
-```html
-<image src="~/logo.png" stretch="aspectFill"></image>
+```xml
+<Image src="~/logo.png" stretch="aspectFill"></image>
 ```
 
 ///
@@ -88,28 +83,28 @@ When working with images following [the best practices](/performance.html#image-
 /// flavor react
 
 ```tsx
-<image src="~/logo.png" stretch="aspectFill" />
+<Image src="~/logo.png" stretch="aspectFill" />
 ```
 
 ///
 
 /// flavor vue
 
-```html
-<image src="~/logo.png" stretch="aspectFill" />
+```xml
+<Image src="~/logo.png" stretch="aspectFill" />
 ```
 
 ///
 
 /// flavor svelte
 
-```html
-<image src="~/logo.png" stretch="aspectFill" />
+```xml
+<Image src="~/logo.png" stretch="aspectFill" />
 ```
 
 /// -->
 
-###  Displaying an image from a URL
+### Displaying an image from a URL
 
 :::tip :green_circle: Note
 
@@ -130,8 +125,8 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor angular
 
-```html
-<image
+```xml
+<Image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
   stretch="aspectFill"
 >
@@ -143,7 +138,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 /// flavor react
 
 ```tsx
-<image
+<Image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
   stretch="aspectFill"
 />
@@ -153,8 +148,8 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor vue
 
-```html
-<image
+```xml
+<Image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
   stretch="aspectFill"
 />
@@ -164,8 +159,8 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor svelte
 
-```html
-<image
+```xml
+<Image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
   stretch="aspectFill"
 />
@@ -180,13 +175,14 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 ```xml
 <Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ```
-<!-- 
+
+<!--
 ///
 
 /// flavor angular
 
-```html
-<image src="data:Image/png;base64,iVBORw..." stretch="aspectFill"></image>
+```xml
+<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill"></image>
 ```
 
 ///
@@ -194,23 +190,23 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 /// flavor react
 
 ```tsx
-<image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
+<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ```
 
 ///
 
 /// flavor vue
 
-```html
-<image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
+```xml
+<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ```
 
 ///
 
 /// flavor svelte
 
-```html
-<image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
+```xml
+<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ```
 
 /// -->
@@ -222,13 +218,14 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 ```xml
 <Image src="font://&#xf004;" class="fas" />
 ```
-<!-- 
+
+<!--
 ///
 
 /// flavor angular
 
-```html
-<image src="font://&#xf004;" class="fas"></image>
+```xml
+<Image src="font://&#xf004;" class="fas"></image>
 ```
 
 ///
@@ -236,15 +233,15 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 /// flavor react
 
 ```tsx
-<image src="font://&#xf004;" class="fas" />
+<Image src="font://&#xf004;" class="fas" />
 ```
 
 ///
 
 /// flavor vue
 
-```html
-<image src.decode="font://&#xf004;" class="fas" />
+```xml
+<Image src.decode="font://&#xf004;" class="fas" />
 ```
 
 :::warning Note
@@ -257,15 +254,16 @@ In NativeScript-Vue, `.decode` is required for parsing properties that have HTML
 
 /// flavor svelte
 
-```html
-<image src="font://&#xf004;" class="fas" />
+```xml
+<Image src="font://&#xf004;" class="fas" />
 ```
 
 /// -->
 
-
 ## Props
+
 ### src
+
 ```xml
 <Image src="{{ src }}" />
 
@@ -273,56 +271,67 @@ In NativeScript-Vue, `.decode` is required for parsing properties that have HTML
 
 <Image src="~/assets/images/cat.jpeg" />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
-
-  src: string | ImageSource = "~/assets/images/cat.jpeg"
-
-} 
+  src: string | ImageSource = '~/assets/images/cat.jpeg'
+}
 ```
+
 Gets or sets the source([`ImageSource`](https://docs.nativescript.org/api-reference/classes/imagesource)) of the image.
 
 ---
+
 ### imageSource
+
 ```ts
 ImageSource.fromUrl(url)
-.then((imageSource: ImageSource) =>{
-
-image.imageSource = imageSource
-
-})
-.catch(error =>{
+  .then((imageSource: ImageSource) => {
+    image.imageSource = imageSource
+  })
+  .catch((error) => {
     // handle errror
-})
+  })
 ```
+
 ### tintColor
+
 ```xml
 <Image src="{{ src }}" tintColor="#ff00ffaa"/>
 ```
-Sets a color to tint template images.                      
+
+Sets a color to tint template images.
 
 ---
+
 ### stretch
+
 ```xml
 <Image src="{{ src }}" class="fas" stretch="aspectFill"/>
 ```
+
 Gets or sets the way the image is resized to fill its allocated space. For valid values, see [ImageStretch](https://docs.nativescript.org/api-reference/modules/coretypes.imagestretch).
 
 ---
+
 ### loadMode
+
 ```xml
 <Image src="{{ src }}" loadMode="sync"/>
 
 ```
-Gets or sets the loading strategy for the images on the local file system. 
+
+Gets or sets the loading strategy for the images on the local file system.
 Valid values:
+
 - `sync` - blocks the UI if necessary to display immediately. Only recommeded for small icons.
 - `async` (`default`) - will load in the background, may appear with short delay, good for large images. When loading images from web they are always loaded async no regardless `loadMode` value.
 
 ---
+
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/image). 
+For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/image).
 
 ## Native component
 

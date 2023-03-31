@@ -7,18 +7,20 @@ title: StackLayout
 ::: danger Important
 Try not to nest too many `<StackLayout/>` in your markup. If you find yourself nesting a lot of `<StackLayout>`
 you will likely get better performance by switching to a `<GridLayout>` or `<FlexboxLayout>`.
+
 <!-- See [Layout Nesting](/common-pitfalls.html#layout-nesting) for more information. -->
+
 :::
 
 ## Vertical stacking
 
-By default, `<StackLayout>` stacks its child items vertically.  The following example creates a vertical stack of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
+By default, `<StackLayout>` stacks its child items vertically. The following example creates a vertical stack of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
 
-```html
+```xml
 <StackLayout backgroundColor="#3c495e">
-  <label text="first" height="70" backgroundColor="#43b883" />
-  <label text="second" height="70" backgroundColor="#289062" />
-  <label text="third" height="70" backgroundColor="#1c6b48" />
+  <Label text="first" height="70" backgroundColor="#43b883" />
+  <Label text="second" height="70" backgroundColor="#289062" />
+  <Label text="third" height="70" backgroundColor="#1c6b48" />
 </StackLayout>
 ```
 
@@ -26,34 +28,34 @@ By default, `<StackLayout>` stacks its child items vertically.  The following ex
 
 ### Stack layout with horizontally aligned children
 
- To align a child element horizontally in a `StackLayout` with `orientation='vertical'`, use the child's `horizontalAlignment` property.
+To align a child element horizontally in a `StackLayout` with `orientation='vertical'`, use the child's `horizontalAlignment` property.
 
 The following example creates a diagonal stack of items with responsive sizes. Items are vertically stacked.
 
-```html
+```xml
 <StackLayout backgroundColor="#3c495e">
-  <label
+  <Label
     text="left"
     horizontalAlignment="left"
     width="33%"
     height="70"
     backgroundColor="#43b883"
   />
-  <label
+  <Label
     text="center"
     horizontalAlignment="center"
     width="33%"
     height="70"
     backgroundColor="#289062"
   />
-  <label
+  <Label
     text="right"
     horizontalAlignment="right"
     width="33%"
     height="70"
     backgroundColor="#1c6b48"
   />
-  <label
+  <Label
     text="stretch"
     horizontalAlignment="stretch"
     height="70"
@@ -70,11 +72,11 @@ To stack items horizontally, set `StackLayout`'s `orientation` to `horizontal`.
 
 The following example creates a horizontal stack of 3 equally-sized elements. Items are stretched to cover the entire height of the screen. Items are placed in the order they were declared in.
 
-```html
+```xml
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
-  <label text="first" width="70" backgroundColor="#43b883" />
-  <label text="second" width="70" backgroundColor="#289062" />
-  <label text="third" width="70" backgroundColor="#1c6b48" />
+  <Label text="first" width="70" backgroundColor="#43b883" />
+  <Label text="second" width="70" backgroundColor="#289062" />
+  <Label text="third" width="70" backgroundColor="#1c6b48" />
 </StackLayout>
 ```
 
@@ -83,32 +85,32 @@ The following example creates a horizontal stack of 3 equally-sized elements. It
 ### Horizontal stack layout with vertically aligned children
 
 To align a child element vertically in a `StackLayout` with `orientation='horizontal'` use the child's `verticalAlignment` property.
-The following example creates a diagonal stack of items with responsive sizes. 
+The following example creates a diagonal stack of items with responsive sizes.
 
-```html
+```xml
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
-  <label
+  <Label
     text="top"
     verticalAlignment="top"
     width="70"
     height="33%"
     backgroundColor="#43b883"
   />
-  <label
+  <Label
     text="center"
     verticalAlignment="center"
     width="70"
     height="33%"
     backgroundColor="#289062"
   />
-  <label
+  <Label
     text="bottom"
     verticalAlignment="bottom"
     width="70"
     height="33%"
     backgroundColor="#1c6b48"
   />
-  <label
+  <Label
     text="stretch"
     verticalAlignment="stretch"
     width="70"

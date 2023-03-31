@@ -5,17 +5,13 @@ title: TabView
 `<TabView>` is a navigation component that shows content grouped into tabs and lets users switch between tabs.
 
 ---
-<div>
-<div class="flex flex-wrap p-4 sm:p-8">
-<div  class="w-full sm:w-1/2">
- <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TabView.png" alt="Android TabView Example"/> 
-</div>
 
-<div  class="w-full sm:w-1/2 sm:pl-8">
-<img alt="iOS TabView Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TabView.png" />
-</div>
-</div>
-</div>
+<DeviceFrame type="ios">
+<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TabView.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TabView.png" />
+</DeviceFrame>
 
 ### Simple TabView
 
@@ -23,12 +19,12 @@ title: TabView
 
 ```xml
  <TabView
-   selectedIndex="{{ tabSelectedIndex }}" 
-   selectedIndexChanged="{{ onSelectedIndexChanged }}" 
-   androidTabsPosition="bottom" 
-   androidOffscreenTabLimit="0" 
-   tabBackgroundColor="#3d5a80" 
-   tabTextColor="#fff" 
+   selectedIndex="{{ tabSelectedIndex }}"
+   selectedIndexChanged="{{ onSelectedIndexChanged }}"
+   androidTabsPosition="bottom"
+   androidOffscreenTabLimit="0"
+   tabBackgroundColor="#3d5a80"
+   tabTextColor="#fff"
    selectedTabTextColor="#eae2b7">
     <TabViewItem title="Profile">
       <StackLayout>
@@ -68,7 +64,7 @@ export class HelloWorldModel extends Observable {
   onSelectedIndexChanged(args: SelectedIndexChangedEventData){
     if (args.oldIndex !== -1) {
       const newIndex = args.newIndex
-      
+
       if (newIndex === 0) {
         this.set('tabSelectedIndexResult', 'Profile Tab (tabSelectedIndex = 0 )')
       } else if (newIndex === 1) {
@@ -76,23 +72,24 @@ export class HelloWorldModel extends Observable {
       } else if (newIndex === 2) {
         this.set('tabSelectedIndexResult', 'Settings Tab (tabSelectedIndex = 2 )')
       }
-     
+
     }
   }
 }
 ```
-<!-- 
+
+<!--
 ///
 
 /// flavor angular
 
 Using a `<TabView>` inside an `Angular` app requires some special attention about how to provide title, iconSource and content (view) of the `TabViewItem`. In a pure NativeScript application TabView has an items property which could be set via XML to an array of `<TabViewItem>`s (basically, an array of objects with title, view and iconSource properties). However, NativeScript-Angular does not support nested properties in its HTML template, so adding `<TabViewItem>` to `<TabView`> is a little bit different. NativeScript-Angular provides a custom Angular directive that simplifies the way native `<TabView>` should be used. The following example shows how to add a `<TabView>` to your page (with some clarifications later):
 
-```html
+```xml
 <TabView selectedIndex="0" (selectedIndexChanged)="onSelectedIndexchanged($event)">
   <StackLayout *tabItem="{title: 'First Tab', iconSource: 'res://icon'}">
     <StackLayout>
-      <label
+      <Label
         text="First Tab"
         textWrap="true"
         class="m-15 h2 text-left"
@@ -102,7 +99,7 @@ Using a `<TabView>` inside an `Angular` app requires some special attention abou
   </StackLayout>
   <StackLayout *tabItem="{title: 'Second Tab', iconSource: 'res://icon'}">
     <StackLayout>
-      <label
+      <Label
         text="Second Tab"
         textWrap="true"
         class="m-15 h2 text-left"
@@ -124,11 +121,11 @@ If you have set the iconSource property on a `<TabViewItem>`, but are not seeing
 ```tsx
 <tabView selectedIndex="{selectedIndex}" on:selectedIndexChange="{indexChange}">
   <tabViewItem title="Tab 1">
-    <label text="Content for Tab 1" />
+    <Label text="Content for Tab 1" />
   </tabViewItem>
 
   <tabViewItem title="Tab 2">
-    <label text="Content for Tab 2" />
+    <Label text="Content for Tab 2" />
   </tabViewItem>
 </tabView>
 ```
@@ -144,13 +141,13 @@ function indexChange(event) {
 
 /// flavor vue
 
-```html
+```xml
 <TabView :selectedIndex="selectedIndex" @selectedIndexChange="indexChange">
   <TabViewItem title="Tab 1">
-    <label text="Content for Tab 1" />
+    <Label text="Content for Tab 1" />
   </TabViewItem>
   <TabViewItem title="Tab 2">
-    <label text="Content for Tab 2" />
+    <Label text="Content for Tab 2" />
   </TabViewItem>
 </TabView>
 ```
@@ -178,10 +175,10 @@ import { SelectedIndexChangedEventData } from '@nativescript/core'
   }}
 >
   <tabViewItem nodeRole="items" title="Tab 1">
-    <label text="Content for Tab 1" />
+    <Label text="Content for Tab 1" />
   </tabViewItem>
   <tabViewItem nodeRole="items" title="Tab 2">
-    <label text="Content for Tab 2" />
+    <Label text="Content for Tab 2" />
   </tabViewItem>
 </tabView>
 ```
@@ -196,13 +193,13 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 
 /// flavor vue
 
-```html
+```xml
 <TabView :selectedIndex="selectedIndex" iosIconRenderingMode="alwaysOriginal">
   <TabViewItem title="Tab 1" iconSource="~/images/icon.png">
-    <label text="Content for Tab 1" />
+    <Label text="Content for Tab 1" />
   </TabViewItem>
   <TabViewItem title="Tab 2" iconSource="~/images/icon.png">
-    <label text="Content for Tab 2" />
+    <Label text="Content for Tab 2" />
   </TabViewItem>
 </TabView>
 ```
@@ -214,10 +211,10 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 ```tsx
 <tabView selectedIndex="{selectedIndex}" iosIconRenderingMode="alwaysOriginal">
   <tabViewItem title="Tab 1" iconSource="~/images/icon.png">
-    <label text="Content for Tab 1" />
+    <Label text="Content for Tab 1" />
   </tabViewItem>
   <tabViewItem title="Tab 2" iconSource="~/images/icon.png">
-    <label text="Content for Tab 2" />
+    <Label text="Content for Tab 2" />
   </tabViewItem>
 </tabView>
 ```
@@ -229,10 +226,10 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 ```tsx
 <tabView selectedIndex={selectedIndex} iosIconRenderingMode="alwaysOriginal">
   <tabViewItem nodeRole="items" title="Tab 1" iconSource="~/images/icon.png">
-    <label text="Content for Tab 1" />
+    <Label text="Content for Tab 1" />
   </tabViewItem>
   <tabViewItem nodeRole="items" title="Tab 2" iconSource="~/images/icon.png">
-    <label text="Content for Tab 2" />
+    <Label text="Content for Tab 2" />
   </tabViewItem>
 </tabView>
 ```
@@ -245,93 +242,124 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 You can use images for tab icons instead of icon fonts. For more information about how to control the size of icons, see [Working with image from resource folders](https://docs.nativescript.org/ui/image-resources).
 :::
 
-
 ### Styling
 
 The `TabView` component has the following unique styling properties:
 
-- [tabTextColor](#tabtextcolor)
-
-- [selectedTabTextColor](#tabtextcolor)
-
-- [tabBackgroundColor](#tabbackgroundcolor)
-
-- [tabTextFontSize](#tabtextfontsize)
-
-- [textTransform](#texttransform)
-
-- [androidSelectedTabHighlightColor](#androidselectedtabhighlightcolor)
+- [Props](#props)
+  - [selectedIndex](#selectedindex)
+  - [tabTextColor](#tabtextcolor)
+  - [tabTextFontSize](#tabtextfontsize)
+  - [tabBackgroundColor](#tabbackgroundcolor)
+  - [androidSelectedTabHighlightColor](#androidselectedtabhighlightcolor)
+  - [androidTabsPosition](#androidtabsposition)
+  - [iosIconRenderingMode](#iosiconrenderingmode)
+  - [...Inherited](#inherited)
+- [TabViewItem Props](#tabviewitem-props)
+  - [title](#title)
+  - [textTransform](#texttransform)
+  - [iconSource](#iconsource)
+- [Event(s)](#events)
+  - [selectedIndexChange](#selectedindexchange)
+    - [SelectedIndexChangedEventData](#selectedindexchangedeventdata)
+- [Native component](#native-component)
 
 ## Props
+
 ### selectedIndex
+
 ```xml
  <TabView selectedIndex="{{ tabSelectedIndex }}" />
 ```
+
 ```ts
 selectedIndex = tabView.selectedIndex
-```   
+```
+
 Gets or sets the currently selected tab. Default is `0`.
 
 ---
+
 ### tabTextColor
+
 ```xml
 <TabView tabTextColor="#fff" />
-``` 
+```
 
 Corresponding CSS: `tab-text-color`
+
 ```css
 .tab-view {
   tab-text-color: #fff;
 }
 ```
-Gets or sets the text color of the tabs titles. 
+
+Gets or sets the text color of the tabs titles.
 
 ---
+
 ### tabTextFontSize
+
 Corresponding CSS: `tab-text-font-size`
+
 ```css
-.tab-view{
+.tab-view {
   tab-text-font-size: 24;
 }
 ```
+
 Gets or sets the font size of the tabs titles.
 
 ---
+
 ### tabBackgroundColor
+
 ```xml
 <TabView tabBackgroundColor="#3d5a80">
 ```
+
 Corresponding CSS: `tab-background-color`
+
 ```css
-.tab-view{
+.tab-view {
   tab-background-color: #3d5a80;
 }
 ```
+
 Sets the background color of the tabs.
 
 ---
+
 ### androidSelectedTabHighlightColor
+
 ```xml
 <TabView androidSelectedTabHighlightColor="#76ABEB">
 ```
+
 Corresponding CSS: `android-selected-tab-highlight-color`
+
 ```css
 .tab-view {
-  android-selected-tab-highlight-color: #76ABEB;
+  android-selected-tab-highlight-color: #76abeb;
 }
 ```
+
 (`Android-only`)Sets the underline color of the tabs.
 
 ---
+
 ### androidTabsPosition
+
 ```xml
  <TabView androidTabsPosition="top" >
 ```
-Sets the position of the TabView in Android platform. 
 
-Valid values: `top` or `bottom`. Defaults to `top`.                            
+Sets the position of the TabView in Android platform.
+
+Valid values: `top` or `bottom`. Defaults to `top`.
 
 ---
+
 ### iosIconRenderingMode
 
 Gets or sets the icon rendering mode([UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode)) on iOS.
@@ -341,33 +369,45 @@ Defaults to `automatic`.
 Valid values are: `automatic`| `alwaysOriginal`| `alwaysTemplate`
 
 ---
+
 ### ...Inherited
+
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/tabview).
 
 ## TabViewItem Props
+
 ### title
+
 ```xml
  <TabViewItem title="Profile">
 ```
-Gets or sets the title of the tab strip entry.                     
+
+Gets or sets the title of the tab strip entry.
 
 ---
+
 ### textTransform
+
 ```xml
 <TabViewItem title="Profile" textTransform="capitalize" />
 ```
-Corresponding CSS: `text-transform` 
+
+Corresponding CSS: `text-transform`
+
 ```css
 .tab-view-item {
   text-transform: capitalize;
 }
 ```
+
 Sets the text transform individually for every `TabViewItem`. See [textTransformType](https://docs.nativescript.org/api-reference/modules/coretypes#texttransformtype) for valid options.
 
 ---
+
 ### iconSource
+
 ```xml
- <TabViewItem title="Profile" 
+ <TabViewItem title="Profile"
  iconSource="~/assets/images/cat.jpeg" >
 ```
 
@@ -376,28 +416,32 @@ Gets or sets the icon source of the tab strip entry. Supports local image paths 
 ## Event(s)
 
 ### selectedIndexChange
+
 ```xml
  <TabView loaded="{{ onTabViewLoaded }}" >
 ```
+
 ```ts
 onTabViewLoaded(args: EventData){
     const tabView = args.object as TabView
 
     tabView.on("selectedIndexChanged",(args: SelectedIndexChangedEventData)=>{
-      
+
     })
   }
 ```
+
 Raised when the selected index changes.
 
 ---
+
 #### SelectedIndexChangedEventData
+
 The `SelectedIndexChangedEventData` object provides the following data:
 | Name | Type | Description |
 |------|------|-------------|
 | `oldIndex`| `number`| The old selected index.|
 | `newIndex`| `number`| The new selected index.|
-
 
 ## Native component
 
