@@ -159,7 +159,7 @@ export default [
       //           { text: 'Label', link: '//#' },
       //           { text: 'ListPicker', link: '//#' },
       //           { text: 'ListView', link: '//#' },
-      //           { text: 'Placeholder', link: '//#' },
+                { text: 'Placeholder', link: '/ui/placeholder' },
       //           { text: 'Progress', link: '//#' },
                 { text: 'ScrollView', link: '/ui/scrollview' },
       //           { text: 'SearchBar', link: '//#' },
