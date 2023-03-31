@@ -153,7 +153,7 @@ export default [
               items: [
       //           { text: 'ActivityIndicator', link: '//#' },
       //           { text: 'Button', link: '//#' },
-      //           { text: 'DatePicker', link: '//#' },
+                  { text: 'DatePicker', link: '/ui/datepicker' },
       //           { text: 'HtmlView', link: '//#' },
                 { text: 'Image', link: '/ui/image' },
       //           { text: 'Label', link: '//#' },
