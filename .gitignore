@@ -1,6 +1,7 @@
 node_modules
 content/api/**/*
 .vitepress/dist
+.vitepress/cache
 
 yarn.lock
 .DS_Store
