@@ -161,7 +161,7 @@ export default [
       //           { text: 'ListView', link: '//#' },
       //           { text: 'Placeholder', link: '//#' },
       //           { text: 'Progress', link: '//#' },
-      //           { text: 'ScrollView', link: '//#' },
+                { text: 'ScrollView', link: '/ui/scrollview' },
       //           { text: 'SearchBar', link: '//#' },
                 { text: 'SegmentedBar', link: '/ui/segmentedbar' },
       //           { text: 'Slider', link: '//#' },
