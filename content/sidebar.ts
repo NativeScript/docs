@@ -142,7 +142,7 @@ export default [
       //         text: 'Navigation Components',
       //         items: [
       //           { text: 'Frame', link: '//#' },
-      //           { text: 'Page', link: '//#' },
+      //           { text: 'Page', link: '/ui/page' },
       //           { text: 'ActionBar', link: '//#' },
       //           { text: 'ActionItem', link: '//#' },
       //           { text: 'NavigationButton', link: '//#' },
