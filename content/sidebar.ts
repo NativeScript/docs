@@ -138,11 +138,11 @@ export default [
           { text: 'AbsoluteLayout', link: '/ui/absolute-layout' },
         ],
       },
-            {
-              text: 'Navigation',
-              items: [
+      //       {
+      //         text: 'Navigation Components',
+      //         items: [
       //           { text: 'Frame', link: '//#' },
-                { text: 'Page', link: '/ui/page' },
+      //           { text: 'Page', link: '/ui/page' },
       //           { text: 'ActionBar', link: '//#' },
       //           { text: 'ActionItem', link: '//#' },
       //           { text: 'NavigationButton', link: '//#' },
