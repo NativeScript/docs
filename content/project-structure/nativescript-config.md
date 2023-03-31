@@ -158,8 +158,12 @@ See [Hooks Configuration Reference](#hooks-configuration-reference)
 
 ### cli.packageManager
 
+::: tip Note
+`yarn2` is experimental and available in `nativescript@8.5.0` or newer.
+:::
+
 ```ts
-cli.packageManager: 'yarn' | 'pnpm' | 'npm' = 'yarn';
+cli.packageManager: 'npm' | 'yarn' | 'pnpm' | 'yarn2' = 'yarn';
 ```
 
 Sets the package manager to use for this project.
@@ -314,6 +318,14 @@ Enable the multithreaded JavaScript engine. Defaults to `false`.
 
 ### <span>ios.id</span>
 
+```ts
+ios.id: string = 'com.mycompany.myapp.ios';
+```
+
+Controls the Bundle Identifier of your iOS app, this setting overrides the value set in [id](#id).
+
+See also [android.id](#android-id).
+
 ### ios.discardUncaughtJsExceptions
 
 ```ts
@@ -321,6 +333,41 @@ ios.discardUncaughtJsExceptions: boolean = true;
 ```
 
 Discard any uncaught JS exceptions. This can be very useful in production environments where you don't want your app to crash in case an unexpected JS exception is thrown.
+
+### ios.SPMPackages
+
+::: tip Experimental
+
+SPM packages are available in `nativescript@8.5.0` or newer and are experimental.
+
+:::
+
+```ts
+ios.SPMPackages: Array<{
+  name: string;
+  libs: Array<string>;
+  repositoryURL: string;
+  version: string;
+}>
+```
+
+Allows defining Swift Package Manager dependencies that should be installed into the project. Any dependencies listed here, similar to Cocoapods depependencies will be built with the project. This means you can generate typings for them via `ns typings ios` for TypeScript usage.
+
+#### Example
+
+```ts
+// ...
+ios: {
+  SPMPackages: [
+    {
+      name: 'swift-numerics',
+      libs: ['Numerics'],
+      repositoryURL: 'https://github.com/apple/swift-numerics.git',
+      version: '1.0.0',
+    },
+  ]
+}
+```
 
 ## Hooks Configuration Reference
 
