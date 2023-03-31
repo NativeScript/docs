@@ -165,7 +165,7 @@ export default [
       //           { text: 'SearchBar', link: '//#' },
       //           { text: 'SegmentedBar', link: '//#' },
       //           { text: 'Slider', link: '//#' },
-      //           { text: 'Switch', link: '//#' },
+                { text: 'Switch', link: '/ui/switch' },
       //           { text: 'TabView', link: '//#' },
       //           { text: 'TextField', link: '//#' },
                 { text: 'TextView', link: '/ui/textview' },
