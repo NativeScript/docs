@@ -168,7 +168,7 @@ export default [
       //           { text: 'Switch', link: '//#' },
       //           { text: 'TabView', link: '//#' },
       //           { text: 'TextField', link: '//#' },
-      //           { text: 'TextView', link: '//#' },
+                { text: 'TextView', link: '/ui/textview' },
       //           { text: 'TimePicker', link: '//#' },
                 { text: 'WebView', link: '/ui/webview' },
     ],
