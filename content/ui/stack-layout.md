@@ -27,13 +27,13 @@ By default, `<StackLayout>` stacks its child items vertically. The following exa
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_vertical.svg" />
 
-You can play with these examples in [Stackblitz](https://stackblitz.com/edit/nativescript-stackblitz-templates-ofdvhw?file=app%2Fmain-page.xml&title=NativeScript%20Starter%20TypeScript).
+You can play with these examples in [StackBlitz](https://stackblitz.com/edit/nativescript-stackblitz-templates-ofdvhw?file=app%2Fmain-page.xml&title=NativeScript%20Starter%20TypeScript).
 
 ### Aligning children horizontally in a veritcal stack
 
-Child elements of a vertical stack can align themselves horizontally at `left`, `center or `right`with`horizontalAlignment property.
+Child elements of a vertical stack can align themselves horizontally at `left`, `center` or `right` positions with the `horizontalAlignment` property.
 
-For example, below we are aligning child elements diagonally in a vertical stack.
+For example, we can align child elements diagonally in a vertical stack.
 
 ```xml
 <StackLayout backgroundColor="#3c495e">
