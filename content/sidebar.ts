@@ -118,8 +118,12 @@ export default [
       },
       {
         text: 'Shared Element Transitions',
-        link: '/guide/shared-element-transitions'
-      }
+        link: '/guide/shared-element-transitions',
+      },
+      {
+        text: 'Accessibility',
+        link: '/guide/accessibility',
+      },
     ],
   },
   {
