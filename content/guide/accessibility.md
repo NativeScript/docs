@@ -59,6 +59,18 @@ Provide additional help so users understand what will happen when they perform a
 ></button>
 ```
 
+### iosAccessibilityAdjustsFontSize (iOS only)
+
+Enable this to allow device font scale affect view font-size. Android has this feature enabled by default.
+
+### iosAccessibilityMinFontScale (iOS only)
+
+Sets the minimum accessibility font scale.
+
+### iosAccessibilityMaxFontScale (iOS only)
+
+Sets the maximum accessibility font scale.
+
 ### accessibilityIgnoresInvertColors (iOS only)
 
 When screen colors invert with accessibility, you often don't want views such as photos to be inverted. You can set this to ignore the inversion.
