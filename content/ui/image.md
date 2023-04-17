@@ -274,11 +274,11 @@ In NativeScript-Vue, `.decode` is required for parsing properties that have HTML
 
 ```ts
 export class HelloWorldModel extends Observable {
-  src: string | ImageSource = '~/assets/images/cat.jpeg'
+  src: string | ImageSource | ImageAsset = '~/assets/images/cat.jpeg'
 }
 ```
 
-Gets or sets the source([`ImageSource`](https://docs.nativescript.org/api-reference/classes/imagesource)) of the image.
+Gets or sets the source([`ImageSource`](https://docs.nativescript.org/api-reference/classes/imagesource) | [`ImageAsset`](/api-reference/classes/imageasset)) of the image.
 
 ---
 
