@@ -1,0 +1,527 @@
+{
+  "title": "LoginOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "ConfirmOptions",
+        "link": "/api/interface/ConfirmOptions"
+      }
+    ],
+    [
+      {
+        "text": "LoginOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        10180,
+        10175,
+        10179,
+        10176,
+        10177,
+        10174,
+        10172,
+        10181,
+        10178,
+        10173,
+        10171
+      ]
+    }
+  ],
+  "reflections": {
+    "10171": {
+      "name": "userNameHint",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#usernamehint",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the default text to display as hint in the user name input box."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "userNameHint?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 249,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the default text to display as hint in the user name input box."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#usernamehint"
+        }
+      ]
+    },
+    "10172": {
+      "name": "passwordHint",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#passwordhint",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the default text to display as hint in the password input box."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "passwordHint?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 254,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the default text to display as hint in the password input box."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#passwordhint"
+        }
+      ]
+    },
+    "10173": {
+      "name": "userName",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#username",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the default text to display in the user name input box."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "userName?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 259,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the default text to display in the user name input box."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#username"
+        }
+      ]
+    },
+    "10174": {
+      "name": "password",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#password",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the default text to display in the password input box."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "password?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 264,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the default text to display in the password input box."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#password"
+        }
+      ]
+    },
+    "10175": {
+      "name": "cancelButtonText",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#cancelbuttontext",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the Cancel button text."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "cancelButtonText",
+        "url": "/api/interface/ConfirmOptions#cancelbuttontext",
+        "fromName": "ConfirmOptions",
+        "fromUrl": "/api/interface/ConfirmOptions"
+      },
+      "signatures": [
+        {
+          "code": "cancelButtonText?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 214,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "cancelButtonText",
+            "url": "/api/interface/ConfirmOptions#cancelbuttontext",
+            "fromName": "ConfirmOptions",
+            "fromUrl": "/api/interface/ConfirmOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the Cancel button text."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#cancelbuttontext"
+        }
+      ]
+    },
+    "10176": {
+      "name": "neutralButtonText",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#neutralbuttontext",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the neutral button text."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "neutralButtonText",
+        "url": "/api/interface/ConfirmOptions#neutralbuttontext",
+        "fromName": "ConfirmOptions",
+        "fromUrl": "/api/interface/ConfirmOptions"
+      },
+      "signatures": [
+        {
+          "code": "neutralButtonText?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 219,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "neutralButtonText",
+            "url": "/api/interface/ConfirmOptions#neutralbuttontext",
+            "fromName": "ConfirmOptions",
+            "fromUrl": "/api/interface/ConfirmOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the neutral button text."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#neutralbuttontext"
+        }
+      ]
+    },
+    "10177": {
+      "name": "okButtonText",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#okbuttontext",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the OK button text."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "okButtonText",
+        "url": "/api/interface/AlertOptions#okbuttontext",
+        "fromName": "AlertOptions",
+        "fromUrl": "/api/interface/AlertOptions"
+      },
+      "signatures": [
+        {
+          "code": "okButtonText?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 204,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "okButtonText",
+            "url": "/api/interface/AlertOptions#okbuttontext",
+            "fromName": "AlertOptions",
+            "fromUrl": "/api/interface/AlertOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the OK button text."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#okbuttontext"
+        }
+      ]
+    },
+    "10178": {
+      "name": "title",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#title",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog title."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "title",
+        "url": "/api/interface/DialogOptions#title",
+        "fromName": "DialogOptions",
+        "fromUrl": "/api/interface/DialogOptions"
+      },
+      "signatures": [
+        {
+          "code": "title?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 189,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "title",
+            "url": "/api/interface/DialogOptions#title",
+            "fromName": "DialogOptions",
+            "fromUrl": "/api/interface/DialogOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog title."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#title"
+        }
+      ]
+    },
+    "10179": {
+      "name": "message",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#message",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog message."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "message",
+        "url": "/api/interface/DialogOptions#message",
+        "fromName": "DialogOptions",
+        "fromUrl": "/api/interface/DialogOptions"
+      },
+      "signatures": [
+        {
+          "code": "message?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 194,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "message",
+            "url": "/api/interface/DialogOptions#message",
+            "fromName": "DialogOptions",
+            "fromUrl": "/api/interface/DialogOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog message."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#message"
+        }
+      ]
+    },
+    "10180": {
+      "name": "cancelable",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#cancelable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "cancelable",
+        "url": "/api/interface/CancelableOptions#cancelable",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "cancelable?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 144,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "cancelable",
+            "url": "/api/interface/CancelableOptions#cancelable",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#cancelable"
+        }
+      ]
+    },
+    "10181": {
+      "name": "theme",
+      "type": "Property",
+      "url": "/api/interface/LoginOptions#theme",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "theme",
+        "url": "/api/interface/CancelableOptions#theme",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "theme?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 149,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "theme",
+            "url": "/api/interface/CancelableOptions#theme",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+              }
+            ]
+          },
+          "url": "/api/interface/LoginOptions#theme"
+        }
+      ]
+    }
+  }
+}
