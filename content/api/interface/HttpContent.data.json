@@ -1,0 +1,155 @@
+{
+  "title": "HttpContent",
+  "hierarchy": [
+    [
+      {
+        "text": "HttpContent"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2144,
+        2145,
+        2159,
+        2156,
+        2152,
+        2148
+      ]
+    }
+  ],
+  "reflections": {
+    "2144": {
+      "name": "raw",
+      "type": "Property",
+      "url": "/api/interface/HttpContent#raw",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the response body as raw data."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "raw: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 140,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the response body as raw data."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpContent#raw"
+        }
+      ]
+    },
+    "2145": {
+      "name": "toArrayBuffer",
+      "type": "Property",
+      "url": "/api/interface/HttpContent#toarraybuffer",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "toArrayBuffer: () => ArrayBuffer",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 145,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/HttpContent#toarraybuffer"
+        }
+      ]
+    },
+    "2148": {
+      "name": "toString",
+      "type": "Property",
+      "url": "/api/interface/HttpContent#tostring",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "toString: (encoding?: <a href=\"/api/enum/HttpResponseEncoding\">HttpResponseEncoding</a>) => string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 150,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/HttpContent#tostring"
+        }
+      ]
+    },
+    "2152": {
+      "name": "toJSON",
+      "type": "Property",
+      "url": "/api/interface/HttpContent#tojson",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "toJSON: (encoding?: <a href=\"/api/enum/HttpResponseEncoding\">HttpResponseEncoding</a>) => any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 155,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/HttpContent#tojson"
+        }
+      ]
+    },
+    "2156": {
+      "name": "toImage",
+      "type": "Property",
+      "url": "/api/interface/HttpContent#toimage",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "toImage: () => Promise&lt;<a href=\"/api/class/ImageSource\">ImageSource</a>&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 160,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/HttpContent#toimage"
+        }
+      ]
+    },
+    "2159": {
+      "name": "toFile",
+      "type": "Property",
+      "url": "/api/interface/HttpContent#tofile",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "toFile: (destinationFilePath?: string) => <a href=\"/api/class/File\">File</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 165,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/HttpContent#tofile"
+        }
+      ]
+    }
+  }
+}

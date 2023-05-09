@@ -1,0 +1,195 @@
+{
+  "title": "CreateViewEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "CreateViewEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        17061,
+        17062,
+        17063,
+        17060
+      ]
+    }
+  ],
+  "reflections": {
+    "17060": {
+      "name": "view",
+      "type": "Property",
+      "url": "/api/interface/CreateViewEventData#view",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The native view that should be added to the visual tree."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "view: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/placeholder/index.d.ts",
+              "line": 36,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The native view that should be added to the visual tree."
+              }
+            ]
+          },
+          "url": "/api/interface/CreateViewEventData#view"
+        }
+      ]
+    },
+    "17061": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/interface/CreateViewEventData#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional context for creating the view."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "context?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/placeholder/index.d.ts",
+              "line": 41,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional context for creating the view."
+              }
+            ]
+          },
+          "url": "/api/interface/CreateViewEventData#context"
+        }
+      ]
+    },
+    "17062": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/CreateViewEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/CreateViewEventData#eventname"
+        }
+      ]
+    },
+    "17063": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/CreateViewEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/CreateViewEventData#object"
+        }
+      ]
+    }
+  }
+}

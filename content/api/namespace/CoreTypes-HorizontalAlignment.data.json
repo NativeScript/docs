@@ -1,0 +1,165 @@
+{
+  "title": "HorizontalAlignment",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2636,
+        2635,
+        2637,
+        2638
+      ]
+    }
+  ],
+  "reflections": {
+    "2635": {
+      "name": "left",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#left",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An element should be left aligned."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "left: <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 175,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An element should be left aligned."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#left"
+        }
+      ]
+    },
+    "2636": {
+      "name": "center",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#center",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An element should be center aligned."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "center: <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 180,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An element should be center aligned."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#center"
+        }
+      ]
+    },
+    "2637": {
+      "name": "right",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#right",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An element should be right aligned."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "right: <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 185,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An element should be right aligned."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#right"
+        }
+      ]
+    },
+    "2638": {
+      "name": "stretch",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#stretch",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An element should be stretched to fill all the available size."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "stretch: <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 190,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An element should be stretched to fill all the available size."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#stretch"
+        }
+      ]
+    }
+  }
+}

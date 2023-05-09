@@ -1,0 +1,148 @@
+{
+  "title": "path",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2122
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2119,
+        2116
+      ]
+    }
+  ],
+  "reflections": {
+    "2116": {
+      "name": "normalize",
+      "type": "Function",
+      "url": "/api/namespace/path#normalize",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "normalize(path: string): string",
+          "url": "/api/namespace/path#normalize-normalize-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 292,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Normalizes a path, taking care of occurrances like \"..\" and \"//\"."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path to be normalized."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2119": {
+      "name": "join",
+      "type": "Function",
+      "url": "/api/namespace/path#join",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "join(...paths: string[]): string",
+          "url": "/api/namespace/path#join-join-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 298,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Joins all the provided string components, forming a valid and normalized path."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "paths",
+              "type": "string[]",
+              "flags": {
+                "isRest": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An array of string components to be joined."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2122": {
+      "name": "separator",
+      "type": "Variable",
+      "url": "/api/namespace/path#separator",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the string used to separate file paths."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "separator: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 303,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the string used to separate file paths."
+              }
+            ]
+          },
+          "url": "/api/namespace/path#separator"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "title": "TraceWriter",
+  "hierarchy": [
+    [
+      {
+        "text": "TraceWriter"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Methods",
+      "items": [
+        2809
+      ]
+    }
+  ],
+  "reflections": {
+    "2809": {
+      "name": "write",
+      "type": "Method",
+      "url": "/api/interface/TraceWriter#write",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "write(message: any, category: string, type?: number): void",
+          "url": "/api/interface/TraceWriter#write-write-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 5,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "message",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

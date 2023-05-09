@@ -1,0 +1,229 @@
+{
+  "title": "LoadEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "LoadEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        28728,
+        28729,
+        28727,
+        28730,
+        28726
+      ]
+    }
+  ],
+  "reflections": {
+    "28726": {
+      "name": "url",
+      "type": "Property",
+      "url": "/api/interface/LoadEventData#url",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the url of the web-view."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "url: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/web-view/index.d.ts",
+              "line": 109,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the url of the web-view."
+              }
+            ]
+          },
+          "url": "/api/interface/LoadEventData#url"
+        }
+      ]
+    },
+    "28727": {
+      "name": "navigationType",
+      "type": "Property",
+      "url": "/api/interface/LoadEventData#navigationtype",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the navigation type of the web-view."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "navigationType: NavigationType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/web-view/index.d.ts",
+              "line": 114,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the navigation type of the web-view."
+              }
+            ]
+          },
+          "url": "/api/interface/LoadEventData#navigationtype"
+        }
+      ]
+    },
+    "28728": {
+      "name": "error",
+      "type": "Property",
+      "url": "/api/interface/LoadEventData#error",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the error (if any)."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "error: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/web-view/index.d.ts",
+              "line": 119,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the error (if any)."
+              }
+            ]
+          },
+          "url": "/api/interface/LoadEventData#error"
+        }
+      ]
+    },
+    "28729": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/LoadEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/LoadEventData#eventname"
+        }
+      ]
+    },
+    "28730": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/LoadEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/LoadEventData#object"
+        }
+      ]
+    }
+  }
+}
