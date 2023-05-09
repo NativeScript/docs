@@ -1,6 +1,6 @@
 ---
 title: API Reference
-titleTemplate: "API - NativeScript"
+titleTemplate: 'API - NativeScript'
 layout: api
 seo:
   description: undefined
@@ -1558,7 +1558,7 @@ seo:
 
 <template #title>
 
-### _setResolver
+### \_setResolver
 
 </template>
 
@@ -1572,7 +1572,7 @@ seo:
 
 <template #title>
 
-### _updateCharactersInRangeReplacementString
+### \_updateCharactersInRangeReplacementString
 
 </template>
 
