@@ -174,6 +174,10 @@ export default [
           { text: 'WebView', link: '/ui/webview' },
         ],
       },
+      {
+        text: 'Showing Modal',
+        link: '/guide/ui/showing-modal',
+      },
       //       {
       //         text: 'Dialogs',
       //         items: [

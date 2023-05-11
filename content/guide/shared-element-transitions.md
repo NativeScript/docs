@@ -32,7 +32,7 @@ You can tag any View component with the `sharedTransitionTag` attribute containi
 
 #### Page A
 
-Tag a view on the page your are **navigating from**
+Tag a view on the page you are **navigating from**
 
 ```xml
 <!-- Page A content -->
@@ -41,7 +41,7 @@ Tag a view on the page your are **navigating from**
 
 #### Page B
 
-Tag a view on the page your are **navigating to** with the same matching `sharedTransitionTag`. Once the transition starts, the view will transition from the starting state as presented on **Page A** to the target state as presented on **Page B**.
+Tag a view on the page you are **navigating to** with the same matching `sharedTransitionTag`. Once the transition starts, the view will transition from the starting state as presented on **Page A** to the target state as presented on **Page B**.
 
 ```xml
 <!-- Page B content -->
@@ -112,9 +112,9 @@ The view tagged as `title` will fade out and move left by 200<abbr title="Device
 #### Notes
 
 - Independent shared elements are only supported on iOS at the moment.
-- Using "independent" elements with with interactive transitions is not recommended (and will likely lead to unexpected behavior).
+- Using "independent" elements with interactive transitions is not recommended (and will likely lead to unexpected behavior).
 
-## How Shared Element Tranitions work
+## How Shared Element Transitions work
 
 To provide flexible page and modal transition handling out of the box, `@nativescript/core` provides a `PageTransition` and a `ModalTransition` preconfigured for a wide majority of popular use cases, however `SharedTransition` contains a number of advanced options to custimize the default behavior.
 
@@ -197,7 +197,14 @@ interface SharedTransitionConfig {
    * State that the outgoing page transitions to.
    * (from it's current state)
    */
-  pageReturn?: SharedTransitionPageProperties
+  pageReturn?: SharedTransitionPageProperties & {
+    /**
+     * In some cases you may want the returning animation to start with the original opacity,
+     * instead of beginning where it ended up on pageEnd.
+     * Note: you can try enabling this property in cases where your return animation doesn't appear correct.
+     */
+    useStartOpacity?: boolean;
+  };
 
   /** @ios - only supported on iOS */
   interactive?: {
@@ -236,13 +243,48 @@ interface SharedProperties {
   }
 }
 
+interface SharedTransitionTagProperties = SharedProperties & {
+  /**
+   * (iOS only) The visual stacking order where 0 is at the bottom.
+   * Shared elements are stacked one on top of the other during each transition.
+   * By default they are not ordered in any particular fashion.
+   */
+  zIndex?: number;
+  /**
+   * (iOS only) Collection of properties to match and animate on each shared element.
+   *
+   * Defaults to: {
+   *   view: ['backgroundColor'],
+   *   layer: ['cornerRadius', 'borderWidth', 'borderColor']
+   * }
+   *
+   * Tip: Using an empty array, [], for view or layer will avoid copying any properties if desired.
+   */
+  propertiesToMatch?: {
+    /**
+     * View related properties
+     */
+    view?: Array<string>;
+    /**
+     * specific CALayer related properties
+     */
+    layer?: Array<string>;
+  };
+  /**
+   * (iOS only) Ability to modify other visuals while handling the transition.
+   * Callback will be fired before the shared element is positioned and added to the transition.
+   * For example: scroll a CollectionView based on the element's position
+   */
+  callback?: (view: View, action: SharedTransitionEventAction) => Promise<void>;
+};
+
 type SharedTransitionPageProperties = SharedProperties & {
   /**
    * @ios - only supported on iOS
    * Allow "independent" elements found only on one of the
    * pages to take part in the animation.
    */
-  sharedTransitionTags?: Record<string, SharedProperties>
+  sharedTransitionTags?: Record<string, SharedTransitionTagProperties>
   /**
    * Spring animation settings.
    * Defaults:
