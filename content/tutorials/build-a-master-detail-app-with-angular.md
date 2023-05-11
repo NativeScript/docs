@@ -90,7 +90,7 @@ Let's start with creating the files for our home feature with the following cont
 
 <!-- tab:home.component.html -->
 
-```html
+```xml
 <!-- src/app/features/home/home.component.html -->
 ```
 
@@ -329,7 +329,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `home.component.html` and add the following code:
 
-```html
+```xml
 <!-- src/app/features/home/home.component.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
@@ -363,7 +363,7 @@ export class HomeComponent {
 
 Next, open your `home.component.html` and add the `ListView` component:
 
-```html{6-12}
+```xml{6-12}
 <!-- src/app/features/home/home.component.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
@@ -420,7 +420,7 @@ Before we dive into creating the card below, let's create some classes for our b
 
 As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts. Open your `home.component.html` and add the following:
 
-```html{8-35}
+```xml{8-35}
 <!-- src/app/features/home/home.component.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
@@ -472,7 +472,7 @@ Let's start with creating the files for our details feature with the following c
 
 <!-- tab:details.component.html -->
 
-```html
+```xml
 <!-- src/app/features/details/details.component.html -->
 ```
 
@@ -603,7 +603,7 @@ export class HomeComponent {
 
 Next, let's add the tap event to the listview items. Open `home.component.html` and add the following:
 
-```html{10}
+```xml{10}
 <!-- src/app/features/home/home.component.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
@@ -694,7 +694,7 @@ Let's break down the layout and UI elements of the details page.
 
 The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Angular's `*ngFor` directive to loop through the array and create a UI element or set of elements for each entry in the array. Open `details.component.html` and add the following code:
 
-```html
+```xml
 <!-- src/app/features/details/details.component.html -->
 
 <!-- actionbar -->
@@ -703,25 +703,25 @@ The details page can be divided into three main parts, the action bar with the f
 <ScrollView height="100%">
   <StackLayout>
     <!-- hero image -->
-    <image margin="0" stretch="aspectFill" [src]="flick?.image"></image>
+    <Image margin="0" stretch="aspectFill" [src]="flick?.image"></Image>
 
     <!-- main content -->
     <StackLayout padding="10 20">
       <ng-container *ngFor="let detail of flick?.details">
-        <label
+        <Label
           marginTop="15"
           fontSize="16"
           fontWeight="700"
           class="text-primary"
           textWrap="true"
           [text]="detail.title"
-        ></label>
-        <label
+        ></Label>
+        <Label
           fontSize="14"
           class="text-secondary"
           textWrap="true"
           [text]="detail.body"
-        ></label>
+        ></Label>
       </ng-container>
     </StackLayout>
   </StackLayout>
