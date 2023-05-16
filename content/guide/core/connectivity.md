@@ -1,10 +1,11 @@
 ---
 title: Connectivity
+description: Get the current device network connection type and monitor changes in the connection type.
 ---
 
 The connectivity class abstracts the native API that is responsible for receiving information about the connection type and availability of the network.
 
-## Use Connectivity class
+## How to use the Connectivity class
 
 The following example shows how to use the Connectivity class:
 
