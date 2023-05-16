@@ -1,11 +1,11 @@
 ---
 title: ApplicationSettings
-description: Persist data on the device storage
+description: Persist data locally on the device storage
 ---
 
 The `ApplicationSettings` class allows you to store and retrieve data from the device local storage. ApplicationSettings provides setters and getters for storing and retrieving different data types. Use the appropriate setter to avoid errors.
 
-## Use ApplicationSettings class
+## How to use the ApplicationSettings class
 
 <!-- https://stackblitz.com/edit/nativescript-stackblitz-templates-5ns4cv?file=app/main-view-model.ts -->
 
@@ -17,7 +17,7 @@ To store a string value, use the [setString](#setstring)  method:
 ApplicationSettings.setString("username", "Wolfgang");
 ```
 :::tip :green_circle: Tip
-You can use this method with the `JSON.stringify()`(as shown in the `saveObjectAsString` method in the StackBlitz demo app) to store an object or an array as a string. Then use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
+You can use this method with the `JSON.stringify()`(as shown in the `saveObjectAsString` method in the StackBlitz demo app at the link above) to store an object or an array as a string. Then, use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
 :::
 
 ### Store a boolean value
