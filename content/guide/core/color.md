@@ -1,5 +1,6 @@
 ---
 title: Color
+description: Create a color object with any color representation and use it in your NativeScript apps.
 ---
 
 This class allows you to create a color object with all color components(alpha, red, green, blue in the [0, 255] range) from different types of color representations such as, ARGB, color name, hex, etc. The properties `ios` and `android` of an instance of this class provide the color object for the respective native platform.
