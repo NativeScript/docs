@@ -2,9 +2,11 @@
 title: Observable
 ---
 
-Observable is used when you want to be notified when a change occurs. Its instance is set to the `bindingContext` of a `Page` or a layout container to drive [data binding]() in NativeScript. 
+The Observable class is what drives data binding in NativeScript. To bind the UI to the ViewModel, an instance of Observable is set to the `bindingContext` property of a `Page` or a layout container to drive [data binding]() in NativeScript. 
 
-## Using Observable
+## How to use Observable
+
+The sections below show you the different ways you can use the Observable class.
 
 ### Creating an Observable instance by subclassing
 
@@ -37,12 +39,12 @@ export class HelloWorldModel extends Observable {
 }
 ```
 
-You can also use the [fromObject](#fromobject) or [fromObjectRecursive](#fromobjectrecursive) function create an Observable instance.
+You can also use the [fromObject](#fromobject) or [fromObjectRecursive](#fromobjectrecursive) function to create an Observable instance.
 
 
 ### Emitting an event
 
-To emit a custom event call the [notify()](#notify) method:
+To emit a custom event, call the [notify()](#notify) method on the Observable instance:
 
 ```ts
 observable.notify({
@@ -61,6 +63,7 @@ this.notifyPropertyChange("fruits", this.fruits)
 ```
 
 ### Avoiding Event Handler Memory Leak
+
 To ensure that your app doesn't have memory leak caused by handlers that are no longer needed, use the [addWeakEventListener()](#addweakeventlistener) function:
 
 <!-- TODO: Add a working example -->
