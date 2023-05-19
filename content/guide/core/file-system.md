@@ -237,7 +237,7 @@ file
 
  ### Normalizing a path
 
- To normalize a path use the `normalize` or create it with the `join` method from the [path](#path-operations) object:
+ To normalize a path use the `normalize` or create the path with the `join` method from the [path](#path-operations) object:
 
 ```ts
 const testPath = '///test.txt'
@@ -263,7 +263,16 @@ Gets the Documents folder available for the current application. This Folder is 
 const folder: Folder = knownFolders.externalDocuments()
 ```
 
-Gets the Documents folder available for the current application on an external storage. This Folder is private for the application and not accessible from Users/External apps. On android this requires `READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE` permissions. There is no external storage on iOS os it is the same as [documents()](#documents).
+Gets the Documents folder available for the current application from an external storage source. This folder has private access, with availability limited to the application, meaning it is not accessible to outside users, bots or external apps.
+
+- On Android, for such read or write access, the flags `READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE` permissions need to be set to true. This can be done by adding the following XML code to the `AndroidManifest.xml` file:
+
+```xml
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+```
+
+- There is no external storage on iOS, it is the same as [documents()](#documents).
 
 ---  
 
