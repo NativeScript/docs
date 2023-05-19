@@ -1,12 +1,15 @@
 ---
 title: ImagaSource
+description: Create an instance from different sources.
 ---
 
 The ImagaSource class encapsulates the common abstraction over a platform-specific ([android.graphics.Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html) for Android and [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class) for iOS) image object, allowing you to create an image source from sources such as URL, local file, base64 string, etc.
 <!-- TODO: add links -->
 <!-- TODO: add Preview -->
 
-## Use ImageSource class
+## How to use the ImageSource class
+
+The following sections demonstrate how to create an ImageSource instance from different sources.
 
 ### Load an image using a resource name
 
