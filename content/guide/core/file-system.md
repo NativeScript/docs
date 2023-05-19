@@ -177,7 +177,7 @@ file.rename("new-name.ext").then((value)=>{
 
 ### Saving a binary data to a file
 <!-- TODO: binary data example -->
-To save binary data to a file, use the `write` or `writeSync` method:
+To save binary data to a file, use either the `write` or `writeSync` method:
 
 ```ts
 file
