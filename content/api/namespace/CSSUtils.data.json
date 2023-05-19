@@ -1,0 +1,269 @@
+{
+  "title": "CSSUtils",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        1370,
+        1371,
+        1372
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        1360,
+        1362,
+        1352,
+        1364,
+        1354,
+        1367,
+        1357
+      ]
+    }
+  ],
+  "reflections": {
+    "1352": {
+      "name": "getSystemCssClasses",
+      "type": "Function",
+      "url": "/api/namespace/CSSUtils#getsystemcssclasses",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getSystemCssClasses(): string[]",
+          "url": "/api/namespace/CSSUtils#getsystemcssclasses-getsystemcssclasses-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 5,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "string[]"
+        }
+      ]
+    },
+    "1354": {
+      "name": "pushToSystemCssClasses",
+      "type": "Function",
+      "url": "/api/namespace/CSSUtils#pushtosystemcssclasses",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "pushToSystemCssClasses(value: string): number",
+          "url": "/api/namespace/CSSUtils#pushtosystemcssclasses-pushtosystemcssclasses-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 6,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "1357": {
+      "name": "removeSystemCssClass",
+      "type": "Function",
+      "url": "/api/namespace/CSSUtils#removesystemcssclass",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeSystemCssClass(value: string): string",
+          "url": "/api/namespace/CSSUtils#removesystemcssclass-removesystemcssclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 7,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "1360": {
+      "name": "getModalRootViewCssClass",
+      "type": "Function",
+      "url": "/api/namespace/CSSUtils#getmodalrootviewcssclass",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getModalRootViewCssClass(): string",
+          "url": "/api/namespace/CSSUtils#getmodalrootviewcssclass-getmodalrootviewcssclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 8,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "1362": {
+      "name": "getRootViewCssClasses",
+      "type": "Function",
+      "url": "/api/namespace/CSSUtils#getrootviewcssclasses",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getRootViewCssClasses(): string[]",
+          "url": "/api/namespace/CSSUtils#getrootviewcssclasses-getrootviewcssclasses-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "string[]"
+        }
+      ]
+    },
+    "1364": {
+      "name": "pushToRootViewCssClasses",
+      "type": "Function",
+      "url": "/api/namespace/CSSUtils#pushtorootviewcssclasses",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "pushToRootViewCssClasses(value: string): number",
+          "url": "/api/namespace/CSSUtils#pushtorootviewcssclasses-pushtorootviewcssclasses-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 10,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "1367": {
+      "name": "removeFromRootViewCssClasses",
+      "type": "Function",
+      "url": "/api/namespace/CSSUtils#removefromrootviewcssclasses",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeFromRootViewCssClasses(value: string): string",
+          "url": "/api/namespace/CSSUtils#removefromrootviewcssclasses-removefromrootviewcssclasses-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 11,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "1370": {
+      "name": "CLASS_PREFIX",
+      "type": "Variable",
+      "url": "/api/namespace/CSSUtils#class-prefix",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "CLASS_PREFIX: \"ns-\" = \"ns-\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 2,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/CSSUtils#class-prefix"
+        }
+      ]
+    },
+    "1371": {
+      "name": "MODAL_ROOT_VIEW_CSS_CLASS",
+      "type": "Variable",
+      "url": "/api/namespace/CSSUtils#modal-root-view-css-class",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "MODAL_ROOT_VIEW_CSS_CLASS: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 3,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/CSSUtils#modal-root-view-css-class"
+        }
+      ]
+    },
+    "1372": {
+      "name": "ROOT_VIEW_CSS_CLASS",
+      "type": "Variable",
+      "url": "/api/namespace/CSSUtils#root-view-css-class",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "ROOT_VIEW_CSS_CLASS: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/css/system-classes.d.ts",
+              "line": 4,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/CSSUtils#root-view-css-class"
+        }
+      ]
+    }
+  }
+}

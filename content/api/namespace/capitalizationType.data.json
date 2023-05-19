@@ -1,0 +1,165 @@
+{
+  "title": "capitalizationType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        10119,
+        10118,
+        10120,
+        10121
+      ]
+    }
+  ],
+  "reflections": {
+    "10118": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/capitalizationType#none",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "No automatic capitalization."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "none: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 44,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "No automatic capitalization."
+              }
+            ]
+          },
+          "url": "/api/namespace/capitalizationType#none"
+        }
+      ]
+    },
+    "10119": {
+      "name": "all",
+      "type": "Variable",
+      "url": "/api/namespace/capitalizationType#all",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Capitalizes every character."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "all: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 49,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Capitalizes every character."
+              }
+            ]
+          },
+          "url": "/api/namespace/capitalizationType#all"
+        }
+      ]
+    },
+    "10120": {
+      "name": "sentences",
+      "type": "Variable",
+      "url": "/api/namespace/capitalizationType#sentences",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Capitalize the first word of each sentence."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "sentences: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 54,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Capitalize the first word of each sentence."
+              }
+            ]
+          },
+          "url": "/api/namespace/capitalizationType#sentences"
+        }
+      ]
+    },
+    "10121": {
+      "name": "words",
+      "type": "Variable",
+      "url": "/api/namespace/capitalizationType#words",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Capitalize the first letter of every word."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "words: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 59,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Capitalize the first letter of every word."
+              }
+            ]
+          },
+          "url": "/api/namespace/capitalizationType#words"
+        }
+      ]
+    }
+  }
+}
