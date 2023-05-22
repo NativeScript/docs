@@ -19,7 +19,7 @@ export const textProperty = new Property<MyButtonBase, string>({
     affectsLayout: true
 })
 ```
-Then register the property using the Property's instance [register()](#register) method:
+Then register the property with the desired class:
 
 ```ts
 textProperty.register(MyButtonBase);
