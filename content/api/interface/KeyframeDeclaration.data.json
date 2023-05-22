@@ -1,0 +1,59 @@
+{
+  "title": "KeyframeDeclaration",
+  "hierarchy": [
+    [
+      {
+        "text": "KeyframeDeclaration"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        5004,
+        5005
+      ]
+    }
+  ],
+  "reflections": {
+    "5004": {
+      "name": "property",
+      "type": "Property",
+      "url": "/api/interface/KeyframeDeclaration#property",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "property: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeDeclaration#property"
+        }
+      ]
+    },
+    "5005": {
+      "name": "value",
+      "type": "Property",
+      "url": "/api/interface/KeyframeDeclaration#value",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "value: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 33,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeDeclaration#value"
+        }
+      ]
+    }
+  }
+}

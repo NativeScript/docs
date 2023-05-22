@@ -1,0 +1,1099 @@
+{
+  "title": "File",
+  "hierarchy": [
+    [
+      {
+        "text": "FileSystemEntity",
+        "link": "/api/class/FileSystemEntity"
+      }
+    ],
+    [
+      {
+        "text": "File"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1934
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1936,
+        1938,
+        1979,
+        1980,
+        1982,
+        1981,
+        1937
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1928,
+        1931,
+        1949,
+        1951,
+        1939,
+        1942,
+        1983,
+        1985,
+        1991,
+        1994,
+        1969,
+        1972,
+        1957,
+        1961
+      ]
+    }
+  ],
+  "reflections": {
+    "1928": {
+      "name": "exists",
+      "type": "Method",
+      "url": "/api/class/File#exists",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "exists(path: string): boolean",
+          "url": "/api/class/File#exists-exists-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 66,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a File with the specified path already exists."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1931": {
+      "name": "fromPath",
+      "type": "Method",
+      "url": "/api/class/File#frompath",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "fromPath(path: string): <a href=\"/api/class/File\">File</a>",
+          "url": "/api/class/File#frompath-frompath-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 87,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or creates a File entity at the specified path."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path to get/create the file at."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/File\">File</a>"
+        }
+      ]
+    },
+    "1934": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/File#constructor",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "constructor",
+        "url": "/api/class/FileSystemEntity#constructor",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new File(): <a href=\"/api/class/File\">File</a>",
+          "url": "/api/class/File#constructor-new-file",
+          "inheritedFrom": {
+            "name": "constructor",
+            "url": "/api/class/FileSystemEntity#constructor",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/File\">File</a>"
+        }
+      ]
+    },
+    "1936": {
+      "name": "extension",
+      "type": "Property",
+      "url": "/api/class/File#extension",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the extension of the file."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "extension: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 71,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the extension of the file."
+              }
+            ]
+          },
+          "url": "/api/class/File#extension"
+        }
+      ]
+    },
+    "1937": {
+      "name": "size",
+      "type": "Property",
+      "url": "/api/class/File#size",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the size in bytes of the file."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "size: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 76,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the size in bytes of the file."
+              }
+            ]
+          },
+          "url": "/api/class/File#size"
+        }
+      ]
+    },
+    "1938": {
+      "name": "isLocked",
+      "type": "Property",
+      "url": "/api/class/File#islocked",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets a value indicating whether the file is currently locked, meaning a background operation associated with this file is running."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isLocked: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 81,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets a value indicating whether the file is currently locked, meaning a background operation associated with this file is running."
+              }
+            ]
+          },
+          "url": "/api/class/File#islocked"
+        }
+      ]
+    },
+    "1939": {
+      "name": "readText",
+      "type": "Method",
+      "url": "/api/class/File#readtext",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "readText(encoding?: string): Promise&lt;string&gt;",
+          "url": "/api/class/File#readtext-readtext-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 93,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Reads the content of the file as a string using the specified encoding (defaults to UTF-8)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "encoding",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value specifying the preferred encoding (defaults to UTF-8)."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;string&gt;"
+        }
+      ]
+    },
+    "1942": {
+      "name": "readTextSync",
+      "type": "Method",
+      "url": "/api/class/File#readtextsync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "readTextSync(onError?: (error: any) => any, encoding?: string): string",
+          "url": "/api/class/File#readtextsync-readtextsync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 100,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Reads the content of the file as a string synchronously, using the specified encoding (defaults to UTF-8)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some IO-error occurs."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "encoding",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value specifying the preferred encoding (defaults to UTF-8)."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "1949": {
+      "name": "read",
+      "type": "Method",
+      "url": "/api/class/File#read",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "read(): Promise&lt;any&gt;",
+          "url": "/api/class/File#read-read-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 105,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Reads the binary content of the file asynchronously."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1951": {
+      "name": "readSync",
+      "type": "Method",
+      "url": "/api/class/File#readsync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "readSync(onError?: (error: any) => any): any",
+          "url": "/api/class/File#readsync-readsync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 111,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Reads the binary content of the file synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some IO-error occurs."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1957": {
+      "name": "writeText",
+      "type": "Method",
+      "url": "/api/class/File#writetext",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "writeText(content: string, encoding?: string): Promise&lt;any&gt;",
+          "url": "/api/class/File#writetext-writetext-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 118,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Writes the provided string to the file, using the specified encoding (defaults to UTF-8)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The content to be saved to the file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "encoding",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value specifying the preferred encoding (defaults to UTF-8)."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1961": {
+      "name": "writeTextSync",
+      "type": "Method",
+      "url": "/api/class/File#writetextsync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "writeTextSync(\n  content: string,\n  onError?: (error: any) => any,\n  encoding?: string\n): void",
+          "url": "/api/class/File#writetextsync-writetextsync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 126,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Writes the provided string to the file synchronously, using the specified encoding (defaults to UTF-8)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The content to be saved to the file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some IO-error occurs."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "encoding",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value specifying the preferred encoding (defaults to UTF-8)."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1969": {
+      "name": "write",
+      "type": "Method",
+      "url": "/api/class/File#write",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "write(content: any): Promise&lt;void&gt;",
+          "url": "/api/class/File#write-write-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 132,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Writes the provided binary content to the file."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The binary content to be saved to the file."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;void&gt;"
+        }
+      ]
+    },
+    "1972": {
+      "name": "writeSync",
+      "type": "Method",
+      "url": "/api/class/File#writesync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "writeSync(content: any, onError?: (error: any) => any): void",
+          "url": "/api/class/File#writesync-writesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 139,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Writes the provided binary content to the file synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The binary content to be saved to the file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some IO-error occurs."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1979": {
+      "name": "lastModified",
+      "type": "Property",
+      "url": "/api/class/File#lastmodified",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Date object specifying the last time this entity was modified."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "lastModified",
+        "url": "/api/class/FileSystemEntity#lastmodified",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "lastModified: Date",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 16,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "lastModified",
+            "url": "/api/class/FileSystemEntity#lastmodified",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Date object specifying the last time this entity was modified."
+              }
+            ]
+          },
+          "url": "/api/class/File#lastmodified"
+        }
+      ]
+    },
+    "1980": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/File#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the name of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "name",
+        "url": "/api/class/FileSystemEntity#name",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 21,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "name",
+            "url": "/api/class/FileSystemEntity#name",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/File#name"
+        }
+      ]
+    },
+    "1981": {
+      "name": "path",
+      "type": "Property",
+      "url": "/api/class/File#path",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "path",
+        "url": "/api/class/FileSystemEntity#path",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "path: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 26,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "path",
+            "url": "/api/class/FileSystemEntity#path",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/File#path"
+        }
+      ]
+    },
+    "1982": {
+      "name": "parent",
+      "type": "Property",
+      "url": "/api/class/File#parent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "parent",
+        "url": "/api/class/FileSystemEntity#parent",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "parent: <a href=\"/api/class/Folder\">Folder</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 33,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "parent",
+            "url": "/api/class/FileSystemEntity#parent",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+              }
+            ]
+          },
+          "url": "/api/class/File#parent"
+        }
+      ]
+    },
+    "1983": {
+      "name": "remove",
+      "type": "Method",
+      "url": "/api/class/File#remove",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "remove",
+        "url": "/api/class/FileSystemEntity#remove",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "remove(): Promise&lt;any&gt;",
+          "url": "/api/class/File#remove-remove-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 38,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "remove",
+            "url": "/api/class/FileSystemEntity#remove",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1985": {
+      "name": "removeSync",
+      "type": "Method",
+      "url": "/api/class/File#removesync",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "removeSync",
+        "url": "/api/class/FileSystemEntity#removesync",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeSync(onError?: (error: any) => any): void",
+          "url": "/api/class/File#removesync-removesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 43,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeSync",
+            "url": "/api/class/FileSystemEntity#removesync",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1991": {
+      "name": "rename",
+      "type": "Method",
+      "url": "/api/class/File#rename",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "rename",
+        "url": "/api/class/FileSystemEntity#rename",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "rename(newName: string): Promise&lt;any&gt;",
+          "url": "/api/class/File#rename-rename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 49,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "rename",
+            "url": "/api/class/FileSystemEntity#rename",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1994": {
+      "name": "renameSync",
+      "type": "Method",
+      "url": "/api/class/File#renamesync",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "renameSync",
+        "url": "/api/class/FileSystemEntity#renamesync",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "renameSync(newName: string, onError?: (error: any) => any): void",
+          "url": "/api/class/File#renamesync-renamesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 55,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "renameSync",
+            "url": "/api/class/FileSystemEntity#renamesync",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity synchronously, using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

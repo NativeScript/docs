@@ -1,0 +1,193 @@
+{
+  "title": "DownloadError",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "DownloadError"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        12753,
+        12754,
+        12752,
+        12755
+      ]
+    }
+  ],
+  "reflections": {
+    "12752": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/interface/DownloadError#key",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A string indentifier of the cached image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "key: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 138,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A string indentifier of the cached image."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadError#key"
+        }
+      ]
+    },
+    "12753": {
+      "name": "error",
+      "type": "Property",
+      "url": "/api/interface/DownloadError#error",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the error."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "error: Error",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 142,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the error."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadError#error"
+        }
+      ]
+    },
+    "12754": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/DownloadError#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadError#eventname"
+        }
+      ]
+    },
+    "12755": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/DownloadError#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadError#object"
+        }
+      ]
+    }
+  }
+}
