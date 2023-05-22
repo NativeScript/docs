@@ -9,7 +9,7 @@ NativeScript provides a basic property system via the `Property` class, which is
 ## Using Property
 
 ### Adding a new property to a View instance
-To add a new property to a View class instance, instatiate the Property class with a [PropertyOptions](#propertyoptions-interface) object.
+Add new properties by creating a new `Property` with desired [options](#propertyoptions-interface).
 
 ```ts
 class MyButtonBase extends Button{}
