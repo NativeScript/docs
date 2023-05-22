@@ -24,7 +24,7 @@ Then register the property with the desired class:
 ```ts
 textProperty.register(MyButtonBase);
 ```
-To apply the JS value to the exposed native view, call the [setNative]() method on the property instance.
+To apply the JS value to the exposed native view, call the `setNative` method on the property instance.
 
 ```ts
 [textProperty.setNative](value: string) {
