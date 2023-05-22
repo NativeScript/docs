@@ -14,7 +14,7 @@ Add new properties by creating a new `Property` with desired [options](#property
 ```ts
 class MyButtonBase extends Button{}
 export const textProperty = new Property<MyButtonBase, string>({
-    name: "texty",
+    name: "text",
     defaultValue: "",
     affectsLayout: true
 })
