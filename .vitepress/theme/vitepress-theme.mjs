@@ -5650,7 +5650,7 @@ const df = {
   }),
   vf = {
     class:
-      'sticky top-0 z-10 border-b bg-gray-50 px-4 py-2 dark:border-white/10 dark:bg-gray-900 lg:hidden',
+      'sticky top-0 dark:-top-px z-10 border-b dark:border-t bg-gray-50 px-4 py-2 dark:border-white/10 dark:bg-gray-900 lg:hidden',
   },
   gf = /* @__PURE__ */ h('span', { class: 'ml-2 text-xs' }, 'Menu', -1),
   _f = { class: 'fixed inset-0 overflow-hidden' },
@@ -5722,10 +5722,10 @@ const df = {
                           as: 'div',
                           class:
                             'fixed inset-0 bg-gray-200/80 dark:bg-gray-900/70',
-                          enter: 'transition-opacity ease-in-out duration-500',
+                          enter: 'transition-opacity ease-in-out duration-300',
                           'enter-from': 'opacity-0',
                           'enter-to': 'opacity-100',
-                          leave: 'transition-opacity ease-in-out duration-500',
+                          leave: 'transition-opacity ease-in-out duration-300',
                           'leave-from': 'opacity-100',
                           'leave-to': 'opacity-0',
                         }),
@@ -5737,11 +5737,11 @@ const df = {
                                 {
                                   as: 'template',
                                   enter:
-                                    'transform transition ease-in-out duration-500',
+                                    'transform transition ease-in-out duration-300',
                                   'enter-from': '-translate-x-full',
                                   'enter-to': 'translate-x-0',
                                   leave:
-                                    'transform transition ease-in-out duration-500',
+                                    'transform transition ease-in-out duration-300',
                                   'leave-from': 'translate-x-0',
                                   'leave-to': '-translate-x-full',
                                 },
