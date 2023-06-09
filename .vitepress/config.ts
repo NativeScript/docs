@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 import "./theme/cliLanguage";
 
 import nav from "./nav";
+import apiSidebar from "../content/api/sidebar.json";
 import mainSidebar from "../content/sidebar";
 
 export default defineConfig({
@@ -27,6 +28,7 @@ export default defineConfig({
     },
     nav,
     sidebar: {
+      "/ap": apiSidebar,
       "/": mainSidebar,
     },
   },

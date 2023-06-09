@@ -1,0 +1,127 @@
+{
+  "title": "LoginResult",
+  "hierarchy": [
+    [
+      {
+        "text": "LoginResult"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        10169,
+        10167,
+        10168
+      ]
+    }
+  ],
+  "reflections": {
+    "10167": {
+      "name": "result",
+      "type": "Property",
+      "url": "/api/interface/LoginResult#result",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the login dialog boolean result."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "result: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 289,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the login dialog boolean result."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginResult#result"
+        }
+      ]
+    },
+    "10168": {
+      "name": "userName",
+      "type": "Property",
+      "url": "/api/interface/LoginResult#username",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the user entered in the login dialog."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "userName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 294,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the user entered in the login dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginResult#username"
+        }
+      ]
+    },
+    "10169": {
+      "name": "password",
+      "type": "Property",
+      "url": "/api/interface/LoginResult#password",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the password entered in the login dialog."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "password: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 299,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the password entered in the login dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginResult#password"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "CacheMode",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        22428,
+        22427,
+        22426
+      ]
+    }
+  ],
+  "reflections": {
+    "22426": {
+      "name": "none",
+      "type": "EnumMember",
+      "url": "/api/enum/CacheMode#none",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "none: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/CacheMode#none"
+        }
+      ]
+    },
+    "22427": {
+      "name": "memory",
+      "type": "EnumMember",
+      "url": "/api/enum/CacheMode#memory",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "memory: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/CacheMode#memory"
+        }
+      ]
+    },
+    "22428": {
+      "name": "diskAndMemory",
+      "type": "EnumMember",
+      "url": "/api/enum/CacheMode#diskandmemory",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "diskAndMemory: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/CacheMode#diskandmemory"
+        }
+      ]
+    }
+  }
+}

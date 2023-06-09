@@ -1,0 +1,91 @@
+{
+  "title": "Size",
+  "hierarchy": [
+    [
+      {
+        "text": "Size"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        9061,
+        9060
+      ]
+    }
+  ],
+  "reflections": {
+    "9060": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/Size#width",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Represents the width of the size."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "width: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 75,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Represents the width of the size."
+              }
+            ]
+          },
+          "url": "/api/interface/Size#width"
+        }
+      ]
+    },
+    "9061": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/Size#height",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Represents the height of the size."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "height: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 80,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Represents the height of the size."
+              }
+            ]
+          },
+          "url": "/api/interface/Size#height"
+        }
+      ]
+    }
+  }
+}
