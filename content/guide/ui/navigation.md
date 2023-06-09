@@ -9,7 +9,8 @@ Navigation in NativeScript is enabled by the `Frame` class.
 ## Using Frame
 
 ### Navigating to another page
-To navigate to a page, first get the desired Frame instance. Then  for a simple navigation, call the instance's [navigate()](#navigate) method passing it the path of the page to navigate to.
+For page navigation, first obtain the desired Frame instance.
+For a simple navigation, call the instance's navigate() method, with a string argument consisting of the desired path to navigate to.
 ```ts
 frame.navigate("~/pages/details/details-page")
 ```
