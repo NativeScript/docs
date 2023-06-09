@@ -21,7 +21,7 @@ For a complete navigation example, have a look at [Setup navigation from home to
 
 ### Getting a Frame instance
 
-The following are some of the ways to obtain an instance of the Frame class:
+The following are some of the ways in which to obtain an instance of the Frame class:
 
 - `Frame.topmost()` returns the top Frame in the frames stack.
 ```ts
