@@ -175,7 +175,7 @@ This method has the following overloads:
 ```ts
 frame.goBack(to)
 ```
-Navigates back using the navigation hierarchy (if any). Updates the Frame stack as needed. This method will start from the topmost Frame and will recursively search for an instance that has the [canGoBack](#cangoback) operation available. 
+Navigates back using the navigation hierarchy, contained within a Frame stack where the top value is popped.
 - _Optional_ `to`: The back stack entry object for where to navigate back to. The object has the following properties:
 
 - `entry`(type: [NavigationEntry](#navigation-entry-interface))
