@@ -1,0 +1,269 @@
+{
+  "title": "AlertOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "DialogOptions",
+        "link": "/api/interface/DialogOptions"
+      }
+    ],
+    [
+      {
+        "text": "AlertOptions"
+      }
+    ],
+    [
+      {
+        "text": "ConfirmOptions",
+        "link": "/api/interface/ConfirmOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        10134,
+        10133,
+        10131,
+        10135,
+        10132
+      ]
+    }
+  ],
+  "reflections": {
+    "10131": {
+      "name": "okButtonText",
+      "type": "Property",
+      "url": "/api/interface/AlertOptions#okbuttontext",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the OK button text."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "okButtonText?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 204,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the OK button text."
+              }
+            ]
+          },
+          "url": "/api/interface/AlertOptions#okbuttontext"
+        }
+      ]
+    },
+    "10132": {
+      "name": "title",
+      "type": "Property",
+      "url": "/api/interface/AlertOptions#title",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog title."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "title",
+        "url": "/api/interface/DialogOptions#title",
+        "fromName": "DialogOptions",
+        "fromUrl": "/api/interface/DialogOptions"
+      },
+      "signatures": [
+        {
+          "code": "title?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 189,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "title",
+            "url": "/api/interface/DialogOptions#title",
+            "fromName": "DialogOptions",
+            "fromUrl": "/api/interface/DialogOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog title."
+              }
+            ]
+          },
+          "url": "/api/interface/AlertOptions#title"
+        }
+      ]
+    },
+    "10133": {
+      "name": "message",
+      "type": "Property",
+      "url": "/api/interface/AlertOptions#message",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog message."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "message",
+        "url": "/api/interface/DialogOptions#message",
+        "fromName": "DialogOptions",
+        "fromUrl": "/api/interface/DialogOptions"
+      },
+      "signatures": [
+        {
+          "code": "message?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 194,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "message",
+            "url": "/api/interface/DialogOptions#message",
+            "fromName": "DialogOptions",
+            "fromUrl": "/api/interface/DialogOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog message."
+              }
+            ]
+          },
+          "url": "/api/interface/AlertOptions#message"
+        }
+      ]
+    },
+    "10134": {
+      "name": "cancelable",
+      "type": "Property",
+      "url": "/api/interface/AlertOptions#cancelable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "cancelable",
+        "url": "/api/interface/CancelableOptions#cancelable",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "cancelable?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 144,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "cancelable",
+            "url": "/api/interface/CancelableOptions#cancelable",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/AlertOptions#cancelable"
+        }
+      ]
+    },
+    "10135": {
+      "name": "theme",
+      "type": "Property",
+      "url": "/api/interface/AlertOptions#theme",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "theme",
+        "url": "/api/interface/CancelableOptions#theme",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "theme?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 149,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "theme",
+            "url": "/api/interface/CancelableOptions#theme",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+              }
+            ]
+          },
+          "url": "/api/interface/AlertOptions#theme"
+        }
+      ]
+    }
+  }
+}

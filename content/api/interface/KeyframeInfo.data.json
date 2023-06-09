@@ -1,0 +1,81 @@
+{
+  "title": "KeyframeInfo",
+  "hierarchy": [
+    [
+      {
+        "text": "KeyframeInfo"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        5009,
+        5008,
+        5007
+      ]
+    }
+  ],
+  "reflections": {
+    "5007": {
+      "name": "duration",
+      "type": "Property",
+      "url": "/api/interface/KeyframeInfo#duration",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "duration: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 37,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeInfo#duration"
+        }
+      ]
+    },
+    "5008": {
+      "name": "declarations",
+      "type": "Property",
+      "url": "/api/interface/KeyframeInfo#declarations",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "declarations: <a href=\"/api/interface/KeyframeDeclaration\">KeyframeDeclaration</a>[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 38,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeInfo#declarations"
+        }
+      ]
+    },
+    "5009": {
+      "name": "curve",
+      "type": "Property",
+      "url": "/api/interface/KeyframeInfo#curve",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "curve?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 39,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeInfo#curve"
+        }
+      ]
+    }
+  }
+}

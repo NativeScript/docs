@@ -1,0 +1,127 @@
+{
+  "title": "TextDecoration",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2708,
+        2706,
+        2707
+      ]
+    }
+  ],
+  "reflections": {
+    "2706": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextDecoration#none",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "No decoration."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "none: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 490,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "No decoration."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-TextDecoration#none"
+        }
+      ]
+    },
+    "2707": {
+      "name": "underline",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextDecoration#underline",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Text decoration underline."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "underline: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 495,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Text decoration underline."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-TextDecoration#underline"
+        }
+      ]
+    },
+    "2708": {
+      "name": "lineThrough",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextDecoration#linethrough",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Text decoration line-through."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "lineThrough: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 500,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Text decoration line-through."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-TextDecoration#linethrough"
+        }
+      ]
+    }
+  }
+}

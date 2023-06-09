@@ -1,0 +1,299 @@
+{
+  "title": "CommonLayoutParams",
+  "hierarchy": [
+    [
+      {
+        "text": "CommonLayoutParams"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        22755,
+        22759,
+        22749,
+        22751,
+        22760,
+        22752,
+        22756,
+        22754,
+        22758,
+        22753,
+        22757,
+        22761,
+        22748,
+        22750
+      ]
+    }
+  ],
+  "reflections": {
+    "22748": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#width",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "width: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#width"
+        }
+      ]
+    },
+    "22749": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#height",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "height: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 14,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#height"
+        }
+      ]
+    },
+    "22750": {
+      "name": "widthPercent",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#widthpercent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "widthPercent: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 15,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#widthpercent"
+        }
+      ]
+    },
+    "22751": {
+      "name": "heightPercent",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#heightpercent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "heightPercent: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 16,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#heightpercent"
+        }
+      ]
+    },
+    "22752": {
+      "name": "leftMargin",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#leftmargin",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "leftMargin: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 17,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#leftmargin"
+        }
+      ]
+    },
+    "22753": {
+      "name": "topMargin",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#topmargin",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "topMargin: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 18,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#topmargin"
+        }
+      ]
+    },
+    "22754": {
+      "name": "rightMargin",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#rightmargin",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "rightMargin: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 19,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#rightmargin"
+        }
+      ]
+    },
+    "22755": {
+      "name": "bottomMargin",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#bottommargin",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "bottomMargin: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 20,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#bottommargin"
+        }
+      ]
+    },
+    "22756": {
+      "name": "leftMarginPercent",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#leftmarginpercent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "leftMarginPercent: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 21,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#leftmarginpercent"
+        }
+      ]
+    },
+    "22757": {
+      "name": "topMarginPercent",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#topmarginpercent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "topMarginPercent: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 22,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#topmarginpercent"
+        }
+      ]
+    },
+    "22758": {
+      "name": "rightMarginPercent",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#rightmarginpercent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "rightMarginPercent: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 23,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#rightmarginpercent"
+        }
+      ]
+    },
+    "22759": {
+      "name": "bottomMarginPercent",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#bottommarginpercent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "bottomMarginPercent: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 24,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#bottommarginpercent"
+        }
+      ]
+    },
+    "22760": {
+      "name": "horizontalAlignment",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#horizontalalignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "horizontalAlignment: <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 25,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#horizontalalignment"
+        }
+      ]
+    },
+    "22761": {
+      "name": "verticalAlignment",
+      "type": "Property",
+      "url": "/api/interface/CommonLayoutParams#verticalalignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "verticalAlignment: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 26,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/CommonLayoutParams#verticalalignment"
+        }
+      ]
+    }
+  }
+}
