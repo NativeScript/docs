@@ -2,15 +2,15 @@
 title: Device
 ---
 
-This class allows you to get information about the current device, such the name of the os, manufacturer, etc.
+The `Device` class (singleton) contains information about the current device, such as `os`, `manufacturer`, `uuid` and more.
 
 
 ## Using the Device class
 
 To use the Device class, import it from `@nativescript/core`.
+
 ```ts
 import { Device } from '@nativescript/core'
-```
 
 ### Getting the device type
 
@@ -25,7 +25,7 @@ const deviceType: string = Device.deviceType // Phone
 The device manufacturer is accessed using the [manufacturer](#manufacturer) property.
 
 ```ts
-const manufacturer: string = Device.manufacturer //"Samsung"
+const manufacturer: string = Device.manufacturer // "Samsung"
 ```
 
 ### Getting the device model
@@ -72,7 +72,7 @@ const sdkVersion: string = Device.sdkVersion // 33
 To access the device's universally unique identifier(uuid), use the [uuid](#uuid) property:
 
 ```ts
-const uuid: string = Device.uuid //cb83c3347392bfe2
+const uuid: string = Device.uuid // cb83c3347392bfe2
 ```
 
 ## Device API
@@ -121,7 +121,11 @@ Gets the SDK version.
 ---
 ### uuid
 
-Gets the uuid(Universal Unique Identifier) for the device. If you need to receive the same uuid even after the application re-install, consider using a plugin that handles this.
+Gets the <abbr title="Universal Unique Identifier">uuid</abbr> for the device.
+
+::: info Note
+If you need to receive the same uuid after the application is re-installed, consider using a plugin instead.
+:::
 
 ---
 
