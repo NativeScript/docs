@@ -47,7 +47,7 @@ To get an image from the cache, use the [get()]() method.
 
 ```ts
 const cachedImage = this.imageCache.get("cat")
-if(cacheImage) notifyProperpyChange("imageSource", cachedImage)
+// cachedImage for use
 ```
 
 ## ImageCache API
