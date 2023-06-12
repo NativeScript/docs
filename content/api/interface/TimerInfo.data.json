@@ -1,0 +1,59 @@
+{
+  "title": "TimerInfo",
+  "hierarchy": [
+    [
+      {
+        "text": "TimerInfo"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2490,
+        2489
+      ]
+    }
+  ],
+  "reflections": {
+    "2489": {
+      "name": "totalTime",
+      "type": "Property",
+      "url": "/api/interface/TimerInfo#totaltime",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "totalTime: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/profiling/index.d.ts",
+              "line": 7,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/TimerInfo#totaltime"
+        }
+      ]
+    },
+    "2490": {
+      "name": "count",
+      "type": "Property",
+      "url": "/api/interface/TimerInfo#count",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "count: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/profiling/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/TimerInfo#count"
+        }
+      ]
+    }
+  }
+}

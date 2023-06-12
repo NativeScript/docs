@@ -1,0 +1,177 @@
+{
+  "title": "Visibility",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2656,
+        2657,
+        2658,
+        2655
+      ]
+    }
+  ],
+  "reflections": {
+    "2655": {
+      "name": "visible",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#visible",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The view is visible."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "visible: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 262,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The view is visible."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Visibility#visible"
+        }
+      ]
+    },
+    "2656": {
+      "name": "collapse",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#collapse",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The view is not visible and won't take place in the layout."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "collapse: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 267,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The view is not visible and won't take place in the layout."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Visibility#collapse"
+        }
+      ]
+    },
+    "2657": {
+      "name": "collapsed",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#collapsed",
+      "comment": {
+        "summary": [],
+        "blockTags": [
+          {
+            "tag": "@deprecated",
+            "content": [
+              {
+                "kind": "text",
+                "text": "Use collapse instead"
+              }
+            ]
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "collapsed: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 272,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Use collapse instead"
+                  }
+                ]
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Visibility#collapsed"
+        }
+      ]
+    },
+    "2658": {
+      "name": "hidden",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#hidden",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The view is not visible but will take place in the layout."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "hidden: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 277,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The view is not visible but will take place in the layout."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Visibility#hidden"
+        }
+      ]
+    }
+  }
+}

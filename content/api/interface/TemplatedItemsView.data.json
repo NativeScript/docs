@@ -1,0 +1,191 @@
+{
+  "title": "TemplatedItemsView",
+  "hierarchy": [
+    [
+      {
+        "text": "TemplatedItemsView"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        14889,
+        14890,
+        14891
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        14902,
+        14894,
+        14892
+      ]
+    }
+  ],
+  "reflections": {
+    "14889": {
+      "name": "items",
+      "type": "Property",
+      "url": "/api/interface/TemplatedItemsView#items",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "items: any[] | <a href=\"/api/interface/ItemsSource\">ItemsSource</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 163,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/TemplatedItemsView#items"
+        }
+      ]
+    },
+    "14890": {
+      "name": "itemTemplate",
+      "type": "Property",
+      "url": "/api/interface/TemplatedItemsView#itemtemplate",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "itemTemplate: string | <a href=\"/api/interface/Template\">Template</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 164,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/TemplatedItemsView#itemtemplate"
+        }
+      ]
+    },
+    "14891": {
+      "name": "itemTemplates",
+      "type": "Property",
+      "url": "/api/interface/TemplatedItemsView#itemtemplates",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "itemTemplates?: string | <a href=\"/api/interface/KeyedTemplate\">KeyedTemplate</a>[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 165,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/TemplatedItemsView#itemtemplates"
+        }
+      ]
+    },
+    "14892": {
+      "name": "refresh",
+      "type": "Method",
+      "url": "/api/interface/TemplatedItemsView#refresh",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "refresh(): void",
+          "url": "/api/interface/TemplatedItemsView#refresh-refresh-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 166,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "14894": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/interface/TemplatedItemsView#on",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"itemLoading\", callback: (args: <a href=\"/api/interface/ItemEventData\">ItemEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/interface/TemplatedItemsView#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 167,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"itemLoading\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/ItemEventData\">ItemEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "14902": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/interface/TemplatedItemsView#off",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(event: \"itemLoading\", callback: (args: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "url": "/api/interface/TemplatedItemsView#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 168,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"itemLoading\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "title": "CssChangedEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "CssChangedEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1098,
+        1099,
+        1100,
+        1101
+      ]
+    }
+  ],
+  "reflections": {
+    "1098": {
+      "name": "cssFile",
+      "type": "Property",
+      "url": "/api/interface/CssChangedEventData#cssfile",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "cssFile?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 191,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/CssChangedEventData#cssfile"
+        }
+      ]
+    },
+    "1099": {
+      "name": "cssText",
+      "type": "Property",
+      "url": "/api/interface/CssChangedEventData#csstext",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "cssText?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 192,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/CssChangedEventData#csstext"
+        }
+      ]
+    },
+    "1100": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/CssChangedEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/CssChangedEventData#eventname"
+        }
+      ]
+    },
+    "1101": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/CssChangedEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/CssChangedEventData#object"
+        }
+      ]
+    }
+  }
+}

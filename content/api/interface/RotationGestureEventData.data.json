@@ -1,0 +1,365 @@
+{
+  "title": "RotationGestureEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "GestureEventDataWithState",
+        "link": "/api/interface/GestureEventDataWithState"
+      }
+    ],
+    [
+      {
+        "text": "RotationGestureEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        11194,
+        11195,
+        11193,
+        11196,
+        11189,
+        11190,
+        11191,
+        11192
+      ]
+    }
+  ],
+  "reflections": {
+    "11189": {
+      "name": "rotation",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#rotation",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "rotation: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 277,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/RotationGestureEventData#rotation"
+        }
+      ]
+    },
+    "11190": {
+      "name": "state",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#state",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "state",
+        "url": "/api/interface/GestureEventDataWithState#state",
+        "fromName": "GestureEventDataWithState",
+        "fromUrl": "/api/interface/GestureEventDataWithState"
+      },
+      "signatures": [
+        {
+          "code": "state: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 245,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "state",
+            "url": "/api/interface/GestureEventDataWithState#state",
+            "fromName": "GestureEventDataWithState",
+            "fromUrl": "/api/interface/GestureEventDataWithState"
+          },
+          "url": "/api/interface/RotationGestureEventData#state"
+        }
+      ]
+    },
+    "11191": {
+      "name": "type",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#type",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the type of the gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "type",
+        "url": "/api/interface/GestureEventData#type",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "type: <a href=\"/api/enum/GestureTypes\">GestureTypes</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 139,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "type",
+            "url": "/api/interface/GestureEventData#type",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the type of the gesture."
+              }
+            ]
+          },
+          "url": "/api/interface/RotationGestureEventData#type"
+        }
+      ]
+    },
+    "11192": {
+      "name": "view",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#view",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the view which originates the gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "view",
+        "url": "/api/interface/GestureEventData#view",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 143,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "view",
+            "url": "/api/interface/GestureEventData#view",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the view which originates the gesture."
+              }
+            ]
+          },
+          "url": "/api/interface/RotationGestureEventData#view"
+        }
+      ]
+    },
+    "11193": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/)."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "ios",
+        "url": "/api/interface/GestureEventData#ios",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "ios: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 147,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "ios",
+            "url": "/api/interface/GestureEventData#ios",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/)."
+              }
+            ]
+          },
+          "url": "/api/interface/RotationGestureEventData#ios"
+        }
+      ]
+    },
+    "11194": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "android",
+        "url": "/api/interface/GestureEventData#android",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "android: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 151,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "android",
+            "url": "/api/interface/GestureEventData#android",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)."
+              }
+            ]
+          },
+          "url": "/api/interface/RotationGestureEventData#android"
+        }
+      ]
+    },
+    "11195": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/RotationGestureEventData#eventname"
+        }
+      ]
+    },
+    "11196": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/RotationGestureEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/RotationGestureEventData#object"
+        }
+      ]
+    }
+  }
+}

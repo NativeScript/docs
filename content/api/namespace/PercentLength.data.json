@@ -1,0 +1,180 @@
+{
+  "title": "PercentLength",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        35690,
+        35681,
+        35678,
+        35685
+      ]
+    }
+  ],
+  "reflections": {
+    "35678": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/PercentLength#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(text: string): <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+          "url": "/api/namespace/PercentLength#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 22,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "text",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>"
+        }
+      ]
+    },
+    "35681": {
+      "name": "equals",
+      "type": "Function",
+      "url": "/api/namespace/PercentLength#equals",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "equals(a: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>, b: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>): boolean",
+          "url": "/api/namespace/PercentLength#equals-equals-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 23,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "a",
+              "type": "<a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+              "flags": {}
+            },
+            {
+              "name": "b",
+              "type": "<a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "35685": {
+      "name": "toDevicePixels",
+      "type": "Function",
+      "url": "/api/namespace/PercentLength#todevicepixels",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toDevicePixels(length: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>, auto?: number, parentAvailableWidth?: number): number",
+          "url": "/api/namespace/PercentLength#todevicepixels-todevicepixels-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 30,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Converts PercentLengthType unit to device pixels."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "length",
+              "type": "<a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The PercentLengthType to convert."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "auto",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Value to use for conversion of \"auto\". By default is Math.NaN."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "parentAvailableWidth",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Value to use as base when converting percent unit. By default is Math.NaN."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "35690": {
+      "name": "convertToString",
+      "type": "Function",
+      "url": "/api/namespace/PercentLength#converttostring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "convertToString(length: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>): string",
+          "url": "/api/namespace/PercentLength#converttostring-converttostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "length",
+              "type": "<a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    }
+  }
+}
