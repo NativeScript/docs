@@ -22,7 +22,7 @@ export class HelloWorldModel extends Observable {
 }
 ```
 ### Save an image to cache
-To retrive an image from a remote server and cache it, use either the [push()](#push) or [enqueue()](#enqueue) method. These methods cache the image as `android.graphics.Bitamap`(Android) or `UIImage`(iOS) instance.
+To retrieve an image from a remote server and cache it, use either the [push()](#push) or [enqueue()](#enqueue) method. These methods cache the image as `android.graphics.Bitmap` (Android) or `UIImage` (iOS) instance.
 
 ```ts
 this.imageCache.enqueue(
