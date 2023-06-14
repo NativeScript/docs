@@ -53,7 +53,7 @@ const cachedImage = this.imageCache.get("cat")
 
 ### constructor
 ```ts
-imageCache = new ImageCache()
+const imageCache = new ImageCache()
 ```
 Creates an ImageCache instance.
 
