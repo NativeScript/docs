@@ -112,6 +112,10 @@ export default [
         text: 'Connectivity',
         link: '/guide/core/connectivity',
       },
+      {
+        text: 'Device',
+        link: '/guide/core/device'
+      }
     ]
   },
   {
