@@ -4,13 +4,13 @@ title: Device
 
 The `Device` class (singleton) contains information about the current device, such as `os`, `manufacturer`, `uuid` and more.
 
-
 ## Using the Device class
 
 To use the Device class, import it from `@nativescript/core`.
 
 ```ts
 import { Device } from '@nativescript/core'
+```
 
 ### Getting the device type
 
@@ -18,6 +18,12 @@ To check if the device is a phone or tablet, use the [deviceType](#devicetype) p
 
 ```ts
 const deviceType: string = Device.deviceType // Phone
+```
+
+### Getting the device language
+
+```ts
+const language: string = Device.language // "en"
 ```
 
 ### Getting the device manufacturer
@@ -29,21 +35,18 @@ const manufacturer: string = Device.manufacturer // "Samsung"
 ```
 
 ### Getting the device model
+
 ```ts
 const model: string = Device.model
 ```
 
-### Getting the language of the device
+### Getting the device operating system name
+
+To get the device operating system name, use the [os](#os) property:
+
 ```ts
-const language: string = Device.language // "en"
+const os: string = Device.os // Android
 ```
-
- ### Checking the device operating system name
- To get the device operating system name, use the [os](#os) property:
-
- ```ts
- const os: string = Device.os // Android
- ```
 
 ### Getting the device operating system version
 
@@ -56,26 +59,29 @@ const osVersion: string = Device.osVersion // 13
 ### Getting the device region
 
 To get the country or region of the device, use the [region](#region) property:
+
 ```ts
-const region: string = Device.region // ES 
+const region: string = Device.region // ES
 ```
 
 ### Getting the device SDK version
 
 Use the [sdkVersion](#sdkversion) property to get the
 SDK version:
+
 ```ts
 const sdkVersion: string = Device.sdkVersion // 33
 ```
 
 ### Getting the device uuid
+
 To access the device's universally unique identifier(uuid), use the [uuid](#uuid) property:
 
 ```ts
 const uuid: string = Device.uuid // cb83c3347392bfe2
 ```
 
-## Device API
+## API
 
 ### deviceType
 
@@ -88,29 +94,34 @@ Gets current device type. Available types: `"Phone" | "Tablet"`
 Gets the device language.
 
 ---
+
 ### manufacturer
 
 Gets the manufacturer of the device.
 
 ---
+
 ### model
 
 Gets the model of the device.
 
 ---
-### region
 
-Gets the device region/country.
-
----
 ### os
 
 Gets the OS of the device.
 
 ---
+
 ### osVersion
 
 Gets the OS version.
+
+---
+
+### region
+
+Gets the device region/country.
 
 ---
 
@@ -119,13 +130,11 @@ Gets the OS version.
 Gets the SDK version.
 
 ---
+
 ### uuid
 
 Gets the <abbr title="Universal Unique Identifier">uuid</abbr> for the device.
 
-::: info Note
+::: warning Note
 If you need to receive the same uuid after the application is re-installed, consider using a plugin instead.
 :::
-
----
-
