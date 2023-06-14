@@ -106,6 +106,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items: [
+      {
+        text: 'Device',
+        link: '/guide/core/device'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
