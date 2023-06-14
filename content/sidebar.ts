@@ -126,6 +126,10 @@ export default [
         link: '/guide/code-sharing',
       },
       {
+        text: 'ImageCache',
+        link: '/guide/ui/image-cache'
+      },
+      {
         text: 'Shared Element Transitions',
         link: '/guide/shared-element-transitions'
       }
