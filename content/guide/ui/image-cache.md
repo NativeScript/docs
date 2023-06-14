@@ -5,7 +5,7 @@ title: ImageCache
 ImageCache allows you to cache an image from an HTTP request.
 
 ## Using ImageCache
-For consistency, you should use a single ImageCache instance
+For consistency, you should use a single ImageCache instance throughout your app.
 
 ```ts
 import { ImageCache } from "@nativescript/core";
