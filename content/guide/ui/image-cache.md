@@ -116,7 +116,7 @@ Adds a new image to the **start** of the cache. `request` is an object with the 
 
 - `url`(`string`): The url of the image.
 - `key`(`string`): The name to uniquely identify the image in the cache.
--  _Optional_: `complete` is a function to be called upon caching an image successfully. 
+-  _Optional_: `completed` is a function to be called upon caching an image successfully. 
 -  _Optional_: `error` is a function to be called when error has occured during caching.
 ---
 
