@@ -140,6 +140,6 @@ Remove the specified image from the cache.
 ```ts
 this.imageCache.clear()
 ```
-It clears all the images from the cache.
+Clears all the images from the cache.
 
 ---
