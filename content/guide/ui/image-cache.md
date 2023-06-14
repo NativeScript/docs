@@ -132,7 +132,7 @@ Adds a new image to the **end** of the cache. For more details about the `reques
 ```ts
 this.imageCache.remove(imageKey)
 ```
-It removes the specified image from the cache.
+Remove the specified image from the cache.
 
 ---
 
