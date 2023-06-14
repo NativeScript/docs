@@ -6,7 +6,6 @@ ImageCache allows you to cache an image from an HTTP request.
 
 ## Using ImageCache
 For consistency, you should use a single ImageCache instance
-throughout your data model.
 
 ```ts
 import { ImageCache } from "@nativescript/core";
