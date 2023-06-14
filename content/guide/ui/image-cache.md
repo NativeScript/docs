@@ -2,7 +2,7 @@
 title: ImageCache
 ---
 
-The ImageCache class allows you to cache an image from an HTTP request.
+ImageCache allows you to cache an image from an HTTP request.
 
 ## Using ImageCache
 For consistency, you should use a single ImageCache instance
