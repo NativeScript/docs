@@ -1,16 +1,19 @@
 ---
 title: Navigation
+description: Navigate from screen to screen in your app.
 ---
 <!--TODO: Add Preview -->
 <!--TODO: Add flavors -->
 
 Navigation in NativeScript is enabled by the `Frame` class.
 
-## Using Frame
+## How to use the Frame class for navigation
 
 ### Navigating to another page
-For page navigation, first obtain the desired Frame instance.
-For a simple navigation, call the instance's navigate() method, with a string argument consisting of the desired path to navigate to.
+
+To navigate from one [Page](/ui/page) to another, you need to first [get the Frame instance](#getting-a-frame-instance) within which you need to navigate. 
+Then, for a simple navigation, call the instance's [navigate](#navigate) method on the instance, passing it a string containing the path of the page to navigate to.
+
 ```ts
 frame.navigate("~/pages/details/details-page")
 ```
@@ -21,14 +24,16 @@ For a complete navigation example, have a look at [Setup navigation from home to
 
 ### Getting a Frame instance
 
-The following are some of the ways in which to obtain an instance of the Frame class:
+The following are the ways in which to obtain an instance of the Frame class:
 
-- `Frame.topmost()` returns the top Frame in the frames stack.
+- Calling the static [topmost](#topmost) method on the Frame class.
+
 ```ts
 const frame: Frame = Frame.topmost();
 ```
-- `page.frame` via the `frame` property of a [Page](/ui/page) instance.
-For example, you can get the current Frame instance from a `tap` event data:
+- Via the `frame` property of a [Page](/ui/page) instance.
+
+For example, you can get the current Frame instance from a `tap` event's data as follows:
 
 ```ts
 onFlickTap(args: EventData): void {
@@ -36,19 +41,23 @@ onFlickTap(args: EventData): void {
     const frame = btn.page.frame
   }
 ```
-- `Frame.getFrameById(frame-id)` a frame with a specific id.
+- Calling the static [getFrameById](#getframebyid) method on the Frame class with the id of the frame instance of interest.
+
 ```ts
 const frame = Frame.getFrameById("frame-id")
 ```
 
 ### Navigating Back
-To navigate back to the previous page, use the [goBack()](#goback) method of the Frame instance.
+
+To navigate back to the previous page, use the [goBack](#goback) method of the Frame instance.
 ```ts
 frame.goBack()
 ```
 
 ### Avoid Navigating Back
-To avoid navigating to the previous page, use the [NavigationEntry](#navigation-entry-interface) object and set the [clearHistory](#clearhistory) property to `true`.
+
+To avoid navigating to the previous page, set the [clearHistory](#clearhistory) property of the [NavigationEntry](#navigation-entry-interface) object that you pass to the [navigate](#navigate) method  to `true`.
+
 ```ts
 frame.navigate({
     moduleName: "details/details-page",
@@ -56,7 +65,8 @@ frame.navigate({
 })
 ```
 ### Passing data between pages
-To pass data to another page, set the value of the [context](#context) property of the NavigationEntry to the data you would like to pass.
+
+To pass data to the page you are navigating to, set the value of the [context](#context) property of the NavigationEntry to the data you would like to pass.
 ```ts
 frame.navigate({
     moduleName: "details/details-page",
@@ -74,15 +84,20 @@ onNavigatedTo(args: NavigatedData) {
         this.notifyPropertyChange("id", args.context.id)
     }
 ```
-### Creating Multiple Frames
-If you need to create multiple frames, you can do so by wrapping them in a Layout, for example if you want to have 2 frames side-by-side:
+### Creating multiple frames
+
+If you need to create multiple frames, you can do so by wrapping them in a container layout. For example if you want to have 2 frames side-by-side, you can wrap them in a GridLayout:
+
 ```xml
 <GridLayout columns="*, *">
   <Frame col="0" />
   <Frame col="1" />
 </GridLayout>
 ```
-## Frame API
+## Frame class API
+
+The following are the properties and methods of the Frame class:
+
 ### defaultAnimatedNavigation
 
 ```ts
