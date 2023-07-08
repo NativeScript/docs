@@ -7,7 +7,10 @@ description: Navigate from screen to screen in your app.
 
 Navigation in NativeScript is enabled by the `Frame` class.
 
-## How to use the Frame class for navigation
+## How to use the Frame class
+
+The following sections will show you how to access an instance of the Frame class and use it to navigate between pages in your app.
+
 
 ### Navigating to another page
 
@@ -47,14 +50,14 @@ onFlickTap(args: EventData): void {
 const frame = Frame.getFrameById("frame-id")
 ```
 
-### Navigating Back
+### Navigating back
 
 To navigate back to the previous page, use the [goBack](#goback) method of the Frame instance.
 ```ts
 frame.goBack()
 ```
 
-### Avoid Navigating Back
+### Avoid navigating back to the previous page
 
 To avoid navigating to the previous page, set the [clearHistory](#clearhistory) property of the [NavigationEntry](#navigation-entry-interface) object that you pass to the [navigate](#navigate) method  to `true`.
 
