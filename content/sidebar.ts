@@ -117,6 +117,10 @@ export default [
         link: '/guide/core/device'
       },
       {
+        text: 'XmlParser',
+        link: '/guide/core/xml-parser'
+      },
+      {
         text: 'Utils',
         link: '/guide/core/utils'
       }
