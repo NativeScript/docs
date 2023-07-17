@@ -136,7 +136,7 @@ export const selectedIndexProperty = new CoercibleProperty<SegmentedBar, number>
 });
 selectedIndexProperty.register(SegmentedBar);
 ```
-Then when setting the property value, you call the `coerce()` method:
+Subsequently, when assigning a value to the property, invoke the `coerce()` method.
 ```ts
 [itemsProperty.setNative](value: SegmentedBarItem[]) {
  ...
