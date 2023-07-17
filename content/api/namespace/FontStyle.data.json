@@ -1,0 +1,120 @@
+{
+  "title": "FontStyle",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        22487,
+        22486
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        22480,
+        22483
+      ]
+    }
+  ],
+  "reflections": {
+    "22480": {
+      "name": "isValid",
+      "type": "Function",
+      "url": "/api/namespace/FontStyle#isvalid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isValid(value: any): boolean",
+          "url": "/api/namespace/FontStyle#isvalid-isvalid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22483": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/FontStyle#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(value: string): <a href=\"/api/index#fontstyle-1\">FontStyle</a>",
+          "url": "/api/namespace/FontStyle#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/index#fontstyle-1\">FontStyle</a>"
+        }
+      ]
+    },
+    "22486": {
+      "name": "NORMAL",
+      "type": "Variable",
+      "url": "/api/namespace/FontStyle#normal",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "NORMAL: \"normal\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 29,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontStyle#normal"
+        }
+      ]
+    },
+    "22487": {
+      "name": "ITALIC",
+      "type": "Variable",
+      "url": "/api/namespace/FontStyle#italic",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "ITALIC: \"italic\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 30,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontStyle#italic"
+        }
+      ]
+    }
+  }
+}

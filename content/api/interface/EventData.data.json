@@ -1,0 +1,153 @@
+{
+  "title": "EventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData"
+      }
+    ],
+    [
+      {
+        "text": "ApplicationEventData",
+        "link": "/api/interface/ApplicationEventData"
+      },
+      {
+        "text": "CssChangedEventData",
+        "link": "/api/interface/CssChangedEventData"
+      },
+      {
+        "text": "LoadAppCSSEventData",
+        "link": "/api/interface/LoadAppCSSEventData"
+      },
+      {
+        "text": "ChangedData",
+        "link": "/api/interface/ChangedData"
+      },
+      {
+        "text": "PropertyChangeData",
+        "link": "/api/interface/PropertyChangeData"
+      },
+      {
+        "text": "ItemsLoading",
+        "link": "/api/interface/ItemsLoading"
+      },
+      {
+        "text": "ShownModallyData",
+        "link": "/api/interface/ShownModallyData"
+      },
+      {
+        "text": "GestureEventData",
+        "link": "/api/interface/GestureEventData"
+      },
+      {
+        "text": "DownloadError",
+        "link": "/api/interface/DownloadError"
+      },
+      {
+        "text": "DownloadedData",
+        "link": "/api/interface/DownloadedData"
+      },
+      {
+        "text": "ItemEventData",
+        "link": "/api/interface/ItemEventData"
+      },
+      {
+        "text": "NavigatedData",
+        "link": "/api/interface/NavigatedData"
+      },
+      {
+        "text": "CreateViewEventData",
+        "link": "/api/interface/CreateViewEventData"
+      },
+      {
+        "text": "ScrollEventData",
+        "link": "/api/interface/ScrollEventData"
+      },
+      {
+        "text": "LoadEventData",
+        "link": "/api/interface/LoadEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1781,
+        1782
+      ]
+    }
+  ],
+  "reflections": {
+    "1781": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/EventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/EventData#eventname"
+        }
+      ]
+    },
+    "1782": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/EventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/EventData#object"
+        }
+      ]
+    }
+  }
+}

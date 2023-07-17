@@ -1,0 +1,475 @@
+{
+  "title": "AnimationDefinition",
+  "hierarchy": [
+    [
+      {
+        "text": "AnimationDefinition"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        5013,
+        5022,
+        5020,
+        5019,
+        5016,
+        5021,
+        5012,
+        5018,
+        5015,
+        5011,
+        5014,
+        5017
+      ]
+    }
+  ],
+  "reflections": {
+    "5011": {
+      "name": "target",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#target",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The view whose property is to be animated."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "target?: <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 14,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The view whose property is to be animated."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#target"
+        }
+      ]
+    },
+    "5012": {
+      "name": "opacity",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#opacity",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Animates the opacity of the view. Value should be a number between 0.0 and 1.0"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "opacity?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 19,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Animates the opacity of the view. Value should be a number between 0.0 and 1.0"
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#opacity"
+        }
+      ]
+    },
+    "5013": {
+      "name": "backgroundColor",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#backgroundcolor",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Animates the backgroundColor of the view."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "backgroundColor?: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 24,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Animates the backgroundColor of the view."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#backgroundcolor"
+        }
+      ]
+    },
+    "5014": {
+      "name": "translate",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#translate",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Animates the translate affine transform of the view."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "translate?: Pair",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 29,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Animates the translate affine transform of the view."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#translate"
+        }
+      ]
+    },
+    "5015": {
+      "name": "scale",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#scale",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Animates the scale affine transform of the view."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "scale?: Pair",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 34,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Animates the scale affine transform of the view."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#scale"
+        }
+      ]
+    },
+    "5016": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#height",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Animates the height of a view."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "height?: string | number | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpercentunit\">LengthPercentUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 39,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Animates the height of a view."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#height"
+        }
+      ]
+    },
+    "5017": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#width",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Animates the width of a view."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "width?: string | number | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpercentunit\">LengthPercentUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 44,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Animates the width of a view."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#width"
+        }
+      ]
+    },
+    "5018": {
+      "name": "rotate",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#rotate",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Animates the rotate affine transform of the view. Value should be a number specifying the rotation amount in degrees."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "rotate?: number | Point3D",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 49,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Animates the rotate affine transform of the view. Value should be a number specifying the rotation amount in degrees."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#rotate"
+        }
+      ]
+    },
+    "5019": {
+      "name": "duration",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#duration",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The length of the animation in milliseconds. The default duration is 300 milliseconds."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "duration?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The length of the animation in milliseconds. The default duration is 300 milliseconds."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#duration"
+        }
+      ]
+    },
+    "5020": {
+      "name": "delay",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#delay",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The amount of time, in milliseconds, to delay starting the animation."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "delay?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 59,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The amount of time, in milliseconds, to delay starting the animation."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#delay"
+        }
+      ]
+    },
+    "5021": {
+      "name": "iterations",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#iterations",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies how many times the animation should be played. Default is 1.\niOS animations support fractional iterations, i.e. 1.5.\nTo repeat an animation infinitely, use Number.POSITIVE_INFINITY"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "iterations?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 66,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies how many times the animation should be played. Default is 1.\niOS animations support fractional iterations, i.e. 1.5.\nTo repeat an animation infinitely, use Number.POSITIVE_INFINITY"
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#iterations"
+        }
+      ]
+    },
+    "5022": {
+      "name": "curve",
+      "type": "Property",
+      "url": "/api/interface/AnimationDefinition#curve",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional animation curve. Possible values are contained in the [AnimationCurve enumeration](../modules/_ui_enums_.animationcurve.html).\nAlternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "curve?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 72,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional animation curve. Possible values are contained in the [AnimationCurve enumeration](../modules/_ui_enums_.animationcurve.html).\nAlternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android."
+              }
+            ]
+          },
+          "url": "/api/interface/AnimationDefinition#curve"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "UIPopoverPresentationControllerDelegateImp",
+  "hierarchy": [
+    [
+      {
+        "text": "UIPopoverPresentationControllerDelegateImp"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        8334
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        8330
+      ]
+    }
+  ],
+  "reflections": {
+    "8330": {
+      "name": "initWithOwnerAndCallback",
+      "type": "Method",
+      "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp#initwithownerandcallback",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "initWithOwnerAndCallback(owner: WeakRef&lt;Partial&lt;<a href=\"/api/class/View\">View</a>&gt;&gt;, whenClosedCallback: Function): <a href=\"/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp\">UIPopoverPresentationControllerDelegateImp</a>",
+          "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp#initwithownerandcallback-initwithownerandcallback-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 64,
+              "character": 2
+            }
+          ],
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "WeakRef&lt;Partial&lt;<a href=\"/api/class/View\">View</a>&gt;&gt;",
+              "flags": {}
+            },
+            {
+              "name": "whenClosedCallback",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp\">UIPopoverPresentationControllerDelegateImp</a>"
+        }
+      ]
+    },
+    "8334": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new UIPopoverPresentationControllerDelegateImp(): <a href=\"/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp\">UIPopoverPresentationControllerDelegateImp</a>",
+          "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp#constructor-new-uipopoverpresentationcontrollerdelegateimp",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp\">UIPopoverPresentationControllerDelegateImp</a>"
+        }
+      ]
+    }
+  }
+}

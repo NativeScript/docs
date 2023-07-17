@@ -1,0 +1,508 @@
+{
+  "title": "CoercibleProperty",
+  "hierarchy": [
+    [
+      {
+        "text": "Property<T, U>",
+        "link": "/api/class/Property"
+      }
+    ],
+    [
+      {
+        "text": "CoercibleProperty"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        9105
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        9110,
+        9138,
+        9119,
+        9118,
+        9137,
+        9126,
+        9116,
+        9125,
+        9115,
+        9114,
+        9120,
+        9133,
+        9129,
+        9117
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        9144,
+        9139
+      ]
+    }
+  ],
+  "reflections": {
+    "9105": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/CoercibleProperty#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new CoercibleProperty&lt;T, U&gt;(options: CoerciblePropertyOptions&lt;T, U&gt;): <a href=\"/api/class/CoercibleProperty\">CoercibleProperty</a>&lt;T, U&gt;",
+          "url": "/api/class/CoercibleProperty#constructor-new-coercibleproperty",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 66,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "CoerciblePropertyOptions&lt;T, U&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/CoercibleProperty\">CoercibleProperty</a>&lt;T, U&gt;"
+        }
+      ]
+    },
+    "9110": {
+      "name": "coerce",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#coerce",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "coerce: (target: T) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 65,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CoercibleProperty#coerce"
+        }
+      ]
+    },
+    "9114": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#name",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 45,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#name"
+        }
+      ]
+    },
+    "9115": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#key",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "key: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 46,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#key"
+        }
+      ]
+    },
+    "9116": {
+      "name": "getDefault",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#getdefault",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "getDefault: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 47,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#getdefault"
+        }
+      ]
+    },
+    "9117": {
+      "name": "setNative",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#setnative",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "setNative: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 48,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#setnative"
+        }
+      ]
+    },
+    "9118": {
+      "name": "defaultValueKey",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#defaultvaluekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "defaultValueKey: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 49,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#defaultvaluekey"
+        }
+      ]
+    },
+    "9119": {
+      "name": "defaultValue",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#defaultvalue",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "defaultValue: U",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 50,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#defaultvalue"
+        }
+      ]
+    },
+    "9120": {
+      "name": "nativeValueChange",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#nativevaluechange",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "nativeValueChange: (owner: T, value: U) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 51,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#nativevaluechange"
+        }
+      ]
+    },
+    "9125": {
+      "name": "isStyleProperty",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#isstyleproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "isStyleProperty: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 52,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#isstyleproperty"
+        }
+      ]
+    },
+    "9126": {
+      "name": "get",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#get",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "get: () => U",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#get"
+        }
+      ]
+    },
+    "9129": {
+      "name": "set",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#set",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "set: (value: U) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 54,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#set"
+        }
+      ]
+    },
+    "9133": {
+      "name": "overrideHandlers",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#overridehandlers",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "overrideHandlers: (options: PropertyOptions&lt;T, U&gt;) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 55,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#overridehandlers"
+        }
+      ]
+    },
+    "9137": {
+      "name": "enumerable",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#enumerable",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "enumerable: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 56,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#enumerable"
+        }
+      ]
+    },
+    "9138": {
+      "name": "configurable",
+      "type": "Property",
+      "url": "/api/class/CoercibleProperty#configurable",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "code": "configurable: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 57,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "url": "/api/class/CoercibleProperty#configurable"
+        }
+      ]
+    },
+    "9139": {
+      "name": "register",
+      "type": "Method",
+      "url": "/api/class/CoercibleProperty#register",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "register(cls: {}): void",
+          "url": "/api/class/CoercibleProperty#register-register-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 59,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "{}",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "9144": {
+      "name": "isSet",
+      "type": "Method",
+      "url": "/api/class/CoercibleProperty#isset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Property"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isSet(instance: T): boolean",
+          "url": "/api/class/CoercibleProperty#isset-isset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 62,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Property"
+          },
+          "parameters": [
+            {
+              "name": "instance",
+              "type": "T",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    }
+  }
+}
