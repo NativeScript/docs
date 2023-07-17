@@ -148,6 +148,10 @@ export default [
         link: '/guide/core/image-cache',
       },
       {
+        text: 'XmlParser',
+        link: '/guide/core/xml-parser'
+      },
+      {
         text: 'Utils',
         link: '/guide/core/utils'
       },
