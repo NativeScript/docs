@@ -1,0 +1,401 @@
+{
+  "title": "IOSHelper",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Classes",
+      "items": [
+        8322,
+        8316,
+        8329
+      ]
+    },
+    {
+      "title": "Variables",
+      "items": [
+        8315
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        8311,
+        8293,
+        8270,
+        8285,
+        8281,
+        8307,
+        8273,
+        8277
+      ]
+    }
+  ],
+  "reflections": {
+    "8270": {
+      "name": "getParentWithViewController",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#getparentwithviewcontroller",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getParentWithViewController(view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/namespace/IOSHelper#getparentwithviewcontroller-getparentwithviewcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 49,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns a view with viewController or undefined if no such found along the view's parent chain."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The view form which to start the search."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "8273": {
+      "name": "updateAutoAdjustScrollInsets",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#updateautoadjustscrollinsets",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "updateAutoAdjustScrollInsets(controller: any, owner: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): void",
+          "url": "/api/namespace/IOSHelper#updateautoadjustscrollinsets-updateautoadjustscrollinsets-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 50,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "controller",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "owner",
+              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "8277": {
+      "name": "updateConstraints",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#updateconstraints",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "updateConstraints(controller: any, owner: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): void",
+          "url": "/api/namespace/IOSHelper#updateconstraints-updateconstraints-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 51,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "controller",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "owner",
+              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "8281": {
+      "name": "layoutView",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#layoutview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "layoutView(controller: any, owner: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): void",
+          "url": "/api/namespace/IOSHelper#layoutview-layoutview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 52,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "controller",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "owner",
+              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "8285": {
+      "name": "getPositionFromFrame",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#getpositionfromframe",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getPositionFromFrame(frame: any): {\n  bottom: any\n  left: any\n  right: any\n}",
+          "url": "/api/namespace/IOSHelper#getpositionfromframe-getpositionfromframe-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 53,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "frame",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "{\n  bottom: any\n  left: any\n  right: any\n}"
+        }
+      ]
+    },
+    "8293": {
+      "name": "getFrameFromPosition",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#getframefromposition",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getFrameFromPosition(\n  position: {\n    bottom: any\n    left: any\n    right: any\n  },\n  insets?: {\n    bottom: any\n    left: any\n    right: any\n  }\n): any",
+          "url": "/api/namespace/IOSHelper#getframefromposition-getframefromposition-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "position",
+              "type": "{\n  bottom: any\n  left: any\n  right: any\n}",
+              "flags": {}
+            },
+            {
+              "name": "insets",
+              "type": "{\n  bottom: any\n  left: any\n  right: any\n}",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "8307": {
+      "name": "shrinkToSafeArea",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#shrinktosafearea",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "shrinkToSafeArea(view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;, frame: any): any",
+          "url": "/api/namespace/IOSHelper#shrinktosafearea-shrinktosafearea-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 55,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "view",
+              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {}
+            },
+            {
+              "name": "frame",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "8311": {
+      "name": "expandBeyondSafeArea",
+      "type": "Function",
+      "url": "/api/namespace/IOSHelper#expandbeyondsafearea",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "expandBeyondSafeArea(view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;, frame: any): any",
+          "url": "/api/namespace/IOSHelper#expandbeyondsafearea-expandbeyondsafearea-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 56,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "view",
+              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {}
+            },
+            {
+              "name": "frame",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "8315": {
+      "name": "traitCollectionColorAppearanceChangedEvent",
+      "type": "Variable",
+      "url": "/api/namespace/IOSHelper#traitcollectioncolorappearancechangedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to traitCollectionColorAppearanceChangedEvent event."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "traitCollectionColorAppearanceChangedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 43,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to traitCollectionColorAppearanceChangedEvent event."
+              }
+            ]
+          },
+          "url": "/api/namespace/IOSHelper#traitcollectioncolorappearancechangedevent"
+        }
+      ]
+    },
+    "8316": {
+      "name": "UILayoutViewController",
+      "type": "Class",
+      "url": "/api/class/IOSHelper-UILayoutViewController",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "UILayoutViewController",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 57,
+              "character": 14
+            }
+          ],
+          "url": "/api/class/IOSHelper-UILayoutViewController"
+        }
+      ]
+    },
+    "8322": {
+      "name": "UIAdaptivePresentationControllerDelegateImp",
+      "type": "Class",
+      "url": "/api/class/IOSHelper-UIAdaptivePresentationControllerDelegateImp",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "UIAdaptivePresentationControllerDelegateImp",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 60,
+              "character": 14
+            }
+          ],
+          "url": "/api/class/IOSHelper-UIAdaptivePresentationControllerDelegateImp"
+        }
+      ]
+    },
+    "8329": {
+      "name": "UIPopoverPresentationControllerDelegateImp",
+      "type": "Class",
+      "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "UIPopoverPresentationControllerDelegateImp",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 63,
+              "character": 14
+            }
+          ],
+          "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp"
+        }
+      ]
+    }
+  }
+}

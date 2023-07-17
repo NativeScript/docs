@@ -1,0 +1,125 @@
+{
+  "title": "LoadOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "LoadOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        5049,
+        5050,
+        5048,
+        5051,
+        5047
+      ]
+    }
+  ],
+  "reflections": {
+    "5047": {
+      "name": "path",
+      "type": "Property",
+      "url": "/api/interface/LoadOptions#path",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "path: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 6,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/LoadOptions#path"
+        }
+      ]
+    },
+    "5048": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/interface/LoadOptions#name",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 7,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/LoadOptions#name"
+        }
+      ]
+    },
+    "5049": {
+      "name": "attributes",
+      "type": "Property",
+      "url": "/api/interface/LoadOptions#attributes",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "attributes?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/LoadOptions#attributes"
+        }
+      ]
+    },
+    "5050": {
+      "name": "exports",
+      "type": "Property",
+      "url": "/api/interface/LoadOptions#exports",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "exports?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 9,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/LoadOptions#exports"
+        }
+      ]
+    },
+    "5051": {
+      "name": "page",
+      "type": "Property",
+      "url": "/api/interface/LoadOptions#page",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "page?: <a href=\"/api/class/Page\">Page</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/LoadOptions#page"
+        }
+      ]
+    }
+  }
+}

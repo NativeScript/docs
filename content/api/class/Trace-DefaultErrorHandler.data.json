@@ -1,0 +1,69 @@
+{
+  "title": "DefaultErrorHandler",
+  "hierarchy": [
+    [
+      {
+        "text": "DefaultErrorHandler"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2908
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2910
+      ]
+    }
+  ],
+  "reflections": {
+    "2908": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Trace-DefaultErrorHandler#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new DefaultErrorHandler(): <a href=\"/api/class/Trace-DefaultErrorHandler\">DefaultErrorHandler</a>",
+          "url": "/api/class/Trace-DefaultErrorHandler#constructor-new-defaulterrorhandler",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Trace-DefaultErrorHandler\">DefaultErrorHandler</a>"
+        }
+      ]
+    },
+    "2910": {
+      "name": "handlerError",
+      "type": "Method",
+      "url": "/api/class/Trace-DefaultErrorHandler#handlererror",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "handlerError(error: any): void",
+          "url": "/api/class/Trace-DefaultErrorHandler#handlererror-handlererror-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 134,
+              "character": 2
+            }
+          ],
+          "parameters": [
+            {
+              "name": "error",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}
