@@ -114,10 +114,6 @@ const marginProperty = new ShorthandProperty<Style, string | CoreTypes.PercentLe
 	converter: convertToMargins,
 });
 marginProperty.register(Style);
-<!-- TODO: Add an example -->
-```ts
-import { ShorthandProperty, Style } from "@nativescript-core"
-```
 ### Creating a coercible property
 To create a coercible property use the [CoercibleProperty](https://docs.nativescript.org/api-reference/classes/coercibleproperty) class passing it a [CoerciblePropertyOptions](#co) object.
 
