@@ -59,7 +59,7 @@ export const myOpacityProperty = new CssProperty<Style, number>({
 myOpacityProperty.register(Style);
 ```
 
-Now any instance of the [Style](https://docs.nativescript.org/api-reference/classes/style) class will have `myOpacity` property and developers can set it in CSS as follows:
+Subsequently, any instance of the [Style](https://docs.nativescript.org/api-reference/classes/style) class will have `myOpacity` property and developers can set it in CSS as follows:
 
 ```css
 .some-class {
