@@ -109,6 +109,10 @@ export default [
     text: '@nativescript/core',
     items: [
       {
+        text: 'Screen',
+        link: '/guide/core/screen'
+      },
+      {
         text: 'Device',
         link: '/guide/core/device'
       },
