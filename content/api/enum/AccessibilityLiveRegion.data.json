@@ -1,0 +1,73 @@
+{
+  "title": "AccessibilityLiveRegion",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        1204,
+        1202,
+        1203
+      ]
+    }
+  ],
+  "reflections": {
+    "1202": {
+      "name": "None",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityLiveRegion#none",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "None: \"none\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityLiveRegion#none"
+        }
+      ]
+    },
+    "1203": {
+      "name": "Polite",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityLiveRegion#polite",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Polite: \"polite\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 107,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityLiveRegion#polite"
+        }
+      ]
+    },
+    "1204": {
+      "name": "Assertive",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityLiveRegion#assertive",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Assertive: \"assertive\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 108,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityLiveRegion#assertive"
+        }
+      ]
+    }
+  }
+}

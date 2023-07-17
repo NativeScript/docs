@@ -1,0 +1,243 @@
+{
+  "title": "HttpRequestOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "HttpRequestOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2129,
+        2131,
+        2128,
+        2127,
+        2130,
+        2126
+      ]
+    }
+  ],
+  "reflections": {
+    "2126": {
+      "name": "url",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#url",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request url."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "url: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 79,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request url."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#url"
+        }
+      ]
+    },
+    "2127": {
+      "name": "method",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#method",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request method."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "method: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 84,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request method."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#method"
+        }
+      ]
+    },
+    "2128": {
+      "name": "headers",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#headers",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request headers in JSON format."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "headers?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 89,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request headers in JSON format."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#headers"
+        }
+      ]
+    },
+    "2129": {
+      "name": "content",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#content",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request body."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "content?: string | FormData | ArrayBuffer",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 94,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request body."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#content"
+        }
+      ]
+    },
+    "2130": {
+      "name": "timeout",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#timeout",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request timeout in milliseconds."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "timeout?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 99,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request timeout in milliseconds."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#timeout"
+        }
+      ]
+    },
+    "2131": {
+      "name": "dontFollowRedirects",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#dontfollowredirects",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets wether to *not* follow server's redirection responses."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "dontFollowRedirects?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 104,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets wether to *not* follow server's redirection responses."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#dontfollowredirects"
+        }
+      ]
+    }
+  }
+}

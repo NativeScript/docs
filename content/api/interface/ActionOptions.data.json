@@ -1,0 +1,315 @@
+{
+  "title": "ActionOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "CancelableOptions",
+        "link": "/api/interface/CancelableOptions"
+      }
+    ],
+    [
+      {
+        "text": "ActionOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        10154,
+        10156,
+        10153,
+        10155,
+        10152,
+        10157,
+        10151
+      ]
+    }
+  ],
+  "reflections": {
+    "10151": {
+      "name": "title",
+      "type": "Property",
+      "url": "/api/interface/ActionOptions#title",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog title."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "title?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 159,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog title."
+              }
+            ]
+          },
+          "url": "/api/interface/ActionOptions#title"
+        }
+      ]
+    },
+    "10152": {
+      "name": "message",
+      "type": "Property",
+      "url": "/api/interface/ActionOptions#message",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog message."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "message?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 164,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog message."
+              }
+            ]
+          },
+          "url": "/api/interface/ActionOptions#message"
+        }
+      ]
+    },
+    "10153": {
+      "name": "cancelButtonText",
+      "type": "Property",
+      "url": "/api/interface/ActionOptions#cancelbuttontext",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the Cancel button text."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "cancelButtonText?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 169,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the Cancel button text."
+              }
+            ]
+          },
+          "url": "/api/interface/ActionOptions#cancelbuttontext"
+        }
+      ]
+    },
+    "10154": {
+      "name": "actions",
+      "type": "Property",
+      "url": "/api/interface/ActionOptions#actions",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the list of available actions."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "actions?: string[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 174,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the list of available actions."
+              }
+            ]
+          },
+          "url": "/api/interface/ActionOptions#actions"
+        }
+      ]
+    },
+    "10155": {
+      "name": "destructiveActionsIndexes",
+      "type": "Property",
+      "url": "/api/interface/ActionOptions#destructiveactionsindexes",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[iOS only] Gets or sets the indexes of destructive actions."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "destructiveActionsIndexes?: number[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 179,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[iOS only] Gets or sets the indexes of destructive actions."
+              }
+            ]
+          },
+          "url": "/api/interface/ActionOptions#destructiveactionsindexes"
+        }
+      ]
+    },
+    "10156": {
+      "name": "cancelable",
+      "type": "Property",
+      "url": "/api/interface/ActionOptions#cancelable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "cancelable",
+        "url": "/api/interface/CancelableOptions#cancelable",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "cancelable?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 144,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "cancelable",
+            "url": "/api/interface/CancelableOptions#cancelable",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/ActionOptions#cancelable"
+        }
+      ]
+    },
+    "10157": {
+      "name": "theme",
+      "type": "Property",
+      "url": "/api/interface/ActionOptions#theme",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "theme",
+        "url": "/api/interface/CancelableOptions#theme",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "theme?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 149,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "theme",
+            "url": "/api/interface/CancelableOptions#theme",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+              }
+            ]
+          },
+          "url": "/api/interface/ActionOptions#theme"
+        }
+      ]
+    }
+  }
+}
