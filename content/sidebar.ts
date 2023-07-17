@@ -113,6 +113,10 @@ export default [
         link: '/guide/core/connectivity',
       },
       {
+        text: 'Observable',
+        link: '/guide/core/observable'
+      },
+      {
         text: 'Screen',
         link: '/guide/core/screen'
       },
