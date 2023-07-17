@@ -1,0 +1,304 @@
+{
+  "title": "GesturesObserver",
+  "hierarchy": [
+    [
+      {
+        "text": "GesturesObserver"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        11065
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        11084,
+        11079,
+        11083,
+        11078
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        11076,
+        11073
+      ]
+    }
+  ],
+  "reflections": {
+    "11065": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/GesturesObserver#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new GesturesObserver(target: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;, callback: (args: <a href=\"/api/interface/GestureEventData\">GestureEventData</a>) => void, context: any): <a href=\"/api/class/GesturesObserver\">GesturesObserver</a>",
+          "url": "/api/class/GesturesObserver#constructor-new-gesturesobserver",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 290,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates an instance of GesturesObserver class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "target",
+              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The view for which the observer is created."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/GestureEventData\">GestureEventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function that will be executed when a gesture is received."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "context",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "default this argument for the callbacks."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/GesturesObserver\">GesturesObserver</a>"
+        }
+      ]
+    },
+    "11073": {
+      "name": "observe",
+      "type": "Method",
+      "url": "/api/class/GesturesObserver#observe",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "observe(type: <a href=\"/api/enum/GestureTypes\">GestureTypes</a>): any",
+          "url": "/api/class/GesturesObserver#observe-observe-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 296,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Registers a gesture observer to a view and gesture."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "type",
+              "type": "<a href=\"/api/enum/GestureTypes\">GestureTypes</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Type of the gesture."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "11076": {
+      "name": "disconnect",
+      "type": "Method",
+      "url": "/api/class/GesturesObserver#disconnect",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "disconnect(): any",
+          "url": "/api/class/GesturesObserver#disconnect-disconnect-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 301,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Disconnects the gesture observer."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "11078": {
+      "name": "type",
+      "type": "Property",
+      "url": "/api/class/GesturesObserver#type",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture type attached to the observer."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "type: <a href=\"/api/enum/GestureTypes\">GestureTypes</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 306,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture type attached to the observer."
+              }
+            ]
+          },
+          "url": "/api/class/GesturesObserver#type"
+        }
+      ]
+    },
+    "11079": {
+      "name": "callback",
+      "type": "Property",
+      "url": "/api/class/GesturesObserver#callback",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "callback: (args: <a href=\"/api/interface/GestureEventData\">GestureEventData</a>) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 311,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/GesturesObserver#callback"
+        }
+      ]
+    },
+    "11083": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/class/GesturesObserver#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A context which will be used as "
+          },
+          {
+            "kind": "code",
+            "text": "`this`"
+          },
+          {
+            "kind": "text",
+            "text": " in callback execution."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "context: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 316,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A context which will be used as "
+              },
+              {
+                "kind": "code",
+                "text": "`this`"
+              },
+              {
+                "kind": "text",
+                "text": " in callback execution."
+              }
+            ]
+          },
+          "url": "/api/class/GesturesObserver#context"
+        }
+      ]
+    },
+    "11084": {
+      "name": "androidOnTouchEvent",
+      "type": "Property",
+      "url": "/api/class/GesturesObserver#androidontouchevent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "androidOnTouchEvent: (motionEvent: any) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 321,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/GesturesObserver#androidontouchevent"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "title": "IOSActionItemPosition",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2742,
+        2743
+      ]
+    }
+  ],
+  "reflections": {
+    "2742": {
+      "name": "left",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-IOSActionItemPosition#left",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Show this item at the left of the navigation bar."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "left: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 615,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Show this item at the left of the navigation bar."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-IOSActionItemPosition#left"
+        }
+      ]
+    },
+    "2743": {
+      "name": "right",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-IOSActionItemPosition#right",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Show this item at the right of the action bar."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "right: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 620,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Show this item at the right of the action bar."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-IOSActionItemPosition#right"
+        }
+      ]
+    }
+  }
+}

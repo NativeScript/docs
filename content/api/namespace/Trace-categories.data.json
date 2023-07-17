@@ -1,0 +1,423 @@
+{
+  "title": "categories",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2898,
+        2893,
+        2890,
+        2891,
+        2887,
+        2892,
+        2883,
+        2895,
+        2896,
+        2886,
+        2888,
+        2897,
+        2884,
+        2889,
+        2894,
+        2885,
+        2882
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2879
+      ]
+    }
+  ],
+  "reflections": {
+    "2879": {
+      "name": "concat",
+      "type": "Function",
+      "url": "/api/namespace/Trace-categories#concat",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "concat(...args: any): string",
+          "url": "/api/namespace/Trace-categories#concat-concat-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 126,
+              "character": 2
+            }
+          ],
+          "parameters": [
+            {
+              "name": "args",
+              "type": "any",
+              "flags": {
+                "isRest": true
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2882": {
+      "name": "VisualTreeEvents",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#visualtreeevents",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "VisualTreeEvents: \"VisualTreeEvents\" = 'VisualTreeEvents'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 107,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#visualtreeevents"
+        }
+      ]
+    },
+    "2883": {
+      "name": "Layout",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#layout",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Layout: \"Layout\" = 'Layout'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 108,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#layout"
+        }
+      ]
+    },
+    "2884": {
+      "name": "Style",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#style",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Style: \"Style\" = 'Style'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 109,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#style"
+        }
+      ]
+    },
+    "2885": {
+      "name": "ViewHierarchy",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#viewhierarchy",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "ViewHierarchy: \"ViewHierarchy\" = 'ViewHierarchy'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 110,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#viewhierarchy"
+        }
+      ]
+    },
+    "2886": {
+      "name": "NativeLifecycle",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#nativelifecycle",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "NativeLifecycle: \"NativeLifecycle\" = 'NativeLifecycle'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 111,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#nativelifecycle"
+        }
+      ]
+    },
+    "2887": {
+      "name": "Debug",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#debug",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Debug: \"Debug\" = 'Debug'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 112,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#debug"
+        }
+      ]
+    },
+    "2888": {
+      "name": "Navigation",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#navigation",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Navigation: \"Navigation\" = 'Navigation'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 113,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#navigation"
+        }
+      ]
+    },
+    "2889": {
+      "name": "Test",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#test",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Test: \"Test\" = 'Test'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 114,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#test"
+        }
+      ]
+    },
+    "2890": {
+      "name": "Binding",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#binding",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Binding: \"Binding\" = 'Binding'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 115,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#binding"
+        }
+      ]
+    },
+    "2891": {
+      "name": "BindingError",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#bindingerror",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "BindingError: \"BindingError\" = 'BindingError'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 116,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#bindingerror"
+        }
+      ]
+    },
+    "2892": {
+      "name": "Error",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#error",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Error: \"Error\" = 'Error'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 117,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#error"
+        }
+      ]
+    },
+    "2893": {
+      "name": "Animation",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#animation",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Animation: \"Animation\" = 'Animation'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 118,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#animation"
+        }
+      ]
+    },
+    "2894": {
+      "name": "Transition",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#transition",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Transition: \"Transition\" = 'Transition'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 119,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#transition"
+        }
+      ]
+    },
+    "2895": {
+      "name": "Livesync",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#livesync",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Livesync: \"Livesync\" = 'Livesync'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 120,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#livesync"
+        }
+      ]
+    },
+    "2896": {
+      "name": "ModuleNameResolver",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#modulenameresolver",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "ModuleNameResolver: \"ModuleNameResolver\" = 'ModuleNameResolver'",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 121,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#modulenameresolver"
+        }
+      ]
+    },
+    "2897": {
+      "name": "separator",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#separator",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "separator: \",\" = ','",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 123,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#separator"
+        }
+      ]
+    },
+    "2898": {
+      "name": "All",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#all",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "All: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 124,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#all"
+        }
+      ]
+    }
+  }
+}
