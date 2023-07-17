@@ -107,7 +107,11 @@ export default [
   },
   {
     text: '@nativescript/core',
-    items:[
+    items: [
+      {
+        text: 'Device',
+        link: '/guide/core/device'
+      },
       {
         text: 'Platform',
         link: '/guide/core/platform'
@@ -124,6 +128,10 @@ export default [
       {
         text: 'Code Sharing',
         link: '/guide/code-sharing',
+      },
+      {
+        text: 'ImageCache',
+        link: '/guide/ui/image-cache'
       },
       {
         text: 'Shared Element Transitions',
