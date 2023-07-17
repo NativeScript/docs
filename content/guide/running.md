@@ -2,35 +2,36 @@
 title: Running a Project
 ---
 
-To run a NativeScript app, you will need a device &mdash; either a physical or a virtual device.
+To run a NativeScript app, you need a device &mdash; either a physical or virtual.
 
 ## Running a project
 
-Running a project is done with the `ns run` command, there's also a `ns debug` command we cover in the [debugging documentation](/guide/debugging#debugging-with-chrome-devtools).
+To run a project, use the `ns run` command. There's also a `ns debug` command covered in the [debugging documentation](/guide/debugging#debugging-with-chrome-devtools).
 
 ```cli
 ns run android
 ns run ios
 ```
 
-The `run` command will run the app on all connected devices matching the platform, you can control which devices to run on with the following flags
+The `run` command runs the app on all connected devices matching the platform. You can control which devices to run on with the following flags:
 
 #### --simulator, --emulator
 
-These flags are identical. Passing them will only run the project on virtual devices.
+These flags are identical. Using them runs the project only on virtual devices.
 
 #### --device &lt;id&gt;
 
-Only run on the specified device, the id is taken from running `ns devices`.
+Only run on the specified device. The id is taken from the output of `ns devices`.
 
 ## Running on physical devices
 
 You can develop on physical devices in a couple ways:
 
-- Through **USB** by [enabling USB Debugging](#enable-usb-debugging-on-android-devices)
+- Through **USB** by [enabling USB Debugging on Android Devices](#enable-usb-debugging-on-android-devices) or [preparing an iOS device for development](#preparing-an-ios-device-for-development)
 - **Wirelessly** by following these guides:
   - [Connect to a device over Wi-Fi (Android 11+)](https://developer.android.com/studio/command-line/adb#connect-to-a-device-over-wi-fi-android-11+)
   - [Connect to a device over Wi-Fi (Android 10 and lower)](https://developer.android.com/studio/command-line/adb#wireless).
+  - [Connect to a device over Wi-Fi via Xcode](#connecting-an-ios-device-over-wi-fi)
 
 ### Enable USB Debugging on Android devices
 
@@ -38,7 +39,7 @@ You can develop on physical devices in a couple ways:
 
 Go to `Settings › About phone › Software info` and then tap `Build number` at least 7 times until a message pops up saying "You are now a developer".
 
-Next, navigate back to `Settings › System › Developer options` and enable `USB debugging`.
+Next, go to `Settings › System › Developer options` and enable `USB debugging`.
 
 #### 2. Plug in your device via USB and verify it's detected
 
@@ -62,24 +63,34 @@ If any of the above failed, we recommend checking out the [Android ADB documenta
 
 :::
 
+### Preparing an iOS device for development
 
-### Launching an app on an iOS physical device
+Before the NativeScript cli can run apps on a physical iOS device, the device must be set up and registered.
 
-1. Connect your iOS device to your Mac
+Use a USB cable to connect the device. Navigate to the `platforms/ios` folder in your project, then open the `.xcworkspace` file in Xcode.
 
-Use a USB to Lightning cable to connect the device to the Mac machine. Navigate to the `ios` folder in your project under `platforms`, then open the `.xcodeproj` file, or if you are using CocoaPods open the `.xcworkspace` in Xcode.
+:::warning Note
 
-If this is your first time running an app on your iOS device, you may need to register your device for development. Open the `Product` menu from Xcode's menubar, then go to `Destination`. Look for and select your device from the list. Xcode will then register your device for development.
+If the `platforms/ios` folder doesn't exist, run `ns prepare` to scaffold it.
 
-2. Configure code signing
+If there's no `.xcworkspace` file, you can open the `.xcodeproj` file instead.
 
-Register for an Apple developer account if you don't have one yet.
+:::
 
-Select your project in the Xcode Project Navigator, then select your main target (it should share the same name as your project). Look for the "General" tab. Go to "Signing" and make sure your Apple developer account or team is selected under the Team dropdown. Do the same for the tests target (it ends with Tests, and is below your main target).
+![Xcode Signing & Capabilities tab](../assets/images/running/xcode_signing_steps.png)
 
-3. Run your app
+<StepList>
 
-If the device is now registered with your developer account you should be able to run your NativeScript app on the device. Execute the following from your terminal to run the app from the CLI:
+1. Select the app target from the sidebar
+2. Select the target device
+3. Go to `Signing & Capabilities`
+4. Select a team (Create an [Apple developer account](https://developer.apple.com/) if you don't have one yet)
+5. If this is your first time running an app on your iOS device, you may need to register your device for development by clicking the `Register Device` button that shows up here
+6. To verify you are able to run on the device, run the app once from within Xcode
+
+</StepList>
+
+Once the app successfully runs from Xcode, you can close it and continue using the NativeScript cli:
 
 ```cli
 ns run ios
@@ -87,70 +98,52 @@ ns run ios
 
 The app should install and launch on the connected iOS device.
 
+### Connecting an iOS device over Wi-Fi
+
+Once the device has been [prepared for development](#preparing-an-ios-device-for-development), keep the device plugged in, open Xcode **Window › Devices and Simulators**, select your device from the left sidebar and tick the **Connect via network** checkbox.
+
+After disconnecting the cable, the device should still show up in `ns devices` and running the app should work as normal:
+
+```cli
+ns run ios
+```
+
+The app should install and launch on the iOS device.
+
+::: warning Note
+Xcode network devices sometimes get disconnected or have an unreliable connection. We recommend using a wired connection to avoid these occasional issues.
+:::
+
 ## Running on virtual devices
 
 ### Android Emulators
 
-Apart from using real Android devices, a viable option is to download, install and use an Android emulator.
-In NativeScript, we can use all Android emulators that are connected and recognized by the [`ns device`](/development-workflow/nativescript-cli-basics#list-connected-devices)
-
-::: tip Tip
-Sometimes emulators take longer to start. As a recommendation and to avoid timing issues, start the emulator before executing other CLI commands. Once the emulator is started, leave it open to avoid the initial load time the next time you need to deploy an Android application.
-:::
-
 #### Creating Android Virtual Device via Android Studio
 
-Open Android Studio, and then open "AVD Manager" &mdash; if you are on the welcome screen, then it's under the **Configure › AVD Manager** dropdown, otherwise it's under the **Tools › AVD Manager** menu.
+Open Android Studio, and then open **AVD Manager** from the **Tools › AVD Manager** menu (_Configure › AVD Manager_ dropdown on the Welcome Screen).
 
-If the list of available Virtual Devices is empty, you will need to create a new AVD. Click on "**Create Virtual Device...**" then pick a phone from the list. You can select any phone from the list &mdash; for example "**Pixel 3 XL**" and then click "**Next**". For the System Image select the latest version (the highest API Level in the list). If the selection is greyed out, click the "Download" link next to the Release Name to download the System Image and then click "**Next**" and "**Finish**" to create the AVD. The newly created AVD should show up in the list, and you should be able to click the green "play" button to start the virtual device.
+1. Click **Create Virtual Device...**
+2. Pick a device from the list, for example **Pixel 3 XL**
+3. Click **Next**, then select a system image. For most users we recommend picking the latest **API Level** from the **Recommended** tab (press download if the selection is greyed out).
+4. Click **Next** and leave everyting on default (feel free to customize/experiment with different settings).
+5. Click **Finish** to create the AVD, which should now show up in the **AVD Manager** list.
 
-#### Creating Android Virtual Device via command line tool
+To start the newly created AVD, press the green play button next to it.
 
-The `avdmanager` is a tool that allows you to create and manage Android Virtual Devices (AVDs) from the command line. The `avdmanager` is provided in the Android SDK Tools package (25.3.0 and higher) and is located in `<ANDROID_HOME_PATH_HERE>/cmdline-tools/latest/bin/`. For more information about the avdmanager and how to use it to create AVDs, see the [official avdmanager documentation](https://developer.android.com/studio/command-line/avdmanager).
+#### Creating Android Virtual Device via command line
 
-Command syntax to create new AVD
+You can use `avdmanager` to create Android virtual devices. To get started, read the [official Android documenation about using `avdmanager`](https://developer.android.com/tools/avdmanager).
 
-```cli
-cd $ANDROID_HOME/cmdline-tools/latest/bin
-avdmanager create avd -n name -k "sdk_id" [-c {path|size}] [-f] [-p path]
-```
+### Third-party Android Emulators
 
-You must provide a name for the AVD and specify the ID of the SDK package to use for the AVD using sdk_id wrapped in quotes.
-For example, the following command creates an AVD named `test` using the x86 system image for API level 25:
-
-```cli
-avdmanager create avd -n test -k "system-images;android-25;google_apis;x86"
-```
-
-::: warning Note
-The above command suggest that the system image is already downloaded. To download an image use the `sdkmanager`. For example `sdkmanager "system-images;android-25;google_apis;x86"`
-:::
-
-The following describes the usages for the other options:
-
-- `-c {path|size}`: The path to the SD card image for this AVD or the size of a new SD card image to create for this AVD, in KB or MB, denoted with K or M. For example, -c path/to/sdcard/ or -c 1000M.
-- `-f`: Force creation of the AVD. Use this option if you need to overwrite an existing AVD with a new AVD using the same name.
-- `-p path`: Path to the location where the directory for this AVD's files will be created. If you do not specify a path, the AVD will be created in ~/.android/avd/.
-
-To list all the downloaded system images use the `list` command.
-
-```cli
-avdmanager list
-```
-
-#### Using third-party emulators
-
-An applicable option is to use third-party emulators (like **GenyMotion**).
-Visit the official sites for details on how to install and use these emulators.
-
-- [GenyMotion official site](https://www.genymotion.com)
+NativeScript works with most third-party Android emulators like [GenyMotion](https://www.genymotion.com). For usage instructions, please refer to their documentation.
 
 ### iOS Simulators
 
 #### Creating iOS Simulators
 
-The iOS simulator emulates iOS devices on Macs. The following documentation is a quick way to get the iOS simulator set up. For more information, see [Apple's documentation](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/simulator_help_topics/Chapter/Chapter.html).
+To create additional iOS simulators, follow the [official Apple documentation about adding additional Simulators](https://developer.apple.com/documentation/safari-developer-tools/adding-additional-simulators)
 
 #### Running on iOS Simualators
 
-On a mac if you have XCode installed with the proper tools, executing `ns run ios` from your terminal will launch the Simulator program with a default device. Alternatively, you can open the Simulator program on your mac, select which device(s) you want to open by navigating to `File -> Open Simulator` and choosing the device to launch. Then execute `ns run ios` and the NativeScript app will launch on the open simulator(s).
+Running `ns run ios` will launch the default Simulator (if there are no physical devices, or already running Simulators available). To switch to a different Simulator, go to **File › Open Simulator** and select a Simulator to run.
