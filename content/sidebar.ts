@@ -126,6 +126,10 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Navigation',
+        link: '/guide/ui/navigation',
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
