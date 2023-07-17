@@ -113,6 +113,10 @@ export default [
         link: '/guide/core/connectivity',
       },
       {
+        text: 'Screen',
+        link: '/guide/core/screen'
+      },
+      {
         text: 'Device',
         link: '/guide/core/device'
       },
