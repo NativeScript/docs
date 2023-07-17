@@ -2,11 +2,11 @@
 title: XmlParser
 ---
 
-This class allows you to parse XML data.
+The XMLParser provides the ability to parse and extract data from XML documents.
 
 ## Using XmlParser
 
-To parse an xml data, first institiate the class with the [parserEvent](#parserevent) handler. 
+To parse an xml document, first institiate the class with the [ParserEvent](#parserevent) handler. 
 
 ```ts
 const xmlParser = new XmlParser(this.onEventCallback); 
