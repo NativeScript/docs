@@ -312,7 +312,6 @@ The property name intended for utilization within a CSS rule.
    ```
 
 ---
-<!-- TODO: Add example -->
 #### converter()
 ```ts
 {
