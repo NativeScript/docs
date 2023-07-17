@@ -36,7 +36,7 @@ To apply the JS value to the exposed native view, call the `setNative` method on
     this.nativeView.text = value
 }
 ```
-For a complete real world example about exposing a native UI Component to NativeScript developers, and how the Property system is used, read the [How to create a NativeScript plugin that uses native iOS & Android views (Part 1) - Label Marquee!](https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label/) article.
+To gain a comprehensive understanding of how the Property system is employed in NativeScript to expose a native UI component, we recommend reading the informative article titled [How to create a NativeScript plugin that uses native iOS & Android views (Part 1) - Label Marquee!](https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label/). This article provides a practical real-world example that demonstrates the process of developing a NativeScript plugin while utilizing native iOS and Android views.
 ### Adding a new CSS property
 To add a new CSS property, use the [CssProperty]() class. It extends the [Property]() class to accept the extra `cssName` option. CSS properties are registered with the [Style](https://docs.nativescript.org/api-reference/classes/style) class.
 
