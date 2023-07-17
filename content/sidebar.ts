@@ -130,6 +130,10 @@ export default [
         link: '/guide/code-sharing',
       },
       {
+        text: 'Property System',
+        link: '/guide/property-system'
+      },
+      {
         text: 'ImageCache',
         link: '/guide/ui/image-cache'
       },
