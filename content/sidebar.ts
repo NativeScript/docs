@@ -106,6 +106,15 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items: [
+      {
+        text: 'Device',
+        link: '/guide/core/device'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
@@ -119,6 +128,10 @@ export default [
       {
         text: 'Property System',
         link: '/guide/property-system'
+      },
+      {
+        text: 'ImageCache',
+        link: '/guide/ui/image-cache'
       },
       {
         text: 'Shared Element Transitions',
