@@ -3,13 +3,13 @@ title: ImagaSource
 description: Create an instance from different sources.
 ---
 
-The ImagaSource class encapsulates the common abstraction over a platform-specific ([android.graphics.Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html) for Android and [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class) for iOS) image object, allowing you to create an image source from sources such as URL, local file, base64 string, etc.
+ImageSource provides a common interface over ([android.graphics.Bitmap](http://developer.android.com/reference/android/graphics/Bitmap.html) for Android and [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class) for iOS, allowing you to create an images from URLs, local files, base64 strings, etc.
 <!-- TODO: add links -->
 <!-- TODO: add Preview -->
 
 ## How to use the ImageSource class
 
-The following sections demonstrate how to create an ImageSource instance from different sources.
+The following sections demonstrate how to create an ImageSource from different sources.
 
 ### Load an image using a resource name
 
@@ -32,14 +32,12 @@ To load an image from a file, use any of [fromFile](#fromfile), [fromFileOrResou
 ```ts
 async function loadImage(){
 
-try {
+  try {
+    const imageFromFile: ImageSource = await ImageSource.fromFile(filePath)
+    
+  } catch (error) {
 
-const imageFromFile: ImageSource = await ImageSource.fromFile(filePath)
-
-} catch(error) {
-
-    }
-}
+  }
 ```
 
 ### Create an image from a base64 string
@@ -51,7 +49,7 @@ const base64Str = "some base64Str"
 const image: ImageSource = ImageSource.fromBase64Sync(base64Str)
 
 ```
-### Create an image source from a font icon code
+### Create an ImageSource from a font icon code
 ```ts
 const font = new Font("sans serif")
 const color = new Color("black")
