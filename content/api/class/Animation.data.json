@@ -1,0 +1,162 @@
+{
+  "title": "Animation",
+  "hierarchy": [
+    [
+      {
+        "text": "Animation"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        4960
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        4968,
+        4971,
+        4964
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        4972
+      ]
+    }
+  ],
+  "reflections": {
+    "4960": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Animation#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Animation(animationDefinitions: <a href=\"/api/interface/AnimationDefinition\">AnimationDefinition</a>[], playSequentially?: boolean): <a href=\"/api/class/Animation\">Animation</a>",
+          "url": "/api/class/Animation#constructor-new-animation",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 145,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "animationDefinitions",
+              "type": "<a href=\"/api/interface/AnimationDefinition\">AnimationDefinition</a>[]",
+              "flags": {}
+            },
+            {
+              "name": "playSequentially",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Animation\">Animation</a>"
+        }
+      ]
+    },
+    "4964": {
+      "name": "play",
+      "type": "Property",
+      "url": "/api/class/Animation#play",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "play: (resetOnFinish?: boolean) => AnimationPromise",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 146,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Animation#play"
+        }
+      ]
+    },
+    "4968": {
+      "name": "cancel",
+      "type": "Property",
+      "url": "/api/class/Animation#cancel",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "cancel: () => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 147,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Animation#cancel"
+        }
+      ]
+    },
+    "4971": {
+      "name": "isPlaying",
+      "type": "Property",
+      "url": "/api/class/Animation#isplaying",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "isPlaying: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 148,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Animation#isplaying"
+        }
+      ]
+    },
+    "4972": {
+      "name": "_resolveAnimationCurve",
+      "type": "Method",
+      "url": "/api/class/Animation#resolveanimationcurve",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_resolveAnimationCurve(curve: any): any",
+          "url": "/api/class/Animation#resolveanimationcurve-resolveanimationcurve-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 149,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    }
+  }
+}

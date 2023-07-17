@@ -1,0 +1,89 @@
+{
+  "title": "Accuracy",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2671,
+        2672
+      ]
+    }
+  ],
+  "reflections": {
+    "2671": {
+      "name": "any",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Accuracy#any",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The default accuracy. About 300 meters."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "any: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 338,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The default accuracy. About 300 meters."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Accuracy#any"
+        }
+      ]
+    },
+    "2672": {
+      "name": "high",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Accuracy#high",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "High accuracy. About 3 meters."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "high: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 343,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "High accuracy. About 3 meters."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Accuracy#high"
+        }
+      ]
+    }
+  }
+}

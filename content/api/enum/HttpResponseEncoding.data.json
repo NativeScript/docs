@@ -1,0 +1,53 @@
+{
+  "title": "HttpResponseEncoding",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        2142,
+        2141
+      ]
+    }
+  ],
+  "reflections": {
+    "2141": {
+      "name": "UTF8",
+      "type": "EnumMember",
+      "url": "/api/enum/HttpResponseEncoding#utf8",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "UTF8: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 130,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/HttpResponseEncoding#utf8"
+        }
+      ]
+    },
+    "2142": {
+      "name": "GBK",
+      "type": "EnumMember",
+      "url": "/api/enum/HttpResponseEncoding#gbk",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "GBK: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 131,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/HttpResponseEncoding#gbk"
+        }
+      ]
+    }
+  }
+}

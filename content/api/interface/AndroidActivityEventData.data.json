@@ -1,0 +1,149 @@
+{
+  "title": "AndroidActivityEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "AndroidActivityEventData"
+      }
+    ],
+    [
+      {
+        "text": "AndroidActivityBundleEventData",
+        "link": "/api/interface/AndroidActivityBundleEventData"
+      },
+      {
+        "text": "AndroidActivityRequestPermissionsEventData",
+        "link": "/api/interface/AndroidActivityRequestPermissionsEventData"
+      },
+      {
+        "text": "AndroidActivityResultEventData",
+        "link": "/api/interface/AndroidActivityResultEventData"
+      },
+      {
+        "text": "AndroidActivityNewIntentEventData",
+        "link": "/api/interface/AndroidActivityNewIntentEventData"
+      },
+      {
+        "text": "AndroidActivityBackPressedEventData",
+        "link": "/api/interface/AndroidActivityBackPressedEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1107,
+        1108,
+        1109
+      ]
+    }
+  ],
+  "reflections": {
+    "1107": {
+      "name": "activity",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityEventData#activity",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The activity."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "activity: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 407,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The activity."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityEventData#activity"
+        }
+      ]
+    },
+    "1108": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 412,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityEventData#eventname"
+        }
+      ]
+    },
+    "1109": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "object: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 417,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityEventData#object"
+        }
+      ]
+    }
+  }
+}

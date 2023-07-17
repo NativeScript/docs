@@ -1,0 +1,301 @@
+{
+  "title": "GestureTypes",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        11095,
+        11100,
+        11097,
+        11096,
+        11099,
+        11098,
+        11094,
+        11101
+      ]
+    }
+  ],
+  "reflections": {
+    "11094": {
+      "name": "tap",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#tap",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes tap (click) gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "tap: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes tap (click) gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#tap"
+        }
+      ]
+    },
+    "11095": {
+      "name": "doubleTap",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#doubletap",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes double tap gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "doubleTap: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 36,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes double tap gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#doubletap"
+        }
+      ]
+    },
+    "11096": {
+      "name": "pinch",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#pinch",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes pinch gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "pinch: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 40,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes pinch gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#pinch"
+        }
+      ]
+    },
+    "11097": {
+      "name": "pan",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#pan",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes pan gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "pan: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 44,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes pan gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#pan"
+        }
+      ]
+    },
+    "11098": {
+      "name": "swipe",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#swipe",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "swipe: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#swipe"
+        }
+      ]
+    },
+    "11099": {
+      "name": "rotation",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#rotation",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes rotation gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "rotation: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 52,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes rotation gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#rotation"
+        }
+      ]
+    },
+    "11100": {
+      "name": "longPress",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#longpress",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes long press gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "longPress: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 56,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes long press gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#longpress"
+        }
+      ]
+    },
+    "11101": {
+      "name": "touch",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureTypes#touch",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes touch action."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "touch: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 60,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes touch action."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureTypes#touch"
+        }
+      ]
+    }
+  }
+}

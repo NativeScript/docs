@@ -1,0 +1,422 @@
+{
+  "title": "Property",
+  "hierarchy": [
+    [
+      {
+        "text": "Property"
+      }
+    ],
+    [
+      {
+        "text": "CoercibleProperty",
+        "link": "/api/class/CoercibleProperty"
+      },
+      {
+        "text": "InheritedProperty",
+        "link": "/api/class/InheritedProperty"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        9063
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        9093,
+        9074,
+        9073,
+        9092,
+        9081,
+        9071,
+        9080,
+        9070,
+        9069,
+        9075,
+        9088,
+        9068,
+        9084,
+        9072
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        9099,
+        9094
+      ]
+    }
+  ],
+  "reflections": {
+    "9063": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Property#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Property&lt;T, U&gt;(options: PropertyOptions&lt;T, U&gt;): <a href=\"/api/class/Property\">Property</a>&lt;T, U&gt;",
+          "url": "/api/class/Property#constructor-new-property",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 58,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "PropertyOptions&lt;T, U&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Property\">Property</a>&lt;T, U&gt;"
+        }
+      ]
+    },
+    "9068": {
+      "name": "registered",
+      "type": "Property",
+      "url": "/api/class/Property#registered",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "registered: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 44,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Property#registered"
+        }
+      ]
+    },
+    "9069": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/Property#name",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 45,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/Property#name"
+        }
+      ]
+    },
+    "9070": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/class/Property#key",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "key: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 46,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/Property#key"
+        }
+      ]
+    },
+    "9071": {
+      "name": "getDefault",
+      "type": "Property",
+      "url": "/api/class/Property#getdefault",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "getDefault: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 47,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/Property#getdefault"
+        }
+      ]
+    },
+    "9072": {
+      "name": "setNative",
+      "type": "Property",
+      "url": "/api/class/Property#setnative",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "setNative: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 48,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/Property#setnative"
+        }
+      ]
+    },
+    "9073": {
+      "name": "defaultValueKey",
+      "type": "Property",
+      "url": "/api/class/Property#defaultvaluekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "defaultValueKey: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 49,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/Property#defaultvaluekey"
+        }
+      ]
+    },
+    "9074": {
+      "name": "defaultValue",
+      "type": "Property",
+      "url": "/api/class/Property#defaultvalue",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "defaultValue: U",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 50,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/Property#defaultvalue"
+        }
+      ]
+    },
+    "9075": {
+      "name": "nativeValueChange",
+      "type": "Property",
+      "url": "/api/class/Property#nativevaluechange",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "nativeValueChange: (owner: T, value: U) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 51,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/Property#nativevaluechange"
+        }
+      ]
+    },
+    "9080": {
+      "name": "isStyleProperty",
+      "type": "Property",
+      "url": "/api/class/Property#isstyleproperty",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isStyleProperty: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 52,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Property#isstyleproperty"
+        }
+      ]
+    },
+    "9081": {
+      "name": "get",
+      "type": "Property",
+      "url": "/api/class/Property#get",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "get: () => U",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Property#get"
+        }
+      ]
+    },
+    "9084": {
+      "name": "set",
+      "type": "Property",
+      "url": "/api/class/Property#set",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "set: (value: U) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 54,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Property#set"
+        }
+      ]
+    },
+    "9088": {
+      "name": "overrideHandlers",
+      "type": "Property",
+      "url": "/api/class/Property#overridehandlers",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "overrideHandlers: (options: PropertyOptions&lt;T, U&gt;) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 55,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Property#overridehandlers"
+        }
+      ]
+    },
+    "9092": {
+      "name": "enumerable",
+      "type": "Property",
+      "url": "/api/class/Property#enumerable",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "enumerable: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 56,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Property#enumerable"
+        }
+      ]
+    },
+    "9093": {
+      "name": "configurable",
+      "type": "Property",
+      "url": "/api/class/Property#configurable",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "configurable: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 57,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Property#configurable"
+        }
+      ]
+    },
+    "9094": {
+      "name": "register",
+      "type": "Method",
+      "url": "/api/class/Property#register",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "register(cls: {}): void",
+          "url": "/api/class/Property#register-register-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 59,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "{}",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "9099": {
+      "name": "isSet",
+      "type": "Method",
+      "url": "/api/class/Property#isset",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isSet(instance: T): boolean",
+          "url": "/api/class/Property#isset-isset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 62,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "instance",
+              "type": "T",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    }
+  }
+}

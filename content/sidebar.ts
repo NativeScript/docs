@@ -24,9 +24,9 @@ export default [
         items: [
           {
             text: 'Debugging',
-            link: '/guide/debugging'
-          }
-        ]
+            link: '/guide/debugging',
+          },
+        ],
       },
       {
         text: 'Tutorials',
@@ -97,13 +97,21 @@ export default [
       //     },
       //   ],
       // },
-     { text: 'tsconfig.json', link: '/project-structure/tsconfig-json', icon: 'file' },
+      {
+        text: 'tsconfig.json',
+        link: '/project-structure/tsconfig-json',
+        icon: 'file',
+      },
       // { text: 'references.d.ts', link: '//#', icon: 'file' },
     ],
   },
   {
     text: '@nativescript/core',
-    items:[
+    items: [
+      {
+        text: 'Device',
+        link: '/guide/core/device'
+      },
       {
         text: 'XmlParser',
         link: '/guide/core/xml-parser'
@@ -121,59 +129,67 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'ImageCache',
+        link: '/guide/ui/image-cache'
+      },
+      {
+        text: 'Shared Element Transitions',
+        link: '/guide/shared-element-transitions'
+      }
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
-  //       { text: 'Styling', link: '//#' },
-  //       { text: 'Interactivity', link: '//#' },
-  //       {
-  //         text: 'Layout Containers',
-  //         items: [
-  //           { text: 'StackLayout', link: '//#' },
-  //           { text: 'GridLayout', link: '//#' },
-  //           { text: 'RootLayout', link: '//#' },
-  //           { text: 'FlexboxLayout', link: '//#' },
-  //           { text: 'WrapLayout', link: '//#' },
-  //           { text: 'AbsoluteLayout', link: '//#' },
-  //         ],
-  //       },
-  //       {
-  //         text: 'Navigation Components',
-  //         items: [
-  //           { text: 'Frame', link: '//#' },
-  //           { text: 'Page', link: '//#' },
-  //           { text: 'ActionBar', link: '//#' },
-  //           { text: 'ActionItem', link: '//#' },
-  //           { text: 'NavigationButton', link: '//#' },
-  //         ],
-  //       },
-  //       {
-  //         text: 'Components',
-  //         items: [
-  //           { text: 'ActivityIndicator', link: '//#' },
-  //           { text: 'Button', link: '//#' },
-  //           { text: 'DatePicker', link: '//#' },
-  //           { text: 'HtmlView', link: '//#' },
-  //           { text: 'Image', link: '/' },
-  //           { text: 'Label', link: '//#' },
-  //           { text: 'ListPicker', link: '//#' },
-  //           { text: 'ListView', link: '//#' },
-  //           { text: 'Placeholder', link: '//#' },
-  //           { text: 'Progress', link: '//#' },
-  //           { text: 'ScrollView', link: '//#' },
-  //           { text: 'SearchBar', link: '//#' },
-  //           { text: 'SegmentedBar', link: '//#' },
-  //           { text: 'Slider', link: '//#' },
-  //           { text: 'Switch', link: '//#' },
-  //           { text: 'TabView', link: '//#' },
-  //           { text: 'TextField', link: '//#' },
-  //           { text: 'TextView', link: '//#' },
-  //           { text: 'TimePicker', link: '//#' },
-  //           { text: 'WevView', link: '//#' },
-  //         ],
-  //       },
+  {
+    text: 'UI',
+    items: [
+      //       { text: 'Styling', link: '//#' },
+      //       { text: 'Interactivity', link: '//#' },
+      {
+        text: 'Layout Containers',
+        items: [
+          //           { text: 'StackLayout', link: '//#' },
+          //           { text: 'GridLayout', link: '//#' },
+          //           { text: 'RootLayout', link: '//#' },
+          //           { text: 'FlexboxLayout', link: '//#' },
+          //           { text: 'WrapLayout', link: '//#' },
+          { text: 'AbsoluteLayout', link: '/ui/absolute-layout' },
+        ],
+      },
+      //       {
+      //         text: 'Navigation Components',
+      //         items: [
+      //           { text: 'Frame', link: '//#' },
+      //           { text: 'Page', link: '//#' },
+      //           { text: 'ActionBar', link: '//#' },
+      //           { text: 'ActionItem', link: '//#' },
+      //           { text: 'NavigationButton', link: '//#' },
+      //         ],
+      //       },
+      //       {
+      //         text: 'Components',
+      //         items: [
+      //           { text: 'ActivityIndicator', link: '//#' },
+      //           { text: 'Button', link: '//#' },
+      //           { text: 'DatePicker', link: '//#' },
+      //           { text: 'HtmlView', link: '//#' },
+      //           { text: 'Image', link: '/' },
+      //           { text: 'Label', link: '//#' },
+      //           { text: 'ListPicker', link: '//#' },
+      //           { text: 'ListView', link: '//#' },
+      //           { text: 'Placeholder', link: '//#' },
+      //           { text: 'Progress', link: '//#' },
+      //           { text: 'ScrollView', link: '//#' },
+      //           { text: 'SearchBar', link: '//#' },
+      //           { text: 'SegmentedBar', link: '//#' },
+      //           { text: 'Slider', link: '//#' },
+      //           { text: 'Switch', link: '//#' },
+      //           { text: 'TabView', link: '//#' },
+      //           { text: 'TextField', link: '//#' },
+      //           { text: 'TextView', link: '//#' },
+      //           { text: 'TimePicker', link: '//#' },
+      //           { text: 'WevView', link: '//#' },
+    ],
+  },
   //       {
   //         text: 'Dialogs',
   //         items: [

@@ -1,0 +1,73 @@
+{
+  "title": "FontScaleCategory",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        1238,
+        1236,
+        1237
+      ]
+    }
+  ],
+  "reflections": {
+    "1236": {
+      "name": "ExtraSmall",
+      "type": "EnumMember",
+      "url": "/api/enum/FontScaleCategory#extrasmall",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ExtraSmall: \"extra-small\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/font-scale.d.ts",
+              "line": 4,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/FontScaleCategory#extrasmall"
+        }
+      ]
+    },
+    "1237": {
+      "name": "Medium",
+      "type": "EnumMember",
+      "url": "/api/enum/FontScaleCategory#medium",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Medium: \"medium\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/font-scale.d.ts",
+              "line": 5,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/FontScaleCategory#medium"
+        }
+      ]
+    },
+    "1238": {
+      "name": "ExtraLarge",
+      "type": "EnumMember",
+      "url": "/api/enum/FontScaleCategory#extralarge",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ExtraLarge: \"extra-large\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/font-scale.d.ts",
+              "line": 6,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/FontScaleCategory#extralarge"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "title": "FileSystemEntity",
+  "hierarchy": [
+    [
+      {
+        "text": "FileSystemEntity"
+      }
+    ],
+    [
+      {
+        "text": "File",
+        "link": "/api/class/File"
+      },
+      {
+        "text": "Folder",
+        "link": "/api/class/Folder"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2002
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2004,
+        2005,
+        2007,
+        2006
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2008,
+        2010,
+        2016,
+        2019
+      ]
+    }
+  ],
+  "reflections": {
+    "2002": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/FileSystemEntity#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new FileSystemEntity(): <a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>",
+          "url": "/api/class/FileSystemEntity#constructor-new-filesystementity",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>"
+        }
+      ]
+    },
+    "2004": {
+      "name": "lastModified",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#lastmodified",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Date object specifying the last time this entity was modified."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "lastModified: Date",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 16,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Date object specifying the last time this entity was modified."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#lastmodified"
+        }
+      ]
+    },
+    "2005": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the name of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 21,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#name"
+        }
+      ]
+    },
+    "2006": {
+      "name": "path",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#path",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "path: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 26,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#path"
+        }
+      ]
+    },
+    "2007": {
+      "name": "parent",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#parent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "parent: <a href=\"/api/class/Folder\">Folder</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 33,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#parent"
+        }
+      ]
+    },
+    "2008": {
+      "name": "remove",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#remove",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "remove(): Promise&lt;any&gt;",
+          "url": "/api/class/FileSystemEntity#remove-remove-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 38,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "2010": {
+      "name": "removeSync",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#removesync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeSync(onError?: (error: any) => any): void",
+          "url": "/api/class/FileSystemEntity#removesync-removesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 43,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2016": {
+      "name": "rename",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#rename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "rename(newName: string): Promise&lt;any&gt;",
+          "url": "/api/class/FileSystemEntity#rename-rename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 49,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "2019": {
+      "name": "renameSync",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#renamesync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "renameSync(newName: string, onError?: (error: any) => any): void",
+          "url": "/api/class/FileSystemEntity#renamesync-renamesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 55,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity synchronously, using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}
