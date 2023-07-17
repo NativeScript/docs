@@ -14,8 +14,8 @@ The following sections will show you how to access an instance of the Frame clas
 
 ### Navigating to another page
 
-To navigate from one [Page](/ui/page) to another, you need to first [get the Frame instance](#getting-a-frame-instance) within which you need to navigate. 
-Then, for a simple navigation, call the instance's [navigate](#navigate) method on the instance, passing it a string containing the path of the page to navigate to.
+To navigate from one `Page` to another, first obtain the desired [Frame instance](#getting-a-frame-instance). 
+For simple navigation, call the [navigate](#navigate) method passing along the path of the page to navigate to.
 
 ```ts
 frame.navigate("~/pages/details/details-page")
@@ -27,24 +27,24 @@ For a complete navigation example, have a look at [Setup navigation from home to
 
 ### Getting a Frame instance
 
-The following are the ways in which to obtain an instance of the Frame class:
+The following are some of the ways in which to obtain a Frame:
 
-- Calling the static [topmost](#topmost) method on the Frame class.
+1. Calling the static [topmost](#topmost)
 
 ```ts
-const frame: Frame = Frame.topmost();
+const frame = Frame.topmost();
 ```
-- Via the `frame` property of a [Page](/ui/page) instance.
+2. Via the `frame` property of a [Page](/ui/page)
 
 For example, you can get the current Frame instance from a `tap` event's data as follows:
 
 ```ts
 onFlickTap(args: EventData): void {
-    const btn = args.object as Button;
-    const frame = btn.page.frame
-  }
+  const btn = args.object as Button;
+  const frame = btn.page.frame
+}
 ```
-- Calling the static [getFrameById](#getframebyid) method on the Frame class with the id of the frame instance of interest.
+1. Calling the static [getFrameById](#getframebyid) with the id of the frame instance of interest
 
 ```ts
 const frame = Frame.getFrameById("frame-id")
@@ -193,7 +193,7 @@ This method has the following overloads:
 ```ts
 frame.goBack(to)
 ```
-Navigates back using the navigation hierarchy, contained within a Frame stack where the top value is popped.
+Navigates back using the navigation stack within a Frame.
 - _Optional_ `to`: The back stack entry object for where to navigate back to. The object has the following properties:
 
 - `entry`(type: [NavigationEntry](#navigation-entry-interface))
@@ -203,7 +203,7 @@ Navigates back using the navigation hierarchy, contained within a Frame stack wh
 ---
 ### getFrameById()
 ```ts
-const frame: Frame = Frame.getFrameById(id: string)
+const frame = Frame.getFrameById(id: string)
 ```
 Gets a frame with the specified id.
 
@@ -211,7 +211,7 @@ Gets a frame with the specified id.
 
 ### topmost()
 ```ts
-const frame: Frame = Frame.topmost()
+const frame = Frame.topmost()
 ```
 Gets the topmost frame in the frames stack.
 
@@ -219,7 +219,7 @@ Gets the topmost frame in the frames stack.
 
 ### canGoBack()
 ```ts
-const canGoBack: boolean = frame.canGoBack()
+const canGoBack = frame.canGoBack()
 ```
 Checks whether the goBack operation is available.
 
