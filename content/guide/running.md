@@ -25,7 +25,7 @@ Only run on the specified device. The id is taken from the output of `ns devices
 
 ## Running on physical devices
 
-You can develop on physical devices in a couple ways:
+You can develop on physical devices:
 
 - Through **USB** by [enabling USB Debugging on Android Devices](#enable-usb-debugging-on-android-devices) or [preparing an iOS device for development](#preparing-an-ios-device-for-development)
 - **Wirelessly** by following these guides:
@@ -102,7 +102,7 @@ The app should install and launch on the connected iOS device.
 
 Once the device has been [prepared for development](#preparing-an-ios-device-for-development), keep the device plugged in, open Xcode **Window › Devices and Simulators**, select your device from the left sidebar and tick the **Connect via network** checkbox.
 
-After disconnecting the cable, the device should still show up in `ns devices` and running the app should work as normal:
+After disconnecting the cable, the device should remain visible in `ns devices` and running the app should work as normal:
 
 ```cli
 ns run ios
