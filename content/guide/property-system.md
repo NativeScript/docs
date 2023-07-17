@@ -98,7 +98,22 @@ you can use one rule for all the sides.
     margin: 0 10 0 10
 }
 ```
-To create a shorthand property, use the CssPropery class to define all the properties to be shortened. Then return the shorthand with the `getter()` method of the ShorthandProperty class.
+To create a shorthand property, use the `CssProperty` class to define all the properties individually as normal. Then return the shorthand with the `getter()` method of the `ShorthandProperty` class.
+Here's an example of how the margin shorthand is implemented:
+```ts
+const marginProperty = new ShorthandProperty<Style, string | CoreTypes.PercentLengthType>({
+	name: 'margin',
+	cssName: 'margin',
+	getter: function (this: Style) {
+		if (PercentLength.equals(this.marginTop, this.marginRight) && PercentLength.equals(this.marginTop, this.marginBottom) && PercentLength.equals(this.marginTop, this.marginLeft)) {
+			return this.marginTop;
+		}
+
+		return `${PercentLength.convertToString(this.marginTop)} ${PercentLength.convertToString(this.marginRight)} ${PercentLength.convertToString(this.marginBottom)} ${PercentLength.convertToString(this.marginLeft)}`;
+	},
+	converter: convertToMargins,
+});
+marginProperty.register(Style);
 <!-- TODO: Add an example -->
 ```ts
 import { ShorthandProperty, Style } from "@nativescript-core"
