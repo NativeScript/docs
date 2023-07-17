@@ -147,6 +147,10 @@ export default [
         text: 'ImageCache',
         link: '/guide/core/image-cache',
       },
+      {
+        text: 'Utils',
+        link: '/guide/core/utils'
+      },
     ],
   },
   {
