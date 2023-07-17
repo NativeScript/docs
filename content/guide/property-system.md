@@ -9,7 +9,7 @@ The property system in NativeScript allows for the exposure of native platform p
 - it can suspend updating of values when desired
 - it can auto request layout updates when properties change when desired
 
-NativeScript provides a basic property system via the `Property` class, which is a simple wrapper around the [Object.defineProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) with some additional callbacks like `valueChange`, `valueConverter` and `equalityComparer`.
+Within NativeScript, the Property class serves as a fundamental property system, encompassing a straightforward wrapper around the [Object.defineProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) function. This class also incorporates supplementary callbacks such as valueChange, valueConverter, and equalityComparer.
 
 ## Using Property
 
