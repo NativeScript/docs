@@ -115,6 +115,10 @@ export default [
       {
         text: 'XmlParser',
         link: '/guide/core/xml-parser'
+      },
+      {
+        text: 'Utils',
+        link: '/guide/core/utils'
       }
     ]
   },
@@ -122,12 +126,20 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Navigation',
+        link: '/guide/ui/navigation',
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
       {
         text: 'Code Sharing',
         link: '/guide/code-sharing',
+      },
+      {
+        text: 'Property System',
+        link: '/guide/property-system'
       },
       {
         text: 'ImageCache',
