@@ -150,10 +150,6 @@ export default [
         link: '/guide/property-system'
       },
       {
-        text: 'ImageCache',
-        link: '/guide/ui/image-cache'
-      },
-      {
         text: 'Shared Element Transitions',
         link: '/guide/shared-element-transitions'
       }
@@ -162,6 +158,19 @@ export default [
   {
     text: 'UI',
     items: [
+      {
+        text: 'Image',
+        items: [
+          {
+            text: 'ImageCache',
+            link: '/guide/ui/image-cache'
+          },
+          {
+            text: 'ImageSource',
+            link: '/guide/ui/image-source'
+          }
+        ]
+      },
       //       { text: 'Styling', link: '//#' },
       //       { text: 'Interactivity', link: '//#' },
       {
