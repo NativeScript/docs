@@ -294,7 +294,7 @@ property.overrideHandlers(options: PropertyOptions<T, U>)
     cssName: "my-css-property"
 }
    ```
-The name of the property to be used in a CSS rule.
+The property name intended for utilization within a CSS rule.
 
 ### ShorthandPropertyOptions Interface
 ```ts
