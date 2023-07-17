@@ -140,6 +140,10 @@ export default [
     text: '@nativescript/core',
     items: [
       {
+        text: 'Observable',
+        link: '/guide/core/observable'
+      },
+      {
         text: 'Screen',
         link: '/guide/core/screen'
       },
