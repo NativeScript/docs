@@ -1,0 +1,1527 @@
+{
+  "title": "Color",
+  "hierarchy": [
+    [
+      {
+        "text": "Color"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1267
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1280,
+        1287,
+        1285,
+        1283,
+        1282,
+        1284,
+        1288,
+        1286,
+        1281
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1334,
+        1343,
+        1337,
+        1323,
+        1289,
+        1240,
+        1255,
+        1261,
+        1247,
+        1296,
+        1298,
+        1329,
+        1292,
+        1294,
+        1244,
+        1331,
+        1250,
+        1326,
+        1300,
+        1340,
+        1303,
+        1310,
+        1312,
+        1319,
+        1321
+      ]
+    }
+  ],
+  "reflections": {
+    "1240": {
+      "name": "equals",
+      "type": "Method",
+      "url": "/api/class/Color#equals-2",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "equals(value1: <a href=\"/api/class/Color\">Color</a>, value2: <a href=\"/api/class/Color\">Color</a>): boolean",
+          "url": "/api/class/Color#equals-2-equals-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 66,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Compares two Color instances."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value1",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A Color to compare."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "value2",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A Color to compare."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1244": {
+      "name": "isValid",
+      "type": "Method",
+      "url": "/api/class/Color#isvalid",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isValid(value: any): boolean",
+          "url": "/api/class/Color#isvalid-isvalid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 72,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Validates if a value can be converted to color."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Input string."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1247": {
+      "name": "fromIosColor",
+      "type": "Method",
+      "url": "/api/class/Color#fromioscolor",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "fromIosColor(value: any): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#fromioscolor-fromioscolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 77,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates color from iOS-specific UIColor value representation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1250": {
+      "name": "mix",
+      "type": "Method",
+      "url": "/api/class/Color#mix",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "mix(color1: <a href=\"/api/class/Color\">Color</a>, color2: <a href=\"/api/class/Color\">Color</a>, amount: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#mix-mix-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 198,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "returns the color complement"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "color1",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {}
+            },
+            {
+              "name": "color2",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {}
+            },
+            {
+              "name": "amount",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1255": {
+      "name": "fromHSL",
+      "type": "Method",
+      "url": "/api/class/Color#fromhsl",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "fromHSL(a: any, h: any, s: any, l: any): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#fromhsl-fromhsl-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 204,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "returns a new Color from HSL"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "a",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "h",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "s",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "l",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1261": {
+      "name": "fromHSV",
+      "type": "Method",
+      "url": "/api/class/Color#fromhsv",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "fromHSV(a: any, h: any, s: any, l: any): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#fromhsv-fromhsv-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 205,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "a",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "h",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "s",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "l",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1267": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Color#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Color(knownColor: string): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#constructor-new-color",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 5,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "knownColor",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        },
+        {
+          "type": "ConstructorSignature",
+          "code": "new Color(hex: string): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#constructor-new-color-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 6,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "hex",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        },
+        {
+          "type": "ConstructorSignature",
+          "code": "new Color(argb: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#constructor-new-color-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 7,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "argb",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        },
+        {
+          "type": "ConstructorSignature",
+          "code": "new Color(alpha: number, red: number, green: number, blue: number, type?: \"rgb\" | \"hsl\" | \"hsv\"): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#constructor-new-color-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "alpha",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "red",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "green",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "blue",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "\"rgb\" | \"hsl\" | \"hsv\"",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1280": {
+      "name": "a",
+      "type": "Property",
+      "url": "/api/class/Color#a",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Alpha component (in the [0, 255] range) of this color. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "a: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 13,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Alpha component (in the [0, 255] range) of this color. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#a"
+        }
+      ]
+    },
+    "1281": {
+      "name": "r",
+      "type": "Property",
+      "url": "/api/class/Color#r",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Red component (in the [0, 255] range) of this color. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "r: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 18,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Red component (in the [0, 255] range) of this color. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#r"
+        }
+      ]
+    },
+    "1282": {
+      "name": "g",
+      "type": "Property",
+      "url": "/api/class/Color#g",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Green component (in the [0, 255] range) of this color. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "g: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 23,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Green component (in the [0, 255] range) of this color. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#g"
+        }
+      ]
+    },
+    "1283": {
+      "name": "b",
+      "type": "Property",
+      "url": "/api/class/Color#b",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Blue component (in the [0, 255] range) of this color. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "b: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 28,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Blue component (in the [0, 255] range) of this color. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#b"
+        }
+      ]
+    },
+    "1284": {
+      "name": "hex",
+      "type": "Property",
+      "url": "/api/class/Color#hex",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Hexadecimal string representation of this color. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "hex: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 33,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Hexadecimal string representation of this color. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#hex"
+        }
+      ]
+    },
+    "1285": {
+      "name": "argb",
+      "type": "Property",
+      "url": "/api/class/Color#argb",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Argb Number representation of this color where each 8 bits represent a single color component. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "argb: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 38,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Argb Number representation of this color where each 8 bits represent a single color component. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#argb"
+        }
+      ]
+    },
+    "1286": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/Color#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the known name of this instance. Defined only if it has been constructed from a known color name - e.g. \"red\". This is a read-only property."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 43,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the known name of this instance. Defined only if it has been constructed from a known color name - e.g. \"red\". This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#name"
+        }
+      ]
+    },
+    "1287": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/class/Color#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the android-specific integer value representation. Same as the Argb one. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "android: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the android-specific integer value representation. Same as the Argb one. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#android"
+        }
+      ]
+    },
+    "1288": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/class/Color#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the iOS-specific UIColor value representation. This is a read-only property."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ios: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 53,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the iOS-specific UIColor value representation. This is a read-only property."
+              }
+            ]
+          },
+          "url": "/api/class/Color#ios"
+        }
+      ]
+    },
+    "1289": {
+      "name": "equals",
+      "type": "Method",
+      "url": "/api/class/Color#equals",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "equals(value: <a href=\"/api/class/Color\">Color</a>): boolean",
+          "url": "/api/class/Color#equals-equals-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 59,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies whether this Color is equal to the Color parameter."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The Color to test."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1292": {
+      "name": "isDark",
+      "type": "Method",
+      "url": "/api/class/Color#isdark",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isDark(): boolean",
+          "url": "/api/class/Color#isdark-isdark-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 83,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return true if brightenss < 128"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1294": {
+      "name": "isLight",
+      "type": "Method",
+      "url": "/api/class/Color#islight",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isLight(): boolean",
+          "url": "/api/class/Color#islight-islight-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 89,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return true if brightenss >= 128"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1296": {
+      "name": "getBrightness",
+      "type": "Method",
+      "url": "/api/class/Color#getbrightness",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getBrightness(): number",
+          "url": "/api/class/Color#getbrightness-getbrightness-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 95,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return the [brightness](http://www.w3.org/TR/AERT#color-contrast)"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "1298": {
+      "name": "getLuminance",
+      "type": "Method",
+      "url": "/api/class/Color#getluminance",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getLuminance(): number",
+          "url": "/api/class/Color#getluminance-getluminance-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 100,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return the [luminance](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef)"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "1300": {
+      "name": "setAlpha",
+      "type": "Method",
+      "url": "/api/class/Color#setalpha",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setAlpha(a: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#setalpha-setalpha-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 107,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Return this color (as a new Color instance) with the provided alpha"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "a",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1303": {
+      "name": "toHsl",
+      "type": "Method",
+      "url": "/api/class/Color#tohsl",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toHsl(): {\n  a: number\n  h: number\n  l: number\n}",
+          "url": "/api/class/Color#tohsl-tohsl-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 112,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return the hsl representation of the color"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "{\n  a: number\n  h: number\n  l: number\n}"
+        }
+      ]
+    },
+    "1310": {
+      "name": "toHslString",
+      "type": "Method",
+      "url": "/api/class/Color#tohslstring",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toHslString(): string",
+          "url": "/api/class/Color#tohslstring-tohslstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 118,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return the [CSS hsv](https://www.w3schools.com/Css/css_colors_hsl.asp) representation of the color"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "1312": {
+      "name": "toHsv",
+      "type": "Method",
+      "url": "/api/class/Color#tohsv",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toHsv(): {\n  a: number\n  h: number\n  s: number\n}",
+          "url": "/api/class/Color#tohsv-tohsv-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 124,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return the hsv representation of the color"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "{\n  a: number\n  h: number\n  s: number\n}"
+        }
+      ]
+    },
+    "1319": {
+      "name": "toHsvString",
+      "type": "Method",
+      "url": "/api/class/Color#tohsvstring",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toHsvString(): string",
+          "url": "/api/class/Color#tohsvstring-tohsvstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 130,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return the [CSS hsv](https://www.w3schools.com/Css/css_colors_rgb.asp) representation of the color"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "1321": {
+      "name": "toRgbString",
+      "type": "Method",
+      "url": "/api/class/Color#torgbstring",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toRgbString(): string",
+          "url": "/api/class/Color#torgbstring-torgbstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 136,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "return the [CSS rgb](https://www.w3schools.com/Css/css_colors_rgb.asp) representation of the color"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "1323": {
+      "name": "desaturate",
+      "type": "Method",
+      "url": "/api/class/Color#desaturate",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "desaturate(amount: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#desaturate-desaturate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 143,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Desaturate the color a given amount, from 0 to 100. Providing 100 will is the same as calling greyscale."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "(between 0 and 100)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1326": {
+      "name": "saturate",
+      "type": "Method",
+      "url": "/api/class/Color#saturate",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "saturate(amount: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#saturate-saturate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 150,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Saturate the color a given amount, from 0 to 100."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "(between 0 and 100)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1329": {
+      "name": "greyscale",
+      "type": "Method",
+      "url": "/api/class/Color#greyscale",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "greyscale(): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#greyscale-greyscale-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 157,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Completely desaturates a color into greyscale. Same as calling desaturate(100)."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": []
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1331": {
+      "name": "lighten",
+      "type": "Method",
+      "url": "/api/class/Color#lighten",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "lighten(amount: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#lighten-lighten-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 165,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Lighten the color a given amount, from 0 to 100. Providing 100 will always return white."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "olor : Color"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "(between 0 and 100)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1334": {
+      "name": "brighten",
+      "type": "Method",
+      "url": "/api/class/Color#brighten",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "brighten(amount: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#brighten-brighten-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 172,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Brighten the color a given amount, from 0 to 100."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "(between 0 and 100)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1337": {
+      "name": "darken",
+      "type": "Method",
+      "url": "/api/class/Color#darken",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "darken(amount: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#darken-darken-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 179,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Darken the color a given amount, from 0 to 100. Providing 100 will always return black."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "(between 0 and 100)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1340": {
+      "name": "spin",
+      "type": "Method",
+      "url": "/api/class/Color#spin",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "spin(amount: number): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#spin-spin-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 186,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Spin the hue a given amount, from -360 to 360. Calling with 0, 360, or -360 will do nothing (since it sets the hue back to what it was before)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "(between 0 and 100)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "1343": {
+      "name": "complement",
+      "type": "Method",
+      "url": "/api/class/Color#complement",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "complement(): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Color#complement-complement-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/color/index.d.ts",
+              "line": 192,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "returns the color complement"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    }
+  }
+}

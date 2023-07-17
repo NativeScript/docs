@@ -1,0 +1,801 @@
+{
+  "title": "Trace",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Namespaces",
+      "items": [
+        2878,
+        2873
+      ]
+    },
+    {
+      "title": "Classes",
+      "items": [
+        2899,
+        2907
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2843,
+        2859,
+        2832,
+        2838,
+        2828,
+        2826,
+        2870,
+        2865,
+        2846,
+        2830,
+        2854,
+        2862,
+        2835,
+        2840,
+        2867,
+        2849
+      ]
+    }
+  ],
+  "reflections": {
+    "2826": {
+      "name": "enable",
+      "type": "Function",
+      "url": "/api/namespace/Trace#enable",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "enable(): void",
+          "url": "/api/namespace/Trace#enable-enable-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 27,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Enables the trace module."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "2828": {
+      "name": "disable",
+      "type": "Function",
+      "url": "/api/namespace/Trace#disable",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "disable(): void",
+          "url": "/api/namespace/Trace#disable-disable-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Disables the trace module."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "2830": {
+      "name": "isEnabled",
+      "type": "Function",
+      "url": "/api/namespace/Trace#isenabled",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isEnabled(): boolean",
+          "url": "/api/namespace/Trace#isenabled-isenabled-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 39,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that returns whether the tracer is enabled and there is a point in writing messages.\nCheck this to avoid writing complex string templates.\nSend error messages even if tracing is disabled."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2832": {
+      "name": "addWriter",
+      "type": "Function",
+      "url": "/api/namespace/Trace#addwriter",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addWriter(writer: <a href=\"/api/interface/TraceWriter\">TraceWriter</a>): void",
+          "url": "/api/namespace/Trace#addwriter-addwriter-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 45,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a TraceWriter instance to the trace module."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "<a href=\"/api/interface/TraceWriter\">TraceWriter</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The TraceWriter instance to add."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2835": {
+      "name": "removeWriter",
+      "type": "Function",
+      "url": "/api/namespace/Trace#removewriter",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeWriter(writer: <a href=\"/api/interface/TraceWriter\">TraceWriter</a>): void",
+          "url": "/api/namespace/Trace#removewriter-removewriter-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 51,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes a TraceWriter instance from the trace module."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "writer",
+              "type": "<a href=\"/api/interface/TraceWriter\">TraceWriter</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The TraceWriter instance to remove."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2838": {
+      "name": "clearWriters",
+      "type": "Function",
+      "url": "/api/namespace/Trace#clearwriters",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "clearWriters(): void",
+          "url": "/api/namespace/Trace#clearwriters-clearwriters-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 56,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Clears all the writers from the trace module."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "2840": {
+      "name": "setCategories",
+      "type": "Function",
+      "url": "/api/namespace/Trace#setcategories",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setCategories(categories: string): void",
+          "url": "/api/namespace/Trace#setcategories-setcategories-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 62,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Sets the categories the module will trace."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "categories",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The comma-separated list of categories. If not specified all messages from all categories will be traced."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2843": {
+      "name": "addCategories",
+      "type": "Function",
+      "url": "/api/namespace/Trace#addcategories",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addCategories(categories: string): void",
+          "url": "/api/namespace/Trace#addcategories-addcategories-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 68,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds categories to existing categories the module will trace."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "categories",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The comma-separated list of categories. If not specified all messages from all categories will be traced."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2846": {
+      "name": "isCategorySet",
+      "type": "Function",
+      "url": "/api/namespace/Trace#iscategoryset",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isCategorySet(category: string): boolean",
+          "url": "/api/namespace/Trace#iscategoryset-iscategoryset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 74,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Check if category is already set in trace module."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "category",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The category to check."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2849": {
+      "name": "write",
+      "type": "Function",
+      "url": "/api/namespace/Trace#write",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "write(message: any, category: string, type?: number): void",
+          "url": "/api/namespace/Trace#write-write-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 82,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Writes a message using the available writers."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "message",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The message to be written."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The category of the message."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "type",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Optional, the type of the message - info, warning, error."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2854": {
+      "name": "notifyEvent",
+      "type": "Function",
+      "url": "/api/namespace/Trace#notifyevent",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "notifyEvent(object: Object, name: string, data?: any): void",
+          "url": "/api/namespace/Trace#notifyevent-notifyevent-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 90,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the attached listeners for an event that has occurred in the sender object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "Object",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The Object instance that raised the event."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the raised event."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "data",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter that passes the data associated with the event."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2859": {
+      "name": "addEventListener",
+      "type": "Function",
+      "url": "/api/namespace/Trace#addeventlistener",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(listener: <a href=\"/api/interface/TraceEventListener\">TraceEventListener</a>): void",
+          "url": "/api/namespace/Trace#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 92,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "listener",
+              "type": "<a href=\"/api/interface/TraceEventListener\">TraceEventListener</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2862": {
+      "name": "removeEventListener",
+      "type": "Function",
+      "url": "/api/namespace/Trace#removeeventlistener",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(listener: <a href=\"/api/interface/TraceEventListener\">TraceEventListener</a>): void",
+          "url": "/api/namespace/Trace#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 94,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "listener",
+              "type": "<a href=\"/api/interface/TraceEventListener\">TraceEventListener</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2865": {
+      "name": "getErrorHandler",
+      "type": "Function",
+      "url": "/api/namespace/Trace#geterrorhandler",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getErrorHandler(): <a href=\"/api/interface/TraceErrorHandler\">TraceErrorHandler</a>",
+          "url": "/api/namespace/Trace#geterrorhandler-geterrorhandler-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 137,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/interface/TraceErrorHandler\">TraceErrorHandler</a>"
+        }
+      ]
+    },
+    "2867": {
+      "name": "setErrorHandler",
+      "type": "Function",
+      "url": "/api/namespace/Trace#seterrorhandler",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setErrorHandler(handler: <a href=\"/api/interface/TraceErrorHandler\">TraceErrorHandler</a>): void",
+          "url": "/api/namespace/Trace#seterrorhandler-seterrorhandler-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 139,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "handler",
+              "type": "<a href=\"/api/interface/TraceErrorHandler\">TraceErrorHandler</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2870": {
+      "name": "error",
+      "type": "Function",
+      "url": "/api/namespace/Trace#error",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "error(error: string | Error): void",
+          "url": "/api/namespace/Trace#error-error-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 145,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Passes an error to the registered ErrorHandler"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "error",
+              "type": "string | Error",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The error to be handled."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2873": {
+      "name": "messageType",
+      "type": "Namespace",
+      "url": "/api/namespace/Trace-messageType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "messageType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 96,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType"
+        }
+      ]
+    },
+    "2878": {
+      "name": "categories",
+      "type": "Namespace",
+      "url": "/api/namespace/Trace-categories",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "all predefined categories."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "categories",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 106,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "all predefined categories."
+              }
+            ]
+          },
+          "url": "/api/namespace/Trace-categories"
+        }
+      ]
+    },
+    "2899": {
+      "name": "ConsoleWriter",
+      "type": "Class",
+      "url": "/api/class/Trace-ConsoleWriter",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An interface used to define a writer used by trace to print (log)."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ConsoleWriter",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 129,
+              "character": 7
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An interface used to define a writer used by trace to print (log)."
+              }
+            ]
+          },
+          "url": "/api/class/Trace-ConsoleWriter"
+        }
+      ]
+    },
+    "2907": {
+      "name": "DefaultErrorHandler",
+      "type": "Class",
+      "url": "/api/class/Trace-DefaultErrorHandler",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An interface used to for handling trace error"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DefaultErrorHandler",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 133,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An interface used to for handling trace error"
+              }
+            ]
+          },
+          "url": "/api/class/Trace-DefaultErrorHandler"
+        }
+      ]
+    }
+  }
+}

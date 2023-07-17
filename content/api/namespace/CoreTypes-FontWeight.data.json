@@ -1,0 +1,355 @@
+{
+  "title": "FontWeight",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2728,
+        2726,
+        2727,
+        2721,
+        2722,
+        2724,
+        2723,
+        2725,
+        2720
+      ]
+    }
+  ],
+  "reflections": {
+    "2720": {
+      "name": "thin",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#thin",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Thin font weight. CSS font-weight 100."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "thin: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 552,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Thin font weight. CSS font-weight 100."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#thin"
+        }
+      ]
+    },
+    "2721": {
+      "name": "extraLight",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#extralight",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Extra-light / Ultra-light font weight. CSS font-weight 200."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "extraLight: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 557,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Extra-light / Ultra-light font weight. CSS font-weight 200."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#extralight"
+        }
+      ]
+    },
+    "2722": {
+      "name": "light",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#light",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Light font weight. CSS font-weight 300."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "light: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 562,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Light font weight. CSS font-weight 300."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#light"
+        }
+      ]
+    },
+    "2723": {
+      "name": "normal",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#normal",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Normal font weight. CSS font-weight 400."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "normal: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 567,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Normal font weight. CSS font-weight 400."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#normal"
+        }
+      ]
+    },
+    "2724": {
+      "name": "medium",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#medium",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Medium font weight. CSS font-weight 500."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "medium: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 572,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Medium font weight. CSS font-weight 500."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#medium"
+        }
+      ]
+    },
+    "2725": {
+      "name": "semiBold",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#semibold",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Semi-bold / Demi-bold font weight. CSS font-weight 600."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "semiBold: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 577,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Semi-bold / Demi-bold font weight. CSS font-weight 600."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#semibold"
+        }
+      ]
+    },
+    "2726": {
+      "name": "bold",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#bold",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Bold font weight. CSS font-weight 700."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "bold: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 582,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Bold font weight. CSS font-weight 700."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#bold"
+        }
+      ]
+    },
+    "2727": {
+      "name": "extraBold",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#extrabold",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Extra-bold / Ultra-bold font weight. CSS font-weight 800."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "extraBold: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 587,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Extra-bold / Ultra-bold font weight. CSS font-weight 800."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#extrabold"
+        }
+      ]
+    },
+    "2728": {
+      "name": "black",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#black",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Black font weight. CSS font-weight 900."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "black: FontWeightType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 592,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Black font weight. CSS font-weight 900."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontWeight#black"
+        }
+      ]
+    }
+  }
+}
