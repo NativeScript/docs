@@ -111,6 +111,10 @@ export default [
       {
         text: 'Device',
         link: '/guide/core/device'
+      },
+      {
+        text: 'Utils',
+        link: '/guide/core/utils'
       }
     ]
   },
