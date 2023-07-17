@@ -2,15 +2,26 @@
 title: Observable
 ---
 
-The Observable class is what drives data binding in NativeScript. To bind the UI to the ViewModel, an instance of Observable is set to the `bindingContext` property of a `Page` or a layout container to drive [data binding]() in NativeScript. 
+Observable is a fundamental building block throughout @nativescript/core. 
+
+:::warning Note
+Not to be confused with [rxjs Observable](https://rxjs.dev/guide/observable), the `Observable` within NativeScript predates rxjs itself and the name has always stuck around. If you'd like us to rename this in the future, feel free to chime in via [RFC Discussions](https://github.com/NativeScript/rfcs/discussions).
+::: 
+
+`Observable` plays a vital role in enabling data binding in NativeScript. It serves as a key component for connecting the user interface (UI) with the underlying data in a ViewModel. By setting an instance of Observable as the bindingContext property of a Page or a layout container, you can establish a seamless connection that drives data binding within NativeScript.
+
+In simpler terms, an Observable allows you to easily synchronize and update the UI elements of your app with changes in the underlying data. It acts as a bridge that notifies the UI whenever there are modifications to the data, ensuring that the UI stays in sync with the latest values. This makes it convenient to build dynamic and reactive interfaces, as changes in the data will automatically trigger corresponding updates in the UI.
+
+By utilizing the power of Observables and data binding, you can create interactive and responsive NativeScript applications with minimal effort.
+
 
 ## How to use Observable
 
-The sections below show you the different ways you can use the Observable class.
+The sections below show you different ways Observable can be used.
 
-### Creating an Observable instance by subclassing
+### Creating an Observable by subclassing
 
-Create a class extending it as shown below:
+Create a class extending Observable as shown below:
 
 <!-- tabs: main-page-model -->
 ```ts
@@ -39,12 +50,12 @@ export class HelloWorldModel extends Observable {
 }
 ```
 
-You can also use the [fromObject](#fromobject) or [fromObjectRecursive](#fromobjectrecursive) function to create an Observable instance.
+You can also use the [fromObject](#fromobject) or [fromObjectRecursive](#fromobjectrecursive) function to create an Observable from data.
 
 
 ### Emitting an event
 
-To emit a custom event, call the [notify()](#notify) method on the Observable instance:
+To emit a custom event, call the [notify](#notify) method on the Observable instance:
 
 ```ts
 observable.notify({
@@ -54,7 +65,7 @@ observable.notify({
 
 ### Emitting an event for a property change
 
-To emit an event for a property change, use the [notifyPropertyChange()](#notifypropertychange) method:
+To emit an event for a property change, use the [notifyPropertyChange](#notifypropertychange) method:
 
 ```ts
 this.fruits.unshift("Kaki")
@@ -64,7 +75,7 @@ this.notifyPropertyChange("fruits", this.fruits)
 
 ### Avoiding Event Handler Memory Leak
 
-To ensure that your app doesn't have memory leak caused by handlers that are no longer needed, use the [addWeakEventListener()](#addweakeventlistener) function:
+To ensure that your app doesn't have memory leak caused by handlers that are no longer needed, use the [addWeakEventListener](#addweakeventlistener) function:
 
 <!-- TODO: Add a working example -->
 
@@ -80,7 +91,7 @@ const observable = new Observable()
 
 ### propertyChangeEvent
 ```ts
-observable.on(Observable.propertyChangeEvent,(args:PropertyChangeData)=>{
+observable.on(Observable.propertyChangeEvent, (args:PropertyChangeData)=>{
 
 })
 ```
@@ -96,7 +107,7 @@ Observable.addEventListener(eventNames, callback: (data: EventData) => void, thi
 //or
 observable.addEventListener(eventNames, callback: (data: EventData) => void, thisArg)
 ```
-It is a method used to add a listener for the specified event(s).
+Add a listener for the specified event(s).
 
 - `eventNames` is a comma delimited string containing the names of the events to be listened to.
 - `callback` is the function that gets called when any of the registered event occurs.
@@ -111,7 +122,7 @@ Observable.on(eventNames, callback: (data: EventData) => void, thisArg)
 //or
 observable.on(eventNames, callback: (data: EventData) => void, thisArg)
 ```
-This is a shortcut alias to the [addEventListener](#addeventlistener) method.
+A shortcut alias to [addEventListener](#addeventlistener).
 
 ---
 
@@ -123,7 +134,7 @@ Observable.once(eventName, callback: (data: EventData) => void, thisArg)
 observable.once(eventName, callback: (data: EventData) => void, thisArg)
 ```
 
-Adds one-time listener function for the specified event.
+Adds a one-time listener for the specified event.
 - `eventName` is the name of the event to be listened to.
 - `callback` is the function that gets called when the event occurs.
 - _Optional_: `thisArg` is a parameter which will be used as `this` context for callback execution.
@@ -153,7 +164,7 @@ Observable.off(eventNames, callback, thisArg)
 //or
 observable.off(eventName, callback, thisArg)
 ```
-This method is a shortcut alias to [removeEventListener()](#removeeventlistener).
+A shortcut alias to [removeEventListener](#removeeventlistener).
 
 ---
 
