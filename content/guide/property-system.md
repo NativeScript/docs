@@ -2,7 +2,12 @@
 title: Property
 ---
 
-The property system in NativeScript is a way to expose a native property when you are exposing a native UI component.
+The property system in NativeScript allows for the exposure of native platform properties to JavaScript components with certain guarantees built-in; for instance:
+- it will set properties only after the native platform object is created
+- it allows for property definitions with custom value converters
+- it auto detects if property values change
+- it can suspend updating of values when desired
+- it can auto request layout updates when properties change when desired
 
 NativeScript provides a basic property system via the `Property` class, which is a simple wrapper around the [Object.defineProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) with some additional callbacks like `valueChange`, `valueConverter` and `equalityComparer`.
 
