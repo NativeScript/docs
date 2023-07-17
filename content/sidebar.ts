@@ -161,6 +161,10 @@ export default [
         link: '/guide/code-sharing',
       },
       {
+        text: 'Property System',
+        link: '/guide/property-system'
+      },
+      {
         text: 'Shared Element Transitions',
         link: '/guide/shared-element-transitions',
       },
