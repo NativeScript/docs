@@ -1,0 +1,303 @@
+{
+  "title": "ShowModalOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "ShowModalOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        6855,
+        6848,
+        6859,
+        6846,
+        6845,
+        6847,
+        6850,
+        6849
+      ]
+    }
+  ],
+  "reflections": {
+    "6845": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Any context you want to pass to the modally shown view. This same context will be available in the arguments of the shownModally event handler."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "context: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 49,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Any context you want to pass to the modally shown view. This same context will be available in the arguments of the shownModally event handler."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#context"
+        }
+      ]
+    },
+    "6846": {
+      "name": "closeCallback",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#closecallback",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A function that will be called when the view is closed. Any arguments provided when calling ShownModallyData.closeCallback will be available here."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "closeCallback: Function",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that will be called when the view is closed. Any arguments provided when calling ShownModallyData.closeCallback will be available here."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#closecallback"
+        }
+      ]
+    },
+    "6847": {
+      "name": "fullscreen",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#fullscreen",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether to show the modal view in full-screen mode."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "fullscreen?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 59,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether to show the modal view in full-screen mode."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#fullscreen"
+        }
+      ]
+    },
+    "6848": {
+      "name": "animated",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#animated",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether to show the modal view with animation."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "animated?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 64,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether to show the modal view with animation."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#animated"
+        }
+      ]
+    },
+    "6849": {
+      "name": "stretched",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#stretched",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether to stretch the modal view when not in full-screen mode."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "stretched?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 69,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether to stretch the modal view when not in full-screen mode."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#stretched"
+        }
+      ]
+    },
+    "6850": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter that specify options specific to iOS as an object."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "ios?: {\n  height?: number\n  presentationStyle?: any\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 74,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter that specify options specific to iOS as an object."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#ios"
+        }
+      ]
+    },
+    "6855": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#android",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "android?: {\n  cancelable?: boolean\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 88,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ShowModalOptions#android"
+        }
+      ]
+    },
+    "6859": {
+      "name": "cancelable",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#cancelable-1",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "cancelable?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 103,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#cancelable-1"
+        }
+      ]
+    }
+  }
+}

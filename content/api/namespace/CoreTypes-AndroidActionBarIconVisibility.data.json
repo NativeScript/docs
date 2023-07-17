@@ -1,0 +1,79 @@
+{
+  "title": "AndroidActionBarIconVisibility",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2696,
+        2694,
+        2695
+      ]
+    }
+  ],
+  "reflections": {
+    "2694": {
+      "name": "auto",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#auto",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "auto: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 442,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#auto"
+        }
+      ]
+    },
+    "2695": {
+      "name": "never",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#never",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "never: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 443,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#never"
+        }
+      ]
+    },
+    "2696": {
+      "name": "always",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#always",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "always: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 444,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#always"
+        }
+      ]
+    }
+  }
+}

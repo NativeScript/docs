@@ -1,0 +1,231 @@
+{
+  "title": "BackstackEntry",
+  "hierarchy": [
+    [
+      {
+        "text": "BackstackEntry"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        10994,
+        10998,
+        10997,
+        11000,
+        10996,
+        11001,
+        10995,
+        10999
+      ]
+    }
+  ],
+  "reflections": {
+    "10994": {
+      "name": "entry",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#entry",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "entry: <a href=\"/api/interface/NavigationEntry\">NavigationEntry</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 385,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/BackstackEntry#entry"
+        }
+      ]
+    },
+    "10995": {
+      "name": "resolvedPage",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#resolvedpage",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "resolvedPage: <a href=\"/api/class/Page\">Page</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 386,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/BackstackEntry#resolvedpage"
+        }
+      ]
+    },
+    "10996": {
+      "name": "navDepth",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#navdepth",
+      "comment": {
+        "summary": []
+      },
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "navDepth: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 392,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": []
+          },
+          "url": "/api/interface/BackstackEntry#navdepth"
+        }
+      ]
+    },
+    "10997": {
+      "name": "fragmentTag",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#fragmenttag",
+      "comment": {
+        "summary": []
+      },
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "fragmentTag: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 396,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": []
+          },
+          "url": "/api/interface/BackstackEntry#fragmenttag"
+        }
+      ]
+    },
+    "10998": {
+      "name": "fragment",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#fragment",
+      "comment": {
+        "summary": []
+      },
+      "flags": {
+        "isPrivate": true,
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "fragment?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 400,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": []
+          },
+          "url": "/api/interface/BackstackEntry#fragment"
+        }
+      ]
+    },
+    "10999": {
+      "name": "viewSavedState",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#viewsavedstate",
+      "comment": {
+        "summary": []
+      },
+      "flags": {
+        "isPrivate": true,
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "viewSavedState?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 404,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": []
+          },
+          "url": "/api/interface/BackstackEntry#viewsavedstate"
+        }
+      ]
+    },
+    "11000": {
+      "name": "frameId",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#frameid",
+      "comment": {
+        "summary": []
+      },
+      "flags": {
+        "isPrivate": true,
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "frameId?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 408,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": []
+          },
+          "url": "/api/interface/BackstackEntry#frameid"
+        }
+      ]
+    },
+    "11001": {
+      "name": "recreated",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#recreated",
+      "comment": {
+        "summary": []
+      },
+      "flags": {
+        "isPrivate": true,
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "recreated?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 412,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": []
+          },
+          "url": "/api/interface/BackstackEntry#recreated"
+        }
+      ]
+    }
+  }
+}

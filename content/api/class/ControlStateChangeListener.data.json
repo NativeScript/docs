@@ -1,0 +1,128 @@
+{
+  "title": "ControlStateChangeListener",
+  "hierarchy": [
+    [
+      {
+        "text": "ControlStateChangeListener"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        6501
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        6508,
+        6510
+      ]
+    }
+  ],
+  "reflections": {
+    "6501": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ControlStateChangeListener#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ControlStateChangeListener(control: any, callback: (state: string) => void): <a href=\"/api/class/ControlStateChangeListener\">ControlStateChangeListener</a>",
+          "url": "/api/class/ControlStateChangeListener#constructor-new-controlstatechangelistener",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/control-state-change/index.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Initializes an instance of ControlStateChangeListener class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "control",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An instance of the UIControl which state will be watched."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(state: string) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A callback called when a visual state of the UIControl is changed."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ControlStateChangeListener\">ControlStateChangeListener</a>"
+        }
+      ]
+    },
+    "6508": {
+      "name": "start",
+      "type": "Method",
+      "url": "/api/class/ControlStateChangeListener#start",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "start(): any",
+          "url": "/api/class/ControlStateChangeListener#start-start-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/control-state-change/index.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "6510": {
+      "name": "stop",
+      "type": "Method",
+      "url": "/api/class/ControlStateChangeListener#stop",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "stop(): any",
+          "url": "/api/class/ControlStateChangeListener#stop-stop-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/control-state-change/index.d.ts",
+              "line": 14,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    }
+  }
+}
