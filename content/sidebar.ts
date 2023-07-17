@@ -123,10 +123,6 @@ export default [
       {
         text: 'Utils',
         link: '/guide/core/utils'
-      },
-      {
-        text: 'Platform',
-        link: '/guide/core/platform'
       }
     ]
   },
