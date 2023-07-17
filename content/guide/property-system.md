@@ -104,7 +104,6 @@ To create a shorthand property, use the CssPropery class to define all the prope
 import { ShorthandProperty, Style } from "@nativescript-core"
 ```
 ### Creating a coercible property
-<!-- TODO: Add a proper explanation about when to create this property -->
 To create a coercible property use the [CoercibleProperty](https://docs.nativescript.org/api-reference/classes/coercibleproperty) class passing it a [CoerciblePropertyOptions](#co) object.
 
 ```ts
