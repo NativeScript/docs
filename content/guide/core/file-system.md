@@ -145,7 +145,7 @@ file
   })
 
 ```
-- To read data from a text file, use the `readText` or `readTextSync` method of the file instance:
+- To extract data from a text file, you can use the readText or readTextSync method of the file instance. Here's an example of how to use it:
 ```ts
    file.readText().then(res => {
       // Succeeded read from file.
