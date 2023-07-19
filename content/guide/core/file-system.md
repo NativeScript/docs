@@ -3,7 +3,7 @@ title: FileSystem
 description: Work with the device file system
 ---
 
-The FileSystem module provides high-level abstractions for file system entities such as files, folders, known folders( the entry to the device file system), paths, separators, etc.
+The FileSystem module offers easy-to-use tools for working with files and folders in a computer's file system. It provides helpful functions for managing files, folders, paths, and separators, etc.
 
 ## How to use the FileSytem module
 
