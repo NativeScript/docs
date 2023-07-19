@@ -157,7 +157,7 @@ file
 ```
 ### Check if a file exists
 
-To check if a file exists, call the static [exists](#exists) method of the File class and pass it the file path string:
+To check if a file exists, you can use [exists](#exists) and pass it the file path as a string:
 
 ```ts
 const exists = File.exists(fPath)
