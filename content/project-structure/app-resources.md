@@ -234,7 +234,7 @@ For a list of available entitlements refer to [Apple's Entitlements documentatio
 
 ### Adding ObjectiveC/Swift Code to an application
 
-You can add Objective-C/Swift source files to `App_Resources/iOS/src`. For Objective-C file, create a modulemap file. To add a [CocoaPod](https://guides.cocoapods.org/using/getting-started.html), edit `App_Resources/iOS/Podfile`:
+You can add Objective-C/Swift source files to `App_Resources/iOS/src`. For Objective-C files, create a `.modulemap` file. To add a [CocoaPod](https://guides.cocoapods.org/using/getting-started.html), edit `App_Resources/iOS/Podfile`:
 
 ```cli
 App_Resources/
