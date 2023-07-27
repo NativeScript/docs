@@ -1,0 +1,89 @@
+{
+  "title": "SystemAppearance",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2762,
+        2761
+      ]
+    }
+  ],
+  "reflections": {
+    "2761": {
+      "name": "light",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-SystemAppearance#light",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The light system appearance."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "light: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 687,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The light system appearance."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-SystemAppearance#light"
+        }
+      ]
+    },
+    "2762": {
+      "name": "dark",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-SystemAppearance#dark",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The dark system appearance."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "dark: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 692,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The dark system appearance."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-SystemAppearance#dark"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "title": "Transition",
+  "hierarchy": [
+    [
+      {
+        "text": "Transition"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        28021
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        28015
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        28029,
+        28039,
+        28027,
+        28025,
+        28042
+      ]
+    }
+  ],
+  "reflections": {
+    "28015": {
+      "name": "AndroidTransitionType",
+      "type": "Property",
+      "url": "/api/class/Transition#androidtransitiontype",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "AndroidTransitionType: {\n  enter: string\n  exit: string\n  popEnter: string\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 2,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Transition#androidtransitiontype"
+        }
+      ]
+    },
+    "28021": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Transition#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Transition(duration: number, nativeCurve: any): <a href=\"/api/class/Transition\">Transition</a>",
+          "url": "/api/class/Transition#constructor-new-transition",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 3,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "duration",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "nativeCurve",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Transition\">Transition</a>"
+        }
+      ]
+    },
+    "28025": {
+      "name": "getDuration",
+      "type": "Method",
+      "url": "/api/class/Transition#getduration",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getDuration(): number",
+          "url": "/api/class/Transition#getduration-getduration-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 4,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "28027": {
+      "name": "getCurve",
+      "type": "Method",
+      "url": "/api/class/Transition#getcurve",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getCurve(): any",
+          "url": "/api/class/Transition#getcurve-getcurve-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 5,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "28029": {
+      "name": "animateIOSTransition",
+      "type": "Method",
+      "url": "/api/class/Transition#animateiostransition",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "animateIOSTransition(\n  containerView: any,\n  fromView: any,\n  toView: any,\n  operation: any,\n  completion: (finished: boolean) => void\n): void",
+          "url": "/api/class/Transition#animateiostransition-animateiostransition-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 6,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "containerView",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "fromView",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "toView",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "operation",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "completion",
+              "type": "(finished: boolean) => void",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28039": {
+      "name": "createAndroidAnimator",
+      "type": "Method",
+      "url": "/api/class/Transition#createandroidanimator",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "createAndroidAnimator(transitionType: string): any",
+          "url": "/api/class/Transition#createandroidanimator-createandroidanimator-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 7,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "transitionType",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "28042": {
+      "name": "toString",
+      "type": "Method",
+      "url": "/api/class/Transition#tostring",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toString(): string",
+          "url": "/api/class/Transition#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    }
+  }
+}

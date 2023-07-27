@@ -1,0 +1,127 @@
+{
+  "title": "FontAttributes",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2661,
+        2662,
+        2660
+      ]
+    }
+  ],
+  "reflections": {
+    "2660": {
+      "name": "Normal",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontAttributes#normal",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes that text should be drawn in a normal style."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Normal: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 287,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes that text should be drawn in a normal style."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontAttributes#normal"
+        }
+      ]
+    },
+    "2661": {
+      "name": "Bold",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontAttributes#bold",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes that text should be drawn in a bold weight."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Bold: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 292,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes that text should be drawn in a bold weight."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontAttributes#bold"
+        }
+      ]
+    },
+    "2662": {
+      "name": "Italic",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontAttributes#italic",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes that text should be drawn in a italic style."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Italic: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 297,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes that text should be drawn in a italic style."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontAttributes#italic"
+        }
+      ]
+    }
+  }
+}
