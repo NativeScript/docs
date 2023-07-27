@@ -1,0 +1,107 @@
+{
+  "title": "ImageAssetOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "ImageAssetOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2291,
+        2289,
+        2290,
+        2288
+      ]
+    }
+  ],
+  "reflections": {
+    "2288": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#width",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "width?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#width"
+        }
+      ]
+    },
+    "2289": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#height",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "height?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 14,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#height"
+        }
+      ]
+    },
+    "2290": {
+      "name": "keepAspectRatio",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#keepaspectratio",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "keepAspectRatio?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#keepaspectratio"
+        }
+      ]
+    },
+    "2291": {
+      "name": "autoScaleFactor",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#autoscalefactor",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "autoScaleFactor?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 16,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#autoscalefactor"
+        }
+      ]
+    }
+  }
+}
