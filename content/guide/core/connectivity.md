@@ -3,58 +3,122 @@ title: Connectivity
 description: Get the current device network connection type and monitor changes in the connection type.
 ---
 
-The connectivity class abstracts the native API that is responsible for receiving information about the connection type and availability of the network.
-
-## How to use the Connectivity class
-
-The following example shows how to use the Connectivity class:
-
-<!--Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-1xb9ys?file=app/main-view-model.ts -->
+The `Connectivity` class (singlton) abstracts the native API responsible for providing information about the network's connection type and availability.
 
 
-## Connectivity API
-The Connectivity class offers the following API:
+## Using the Connectivity class
+
+To use the Connectivity class, import it from `@nativescript/core`.
+
+```ts
+import { Connectivity } from '@nativescript/core'
+```
+
+### Getting the current connection type
+
+To check what type of network is currently connected use the [getConnectionType()](#getConnectionType) method.
+
+```ts
+const connectionType: number = Connectivity.getConnectionType()
+
+if (connectionType) { // `Connectivity.connectionType.none`` is `0` so truthiness can be used to determine if the device is connected to any type of network
+  fetch('https://httpbin.org/get')
+    .then((response) => reponse.text())
+    .then((result) => console.log(`Fetched ${result} with ${connectionType}`));
+} else {
+  console.log("Not connected to a network.")
+}
+```
+
+Conditional behavior can also easily be added for certian types of connections using the `Connectivity.connectionType` enum.
+
+```ts
+if (connectionType === Connectivity.connectionType.wifi || connectionType === Connectivity.connectionType.ethernet) {
+  // Download large file
+} else {
+  // Download mobile friendly file
+}
+```
+
+### Monitor changes to the connection type
+
+Using the [startMonitoring()](#startMonitoring) method changes to the connection type can be observed.
+
+```ts
+Connectivity.startMonitoring((change: number) => {
+    switch(change) {
+        case Connectivity.connectionType.wifi:
+        case Connectivity.connectionType.ethernet:
+            console.log("Connected to home network");
+            break;
+        case Connectivity.connectionType.mobile:
+        case Connectivity.connectionType.bluetooth:
+            console.log("Connected to mobile network");
+            break;
+        case Connectivity.connectionType.vpn:
+            console.log("Connected to vpn network");
+            break;
+        default:
+            console.log("Not connected to any network");
+            break;
+    }
+});
+```
+
+If you would like to stop monitoring connecivity changes call [stopMonitoring()](#stopMonitoring)
+
+```ts
+Connectivity.stopMonitoring();
+```
+
+## API
 
 ### getConnectionType()
 
 ```ts
-type = Connectivity.getConnectionType()
+Connectivity.getConnectionType(): number
 ```
 
-Gets the type of connection.
-Returns a `number` value from the connectivity.connectionType ` enumeration. To use this method on Android you need to have the android.permission.ACCESS_NETWORK_STATE` permission added to the `AndroidManifest.xml` file.
+This method retrieves the current connection type. It returns a number value representing one of the `connectionType` enumeration values.
+
+::: warning Note
+For Android, the `android.permission.ACCESS_NETWORK_STATE` permission must be added to the `AndroidManifest.xml` file to use this method.
+:::
 
 ---
+
 ### startMonitoring()
 
 ```ts
 Connectivity.startMonitoring(connectionTypeChangedCallback: (newConnectionType: number) => void): void
 ```
 
-Starts monitoring the connection type.
-`connectionTypeChangedCallback`:  A function that will be called when the connection type changes.
+This method initiates the monitoring of the network connection type.
+The `connectionTypeChangedCallback` is a function that will be invoked when the network connection type changes.
 
 ---
+
 ### stopMonitoring()
 
 ```ts
 Connectivity.stopMonitoring()
 ```
 
-Stops monitoring the connection type.
+This method halts the monitoring of the network connection type.
 
 ---
 
 ### connectionType
 
 ```ts
-Connectivity.connectionType.none
+Connectivity.connectionType: number
 ```
 
-Defines the different connection types.
+This enumeration defines the different possible connection types.
 
 :::details More connection types
 
+- `none = 0`
 - `wifi = 1`
 - `mobile = 2`,
 - `ethernet = 3`,
