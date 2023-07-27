@@ -114,14 +114,34 @@ export default [
     items: [
       { text: 'Application', link: '/guide/core/application' },
       {
+        text: 'Observable',
+        link: '/guide/core/observable'
+      },
+      {
+        text: 'Screen',
+        link: '/guide/core/screen'
+      },
+      {
         text: 'Device',
         link: '/guide/core/device'
+      },
+      {
+        text: 'XmlParser',
+        link: '/guide/core/xml-parser'
+      },
+      {
+        text: 'Utils',
+        link: '/guide/core/utils'
       }
     ]
   },
   {
     text: 'Advanced Concepts',
     items: [
+      {
+        text: 'Navigation',
+        link: '/guide/ui/navigation',
+      },
       {
         text: 'Multithreading',
         link: '/guide/multithreading',
@@ -131,8 +151,8 @@ export default [
         link: '/guide/code-sharing',
       },
       {
-        text: 'ImageCache',
-        link: '/guide/ui/image-cache'
+        text: 'Property System',
+        link: '/guide/property-system'
       },
       {
         text: 'Shared Element Transitions',
@@ -143,6 +163,19 @@ export default [
   {
     text: 'UI',
     items: [
+      {
+        text: 'Image',
+        items: [
+          {
+            text: 'ImageCache',
+            link: '/guide/ui/image-cache'
+          },
+          {
+            text: 'ImageSource',
+            link: '/guide/ui/image-source'
+          }
+        ]
+      },
       //       { text: 'Styling', link: '//#' },
       //       { text: 'Interactivity', link: '//#' },
       {
