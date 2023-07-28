@@ -1,0 +1,480 @@
+{
+  "title": "CssAnimationProperty",
+  "hierarchy": [
+    [
+      {
+        "text": "CssAnimationProperty"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        9291
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        9313,
+        9298,
+        9297,
+        9311,
+        9308,
+        9299,
+        9312,
+        9309,
+        9307,
+        9296,
+        9285,
+        9301,
+        9300,
+        9310
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        9286,
+        9289,
+        9317,
+        9320
+      ]
+    }
+  ],
+  "reflections": {
+    "9285": {
+      "name": "properties",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#properties",
+      "flags": {
+        "isPrivate": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "properties: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 109,
+              "character": 19
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#properties"
+        }
+      ]
+    },
+    "9286": {
+      "name": "_getByCssName",
+      "type": "Method",
+      "url": "/api/class/CssAnimationProperty#getbycssname",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_getByCssName(name: string): <a href=\"/api/class/CssAnimationProperty\">CssAnimationProperty</a>&lt;any, any&gt;",
+          "url": "/api/class/CssAnimationProperty#getbycssname-getbycssname-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 113,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/CssAnimationProperty\">CssAnimationProperty</a>&lt;any, any&gt;"
+        }
+      ]
+    },
+    "9289": {
+      "name": "_getPropertyNames",
+      "type": "Method",
+      "url": "/api/class/CssAnimationProperty#getpropertynames",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_getPropertyNames(): string[]",
+          "url": "/api/class/CssAnimationProperty#getpropertynames-getpropertynames-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 114,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "string[]"
+        }
+      ]
+    },
+    "9291": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/CssAnimationProperty#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new CssAnimationProperty&lt;T, U&gt;(options: CssAnimationPropertyOptions&lt;T, U&gt;): <a href=\"/api/class/CssAnimationProperty\">CssAnimationProperty</a>&lt;T, U&gt;",
+          "url": "/api/class/CssAnimationProperty#constructor-new-cssanimationproperty",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 111,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "CssAnimationPropertyOptions&lt;T, U&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/CssAnimationProperty\">CssAnimationProperty</a>&lt;T, U&gt;"
+        }
+      ]
+    },
+    "9296": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#name",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 95,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#name"
+        }
+      ]
+    },
+    "9297": {
+      "name": "cssName",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#cssname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 96,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#cssname"
+        }
+      ]
+    },
+    "9298": {
+      "name": "cssLocalName",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#csslocalname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssLocalName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 97,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#csslocalname"
+        }
+      ]
+    },
+    "9299": {
+      "name": "getDefault",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#getdefault",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "getDefault: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 98,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#getdefault"
+        }
+      ]
+    },
+    "9300": {
+      "name": "setNative",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#setnative",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "setNative: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 99,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#setnative"
+        }
+      ]
+    },
+    "9301": {
+      "name": "register",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#register",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "register: (cls: {}) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 100,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#register"
+        }
+      ]
+    },
+    "9307": {
+      "name": "keyframe",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#keyframe",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "keyframe: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 103,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#keyframe"
+        }
+      ]
+    },
+    "9308": {
+      "name": "defaultValueKey",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#defaultvaluekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "defaultValueKey: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 104,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#defaultvaluekey"
+        }
+      ]
+    },
+    "9309": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#key",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "key: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 105,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#key"
+        }
+      ]
+    },
+    "9310": {
+      "name": "source",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#source",
+      "flags": {
+        "isPrivate": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "source: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 106,
+              "character": 21
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#source"
+        }
+      ]
+    },
+    "9311": {
+      "name": "defaultValue",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#defaultvalue",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "defaultValue: U",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 107,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#defaultvalue"
+        }
+      ]
+    },
+    "9312": {
+      "name": "isStyleProperty",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#isstyleproperty",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isStyleProperty: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 108,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#isstyleproperty"
+        }
+      ]
+    },
+    "9313": {
+      "name": "_valueConverter",
+      "type": "Property",
+      "url": "/api/class/CssAnimationProperty#valueconverter",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "_valueConverter?: (value: string) => any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/CssAnimationProperty#valueconverter"
+        }
+      ]
+    },
+    "9317": {
+      "name": "_initDefaultNativeValue",
+      "type": "Method",
+      "url": "/api/class/CssAnimationProperty#initdefaultnativevalue",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_initDefaultNativeValue(target: T): void",
+          "url": "/api/class/CssAnimationProperty#initdefaultnativevalue-initdefaultnativevalue-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 112,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "target",
+              "type": "T",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "9320": {
+      "name": "isSet",
+      "type": "Method",
+      "url": "/api/class/CssAnimationProperty#isset",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isSet(instance: T): boolean",
+          "url": "/api/class/CssAnimationProperty#isset-isset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 115,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "instance",
+              "type": "T",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    }
+  }
+}

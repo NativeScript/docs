@@ -1,0 +1,241 @@
+{
+  "title": "DiscardedErrorEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "ApplicationEventData",
+        "link": "/api/interface/ApplicationEventData"
+      }
+    ],
+    [
+      {
+        "text": "DiscardedErrorEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1094,
+        1092,
+        1095,
+        1093,
+        1096
+      ]
+    }
+  ],
+  "reflections": {
+    "1092": {
+      "name": "error",
+      "type": "Property",
+      "url": "/api/interface/DiscardedErrorEventData#error",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "error: NativeScriptError",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 184,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/DiscardedErrorEventData#error"
+        }
+      ]
+    },
+    "1093": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/DiscardedErrorEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "ios",
+        "url": "/api/interface/ApplicationEventData#ios",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "ios?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 109,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "ios",
+            "url": "/api/interface/ApplicationEventData#ios",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+              }
+            ]
+          },
+          "url": "/api/interface/DiscardedErrorEventData#ios"
+        }
+      ]
+    },
+    "1094": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/DiscardedErrorEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native Android event arguments. Valid only when running on Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "android",
+        "url": "/api/interface/ApplicationEventData#android",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "android?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 114,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "android",
+            "url": "/api/interface/ApplicationEventData#android",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native Android event arguments. Valid only when running on Android."
+              }
+            ]
+          },
+          "url": "/api/interface/DiscardedErrorEventData#android"
+        }
+      ]
+    },
+    "1095": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/DiscardedErrorEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/ApplicationEventData#eventname",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 119,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/ApplicationEventData#eventname",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/DiscardedErrorEventData#eventname"
+        }
+      ]
+    },
+    "1096": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/DiscardedErrorEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/ApplicationEventData#object",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "object: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 124,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/ApplicationEventData#object",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/DiscardedErrorEventData#object"
+        }
+      ]
+    }
+  }
+}

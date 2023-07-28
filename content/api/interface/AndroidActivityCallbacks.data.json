@@ -1,0 +1,466 @@
+{
+  "title": "AndroidActivityCallbacks",
+  "hierarchy": [
+    [
+      {
+        "text": "AndroidActivityCallbacks"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Methods",
+      "items": [
+        11008,
+        11051,
+        11040,
+        11013,
+        11036,
+        11058,
+        11032,
+        11044,
+        11019,
+        11024,
+        11028,
+        11010
+      ]
+    }
+  ],
+  "reflections": {
+    "11008": {
+      "name": "getRootView",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#getrootview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getRootView(): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/interface/AndroidActivityCallbacks#getrootview-getrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 455,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "11010": {
+      "name": "resetActivityContent",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#resetactivitycontent",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "resetActivityContent(activity: any): void",
+          "url": "/api/interface/AndroidActivityCallbacks#resetactivitycontent-resetactivitycontent-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 456,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11013": {
+      "name": "onCreate",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#oncreate",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onCreate(\n  activity: any,\n  savedInstanceState: any,\n  intent: any,\n  superFunc: Function\n): void",
+          "url": "/api/interface/AndroidActivityCallbacks#oncreate-oncreate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 458,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "savedInstanceState",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "intent",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11019": {
+      "name": "onSaveInstanceState",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onsaveinstancestate",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onSaveInstanceState(activity: any, outState: any, superFunc: Function): void",
+          "url": "/api/interface/AndroidActivityCallbacks#onsaveinstancestate-onsaveinstancestate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 459,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "outState",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11024": {
+      "name": "onStart",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onstart",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onStart(activity: any, superFunc: Function): void",
+          "url": "/api/interface/AndroidActivityCallbacks#onstart-onstart-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 460,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11028": {
+      "name": "onStop",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onstop",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onStop(activity: any, superFunc: Function): void",
+          "url": "/api/interface/AndroidActivityCallbacks#onstop-onstop-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 461,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11032": {
+      "name": "onPostResume",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onpostresume",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onPostResume(activity: any, superFunc: Function): void",
+          "url": "/api/interface/AndroidActivityCallbacks#onpostresume-onpostresume-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 462,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11036": {
+      "name": "onDestroy",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#ondestroy",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onDestroy(activity: any, superFunc: Function): void",
+          "url": "/api/interface/AndroidActivityCallbacks#ondestroy-ondestroy-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 463,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11040": {
+      "name": "onBackPressed",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onbackpressed",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onBackPressed(activity: any, superFunc: Function): void",
+          "url": "/api/interface/AndroidActivityCallbacks#onbackpressed-onbackpressed-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 464,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11044": {
+      "name": "onRequestPermissionsResult",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onrequestpermissionsresult",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onRequestPermissionsResult(\n  activity: any,\n  requestCode: number,\n  permissions: string[],\n  grantResults: number[],\n  superFunc: Function\n): void",
+          "url": "/api/interface/AndroidActivityCallbacks#onrequestpermissionsresult-onrequestpermissionsresult-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 465,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "requestCode",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "permissions",
+              "type": "string[]",
+              "flags": {}
+            },
+            {
+              "name": "grantResults",
+              "type": "number[]",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11051": {
+      "name": "onActivityResult",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onactivityresult",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onActivityResult(\n  activity: any,\n  requestCode: number,\n  resultCode: number,\n  data: any,\n  superFunc: Function\n): any",
+          "url": "/api/interface/AndroidActivityCallbacks#onactivityresult-onactivityresult-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 466,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "requestCode",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "resultCode",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "data",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "11058": {
+      "name": "onNewIntent",
+      "type": "Method",
+      "url": "/api/interface/AndroidActivityCallbacks#onnewintent",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onNewIntent(\n  activity: any,\n  intent: any,\n  superSetIntentFunc: Function,\n  superFunc: Function\n): void",
+          "url": "/api/interface/AndroidActivityCallbacks#onnewintent-onnewintent-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 467,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "activity",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "intent",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "superSetIntentFunc",
+              "type": "Function",
+              "flags": {}
+            },
+            {
+              "name": "superFunc",
+              "type": "Function",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

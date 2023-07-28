@@ -1,0 +1,298 @@
+{
+  "title": "AnimationCurve",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2751,
+        2752,
+        2754,
+        2753,
+        2755,
+        2756
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2745
+      ]
+    }
+  ],
+  "reflections": {
+    "2745": {
+      "name": "cubicBezier",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#cubicbezier",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "cubicBezier(\n  x1: number,\n  y1: number,\n  x2: number,\n  y2: number\n): CubicBezierAnimationCurve",
+          "url": "/api/namespace/CoreTypes-AnimationCurve#cubicbezier-cubicbezier-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 660,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A custom cubic bezier function defined by its two control points. Possible values are numeric values from 0 to 1"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "x1",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "y1",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "x2",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "y2",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "CubicBezierAnimationCurve"
+        }
+      ]
+    },
+    "2751": {
+      "name": "ease",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#ease",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Default value. Specifies a transition effect with a slow start, then fast, then end slowly (equivalent to cubic-bezier(0.25,0.1,0.25,1))"
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "ease: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 630,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Default value. Specifies a transition effect with a slow start, then fast, then end slowly (equivalent to cubic-bezier(0.25,0.1,0.25,1))"
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-AnimationCurve#ease"
+        }
+      ]
+    },
+    "2752": {
+      "name": "easeIn",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#easein",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An ease-in curve causes the animation to begin slowly, and then speed up as it progresses."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "easeIn: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 635,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An ease-in curve causes the animation to begin slowly, and then speed up as it progresses."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-AnimationCurve#easein"
+        }
+      ]
+    },
+    "2753": {
+      "name": "easeOut",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#easeout",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An ease-out curve causes the animation to begin quickly, and then slow down as it completes."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "easeOut: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 640,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An ease-out curve causes the animation to begin quickly, and then slow down as it completes."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-AnimationCurve#easeout"
+        }
+      ]
+    },
+    "2754": {
+      "name": "easeInOut",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#easeinout",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An ease-in ease-out curve causes the animation to begin slowly, accelerate through the middle of its duration, and then slow again before completing."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "easeInOut: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 645,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An ease-in ease-out curve causes the animation to begin slowly, accelerate through the middle of its duration, and then slow again before completing."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-AnimationCurve#easeinout"
+        }
+      ]
+    },
+    "2755": {
+      "name": "linear",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#linear",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A linear animation curve causes an animation to occur evenly over its duration."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "linear: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 650,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A linear animation curve causes an animation to occur evenly over its duration."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-AnimationCurve#linear"
+        }
+      ]
+    },
+    "2756": {
+      "name": "spring",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#spring",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A spring animation curve causes an animation to produce a spring (bounce) effect."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "spring: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 655,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A spring animation curve causes an animation to produce a spring (bounce) effect."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-AnimationCurve#spring"
+        }
+      ]
+    }
+  }
+}

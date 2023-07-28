@@ -1,0 +1,157 @@
+{
+  "title": "GestureStateTypes",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        11104,
+        11103,
+        11105,
+        11106
+      ]
+    }
+  ],
+  "reflections": {
+    "11103": {
+      "name": "cancelled",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#cancelled",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture canceled."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "cancelled: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 70,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture canceled."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#cancelled"
+        }
+      ]
+    },
+    "11104": {
+      "name": "began",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#began",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture began."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "began: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 74,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture began."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#began"
+        }
+      ]
+    },
+    "11105": {
+      "name": "changed",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#changed",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture changed."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "changed: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 78,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture changed."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#changed"
+        }
+      ]
+    },
+    "11106": {
+      "name": "ended",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#ended",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture ended."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ended: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 82,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture ended."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#ended"
+        }
+      ]
+    }
+  }
+}

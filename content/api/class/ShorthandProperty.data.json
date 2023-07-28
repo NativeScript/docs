@@ -1,0 +1,288 @@
+{
+  "title": "ShorthandProperty",
+  "hierarchy": [
+    [
+      {
+        "text": "ShorthandProperty"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        9265
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        9274,
+        9273,
+        9275,
+        9271,
+        9276,
+        9272,
+        9277,
+        9270,
+        9278
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        9279
+      ]
+    }
+  ],
+  "reflections": {
+    "9265": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ShorthandProperty#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ShorthandProperty&lt;T, P&gt;(options: ShorthandPropertyOptions&lt;P&gt;): <a href=\"/api/class/ShorthandProperty\">ShorthandProperty</a>&lt;T, P&gt;",
+          "url": "/api/class/ShorthandProperty#constructor-new-shorthandproperty",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 132,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "ShorthandPropertyOptions&lt;P&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/ShorthandProperty\">ShorthandProperty</a>&lt;T, P&gt;"
+        }
+      ]
+    },
+    "9270": {
+      "name": "registered",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#registered",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "registered: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 123,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#registered"
+        }
+      ]
+    },
+    "9271": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#key",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "key: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 124,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#key"
+        }
+      ]
+    },
+    "9272": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#name",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 125,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#name"
+        }
+      ]
+    },
+    "9273": {
+      "name": "cssName",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#cssname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 126,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#cssname"
+        }
+      ]
+    },
+    "9274": {
+      "name": "cssLocalName",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#csslocalname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssLocalName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 127,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#csslocalname"
+        }
+      ]
+    },
+    "9275": {
+      "name": "cssValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#cssvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssValueDescriptor: PropertyDescriptor",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 128,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#cssvaluedescriptor"
+        }
+      ]
+    },
+    "9276": {
+      "name": "localValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#localvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "localValueDescriptor: PropertyDescriptor",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 129,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#localvaluedescriptor"
+        }
+      ]
+    },
+    "9277": {
+      "name": "propertyBagDescriptor",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#propertybagdescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "propertyBagDescriptor: PropertyDescriptor",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 130,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#propertybagdescriptor"
+        }
+      ]
+    },
+    "9278": {
+      "name": "sourceKey",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#sourcekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "sourceKey: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 131,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#sourcekey"
+        }
+      ]
+    },
+    "9279": {
+      "name": "register",
+      "type": "Method",
+      "url": "/api/class/ShorthandProperty#register",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "register(cls: typeof <a href=\"/api/class/Style\">Style</a>): void",
+          "url": "/api/class/ShorthandProperty#register-register-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 133,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "typeof <a href=\"/api/class/Style\">Style</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

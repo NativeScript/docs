@@ -1,0 +1,164 @@
+{
+  "title": "BackgroundRepeat",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2734,
+        2731,
+        2732,
+        2733
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2735,
+        2738
+      ]
+    }
+  ],
+  "reflections": {
+    "2731": {
+      "name": "repeat",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeat",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "repeat: <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 600,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeat"
+        }
+      ]
+    },
+    "2732": {
+      "name": "repeatX",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeatx",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "repeatX: <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 601,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeatx"
+        }
+      ]
+    },
+    "2733": {
+      "name": "repeatY",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeaty",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "repeatY: <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 602,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeaty"
+        }
+      ]
+    },
+    "2734": {
+      "name": "noRepeat",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-BackgroundRepeat#norepeat",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "noRepeat: <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 603,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-BackgroundRepeat#norepeat"
+        }
+      ]
+    },
+    "2735": {
+      "name": "isValid",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-BackgroundRepeat#isvalid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isValid(value: any): <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "url": "/api/namespace/CoreTypes-BackgroundRepeat#isvalid-isvalid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 604,
+              "character": 24
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>"
+        }
+      ]
+    },
+    "2738": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-BackgroundRepeat#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(value: any): <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "url": "/api/namespace/CoreTypes-BackgroundRepeat#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 605,
+              "character": 22
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>"
+        }
+      ]
+    }
+  }
+}
