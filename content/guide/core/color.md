@@ -129,7 +129,7 @@ Gets the known name of this instance. Defined only if it has been constructed fr
 androidColor = color.android
 ```
 
-Gets the android-specific integer value representation. Same as the Argb one.
+Gets the android-specific integer value representation. Same as the `ARGB` one.
 
 ---
 
