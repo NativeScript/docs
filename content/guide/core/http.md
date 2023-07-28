@@ -260,7 +260,7 @@ Gets the response body as string.
 response.content?.toJSON(encoding)
 ```
 
-Gets the response body as JSON object. The `encoding` is an optional of type `'UTF8' | 'GBK'`
+Gets the response body as JSON object. The `encoding` is optional of type `'UTF8' | 'GBK'`.
 
 ---
 
