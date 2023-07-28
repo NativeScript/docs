@@ -37,7 +37,7 @@ export function startFPSMeter(args: EventData) {
 
 ### Stop measuring FPS
 
-To stop measuring the fps, remove the registered callback using its id and then call the module's [stop](#stop) method.
+Remove the registered callback using its id and then call the [stop](#stop) method.
 
 ```ts
 export function stopFPSMeter(args: EventData) {
