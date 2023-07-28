@@ -20,7 +20,7 @@ Http.getString('https://httpbin.org/get').then(
 )
 ```
 
-### GET request with a response body as a JSON
+### GET request with a response body as JSON
 
 Use the [getJSON()](#getjson) method for a GET request with a response as a JSON:
 
