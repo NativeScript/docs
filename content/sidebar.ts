@@ -109,6 +109,9 @@ export default [
     text: '@nativescript/core',
     items: [
       {
+        text: 'FPS Meter',
+        link: '/guide/core/fps-meter'
+      },
         text: 'Observable',
         link: '/guide/core/observable'
       },
