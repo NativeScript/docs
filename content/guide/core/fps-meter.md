@@ -6,7 +6,7 @@ FPS Meter allows you capture the frames-per-second metrics of your application.
 
 ## Using FPS Meter
 
-### Measuring the fps
+### Measuring FPS
 
 To use the module, first register a callback that will receive the FPS metrics using the [addCallBack](#addcallback) method. Then, call the [start](#start) method to start measuring the fps.
 
