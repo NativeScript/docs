@@ -56,7 +56,7 @@ export function stopFPSMeter(args: EventData) {
 const callbackId = addCallback(callback: (fps: number, minFps?: number) => void): number
 ```
 
-Adds a callback function to be called each time FPS data is ready. The a unique `number` id which can be used to remove this callback later.
+Implement a callback function that will be executed whenever FPS data becomes available. Assign a unique identifier (`number`) to this callback, facilitating its future removal, if needed.
 
 ---
 
