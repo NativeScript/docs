@@ -1,0 +1,161 @@
+{
+  "title": "ScrollEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "ScrollEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        19937,
+        19938,
+        19935,
+        19936
+      ]
+    }
+  ],
+  "reflections": {
+    "19935": {
+      "name": "scrollX",
+      "type": "Property",
+      "url": "/api/interface/ScrollEventData#scrollx",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "scrollX: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
+              "line": 81,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ScrollEventData#scrollx"
+        }
+      ]
+    },
+    "19936": {
+      "name": "scrollY",
+      "type": "Property",
+      "url": "/api/interface/ScrollEventData#scrolly",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "scrollY: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
+              "line": 82,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ScrollEventData#scrolly"
+        }
+      ]
+    },
+    "19937": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/ScrollEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ScrollEventData#eventname"
+        }
+      ]
+    },
+    "19938": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/ScrollEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ScrollEventData#object"
+        }
+      ]
+    }
+  }
+}
