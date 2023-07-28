@@ -113,6 +113,10 @@ export default [
         link: '/guide/core/connectivity',
       },
       {
+        text: 'FPS Meter',
+        link: '/guide/core/fps-meter'
+      },
+      {
         text: 'Observable',
         link: '/guide/core/observable'
       },
