@@ -2,7 +2,7 @@
 title: FPS Meter
 ---
 
-This module allows you capture the frames-per-second metrics of your application.
+FPS Meter allows you capture the frames-per-second metrics of your application.
 
 ## Using FPS Meter
 
