@@ -26,7 +26,7 @@ Use the [getJSON()](#getjson) method for a GET request with a response as a JSON
 
 ```ts
 Http.getJSON('https://httpbin.org/get').then(
-  (result: any) => {
+  (result) => {
     console.log(result)
   },
   e => {}
