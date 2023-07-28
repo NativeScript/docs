@@ -2,7 +2,7 @@
 title: Http
 ---
 <!-- TODO: Add links -->
-This class allows you to make http requests.
+Http provides utility methods to make all sorts of http networking requests.
 
 
 ## Using Http
