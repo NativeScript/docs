@@ -1,0 +1,89 @@
+{
+  "title": "WhiteSpace",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2717,
+        2718
+      ]
+    }
+  ],
+  "reflections": {
+    "2717": {
+      "name": "normal",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-WhiteSpace#normal",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Normal wrap."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "normal: <a href=\"/api/namespace/CoreTypes#whitespacetype\">WhiteSpaceType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 537,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Normal wrap."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-WhiteSpace#normal"
+        }
+      ]
+    },
+    "2718": {
+      "name": "nowrap",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-WhiteSpace#nowrap",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "No wrap."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "nowrap: <a href=\"/api/namespace/CoreTypes#whitespacetype\">WhiteSpaceType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 542,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "No wrap."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-WhiteSpace#nowrap"
+        }
+      ]
+    }
+  }
+}

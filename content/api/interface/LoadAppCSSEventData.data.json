@@ -1,0 +1,141 @@
+{
+  "title": "LoadAppCSSEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "LoadAppCSSEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1103,
+        1104,
+        1105
+      ]
+    }
+  ],
+  "reflections": {
+    "1103": {
+      "name": "cssFile",
+      "type": "Property",
+      "url": "/api/interface/LoadAppCSSEventData#cssfile",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "cssFile: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 763,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/LoadAppCSSEventData#cssfile"
+        }
+      ]
+    },
+    "1104": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/LoadAppCSSEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/LoadAppCSSEventData#eventname"
+        }
+      ]
+    },
+    "1105": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/LoadAppCSSEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/LoadAppCSSEventData#object"
+        }
+      ]
+    }
+  }
+}

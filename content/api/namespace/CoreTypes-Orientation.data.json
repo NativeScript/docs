@@ -1,0 +1,89 @@
+{
+  "title": "Orientation",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2626,
+        2627
+      ]
+    }
+  ],
+  "reflections": {
+    "2626": {
+      "name": "horizontal",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Orientation#horizontal",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Layout should be horizontally oriented."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "horizontal: <a href=\"/api/namespace/CoreTypes#orientationtype\">OrientationType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 141,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Layout should be horizontally oriented."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Orientation#horizontal"
+        }
+      ]
+    },
+    "2627": {
+      "name": "vertical",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Orientation#vertical",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Layout should be vertically oriented."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "vertical: <a href=\"/api/namespace/CoreTypes#orientationtype\">OrientationType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 145,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Layout should be vertically oriented."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-Orientation#vertical"
+        }
+      ]
+    }
+  }
+}

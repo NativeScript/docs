@@ -1,0 +1,333 @@
+{
+  "title": "SwipeGestureEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "GestureEventData",
+        "link": "/api/interface/GestureEventData"
+      }
+    ],
+    [
+      {
+        "text": "SwipeGestureEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        11202,
+        11198,
+        11203,
+        11201,
+        11204,
+        11199,
+        11200
+      ]
+    }
+  ],
+  "reflections": {
+    "11198": {
+      "name": "direction",
+      "type": "Property",
+      "url": "/api/interface/SwipeGestureEventData#direction",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "direction: <a href=\"/api/enum/SwipeDirection\">SwipeDirection</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 262,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/SwipeGestureEventData#direction"
+        }
+      ]
+    },
+    "11199": {
+      "name": "type",
+      "type": "Property",
+      "url": "/api/interface/SwipeGestureEventData#type",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the type of the gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "type",
+        "url": "/api/interface/GestureEventData#type",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "type: <a href=\"/api/enum/GestureTypes\">GestureTypes</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 139,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "type",
+            "url": "/api/interface/GestureEventData#type",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the type of the gesture."
+              }
+            ]
+          },
+          "url": "/api/interface/SwipeGestureEventData#type"
+        }
+      ]
+    },
+    "11200": {
+      "name": "view",
+      "type": "Property",
+      "url": "/api/interface/SwipeGestureEventData#view",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the view which originates the gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "view",
+        "url": "/api/interface/GestureEventData#view",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 143,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "view",
+            "url": "/api/interface/GestureEventData#view",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the view which originates the gesture."
+              }
+            ]
+          },
+          "url": "/api/interface/SwipeGestureEventData#view"
+        }
+      ]
+    },
+    "11201": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/SwipeGestureEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/)."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "ios",
+        "url": "/api/interface/GestureEventData#ios",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "ios: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 147,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "ios",
+            "url": "/api/interface/GestureEventData#ios",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/)."
+              }
+            ]
+          },
+          "url": "/api/interface/SwipeGestureEventData#ios"
+        }
+      ]
+    },
+    "11202": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/SwipeGestureEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "android",
+        "url": "/api/interface/GestureEventData#android",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "android: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 151,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "android",
+            "url": "/api/interface/GestureEventData#android",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)."
+              }
+            ]
+          },
+          "url": "/api/interface/SwipeGestureEventData#android"
+        }
+      ]
+    },
+    "11203": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/SwipeGestureEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/SwipeGestureEventData#eventname"
+        }
+      ]
+    },
+    "11204": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/SwipeGestureEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/SwipeGestureEventData#object"
+        }
+      ]
+    }
+  }
+}

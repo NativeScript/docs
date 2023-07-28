@@ -1,0 +1,157 @@
+{
+  "title": "SwipeDirection",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        11111,
+        11109,
+        11108,
+        11110
+      ]
+    }
+  ],
+  "reflections": {
+    "11108": {
+      "name": "right",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#right",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes right direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "right: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 92,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes right direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#right"
+        }
+      ]
+    },
+    "11109": {
+      "name": "left",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#left",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes left direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "left: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 96,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes left direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#left"
+        }
+      ]
+    },
+    "11110": {
+      "name": "up",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#up",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes up direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "up: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 100,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes up direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#up"
+        }
+      ]
+    },
+    "11111": {
+      "name": "down",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#down",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes down direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "down: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 104,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes down direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#down"
+        }
+      ]
+    }
+  }
+}

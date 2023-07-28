@@ -1,0 +1,207 @@
+{
+  "title": "DialogOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "CancelableOptions",
+        "link": "/api/interface/CancelableOptions"
+      }
+    ],
+    [
+      {
+        "text": "DialogOptions"
+      }
+    ],
+    [
+      {
+        "text": "AlertOptions",
+        "link": "/api/interface/AlertOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        10125,
+        10124,
+        10126,
+        10123
+      ]
+    }
+  ],
+  "reflections": {
+    "10123": {
+      "name": "title",
+      "type": "Property",
+      "url": "/api/interface/DialogOptions#title",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog title."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "title?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 189,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog title."
+              }
+            ]
+          },
+          "url": "/api/interface/DialogOptions#title"
+        }
+      ]
+    },
+    "10124": {
+      "name": "message",
+      "type": "Property",
+      "url": "/api/interface/DialogOptions#message",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the dialog message."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "message?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 194,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the dialog message."
+              }
+            ]
+          },
+          "url": "/api/interface/DialogOptions#message"
+        }
+      ]
+    },
+    "10125": {
+      "name": "cancelable",
+      "type": "Property",
+      "url": "/api/interface/DialogOptions#cancelable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "cancelable",
+        "url": "/api/interface/CancelableOptions#cancelable",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "cancelable?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 144,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "cancelable",
+            "url": "/api/interface/CancelableOptions#cancelable",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/DialogOptions#cancelable"
+        }
+      ]
+    },
+    "10126": {
+      "name": "theme",
+      "type": "Property",
+      "url": "/api/interface/DialogOptions#theme",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "theme",
+        "url": "/api/interface/CancelableOptions#theme",
+        "fromName": "CancelableOptions",
+        "fromUrl": "/api/interface/CancelableOptions"
+      },
+      "signatures": [
+        {
+          "code": "theme?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 149,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "theme",
+            "url": "/api/interface/CancelableOptions#theme",
+            "fromName": "CancelableOptions",
+            "fromUrl": "/api/interface/CancelableOptions"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "[Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style"
+              }
+            ]
+          },
+          "url": "/api/interface/DialogOptions#theme"
+        }
+      ]
+    }
+  }
+}
