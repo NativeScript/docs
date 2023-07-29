@@ -1,0 +1,85 @@
+{
+  "title": "ViewEntry",
+  "hierarchy": [
+    [
+      {
+        "text": "ViewEntry"
+      }
+    ],
+    [
+      {
+        "text": "NavigationEntry",
+        "link": "/api/interface/NavigationEntry"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        11004,
+        11003
+      ]
+    }
+  ],
+  "reflections": {
+    "11003": {
+      "name": "moduleName",
+      "type": "Property",
+      "url": "/api/interface/ViewEntry#modulename",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the module containing the View instance to load. Optional."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "moduleName?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 280,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the module containing the View instance to load. Optional."
+              }
+            ]
+          },
+          "url": "/api/interface/ViewEntry#modulename"
+        }
+      ]
+    },
+    "11004": {
+      "name": "create",
+      "type": "Property",
+      "url": "/api/interface/ViewEntry#create",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "create?: () => <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 285,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ViewEntry#create"
+        }
+      ]
+    }
+  }
+}

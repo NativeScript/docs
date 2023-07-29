@@ -1,0 +1,1463 @@
+{
+  "title": "ImageAsset",
+  "hierarchy": [
+    [
+      {
+        "text": "Observable",
+        "link": "/api/class/Observable"
+      }
+    ],
+    [
+      {
+        "text": "ImageAsset"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2200
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2286,
+        2212,
+        2210,
+        2211,
+        2213,
+        2174
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2281,
+        2278,
+        2242,
+        2190,
+        2263,
+        2203,
+        2275,
+        2266,
+        2270,
+        2237,
+        2185,
+        2214,
+        2175,
+        2229,
+        2180,
+        2250,
+        2195,
+        2255,
+        2259
+      ]
+    }
+  ],
+  "reflections": {
+    "2174": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/ImageAsset#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "propertyChangeEvent",
+        "url": "/api/class/Observable#propertychangeevent",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "code": "propertyChangeEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 81,
+              "character": 8
+            }
+          ],
+          "inheritedFrom": {
+            "name": "propertyChangeEvent",
+            "url": "/api/class/Observable#propertychangeevent",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/ImageAsset#propertychangeevent"
+        }
+      ]
+    },
+    "2175": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#on-3",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "on",
+        "url": "/api/class/Observable#on-3",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: any, thisArg?: any): void",
+          "url": "/api/class/ImageAsset#on-3-on-4",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 91,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/Observable#on-3",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2180": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/Observable#once-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: any, thisArg?: any): void",
+          "url": "/api/class/ImageAsset#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/Observable#once-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2185": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/Observable#off-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: any, thisArg?: any): void",
+          "url": "/api/class/ImageAsset#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 113,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/Observable#off-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2190": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: any, thisArg?: any): void",
+          "url": "/api/class/ImageAsset#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 123,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2195": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "removeEventListener",
+        "url": "/api/class/Observable#removeeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: any, thisArg?: any): void",
+          "url": "/api/class/ImageAsset#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 133,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeEventListener",
+            "url": "/api/class/Observable#removeeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2200": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ImageAsset#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ImageAsset(asset: any): <a href=\"/api/class/ImageAsset\">ImageAsset</a>",
+          "url": "/api/class/ImageAsset#constructor-new-imageasset",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 4,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "asset",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/ImageAsset\">ImageAsset</a>"
+        }
+      ]
+    },
+    "2203": {
+      "name": "getImageAsync",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#getimageasync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getImageAsync(callback: (image: any, error: any) => void): any",
+          "url": "/api/class/ImageAsset#getimageasync-getimageasync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 5,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "(image: any, error: any) => void",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2210": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/class/ImageAsset#ios",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ios: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 6,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/ImageAsset#ios"
+        }
+      ]
+    },
+    "2211": {
+      "name": "nativeImage",
+      "type": "Property",
+      "url": "/api/class/ImageAsset#nativeimage",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "nativeImage: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 7,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/ImageAsset#nativeimage"
+        }
+      ]
+    },
+    "2212": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/class/ImageAsset#android",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "android: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/ImageAsset#android"
+        }
+      ]
+    },
+    "2213": {
+      "name": "options",
+      "type": "Property",
+      "url": "/api/class/ImageAsset#options",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "options: <a href=\"/api/interface/ImageAssetOptions\">ImageAssetOptions</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 9,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/ImageAsset#options"
+        }
+      ]
+    },
+    "2214": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#on",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "on",
+        "url": "/api/class/Observable#on",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/ImageAsset#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 89,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/Observable#on",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which will be used as "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`this`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " context for callback execution."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"propertyChange\", callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/ImageAsset#on-on-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 96,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/Observable#on",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Raised when a propertyChange occurs."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"propertyChange\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2229": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#once",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/Observable#once",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/ImageAsset#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 104,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/Observable#once",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2237": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#off",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/Observable#off",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: any, thisArg?: any): any",
+          "url": "/api/class/ImageAsset#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 111,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/Observable#off",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2242": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#addeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/ImageAsset#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 121,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2250": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#removeeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "removeEventListener",
+        "url": "/api/class/Observable#removeeventlistener",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: any, thisArg?: any): any",
+          "url": "/api/class/ImageAsset#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 131,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeEventListener",
+            "url": "/api/class/Observable#removeeventlistener",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2255": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#set",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "set",
+        "url": "/api/class/Observable#set",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "set(name: string, value: any): void",
+          "url": "/api/class/ImageAsset#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 138,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "set",
+            "url": "/api/class/Observable#set",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2259": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setProperty",
+        "url": "/api/class/Observable#setproperty",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setProperty(name: string, value: any): void",
+          "url": "/api/class/ImageAsset#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 143,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setProperty",
+            "url": "/api/class/Observable#setproperty",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2263": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#get",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "get",
+        "url": "/api/class/Observable#get",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "get(name: string): any",
+          "url": "/api/class/ImageAsset#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 148,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "get",
+            "url": "/api/class/Observable#get",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2266": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "notify",
+        "url": "/api/class/Observable#notify",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "notify&lt;T&gt;(data: T): void",
+          "url": "/api/class/ImageAsset#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notify",
+            "url": "/api/class/Observable#notify",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the event provided in the data.eventName."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The data associated with the event."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2270": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#notifypropertychange",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "notifyPropertyChange",
+        "url": "/api/class/Observable#notifypropertychange",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "notifyPropertyChange(propertyName: string, value: any, oldValue?: any): void",
+          "url": "/api/class/ImageAsset#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 159,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notifyPropertyChange",
+            "url": "/api/class/Observable#notifypropertychange",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2275": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "hasListeners",
+        "url": "/api/class/Observable#haslisteners",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasListeners(eventName: string): boolean",
+          "url": "/api/class/ImageAsset#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 165,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "hasListeners",
+            "url": "/api/class/Observable#haslisteners",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2278": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#emit",
+      "flags": {
+        "isPublic": true
+      },
+      "inheritedFrom": {
+        "name": "_emit",
+        "url": "/api/class/Observable#emit",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_emit(eventNames: string): any",
+          "url": "/api/class/ImageAsset#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 167,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_emit",
+            "url": "/api/class/Observable#emit",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2281": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/ImageAsset#createpropertychangedata",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "_createPropertyChangeData",
+        "url": "/api/class/Observable#createpropertychangedata",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(name: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/ImageAsset#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 172,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_createPropertyChangeData",
+            "url": "/api/class/Observable#createpropertychangedata",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "2286": {
+      "name": "_isViewBase",
+      "type": "Property",
+      "url": "/api/class/ImageAsset#isviewbase",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Filed to use instead of instanceof ViewBase."
+          }
+        ]
+      },
+      "flags": {
+        "isPrivate": true
+      },
+      "inheritedFrom": {
+        "name": "_isViewBase",
+        "url": "/api/class/Observable#isviewbase",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "code": "_isViewBase: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 179,
+              "character": 8
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_isViewBase",
+            "url": "/api/class/Observable#isviewbase",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Filed to use instead of instanceof ViewBase."
+              }
+            ]
+          },
+          "url": "/api/class/ImageAsset#isviewbase"
+        }
+      ]
+    }
+  }
+}

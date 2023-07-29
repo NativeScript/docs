@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 import "./theme/cliLanguage";
 
 import nav from "./nav";
+import apiSidebar from "../content/api/sidebar.json";
 import mainSidebar from "../content/sidebar";
 
 export default defineConfig({
@@ -16,8 +17,9 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     editLink: {
-      pattern:
-        "https://pr.new/github.com/NativeScript/docs/edit/main/content/:filePath?initialPath=:path",
+      pattern: "https://github.com/NativeScript/docs/blob/main/content/:filePath",
+      // pattern:
+      //   "https://pr.new/github.com/NativeScript/docs/edit/main/content/:filePath?initialPath=:path",
     },
     algolia: {
       appId: "",
@@ -26,6 +28,7 @@ export default defineConfig({
     },
     nav,
     sidebar: {
+      "/ap": apiSidebar,
       "/": mainSidebar,
     },
   },
