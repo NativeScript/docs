@@ -14,7 +14,7 @@ To run your unit tests, the NativeScript CLI uses [Karma](http://karma-runner.gi
 
 ### Before You Begin
 
-Before writing and running unit tests, verify that you have completed the following steps.
+Before writing and running unit tests, the completion of the following steps must be verified.
 
 1. [Install and configure the NativeScript CLI on your system.](/setup/)
 1. If you don't have any projects, create a new project and navigate to the directory of the newly created directory.
