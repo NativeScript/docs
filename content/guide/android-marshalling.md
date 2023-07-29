@@ -588,7 +588,6 @@ class MyVersatileCopywriter: Printer, Copier, Writer{
     override fun writeLine(arr: Array<Any>) { ... }
 }
 ```
-<!-- TODO: fix links -->
 The same result can be achieved in NativeScript by extending any valid object that inherits [Java Object](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html).
 
 - In JavaScript - Declare an `interfaces` array in the implementation
