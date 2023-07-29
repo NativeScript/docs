@@ -1,0 +1,167 @@
+{
+  "title": "BindingOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "BindingOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        6499,
+        6496,
+        6497,
+        6498
+      ]
+    }
+  ],
+  "reflections": {
+    "6496": {
+      "name": "sourceProperty",
+      "type": "Property",
+      "url": "/api/interface/BindingOptions#sourceproperty",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The property name of the source object (typically the ViewModel) to bind to."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "sourceProperty: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 10,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The property name of the source object (typically the ViewModel) to bind to."
+              }
+            ]
+          },
+          "url": "/api/interface/BindingOptions#sourceproperty"
+        }
+      ]
+    },
+    "6497": {
+      "name": "targetProperty",
+      "type": "Property",
+      "url": "/api/interface/BindingOptions#targetproperty",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The property name of the target object (that is the Bindable instance) to bind the source property to."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "targetProperty: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 14,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The property name of the target object (that is the Bindable instance) to bind the source property to."
+              }
+            ]
+          },
+          "url": "/api/interface/BindingOptions#targetproperty"
+        }
+      ]
+    },
+    "6498": {
+      "name": "twoWay",
+      "type": "Property",
+      "url": "/api/interface/BindingOptions#twoway",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "True to establish a two-way binding, false otherwise. A two-way binding will synchronize both the source and the target property values regardless of which one initiated the change."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "twoWay?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 18,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "True to establish a two-way binding, false otherwise. A two-way binding will synchronize both the source and the target property values regardless of which one initiated the change."
+              }
+            ]
+          },
+          "url": "/api/interface/BindingOptions#twoway"
+        }
+      ]
+    },
+    "6499": {
+      "name": "expression",
+      "type": "Property",
+      "url": "/api/interface/BindingOptions#expression",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An expression used for calculations (convertions) based on the value of the property."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "expression?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 22,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An expression used for calculations (convertions) based on the value of the property."
+              }
+            ]
+          },
+          "url": "/api/interface/BindingOptions#expression"
+        }
+      ]
+    }
+  }
+}

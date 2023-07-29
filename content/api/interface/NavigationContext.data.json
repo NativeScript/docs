@@ -1,0 +1,79 @@
+{
+  "title": "NavigationContext",
+  "hierarchy": [
+    [
+      {
+        "text": "NavigationContext"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        10985,
+        10986,
+        10987
+      ]
+    }
+  ],
+  "reflections": {
+    "10985": {
+      "name": "entry",
+      "type": "Property",
+      "url": "/api/interface/NavigationContext#entry",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "entry: <a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 337,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/NavigationContext#entry"
+        }
+      ]
+    },
+    "10986": {
+      "name": "isBackNavigation",
+      "type": "Property",
+      "url": "/api/interface/NavigationContext#isbacknavigation",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isBackNavigation: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 338,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/NavigationContext#isbacknavigation"
+        }
+      ]
+    },
+    "10987": {
+      "name": "navigationType",
+      "type": "Property",
+      "url": "/api/interface/NavigationContext#navigationtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "navigationType: NavigationType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 339,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/NavigationContext#navigationtype"
+        }
+      ]
+    }
+  }
+}

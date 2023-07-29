@@ -17,24 +17,24 @@ export default [
   },
   {
     text: "Preview",
-    link: "//#",
+    link: "/soon",
     icon: "DevicePhoneMobileIcon",
   },
   {
     text: "Plugins",
-    link: "//#",
+    link: "/soon",
     activeMatch: "^/plugins",
     icon: "CubeTransparentIcon",
   },
   {
     text: "Best Practices",
-    link: "//#",
+    link: "/soon",
     activeMatch: "^/best-practices",
     icon: "CheckIcon",
   },
   {
     text: "Integrations",
-    link: "//#",
+    link: "/soon",
     icon: "CpuChipIcon",
   },
   {

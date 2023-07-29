@@ -1,0 +1,1398 @@
+{
+  "title": "Background",
+  "hierarchy": [
+    [
+      {
+        "text": "Background"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        22317
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        22326,
+        22334,
+        22335,
+        22330,
+        22327,
+        22331,
+        22325,
+        22329,
+        22324,
+        22332,
+        22333,
+        22328,
+        22337,
+        22338,
+        22336,
+        22339,
+        22319,
+        22312,
+        22320,
+        22322,
+        22321,
+        22323
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        22313,
+        22421,
+        22413,
+        22417,
+        22415,
+        22399,
+        22403,
+        22401,
+        22419,
+        22411,
+        22405,
+        22409,
+        22407,
+        22397,
+        22423,
+        22361,
+        22388,
+        22385,
+        22373,
+        22364,
+        22376,
+        22358,
+        22370,
+        22355,
+        22379,
+        22382,
+        22367,
+        22394,
+        22391,
+        22340,
+        22343,
+        22349,
+        22346,
+        22352
+      ]
+    }
+  ],
+  "reflections": {
+    "22312": {
+      "name": "default",
+      "type": "Property",
+      "url": "/api/class/Background#default",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "default: <a href=\"/api/class/Background\">Background</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 20,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/Background#default"
+        }
+      ]
+    },
+    "22313": {
+      "name": "equals",
+      "type": "Method",
+      "url": "/api/class/Background#equals",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "equals(value1: <a href=\"/api/class/Background\">Background</a>, value2: <a href=\"/api/class/Background\">Background</a>): boolean",
+          "url": "/api/class/Background#equals-equals-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 62,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value1",
+              "type": "<a href=\"/api/class/Background\">Background</a>",
+              "flags": {}
+            },
+            {
+              "name": "value2",
+              "type": "<a href=\"/api/class/Background\">Background</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22317": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Background#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Background(): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#constructor-new-background",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22319": {
+      "name": "color",
+      "type": "Property",
+      "url": "/api/class/Background#color",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "color: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 21,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#color"
+        }
+      ]
+    },
+    "22320": {
+      "name": "image",
+      "type": "Property",
+      "url": "/api/class/Background#image",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "image: string | LinearGradient",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 22,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#image"
+        }
+      ]
+    },
+    "22321": {
+      "name": "repeat",
+      "type": "Property",
+      "url": "/api/class/Background#repeat",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "repeat: <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 23,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#repeat"
+        }
+      ]
+    },
+    "22322": {
+      "name": "position",
+      "type": "Property",
+      "url": "/api/class/Background#position",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "position: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 24,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#position"
+        }
+      ]
+    },
+    "22323": {
+      "name": "size",
+      "type": "Property",
+      "url": "/api/class/Background#size",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "size: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 25,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#size"
+        }
+      ]
+    },
+    "22324": {
+      "name": "borderTopColor",
+      "type": "Property",
+      "url": "/api/class/Background#bordertopcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 26,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#bordertopcolor"
+        }
+      ]
+    },
+    "22325": {
+      "name": "borderRightColor",
+      "type": "Property",
+      "url": "/api/class/Background#borderrightcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderRightColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 27,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderrightcolor"
+        }
+      ]
+    },
+    "22326": {
+      "name": "borderBottomColor",
+      "type": "Property",
+      "url": "/api/class/Background#borderbottomcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 28,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderbottomcolor"
+        }
+      ]
+    },
+    "22327": {
+      "name": "borderLeftColor",
+      "type": "Property",
+      "url": "/api/class/Background#borderleftcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderLeftColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 29,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderleftcolor"
+        }
+      ]
+    },
+    "22328": {
+      "name": "borderTopWidth",
+      "type": "Property",
+      "url": "/api/class/Background#bordertopwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopWidth: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 30,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#bordertopwidth"
+        }
+      ]
+    },
+    "22329": {
+      "name": "borderRightWidth",
+      "type": "Property",
+      "url": "/api/class/Background#borderrightwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderRightWidth: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 31,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderrightwidth"
+        }
+      ]
+    },
+    "22330": {
+      "name": "borderBottomWidth",
+      "type": "Property",
+      "url": "/api/class/Background#borderbottomwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomWidth: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 32,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderbottomwidth"
+        }
+      ]
+    },
+    "22331": {
+      "name": "borderLeftWidth",
+      "type": "Property",
+      "url": "/api/class/Background#borderleftwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderLeftWidth: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 33,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderleftwidth"
+        }
+      ]
+    },
+    "22332": {
+      "name": "borderTopLeftRadius",
+      "type": "Property",
+      "url": "/api/class/Background#bordertopleftradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopLeftRadius: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 34,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#bordertopleftradius"
+        }
+      ]
+    },
+    "22333": {
+      "name": "borderTopRightRadius",
+      "type": "Property",
+      "url": "/api/class/Background#bordertoprightradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopRightRadius: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 35,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#bordertoprightradius"
+        }
+      ]
+    },
+    "22334": {
+      "name": "borderBottomLeftRadius",
+      "type": "Property",
+      "url": "/api/class/Background#borderbottomleftradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomLeftRadius: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 36,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderbottomleftradius"
+        }
+      ]
+    },
+    "22335": {
+      "name": "borderBottomRightRadius",
+      "type": "Property",
+      "url": "/api/class/Background#borderbottomrightradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomRightRadius: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 37,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#borderbottomrightradius"
+        }
+      ]
+    },
+    "22336": {
+      "name": "clipPath",
+      "type": "Property",
+      "url": "/api/class/Background#clippath",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "clipPath: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 38,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#clippath"
+        }
+      ]
+    },
+    "22337": {
+      "name": "boxShadow",
+      "type": "Property",
+      "url": "/api/class/Background#boxshadow",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "boxShadow: CSSShadow",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 39,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#boxshadow"
+        }
+      ]
+    },
+    "22338": {
+      "name": "clearFlags",
+      "type": "Property",
+      "url": "/api/class/Background#clearflags",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "clearFlags: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 40,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Background#clearflags"
+        }
+      ]
+    },
+    "22339": {
+      "name": "clone",
+      "type": "Property",
+      "url": "/api/class/Background#clone",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "clone: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 41,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Background#clone"
+        }
+      ]
+    },
+    "22340": {
+      "name": "withColor",
+      "type": "Method",
+      "url": "/api/class/Background#withcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withColor(value: <a href=\"/api/class/Color\">Color</a>): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withcolor-withcolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 42,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22343": {
+      "name": "withImage",
+      "type": "Method",
+      "url": "/api/class/Background#withimage",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withImage(value: string | LinearGradient): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withimage-withimage-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 43,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string | LinearGradient",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22346": {
+      "name": "withRepeat",
+      "type": "Method",
+      "url": "/api/class/Background#withrepeat",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withRepeat(value: <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withrepeat-withrepeat-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 44,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "<a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22349": {
+      "name": "withPosition",
+      "type": "Method",
+      "url": "/api/class/Background#withposition",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withPosition(value: string): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withposition-withposition-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 45,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22352": {
+      "name": "withSize",
+      "type": "Method",
+      "url": "/api/class/Background#withsize",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withSize(value: string): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withsize-withsize-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 46,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22355": {
+      "name": "withBorderTopColor",
+      "type": "Method",
+      "url": "/api/class/Background#withbordertopcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderTopColor(value: <a href=\"/api/class/Color\">Color</a>): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withbordertopcolor-withbordertopcolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 47,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22358": {
+      "name": "withBorderRightColor",
+      "type": "Method",
+      "url": "/api/class/Background#withborderrightcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderRightColor(value: <a href=\"/api/class/Color\">Color</a>): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderrightcolor-withborderrightcolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 48,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22361": {
+      "name": "withBorderBottomColor",
+      "type": "Method",
+      "url": "/api/class/Background#withborderbottomcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderBottomColor(value: <a href=\"/api/class/Color\">Color</a>): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderbottomcolor-withborderbottomcolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 49,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22364": {
+      "name": "withBorderLeftColor",
+      "type": "Method",
+      "url": "/api/class/Background#withborderleftcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderLeftColor(value: <a href=\"/api/class/Color\">Color</a>): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderleftcolor-withborderleftcolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 50,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "<a href=\"/api/class/Color\">Color</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22367": {
+      "name": "withBorderTopWidth",
+      "type": "Method",
+      "url": "/api/class/Background#withbordertopwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderTopWidth(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withbordertopwidth-withbordertopwidth-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 51,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22370": {
+      "name": "withBorderRightWidth",
+      "type": "Method",
+      "url": "/api/class/Background#withborderrightwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderRightWidth(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderrightwidth-withborderrightwidth-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 52,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22373": {
+      "name": "withBorderBottomWidth",
+      "type": "Method",
+      "url": "/api/class/Background#withborderbottomwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderBottomWidth(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderbottomwidth-withborderbottomwidth-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22376": {
+      "name": "withBorderLeftWidth",
+      "type": "Method",
+      "url": "/api/class/Background#withborderleftwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderLeftWidth(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderleftwidth-withborderleftwidth-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 54,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22379": {
+      "name": "withBorderTopLeftRadius",
+      "type": "Method",
+      "url": "/api/class/Background#withbordertopleftradius",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderTopLeftRadius(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withbordertopleftradius-withbordertopleftradius-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 55,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22382": {
+      "name": "withBorderTopRightRadius",
+      "type": "Method",
+      "url": "/api/class/Background#withbordertoprightradius",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderTopRightRadius(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withbordertoprightradius-withbordertoprightradius-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 56,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22385": {
+      "name": "withBorderBottomRightRadius",
+      "type": "Method",
+      "url": "/api/class/Background#withborderbottomrightradius",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderBottomRightRadius(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderbottomrightradius-withborderbottomrightradius-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 57,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22388": {
+      "name": "withBorderBottomLeftRadius",
+      "type": "Method",
+      "url": "/api/class/Background#withborderbottomleftradius",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBorderBottomLeftRadius(value: number): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withborderbottomleftradius-withborderbottomleftradius-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 58,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22391": {
+      "name": "withClipPath",
+      "type": "Method",
+      "url": "/api/class/Background#withclippath",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withClipPath(value: string): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withclippath-withclippath-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 59,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22394": {
+      "name": "withBoxShadow",
+      "type": "Method",
+      "url": "/api/class/Background#withboxshadow",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withBoxShadow(value: CSSShadow): <a href=\"/api/class/Background\">Background</a>",
+          "url": "/api/class/Background#withboxshadow-withboxshadow-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 60,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "CSSShadow",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Background\">Background</a>"
+        }
+      ]
+    },
+    "22397": {
+      "name": "isEmpty",
+      "type": "Method",
+      "url": "/api/class/Background#isempty",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isEmpty(): boolean",
+          "url": "/api/class/Background#isempty-isempty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 61,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22399": {
+      "name": "hasBorderColor",
+      "type": "Method",
+      "url": "/api/class/Background#hasbordercolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasBorderColor(): boolean",
+          "url": "/api/class/Background#hasbordercolor-hasbordercolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 63,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22401": {
+      "name": "hasBorderWidth",
+      "type": "Method",
+      "url": "/api/class/Background#hasborderwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasBorderWidth(): boolean",
+          "url": "/api/class/Background#hasborderwidth-hasborderwidth-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 64,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22403": {
+      "name": "hasBorderRadius",
+      "type": "Method",
+      "url": "/api/class/Background#hasborderradius",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasBorderRadius(): boolean",
+          "url": "/api/class/Background#hasborderradius-hasborderradius-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 65,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22405": {
+      "name": "hasUniformBorderColor",
+      "type": "Method",
+      "url": "/api/class/Background#hasuniformbordercolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasUniformBorderColor(): boolean",
+          "url": "/api/class/Background#hasuniformbordercolor-hasuniformbordercolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 66,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22407": {
+      "name": "hasUniformBorderWidth",
+      "type": "Method",
+      "url": "/api/class/Background#hasuniformborderwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasUniformBorderWidth(): boolean",
+          "url": "/api/class/Background#hasuniformborderwidth-hasuniformborderwidth-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 67,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22409": {
+      "name": "hasUniformBorderRadius",
+      "type": "Method",
+      "url": "/api/class/Background#hasuniformborderradius",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasUniformBorderRadius(): boolean",
+          "url": "/api/class/Background#hasuniformborderradius-hasuniformborderradius-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 68,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22411": {
+      "name": "hasUniformBorder",
+      "type": "Method",
+      "url": "/api/class/Background#hasuniformborder",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasUniformBorder(): boolean",
+          "url": "/api/class/Background#hasuniformborder-hasuniformborder-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 69,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22413": {
+      "name": "getUniformBorderColor",
+      "type": "Method",
+      "url": "/api/class/Background#getuniformbordercolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getUniformBorderColor(): <a href=\"/api/class/Color\">Color</a>",
+          "url": "/api/class/Background#getuniformbordercolor-getuniformbordercolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 70,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Color\">Color</a>"
+        }
+      ]
+    },
+    "22415": {
+      "name": "getUniformBorderWidth",
+      "type": "Method",
+      "url": "/api/class/Background#getuniformborderwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getUniformBorderWidth(): number",
+          "url": "/api/class/Background#getuniformborderwidth-getuniformborderwidth-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 71,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "22417": {
+      "name": "getUniformBorderRadius",
+      "type": "Method",
+      "url": "/api/class/Background#getuniformborderradius",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getUniformBorderRadius(): number",
+          "url": "/api/class/Background#getuniformborderradius-getuniformborderradius-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 72,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "22419": {
+      "name": "hasBoxShadow",
+      "type": "Method",
+      "url": "/api/class/Background#hasboxshadow",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasBoxShadow(): boolean",
+          "url": "/api/class/Background#hasboxshadow-hasboxshadow-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 73,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22421": {
+      "name": "getBoxShadow",
+      "type": "Method",
+      "url": "/api/class/Background#getboxshadow",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getBoxShadow(): CSSShadow",
+          "url": "/api/class/Background#getboxshadow-getboxshadow-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 74,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "CSSShadow"
+        }
+      ]
+    },
+    "22423": {
+      "name": "toString",
+      "type": "Method",
+      "url": "/api/class/Background#tostring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toString(): string",
+          "url": "/api/class/Background#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
+              "line": 75,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    }
+  }
+}

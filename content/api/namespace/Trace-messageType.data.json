@@ -1,0 +1,101 @@
+{
+  "title": "messageType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2877,
+        2875,
+        2874,
+        2876
+      ]
+    }
+  ],
+  "reflections": {
+    "2874": {
+      "name": "log",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#log",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "log: 0 = 0",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 97,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#log"
+        }
+      ]
+    },
+    "2875": {
+      "name": "info",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#info",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "info: 1 = 1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 98,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#info"
+        }
+      ]
+    },
+    "2876": {
+      "name": "warn",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#warn",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "warn: 2 = 2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 99,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#warn"
+        }
+      ]
+    },
+    "2877": {
+      "name": "error",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#error",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "error: 3 = 3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 100,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#error"
+        }
+      ]
+    }
+  }
+}
