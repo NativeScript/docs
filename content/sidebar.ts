@@ -18,6 +18,27 @@ export default [
         text: 'Creating a Project',
         link: '/guide/creating-a-project',
       },
+      {
+        text: 'Development Workflow',
+        items: [
+          {
+            text: 'Testing',
+            link: '/guide/testing'
+          },
+          {
+            text: 'Debugging',
+            link: '/guide/debugging',
+          },
+        ],
+      },
+      {
+        text: 'Tutorials',
+        link: '/tutorials/',
+      },
+      {
+        text: 'Publishing',
+        link: '/guide/publishing/',
+      },
       // {
       //   text: 'Tutorials',
       //   link: '/tutorials/',
@@ -143,6 +164,7 @@ export default [
         text: 'FPS Meter',
         link: '/guide/core/fps-meter'
       },
+      {
         text: 'Observable',
         link: '/guide/core/observable'
       },
