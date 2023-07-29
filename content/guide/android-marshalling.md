@@ -779,7 +779,7 @@ fun getRandomNumber() = 42
 
 ## Accessing Kotlin extension functions
 
- In order to use an extension function, the class where it's defined should be known. Also, when invoking it, the first parameter should be an instance of the type for which the function is defined. Let's take a look at an example:
+In order to use an extension function, the class where it's defined is required to be known.  Also, when invoking this function, the first parameter should be an instance of the type for which the function is defined.  Let's take a look at an example:
 
 ```kotlin
 package com.example
