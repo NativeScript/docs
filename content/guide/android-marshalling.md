@@ -2,7 +2,7 @@
 title: Android Marshalling
 ---
 
-This article looks at how NativeScript handles the conversion between JavaScript data types and  Java/Kotlin data types.
+NativeScript seamlessly handles data type conversion between JavaScript and Java/Kotlin, utilizing type inference and dedicated wrappers, ensuring smooth integration and type safety in cross-platform development.
 
 ## String Conversion
 ### Converting JavaScript String to Java string types
