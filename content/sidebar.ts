@@ -23,6 +23,10 @@ export default [
         text: 'Development Workflow',
         items: [
           {
+            text: 'Testing',
+            link: '/guide/testing'
+          }
+          {
             text: 'Debugging',
             link: '/guide/debugging',
           },
