@@ -480,7 +480,7 @@ var jaggedBooleanArray3 = Array.create('[[Z', 10)
 var jaggedObjectArray4 = Array.create('[[[Ljava.lang.Object;', 10)
 ```
 
-The second signature uses `javaClassCtorFunction` which must the JavaScript constructor function for a given Java type. Here are some examples:
+The second signature requires you to provide the `javaClassCtorFunction`, which must be the JavaScript constructor function representing the desired Java type.  Here are some examples:
 
 ```js
 // equivalent to String[] stringArr = new String[10];
