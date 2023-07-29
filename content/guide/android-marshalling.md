@@ -115,7 +115,7 @@ var enabled = kotlinClass.getBooleanProperty() // returns Kotlin Boolean, conver
 
 ### Converting JavaScript Number to Java/Kotlin numeric types
 
-Java and Koltin have several primitive numeric types while JavaScript has the `Number` type only. Additionally, unlike JavaScript, Java and Kotlin  support [Method Overloading](http://en.wikipedia.org/wiki/Function_overloading), which makes the numeric conversion more complex.
+Java and Kotlin have several primitive numeric types while JavaScript has the `Number` type only. Additionally, unlike JavaScript, Java and Kotlin  support [Method Overloading](http://en.wikipedia.org/wiki/Function_overloading), which makes the numeric conversion more complex.
 
 Consider the following examples:
 
