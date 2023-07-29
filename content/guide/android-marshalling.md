@@ -447,7 +447,7 @@ A Java/Kotlin Array is intentionally not converted to a JavaScript [Array](http:
 
 ##### Array of Objects
 
-Occasionally you have to create Java/Kotlin arrays from JavaScript. For this scenario we added method `create` to built-in JavaScript [`Array` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Here are some examples how to use `Array.create` method:
+In scenarios where the creation of Java/Kotlin arrays from JavaScript is mandatory.  In the given scenario, we have extended the built-in JavaScript Array object by adding a custom method named create. By doing so, we have augmented the default functionality of the Array object with our own implementation to cater to specific requirements in built-in JavaScript [`Array` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Here are some examples how to use `Array.create` method:
 
 ```js
 // the following statement is equivalent to byte[] byteArr = new byte[10];
