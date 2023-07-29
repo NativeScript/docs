@@ -492,7 +492,7 @@ var objectArr = Array.create(java.lang.Object, 10)
 
 #### Array of Primitive Types
 
-The automatic marshalling works only for cases with arrays of objects. In cases where you have a method that takes an array of primitive types, you need to convert it as follows:
+When dealing with arrays of primitive types, automatic marshalling is not supported. To pass them as arguments to a method, you'll need to use wrapper classes (e.g., Integer, Double) to convert the primitives into objects, allowing for automatic marshalling.
 
 ```java
 public static void myMethod(int[] someParam)
