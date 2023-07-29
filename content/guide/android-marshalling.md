@@ -467,7 +467,7 @@ Array.create(elementClassName, length)
 Array.create(javaClassCtorFunction, length)
 ```
 
-The first signature accepts `string` for `elementClassName`. This option is useful when you have to create Java array of primitive types (e.g. `char`, `boolean`, `byte`, `short`, `int`, `long`, `float` and `double`). It is also useful when you have to create Java jagged arrays. For this scenario `elementClassName` must be the standard JNI class notation. Here are some examples:
+The first signature accepts a `string` type  for an `elementClassName`.  This option becomes beneficial when the creation of a Java array of primitive types (e.g. `char`, `boolean`, `byte`, `short`, `int`, `long`, `float` and `double`) is required.  This also applicable when the creation of Java jagged arrays is needed.  For this scenario `elementClassName` must be the standard JNI class notation. Here are some examples:
 
 ```js
 // equivalent to int[][] jaggedIntArray2 = new int[10][];
