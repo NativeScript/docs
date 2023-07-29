@@ -157,6 +157,15 @@ export default [
         link: '/guide/code-sharing',
       },
       {
+        text: 'Marshalling',
+        items: [
+          {
+            text: 'Android Marshalling',
+            link: '/guide/android-marshalling',
+          },
+        ],
+      },
+      {
         text: 'Property System',
         link: '/guide/property-system'
       },
