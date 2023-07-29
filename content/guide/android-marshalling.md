@@ -186,7 +186,7 @@ myObject.myMethod(10.5) // myMethod(Double) will be called.
 The JavaScript `10.5` `Number` gets converted to Java/Kotlin `double` and then myMethod(ouble) gets called.
 
 ::: warning Note
-If there is no myMethod(double) implementation, the Runtime will try to choose the best possible overload with least conversion loss. If no such method is found an exception will be raised.
+In a scenario where no myMethod(double) implementation exists, the Runtime will attempt to select the most suitable possible overload, with the least amount of conversion loss.  If no such method is found an exception thrown.
 :::
 
 #### Explicit conversion
