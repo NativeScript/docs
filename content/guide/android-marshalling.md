@@ -22,7 +22,7 @@ button.setText(text);
 JavaScript [String](http://www.w3schools.com/jsref/jsref_obj_string.asp) maps to [kotlin.String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html):
 
 ```js
-var kotlinClass = new com.example.KotlinClassWithStringProperty()
+const kotlinClass = new com.example.KotlinClassWithStringProperty()
 var text = 'My Button' 
 kotlinClass.setStringProperty(text) /
 ```
