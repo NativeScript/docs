@@ -8,7 +8,7 @@ Be sure you have prepare/built/run the app at least once before starting the uni
 
 For more information about end-to-end testing, see [`@nativescript/detox` plugin](https://docs.nativescript.org/plugins/detox.html).
 
-When you develop new features inside your app, you can ensure that they are working properly and that past functionality has not regressed by writing and executing unit tests on a regular basis. With the NativeScript CLI, you can write and execute unit tests using [Jasmine](http://jasmine.github.io/), [Mocha](https://mochajs.org/) with [Chai](http://chaijs.com/) or [QUnit](https://qunitjs.com/).
+Regularly writing and executing unit tests using tools like [Jasmine](http://jasmine.github.io/), [Mocha](https://mochajs.org/) with [Chai](http://chaijs.com/), or [QUnit](https://qunitjs.com/) through the NativeScript CLI helps ensure proper functioning of new features and prevents regressions in existing functionality during app development.
 
 To run your unit tests, the NativeScript CLI uses [Karma](http://karma-runner.github.io/latest/index.html).
 
