@@ -654,7 +654,7 @@ class MyVersatileCopyWriter extends ... {
 }
 ```
 :::tip Note
-In addition to implementing interface methods, you can override methods of the extended class, and also declare your own methods that the new class should have.
+In OOP, when a class extends another class aka inheritance, the new class not only gains access to the interface methods it must implement, but also has the ability to override methods from the extended class. Moreover, it can introduce new methods specific to the new class's functionality. This enables the new class to extend and enhance the behaviour of its parent class while providing additional functionality of its own.
 :::
 
 ## Java nested types in NativeScript
