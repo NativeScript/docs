@@ -22,6 +22,10 @@ export default [
         text: 'Development Workflow',
         items: [
           {
+            text: 'Running',
+            link: '/guide/running',
+          },
+          {
             text: 'Testing',
             link: '/guide/testing'
           },
@@ -160,6 +164,7 @@ export default [
   {
     text: '@nativescript/core',
     items: [
+      { text: 'Application', link: '/guide/core/application' },
       {
         text: 'FPS Meter',
         link: '/guide/core/fps-meter'
