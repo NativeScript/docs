@@ -23,9 +23,13 @@ export default [
         text: 'Development Workflow',
         items: [
           {
+            text: 'Running',
+            link: '/guide/running',
+          },
+          {
             text: 'Testing',
             link: '/guide/testing'
-          }
+          },
           {
             text: 'Debugging',
             link: '/guide/debugging',
@@ -112,6 +116,7 @@ export default [
   {
     text: '@nativescript/core',
     items: [
+      { text: 'Application', link: '/guide/core/application' },
       {
         text: 'Color',
         link: '/guide/core/color'
