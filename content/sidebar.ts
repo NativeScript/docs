@@ -27,6 +27,10 @@ export default [
             link: '/guide/running',
           },
           {
+            text: 'Testing',
+            link: '/guide/testing'
+          },
+          {
             text: 'Debugging',
             link: '/guide/debugging',
           },
@@ -114,6 +118,9 @@ export default [
     items: [
       { text: 'Application', link: '/guide/core/application' },
       {
+        text: 'FPS Meter',
+        link: '/guide/core/fps-meter'
+      },
         text: 'Observable',
         link: '/guide/core/observable'
       },
@@ -149,6 +156,15 @@ export default [
       {
         text: 'Code Sharing',
         link: '/guide/code-sharing',
+      },
+      {
+        text: 'Marshalling',
+        items: [
+          {
+            text: 'Android Marshalling',
+            link: '/guide/android-marshalling',
+          },
+        ],
       },
       {
         text: 'Property System',
