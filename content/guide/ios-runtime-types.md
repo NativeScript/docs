@@ -15,7 +15,7 @@ The `Pointer` type allows you to represent a void*.
 
 #### Using the constructor
 
-To create a new pointer with the given offset, use the construcotr:
+To create a new pointer with the given offset, use the constructor:
 
 ```ts
    const interop1 = new interop.Pointer(34)
