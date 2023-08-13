@@ -146,6 +146,10 @@ export default [
         link: '/guide/core/device'
       },
       {
+        text: 'Trace',
+        link: '/guide/core/tracing'
+      },
+      {
         text: 'XmlParser',
         link: '/guide/core/xml-parser'
       },
