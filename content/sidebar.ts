@@ -130,6 +130,10 @@ export default [
         link: '/guide/core/fps-meter'
       },
       {
+        text: 'FileSystem',
+        link: '/guide/core/file-system'
+      },
+      {
         text: 'Observable',
         link: '/guide/core/observable'
       },
