@@ -1,0 +1,129 @@
+{
+  "title": "ShadeCoverOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "ShadeCoverOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        33433,
+        33431,
+        33437,
+        33430,
+        33432
+      ]
+    }
+  ],
+  "reflections": {
+    "33430": {
+      "name": "opacity",
+      "type": "Property",
+      "url": "/api/interface/ShadeCoverOptions#opacity",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "opacity?: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 26,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ShadeCoverOptions#opacity"
+        }
+      ]
+    },
+    "33431": {
+      "name": "color",
+      "type": "Property",
+      "url": "/api/interface/ShadeCoverOptions#color",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "color?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 27,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ShadeCoverOptions#color"
+        }
+      ]
+    },
+    "33432": {
+      "name": "tapToClose",
+      "type": "Property",
+      "url": "/api/interface/ShadeCoverOptions#taptoclose",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "tapToClose?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 28,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ShadeCoverOptions#taptoclose"
+        }
+      ]
+    },
+    "33433": {
+      "name": "animation",
+      "type": "Property",
+      "url": "/api/interface/ShadeCoverOptions#animation",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "animation?: {\n  enterFrom?: TransitionAnimation\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 29,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ShadeCoverOptions#animation"
+        }
+      ]
+    },
+    "33437": {
+      "name": "ignoreShadeRestore",
+      "type": "Property",
+      "url": "/api/interface/ShadeCoverOptions#ignoreshaderestore",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "ignoreShadeRestore?: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 33,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ShadeCoverOptions#ignoreshaderestore"
+        }
+      ]
+    }
+  }
+}

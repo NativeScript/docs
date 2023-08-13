@@ -1,0 +1,150 @@
+{
+  "title": "ChangeType",
+  "hierarchy": [
+    [
+      {
+        "text": "ChangeType"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1645
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1640,
+        1644,
+        1641,
+        1643,
+        1642
+      ]
+    }
+  ],
+  "reflections": {
+    "1640": {
+      "name": "Add",
+      "type": "Property",
+      "url": "/api/class/ChangeType#add",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "Add: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 3,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#add"
+        }
+      ]
+    },
+    "1641": {
+      "name": "Delete",
+      "type": "Property",
+      "url": "/api/class/ChangeType#delete",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "Delete: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 4,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#delete"
+        }
+      ]
+    },
+    "1642": {
+      "name": "Update",
+      "type": "Property",
+      "url": "/api/class/ChangeType#update",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "Update: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 5,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#update"
+        }
+      ]
+    },
+    "1643": {
+      "name": "Splice",
+      "type": "Property",
+      "url": "/api/class/ChangeType#splice",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "Splice: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 6,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#splice"
+        }
+      ]
+    },
+    "1644": {
+      "name": "Change",
+      "type": "Property",
+      "url": "/api/class/ChangeType#change",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "Change: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 7,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#change"
+        }
+      ]
+    },
+    "1645": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ChangeType#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ChangeType(): <a href=\"/api/class/ChangeType\">ChangeType</a>",
+          "url": "/api/class/ChangeType#constructor-new-changetype",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ChangeType\">ChangeType</a>"
+        }
+      ]
+    }
+  }
+}

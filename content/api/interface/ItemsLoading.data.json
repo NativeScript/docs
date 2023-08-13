@@ -1,0 +1,193 @@
+{
+  "title": "ItemsLoading",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "ItemsLoading"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1924,
+        1925,
+        1923,
+        1926
+      ]
+    }
+  ],
+  "reflections": {
+    "1923": {
+      "name": "index",
+      "type": "Property",
+      "url": "/api/interface/ItemsLoading#index",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Start index."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "index: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 10,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Start index."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemsLoading#index"
+        }
+      ]
+    },
+    "1924": {
+      "name": "count",
+      "type": "Property",
+      "url": "/api/interface/ItemsLoading#count",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Number of items to load."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "count: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 14,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Number of items to load."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemsLoading#count"
+        }
+      ]
+    },
+    "1925": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/ItemsLoading#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemsLoading#eventname"
+        }
+      ]
+    },
+    "1926": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/ItemsLoading#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemsLoading#object"
+        }
+      ]
+    }
+  }
+}

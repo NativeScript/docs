@@ -1,0 +1,93 @@
+{
+  "title": "AccessibilityState",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        1226,
+        1228,
+        1225,
+        1227
+      ]
+    }
+  ],
+  "reflections": {
+    "1225": {
+      "name": "Selected",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityState#selected",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Selected: \"selected\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 100,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityState#selected"
+        }
+      ]
+    },
+    "1226": {
+      "name": "Checked",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityState#checked",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Checked: \"checked\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 101,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityState#checked"
+        }
+      ]
+    },
+    "1227": {
+      "name": "Unchecked",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityState#unchecked",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Unchecked: \"unchecked\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 102,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityState#unchecked"
+        }
+      ]
+    },
+    "1228": {
+      "name": "Disabled",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityState#disabled",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Disabled: \"disabled\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 103,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityState#disabled"
+        }
+      ]
+    }
+  }
+}

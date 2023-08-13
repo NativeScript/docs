@@ -1,0 +1,509 @@
+{
+  "title": "Font",
+  "hierarchy": [
+    [
+      {
+        "text": "Font"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        22444
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        22439,
+        22451,
+        22455,
+        22454,
+        22452,
+        22453,
+        22456,
+        22457
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        22440,
+        22458,
+        22460,
+        22463,
+        22475,
+        22472,
+        22466,
+        22469
+      ]
+    }
+  ],
+  "reflections": {
+    "22439": {
+      "name": "default",
+      "type": "Property",
+      "url": "/api/class/Font#default",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "default: <a href=\"/api/class/Font\">Font</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 2,
+              "character": 15
+            }
+          ],
+          "url": "/api/class/Font#default"
+        }
+      ]
+    },
+    "22440": {
+      "name": "equals",
+      "type": "Method",
+      "url": "/api/class/Font#equals",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "equals(value1: <a href=\"/api/class/Font\">Font</a>, value2: <a href=\"/api/class/Font\">Font</a>): boolean",
+          "url": "/api/class/Font#equals-equals-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 24,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value1",
+              "type": "<a href=\"/api/class/Font\">Font</a>",
+              "flags": {}
+            },
+            {
+              "name": "value2",
+              "type": "<a href=\"/api/class/Font\">Font</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "22444": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Font#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Font(family: string, size: number, style?: <a href=\"/api/index#fontstyle-1\">FontStyle</a>, weight?: <a href=\"/api/index#fontweight-1\">FontWeight</a>, scale?: number): <a href=\"/api/class/Font\">Font</a>",
+          "url": "/api/class/Font#constructor-new-font",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "family",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "size",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "style",
+              "type": "<a href=\"/api/index#fontstyle-1\">FontStyle</a>",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "weight",
+              "type": "<a href=\"/api/index#fontweight-1\">FontWeight</a>",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "scale",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Font\">Font</a>"
+        }
+      ]
+    },
+    "22451": {
+      "name": "fontFamily",
+      "type": "Property",
+      "url": "/api/class/Font#fontfamily",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "fontFamily: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 4,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Font#fontfamily"
+        }
+      ]
+    },
+    "22452": {
+      "name": "fontStyle",
+      "type": "Property",
+      "url": "/api/class/Font#fontstyle",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "fontStyle: <a href=\"/api/index#fontstyle-1\">FontStyle</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 5,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Font#fontstyle"
+        }
+      ]
+    },
+    "22453": {
+      "name": "fontWeight",
+      "type": "Property",
+      "url": "/api/class/Font#fontweight",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "fontWeight: <a href=\"/api/index#fontweight-1\">FontWeight</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 6,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Font#fontweight"
+        }
+      ]
+    },
+    "22454": {
+      "name": "fontSize",
+      "type": "Property",
+      "url": "/api/class/Font#fontsize",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "fontSize: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 7,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Font#fontsize"
+        }
+      ]
+    },
+    "22455": {
+      "name": "fontScale",
+      "type": "Property",
+      "url": "/api/class/Font#fontscale",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "fontScale: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 8,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Font#fontscale"
+        }
+      ]
+    },
+    "22456": {
+      "name": "isBold",
+      "type": "Property",
+      "url": "/api/class/Font#isbold",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "isBold: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 10,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Font#isbold"
+        }
+      ]
+    },
+    "22457": {
+      "name": "isItalic",
+      "type": "Property",
+      "url": "/api/class/Font#isitalic",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "isItalic: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 11,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Font#isitalic"
+        }
+      ]
+    },
+    "22458": {
+      "name": "getAndroidTypeface",
+      "type": "Method",
+      "url": "/api/class/Font#getandroidtypeface",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getAndroidTypeface(): any",
+          "url": "/api/class/Font#getandroidtypeface-getandroidtypeface-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "22460": {
+      "name": "getUIFont",
+      "type": "Method",
+      "url": "/api/class/Font#getuifont",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getUIFont(defaultFont: any): any",
+          "url": "/api/class/Font#getuifont-getuifont-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 16,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "defaultFont",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "22463": {
+      "name": "withFontFamily",
+      "type": "Method",
+      "url": "/api/class/Font#withfontfamily",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withFontFamily(family: string): <a href=\"/api/class/Font\">Font</a>",
+          "url": "/api/class/Font#withfontfamily-withfontfamily-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 18,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "family",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Font\">Font</a>"
+        }
+      ]
+    },
+    "22466": {
+      "name": "withFontStyle",
+      "type": "Method",
+      "url": "/api/class/Font#withfontstyle",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withFontStyle(style: string): <a href=\"/api/class/Font\">Font</a>",
+          "url": "/api/class/Font#withfontstyle-withfontstyle-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 19,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "style",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Font\">Font</a>"
+        }
+      ]
+    },
+    "22469": {
+      "name": "withFontWeight",
+      "type": "Method",
+      "url": "/api/class/Font#withfontweight",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withFontWeight(weight: string): <a href=\"/api/class/Font\">Font</a>",
+          "url": "/api/class/Font#withfontweight-withfontweight-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 20,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "weight",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Font\">Font</a>"
+        }
+      ]
+    },
+    "22472": {
+      "name": "withFontSize",
+      "type": "Method",
+      "url": "/api/class/Font#withfontsize",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withFontSize(size: number): <a href=\"/api/class/Font\">Font</a>",
+          "url": "/api/class/Font#withfontsize-withfontsize-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 21,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "size",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Font\">Font</a>"
+        }
+      ]
+    },
+    "22475": {
+      "name": "withFontScale",
+      "type": "Method",
+      "url": "/api/class/Font#withfontscale",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "withFontScale(scale: number): <a href=\"/api/class/Font\">Font</a>",
+          "url": "/api/class/Font#withfontscale-withfontscale-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 22,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "scale",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Font\">Font</a>"
+        }
+      ]
+    }
+  }
+}
