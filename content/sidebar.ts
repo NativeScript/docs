@@ -118,9 +118,14 @@ export default [
     items: [
       { text: 'Application', link: '/guide/core/application' },
       {
+        text: 'Http',
+        link: '/guide/core/http'
+      },
+      {
         text: 'FPS Meter',
         link: '/guide/core/fps-meter'
       },
+      {
         text: 'Observable',
         link: '/guide/core/observable'
       },
