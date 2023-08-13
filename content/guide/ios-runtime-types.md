@@ -139,7 +139,7 @@ Creates a new reference around a `value` of a certain `type`.
 
 ### new FunctionReference(func: T)
 
-Creates a function reference that can be marshalled as a native function pointer. The JavaScript reference must be held alive as long as the native code needs the function.
+Creates a function reference that can be marshalled as a native function pointer. The JavaScript reference must be allocated in memory as long as the native code needs the function.
 
 ### interop types
 
