@@ -43,7 +43,7 @@ For an example, see `app/trace/trace-writer.ts` in the editor below.
 
 #### Registering custom trace writer
 
-In order to use the custom TraceWriter instance, you have to register it with the Trace module, using the `addWriter()` method.
+To utilize a custom TraceWriter instance, you need to register it with the Trace module by using the addWriter() method. This ensures that your custom writer is recognized and incorporated into the Trace functionality.
 
 ```ts
 Trace.clearWriters();
