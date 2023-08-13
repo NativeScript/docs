@@ -118,10 +118,14 @@ export default [
     items: [
       { text: 'Application', link: '/guide/core/application' },
       {
+        text: 'Color',
+        link: '/guide/core/color'
+      },
+      {
         text: 'Connectivity',
         link: '/guide/core/connectivity',
       },
-      {
+      { 
         text: 'Http',
         link: '/guide/core/http'
       },
