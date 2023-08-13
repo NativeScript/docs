@@ -27,7 +27,7 @@ To create a new pointer with the given offset, use the constructor:
 const interop2 = interop1.add(4)
  ```
 
-#### Creating a pointer by removing an offeset to an existing pointer
+#### Creating a pointer by removing an offset to an existing pointer
 
  ```ts
 const interop3 = interop1.subtract(3)
