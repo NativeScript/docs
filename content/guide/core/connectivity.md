@@ -30,7 +30,7 @@ if (connectionType) { // `Connectivity.connectionType.none`` is `0` so truthines
 }
 ```
 
-Conditional behavior can also easily be added for certian types of connections using the `Connectivity.connectionType` enum.
+Conditional behavior can easily be added for certain types of connections using the `Connectivity.connectionType` enum.
 
 ```ts
 if (connectionType === Connectivity.connectionType.wifi || connectionType === Connectivity.connectionType.ethernet) {
