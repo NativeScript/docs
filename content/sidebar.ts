@@ -23,6 +23,14 @@ export default [
         text: 'Development Workflow',
         items: [
           {
+            text: 'Running',
+            link: '/guide/running',
+          },
+          {
+            text: 'Testing',
+            link: '/guide/testing'
+          },
+          {
             text: 'Debugging',
             link: '/guide/debugging',
           },
@@ -108,9 +116,14 @@ export default [
   {
     text: '@nativescript/core',
     items: [
+      { text: 'Application', link: '/guide/core/application' },
       {
         text: 'Http',
         link: '/guide/core/http'
+      },
+      {
+        text: 'FPS Meter',
+        link: '/guide/core/fps-meter'
       },
       {
         text: 'Observable',
@@ -148,6 +161,15 @@ export default [
       {
         text: 'Code Sharing',
         link: '/guide/code-sharing',
+      },
+      {
+        text: 'Marshalling',
+        items: [
+          {
+            text: 'Android Marshalling',
+            link: '/guide/android-marshalling',
+          },
+        ],
       },
       {
         text: 'Property System',
