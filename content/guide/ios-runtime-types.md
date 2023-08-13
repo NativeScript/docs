@@ -102,7 +102,7 @@ interop.handleof(instance: any): Pointer
 
 ```
 
-From a JavaScript object gets a pointer to the backing native object. The `instance` can be a class constructor (of Objective-C interface), an instance (wrapper of Objective-C interface), struct instance, reference, protocol, function (for c function) or block.
+A JavaScript object can obtain a reference to the underlying native object. The instance can represent a class constructor (for an Objective-C interface), an instance (wrapper of an Objective-C interface), a struct instance, a reference, a protocol, a function (for C functions), or a block.
 
 ---
 
