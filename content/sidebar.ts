@@ -122,6 +122,10 @@ export default [
         link: '/guide/core/connectivity',
       },
       {
+        text: 'Http',
+        link: '/guide/core/http'
+      },
+      {
         text: 'FPS Meter',
         link: '/guide/core/fps-meter'
       },
