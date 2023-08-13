@@ -1,0 +1,1450 @@
+[
+  {
+    "text": "API Index",
+    "link": "/api/index",
+    "root": true,
+    "items": [
+      {
+        "text": "Namespaces",
+        "items": [
+          {
+            "text": "CSSUtils",
+            "items": [],
+            "link": "/api/namespace/CSSUtils",
+            "hidden": false
+          },
+          {
+            "text": "CoreTypes",
+            "items": [
+              {
+                "text": "Accuracy",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-Accuracy",
+                "hidden": true
+              },
+              {
+                "text": "AndroidActionBarIconVisibility",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility",
+                "hidden": true
+              },
+              {
+                "text": "AndroidActionItemPosition",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-AndroidActionItemPosition",
+                "hidden": true
+              },
+              {
+                "text": "AnimationCurve",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-AnimationCurve",
+                "hidden": true
+              },
+              {
+                "text": "AutocapitalizationType",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-AutocapitalizationType",
+                "hidden": true
+              },
+              {
+                "text": "BackgroundRepeat",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-BackgroundRepeat",
+                "hidden": true
+              },
+              {
+                "text": "DeviceOrientation",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-DeviceOrientation",
+                "hidden": true
+              },
+              {
+                "text": "DeviceType",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-DeviceType",
+                "hidden": true
+              },
+              {
+                "text": "Dock",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-Dock",
+                "hidden": true
+              },
+              {
+                "text": "FontAttributes",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-FontAttributes",
+                "hidden": true
+              },
+              {
+                "text": "FontStyle",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-FontStyle",
+                "hidden": true
+              },
+              {
+                "text": "FontWeight",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-FontWeight",
+                "hidden": true
+              },
+              {
+                "text": "HorizontalAlignment",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-HorizontalAlignment",
+                "hidden": true
+              },
+              {
+                "text": "IOSActionItemPosition",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-IOSActionItemPosition",
+                "hidden": true
+              },
+              {
+                "text": "ImageFormat",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-ImageFormat",
+                "hidden": true
+              },
+              {
+                "text": "ImageStretch",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-ImageStretch",
+                "hidden": true
+              },
+              {
+                "text": "KeyboardType",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-KeyboardType",
+                "hidden": true
+              },
+              {
+                "text": "NavigationBarVisibility",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-NavigationBarVisibility",
+                "hidden": true
+              },
+              {
+                "text": "Orientation",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-Orientation",
+                "hidden": true
+              },
+              {
+                "text": "ReturnKeyType",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-ReturnKeyType",
+                "hidden": true
+              },
+              {
+                "text": "StatusBarStyle",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-StatusBarStyle",
+                "hidden": true
+              },
+              {
+                "text": "SystemAppearance",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-SystemAppearance",
+                "hidden": true
+              },
+              {
+                "text": "TextAlignment",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-TextAlignment",
+                "hidden": true
+              },
+              {
+                "text": "TextDecoration",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-TextDecoration",
+                "hidden": true
+              },
+              {
+                "text": "TextTransform",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-TextTransform",
+                "hidden": true
+              },
+              {
+                "text": "UpdateTextTrigger",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-UpdateTextTrigger",
+                "hidden": true
+              },
+              {
+                "text": "UserInterfaceStyle",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-UserInterfaceStyle",
+                "hidden": true
+              },
+              {
+                "text": "VerticalAlignment",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-VerticalAlignment",
+                "hidden": true
+              },
+              {
+                "text": "Visibility",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-Visibility",
+                "hidden": true
+              },
+              {
+                "text": "WhiteSpace",
+                "items": [],
+                "link": "/api/namespace/CoreTypes-WhiteSpace",
+                "hidden": true
+              }
+            ],
+            "link": "/api/namespace/CoreTypes",
+            "hidden": false
+          },
+          {
+            "text": "DialogStrings",
+            "items": [],
+            "link": "/api/namespace/DialogStrings",
+            "hidden": false
+          },
+          {
+            "text": "FontStyle",
+            "items": [],
+            "link": "/api/namespace/FontStyle",
+            "hidden": false
+          },
+          {
+            "text": "FontWeight",
+            "items": [],
+            "link": "/api/namespace/FontWeight",
+            "hidden": false
+          },
+          {
+            "text": "GridUnitType",
+            "items": [],
+            "link": "/api/namespace/GridUnitType",
+            "hidden": false
+          },
+          {
+            "text": "IOSHelper",
+            "items": [
+              {
+                "text": "UIAdaptivePresentationControllerDelegateImp",
+                "items": [],
+                "link": "/api/class/IOSHelper-UIAdaptivePresentationControllerDelegateImp",
+                "hidden": true
+              },
+              {
+                "text": "UILayoutViewController",
+                "items": [],
+                "link": "/api/class/IOSHelper-UILayoutViewController",
+                "hidden": true
+              },
+              {
+                "text": "UIPopoverPresentationControllerDelegateImp",
+                "items": [],
+                "link": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp",
+                "hidden": true
+              }
+            ],
+            "link": "/api/namespace/IOSHelper",
+            "hidden": false
+          },
+          {
+            "text": "Length",
+            "items": [],
+            "link": "/api/namespace/Length",
+            "hidden": false
+          },
+          {
+            "text": "PercentLength",
+            "items": [],
+            "link": "/api/namespace/PercentLength",
+            "hidden": false
+          },
+          {
+            "text": "TouchAction",
+            "items": [],
+            "link": "/api/namespace/TouchAction",
+            "hidden": false
+          },
+          {
+            "text": "Trace",
+            "items": [
+              {
+                "text": "categories",
+                "items": [],
+                "link": "/api/namespace/Trace-categories",
+                "hidden": true
+              },
+              {
+                "text": "messageType",
+                "items": [],
+                "link": "/api/namespace/Trace-messageType",
+                "hidden": true
+              },
+              {
+                "text": "ConsoleWriter",
+                "items": [],
+                "link": "/api/class/Trace-ConsoleWriter",
+                "hidden": true
+              },
+              {
+                "text": "DefaultErrorHandler",
+                "items": [],
+                "link": "/api/class/Trace-DefaultErrorHandler",
+                "hidden": true
+              }
+            ],
+            "link": "/api/namespace/Trace",
+            "hidden": false
+          },
+          {
+            "text": "capitalizationType",
+            "items": [],
+            "link": "/api/namespace/capitalizationType",
+            "hidden": false
+          },
+          {
+            "text": "encoding",
+            "items": [],
+            "link": "/api/namespace/encoding",
+            "hidden": false
+          },
+          {
+            "text": "inputType",
+            "items": [],
+            "link": "/api/namespace/inputType",
+            "hidden": false
+          },
+          {
+            "text": "knownFolders",
+            "items": [
+              {
+                "text": "ios",
+                "items": [],
+                "link": "/api/namespace/knownFolders-ios",
+                "hidden": true
+              }
+            ],
+            "link": "/api/namespace/knownFolders",
+            "hidden": false
+          },
+          {
+            "text": "path",
+            "items": [],
+            "link": "/api/namespace/path",
+            "hidden": false
+          }
+        ],
+        "hidden": false
+      },
+      {
+        "text": "Enumerations",
+        "items": [
+          {
+            "text": "AccessibilityLiveRegion",
+            "items": [],
+            "link": "/api/enum/AccessibilityLiveRegion",
+            "hidden": false
+          },
+          {
+            "text": "AccessibilityRole",
+            "items": [],
+            "link": "/api/enum/AccessibilityRole",
+            "hidden": false
+          },
+          {
+            "text": "AccessibilityState",
+            "items": [],
+            "link": "/api/enum/AccessibilityState",
+            "hidden": false
+          },
+          {
+            "text": "AccessibilityTrait",
+            "items": [],
+            "link": "/api/enum/AccessibilityTrait",
+            "hidden": false
+          },
+          {
+            "text": "CacheMode",
+            "items": [],
+            "link": "/api/enum/CacheMode",
+            "hidden": false
+          },
+          {
+            "text": "FontScaleCategory",
+            "items": [],
+            "link": "/api/enum/FontScaleCategory",
+            "hidden": false
+          },
+          {
+            "text": "GestureEvents",
+            "items": [],
+            "link": "/api/enum/GestureEvents",
+            "hidden": false
+          },
+          {
+            "text": "GestureStateTypes",
+            "items": [],
+            "link": "/api/enum/GestureStateTypes",
+            "hidden": false
+          },
+          {
+            "text": "GestureTypes",
+            "items": [],
+            "link": "/api/enum/GestureTypes",
+            "hidden": false
+          },
+          {
+            "text": "HttpResponseEncoding",
+            "items": [],
+            "link": "/api/enum/HttpResponseEncoding",
+            "hidden": false
+          },
+          {
+            "text": "SwipeDirection",
+            "items": [],
+            "link": "/api/enum/SwipeDirection",
+            "hidden": false
+          }
+        ],
+        "hidden": false
+      },
+      {
+        "text": "Classes",
+        "items": [
+          {
+            "text": "AbsoluteLayout",
+            "items": [],
+            "link": "/api/class/AbsoluteLayout",
+            "hidden": false
+          },
+          {
+            "text": "ActionBar",
+            "items": [],
+            "link": "/api/class/ActionBar",
+            "hidden": false
+          },
+          {
+            "text": "ActionItem",
+            "items": [],
+            "link": "/api/class/ActionItem",
+            "hidden": false
+          },
+          {
+            "text": "ActionItems",
+            "items": [],
+            "link": "/api/class/ActionItems",
+            "hidden": false
+          },
+          {
+            "text": "ActivityIndicator",
+            "items": [],
+            "link": "/api/class/ActivityIndicator",
+            "hidden": false
+          },
+          {
+            "text": "AndroidApplication",
+            "items": [],
+            "link": "/api/class/AndroidApplication",
+            "hidden": false
+          },
+          {
+            "text": "Animation",
+            "items": [],
+            "link": "/api/class/Animation",
+            "hidden": false
+          },
+          {
+            "text": "Background",
+            "items": [],
+            "link": "/api/class/Background",
+            "hidden": false
+          },
+          {
+            "text": "Binding",
+            "items": [],
+            "link": "/api/class/Binding",
+            "hidden": false
+          },
+          {
+            "text": "Builder",
+            "items": [],
+            "link": "/api/class/Builder",
+            "hidden": false
+          },
+          {
+            "text": "Button",
+            "items": [],
+            "link": "/api/class/Button",
+            "hidden": false
+          },
+          {
+            "text": "ChangeType",
+            "items": [],
+            "link": "/api/class/ChangeType",
+            "hidden": false
+          },
+          {
+            "text": "CoercibleProperty",
+            "items": [],
+            "link": "/api/class/CoercibleProperty",
+            "hidden": false
+          },
+          {
+            "text": "Color",
+            "items": [],
+            "link": "/api/class/Color",
+            "hidden": false
+          },
+          {
+            "text": "ContainerView",
+            "items": [],
+            "link": "/api/class/ContainerView",
+            "hidden": false
+          },
+          {
+            "text": "ContentView",
+            "items": [],
+            "link": "/api/class/ContentView",
+            "hidden": false
+          },
+          {
+            "text": "ControlStateChangeListener",
+            "items": [],
+            "link": "/api/class/ControlStateChangeListener",
+            "hidden": false
+          },
+          {
+            "text": "CssAnimationParser",
+            "items": [],
+            "link": "/api/class/CssAnimationParser",
+            "hidden": false
+          },
+          {
+            "text": "CssAnimationProperty",
+            "items": [],
+            "link": "/api/class/CssAnimationProperty",
+            "hidden": false
+          },
+          {
+            "text": "CssProperty",
+            "items": [],
+            "link": "/api/class/CssProperty",
+            "hidden": false
+          },
+          {
+            "text": "CustomLayoutView",
+            "items": [],
+            "link": "/api/class/CustomLayoutView",
+            "hidden": false
+          },
+          {
+            "text": "DatePicker",
+            "items": [],
+            "link": "/api/class/DatePicker",
+            "hidden": false
+          },
+          {
+            "text": "DockLayout",
+            "items": [],
+            "link": "/api/class/DockLayout",
+            "hidden": false
+          },
+          {
+            "text": "EditableTextBase",
+            "items": [],
+            "link": "/api/class/EditableTextBase",
+            "hidden": false
+          },
+          {
+            "text": "File",
+            "items": [],
+            "link": "/api/class/File",
+            "hidden": false
+          },
+          {
+            "text": "FileSystemEntity",
+            "items": [],
+            "link": "/api/class/FileSystemEntity",
+            "hidden": false
+          },
+          {
+            "text": "FlexboxLayout",
+            "items": [],
+            "link": "/api/class/FlexboxLayout",
+            "hidden": false
+          },
+          {
+            "text": "Folder",
+            "items": [],
+            "link": "/api/class/Folder",
+            "hidden": false
+          },
+          {
+            "text": "Font",
+            "items": [],
+            "link": "/api/class/Font",
+            "hidden": false
+          },
+          {
+            "text": "FormattedString",
+            "items": [],
+            "link": "/api/class/FormattedString",
+            "hidden": false
+          },
+          {
+            "text": "Frame",
+            "items": [],
+            "link": "/api/class/Frame",
+            "hidden": false
+          },
+          {
+            "text": "GesturesObserver",
+            "items": [],
+            "link": "/api/class/GesturesObserver",
+            "hidden": false
+          },
+          {
+            "text": "GridLayout",
+            "items": [],
+            "link": "/api/class/GridLayout",
+            "hidden": false
+          },
+          {
+            "text": "HtmlView",
+            "items": [],
+            "link": "/api/class/HtmlView",
+            "hidden": false
+          },
+          {
+            "text": "Image",
+            "items": [],
+            "link": "/api/class/Image",
+            "hidden": false
+          },
+          {
+            "text": "ImageAsset",
+            "items": [],
+            "link": "/api/class/ImageAsset",
+            "hidden": false
+          },
+          {
+            "text": "ImageCache",
+            "items": [],
+            "link": "/api/class/ImageCache",
+            "hidden": false
+          },
+          {
+            "text": "ImageSource",
+            "items": [],
+            "link": "/api/class/ImageSource",
+            "hidden": false
+          },
+          {
+            "text": "InheritedCssProperty",
+            "items": [],
+            "link": "/api/class/InheritedCssProperty",
+            "hidden": false
+          },
+          {
+            "text": "InheritedProperty",
+            "items": [],
+            "link": "/api/class/InheritedProperty",
+            "hidden": false
+          },
+          {
+            "text": "ItemSpec",
+            "items": [],
+            "link": "/api/class/ItemSpec",
+            "hidden": false
+          },
+          {
+            "text": "KeyframeAnimation",
+            "items": [],
+            "link": "/api/class/KeyframeAnimation",
+            "hidden": false
+          },
+          {
+            "text": "KeyframeAnimationInfo",
+            "items": [],
+            "link": "/api/class/KeyframeAnimationInfo",
+            "hidden": false
+          },
+          {
+            "text": "Label",
+            "items": [],
+            "link": "/api/class/Label",
+            "hidden": false
+          },
+          {
+            "text": "LayoutBase",
+            "items": [],
+            "link": "/api/class/LayoutBase",
+            "hidden": false
+          },
+          {
+            "text": "ListPicker",
+            "items": [],
+            "link": "/api/class/ListPicker",
+            "hidden": false
+          },
+          {
+            "text": "ListView",
+            "items": [],
+            "link": "/api/class/ListView",
+            "hidden": false
+          },
+          {
+            "text": "ModuleNameResolver",
+            "items": [],
+            "link": "/api/class/ModuleNameResolver",
+            "hidden": false
+          },
+          {
+            "text": "NavigationButton",
+            "items": [],
+            "link": "/api/class/NavigationButton",
+            "hidden": false
+          },
+          {
+            "text": "Observable",
+            "items": [],
+            "link": "/api/class/Observable",
+            "hidden": false
+          },
+          {
+            "text": "ObservableArray",
+            "items": [],
+            "link": "/api/class/ObservableArray",
+            "hidden": false
+          },
+          {
+            "text": "Page",
+            "items": [],
+            "link": "/api/class/Page",
+            "hidden": false
+          },
+          {
+            "text": "PageBase",
+            "items": [],
+            "link": "/api/class/PageBase",
+            "hidden": false
+          },
+          {
+            "text": "ParserEventType",
+            "items": [],
+            "link": "/api/class/ParserEventType",
+            "hidden": false
+          },
+          {
+            "text": "Placeholder",
+            "items": [],
+            "link": "/api/class/Placeholder",
+            "hidden": false
+          },
+          {
+            "text": "Progress",
+            "items": [],
+            "link": "/api/class/Progress",
+            "hidden": false
+          },
+          {
+            "text": "Property",
+            "items": [],
+            "link": "/api/class/Property",
+            "hidden": false
+          },
+          {
+            "text": "ProxyViewContainer",
+            "items": [],
+            "link": "/api/class/ProxyViewContainer",
+            "hidden": false
+          },
+          {
+            "text": "Repeater",
+            "items": [],
+            "link": "/api/class/Repeater",
+            "hidden": false
+          },
+          {
+            "text": "RootLayout",
+            "items": [],
+            "link": "/api/class/RootLayout",
+            "hidden": false
+          },
+          {
+            "text": "Screen",
+            "items": [],
+            "link": "/api/class/Screen",
+            "hidden": false
+          },
+          {
+            "text": "ScrollView",
+            "items": [],
+            "link": "/api/class/ScrollView",
+            "hidden": false
+          },
+          {
+            "text": "SearchBar",
+            "items": [],
+            "link": "/api/class/SearchBar",
+            "hidden": false
+          },
+          {
+            "text": "SegmentedBar",
+            "items": [],
+            "link": "/api/class/SegmentedBar",
+            "hidden": false
+          },
+          {
+            "text": "SegmentedBarItem",
+            "items": [],
+            "link": "/api/class/SegmentedBarItem",
+            "hidden": false
+          },
+          {
+            "text": "ShorthandProperty",
+            "items": [],
+            "link": "/api/class/ShorthandProperty",
+            "hidden": false
+          },
+          {
+            "text": "Slider",
+            "items": [],
+            "link": "/api/class/Slider",
+            "hidden": false
+          },
+          {
+            "text": "Span",
+            "items": [],
+            "link": "/api/class/Span",
+            "hidden": false
+          },
+          {
+            "text": "StackLayout",
+            "items": [],
+            "link": "/api/class/StackLayout",
+            "hidden": false
+          },
+          {
+            "text": "Style",
+            "items": [],
+            "link": "/api/class/Style",
+            "hidden": false
+          },
+          {
+            "text": "Switch",
+            "items": [],
+            "link": "/api/class/Switch",
+            "hidden": false
+          },
+          {
+            "text": "TabView",
+            "items": [],
+            "link": "/api/class/TabView",
+            "hidden": false
+          },
+          {
+            "text": "TabViewItem",
+            "items": [],
+            "link": "/api/class/TabViewItem",
+            "hidden": false
+          },
+          {
+            "text": "TextBase",
+            "items": [],
+            "link": "/api/class/TextBase",
+            "hidden": false
+          },
+          {
+            "text": "TextField",
+            "items": [],
+            "link": "/api/class/TextField",
+            "hidden": false
+          },
+          {
+            "text": "TextView",
+            "items": [],
+            "link": "/api/class/TextView",
+            "hidden": false
+          },
+          {
+            "text": "TimePicker",
+            "items": [],
+            "link": "/api/class/TimePicker",
+            "hidden": false
+          },
+          {
+            "text": "TouchManager",
+            "items": [],
+            "link": "/api/class/TouchManager",
+            "hidden": false
+          },
+          {
+            "text": "Transition",
+            "items": [],
+            "link": "/api/class/Transition",
+            "hidden": false
+          },
+          {
+            "text": "View",
+            "items": [],
+            "link": "/api/class/View",
+            "hidden": false
+          },
+          {
+            "text": "ViewBase",
+            "items": [],
+            "link": "/api/class/ViewBase",
+            "hidden": false
+          },
+          {
+            "text": "ViewCommon",
+            "items": [],
+            "link": "/api/class/ViewCommon",
+            "hidden": false
+          },
+          {
+            "text": "ViewHelper",
+            "items": [],
+            "link": "/api/class/ViewHelper",
+            "hidden": false
+          },
+          {
+            "text": "VirtualArray",
+            "items": [],
+            "link": "/api/class/VirtualArray",
+            "hidden": false
+          },
+          {
+            "text": "WebView",
+            "items": [],
+            "link": "/api/class/WebView",
+            "hidden": false
+          },
+          {
+            "text": "WrapLayout",
+            "items": [],
+            "link": "/api/class/WrapLayout",
+            "hidden": false
+          },
+          {
+            "text": "WrappedValue",
+            "items": [],
+            "link": "/api/class/WrappedValue",
+            "hidden": false
+          },
+          {
+            "text": "XmlParser",
+            "items": [],
+            "link": "/api/class/XmlParser",
+            "hidden": false
+          },
+          {
+            "text": "iOSApplication",
+            "items": [],
+            "link": "/api/class/iOSApplication",
+            "hidden": false
+          }
+        ],
+        "hidden": false
+      },
+      {
+        "text": "Interfaces",
+        "items": [
+          {
+            "text": "ActionOptions",
+            "items": [],
+            "link": "/api/interface/ActionOptions",
+            "hidden": false
+          },
+          {
+            "text": "AddArrayFromBuilder",
+            "items": [],
+            "link": "/api/interface/AddArrayFromBuilder",
+            "hidden": false
+          },
+          {
+            "text": "AddChildFromBuilder",
+            "items": [],
+            "link": "/api/interface/AddChildFromBuilder",
+            "hidden": false
+          },
+          {
+            "text": "AlertOptions",
+            "items": [],
+            "link": "/api/interface/AlertOptions",
+            "hidden": false
+          },
+          {
+            "text": "AndroidActivityBackPressedEventData",
+            "items": [],
+            "link": "/api/interface/AndroidActivityBackPressedEventData",
+            "hidden": false
+          },
+          {
+            "text": "AndroidActivityBundleEventData",
+            "items": [],
+            "link": "/api/interface/AndroidActivityBundleEventData",
+            "hidden": false
+          },
+          {
+            "text": "AndroidActivityCallbacks",
+            "items": [],
+            "link": "/api/interface/AndroidActivityCallbacks",
+            "hidden": false
+          },
+          {
+            "text": "AndroidActivityEventData",
+            "items": [],
+            "link": "/api/interface/AndroidActivityEventData",
+            "hidden": false
+          },
+          {
+            "text": "AndroidActivityNewIntentEventData",
+            "items": [],
+            "link": "/api/interface/AndroidActivityNewIntentEventData",
+            "hidden": false
+          },
+          {
+            "text": "AndroidActivityRequestPermissionsEventData",
+            "items": [],
+            "link": "/api/interface/AndroidActivityRequestPermissionsEventData",
+            "hidden": false
+          },
+          {
+            "text": "AndroidActivityResultEventData",
+            "items": [],
+            "link": "/api/interface/AndroidActivityResultEventData",
+            "hidden": false
+          },
+          {
+            "text": "AnimationDefinition",
+            "items": [],
+            "link": "/api/interface/AnimationDefinition",
+            "hidden": false
+          },
+          {
+            "text": "ApplicationEventData",
+            "items": [],
+            "link": "/api/interface/ApplicationEventData",
+            "hidden": false
+          },
+          {
+            "text": "BackstackEntry",
+            "items": [],
+            "link": "/api/interface/BackstackEntry",
+            "hidden": false
+          },
+          {
+            "text": "BindingOptions",
+            "items": [],
+            "link": "/api/interface/BindingOptions",
+            "hidden": false
+          },
+          {
+            "text": "CancelableOptions",
+            "items": [],
+            "link": "/api/interface/CancelableOptions",
+            "hidden": false
+          },
+          {
+            "text": "ChangedData",
+            "items": [],
+            "link": "/api/interface/ChangedData",
+            "hidden": false
+          },
+          {
+            "text": "CommonLayoutParams",
+            "items": [],
+            "link": "/api/interface/CommonLayoutParams",
+            "hidden": false
+          },
+          {
+            "text": "ComponentModule",
+            "items": [],
+            "link": "/api/interface/ComponentModule",
+            "hidden": false
+          },
+          {
+            "text": "ConfirmOptions",
+            "items": [],
+            "link": "/api/interface/ConfirmOptions",
+            "hidden": false
+          },
+          {
+            "text": "CreateViewEventData",
+            "items": [],
+            "link": "/api/interface/CreateViewEventData",
+            "hidden": false
+          },
+          {
+            "text": "CssChangedEventData",
+            "items": [],
+            "link": "/api/interface/CssChangedEventData",
+            "hidden": false
+          },
+          {
+            "text": "DialogOptions",
+            "items": [],
+            "link": "/api/interface/DialogOptions",
+            "hidden": false
+          },
+          {
+            "text": "DiscardedErrorEventData",
+            "items": [],
+            "link": "/api/interface/DiscardedErrorEventData",
+            "hidden": false
+          },
+          {
+            "text": "DownloadError",
+            "items": [],
+            "link": "/api/interface/DownloadError",
+            "hidden": false
+          },
+          {
+            "text": "DownloadRequest",
+            "items": [],
+            "link": "/api/interface/DownloadRequest",
+            "hidden": false
+          },
+          {
+            "text": "DownloadedData",
+            "items": [],
+            "link": "/api/interface/DownloadedData",
+            "hidden": false
+          },
+          {
+            "text": "EventData",
+            "items": [],
+            "link": "/api/interface/EventData",
+            "hidden": false
+          },
+          {
+            "text": "GestureEventData",
+            "items": [],
+            "link": "/api/interface/GestureEventData",
+            "hidden": false
+          },
+          {
+            "text": "GestureEventDataWithState",
+            "items": [],
+            "link": "/api/interface/GestureEventDataWithState",
+            "hidden": false
+          },
+          {
+            "text": "HttpContent",
+            "items": [],
+            "link": "/api/interface/HttpContent",
+            "hidden": false
+          },
+          {
+            "text": "HttpRequestOptions",
+            "items": [],
+            "link": "/api/interface/HttpRequestOptions",
+            "hidden": false
+          },
+          {
+            "text": "HttpResponse",
+            "items": [],
+            "link": "/api/interface/HttpResponse",
+            "hidden": false
+          },
+          {
+            "text": "IDevice",
+            "items": [],
+            "link": "/api/interface/IDevice",
+            "hidden": false
+          },
+          {
+            "text": "ImageAssetOptions",
+            "items": [],
+            "link": "/api/interface/ImageAssetOptions",
+            "hidden": false
+          },
+          {
+            "text": "ItemEventData",
+            "items": [],
+            "link": "/api/interface/ItemEventData",
+            "hidden": false
+          },
+          {
+            "text": "ItemsLoading",
+            "items": [],
+            "link": "/api/interface/ItemsLoading",
+            "hidden": false
+          },
+          {
+            "text": "ItemsSource",
+            "items": [],
+            "link": "/api/interface/ItemsSource",
+            "hidden": false
+          },
+          {
+            "text": "KeyedTemplate",
+            "items": [],
+            "link": "/api/interface/KeyedTemplate",
+            "hidden": false
+          },
+          {
+            "text": "KeyframeDeclaration",
+            "items": [],
+            "link": "/api/interface/KeyframeDeclaration",
+            "hidden": false
+          },
+          {
+            "text": "KeyframeInfo",
+            "items": [],
+            "link": "/api/interface/KeyframeInfo",
+            "hidden": false
+          },
+          {
+            "text": "LaunchEventData",
+            "items": [],
+            "link": "/api/interface/LaunchEventData",
+            "hidden": false
+          },
+          {
+            "text": "LoadAppCSSEventData",
+            "items": [],
+            "link": "/api/interface/LoadAppCSSEventData",
+            "hidden": false
+          },
+          {
+            "text": "LoadEventData",
+            "items": [],
+            "link": "/api/interface/LoadEventData",
+            "hidden": false
+          },
+          {
+            "text": "LoadOptions",
+            "items": [],
+            "link": "/api/interface/LoadOptions",
+            "hidden": false
+          },
+          {
+            "text": "LoginOptions",
+            "items": [],
+            "link": "/api/interface/LoginOptions",
+            "hidden": false
+          },
+          {
+            "text": "LoginResult",
+            "items": [],
+            "link": "/api/interface/LoginResult",
+            "hidden": false
+          },
+          {
+            "text": "NativeScriptConfig",
+            "items": [],
+            "link": "/api/interface/NativeScriptConfig",
+            "hidden": false
+          },
+          {
+            "text": "NavigatedData",
+            "items": [],
+            "link": "/api/interface/NavigatedData",
+            "hidden": false
+          },
+          {
+            "text": "NavigationContext",
+            "items": [],
+            "link": "/api/interface/NavigationContext",
+            "hidden": false
+          },
+          {
+            "text": "NavigationEntry",
+            "items": [],
+            "link": "/api/interface/NavigationEntry",
+            "hidden": false
+          },
+          {
+            "text": "NavigationTransition",
+            "items": [],
+            "link": "/api/interface/NavigationTransition",
+            "hidden": false
+          },
+          {
+            "text": "OrientationChangedEventData",
+            "items": [],
+            "link": "/api/interface/OrientationChangedEventData",
+            "hidden": false
+          },
+          {
+            "text": "PanGestureEventData",
+            "items": [],
+            "link": "/api/interface/PanGestureEventData",
+            "hidden": false
+          },
+          {
+            "text": "ParserEvent",
+            "items": [],
+            "link": "/api/interface/ParserEvent",
+            "hidden": false
+          },
+          {
+            "text": "PinchGestureEventData",
+            "items": [],
+            "link": "/api/interface/PinchGestureEventData",
+            "hidden": false
+          },
+          {
+            "text": "PlatformContext",
+            "items": [],
+            "link": "/api/interface/PlatformContext",
+            "hidden": false
+          },
+          {
+            "text": "PromptOptions",
+            "items": [],
+            "link": "/api/interface/PromptOptions",
+            "hidden": false
+          },
+          {
+            "text": "PromptResult",
+            "items": [],
+            "link": "/api/interface/PromptResult",
+            "hidden": false
+          },
+          {
+            "text": "PropertyChangeData",
+            "items": [],
+            "link": "/api/interface/PropertyChangeData",
+            "hidden": false
+          },
+          {
+            "text": "RootLayoutOptions",
+            "items": [],
+            "link": "/api/interface/RootLayoutOptions",
+            "hidden": false
+          },
+          {
+            "text": "RotationGestureEventData",
+            "items": [],
+            "link": "/api/interface/RotationGestureEventData",
+            "hidden": false
+          },
+          {
+            "text": "ScrollEventData",
+            "items": [],
+            "link": "/api/interface/ScrollEventData",
+            "hidden": false
+          },
+          {
+            "text": "ShadeCoverOptions",
+            "items": [],
+            "link": "/api/interface/ShadeCoverOptions",
+            "hidden": false
+          },
+          {
+            "text": "ShowModalOptions",
+            "items": [],
+            "link": "/api/interface/ShowModalOptions",
+            "hidden": false
+          },
+          {
+            "text": "ShownModallyData",
+            "items": [],
+            "link": "/api/interface/ShownModallyData",
+            "hidden": false
+          },
+          {
+            "text": "Size",
+            "items": [],
+            "link": "/api/interface/Size",
+            "hidden": false
+          },
+          {
+            "text": "SwipeGestureEventData",
+            "items": [],
+            "link": "/api/interface/SwipeGestureEventData",
+            "hidden": false
+          },
+          {
+            "text": "SystemAppearanceChangedEventData",
+            "items": [],
+            "link": "/api/interface/SystemAppearanceChangedEventData",
+            "hidden": false
+          },
+          {
+            "text": "TapGestureEventData",
+            "items": [],
+            "link": "/api/interface/TapGestureEventData",
+            "hidden": false
+          },
+          {
+            "text": "Template",
+            "items": [],
+            "link": "/api/interface/Template",
+            "hidden": false
+          },
+          {
+            "text": "TemplatedItemsView",
+            "items": [],
+            "link": "/api/interface/TemplatedItemsView",
+            "hidden": false
+          },
+          {
+            "text": "TimerInfo",
+            "items": [],
+            "link": "/api/interface/TimerInfo",
+            "hidden": false
+          },
+          {
+            "text": "TouchGestureEventData",
+            "items": [],
+            "link": "/api/interface/TouchGestureEventData",
+            "hidden": false
+          },
+          {
+            "text": "TraceErrorHandler",
+            "items": [],
+            "link": "/api/interface/TraceErrorHandler",
+            "hidden": false
+          },
+          {
+            "text": "TraceEventListener",
+            "items": [],
+            "link": "/api/interface/TraceEventListener",
+            "hidden": false
+          },
+          {
+            "text": "TraceWriter",
+            "items": [],
+            "link": "/api/interface/TraceWriter",
+            "hidden": false
+          },
+          {
+            "text": "UnhandledErrorEventData",
+            "items": [],
+            "link": "/api/interface/UnhandledErrorEventData",
+            "hidden": false
+          },
+          {
+            "text": "ViewEntry",
+            "items": [],
+            "link": "/api/interface/ViewEntry",
+            "hidden": false
+          }
+        ],
+        "hidden": false
+      },
+      {
+        "text": "Type Aliases",
+        "items": [],
+        "hidden": true
+      },
+      {
+        "text": "Variables",
+        "items": [],
+        "hidden": true
+      },
+      {
+        "text": "Functions",
+        "items": [],
+        "hidden": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "title": "PlatformContext",
+  "hierarchy": [
+    [
+      {
+        "text": "PlatformContext"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2421,
+        2419,
+        2420,
+        2418
+      ]
+    }
+  ],
+  "reflections": {
+    "2418": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#width",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "width: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 9,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#width"
+        }
+      ]
+    },
+    "2419": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#height",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "height: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#height"
+        }
+      ]
+    },
+    "2420": {
+      "name": "os",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#os",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "os: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#os"
+        }
+      ]
+    },
+    "2421": {
+      "name": "deviceType",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#devicetype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "deviceType: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#devicetype"
+        }
+      ]
+    }
+  }
+}

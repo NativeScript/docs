@@ -1,0 +1,165 @@
+{
+  "title": "TextTransform",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2712,
+        2714,
+        2711,
+        2713
+      ]
+    }
+  ],
+  "reflections": {
+    "2711": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextTransform#none",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "No transform."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "none: <a href=\"/api/namespace/CoreTypes#texttransformtype\">TextTransformType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 511,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "No transform."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-TextTransform#none"
+        }
+      ]
+    },
+    "2712": {
+      "name": "capitalize",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextTransform#capitalize",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Text transform capitalize."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "capitalize: <a href=\"/api/namespace/CoreTypes#texttransformtype\">TextTransformType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 516,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Text transform capitalize."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-TextTransform#capitalize"
+        }
+      ]
+    },
+    "2713": {
+      "name": "uppercase",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextTransform#uppercase",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Text transform uppercase."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "uppercase: <a href=\"/api/namespace/CoreTypes#texttransformtype\">TextTransformType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 521,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Text transform uppercase."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-TextTransform#uppercase"
+        }
+      ]
+    },
+    "2714": {
+      "name": "lowercase",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextTransform#lowercase",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Text transform lowercase."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "lowercase: <a href=\"/api/namespace/CoreTypes#texttransformtype\">TextTransformType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 526,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Text transform lowercase."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-TextTransform#lowercase"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "title": "DownloadRequest",
+  "hierarchy": [
+    [
+      {
+        "text": "DownloadRequest"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        12759,
+        12764,
+        12758,
+        12757
+      ]
+    }
+  ],
+  "reflections": {
+    "12757": {
+      "name": "url",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#url",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The url of the image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "url: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The url of the image."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadRequest#url"
+        }
+      ]
+    },
+    "12758": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#key",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The key used to cache the image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "key: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The key used to cache the image."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadRequest#key"
+        }
+      ]
+    },
+    "12759": {
+      "name": "completed",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#completed",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "completed?: (image: any, key: string) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 19,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/DownloadRequest#completed"
+        }
+      ]
+    },
+    "12764": {
+      "name": "error",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#error",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "error?: (key: string) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 23,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/DownloadRequest#error"
+        }
+      ]
+    }
+  }
+}
