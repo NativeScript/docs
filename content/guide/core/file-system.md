@@ -3,13 +3,13 @@ title: FileSystem
 description: Work with the device file system
 ---
 
-The FileSystem module offers easy-to-use tools for working with files and folders in a computer's file system. It provides helpful functions for managing files, folders, paths, and separators, etc.
+File system handing with @nativescript/core provides easy-to-use APIs for working with files and folders in a device's file system like managing files, folders, paths, and separators, etc.
 
-## How to use the FileSytem module
+## How to work with files and folders
 
 ### Accessing the Documents folder
 
-To get the root Documents folder, call the `documents()` method on the `knownFolder` object:
+To get the root Documents folder, call the `documents()` method on `knownFolders`:
 
 ```ts
 import { knownFolders } from '@nativescript/core'
@@ -35,7 +35,7 @@ const appRootFolder = knownFolders.currentApp()
 
 ### Creating a folder
 
-To create a folder, call the `getFolder()` method on an instance of the `Folder`(any of the root folders above or one you create) class and  pass it the name of the folder.
+To create a folder, call the `getFolder()` method on an instance of `Folder` (any of the root folders above or one you create) and  pass it the name of the folder.
 
 ```ts
 folder.getFolder("folder-name")
@@ -157,10 +157,10 @@ file
 ```
 ### Check if a file exists
 
-To check if a file exists, you can use [exists](#exists) and pass it the file path as a string:
+To check if a file exists, you can use [exists](#exists) with the file path:
 
 ```ts
-const exists = File.exists(fPath)
+const exists = File.exists(filePath)
 ```
 
 ### Renaming a file
@@ -201,13 +201,13 @@ To read binary data, use the `read` or `readSync` method of the File instance. F
 async readAnImage() {
 
     const folder = knownFolders.documents()
-    const fPath = path.join(folder.path, 'cat.png')
-    const imageFile = File.fromPath(fPath)
+    const filePath = path.join(folder.path, 'cat.png')
+    const imageFile = File.fromPath(filePath)
 
     try {
 
       const imageSource = await ImageSource.fromFile('~/assets/images/download.jpeg')
-      const saved: boolean = imageSource.saveToFile(fPath, "png")
+      const saved: boolean = imageSource.saveToFile(filePath, "png")
 
       if (saved) {
         // READ BINARY DATA
@@ -288,7 +288,7 @@ Gets the Temporary (Caches) folder available for the current application. This F
 ### currentApp()
 
 ```ts
-folder: Folder = knownFolders.currentApp()
+const folder: Folder = knownFolders.currentApp()
 ```
 
 Gets the root folder for the current application.
@@ -301,7 +301,7 @@ The following methods allow to access to iOS known folders.
 
 #### library()
 ```ts
-folder: Folder = knownFolders.ios.library()
+const folder: Folder = knownFolders.ios.library()
 ```
 Gets the NSLibraryDirectory.
 
@@ -309,7 +309,7 @@ Gets the NSLibraryDirectory.
 
 #### developer()
 ```ts
-folder: Folder = knownFolders.ios.developer()
+const folder: Folder = knownFolders.ios.developer()
 ```
 Gets the NSDeveloperDirectory.
 
@@ -317,7 +317,7 @@ Gets the NSDeveloperDirectory.
 
 #### desktop()
 ```ts
-folder: Folder = knownFolders.ios.desktop()
+const folder: Folder = knownFolders.ios.desktop()
 ```
 Gets the NSDesktopDirectory.
 
@@ -325,7 +325,7 @@ Gets the NSDesktopDirectory.
 
 #### downloads()
 ```ts
-folder: Folder = knownFolders.ios.downloads()
+const folder: Folder = knownFolders.ios.downloads()
 ```
 Gets the NSDownloadsDirectory.
 
@@ -333,7 +333,7 @@ Gets the NSDownloadsDirectory.
 
 #### movies()
 ```ts
-folder: Folder = knownFolders.ios.movies()
+const folder: Folder = knownFolders.ios.movies()
 ```
 Gets the NSMoviesDirectory.
 
@@ -341,7 +341,7 @@ Gets the NSMoviesDirectory.
 
 #### music()
 ```ts
-folder: Folder = knownFolders.ios.music()
+const folder: Folder = knownFolders.ios.music()
 ```
 Gets the NSMusicDirectory.
 
@@ -349,7 +349,7 @@ Gets the NSMusicDirectory.
 
 #### pictures()
 ```ts
-folder: Folder = knownFolders.ios.pictures()
+const folder: Folder = knownFolders.ios.pictures()
 ```
 Gets the NSPicturesDirectory.
 
@@ -357,7 +357,7 @@ Gets the NSPicturesDirectory.
 
 #### sharedPublic()
 ```ts
-folder: Folder = knownFolders.ios.sharedPublic()
+const folder: Folder = knownFolders.ios.sharedPublic()
 ```
 Gets the NSSharedPublicDirectory.
 
@@ -367,14 +367,14 @@ Gets the NSSharedPublicDirectory.
 
 ```ts
 
-file: File = File.fromPath(path)
+const file: File = File.fromPath(path)
 
 ```
 
 or 
 
 ```ts
-folder: Folder = Folder.fromPath(path)
+const folder: Folder = Folder.fromPath(path)
 ```
 
 Gets or creates a Folder or File entity at the specified path.
@@ -383,7 +383,7 @@ Gets or creates a Folder or File entity at the specified path.
 
 ### getFolder
 ```ts
-folder : Folder = folder.getFolder(name)
+const folder: Folder = folder.getFolder(name)
 ```
 
 Gets or creates a Folder entity with the specified `name` within a Folder.
@@ -394,13 +394,13 @@ Gets or creates a Folder entity with the specified `name` within a Folder.
 ### exists
 
 ```ts
-folderExists: boolean = Folder.exists(path)
+const folderExists: boolean = Folder.exists(path)
 ```
 
 or 
 
 ```ts
-file: boolean = File.exists(path)
+const file: boolean = File.exists(path)
 ```
 
 Checks whether a Folder or File with the specified path already exists.
@@ -410,7 +410,7 @@ Checks whether a Folder or File with the specified path already exists.
 ### isKnown
 
 ```ts
-isItAKnownFolder: boolean = folder.isKnown
+const isItAKnownFolder: boolean = folder.isKnown
 ```
 Determines whether this instance is a known folder (accessed through the `knownFolders` object).
 
@@ -420,7 +420,7 @@ Both the File and Folder classes extend the FileSystemEntity which has the follo
 ### lastModified
 
 ```ts
-lastModified: Date = entity.lastModified 
+const lastModified: Date = entity.lastModified 
 ```
 
 Gets the Date object specifying the last time this entity was modified.
@@ -430,7 +430,7 @@ Gets the Date object specifying the last time this entity was modified.
 ### name
 
 ```ts
-name: string = entity.name
+const name: string = entity.name
 ```
 
 Gets the name of the entity.
@@ -440,7 +440,7 @@ Gets the name of the entity.
 ### path 
 
 ```ts
-path: string = entity.path
+const path: string = entity.path
 ```
 
 Gets the fully-qualified path (including the extension for a File) of the entity.
@@ -450,7 +450,7 @@ Gets the fully-qualified path (including the extension for a File) of the entity
 ### parent
 
 ```ts
-parent : Folder = entity.parent
+const parent: Folder = entity.parent
 ```
 Gets the Folder object representing the parent of this entity.
 Will be null for a root folder like Documents or Temporary.
@@ -461,7 +461,7 @@ This property is readonly.
 ### remove()
 
 ```ts
-result: any = await entity.remove()
+const result = await entity.remove()
 ```
 
 Asynchronously removes (deletes) the current Entity from the file system.
@@ -537,7 +537,7 @@ Gets or creates a File entity with the specified name within this Folder
 ### extension
 
 ```ts
-fileExt: string = file.extension
+const fileExt: string = file.extension
 ```
 
 Gets the extension of the file.
@@ -547,7 +547,7 @@ Gets the extension of the file.
 ### size
 
 ```ts
-fileSize: number = file.size
+const fileSize: number = file.size
 ```
 
 Gets the extension of the file.
@@ -557,7 +557,7 @@ Gets the extension of the file.
 ### isLocked
 
 ```ts
-isFileLocked: boolean = file.isLocked
+const isFileLocked: boolean = file.isLocked
 ```
 
 Gets a boolean value indicating whether the file is currently locked, meaning a background operation associated with this file is running.
@@ -567,7 +567,7 @@ Gets a boolean value indicating whether the file is currently locked, meaning a 
 ### readText()
 
 ```ts
-text: string = await file.readText(encoding)
+const text = await file.readText(encoding)
 ```
 
 Asynchronously reads the content of the file as a string using an optional encoding value. If you do not pass any encoding, `UTF-8` is used.
@@ -588,7 +588,7 @@ Reads the content of the file as a string synchronously, using the specified enc
 ### read
 
 ```ts
-fileContent: any = await file.read()
+const fileContent = await file.read()
 ```
 
 Reads the binary content of the file asynchronously.
@@ -597,7 +597,7 @@ Reads the binary content of the file asynchronously.
 
 ### readSync()
 ```ts
-fileContent: any = file.readSync(onError)
+const fileContent = file.readSync(onError)
 ```
 Reads the binary content of the file synchronously. `onError` is a function to be called if some IO-error occurs.
 
@@ -610,7 +610,7 @@ Reads the binary content of the file synchronously. `onError` is a function to b
 ### writeText()
 
 ```ts
-result: any = await file.writeText(content, encoding)
+const result = await file.writeText(content, encoding)
 ```
 Asynchronously writes the content of the file as a string using the specified encoding (defaults to UTF-8).
 
@@ -667,7 +667,7 @@ Writes the provided binary content to the file synchronously.
 ### contains()
 
 ```ts
-containsEntity: boolean = folder.contains(name)
+const containsEntity: boolean = folder.contains(name)
 ```
 Checks whether this Folder contains an Entity with the specified name.
 
@@ -680,7 +680,7 @@ Checks whether this Folder contains an Entity with the specified name.
 ### clear()
 
 ```ts
-result: any = await folder.clear()
+const result = await folder.clear()
 ```
 Asynchronously deletes all the files and folders (recursively), contained within the Folder.
 
@@ -704,7 +704,7 @@ Synchronously deletes all the files and folders (recursively), contained within 
 #### normalize
 
 ```ts
-normalizedPath: string = path.normalize(path)
+const normalizedPath: string = path.normalize(path)
 ```
 
 Normalizes a path, taking care of occurrences like `..` and `//`.
@@ -718,7 +718,7 @@ Normalizes a path, taking care of occurrences like `..` and `//`.
 #### join()
 
 ```ts
-joinedPath: string = path.join(...paths)
+const joinedPath: string = path.join(...paths)
 ```
 
 Joins all the provided string components, forming a valid and normalized path.
