@@ -155,7 +155,7 @@ On the other hand, any API that expects a `NSNull`, `NSNumber`, `NSString` or `N
 ```ts
 console.log(`pow(2.5, 3) = ${Math.pow(2.5, 3)}`);
 ```
-The iOS Runtime converts the JavaScript `number` literals to native doubles and passes them to the native `pow(double x, double y)` function. The returned native integer is automatically converted to a JavaScript number and passed to `console.log()`.
+The iOS Runtime converts JavaScript number literals to native doubles and utilizes the native pow(double x, double y) function. The resulting native integer is automatically converted back to a JavaScript number and then passed as an argument to console.log() for output..
 
 ### Converting string
 ```ts
