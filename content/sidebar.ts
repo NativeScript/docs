@@ -166,6 +166,10 @@ export default [
     items: [
       { text: 'Application', link: '/guide/core/application' },
       {
+        text: 'Color',
+        link: '/guide/core/color'
+      },
+      { 
         text: 'Http',
         link: '/guide/core/http'
       },
