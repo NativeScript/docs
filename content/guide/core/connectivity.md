@@ -3,12 +3,12 @@ title: Connectivity
 description: Get the current device network connection type and monitor changes in the connection type.
 ---
 
-The `Connectivity` class, created as a singleton, abstracts the native API responsible for providing information about the network's connection type and availability.
+`Connectivity` provides easy-to-use APIs consolidating the appropriate platform native APIs to interact with the network's connection type and availability.
 
 
-## Using the Connectivity class
+## Using Connectivity
 
-To use the Connectivity class, import it from `@nativescript/core`.
+To use Connectivity, import it from `@nativescript/core`.
 
 ```ts
 import { Connectivity } from '@nativescript/core'
