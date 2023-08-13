@@ -235,6 +235,10 @@ export default [
         link: '/guide/code-sharing',
       },
       {
+        text: 'Metadata',
+        link: '/guide/metadata'
+      },
+      {
         text: 'Marshalling',
         items: [
           {
