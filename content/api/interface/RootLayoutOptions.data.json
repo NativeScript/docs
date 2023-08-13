@@ -1,0 +1,63 @@
+{
+  "title": "RootLayoutOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "RootLayoutOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        33425,
+        33424
+      ]
+    }
+  ],
+  "reflections": {
+    "33424": {
+      "name": "shadeCover",
+      "type": "Property",
+      "url": "/api/interface/RootLayoutOptions#shadecover",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "shadeCover?: <a href=\"/api/interface/ShadeCoverOptions\">ShadeCoverOptions</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 18,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/RootLayoutOptions#shadecover"
+        }
+      ]
+    },
+    "33425": {
+      "name": "animation",
+      "type": "Property",
+      "url": "/api/interface/RootLayoutOptions#animation",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "animation?: {\n  enterFrom?: TransitionAnimation\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 19,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/RootLayoutOptions#animation"
+        }
+      ]
+    }
+  }
+}

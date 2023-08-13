@@ -1,0 +1,265 @@
+{
+  "title": "ItemEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "ItemEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        14885,
+        14886,
+        14882,
+        14884,
+        14887,
+        14883
+      ]
+    }
+  ],
+  "reflections": {
+    "14882": {
+      "name": "index",
+      "type": "Property",
+      "url": "/api/interface/ItemEventData#index",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The index of the item, for which the event is raised."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "index: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 139,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The index of the item, for which the event is raised."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemEventData#index"
+        }
+      ]
+    },
+    "14883": {
+      "name": "view",
+      "type": "Property",
+      "url": "/api/interface/ItemEventData#view",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The view that is associated to the item, for which the event is raised."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "view: <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 144,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The view that is associated to the item, for which the event is raised."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemEventData#view"
+        }
+      ]
+    },
+    "14884": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/ItemEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native [iOS view](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/) that represents the user interface where the view is hosted. Valid only when running on iOS."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ios: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 149,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native [iOS view](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/) that represents the user interface where the view is hosted. Valid only when running on iOS."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemEventData#ios"
+        }
+      ]
+    },
+    "14885": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/ItemEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native [android widget](http://developer.android.com/reference/android/view/ViewGroup.html) that represents the user interface where the view is hosted. Valid only when running on Android OS."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "android: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 154,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native [android widget](http://developer.android.com/reference/android/view/ViewGroup.html) that represents the user interface where the view is hosted. Valid only when running on Android OS."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemEventData#android"
+        }
+      ]
+    },
+    "14886": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/ItemEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemEventData#eventname"
+        }
+      ]
+    },
+    "14887": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/ItemEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ItemEventData#object"
+        }
+      ]
+    }
+  }
+}

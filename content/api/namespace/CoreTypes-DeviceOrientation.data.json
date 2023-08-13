@@ -1,0 +1,127 @@
+{
+  "title": "DeviceOrientation",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2631,
+        2630,
+        2632
+      ]
+    }
+  ],
+  "reflections": {
+    "2630": {
+      "name": "portrait",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-DeviceOrientation#portrait",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Portrait orientation."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "portrait: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 156,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Portrait orientation."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-DeviceOrientation#portrait"
+        }
+      ]
+    },
+    "2631": {
+      "name": "landscape",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-DeviceOrientation#landscape",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Landscape orientation."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "landscape: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 160,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Landscape orientation."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-DeviceOrientation#landscape"
+        }
+      ]
+    },
+    "2632": {
+      "name": "unknown",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-DeviceOrientation#unknown",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Orientation cannot be determined."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "unknown: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 164,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Orientation cannot be determined."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-DeviceOrientation#unknown"
+        }
+      ]
+    }
+  }
+}

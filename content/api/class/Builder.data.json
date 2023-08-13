@@ -1,0 +1,372 @@
+{
+  "title": "Builder",
+  "hierarchy": [
+    [
+      {
+        "text": "Builder"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        5044
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        5026,
+        5025,
+        5024
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        5027,
+        5038,
+        5030,
+        5034
+      ]
+    }
+  ],
+  "reflections": {
+    "5024": {
+      "name": "knownTemplates",
+      "type": "Property",
+      "url": "/api/class/Builder#knowntemplates",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "UI plugin developers can add to these to define their own custom types if needed"
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "knownTemplates: Set&lt;string&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 42,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "UI plugin developers can add to these to define their own custom types if needed"
+              }
+            ]
+          },
+          "url": "/api/class/Builder#knowntemplates"
+        }
+      ]
+    },
+    "5025": {
+      "name": "knownMultiTemplates",
+      "type": "Property",
+      "url": "/api/class/Builder#knownmultitemplates",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "knownMultiTemplates: Set&lt;string&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 43,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Builder#knownmultitemplates"
+        }
+      ]
+    },
+    "5026": {
+      "name": "knownCollections",
+      "type": "Property",
+      "url": "/api/class/Builder#knowncollections",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "knownCollections: Set&lt;string&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 44,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Builder#knowncollections"
+        }
+      ]
+    },
+    "5027": {
+      "name": "createViewFromEntry",
+      "type": "Method",
+      "url": "/api/class/Builder#createviewfromentry",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "createViewFromEntry(entry: <a href=\"/api/interface/NavigationEntry\">NavigationEntry</a>): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/Builder#createviewfromentry-createviewfromentry-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 50,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates view from navigation entry"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "entry",
+              "type": "<a href=\"/api/interface/NavigationEntry\">NavigationEntry</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "NavigationEntry"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "5030": {
+      "name": "parse",
+      "type": "Method",
+      "url": "/api/class/Builder#parse",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(value: string | <a href=\"/api/interface/Template\">Template</a>, exports?: any): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/Builder#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 52,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string | <a href=\"/api/interface/Template\">Template</a>",
+              "flags": {}
+            },
+            {
+              "name": "exports",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "5034": {
+      "name": "parseMultipleTemplates",
+      "type": "Method",
+      "url": "/api/class/Builder#parsemultipletemplates",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parseMultipleTemplates(value: string, exports?: any): <a href=\"/api/interface/KeyedTemplate\">KeyedTemplate</a>[]",
+          "url": "/api/class/Builder#parsemultipletemplates-parsemultipletemplates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 59,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates an array of KeyedTemplates from string"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The xml of the template to be parsed"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "exports",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Current context of the template"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/KeyedTemplate\">KeyedTemplate</a>[]"
+        }
+      ]
+    },
+    "5038": {
+      "name": "load",
+      "type": "Method",
+      "url": "/api/class/Builder#load",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "load(moduleName: string, exports?: any): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/Builder#load-load-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 66,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Loads component from module with context"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "moduleName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the module name"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "exports",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the context of the component to be loaded"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        },
+        {
+          "type": "CallSignature",
+          "code": "load(options: <a href=\"/api/interface/LoadOptions\">LoadOptions</a>): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/Builder#load-load-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/index.d.ts",
+              "line": 72,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Loads component from options"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/LoadOptions\">LoadOptions</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Load options"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "5044": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Builder#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Builder(): <a href=\"/api/class/Builder\">Builder</a>",
+          "url": "/api/class/Builder#constructor-new-builder",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Builder\">Builder</a>"
+        }
+      ]
+    }
+  }
+}

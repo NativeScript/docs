@@ -1,0 +1,288 @@
+{
+  "title": "ItemSpec",
+  "hierarchy": [
+    [
+      {
+        "text": "ItemSpec"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        32578
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        32583,
+        32584,
+        32585,
+        32586,
+        32587,
+        32588
+      ]
+    }
+  ],
+  "reflections": {
+    "32578": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ItemSpec#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ItemSpec(): <a href=\"/api/class/ItemSpec\">ItemSpec</a>",
+          "url": "/api/class/ItemSpec#constructor-new-itemspec",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 9,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ItemSpec\">ItemSpec</a>"
+        },
+        {
+          "type": "ConstructorSignature",
+          "code": "new ItemSpec(value: number, type: <a href=\"/api/index#gridunittype-1\">GridUnitType</a>): <a href=\"/api/class/ItemSpec\">ItemSpec</a>",
+          "url": "/api/class/ItemSpec#constructor-new-itemspec-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "<a href=\"/api/index#gridunittype-1\">GridUnitType</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/ItemSpec\">ItemSpec</a>"
+        }
+      ]
+    },
+    "32583": {
+      "name": "actualLength",
+      "type": "Property",
+      "url": "/api/class/ItemSpec#actuallength",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the actual length of an ItemSpec."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "actualLength: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the actual length of an ItemSpec."
+              }
+            ]
+          },
+          "url": "/api/class/ItemSpec#actuallength"
+        }
+      ]
+    },
+    "32584": {
+      "name": "gridUnitType",
+      "type": "Property",
+      "url": "/api/class/ItemSpec#gridunittype",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns unit type of this ItemSpec instance."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "gridUnitType: <a href=\"/api/index#gridunittype-1\">GridUnitType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 20,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns unit type of this ItemSpec instance."
+              }
+            ]
+          },
+          "url": "/api/class/ItemSpec#gridunittype"
+        }
+      ]
+    },
+    "32585": {
+      "name": "isAbsolute",
+      "type": "Property",
+      "url": "/api/class/ItemSpec#isabsolute",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns true if this ItemSpec instance holds\nan absolute (pixel) value."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isAbsolute: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 26,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if this ItemSpec instance holds\nan absolute (pixel) value."
+              }
+            ]
+          },
+          "url": "/api/class/ItemSpec#isabsolute"
+        }
+      ]
+    },
+    "32586": {
+      "name": "isAuto",
+      "type": "Property",
+      "url": "/api/class/ItemSpec#isauto",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns true if this GridLength instance is\nautomatic (not specified)."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isAuto: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if this GridLength instance is\nautomatic (not specified)."
+              }
+            ]
+          },
+          "url": "/api/class/ItemSpec#isauto"
+        }
+      ]
+    },
+    "32587": {
+      "name": "isStar",
+      "type": "Property",
+      "url": "/api/class/ItemSpec#isstar",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns true if this ItemSpec instance holds weighted proportion\nof available space."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isStar: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 38,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if this ItemSpec instance holds weighted proportion\nof available space."
+              }
+            ]
+          },
+          "url": "/api/class/ItemSpec#isstar"
+        }
+      ]
+    },
+    "32588": {
+      "name": "value",
+      "type": "Property",
+      "url": "/api/class/ItemSpec#value",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns value part of this ItemSpec instance."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "value: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
+              "line": 43,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns value part of this ItemSpec instance."
+              }
+            ]
+          },
+          "url": "/api/class/ItemSpec#value"
+        }
+      ]
+    }
+  }
+}
