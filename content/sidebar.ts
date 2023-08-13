@@ -226,10 +226,14 @@ export default [
         text: 'Marshalling',
         items: [
           {
-            text: 'Android Marshalling',
-            link: '/guide/android-marshalling',
+            text: 'iOS',
+            link: '/guide/ios-runtime-types',
           },
-        ],
+          {
+            text: 'Android',
+            link: '/guide/android-marshalling',
+          }
+        ]
       },
       {
         text: 'Property System',
