@@ -169,6 +169,10 @@ export default [
         text: 'Color',
         link: '/guide/core/color'
       },
+      {
+        text: 'Connectivity',
+        link: '/guide/core/connectivity',
+      },
       { 
         text: 'Http',
         link: '/guide/core/http'
