@@ -198,6 +198,10 @@ export default [
         link: '/guide/core/image-cache',
       },
       {
+        text: 'Trace',
+        link: '/guide/core/tracing'
+      },
+      {
         text: 'XmlParser',
         link: '/guide/core/xml-parser'
       },
