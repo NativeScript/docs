@@ -127,7 +127,7 @@ Creates a new reference around a JavaScript `value`. The native representation o
 
 ### new Reference(type: Type\<T\>, data: Pointer)
 
-Creates a reference from to the pointer with a given type.
+Creates a reference from the pointer with a given type.
 
 ---
 
