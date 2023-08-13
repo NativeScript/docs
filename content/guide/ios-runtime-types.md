@@ -121,7 +121,7 @@ Wraps an NSData instance in an ArrayBuffer.
 
 ### new Reference(value)
 
-Creates a new reference around a JavaScript `value`. The native representation of the type will be determined the first time the Reference is used in operation involving marshalling.
+Creates a new reference around a JavaScript `value`. The native representation of the type will be determined during the first time the Reference is used in operation involving marshalling.
 
 ---
 
