@@ -31,7 +31,7 @@ If you don't set any category or the category you pass to `Trace.write()` is not
 Trace.enable()
 ```
 
-3. Call the `Trace.write()` where you would call `console.log()` passing it a message,a category name and optionally, a message type. The category should be one of those you set with `Trace.setCategories()`
+3. Instead of using console.log(), use Trace.write() to log your messages. Pass the message content, a category name, and optionally, a message type as arguments to Trace.write(). Make sure that the category you provide is one of the categories you have previously set using Trace.setCategories().
 
 ```ts
 Trace.write('some message', 'category')
