@@ -1,0 +1,165 @@
+{
+  "title": "TouchAction",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        11092,
+        11089,
+        11091,
+        11090
+      ]
+    }
+  ],
+  "reflections": {
+    "11089": {
+      "name": "down",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#down",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Down action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "down: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 114,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Down action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#down"
+        }
+      ]
+    },
+    "11090": {
+      "name": "up",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#up",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Up action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "up: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 119,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Up action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#up"
+        }
+      ]
+    },
+    "11091": {
+      "name": "move",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#move",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Move action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "move: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 124,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Move action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#move"
+        }
+      ]
+    },
+    "11092": {
+      "name": "cancel",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#cancel",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Cancel action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "cancel: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 129,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Cancel action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#cancel"
+        }
+      ]
+    }
+  }
+}

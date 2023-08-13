@@ -1,0 +1,83 @@
+{
+  "title": "ConsoleWriter",
+  "hierarchy": [
+    [
+      {
+        "text": "ConsoleWriter"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2900
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2902
+      ]
+    }
+  ],
+  "reflections": {
+    "2900": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Trace-ConsoleWriter#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ConsoleWriter(): <a href=\"/api/class/Trace-ConsoleWriter\">ConsoleWriter</a>",
+          "url": "/api/class/Trace-ConsoleWriter#constructor-new-consolewriter",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Trace-ConsoleWriter\">ConsoleWriter</a>"
+        }
+      ]
+    },
+    "2902": {
+      "name": "write",
+      "type": "Method",
+      "url": "/api/class/Trace-ConsoleWriter#write",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "write(message: any, category: string, type?: number): void",
+          "url": "/api/class/Trace-ConsoleWriter#write-write-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 130,
+              "character": 2
+            }
+          ],
+          "parameters": [
+            {
+              "name": "message",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

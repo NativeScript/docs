@@ -1,0 +1,280 @@
+{
+  "title": "TouchManager",
+  "hierarchy": [
+    [
+      {
+        "text": "TouchManager"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        11135
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        11118,
+        11117,
+        11123,
+        11119
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        11128,
+        11131
+      ]
+    }
+  ],
+  "reflections": {
+    "11117": {
+      "name": "enableGlobalTapAnimations",
+      "type": "Property",
+      "url": "/api/class/TouchManager#enableglobaltapanimations",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Enable animations for all tap bindings in the UI."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "enableGlobalTapAnimations: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
+              "line": 21,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Enable animations for all tap bindings in the UI."
+              }
+            ]
+          },
+          "url": "/api/class/TouchManager#enableglobaltapanimations"
+        }
+      ]
+    },
+    "11118": {
+      "name": "animations",
+      "type": "Property",
+      "url": "/api/class/TouchManager#animations",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Define reusable touch animations to use on views with touchAnimation defined or with enableGlobalTapAnimations on."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "animations: <a href=\"/api/index#touchanimationoptions\">TouchAnimationOptions</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
+              "line": 25,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Define reusable touch animations to use on views with touchAnimation defined or with enableGlobalTapAnimations on."
+              }
+            ]
+          },
+          "url": "/api/class/TouchManager#animations"
+        }
+      ]
+    },
+    "11119": {
+      "name": "touchHandlers",
+      "type": "Property",
+      "url": "/api/class/TouchManager#touchhandlers",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Native Touch handlers (iOS only) registered with the view through the TouchManager.\nThe TouchManager uses this internally but makes public for other versatility if needed."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "touchHandlers: {\n  handler: any\n}[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
+              "line": 30,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Native Touch handlers (iOS only) registered with the view through the TouchManager.\nThe TouchManager uses this internally but makes public for other versatility if needed."
+              }
+            ]
+          },
+          "url": "/api/class/TouchManager#touchhandlers"
+        }
+      ]
+    },
+    "11123": {
+      "name": "touchAnimationDefinitions",
+      "type": "Property",
+      "url": "/api/class/TouchManager#touchanimationdefinitions",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When using NativeScript AnimationDefinition's for touch animations this will contain any instances for finer grain control of starting/stopping under various circumstances.\nThe TouchManager uses this internally but makes public for other versatility if needed."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "touchAnimationDefinitions: {\nanimation: <a href=\"/api/class/Animation\">Animation</a>;\ntype: TouchAnimationTypes;\n}[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
+              "line": 38,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When using NativeScript AnimationDefinition's for touch animations this will contain any instances for finer grain control of starting/stopping under various circumstances.\nThe TouchManager uses this internally but makes public for other versatility if needed."
+              }
+            ]
+          },
+          "url": "/api/class/TouchManager#touchanimationdefinitions"
+        }
+      ]
+    },
+    "11128": {
+      "name": "addAnimations",
+      "type": "Method",
+      "url": "/api/class/TouchManager#addanimations",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addAnimations(view: <a href=\"/api/class/View\">View</a>): void",
+          "url": "/api/class/TouchManager#addanimations-addanimations-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
+              "line": 48,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The TouchManager uses this internally.\nAdds touch animations to view based upon it's touchAnimation property or TouchManager.animations."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "NativeScript view instance"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11131": {
+      "name": "startAnimationForType",
+      "type": "Method",
+      "url": "/api/class/TouchManager#startanimationfortype",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "startAnimationForType(view: <a href=\"/api/class/View\">View</a>, type: TouchAnimationTypes): void",
+          "url": "/api/class/TouchManager#startanimationfortype-startanimationfortype-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
+              "line": 49,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "TouchAnimationTypes",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11135": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/TouchManager#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new TouchManager(): <a href=\"/api/class/TouchManager\">TouchManager</a>",
+          "url": "/api/class/TouchManager#constructor-new-touchmanager",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/TouchManager\">TouchManager</a>"
+        }
+      ]
+    }
+  }
+}

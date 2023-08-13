@@ -1,0 +1,761 @@
+{
+  "title": "Binding",
+  "hierarchy": [
+    [
+      {
+        "text": "Binding"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        6451
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        6482,
+        6479,
+        6471,
+        6492,
+        6487,
+        6464,
+        6463,
+        6486,
+        6480,
+        6460,
+        6478,
+        6493,
+        6455,
+        6470,
+        6462,
+        6457,
+        6459,
+        6456,
+        6458,
+        6475,
+        6494,
+        6491,
+        6490,
+        6481,
+        6461
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        6472,
+        6488,
+        6468,
+        6465,
+        6483,
+        6476
+      ]
+    }
+  ],
+  "reflections": {
+    "6451": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Binding#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Binding(target: <a href=\"/api/class/ViewBase\">ViewBase</a>, options: <a href=\"/api/interface/BindingOptions\">BindingOptions</a>): <a href=\"/api/class/Binding\">Binding</a>",
+          "url": "/api/class/Binding#constructor-new-binding",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "target",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/BindingOptions\">BindingOptions</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Binding\">Binding</a>"
+        }
+      ]
+    },
+    "6455": {
+      "name": "source",
+      "type": "Property",
+      "url": "/api/class/Binding#source",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "source: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 44,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#source"
+        }
+      ]
+    },
+    "6456": {
+      "name": "target",
+      "type": "Property",
+      "url": "/api/class/Binding#target",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "target: WeakRef&lt;<a href=\"/api/class/ViewBase\">ViewBase</a>&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 45,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#target"
+        }
+      ]
+    },
+    "6457": {
+      "name": "sourceOptions",
+      "type": "Property",
+      "url": "/api/class/Binding#sourceoptions",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "sourceOptions: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 46,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#sourceoptions"
+        }
+      ]
+    },
+    "6458": {
+      "name": "targetOptions",
+      "type": "Property",
+      "url": "/api/class/Binding#targetoptions",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "targetOptions: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 47,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#targetoptions"
+        }
+      ]
+    },
+    "6459": {
+      "name": "sourceProperties",
+      "type": "Property",
+      "url": "/api/class/Binding#sourceproperties",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "sourceProperties: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 48,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#sourceproperties"
+        }
+      ]
+    },
+    "6460": {
+      "name": "propertyChangeListeners",
+      "type": "Property",
+      "url": "/api/class/Binding#propertychangelisteners",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "propertyChangeListeners: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 49,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#propertychangelisteners"
+        }
+      ]
+    },
+    "6461": {
+      "name": "updating",
+      "type": "Property",
+      "url": "/api/class/Binding#updating",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "updating: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 50,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#updating"
+        }
+      ]
+    },
+    "6462": {
+      "name": "sourceIsBindingContext",
+      "type": "Property",
+      "url": "/api/class/Binding#sourceisbindingcontext",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "sourceIsBindingContext: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 51,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#sourceisbindingcontext"
+        }
+      ]
+    },
+    "6463": {
+      "name": "options",
+      "type": "Property",
+      "url": "/api/class/Binding#options",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "options: <a href=\"/api/interface/BindingOptions\">BindingOptions</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 52,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#options"
+        }
+      ]
+    },
+    "6464": {
+      "name": "onTargetPropertyChanged",
+      "type": "Property",
+      "url": "/api/class/Binding#ontargetpropertychanged",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "onTargetPropertyChanged: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 54,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#ontargetpropertychanged"
+        }
+      ]
+    },
+    "6465": {
+      "name": "loadedHandlerVisualTreeBinding",
+      "type": "Method",
+      "url": "/api/class/Binding#loadedhandlervisualtreebinding",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "loadedHandlerVisualTreeBinding(args: any): void",
+          "url": "/api/class/Binding#loadedhandlervisualtreebinding-loadedhandlervisualtreebinding-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 55,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "args",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6468": {
+      "name": "clearSource",
+      "type": "Method",
+      "url": "/api/class/Binding#clearsource",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "clearSource(): void",
+          "url": "/api/class/Binding#clearsource-clearsource-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 56,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6470": {
+      "name": "sourceAsObject",
+      "type": "Property",
+      "url": "/api/class/Binding#sourceasobject",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "sourceAsObject: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 57,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#sourceasobject"
+        }
+      ]
+    },
+    "6471": {
+      "name": "bindingContextChanged",
+      "type": "Property",
+      "url": "/api/class/Binding#bindingcontextchanged",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "bindingContextChanged: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 58,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#bindingcontextchanged"
+        }
+      ]
+    },
+    "6472": {
+      "name": "bind",
+      "type": "Method",
+      "url": "/api/class/Binding#bind",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "bind(source: any): void",
+          "url": "/api/class/Binding#bind-bind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 59,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "source",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6475": {
+      "name": "update",
+      "type": "Property",
+      "url": "/api/class/Binding#update",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "update: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 60,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#update"
+        }
+      ]
+    },
+    "6476": {
+      "name": "unbind",
+      "type": "Method",
+      "url": "/api/class/Binding#unbind",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "unbind(): void",
+          "url": "/api/class/Binding#unbind-unbind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 61,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6478": {
+      "name": "resolveObjectsAndProperties",
+      "type": "Property",
+      "url": "/api/class/Binding#resolveobjectsandproperties",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "resolveObjectsAndProperties: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 62,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#resolveobjectsandproperties"
+        }
+      ]
+    },
+    "6479": {
+      "name": "addPropertyChangeListeners",
+      "type": "Property",
+      "url": "/api/class/Binding#addpropertychangelisteners",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "addPropertyChangeListeners: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 63,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#addpropertychangelisteners"
+        }
+      ]
+    },
+    "6480": {
+      "name": "prepareExpressionForUpdate",
+      "type": "Property",
+      "url": "/api/class/Binding#prepareexpressionforupdate",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "prepareExpressionForUpdate: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 64,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#prepareexpressionforupdate"
+        }
+      ]
+    },
+    "6481": {
+      "name": "updateTwoWay",
+      "type": "Property",
+      "url": "/api/class/Binding#updatetwoway",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "updateTwoWay: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 65,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#updatetwoway"
+        }
+      ]
+    },
+    "6482": {
+      "name": "_getExpressionValue",
+      "type": "Property",
+      "url": "/api/class/Binding#getexpressionvalue",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "_getExpressionValue: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 66,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#getexpressionvalue"
+        }
+      ]
+    },
+    "6483": {
+      "name": "onSourcePropertyChanged",
+      "type": "Method",
+      "url": "/api/class/Binding#onsourcepropertychanged",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onSourcePropertyChanged(data: <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>): void",
+          "url": "/api/class/Binding#onsourcepropertychanged-onsourcepropertychanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 67,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "data",
+              "type": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6486": {
+      "name": "prepareContextForExpression",
+      "type": "Property",
+      "url": "/api/class/Binding#preparecontextforexpression",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "prepareContextForExpression: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 68,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#preparecontextforexpression"
+        }
+      ]
+    },
+    "6487": {
+      "name": "getSourcePropertyValue",
+      "type": "Property",
+      "url": "/api/class/Binding#getsourcepropertyvalue",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "getSourcePropertyValue: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 69,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#getsourcepropertyvalue"
+        }
+      ]
+    },
+    "6488": {
+      "name": "clearBinding",
+      "type": "Method",
+      "url": "/api/class/Binding#clearbinding",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "clearBinding(): void",
+          "url": "/api/class/Binding#clearbinding-clearbinding-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 70,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6490": {
+      "name": "updateTarget",
+      "type": "Property",
+      "url": "/api/class/Binding#updatetarget",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "updateTarget: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 71,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#updatetarget"
+        }
+      ]
+    },
+    "6491": {
+      "name": "updateSource",
+      "type": "Property",
+      "url": "/api/class/Binding#updatesource",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "updateSource: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 72,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#updatesource"
+        }
+      ]
+    },
+    "6492": {
+      "name": "getParentView",
+      "type": "Property",
+      "url": "/api/class/Binding#getparentview",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "getParentView: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 73,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#getparentview"
+        }
+      ]
+    },
+    "6493": {
+      "name": "resolveOptions",
+      "type": "Property",
+      "url": "/api/class/Binding#resolveoptions",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "resolveOptions: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 74,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#resolveoptions"
+        }
+      ]
+    },
+    "6494": {
+      "name": "updateOptions",
+      "type": "Property",
+      "url": "/api/class/Binding#updateoptions",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "updateOptions: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 75,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/Binding#updateoptions"
+        }
+      ]
+    }
+  }
+}

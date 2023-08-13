@@ -1,0 +1,129 @@
+{
+  "title": "HttpResponse",
+  "hierarchy": [
+    [
+      {
+        "text": "HttpResponse"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2135,
+        2134,
+        2133
+      ]
+    }
+  ],
+  "reflections": {
+    "2133": {
+      "name": "statusCode",
+      "type": "Property",
+      "url": "/api/interface/HttpResponse#statuscode",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the response status code."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "statusCode: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 114,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the response status code."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpResponse#statuscode"
+        }
+      ]
+    },
+    "2134": {
+      "name": "headers",
+      "type": "Property",
+      "url": "/api/interface/HttpResponse#headers",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the response headers."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "headers: <a href=\"/api/index#headers\">Headers</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 119,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the response headers."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpResponse#headers"
+        }
+      ]
+    },
+    "2135": {
+      "name": "content",
+      "type": "Property",
+      "url": "/api/interface/HttpResponse#content",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the response content."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "content?: <a href=\"/api/interface/HttpContent\">HttpContent</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 124,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the response content."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpResponse#content"
+        }
+      ]
+    }
+  }
+}
