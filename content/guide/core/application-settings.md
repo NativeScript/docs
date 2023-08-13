@@ -3,21 +3,21 @@ title: ApplicationSettings
 description: Persist data locally on the device storage
 ---
 
-The `ApplicationSettings` class allows you to store and retrieve data from the device local storage. ApplicationSettings provides setters and getters for storing and retrieving different data types. Use the appropriate setter to avoid errors.
+`ApplicationSettings` allows you to store and retrieve data from the device local storage via getters and setters for storing and retrieving different data types. Use the appropriate setter to avoid errors.
 
-## How to use the ApplicationSettings class
+## How to use ApplicationSettings
 
 <!-- https://stackblitz.com/edit/nativescript-stackblitz-templates-5ns4cv?file=app/main-view-model.ts -->
 
 ### Store a string value
 
-To store a string value, use the [setString](#setstring)  method:
+To store a string value, use the [setString](#setstring) method:
 
 ```ts
 ApplicationSettings.setString("username", "Wolfgang");
 ```
 :::tip :green_circle: Tip
-You can use this method with the `JSON.stringify()`(as shown in the `saveObjectAsString` method in the StackBlitz demo app at the link above) to store an object or an array as a string. Then, use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
+You can use this method with the `JSON.stringify()` (as shown in the `saveObjectAsString` method in the StackBlitz demo app at the link above) to store an object or an array as a string. Then, use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
 :::
 
 ### Store a boolean value
@@ -129,7 +129,7 @@ Returns an array of all stored keys or an empty array if no keys exist in the de
 
 
 ## API Reference(s)
-- [@nativescript/core/application-settings](https://docs.nativescript.org/api-reference/modules#applicationsettings) module
+- [ApplicationSettings](https://docs.nativescript.org/api-reference/modules#applicationsettings) module
 
 ## Native Component
 - `Android`: [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
