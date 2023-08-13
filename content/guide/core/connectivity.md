@@ -3,7 +3,7 @@ title: Connectivity
 description: Get the current device network connection type and monitor changes in the connection type.
 ---
 
-The `Connectivity` class (singlton) abstracts the native API responsible for providing information about the network's connection type and availability.
+The `Connectivity` class, created as a singleton, abstracts the native API responsible for providing information about the network's connection type and availability.
 
 
 ## Using the Connectivity class
