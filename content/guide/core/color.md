@@ -7,7 +7,7 @@ The `Color` class enables the creation of a color object:
  - using color components (alpha, red, green, blue) ranging from 0 to 255,
  - using various color representations like ARGB, color names, hex values, and more.
  
-The `ios` and `android` properties of the `Color` class instance return the native [UIColor](https://developer.apple.com/documentation/uikit/uicolor) on iOS and [Color](https://developer.android.com/reference/android/graphics/Color) on Android.
+The `ios` and `android` properties of the `Color` class instance return the native platform instance of [UIColor](https://developer.apple.com/documentation/uikit/uicolor) on iOS and [Color](https://developer.android.com/reference/android/graphics/Color) on Android.
 
 ## How to use the Color class
 
