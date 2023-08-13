@@ -121,7 +121,7 @@ Wraps an NSData instance in an ArrayBuffer.
 
 ### new Reference(value)
 
-Creates a new reference around a JavaScript `value`. The native representation of the type will be determined during the first time the Reference is used in operation involving marshalling.
+Creates a new reference around a JavaScript `value`. The native representation of the type will be determined during the first time the Reference is used in an operation involving marshalling.
 
 ---
 
@@ -188,6 +188,3 @@ someStructTypeIntastance.equals(left: T, right: T): boolean
 Checks two structs for equality.
 
 ---
-
-### new NSErrorWrapper (error: NSError)
-<!-- TODO: Add description -->
