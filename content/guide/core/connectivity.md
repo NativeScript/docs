@@ -65,7 +65,7 @@ Connectivity.startMonitoring((change: number) => {
 });
 ```
 
-If you would like to stop monitoring connecivity changes call [stopMonitoring()](#stopMonitoring)
+If you wish to halt the monitoring of connectivity changes, use the [stopMonitoring()](#stopMonitoring) function.
 
 ```ts
 Connectivity.stopMonitoring();
