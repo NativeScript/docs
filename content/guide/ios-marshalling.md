@@ -326,7 +326,7 @@ When overriding a method having **NSError ** out parameter in the end** any thro
 
 ### Pointer Types
 
-Languages in the C family have the notion of a pointer data type. A pointer is a value that points to another value, or, more accurately, to the location of that value in memory. JavaScript has no notion of pointers, but the pointer data type is used throughout the iOS SDK. To overcome this, NativeScript introduces the `Reference` object. References are special objects which allow JavaScript to reason about and access pointer values. Consider this example:
+Languages in the C family, including iOS SDK, utilize the concept of a pointer data type. Pointers are values that represent the memory location of another value. However, JavaScript, unlike C-based languages, does not have native support for pointers. To bridge this gap, NativeScript introduces the Reference object. References are special objects designed to enable JavaScript to handle and interact with pointer values. They provide a mechanism for JavaScript to reason about and access memory locations. To illustrate, consider the following example:
 
 ```objc
 NSFileManager *fileManager = [NSFileManager defaultManager];
