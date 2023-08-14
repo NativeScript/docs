@@ -2,12 +2,11 @@
 title: iOS Marshalling
 ---
 
-
-NativeScript for iOS handles the conversion between JavaScript and Objective-C data types.  The following is a thorough but not exhaustive list of rules and exceptions NativeScript abides by when exposing Objective-C APIs in JavaScript.
+NativeScript for iOS handles the conversion between JavaScript and Objective-C data types. The following is a thorough but not exhaustive list of rules and exceptions NativeScript abides by when exposing Objective-C APIs in JavaScript.
 
 ## Converting Objective-C Classes and Objects
 
-Classes can have instance or static methods, and properties which are always instance. NativeScript exposes an Objective-C class and its members as a JavaScript constructor function with an associated prototype according to the [prototypal inheritance model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain). This means that each static method on an Objective-C class becomes a function on its JavaScript constructor function, each instance method becomes a function on the JavaScript prototype, and each property becomes a property descriptor on the same prototype. Every JavaScript constructor function created to expose an Objective-C class is arranged in a prototype chain that mirrors the class hierarchy in Objective-C: if `NSMutableArray` extends `NSArray`, which in turn extends `NSObject` in Objective-C, then in JavaScript the prototype of the `NSObject` constructor function is the prototype of `NSArray`, which in turn is the prototype of `NSMutableArray`.
+Classes can have instance methods, static methods, and properties. NativeScript exposes an Objective-C class and its members as a JavaScript constructor function with an associated prototype according to the [prototypal inheritance model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain). This means that each static method on an Objective-C class becomes a function on its JavaScript constructor function, each instance method becomes a function on the JavaScript prototype, and each property becomes a property descriptor on the same prototype. Every JavaScript constructor function created to expose an Objective-C class is arranged in a prototype chain that mirrors the class hierarchy in Objective-C: if `NSMutableArray` extends `NSArray`, which in turn extends `NSObject` in Objective-C, then in JavaScript the prototype of the `NSObject` constructor function is the prototype of `NSArray`, which in turn is the prototype of `NSMutableArray`.
 
 To illustrate:
 
@@ -342,7 +341,7 @@ if (isDirectory) {
 }
 ```
 
-This code snippet invokes the fileExistsAtPath:isDirectory: method of the NSFileManager class. The method takes an NSString as its first argument and a pointer to a boolean value as its second argument. When executed, the method updates the boolean value directly using the provided pointer, allowing the isDirectory variable to be modified. The code can be alternatively expressed in the following manner:
+This code snippet invokes the Objective C `fileExistsAtPath:isDirectory:` selector method of the NSFileManager class. The method takes an NSString as its first argument and a pointer to a boolean value as its second argument. When executed, the method updates the boolean value directly using the provided pointer, allowing the `isDirectory` variable to be modified. The code can be expressed via NativeScript in the following manner:
 
 ```js
 const fileManager = NSFileManager.defaultManager
