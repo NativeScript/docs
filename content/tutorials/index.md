@@ -9,6 +9,7 @@ NativeScript is a celebration of the platform in your favorite language, **JavaS
 | Name                                                                                                                          | Type          | Difficulty   |
 | ----------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ |
 | [Build a master-detail app with Plain TypeScript](./build-a-master-detail-app-with-plain-typescript.md)                       | Tutorial      | Beginner     |
+| [Build a master-detail app with Plain JavaScript](./build-a-master-detail-app-with-plain-javascript.md)                       | Tutorial      | Beginner     |
 | [Build a master-detail app with Angular](./build-a-master-detail-app-with-angular.md)                                         | Tutorial      | Beginner     |
 | [Build a master-detail app with Vue](./build-a-master-detail-app-with-vue.md)                                                 | Tutorial      | Beginner     |
 | [Build a master-detail app with React](./build-a-master-detail-app-with-react.md)                                             | Tutorial      | Beginner     |

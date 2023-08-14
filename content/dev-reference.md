@@ -59,9 +59,49 @@ For example:
 SOMETHING SOMETHING
 
 ```ts
-asd;
+asd
 ```
 
 </Tab>
 
 </Tabs>
+
+## StepList
+
+To notate steps from a screenshot, or steps in general, you can wrap any list with the `<StepList>` component to style the list.
+
+**Example**:
+
+```md
+<StepList>
+
+1. This is a test step list, that should render the bullets on the left in a red circle
+2. This is the second step
+3. Then there's the **third** step
+4. And a **fourth**
+5. It can go...
+6. On, and on...
+7. And on and on...
+8. Until we run out of things to say
+9. But the list should handle **double digit** step counters just fine, as well as lines that wrap to multiple lines in case we have lots of words to say about a given step, beause sometimes steps just need that extra bit of explanation to properly make sense to the reader.
+10. Finally, we can see those **double digits** in action right here.
+
+</StepList>
+```
+
+---
+
+<StepList>
+
+1. This is a test step list, that should render the bullets on the left in a red circle
+2. This is the second step
+3. Then there's the **third** step
+4. And a **fourth**
+5. It can go...
+6. On, and on...
+7. And on and on...
+8. Until we run out of things to say
+9. But the list should handle **double digit** step counters just fine, as well as lines that wrap to multiple lines in case we have lots of words to say about a given step, beause sometimes steps just need that extra bit of explanation to properly make sense to the reader.
+10. Finally, we can see those **double digits** in action right here.
+
+</StepList>

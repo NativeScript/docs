@@ -23,6 +23,14 @@ export default [
         text: 'Development Workflow',
         items: [
           {
+            text: 'Running',
+            link: '/guide/running',
+          },
+          {
+            text: 'Testing',
+            link: '/guide/testing'
+          },
+          {
             text: 'Debugging',
             link: '/guide/debugging',
           },
@@ -106,8 +114,66 @@ export default [
     ],
   },
   {
+    text: '@nativescript/core',
+    items: [
+      { text: 'Application', link: '/guide/core/application' },
+      {
+        text: 'ApplicationSettings',
+        link: '/guide/core/application-settings',
+      },
+      {
+        text: 'Color',
+        link: '/guide/core/color'
+      },
+      {
+        text: 'Connectivity',
+        link: '/guide/core/connectivity',
+      },
+      { 
+        text: 'Http',
+        link: '/guide/core/http'
+      },
+      {
+        text: 'FPS Meter',
+        link: '/guide/core/fps-meter'
+      },
+      {
+        text: 'FileSystem',
+        link: '/guide/core/file-system'
+      },
+      {
+        text: 'Observable',
+        link: '/guide/core/observable'
+      },
+      {
+        text: 'Screen',
+        link: '/guide/core/screen'
+      },
+      {
+        text: 'Device',
+        link: '/guide/core/device'
+      },
+      {
+        text: 'Trace',
+        link: '/guide/core/tracing'
+      },
+      {
+        text: 'XmlParser',
+        link: '/guide/core/xml-parser'
+      },
+      {
+        text: 'Utils',
+        link: '/guide/core/utils'
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
+      {
+        text: 'Navigation',
+        link: '/guide/ui/navigation',
+      },
       {
         text: 'Multithreading',
         link: '/guide/multithreading',
@@ -117,8 +183,30 @@ export default [
         link: '/guide/code-sharing',
       },
       {
+        text: 'Metadata',
+        link: '/guide/metadata'
+      },
+      {
         text: 'Marshalling',
-        link: '/guide/marshalling/'
+        link: '/guide/marshalling',
+        items: [
+          {
+            text: 'iOS Marshalling',
+            link: '/guide/ios-marshalling',
+          },
+          {
+            text: 'iOS',
+            link: '/guide/ios-runtime-types',
+          },
+          {
+            text: 'Android',
+            link: '/guide/android-marshalling',
+          }
+        ]
+      },
+      {
+        text: 'Property System',
+        link: '/guide/property-system'
       },
       {
         text: 'Shared Element Transitions',
@@ -129,6 +217,19 @@ export default [
   {
     text: 'UI',
     items: [
+      {
+        text: 'Image',
+        items: [
+          {
+            text: 'ImageCache',
+            link: '/guide/ui/image-cache'
+          },
+          {
+            text: 'ImageSource',
+            link: '/guide/ui/image-source'
+          }
+        ]
+      },
       //       { text: 'Styling', link: '//#' },
       //       { text: 'Interactivity', link: '//#' },
       {
