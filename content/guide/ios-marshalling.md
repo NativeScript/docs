@@ -189,7 +189,7 @@ To implement Objective-C/Swift protocols in NativeScript, hava look at [Conformi
 
 ## Objective-C Selectors
 
-In Objective-C `SEL` is a data type that represents the name of a method of an Objective-C class. NativeScript exposes this data type as a JavaScript string. Whenever an API expects a selector value in Objective-C, it's JavaScript projection will expect a string with the method name.
+In Objective-C, a `SEL` is a data type that represents a method name in an Objective-C class. NativeScript exposes this data type in the form of a JavaScript string. When working with APIs in Objective-C, if an API expects a selector value, the corresponding JavaScript projection in NativeScript will expect a string representing the method name.
 
 ```objc
 NSMutableString *aString = [[NSMutableString alloc] init];
