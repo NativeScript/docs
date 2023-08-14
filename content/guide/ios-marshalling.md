@@ -175,7 +175,7 @@ let isTrue = str.boolValue;
 
 ## Objective-C Protocols
 
-Protocols in Objective-C are like interfaces in other languages - they are blueprints of what members a class should contain, a sort of an API contract. Protocols are exposed as empty objects in JavaScript. Protocols are usually only referenced when [subclassing](/guide/subclassing/extending-classes-and-conforming-protocols-ios) an Objective-C class or when checking whether an object or class conforms to a protocol.
+Protocols in Objective-C serve a similar purpose as interfaces in other programming languages. They define a blueprint or contract that specifies the members (methods, properties, etc.) that a class should implement.  Protocols are exposed as empty objects in JavaScript. Protocols are usually only referenced when [subclassing](/guide/subclassing/extending-classes-and-conforming-protocols-ios) an Objective-C class or when checking whether an object or class conforms to a protocol.
 
 
 ```objc
