@@ -337,7 +337,7 @@ if (isDirectory) {
 }
 ```
 
-This snippet calls the `fileExistsAtPath:isDirectory` method of the `NSFileManager` class. This method accepts a `NSString` as its first argument and a pointer to a boolean value as its second argument. During its execution the method will use the pointer to update the boolean value. This means it will directly change the value of `isDirectory`. The same code can be written as follows:
+This code snippet invokes the fileExistsAtPath:isDirectory: method of the NSFileManager class. The method takes an NSString as its first argument and a pointer to a boolean value as its second argument. When executed, the method updates the boolean value directly using the provided pointer, allowing the isDirectory variable to be modified. The code can be alternatively expressed in the following manner:
 
 ```js
 const fileManager = NSFileManager.defaultManager
