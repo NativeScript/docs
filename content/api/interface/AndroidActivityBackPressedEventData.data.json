@@ -1,0 +1,205 @@
+{
+  "title": "AndroidActivityBackPressedEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "AndroidActivityEventData",
+        "link": "/api/interface/AndroidActivityEventData"
+      }
+    ],
+    [
+      {
+        "text": "AndroidActivityBackPressedEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1136,
+        1135,
+        1137,
+        1138
+      ]
+    }
+  ],
+  "reflections": {
+    "1135": {
+      "name": "cancel",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityBackPressedEventData#cancel",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "In the event handler, set this value to true if you want to cancel the back navigation and do something else instead."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "cancel: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 487,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "In the event handler, set this value to true if you want to cancel the back navigation and do something else instead."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityBackPressedEventData#cancel"
+        }
+      ]
+    },
+    "1136": {
+      "name": "activity",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityBackPressedEventData#activity",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The activity."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "activity",
+        "url": "/api/interface/AndroidActivityEventData#activity",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "activity: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 407,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "activity",
+            "url": "/api/interface/AndroidActivityEventData#activity",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The activity."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityBackPressedEventData#activity"
+        }
+      ]
+    },
+    "1137": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityBackPressedEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/AndroidActivityEventData#eventname",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 412,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/AndroidActivityEventData#eventname",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityBackPressedEventData#eventname"
+        }
+      ]
+    },
+    "1138": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityBackPressedEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/AndroidActivityEventData#object",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "object: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 417,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/AndroidActivityEventData#object",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityBackPressedEventData#object"
+        }
+      ]
+    }
+  }
+}

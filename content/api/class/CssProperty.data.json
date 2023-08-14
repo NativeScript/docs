@@ -1,0 +1,428 @@
+{
+  "title": "CssProperty",
+  "hierarchy": [
+    [
+      {
+        "text": "CssProperty"
+      }
+    ],
+    [
+      {
+        "text": "InheritedCssProperty",
+        "link": "/api/class/InheritedCssProperty"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        9196
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        9204,
+        9203,
+        9205,
+        9213,
+        9212,
+        9209,
+        9207,
+        9208,
+        9206,
+        9202,
+        9214,
+        9201,
+        9210,
+        9211
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        9223,
+        9218
+      ]
+    }
+  ],
+  "reflections": {
+    "9196": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/CssProperty#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new CssProperty&lt;T, U&gt;(options: CssPropertyOptions&lt;T, U&gt;): <a href=\"/api/class/CssProperty\">CssProperty</a>&lt;T, U&gt;",
+          "url": "/api/class/CssProperty#constructor-new-cssproperty",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "CssPropertyOptions&lt;T, U&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/CssProperty\">CssProperty</a>&lt;T, U&gt;"
+        }
+      ]
+    },
+    "9201": {
+      "name": "registered",
+      "type": "Property",
+      "url": "/api/class/CssProperty#registered",
+      "flags": {
+        "isPrivate": true
+      },
+      "signatures": [
+        {
+          "code": "registered: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 74,
+              "character": 12
+            }
+          ],
+          "url": "/api/class/CssProperty#registered"
+        }
+      ]
+    },
+    "9202": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/CssProperty#name",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 75,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#name"
+        }
+      ]
+    },
+    "9203": {
+      "name": "cssName",
+      "type": "Property",
+      "url": "/api/class/CssProperty#cssname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 76,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#cssname"
+        }
+      ]
+    },
+    "9204": {
+      "name": "cssLocalName",
+      "type": "Property",
+      "url": "/api/class/CssProperty#csslocalname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssLocalName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 77,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#csslocalname"
+        }
+      ]
+    },
+    "9205": {
+      "name": "cssValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/CssProperty#cssvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssValueDescriptor: PropertyDescriptor",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 78,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/CssProperty#cssvaluedescriptor"
+        }
+      ]
+    },
+    "9206": {
+      "name": "localValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/CssProperty#localvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "localValueDescriptor: PropertyDescriptor",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 79,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/CssProperty#localvaluedescriptor"
+        }
+      ]
+    },
+    "9207": {
+      "name": "isStyleProperty",
+      "type": "Property",
+      "url": "/api/class/CssProperty#isstyleproperty",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "isStyleProperty: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 80,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/CssProperty#isstyleproperty"
+        }
+      ]
+    },
+    "9208": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/class/CssProperty#key",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "key: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 81,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#key"
+        }
+      ]
+    },
+    "9209": {
+      "name": "getDefault",
+      "type": "Property",
+      "url": "/api/class/CssProperty#getdefault",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "getDefault: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 82,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#getdefault"
+        }
+      ]
+    },
+    "9210": {
+      "name": "setNative",
+      "type": "Property",
+      "url": "/api/class/CssProperty#setnative",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "setNative: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 83,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#setnative"
+        }
+      ]
+    },
+    "9211": {
+      "name": "sourceKey",
+      "type": "Property",
+      "url": "/api/class/CssProperty#sourcekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "sourceKey: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 84,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#sourcekey"
+        }
+      ]
+    },
+    "9212": {
+      "name": "defaultValueKey",
+      "type": "Property",
+      "url": "/api/class/CssProperty#defaultvaluekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "defaultValueKey: symbol",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 85,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#defaultvaluekey"
+        }
+      ]
+    },
+    "9213": {
+      "name": "defaultValue",
+      "type": "Property",
+      "url": "/api/class/CssProperty#defaultvalue",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "defaultValue: U",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 86,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/CssProperty#defaultvalue"
+        }
+      ]
+    },
+    "9214": {
+      "name": "overrideHandlers",
+      "type": "Property",
+      "url": "/api/class/CssProperty#overridehandlers",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "overrideHandlers: (options: CssPropertyOptions&lt;T, U&gt;) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 87,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/CssProperty#overridehandlers"
+        }
+      ]
+    },
+    "9218": {
+      "name": "register",
+      "type": "Method",
+      "url": "/api/class/CssProperty#register",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "register(cls: {}): void",
+          "url": "/api/class/CssProperty#register-register-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 89,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "{}",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "9223": {
+      "name": "isSet",
+      "type": "Method",
+      "url": "/api/class/CssProperty#isset",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isSet(instance: T): boolean",
+          "url": "/api/class/CssProperty#isset-isset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "instance",
+              "type": "T",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    }
+  }
+}

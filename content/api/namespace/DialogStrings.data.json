@@ -1,0 +1,167 @@
+{
+  "title": "DialogStrings",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        10061,
+        10064,
+        10060,
+        10062,
+        10063,
+        10059,
+        10058
+      ]
+    }
+  ],
+  "reflections": {
+    "10058": {
+      "name": "STRING",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#string",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "STRING: \"string\" = \"string\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 4,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#string"
+        }
+      ]
+    },
+    "10059": {
+      "name": "PROMPT",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#prompt",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "PROMPT: \"Prompt\" = \"Prompt\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 5,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#prompt"
+        }
+      ]
+    },
+    "10060": {
+      "name": "CONFIRM",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#confirm",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "CONFIRM: \"Confirm\" = \"Confirm\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 6,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#confirm"
+        }
+      ]
+    },
+    "10061": {
+      "name": "ALERT",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#alert",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "ALERT: \"Alert\" = \"Alert\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 7,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#alert"
+        }
+      ]
+    },
+    "10062": {
+      "name": "LOGIN",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#login",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "LOGIN: \"Login\" = \"Login\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 8,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#login"
+        }
+      ]
+    },
+    "10063": {
+      "name": "OK",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#ok",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "OK: \"OK\" = \"OK\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 9,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#ok"
+        }
+      ]
+    },
+    "10064": {
+      "name": "CANCEL",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#cancel",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "CANCEL: \"Cancel\" = \"Cancel\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 10,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#cancel"
+        }
+      ]
+    }
+  }
+}

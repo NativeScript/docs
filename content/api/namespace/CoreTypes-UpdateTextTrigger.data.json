@@ -1,0 +1,89 @@
+{
+  "title": "UpdateTextTrigger",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2668,
+        2669
+      ]
+    }
+  ],
+  "reflections": {
+    "2668": {
+      "name": "focusLost",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-UpdateTextTrigger#focuslost",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The text property will be udpaded when the widget loses focus."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "focusLost: <a href=\"/api/namespace/CoreTypes#updatetexttriggertype\">UpdateTextTriggerType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 323,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The text property will be udpaded when the widget loses focus."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-UpdateTextTrigger#focuslost"
+        }
+      ]
+    },
+    "2669": {
+      "name": "textChanged",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-UpdateTextTrigger#textchanged",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The text property will be udpaded on every single character typed by the user."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "textChanged: <a href=\"/api/namespace/CoreTypes#updatetexttriggertype\">UpdateTextTriggerType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 328,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The text property will be udpaded on every single character typed by the user."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-UpdateTextTrigger#textchanged"
+        }
+      ]
+    }
+  }
+}
