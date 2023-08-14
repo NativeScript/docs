@@ -225,7 +225,7 @@ NSURLConnection.sendAsynchronousRequestQueueCompletionHandler(
 )
 ```
 
-Blocks in Objective-C, especially blocks that are closures, need to be properly retained and released in order to not leak memory. NativeScript does this automatically - a block exposed as a JavaScript function is released as soon as the function is garbage collected. A JavaScript function implicitly converted to a block will not be garbage collected as long the block is not released.
+Blocks in Objective-C, especially those that function as closures, require proper retention and release to avoid memory leaks. However, in NativeScript, this memory management is handled automatically. When a block is exposed as a JavaScript function, it is released as soon as the function is garbage collected. Conversely, a JavaScript function that is implicitly converted to a block will not be garbage collected as long as the block is retained.
 
 ## CoreFoundation Objects
 
