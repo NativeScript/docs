@@ -3,7 +3,7 @@ title: Build a master-detail app with Plain JavaScript
 category: Tutorials
 categoryLink: /tutorials/
 contributors:
-  - jcassidyav 
+  - jcassidyav
   - NathanWalker
 ---
 
