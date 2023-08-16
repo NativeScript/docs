@@ -11,7 +11,7 @@
   "devDependencies": {
     "@types/node": "18.11.9",
     "prettier": "^2.7.1",
-    "vitepress": "1.0.0-alpha.29"
+    "vitepress": "1.0.0-rc.4"
   },
   "prettier": {
     "semi": false,

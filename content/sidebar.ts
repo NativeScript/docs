@@ -1,4 +1,4 @@
-import { NSSidebarGroup } from '@packages/vitepress-theme/src'
+import type { NSSidebarGroup } from '../.vitepress/theme/vitepress-theme'
 
 export default [
   {
@@ -114,9 +114,9 @@ export default [
     items: [
       {
         text: 'Device',
-        link: '/guide/core/device'
-      }
-    ]
+        link: '/guide/core/device',
+      },
+    ],
   },
   {
     text: 'Advanced Concepts',
@@ -131,12 +131,12 @@ export default [
       },
       {
         text: 'ImageCache',
-        link: '/guide/ui/image-cache'
+        link: '/guide/ui/image-cache',
       },
       {
         text: 'Shared Element Transitions',
-        link: '/guide/shared-element-transitions'
-      }
+        link: '/guide/shared-element-transitions',
+      },
     ],
   },
   {

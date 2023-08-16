@@ -1,5 +1,8 @@
 ---
 title: Debugging
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments or the Android Studio developer tools.

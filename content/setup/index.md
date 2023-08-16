@@ -2,6 +2,8 @@
 title: Environment Setup
 description: Setting up your system to run NativeScript apps...
 next: /creating-a-new-project
+contributors:
+  - rigor789
 ---
 
 <!--@include: ../parts/online-playground.md-->

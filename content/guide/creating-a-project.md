@@ -1,6 +1,9 @@
 ---
 title: Creating a New Project
 prev: /setup/
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 <!--@include: ./parts/online-playground.md-->

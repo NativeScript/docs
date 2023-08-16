@@ -1,6 +1,9 @@
 ---
 title: Shared Element Transitions
 description: Shared Element Transitions allow you to auto animate shared elements from one page to the next allowing you to deliver smooth navigational experiences.
+contributors:
+  - NathanWalker
+  - rigor789
 ---
 
 ::: tip API Availabilty

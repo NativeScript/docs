@@ -1,6 +1,10 @@
 ---
 title: Troubleshooting
 description: Common issues and solutions
+contributors:
+  - Ombuweb
+  - rigor789
+  - NathanWalker
 ---
 
 ## Useful tips

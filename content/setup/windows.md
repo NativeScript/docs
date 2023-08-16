@@ -2,6 +2,8 @@
 title: Setting up Windows for NativeScript
 prev: /setup
 next: /creating-a-new-project
+contributors:
+  - rigor789
 ---
 
 ## Setting up Windows for Android

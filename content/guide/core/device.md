@@ -1,5 +1,7 @@
 ---
 title: Device
+contributors:
+  - Ombuweb
 ---
 
 The `Device` class (singleton) contains information about the current device, such as `os`, `manufacturer`, `uuid` and more.

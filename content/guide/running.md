@@ -1,5 +1,8 @@
 ---
 title: Running a Project
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 To run a NativeScript app, you need a device &mdash; either a physical or virtual.

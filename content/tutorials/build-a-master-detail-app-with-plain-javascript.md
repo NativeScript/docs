@@ -2,6 +2,9 @@
 title: Build a master-detail app with Plain JavaScript
 category: Tutorials
 categoryLink: /tutorials/
+contributors:
+  - jcassidyav 
+  - NathanWalker
 ---
 
 This tutorial introduces you to the fundamentals of NativeScript by walking you through building an example app with some basic functionalities.

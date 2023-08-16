@@ -2,6 +2,10 @@
 title: Build a master-detail app with React
 category: Tutorials
 categoryLink: /tutorials/
+contributors:
+ - williamjuan027
+ - Leon0824 
+ - winescout
 ---
 
 This tutorial introduces you to the fundamentals of using NativeScript with React by walking you through building an example app with some basic functionalities.

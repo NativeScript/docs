@@ -1,5 +1,7 @@
 ---
 title: '[DEV] Reference'
+contributors:
+  - rigor789
 ---
 
 This page serves as a reference for the available markdown options in the docs.
@@ -28,6 +30,10 @@ prev: the URL where the `Previous` button at the bottom should link to
 prevText: the text to show in the `Previous` button. By default the text is looked up in the sidebar.
 next: the URL where the `Next` button at the bottom should link to
 nextText: the text to show in the `Next` button. By default the text is looked up in the sidebar.
+contributors: false # to disable the contributors list in the right sidebar
+contributors:
+ - GitHubUsername1
+ - GitHubUsername2
 ---
 
 <!-- the rest of the markdown -->
@@ -53,7 +59,7 @@ For example:
 ![some image](../assets/images/setup/windows/<some_image>.png)
 ```
 
-<Tabs>
+<!-- <Tabs>
 <Tab name="Vue">
 
 SOMETHING SOMETHING
@@ -64,7 +70,7 @@ asd
 
 </Tab>
 
-</Tabs>
+</Tabs> -->
 
 ## StepList
 
@@ -88,6 +94,10 @@ To notate steps from a screenshot, or steps in general, you can wrap any list wi
 
 </StepList>
 ```
+
+:::warning Important
+Note the blank lines above and below the markdown list, this is required due to the way Markdown is parsed when combined with "html" elements.
+:::
 
 ---
 

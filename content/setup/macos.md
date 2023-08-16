@@ -2,6 +2,8 @@
 title: Setting up macOS for NativeScript
 prev: /setup
 next: /creating-a-new-project
+contributors:
+  - rigor789
 ---
 
 ## Setting up macOS for Android
