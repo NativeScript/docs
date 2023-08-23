@@ -1,5 +1,5 @@
 import { inBrowser as lo, useData as De, useRoute as Nn, useRouter as oc } from "vitepress";
-import { pushScopeId as ic, popScopeId as ac, defineComponent as L, nextTick as Ln, openBlock as g, createBlock as ue, createElementBlock as b, normalizeClass as ne, renderSlot as Ie, normalizeProps as sc, guardReactiveProps as lc, withScopeId as cc, resolveComponent as Oe, normalizeStyle as or, withKeys as uc, createElementVNode as h, Fragment as z, createCommentVNode as K, withCtx as he, createVNode as F, ref as A, createApp as fc, h as se, mergeProps as dc, toDisplayString as V, cloneVNode as pc, inject as me, provide as He, onMounted as le, watchEffect as ke, computed as I, watch as $e, onUnmounted as Ze, Teleport as hc, reactive as mc, unref as P, getCurrentInstance as cs, getCurrentScope as vc, onScopeDispose as gc, readonly as yc, shallowRef as _c, isRef as us, withDirectives as qt, renderList as te, vModelSelect as bc, withModifiers as kt, resolveDynamicComponent as Mn, vShow as dr, createStaticVNode as fs, Transition as qr, createTextVNode as Le, resolveDirective as wc } from "vue";
+import { pushScopeId as ic, popScopeId as ac, defineComponent as L, nextTick as Ln, openBlock as g, createBlock as ue, createElementBlock as b, normalizeClass as te, renderSlot as Ie, normalizeProps as sc, guardReactiveProps as lc, withScopeId as cc, resolveComponent as Oe, normalizeStyle as or, withKeys as uc, createElementVNode as h, Fragment as z, createCommentVNode as K, withCtx as he, createVNode as F, ref as A, createApp as fc, h as se, mergeProps as dc, toDisplayString as V, cloneVNode as pc, inject as me, provide as He, onMounted as le, watchEffect as ke, computed as I, watch as $e, onUnmounted as Ze, Teleport as hc, reactive as mc, unref as P, getCurrentInstance as cs, getCurrentScope as vc, onScopeDispose as gc, readonly as yc, shallowRef as _c, isRef as us, withDirectives as qt, renderList as ne, vModelSelect as bc, withModifiers as kt, resolveDynamicComponent as Mn, vShow as dr, createStaticVNode as fs, Transition as qr, createTextVNode as Le, resolveDirective as wc } from "vue";
 function Xe(e) {
   return e.split("-")[0];
 }
@@ -1608,7 +1608,7 @@ const uu = {
 function fu(e, t, n, r, o, i) {
   return g(), b("div", {
     ref: "reference",
-    class: ne(["v-popper", {
+    class: te(["v-popper", {
       "v-popper--shown": e.slotData.isShown
     }])
   }, [
@@ -1737,7 +1737,7 @@ function xu(e, t, n, r, o, i) {
   return g(), b("div", {
     id: e.popperId,
     ref: "popover",
-    class: ne(["v-popper__popper", [
+    class: te(["v-popper__popper", [
       e.themeClass,
       e.classes.popperClass,
       {
@@ -1844,7 +1844,7 @@ function ku(e, t, n, r, o, i) {
     theme: e.finalTheme,
     "target-nodes": e.getTargetNodes,
     "popper-node": () => e.$refs.popperContent.$el,
-    class: ne([
+    class: te([
       e.themeClass
     ])
   }, {
@@ -2001,7 +2001,7 @@ function Tu(e, t, n, r, o, i) {
     }) => [
       F(a, {
         ref: "popperContent",
-        class: ne({
+        class: te({
           "v-popper--tooltip-loading": e.loading
         }),
         "popper-id": l,
@@ -3420,27 +3420,27 @@ const It = yd(), $d = /* @__PURE__ */ h("span", { class: "sr-only" }, "Toggle Da
           F(P(kf), {
             modelValue: P(It),
             "onUpdate:modelValue": n[0] || (n[0] = (o) => us(It) ? It.value = o : null),
-            class: ne([
+            class: te([
               "relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-white/20 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2  focus:ring-offset-2 focus:ring-offset-transparent dark:bg-white/10"
             ])
           }, {
             default: he(() => [
               $d,
               h("span", {
-                class: ne([
+                class: te([
                   P(It) ? "translate-x-5" : "translate-x-0",
                   "pointer-events-none relative inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out"
                 ])
               }, [
                 h("span", {
-                  class: ne([
+                  class: te([
                     P(It) ? "opacity-0 duration-100 ease-out" : "opacity-100 duration-200 ease-in",
                     "absolute inset-0 flex h-full w-full items-center justify-center transition-opacity"
                   ]),
                   "aria-hidden": "true"
                 }, Ed, 2),
                 h("span", {
-                  class: ne([
+                  class: te([
                     P(It) ? "opacity-100 duration-200 ease-in" : "opacity-0 duration-100 ease-out",
                     "absolute inset-0 flex h-full w-full items-center justify-center transition-opacity"
                   ]),
@@ -3499,7 +3499,7 @@ const Id = { class: "relative flex items-center" }, Dd = ["value"], Nd = /* @__P
               class: "form-select w-full rounded border border-slate-200 bg-slate-100 px-4 py-2 dark:border-white/20 dark:bg-white/10 dark:text-white",
               "onUpdate:modelValue": a[0] || (a[0] = (l) => us(o) ? o.value = l : null)
             }, [
-              (g(!0), b(z, null, te(P(r), (l) => (g(), b("option", {
+              (g(!0), b(z, null, ne(P(r), (l) => (g(), b("option", {
                 value: l.value
               }, V(l.name), 9, Dd))), 256))
             ], 512), [
@@ -3704,7 +3704,7 @@ const Gd = {
         e.item.link ? (g(), b("li", Jd, [
           h("a", {
             href: e.item.link,
-            class: ne([
+            class: te([
               "block rounded-md py-2 pr-2 pl-4 text-sm leading-6 hover:bg-gray-50 dark:hover:bg-white/10",
               P(Et)(
                 P(t).relativePath,
@@ -3715,7 +3715,7 @@ const Gd = {
           }, V(e.item.text), 11, Qd)
         ])) : (g(), b("li", Gd, V(e.item.text), 1)),
         (i = e.item.items) != null && i.length ? (g(), b("ul", Yd, [
-          (g(!0), b(z, null, te(e.item.items, (a) => (g(), ue(o, { item: a }, null, 8, ["item"]))), 256))
+          (g(!0), b(z, null, ne(e.item.items, (a) => (g(), ue(o, { item: a }, null, 8, ["item"]))), 256))
         ])) : K("", !0)
       ], 64));
     };
@@ -3784,7 +3784,7 @@ const Gd = {
                             h("div", op, [
                               h("div", ip, [
                                 h("ul", ap, [
-                                  (g(!0), b(z, null, te(P(r), (a) => (g(), ue(Zd, { item: a }, null, 8, ["item"]))), 256))
+                                  (g(!0), b(z, null, ne(P(r), (a) => (g(), ue(Zd, { item: a }, null, 8, ["item"]))), 256))
                                 ])
                               ])
                             ])
@@ -3907,7 +3907,7 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
           h("span", { innerHTML: P(i) }, null, 8, Tp),
           ((w = e.item) == null ? void 0 : w.collapsible) !== !1 ? (g(), ue(ar, {
             key: 0,
-            class: ne(["h-5 w-5 text-slate-400 group-hover:text-slate-800 dark:group-hover:text-cyan-300", {
+            class: te(["h-5 w-5 text-slate-400 group-hover:text-slate-800 dark:group-hover:text-cyan-300", {
               "rotate-90 transform": !c.value
             }])
           }, null, 8, ["class"])) : K("", !0)
@@ -3915,7 +3915,7 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
           key: 1,
           href: P(a),
           "data-current": P(l),
-          class: ne(["group -ml-0.5 flex items-center justify-between border-l-2 border-transparent text-sm font-medium", {
+          class: te(["group -ml-0.5 flex items-center justify-between border-l-2 border-transparent text-sm font-medium", {
             "border-blue-600 text-blue-600 dark:border-cyan-400 dark:text-cyan-400": P(l),
             "text-slate-600 hover:border-blue-600 hover:text-slate-900 dark:text-slate-400 dark:hover:border-cyan-400 dark:hover:text-slate-300": !P(l)
           }]),
@@ -3939,7 +3939,7 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
             class: "py-0.5 pl-2"
           }, [
             F(ar, {
-              class: ne(["h-5 w-5 text-slate-400 hover:text-slate-800 dark:hover:text-cyan-300", {
+              class: te(["h-5 w-5 text-slate-400 hover:text-slate-800 dark:hover:text-cyan-300", {
                 "rotate-90 transform": !c.value
               }])
             }, null, 8, ["class"])
@@ -3947,11 +3947,11 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
         ], 14, Ip)),
         P(s) ? qt((g(), b("ul", {
           key: 2,
-          class: ne({
+          class: te({
             "border-l-2 border-slate-200 dark:border-slate-800": e.depth === 0
           })
         }, [
-          (g(!0), b(z, null, te(P(s), (S) => (g(), ue(y, {
+          (g(!0), b(z, null, ne(P(s), (S) => (g(), ue(y, {
             item: S,
             depth: e.depth + 1
           }, null, 8, ["item", "depth"]))), 256))
@@ -3969,7 +3969,7 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
   setup(e) {
     const t = Fn();
     return (n, r) => P(t).length > 0 ? (g(), b("ul", Mp, [
-      (g(!0), b(z, null, te(P(t), (o) => (g(), ue(Lp, {
+      (g(!0), b(z, null, ne(P(t), (o) => (g(), ue(Lp, {
         key: o.text,
         item: o
       }, null, 8, ["item"]))), 128))
@@ -3990,10 +3990,10 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
       CpuChipIcon: Fd
     }, { theme: n, page: r } = De();
     return (o, i) => (g(), b("ul", Hp, [
-      (g(!0), b(z, null, te(P(n).nav, (a) => (g(), b("li", null, [
+      (g(!0), b(z, null, ne(P(n).nav, (a) => (g(), b("li", null, [
         h("a", {
           href: a.link,
-          class: ne([
+          class: te([
             "flex items-center",
             P(Et)(P(r).relativePath, a.activeMatch, !!a.activeMatch) ? "text-blue-600 dark:text-cyan-400" : "text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300"
           ])
@@ -8028,7 +8028,7 @@ const _h = /* @__PURE__ */ h("svg", {
               ])
             ]),
             h("div", Fh, [
-              (g(!0), b(z, null, te(e.nav, (i, a) => (g(), b("a", {
+              (g(!0), b(z, null, ne(e.nav, (i, a) => (g(), b("a", {
                 key: a,
                 href: i.link,
                 target: i.target,
@@ -8037,7 +8037,7 @@ const _h = /* @__PURE__ */ h("svg", {
               h("div", Vh, [
                 h("button", {
                   onClick: o[1] || (o[1] = kt((i) => n.value = !n.value, ["prevent"])),
-                  class: ne(["relative z-20 inline-flex items-center justify-center rounded-md p-2 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent", {
+                  class: te(["relative z-20 inline-flex items-center justify-center rounded-md p-2 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent", {
                     "bg-white text-gray-900": n.value,
                     "text-white hover:text-gray-900 dark:hover:text-slate-400": !n.value
                   }]),
@@ -8072,7 +8072,7 @@ const _h = /* @__PURE__ */ h("svg", {
                     n.value ? (g(), b("div", Gh, [
                       h("div", Jh, [
                         h("div", Qh, [
-                          (g(!0), b(z, null, te(e.flyoutNav, (i, a) => (g(), b("a", {
+                          (g(!0), b(z, null, ne(e.flyoutNav, (i, a) => (g(), b("a", {
                             key: a,
                             href: i.link,
                             target: i.target,
@@ -8122,7 +8122,7 @@ const _h = /* @__PURE__ */ h("svg", {
                 ]),
                 h("div", l2, [
                   h("div", c2, [
-                    (g(!0), b(z, null, te(e.nav, (i, a) => (g(), b("a", {
+                    (g(!0), b(z, null, ne(e.nav, (i, a) => (g(), b("a", {
                       key: a,
                       onClick: o[4] || (o[4] = (s) => t.value = !1),
                       href: i.link,
@@ -8130,7 +8130,7 @@ const _h = /* @__PURE__ */ h("svg", {
                       class: "block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
                     }, V(i.text), 9, u2))), 128)),
                     f2,
-                    (g(!0), b(z, null, te(e.flyoutNav, (i, a) => (g(), b("a", {
+                    (g(!0), b(z, null, ne(e.flyoutNav, (i, a) => (g(), b("a", {
                       key: a,
                       onClick: o[5] || (o[5] = (s) => t.value = !1),
                       href: i.link,
@@ -8232,7 +8232,7 @@ const _2 = /* @__PURE__ */ jt(h2, [["render", y2]]), b2 = {
             ])
           ])
         ]),
-        (g(!0), b(z, null, te(P(i), (l) => (g(), b("li", {
+        (g(!0), b(z, null, ne(P(i), (l) => (g(), b("li", {
           key: l.name
         }, [
           h("div", O2, [
@@ -8242,7 +8242,7 @@ const _2 = /* @__PURE__ */ jt(h2, [["render", y2]]), b2 = {
             }),
             (g(), ue(Mn(l.href ? "a" : "div"), {
               href: l.href,
-              class: ne(["ml-3 text-sm font-medium text-slate-500 dark:text-slate-400", {
+              class: te(["ml-3 text-sm font-medium text-slate-500 dark:text-slate-400", {
                 "hover:text-slate-700 dark:hover:text-cyan-300": l.href,
                 "font-semibold": l.current
               }]),
@@ -8270,7 +8270,7 @@ const _2 = /* @__PURE__ */ jt(h2, [["render", y2]]), b2 = {
       return P(n).length ? (g(), b("div", $2, [
         P2,
         h("div", E2, [
-          (g(!0), b(z, null, te(P(n), (a) => qt((g(), b("a", {
+          (g(!0), b(z, null, ne(P(n), (a) => qt((g(), b("a", {
             href: a.profileURL,
             target: "_blank"
           }, [
@@ -8621,21 +8621,21 @@ const Yl = /* @__PURE__ */ L2(M2), R2 = /* @__PURE__ */ h("div", { class: "text-
             class: "block py-1 font-medium opacity-50 transition-opacity hover:text-slate-900 hover:opacity-100 dark:hover:text-slate-300"
           }, " ↑ Top ", 8, B2)
         ]),
-        (g(!0), b(z, null, te(P(n), (p) => (g(), b("li", null, [
+        (g(!0), b(z, null, ne(P(n), (p) => (g(), b("li", null, [
           h("a", {
             href: p.link,
             onClick: l,
-            class: ne([
+            class: te([
               "block py-1 font-medium",
               s(p) ? "text-blue-500 dark:text-cyan-400" : "hover:text-slate-900 dark:hover:text-slate-300"
             ])
           }, V(p.title), 11, F2),
           p.children ? (g(), b("ol", z2, [
-            (g(!0), b(z, null, te(p.children, (v) => (g(), b("li", V2, [
+            (g(!0), b(z, null, ne(p.children, (v) => (g(), b("li", V2, [
               h("a", {
                 href: v.link,
                 onClick: l,
-                class: ne(["group flex items-start py-1", P(u)(v)])
+                class: te(["group flex items-start py-1", P(u)(v)])
               }, [
                 q2,
                 h("span", W2, V(v.title), 1)
@@ -8797,7 +8797,7 @@ const um = {
               Tm,
               Im,
               h("ul", null, [
-                (g(!0), b(z, null, te(n.value, (i) => (g(), b("li", { key: i }, [
+                (g(!0), b(z, null, ne(n.value, (i) => (g(), b("li", { key: i }, [
                   h("a", {
                     href: i,
                     target: "_blank"
@@ -8889,9 +8889,9 @@ const Wm = { class: "mt-10 mb-16" }, Km = { class: "border-b border-gray-200 dar
     return (l, u) => (g(), b("div", Wm, [
       h("div", Km, [
         h("div", Gm, [
-          (g(!0), b(z, null, te(r.value, (c) => (g(), b("button", {
+          (g(!0), b(z, null, ne(r.value, (c) => (g(), b("button", {
             key: c.index,
-            class: ne(["whitespace-nowrap border-b-2 px-4 py-3 text-sm font-medium uppercase focus:outline-none", {
+            class: te(["whitespace-nowrap border-b-2 px-4 py-3 text-sm font-medium uppercase focus:outline-none", {
               "border-ns-blue text-ns-blue focus:border-ns-blue dark:border-cyan-300 dark:text-cyan-300 dark:focus:border-cyan-300": o.value === c,
               "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 focus:border-gray-300 dark:text-white/90": o.value !== c
             }]),
@@ -8927,9 +8927,9 @@ const Wm = { class: "mt-10 mb-16" }, Km = { class: "border-b border-gray-200 dar
     }), (i, a) => (g(), b("div", Ym, [
       h("div", Zm, [
         h("div", Xm, [
-          (g(!0), b(z, null, te(r.value, (s) => (g(), b("button", {
+          (g(!0), b(z, null, ne(r.value, (s) => (g(), b("button", {
             key: s.index,
-            class: ne(["whitespace-nowrap border-b px-6 py-3 text-sm font-medium focus:outline-none", {
+            class: te(["whitespace-nowrap border-b px-6 py-3 text-sm font-medium focus:outline-none", {
               "border-cyan-300 text-cyan-200 focus:border-cyan-300": t.value === s.index,
               "border-transparent text-gray-300 hover:border-gray-300 hover:text-gray-100 focus:border-gray-300": t.value !== s.index
             }]),
@@ -8967,7 +8967,7 @@ const nv = { class: "flex flex-col" }, rv = {
   },
   setup(e) {
     return (t, n) => (g(), b("div", {
-      class: ne(["device not-prose mr-6 inline-flex rounded-[36px] p-4 ring-1 ring-ns-blue dark:ring-cyan-700", {
+      class: te(["device not-prose mr-6 inline-flex rounded-[36px] p-4 ring-1 ring-ns-blue dark:ring-cyan-700", {
         "rounded-[36px]": e.type === "ios",
         "rounded-[16px]": e.type === "android"
       }])
@@ -8975,7 +8975,7 @@ const nv = { class: "flex flex-col" }, rv = {
       h("div", nv, [
         e.type === "ios" ? (g(), b("div", rv, av)) : e.type === "android" ? (g(), b("div", sv, cv)) : K("", !0),
         h("div", {
-          class: ne(["relative mt-4 overflow-hidden ring-1 ring-ns-blue dark:ring-cyan-700", {
+          class: te(["relative mt-4 overflow-hidden ring-1 ring-ns-blue dark:ring-cyan-700", {
             "rounded-b-[20px]": e.type === "ios",
             "rounded-b-[4px]": e.type === "android"
           }])
@@ -9148,7 +9148,7 @@ const xv = { class: "not-prose -mx-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:gr
       }
     ];
     return (n, r) => (g(), b("div", xv, [
-      (g(), b(z, null, te(t, (o) => h("a", {
+      (g(), b(z, null, ne(t, (o) => h("a", {
         href: o.link,
         target: "blank",
         class: "flex items-center rounded-md px-4 py-2 hover:bg-black/5 dark:hover:bg-white/5"
@@ -9198,8 +9198,8 @@ const Tv = /* @__PURE__ */ jt(jv, [["render", Av]]), Iv = /* @__PURE__ */ L({
         class: "bg-lime-100 text-lime-800"
       }
     }, r = I(() => Object.keys(t.flags).map((o) => n[o]).filter(Boolean));
-    return (o, i) => (g(!0), b(z, null, te(P(r), (a) => (g(), b("span", {
-      class: ne(["inline-flex items-center rounded-md px-2.5 py-0.5 text-sm font-medium", a.class])
+    return (o, i) => (g(!0), b(z, null, ne(P(r), (a) => (g(), b("span", {
+      class: te(["inline-flex items-center rounded-md px-2.5 py-0.5 text-sm font-medium", a.class])
     }, V(a.text), 3))), 256));
   }
 }), Dv = { class: "flex items-baseline" }, Nv = {
@@ -9260,8 +9260,8 @@ const Tv = /* @__PURE__ */ jt(jv, [["render", Av]]), Iv = /* @__PURE__ */ L({
           ])) : K("", !0)
         ]),
         h("div", Lv, [
-          (g(!0), b(z, null, te((d = P(r)) == null ? void 0 : d.signatures, (p) => {
-            var v, y;
+          (g(!0), b(z, null, ne((d = P(r)) == null ? void 0 : d.signatures, (p) => {
+            var v, y, _, w;
             return g(), b("div", Mv, [
               h("div", Rv, [
                 p.url ? (g(), b("a", {
@@ -9273,8 +9273,10 @@ const Tv = /* @__PURE__ */ jt(jv, [["render", Av]]), Iv = /* @__PURE__ */ L({
                 p.code ? (g(), b("pre", {
                   key: 1,
                   innerHTML: p.code,
-                  class: "mt-4 mb-0 [&_a]:text-blue-400 [&_a]:no-underline"
-                }, null, 8, Bv)) : K("", !0),
+                  class: te(["mt-4 mb-0 [&_a]:text-blue-400 [&_a]:no-underline", {
+                    "rounded-b-none": ((y = (v = P(r)) == null ? void 0 : v.signatures) == null ? void 0 : y.length) > 1
+                  }])
+                }, null, 10, Bv)) : K("", !0),
                 p.target ? (g(), b("pre", Fv, [
                   Le(`          Alias for
           `),
@@ -9289,8 +9291,8 @@ const Tv = /* @__PURE__ */ jt(jv, [["render", Av]]), Iv = /* @__PURE__ */ L({
                 ])) : K("", !0)
               ]),
               h("div", {
-                class: ne(["pt-2", {
-                  "rouded-b-md bg-slate-50 px-4 pb-4": ((y = (v = P(r)) == null ? void 0 : v.signatures) == null ? void 0 : y.length) > 1
+                class: te(["pt-2", {
+                  "rounded-b-md border border-t-0 px-4 pb-4 dark:border-slate-800": ((w = (_ = P(r)) == null ? void 0 : _.signatures) == null ? void 0 : w.length) > 1
                 }])
               }, [
                 h("div", Vv, [
@@ -9300,12 +9302,12 @@ const Tv = /* @__PURE__ */ jt(jv, [["render", Av]]), Iv = /* @__PURE__ */ L({
                       href: p.inheritedFrom.url
                     }, V(p.inheritedFrom.name), 9, qv)
                   ])) : K("", !0),
-                  (g(!0), b(z, null, te(p.sources, (_) => (g(), b("div", null, [
+                  (g(!0), b(z, null, ne(p.sources, (S) => (g(), b("div", null, [
                     Le(" defined in "),
                     h("a", {
-                      href: i(_),
+                      href: i(S),
                       target: "_blank"
-                    }, V(o(_)), 9, Wv)
+                    }, V(o(S)), 9, Wv)
                   ]))), 256))
                 ]),
                 F(u, {
@@ -9366,8 +9368,8 @@ const Tv = /* @__PURE__ */ jt(jv, [["render", Av]]), Iv = /* @__PURE__ */ L({
     return (o, i) => {
       var a;
       return P(n) ? (g(), b("div", Zv, [
-        (g(!0), b(z, null, te((a = P(n)) == null ? void 0 : a.summary, (s) => (g(), ue(Mn(r[s.kind].tag), {
-          class: ne(r[s.kind].class),
+        (g(!0), b(z, null, ne((a = P(n)) == null ? void 0 : a.summary, (s) => (g(), ue(Mn(r[s.kind].tag), {
+          class: te(r[s.kind].class),
           innerHTML: s.text
         }, null, 8, ["class", "innerHTML"]))), 256))
       ])) : K("", !0);
@@ -9523,7 +9525,7 @@ const p4 = { class: "flex items-start" }, h4 = { class: "columns-1 gap-8 sm:colu
       const i = Oe("APIRefHierarchyItem", !0);
       return P(n) ? (g(), b("div", {
         key: 0,
-        class: ne({ "pl-4": !e.root })
+        class: te({ "pl-4": !e.root })
       }, [
         h("div", p4, [
           e.root ? K("", !0) : (g(), ue(P(Md), {
@@ -9531,7 +9533,7 @@ const p4 = { class: "flex items-start" }, h4 = { class: "columns-1 gap-8 sm:colu
             class: "mt-0.5 mr-2 h-5 w-5 rotate-180 transform"
           })),
           h("div", h4, [
-            (g(!0), b(z, null, te(P(n), (a) => (g(), b(z, null, [
+            (g(!0), b(z, null, ne(P(n), (a) => (g(), b(z, null, [
               a.link ? (g(), b("a", {
                 key: 0,
                 href: a.link,
@@ -9588,7 +9590,7 @@ const p4 = { class: "flex items-start" }, h4 = { class: "columns-1 gap-8 sm:colu
               h("table", O4, [
                 h("tbody", k4, [
                   $4,
-                  (g(!0), b(z, null, te(e.parameters, (i) => (g(), b("tr", P4, [
+                  (g(!0), b(z, null, ne(e.parameters, (i) => (g(), b("tr", P4, [
                     h("td", E4, [
                       h("code", {
                         innerHTML: i.name
@@ -9667,6 +9669,8 @@ const R4 = { key: 0 }, H4 = { key: 0 }, B4 = ["id"], F4 = { class: "columns-1 ga
         return p || (p = "&laquo;External&raquo;"), f[p] ?? (f[p] = {
           name: p,
           url: d.inheritedFrom.fromUrl,
+          // explore this later, get the url from the hierarchy
+          // ?? data?.hierarchy?.flat().find((item) => item.text === group)?.link,
           items: []
         }), f[p].items.push(d), f;
       }, {})
@@ -9685,13 +9689,13 @@ const R4 = { key: 0 }, H4 = { key: 0 }, B4 = ["id"], F4 = { class: "columns-1 ga
     }
     const u = I(() => (c) => s.value.has(c));
     return (c, f) => P(t) ? (g(), b("div", R4, [
-      (g(!0), b(z, null, te(P(t).summary, (d) => (g(), b(z, null, [
+      (g(!0), b(z, null, ne(P(t).summary, (d) => (g(), b(z, null, [
         P(r)(d).length ? (g(), b("div", H4, [
           h("h4", {
             id: "summary-" + d.title
           }, V(d.title), 9, B4),
           h("dl", F4, [
-            (g(!0), b(z, null, te(P(r)(d), (p) => (g(), b("dd", null, [
+            (g(!0), b(z, null, ne(P(r)(d), (p) => (g(), b("dd", null, [
               h("a", {
                 href: p.url,
                 class: "flex items-center text-blue-500 no-underline hover:text-blue-600 dark:text-cyan-400 dark:hover:text-cyan-600"
@@ -9705,13 +9709,13 @@ const R4 = { key: 0 }, H4 = { key: 0 }, B4 = ["id"], F4 = { class: "columns-1 ga
             ]))), 256))
           ]),
           qt(h("div", U4, [
-            (g(!0), b(z, null, te(P(o)(d), (p) => (g(), b("div", null, [
+            (g(!0), b(z, null, ne(P(o)(d), (p) => (g(), b("div", null, [
               h("div", {
                 onClick: kt((v) => l(`${d.title}-${p.name}`), ["prevent"]),
                 class: "flex cursor-pointer items-center border-b px-4 py-2 text-slate-700 dark:text-slate-400"
               }, [
                 F(P(M4), {
-                  class: ne(["h-4 w-4", {
+                  class: te(["h-4 w-4", {
                     "rotate-90": P(u)(`${d.title}-${p.name}`)
                   }])
                 }, null, 8, ["class"]),
@@ -9729,7 +9733,7 @@ const R4 = { key: 0 }, H4 = { key: 0 }, B4 = ["id"], F4 = { class: "columns-1 ga
                 h("div", J4, V(P(u)(`${d.title}-${p.name}`) ? "Click to collapse" : "Click to expand"), 1)
               ], 8, q4),
               qt(h("dl", Q4, [
-                (g(!0), b(z, null, te(p.items, (v) => (g(), b("dd", null, [
+                (g(!0), b(z, null, ne(p.items, (v) => (g(), b("dd", null, [
                   h("a", {
                     href: P(i)(v),
                     class: "flex items-center text-blue-500 no-underline hover:text-blue-600 dark:text-cyan-400 dark:hover:text-cyan-600"
