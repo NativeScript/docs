@@ -1,7 +1,7 @@
 ---
 title: API Index
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
 layout: api
@@ -357,7 +357,7 @@ seo:
 
 <template #title>
 
-### _resetRootView
+### \_resetRootView
 
 </template>
 
@@ -2025,7 +2025,7 @@ seo:
 
 <template #title>
 
-### _setResolver
+### \_setResolver
 
 </template>
 
