@@ -18,7 +18,7 @@ The "frontend" code can be authored in various frameworks often referred to as _
 
 ::: tip There's more!
 
-These are the officially supported frontend flavors, however given how NativeScript is built, new flavors can be implemented on top of it. A great example is a few community projects that bring support for various other flavors: [SolidJS](https://github.com/nativescript-community/solid-js), [rEFui](https://github.com/SudoMaker/rEFui#native).
+These are the officially supported frontend flavors, however given how NativeScript is built, new flavors can be implemented on top of it. A great example is a few community projects that bring support for various other flavors: [SolidJS](https://github.com/nativescript-community/solid-js), [rEFui](https://github.com/SudoMaker/rEFui#native), and [more with DOMiNATIVE](https://github.com/SudoMaker/dominative).
 
 :::
 
