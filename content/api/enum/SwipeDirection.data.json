@@ -5,15 +5,15 @@
     {
       "title": "Enumeration Members",
       "items": [
-        11111,
-        11109,
-        11108,
-        11110
+        14025,
+        14023,
+        14022,
+        14024
       ]
     }
   ],
   "reflections": {
-    "11108": {
+    "14022": {
       "name": "right",
       "type": "EnumMember",
       "url": "/api/enum/SwipeDirection#right",
@@ -48,7 +48,7 @@
         }
       ]
     },
-    "11109": {
+    "14023": {
       "name": "left",
       "type": "EnumMember",
       "url": "/api/enum/SwipeDirection#left",
@@ -83,7 +83,7 @@
         }
       ]
     },
-    "11110": {
+    "14024": {
       "name": "up",
       "type": "EnumMember",
       "url": "/api/enum/SwipeDirection#up",
@@ -118,7 +118,7 @@
         }
       ]
     },
-    "11111": {
+    "14025": {
       "name": "down",
       "type": "EnumMember",
       "url": "/api/enum/SwipeDirection#down",

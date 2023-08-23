@@ -1,0 +1,1793 @@
+{
+  "title": "ApplicationCommon",
+  "hierarchy": [
+    [
+      {
+        "text": "ApplicationCommon"
+      }
+    ],
+    [
+      {
+        "text": "AndroidApplication",
+        "link": "/api/class/AndroidApplication"
+      },
+      {
+        "text": "iOSApplication",
+        "link": "/api/class/iOSApplication"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        4640,
+        4315,
+        4327,
+        4321,
+        4314,
+        4318,
+        4324,
+        4316,
+        4553,
+        4306,
+        4312,
+        4325,
+        4326,
+        4319,
+        4577,
+        4548,
+        4301,
+        4542,
+        4295,
+        4328,
+        4081,
+        4435,
+        4188,
+        4322,
+        4317,
+        4662,
+        4313,
+        4323,
+        4320
+      ]
+    },
+    {
+      "title": "Accessors",
+      "items": [
+        4663,
+        4667,
+        4649,
+        4665,
+        4669,
+        4656
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        4609,
+        4561,
+        4583,
+        4605,
+        4578,
+        4628,
+        4617,
+        4596,
+        4588,
+        4633,
+        4630,
+        4593,
+        4607,
+        4580,
+        4622,
+        4624,
+        4590,
+        4613,
+        4641,
+        4602,
+        4651,
+        4570,
+        4619,
+        4598,
+        4658,
+        4635,
+        4638,
+        4644
+      ]
+    }
+  ],
+  "reflections": {
+    "4081": {
+      "name": "on",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#on-1",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "on: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 88,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#on-1"
+        }
+      ]
+    },
+    "4188": {
+      "name": "once",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#once-1",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "once: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 92,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#once-1"
+        }
+      ]
+    },
+    "4295": {
+      "name": "off",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#off-1",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "off: (eventNames: string, callback?: any, thisArg?: any) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 96,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#off-1"
+        }
+      ]
+    },
+    "4301": {
+      "name": "notify",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#notify-1",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "notify: (eventData: T) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 100,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#notify-1"
+        }
+      ]
+    },
+    "4306": {
+      "name": "hasListeners",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#haslisteners-1",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "hasListeners: (eventName: string) => boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 104,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#haslisteners-1"
+        }
+      ]
+    },
+    "4312": {
+      "name": "launchEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#launchevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "launchEvent: \"launch\" = \"launch\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 69,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#launchevent"
+        }
+      ]
+    },
+    "4313": {
+      "name": "suspendEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#suspendevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "suspendEvent: \"suspend\" = \"suspend\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 70,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#suspendevent"
+        }
+      ]
+    },
+    "4314": {
+      "name": "displayedEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#displayedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "displayedEvent: \"displayed\" = \"displayed\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 71,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#displayedevent"
+        }
+      ]
+    },
+    "4315": {
+      "name": "backgroundEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#backgroundevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "backgroundEvent: \"background\" = \"background\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 72,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#backgroundevent"
+        }
+      ]
+    },
+    "4316": {
+      "name": "foregroundEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#foregroundevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "foregroundEvent: \"foreground\" = \"foreground\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 73,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#foregroundevent"
+        }
+      ]
+    },
+    "4317": {
+      "name": "resumeEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#resumeevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "resumeEvent: \"resume\" = \"resume\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 74,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#resumeevent"
+        }
+      ]
+    },
+    "4318": {
+      "name": "exitEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#exitevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "exitEvent: \"exit\" = \"exit\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 75,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#exitevent"
+        }
+      ]
+    },
+    "4319": {
+      "name": "lowMemoryEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#lowmemoryevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "lowMemoryEvent: \"lowMemory\" = \"lowMemory\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 76,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#lowmemoryevent"
+        }
+      ]
+    },
+    "4320": {
+      "name": "uncaughtErrorEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#uncaughterrorevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "uncaughtErrorEvent: \"uncaughtError\" = \"uncaughtError\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 77,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#uncaughterrorevent"
+        }
+      ]
+    },
+    "4321": {
+      "name": "discardedErrorEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#discardederrorevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "discardedErrorEvent: \"discardedError\" = \"discardedError\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 78,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#discardederrorevent"
+        }
+      ]
+    },
+    "4322": {
+      "name": "orientationChangedEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#orientationchangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "orientationChangedEvent: \"orientationChanged\" = \"orientationChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 79,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#orientationchangedevent"
+        }
+      ]
+    },
+    "4323": {
+      "name": "systemAppearanceChangedEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#systemappearancechangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "systemAppearanceChangedEvent: \"systemAppearanceChanged\" = \"systemAppearanceChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 80,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#systemappearancechangedevent"
+        }
+      ]
+    },
+    "4324": {
+      "name": "fontScaleChangedEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#fontscalechangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "fontScaleChangedEvent: \"fontScaleChanged\" = \"fontScaleChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 81,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#fontscalechangedevent"
+        }
+      ]
+    },
+    "4325": {
+      "name": "livesyncEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#livesyncevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "livesyncEvent: \"livesync\" = \"livesync\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 82,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#livesyncevent"
+        }
+      ]
+    },
+    "4326": {
+      "name": "loadAppCssEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#loadappcssevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "loadAppCssEvent: \"loadAppCss\" = \"loadAppCss\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 83,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#loadappcssevent"
+        }
+      ]
+    },
+    "4327": {
+      "name": "cssChangedEvent",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#csschangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "cssChangedEvent: \"cssChanged\" = \"cssChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 84,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#csschangedevent"
+        }
+      ]
+    },
+    "4328": {
+      "name": "on",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#on",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "on: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 105,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#on"
+        }
+      ]
+    },
+    "4435": {
+      "name": "once",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#once",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "once: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#once"
+        }
+      ]
+    },
+    "4542": {
+      "name": "off",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#off",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "off: (eventNames: string, callback?: any, thisArg?: any) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 107,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#off"
+        }
+      ]
+    },
+    "4548": {
+      "name": "notify",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#notify",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "notify: (eventData: T) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 108,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#notify"
+        }
+      ]
+    },
+    "4553": {
+      "name": "hasListeners",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#haslisteners",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "hasListeners: (eventName: string) => boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 109,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#haslisteners"
+        }
+      ]
+    },
+    "4561": {
+      "name": "applyCssClass",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#applycssclass",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "applyCssClass(rootView: <a href=\"/api/class/View\">View</a>, cssClasses: string[], newCssClass: string): void",
+          "url": "/api/class/ApplicationCommon#applycssclass-applycssclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Applies the the "
+              },
+              {
+                "kind": "code",
+                "text": "`newCssClass`"
+              },
+              {
+                "kind": "text",
+                "text": " to the "
+              },
+              {
+                "kind": "code",
+                "text": "`rootView`"
+              },
+              {
+                "kind": "text",
+                "text": " and removes all other css classes from "
+              },
+              {
+                "kind": "code",
+                "text": "`cssClasses`"
+              },
+              {
+                "kind": "text",
+                "text": "\npreviously applied to the "
+              },
+              {
+                "kind": "code",
+                "text": "`rootView`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": []
+              }
+            },
+            {
+              "name": "cssClasses",
+              "type": "string[]",
+              "flags": {},
+              "comment": {
+                "summary": []
+              }
+            },
+            {
+              "name": "newCssClass",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": []
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4570": {
+      "name": "setMaxRefreshRate",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setmaxrefreshrate",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setMaxRefreshRate(options?: { max?: number; min?: number }): void",
+          "url": "/api/class/ApplicationCommon#setmaxrefreshrate-setmaxrefreshrate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 143,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "iOS Only\nDynamically change the preferred frame rate\nFor devices (iOS 15+) which support min/max/preferred frame rate you can specify ranges\nFor devices (iOS < 15), you can specify the max frame rate\nsee: https://developer.apple.com/documentation/quartzcore/optimizing_promotion_refresh_rates_for_iphone_13_pro_and_ipad_pro\nTo use, ensure your Info.plist has:\n"
+              },
+              {
+                "kind": "code",
+                "text": "```xml\n  <key>CADisableMinimumFrameDurationOnPhone</key>\n  <true/>\n```"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "{\n  max?: number\n  min?: number\n}",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "{ min?: number; max?: number; preferred?: number }"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4577": {
+      "name": "mainEntry",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#mainentry",
+      "flags": {
+        "isProtected": true
+      },
+      "signatures": [
+        {
+          "code": "mainEntry: NavigationEntry",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 148,
+              "character": 14
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#mainentry"
+        }
+      ]
+    },
+    "4578": {
+      "name": "getMainEntry",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#getmainentry",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getMainEntry(): NavigationEntry",
+          "url": "/api/class/ApplicationCommon#getmainentry-getmainentry-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 152,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "The main entry of the application"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "NavigationEntry"
+        }
+      ]
+    },
+    "4580": {
+      "name": "notifyLaunch",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#notifylaunch",
+      "flags": {
+        "isProtected": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "notifyLaunch(additionalLanchEventData?: any): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/ApplicationCommon#notifylaunch-notifylaunch-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 153,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "additionalLanchEventData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "4583": {
+      "name": "createRootView",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#createrootview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "createRootView(view?: <a href=\"/api/class/View\">View</a>, fireLaunchEvent?: boolean, additionalLanchEventData?: any): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/ApplicationCommon#createrootview-createrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "fireLaunchEvent",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "additionalLanchEventData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "4588": {
+      "name": "getRootView",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#getrootview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getRootView(): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/ApplicationCommon#getrootview-getrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "4590": {
+      "name": "resetRootView",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#resetrootview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "resetRootView(entry?: string | NavigationEntry): void",
+          "url": "/api/class/ApplicationCommon#resetrootview-resetrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 156,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "entry",
+              "type": "string | NavigationEntry",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4593": {
+      "name": "initRootView",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#initrootview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "initRootView(rootView: <a href=\"/api/class/View\">View</a>): void",
+          "url": "/api/class/ApplicationCommon#initrootview-initrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 157,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4596": {
+      "name": "getResources",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#getresources",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getResources(): any",
+          "url": "/api/class/ApplicationCommon#getresources-getresources-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 161,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get application level static resources."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "4598": {
+      "name": "setResources",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setresources",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setResources(res: any): void",
+          "url": "/api/class/ApplicationCommon#setresources-setresources-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 165,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set application level static resources."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "res",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4602": {
+      "name": "setCssFileName",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setcssfilename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setCssFileName(cssFileName: string): void",
+          "url": "/api/class/ApplicationCommon#setcssfilename-setcssfilename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 170,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Sets css file name for the application."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "cssFileName",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4605": {
+      "name": "getCssFileName",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#getcssfilename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getCssFileName(): string",
+          "url": "/api/class/ApplicationCommon#getcssfilename-getcssfilename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 174,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets css file name for the application."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "4607": {
+      "name": "loadAppCss",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#loadappcss",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "loadAppCss(): void",
+          "url": "/api/class/ApplicationCommon#loadappcss-loadappcss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 181,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Loads immediately the app.css.\nBy default the app.css file is loaded shortly after \"loaded\".\nFor the Android snapshot the CSS can be parsed during the snapshot generation,\nas the CSS does not depend on runtime APIs, and loadAppCss will be called explicitly."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "4609": {
+      "name": "addCss",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#addcss",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addCss(cssText: string, attributeScoped?: boolean): void",
+          "url": "/api/class/ApplicationCommon#addcss-addcss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 182,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "cssText",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "attributeScoped",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4613": {
+      "name": "run",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#run",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "run(entry?: string | NavigationEntry): void",
+          "url": "/api/class/ApplicationCommon#run-run-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 183,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "entry",
+              "type": "string | NavigationEntry",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4617": {
+      "name": "getOrientation",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#getorientation",
+      "flags": {
+        "isProtected": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getOrientation(): \"portrait\" | \"landscape\" | \"unknown\"",
+          "url": "/api/class/ApplicationCommon#getorientation-getorientation-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 185,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "\"portrait\" | \"landscape\" | \"unknown\""
+        }
+      ]
+    },
+    "4619": {
+      "name": "setOrientation",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setorientation",
+      "flags": {
+        "isProtected": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setOrientation(value: \"portrait\" | \"landscape\" | \"unknown\"): void",
+          "url": "/api/class/ApplicationCommon#setorientation-setorientation-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 186,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "\"portrait\" | \"landscape\" | \"unknown\"",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4622": {
+      "name": "orientation",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#orientation",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "orientation(): \"portrait\" | \"landscape\" | \"unknown\"",
+          "url": "/api/class/ApplicationCommon#orientation-orientation-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 187,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "\"portrait\" | \"landscape\" | \"unknown\""
+        }
+      ]
+    },
+    "4624": {
+      "name": "orientationChanged",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#orientationchanged",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "orientationChanged(rootView: <a href=\"/api/class/View\">View</a>, newOrientation: \"portrait\" | \"landscape\" | \"unknown\"): void",
+          "url": "/api/class/ApplicationCommon#orientationchanged-orientationchanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 188,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            },
+            {
+              "name": "newOrientation",
+              "type": "\"portrait\" | \"landscape\" | \"unknown\"",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4628": {
+      "name": "getNativeApplication",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#getnativeapplication",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getNativeApplication(): any",
+          "url": "/api/class/ApplicationCommon#getnativeapplication-getnativeapplication-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 189,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "4630": {
+      "name": "hasLaunched",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#haslaunched",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasLaunched(): boolean",
+          "url": "/api/class/ApplicationCommon#haslaunched-haslaunched-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 190,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "4633": {
+      "name": "getSystemAppearance",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#getsystemappearance",
+      "flags": {
+        "isProtected": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getSystemAppearance(): \"dark\" | \"light\"",
+          "url": "/api/class/ApplicationCommon#getsystemappearance-getsystemappearance-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 192,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "\"dark\" | \"light\""
+        }
+      ]
+    },
+    "4635": {
+      "name": "setSystemAppearance",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setsystemappearance",
+      "flags": {
+        "isProtected": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setSystemAppearance(value: \"dark\" | \"light\"): void",
+          "url": "/api/class/ApplicationCommon#setsystemappearance-setsystemappearance-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 193,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "\"dark\" | \"light\"",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4638": {
+      "name": "systemAppearance",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#systemappearance",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "systemAppearance(): \"dark\" | \"light\"",
+          "url": "/api/class/ApplicationCommon#systemappearance-systemappearance-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 194,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "\"dark\" | \"light\""
+        }
+      ]
+    },
+    "4640": {
+      "name": "autoSystemAppearanceChanged",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#autosystemappearancechanged",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Boolean to enable/disable systemAppearanceChanged"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "autoSystemAppearanceChanged: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 198,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Boolean to enable/disable systemAppearanceChanged"
+              }
+            ]
+          },
+          "url": "/api/class/ApplicationCommon#autosystemappearancechanged"
+        }
+      ]
+    },
+    "4641": {
+      "name": "setAutoSystemAppearanceChanged",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setautosystemappearancechanged",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setAutoSystemAppearanceChanged(value: boolean): void",
+          "url": "/api/class/ApplicationCommon#setautosystemappearancechanged-setautosystemappearancechanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 202,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "enable/disable systemAppearanceChanged"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "boolean",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4644": {
+      "name": "systemAppearanceChanged",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#systemappearancechanged",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "systemAppearanceChanged(rootView: <a href=\"/api/class/View\">View</a>, newSystemAppearance: \"dark\" | \"light\"): void",
+          "url": "/api/class/ApplicationCommon#systemappearancechanged-systemappearancechanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 208,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates root view classes including those of modals"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the root view"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "newSystemAppearance",
+              "type": "\"dark\" | \"light\"",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the new appearance change"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4649": {
+      "name": "inBackground",
+      "type": "Accessor",
+      "url": "/api/class/ApplicationCommon#inbackground",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get inBackground(): boolean",
+          "url": "/api/class/ApplicationCommon#inbackground-inbackground-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 210,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "4651": {
+      "name": "setInBackground",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setinbackground",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setInBackground(value: boolean, additonalData?: any): void",
+          "url": "/api/class/ApplicationCommon#setinbackground-setinbackground-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 211,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "boolean",
+              "flags": {}
+            },
+            {
+              "name": "additonalData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4656": {
+      "name": "suspended",
+      "type": "Accessor",
+      "url": "/api/class/ApplicationCommon#suspended",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get suspended(): boolean",
+          "url": "/api/class/ApplicationCommon#suspended-suspended-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 213,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "4658": {
+      "name": "setSuspended",
+      "type": "Method",
+      "url": "/api/class/ApplicationCommon#setsuspended",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setSuspended(value: boolean, additonalData?: any): void",
+          "url": "/api/class/ApplicationCommon#setsuspended-setsuspended-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 214,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "boolean",
+              "flags": {}
+            },
+            {
+              "name": "additonalData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4662": {
+      "name": "started",
+      "type": "Property",
+      "url": "/api/class/ApplicationCommon#started",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "started: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 215,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/ApplicationCommon#started"
+        }
+      ]
+    },
+    "4663": {
+      "name": "android",
+      "type": "Accessor",
+      "url": "/api/class/ApplicationCommon#android",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get android(): <a href=\"/api/class/AndroidApplication\">AndroidApplication</a>",
+          "url": "/api/class/ApplicationCommon#android-android-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 216,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/AndroidApplication\">AndroidApplication</a>"
+        }
+      ]
+    },
+    "4665": {
+      "name": "ios",
+      "type": "Accessor",
+      "url": "/api/class/ApplicationCommon#ios",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get ios(): <a href=\"/api/class/iOSApplication\">iOSApplication</a>",
+          "url": "/api/class/ApplicationCommon#ios-ios-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 217,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/iOSApplication\">iOSApplication</a>"
+        }
+      ]
+    },
+    "4667": {
+      "name": "AndroidApplication",
+      "type": "Accessor",
+      "url": "/api/class/ApplicationCommon#androidapplication",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get AndroidApplication(): <a href=\"/api/class/AndroidApplication\">AndroidApplication</a>",
+          "url": "/api/class/ApplicationCommon#androidapplication-androidapplication-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 218,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/AndroidApplication\">AndroidApplication</a>"
+        }
+      ]
+    },
+    "4669": {
+      "name": "iOSApplication",
+      "type": "Accessor",
+      "url": "/api/class/ApplicationCommon#iosapplication",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get iOSApplication(): <a href=\"/api/class/iOSApplication\">iOSApplication</a>",
+          "url": "/api/class/ApplicationCommon#iosapplication-iosapplication-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 219,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/iOSApplication\">iOSApplication</a>"
+        }
+      ]
+    }
+  }
+}

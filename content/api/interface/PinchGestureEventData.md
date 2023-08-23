@@ -1,6 +1,13 @@
 ---
 title: PinchGestureEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'PinchGestureEventData'
 layout: api
 seo:
   description: "Provides gesture event data for pinch gesture."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface PinchGestureEventData extends <a href="/api/interface/GestureEventDataWithState">GestureEventDataWithState</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface PinchGestureEventData extends <a href="/api/interface/GestureEventDataWithState">GestureEventDataWithState</a> {
   scale: number;
   getFocusX(): number;
   getFocusY(): number;
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11176" v-once>
+<APIRef for="14090" v-once>
 
 <template #title>
 
@@ -50,7 +57,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11177" v-once>
+<APIRef for="14091" v-once>
 
 <template #title>
 
@@ -64,7 +71,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11179" v-once>
+<APIRef for="14093" v-once>
 
 <template #title>
 

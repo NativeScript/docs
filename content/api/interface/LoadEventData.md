@@ -1,6 +1,13 @@
 ---
 title: LoadEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'LoadEventData'
 layout: api
 seo:
   description: "Event data containing information for the loading events of a WebView."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface LoadEventData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface LoadEventData extends <a href="/api/interface/EventData">EventData</a> {
   error: string;
   navigationType: NavigationType;
   url: string;
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28728" v-once>
+<APIRef for="33507" v-once>
 
 <template #title>
 
@@ -48,7 +55,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28727" v-once>
+<APIRef for="33506" v-once>
 
 <template #title>
 
@@ -62,7 +69,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28726" v-once>
+<APIRef for="33505" v-once>
 
 <template #title>
 

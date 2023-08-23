@@ -1,6 +1,13 @@
 ---
 title: GestureStateTypes
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'GestureStateTypes'
 layout: api
 seo:
   description: "Defines an enum with supported gesture states."
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11104" v-once>
+<APIRef for="14018" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11103" v-once>
+<APIRef for="14017" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11105" v-once>
+<APIRef for="14019" v-once>
 
 <template #title>
 
@@ -68,7 +75,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11106" v-once>
+<APIRef for="14020" v-once>
 
 <template #title>
 

@@ -17,16 +17,16 @@
     {
       "title": "Properties",
       "items": [
-        1087,
-        1088,
-        1089,
-        1086,
-        1090
+        4709,
+        4710,
+        4711,
+        4708,
+        4712
       ]
     }
   ],
   "reflections": {
-    "1086": {
+    "4708": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/UnhandledErrorEventData#ios",
@@ -43,12 +43,12 @@
       },
       "signatures": [
         {
-          "code": "ios?: NativeScriptError",
+          "code": "ios?: <a href=\"/api/interface/NativeScriptError\">NativeScriptError</a>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 175,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 87,
+              "character": 4
             }
           ],
           "comment": {
@@ -63,7 +63,7 @@
         }
       ]
     },
-    "1087": {
+    "4709": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/UnhandledErrorEventData#android",
@@ -80,12 +80,12 @@
       },
       "signatures": [
         {
-          "code": "android?: NativeScriptError",
+          "code": "android?: <a href=\"/api/interface/NativeScriptError\">NativeScriptError</a>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 176,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 88,
+              "character": 4
             }
           ],
           "comment": {
@@ -100,26 +100,26 @@
         }
       ]
     },
-    "1088": {
+    "4710": {
       "name": "error",
       "type": "Property",
       "url": "/api/interface/UnhandledErrorEventData#error",
       "flags": {},
       "signatures": [
         {
-          "code": "error: NativeScriptError",
+          "code": "error: <a href=\"/api/interface/NativeScriptError\">NativeScriptError</a>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 177,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 89,
+              "character": 4
             }
           ],
           "url": "/api/interface/UnhandledErrorEventData#error"
         }
       ]
     },
-    "1089": {
+    "4711": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/UnhandledErrorEventData#eventname",
@@ -143,9 +143,9 @@
           "code": "eventName: string",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 119,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 28,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -166,7 +166,7 @@
         }
       ]
     },
-    "1090": {
+    "4712": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/UnhandledErrorEventData#object",
@@ -187,12 +187,12 @@
       },
       "signatures": [
         {
-          "code": "object: any",
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a> | <a href=\"/api/class/ApplicationCommon\">ApplicationCommon</a>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 124,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 40,
+              "character": 4
             }
           ],
           "inheritedFrom": {

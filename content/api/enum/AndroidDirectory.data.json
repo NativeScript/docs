@@ -1,0 +1,253 @@
+{
+  "title": "AndroidDirectory",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980
+      ]
+    }
+  ],
+  "reflections": {
+    "1969": {
+      "name": "ALARMS",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#alarms",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ALARMS: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 4,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#alarms"
+        }
+      ]
+    },
+    "1970": {
+      "name": "AUDIOBOOKS",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#audiobooks",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "AUDIOBOOKS: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 5,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#audiobooks"
+        }
+      ]
+    },
+    "1971": {
+      "name": "DCIM",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#dcim",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DCIM: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 6,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#dcim"
+        }
+      ]
+    },
+    "1972": {
+      "name": "DOCUMENTS",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#documents",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DOCUMENTS: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 7,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#documents"
+        }
+      ]
+    },
+    "1973": {
+      "name": "DOWNLOADS",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#downloads",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DOWNLOADS: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 8,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#downloads"
+        }
+      ]
+    },
+    "1974": {
+      "name": "MOVIES",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#movies",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "MOVIES: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 9,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#movies"
+        }
+      ]
+    },
+    "1975": {
+      "name": "MUSIC",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#music",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "MUSIC: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#music"
+        }
+      ]
+    },
+    "1976": {
+      "name": "NOTIFICATIONS",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#notifications",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "NOTIFICATIONS: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#notifications"
+        }
+      ]
+    },
+    "1977": {
+      "name": "PICTURES",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#pictures",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "PICTURES: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#pictures"
+        }
+      ]
+    },
+    "1978": {
+      "name": "PODCASTS",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#podcasts",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "PODCASTS: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#podcasts"
+        }
+      ]
+    },
+    "1979": {
+      "name": "RINGTONES",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#ringtones",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "RINGTONES: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 14,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#ringtones"
+        }
+      ]
+    },
+    "1980": {
+      "name": "SCREENSHOTS",
+      "type": "EnumMember",
+      "url": "/api/enum/AndroidDirectory#screenshots",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "SCREENSHOTS: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/AndroidDirectory#screenshots"
+        }
+      ]
+    }
+  }
+}

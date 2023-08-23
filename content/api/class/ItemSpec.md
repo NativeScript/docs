@@ -1,6 +1,13 @@
 ---
 title: ItemSpec
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ItemSpec'
 layout: api
 seo:
   description: "Defines row/column specific properties that apply to GridLayout elements."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32578" v-once>
+<APIRef for="37626" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32583" v-once>
+<APIRef for="37631" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32584" v-once>
+<APIRef for="37632" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32585" v-once>
+<APIRef for="37633" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32586" v-once>
+<APIRef for="37634" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32587" v-once>
+<APIRef for="37635" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32588" v-once>
+<APIRef for="37636" v-once>
 
 <template #title>
 

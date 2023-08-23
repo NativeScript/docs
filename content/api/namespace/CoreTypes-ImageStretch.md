@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.ImageStretch
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'ImageStretch'
 layout: api
 seo:
-  description: "Describes how content is resized to fill its allocated space."
+  description: CoreTypes.ImageStretch
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJEZXNjcmliZXMgaG93IGNvbnRlbnQgaXMgcmVzaXplZCB0byBmaWxsIGl0cyBhbGxvY2F0ZWQgc3BhY2UuIn1dfQ==" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2650" v-once>
+<APIRef for="4915" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2651" v-once>
+<APIRef for="4916" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2652" v-once>
+<APIRef for="4917" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2649" v-once>
+<APIRef for="4914" v-once>
 
 <template #title>
 

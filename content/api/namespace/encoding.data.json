@@ -5,17 +5,17 @@
     {
       "title": "Variables",
       "items": [
-        2492,
-        2493,
-        2494,
-        2495,
-        2496,
-        2497
+        2390,
+        2391,
+        2392,
+        2393,
+        2394,
+        2395
       ]
     }
   ],
   "reflections": {
-    "2492": {
+    "2390": {
       "name": "ISO_8859_1",
       "type": "Variable",
       "url": "/api/namespace/encoding#iso-8859-1",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "2493": {
+    "2391": {
       "name": "US_ASCII",
       "type": "Variable",
       "url": "/api/namespace/encoding#us-ascii",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "2494": {
+    "2392": {
       "name": "UTF_16",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-16",
@@ -126,7 +126,7 @@
         }
       ]
     },
-    "2495": {
+    "2393": {
       "name": "UTF_16BE",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-16be",
@@ -163,7 +163,7 @@
         }
       ]
     },
-    "2496": {
+    "2394": {
       "name": "UTF_16LE",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-16le",
@@ -200,7 +200,7 @@
         }
       ]
     },
-    "2497": {
+    "2395": {
       "name": "UTF_8",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-8",

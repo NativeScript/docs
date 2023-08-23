@@ -1,9 +1,16 @@
 ---
 title: ImageAssetOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ImageAssetOptions'
 layout: api
 seo:
-  description: undefined
+  description: ImageAssetOptions
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ImageAssetOptions {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ImageAssetOptions {
   autoScaleFactor: boolean;
   height: number;
   keepAspectRatio: boolean;
@@ -33,7 +40,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2291" v-once>
+<APIRef for="2189" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2289" v-once>
+<APIRef for="2187" v-once>
 
 <template #title>
 
@@ -61,7 +68,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2290" v-once>
+<APIRef for="2188" v-once>
 
 <template #title>
 
@@ -75,7 +82,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2288" v-once>
+<APIRef for="2186" v-once>
 
 <template #title>
 

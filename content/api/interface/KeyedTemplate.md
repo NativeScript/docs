@@ -1,6 +1,13 @@
 ---
 title: KeyedTemplate
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'KeyedTemplate'
 layout: api
 seo:
   description: "Defines an interface for Template with a key."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface KeyedTemplate {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface KeyedTemplate {
   createView: <a href="/api/interface/Template">Template</a>;
   key: string;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9043" v-once>
+<APIRef for="11846" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9042" v-once>
+<APIRef for="11845" v-once>
 
 <template #title>
 

@@ -5,15 +5,15 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1226,
-        1228,
-        1225,
-        1227
+        961,
+        963,
+        960,
+        962
       ]
     }
   ],
   "reflections": {
-    "1225": {
+    "960": {
       "name": "Selected",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityState#selected",
@@ -32,7 +32,7 @@
         }
       ]
     },
-    "1226": {
+    "961": {
       "name": "Checked",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityState#checked",
@@ -51,7 +51,7 @@
         }
       ]
     },
-    "1227": {
+    "962": {
       "name": "Unchecked",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityState#unchecked",
@@ -70,7 +70,7 @@
         }
       ]
     },
-    "1228": {
+    "963": {
       "name": "Disabled",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityState#disabled",

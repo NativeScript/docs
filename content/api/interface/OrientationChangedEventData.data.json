@@ -17,16 +17,16 @@
     {
       "title": "Properties",
       "items": [
-        1082,
-        1083,
-        1081,
-        1080,
-        1084
+        4693,
+        4691,
+        4692,
+        4690,
+        4694
       ]
     }
   ],
   "reflections": {
-    "1080": {
+    "4690": {
       "name": "newValue",
       "type": "Property",
       "url": "/api/interface/OrientationChangedEventData#newvalue",
@@ -44,9 +44,9 @@
           "code": "newValue: \"portrait\" | \"landscape\" | \"unknown\"",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 148,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 63,
+              "character": 4
             }
           ],
           "comment": {
@@ -61,7 +61,54 @@
         }
       ]
     },
-    "1081": {
+    "4691": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/OrientationChangedEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/ApplicationEventData#eventname",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 28,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/ApplicationEventData#eventname",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/OrientationChangedEventData#eventname"
+        }
+      ]
+    },
+    "4692": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/OrientationChangedEventData#ios",
@@ -87,9 +134,9 @@
           "code": "ios?: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 109,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 32,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -110,7 +157,7 @@
         }
       ]
     },
-    "1082": {
+    "4693": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/OrientationChangedEventData#android",
@@ -136,9 +183,9 @@
           "code": "android?: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 114,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 36,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -159,54 +206,7 @@
         }
       ]
     },
-    "1083": {
-      "name": "eventName",
-      "type": "Property",
-      "url": "/api/interface/OrientationChangedEventData#eventname",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The name of the event."
-          }
-        ]
-      },
-      "flags": {},
-      "inheritedFrom": {
-        "name": "eventName",
-        "url": "/api/interface/ApplicationEventData#eventname",
-        "fromName": "ApplicationEventData",
-        "fromUrl": "/api/interface/ApplicationEventData"
-      },
-      "signatures": [
-        {
-          "code": "eventName: string",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 119,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "eventName",
-            "url": "/api/interface/ApplicationEventData#eventname",
-            "fromName": "ApplicationEventData",
-            "fromUrl": "/api/interface/ApplicationEventData"
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The name of the event."
-              }
-            ]
-          },
-          "url": "/api/interface/OrientationChangedEventData#eventname"
-        }
-      ]
-    },
-    "1084": {
+    "4694": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/OrientationChangedEventData#object",
@@ -227,12 +227,12 @@
       },
       "signatures": [
         {
-          "code": "object: any",
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a> | <a href=\"/api/class/ApplicationCommon\">ApplicationCommon</a>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 124,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 40,
+              "character": 4
             }
           ],
           "inheritedFrom": {

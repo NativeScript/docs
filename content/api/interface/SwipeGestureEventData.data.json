@@ -17,18 +17,18 @@
     {
       "title": "Properties",
       "items": [
-        11202,
-        11198,
-        11203,
-        11201,
-        11204,
-        11199,
-        11200
+        14116,
+        14112,
+        14117,
+        14115,
+        14118,
+        14113,
+        14114
       ]
     }
   ],
   "reflections": {
-    "11198": {
+    "14112": {
       "name": "direction",
       "type": "Property",
       "url": "/api/interface/SwipeGestureEventData#direction",
@@ -47,7 +47,7 @@
         }
       ]
     },
-    "11199": {
+    "14113": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/SwipeGestureEventData#type",
@@ -94,7 +94,7 @@
         }
       ]
     },
-    "11200": {
+    "14114": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/SwipeGestureEventData#view",
@@ -115,7 +115,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -141,7 +141,7 @@
         }
       ]
     },
-    "11201": {
+    "14115": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/SwipeGestureEventData#ios",
@@ -188,7 +188,7 @@
         }
       ]
     },
-    "11202": {
+    "14116": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/SwipeGestureEventData#android",
@@ -235,7 +235,7 @@
         }
       ]
     },
-    "11203": {
+    "14117": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/SwipeGestureEventData#eventname",
@@ -260,8 +260,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -282,7 +282,7 @@
         }
       ]
     },
-    "11204": {
+    "14118": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/SwipeGestureEventData#object",
@@ -307,8 +307,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

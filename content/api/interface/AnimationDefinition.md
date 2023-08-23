@@ -1,6 +1,13 @@
 ---
 title: AnimationDefinition
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'AnimationDefinition'
 layout: api
 seo:
   description: "Defines animation options for the View.animate method."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface AnimationDefinition {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface AnimationDefinition {
   backgroundColor: <a href="/api/class/Color">Color</a>;
   curve: any;
   delay: number;
@@ -43,7 +50,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5013" v-once>
+<APIRef for="7476" v-once>
 
 <template #title>
 
@@ -57,7 +64,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5022" v-once>
+<APIRef for="7485" v-once>
 
 <template #title>
 
@@ -71,7 +78,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5020" v-once>
+<APIRef for="7483" v-once>
 
 <template #title>
 
@@ -85,7 +92,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5019" v-once>
+<APIRef for="7482" v-once>
 
 <template #title>
 
@@ -99,7 +106,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5016" v-once>
+<APIRef for="7479" v-once>
 
 <template #title>
 
@@ -113,7 +120,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5021" v-once>
+<APIRef for="7484" v-once>
 
 <template #title>
 
@@ -127,7 +134,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5012" v-once>
+<APIRef for="7475" v-once>
 
 <template #title>
 
@@ -141,7 +148,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5018" v-once>
+<APIRef for="7481" v-once>
 
 <template #title>
 
@@ -155,7 +162,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5015" v-once>
+<APIRef for="7478" v-once>
 
 <template #title>
 
@@ -169,7 +176,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5011" v-once>
+<APIRef for="7474" v-once>
 
 <template #title>
 
@@ -183,7 +190,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5014" v-once>
+<APIRef for="7477" v-once>
 
 <template #title>
 
@@ -197,7 +204,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5017" v-once>
+<APIRef for="7480" v-once>
 
 <template #title>
 

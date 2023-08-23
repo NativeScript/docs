@@ -1,6 +1,13 @@
 ---
 title: ActionBar
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ActionBar'
 layout: api
 seo:
   description: "Provides an abstraction over the ActionBar (android) and NavigationBar (iOS)."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2978" v-once>
+<APIRef for="5246" v-once>
 
 <template #title>
 
@@ -42,23 +49,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate isOptional">
-
-<APIRef for="2994" v-once>
-
-<template #title>
-
-### _getActualSize
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="2984" v-once>
+<APIRef for="5252" v-once>
 
 <template #title>
 
@@ -72,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2985" v-once>
+<APIRef for="5253" v-once>
 
 <template #title>
 
@@ -86,7 +79,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="2988" v-once>
+<APIRef for="5256" v-once>
 
 <template #title>
 
@@ -100,7 +93,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="2989" v-once>
+<APIRef for="5257" v-once>
 
 <template #title>
 
@@ -114,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2983" v-once>
+<APIRef for="5251" v-once>
 
 <template #title>
 
@@ -128,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2986" v-once>
+<APIRef for="5254" v-once>
 
 <template #title>
 
@@ -142,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2987" v-once>
+<APIRef for="5255" v-once>
 
 <template #title>
 
@@ -156,7 +149,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2982" v-once>
+<APIRef for="5250" v-once>
 
 <template #title>
 
@@ -170,7 +163,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2980" v-once>
+<APIRef for="5248" v-once>
 
 <template #title>
 
@@ -184,7 +177,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2981" v-once>
+<APIRef for="5249" v-once>
 
 <template #title>
 
@@ -198,23 +191,9 @@ seo:
 
 ## Methods
 
-<div class="isPrivate">
-
-<APIRef for="2992" v-once>
-
-<template #title>
-
-### _isEmpty
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="2990" v-once>
+<APIRef for="5258" v-once>
 
 <template #title>
 

@@ -1,6 +1,15 @@
 ---
 title: Trace.categories
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'Trace'
+    href: '/api/namespace/Trace'
+  - name: 'categories'
 layout: api
 seo:
   description: "all predefined categories."
@@ -28,7 +37,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2898" v-once>
+<APIRef for="5151" v-once>
 
 <template #title>
 
@@ -42,7 +51,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2893" v-once>
+<APIRef for="5146" v-once>
 
 <template #title>
 
@@ -56,7 +65,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2890" v-once>
+<APIRef for="5143" v-once>
 
 <template #title>
 
@@ -70,7 +79,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2891" v-once>
+<APIRef for="5144" v-once>
 
 <template #title>
 
@@ -84,7 +93,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2887" v-once>
+<APIRef for="5140" v-once>
 
 <template #title>
 
@@ -98,7 +107,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2892" v-once>
+<APIRef for="5145" v-once>
 
 <template #title>
 
@@ -112,7 +121,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2883" v-once>
+<APIRef for="5136" v-once>
 
 <template #title>
 
@@ -126,7 +135,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2895" v-once>
+<APIRef for="5148" v-once>
 
 <template #title>
 
@@ -140,7 +149,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2896" v-once>
+<APIRef for="5149" v-once>
 
 <template #title>
 
@@ -154,7 +163,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2886" v-once>
+<APIRef for="5139" v-once>
 
 <template #title>
 
@@ -168,7 +177,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2888" v-once>
+<APIRef for="5141" v-once>
 
 <template #title>
 
@@ -182,7 +191,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2884" v-once>
+<APIRef for="5137" v-once>
 
 <template #title>
 
@@ -196,7 +205,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2889" v-once>
+<APIRef for="5142" v-once>
 
 <template #title>
 
@@ -210,7 +219,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2894" v-once>
+<APIRef for="5147" v-once>
 
 <template #title>
 
@@ -224,7 +233,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2885" v-once>
+<APIRef for="5138" v-once>
 
 <template #title>
 
@@ -238,7 +247,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2882" v-once>
+<APIRef for="5135" v-once>
 
 <template #title>
 
@@ -252,7 +261,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2897" v-once>
+<APIRef for="5150" v-once>
 
 <template #title>
 
@@ -268,7 +277,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2879" v-once>
+<APIRef for="5132" v-once>
 
 <template #title>
 

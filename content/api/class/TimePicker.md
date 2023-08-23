@@ -1,6 +1,13 @@
 ---
 title: TimePicker
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'TimePicker'
 layout: api
 seo:
   description: "Represents an time picker."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27382" v-once>
+<APIRef for="31640" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27384" v-once>
+<APIRef for="31642" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27386" v-once>
+<APIRef for="31644" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27385" v-once>
+<APIRef for="31643" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27394" v-once>
+<APIRef for="31652" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27389" v-once>
+<APIRef for="31647" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27390" v-once>
+<APIRef for="31648" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27391" v-once>
+<APIRef for="31649" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27392" v-once>
+<APIRef for="31650" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27387" v-once>
+<APIRef for="31645" v-once>
 
 <template #title>
 
@@ -170,7 +177,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27393" v-once>
+<APIRef for="31651" v-once>
 
 <template #title>
 
@@ -184,7 +191,7 @@ seo:
 
 <div class="">
 
-<APIRef for="27388" v-once>
+<APIRef for="31646" v-once>
 
 <template #title>
 

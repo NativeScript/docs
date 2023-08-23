@@ -11,14 +11,14 @@
     {
       "title": "Properties",
       "items": [
-        10985,
-        10986,
-        10987
+        13899,
+        13900,
+        13901
       ]
     }
   ],
   "reflections": {
-    "10985": {
+    "13899": {
       "name": "entry",
       "type": "Property",
       "url": "/api/interface/NavigationContext#entry",
@@ -37,7 +37,7 @@
         }
       ]
     },
-    "10986": {
+    "13900": {
       "name": "isBackNavigation",
       "type": "Property",
       "url": "/api/interface/NavigationContext#isbacknavigation",
@@ -56,7 +56,7 @@
         }
       ]
     },
-    "10987": {
+    "13901": {
       "name": "navigationType",
       "type": "Property",
       "url": "/api/interface/NavigationContext#navigationtype",

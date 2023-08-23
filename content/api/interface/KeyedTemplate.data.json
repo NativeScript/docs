@@ -11,13 +11,13 @@
     {
       "title": "Properties",
       "items": [
-        9043,
-        9042
+        11846,
+        11845
       ]
     }
   ],
   "reflections": {
-    "9042": {
+    "11845": {
       "name": "key",
       "type": "Property",
       "url": "/api/interface/KeyedTemplate#key",
@@ -36,7 +36,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
-              "line": 937,
+              "line": 952,
               "character": 1
             }
           ],
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "9043": {
+    "11846": {
       "name": "createView",
       "type": "Property",
       "url": "/api/interface/KeyedTemplate#createview",
@@ -71,7 +71,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
-              "line": 942,
+              "line": 957,
               "character": 1
             }
           ],

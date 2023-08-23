@@ -11,29 +11,29 @@
     {
       "title": "Constructors",
       "items": [
-        4979
+        7442
       ]
     },
     {
       "title": "Properties",
       "items": [
-        4981,
-        4989,
-        4982,
-        4984,
-        4983,
-        4985
+        7444,
+        7452,
+        7445,
+        7447,
+        7446,
+        7448
       ]
     },
     {
       "title": "Methods",
       "items": [
-        4976
+        7439
       ]
     }
   ],
   "reflections": {
-    "4976": {
+    "7439": {
       "name": "keyframeAnimationFromInfo",
       "type": "Method",
       "url": "/api/class/KeyframeAnimation#keyframeanimationfrominfo",
@@ -72,7 +72,7 @@
         }
       ]
     },
-    "4979": {
+    "7442": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/KeyframeAnimation#constructor",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    "4981": {
+    "7444": {
       "name": "animations",
       "type": "Property",
       "url": "/api/class/KeyframeAnimation#animations",
@@ -106,7 +106,7 @@
         }
       ]
     },
-    "4982": {
+    "7445": {
       "name": "delay",
       "type": "Property",
       "url": "/api/class/KeyframeAnimation#delay",
@@ -141,7 +141,7 @@
         }
       ]
     },
-    "4983": {
+    "7446": {
       "name": "iterations",
       "type": "Property",
       "url": "/api/class/KeyframeAnimation#iterations",
@@ -176,7 +176,7 @@
         }
       ]
     },
-    "4984": {
+    "7447": {
       "name": "isPlaying",
       "type": "Property",
       "url": "/api/class/KeyframeAnimation#isplaying",
@@ -211,7 +211,7 @@
         }
       ]
     },
-    "4985": {
+    "7448": {
       "name": "play",
       "type": "Property",
       "url": "/api/class/KeyframeAnimation#play",
@@ -232,7 +232,7 @@
         }
       ]
     },
-    "4989": {
+    "7452": {
       "name": "cancel",
       "type": "Property",
       "url": "/api/class/KeyframeAnimation#cancel",

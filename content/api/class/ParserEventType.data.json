@@ -11,22 +11,22 @@
     {
       "title": "Constructors",
       "items": [
-        2573
+        2858
       ]
     },
     {
       "title": "Properties",
       "items": [
-        2571,
-        2572,
-        2569,
-        2568,
-        2570
+        2856,
+        2857,
+        2854,
+        2853,
+        2855
       ]
     }
   ],
   "reflections": {
-    "2568": {
+    "2853": {
       "name": "StartElement",
       "type": "Property",
       "url": "/api/class/ParserEventType#startelement",
@@ -63,7 +63,7 @@
         }
       ]
     },
-    "2569": {
+    "2854": {
       "name": "EndElement",
       "type": "Property",
       "url": "/api/class/ParserEventType#endelement",
@@ -100,7 +100,7 @@
         }
       ]
     },
-    "2570": {
+    "2855": {
       "name": "Text",
       "type": "Property",
       "url": "/api/class/ParserEventType#text",
@@ -137,7 +137,7 @@
         }
       ]
     },
-    "2571": {
+    "2856": {
       "name": "CDATA",
       "type": "Property",
       "url": "/api/class/ParserEventType#cdata",
@@ -174,7 +174,7 @@
         }
       ]
     },
-    "2572": {
+    "2857": {
       "name": "Comment",
       "type": "Property",
       "url": "/api/class/ParserEventType#comment",
@@ -211,7 +211,7 @@
         }
       ]
     },
-    "2573": {
+    "2858": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ParserEventType#constructor",

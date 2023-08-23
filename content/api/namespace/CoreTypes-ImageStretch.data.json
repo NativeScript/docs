@@ -5,26 +5,18 @@
     {
       "title": "Variables",
       "items": [
-        2650,
-        2651,
-        2652,
-        2649
+        4915,
+        4916,
+        4917,
+        4914
       ]
     }
   ],
   "reflections": {
-    "2649": {
+    "4914": {
       "name": "none",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ImageStretch#none",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The image preserves its original size."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -34,34 +26,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 233,
-              "character": 15
+              "line": 131,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The image preserves its original size."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ImageStretch#none"
         }
       ]
     },
-    "2650": {
+    "4915": {
       "name": "aspectFill",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ImageStretch#aspectfill",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The image is resized to fill in the destination dimensions while it preserves its native aspect ratio.\nIf the aspect ratio of the destination rectangle differs from the image, the image is clipped to fill\nin the destination."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -71,34 +47,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 240,
-              "character": 15
+              "line": 132,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The image is resized to fill in the destination dimensions while it preserves its native aspect ratio.\nIf the aspect ratio of the destination rectangle differs from the image, the image is clipped to fill\nin the destination."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ImageStretch#aspectfill"
         }
       ]
     },
-    "2651": {
+    "4916": {
       "name": "aspectFit",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ImageStretch#aspectfit",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The image is resized to fit the destination dimensions while it preserves\nits native aspect ratio."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -108,34 +68,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 246,
-              "character": 15
+              "line": 133,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The image is resized to fit the destination dimensions while it preserves\nits native aspect ratio."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ImageStretch#aspectfit"
         }
       ]
     },
-    "2652": {
+    "4917": {
       "name": "fill",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ImageStretch#fill",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The image is resized to fill the destination dimensions. The aspect ratio is not preserved."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -145,18 +89,10 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 251,
-              "character": 15
+              "line": 134,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The image is resized to fill the destination dimensions. The aspect ratio is not preserved."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ImageStretch#fill"
         }
       ]

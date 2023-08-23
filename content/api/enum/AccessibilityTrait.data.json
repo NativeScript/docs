@@ -5,16 +5,16 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1230,
-        1231,
-        1232,
-        1233,
-        1234
+        965,
+        966,
+        967,
+        968,
+        969
       ]
     }
   ],
   "reflections": {
-    "1230": {
+    "965": {
       "name": "AllowsDirectInteraction",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#allowsdirectinteraction",
@@ -49,7 +49,7 @@
         }
       ]
     },
-    "1231": {
+    "966": {
       "name": "CausesPageTurn",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#causespageturn",
@@ -84,7 +84,7 @@
         }
       ]
     },
-    "1232": {
+    "967": {
       "name": "NotEnabled",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#notenabled",
@@ -119,7 +119,7 @@
         }
       ]
     },
-    "1233": {
+    "968": {
       "name": "Selected",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#selected",
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "1234": {
+    "969": {
       "name": "UpdatesFrequently",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#updatesfrequently",

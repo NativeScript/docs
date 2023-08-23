@@ -17,21 +17,21 @@
     {
       "title": "Properties",
       "items": [
-        10148,
-        10143,
-        10142,
-        10140,
-        10141,
-        10147,
-        10144,
-        10145,
-        10149,
-        10146
+        13004,
+        12999,
+        12998,
+        12996,
+        12997,
+        13003,
+        13000,
+        13001,
+        13005,
+        13002
       ]
     }
   ],
   "reflections": {
-    "10140": {
+    "12996": {
       "name": "defaultText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#defaulttext",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "10141": {
+    "12997": {
       "name": "inputType",
       "type": "Property",
       "url": "/api/interface/PromptOptions#inputtype",
@@ -105,7 +105,7 @@
         }
       ]
     },
-    "10142": {
+    "12998": {
       "name": "capitalizationType",
       "type": "Property",
       "url": "/api/interface/PromptOptions#capitalizationtype",
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "10143": {
+    "12999": {
       "name": "cancelButtonText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#cancelbuttontext",
@@ -191,7 +191,7 @@
         }
       ]
     },
-    "10144": {
+    "13000": {
       "name": "neutralButtonText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#neutralbuttontext",
@@ -240,7 +240,7 @@
         }
       ]
     },
-    "10145": {
+    "13001": {
       "name": "okButtonText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#okbuttontext",
@@ -289,7 +289,7 @@
         }
       ]
     },
-    "10146": {
+    "13002": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/PromptOptions#title",
@@ -338,7 +338,7 @@
         }
       ]
     },
-    "10147": {
+    "13003": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/PromptOptions#message",
@@ -387,7 +387,7 @@
         }
       ]
     },
-    "10148": {
+    "13004": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/PromptOptions#cancelable",
@@ -436,7 +436,7 @@
         }
       ]
     },
-    "10149": {
+    "13005": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/PromptOptions#theme",

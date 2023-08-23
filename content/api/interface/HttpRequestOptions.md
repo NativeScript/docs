@@ -1,6 +1,13 @@
 ---
 title: HttpRequestOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'HttpRequestOptions'
 layout: api
 seo:
   description: "Provides options for the http requests."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface HttpRequestOptions {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface HttpRequestOptions {
   content: string | FormData | ArrayBuffer;
   dontFollowRedirects: boolean;
   headers: any;
@@ -37,7 +44,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2129" v-once>
+<APIRef for="1985" v-once>
 
 <template #title>
 
@@ -51,7 +58,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2131" v-once>
+<APIRef for="1987" v-once>
 
 <template #title>
 
@@ -65,7 +72,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2128" v-once>
+<APIRef for="1984" v-once>
 
 <template #title>
 
@@ -79,7 +86,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2127" v-once>
+<APIRef for="1983" v-once>
 
 <template #title>
 
@@ -93,7 +100,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2130" v-once>
+<APIRef for="1986" v-once>
 
 <template #title>
 
@@ -107,7 +114,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2126" v-once>
+<APIRef for="1982" v-once>
 
 <template #title>
 

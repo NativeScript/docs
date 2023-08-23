@@ -1,0 +1,229 @@
+{
+  "title": "connectionType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        1096,
+        1095,
+        1094,
+        1092,
+        1097,
+        1093
+      ]
+    }
+  ],
+  "reflections": {
+    "1092": {
+      "name": "none",
+      "type": "EnumMember",
+      "url": "/api/enum/Connectivity-connectionType#none",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes no connection."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "none: 0",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes no connection."
+              }
+            ]
+          },
+          "url": "/api/enum/Connectivity-connectionType#none"
+        }
+      ]
+    },
+    "1093": {
+      "name": "wifi",
+      "type": "EnumMember",
+      "url": "/api/enum/Connectivity-connectionType#wifi",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes a WiFi connection."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "wifi: 1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 20,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes a WiFi connection."
+              }
+            ]
+          },
+          "url": "/api/enum/Connectivity-connectionType#wifi"
+        }
+      ]
+    },
+    "1094": {
+      "name": "mobile",
+      "type": "EnumMember",
+      "url": "/api/enum/Connectivity-connectionType#mobile",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes a mobile connection, i.e. cellular network or WAN."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "mobile: 2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 25,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes a mobile connection, i.e. cellular network or WAN."
+              }
+            ]
+          },
+          "url": "/api/enum/Connectivity-connectionType#mobile"
+        }
+      ]
+    },
+    "1095": {
+      "name": "ethernet",
+      "type": "EnumMember",
+      "url": "/api/enum/Connectivity-connectionType#ethernet",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes an ethernet connection"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ethernet: 3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 30,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes an ethernet connection"
+              }
+            ]
+          },
+          "url": "/api/enum/Connectivity-connectionType#ethernet"
+        }
+      ]
+    },
+    "1096": {
+      "name": "bluetooth",
+      "type": "EnumMember",
+      "url": "/api/enum/Connectivity-connectionType#bluetooth",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes a bluetooth connection"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "bluetooth: 4",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 35,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes a bluetooth connection"
+              }
+            ]
+          },
+          "url": "/api/enum/Connectivity-connectionType#bluetooth"
+        }
+      ]
+    },
+    "1097": {
+      "name": "vpn",
+      "type": "EnumMember",
+      "url": "/api/enum/Connectivity-connectionType#vpn",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes a vpn connection"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "vpn: 5",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 40,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes a vpn connection"
+              }
+            ]
+          },
+          "url": "/api/enum/Connectivity-connectionType#vpn"
+        }
+      ]
+    }
+  }
+}

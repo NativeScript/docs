@@ -1,9 +1,16 @@
 ---
 title: AccessibilityTrait
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'AccessibilityTrait'
 layout: api
 seo:
-  description: undefined
+  description: AccessibilityTrait
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -24,7 +31,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1230" v-once>
+<APIRef for="965" v-once>
 
 <template #title>
 
@@ -38,7 +45,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1231" v-once>
+<APIRef for="966" v-once>
 
 <template #title>
 
@@ -52,7 +59,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1232" v-once>
+<APIRef for="967" v-once>
 
 <template #title>
 
@@ -66,7 +73,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1233" v-once>
+<APIRef for="968" v-once>
 
 <template #title>
 
@@ -80,7 +87,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1234" v-once>
+<APIRef for="969" v-once>
 
 <template #title>
 

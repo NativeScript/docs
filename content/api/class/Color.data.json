@@ -11,56 +11,56 @@
     {
       "title": "Constructors",
       "items": [
-        1267
+        1002
       ]
     },
     {
       "title": "Properties",
       "items": [
-        1280,
-        1287,
-        1285,
-        1283,
-        1282,
-        1284,
-        1288,
-        1286,
-        1281
+        1015,
+        1022,
+        1020,
+        1018,
+        1017,
+        1019,
+        1023,
+        1021,
+        1016
       ]
     },
     {
       "title": "Methods",
       "items": [
-        1334,
-        1343,
-        1337,
-        1323,
-        1289,
-        1240,
-        1255,
-        1261,
-        1247,
-        1296,
-        1298,
-        1329,
-        1292,
-        1294,
-        1244,
-        1331,
-        1250,
-        1326,
-        1300,
-        1340,
-        1303,
-        1310,
-        1312,
-        1319,
-        1321
+        1069,
+        1078,
+        1072,
+        1058,
+        1024,
+        975,
+        990,
+        996,
+        982,
+        1031,
+        1033,
+        1064,
+        1027,
+        1029,
+        979,
+        1066,
+        985,
+        1061,
+        1035,
+        1075,
+        1038,
+        1045,
+        1047,
+        1054,
+        1056
       ]
     }
   ],
   "reflections": {
-    "1240": {
+    "975": {
       "name": "equals",
       "type": "Method",
       "url": "/api/class/Color#equals-2",
@@ -120,7 +120,7 @@
         }
       ]
     },
-    "1244": {
+    "979": {
       "name": "isValid",
       "type": "Method",
       "url": "/api/class/Color#isvalid",
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "1247": {
+    "982": {
       "name": "fromIosColor",
       "type": "Method",
       "url": "/api/class/Color#fromioscolor",
@@ -206,7 +206,7 @@
         }
       ]
     },
-    "1250": {
+    "985": {
       "name": "mix",
       "type": "Method",
       "url": "/api/class/Color#mix",
@@ -255,7 +255,7 @@
         }
       ]
     },
-    "1255": {
+    "990": {
       "name": "fromHSL",
       "type": "Method",
       "url": "/api/class/Color#fromhsl",
@@ -309,7 +309,7 @@
         }
       ]
     },
-    "1261": {
+    "996": {
       "name": "fromHSV",
       "type": "Method",
       "url": "/api/class/Color#fromhsv",
@@ -355,7 +355,7 @@
         }
       ]
     },
-    "1267": {
+    "1002": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Color#constructor",
@@ -465,7 +465,7 @@
         }
       ]
     },
-    "1280": {
+    "1015": {
       "name": "a",
       "type": "Property",
       "url": "/api/class/Color#a",
@@ -502,7 +502,7 @@
         }
       ]
     },
-    "1281": {
+    "1016": {
       "name": "r",
       "type": "Property",
       "url": "/api/class/Color#r",
@@ -539,7 +539,7 @@
         }
       ]
     },
-    "1282": {
+    "1017": {
       "name": "g",
       "type": "Property",
       "url": "/api/class/Color#g",
@@ -576,7 +576,7 @@
         }
       ]
     },
-    "1283": {
+    "1018": {
       "name": "b",
       "type": "Property",
       "url": "/api/class/Color#b",
@@ -613,7 +613,7 @@
         }
       ]
     },
-    "1284": {
+    "1019": {
       "name": "hex",
       "type": "Property",
       "url": "/api/class/Color#hex",
@@ -650,7 +650,7 @@
         }
       ]
     },
-    "1285": {
+    "1020": {
       "name": "argb",
       "type": "Property",
       "url": "/api/class/Color#argb",
@@ -687,7 +687,7 @@
         }
       ]
     },
-    "1286": {
+    "1021": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/Color#name",
@@ -724,7 +724,7 @@
         }
       ]
     },
-    "1287": {
+    "1022": {
       "name": "android",
       "type": "Property",
       "url": "/api/class/Color#android",
@@ -759,7 +759,7 @@
         }
       ]
     },
-    "1288": {
+    "1023": {
       "name": "ios",
       "type": "Property",
       "url": "/api/class/Color#ios",
@@ -794,7 +794,7 @@
         }
       ]
     },
-    "1289": {
+    "1024": {
       "name": "equals",
       "type": "Method",
       "url": "/api/class/Color#equals",
@@ -840,7 +840,7 @@
         }
       ]
     },
-    "1292": {
+    "1027": {
       "name": "isDark",
       "type": "Method",
       "url": "/api/class/Color#isdark",
@@ -872,7 +872,7 @@
         }
       ]
     },
-    "1294": {
+    "1029": {
       "name": "isLight",
       "type": "Method",
       "url": "/api/class/Color#islight",
@@ -904,7 +904,7 @@
         }
       ]
     },
-    "1296": {
+    "1031": {
       "name": "getBrightness",
       "type": "Method",
       "url": "/api/class/Color#getbrightness",
@@ -936,7 +936,7 @@
         }
       ]
     },
-    "1298": {
+    "1033": {
       "name": "getLuminance",
       "type": "Method",
       "url": "/api/class/Color#getluminance",
@@ -968,7 +968,7 @@
         }
       ]
     },
-    "1300": {
+    "1035": {
       "name": "setAlpha",
       "type": "Method",
       "url": "/api/class/Color#setalpha",
@@ -1006,7 +1006,7 @@
         }
       ]
     },
-    "1303": {
+    "1038": {
       "name": "toHsl",
       "type": "Method",
       "url": "/api/class/Color#tohsl",
@@ -1038,7 +1038,7 @@
         }
       ]
     },
-    "1310": {
+    "1045": {
       "name": "toHslString",
       "type": "Method",
       "url": "/api/class/Color#tohslstring",
@@ -1070,7 +1070,7 @@
         }
       ]
     },
-    "1312": {
+    "1047": {
       "name": "toHsv",
       "type": "Method",
       "url": "/api/class/Color#tohsv",
@@ -1102,7 +1102,7 @@
         }
       ]
     },
-    "1319": {
+    "1054": {
       "name": "toHsvString",
       "type": "Method",
       "url": "/api/class/Color#tohsvstring",
@@ -1134,7 +1134,7 @@
         }
       ]
     },
-    "1321": {
+    "1056": {
       "name": "toRgbString",
       "type": "Method",
       "url": "/api/class/Color#torgbstring",
@@ -1166,7 +1166,7 @@
         }
       ]
     },
-    "1323": {
+    "1058": {
       "name": "desaturate",
       "type": "Method",
       "url": "/api/class/Color#desaturate",
@@ -1212,7 +1212,7 @@
         }
       ]
     },
-    "1326": {
+    "1061": {
       "name": "saturate",
       "type": "Method",
       "url": "/api/class/Color#saturate",
@@ -1258,7 +1258,7 @@
         }
       ]
     },
-    "1329": {
+    "1064": {
       "name": "greyscale",
       "type": "Method",
       "url": "/api/class/Color#greyscale",
@@ -1296,7 +1296,7 @@
         }
       ]
     },
-    "1331": {
+    "1066": {
       "name": "lighten",
       "type": "Method",
       "url": "/api/class/Color#lighten",
@@ -1353,7 +1353,7 @@
         }
       ]
     },
-    "1334": {
+    "1069": {
       "name": "brighten",
       "type": "Method",
       "url": "/api/class/Color#brighten",
@@ -1399,7 +1399,7 @@
         }
       ]
     },
-    "1337": {
+    "1072": {
       "name": "darken",
       "type": "Method",
       "url": "/api/class/Color#darken",
@@ -1445,7 +1445,7 @@
         }
       ]
     },
-    "1340": {
+    "1075": {
       "name": "spin",
       "type": "Method",
       "url": "/api/class/Color#spin",
@@ -1491,7 +1491,7 @@
         }
       ]
     },
-    "1343": {
+    "1078": {
       "name": "complement",
       "type": "Method",
       "url": "/api/class/Color#complement",

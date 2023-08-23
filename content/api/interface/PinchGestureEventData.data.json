@@ -17,26 +17,26 @@
     {
       "title": "Properties",
       "items": [
-        11185,
-        11186,
-        11184,
-        11187,
-        11176,
-        11181,
-        11182,
-        11183
+        14099,
+        14100,
+        14098,
+        14101,
+        14090,
+        14095,
+        14096,
+        14097
       ]
     },
     {
       "title": "Methods",
       "items": [
-        11177,
-        11179
+        14091,
+        14093
       ]
     }
   ],
   "reflections": {
-    "11176": {
+    "14090": {
       "name": "scale",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#scale",
@@ -55,7 +55,7 @@
         }
       ]
     },
-    "11177": {
+    "14091": {
       "name": "getFocusX",
       "type": "Method",
       "url": "/api/interface/PinchGestureEventData#getfocusx",
@@ -77,7 +77,7 @@
         }
       ]
     },
-    "11179": {
+    "14093": {
       "name": "getFocusY",
       "type": "Method",
       "url": "/api/interface/PinchGestureEventData#getfocusy",
@@ -99,7 +99,7 @@
         }
       ]
     },
-    "11181": {
+    "14095": {
       "name": "state",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#state",
@@ -130,7 +130,7 @@
         }
       ]
     },
-    "11182": {
+    "14096": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#type",
@@ -177,7 +177,7 @@
         }
       ]
     },
-    "11183": {
+    "14097": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#view",
@@ -198,7 +198,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -224,7 +224,7 @@
         }
       ]
     },
-    "11184": {
+    "14098": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#ios",
@@ -271,7 +271,7 @@
         }
       ]
     },
-    "11185": {
+    "14099": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#android",
@@ -318,7 +318,7 @@
         }
       ]
     },
-    "11186": {
+    "14100": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#eventname",
@@ -343,8 +343,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -365,7 +365,7 @@
         }
       ]
     },
-    "11187": {
+    "14101": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/PinchGestureEventData#object",
@@ -390,8 +390,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

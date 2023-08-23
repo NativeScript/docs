@@ -17,81 +17,77 @@
     {
       "title": "Constructors",
       "items": [
-        1401
+        1163
       ]
     },
     {
       "title": "Properties",
       "items": [
-        1412,
-        1411,
-        1413,
-        1637,
-        1374,
-        1375
+        1121,
+        1122
       ]
     },
     {
       "title": "Accessors",
       "items": [
-        1421
+        1183
       ]
     },
     {
       "title": "Methods",
       "items": [
-        1632,
-        1629,
-        1442,
-        1578,
-        1593,
-        1391,
-        1431,
-        1497,
-        1534,
-        1467,
-        1476,
-        1515,
-        1614,
-        1414,
-        1626,
-        1485,
-        1489,
-        1434,
-        1493,
-        1524,
-        1617,
-        1621,
-        1588,
+        1398,
+        1403,
+        1204,
+        1340,
+        1370,
+        1155,
+        1193,
+        1259,
+        1296,
+        1229,
+        1238,
+        1277,
+        1343,
+        1176,
+        1395,
+        1247,
+        1251,
+        1196,
+        1255,
+        1286,
         1386,
-        1563,
-        1376,
-        1580,
-        1381,
-        1437,
-        1439,
-        1543,
-        1553,
-        1601,
-        1396,
-        1444,
-        1606,
-        1417,
-        1610,
-        1446,
-        1448,
-        1506,
-        1452,
-        1459,
-        1425,
-        1429,
-        1427,
-        1464
+        1390,
+        1362,
+        1139,
+        1325,
+        1123,
+        1354,
+        1131,
+        1199,
+        1201,
+        1305,
+        1315,
+        1378,
+        1147,
+        1206,
+        1346,
+        1179,
+        1350,
+        1208,
+        1210,
+        1268,
+        1214,
+        1221,
+        1187,
+        1191,
+        1189,
+        1226
       ]
     }
   ],
   "reflections": {
-    "1374": {
+    "1121": {
       "name": "changeEvent",
       "type": "Property",
       "url": "/api/class/ObservableArray#changeevent",
@@ -128,7 +124,7 @@
         }
       ]
     },
-    "1375": {
+    "1122": {
       "name": "propertyChangeEvent",
       "type": "Property",
       "url": "/api/class/ObservableArray#propertychangeevent",
@@ -155,8 +151,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 81,
-              "character": 8
+              "line": 74,
+              "character": 11
             }
           ],
           "inheritedFrom": {
@@ -177,7 +173,7 @@
         }
       ]
     },
-    "1376": {
+    "1123": {
       "name": "on",
       "type": "Method",
       "url": "/api/class/ObservableArray#on-3",
@@ -186,25 +182,25 @@
       },
       "inheritedFrom": {
         "name": "on",
-        "url": "/api/class/Observable#on-3",
+        "url": "/api/class/Observable#on-2",
         "fromName": "Observable",
         "fromUrl": "/api/class/Observable"
       },
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "on(eventName: string, callback: any, thisArg?: any): void",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#on-3-on-4",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 91,
-              "character": 1
+              "line": 125,
+              "character": 4
             }
           ],
           "inheritedFrom": {
             "name": "on",
-            "url": "/api/class/Observable#on-3",
+            "url": "/api/class/Observable#on-2",
             "fromName": "Observable",
             "fromUrl": "/api/class/Observable"
           },
@@ -216,7 +212,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {}
             },
             {
@@ -231,7 +227,7 @@
         }
       ]
     },
-    "1381": {
+    "1131": {
       "name": "once",
       "type": "Method",
       "url": "/api/class/ObservableArray#once-2",
@@ -247,13 +243,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "once(eventName: string, callback: any, thisArg?: any): void",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#once-2-once-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 106,
-              "character": 1
+              "line": 126,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -270,7 +266,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {}
             },
             {
@@ -285,7 +281,7 @@
         }
       ]
     },
-    "1386": {
+    "1139": {
       "name": "off",
       "type": "Method",
       "url": "/api/class/ObservableArray#off-2",
@@ -301,13 +297,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "off(eventName: string, callback?: any, thisArg?: any): void",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#off-2-off-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 113,
-              "character": 1
+              "line": 127,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -324,7 +320,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -341,61 +337,7 @@
         }
       ]
     },
-    "1391": {
-      "name": "addEventListener",
-      "type": "Method",
-      "url": "/api/class/ObservableArray#addeventlistener-2",
-      "flags": {
-        "isStatic": true
-      },
-      "inheritedFrom": {
-        "name": "addEventListener",
-        "url": "/api/class/Observable#addeventlistener-2",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "addEventListener(eventName: string, callback: any, thisArg?: any): void",
-          "url": "/api/class/ObservableArray#addeventlistener-2-addeventlistener-3",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 123,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "addEventListener",
-            "url": "/api/class/Observable#addeventlistener-2",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "parameters": [
-            {
-              "name": "eventName",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "callback",
-              "type": "any",
-              "flags": {}
-            },
-            {
-              "name": "thisArg",
-              "type": "any",
-              "flags": {
-                "isOptional": true
-              }
-            }
-          ],
-          "returns": "void"
-        }
-      ]
-    },
-    "1396": {
+    "1147": {
       "name": "removeEventListener",
       "type": "Method",
       "url": "/api/class/ObservableArray#removeeventlistener-2",
@@ -411,13 +353,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeEventListener(eventName: string, callback?: any, thisArg?: any): void",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#removeeventlistener-2-removeeventlistener-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 133,
-              "character": 1
+              "line": 128,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -434,7 +376,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -451,7 +393,61 @@
         }
       ]
     },
-    "1401": {
+    "1155": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/ObservableArray#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/ObservableArray#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1163": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ObservableArray#constructor",
@@ -547,70 +543,7 @@
         }
       ]
     },
-    "1411": {
-      "name": "_array",
-      "type": "Property",
-      "url": "/api/class/ObservableArray#array",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "code": "_array: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
-              "line": 38,
-              "character": 12
-            }
-          ],
-          "url": "/api/class/ObservableArray#array"
-        }
-      ]
-    },
-    "1412": {
-      "name": "_addArgs",
-      "type": "Property",
-      "url": "/api/class/ObservableArray#addargs",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "code": "_addArgs: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
-              "line": 39,
-              "character": 12
-            }
-          ],
-          "url": "/api/class/ObservableArray#addargs"
-        }
-      ]
-    },
-    "1413": {
-      "name": "_deleteArgs",
-      "type": "Property",
-      "url": "/api/class/ObservableArray#deleteargs",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "code": "_deleteArgs: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
-              "line": 40,
-              "character": 12
-            }
-          ],
-          "url": "/api/class/ObservableArray#deleteargs"
-        }
-      ]
-    },
-    "1414": {
+    "1176": {
       "name": "getItem",
       "type": "Method",
       "url": "/api/class/ObservableArray#getitem",
@@ -646,7 +579,7 @@
         }
       ]
     },
-    "1417": {
+    "1179": {
       "name": "setItem",
       "type": "Method",
       "url": "/api/class/ObservableArray#setitem",
@@ -687,7 +620,7 @@
         }
       ]
     },
-    "1421": {
+    "1183": {
       "name": "length",
       "type": "Accessor",
       "url": "/api/class/ObservableArray#length",
@@ -717,7 +650,7 @@
         }
       ]
     },
-    "1425": {
+    "1187": {
       "name": "toJSON",
       "type": "Method",
       "url": "/api/class/ObservableArray#tojson",
@@ -739,7 +672,7 @@
         }
       ]
     },
-    "1427": {
+    "1189": {
       "name": "toString",
       "type": "Method",
       "url": "/api/class/ObservableArray#tostring",
@@ -769,7 +702,7 @@
         }
       ]
     },
-    "1429": {
+    "1191": {
       "name": "toLocaleString",
       "type": "Method",
       "url": "/api/class/ObservableArray#tolocalestring",
@@ -791,7 +724,7 @@
         }
       ]
     },
-    "1431": {
+    "1193": {
       "name": "concat",
       "type": "Method",
       "url": "/api/class/ObservableArray#concat",
@@ -829,7 +762,7 @@
         }
       ]
     },
-    "1434": {
+    "1196": {
       "name": "join",
       "type": "Method",
       "url": "/api/class/ObservableArray#join",
@@ -875,7 +808,7 @@
         }
       ]
     },
-    "1437": {
+    "1199": {
       "name": "pop",
       "type": "Method",
       "url": "/api/class/ObservableArray#pop",
@@ -905,7 +838,7 @@
         }
       ]
     },
-    "1439": {
+    "1201": {
       "name": "push",
       "type": "Method",
       "url": "/api/class/ObservableArray#push",
@@ -943,7 +876,7 @@
         }
       ]
     },
-    "1442": {
+    "1204": {
       "name": "_notifyLengthChange",
       "type": "Method",
       "url": "/api/class/ObservableArray#notifylengthchange",
@@ -965,7 +898,7 @@
         }
       ]
     },
-    "1444": {
+    "1206": {
       "name": "reverse",
       "type": "Method",
       "url": "/api/class/ObservableArray#reverse",
@@ -995,7 +928,7 @@
         }
       ]
     },
-    "1446": {
+    "1208": {
       "name": "shift",
       "type": "Method",
       "url": "/api/class/ObservableArray#shift",
@@ -1025,7 +958,7 @@
         }
       ]
     },
-    "1448": {
+    "1210": {
       "name": "slice",
       "type": "Method",
       "url": "/api/class/ObservableArray#slice",
@@ -1086,7 +1019,7 @@
         }
       ]
     },
-    "1452": {
+    "1214": {
       "name": "sort",
       "type": "Method",
       "url": "/api/class/ObservableArray#sort",
@@ -1132,7 +1065,7 @@
         }
       ]
     },
-    "1459": {
+    "1221": {
       "name": "splice",
       "type": "Method",
       "url": "/api/class/ObservableArray#splice",
@@ -1206,7 +1139,7 @@
         }
       ]
     },
-    "1464": {
+    "1226": {
       "name": "unshift",
       "type": "Method",
       "url": "/api/class/ObservableArray#unshift",
@@ -1244,7 +1177,7 @@
         }
       ]
     },
-    "1467": {
+    "1229": {
       "name": "find",
       "type": "Method",
       "url": "/api/class/ObservableArray#find",
@@ -1298,7 +1231,7 @@
         }
       ]
     },
-    "1476": {
+    "1238": {
       "name": "findIndex",
       "type": "Method",
       "url": "/api/class/ObservableArray#findindex",
@@ -1352,7 +1285,7 @@
         }
       ]
     },
-    "1485": {
+    "1247": {
       "name": "includes",
       "type": "Method",
       "url": "/api/class/ObservableArray#includes",
@@ -1411,7 +1344,7 @@
         }
       ]
     },
-    "1489": {
+    "1251": {
       "name": "indexOf",
       "type": "Method",
       "url": "/api/class/ObservableArray#indexof",
@@ -1470,7 +1403,7 @@
         }
       ]
     },
-    "1493": {
+    "1255": {
       "name": "lastIndexOf",
       "type": "Method",
       "url": "/api/class/ObservableArray#lastindexof",
@@ -1529,7 +1462,7 @@
         }
       ]
     },
-    "1497": {
+    "1259": {
       "name": "every",
       "type": "Method",
       "url": "/api/class/ObservableArray#every",
@@ -1588,7 +1521,7 @@
         }
       ]
     },
-    "1506": {
+    "1268": {
       "name": "some",
       "type": "Method",
       "url": "/api/class/ObservableArray#some",
@@ -1647,7 +1580,7 @@
         }
       ]
     },
-    "1515": {
+    "1277": {
       "name": "forEach",
       "type": "Method",
       "url": "/api/class/ObservableArray#foreach",
@@ -1706,7 +1639,7 @@
         }
       ]
     },
-    "1524": {
+    "1286": {
       "name": "map",
       "type": "Method",
       "url": "/api/class/ObservableArray#map",
@@ -1765,7 +1698,7 @@
         }
       ]
     },
-    "1534": {
+    "1296": {
       "name": "filter",
       "type": "Method",
       "url": "/api/class/ObservableArray#filter",
@@ -1824,7 +1757,7 @@
         }
       ]
     },
-    "1543": {
+    "1305": {
       "name": "reduce",
       "type": "Method",
       "url": "/api/class/ObservableArray#reduce",
@@ -1883,7 +1816,7 @@
         }
       ]
     },
-    "1553": {
+    "1315": {
       "name": "reduceRight",
       "type": "Method",
       "url": "/api/class/ObservableArray#reduceright",
@@ -1942,7 +1875,7 @@
         }
       ]
     },
-    "1563": {
+    "1325": {
       "name": "on",
       "type": "Method",
       "url": "/api/class/ObservableArray#on",
@@ -2052,18 +1985,7 @@
             }
           ],
           "inheritedFrom": {
-            "name": "on",
-            "url": "/api/class/Observable#on",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Raised when a propertyChange occurs."
-              }
-            ]
+            "fromName": "Observable"
           },
           "parameters": [
             {
@@ -2088,7 +2010,7 @@
         }
       ]
     },
-    "1578": {
+    "1340": {
       "name": "[iterator]",
       "type": "Method",
       "url": "/api/class/ObservableArray#iterator",
@@ -2110,7 +2032,161 @@
         }
       ]
     },
-    "1580": {
+    "1343": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/ObservableArray#get",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "get",
+        "url": "/api/class/Observable#get",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "get(name: string): any",
+          "url": "/api/class/ObservableArray#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "get",
+            "url": "/api/class/Observable#get",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1346": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/ObservableArray#set",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "set",
+        "url": "/api/class/Observable#set",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "set(name: string, value: any): void",
+          "url": "/api/class/ObservableArray#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "set",
+            "url": "/api/class/Observable#set",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1350": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/ObservableArray#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setProperty",
+        "url": "/api/class/Observable#setproperty",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setProperty(name: string, value: any): void",
+          "url": "/api/class/ObservableArray#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setProperty",
+            "url": "/api/class/Observable#setproperty",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1354": {
       "name": "once",
       "type": "Method",
       "url": "/api/class/ObservableArray#once",
@@ -2124,13 +2200,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#once-once-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 104,
-              "character": 1
+              "line": 106,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2198,11 +2274,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "1588": {
+    "1362": {
       "name": "off",
       "type": "Method",
       "url": "/api/class/ObservableArray#off",
@@ -2216,13 +2292,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "off(eventNames: string, callback?: any, thisArg?: any): any",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#off-off-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 111,
-              "character": 1
+              "line": 110,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2247,7 +2323,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -2260,11 +2336,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "1593": {
+    "1370": {
       "name": "addEventListener",
       "type": "Method",
       "url": "/api/class/ObservableArray#addeventlistener",
@@ -2278,13 +2354,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#addeventlistener-addeventlistener-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 121,
-              "character": 1
+              "line": 117,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2344,11 +2420,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "1601": {
+    "1378": {
       "name": "removeEventListener",
       "type": "Method",
       "url": "/api/class/ObservableArray#removeeventlistener",
@@ -2362,13 +2438,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeEventListener(eventNames: string, callback?: any, thisArg?: any): any",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ObservableArray#removeeventlistener-removeeventlistener-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 131,
-              "character": 1
+              "line": 124,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2401,7 +2477,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               },
@@ -2430,165 +2506,11 @@
               }
             }
           ],
-          "returns": "any"
-        }
-      ]
-    },
-    "1606": {
-      "name": "set",
-      "type": "Method",
-      "url": "/api/class/ObservableArray#set",
-      "flags": {},
-      "inheritedFrom": {
-        "name": "set",
-        "url": "/api/class/Observable#set",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "set(name: string, value: any): void",
-          "url": "/api/class/ObservableArray#set-set-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 138,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "set",
-            "url": "/api/class/Observable#set",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Updates the specified property with the provided value."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "name",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "value",
-              "type": "any",
-              "flags": {}
-            }
-          ],
           "returns": "void"
         }
       ]
     },
-    "1610": {
-      "name": "setProperty",
-      "type": "Method",
-      "url": "/api/class/ObservableArray#setproperty",
-      "flags": {},
-      "inheritedFrom": {
-        "name": "setProperty",
-        "url": "/api/class/Observable#setproperty",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "setProperty(name: string, value: any): void",
-          "url": "/api/class/ObservableArray#setproperty-setproperty-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 143,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "setProperty",
-            "url": "/api/class/Observable#setproperty",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "name",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "value",
-              "type": "any",
-              "flags": {}
-            }
-          ],
-          "returns": "void"
-        }
-      ]
-    },
-    "1614": {
-      "name": "get",
-      "type": "Method",
-      "url": "/api/class/ObservableArray#get",
-      "flags": {},
-      "inheritedFrom": {
-        "name": "get",
-        "url": "/api/class/Observable#get",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "get(name: string): any",
-          "url": "/api/class/ObservableArray#get-get-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 148,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "get",
-            "url": "/api/class/Observable#get",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Gets the value of the specified property."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "name",
-              "type": "string",
-              "flags": {}
-            }
-          ],
-          "returns": "any"
-        }
-      ]
-    },
-    "1617": {
+    "1386": {
       "name": "notify",
       "type": "Method",
       "url": "/api/class/ObservableArray#notify",
@@ -2607,8 +2529,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 154,
-              "character": 1
+              "line": 140,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2621,7 +2543,7 @@
             "summary": [
               {
                 "kind": "text",
-                "text": "Notifies all the registered listeners for the event provided in the data.eventName."
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
               }
             ]
           },
@@ -2634,7 +2556,7 @@
                 "summary": [
                   {
                     "kind": "text",
-                    "text": "The data associated with the event."
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
                   }
                 ]
               }
@@ -2644,7 +2566,7 @@
         }
       ]
     },
-    "1621": {
+    "1390": {
       "name": "notifyPropertyChange",
       "type": "Method",
       "url": "/api/class/ObservableArray#notifypropertychange",
@@ -2658,13 +2580,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyPropertyChange(propertyName: string, value: any, oldValue?: any): void",
+          "code": "notifyPropertyChange(name: string, value: any, oldValue?: any): void",
           "url": "/api/class/ObservableArray#notifypropertychange-notifypropertychange-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 159,
-              "character": 1
+              "line": 145,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2683,7 +2605,7 @@
           },
           "parameters": [
             {
-              "name": "propertyName",
+              "name": "name",
               "type": "string",
               "flags": {}
             },
@@ -2704,7 +2626,7 @@
         }
       ]
     },
-    "1626": {
+    "1395": {
       "name": "hasListeners",
       "type": "Method",
       "url": "/api/class/ObservableArray#haslisteners",
@@ -2723,8 +2645,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 165,
-              "character": 1
+              "line": 150,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2760,49 +2682,7 @@
         }
       ]
     },
-    "1629": {
-      "name": "_emit",
-      "type": "Method",
-      "url": "/api/class/ObservableArray#emit",
-      "flags": {
-        "isPublic": true
-      },
-      "inheritedFrom": {
-        "name": "_emit",
-        "url": "/api/class/Observable#emit",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "_emit(eventNames: string): any",
-          "url": "/api/class/ObservableArray#emit-emit-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 167,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "_emit",
-            "url": "/api/class/Observable#emit",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "parameters": [
-            {
-              "name": "eventNames",
-              "type": "string",
-              "flags": {}
-            }
-          ],
-          "returns": "any"
-        }
-      ]
-    },
-    "1632": {
+    "1398": {
       "name": "_createPropertyChangeData",
       "type": "Method",
       "url": "/api/class/ObservableArray#createpropertychangedata",
@@ -2816,13 +2696,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_createPropertyChangeData(name: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
           "url": "/api/class/ObservableArray#createpropertychangedata-createpropertychangedata-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 172,
-              "character": 1
+              "line": 154,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -2841,7 +2721,7 @@
           },
           "parameters": [
             {
-              "name": "name",
+              "name": "propertyName",
               "type": "string",
               "flags": {}
             },
@@ -2862,52 +2742,43 @@
         }
       ]
     },
-    "1637": {
-      "name": "_isViewBase",
-      "type": "Property",
-      "url": "/api/class/ObservableArray#isviewbase",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Filed to use instead of instanceof ViewBase."
-          }
-        ]
-      },
-      "flags": {
-        "isPrivate": true
-      },
+    "1403": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/ObservableArray#emit",
+      "flags": {},
       "inheritedFrom": {
-        "name": "_isViewBase",
-        "url": "/api/class/Observable#isviewbase",
+        "name": "_emit",
+        "url": "/api/class/Observable#emit",
         "fromName": "Observable",
         "fromUrl": "/api/class/Observable"
       },
       "signatures": [
         {
-          "code": "_isViewBase: boolean",
+          "type": "CallSignature",
+          "code": "_emit(eventNames: string): void",
+          "url": "/api/class/ObservableArray#emit-emit-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 179,
-              "character": 8
+              "line": 155,
+              "character": 4
             }
           ],
           "inheritedFrom": {
-            "name": "_isViewBase",
-            "url": "/api/class/Observable#isviewbase",
+            "name": "_emit",
+            "url": "/api/class/Observable#emit",
             "fromName": "Observable",
             "fromUrl": "/api/class/Observable"
           },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Filed to use instead of instanceof ViewBase."
-              }
-            ]
-          },
-          "url": "/api/class/ObservableArray#isviewbase"
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
         }
       ]
     }

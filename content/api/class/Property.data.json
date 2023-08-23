@@ -21,38 +21,37 @@
     {
       "title": "Constructors",
       "items": [
-        9063
+        11866
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9093,
-        9074,
-        9073,
-        9092,
-        9081,
-        9071,
-        9080,
-        9070,
-        9069,
-        9075,
-        9088,
-        9068,
-        9084,
-        9072
+        11896,
+        11877,
+        11876,
+        11895,
+        11884,
+        11874,
+        11883,
+        11873,
+        11872,
+        11878,
+        11891,
+        11887,
+        11875
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9099,
-        9094
+        11902,
+        11897
       ]
     }
   ],
   "reflections": {
-    "9063": {
+    "11866": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Property#constructor",
@@ -80,28 +79,7 @@
         }
       ]
     },
-    "9068": {
-      "name": "registered",
-      "type": "Property",
-      "url": "/api/class/Property#registered",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "code": "registered: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 44,
-              "character": 12
-            }
-          ],
-          "url": "/api/class/Property#registered"
-        }
-      ]
-    },
-    "9069": {
+    "11872": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/Property#name",
@@ -122,7 +100,7 @@
         }
       ]
     },
-    "9070": {
+    "11873": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/Property#key",
@@ -143,7 +121,7 @@
         }
       ]
     },
-    "9071": {
+    "11874": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/Property#getdefault",
@@ -164,7 +142,7 @@
         }
       ]
     },
-    "9072": {
+    "11875": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/Property#setnative",
@@ -185,7 +163,7 @@
         }
       ]
     },
-    "9073": {
+    "11876": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/Property#defaultvaluekey",
@@ -206,7 +184,7 @@
         }
       ]
     },
-    "9074": {
+    "11877": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/Property#defaultvalue",
@@ -227,7 +205,7 @@
         }
       ]
     },
-    "9075": {
+    "11878": {
       "name": "nativeValueChange",
       "type": "Property",
       "url": "/api/class/Property#nativevaluechange",
@@ -248,7 +226,7 @@
         }
       ]
     },
-    "9080": {
+    "11883": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/Property#isstyleproperty",
@@ -267,7 +245,7 @@
         }
       ]
     },
-    "9081": {
+    "11884": {
       "name": "get",
       "type": "Property",
       "url": "/api/class/Property#get",
@@ -286,7 +264,7 @@
         }
       ]
     },
-    "9084": {
+    "11887": {
       "name": "set",
       "type": "Property",
       "url": "/api/class/Property#set",
@@ -305,7 +283,7 @@
         }
       ]
     },
-    "9088": {
+    "11891": {
       "name": "overrideHandlers",
       "type": "Property",
       "url": "/api/class/Property#overridehandlers",
@@ -324,7 +302,7 @@
         }
       ]
     },
-    "9092": {
+    "11895": {
       "name": "enumerable",
       "type": "Property",
       "url": "/api/class/Property#enumerable",
@@ -343,7 +321,7 @@
         }
       ]
     },
-    "9093": {
+    "11896": {
       "name": "configurable",
       "type": "Property",
       "url": "/api/class/Property#configurable",
@@ -362,7 +340,7 @@
         }
       ]
     },
-    "9094": {
+    "11897": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/Property#register",
@@ -390,7 +368,7 @@
         }
       ]
     },
-    "9099": {
+    "11902": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/Property#isset",

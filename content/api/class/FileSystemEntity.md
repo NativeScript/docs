@@ -1,6 +1,13 @@
 ---
 title: FileSystemEntity
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'FileSystemEntity'
 layout: api
 seo:
   description: "Represents a single entity on the file system."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2002" v-once>
+<APIRef for="1845" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2004" v-once>
+<APIRef for="1847" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2005" v-once>
+<APIRef for="1848" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2007" v-once>
+<APIRef for="1850" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2006" v-once>
+<APIRef for="1849" v-once>
 
 <template #title>
 
@@ -102,7 +109,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2008" v-once>
+<APIRef for="1851" v-once>
 
 <template #title>
 
@@ -116,7 +123,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2010" v-once>
+<APIRef for="1853" v-once>
 
 <template #title>
 
@@ -130,7 +137,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2016" v-once>
+<APIRef for="1859" v-once>
 
 <template #title>
 
@@ -144,7 +151,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2019" v-once>
+<APIRef for="1862" v-once>
 
 <template #title>
 

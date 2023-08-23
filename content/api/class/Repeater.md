@@ -1,6 +1,13 @@
 ---
 title: Repeater
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Repeater'
 layout: api
 seo:
   description: "Represents a UI Repeater component."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18570" v-once>
+<APIRef for="22071" v-once>
 
 <template #title>
 
@@ -42,65 +49,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate">
-
-<APIRef for="18607" v-once>
-
-<template #title>
-
-### _getDataItem
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="18572" v-once>
-
-<template #title>
-
-### _isDirty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="18573" v-once>
-
-<template #title>
-
-### _itemTemplateSelector
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="18574" v-once>
-
-<template #title>
-
-### _itemTemplateSelectorBindable
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="18576" v-once>
+<APIRef for="22077" v-once>
 
 <template #title>
 
@@ -114,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18575" v-once>
+<APIRef for="22076" v-once>
 
 <template #title>
 
@@ -128,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18580" v-once>
+<APIRef for="22081" v-once>
 
 <template #title>
 
@@ -142,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18581" v-once>
+<APIRef for="22082" v-once>
 
 <template #title>
 
@@ -156,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18579" v-once>
+<APIRef for="22080" v-once>
 
 <template #title>
 
@@ -170,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18582" v-once>
+<APIRef for="22083" v-once>
 
 <template #title>
 
@@ -184,7 +135,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="18505" v-once>
+<APIRef for="21991" v-once>
 
 <template #title>
 
@@ -200,7 +151,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18608" v-once>
+<APIRef for="22109" v-once>
 
 <template #title>
 
@@ -214,7 +165,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18583" v-once>
+<APIRef for="22084" v-once>
 
 <template #title>
 
@@ -230,7 +181,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18604" v-once>
+<APIRef for="22105" v-once>
 
 <template #title>
 
@@ -244,7 +195,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18601" v-once>
+<APIRef for="22102" v-once>
 
 <template #title>
 
@@ -258,7 +209,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18597" v-once>
+<APIRef for="22098" v-once>
 
 <template #title>
 
@@ -272,7 +223,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18610" v-once>
+<APIRef for="22111" v-once>
 
 <template #title>
 
@@ -286,7 +237,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18616" v-once>
+<APIRef for="22117" v-once>
 
 <template #title>
 
@@ -300,7 +251,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18577" v-once>
+<APIRef for="22078" v-once>
 
 <template #title>
 
@@ -314,7 +265,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18622" v-once>
+<APIRef for="22123" v-once>
 
 <template #title>
 
@@ -328,7 +279,7 @@ seo:
 
 <div class="">
 
-<APIRef for="18599" v-once>
+<APIRef for="22100" v-once>
 
 <template #title>
 

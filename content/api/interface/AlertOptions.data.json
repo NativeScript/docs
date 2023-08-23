@@ -23,16 +23,16 @@
     {
       "title": "Properties",
       "items": [
-        10134,
-        10133,
-        10131,
-        10135,
-        10132
+        12990,
+        12989,
+        12987,
+        12991,
+        12988
       ]
     }
   ],
   "reflections": {
-    "10131": {
+    "12987": {
       "name": "okButtonText",
       "type": "Property",
       "url": "/api/interface/AlertOptions#okbuttontext",
@@ -69,7 +69,7 @@
         }
       ]
     },
-    "10132": {
+    "12988": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/AlertOptions#title",
@@ -118,7 +118,7 @@
         }
       ]
     },
-    "10133": {
+    "12989": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/AlertOptions#message",
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "10134": {
+    "12990": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/AlertOptions#cancelable",
@@ -216,7 +216,7 @@
         }
       ]
     },
-    "10135": {
+    "12991": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/AlertOptions#theme",

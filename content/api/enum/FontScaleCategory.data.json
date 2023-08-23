@@ -5,14 +5,14 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1238,
-        1236,
-        1237
+        973,
+        971,
+        972
       ]
     }
   ],
   "reflections": {
-    "1236": {
+    "971": {
       "name": "ExtraSmall",
       "type": "EnumMember",
       "url": "/api/enum/FontScaleCategory#extrasmall",
@@ -31,7 +31,7 @@
         }
       ]
     },
-    "1237": {
+    "972": {
       "name": "Medium",
       "type": "EnumMember",
       "url": "/api/enum/FontScaleCategory#medium",
@@ -50,7 +50,7 @@
         }
       ]
     },
-    "1238": {
+    "973": {
       "name": "ExtraLarge",
       "type": "EnumMember",
       "url": "/api/enum/FontScaleCategory#extralarge",

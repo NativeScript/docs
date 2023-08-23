@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        2908
+        5161
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2910
+        5163
       ]
     }
   ],
   "reflections": {
-    "2908": {
+    "5161": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Trace-DefaultErrorHandler#constructor",
@@ -37,7 +37,7 @@
         }
       ]
     },
-    "2910": {
+    "5163": {
       "name": "handlerError",
       "type": "Method",
       "url": "/api/class/Trace-DefaultErrorHandler#handlererror",

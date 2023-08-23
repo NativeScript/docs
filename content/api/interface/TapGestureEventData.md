@@ -1,6 +1,13 @@
 ---
 title: TapGestureEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'TapGestureEventData'
 layout: api
 seo:
   description: "Provides gesture event data."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface TapGestureEventData extends <a href="/api/interface/GestureEventData">GestureEventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface TapGestureEventData extends <a href="/api/interface/GestureEventData">GestureEventData</a> {
   getPointerCount(): number;
   getX(): number;
   getY(): number;
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11153" v-once>
+<APIRef for="14067" v-once>
 
 <template #title>
 
@@ -48,7 +55,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11155" v-once>
+<APIRef for="14069" v-once>
 
 <template #title>
 
@@ -62,7 +69,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11157" v-once>
+<APIRef for="14071" v-once>
 
 <template #title>
 

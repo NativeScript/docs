@@ -1,9 +1,16 @@
 ---
 title: ShadeCoverOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ShadeCoverOptions'
 layout: api
 seo:
-  description: undefined
+  description: ShadeCoverOptions
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ShadeCoverOptions {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ShadeCoverOptions {
   animation: {
   enterFrom?: TransitionAnimation
 };
@@ -36,7 +43,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="33433" v-once>
+<APIRef for="38534" v-once>
 
 <template #title>
 
@@ -50,7 +57,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="33431" v-once>
+<APIRef for="38532" v-once>
 
 <template #title>
 
@@ -64,7 +71,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="33437" v-once>
+<APIRef for="38538" v-once>
 
 <template #title>
 
@@ -78,7 +85,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="33430" v-once>
+<APIRef for="38531" v-once>
 
 <template #title>
 
@@ -92,7 +99,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="33432" v-once>
+<APIRef for="38533" v-once>
 
 <template #title>
 

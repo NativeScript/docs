@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        1924,
-        1925,
-        1923,
-        1926
+        1732,
+        1733,
+        1731,
+        1734
       ]
     }
   ],
   "reflections": {
-    "1923": {
+    "1731": {
       "name": "index",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#index",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "1924": {
+    "1732": {
       "name": "count",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#count",
@@ -95,7 +95,7 @@
         }
       ]
     },
-    "1925": {
+    "1733": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#eventname",
@@ -120,8 +120,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "1926": {
+    "1734": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#object",
@@ -167,8 +167,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

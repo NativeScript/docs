@@ -1,6 +1,13 @@
 ---
 title: ChangedData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ChangedData'
 layout: api
 seo:
   description: "Event args for \"changed\" event."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ChangedData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ChangedData extends <a href="/api/interface/EventData">EventData</a> {
   action: string;
   addedCount: number;
   index: number;
@@ -35,7 +42,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1648" v-once>
+<APIRef for="1416" v-once>
 
 <template #title>
 
@@ -49,7 +56,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1651" v-once>
+<APIRef for="1419" v-once>
 
 <template #title>
 
@@ -63,7 +70,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1649" v-once>
+<APIRef for="1417" v-once>
 
 <template #title>
 
@@ -77,7 +84,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1650" v-once>
+<APIRef for="1418" v-once>
 
 <template #title>
 

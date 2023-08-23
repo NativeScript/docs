@@ -31,18 +31,18 @@
     {
       "title": "Properties",
       "items": [
-        11149,
-        11150,
-        11148,
-        11151,
-        11145,
-        11146,
-        11147
+        14063,
+        14064,
+        14062,
+        14065,
+        14059,
+        14060,
+        14061
       ]
     }
   ],
   "reflections": {
-    "11145": {
+    "14059": {
       "name": "state",
       "type": "Property",
       "url": "/api/interface/GestureEventDataWithState#state",
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "11146": {
+    "14060": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/GestureEventDataWithState#type",
@@ -108,7 +108,7 @@
         }
       ]
     },
-    "11147": {
+    "14061": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/GestureEventDataWithState#view",
@@ -129,7 +129,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -155,7 +155,7 @@
         }
       ]
     },
-    "11148": {
+    "14062": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/GestureEventDataWithState#ios",
@@ -202,7 +202,7 @@
         }
       ]
     },
-    "11149": {
+    "14063": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/GestureEventDataWithState#android",
@@ -249,7 +249,7 @@
         }
       ]
     },
-    "11150": {
+    "14064": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/GestureEventDataWithState#eventname",
@@ -274,8 +274,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -296,7 +296,7 @@
         }
       ]
     },
-    "11151": {
+    "14065": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/GestureEventDataWithState#object",
@@ -321,8 +321,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

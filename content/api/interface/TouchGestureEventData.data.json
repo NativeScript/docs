@@ -17,28 +17,28 @@
     {
       "title": "Properties",
       "items": [
-        11206,
-        11220,
-        11221,
-        11219,
-        11222,
-        11217,
-        11218
+        14120,
+        14134,
+        14135,
+        14133,
+        14136,
+        14131,
+        14132
       ]
     },
     {
       "title": "Methods",
       "items": [
-        11207,
-        11209,
-        11211,
-        11213,
-        11215
+        14121,
+        14123,
+        14125,
+        14127,
+        14129
       ]
     }
   ],
   "reflections": {
-    "11206": {
+    "14120": {
       "name": "action",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#action",
@@ -73,7 +73,7 @@
         }
       ]
     },
-    "11207": {
+    "14121": {
       "name": "getActivePointers",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getactivepointers",
@@ -103,7 +103,7 @@
         }
       ]
     },
-    "11209": {
+    "14123": {
       "name": "getAllPointers",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getallpointers",
@@ -133,7 +133,7 @@
         }
       ]
     },
-    "11211": {
+    "14125": {
       "name": "getPointerCount",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getpointercount",
@@ -175,7 +175,7 @@
         }
       ]
     },
-    "11213": {
+    "14127": {
       "name": "getX",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getx",
@@ -217,7 +217,7 @@
         }
       ]
     },
-    "11215": {
+    "14129": {
       "name": "getY",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#gety",
@@ -259,7 +259,7 @@
         }
       ]
     },
-    "11217": {
+    "14131": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#type",
@@ -306,7 +306,7 @@
         }
       ]
     },
-    "11218": {
+    "14132": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#view",
@@ -327,7 +327,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -353,7 +353,7 @@
         }
       ]
     },
-    "11219": {
+    "14133": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#ios",
@@ -400,7 +400,7 @@
         }
       ]
     },
-    "11220": {
+    "14134": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#android",
@@ -447,7 +447,7 @@
         }
       ]
     },
-    "11221": {
+    "14135": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#eventname",
@@ -472,8 +472,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -494,7 +494,7 @@
         }
       ]
     },
-    "11222": {
+    "14136": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#object",
@@ -519,8 +519,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

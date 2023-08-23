@@ -3,23 +3,21 @@
   "hierarchy": [
     [
       {
-        "text": "EventData",
-        "link": "/api/interface/EventData"
-      }
-    ],
-    [
-      {
         "text": "ApplicationEventData"
       }
     ],
     [
       {
-        "text": "LaunchEventData",
-        "link": "/api/interface/LaunchEventData"
-      },
-      {
         "text": "OrientationChangedEventData",
         "link": "/api/interface/OrientationChangedEventData"
+      },
+      {
+        "text": "SystemAppearanceChangedEventData",
+        "link": "/api/interface/SystemAppearanceChangedEventData"
+      },
+      {
+        "text": "FontScaleChangedEventData",
+        "link": "/api/interface/FontScaleChangedEventData"
       },
       {
         "text": "UnhandledErrorEventData",
@@ -30,8 +28,12 @@
         "link": "/api/interface/DiscardedErrorEventData"
       },
       {
-        "text": "SystemAppearanceChangedEventData",
-        "link": "/api/interface/SystemAppearanceChangedEventData"
+        "text": "CssChangedEventData",
+        "link": "/api/interface/CssChangedEventData"
+      },
+      {
+        "text": "LoadAppCSSEventData",
+        "link": "/api/interface/LoadAppCSSEventData"
       }
     ]
   ],
@@ -39,15 +41,50 @@
     {
       "title": "Properties",
       "items": [
-        1069,
-        1070,
-        1068,
-        1071
+        4680,
+        4678,
+        4679,
+        4681
       ]
     }
   ],
   "reflections": {
-    "1068": {
+    "4678": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/ApplicationEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 28,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ApplicationEventData#eventname"
+        }
+      ]
+    },
+    "4679": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/ApplicationEventData#ios",
@@ -67,9 +104,9 @@
           "code": "ios?: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 109,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 32,
+              "character": 4
             }
           ],
           "comment": {
@@ -84,7 +121,7 @@
         }
       ]
     },
-    "1069": {
+    "4680": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/ApplicationEventData#android",
@@ -104,9 +141,9 @@
           "code": "android?: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 114,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 36,
+              "character": 4
             }
           ],
           "comment": {
@@ -121,42 +158,7 @@
         }
       ]
     },
-    "1070": {
-      "name": "eventName",
-      "type": "Property",
-      "url": "/api/interface/ApplicationEventData#eventname",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The name of the event."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "eventName: string",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 119,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The name of the event."
-              }
-            ]
-          },
-          "url": "/api/interface/ApplicationEventData#eventname"
-        }
-      ]
-    },
-    "1071": {
+    "4681": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/ApplicationEventData#object",
@@ -171,12 +173,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "object: any",
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a> | <a href=\"/api/class/ApplicationCommon\">ApplicationCommon</a>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 124,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 40,
+              "character": 4
             }
           ],
           "comment": {

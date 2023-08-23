@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2703,
-        2702
+        4977,
+        4976
       ]
     }
   ],
   "reflections": {
-    "2702": {
+    "4976": {
       "name": "normal",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontStyle#normal",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Normal font style."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "normal: FontStyleType",
+          "code": "normal: string",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 474,
-              "character": 15
+              "line": 202,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Normal font style."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontStyle#normal"
         }
       ]
     },
-    "2703": {
+    "4977": {
       "name": "italic",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontStyle#italic",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Italic font style."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "italic: FontStyleType",
+          "code": "italic: string",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 479,
-              "character": 15
+              "line": 203,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Italic font style."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontStyle#italic"
         }
       ]

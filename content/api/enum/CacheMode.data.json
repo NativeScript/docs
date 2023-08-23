@@ -5,14 +5,14 @@
     {
       "title": "Enumeration Members",
       "items": [
-        22428,
-        22427,
-        22426
+        26226,
+        26225,
+        26224
       ]
     }
   ],
   "reflections": {
-    "22426": {
+    "26224": {
       "name": "none",
       "type": "EnumMember",
       "url": "/api/enum/CacheMode#none",
@@ -31,7 +31,7 @@
         }
       ]
     },
-    "22427": {
+    "26225": {
       "name": "memory",
       "type": "EnumMember",
       "url": "/api/enum/CacheMode#memory",
@@ -50,7 +50,7 @@
         }
       ]
     },
-    "22428": {
+    "26226": {
       "name": "diskAndMemory",
       "type": "EnumMember",
       "url": "/api/enum/CacheMode#diskandmemory",

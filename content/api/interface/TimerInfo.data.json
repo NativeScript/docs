@@ -11,13 +11,13 @@
     {
       "title": "Properties",
       "items": [
-        2490,
-        2489
+        2388,
+        2387
       ]
     }
   ],
   "reflections": {
-    "2489": {
+    "2387": {
       "name": "totalTime",
       "type": "Property",
       "url": "/api/interface/TimerInfo#totaltime",
@@ -36,7 +36,7 @@
         }
       ]
     },
-    "2490": {
+    "2388": {
       "name": "count",
       "type": "Property",
       "url": "/api/interface/TimerInfo#count",

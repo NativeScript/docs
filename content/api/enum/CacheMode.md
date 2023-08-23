@@ -1,9 +1,16 @@
 ---
 title: CacheMode
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'CacheMode'
 layout: api
 seo:
-  description: undefined
+  description: CacheMode
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -24,7 +31,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22428" v-once>
+<APIRef for="26226" v-once>
 
 <template #title>
 
@@ -38,7 +45,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22427" v-once>
+<APIRef for="26225" v-once>
 
 <template #title>
 
@@ -52,7 +59,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22426" v-once>
+<APIRef for="26224" v-once>
 
 <template #title>
 

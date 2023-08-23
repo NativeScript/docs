@@ -1,6 +1,13 @@
 ---
 title: Size
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'Size'
 layout: api
 seo:
   description: "The Size interface describes abstract dimensions in two dimensional space.\nIt has two properties width and height, representing the width and height values of the size."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface Size {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface Size {
   height: number;
   width: number;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9061" v-once>
+<APIRef for="11864" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9060" v-once>
+<APIRef for="11863" v-once>
 
 <template #title>
 

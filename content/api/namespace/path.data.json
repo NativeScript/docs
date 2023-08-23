@@ -5,19 +5,19 @@
     {
       "title": "Variables",
       "items": [
-        2122
+        1965
       ]
     },
     {
       "title": "Functions",
       "items": [
-        2119,
-        2116
+        1962,
+        1959
       ]
     }
   ],
   "reflections": {
-    "2116": {
+    "1959": {
       "name": "normalize",
       "type": "Function",
       "url": "/api/namespace/path#normalize",
@@ -30,7 +30,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 292,
+              "line": 368,
               "character": 1
             }
           ],
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "2119": {
+    "1962": {
       "name": "join",
       "type": "Function",
       "url": "/api/namespace/path#join",
@@ -74,7 +74,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 298,
+              "line": 374,
               "character": 1
             }
           ],
@@ -107,7 +107,7 @@
         }
       ]
     },
-    "2122": {
+    "1965": {
       "name": "separator",
       "type": "Variable",
       "url": "/api/namespace/path#separator",
@@ -128,7 +128,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 303,
+              "line": 379,
               "character": 14
             }
           ],

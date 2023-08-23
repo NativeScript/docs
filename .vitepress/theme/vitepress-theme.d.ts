@@ -11,6 +11,8 @@ export declare type NSSidebarGroup = DefaultTheme.SidebarItem & {
 
 export declare type NSSidebarItem = DefaultTheme.SidebarItem & {
     icon?: string;
+    collapsible?: boolean;
+    hideChildren?: boolean;
 };
 
 export declare type NSThemeConfig = DefaultTheme.Config & {

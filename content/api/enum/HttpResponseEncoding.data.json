@@ -5,13 +5,13 @@
     {
       "title": "Enumeration Members",
       "items": [
-        2142,
-        2141
+        1998,
+        1997
       ]
     }
   ],
   "reflections": {
-    "2141": {
+    "1997": {
       "name": "UTF8",
       "type": "EnumMember",
       "url": "/api/enum/HttpResponseEncoding#utf8",
@@ -30,7 +30,7 @@
         }
       ]
     },
-    "2142": {
+    "1998": {
       "name": "GBK",
       "type": "EnumMember",
       "url": "/api/enum/HttpResponseEncoding#gbk",

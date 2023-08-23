@@ -1,0 +1,2932 @@
+{
+  "title": "Utils",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "References",
+      "items": [
+        2698,
+        2784
+      ]
+    },
+    {
+      "title": "Namespaces",
+      "items": [
+        2648,
+        2699,
+        2596
+      ]
+    },
+    {
+      "title": "Classes",
+      "items": [
+        2830,
+        2559,
+        2543,
+        2577
+      ]
+    },
+    {
+      "title": "Variables",
+      "items": [
+        2524,
+        2542,
+        2500,
+        2499,
+        2541
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2483,
+        2486,
+        2453,
+        2480,
+        2645,
+        2641,
+        2407,
+        2478,
+        2475,
+        2533,
+        2538,
+        2470,
+        2450,
+        2419,
+        2422,
+        2397,
+        2821,
+        2818,
+        2824,
+        2513,
+        2437,
+        2456,
+        2467,
+        2791,
+        2440,
+        2803,
+        2510,
+        2434,
+        2431,
+        2794,
+        2536,
+        2806,
+        2788,
+        2797,
+        2473,
+        2785,
+        2800,
+        2425,
+        2505,
+        2459,
+        2812,
+        2815,
+        2446,
+        2443,
+        2399,
+        2414,
+        2411,
+        2501,
+        2489,
+        2494,
+        2403,
+        2827,
+        2809
+      ]
+    }
+  ],
+  "reflections": {
+    "2397": {
+      "name": "GC",
+      "type": "Function",
+      "url": "/api/namespace/Utils#gc",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "GC(): any",
+          "url": "/api/namespace/Utils#gc-gc-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 27,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An utility function that invokes garbage collection on the JavaScript side."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "2399": {
+      "name": "queueGC",
+      "type": "Function",
+      "url": "/api/namespace/Utils#queuegc",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "queueGC(delay?: number, useThrottle?: boolean): any",
+          "url": "/api/namespace/Utils#queuegc-queuegc-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 34,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An utility function that queues a garbage collection, multiple calls in quick succession are debounced by default and only one gc will be executed after 900ms."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "delay",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Customize the delay"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "useThrottle",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Instead of default debounce strategy, use throttling"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2403": {
+      "name": "throttle",
+      "type": "Function",
+      "url": "/api/namespace/Utils#throttle",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "throttle(fn: any, delay?: number): any",
+          "url": "/api/namespace/Utils#throttle-throttle-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 41,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A simple throttle utility"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "fn",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Function to throttle"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "delay",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Customize the delay (default is 300ms)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2407": {
+      "name": "debounce",
+      "type": "Function",
+      "url": "/api/namespace/Utils#debounce",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "debounce(fn: any, delay?: number): any",
+          "url": "/api/namespace/Utils#debounce-debounce-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 48,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A simple debounce utility"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "fn",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Function to debounce"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "delay",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Customize the delay (default is 300ms)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2411": {
+      "name": "releaseNativeObject",
+      "type": "Function",
+      "url": "/api/namespace/Utils#releasenativeobject",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "releaseNativeObject(object: any): any",
+          "url": "/api/namespace/Utils#releasenativeobject-releasenativeobject-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 54,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Releases the reference to the wrapped native object"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The Java/Objective-C object to release."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2414": {
+      "name": "queueMacrotask",
+      "type": "Function",
+      "url": "/api/namespace/Utils#queuemacrotask",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "queueMacrotask(task: () => void): void",
+          "url": "/api/namespace/Utils#queuemacrotask-queuemacrotask-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 60,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Queues the passed function to be ran in a macroTask"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "task",
+              "type": "() => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the function to execute as a macroTask"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2419": {
+      "name": "executeOnMainThread",
+      "type": "Function",
+      "url": "/api/namespace/Utils#executeonmainthread",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "executeOnMainThread(func: Function): any",
+          "url": "/api/namespace/Utils#executeonmainthread-executeonmainthread-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 67,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks if the current thread is the main thread. Directly calls the passed function\nif it is, or dispatches it to the main thread otherwise."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "func",
+              "type": "Function",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The function to execute on the main thread."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2422": {
+      "name": "executeOnUIThread",
+      "type": "Function",
+      "url": "/api/namespace/Utils#executeonuithread",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "executeOnUIThread(func: Function): any",
+          "url": "/api/namespace/Utils#executeonuithread-executeonuithread-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 73,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Runs the passed function on the UI Thread."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "func",
+              "type": "Function",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The function to execute on the UI thread."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2425": {
+      "name": "mainThreadify",
+      "type": "Function",
+      "url": "/api/namespace/Utils#mainthreadify",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "mainThreadify(func: Function): (...args: any[]) => void",
+          "url": "/api/namespace/Utils#mainthreadify-mainthreadify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 82,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns a function wrapper which executes the supplied function on the main thread.\nThe wrapper behaves like the original function and passes all of its arguments BUT\ndiscards its return value."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "The wrapper function which schedules execution to the main thread"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "func",
+              "type": "Function",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The function to execute on the main thread"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "(...args: any[]) => void"
+        }
+      ]
+    },
+    "2431": {
+      "name": "isFontIconURI",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isfonticonuri",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isFontIconURI(uri: string): boolean",
+          "url": "/api/namespace/Utils#isfonticonuri-isfonticonuri-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 88,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if the specified URI is a font icon URI like \"fontIcon://&#xf1e0\"."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The URI."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2434": {
+      "name": "isFileOrResourcePath",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isfileorresourcepath",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isFileOrResourcePath(path: string): boolean",
+          "url": "/api/namespace/Utils#isfileorresourcepath-isfileorresourcepath-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 94,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if the specified path points to a resource or local file."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2437": {
+      "name": "getFileExtension",
+      "type": "Function",
+      "url": "/api/namespace/Utils#getfileextension",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getFileExtension(path: string): string",
+          "url": "/api/namespace/Utils#getfileextension-getfileextension-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 101,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get file extension from file path"
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "file extension"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "file path"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2440": {
+      "name": "isDataURI",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isdatauri",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isDataURI(uri: string): boolean",
+          "url": "/api/namespace/Utils#isdatauri-isdatauri-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 107,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if the specified URI is data URI (http://en.wikipedia.org/wiki/Data_URI_scheme)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The URI."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2443": {
+      "name": "openUrl",
+      "type": "Function",
+      "url": "/api/namespace/Utils#openurl",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "openUrl(url: string): boolean",
+          "url": "/api/namespace/Utils#openurl-openurl-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 113,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Opens url."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The url."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2446": {
+      "name": "openFile",
+      "type": "Function",
+      "url": "/api/namespace/Utils#openfile",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "openFile(filePath: string, title?: string): boolean",
+          "url": "/api/namespace/Utils#openfile-openfile-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 120,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Opens file."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Optional title for Android. Default is: 'Open File...'"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2450": {
+      "name": "escapeRegexSymbols",
+      "type": "Function",
+      "url": "/api/namespace/Utils#escaperegexsymbols",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "escapeRegexSymbols(source: string): string",
+          "url": "/api/namespace/Utils#escaperegexsymbols-escaperegexsymbols-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 126,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Escapes special regex symbols (., *, ^, $ and so on) in string in order to create a valid regex from it."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "source",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The original value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2453": {
+      "name": "convertString",
+      "type": "Function",
+      "url": "/api/namespace/Utils#convertstring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "convertString(value: any): any",
+          "url": "/api/namespace/Utils#convertstring-convertstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 132,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Converts string value to number or boolean."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The original value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2456": {
+      "name": "getModuleName",
+      "type": "Function",
+      "url": "/api/namespace/Utils#getmodulename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getModuleName(path: string): string",
+          "url": "/api/namespace/Utils#getmodulename-getmodulename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 138,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets module name from path."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The module path."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2459": {
+      "name": "mergeSort",
+      "type": "Function",
+      "url": "/api/namespace/Utils#mergesort",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "mergeSort(arr: any[], compareFunc: (a: any, b: any) => number): any[]",
+          "url": "/api/namespace/Utils#mergesort-mergesort-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 145,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Sorts an array by using merge sort algorithm (which ensures stable sort since the built-in Array.sort() does not promise a stable sort)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "any[]",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "array to be sorted"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "compareFunc",
+              "type": "(a: any, b: any) => number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "function that will be used to compare two elements of the array"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any[]"
+        }
+      ]
+    },
+    "2467": {
+      "name": "hasDuplicates",
+      "type": "Function",
+      "url": "/api/namespace/Utils#hasduplicates",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasDuplicates(arr: any[]): boolean",
+          "url": "/api/namespace/Utils#hasduplicates-hasduplicates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 151,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks if array has any duplicate elements."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "any[]",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The array to be checked."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2470": {
+      "name": "eliminateDuplicates",
+      "type": "Function",
+      "url": "/api/namespace/Utils#eliminateduplicates",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "eliminateDuplicates(arr: any[]): any[]",
+          "url": "/api/namespace/Utils#eliminateduplicates-eliminateduplicates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 157,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes duplicate elements from array."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "arr",
+              "type": "any[]",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The array."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any[]"
+        }
+      ]
+    },
+    "2473": {
+      "name": "isRealDevice",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isrealdevice",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isRealDevice(): boolean",
+          "url": "/api/namespace/Utils#isrealdevice-isrealdevice-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 162,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether the application is running on real device and not on simulator/emulator."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2475": {
+      "name": "dismissSoftInput",
+      "type": "Function",
+      "url": "/api/namespace/Utils#dismisssoftinput",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "dismissSoftInput(nativeView?: any): void",
+          "url": "/api/namespace/Utils#dismisssoftinput-dismisssoftinput-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 167,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Hides the soft input method, usually a soft keyboard."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "nativeView",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2478": {
+      "name": "dismissKeyboard",
+      "type": "Function",
+      "url": "/api/namespace/Utils#dismisskeyboard",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "dismissKeyboard(): void",
+          "url": "/api/namespace/Utils#dismisskeyboard-dismisskeyboard-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 172,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Dismiss any keyboard visible on the screen."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "2480": {
+      "name": "copyToClipboard",
+      "type": "Function",
+      "url": "/api/namespace/Utils#copytoclipboard",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "copyToClipboard(value: string): void",
+          "url": "/api/namespace/Utils#copytoclipboard-copytoclipboard-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 177,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Copy value to device clipboard."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2483": {
+      "name": "clearInterval",
+      "type": "Function",
+      "url": "/api/namespace/Utils#clearinterval",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "clearInterval(id: number): void",
+          "url": "/api/namespace/Utils#clearinterval-clearinterval-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/timer/index.d.ts",
+              "line": 27,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Clears repeated function which was set up by calling setInterval()."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The identifier returned by the setInterval() method."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2486": {
+      "name": "clearTimeout",
+      "type": "Function",
+      "url": "/api/namespace/Utils#cleartimeout",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "clearTimeout(id: number): void",
+          "url": "/api/namespace/Utils#cleartimeout-cleartimeout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/timer/index.d.ts",
+              "line": 13,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Clears the delay set by a call to the setTimeout function."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The identifier returned by the previously called setTimeout() method."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2489": {
+      "name": "setInterval",
+      "type": "Function",
+      "url": "/api/namespace/Utils#setinterval",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setInterval(callback: Function, milliseconds?: number, ...args: any[]): number",
+          "url": "/api/namespace/Utils#setinterval-setinterval-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/timer/index.d.ts",
+              "line": 21,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Calls a function repeatedly with a delay between each call."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "Function",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The function to be called."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "milliseconds",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The delay between each function call."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "args",
+              "type": "any[]",
+              "flags": {
+                "isRest": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "One or more parameter to use once the function is called. Defaults to no parameters."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2494": {
+      "name": "setTimeout",
+      "type": "Function",
+      "url": "/api/namespace/Utils#settimeout",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setTimeout(callback: Function, milliseconds?: number, ...args: any[]): number",
+          "url": "/api/namespace/Utils#settimeout-settimeout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/timer/index.d.ts",
+              "line": 7,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Calls a function after a specified delay."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "Function",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The function to be called."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "milliseconds",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The time to wait before the function is called. Defaults to 0."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "args",
+              "type": "any[]",
+              "flags": {
+                "isRest": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "One or more parameter to use once the function is called. Defaults to no parameters."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2499": {
+      "name": "RESOURCE_PREFIX",
+      "type": "Variable",
+      "url": "/api/namespace/Utils#resource-prefix",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "RESOURCE_PREFIX: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 11,
+              "character": 13
+            }
+          ],
+          "url": "/api/namespace/Utils#resource-prefix"
+        }
+      ]
+    },
+    "2500": {
+      "name": "FILE_PREFIX",
+      "type": "Variable",
+      "url": "/api/namespace/Utils#file-prefix",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "FILE_PREFIX: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/index.d.ts",
+              "line": 12,
+              "character": 13
+            }
+          ],
+          "url": "/api/namespace/Utils#file-prefix"
+        }
+      ]
+    },
+    "2501": {
+      "name": "sanitizeModuleName",
+      "type": "Function",
+      "url": "/api/namespace/Utils#sanitizemodulename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "sanitizeModuleName(moduleName: string, removeExtension?: boolean): string",
+          "url": "/api/namespace/Utils#sanitizemodulename-sanitizemodulename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/common.d.ts",
+              "line": 13,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Helps sanitize a module name if it is prefixed with '~/', '~' or '/'"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "moduleName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the name"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "removeExtension",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "whether to remove extension"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2505": {
+      "name": "merge",
+      "type": "Function",
+      "url": "/api/namespace/Utils#merge",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "merge(left: any, right: any, compareFunc: any): any[]",
+          "url": "/api/namespace/Utils#merge-merge-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/common.d.ts",
+              "line": 24,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "left",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "right",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "compareFunc",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any[]"
+        }
+      ]
+    },
+    "2510": {
+      "name": "isEmoji",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isemoji",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isEmoji(value: string): boolean",
+          "url": "/api/namespace/Utils#isemoji-isemoji-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/common.d.ts",
+              "line": 33,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2513": {
+      "name": "getDurationWithDampingFromSpring",
+      "type": "Function",
+      "url": "/api/namespace/Utils#getdurationwithdampingfromspring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getDurationWithDampingFromSpring(springSettings?: {\n  friction?: number\n  mass?: number\n  tension?: number\n}): {\n  damping: number\n}",
+          "url": "/api/namespace/Utils#getdurationwithdampingfromspring-getdurationwithdampingfromspring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/common.d.ts",
+              "line": 52,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get a duration with damping value from various spring related settings.\nHelpful when needing to convert spring settings to isolated duration value."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "calculated duration with damping from spring settings"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "springSettings",
+              "type": "{\n  friction?: number\n  mass?: number\n  tension?: number\n}",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "various spring settings"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "{\n  damping: number\n}"
+        }
+      ]
+    },
+    "2524": {
+      "name": "CORE_ANIMATION_DEFAULTS",
+      "type": "Variable",
+      "url": "/api/namespace/Utils#core-animation-defaults",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Default animation values used throughout core"
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "CORE_ANIMATION_DEFAULTS: {\n  duration: number\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/common.d.ts",
+              "line": 37,
+              "character": 21
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Default animation values used throughout core"
+              }
+            ]
+          },
+          "url": "/api/namespace/Utils#core-animation-defaults"
+        }
+      ]
+    },
+    "2533": {
+      "name": "dispatchToMainThread",
+      "type": "Function",
+      "url": "/api/namespace/Utils#dispatchtomainthread",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "dispatchToMainThread(func: Function): any",
+          "url": "/api/namespace/Utils#dispatchtomainthread-dispatchtomainthread-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/mainthread-helper.d.ts",
+              "line": 5,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Dispatches the passed function for execution on the main thread"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "func",
+              "type": "Function",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The function to execute on the main thread."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2536": {
+      "name": "isMainThread",
+      "type": "Function",
+      "url": "/api/namespace/Utils#ismainthread",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isMainThread(): boolean",
+          "url": "/api/namespace/Utils#ismainthread-ismainthread-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/mainthread-helper.d.ts",
+              "line": 10,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Boolean value indicating whether the current thread is the main thread"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2538": {
+      "name": "dispatchToUIThread",
+      "type": "Function",
+      "url": "/api/namespace/Utils#dispatchtouithread",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "dispatchToUIThread(func: Function): any",
+          "url": "/api/namespace/Utils#dispatchtouithread-dispatchtouithread-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/mainthread-helper.d.ts",
+              "line": 16,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Dispatches the passed function for execution on the UI thread"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "func",
+              "type": "Function",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The function to execute on the UI thread."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2541": {
+      "name": "SDK_VERSION",
+      "type": "Variable",
+      "url": "/api/namespace/Utils#sdk-version",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "SDK_VERSION: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/constants.d.ts",
+              "line": 1,
+              "character": 13
+            }
+          ],
+          "url": "/api/namespace/Utils#sdk-version"
+        }
+      ]
+    },
+    "2542": {
+      "name": "debug",
+      "type": "Variable",
+      "url": "/api/namespace/Utils#debug",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A runtime option indicating whether the build has debugging enabled."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "debug: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 4,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A runtime option indicating whether the build has debugging enabled."
+              }
+            ]
+          },
+          "url": "/api/namespace/Utils#debug"
+        }
+      ]
+    },
+    "2543": {
+      "name": "Source",
+      "type": "Class",
+      "url": "/api/class/Utils-Source",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A class encapsulating information for source code origin."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Source",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 9,
+              "character": 13
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A class encapsulating information for source code origin."
+              }
+            ]
+          },
+          "url": "/api/class/Utils-Source"
+        }
+      ]
+    },
+    "2559": {
+      "name": "ScopeError",
+      "type": "Class",
+      "url": "/api/class/Utils-ScopeError",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An Error class that provides additional context to an error."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ScopeError",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 44,
+              "character": 13
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An Error class that provides additional context to an error."
+              }
+            ]
+          },
+          "url": "/api/class/Utils-ScopeError"
+        }
+      ]
+    },
+    "2577": {
+      "name": "SourceError",
+      "type": "Class",
+      "url": "/api/class/Utils-SourceError",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Represents a scope error providing addiot"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "SourceError",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 56,
+              "character": 13
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Represents a scope error providing addiot"
+              }
+            ]
+          },
+          "url": "/api/class/Utils-SourceError"
+        }
+      ]
+    },
+    "2596": {
+      "name": "layout",
+      "type": "Namespace",
+      "url": "/api/namespace/Utils-layout",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Utility module related to layout."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "layout",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 6,
+              "character": 17
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Utility module related to layout."
+              }
+            ]
+          },
+          "url": "/api/namespace/Utils-layout"
+        }
+      ]
+    },
+    "2641": {
+      "name": "dataSerialize",
+      "type": "Function",
+      "url": "/api/namespace/Utils#dataserialize",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "dataSerialize(data?: any, wrapPrimitives?: boolean): any",
+          "url": "/api/namespace/Utils#dataserialize-dataserialize-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/native-helper.d.ts",
+              "line": 5,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Data serialization from JS > Native"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "wrapPrimitives",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Optionally wrap primitive types (Some APIs may require this)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2645": {
+      "name": "dataDeserialize",
+      "type": "Function",
+      "url": "/api/namespace/Utils#datadeserialize",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "dataDeserialize(nativeData?: any): any",
+          "url": "/api/namespace/Utils#datadeserialize-datadeserialize-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/native-helper.d.ts",
+              "line": 10,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Data deserialization from Native > JS"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "nativeData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Native platform data"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2648": {
+      "name": "android",
+      "type": "Namespace",
+      "url": "/api/namespace/Utils-android",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "android",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 1,
+              "character": 0
+            }
+          ],
+          "url": "/api/namespace/Utils-android"
+        }
+      ]
+    },
+    "2698": {
+      "name": "ad",
+      "type": "Reference",
+      "url": "/api/namespace/Utils-android",
+      "flags": {},
+      "signatures": [
+        {
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/native-helper.d.ts",
+              "line": 279,
+              "character": 14
+            }
+          ],
+          "target": {
+            "name": "android",
+            "url": "/api/namespace/Utils-android"
+          }
+        }
+      ]
+    },
+    "2699": {
+      "name": "ios",
+      "type": "Namespace",
+      "url": "/api/namespace/Utils-ios",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ios",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 1,
+              "character": 0
+            }
+          ],
+          "url": "/api/namespace/Utils-ios"
+        }
+      ]
+    },
+    "2784": {
+      "name": "iOSNativeHelper",
+      "type": "Reference",
+      "url": "/api/namespace/Utils-ios",
+      "flags": {},
+      "signatures": [
+        {
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/native-helper.d.ts",
+              "line": 287,
+              "character": 14
+            }
+          ],
+          "target": {
+            "name": "ios",
+            "url": "/api/namespace/Utils-ios"
+          }
+        }
+      ]
+    },
+    "2785": {
+      "name": "isString",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isstring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isString(value: any): boolean",
+          "url": "/api/namespace/Utils#isstring-isstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 6,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is a valid string."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is a string."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2788": {
+      "name": "isNumber",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isnumber",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isNumber(value: any): boolean",
+          "url": "/api/namespace/Utils#isnumber-isnumber-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 13,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is a valid number."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is a number."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2791": {
+      "name": "isBoolean",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isboolean",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isBoolean(value: any): boolean",
+          "url": "/api/namespace/Utils#isboolean-isboolean-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 20,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is a valid boolean."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is a boolean."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2794": {
+      "name": "isFunction",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isfunction",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isFunction(value: any): boolean",
+          "url": "/api/namespace/Utils#isfunction-isfunction-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 27,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is a function."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is a function."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2797": {
+      "name": "isObject",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isobject",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isObject(value: any): boolean",
+          "url": "/api/namespace/Utils#isobject-isobject-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 34,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is an object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is an object."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2800": {
+      "name": "isUndefined",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isundefined",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isUndefined(value: any): boolean",
+          "url": "/api/namespace/Utils#isundefined-isundefined-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 41,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is \"undefined\"."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is \"undefined\"."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2803": {
+      "name": "isDefined",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isdefined",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isDefined(value: any): boolean",
+          "url": "/api/namespace/Utils#isdefined-isdefined-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 48,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is defined (not undefined)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is defined."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2806": {
+      "name": "isNullOrUndefined",
+      "type": "Function",
+      "url": "/api/namespace/Utils#isnullorundefined",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isNullOrUndefined(value: any): boolean",
+          "url": "/api/namespace/Utils#isnullorundefined-isnullorundefined-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 55,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is not defined (null or undefined)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nReturns true if value is null or undefined."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2809": {
+      "name": "verifyCallback",
+      "type": "Function",
+      "url": "/api/namespace/Utils#verifycallback",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "verifyCallback(value: any): void",
+          "url": "/api/namespace/Utils#verifycallback-verifycallback-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 62,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that checks if something is a valid function."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value which will be checked.\nThrows exception if passed value is not a valid function."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2812": {
+      "name": "numberHasDecimals",
+      "type": "Function",
+      "url": "/api/namespace/Utils#numberhasdecimals",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "numberHasDecimals(value: number): boolean",
+          "url": "/api/namespace/Utils#numberhasdecimals-numberhasdecimals-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 68,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks if the number has decimals"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Number to check"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2815": {
+      "name": "numberIs64Bit",
+      "type": "Function",
+      "url": "/api/namespace/Utils#numberis64bit",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "numberIs64Bit(value: number): boolean",
+          "url": "/api/namespace/Utils#numberis64bit-numberis64bit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 74,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks if the number is 64 bit"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Number to check"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2818": {
+      "name": "getClass",
+      "type": "Function",
+      "url": "/api/namespace/Utils#getclass",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getClass(object: any): string",
+          "url": "/api/namespace/Utils#getclass-getclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 81,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that gets the class name of an object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The object.\nReturns a string with the name of the class."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2821": {
+      "name": "getBaseClasses",
+      "type": "Function",
+      "url": "/api/namespace/Utils#getbaseclasses",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getBaseClasses(object: any): string[]",
+          "url": "/api/namespace/Utils#getbaseclasses-getbaseclasses-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 88,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that gets the entire class hierarchy of an object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The object.\nReturns an array of strings with the name of all base classes."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string[]"
+        }
+      ]
+    },
+    "2824": {
+      "name": "getClassInfo",
+      "type": "Function",
+      "url": "/api/namespace/Utils#getclassinfo",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getClassInfo(object: Object): <a href=\"/api/class/Utils-ClassInfo\">ClassInfo</a>",
+          "url": "/api/namespace/Utils#getclassinfo-getclassinfo-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 95,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that gets the ClassInfo for an object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "Object",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The object.\nReturns a ClassInfo for the object."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Utils-ClassInfo\">ClassInfo</a>"
+        }
+      ]
+    },
+    "2827": {
+      "name": "toUIString",
+      "type": "Function",
+      "url": "/api/namespace/Utils#touistring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toUIString(object: any): string",
+          "url": "/api/namespace/Utils#touistring-touistring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 116,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns a string representation of an object to be shown in UI."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The object."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2830": {
+      "name": "ClassInfo",
+      "type": "Class",
+      "url": "/api/class/Utils-ClassInfo",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A Class holding information about a class"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ClassInfo",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 100,
+              "character": 13
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A Class holding information about a class"
+              }
+            ]
+          },
+          "url": "/api/class/Utils-ClassInfo"
+        }
+      ]
+    }
+  }
+}

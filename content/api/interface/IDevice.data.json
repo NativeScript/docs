@@ -11,20 +11,20 @@
     {
       "title": "Properties",
       "items": [
-        2439,
-        2441,
-        2434,
-        2435,
-        2436,
-        2437,
-        2442,
-        2438,
-        2440
+        2337,
+        2339,
+        2332,
+        2333,
+        2334,
+        2335,
+        2340,
+        2336,
+        2338
       ]
     }
   ],
   "reflections": {
-    "2434": {
+    "2332": {
       "name": "manufacturer",
       "type": "Property",
       "url": "/api/interface/IDevice#manufacturer",
@@ -59,7 +59,7 @@
         }
       ]
     },
-    "2435": {
+    "2333": {
       "name": "model",
       "type": "Property",
       "url": "/api/interface/IDevice#model",
@@ -94,7 +94,7 @@
         }
       ]
     },
-    "2436": {
+    "2334": {
       "name": "os",
       "type": "Property",
       "url": "/api/interface/IDevice#os",
@@ -129,7 +129,7 @@
         }
       ]
     },
-    "2437": {
+    "2335": {
       "name": "osVersion",
       "type": "Property",
       "url": "/api/interface/IDevice#osversion",
@@ -164,7 +164,7 @@
         }
       ]
     },
-    "2438": {
+    "2336": {
       "name": "sdkVersion",
       "type": "Property",
       "url": "/api/interface/IDevice#sdkversion",
@@ -199,7 +199,7 @@
         }
       ]
     },
-    "2439": {
+    "2337": {
       "name": "deviceType",
       "type": "Property",
       "url": "/api/interface/IDevice#devicetype",
@@ -234,7 +234,7 @@
         }
       ]
     },
-    "2440": {
+    "2338": {
       "name": "uuid",
       "type": "Property",
       "url": "/api/interface/IDevice#uuid",
@@ -269,7 +269,7 @@
         }
       ]
     },
-    "2441": {
+    "2339": {
       "name": "language",
       "type": "Property",
       "url": "/api/interface/IDevice#language",
@@ -304,7 +304,7 @@
         }
       ]
     },
-    "2442": {
+    "2340": {
       "name": "region",
       "type": "Property",
       "url": "/api/interface/IDevice#region",

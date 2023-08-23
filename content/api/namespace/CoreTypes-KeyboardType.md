@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.KeyboardType
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'KeyboardType'
 layout: api
 seo:
-  description: "Represents a soft keyboard flavor."
+  description: CoreTypes.KeyboardType
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJSZXByZXNlbnRzIGEgc29mdCBrZXlib2FyZCBmbGF2b3IuIn1dfQ==" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2605" v-once>
+<APIRef for="4825" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2609" v-once>
+<APIRef for="4829" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2610" v-once>
+<APIRef for="4830" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2607" v-once>
+<APIRef for="4827" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2606" v-once>
+<APIRef for="4826" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2608" v-once>
+<APIRef for="4828" v-once>
 
 <template #title>
 

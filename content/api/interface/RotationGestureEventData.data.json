@@ -17,19 +17,19 @@
     {
       "title": "Properties",
       "items": [
-        11194,
-        11195,
-        11193,
-        11196,
-        11189,
-        11190,
-        11191,
-        11192
+        14108,
+        14109,
+        14107,
+        14110,
+        14103,
+        14104,
+        14105,
+        14106
       ]
     }
   ],
   "reflections": {
-    "11189": {
+    "14103": {
       "name": "rotation",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#rotation",
@@ -48,7 +48,7 @@
         }
       ]
     },
-    "11190": {
+    "14104": {
       "name": "state",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#state",
@@ -79,7 +79,7 @@
         }
       ]
     },
-    "11191": {
+    "14105": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#type",
@@ -126,7 +126,7 @@
         }
       ]
     },
-    "11192": {
+    "14106": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#view",
@@ -147,7 +147,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -173,7 +173,7 @@
         }
       ]
     },
-    "11193": {
+    "14107": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#ios",
@@ -220,7 +220,7 @@
         }
       ]
     },
-    "11194": {
+    "14108": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#android",
@@ -267,7 +267,7 @@
         }
       ]
     },
-    "11195": {
+    "14109": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#eventname",
@@ -292,8 +292,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -314,7 +314,7 @@
         }
       ]
     },
-    "11196": {
+    "14110": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/RotationGestureEventData#object",
@@ -339,8 +339,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

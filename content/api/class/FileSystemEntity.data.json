@@ -21,30 +21,30 @@
     {
       "title": "Constructors",
       "items": [
-        2002
+        1845
       ]
     },
     {
       "title": "Properties",
       "items": [
-        2004,
-        2005,
-        2007,
-        2006
+        1847,
+        1848,
+        1850,
+        1849
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2008,
-        2010,
-        2016,
-        2019
+        1851,
+        1853,
+        1859,
+        1862
       ]
     }
   ],
   "reflections": {
-    "2002": {
+    "1845": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/FileSystemEntity#constructor",
@@ -59,7 +59,7 @@
         }
       ]
     },
-    "2004": {
+    "1847": {
       "name": "lastModified",
       "type": "Property",
       "url": "/api/class/FileSystemEntity#lastmodified",
@@ -78,7 +78,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 16,
+              "line": 31,
               "character": 1
             }
           ],
@@ -94,7 +94,7 @@
         }
       ]
     },
-    "2005": {
+    "1848": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/FileSystemEntity#name",
@@ -113,7 +113,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 21,
+              "line": 36,
               "character": 1
             }
           ],
@@ -129,7 +129,7 @@
         }
       ]
     },
-    "2006": {
+    "1849": {
       "name": "path",
       "type": "Property",
       "url": "/api/class/FileSystemEntity#path",
@@ -148,7 +148,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 26,
+              "line": 41,
               "character": 1
             }
           ],
@@ -164,7 +164,7 @@
         }
       ]
     },
-    "2007": {
+    "1850": {
       "name": "parent",
       "type": "Property",
       "url": "/api/class/FileSystemEntity#parent",
@@ -183,7 +183,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 33,
+              "line": 48,
               "character": 1
             }
           ],
@@ -199,7 +199,7 @@
         }
       ]
     },
-    "2008": {
+    "1851": {
       "name": "remove",
       "type": "Method",
       "url": "/api/class/FileSystemEntity#remove",
@@ -212,7 +212,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 38,
+              "line": 53,
               "character": 1
             }
           ],
@@ -229,7 +229,7 @@
         }
       ]
     },
-    "2010": {
+    "1853": {
       "name": "removeSync",
       "type": "Method",
       "url": "/api/class/FileSystemEntity#removesync",
@@ -242,7 +242,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 43,
+              "line": 58,
               "character": 1
             }
           ],
@@ -267,7 +267,7 @@
         }
       ]
     },
-    "2016": {
+    "1859": {
       "name": "rename",
       "type": "Method",
       "url": "/api/class/FileSystemEntity#rename",
@@ -280,7 +280,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 49,
+              "line": 64,
               "character": 1
             }
           ],
@@ -311,7 +311,7 @@
         }
       ]
     },
-    "2019": {
+    "1862": {
       "name": "renameSync",
       "type": "Method",
       "url": "/api/class/FileSystemEntity#renamesync",
@@ -324,7 +324,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 55,
+              "line": 70,
               "character": 1
             }
           ],

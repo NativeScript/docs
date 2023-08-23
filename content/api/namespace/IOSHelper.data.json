@@ -5,33 +5,33 @@
     {
       "title": "Classes",
       "items": [
-        8322,
-        8316,
-        8329
+        11072,
+        11066,
+        11079
       ]
     },
     {
       "title": "Variables",
       "items": [
-        8315
+        11065
       ]
     },
     {
       "title": "Functions",
       "items": [
-        8311,
-        8293,
-        8270,
-        8285,
-        8281,
-        8307,
-        8273,
-        8277
+        11061,
+        11043,
+        11020,
+        11035,
+        11031,
+        11057,
+        11023,
+        11027
       ]
     }
   ],
   "reflections": {
-    "8270": {
+    "11020": {
       "name": "getParentWithViewController",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#getparentwithviewcontroller",
@@ -39,7 +39,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getParentWithViewController(view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): <a href=\"/api/class/View\">View</a>",
+          "code": "getParentWithViewController(view: <a href=\"/api/class/View\">View</a>): <a href=\"/api/class/View\">View</a>",
           "url": "/api/namespace/IOSHelper#getparentwithviewcontroller-getparentwithviewcontroller-1",
           "sources": [
             {
@@ -59,7 +59,7 @@
           "parameters": [
             {
               "name": "view",
-              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "type": "<a href=\"/api/class/View\">View</a>",
               "flags": {},
               "comment": {
                 "summary": [
@@ -75,7 +75,7 @@
         }
       ]
     },
-    "8273": {
+    "11023": {
       "name": "updateAutoAdjustScrollInsets",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#updateautoadjustscrollinsets",
@@ -83,7 +83,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "updateAutoAdjustScrollInsets(controller: any, owner: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): void",
+          "code": "updateAutoAdjustScrollInsets(controller: any, owner: <a href=\"/api/class/View\">View</a>): void",
           "url": "/api/namespace/IOSHelper#updateautoadjustscrollinsets-updateautoadjustscrollinsets-1",
           "sources": [
             {
@@ -100,7 +100,7 @@
             },
             {
               "name": "owner",
-              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "type": "<a href=\"/api/class/View\">View</a>",
               "flags": {}
             }
           ],
@@ -108,7 +108,7 @@
         }
       ]
     },
-    "8277": {
+    "11027": {
       "name": "updateConstraints",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#updateconstraints",
@@ -116,7 +116,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "updateConstraints(controller: any, owner: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): void",
+          "code": "updateConstraints(controller: any, owner: <a href=\"/api/class/View\">View</a>): void",
           "url": "/api/namespace/IOSHelper#updateconstraints-updateconstraints-1",
           "sources": [
             {
@@ -133,7 +133,7 @@
             },
             {
               "name": "owner",
-              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "type": "<a href=\"/api/class/View\">View</a>",
               "flags": {}
             }
           ],
@@ -141,7 +141,7 @@
         }
       ]
     },
-    "8281": {
+    "11031": {
       "name": "layoutView",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#layoutview",
@@ -149,7 +149,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "layoutView(controller: any, owner: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;): void",
+          "code": "layoutView(controller: any, owner: <a href=\"/api/class/View\">View</a>): void",
           "url": "/api/namespace/IOSHelper#layoutview-layoutview-1",
           "sources": [
             {
@@ -166,7 +166,7 @@
             },
             {
               "name": "owner",
-              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "type": "<a href=\"/api/class/View\">View</a>",
               "flags": {}
             }
           ],
@@ -174,7 +174,7 @@
         }
       ]
     },
-    "8285": {
+    "11035": {
       "name": "getPositionFromFrame",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#getpositionfromframe",
@@ -202,7 +202,7 @@
         }
       ]
     },
-    "8293": {
+    "11043": {
       "name": "getFrameFromPosition",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#getframefromposition",
@@ -237,7 +237,7 @@
         }
       ]
     },
-    "8307": {
+    "11057": {
       "name": "shrinkToSafeArea",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#shrinktosafearea",
@@ -245,7 +245,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "shrinkToSafeArea(view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;, frame: any): any",
+          "code": "shrinkToSafeArea(view: <a href=\"/api/class/View\">View</a>, frame: any): any",
           "url": "/api/namespace/IOSHelper#shrinktosafearea-shrinktosafearea-1",
           "sources": [
             {
@@ -257,7 +257,7 @@
           "parameters": [
             {
               "name": "view",
-              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "type": "<a href=\"/api/class/View\">View</a>",
               "flags": {}
             },
             {
@@ -270,7 +270,7 @@
         }
       ]
     },
-    "8311": {
+    "11061": {
       "name": "expandBeyondSafeArea",
       "type": "Function",
       "url": "/api/namespace/IOSHelper#expandbeyondsafearea",
@@ -278,7 +278,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "expandBeyondSafeArea(view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;, frame: any): any",
+          "code": "expandBeyondSafeArea(view: <a href=\"/api/class/View\">View</a>, frame: any): any",
           "url": "/api/namespace/IOSHelper#expandbeyondsafearea-expandbeyondsafearea-1",
           "sources": [
             {
@@ -290,7 +290,7 @@
           "parameters": [
             {
               "name": "view",
-              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "type": "<a href=\"/api/class/View\">View</a>",
               "flags": {}
             },
             {
@@ -303,7 +303,7 @@
         }
       ]
     },
-    "8315": {
+    "11065": {
       "name": "traitCollectionColorAppearanceChangedEvent",
       "type": "Variable",
       "url": "/api/namespace/IOSHelper#traitcollectioncolorappearancechangedevent",
@@ -340,7 +340,7 @@
         }
       ]
     },
-    "8316": {
+    "11066": {
       "name": "UILayoutViewController",
       "type": "Class",
       "url": "/api/class/IOSHelper-UILayoutViewController",
@@ -359,7 +359,7 @@
         }
       ]
     },
-    "8322": {
+    "11072": {
       "name": "UIAdaptivePresentationControllerDelegateImp",
       "type": "Class",
       "url": "/api/class/IOSHelper-UIAdaptivePresentationControllerDelegateImp",
@@ -378,7 +378,7 @@
         }
       ]
     },
-    "8329": {
+    "11079": {
       "name": "UIPopoverPresentationControllerDelegateImp",
       "type": "Class",
       "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp",

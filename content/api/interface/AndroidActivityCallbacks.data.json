@@ -11,23 +11,23 @@
     {
       "title": "Methods",
       "items": [
-        11008,
-        11051,
-        11040,
-        11013,
-        11036,
-        11058,
-        11032,
-        11044,
-        11019,
-        11024,
-        11028,
-        11010
+        13922,
+        13965,
+        13954,
+        13927,
+        13950,
+        13972,
+        13946,
+        13958,
+        13933,
+        13938,
+        13942,
+        13924
       ]
     }
   ],
   "reflections": {
-    "11008": {
+    "13922": {
       "name": "getRootView",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#getrootview",
@@ -49,7 +49,7 @@
         }
       ]
     },
-    "11010": {
+    "13924": {
       "name": "resetActivityContent",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#resetactivitycontent",
@@ -77,7 +77,7 @@
         }
       ]
     },
-    "11013": {
+    "13927": {
       "name": "onCreate",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#oncreate",
@@ -120,7 +120,7 @@
         }
       ]
     },
-    "11019": {
+    "13933": {
       "name": "onSaveInstanceState",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onsaveinstancestate",
@@ -158,7 +158,7 @@
         }
       ]
     },
-    "11024": {
+    "13938": {
       "name": "onStart",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onstart",
@@ -191,7 +191,7 @@
         }
       ]
     },
-    "11028": {
+    "13942": {
       "name": "onStop",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onstop",
@@ -224,7 +224,7 @@
         }
       ]
     },
-    "11032": {
+    "13946": {
       "name": "onPostResume",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onpostresume",
@@ -257,7 +257,7 @@
         }
       ]
     },
-    "11036": {
+    "13950": {
       "name": "onDestroy",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#ondestroy",
@@ -290,7 +290,7 @@
         }
       ]
     },
-    "11040": {
+    "13954": {
       "name": "onBackPressed",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onbackpressed",
@@ -323,7 +323,7 @@
         }
       ]
     },
-    "11044": {
+    "13958": {
       "name": "onRequestPermissionsResult",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onrequestpermissionsresult",
@@ -371,7 +371,7 @@
         }
       ]
     },
-    "11051": {
+    "13965": {
       "name": "onActivityResult",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onactivityresult",
@@ -419,7 +419,7 @@
         }
       ]
     },
-    "11058": {
+    "13972": {
       "name": "onNewIntent",
       "type": "Method",
       "url": "/api/interface/AndroidActivityCallbacks#onnewintent",

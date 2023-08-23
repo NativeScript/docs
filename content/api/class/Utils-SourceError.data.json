@@ -1,0 +1,308 @@
+{
+  "title": "SourceError",
+  "hierarchy": [
+    [
+      {
+        "text": "ScopeError",
+        "link": "/api/class/Utils-ScopeError"
+      }
+    ],
+    [
+      {
+        "text": "SourceError"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2588
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2594,
+        2593,
+        2582,
+        2595,
+        2587
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2578
+      ]
+    }
+  ],
+  "reflections": {
+    "2578": {
+      "name": "captureStackTrace",
+      "type": "Method",
+      "url": "/api/class/Utils-SourceError#capturestacktrace",
+      "flags": {
+        "isStatic": true,
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "captureStackTrace(targetObject: object, constructorOpt?: Function): void",
+          "url": "/api/class/Utils-SourceError#capturestacktrace-capturestacktrace-1",
+          "sources": [
+            {
+              "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
+              "line": 4,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Create .stack property on a target object"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "targetObject",
+              "type": "object",
+              "flags": {
+                "isExternal": true
+              }
+            },
+            {
+              "name": "constructorOpt",
+              "type": "Function",
+              "flags": {
+                "isExternal": true,
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2582": {
+      "name": "prepareStackTrace",
+      "type": "Property",
+      "url": "/api/class/Utils-SourceError#preparestacktrace",
+      "flags": {
+        "isStatic": true,
+        "isExternal": true,
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "prepareStackTrace?: (err: Error, stackTraces: CallSite[]) => any",
+          "sources": [
+            {
+              "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
+              "line": 11,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-SourceError#preparestacktrace"
+        }
+      ]
+    },
+    "2587": {
+      "name": "stackTraceLimit",
+      "type": "Property",
+      "url": "/api/class/Utils-SourceError#stacktracelimit",
+      "flags": {
+        "isStatic": true,
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "stackTraceLimit: number",
+          "sources": [
+            {
+              "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-SourceError#stacktracelimit"
+        }
+      ]
+    },
+    "2588": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Utils-SourceError#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new SourceError(child: Error, source: <a href=\"/api/class/Utils-Source\">Source</a>, message?: string): <a href=\"/api/class/Utils-SourceError\">SourceError</a>",
+          "url": "/api/class/Utils-SourceError#constructor-new-sourceerror",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 63,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates a new SourceError by child error, source and optional message."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "child",
+              "type": "Error",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The child error to extend."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "source",
+              "type": "<a href=\"/api/class/Utils-Source\">Source</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The source where the error occured."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Additonal message to prepend along the source location and the child error's message."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Utils-SourceError\">SourceError</a>"
+        }
+      ]
+    },
+    "2593": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/Utils-SourceError#name",
+      "flags": {
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1040,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-SourceError#name"
+        }
+      ]
+    },
+    "2594": {
+      "name": "message",
+      "type": "Property",
+      "url": "/api/class/Utils-SourceError#message",
+      "flags": {
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "message: string",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1041,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-SourceError#message"
+        }
+      ]
+    },
+    "2595": {
+      "name": "stack",
+      "type": "Property",
+      "url": "/api/class/Utils-SourceError#stack",
+      "flags": {
+        "isExternal": true,
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "stack?: string",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1042,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-SourceError#stack"
+        }
+      ]
+    }
+  }
+}

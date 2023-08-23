@@ -1,6 +1,13 @@
 ---
 title: PanGestureEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'PanGestureEventData'
 layout: api
 seo:
   description: "Provides gesture event data for pan gesture."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface PanGestureEventData extends <a href="/api/interface/GestureEventDataWithState">GestureEventDataWithState</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface PanGestureEventData extends <a href="/api/interface/GestureEventDataWithState">GestureEventDataWithState</a> {
   deltaX: number;
   deltaY: number;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11166" v-once>
+<APIRef for="14080" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11167" v-once>
+<APIRef for="14081" v-once>
 
 <template #title>
 

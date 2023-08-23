@@ -1,0 +1,53 @@
+{
+  "title": "SharedTransitionAnimationType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        32707,
+        32706
+      ]
+    }
+  ],
+  "reflections": {
+    "32706": {
+      "name": "present",
+      "type": "EnumMember",
+      "url": "/api/enum/SharedTransitionAnimationType#present",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "present: 0",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 7,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/SharedTransitionAnimationType#present"
+        }
+      ]
+    },
+    "32707": {
+      "name": "dismiss",
+      "type": "EnumMember",
+      "url": "/api/enum/SharedTransitionAnimationType#dismiss",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "dismiss: 1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 8,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/SharedTransitionAnimationType#dismiss"
+        }
+      ]
+    }
+  }
+}

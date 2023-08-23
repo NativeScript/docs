@@ -1,6 +1,13 @@
 ---
 title: LoginOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'LoginOptions'
 layout: api
 seo:
   description: "Provides options for the login dialog."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface LoginOptions extends <a href="/api/interface/ConfirmOptions">ConfirmOptions</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface LoginOptions extends <a href="/api/interface/ConfirmOptions">ConfirmOptions</a> {
   password: string;
   passwordHint: string;
   userName: string;
@@ -35,7 +42,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10174" v-once>
+<APIRef for="13030" v-once>
 
 <template #title>
 
@@ -49,7 +56,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10172" v-once>
+<APIRef for="13028" v-once>
 
 <template #title>
 
@@ -63,7 +70,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10173" v-once>
+<APIRef for="13029" v-once>
 
 <template #title>
 
@@ -77,7 +84,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10171" v-once>
+<APIRef for="13027" v-once>
 
 <template #title>
 

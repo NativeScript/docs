@@ -1,9 +1,16 @@
 ---
 title: PercentLength
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'PercentLength'
 layout: api
 seo:
-  description: undefined
+  description: PercentLength
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35690" v-once>
+<APIRef for="40950" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35681" v-once>
+<APIRef for="40941" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35678" v-once>
+<APIRef for="40938" v-once>
 
 <template #title>
 
@@ -68,7 +75,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35685" v-once>
+<APIRef for="40945" v-once>
 
 <template #title>
 

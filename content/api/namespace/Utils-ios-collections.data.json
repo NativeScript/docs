@@ -1,0 +1,71 @@
+{
+  "title": "collections",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        2775,
+        2779
+      ]
+    }
+  ],
+  "reflections": {
+    "2775": {
+      "name": "jsArrayToNSArray",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios-collections#jsarraytonsarray",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "jsArrayToNSArray&lt;T&gt;(str: T[]): NSArray&lt;T&gt;",
+          "url": "/api/namespace/Utils-ios-collections#jsarraytonsarray-jsarraytonsarray-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 5,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "str",
+              "type": "T[]",
+              "flags": {}
+            }
+          ],
+          "returns": "NSArray&lt;T&gt;"
+        }
+      ]
+    },
+    "2779": {
+      "name": "nsArrayToJSArray",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios-collections#nsarraytojsarray",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "nsArrayToJSArray&lt;T&gt;(a: NSArray&lt;T&gt;): T[]",
+          "url": "/api/namespace/Utils-ios-collections#nsarraytojsarray-nsarraytojsarray-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 6,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "a",
+              "type": "NSArray&lt;T&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "T[]"
+        }
+      ]
+    }
+  }
+}

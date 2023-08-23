@@ -11,15 +11,15 @@
     {
       "title": "Properties",
       "items": [
-        6499,
-        6496,
-        6497,
-        6498
+        9065,
+        9062,
+        9063,
+        9064
       ]
     }
   ],
   "reflections": {
-    "6496": {
+    "9062": {
       "name": "sourceProperty",
       "type": "Property",
       "url": "/api/interface/BindingOptions#sourceproperty",
@@ -54,7 +54,7 @@
         }
       ]
     },
-    "6497": {
+    "9063": {
       "name": "targetProperty",
       "type": "Property",
       "url": "/api/interface/BindingOptions#targetproperty",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "6498": {
+    "9064": {
       "name": "twoWay",
       "type": "Property",
       "url": "/api/interface/BindingOptions#twoway",
@@ -126,7 +126,7 @@
         }
       ]
     },
-    "6499": {
+    "9065": {
       "name": "expression",
       "type": "Property",
       "url": "/api/interface/BindingOptions#expression",

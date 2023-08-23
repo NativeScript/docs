@@ -1,6 +1,13 @@
 ---
 title: CancelableOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'CancelableOptions'
 layout: api
 seo:
   description: "Provides options for the dialog."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface CancelableOptions {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface CancelableOptions {
   cancelable: boolean;
   theme: number;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10128" v-once>
+<APIRef for="12984" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10129" v-once>
+<APIRef for="12985" v-once>
 
 <template #title>
 

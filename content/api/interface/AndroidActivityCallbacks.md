@@ -1,9 +1,16 @@
 ---
 title: AndroidActivityCallbacks
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'AndroidActivityCallbacks'
 layout: api
 seo:
-  description: undefined
+  description: AndroidActivityCallbacks
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface AndroidActivityCallbacks {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface AndroidActivityCallbacks {
   getRootView(): <a href="/api/class/View">View</a>;
   onActivityResult(
   activity: any,
@@ -63,7 +70,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11008" v-once>
+<APIRef for="13922" v-once>
 
 <template #title>
 
@@ -77,7 +84,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11051" v-once>
+<APIRef for="13965" v-once>
 
 <template #title>
 
@@ -91,7 +98,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11040" v-once>
+<APIRef for="13954" v-once>
 
 <template #title>
 
@@ -105,7 +112,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11013" v-once>
+<APIRef for="13927" v-once>
 
 <template #title>
 
@@ -119,7 +126,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11036" v-once>
+<APIRef for="13950" v-once>
 
 <template #title>
 
@@ -133,7 +140,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11058" v-once>
+<APIRef for="13972" v-once>
 
 <template #title>
 
@@ -147,7 +154,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11032" v-once>
+<APIRef for="13946" v-once>
 
 <template #title>
 
@@ -161,7 +168,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11044" v-once>
+<APIRef for="13958" v-once>
 
 <template #title>
 
@@ -175,7 +182,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11019" v-once>
+<APIRef for="13933" v-once>
 
 <template #title>
 
@@ -189,7 +196,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11024" v-once>
+<APIRef for="13938" v-once>
 
 <template #title>
 
@@ -203,7 +210,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11028" v-once>
+<APIRef for="13942" v-once>
 
 <template #title>
 
@@ -217,7 +224,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11010" v-once>
+<APIRef for="13924" v-once>
 
 <template #title>
 

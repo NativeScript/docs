@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        2551
+        2836
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2564
+        2849
       ]
     }
   ],
   "reflections": {
-    "2551": {
+    "2836": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/XmlParser#constructor",
@@ -103,7 +103,7 @@
         }
       ]
     },
-    "2564": {
+    "2849": {
       "name": "parse",
       "type": "Method",
       "url": "/api/class/XmlParser#parse",

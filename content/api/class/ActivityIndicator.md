@@ -1,6 +1,13 @@
 ---
 title: ActivityIndicator
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ActivityIndicator'
 layout: api
 seo:
   description: "Represents a UI widget which displays a progress indicator hinting the user for some background operation running."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4335" v-once>
+<APIRef for="6760" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4337" v-once>
+<APIRef for="6762" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4339" v-once>
+<APIRef for="6764" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4338" v-once>
+<APIRef for="6763" v-once>
 
 <template #title>
 

@@ -1,0 +1,101 @@
+{
+  "title": "AccessibilityEvents",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        932,
+        934,
+        933,
+        935
+      ]
+    }
+  ],
+  "reflections": {
+    "932": {
+      "name": "accessibilityBlurEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityblurevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "accessibilityBlurEvent: \"accessibilityBlur\" = Accessibility.accessibilityBlurEvent",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 14,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityblurevent"
+        }
+      ]
+    },
+    "933": {
+      "name": "accessibilityFocusEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityfocusevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "accessibilityFocusEvent: \"accessibilityFocus\" = Accessibility.accessibilityFocusEvent",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 15,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityfocusevent"
+        }
+      ]
+    },
+    "934": {
+      "name": "accessibilityFocusChangedEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityfocuschangedevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "accessibilityFocusChangedEvent: \"accessibilityFocusChanged\" = Accessibility.accessibilityFocusChangedEvent",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 16,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityfocuschangedevent"
+        }
+      ]
+    },
+    "935": {
+      "name": "accessibilityPerformEscapeEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityperformescapeevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "accessibilityPerformEscapeEvent: \"accessibilityPerformEscape\" = Accessibility.accessibilityPerformEscapeEvent",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 17,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityperformescapeevent"
+        }
+      ]
+    }
+  }
+}

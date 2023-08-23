@@ -1,9 +1,16 @@
 ---
 title: HttpResponseEncoding
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'HttpResponseEncoding'
 layout: api
 seo:
-  description: undefined
+  description: HttpResponseEncoding
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -24,7 +31,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2142" v-once>
+<APIRef for="1998" v-once>
 
 <template #title>
 
@@ -38,7 +45,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2141" v-once>
+<APIRef for="1997" v-once>
 
 <template #title>
 

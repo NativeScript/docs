@@ -11,13 +11,13 @@
     {
       "title": "Properties",
       "items": [
-        9061,
-        9060
+        11864,
+        11863
       ]
     }
   ],
   "reflections": {
-    "9060": {
+    "11863": {
       "name": "width",
       "type": "Property",
       "url": "/api/interface/Size#width",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "9061": {
+    "11864": {
       "name": "height",
       "type": "Property",
       "url": "/api/interface/Size#height",

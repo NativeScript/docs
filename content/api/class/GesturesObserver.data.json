@@ -11,28 +11,28 @@
     {
       "title": "Constructors",
       "items": [
-        11065
+        13979
       ]
     },
     {
       "title": "Properties",
       "items": [
-        11084,
-        11079,
-        11083,
-        11078
+        13998,
+        13993,
+        13997,
+        13992
       ]
     },
     {
       "title": "Methods",
       "items": [
-        11076,
-        11073
+        13990,
+        13987
       ]
     }
   ],
   "reflections": {
-    "11065": {
+    "13979": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/GesturesObserver#constructor",
@@ -40,7 +40,7 @@
       "signatures": [
         {
           "type": "ConstructorSignature",
-          "code": "new GesturesObserver(target: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;, callback: (args: <a href=\"/api/interface/GestureEventData\">GestureEventData</a>) => void, context: any): <a href=\"/api/class/GesturesObserver\">GesturesObserver</a>",
+          "code": "new GesturesObserver(target: <a href=\"/api/class/View\">View</a>, callback: (args: <a href=\"/api/interface/GestureEventData\">GestureEventData</a>) => void, context: any): <a href=\"/api/class/GesturesObserver\">GesturesObserver</a>",
           "url": "/api/class/GesturesObserver#constructor-new-gesturesobserver",
           "sources": [
             {
@@ -60,7 +60,7 @@
           "parameters": [
             {
               "name": "target",
-              "type": "Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "type": "<a href=\"/api/class/View\">View</a>",
               "flags": {},
               "comment": {
                 "summary": [
@@ -102,7 +102,7 @@
         }
       ]
     },
-    "11073": {
+    "13987": {
       "name": "observe",
       "type": "Method",
       "url": "/api/class/GesturesObserver#observe",
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "11076": {
+    "13990": {
       "name": "disconnect",
       "type": "Method",
       "url": "/api/class/GesturesObserver#disconnect",
@@ -176,7 +176,7 @@
         }
       ]
     },
-    "11078": {
+    "13992": {
       "name": "type",
       "type": "Property",
       "url": "/api/class/GesturesObserver#type",
@@ -211,7 +211,7 @@
         }
       ]
     },
-    "11079": {
+    "13993": {
       "name": "callback",
       "type": "Property",
       "url": "/api/class/GesturesObserver#callback",
@@ -230,7 +230,7 @@
         }
       ]
     },
-    "11083": {
+    "13997": {
       "name": "context",
       "type": "Property",
       "url": "/api/class/GesturesObserver#context",
@@ -281,7 +281,7 @@
         }
       ]
     },
-    "11084": {
+    "13998": {
       "name": "androidOnTouchEvent",
       "type": "Property",
       "url": "/api/class/GesturesObserver#androidontouchevent",

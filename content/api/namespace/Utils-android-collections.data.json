@@ -1,0 +1,71 @@
+{
+  "title": "collections",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        2670,
+        2673
+      ]
+    }
+  ],
+  "reflections": {
+    "2670": {
+      "name": "stringArrayToStringSet",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-collections#stringarraytostringset",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "stringArrayToStringSet(str: string[]): java.util.HashSet&lt;string&gt;",
+          "url": "/api/namespace/Utils-android-collections#stringarraytostringset-stringarraytostringset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 10,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "str",
+              "type": "string[]",
+              "flags": {}
+            }
+          ],
+          "returns": "java.util.HashSet&lt;string&gt;"
+        }
+      ]
+    },
+    "2673": {
+      "name": "stringSetToStringArray",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-collections#stringsettostringarray",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "stringSetToStringArray(stringSet: any): string[]",
+          "url": "/api/namespace/Utils-android-collections#stringsettostringarray-stringsettostringarray-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 11,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "stringSet",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "string[]"
+        }
+      ]
+    }
+  }
+}

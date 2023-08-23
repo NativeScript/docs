@@ -1,0 +1,681 @@
+{
+  "title": "layout",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2640,
+        2639,
+        2634,
+        2635,
+        2636,
+        2637,
+        2638
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2610,
+        2600,
+        2603,
+        2597,
+        2606,
+        2621,
+        2631,
+        2618,
+        2615,
+        2612
+      ]
+    }
+  ],
+  "reflections": {
+    "2597": {
+      "name": "getMode",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#getmode",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getMode(mode: number): string",
+          "url": "/api/namespace/Utils-layout#getmode-getmode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 22,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets layout mode from a given specification as string."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "mode",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The measure specification mode."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2600": {
+      "name": "getMeasureSpecMode",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#getmeasurespecmode",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getMeasureSpecMode(spec: number): number",
+          "url": "/api/namespace/Utils-layout#getmeasurespecmode-getmeasurespecmode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 28,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets measure specification mode from a given specification."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "spec",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The measure specification."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2603": {
+      "name": "getMeasureSpecSize",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#getmeasurespecsize",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getMeasureSpecSize(spec: number): number",
+          "url": "/api/namespace/Utils-layout#getmeasurespecsize-getmeasurespecsize-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 34,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets measure specification size from a given specification."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "spec",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The measure specification."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2606": {
+      "name": "makeMeasureSpec",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#makemeasurespec",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "makeMeasureSpec(px: number, mode: number): number",
+          "url": "/api/namespace/Utils-layout#makemeasurespec-makemeasurespec-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 41,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates measure specification size from size and mode."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "px",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "mode",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The mode component of measure specification."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2610": {
+      "name": "getDisplayDensity",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#getdisplaydensity",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getDisplayDensity(): number",
+          "url": "/api/namespace/Utils-layout#getdisplaydensity-getdisplaydensity-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 46,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets display density for the current device."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "2612": {
+      "name": "toDevicePixels",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#todevicepixels",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toDevicePixels(value: number): <a href=\"/api/namespace/CoreTypes#px\">px</a>",
+          "url": "/api/namespace/Utils-layout#todevicepixels-todevicepixels-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 52,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Convert device independent pixels to device pixels - dip to px."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The pixel to convert."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#px\">px</a>"
+        }
+      ]
+    },
+    "2615": {
+      "name": "toDeviceIndependentPixels",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#todeviceindependentpixels",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toDeviceIndependentPixels(value: number): <a href=\"/api/namespace/CoreTypes#dip\">dip</a>",
+          "url": "/api/namespace/Utils-layout#todeviceindependentpixels-todeviceindependentpixels-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 58,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Convert device pixels to device independent pixels - px to dip."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The pixel to convert."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#dip\">dip</a>"
+        }
+      ]
+    },
+    "2618": {
+      "name": "round",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#round",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "round(px: number): <a href=\"/api/namespace/CoreTypes#px\">px</a>",
+          "url": "/api/namespace/Utils-layout#round-round-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 64,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Rounds value used in layout."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "px",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "to round."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#px\">px</a>"
+        }
+      ]
+    },
+    "2621": {
+      "name": "measureNativeView",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#measurenativeview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "measureNativeView(\n  nativeView: any,\n  width: number,\n  widthMode: number,\n  height: number,\n  heightMode: number\n): {\n  height: number\n}",
+          "url": "/api/namespace/Utils-layout#measurenativeview-measurenativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 75,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Converts device pixels to device independent pixes and measure the nativeView.\nReturns the desired size of the nativeView in device pixels."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "nativeView",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the nativeView to measure (UIView or android.view.View)"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "width",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the available width"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "widthMode",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "width mode - UNSPECIFIED, EXACTLY or AT_MOST"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "height",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the available hegiht"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "heightMode",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "height mode - UNSPECIFIED, EXACTLY or AT_MOST"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "{\n  height: number\n}"
+        }
+      ]
+    },
+    "2631": {
+      "name": "measureSpecToString",
+      "type": "Function",
+      "url": "/api/namespace/Utils-layout#measurespectostring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "measureSpecToString(measureSpec: number): string",
+          "url": "/api/namespace/Utils-layout#measurespectostring-measurespectostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 81,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Prints user friendly version of the measureSpec."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "measureSpec",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the spec to print"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2634": {
+      "name": "MEASURED_HEIGHT_STATE_SHIFT",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-layout#measured-height-state-shift",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Bits that provide the actual measured size."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "MEASURED_HEIGHT_STATE_SHIFT: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 10,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Bits that provide the actual measured size."
+              }
+            ]
+          },
+          "url": "/api/namespace/Utils-layout#measured-height-state-shift"
+        }
+      ]
+    },
+    "2635": {
+      "name": "MEASURED_SIZE_MASK",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-layout#measured-size-mask",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "MEASURED_SIZE_MASK: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 11,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/Utils-layout#measured-size-mask"
+        }
+      ]
+    },
+    "2636": {
+      "name": "MEASURED_STATE_MASK",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-layout#measured-state-mask",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "MEASURED_STATE_MASK: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 12,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/Utils-layout#measured-state-mask"
+        }
+      ]
+    },
+    "2637": {
+      "name": "MEASURED_STATE_TOO_SMALL",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-layout#measured-state-too-small",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "MEASURED_STATE_TOO_SMALL: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 13,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/Utils-layout#measured-state-too-small"
+        }
+      ]
+    },
+    "2638": {
+      "name": "UNSPECIFIED",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-layout#unspecified",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "UNSPECIFIED: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 14,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/Utils-layout#unspecified"
+        }
+      ]
+    },
+    "2639": {
+      "name": "EXACTLY",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-layout#exactly",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "EXACTLY: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 15,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/Utils-layout#exactly"
+        }
+      ]
+    },
+    "2640": {
+      "name": "AT_MOST",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-layout#at-most",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "AT_MOST: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
+              "line": 16,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/Utils-layout#at-most"
+        }
+      ]
+    }
+  }
+}

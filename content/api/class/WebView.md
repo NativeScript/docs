@@ -1,6 +1,13 @@
 ---
 title: WebView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'WebView'
 layout: api
 seo:
   description: "Represents a standard WebView widget."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28111" v-once>
+<APIRef for="32851" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28113" v-once>
+<APIRef for="32853" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28116" v-once>
+<APIRef for="32856" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28117" v-once>
+<APIRef for="32857" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28118" v-once>
+<APIRef for="32858" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28114" v-once>
+<APIRef for="32854" v-once>
 
 <template #title>
 
@@ -114,7 +121,21 @@ seo:
 
 <div class="">
 
-<APIRef for="28115" v-once>
+<APIRef for="32859" v-once>
+
+<template #title>
+
+### iosAllowInlineMediaPlayback
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="32855" v-once>
 
 <template #title>
 
@@ -128,7 +149,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="28046" v-once>
+<APIRef for="32771" v-once>
 
 <template #title>
 
@@ -142,7 +163,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="28045" v-once>
+<APIRef for="32770" v-once>
 
 <template #title>
 
@@ -158,7 +179,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28121" v-once>
+<APIRef for="32862" v-once>
 
 <template #title>
 
@@ -172,7 +193,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28123" v-once>
+<APIRef for="32864" v-once>
 
 <template #title>
 
@@ -186,7 +207,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28127" v-once>
+<APIRef for="32868" v-once>
 
 <template #title>
 
@@ -200,7 +221,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28125" v-once>
+<APIRef for="32866" v-once>
 
 <template #title>
 
@@ -214,7 +235,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28119" v-once>
+<APIRef for="32860" v-once>
 
 <template #title>
 

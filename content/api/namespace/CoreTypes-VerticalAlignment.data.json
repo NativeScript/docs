@@ -5,196 +5,94 @@
     {
       "title": "Variables",
       "items": [
-        2645,
-        2643,
-        2644,
-        2646,
-        2642
+        4893,
+        4892,
+        4894,
+        4891
       ]
     }
   ],
   "reflections": {
-    "2642": {
+    "4891": {
       "name": "top",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-VerticalAlignment#top",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "An element should be top aligned."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "top: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a>",
+          "code": "top: \"top\" = \"top\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 202,
-              "character": 15
+              "line": 110,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "An element should be top aligned."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-VerticalAlignment#top"
         }
       ]
     },
-    "2643": {
-      "name": "center",
-      "type": "Variable",
-      "url": "/api/namespace/CoreTypes-VerticalAlignment#center",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "An element should be center aligned."
-          }
-        ]
-      },
-      "flags": {
-        "isConst": true
-      },
-      "signatures": [
-        {
-          "code": "center: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a>",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 207,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "An element should be center aligned."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-VerticalAlignment#center"
-        }
-      ]
-    },
-    "2644": {
+    "4892": {
       "name": "middle",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-VerticalAlignment#middle",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Same as center. An element should be aligned in the middle."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "middle: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a>",
+          "code": "middle: \"middle\" = \"middle\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 212,
-              "character": 15
+              "line": 111,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Same as center. An element should be aligned in the middle."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-VerticalAlignment#middle"
         }
       ]
     },
-    "2645": {
+    "4893": {
       "name": "bottom",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-VerticalAlignment#bottom",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "An element should be bottom aligned."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "bottom: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a>",
+          "code": "bottom: \"bottom\" = \"bottom\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 217,
-              "character": 15
+              "line": 112,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "An element should be bottom aligned."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-VerticalAlignment#bottom"
         }
       ]
     },
-    "2646": {
+    "4894": {
       "name": "stretch",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-VerticalAlignment#stretch",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "An element should be stretched to fill all the available size."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "stretch: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a>",
+          "code": "stretch: \"stretch\" = \"stretch\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 222,
-              "character": 15
+              "line": 113,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "An element should be stretched to fill all the available size."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-VerticalAlignment#stretch"
         }
       ]

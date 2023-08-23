@@ -1,6 +1,13 @@
 ---
 title: TraceEventListener
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'TraceEventListener'
 layout: api
 seo:
   description: "An interface used to trace information about specific event."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface TraceEventListener {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface TraceEventListener {
   filter: string;
   on(object: Object, name: string, data?: any): void;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2815" v-once>
+<APIRef for="5068" v-once>
 
 <template #title>
 
@@ -49,7 +56,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2816" v-once>
+<APIRef for="5069" v-once>
 
 <template #title>
 

@@ -1,6 +1,13 @@
 ---
 title: NavigationContext
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'NavigationContext'
 layout: api
 seo:
   description: "Represents a context passed to navigation methods."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface NavigationContext {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface NavigationContext {
   entry: <a href="/api/interface/BackstackEntry">BackstackEntry</a>;
   isBackNavigation: boolean;
   navigationType: NavigationType;
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10985" v-once>
+<APIRef for="13899" v-once>
 
 <template #title>
 
@@ -48,7 +55,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10986" v-once>
+<APIRef for="13900" v-once>
 
 <template #title>
 
@@ -62,7 +69,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10987" v-once>
+<APIRef for="13901" v-once>
 
 <template #title>
 

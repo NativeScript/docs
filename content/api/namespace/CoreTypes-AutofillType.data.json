@@ -1,0 +1,145 @@
+{
+  "title": "AutofillType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4836,
+        4835,
+        4838,
+        4837,
+        4834,
+        4833
+      ]
+    }
+  ],
+  "reflections": {
+    "4833": {
+      "name": "username",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#username",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "username: \"username\" = \"username\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 47,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#username"
+        }
+      ]
+    },
+    "4834": {
+      "name": "password",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#password",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "password: \"password\" = \"password\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 48,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#password"
+        }
+      ]
+    },
+    "4835": {
+      "name": "newUsername",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#newusername",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "newUsername: \"newUsername\" = \"newUsername\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 49,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#newusername"
+        }
+      ]
+    },
+    "4836": {
+      "name": "newPassword",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#newpassword",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "newPassword: \"newPassword\" = \"newPassword\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 50,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#newpassword"
+        }
+      ]
+    },
+    "4837": {
+      "name": "oneTimeCode",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#onetimecode",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "oneTimeCode: \"oneTimeCode\" = \"oneTimeCode\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 51,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#onetimecode"
+        }
+      ]
+    },
+    "4838": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#none",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "none: \"none\" = \"none\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 52,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#none"
+        }
+      ]
+    }
+  }
+}

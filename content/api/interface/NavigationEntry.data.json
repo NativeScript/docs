@@ -17,21 +17,21 @@
     {
       "title": "Properties",
       "items": [
-        10974,
-        10978,
-        10973,
-        10979,
-        10972,
-        10981,
-        10980,
-        10975,
-        10977,
-        10976
+        13888,
+        13892,
+        13887,
+        13893,
+        13886,
+        13895,
+        13894,
+        13889,
+        13891,
+        13890
       ]
     }
   ],
   "reflections": {
-    "10972": {
+    "13886": {
       "name": "context",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#context",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "10973": {
+    "13887": {
       "name": "bindingContext",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#bindingcontext",
@@ -105,7 +105,7 @@
         }
       ]
     },
-    "10974": {
+    "13888": {
       "name": "animated",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#animated",
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "10975": {
+    "13889": {
       "name": "transition",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#transition",
@@ -179,7 +179,7 @@
         }
       ]
     },
-    "10976": {
+    "13890": {
       "name": "transitioniOS",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#transitionios",
@@ -216,7 +216,7 @@
         }
       ]
     },
-    "10977": {
+    "13891": {
       "name": "transitionAndroid",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#transitionandroid",
@@ -253,7 +253,7 @@
         }
       ]
     },
-    "10978": {
+    "13892": {
       "name": "backstackVisible",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#backstackvisible",
@@ -290,7 +290,7 @@
         }
       ]
     },
-    "10979": {
+    "13893": {
       "name": "clearHistory",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#clearhistory",
@@ -327,7 +327,7 @@
         }
       ]
     },
-    "10980": {
+    "13894": {
       "name": "moduleName",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#modulename",
@@ -376,7 +376,7 @@
         }
       ]
     },
-    "10981": {
+    "13895": {
       "name": "create",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#create",

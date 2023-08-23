@@ -1,6 +1,13 @@
 ---
 title: AndroidActivityEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'AndroidActivityEventData'
 layout: api
 seo:
   description: "Data for the Android activity events."
@@ -18,8 +25,8 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface AndroidActivityEventData {
-  activity: any;
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface AndroidActivityEventData {
+  activity: AppCompatActivity;
   eventName: string;
   object: any;
 }</pre>
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1107" v-once>
+<APIRef for="4727" v-once>
 
 <template #title>
 
@@ -48,7 +55,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1108" v-once>
+<APIRef for="4728" v-once>
 
 <template #title>
 
@@ -62,7 +69,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1109" v-once>
+<APIRef for="4729" v-once>
 
 <template #title>
 

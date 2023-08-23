@@ -11,16 +11,16 @@
     {
       "title": "Properties",
       "items": [
-        33433,
-        33431,
-        33437,
-        33430,
-        33432
+        38534,
+        38532,
+        38538,
+        38531,
+        38533
       ]
     }
   ],
   "reflections": {
-    "33430": {
+    "38531": {
       "name": "opacity",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#opacity",
@@ -41,7 +41,7 @@
         }
       ]
     },
-    "33431": {
+    "38532": {
       "name": "color",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#color",
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "33432": {
+    "38533": {
       "name": "tapToClose",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#taptoclose",
@@ -83,7 +83,7 @@
         }
       ]
     },
-    "33433": {
+    "38534": {
       "name": "animation",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#animation",
@@ -104,7 +104,7 @@
         }
       ]
     },
-    "33437": {
+    "38538": {
       "name": "ignoreShadeRestore",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#ignoreshaderestore",

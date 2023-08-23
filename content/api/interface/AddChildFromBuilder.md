@@ -1,6 +1,13 @@
 ---
 title: AddChildFromBuilder
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'AddChildFromBuilder'
 layout: api
 seo:
   description: "Defines an interface for adding a child element declared in xml."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface AddChildFromBuilder {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface AddChildFromBuilder {
   _addChildFromBuilder(name: string, value: any): void;
 }</pre>
 
@@ -32,7 +39,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9055" v-once>
+<APIRef for="11858" v-once>
 
 <template #title>
 

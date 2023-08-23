@@ -1,6 +1,13 @@
 ---
 title: ImageCache
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ImageCache'
 layout: api
 seo:
   description: "Represents a class that stores handles image download requests and caches the already downloaded images."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12641" v-once>
+<APIRef for="15677" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12644" v-once>
+<APIRef for="15680" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12643" v-once>
+<APIRef for="15679" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="12614" v-once>
+<APIRef for="15635" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="12613" v-once>
+<APIRef for="15634" v-once>
 
 <template #title>
 
@@ -100,51 +107,9 @@ seo:
 
 ## Methods
 
-<div class="isPrivate">
-
-<APIRef for="12689" v-once>
-
-<template #title>
-
-### _downloadCore
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="12692" v-once>
-
-<template #title>
-
-### _onDownloadCompleted
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="12696" v-once>
-
-<template #title>
-
-### _onDownloadError
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="12665" v-once>
+<APIRef for="15701" v-once>
 
 <template #title>
 
@@ -158,7 +123,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12647" v-once>
+<APIRef for="15683" v-once>
 
 <template #title>
 
@@ -172,7 +137,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12645" v-once>
+<APIRef for="15681" v-once>
 
 <template #title>
 
@@ -186,7 +151,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12652" v-once>
+<APIRef for="15688" v-once>
 
 <template #title>
 
@@ -200,7 +165,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12655" v-once>
+<APIRef for="15691" v-once>
 
 <template #title>
 
@@ -214,7 +179,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12667" v-once>
+<APIRef for="15703" v-once>
 
 <template #title>
 
@@ -228,7 +193,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12649" v-once>
+<APIRef for="15685" v-once>
 
 <template #title>
 
@@ -242,7 +207,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12662" v-once>
+<APIRef for="15698" v-once>
 
 <template #title>
 
@@ -256,7 +221,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12658" v-once>
+<APIRef for="15694" v-once>
 
 <template #title>
 

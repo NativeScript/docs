@@ -33,14 +33,14 @@
     {
       "title": "Properties",
       "items": [
-        1107,
-        1108,
-        1109
+        4727,
+        4728,
+        4729
       ]
     }
   ],
   "reflections": {
-    "1107": {
+    "4727": {
       "name": "activity",
       "type": "Property",
       "url": "/api/interface/AndroidActivityEventData#activity",
@@ -55,12 +55,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "activity: any",
+          "code": "activity: AppCompatActivity",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 407,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
             }
           ],
           "comment": {
@@ -75,7 +75,7 @@
         }
       ]
     },
-    "1108": {
+    "4728": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/AndroidActivityEventData#eventname",
@@ -93,9 +93,9 @@
           "code": "eventName: string",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 412,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
             }
           ],
           "comment": {
@@ -110,7 +110,7 @@
         }
       ]
     },
-    "1109": {
+    "4729": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/AndroidActivityEventData#object",
@@ -128,9 +128,9 @@
           "code": "object: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 417,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
             }
           ],
           "comment": {

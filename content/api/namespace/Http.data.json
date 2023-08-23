@@ -1,0 +1,608 @@
+{
+  "title": "Http",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "References",
+      "items": [
+        2054,
+        2056,
+        2052,
+        2053,
+        2055
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2044,
+        2037,
+        2032,
+        2025,
+        2020,
+        2049
+      ]
+    }
+  ],
+  "reflections": {
+    "2020": {
+      "name": "getString",
+      "type": "Function",
+      "url": "/api/namespace/Http#getstring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getString(url: string): Promise&lt;string&gt;",
+          "url": "/api/namespace/Http#getstring-getstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 8,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL as a string."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The URL to request from."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;string&gt;"
+        },
+        {
+          "type": "CallSignature",
+          "code": "getString(options: <a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>): Promise&lt;string&gt;",
+          "url": "/api/namespace/Http#getstring-getstring-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 14,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL as a string."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An object that specifies various request options."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;string&gt;"
+        }
+      ]
+    },
+    "2025": {
+      "name": "getJSON",
+      "type": "Function",
+      "url": "/api/namespace/Http#getjson",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getJSON&lt;T&gt;(url: string): Promise&lt;T&gt;",
+          "url": "/api/namespace/Http#getjson-getjson-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 20,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL as a string and returns its JSON.parse representation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The URL to request from."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;T&gt;"
+        },
+        {
+          "type": "CallSignature",
+          "code": "getJSON&lt;T&gt;(options: <a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>): Promise&lt;T&gt;",
+          "url": "/api/namespace/Http#getjson-getjson-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 26,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL as a string and returns its JSON.parse representation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An object that specifies various request options."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;T&gt;"
+        }
+      ]
+    },
+    "2032": {
+      "name": "getImage",
+      "type": "Function",
+      "url": "/api/namespace/Http#getimage",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getImage(url: string): Promise&lt;<a href=\"/api/class/ImageSource\">ImageSource</a>&gt;",
+          "url": "/api/namespace/Http#getimage-getimage-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 32,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL and attempts to decode it as an image."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The URL to request from."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;<a href=\"/api/class/ImageSource\">ImageSource</a>&gt;"
+        },
+        {
+          "type": "CallSignature",
+          "code": "getImage(options: <a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>): Promise&lt;<a href=\"/api/class/ImageSource\">ImageSource</a>&gt;",
+          "url": "/api/namespace/Http#getimage-getimage-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 38,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL and attempts to decode it as an image."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An object that specifies various request options."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;<a href=\"/api/class/ImageSource\">ImageSource</a>&gt;"
+        }
+      ]
+    },
+    "2037": {
+      "name": "getFile",
+      "type": "Function",
+      "url": "/api/namespace/Http#getfile",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getFile(url: string, destinationFilePath?: string): Promise&lt;<a href=\"/api/class/File\">File</a>&gt;",
+          "url": "/api/namespace/Http#getfile-getfile-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 45,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL and attempts to save it as file."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The URL to request from."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "destinationFilePath",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Optional. The downloaded file path."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;<a href=\"/api/class/File\">File</a>&gt;"
+        },
+        {
+          "type": "CallSignature",
+          "code": "getFile(options: <a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>, destinationFilePath?: string): Promise&lt;<a href=\"/api/class/File\">File</a>&gt;",
+          "url": "/api/namespace/Http#getfile-getfile-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 52,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL and attempts to save it as file."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An object that specifies various request options."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "destinationFilePath",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Optional. The downloaded file path."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;<a href=\"/api/class/File\">File</a>&gt;"
+        }
+      ]
+    },
+    "2044": {
+      "name": "getBinary",
+      "type": "Function",
+      "url": "/api/namespace/Http#getbinary",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getBinary(url: string): Promise&lt;ArrayBuffer&gt;",
+          "url": "/api/namespace/Http#getbinary-getbinary-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 58,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL as binary and returns an ArrayBuffer."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The URL to request from."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;ArrayBuffer&gt;"
+        },
+        {
+          "type": "CallSignature",
+          "code": "getBinary(options: <a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>): Promise&lt;ArrayBuffer&gt;",
+          "url": "/api/namespace/Http#getbinary-getbinary-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 64,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Downloads the content from the specified URL as binary and returns an ArrayBuffer."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An object that specifies various request options."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;ArrayBuffer&gt;"
+        }
+      ]
+    },
+    "2049": {
+      "name": "request",
+      "type": "Function",
+      "url": "/api/namespace/Http#request",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "request(options: <a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>): Promise&lt;<a href=\"/api/interface/HttpResponse\">HttpResponse</a>&gt;",
+          "url": "/api/namespace/Http#request-request-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 70,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Makes a generic http request using the provided options and returns a HttpResponse Object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/HttpRequestOptions\">HttpRequestOptions</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An object that specifies various request options."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;<a href=\"/api/interface/HttpResponse\">HttpResponse</a>&gt;"
+        }
+      ]
+    },
+    "2052": {
+      "name": "HttpRequestOptions",
+      "type": "Reference",
+      "url": "/api/interface/HttpRequestOptions",
+      "flags": {},
+      "signatures": [
+        {
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 75,
+              "character": 17
+            }
+          ],
+          "target": {
+            "name": "HttpRequestOptions",
+            "url": "/api/interface/HttpRequestOptions"
+          }
+        }
+      ]
+    },
+    "2053": {
+      "name": "HttpResponse",
+      "type": "Reference",
+      "url": "/api/interface/HttpResponse",
+      "flags": {},
+      "signatures": [
+        {
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 110,
+              "character": 17
+            }
+          ],
+          "target": {
+            "name": "HttpResponse",
+            "url": "/api/interface/HttpResponse"
+          }
+        }
+      ]
+    },
+    "2054": {
+      "name": "Headers",
+      "type": "Reference",
+      "url": "/api/index#headers",
+      "flags": {},
+      "signatures": [
+        {
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 127,
+              "character": 12
+            }
+          ],
+          "target": {
+            "name": "Headers",
+            "url": "/api/index#headers"
+          }
+        }
+      ]
+    },
+    "2055": {
+      "name": "HttpResponseEncoding",
+      "type": "Reference",
+      "url": "/api/enum/HttpResponseEncoding",
+      "flags": {},
+      "signatures": [
+        {
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 129,
+              "character": 12
+            }
+          ],
+          "target": {
+            "name": "HttpResponseEncoding",
+            "url": "/api/enum/HttpResponseEncoding"
+          }
+        }
+      ]
+    },
+    "2056": {
+      "name": "HttpContent",
+      "type": "Reference",
+      "url": "/api/interface/HttpContent",
+      "flags": {},
+      "signatures": [
+        {
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 136,
+              "character": 17
+            }
+          ],
+          "target": {
+            "name": "HttpContent",
+            "url": "/api/interface/HttpContent"
+          }
+        }
+      ]
+    }
+  }
+}

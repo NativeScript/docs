@@ -5,15 +5,15 @@
     {
       "title": "Variables",
       "items": [
-        11092,
-        11089,
-        11091,
-        11090
+        14006,
+        14003,
+        14005,
+        14004
       ]
     }
   ],
   "reflections": {
-    "11089": {
+    "14003": {
       "name": "down",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#down",
@@ -50,7 +50,7 @@
         }
       ]
     },
-    "11090": {
+    "14004": {
       "name": "up",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#up",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    "11091": {
+    "14005": {
       "name": "move",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#move",
@@ -124,7 +124,7 @@
         }
       ]
     },
-    "11092": {
+    "14006": {
       "name": "cancel",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#cancel",

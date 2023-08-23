@@ -11,13 +11,13 @@
     {
       "title": "Properties",
       "items": [
-        5004,
-        5005
+        7467,
+        7468
       ]
     }
   ],
   "reflections": {
-    "5004": {
+    "7467": {
       "name": "property",
       "type": "Property",
       "url": "/api/interface/KeyframeDeclaration#property",
@@ -36,7 +36,7 @@
         }
       ]
     },
-    "5005": {
+    "7468": {
       "name": "value",
       "type": "Property",
       "url": "/api/interface/KeyframeDeclaration#value",

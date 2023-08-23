@@ -11,28 +11,28 @@
     {
       "title": "Constructors",
       "items": [
-        11135
+        14049
       ]
     },
     {
       "title": "Properties",
       "items": [
-        11118,
-        11117,
-        11123,
-        11119
+        14032,
+        14031,
+        14037,
+        14033
       ]
     },
     {
       "title": "Methods",
       "items": [
-        11128,
-        11131
+        14042,
+        14045
       ]
     }
   ],
   "reflections": {
-    "11117": {
+    "14031": {
       "name": "enableGlobalTapAnimations",
       "type": "Property",
       "url": "/api/class/TouchManager#enableglobaltapanimations",
@@ -69,7 +69,7 @@
         }
       ]
     },
-    "11118": {
+    "14032": {
       "name": "animations",
       "type": "Property",
       "url": "/api/class/TouchManager#animations",
@@ -106,7 +106,7 @@
         }
       ]
     },
-    "11119": {
+    "14033": {
       "name": "touchHandlers",
       "type": "Property",
       "url": "/api/class/TouchManager#touchhandlers",
@@ -143,7 +143,7 @@
         }
       ]
     },
-    "11123": {
+    "14037": {
       "name": "touchAnimationDefinitions",
       "type": "Property",
       "url": "/api/class/TouchManager#touchanimationdefinitions",
@@ -180,7 +180,7 @@
         }
       ]
     },
-    "11128": {
+    "14042": {
       "name": "addAnimations",
       "type": "Method",
       "url": "/api/class/TouchManager#addanimations",
@@ -226,7 +226,7 @@
         }
       ]
     },
-    "11131": {
+    "14045": {
       "name": "startAnimationForType",
       "type": "Method",
       "url": "/api/class/TouchManager#startanimationfortype",
@@ -261,7 +261,7 @@
         }
       ]
     },
-    "11135": {
+    "14049": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/TouchManager#constructor",

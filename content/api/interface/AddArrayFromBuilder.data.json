@@ -11,12 +11,12 @@
     {
       "title": "Methods",
       "items": [
-        9050
+        11853
       ]
     }
   ],
   "reflections": {
-    "9050": {
+    "11853": {
       "name": "_addArrayFromBuilder",
       "type": "Method",
       "url": "/api/interface/AddArrayFromBuilder#addarrayfrombuilder",
@@ -29,7 +29,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
-              "line": 954,
+              "line": 969,
               "character": 1
             }
           ],

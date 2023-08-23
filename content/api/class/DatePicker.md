@@ -1,6 +1,13 @@
 ---
 title: DatePicker
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'DatePicker'
 layout: api
 seo:
   description: "Represents an date picker."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9427" v-once>
+<APIRef for="12245" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9429" v-once>
+<APIRef for="12247" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9434" v-once>
+<APIRef for="12252" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9433" v-once>
+<APIRef for="12251" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9430" v-once>
+<APIRef for="12248" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9437" v-once>
+<APIRef for="12255" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9435" v-once>
+<APIRef for="12253" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9436" v-once>
+<APIRef for="12254" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9432" v-once>
+<APIRef for="12250" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9431" v-once>
+<APIRef for="12249" v-once>
 
 <template #title>
 

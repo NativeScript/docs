@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        2426
+        2324
       ]
     },
     {
       "title": "Properties",
       "items": [
-        2425
+        2323
       ]
     }
   ],
   "reflections": {
-    "2425": {
+    "2323": {
       "name": "mainScreen",
       "type": "Property",
       "url": "/api/class/Screen#mainscreen",
@@ -59,7 +59,7 @@
         }
       ]
     },
-    "2426": {
+    "2324": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Screen#constructor",

@@ -1,9 +1,16 @@
 ---
 title: Length
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'Length'
 layout: api
 seo:
-  description: undefined
+  description: Length
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35674" v-once>
+<APIRef for="40934" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35666" v-once>
+<APIRef for="40926" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35663" v-once>
+<APIRef for="40923" v-once>
 
 <template #title>
 
@@ -68,7 +75,7 @@ seo:
 
 <div class="">
 
-<APIRef for="35670" v-once>
+<APIRef for="40930" v-once>
 
 <template #title>
 

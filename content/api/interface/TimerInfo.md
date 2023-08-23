@@ -1,6 +1,13 @@
 ---
 title: TimerInfo
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'TimerInfo'
 layout: api
 seo:
   description: "Contains contains utility methods for profiling.\nAll methods in this module are experimental and may be changed in a non-major version."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface TimerInfo {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface TimerInfo {
   count: number;
   totalTime: number;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2490" v-once>
+<APIRef for="2388" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2489" v-once>
+<APIRef for="2387" v-once>
 
 <template #title>
 

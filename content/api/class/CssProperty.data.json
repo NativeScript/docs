@@ -17,38 +17,37 @@
     {
       "title": "Constructors",
       "items": [
-        9196
+        11999
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9204,
-        9203,
-        9205,
-        9213,
-        9212,
-        9209,
-        9207,
-        9208,
-        9206,
-        9202,
-        9214,
-        9201,
-        9210,
-        9211
+        12007,
+        12006,
+        12008,
+        12016,
+        12015,
+        12012,
+        12010,
+        12011,
+        12009,
+        12005,
+        12017,
+        12013,
+        12014
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9223,
-        9218
+        12026,
+        12021
       ]
     }
   ],
   "reflections": {
-    "9196": {
+    "11999": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/CssProperty#constructor",
@@ -76,28 +75,7 @@
         }
       ]
     },
-    "9201": {
-      "name": "registered",
-      "type": "Property",
-      "url": "/api/class/CssProperty#registered",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "code": "registered: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 74,
-              "character": 12
-            }
-          ],
-          "url": "/api/class/CssProperty#registered"
-        }
-      ]
-    },
-    "9202": {
+    "12005": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/CssProperty#name",
@@ -118,7 +96,7 @@
         }
       ]
     },
-    "9203": {
+    "12006": {
       "name": "cssName",
       "type": "Property",
       "url": "/api/class/CssProperty#cssname",
@@ -139,7 +117,7 @@
         }
       ]
     },
-    "9204": {
+    "12007": {
       "name": "cssLocalName",
       "type": "Property",
       "url": "/api/class/CssProperty#csslocalname",
@@ -160,7 +138,7 @@
         }
       ]
     },
-    "9205": {
+    "12008": {
       "name": "cssValueDescriptor",
       "type": "Property",
       "url": "/api/class/CssProperty#cssvaluedescriptor",
@@ -182,7 +160,7 @@
         }
       ]
     },
-    "9206": {
+    "12009": {
       "name": "localValueDescriptor",
       "type": "Property",
       "url": "/api/class/CssProperty#localvaluedescriptor",
@@ -204,7 +182,7 @@
         }
       ]
     },
-    "9207": {
+    "12010": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/CssProperty#isstyleproperty",
@@ -223,7 +201,7 @@
         }
       ]
     },
-    "9208": {
+    "12011": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/CssProperty#key",
@@ -244,7 +222,7 @@
         }
       ]
     },
-    "9209": {
+    "12012": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/CssProperty#getdefault",
@@ -265,7 +243,7 @@
         }
       ]
     },
-    "9210": {
+    "12013": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/CssProperty#setnative",
@@ -286,7 +264,7 @@
         }
       ]
     },
-    "9211": {
+    "12014": {
       "name": "sourceKey",
       "type": "Property",
       "url": "/api/class/CssProperty#sourcekey",
@@ -307,7 +285,7 @@
         }
       ]
     },
-    "9212": {
+    "12015": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/CssProperty#defaultvaluekey",
@@ -328,7 +306,7 @@
         }
       ]
     },
-    "9213": {
+    "12016": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/CssProperty#defaultvalue",
@@ -349,7 +327,7 @@
         }
       ]
     },
-    "9214": {
+    "12017": {
       "name": "overrideHandlers",
       "type": "Property",
       "url": "/api/class/CssProperty#overridehandlers",
@@ -368,7 +346,7 @@
         }
       ]
     },
-    "9218": {
+    "12021": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/CssProperty#register",
@@ -396,7 +374,7 @@
         }
       ]
     },
-    "9223": {
+    "12026": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/CssProperty#isset",

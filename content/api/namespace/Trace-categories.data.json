@@ -5,34 +5,34 @@
     {
       "title": "Variables",
       "items": [
-        2898,
-        2893,
-        2890,
-        2891,
-        2887,
-        2892,
-        2883,
-        2895,
-        2896,
-        2886,
-        2888,
-        2897,
-        2884,
-        2889,
-        2894,
-        2885,
-        2882
+        5151,
+        5146,
+        5143,
+        5144,
+        5140,
+        5145,
+        5136,
+        5148,
+        5149,
+        5139,
+        5141,
+        5150,
+        5137,
+        5142,
+        5147,
+        5138,
+        5135
       ]
     },
     {
       "title": "Functions",
       "items": [
-        2879
+        5132
       ]
     }
   ],
   "reflections": {
-    "2879": {
+    "5132": {
       "name": "concat",
       "type": "Function",
       "url": "/api/namespace/Trace-categories#concat",
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "2882": {
+    "5135": {
       "name": "VisualTreeEvents",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#visualtreeevents",
@@ -83,7 +83,7 @@
         }
       ]
     },
-    "2883": {
+    "5136": {
       "name": "Layout",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#layout",
@@ -104,7 +104,7 @@
         }
       ]
     },
-    "2884": {
+    "5137": {
       "name": "Style",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#style",
@@ -125,7 +125,7 @@
         }
       ]
     },
-    "2885": {
+    "5138": {
       "name": "ViewHierarchy",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#viewhierarchy",
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "2886": {
+    "5139": {
       "name": "NativeLifecycle",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#nativelifecycle",
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "2887": {
+    "5140": {
       "name": "Debug",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#debug",
@@ -188,7 +188,7 @@
         }
       ]
     },
-    "2888": {
+    "5141": {
       "name": "Navigation",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#navigation",
@@ -209,7 +209,7 @@
         }
       ]
     },
-    "2889": {
+    "5142": {
       "name": "Test",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#test",
@@ -230,7 +230,7 @@
         }
       ]
     },
-    "2890": {
+    "5143": {
       "name": "Binding",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#binding",
@@ -251,7 +251,7 @@
         }
       ]
     },
-    "2891": {
+    "5144": {
       "name": "BindingError",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#bindingerror",
@@ -272,7 +272,7 @@
         }
       ]
     },
-    "2892": {
+    "5145": {
       "name": "Error",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#error",
@@ -293,7 +293,7 @@
         }
       ]
     },
-    "2893": {
+    "5146": {
       "name": "Animation",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#animation",
@@ -314,7 +314,7 @@
         }
       ]
     },
-    "2894": {
+    "5147": {
       "name": "Transition",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#transition",
@@ -335,7 +335,7 @@
         }
       ]
     },
-    "2895": {
+    "5148": {
       "name": "Livesync",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#livesync",
@@ -356,7 +356,7 @@
         }
       ]
     },
-    "2896": {
+    "5149": {
       "name": "ModuleNameResolver",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#modulenameresolver",
@@ -377,7 +377,7 @@
         }
       ]
     },
-    "2897": {
+    "5150": {
       "name": "separator",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#separator",
@@ -398,7 +398,7 @@
         }
       ]
     },
-    "2898": {
+    "5151": {
       "name": "All",
       "type": "Variable",
       "url": "/api/namespace/Trace-categories#all",

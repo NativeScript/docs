@@ -11,22 +11,22 @@
     {
       "title": "Constructors",
       "items": [
-        1645
+        1413
       ]
     },
     {
       "title": "Properties",
       "items": [
-        1640,
-        1644,
-        1641,
-        1643,
-        1642
+        1408,
+        1412,
+        1409,
+        1411,
+        1410
       ]
     }
   ],
   "reflections": {
-    "1640": {
+    "1408": {
       "name": "Add",
       "type": "Property",
       "url": "/api/class/ChangeType#add",
@@ -47,7 +47,7 @@
         }
       ]
     },
-    "1641": {
+    "1409": {
       "name": "Delete",
       "type": "Property",
       "url": "/api/class/ChangeType#delete",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "1642": {
+    "1410": {
       "name": "Update",
       "type": "Property",
       "url": "/api/class/ChangeType#update",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "1643": {
+    "1411": {
       "name": "Splice",
       "type": "Property",
       "url": "/api/class/ChangeType#splice",
@@ -110,7 +110,7 @@
         }
       ]
     },
-    "1644": {
+    "1412": {
       "name": "Change",
       "type": "Property",
       "url": "/api/class/ChangeType#change",
@@ -131,7 +131,7 @@
         }
       ]
     },
-    "1645": {
+    "1413": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ChangeType#constructor",

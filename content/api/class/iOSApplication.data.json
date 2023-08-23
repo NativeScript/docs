@@ -3,72 +3,282 @@
   "hierarchy": [
     [
       {
+        "text": "ApplicationCommon",
+        "link": "/api/class/ApplicationCommon"
+      }
+    ],
+    [
+      {
         "text": "iOSApplication"
       }
     ]
   ],
   "summary": [
     {
-      "title": "Constructors",
+      "title": "Properties",
       "items": [
-        838
+        4051,
+        3733,
+        3745,
+        3739,
+        3732,
+        3736,
+        3742,
+        3734,
+        3971,
+        3703,
+        3730,
+        3743,
+        3744,
+        3737,
+        3991,
+        3966,
+        3698,
+        3960,
+        3692,
+        3746,
+        3478,
+        3853,
+        3585,
+        3740,
+        3735,
+        4071,
+        3731,
+        3741,
+        3738
       ]
     },
     {
-      "title": "Properties",
+      "title": "Accessors",
       "items": [
-        842,
-        845,
-        843,
-        840,
-        844,
-        841
+        4072,
+        4076,
+        3715,
+        4059,
+        4074,
+        4078,
+        3711,
+        3709,
+        4065,
+        3713
       ]
     },
     {
       "title": "Methods",
       "items": [
-        846,
-        853
+        4022,
+        3719,
+        3979,
+        3997,
+        4018,
+        3992,
+        4040,
+        4029,
+        4010,
+        4002,
+        4044,
+        4042,
+        4007,
+        4020,
+        3994,
+        4034,
+        4036,
+        3726,
+        4004,
+        4026,
+        4052,
+        4015,
+        4061,
+        3984,
+        4031,
+        4012,
+        4067,
+        4046,
+        4049,
+        4055
       ]
     }
   ],
   "reflections": {
-    "838": {
-      "name": "constructor",
-      "type": "Constructor",
-      "url": "/api/class/iOSApplication#constructor",
-      "flags": {},
+    "3478": {
+      "name": "on",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#on-1",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "on",
+        "url": "/api/class/ApplicationCommon#on-1",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
       "signatures": [
         {
-          "type": "ConstructorSignature",
-          "code": "new iOSApplication(): <a href=\"/api/class/iOSApplication\">iOSApplication</a>",
-          "url": "/api/class/iOSApplication#constructor-new-iosapplication",
-          "parameters": [],
-          "returns": "<a href=\"/api/class/iOSApplication\">iOSApplication</a>"
+          "code": "on: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 88,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/ApplicationCommon#on-1",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#on-1"
         }
       ]
     },
-    "840": {
-      "name": "rootController",
+    "3585": {
+      "name": "once",
       "type": "Property",
-      "url": "/api/class/iOSApplication#rootcontroller",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The root view controller for the application."
-          }
-        ]
+      "url": "/api/class/iOSApplication#once-1",
+      "flags": {
+        "isStatic": true
       },
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/ApplicationCommon#once-1",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "once: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 92,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/ApplicationCommon#once-1",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#once-1"
+        }
+      ]
+    },
+    "3692": {
+      "name": "off",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#off-1",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/ApplicationCommon#off-1",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "off: (eventNames: string, callback?: any, thisArg?: any) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 96,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/ApplicationCommon#off-1",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#off-1"
+        }
+      ]
+    },
+    "3698": {
+      "name": "notify",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#notify-1",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "notify",
+        "url": "/api/class/ApplicationCommon#notify-1",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "notify: (eventData: T) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 100,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notify",
+            "url": "/api/class/ApplicationCommon#notify-1",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#notify-1"
+        }
+      ]
+    },
+    "3703": {
+      "name": "hasListeners",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#haslisteners-1",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "hasListeners",
+        "url": "/api/class/ApplicationCommon#haslisteners-1",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "hasListeners: (eventName: string) => boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 104,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "name": "hasListeners",
+            "url": "/api/class/ApplicationCommon#haslisteners-1",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#haslisteners-1"
+        }
+      ]
+    },
+    "3709": {
+      "name": "rootController",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#rootcontroller",
       "flags": {},
       "signatures": [
         {
-          "code": "rootController: any",
+          "type": "GetSignature",
+          "code": "get rootController(): UIViewController",
+          "url": "/api/class/iOSApplication#rootcontroller-rootcontroller-1",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 699,
+              "fileName": "@nativescript/core/application/application.d.ts",
+              "line": 148,
               "character": 1
             }
           ],
@@ -80,170 +290,25 @@
               }
             ]
           },
-          "url": "/api/class/iOSApplication#rootcontroller"
+          "parameters": [],
+          "returns": "UIViewController"
         }
       ]
     },
-    "841": {
-      "name": "window",
-      "type": "Property",
-      "url": "/api/class/iOSApplication#window",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The key window."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "window: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 705,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The key window."
-              }
-            ]
-          },
-          "url": "/api/class/iOSApplication#window"
-        }
-      ]
-    },
-    "842": {
-      "name": "delegate",
-      "type": "Property",
-      "url": "/api/class/iOSApplication#delegate",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The [UIApplicationDelegate](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html) class."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "delegate: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 710,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The [UIApplicationDelegate](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html) class."
-              }
-            ]
-          },
-          "url": "/api/class/iOSApplication#delegate"
-        }
-      ]
-    },
-    "843": {
-      "name": "orientation",
-      "type": "Property",
-      "url": "/api/class/iOSApplication#orientation",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Gets or sets the orientation of the application.\nAvailable values: \"portrait\", \"landscape\", \"unknown\"."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "orientation: \"portrait\" | \"landscape\" | \"unknown\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 716,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Gets or sets the orientation of the application.\nAvailable values: \"portrait\", \"landscape\", \"unknown\"."
-              }
-            ]
-          },
-          "url": "/api/class/iOSApplication#orientation"
-        }
-      ]
-    },
-    "844": {
-      "name": "systemAppearance",
-      "type": "Property",
-      "url": "/api/class/iOSApplication#systemappearance",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Gets the system appearance.\nAvailable values: \"dark\", \"light\", null.\nNull for iOS <= 11."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "systemAppearance: \"dark\" | \"light\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 723,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Gets the system appearance.\nAvailable values: \"dark\", \"light\", null.\nNull for iOS <= 11."
-              }
-            ]
-          },
-          "url": "/api/class/iOSApplication#systemappearance"
-        }
-      ]
-    },
-    "845": {
+    "3711": {
       "name": "nativeApp",
-      "type": "Property",
+      "type": "Accessor",
       "url": "/api/class/iOSApplication#nativeapp",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The [UIApplication](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
-          "code": "nativeApp: any",
+          "type": "GetSignature",
+          "code": "get nativeApp(): UIApplication",
+          "url": "/api/class/iOSApplication#nativeapp-nativeapp-1",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 728,
+              "fileName": "@nativescript/core/application/application.d.ts",
+              "line": 153,
               "character": 1
             }
           ],
@@ -255,11 +320,72 @@
               }
             ]
           },
-          "url": "/api/class/iOSApplication#nativeapp"
+          "parameters": [],
+          "returns": "UIApplication"
         }
       ]
     },
-    "846": {
+    "3713": {
+      "name": "window",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#window",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get window(): UIWindow",
+          "url": "/api/class/iOSApplication#window-window-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application.d.ts",
+              "line": 158,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The key window."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "UIWindow"
+        }
+      ]
+    },
+    "3715": {
+      "name": "delegate",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#delegate",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get delegate(): any",
+          "url": "/api/class/iOSApplication#delegate-delegate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application.d.ts",
+              "line": 163,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The [UIApplicationDelegate](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html) class."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "3719": {
       "name": "addNotificationObserver",
       "type": "Method",
       "url": "/api/class/iOSApplication#addnotificationobserver",
@@ -267,12 +393,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addNotificationObserver(\n  notificationName: string,\n  onReceiveCallback: (notification: any) => void\n): any",
+          "code": "addNotificationObserver(\n  notificationName: string,\n  onReceiveCallback: (notification: NSNotification) => void\n): NotificationObserver",
           "url": "/api/class/iOSApplication#addnotificationobserver-addnotificationobserver-1",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 736,
+              "fileName": "@nativescript/core/application/application.d.ts",
+              "line": 176,
               "character": 1
             }
           ],
@@ -300,7 +426,7 @@
             },
             {
               "name": "onReceiveCallback",
-              "type": "(notification: any) => void",
+              "type": "(notification: NSNotification) => void",
               "flags": {},
               "comment": {
                 "summary": [
@@ -312,11 +438,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "NotificationObserver"
         }
       ]
     },
-    "853": {
+    "3726": {
       "name": "removeNotificationObserver",
       "type": "Method",
       "url": "/api/class/iOSApplication#removenotificationobserver",
@@ -324,12 +450,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeNotificationObserver(observer: any, notificationName: string): void",
+          "code": "removeNotificationObserver(observer: any, notificationName: string): any",
           "url": "/api/class/iOSApplication#removenotificationobserver-removenotificationobserver-1",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 745,
+              "fileName": "@nativescript/core/application/application.d.ts",
+              "line": 185,
               "character": 1
             }
           ],
@@ -369,7 +495,2271 @@
               }
             }
           ],
+          "returns": "any"
+        }
+      ]
+    },
+    "3730": {
+      "name": "launchEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#launchevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "launchEvent",
+        "url": "/api/class/ApplicationCommon#launchevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "launchEvent: \"launch\" = \"launch\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 69,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "launchEvent",
+            "url": "/api/class/ApplicationCommon#launchevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#launchevent"
+        }
+      ]
+    },
+    "3731": {
+      "name": "suspendEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#suspendevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "suspendEvent",
+        "url": "/api/class/ApplicationCommon#suspendevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "suspendEvent: \"suspend\" = \"suspend\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 70,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "suspendEvent",
+            "url": "/api/class/ApplicationCommon#suspendevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#suspendevent"
+        }
+      ]
+    },
+    "3732": {
+      "name": "displayedEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#displayedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "displayedEvent",
+        "url": "/api/class/ApplicationCommon#displayedevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "displayedEvent: \"displayed\" = \"displayed\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 71,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "displayedEvent",
+            "url": "/api/class/ApplicationCommon#displayedevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#displayedevent"
+        }
+      ]
+    },
+    "3733": {
+      "name": "backgroundEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#backgroundevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "backgroundEvent",
+        "url": "/api/class/ApplicationCommon#backgroundevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "backgroundEvent: \"background\" = \"background\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 72,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "backgroundEvent",
+            "url": "/api/class/ApplicationCommon#backgroundevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#backgroundevent"
+        }
+      ]
+    },
+    "3734": {
+      "name": "foregroundEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#foregroundevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "foregroundEvent",
+        "url": "/api/class/ApplicationCommon#foregroundevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "foregroundEvent: \"foreground\" = \"foreground\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 73,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "foregroundEvent",
+            "url": "/api/class/ApplicationCommon#foregroundevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#foregroundevent"
+        }
+      ]
+    },
+    "3735": {
+      "name": "resumeEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#resumeevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "resumeEvent",
+        "url": "/api/class/ApplicationCommon#resumeevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "resumeEvent: \"resume\" = \"resume\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 74,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "resumeEvent",
+            "url": "/api/class/ApplicationCommon#resumeevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#resumeevent"
+        }
+      ]
+    },
+    "3736": {
+      "name": "exitEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#exitevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "exitEvent",
+        "url": "/api/class/ApplicationCommon#exitevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "exitEvent: \"exit\" = \"exit\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 75,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "exitEvent",
+            "url": "/api/class/ApplicationCommon#exitevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#exitevent"
+        }
+      ]
+    },
+    "3737": {
+      "name": "lowMemoryEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#lowmemoryevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "lowMemoryEvent",
+        "url": "/api/class/ApplicationCommon#lowmemoryevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "lowMemoryEvent: \"lowMemory\" = \"lowMemory\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 76,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "lowMemoryEvent",
+            "url": "/api/class/ApplicationCommon#lowmemoryevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#lowmemoryevent"
+        }
+      ]
+    },
+    "3738": {
+      "name": "uncaughtErrorEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#uncaughterrorevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "uncaughtErrorEvent",
+        "url": "/api/class/ApplicationCommon#uncaughterrorevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "uncaughtErrorEvent: \"uncaughtError\" = \"uncaughtError\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 77,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "uncaughtErrorEvent",
+            "url": "/api/class/ApplicationCommon#uncaughterrorevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#uncaughterrorevent"
+        }
+      ]
+    },
+    "3739": {
+      "name": "discardedErrorEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#discardederrorevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "discardedErrorEvent",
+        "url": "/api/class/ApplicationCommon#discardederrorevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "discardedErrorEvent: \"discardedError\" = \"discardedError\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 78,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "discardedErrorEvent",
+            "url": "/api/class/ApplicationCommon#discardederrorevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#discardederrorevent"
+        }
+      ]
+    },
+    "3740": {
+      "name": "orientationChangedEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#orientationchangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "orientationChangedEvent",
+        "url": "/api/class/ApplicationCommon#orientationchangedevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "orientationChangedEvent: \"orientationChanged\" = \"orientationChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 79,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "orientationChangedEvent",
+            "url": "/api/class/ApplicationCommon#orientationchangedevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#orientationchangedevent"
+        }
+      ]
+    },
+    "3741": {
+      "name": "systemAppearanceChangedEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#systemappearancechangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "systemAppearanceChangedEvent",
+        "url": "/api/class/ApplicationCommon#systemappearancechangedevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "systemAppearanceChangedEvent: \"systemAppearanceChanged\" = \"systemAppearanceChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 80,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "systemAppearanceChangedEvent",
+            "url": "/api/class/ApplicationCommon#systemappearancechangedevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#systemappearancechangedevent"
+        }
+      ]
+    },
+    "3742": {
+      "name": "fontScaleChangedEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#fontscalechangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "fontScaleChangedEvent",
+        "url": "/api/class/ApplicationCommon#fontscalechangedevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "fontScaleChangedEvent: \"fontScaleChanged\" = \"fontScaleChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 81,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "fontScaleChangedEvent",
+            "url": "/api/class/ApplicationCommon#fontscalechangedevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#fontscalechangedevent"
+        }
+      ]
+    },
+    "3743": {
+      "name": "livesyncEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#livesyncevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "livesyncEvent",
+        "url": "/api/class/ApplicationCommon#livesyncevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "livesyncEvent: \"livesync\" = \"livesync\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 82,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "livesyncEvent",
+            "url": "/api/class/ApplicationCommon#livesyncevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#livesyncevent"
+        }
+      ]
+    },
+    "3744": {
+      "name": "loadAppCssEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#loadappcssevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "loadAppCssEvent",
+        "url": "/api/class/ApplicationCommon#loadappcssevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "loadAppCssEvent: \"loadAppCss\" = \"loadAppCss\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 83,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "loadAppCssEvent",
+            "url": "/api/class/ApplicationCommon#loadappcssevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#loadappcssevent"
+        }
+      ]
+    },
+    "3745": {
+      "name": "cssChangedEvent",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#csschangedevent",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "name": "cssChangedEvent",
+        "url": "/api/class/ApplicationCommon#csschangedevent",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "cssChangedEvent: \"cssChanged\" = \"cssChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 84,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "name": "cssChangedEvent",
+            "url": "/api/class/ApplicationCommon#csschangedevent",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#csschangedevent"
+        }
+      ]
+    },
+    "3746": {
+      "name": "on",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#on",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "on",
+        "url": "/api/class/ApplicationCommon#on",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "on: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 105,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/ApplicationCommon#on",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#on"
+        }
+      ]
+    },
+    "3853": {
+      "name": "once",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#once",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/ApplicationCommon#once",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "once: {\n(eventNames: string, callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"livesync\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"cssChanged\", callback: (args: <a href=\"/api/interface/CssChangedEventData\">CssChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"launch\", callback: (args: <a href=\"/api/interface/LaunchEventData\">LaunchEventData</a>) => void, thisArg?: any) => void;\n(event: \"displayed\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"suspend\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"resume\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"exit\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"lowMemory\", callback: (args: <a href=\"/api/interface/ApplicationEventData\">ApplicationEventData</a>) => void, thisArg?: any) => void;\n(event: \"uncaughtError\", callback: (args: <a href=\"/api/interface/UnhandledErrorEventData\">UnhandledErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"discardedError\", callback: (args: <a href=\"/api/interface/DiscardedErrorEventData\">DiscardedErrorEventData</a>) => void, thisArg?: any) => void;\n(event: \"orientationChanged\", callback: (args: <a href=\"/api/interface/OrientationChangedEventData\">OrientationChangedEventData</a>) => void, thisArg?: any) => void;\n(event: \"systemAppearanceChanged\", callback: (args: <a href=\"/api/interface/SystemAppearanceChangedEventData\">SystemAppearanceChangedEventData</a>) => void, thisArg?: any) => void;\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/ApplicationCommon#once",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#once"
+        }
+      ]
+    },
+    "3960": {
+      "name": "off",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#off",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/ApplicationCommon#off",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "off: (eventNames: string, callback?: any, thisArg?: any) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 107,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/ApplicationCommon#off",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#off"
+        }
+      ]
+    },
+    "3966": {
+      "name": "notify",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "notify",
+        "url": "/api/class/ApplicationCommon#notify",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "notify: (eventData: T) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 108,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notify",
+            "url": "/api/class/ApplicationCommon#notify",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#notify"
+        }
+      ]
+    },
+    "3971": {
+      "name": "hasListeners",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "hasListeners",
+        "url": "/api/class/ApplicationCommon#haslisteners",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "hasListeners: (eventName: string) => boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 109,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "hasListeners",
+            "url": "/api/class/ApplicationCommon#haslisteners",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#haslisteners"
+        }
+      ]
+    },
+    "3979": {
+      "name": "applyCssClass",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#applycssclass",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "applyCssClass",
+        "url": "/api/class/ApplicationCommon#applycssclass",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "applyCssClass(rootView: <a href=\"/api/class/View\">View</a>, cssClasses: string[], newCssClass: string): void",
+          "url": "/api/class/iOSApplication#applycssclass-applycssclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "applyCssClass",
+            "url": "/api/class/ApplicationCommon#applycssclass",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Applies the the "
+              },
+              {
+                "kind": "code",
+                "text": "`newCssClass`"
+              },
+              {
+                "kind": "text",
+                "text": " to the "
+              },
+              {
+                "kind": "code",
+                "text": "`rootView`"
+              },
+              {
+                "kind": "text",
+                "text": " and removes all other css classes from "
+              },
+              {
+                "kind": "code",
+                "text": "`cssClasses`"
+              },
+              {
+                "kind": "text",
+                "text": "\npreviously applied to the "
+              },
+              {
+                "kind": "code",
+                "text": "`rootView`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": []
+              }
+            },
+            {
+              "name": "cssClasses",
+              "type": "string[]",
+              "flags": {},
+              "comment": {
+                "summary": []
+              }
+            },
+            {
+              "name": "newCssClass",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": []
+              }
+            }
+          ],
           "returns": "void"
+        }
+      ]
+    },
+    "3984": {
+      "name": "setMaxRefreshRate",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setmaxrefreshrate",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setMaxRefreshRate",
+        "url": "/api/class/ApplicationCommon#setmaxrefreshrate",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setMaxRefreshRate(options?: { max?: number; min?: number }): void",
+          "url": "/api/class/iOSApplication#setmaxrefreshrate-setmaxrefreshrate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 143,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setMaxRefreshRate",
+            "url": "/api/class/ApplicationCommon#setmaxrefreshrate",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "iOS Only\nDynamically change the preferred frame rate\nFor devices (iOS 15+) which support min/max/preferred frame rate you can specify ranges\nFor devices (iOS < 15), you can specify the max frame rate\nsee: https://developer.apple.com/documentation/quartzcore/optimizing_promotion_refresh_rates_for_iphone_13_pro_and_ipad_pro\nTo use, ensure your Info.plist has:\n"
+              },
+              {
+                "kind": "code",
+                "text": "```xml\n  <key>CADisableMinimumFrameDurationOnPhone</key>\n  <true/>\n```"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "{\n  max?: number\n  min?: number\n}",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "{ min?: number; max?: number; preferred?: number }"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "3991": {
+      "name": "mainEntry",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#mainentry",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "name": "mainEntry",
+        "url": "/api/class/ApplicationCommon#mainentry",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "mainEntry: NavigationEntry",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 148,
+              "character": 14
+            }
+          ],
+          "inheritedFrom": {
+            "name": "mainEntry",
+            "url": "/api/class/ApplicationCommon#mainentry",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#mainentry"
+        }
+      ]
+    },
+    "3992": {
+      "name": "getMainEntry",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#getmainentry",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getMainEntry",
+        "url": "/api/class/ApplicationCommon#getmainentry",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getMainEntry(): NavigationEntry",
+          "url": "/api/class/iOSApplication#getmainentry-getmainentry-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 152,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getMainEntry",
+            "url": "/api/class/ApplicationCommon#getmainentry",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "The main entry of the application"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "NavigationEntry"
+        }
+      ]
+    },
+    "3994": {
+      "name": "notifyLaunch",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#notifylaunch",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "name": "notifyLaunch",
+        "url": "/api/class/ApplicationCommon#notifylaunch",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "notifyLaunch(additionalLanchEventData?: any): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/iOSApplication#notifylaunch-notifylaunch-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 153,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notifyLaunch",
+            "url": "/api/class/ApplicationCommon#notifylaunch",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "additionalLanchEventData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "3997": {
+      "name": "createRootView",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#createrootview",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "createRootView",
+        "url": "/api/class/ApplicationCommon#createrootview",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "createRootView(view?: <a href=\"/api/class/View\">View</a>, fireLaunchEvent?: boolean, additionalLanchEventData?: any): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/iOSApplication#createrootview-createrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "createRootView",
+            "url": "/api/class/ApplicationCommon#createrootview",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "fireLaunchEvent",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "additionalLanchEventData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "4002": {
+      "name": "getRootView",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#getrootview",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getRootView",
+        "url": "/api/class/ApplicationCommon#getrootview",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getRootView(): <a href=\"/api/class/View\">View</a>",
+          "url": "/api/class/iOSApplication#getrootview-getrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getRootView",
+            "url": "/api/class/ApplicationCommon#getrootview",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/View\">View</a>"
+        }
+      ]
+    },
+    "4004": {
+      "name": "resetRootView",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#resetrootview",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "resetRootView",
+        "url": "/api/class/ApplicationCommon#resetrootview",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "resetRootView(entry?: string | NavigationEntry): void",
+          "url": "/api/class/iOSApplication#resetrootview-resetrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 156,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "resetRootView",
+            "url": "/api/class/ApplicationCommon#resetrootview",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "entry",
+              "type": "string | NavigationEntry",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4007": {
+      "name": "initRootView",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#initrootview",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "initRootView",
+        "url": "/api/class/ApplicationCommon#initrootview",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "initRootView(rootView: <a href=\"/api/class/View\">View</a>): void",
+          "url": "/api/class/iOSApplication#initrootview-initrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 157,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "initRootView",
+            "url": "/api/class/ApplicationCommon#initrootview",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4010": {
+      "name": "getResources",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#getresources",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getResources",
+        "url": "/api/class/ApplicationCommon#getresources",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getResources(): any",
+          "url": "/api/class/iOSApplication#getresources-getresources-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 161,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getResources",
+            "url": "/api/class/ApplicationCommon#getresources",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get application level static resources."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "4012": {
+      "name": "setResources",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setresources",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setResources",
+        "url": "/api/class/ApplicationCommon#setresources",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setResources(res: any): void",
+          "url": "/api/class/iOSApplication#setresources-setresources-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 165,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setResources",
+            "url": "/api/class/ApplicationCommon#setresources",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set application level static resources."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "res",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4015": {
+      "name": "setCssFileName",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setcssfilename",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setCssFileName",
+        "url": "/api/class/ApplicationCommon#setcssfilename",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setCssFileName(cssFileName: string): void",
+          "url": "/api/class/iOSApplication#setcssfilename-setcssfilename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 170,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setCssFileName",
+            "url": "/api/class/ApplicationCommon#setcssfilename",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Sets css file name for the application."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "cssFileName",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4018": {
+      "name": "getCssFileName",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#getcssfilename",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getCssFileName",
+        "url": "/api/class/ApplicationCommon#getcssfilename",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getCssFileName(): string",
+          "url": "/api/class/iOSApplication#getcssfilename-getcssfilename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 174,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getCssFileName",
+            "url": "/api/class/ApplicationCommon#getcssfilename",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets css file name for the application."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "4020": {
+      "name": "loadAppCss",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#loadappcss",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "loadAppCss",
+        "url": "/api/class/ApplicationCommon#loadappcss",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "loadAppCss(): void",
+          "url": "/api/class/iOSApplication#loadappcss-loadappcss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 181,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "loadAppCss",
+            "url": "/api/class/ApplicationCommon#loadappcss",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Loads immediately the app.css.\nBy default the app.css file is loaded shortly after \"loaded\".\nFor the Android snapshot the CSS can be parsed during the snapshot generation,\nas the CSS does not depend on runtime APIs, and loadAppCss will be called explicitly."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "4022": {
+      "name": "addCss",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#addcss",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "addCss",
+        "url": "/api/class/ApplicationCommon#addcss",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addCss(cssText: string, attributeScoped?: boolean): void",
+          "url": "/api/class/iOSApplication#addcss-addcss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 182,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addCss",
+            "url": "/api/class/ApplicationCommon#addcss",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "cssText",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "attributeScoped",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4026": {
+      "name": "run",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#run",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "run",
+        "url": "/api/class/ApplicationCommon#run",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "run(entry?: string | NavigationEntry): void",
+          "url": "/api/class/iOSApplication#run-run-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 183,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "run",
+            "url": "/api/class/ApplicationCommon#run",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "entry",
+              "type": "string | NavigationEntry",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4029": {
+      "name": "getOrientation",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#getorientation",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "name": "getOrientation",
+        "url": "/api/class/ApplicationCommon#getorientation",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getOrientation(): \"portrait\" | \"landscape\" | \"unknown\"",
+          "url": "/api/class/iOSApplication#getorientation-getorientation-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 185,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getOrientation",
+            "url": "/api/class/ApplicationCommon#getorientation",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "\"portrait\" | \"landscape\" | \"unknown\""
+        }
+      ]
+    },
+    "4031": {
+      "name": "setOrientation",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setorientation",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "name": "setOrientation",
+        "url": "/api/class/ApplicationCommon#setorientation",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setOrientation(value: \"portrait\" | \"landscape\" | \"unknown\"): void",
+          "url": "/api/class/iOSApplication#setorientation-setorientation-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 186,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setOrientation",
+            "url": "/api/class/ApplicationCommon#setorientation",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "\"portrait\" | \"landscape\" | \"unknown\"",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4034": {
+      "name": "orientation",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#orientation",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "orientation",
+        "url": "/api/class/ApplicationCommon#orientation",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "orientation(): \"portrait\" | \"landscape\" | \"unknown\"",
+          "url": "/api/class/iOSApplication#orientation-orientation-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 187,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "orientation",
+            "url": "/api/class/ApplicationCommon#orientation",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "\"portrait\" | \"landscape\" | \"unknown\""
+        }
+      ]
+    },
+    "4036": {
+      "name": "orientationChanged",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#orientationchanged",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "orientationChanged",
+        "url": "/api/class/ApplicationCommon#orientationchanged",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "orientationChanged(rootView: <a href=\"/api/class/View\">View</a>, newOrientation: \"portrait\" | \"landscape\" | \"unknown\"): void",
+          "url": "/api/class/iOSApplication#orientationchanged-orientationchanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 188,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "orientationChanged",
+            "url": "/api/class/ApplicationCommon#orientationchanged",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            },
+            {
+              "name": "newOrientation",
+              "type": "\"portrait\" | \"landscape\" | \"unknown\"",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4040": {
+      "name": "getNativeApplication",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#getnativeapplication",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getNativeApplication",
+        "url": "/api/class/ApplicationCommon#getnativeapplication",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getNativeApplication(): any",
+          "url": "/api/class/iOSApplication#getnativeapplication-getnativeapplication-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 189,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getNativeApplication",
+            "url": "/api/class/ApplicationCommon#getnativeapplication",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "4042": {
+      "name": "hasLaunched",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#haslaunched",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "hasLaunched",
+        "url": "/api/class/ApplicationCommon#haslaunched",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasLaunched(): boolean",
+          "url": "/api/class/iOSApplication#haslaunched-haslaunched-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 190,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "hasLaunched",
+            "url": "/api/class/ApplicationCommon#haslaunched",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "4044": {
+      "name": "getSystemAppearance",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#getsystemappearance",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "name": "getSystemAppearance",
+        "url": "/api/class/ApplicationCommon#getsystemappearance",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getSystemAppearance(): \"dark\" | \"light\"",
+          "url": "/api/class/iOSApplication#getsystemappearance-getsystemappearance-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 192,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getSystemAppearance",
+            "url": "/api/class/ApplicationCommon#getsystemappearance",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "\"dark\" | \"light\""
+        }
+      ]
+    },
+    "4046": {
+      "name": "setSystemAppearance",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setsystemappearance",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "name": "setSystemAppearance",
+        "url": "/api/class/ApplicationCommon#setsystemappearance",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setSystemAppearance(value: \"dark\" | \"light\"): void",
+          "url": "/api/class/iOSApplication#setsystemappearance-setsystemappearance-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 193,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setSystemAppearance",
+            "url": "/api/class/ApplicationCommon#setsystemappearance",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "\"dark\" | \"light\"",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4049": {
+      "name": "systemAppearance",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#systemappearance",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "systemAppearance",
+        "url": "/api/class/ApplicationCommon#systemappearance",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "systemAppearance(): \"dark\" | \"light\"",
+          "url": "/api/class/iOSApplication#systemappearance-systemappearance-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 194,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "systemAppearance",
+            "url": "/api/class/ApplicationCommon#systemappearance",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "\"dark\" | \"light\""
+        }
+      ]
+    },
+    "4051": {
+      "name": "autoSystemAppearanceChanged",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#autosystemappearancechanged",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Boolean to enable/disable systemAppearanceChanged"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "autoSystemAppearanceChanged",
+        "url": "/api/class/ApplicationCommon#autosystemappearancechanged",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "autoSystemAppearanceChanged: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 198,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "autoSystemAppearanceChanged",
+            "url": "/api/class/ApplicationCommon#autosystemappearancechanged",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Boolean to enable/disable systemAppearanceChanged"
+              }
+            ]
+          },
+          "url": "/api/class/iOSApplication#autosystemappearancechanged"
+        }
+      ]
+    },
+    "4052": {
+      "name": "setAutoSystemAppearanceChanged",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setautosystemappearancechanged",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setAutoSystemAppearanceChanged",
+        "url": "/api/class/ApplicationCommon#setautosystemappearancechanged",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setAutoSystemAppearanceChanged(value: boolean): void",
+          "url": "/api/class/iOSApplication#setautosystemappearancechanged-setautosystemappearancechanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 202,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setAutoSystemAppearanceChanged",
+            "url": "/api/class/ApplicationCommon#setautosystemappearancechanged",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "enable/disable systemAppearanceChanged"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "boolean",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4055": {
+      "name": "systemAppearanceChanged",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#systemappearancechanged",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "systemAppearanceChanged",
+        "url": "/api/class/ApplicationCommon#systemappearancechanged",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "systemAppearanceChanged(rootView: <a href=\"/api/class/View\">View</a>, newSystemAppearance: \"dark\" | \"light\"): void",
+          "url": "/api/class/iOSApplication#systemappearancechanged-systemappearancechanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 208,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "systemAppearanceChanged",
+            "url": "/api/class/ApplicationCommon#systemappearancechanged",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates root view classes including those of modals"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "rootView",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the root view"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "newSystemAppearance",
+              "type": "\"dark\" | \"light\"",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the new appearance change"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4059": {
+      "name": "inBackground",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#inbackground",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "inBackground",
+        "url": "/api/class/ApplicationCommon#inbackground",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get inBackground(): boolean",
+          "url": "/api/class/iOSApplication#inbackground-inbackground-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 210,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "4061": {
+      "name": "setInBackground",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setinbackground",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setInBackground",
+        "url": "/api/class/ApplicationCommon#setinbackground",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setInBackground(value: boolean, additonalData?: any): void",
+          "url": "/api/class/iOSApplication#setinbackground-setinbackground-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 211,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setInBackground",
+            "url": "/api/class/ApplicationCommon#setinbackground",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "boolean",
+              "flags": {}
+            },
+            {
+              "name": "additonalData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4065": {
+      "name": "suspended",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#suspended",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "suspended",
+        "url": "/api/class/ApplicationCommon#suspended",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get suspended(): boolean",
+          "url": "/api/class/iOSApplication#suspended-suspended-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 213,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "4067": {
+      "name": "setSuspended",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#setsuspended",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setSuspended",
+        "url": "/api/class/ApplicationCommon#setsuspended",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setSuspended(value: boolean, additonalData?: any): void",
+          "url": "/api/class/iOSApplication#setsuspended-setsuspended-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 214,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setSuspended",
+            "url": "/api/class/ApplicationCommon#setsuspended",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "boolean",
+              "flags": {}
+            },
+            {
+              "name": "additonalData",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "4071": {
+      "name": "started",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#started",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "started",
+        "url": "/api/class/ApplicationCommon#started",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "code": "started: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 215,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "started",
+            "url": "/api/class/ApplicationCommon#started",
+            "fromName": "ApplicationCommon",
+            "fromUrl": "/api/class/ApplicationCommon"
+          },
+          "url": "/api/class/iOSApplication#started"
+        }
+      ]
+    },
+    "4072": {
+      "name": "android",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#android",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "android",
+        "url": "/api/class/ApplicationCommon#android",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get android(): <a href=\"/api/class/AndroidApplication\">AndroidApplication</a>",
+          "url": "/api/class/iOSApplication#android-android-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 216,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/AndroidApplication\">AndroidApplication</a>"
+        }
+      ]
+    },
+    "4074": {
+      "name": "ios",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#ios",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "ios",
+        "url": "/api/class/ApplicationCommon#ios",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get ios(): <a href=\"/api/class/iOSApplication\">iOSApplication</a>",
+          "url": "/api/class/iOSApplication#ios-ios-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 217,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/iOSApplication\">iOSApplication</a>"
+        }
+      ]
+    },
+    "4076": {
+      "name": "AndroidApplication",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#androidapplication",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "AndroidApplication",
+        "url": "/api/class/ApplicationCommon#androidapplication",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get AndroidApplication(): <a href=\"/api/class/AndroidApplication\">AndroidApplication</a>",
+          "url": "/api/class/iOSApplication#androidapplication-androidapplication-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 218,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/AndroidApplication\">AndroidApplication</a>"
+        }
+      ]
+    },
+    "4078": {
+      "name": "iOSApplication",
+      "type": "Accessor",
+      "url": "/api/class/iOSApplication#iosapplication",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "iOSApplication",
+        "url": "/api/class/ApplicationCommon#iosapplication",
+        "fromName": "ApplicationCommon",
+        "fromUrl": "/api/class/ApplicationCommon"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get iOSApplication(): <a href=\"/api/class/iOSApplication\">iOSApplication</a>",
+          "url": "/api/class/iOSApplication#iosapplication-iosapplication-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-common.d.ts",
+              "line": 219,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ApplicationCommon"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/iOSApplication\">iOSApplication</a>"
         }
       ]
     }

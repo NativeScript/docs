@@ -1,9 +1,16 @@
 ---
 title: ContentView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ContentView'
 layout: api
 seo:
-  description: undefined
+  description: ContentView
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5809" v-once>
+<APIRef for="8337" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5811" v-once>
+<APIRef for="8339" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5814" v-once>
+<APIRef for="8342" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5812" v-once>
+<APIRef for="8340" v-once>
 
 <template #title>
 

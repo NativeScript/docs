@@ -1,6 +1,13 @@
 ---
 title: IOSHelper
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'IOSHelper'
 layout: api
 seo:
   description: "Various iOS view helper methods"
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="8315" v-once>
+<APIRef for="11065" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8311" v-once>
+<APIRef for="11061" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8293" v-once>
+<APIRef for="11043" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8270" v-once>
+<APIRef for="11020" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8285" v-once>
+<APIRef for="11035" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8281" v-once>
+<APIRef for="11031" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8307" v-once>
+<APIRef for="11057" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8273" v-once>
+<APIRef for="11023" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8277" v-once>
+<APIRef for="11027" v-once>
 
 <template #title>
 

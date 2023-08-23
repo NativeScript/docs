@@ -1,6 +1,13 @@
 ---
 title: ShownModallyData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ShownModallyData'
 layout: api
 seo:
   description: "Defines the data for the shownModally event."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ShownModallyData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ShownModallyData extends <a href="/api/interface/EventData">EventData</a> {
   closeCallback: Function;
   context: any;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="9046" v-once>
+<APIRef for="11849" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="9045" v-once>
+<APIRef for="11848" v-once>
 
 <template #title>
 

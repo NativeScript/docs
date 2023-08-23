@@ -1,0 +1,171 @@
+{
+  "title": "SharedTransitionConfig",
+  "hierarchy": [
+    [
+      {
+        "text": "SharedTransitionConfig"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        32738,
+        32742,
+        32743,
+        32741
+      ]
+    }
+  ],
+  "reflections": {
+    "32738": {
+      "name": "interactive",
+      "type": "Property",
+      "url": "/api/interface/SharedTransitionConfig#interactive",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Interactive transition settings. (iOS only at the moment)"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "interactive?: {}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 105,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Interactive transition settings. (iOS only at the moment)"
+              }
+            ]
+          },
+          "url": "/api/interface/SharedTransitionConfig#interactive"
+        }
+      ]
+    },
+    "32741": {
+      "name": "pageStart",
+      "type": "Property",
+      "url": "/api/interface/SharedTransitionConfig#pagestart",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "View settings to start your transition with."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "pageStart?: SharedTransitionPageProperties",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 115,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "View settings to start your transition with."
+              }
+            ]
+          },
+          "url": "/api/interface/SharedTransitionConfig#pagestart"
+        }
+      ]
+    },
+    "32742": {
+      "name": "pageEnd",
+      "type": "Property",
+      "url": "/api/interface/SharedTransitionConfig#pageend",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "View settings to end your transition with."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "pageEnd?: SharedTransitionPageWithDurationProperties",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 119,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "View settings to end your transition with."
+              }
+            ]
+          },
+          "url": "/api/interface/SharedTransitionConfig#pageend"
+        }
+      ]
+    },
+    "32743": {
+      "name": "pageReturn",
+      "type": "Property",
+      "url": "/api/interface/SharedTransitionConfig#pagereturn",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "View settings to return to the original page with."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "pageReturn?: SharedRect & {\n  opacity?: number\n} & {\n  sharedTransitionTags?: {}\n} & {} & {}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 123,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "View settings to return to the original page with."
+              }
+            ]
+          },
+          "url": "/api/interface/SharedTransitionConfig#pagereturn"
+        }
+      ]
+    }
+  }
+}

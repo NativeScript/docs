@@ -11,23 +11,23 @@
     {
       "title": "Constructors",
       "items": [
-        32578
+        37626
       ]
     },
     {
       "title": "Properties",
       "items": [
-        32583,
-        32584,
-        32585,
-        32586,
-        32587,
-        32588
+        37631,
+        37632,
+        37633,
+        37634,
+        37635,
+        37636
       ]
     }
   ],
   "reflections": {
-    "32578": {
+    "37626": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ItemSpec#constructor",
@@ -74,7 +74,7 @@
         }
       ]
     },
-    "32583": {
+    "37631": {
       "name": "actualLength",
       "type": "Property",
       "url": "/api/class/ItemSpec#actuallength",
@@ -109,7 +109,7 @@
         }
       ]
     },
-    "32584": {
+    "37632": {
       "name": "gridUnitType",
       "type": "Property",
       "url": "/api/class/ItemSpec#gridunittype",
@@ -144,7 +144,7 @@
         }
       ]
     },
-    "32585": {
+    "37633": {
       "name": "isAbsolute",
       "type": "Property",
       "url": "/api/class/ItemSpec#isabsolute",
@@ -179,7 +179,7 @@
         }
       ]
     },
-    "32586": {
+    "37634": {
       "name": "isAuto",
       "type": "Property",
       "url": "/api/class/ItemSpec#isauto",
@@ -214,7 +214,7 @@
         }
       ]
     },
-    "32587": {
+    "37635": {
       "name": "isStar",
       "type": "Property",
       "url": "/api/class/ItemSpec#isstar",
@@ -249,7 +249,7 @@
         }
       ]
     },
-    "32588": {
+    "37636": {
       "name": "value",
       "type": "Property",
       "url": "/api/class/ItemSpec#value",

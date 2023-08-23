@@ -1,6 +1,13 @@
 ---
 title: EditableTextBase
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'EditableTextBase'
 layout: api
 seo:
   description: "Represents the base class for all editable text views."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28806" v-once>
+<APIRef for="33600" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28811" v-once>
+<APIRef for="33605" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28814" v-once>
+<APIRef for="33608" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28812" v-once>
+<APIRef for="33606" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28813" v-once>
+<APIRef for="33607" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28815" v-once>
+<APIRef for="33609" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28808" v-once>
+<APIRef for="33602" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28816" v-once>
+<APIRef for="33610" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28809" v-once>
+<APIRef for="33603" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28810" v-once>
+<APIRef for="33604" v-once>
 
 <template #title>
 
@@ -168,9 +175,23 @@ seo:
 
 </div>
 
+<div class="">
+
+<APIRef for="33611" v-once>
+
+<template #title>
+
+### valueFormatter
+
+</template>
+
+</APIRef>
+
+</div>
+
 <div class="isPublic isStatic">
 
-<APIRef for="28739" v-once>
+<APIRef for="33518" v-once>
 
 <template #title>
 
@@ -184,7 +205,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="28740" v-once>
+<APIRef for="33519" v-once>
 
 <template #title>
 
@@ -198,7 +219,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="28741" v-once>
+<APIRef for="33520" v-once>
 
 <template #title>
 
@@ -212,23 +233,9 @@ seo:
 
 ## Methods
 
-<div class="isPrivate">
-
-<APIRef for="28819" v-once>
-
-<template #title>
-
-### _setInputType
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="28817" v-once>
+<APIRef for="33615" v-once>
 
 <template #title>
 
@@ -242,7 +249,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="28822" v-once>
+<APIRef for="33620" v-once>
 
 <template #title>
 

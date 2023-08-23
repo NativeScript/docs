@@ -8,10 +8,6 @@
     ],
     [
       {
-        "text": "AndroidApplication",
-        "link": "/api/class/AndroidApplication"
-      },
-      {
         "text": "ObservableArray",
         "link": "/api/class/ObservableArray"
       },
@@ -41,42 +37,41 @@
     {
       "title": "Constructors",
       "items": [
-        1682
+        1467
       ]
     },
     {
       "title": "Properties",
       "items": [
-        1756,
-        1656
+        1424
       ]
     },
     {
       "title": "Methods",
       "items": [
-        1751,
-        1748,
-        1712,
-        1672,
-        1733,
-        1745,
-        1736,
-        1740,
-        1707,
-        1667,
-        1684,
-        1657,
-        1699,
-        1662,
-        1720,
-        1677,
-        1725,
-        1729
+        1535,
+        1540,
+        1506,
+        1457,
+        1471,
+        1532,
+        1523,
+        1527,
+        1498,
+        1441,
+        1482,
+        1425,
+        1490,
+        1433,
+        1514,
+        1449,
+        1474,
+        1478
       ]
     }
   ],
   "reflections": {
-    "1656": {
+    "1424": {
       "name": "propertyChangeEvent",
       "type": "Property",
       "url": "/api/class/Observable#propertychangeevent",
@@ -97,8 +92,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 81,
-              "character": 8
+              "line": 74,
+              "character": 11
             }
           ],
           "comment": {
@@ -113,23 +108,23 @@
         }
       ]
     },
-    "1657": {
+    "1425": {
       "name": "on",
       "type": "Method",
-      "url": "/api/class/Observable#on-3",
+      "url": "/api/class/Observable#on-2",
       "flags": {
         "isStatic": true
       },
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "on(eventName: string, callback: any, thisArg?: any): void",
-          "url": "/api/class/Observable#on-3-on-4",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#on-2-on-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 91,
-              "character": 1
+              "line": 125,
+              "character": 4
             }
           ],
           "parameters": [
@@ -140,7 +135,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {}
             },
             {
@@ -155,7 +150,7 @@
         }
       ]
     },
-    "1662": {
+    "1433": {
       "name": "once",
       "type": "Method",
       "url": "/api/class/Observable#once-2",
@@ -165,13 +160,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "once(eventName: string, callback: any, thisArg?: any): void",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#once-2-once-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 106,
-              "character": 1
+              "line": 126,
+              "character": 4
             }
           ],
           "parameters": [
@@ -182,7 +177,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {}
             },
             {
@@ -197,7 +192,7 @@
         }
       ]
     },
-    "1667": {
+    "1441": {
       "name": "off",
       "type": "Method",
       "url": "/api/class/Observable#off-2",
@@ -207,13 +202,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "off(eventName: string, callback?: any, thisArg?: any): void",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#off-2-off-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 113,
-              "character": 1
+              "line": 127,
+              "character": 4
             }
           ],
           "parameters": [
@@ -224,7 +219,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -241,49 +236,7 @@
         }
       ]
     },
-    "1672": {
-      "name": "addEventListener",
-      "type": "Method",
-      "url": "/api/class/Observable#addeventlistener-2",
-      "flags": {
-        "isStatic": true
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "addEventListener(eventName: string, callback: any, thisArg?: any): void",
-          "url": "/api/class/Observable#addeventlistener-2-addeventlistener-3",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 123,
-              "character": 1
-            }
-          ],
-          "parameters": [
-            {
-              "name": "eventName",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "callback",
-              "type": "any",
-              "flags": {}
-            },
-            {
-              "name": "thisArg",
-              "type": "any",
-              "flags": {
-                "isOptional": true
-              }
-            }
-          ],
-          "returns": "void"
-        }
-      ]
-    },
-    "1677": {
+    "1449": {
       "name": "removeEventListener",
       "type": "Method",
       "url": "/api/class/Observable#removeeventlistener-2",
@@ -293,13 +246,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeEventListener(eventName: string, callback?: any, thisArg?: any): void",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#removeeventlistener-2-removeeventlistener-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 133,
-              "character": 1
+              "line": 128,
+              "character": 4
             }
           ],
           "parameters": [
@@ -310,7 +263,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -327,7 +280,49 @@
         }
       ]
     },
-    "1682": {
+    "1457": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/Observable#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1467": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Observable#constructor",
@@ -337,51 +332,130 @@
           "type": "ConstructorSignature",
           "code": "new Observable(): <a href=\"/api/class/Observable\">Observable</a>",
           "url": "/api/class/Observable#constructor-new-observable",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Observable\">Observable</a>"
+        }
+      ]
+    },
+    "1471": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/Observable#get",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "get(name: string): any",
+          "url": "/api/class/Observable#get-get-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 76,
-              "character": 1
+              "line": 84,
+              "character": 4
             }
           ],
           "comment": {
             "summary": [
               {
                 "kind": "text",
-                "text": "Please note that should you be using the "
-              },
-              {
-                "kind": "code",
-                "text": "`new Observable({})`"
-              },
-              {
-                "kind": "text",
-                "text": " constructor, it is **obsolete** since v3.0,\nand you have to migrate to the \"data/observable\" "
-              },
-              {
-                "kind": "code",
-                "text": "`fromObject({})`"
-              },
-              {
-                "kind": "text",
-                "text": " or the "
-              },
-              {
-                "kind": "code",
-                "text": "`fromObjectRecursive({})`"
-              },
-              {
-                "kind": "text",
-                "text": " functions."
+                "text": "Gets the value of the specified property."
               }
             ]
           },
-          "parameters": [],
-          "returns": "<a href=\"/api/class/Observable\">Observable</a>"
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
         }
       ]
     },
-    "1684": {
+    "1474": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/Observable#set",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "set(name: string, value: any): void",
+          "url": "/api/class/Observable#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1478": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/Observable#setproperty",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setProperty(name: string, value: any): void",
+          "url": "/api/class/Observable#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1482": {
       "name": "on",
       "type": "Method",
       "url": "/api/class/Observable#on",
@@ -389,13 +463,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#on-on-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 89,
-              "character": 1
+              "line": 99,
+              "character": 4
             }
           ],
           "comment": {
@@ -465,51 +539,11 @@
               }
             }
           ],
-          "returns": "any"
-        },
-        {
-          "type": "CallSignature",
-          "code": "on(event: \"propertyChange\", callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
-          "url": "/api/class/Observable#on-on-2",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 96,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Raised when a propertyChange occurs."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "event",
-              "type": "\"propertyChange\"",
-              "flags": {}
-            },
-            {
-              "name": "callback",
-              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
-              "flags": {}
-            },
-            {
-              "name": "thisArg",
-              "type": "any",
-              "flags": {
-                "isOptional": true
-              }
-            }
-          ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "1699": {
+    "1490": {
       "name": "once",
       "type": "Method",
       "url": "/api/class/Observable#once",
@@ -517,13 +551,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#once-once-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 104,
-              "character": 1
+              "line": 106,
+              "character": 4
             }
           ],
           "comment": {
@@ -585,11 +619,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "1707": {
+    "1498": {
       "name": "off",
       "type": "Method",
       "url": "/api/class/Observable#off",
@@ -597,13 +631,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "off(eventNames: string, callback?: any, thisArg?: any): any",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#off-off-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 111,
-              "character": 1
+              "line": 110,
+              "character": 4
             }
           ],
           "comment": {
@@ -622,7 +656,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -635,11 +669,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "1712": {
+    "1506": {
       "name": "addEventListener",
       "type": "Method",
       "url": "/api/class/Observable#addeventlistener",
@@ -647,13 +681,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#addeventlistener-addeventlistener-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 121,
-              "character": 1
+              "line": 117,
+              "character": 4
             }
           ],
           "comment": {
@@ -707,11 +741,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "1720": {
+    "1514": {
       "name": "removeEventListener",
       "type": "Method",
       "url": "/api/class/Observable#removeeventlistener",
@@ -719,13 +753,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeEventListener(eventNames: string, callback?: any, thisArg?: any): any",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/Observable#removeeventlistener-removeeventlistener-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 131,
-              "character": 1
+              "line": 124,
+              "character": 4
             }
           ],
           "comment": {
@@ -752,7 +786,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               },
@@ -781,129 +815,11 @@
               }
             }
           ],
-          "returns": "any"
-        }
-      ]
-    },
-    "1725": {
-      "name": "set",
-      "type": "Method",
-      "url": "/api/class/Observable#set",
-      "flags": {},
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "set(name: string, value: any): void",
-          "url": "/api/class/Observable#set-set-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 138,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Updates the specified property with the provided value."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "name",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "value",
-              "type": "any",
-              "flags": {}
-            }
-          ],
           "returns": "void"
         }
       ]
     },
-    "1729": {
-      "name": "setProperty",
-      "type": "Method",
-      "url": "/api/class/Observable#setproperty",
-      "flags": {},
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "setProperty(name: string, value: any): void",
-          "url": "/api/class/Observable#setproperty-setproperty-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 143,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "name",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "value",
-              "type": "any",
-              "flags": {}
-            }
-          ],
-          "returns": "void"
-        }
-      ]
-    },
-    "1733": {
-      "name": "get",
-      "type": "Method",
-      "url": "/api/class/Observable#get",
-      "flags": {},
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "get(name: string): any",
-          "url": "/api/class/Observable#get-get-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 148,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Gets the value of the specified property."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "name",
-              "type": "string",
-              "flags": {}
-            }
-          ],
-          "returns": "any"
-        }
-      ]
-    },
-    "1736": {
+    "1523": {
       "name": "notify",
       "type": "Method",
       "url": "/api/class/Observable#notify",
@@ -916,15 +832,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 154,
-              "character": 1
+              "line": 140,
+              "character": 4
             }
           ],
           "comment": {
             "summary": [
               {
                 "kind": "text",
-                "text": "Notifies all the registered listeners for the event provided in the data.eventName."
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
               }
             ]
           },
@@ -937,7 +853,7 @@
                 "summary": [
                   {
                     "kind": "text",
-                    "text": "The data associated with the event."
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
                   }
                 ]
               }
@@ -947,7 +863,7 @@
         }
       ]
     },
-    "1740": {
+    "1527": {
       "name": "notifyPropertyChange",
       "type": "Method",
       "url": "/api/class/Observable#notifypropertychange",
@@ -955,13 +871,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyPropertyChange(propertyName: string, value: any, oldValue?: any): void",
+          "code": "notifyPropertyChange(name: string, value: any, oldValue?: any): void",
           "url": "/api/class/Observable#notifypropertychange-notifypropertychange-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 159,
-              "character": 1
+              "line": 145,
+              "character": 4
             }
           ],
           "comment": {
@@ -974,7 +890,7 @@
           },
           "parameters": [
             {
-              "name": "propertyName",
+              "name": "name",
               "type": "string",
               "flags": {}
             },
@@ -995,7 +911,7 @@
         }
       ]
     },
-    "1745": {
+    "1532": {
       "name": "hasListeners",
       "type": "Method",
       "url": "/api/class/Observable#haslisteners",
@@ -1008,8 +924,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 165,
-              "character": 1
+              "line": 150,
+              "character": 4
             }
           ],
           "comment": {
@@ -1039,37 +955,7 @@
         }
       ]
     },
-    "1748": {
-      "name": "_emit",
-      "type": "Method",
-      "url": "/api/class/Observable#emit",
-      "flags": {
-        "isPublic": true
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "_emit(eventNames: string): any",
-          "url": "/api/class/Observable#emit-emit-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 167,
-              "character": 1
-            }
-          ],
-          "parameters": [
-            {
-              "name": "eventNames",
-              "type": "string",
-              "flags": {}
-            }
-          ],
-          "returns": "any"
-        }
-      ]
-    },
-    "1751": {
+    "1535": {
       "name": "_createPropertyChangeData",
       "type": "Method",
       "url": "/api/class/Observable#createpropertychangedata",
@@ -1077,13 +963,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_createPropertyChangeData(name: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
           "url": "/api/class/Observable#createpropertychangedata-createpropertychangedata-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 172,
-              "character": 1
+              "line": 154,
+              "character": 4
             }
           ],
           "comment": {
@@ -1096,7 +982,7 @@
           },
           "parameters": [
             {
-              "name": "name",
+              "name": "propertyName",
               "type": "string",
               "flags": {}
             },
@@ -1117,40 +1003,31 @@
         }
       ]
     },
-    "1756": {
-      "name": "_isViewBase",
-      "type": "Property",
-      "url": "/api/class/Observable#isviewbase",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Filed to use instead of instanceof ViewBase."
-          }
-        ]
-      },
-      "flags": {
-        "isPrivate": true
-      },
+    "1540": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/Observable#emit",
+      "flags": {},
       "signatures": [
         {
-          "code": "_isViewBase: boolean",
+          "type": "CallSignature",
+          "code": "_emit(eventNames: string): void",
+          "url": "/api/class/Observable#emit-emit-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 179,
-              "character": 8
+              "line": 155,
+              "character": 4
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Filed to use instead of instanceof ViewBase."
-              }
-            ]
-          },
-          "url": "/api/class/Observable#isviewbase"
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
         }
       ]
     }

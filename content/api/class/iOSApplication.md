@@ -1,9 +1,16 @@
 ---
 title: iOSApplication
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'iOSApplication'
 layout: api
 seo:
-  description: "The abstraction of an iOS-specific application object."
+  description: iOSApplication
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,33 +25,15 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJUaGUgYWJzdHJhY3Rpb24gb2YgYW4gaU9TLXNwZWNpZmljIGFwcGxpY2F0aW9uIG9iamVjdC4ifV19" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
 
-## Constructors
+## Accessors
 
 <div class="">
 
-<APIRef for="838" v-once>
-
-<template #title>
-
-### constructor
-
-</template>
-
-</APIRef>
-
-</div>
-
-## Properties
-
-<div class="">
-
-<APIRef for="842" v-once>
+<APIRef for="3715" v-once>
 
 <template #title>
 
@@ -58,7 +47,7 @@ seo:
 
 <div class="">
 
-<APIRef for="845" v-once>
+<APIRef for="3711" v-once>
 
 <template #title>
 
@@ -72,21 +61,7 @@ seo:
 
 <div class="">
 
-<APIRef for="843" v-once>
-
-<template #title>
-
-### orientation
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="840" v-once>
+<APIRef for="3709" v-once>
 
 <template #title>
 
@@ -100,21 +75,7 @@ seo:
 
 <div class="">
 
-<APIRef for="844" v-once>
-
-<template #title>
-
-### systemAppearance
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="841" v-once>
+<APIRef for="3713" v-once>
 
 <template #title>
 
@@ -130,7 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="846" v-once>
+<APIRef for="3719" v-once>
 
 <template #title>
 
@@ -144,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="853" v-once>
+<APIRef for="3726" v-once>
 
 <template #title>
 

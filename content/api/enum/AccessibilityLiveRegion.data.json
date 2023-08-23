@@ -5,14 +5,14 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1204,
-        1202,
-        1203
+        939,
+        937,
+        938
       ]
     }
   ],
   "reflections": {
-    "1202": {
+    "937": {
       "name": "None",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityLiveRegion#none",
@@ -31,7 +31,7 @@
         }
       ]
     },
-    "1203": {
+    "938": {
       "name": "Polite",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityLiveRegion#polite",
@@ -50,7 +50,7 @@
         }
       ]
     },
-    "1204": {
+    "939": {
       "name": "Assertive",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityLiveRegion#assertive",

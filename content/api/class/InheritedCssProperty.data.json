@@ -17,38 +17,38 @@
     {
       "title": "Constructors",
       "items": [
-        9229
+        12032
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9244,
-        9243,
-        9245,
-        9253,
-        9252,
-        9249,
-        9247,
-        9248,
-        9246,
-        9242,
-        9238,
-        9234,
-        9250,
-        9251
+        12043,
+        12042,
+        12044,
+        12052,
+        12051,
+        12048,
+        12046,
+        12047,
+        12045,
+        12041,
+        12053,
+        12037,
+        12049,
+        12050
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9259,
-        9254
+        12062,
+        12057
       ]
     }
   ],
   "reflections": {
-    "9229": {
+    "12032": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/InheritedCssProperty#constructor",
@@ -61,7 +61,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 120,
+              "line": 119,
               "character": 4
             }
           ],
@@ -76,7 +76,7 @@
         }
       ]
     },
-    "9234": {
+    "12037": {
       "name": "setInheritedValue",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#setinheritedvalue",
@@ -95,26 +95,7 @@
         }
       ]
     },
-    "9238": {
-      "name": "overrideHandlers",
-      "type": "Property",
-      "url": "/api/class/InheritedCssProperty#overridehandlers",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "overrideHandlers: (options: CssPropertyOptions&lt;T, U&gt;) => void",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 119,
-              "character": 4
-            }
-          ],
-          "url": "/api/class/InheritedCssProperty#overridehandlers"
-        }
-      ]
-    },
-    "9242": {
+    "12041": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#name",
@@ -141,7 +122,7 @@
         }
       ]
     },
-    "9243": {
+    "12042": {
       "name": "cssName",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#cssname",
@@ -168,7 +149,7 @@
         }
       ]
     },
-    "9244": {
+    "12043": {
       "name": "cssLocalName",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#csslocalname",
@@ -195,7 +176,7 @@
         }
       ]
     },
-    "9245": {
+    "12044": {
       "name": "cssValueDescriptor",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#cssvaluedescriptor",
@@ -223,7 +204,7 @@
         }
       ]
     },
-    "9246": {
+    "12045": {
       "name": "localValueDescriptor",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#localvaluedescriptor",
@@ -251,7 +232,7 @@
         }
       ]
     },
-    "9247": {
+    "12046": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#isstyleproperty",
@@ -276,7 +257,7 @@
         }
       ]
     },
-    "9248": {
+    "12047": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#key",
@@ -303,7 +284,7 @@
         }
       ]
     },
-    "9249": {
+    "12048": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#getdefault",
@@ -330,7 +311,7 @@
         }
       ]
     },
-    "9250": {
+    "12049": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#setnative",
@@ -357,7 +338,7 @@
         }
       ]
     },
-    "9251": {
+    "12050": {
       "name": "sourceKey",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#sourcekey",
@@ -384,7 +365,7 @@
         }
       ]
     },
-    "9252": {
+    "12051": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#defaultvaluekey",
@@ -411,7 +392,7 @@
         }
       ]
     },
-    "9253": {
+    "12052": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#defaultvalue",
@@ -438,7 +419,32 @@
         }
       ]
     },
-    "9254": {
+    "12053": {
+      "name": "overrideHandlers",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#overridehandlers",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "overrideHandlers: (options: CssPropertyOptions&lt;T, U&gt;) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 87,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#overridehandlers"
+        }
+      ]
+    },
+    "12057": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/InheritedCssProperty#register",
@@ -472,7 +478,7 @@
         }
       ]
     },
-    "9259": {
+    "12062": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/InheritedCssProperty#isset",

@@ -1,9 +1,16 @@
 ---
 title: RootLayout
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'RootLayout'
 layout: api
 seo:
-  description: undefined
+  description: RootLayout
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32682" v-once>
+<APIRef for="37745" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32694" v-once>
+<APIRef for="37757" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32688" v-once>
+<APIRef for="37751" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32698" v-once>
+<APIRef for="37761" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32705" v-once>
+<APIRef for="37768" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32700" v-once>
+<APIRef for="37763" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32684" v-once>
+<APIRef for="37747" v-once>
 
 <template #title>
 
@@ -126,7 +133,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32702" v-once>
+<APIRef for="37765" v-once>
 
 <template #title>
 
@@ -140,7 +147,7 @@ seo:
 
 <div class="">
 
-<APIRef for="32692" v-once>
+<APIRef for="37755" v-once>
 
 <template #title>
 

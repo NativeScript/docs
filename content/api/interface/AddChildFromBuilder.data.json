@@ -11,12 +11,12 @@
     {
       "title": "Methods",
       "items": [
-        9055
+        11858
       ]
     }
   ],
   "reflections": {
-    "9055": {
+    "11858": {
       "name": "_addChildFromBuilder",
       "type": "Method",
       "url": "/api/interface/AddChildFromBuilder#addchildfrombuilder",
@@ -29,7 +29,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
-              "line": 967,
+              "line": 982,
               "character": 1
             }
           ],

@@ -11,23 +11,23 @@
     {
       "title": "Properties",
       "items": [
-        5013,
-        5022,
-        5020,
-        5019,
-        5016,
-        5021,
-        5012,
-        5018,
-        5015,
-        5011,
-        5014,
-        5017
+        7476,
+        7485,
+        7483,
+        7482,
+        7479,
+        7484,
+        7475,
+        7481,
+        7478,
+        7474,
+        7477,
+        7480
       ]
     }
   ],
   "reflections": {
-    "5011": {
+    "7474": {
       "name": "target",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#target",
@@ -64,7 +64,7 @@
         }
       ]
     },
-    "5012": {
+    "7475": {
       "name": "opacity",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#opacity",
@@ -101,7 +101,7 @@
         }
       ]
     },
-    "5013": {
+    "7476": {
       "name": "backgroundColor",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#backgroundcolor",
@@ -138,7 +138,7 @@
         }
       ]
     },
-    "5014": {
+    "7477": {
       "name": "translate",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#translate",
@@ -175,7 +175,7 @@
         }
       ]
     },
-    "5015": {
+    "7478": {
       "name": "scale",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#scale",
@@ -212,7 +212,7 @@
         }
       ]
     },
-    "5016": {
+    "7479": {
       "name": "height",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#height",
@@ -249,7 +249,7 @@
         }
       ]
     },
-    "5017": {
+    "7480": {
       "name": "width",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#width",
@@ -286,7 +286,7 @@
         }
       ]
     },
-    "5018": {
+    "7481": {
       "name": "rotate",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#rotate",
@@ -323,7 +323,7 @@
         }
       ]
     },
-    "5019": {
+    "7482": {
       "name": "duration",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#duration",
@@ -360,7 +360,7 @@
         }
       ]
     },
-    "5020": {
+    "7483": {
       "name": "delay",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#delay",
@@ -397,7 +397,7 @@
         }
       ]
     },
-    "5021": {
+    "7484": {
       "name": "iterations",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#iterations",
@@ -434,7 +434,7 @@
         }
       ]
     },
-    "5022": {
+    "7485": {
       "name": "curve",
       "type": "Property",
       "url": "/api/interface/AnimationDefinition#curve",

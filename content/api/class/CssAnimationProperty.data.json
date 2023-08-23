@@ -11,62 +11,38 @@
     {
       "title": "Constructors",
       "items": [
-        9291
+        12094
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9313,
-        9298,
-        9297,
-        9311,
-        9308,
-        9299,
-        9312,
-        9309,
-        9307,
-        9296,
-        9285,
-        9301,
-        9300,
-        9310
+        12116,
+        12101,
+        12100,
+        12114,
+        12111,
+        12102,
+        12115,
+        12112,
+        12110,
+        12099,
+        12104,
+        12103
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9286,
-        9289,
-        9317,
-        9320
+        12089,
+        12092,
+        12120,
+        12123
       ]
     }
   ],
   "reflections": {
-    "9285": {
-      "name": "properties",
-      "type": "Property",
-      "url": "/api/class/CssAnimationProperty#properties",
-      "flags": {
-        "isPrivate": true,
-        "isStatic": true
-      },
-      "signatures": [
-        {
-          "code": "properties: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 109,
-              "character": 19
-            }
-          ],
-          "url": "/api/class/CssAnimationProperty#properties"
-        }
-      ]
-    },
-    "9286": {
+    "12089": {
       "name": "_getByCssName",
       "type": "Method",
       "url": "/api/class/CssAnimationProperty#getbycssname",
@@ -96,7 +72,7 @@
         }
       ]
     },
-    "9289": {
+    "12092": {
       "name": "_getPropertyNames",
       "type": "Method",
       "url": "/api/class/CssAnimationProperty#getpropertynames",
@@ -120,7 +96,7 @@
         }
       ]
     },
-    "9291": {
+    "12094": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/CssAnimationProperty#constructor",
@@ -148,7 +124,7 @@
         }
       ]
     },
-    "9296": {
+    "12099": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#name",
@@ -169,7 +145,7 @@
         }
       ]
     },
-    "9297": {
+    "12100": {
       "name": "cssName",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#cssname",
@@ -190,7 +166,7 @@
         }
       ]
     },
-    "9298": {
+    "12101": {
       "name": "cssLocalName",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#csslocalname",
@@ -211,7 +187,7 @@
         }
       ]
     },
-    "9299": {
+    "12102": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#getdefault",
@@ -232,7 +208,7 @@
         }
       ]
     },
-    "9300": {
+    "12103": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#setnative",
@@ -253,7 +229,7 @@
         }
       ]
     },
-    "9301": {
+    "12104": {
       "name": "register",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#register",
@@ -274,7 +250,7 @@
         }
       ]
     },
-    "9307": {
+    "12110": {
       "name": "keyframe",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#keyframe",
@@ -295,7 +271,7 @@
         }
       ]
     },
-    "9308": {
+    "12111": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#defaultvaluekey",
@@ -316,7 +292,7 @@
         }
       ]
     },
-    "9309": {
+    "12112": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#key",
@@ -337,29 +313,7 @@
         }
       ]
     },
-    "9310": {
-      "name": "source",
-      "type": "Property",
-      "url": "/api/class/CssAnimationProperty#source",
-      "flags": {
-        "isPrivate": true,
-        "isReadonly": true
-      },
-      "signatures": [
-        {
-          "code": "source: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 106,
-              "character": 21
-            }
-          ],
-          "url": "/api/class/CssAnimationProperty#source"
-        }
-      ]
-    },
-    "9311": {
+    "12114": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#defaultvalue",
@@ -380,7 +334,7 @@
         }
       ]
     },
-    "9312": {
+    "12115": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#isstyleproperty",
@@ -399,7 +353,7 @@
         }
       ]
     },
-    "9313": {
+    "12116": {
       "name": "_valueConverter",
       "type": "Property",
       "url": "/api/class/CssAnimationProperty#valueconverter",
@@ -420,7 +374,7 @@
         }
       ]
     },
-    "9317": {
+    "12120": {
       "name": "_initDefaultNativeValue",
       "type": "Method",
       "url": "/api/class/CssAnimationProperty#initdefaultnativevalue",
@@ -448,7 +402,7 @@
         }
       ]
     },
-    "9320": {
+    "12123": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/CssAnimationProperty#isset",

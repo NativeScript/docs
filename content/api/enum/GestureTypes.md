@@ -1,6 +1,13 @@
 ---
 title: GestureTypes
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'GestureTypes'
 layout: api
 seo:
   description: "Defines an enum with supported gesture types."
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11095" v-once>
+<APIRef for="14009" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11100" v-once>
+<APIRef for="14014" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11097" v-once>
+<APIRef for="14011" v-once>
 
 <template #title>
 
@@ -68,7 +75,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11096" v-once>
+<APIRef for="14010" v-once>
 
 <template #title>
 
@@ -82,7 +89,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11099" v-once>
+<APIRef for="14013" v-once>
 
 <template #title>
 
@@ -96,7 +103,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11098" v-once>
+<APIRef for="14012" v-once>
 
 <template #title>
 
@@ -110,7 +117,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11094" v-once>
+<APIRef for="14008" v-once>
 
 <template #title>
 
@@ -124,7 +131,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11101" v-once>
+<APIRef for="14015" v-once>
 
 <template #title>
 

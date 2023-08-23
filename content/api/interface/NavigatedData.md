@@ -1,6 +1,13 @@
 ---
 title: NavigatedData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'NavigatedData'
 layout: api
 seo:
   description: "Defines the data for the page navigation events."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface NavigatedData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface NavigatedData extends <a href="/api/interface/EventData">EventData</a> {
   context: any;
   isBackNavigation: boolean;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="16396" v-once>
+<APIRef for="19722" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="16397" v-once>
+<APIRef for="19723" v-once>
 
 <template #title>
 

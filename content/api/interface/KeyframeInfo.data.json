@@ -11,14 +11,14 @@
     {
       "title": "Properties",
       "items": [
-        5009,
-        5008,
-        5007
+        7472,
+        7471,
+        7470
       ]
     }
   ],
   "reflections": {
-    "5007": {
+    "7470": {
       "name": "duration",
       "type": "Property",
       "url": "/api/interface/KeyframeInfo#duration",
@@ -37,7 +37,7 @@
         }
       ]
     },
-    "5008": {
+    "7471": {
       "name": "declarations",
       "type": "Property",
       "url": "/api/interface/KeyframeInfo#declarations",
@@ -56,7 +56,7 @@
         }
       ]
     },
-    "5009": {
+    "7472": {
       "name": "curve",
       "type": "Property",
       "url": "/api/interface/KeyframeInfo#curve",

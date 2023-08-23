@@ -5,26 +5,18 @@
     {
       "title": "Variables",
       "items": [
-        2684,
-        2681,
-        2683,
-        2682
+        4955,
+        4952,
+        4954,
+        4953
       ]
     }
   ],
   "reflections": {
-    "2681": {
+    "4952": {
       "name": "none",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AutocapitalizationType#none",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Do not capitalize any text automatically."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -34,34 +26,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 380,
-              "character": 15
+              "line": 172,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Do not capitalize any text automatically."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AutocapitalizationType#none"
         }
       ]
     },
-    "2682": {
+    "4953": {
       "name": "words",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AutocapitalizationType#words",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Capitalize the first letter of each word automatically."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -71,34 +47,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 385,
-              "character": 15
+              "line": 173,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Capitalize the first letter of each word automatically."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AutocapitalizationType#words"
         }
       ]
     },
-    "2683": {
+    "4954": {
       "name": "sentences",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AutocapitalizationType#sentences",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Capitalize the first letter of each sentence automatically."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -108,34 +68,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 390,
-              "character": 15
+              "line": 174,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Capitalize the first letter of each sentence automatically."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AutocapitalizationType#sentences"
         }
       ]
     },
-    "2684": {
+    "4955": {
       "name": "allCharacters",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AutocapitalizationType#allcharacters",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Capitalize all characters automatically."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -145,18 +89,10 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 395,
-              "character": 15
+              "line": 175,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Capitalize all characters automatically."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AutocapitalizationType#allcharacters"
         }
       ]

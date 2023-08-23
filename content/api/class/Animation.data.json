@@ -11,26 +11,26 @@
     {
       "title": "Constructors",
       "items": [
-        4960
+        7423
       ]
     },
     {
       "title": "Properties",
       "items": [
-        4968,
-        4971,
-        4964
+        7431,
+        7434,
+        7427
       ]
     },
     {
       "title": "Methods",
       "items": [
-        4972
+        7435
       ]
     }
   ],
   "reflections": {
-    "4960": {
+    "7423": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Animation#constructor",
@@ -65,7 +65,7 @@
         }
       ]
     },
-    "4964": {
+    "7427": {
       "name": "play",
       "type": "Property",
       "url": "/api/class/Animation#play",
@@ -86,7 +86,7 @@
         }
       ]
     },
-    "4968": {
+    "7431": {
       "name": "cancel",
       "type": "Property",
       "url": "/api/class/Animation#cancel",
@@ -107,7 +107,7 @@
         }
       ]
     },
-    "4971": {
+    "7434": {
       "name": "isPlaying",
       "type": "Property",
       "url": "/api/class/Animation#isplaying",
@@ -128,7 +128,7 @@
         }
       ]
     },
-    "4972": {
+    "7435": {
       "name": "_resolveAnimationCurve",
       "type": "Method",
       "url": "/api/class/Animation#resolveanimationcurve",

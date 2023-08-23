@@ -1,9 +1,16 @@
 ---
 title: NativeScriptConfig
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'NativeScriptConfig'
 layout: api
 seo:
-  description: undefined
+  description: NativeScriptConfig
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface NativeScriptConfig {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface NativeScriptConfig {
   android: IConfigAndroid;
   appPath: string;
   appResourcesPath: string;
@@ -44,7 +51,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="831" v-once>
+<APIRef for="888" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="824" v-once>
+<APIRef for="881" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="825" v-once>
+<APIRef for="882" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="835" v-once>
+<APIRef for="892" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="833" v-once>
+<APIRef for="890" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="836" v-once>
+<APIRef for="893" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="822" v-once>
+<APIRef for="879" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="834" v-once>
+<APIRef for="891" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="830" v-once>
+<APIRef for="887" v-once>
 
 <template #title>
 
@@ -170,7 +177,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="823" v-once>
+<APIRef for="880" v-once>
 
 <template #title>
 
@@ -184,7 +191,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="828" v-once>
+<APIRef for="885" v-once>
 
 <template #title>
 
@@ -198,7 +205,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="827" v-once>
+<APIRef for="884" v-once>
 
 <template #title>
 
@@ -212,7 +219,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="832" v-once>
+<APIRef for="889" v-once>
 
 <template #title>
 
@@ -226,7 +233,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="826" v-once>
+<APIRef for="883" v-once>
 
 <template #title>
 
@@ -240,7 +247,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="829" v-once>
+<APIRef for="886" v-once>
 
 <template #title>
 

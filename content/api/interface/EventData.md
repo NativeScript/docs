@@ -1,6 +1,13 @@
 ---
 title: EventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'EventData'
 layout: api
 seo:
   description: "Base event data."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface EventData {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface EventData {
   eventName: string;
   object: <a href="/api/class/Observable">Observable</a>;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1781" v-once>
+<APIRef for="1568" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1782" v-once>
+<APIRef for="1569" v-once>
 
 <template #title>
 

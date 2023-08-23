@@ -1,6 +1,13 @@
 ---
 title: GestureEvents
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'GestureEvents'
 layout: api
 seo:
   description: "Events emitted during gesture lifecycle"
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11113" v-once>
+<APIRef for="14027" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11114" v-once>
+<APIRef for="14028" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11115" v-once>
+<APIRef for="14029" v-once>
 
 <template #title>
 

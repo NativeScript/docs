@@ -11,24 +11,24 @@
     {
       "title": "Properties",
       "items": [
-        2581,
-        2582,
-        2580,
-        2576,
-        2579,
-        2577,
-        2578
+        2866,
+        2867,
+        2865,
+        2861,
+        2864,
+        2862,
+        2863
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2583
+        2868
       ]
     }
   ],
   "reflections": {
-    "2576": {
+    "2861": {
       "name": "eventType",
       "type": "Property",
       "url": "/api/interface/ParserEvent#eventtype",
@@ -63,7 +63,7 @@
         }
       ]
     },
-    "2577": {
+    "2862": {
       "name": "position",
       "type": "Property",
       "url": "/api/interface/ParserEvent#position",
@@ -98,7 +98,7 @@
         }
       ]
     },
-    "2578": {
+    "2863": {
       "name": "prefix",
       "type": "Property",
       "url": "/api/interface/ParserEvent#prefix",
@@ -135,7 +135,7 @@
         }
       ]
     },
-    "2579": {
+    "2864": {
       "name": "namespace",
       "type": "Property",
       "url": "/api/interface/ParserEvent#namespace",
@@ -172,7 +172,7 @@
         }
       ]
     },
-    "2580": {
+    "2865": {
       "name": "elementName",
       "type": "Property",
       "url": "/api/interface/ParserEvent#elementname",
@@ -209,7 +209,7 @@
         }
       ]
     },
-    "2581": {
+    "2866": {
       "name": "attributes",
       "type": "Property",
       "url": "/api/interface/ParserEvent#attributes",
@@ -246,7 +246,7 @@
         }
       ]
     },
-    "2582": {
+    "2867": {
       "name": "data",
       "type": "Property",
       "url": "/api/interface/ParserEvent#data",
@@ -283,7 +283,7 @@
         }
       ]
     },
-    "2583": {
+    "2868": {
       "name": "toString",
       "type": "Method",
       "url": "/api/interface/ParserEvent#tostring",

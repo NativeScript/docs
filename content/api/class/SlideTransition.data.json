@@ -1,0 +1,914 @@
+{
+  "title": "SlideTransition",
+  "hierarchy": [
+    [
+      {
+        "text": "Transition",
+        "link": "/api/class/Transition"
+      }
+    ],
+    [
+      {
+        "text": "SlideTransition"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        32601
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        32595,
+        32606,
+        32609,
+        32607,
+        32610,
+        32611,
+        32612,
+        32608
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        32661,
+        32626,
+        32632,
+        32624,
+        32619,
+        32641,
+        32649,
+        32652,
+        32655,
+        32644,
+        32621,
+        32635
+      ]
+    }
+  ],
+  "reflections": {
+    "32595": {
+      "name": "AndroidTransitionType",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#androidtransitiontype",
+      "flags": {
+        "isStatic": true,
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "AndroidTransitionType",
+        "url": "/api/class/Transition#androidtransitiontype",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "AndroidTransitionType?: {\n  enter?: string\n  exit?: string\n  popEnter?: string\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 38,
+              "character": 8
+            }
+          ],
+          "inheritedFrom": {
+            "name": "AndroidTransitionType",
+            "url": "/api/class/Transition#androidtransitiontype",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/SlideTransition#androidtransitiontype"
+        }
+      ]
+    },
+    "32601": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/SlideTransition#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new SlideTransition(direction: string, duration?: number, nativeCurve?: any): <a href=\"/api/class/SlideTransition\">SlideTransition</a>",
+          "url": "/api/class/SlideTransition#constructor-new-slidetransition",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/slide-transition.d.ts",
+              "line": 4,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "direction",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "duration",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "nativeCurve",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/SlideTransition\">SlideTransition</a>"
+        }
+      ]
+    },
+    "32606": {
+      "name": "id",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#id",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "id",
+        "url": "/api/class/Transition#id",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "id: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 23,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "id",
+            "url": "/api/class/Transition#id",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/SlideTransition#id"
+        }
+      ]
+    },
+    "32607": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "(Optional) Provide a unique name to identify this transition"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "name",
+        "url": "/api/class/Transition#name",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "name?: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 27,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "name",
+            "url": "/api/class/Transition#name",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "(Optional) Provide a unique name to identify this transition"
+              }
+            ]
+          },
+          "url": "/api/class/SlideTransition#name"
+        }
+      ]
+    },
+    "32608": {
+      "name": "transitionController",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#transitioncontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "transitionController",
+        "url": "/api/class/Transition#transitioncontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "transitionController?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 28,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "transitionController",
+            "url": "/api/class/Transition#transitioncontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/SlideTransition#transitioncontroller"
+        }
+      ]
+    },
+    "32609": {
+      "name": "interactiveController",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#interactivecontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "interactiveController",
+        "url": "/api/class/Transition#interactivecontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "interactiveController?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 29,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "interactiveController",
+            "url": "/api/class/Transition#interactivecontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/SlideTransition#interactivecontroller"
+        }
+      ]
+    },
+    "32610": {
+      "name": "presented",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#presented",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "presented",
+        "url": "/api/class/Transition#presented",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "presented?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 30,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "presented",
+            "url": "/api/class/Transition#presented",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/SlideTransition#presented"
+        }
+      ]
+    },
+    "32611": {
+      "name": "presenting",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#presenting",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "presenting",
+        "url": "/api/class/Transition#presenting",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "presenting?: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "presenting",
+            "url": "/api/class/Transition#presenting",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/SlideTransition#presenting"
+        }
+      ]
+    },
+    "32612": {
+      "name": "sharedElements",
+      "type": "Property",
+      "url": "/api/class/SlideTransition#sharedelements",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "sharedElements",
+        "url": "/api/class/Transition#sharedelements",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "sharedElements?: {\n  independent?: (SharedElementSettings & {})[]\n  presented?: SharedElementSettings[]\n}",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "sharedElements",
+            "url": "/api/class/Transition#sharedelements",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/SlideTransition#sharedelements"
+        }
+      ]
+    },
+    "32619": {
+      "name": "getDuration",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#getduration",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getDuration",
+        "url": "/api/class/Transition#getduration",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getDuration(): number",
+          "url": "/api/class/SlideTransition#getduration-getduration-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 40,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getDuration",
+            "url": "/api/class/Transition#getduration",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "32621": {
+      "name": "setDuration",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#setduration",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setDuration",
+        "url": "/api/class/Transition#setduration",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setDuration(value: number): void",
+          "url": "/api/class/SlideTransition#setduration-setduration-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 41,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setDuration",
+            "url": "/api/class/Transition#setduration",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32624": {
+      "name": "getCurve",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#getcurve",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getCurve",
+        "url": "/api/class/Transition#getcurve",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getCurve(): any",
+          "url": "/api/class/SlideTransition#getcurve-getcurve-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 42,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getCurve",
+            "url": "/api/class/Transition#getcurve",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "32626": {
+      "name": "animateIOSTransition",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#animateiostransition",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "animateIOSTransition",
+        "url": "/api/class/Transition#animateiostransition",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "animateIOSTransition(\n  transitionContext: any,\n  fromViewCtrl: any,\n  toViewCtrl: any,\n  operation: any\n): void",
+          "url": "/api/class/SlideTransition#animateiostransition-animateiostransition-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 43,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "animateIOSTransition",
+            "url": "/api/class/Transition#animateiostransition",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "transitionContext",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "fromViewCtrl",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "toViewCtrl",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "operation",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32632": {
+      "name": "createAndroidAnimator",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#createandroidanimator",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "createAndroidAnimator",
+        "url": "/api/class/Transition#createandroidanimator",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "createAndroidAnimator(transitionType: string): any",
+          "url": "/api/class/SlideTransition#createandroidanimator-createandroidanimator-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 44,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "createAndroidAnimator",
+            "url": "/api/class/Transition#createandroidanimator",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "transitionType",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32635": {
+      "name": "setupInteractiveGesture",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#setupinteractivegesture",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "setupInteractiveGesture",
+        "url": "/api/class/Transition#setupinteractivegesture",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setupInteractiveGesture(startCallback: () => void, view: <a href=\"/api/class/View\">View</a>): void",
+          "url": "/api/class/SlideTransition#setupinteractivegesture-setupinteractivegesture-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 46,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setupInteractiveGesture",
+            "url": "/api/class/Transition#setupinteractivegesture",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "startCallback",
+              "type": "() => void",
+              "flags": {}
+            },
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32641": {
+      "name": "iosDismissedController",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#iosdismissedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosDismissedController",
+        "url": "/api/class/Transition#iosdismissedcontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "iosDismissedController(dismissed: any): any",
+          "url": "/api/class/SlideTransition#iosdismissedcontroller-iosdismissedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosDismissedController",
+            "url": "/api/class/Transition#iosdismissedcontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "dismissed",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32644": {
+      "name": "iosPresentedController",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#iospresentedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosPresentedController",
+        "url": "/api/class/Transition#iospresentedcontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "iosPresentedController(presented: any, presenting: any, source: any): any",
+          "url": "/api/class/SlideTransition#iospresentedcontroller-iospresentedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 50,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosPresentedController",
+            "url": "/api/class/Transition#iospresentedcontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "presented",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "presenting",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "source",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32649": {
+      "name": "iosInteractionDismiss",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#iosinteractiondismiss",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosInteractionDismiss",
+        "url": "/api/class/Transition#iosinteractiondismiss",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "iosInteractionDismiss(animator: any): any",
+          "url": "/api/class/SlideTransition#iosinteractiondismiss-iosinteractiondismiss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 52,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosInteractionDismiss",
+            "url": "/api/class/Transition#iosinteractiondismiss",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "animator",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32652": {
+      "name": "iosInteractionPresented",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#iosinteractionpresented",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosInteractionPresented",
+        "url": "/api/class/Transition#iosinteractionpresented",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "iosInteractionPresented(animator: any): any",
+          "url": "/api/class/SlideTransition#iosinteractionpresented-iosinteractionpresented-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosInteractionPresented",
+            "url": "/api/class/Transition#iosinteractionpresented",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "animator",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32655": {
+      "name": "iosNavigatedController",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#iosnavigatedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosNavigatedController",
+        "url": "/api/class/Transition#iosnavigatedcontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "iosNavigatedController(\n  navigationController: any,\n  operation: number,\n  fromVC: any,\n  toVC: any\n): any",
+          "url": "/api/class/SlideTransition#iosnavigatedcontroller-iosnavigatedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 56,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosNavigatedController",
+            "url": "/api/class/Transition#iosnavigatedcontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "navigationController",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "operation",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "fromVC",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "toVC",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32661": {
+      "name": "androidFragmentTransactionCallback",
+      "type": "Method",
+      "url": "/api/class/SlideTransition#androidfragmenttransactioncallback",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "androidFragmentTransactionCallback",
+        "url": "/api/class/Transition#androidfragmenttransactioncallback",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "androidFragmentTransactionCallback(fragmentTransaction: any, currentEntry: <a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>, newEntry: <a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>): void",
+          "url": "/api/class/SlideTransition#androidfragmenttransactioncallback-androidfragmenttransactioncallback-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 58,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "androidFragmentTransactionCallback",
+            "url": "/api/class/Transition#androidfragmenttransactioncallback",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "fragmentTransaction",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "currentEntry",
+              "type": "<a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>",
+              "flags": {}
+            },
+            {
+              "name": "newEntry",
+              "type": "<a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

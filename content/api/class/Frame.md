@@ -1,6 +1,13 @@
 ---
 title: Frame
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Frame'
 layout: api
 seo:
   description: "Represents the logical View unit that is responsible for navigation within an application.\nNested frames are supported, enabling hierarchical navigation scenarios."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10265" v-once>
+<APIRef for="13136" v-once>
 
 <template #title>
 
@@ -42,51 +49,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate">
-
-<APIRef for="10299" v-once>
-
-<template #title>
-
-### _animationInProgress
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10300" v-once>
-
-<template #title>
-
-### _currentEntry
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10301" v-once>
-
-<template #title>
-
-### _executingContext
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isPublic">
 
-<APIRef for="10281" v-once>
+<APIRef for="13152" v-once>
 
 <template #title>
 
@@ -100,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10287" v-once>
+<APIRef for="13158" v-once>
 
 <template #title>
 
@@ -114,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10285" v-once>
+<APIRef for="13156" v-once>
 
 <template #title>
 
@@ -128,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10282" v-once>
+<APIRef for="13153" v-once>
 
 <template #title>
 
@@ -142,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10284" v-once>
+<APIRef for="13155" v-once>
 
 <template #title>
 
@@ -156,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10283" v-once>
+<APIRef for="13154" v-once>
 
 <template #title>
 
@@ -170,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10288" v-once>
+<APIRef for="13159" v-once>
 
 <template #title>
 
@@ -182,23 +147,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="10298" v-once>
-
-<template #title>
-
-### navigationBarHeight
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="10286" v-once>
+<APIRef for="13157" v-once>
 
 <template #title>
 
@@ -212,7 +163,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="10195" v-once>
+<APIRef for="13051" v-once>
 
 <template #title>
 
@@ -226,7 +177,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="10196" v-once>
+<APIRef for="13052" v-once>
 
 <template #title>
 
@@ -240,149 +191,9 @@ seo:
 
 ## Methods
 
-<div class="isPrivate">
-
-<APIRef for="10321" v-once>
-
-<template #title>
-
-### _findEntryForTag
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10305" v-once>
-
-<template #title>
-
-### _getIsAnimatedNavigation
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10318" v-once>
-
-<template #title>
-
-### _getNavBarVisible
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10308" v-once>
-
-<template #title>
-
-### _getNavigationTransition
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10302" v-once>
-
-<template #title>
-
-### _processNavigationQueue
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10328" v-once>
-
-<template #title>
-
-### _pushInFrameStack
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10330" v-once>
-
-<template #title>
-
-### _pushInFrameStackRecursive
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10332" v-once>
-
-<template #title>
-
-### _removeFromFrameStack
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10311" v-once>
-
-<template #title>
-
-### _updateActionBar
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10324" v-once>
-
-<template #title>
-
-### _updateBackstack
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="10270" v-once>
+<APIRef for="13141" v-once>
 
 <template #title>
 
@@ -396,7 +207,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10267" v-once>
+<APIRef for="13138" v-once>
 
 <template #title>
 
@@ -408,23 +219,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="10289" v-once>
-
-<template #title>
-
-### isCurrent
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="10272" v-once>
+<APIRef for="13143" v-once>
 
 <template #title>
 
@@ -436,23 +233,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="10296" v-once>
-
-<template #title>
-
-### navigationQueueIsEmpty
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="10334" v-once>
+<APIRef for="13205" v-once>
 
 <template #title>
 
@@ -464,51 +247,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="10315" v-once>
-
-<template #title>
-
-### performNavigation
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="10292" v-once>
-
-<template #title>
-
-### setCurrent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate isStatic">
-
-<APIRef for="10193" v-once>
-
-<template #title>
-
-### _stack
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isStatic">
 
-<APIRef for="10183" v-once>
+<APIRef for="13039" v-once>
 
 <template #title>
 
@@ -522,7 +263,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="10188" v-once>
+<APIRef for="13044" v-once>
 
 <template #title>
 
@@ -534,23 +275,9 @@ seo:
 
 </div>
 
-<div class="isPrivate isStatic">
-
-<APIRef for="10190" v-once>
-
-<template #title>
-
-### reloadPage
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isStatic">
 
-<APIRef for="10186" v-once>
+<APIRef for="13042" v-once>
 
 <template #title>
 

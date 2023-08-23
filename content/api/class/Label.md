@@ -1,6 +1,13 @@
 ---
 title: Label
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Label'
 layout: api
 seo:
   description: "Represents a text label."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12838" v-once>
+<APIRef for="15895" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12840" v-once>
+<APIRef for="15897" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12841" v-once>
+<APIRef for="15898" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12842" v-once>
+<APIRef for="15899" v-once>
 
 <template #title>
 

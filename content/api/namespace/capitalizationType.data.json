@@ -5,15 +5,15 @@
     {
       "title": "Variables",
       "items": [
-        10119,
-        10118,
-        10120,
-        10121
+        12975,
+        12974,
+        12976,
+        12977
       ]
     }
   ],
   "reflections": {
-    "10118": {
+    "12974": {
       "name": "none",
       "type": "Variable",
       "url": "/api/namespace/capitalizationType#none",
@@ -50,7 +50,7 @@
         }
       ]
     },
-    "10119": {
+    "12975": {
       "name": "all",
       "type": "Variable",
       "url": "/api/namespace/capitalizationType#all",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    "10120": {
+    "12976": {
       "name": "sentences",
       "type": "Variable",
       "url": "/api/namespace/capitalizationType#sentences",
@@ -124,7 +124,7 @@
         }
       ]
     },
-    "10121": {
+    "12977": {
       "name": "words",
       "type": "Variable",
       "url": "/api/namespace/capitalizationType#words",

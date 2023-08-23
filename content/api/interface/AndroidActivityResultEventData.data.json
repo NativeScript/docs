@@ -17,17 +17,17 @@
     {
       "title": "Properties",
       "items": [
-        1126,
-        1127,
-        1125,
-        1128,
-        1123,
-        1124
+        4746,
+        4747,
+        4745,
+        4748,
+        4743,
+        4744
       ]
     }
   ],
   "reflections": {
-    "1123": {
+    "4743": {
       "name": "requestCode",
       "type": "Property",
       "url": "/api/interface/AndroidActivityResultEventData#requestcode",
@@ -45,9 +45,9 @@
           "code": "requestCode: number",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 457,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 154,
+              "character": 4
             }
           ],
           "comment": {
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "1124": {
+    "4744": {
       "name": "resultCode",
       "type": "Property",
       "url": "/api/interface/AndroidActivityResultEventData#resultcode",
@@ -80,9 +80,9 @@
           "code": "resultCode: number",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 462,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 158,
+              "character": 4
             }
           ],
           "comment": {
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "1125": {
+    "4745": {
       "name": "intent",
       "type": "Property",
       "url": "/api/interface/AndroidActivityResultEventData#intent",
@@ -112,12 +112,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "intent: any",
+          "code": "intent: Intent",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 467,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 162,
+              "character": 4
             }
           ],
           "comment": {
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "1126": {
+    "4746": {
       "name": "activity",
       "type": "Property",
       "url": "/api/interface/AndroidActivityResultEventData#activity",
@@ -153,12 +153,12 @@
       },
       "signatures": [
         {
-          "code": "activity: any",
+          "code": "activity: AppCompatActivity",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 407,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -179,7 +179,7 @@
         }
       ]
     },
-    "1127": {
+    "4747": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/AndroidActivityResultEventData#eventname",
@@ -203,9 +203,9 @@
           "code": "eventName: string",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 412,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -226,7 +226,7 @@
         }
       ]
     },
-    "1128": {
+    "4748": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/AndroidActivityResultEventData#object",
@@ -250,9 +250,9 @@
           "code": "object: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 417,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
             }
           ],
           "inheritedFrom": {

@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        17061,
-        17062,
-        17063,
-        17060
+        20442,
+        20443,
+        20444,
+        20441
       ]
     }
   ],
   "reflections": {
-    "17060": {
+    "20441": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/CreateViewEventData#view",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "17061": {
+    "20442": {
       "name": "context",
       "type": "Property",
       "url": "/api/interface/CreateViewEventData#context",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "17062": {
+    "20443": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/CreateViewEventData#eventname",
@@ -122,8 +122,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -144,7 +144,7 @@
         }
       ]
     },
-    "17063": {
+    "20444": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/CreateViewEventData#object",
@@ -169,8 +169,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

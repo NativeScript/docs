@@ -23,25 +23,25 @@
     {
       "title": "Properties",
       "items": [
-        11162,
-        11163,
-        11161,
-        11164,
-        11159,
-        11160
+        14076,
+        14077,
+        14075,
+        14078,
+        14073,
+        14074
       ]
     },
     {
       "title": "Methods",
       "items": [
-        11153,
-        11155,
-        11157
+        14067,
+        14069,
+        14071
       ]
     }
   ],
   "reflections": {
-    "11153": {
+    "14067": {
       "name": "getPointerCount",
       "type": "Method",
       "url": "/api/interface/TapGestureEventData#getpointercount",
@@ -71,7 +71,7 @@
         }
       ]
     },
-    "11155": {
+    "14069": {
       "name": "getX",
       "type": "Method",
       "url": "/api/interface/TapGestureEventData#getx",
@@ -101,7 +101,7 @@
         }
       ]
     },
-    "11157": {
+    "14071": {
       "name": "getY",
       "type": "Method",
       "url": "/api/interface/TapGestureEventData#gety",
@@ -131,7 +131,7 @@
         }
       ]
     },
-    "11159": {
+    "14073": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/TapGestureEventData#type",
@@ -178,7 +178,7 @@
         }
       ]
     },
-    "11160": {
+    "14074": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/TapGestureEventData#view",
@@ -199,7 +199,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -225,7 +225,7 @@
         }
       ]
     },
-    "11161": {
+    "14075": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/TapGestureEventData#ios",
@@ -272,7 +272,7 @@
         }
       ]
     },
-    "11162": {
+    "14076": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/TapGestureEventData#android",
@@ -319,7 +319,7 @@
         }
       ]
     },
-    "11163": {
+    "14077": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/TapGestureEventData#eventname",
@@ -344,8 +344,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -366,7 +366,7 @@
         }
       ]
     },
-    "11164": {
+    "14078": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/TapGestureEventData#object",
@@ -391,8 +391,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

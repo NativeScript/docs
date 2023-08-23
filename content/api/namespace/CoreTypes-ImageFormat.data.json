@@ -5,25 +5,17 @@
     {
       "title": "Variables",
       "items": [
-        2687,
-        2688,
-        2686
+        4973,
+        4974,
+        4972
       ]
     }
   ],
   "reflections": {
-    "2686": {
+    "4972": {
       "name": "png",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ImageFormat#png",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The W3C Portable Network Graphics (PNG) image format."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -33,34 +25,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 405,
-              "character": 15
+              "line": 197,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The W3C Portable Network Graphics (PNG) image format."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ImageFormat#png"
         }
       ]
     },
-    "2687": {
+    "4973": {
       "name": "jpeg",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ImageFormat#jpeg",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The Joint Photographic Experts Group (JPEG) image format."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -70,34 +46,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 410,
-              "character": 15
+              "line": 198,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The Joint Photographic Experts Group (JPEG) image format."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ImageFormat#jpeg"
         }
       ]
     },
-    "2688": {
+    "4974": {
       "name": "jpg",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ImageFormat#jpg",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The Joint Photographic Experts Group (JPEG) image format."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -107,18 +67,10 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 415,
-              "character": 15
+              "line": 199,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The Joint Photographic Experts Group (JPEG) image format."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ImageFormat#jpg"
         }
       ]

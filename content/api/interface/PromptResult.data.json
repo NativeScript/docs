@@ -11,13 +11,13 @@
     {
       "title": "Properties",
       "items": [
-        10137,
-        10138
+        12993,
+        12994
       ]
     }
   ],
   "reflections": {
-    "10137": {
+    "12993": {
       "name": "result",
       "type": "Property",
       "url": "/api/interface/PromptResult#result",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "10138": {
+    "12994": {
       "name": "text",
       "type": "Property",
       "url": "/api/interface/PromptResult#text",

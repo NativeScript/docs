@@ -17,38 +17,38 @@
     {
       "title": "Constructors",
       "items": [
-        9105
+        11908
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9110,
-        9138,
-        9119,
-        9118,
-        9137,
-        9126,
-        9116,
-        9125,
-        9115,
-        9114,
-        9120,
-        9133,
-        9129,
-        9117
+        11913,
+        11941,
+        11922,
+        11921,
+        11940,
+        11929,
+        11919,
+        11928,
+        11918,
+        11917,
+        11923,
+        11936,
+        11932,
+        11920
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9144,
-        9139
+        11947,
+        11942
       ]
     }
   ],
   "reflections": {
-    "9105": {
+    "11908": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/CoercibleProperty#constructor",
@@ -76,7 +76,7 @@
         }
       ]
     },
-    "9110": {
+    "11913": {
       "name": "coerce",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#coerce",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "9114": {
+    "11917": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#name",
@@ -124,7 +124,7 @@
         }
       ]
     },
-    "9115": {
+    "11918": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#key",
@@ -151,7 +151,7 @@
         }
       ]
     },
-    "9116": {
+    "11919": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#getdefault",
@@ -178,7 +178,7 @@
         }
       ]
     },
-    "9117": {
+    "11920": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#setnative",
@@ -205,7 +205,7 @@
         }
       ]
     },
-    "9118": {
+    "11921": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#defaultvaluekey",
@@ -232,7 +232,7 @@
         }
       ]
     },
-    "9119": {
+    "11922": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#defaultvalue",
@@ -259,7 +259,7 @@
         }
       ]
     },
-    "9120": {
+    "11923": {
       "name": "nativeValueChange",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#nativevaluechange",
@@ -286,7 +286,7 @@
         }
       ]
     },
-    "9125": {
+    "11928": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#isstyleproperty",
@@ -311,7 +311,7 @@
         }
       ]
     },
-    "9126": {
+    "11929": {
       "name": "get",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#get",
@@ -336,7 +336,7 @@
         }
       ]
     },
-    "9129": {
+    "11932": {
       "name": "set",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#set",
@@ -361,7 +361,7 @@
         }
       ]
     },
-    "9133": {
+    "11936": {
       "name": "overrideHandlers",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#overridehandlers",
@@ -386,7 +386,7 @@
         }
       ]
     },
-    "9137": {
+    "11940": {
       "name": "enumerable",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#enumerable",
@@ -411,7 +411,7 @@
         }
       ]
     },
-    "9138": {
+    "11941": {
       "name": "configurable",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#configurable",
@@ -436,7 +436,7 @@
         }
       ]
     },
-    "9139": {
+    "11942": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/CoercibleProperty#register",
@@ -470,7 +470,7 @@
         }
       ]
     },
-    "9144": {
+    "11947": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/CoercibleProperty#isset",

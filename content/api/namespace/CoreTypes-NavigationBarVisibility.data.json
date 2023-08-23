@@ -5,25 +5,17 @@
     {
       "title": "Variables",
       "items": [
-        2692,
-        2690,
-        2691
+        4959,
+        4957,
+        4958
       ]
     }
   ],
   "reflections": {
-    "2690": {
+    "4957": {
       "name": "auto",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-NavigationBarVisibility#auto",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "NavigationBar will be visible if there if frame backstack canGoBack is true or if the page Action Bar is not empty."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -33,34 +25,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 425,
-              "character": 15
+              "line": 178,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "NavigationBar will be visible if there if frame backstack canGoBack is true or if the page Action Bar is not empty."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-NavigationBarVisibility#auto"
         }
       ]
     },
-    "2691": {
+    "4958": {
       "name": "never",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-NavigationBarVisibility#never",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "NavigationBar will be hidden."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -70,34 +46,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 430,
-              "character": 15
+              "line": 179,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "NavigationBar will be hidden."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-NavigationBarVisibility#never"
         }
       ]
     },
-    "2692": {
+    "4959": {
       "name": "always",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-NavigationBarVisibility#always",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "NavigationBar will be visible."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -107,18 +67,10 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 435,
-              "character": 15
+              "line": 180,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "NavigationBar will be visible."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-NavigationBarVisibility#always"
         }
       ]

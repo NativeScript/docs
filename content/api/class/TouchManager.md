@@ -1,6 +1,13 @@
 ---
 title: TouchManager
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'TouchManager'
 layout: api
 seo:
   description: "Manage interactivity in your apps easily with TouchManager.\nStore reusable down/up animation settings for touches as well as optionally enable automatic tap (down/up) animations for your app."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11135" v-once>
+<APIRef for="14049" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="11118" v-once>
+<APIRef for="14032" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="11117" v-once>
+<APIRef for="14031" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="11123" v-once>
+<APIRef for="14037" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="11119" v-once>
+<APIRef for="14033" v-once>
 
 <template #title>
 
@@ -102,7 +109,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="11128" v-once>
+<APIRef for="14042" v-once>
 
 <template #title>
 
@@ -116,7 +123,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="11131" v-once>
+<APIRef for="14045" v-once>
 
 <template #title>
 

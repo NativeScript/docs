@@ -1,0 +1,250 @@
+{
+  "title": "SharedTransitionHelper",
+  "hierarchy": [
+    [
+      {
+        "text": "SharedTransitionHelper"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        32735
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        32709,
+        32725,
+        32730,
+        32714,
+        32719
+      ]
+    }
+  ],
+  "reflections": {
+    "32709": {
+      "name": "animate",
+      "type": "Method",
+      "url": "/api/class/SharedTransitionHelper#animate",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "animate(\n  state: SharedTransitionState,\n  transitionContext: any,\n  type: TransitionNavigationType\n): void",
+          "url": "/api/class/SharedTransitionHelper#animate-animate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition-helper.d.ts",
+              "line": 9,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "state",
+              "type": "SharedTransitionState",
+              "flags": {}
+            },
+            {
+              "name": "transitionContext",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "TransitionNavigationType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32714": {
+      "name": "interactiveStart",
+      "type": "Method",
+      "url": "/api/class/SharedTransitionHelper#interactivestart",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "interactiveStart(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType\n): void",
+          "url": "/api/class/SharedTransitionHelper#interactivestart-interactivestart-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition-helper.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "state",
+              "type": "SharedTransitionState",
+              "flags": {}
+            },
+            {
+              "name": "interactiveState",
+              "type": "TransitionInteractiveState",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "TransitionNavigationType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32719": {
+      "name": "interactiveUpdate",
+      "type": "Method",
+      "url": "/api/class/SharedTransitionHelper#interactiveupdate",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "interactiveUpdate(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType,\n  percent: number\n): void",
+          "url": "/api/class/SharedTransitionHelper#interactiveupdate-interactiveupdate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition-helper.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "state",
+              "type": "SharedTransitionState",
+              "flags": {}
+            },
+            {
+              "name": "interactiveState",
+              "type": "TransitionInteractiveState",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "TransitionNavigationType",
+              "flags": {}
+            },
+            {
+              "name": "percent",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32725": {
+      "name": "interactiveCancel",
+      "type": "Method",
+      "url": "/api/class/SharedTransitionHelper#interactivecancel",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "interactiveCancel(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType\n): void",
+          "url": "/api/class/SharedTransitionHelper#interactivecancel-interactivecancel-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition-helper.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "state",
+              "type": "SharedTransitionState",
+              "flags": {}
+            },
+            {
+              "name": "interactiveState",
+              "type": "TransitionInteractiveState",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "TransitionNavigationType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32730": {
+      "name": "interactiveFinish",
+      "type": "Method",
+      "url": "/api/class/SharedTransitionHelper#interactivefinish",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "interactiveFinish(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType\n): void",
+          "url": "/api/class/SharedTransitionHelper#interactivefinish-interactivefinish-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition-helper.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "state",
+              "type": "SharedTransitionState",
+              "flags": {}
+            },
+            {
+              "name": "interactiveState",
+              "type": "TransitionInteractiveState",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "TransitionNavigationType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32735": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/SharedTransitionHelper#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new SharedTransitionHelper(): <a href=\"/api/class/SharedTransitionHelper\">SharedTransitionHelper</a>",
+          "url": "/api/class/SharedTransitionHelper#constructor-new-sharedtransitionhelper",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/SharedTransitionHelper\">SharedTransitionHelper</a>"
+        }
+      ]
+    }
+  }
+}

@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2626,
-        2627
+        4870,
+        4871
       ]
     }
   ],
   "reflections": {
-    "2626": {
+    "4870": {
       "name": "horizontal",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Orientation#horizontal",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Layout should be horizontally oriented."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "horizontal: <a href=\"/api/namespace/CoreTypes#orientationtype\">OrientationType</a>",
+          "code": "horizontal: \"horizontal\" = \"horizontal\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 141,
-              "character": 15
+              "line": 90,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Layout should be horizontally oriented."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Orientation#horizontal"
         }
       ]
     },
-    "2627": {
+    "4871": {
       "name": "vertical",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Orientation#vertical",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Layout should be vertically oriented."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "vertical: <a href=\"/api/namespace/CoreTypes#orientationtype\">OrientationType</a>",
+          "code": "vertical: \"vertical\" = \"vertical\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 145,
-              "character": 15
+              "line": 91,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Layout should be vertically oriented."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Orientation#vertical"
         }
       ]

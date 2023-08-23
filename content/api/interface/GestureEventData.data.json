@@ -31,17 +31,17 @@
     {
       "title": "Properties",
       "items": [
-        11141,
-        11142,
-        11140,
-        11143,
-        11138,
-        11139
+        14055,
+        14056,
+        14054,
+        14057,
+        14052,
+        14053
       ]
     }
   ],
   "reflections": {
-    "11138": {
+    "14052": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/GestureEventData#type",
@@ -76,7 +76,7 @@
         }
       ]
     },
-    "11139": {
+    "14053": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/GestureEventData#view",
@@ -91,7 +91,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -111,7 +111,7 @@
         }
       ]
     },
-    "11140": {
+    "14054": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/GestureEventData#ios",
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "11141": {
+    "14055": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/GestureEventData#android",
@@ -181,7 +181,7 @@
         }
       ]
     },
-    "11142": {
+    "14056": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/GestureEventData#eventname",
@@ -206,8 +206,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -228,7 +228,7 @@
         }
       ]
     },
-    "11143": {
+    "14057": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/GestureEventData#object",
@@ -253,8 +253,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

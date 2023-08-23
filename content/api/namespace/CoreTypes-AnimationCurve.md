@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.AnimationCurve
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'AnimationCurve'
 layout: api
 seo:
-  description: "Represents an animation curve type."
+  description: CoreTypes.AnimationCurve
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJSZXByZXNlbnRzIGFuIGFuaW1hdGlvbiBjdXJ2ZSB0eXBlLiJ9XX0=" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2751" v-once>
+<APIRef for="5007" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2752" v-once>
+<APIRef for="5008" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2754" v-once>
+<APIRef for="5010" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2753" v-once>
+<APIRef for="5009" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2755" v-once>
+<APIRef for="5011" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2756" v-once>
+<APIRef for="5012" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2745" v-once>
+<APIRef for="5001" v-once>
 
 <template #title>
 

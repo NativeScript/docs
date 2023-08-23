@@ -1,6 +1,13 @@
 ---
 title: SystemAppearanceChangedEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'SystemAppearanceChangedEventData'
 layout: api
 seo:
   description: "Event data containing information for system appearance changed event."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface SystemAppearanceChangedEventData extends <a href="/api/interface/ApplicationEventData">ApplicationEventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface SystemAppearanceChangedEventData extends <a href="/api/interface/ApplicationEventData">ApplicationEventData</a> {
   newValue: "dark" | "light";
 }</pre>
 
@@ -32,7 +39,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1140" v-once>
+<APIRef for="4696" v-once>
 
 <template #title>
 

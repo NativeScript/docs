@@ -17,18 +17,18 @@
     {
       "title": "Properties",
       "items": [
-        10154,
-        10156,
-        10153,
-        10155,
-        10152,
-        10157,
-        10151
+        13010,
+        13012,
+        13009,
+        13011,
+        13008,
+        13013,
+        13007
       ]
     }
   ],
   "reflections": {
-    "10151": {
+    "13007": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/ActionOptions#title",
@@ -65,7 +65,7 @@
         }
       ]
     },
-    "10152": {
+    "13008": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/ActionOptions#message",
@@ -102,7 +102,7 @@
         }
       ]
     },
-    "10153": {
+    "13009": {
       "name": "cancelButtonText",
       "type": "Property",
       "url": "/api/interface/ActionOptions#cancelbuttontext",
@@ -139,7 +139,7 @@
         }
       ]
     },
-    "10154": {
+    "13010": {
       "name": "actions",
       "type": "Property",
       "url": "/api/interface/ActionOptions#actions",
@@ -176,7 +176,7 @@
         }
       ]
     },
-    "10155": {
+    "13011": {
       "name": "destructiveActionsIndexes",
       "type": "Property",
       "url": "/api/interface/ActionOptions#destructiveactionsindexes",
@@ -213,7 +213,7 @@
         }
       ]
     },
-    "10156": {
+    "13012": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/ActionOptions#cancelable",
@@ -262,7 +262,7 @@
         }
       ]
     },
-    "10157": {
+    "13013": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/ActionOptions#theme",

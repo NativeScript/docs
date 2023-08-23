@@ -1,9 +1,16 @@
 ---
 title: CoercibleProperty
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'CoercibleProperty'
 layout: api
 seo:
-  description: undefined
+  description: CoercibleProperty
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9105" v-once>
+<APIRef for="11908" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9110" v-once>
+<APIRef for="11913" v-once>
 
 <template #title>
 

@@ -5,25 +5,17 @@
     {
       "title": "Variables",
       "items": [
-        2698,
-        2699,
-        2700
+        4965,
+        4966,
+        4967
       ]
     }
   ],
   "reflections": {
-    "2698": {
+    "4965": {
       "name": "actionBar",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbar",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Always show this item as a button in an Action Bar."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -33,34 +25,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 454,
-              "character": 15
+              "line": 188,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Always show this item as a button in an Action Bar."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbar"
         }
       ]
     },
-    "2699": {
+    "4966": {
       "name": "actionBarIfRoom",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbarifroom",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Show this item as a button in an Action Bar if the system decides there is room for it."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -70,34 +46,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 459,
-              "character": 15
+              "line": 189,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Show this item as a button in an Action Bar if the system decides there is room for it."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbarifroom"
         }
       ]
     },
-    "2700": {
+    "4967": {
       "name": "popup",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#popup",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Never show this item as a button in an Action Bar."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -107,18 +67,10 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 464,
-              "character": 15
+              "line": 190,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Never show this item as a button in an Action Bar."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#popup"
         }
       ]

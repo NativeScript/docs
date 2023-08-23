@@ -11,15 +11,15 @@
     {
       "title": "Properties",
       "items": [
-        2291,
-        2289,
-        2290,
-        2288
+        2189,
+        2187,
+        2188,
+        2186
       ]
     }
   ],
   "reflections": {
-    "2288": {
+    "2186": {
       "name": "width",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#width",
@@ -40,7 +40,7 @@
         }
       ]
     },
-    "2289": {
+    "2187": {
       "name": "height",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#height",
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "2290": {
+    "2188": {
       "name": "keepAspectRatio",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#keepaspectratio",
@@ -82,7 +82,7 @@
         }
       ]
     },
-    "2291": {
+    "2189": {
       "name": "autoScaleFactor",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#autoscalefactor",

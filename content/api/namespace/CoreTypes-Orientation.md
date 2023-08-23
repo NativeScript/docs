@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.Orientation
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'Orientation'
 layout: api
 seo:
-  description: "Orientation indicates a direction of a layout that can exist in a horizontal or vertical state."
+  description: CoreTypes.Orientation
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJPcmllbnRhdGlvbiBpbmRpY2F0ZXMgYSBkaXJlY3Rpb24gb2YgYSBsYXlvdXQgdGhhdCBjYW4gZXhpc3QgaW4gYSBob3Jpem9udGFsIG9yIHZlcnRpY2FsIHN0YXRlLiJ9XX0=" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2626" v-once>
+<APIRef for="4870" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2627" v-once>
+<APIRef for="4871" v-once>
 
 <template #title>
 

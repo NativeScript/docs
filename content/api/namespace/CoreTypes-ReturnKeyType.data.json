@@ -5,196 +5,116 @@
     {
       "title": "Variables",
       "items": [
-        2613,
-        2615,
-        2614,
-        2616,
-        2617
+        4841,
+        4843,
+        4842,
+        4844,
+        4845
       ]
     }
   ],
   "reflections": {
-    "2613": {
+    "4841": {
       "name": "done",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ReturnKeyType#done",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [IME_ACTION_DONE](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_DONE)\niOS: [UIReturnKeyDone](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "done: <a href=\"/api/namespace/CoreTypes#returnkeybuttontype\">ReturnKeyButtonType</a>",
+          "code": "done: \"done\" = \"done\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 80,
-              "character": 15
+              "line": 56,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [IME_ACTION_DONE](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_DONE)\niOS: [UIReturnKeyDone](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ReturnKeyType#done"
         }
       ]
     },
-    "2614": {
+    "4842": {
       "name": "next",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ReturnKeyType#next",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [IME_ACTION_NEXT](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_NEXT)\niOS: [UIReturnKeyNext](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "next: <a href=\"/api/namespace/CoreTypes#returnkeybuttontype\">ReturnKeyButtonType</a>",
+          "code": "next: \"next\" = \"next\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 86,
-              "character": 15
+              "line": 57,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [IME_ACTION_NEXT](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_NEXT)\niOS: [UIReturnKeyNext](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ReturnKeyType#next"
         }
       ]
     },
-    "2615": {
+    "4843": {
       "name": "go",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ReturnKeyType#go",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [IME_ACTION_GO](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_GO)\niOS: [UIReturnKeyGo](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "go: <a href=\"/api/namespace/CoreTypes#returnkeybuttontype\">ReturnKeyButtonType</a>",
+          "code": "go: \"go\" = \"go\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 92,
-              "character": 15
+              "line": 58,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [IME_ACTION_GO](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_GO)\niOS: [UIReturnKeyGo](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ReturnKeyType#go"
         }
       ]
     },
-    "2616": {
+    "4844": {
       "name": "search",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ReturnKeyType#search",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [IME_ACTION_SEARCH](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_SEARCH)\niOS: [UIReturnKeySearch](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "search: <a href=\"/api/namespace/CoreTypes#returnkeybuttontype\">ReturnKeyButtonType</a>",
+          "code": "search: \"search\" = \"search\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 98,
-              "character": 15
+              "line": 59,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [IME_ACTION_SEARCH](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_SEARCH)\niOS: [UIReturnKeySearch](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ReturnKeyType#search"
         }
       ]
     },
-    "2617": {
+    "4845": {
       "name": "send",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-ReturnKeyType#send",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [IME_ACTION_SEND](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_SEND)\niOS: [UIReturnKeySend](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "send: string",
+          "code": "send: \"send\" = \"send\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 104,
-              "character": 15
+              "line": 60,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [IME_ACTION_SEND](http://developer.android.com/reference/android/view/inputmethod/EditorInfo.html#IME_ACTION_SEND)\niOS: [UIReturnKeySend](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIReturnKeyType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ReturnKeyType#send"
         }
       ]

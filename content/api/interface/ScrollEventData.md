@@ -1,6 +1,13 @@
 ---
 title: ScrollEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ScrollEventData'
 layout: api
 seo:
   description: "Base event data."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ScrollEventData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ScrollEventData extends <a href="/api/interface/EventData">EventData</a> {
   scrollX: number;
   scrollY: number;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19935" v-once>
+<APIRef for="23527" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19936" v-once>
+<APIRef for="23528" v-once>
 
 <template #title>
 

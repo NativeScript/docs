@@ -17,17 +17,17 @@
     {
       "title": "Properties",
       "items": [
-        1119,
-        1120,
-        1118,
-        1121,
-        1117,
-        1116
+        4739,
+        4740,
+        4738,
+        4741,
+        4737,
+        4736
       ]
     }
   ],
   "reflections": {
-    "1116": {
+    "4736": {
       "name": "requestCode",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#requestcode",
@@ -45,9 +45,9 @@
           "code": "requestCode: number",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 437,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 137,
+              "character": 4
             }
           ],
           "comment": {
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "1117": {
+    "4737": {
       "name": "permissions",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#permissions",
@@ -80,9 +80,9 @@
           "code": "permissions: string[]",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 442,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 141,
+              "character": 4
             }
           ],
           "comment": {
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "1118": {
+    "4738": {
       "name": "grantResults",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#grantresults",
@@ -115,9 +115,9 @@
           "code": "grantResults: number[]",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 447,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 145,
+              "character": 4
             }
           ],
           "comment": {
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "1119": {
+    "4739": {
       "name": "activity",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#activity",
@@ -153,12 +153,12 @@
       },
       "signatures": [
         {
-          "code": "activity: any",
+          "code": "activity: AppCompatActivity",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 407,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -179,7 +179,7 @@
         }
       ]
     },
-    "1120": {
+    "4740": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#eventname",
@@ -203,9 +203,9 @@
           "code": "eventName: string",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 412,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -226,7 +226,7 @@
         }
       ]
     },
-    "1121": {
+    "4741": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#object",
@@ -250,9 +250,9 @@
           "code": "object: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 417,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
             }
           ],
           "inheritedFrom": {

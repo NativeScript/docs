@@ -1,6 +1,15 @@
 ---
 title: knownFolders.ios
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'knownFolders'
+    href: '/api/namespace/knownFolders'
+  - name: 'ios'
 layout: api
 seo:
   description: "Contains iOS-specific known folders."
@@ -28,7 +37,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2103" v-once>
+<APIRef for="1946" v-once>
 
 <template #title>
 
@@ -42,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2101" v-once>
+<APIRef for="1944" v-once>
 
 <template #title>
 
@@ -56,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2105" v-once>
+<APIRef for="1948" v-once>
 
 <template #title>
 
@@ -70,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2099" v-once>
+<APIRef for="1942" v-once>
 
 <template #title>
 
@@ -84,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2107" v-once>
+<APIRef for="1950" v-once>
 
 <template #title>
 
@@ -98,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2109" v-once>
+<APIRef for="1952" v-once>
 
 <template #title>
 
@@ -112,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2111" v-once>
+<APIRef for="1954" v-once>
 
 <template #title>
 
@@ -126,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2113" v-once>
+<APIRef for="1956" v-once>
 
 <template #title>
 

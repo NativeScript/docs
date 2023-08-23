@@ -5,18 +5,18 @@
     {
       "title": "Variables",
       "items": [
-        10061,
-        10064,
-        10060,
-        10062,
-        10063,
-        10059,
-        10058
+        12917,
+        12920,
+        12916,
+        12918,
+        12919,
+        12915,
+        12914
       ]
     }
   ],
   "reflections": {
-    "10058": {
+    "12914": {
       "name": "STRING",
       "type": "Variable",
       "url": "/api/namespace/DialogStrings#string",
@@ -37,7 +37,7 @@
         }
       ]
     },
-    "10059": {
+    "12915": {
       "name": "PROMPT",
       "type": "Variable",
       "url": "/api/namespace/DialogStrings#prompt",
@@ -58,7 +58,7 @@
         }
       ]
     },
-    "10060": {
+    "12916": {
       "name": "CONFIRM",
       "type": "Variable",
       "url": "/api/namespace/DialogStrings#confirm",
@@ -79,7 +79,7 @@
         }
       ]
     },
-    "10061": {
+    "12917": {
       "name": "ALERT",
       "type": "Variable",
       "url": "/api/namespace/DialogStrings#alert",
@@ -100,7 +100,7 @@
         }
       ]
     },
-    "10062": {
+    "12918": {
       "name": "LOGIN",
       "type": "Variable",
       "url": "/api/namespace/DialogStrings#login",
@@ -121,7 +121,7 @@
         }
       ]
     },
-    "10063": {
+    "12919": {
       "name": "OK",
       "type": "Variable",
       "url": "/api/namespace/DialogStrings#ok",
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "10064": {
+    "12920": {
       "name": "CANCEL",
       "type": "Variable",
       "url": "/api/namespace/DialogStrings#cancel",

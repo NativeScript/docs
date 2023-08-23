@@ -1,6 +1,13 @@
 ---
 title: BindingOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'BindingOptions'
 layout: api
 seo:
   description: "The options object used in the Bindable.bind method."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface BindingOptions {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface BindingOptions {
   expression: string;
   sourceProperty: string;
   targetProperty: string;
@@ -35,7 +42,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="6499" v-once>
+<APIRef for="9065" v-once>
 
 <template #title>
 
@@ -49,7 +56,7 @@ seo:
 
 <div class="">
 
-<APIRef for="6496" v-once>
+<APIRef for="9062" v-once>
 
 <template #title>
 
@@ -63,7 +70,7 @@ seo:
 
 <div class="">
 
-<APIRef for="6497" v-once>
+<APIRef for="9063" v-once>
 
 <template #title>
 
@@ -77,7 +84,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="6498" v-once>
+<APIRef for="9064" v-once>
 
 <template #title>
 

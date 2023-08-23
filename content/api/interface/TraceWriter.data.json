@@ -11,12 +11,12 @@
     {
       "title": "Methods",
       "items": [
-        2809
+        5062
       ]
     }
   ],
   "reflections": {
-    "2809": {
+    "5062": {
       "name": "write",
       "type": "Method",
       "url": "/api/interface/TraceWriter#write",

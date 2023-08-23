@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2762,
-        2761
+        5018,
+        5017
       ]
     }
   ],
   "reflections": {
-    "2761": {
+    "5017": {
       "name": "light",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-SystemAppearance#light",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The light system appearance."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "light: string",
+          "code": "light: \"light\" = \"light\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 687,
-              "character": 15
+              "line": 239,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The light system appearance."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-SystemAppearance#light"
         }
       ]
     },
-    "2762": {
+    "5018": {
       "name": "dark",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-SystemAppearance#dark",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The dark system appearance."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "dark: string",
+          "code": "dark: \"dark\" = \"dark\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 692,
-              "character": 15
+              "line": 240,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The dark system appearance."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-SystemAppearance#dark"
         }
       ]

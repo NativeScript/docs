@@ -1,9 +1,16 @@
 ---
 title: Font
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Font'
 layout: api
 seo:
-  description: undefined
+  description: Font
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22444" v-once>
+<APIRef for="26242" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22451" v-once>
+<APIRef for="26250" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22455" v-once>
+<APIRef for="26254" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22454" v-once>
+<APIRef for="26253" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22452" v-once>
+<APIRef for="26251" v-once>
 
 <template #title>
 
@@ -96,9 +103,23 @@ seo:
 
 </div>
 
+<div class="isPublic isOptional">
+
+<APIRef for="26255" v-once>
+
+<template #title>
+
+### fontVariationSettings
+
+</template>
+
+</APIRef>
+
+</div>
+
 <div class="isPublic">
 
-<APIRef for="22453" v-once>
+<APIRef for="26252" v-once>
 
 <template #title>
 
@@ -112,7 +133,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22456" v-once>
+<APIRef for="26256" v-once>
 
 <template #title>
 
@@ -126,7 +147,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22457" v-once>
+<APIRef for="26257" v-once>
 
 <template #title>
 
@@ -140,7 +161,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="22439" v-once>
+<APIRef for="26237" v-once>
 
 <template #title>
 
@@ -156,7 +177,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22458" v-once>
+<APIRef for="26258" v-once>
 
 <template #title>
 
@@ -170,7 +191,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22460" v-once>
+<APIRef for="26260" v-once>
 
 <template #title>
 
@@ -184,7 +205,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22463" v-once>
+<APIRef for="26263" v-once>
 
 <template #title>
 
@@ -198,7 +219,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22475" v-once>
+<APIRef for="26275" v-once>
 
 <template #title>
 
@@ -212,7 +233,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22472" v-once>
+<APIRef for="26272" v-once>
 
 <template #title>
 
@@ -226,7 +247,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22466" v-once>
+<APIRef for="26266" v-once>
 
 <template #title>
 
@@ -240,7 +261,21 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="22469" v-once>
+<APIRef for="26278" v-once>
+
+<template #title>
+
+### withFontVariationSettings
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isPublic">
+
+<APIRef for="26269" v-once>
 
 <template #title>
 
@@ -254,7 +289,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="22440" v-once>
+<APIRef for="26238" v-once>
 
 <template #title>
 

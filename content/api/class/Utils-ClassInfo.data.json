@@ -1,0 +1,112 @@
+{
+  "title": "ClassInfo",
+  "hierarchy": [
+    [
+      {
+        "text": "ClassInfo"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2831
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2834,
+        2833
+      ]
+    }
+  ],
+  "reflections": {
+    "2831": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Utils-ClassInfo#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ClassInfo(): <a href=\"/api/class/Utils-ClassInfo\">ClassInfo</a>",
+          "url": "/api/class/Utils-ClassInfo#constructor-new-classinfo",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Utils-ClassInfo\">ClassInfo</a>"
+        }
+      ]
+    },
+    "2833": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/Utils-ClassInfo#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the name of the class."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 104,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the class."
+              }
+            ]
+          },
+          "url": "/api/class/Utils-ClassInfo#name"
+        }
+      ]
+    },
+    "2834": {
+      "name": "baseClassInfo",
+      "type": "Property",
+      "url": "/api/class/Utils-ClassInfo#baseclassinfo",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the ClassInfo for the base class of the current info."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "baseClassInfo: <a href=\"/api/class/Utils-ClassInfo\">ClassInfo</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/types.d.ts",
+              "line": 109,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the ClassInfo for the base class of the current info."
+              }
+            ]
+          },
+          "url": "/api/class/Utils-ClassInfo#baseclassinfo"
+        }
+      ]
+    }
+  }
+}

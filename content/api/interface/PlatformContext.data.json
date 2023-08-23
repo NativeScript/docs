@@ -11,15 +11,15 @@
     {
       "title": "Properties",
       "items": [
-        2421,
-        2419,
-        2420,
-        2418
+        2319,
+        2317,
+        2318,
+        2316
       ]
     }
   ],
   "reflections": {
-    "2418": {
+    "2316": {
       "name": "width",
       "type": "Property",
       "url": "/api/interface/PlatformContext#width",
@@ -38,7 +38,7 @@
         }
       ]
     },
-    "2419": {
+    "2317": {
       "name": "height",
       "type": "Property",
       "url": "/api/interface/PlatformContext#height",
@@ -57,7 +57,7 @@
         }
       ]
     },
-    "2420": {
+    "2318": {
       "name": "os",
       "type": "Property",
       "url": "/api/interface/PlatformContext#os",
@@ -76,7 +76,7 @@
         }
       ]
     },
-    "2421": {
+    "2319": {
       "name": "deviceType",
       "type": "Property",
       "url": "/api/interface/PlatformContext#devicetype",

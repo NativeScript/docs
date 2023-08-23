@@ -11,15 +11,15 @@
     {
       "title": "Properties",
       "items": [
-        10992,
-        10991,
-        10990,
-        10989
+        13906,
+        13905,
+        13904,
+        13903
       ]
     }
   ],
   "reflections": {
-    "10989": {
+    "13903": {
       "name": "name",
       "type": "Property",
       "url": "/api/interface/NavigationTransition#name",
@@ -56,7 +56,7 @@
         }
       ]
     },
-    "10990": {
+    "13904": {
       "name": "instance",
       "type": "Property",
       "url": "/api/interface/NavigationTransition#instance",
@@ -93,7 +93,7 @@
         }
       ]
     },
-    "10991": {
+    "13905": {
       "name": "duration",
       "type": "Property",
       "url": "/api/interface/NavigationTransition#duration",
@@ -130,7 +130,7 @@
         }
       ]
     },
-    "10992": {
+    "13906": {
       "name": "curve",
       "type": "Property",
       "url": "/api/interface/NavigationTransition#curve",

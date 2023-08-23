@@ -1,9 +1,16 @@
 ---
 title: TextBase
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'TextBase'
 layout: api
 seo:
-  description: undefined
+  description: TextBase
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24539" v-once>
+<APIRef for="28532" v-once>
 
 <template #title>
 
@@ -40,23 +47,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate">
-
-<APIRef for="24567" v-once>
-
-<template #title>
-
-### _isSingleLine
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="24544" v-once>
+<APIRef for="28537" v-once>
 
 <template #title>
 
@@ -70,7 +63,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24543" v-once>
+<APIRef for="28536" v-once>
 
 <template #title>
 
@@ -84,7 +77,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24545" v-once>
+<APIRef for="28538" v-once>
 
 <template #title>
 
@@ -98,7 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24546" v-once>
+<APIRef for="28539" v-once>
 
 <template #title>
 
@@ -112,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24552" v-once>
+<APIRef for="28545" v-once>
 
 <template #title>
 
@@ -126,7 +119,7 @@ seo:
 
 <div class="isPublic isReadonly">
 
-<APIRef for="24541" v-once>
+<APIRef for="28534" v-once>
 
 <template #title>
 
@@ -140,7 +133,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24553" v-once>
+<APIRef for="28546" v-once>
 
 <template #title>
 
@@ -154,7 +147,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24554" v-once>
+<APIRef for="28547" v-once>
 
 <template #title>
 
@@ -168,7 +161,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24555" v-once>
+<APIRef for="28548" v-once>
 
 <template #title>
 
@@ -182,7 +175,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24556" v-once>
+<APIRef for="28549" v-once>
 
 <template #title>
 
@@ -196,7 +189,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24557" v-once>
+<APIRef for="28550" v-once>
 
 <template #title>
 
@@ -210,7 +203,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24542" v-once>
+<APIRef for="28535" v-once>
 
 <template #title>
 
@@ -224,7 +217,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24547" v-once>
+<APIRef for="28540" v-once>
 
 <template #title>
 
@@ -238,7 +231,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24548" v-once>
+<APIRef for="28541" v-once>
 
 <template #title>
 
@@ -252,7 +245,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24550" v-once>
+<APIRef for="28543" v-once>
 
 <template #title>
 
@@ -266,7 +259,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24549" v-once>
+<APIRef for="28542" v-once>
 
 <template #title>
 
@@ -280,55 +273,11 @@ seo:
 
 <div class="">
 
-<APIRef for="24551" v-once>
+<APIRef for="28544" v-once>
 
 <template #title>
 
 ### whiteSpace
-
-</template>
-
-</APIRef>
-
-</div>
-
-## Methods
-
-<div class="isPrivate">
-
-<APIRef for="24558" v-once>
-
-<template #title>
-
-### _addChildFromBuilder
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="24562" v-once>
-
-<template #title>
-
-### _requestLayoutOnTextChanged
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="24564" v-once>
-
-<template #title>
-
-### _setNativeText
 
 </template>
 

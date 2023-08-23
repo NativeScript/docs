@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        9046,
-        9045,
-        9047,
-        9048
+        11849,
+        11848,
+        11850,
+        11851
       ]
     }
   ],
   "reflections": {
-    "9045": {
+    "11848": {
       "name": "context",
       "type": "Property",
       "url": "/api/interface/ShownModallyData#context",
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "9046": {
+    "11849": {
       "name": "closeCallback",
       "type": "Property",
       "url": "/api/interface/ShownModallyData#closecallback",
@@ -99,7 +99,7 @@
         }
       ]
     },
-    "9047": {
+    "11850": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/ShownModallyData#eventname",
@@ -124,8 +124,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "9048": {
+    "11851": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/ShownModallyData#object",
@@ -171,8 +171,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

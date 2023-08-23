@@ -21,13 +21,13 @@
     {
       "title": "Properties",
       "items": [
-        10128,
-        10129
+        12984,
+        12985
       ]
     }
   ],
   "reflections": {
-    "10128": {
+    "12984": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/CancelableOptions#cancelable",
@@ -64,7 +64,7 @@
         }
       ]
     },
-    "10129": {
+    "12985": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/CancelableOptions#theme",

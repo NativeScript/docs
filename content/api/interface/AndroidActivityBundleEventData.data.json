@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        1112,
-        1111,
-        1113,
-        1114
+        4732,
+        4731,
+        4733,
+        4734
       ]
     }
   ],
   "reflections": {
-    "1111": {
+    "4731": {
       "name": "bundle",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBundleEventData#bundle",
@@ -40,12 +40,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "bundle: any",
+          "code": "bundle: Bundle",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 427,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 128,
+              "character": 4
             }
           ],
           "comment": {
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "1112": {
+    "4732": {
       "name": "activity",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBundleEventData#activity",
@@ -81,12 +81,12 @@
       },
       "signatures": [
         {
-          "code": "activity: any",
+          "code": "activity: AppCompatActivity",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 407,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -107,7 +107,7 @@
         }
       ]
     },
-    "1113": {
+    "4733": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBundleEventData#eventname",
@@ -131,9 +131,9 @@
           "code": "eventName: string",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 412,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "1114": {
+    "4734": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBundleEventData#object",
@@ -178,9 +178,9 @@
           "code": "object: any",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 417,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
             }
           ],
           "inheritedFrom": {

@@ -1,6 +1,13 @@
 ---
 title: LoginResult
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'LoginResult'
 layout: api
 seo:
   description: "Provides result data from the login dialog."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface LoginResult {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface LoginResult {
   password: string;
   result: boolean;
   userName: string;
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10169" v-once>
+<APIRef for="13025" v-once>
 
 <template #title>
 
@@ -48,7 +55,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10167" v-once>
+<APIRef for="13023" v-once>
 
 <template #title>
 
@@ -62,7 +69,7 @@ seo:
 
 <div class="">
 
-<APIRef for="10168" v-once>
+<APIRef for="13024" v-once>
 
 <template #title>
 

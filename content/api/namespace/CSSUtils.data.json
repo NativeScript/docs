@@ -5,26 +5,26 @@
     {
       "title": "Variables",
       "items": [
-        1370,
-        1371,
-        1372
+        1117,
+        1118,
+        1119
       ]
     },
     {
       "title": "Functions",
       "items": [
-        1360,
-        1362,
-        1352,
-        1364,
-        1354,
-        1367,
-        1357
+        1107,
+        1109,
+        1099,
+        1111,
+        1101,
+        1114,
+        1104
       ]
     }
   ],
   "reflections": {
-    "1352": {
+    "1099": {
       "name": "getSystemCssClasses",
       "type": "Function",
       "url": "/api/namespace/CSSUtils#getsystemcssclasses",
@@ -46,7 +46,7 @@
         }
       ]
     },
-    "1354": {
+    "1101": {
       "name": "pushToSystemCssClasses",
       "type": "Function",
       "url": "/api/namespace/CSSUtils#pushtosystemcssclasses",
@@ -74,7 +74,7 @@
         }
       ]
     },
-    "1357": {
+    "1104": {
       "name": "removeSystemCssClass",
       "type": "Function",
       "url": "/api/namespace/CSSUtils#removesystemcssclass",
@@ -102,7 +102,7 @@
         }
       ]
     },
-    "1360": {
+    "1107": {
       "name": "getModalRootViewCssClass",
       "type": "Function",
       "url": "/api/namespace/CSSUtils#getmodalrootviewcssclass",
@@ -124,7 +124,7 @@
         }
       ]
     },
-    "1362": {
+    "1109": {
       "name": "getRootViewCssClasses",
       "type": "Function",
       "url": "/api/namespace/CSSUtils#getrootviewcssclasses",
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "1364": {
+    "1111": {
       "name": "pushToRootViewCssClasses",
       "type": "Function",
       "url": "/api/namespace/CSSUtils#pushtorootviewcssclasses",
@@ -174,7 +174,7 @@
         }
       ]
     },
-    "1367": {
+    "1114": {
       "name": "removeFromRootViewCssClasses",
       "type": "Function",
       "url": "/api/namespace/CSSUtils#removefromrootviewcssclasses",
@@ -202,7 +202,7 @@
         }
       ]
     },
-    "1370": {
+    "1117": {
       "name": "CLASS_PREFIX",
       "type": "Variable",
       "url": "/api/namespace/CSSUtils#class-prefix",
@@ -223,7 +223,7 @@
         }
       ]
     },
-    "1371": {
+    "1118": {
       "name": "MODAL_ROOT_VIEW_CSS_CLASS",
       "type": "Variable",
       "url": "/api/namespace/CSSUtils#modal-root-view-css-class",
@@ -244,7 +244,7 @@
         }
       ]
     },
-    "1372": {
+    "1119": {
       "name": "ROOT_VIEW_CSS_CLASS",
       "type": "Variable",
       "url": "/api/namespace/CSSUtils#root-view-css-class",

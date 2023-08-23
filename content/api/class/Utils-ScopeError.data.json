@@ -1,0 +1,300 @@
+{
+  "title": "ScopeError",
+  "hierarchy": [
+    [
+      {
+        "text": "Error"
+      }
+    ],
+    [
+      {
+        "text": "ScopeError"
+      }
+    ],
+    [
+      {
+        "text": "SourceError",
+        "link": "/api/class/Utils-SourceError"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2570
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2575,
+        2574,
+        2564,
+        2576,
+        2569
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2560
+      ]
+    }
+  ],
+  "reflections": {
+    "2560": {
+      "name": "captureStackTrace",
+      "type": "Method",
+      "url": "/api/class/Utils-ScopeError#capturestacktrace",
+      "flags": {
+        "isStatic": true,
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "captureStackTrace(targetObject: object, constructorOpt?: Function): void",
+          "url": "/api/class/Utils-ScopeError#capturestacktrace-capturestacktrace-1",
+          "sources": [
+            {
+              "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
+              "line": 4,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Create .stack property on a target object"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "targetObject",
+              "type": "object",
+              "flags": {
+                "isExternal": true
+              }
+            },
+            {
+              "name": "constructorOpt",
+              "type": "Function",
+              "flags": {
+                "isExternal": true,
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2564": {
+      "name": "prepareStackTrace",
+      "type": "Property",
+      "url": "/api/class/Utils-ScopeError#preparestacktrace",
+      "flags": {
+        "isStatic": true,
+        "isExternal": true,
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "prepareStackTrace?: (err: Error, stackTraces: CallSite[]) => any",
+          "sources": [
+            {
+              "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
+              "line": 11,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-ScopeError#preparestacktrace"
+        }
+      ]
+    },
+    "2569": {
+      "name": "stackTraceLimit",
+      "type": "Property",
+      "url": "/api/class/Utils-ScopeError#stacktracelimit",
+      "flags": {
+        "isStatic": true,
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "stackTraceLimit: number",
+          "sources": [
+            {
+              "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-ScopeError#stacktracelimit"
+        }
+      ]
+    },
+    "2570": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Utils-ScopeError#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ScopeError(child: Error, message?: string): <a href=\"/api/class/Utils-ScopeError\">ScopeError</a>",
+          "url": "/api/class/Utils-ScopeError#constructor-new-scopeerror",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 50,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates a new ScopeError providing addtional context to the child error."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "child",
+              "type": "Error",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The child error to extend."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Additional message to prepend to the child error."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Utils-ScopeError\">ScopeError</a>"
+        }
+      ]
+    },
+    "2574": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/Utils-ScopeError#name",
+      "flags": {
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "name: string",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1040,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-ScopeError#name"
+        }
+      ]
+    },
+    "2575": {
+      "name": "message",
+      "type": "Property",
+      "url": "/api/class/Utils-ScopeError#message",
+      "flags": {
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "message: string",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1041,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-ScopeError#message"
+        }
+      ]
+    },
+    "2576": {
+      "name": "stack",
+      "type": "Property",
+      "url": "/api/class/Utils-ScopeError#stack",
+      "flags": {
+        "isExternal": true,
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "stack?: string",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1042,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/class/Utils-ScopeError#stack"
+        }
+      ]
+    }
+  }
+}

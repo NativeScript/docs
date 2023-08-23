@@ -1,0 +1,204 @@
+{
+  "title": "resources",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        2677,
+        2683,
+        2694,
+        2690,
+        2686,
+        2680
+      ]
+    }
+  ],
+  "reflections": {
+    "2677": {
+      "name": "getDrawableId",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-resources#getdrawableid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getDrawableId(name: any): number",
+          "url": "/api/namespace/Utils-android-resources#getdrawableid-getdrawableid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 14,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "name",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2680": {
+      "name": "getStringId",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-resources#getstringid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getStringId(name: any): number",
+          "url": "/api/namespace/Utils-android-resources#getstringid-getstringid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 15,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "name",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2683": {
+      "name": "getId",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-resources#getid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getId(name: string): number",
+          "url": "/api/namespace/Utils-android-resources#getid-getid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 16,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2686": {
+      "name": "getResource",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-resources#getresource",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getResource(name: string, type?: string): number",
+          "url": "/api/namespace/Utils-android-resources#getresource-getresource-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 17,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2690": {
+      "name": "getPalleteColor",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-resources#getpalletecolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getPalleteColor(name: string, context: Context): number",
+          "url": "/api/namespace/Utils-android-resources#getpalletecolor-getpalletecolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 18,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "context",
+              "type": "Context",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "2694": {
+      "name": "getPaletteColor",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android-resources#getpalettecolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getPaletteColor(name: string, context: Context): number",
+          "url": "/api/namespace/Utils-android-resources#getpalettecolor-getpalettecolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 19,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "context",
+              "type": "Context",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    }
+  }
+}

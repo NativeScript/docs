@@ -1,6 +1,13 @@
 ---
 title: Folder
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Folder'
 layout: api
 seo:
   description: "Represents a Folder (directory) entity on the file system."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2033" v-once>
+<APIRef for="1876" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2035" v-once>
+<APIRef for="1878" v-once>
 
 <template #title>
 
@@ -60,7 +67,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2039" v-once>
+<APIRef for="1882" v-once>
 
 <template #title>
 
@@ -74,7 +81,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2041" v-once>
+<APIRef for="1884" v-once>
 
 <template #title>
 
@@ -88,7 +95,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2036" v-once>
+<APIRef for="1879" v-once>
 
 <template #title>
 
@@ -102,7 +109,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2061" v-once>
+<APIRef for="1904" v-once>
 
 <template #title>
 
@@ -116,7 +123,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2053" v-once>
+<APIRef for="1896" v-once>
 
 <template #title>
 
@@ -130,7 +137,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2055" v-once>
+<APIRef for="1898" v-once>
 
 <template #title>
 
@@ -144,7 +151,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2047" v-once>
+<APIRef for="1890" v-once>
 
 <template #title>
 
@@ -158,7 +165,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2050" v-once>
+<APIRef for="1893" v-once>
 
 <template #title>
 
@@ -172,7 +179,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2030" v-once>
+<APIRef for="1873" v-once>
 
 <template #title>
 
@@ -186,7 +193,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2027" v-once>
+<APIRef for="1870" v-once>
 
 <template #title>
 

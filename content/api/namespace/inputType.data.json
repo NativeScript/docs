@@ -5,17 +5,17 @@
     {
       "title": "Variables",
       "items": [
-        10115,
-        10113,
-        10114,
-        10112,
-        10116,
-        10111
+        12971,
+        12969,
+        12970,
+        12968,
+        12972,
+        12967
       ]
     }
   ],
   "reflections": {
-    "10111": {
+    "12967": {
       "name": "text",
       "type": "Variable",
       "url": "/api/namespace/inputType#text",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "10112": {
+    "12968": {
       "name": "password",
       "type": "Variable",
       "url": "/api/namespace/inputType#password",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "10113": {
+    "12969": {
       "name": "email",
       "type": "Variable",
       "url": "/api/namespace/inputType#email",
@@ -126,7 +126,7 @@
         }
       ]
     },
-    "10114": {
+    "12970": {
       "name": "number",
       "type": "Variable",
       "url": "/api/namespace/inputType#number",
@@ -163,7 +163,7 @@
         }
       ]
     },
-    "10115": {
+    "12971": {
       "name": "decimal",
       "type": "Variable",
       "url": "/api/namespace/inputType#decimal",
@@ -200,7 +200,7 @@
         }
       ]
     },
-    "10116": {
+    "12972": {
       "name": "phone",
       "type": "Variable",
       "url": "/api/namespace/inputType#phone",

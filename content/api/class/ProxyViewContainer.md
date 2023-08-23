@@ -1,6 +1,13 @@
 ---
 title: ProxyViewContainer
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ProxyViewContainer'
 layout: api
 seo:
   description: "Proxy view container that adds all its native children directly to the parent.\nTo be used as a logical grouping container of views."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17819" v-once>
+<APIRef for="21268" v-once>
 
 <template #title>
 
@@ -40,41 +47,11 @@ seo:
 
 </div>
 
-## Properties
-
-<div class="isPrivate">
-
-<APIRef for="17866" v-once>
-
-<template #title>
-
-### _applyLayoutPropertyToChild
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="17821" v-once>
-
-<template #title>
-
-### proxiedLayoutProperties
-
-</template>
-
-</APIRef>
-
-</div>
-
 ## Accessors
 
 <div class="">
 
-<APIRef for="17824" v-once>
+<APIRef for="21273" v-once>
 
 <template #title>
 
@@ -88,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17822" v-once>
+<APIRef for="21271" v-once>
 
 <template #title>
 
@@ -102,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17826" v-once>
+<APIRef for="21275" v-once>
 
 <template #title>
 
@@ -118,7 +95,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17846" v-once>
+<APIRef for="21295" v-once>
 
 <template #title>
 
@@ -132,7 +109,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17862" v-once>
+<APIRef for="21311" v-once>
 
 <template #title>
 
@@ -146,7 +123,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17832" v-once>
+<APIRef for="21281" v-once>
 
 <template #title>
 
@@ -160,7 +137,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17830" v-once>
+<APIRef for="21279" v-once>
 
 <template #title>
 
@@ -174,7 +151,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17859" v-once>
+<APIRef for="21308" v-once>
 
 <template #title>
 
@@ -188,7 +165,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17853" v-once>
+<APIRef for="21302" v-once>
 
 <template #title>
 
@@ -202,7 +179,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17850" v-once>
+<APIRef for="21299" v-once>
 
 <template #title>
 
@@ -216,7 +193,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17838" v-once>
+<APIRef for="21287" v-once>
 
 <template #title>
 
@@ -230,7 +207,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17843" v-once>
+<APIRef for="21292" v-once>
 
 <template #title>
 
@@ -244,7 +221,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17856" v-once>
+<APIRef for="21305" v-once>
 
 <template #title>
 
@@ -258,7 +235,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17828" v-once>
+<APIRef for="21277" v-once>
 
 <template #title>
 

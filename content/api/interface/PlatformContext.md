@@ -1,6 +1,13 @@
 ---
 title: PlatformContext
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'PlatformContext'
 layout: api
 seo:
   description: "Used with qualifier matchers and module resolution"
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface PlatformContext {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface PlatformContext {
   deviceType: string;
   height: number;
   os: string;
@@ -35,7 +42,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2421" v-once>
+<APIRef for="2319" v-once>
 
 <template #title>
 
@@ -49,7 +56,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2419" v-once>
+<APIRef for="2317" v-once>
 
 <template #title>
 
@@ -63,7 +70,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2420" v-once>
+<APIRef for="2318" v-once>
 
 <template #title>
 
@@ -77,7 +84,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2418" v-once>
+<APIRef for="2316" v-once>
 
 <template #title>
 

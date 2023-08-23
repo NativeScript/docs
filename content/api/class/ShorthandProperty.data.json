@@ -11,32 +11,31 @@
     {
       "title": "Constructors",
       "items": [
-        9265
+        12068
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9274,
-        9273,
-        9275,
-        9271,
-        9276,
-        9272,
-        9277,
-        9270,
-        9278
+        12077,
+        12076,
+        12078,
+        12074,
+        12079,
+        12075,
+        12080,
+        12081
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9279
+        12082
       ]
     }
   ],
   "reflections": {
-    "9265": {
+    "12068": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ShorthandProperty#constructor",
@@ -49,7 +48,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 132,
+              "line": 131,
               "character": 4
             }
           ],
@@ -64,28 +63,7 @@
         }
       ]
     },
-    "9270": {
-      "name": "registered",
-      "type": "Property",
-      "url": "/api/class/ShorthandProperty#registered",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "code": "registered: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 123,
-              "character": 12
-            }
-          ],
-          "url": "/api/class/ShorthandProperty#registered"
-        }
-      ]
-    },
-    "9271": {
+    "12074": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#key",
@@ -98,7 +76,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 124,
+              "line": 123,
               "character": 13
             }
           ],
@@ -106,7 +84,7 @@
         }
       ]
     },
-    "9272": {
+    "12075": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#name",
@@ -119,7 +97,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 125,
+              "line": 124,
               "character": 13
             }
           ],
@@ -127,7 +105,7 @@
         }
       ]
     },
-    "9273": {
+    "12076": {
       "name": "cssName",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#cssname",
@@ -140,7 +118,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 126,
+              "line": 125,
               "character": 13
             }
           ],
@@ -148,7 +126,7 @@
         }
       ]
     },
-    "9274": {
+    "12077": {
       "name": "cssLocalName",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#csslocalname",
@@ -161,7 +139,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 127,
+              "line": 126,
               "character": 13
             }
           ],
@@ -169,7 +147,7 @@
         }
       ]
     },
-    "9275": {
+    "12078": {
       "name": "cssValueDescriptor",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#cssvaluedescriptor",
@@ -183,7 +161,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 128,
+              "line": 127,
               "character": 23
             }
           ],
@@ -191,7 +169,7 @@
         }
       ]
     },
-    "9276": {
+    "12079": {
       "name": "localValueDescriptor",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#localvaluedescriptor",
@@ -205,7 +183,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 129,
+              "line": 128,
               "character": 23
             }
           ],
@@ -213,7 +191,7 @@
         }
       ]
     },
-    "9277": {
+    "12080": {
       "name": "propertyBagDescriptor",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#propertybagdescriptor",
@@ -227,7 +205,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 130,
+              "line": 129,
               "character": 23
             }
           ],
@@ -235,7 +213,7 @@
         }
       ]
     },
-    "9278": {
+    "12081": {
       "name": "sourceKey",
       "type": "Property",
       "url": "/api/class/ShorthandProperty#sourcekey",
@@ -248,7 +226,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 131,
+              "line": 130,
               "character": 13
             }
           ],
@@ -256,7 +234,7 @@
         }
       ]
     },
-    "9279": {
+    "12082": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/ShorthandProperty#register",
@@ -269,7 +247,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 133,
+              "line": 132,
               "character": 4
             }
           ],

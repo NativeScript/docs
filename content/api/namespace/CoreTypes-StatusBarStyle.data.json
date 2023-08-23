@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2759,
-        2758
+        5015,
+        5014
       ]
     }
   ],
   "reflections": {
-    "2758": {
+    "5014": {
       "name": "light",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-StatusBarStyle#light",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The light style of the status bar - light background with dark letters."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "light: string",
+          "code": "light: \"light\" = \"light\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 672,
-              "character": 15
+              "line": 235,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The light style of the status bar - light background with dark letters."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-StatusBarStyle#light"
         }
       ]
     },
-    "2759": {
+    "5015": {
       "name": "dark",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-StatusBarStyle#dark",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The dark style of the status bar - dark background with light letters."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "dark: string",
+          "code": "dark: \"dark\" = \"dark\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 677,
-              "character": 15
+              "line": 236,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The dark style of the status bar - dark background with light letters."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-StatusBarStyle#dark"
         }
       ]

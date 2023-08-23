@@ -1,9 +1,18 @@
 ---
 title: Trace.messageType
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'Trace'
+    href: '/api/namespace/Trace'
+  - name: 'messageType'
 layout: api
 seo:
-  description: undefined
+  description: Trace.messageType
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2877" v-once>
+<APIRef for="5130" v-once>
 
 <template #title>
 
@@ -40,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2875" v-once>
+<APIRef for="5128" v-once>
 
 <template #title>
 
@@ -54,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2874" v-once>
+<APIRef for="5127" v-once>
 
 <template #title>
 
@@ -68,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2876" v-once>
+<APIRef for="5129" v-once>
 
 <template #title>
 

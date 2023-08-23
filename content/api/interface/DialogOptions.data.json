@@ -23,15 +23,15 @@
     {
       "title": "Properties",
       "items": [
-        10125,
-        10124,
-        10126,
-        10123
+        12981,
+        12980,
+        12982,
+        12979
       ]
     }
   ],
   "reflections": {
-    "10123": {
+    "12979": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/DialogOptions#title",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "10124": {
+    "12980": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/DialogOptions#message",
@@ -105,7 +105,7 @@
         }
       ]
     },
-    "10125": {
+    "12981": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/DialogOptions#cancelable",
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "10126": {
+    "12982": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/DialogOptions#theme",

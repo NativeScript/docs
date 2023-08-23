@@ -11,19 +11,19 @@
     {
       "title": "Constructors",
       "items": [
-        2401
+        2299
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2409,
-        2405
+        2307,
+        2303
       ]
     }
   ],
   "reflections": {
-    "2401": {
+    "2299": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ModuleNameResolver#constructor",
@@ -58,7 +58,7 @@
         }
       ]
     },
-    "2405": {
+    "2303": {
       "name": "resolveModuleName",
       "type": "Method",
       "url": "/api/class/ModuleNameResolver#resolvemodulename",
@@ -91,7 +91,7 @@
         }
       ]
     },
-    "2409": {
+    "2307": {
       "name": "clearCache",
       "type": "Method",
       "url": "/api/class/ModuleNameResolver#clearcache",

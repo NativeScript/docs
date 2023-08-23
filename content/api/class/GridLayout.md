@@ -1,6 +1,13 @@
 ---
 title: GridLayout
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'GridLayout'
 layout: api
 seo:
   description: "Defines a rectangular layout area that consists of columns and rows."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="31851" v-once>
+<APIRef for="36861" v-once>
 
 <template #title>
 
@@ -42,65 +49,9 @@ seo:
 
 ## Methods
 
-<div class="isPrivate">
-
-<APIRef for="31883" v-once>
-
-<template #title>
-
-### _onColumnAdded
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="31890" v-once>
-
-<template #title>
-
-### _onColumnRemoved
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="31880" v-once>
-
-<template #title>
-
-### _onRowAdded
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="31886" v-once>
-
-<template #title>
-
-### _onRowRemoved
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isPublic">
 
-<APIRef for="31859" v-once>
+<APIRef for="36869" v-once>
 
 <template #title>
 
@@ -114,7 +65,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31853" v-once>
+<APIRef for="36863" v-once>
 
 <template #title>
 
@@ -128,7 +79,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31856" v-once>
+<APIRef for="36866" v-once>
 
 <template #title>
 
@@ -142,7 +93,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31876" v-once>
+<APIRef for="36886" v-once>
 
 <template #title>
 
@@ -156,7 +107,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31878" v-once>
+<APIRef for="36888" v-once>
 
 <template #title>
 
@@ -170,7 +121,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31866" v-once>
+<APIRef for="36876" v-once>
 
 <template #title>
 
@@ -184,7 +135,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31869" v-once>
+<APIRef for="36879" v-once>
 
 <template #title>
 
@@ -198,7 +149,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31871" v-once>
+<APIRef for="36881" v-once>
 
 <template #title>
 
@@ -212,7 +163,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31874" v-once>
+<APIRef for="36884" v-once>
 
 <template #title>
 
@@ -226,7 +177,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31759" v-once>
+<APIRef for="36754" v-once>
 
 <template #title>
 
@@ -240,7 +191,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31766" v-once>
+<APIRef for="36761" v-once>
 
 <template #title>
 
@@ -254,7 +205,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31773" v-once>
+<APIRef for="36768" v-once>
 
 <template #title>
 
@@ -268,7 +219,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31780" v-once>
+<APIRef for="36775" v-once>
 
 <template #title>
 
@@ -282,7 +233,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31762" v-once>
+<APIRef for="36757" v-once>
 
 <template #title>
 
@@ -296,7 +247,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31769" v-once>
+<APIRef for="36764" v-once>
 
 <template #title>
 
@@ -310,7 +261,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31776" v-once>
+<APIRef for="36771" v-once>
 
 <template #title>
 
@@ -324,7 +275,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="31783" v-once>
+<APIRef for="36778" v-once>
 
 <template #title>
 

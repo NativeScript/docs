@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        16396,
-        16398,
-        16397,
-        16399
+        19722,
+        19724,
+        19723,
+        19725
       ]
     }
   ],
   "reflections": {
-    "16396": {
+    "19722": {
       "name": "context",
       "type": "Property",
       "url": "/api/interface/NavigatedData#context",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "16397": {
+    "19723": {
       "name": "isBackNavigation",
       "type": "Property",
       "url": "/api/interface/NavigatedData#isbacknavigation",
@@ -95,7 +95,7 @@
         }
       ]
     },
-    "16398": {
+    "19724": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/NavigatedData#eventname",
@@ -120,8 +120,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "16399": {
+    "19725": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/NavigatedData#object",
@@ -167,8 +167,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

@@ -5,15 +5,15 @@
     {
       "title": "Variables",
       "items": [
-        2877,
-        2875,
-        2874,
-        2876
+        5130,
+        5128,
+        5127,
+        5129
       ]
     }
   ],
   "reflections": {
-    "2874": {
+    "5127": {
       "name": "log",
       "type": "Variable",
       "url": "/api/namespace/Trace-messageType#log",
@@ -34,7 +34,7 @@
         }
       ]
     },
-    "2875": {
+    "5128": {
       "name": "info",
       "type": "Variable",
       "url": "/api/namespace/Trace-messageType#info",
@@ -55,7 +55,7 @@
         }
       ]
     },
-    "2876": {
+    "5129": {
       "name": "warn",
       "type": "Variable",
       "url": "/api/namespace/Trace-messageType#warn",
@@ -76,7 +76,7 @@
         }
       ]
     },
-    "2877": {
+    "5130": {
       "name": "error",
       "type": "Variable",
       "url": "/api/namespace/Trace-messageType#error",

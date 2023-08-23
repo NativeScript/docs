@@ -1,9 +1,18 @@
 ---
 title: IOSHelper.UILayoutViewController
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'IOSHelper'
+    href: '/api/namespace/IOSHelper'
+  - name: 'UILayoutViewController'
 layout: api
 seo:
-  description: undefined
+  description: IOSHelper.UILayoutViewController
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8320" v-once>
+<APIRef for="11070" v-once>
 
 <template #title>
 
@@ -42,7 +51,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="8317" v-once>
+<APIRef for="11067" v-once>
 
 <template #title>
 

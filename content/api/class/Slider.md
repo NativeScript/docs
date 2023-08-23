@@ -1,6 +1,13 @@
 ---
 title: Slider
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Slider'
 layout: api
 seo:
   description: "Represents a slider component."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21668" v-once>
+<APIRef for="25428" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21675" v-once>
+<APIRef for="25435" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21670" v-once>
+<APIRef for="25430" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21671" v-once>
+<APIRef for="25431" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21674" v-once>
+<APIRef for="25434" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21673" v-once>
+<APIRef for="25433" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21672" v-once>
+<APIRef for="25432" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="isStatic isReadonly">
 
-<APIRef for="21602" v-once>
+<APIRef for="25347" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="isStatic isReadonly">
 
-<APIRef for="21603" v-once>
+<APIRef for="25348" v-once>
 
 <template #title>
 

@@ -11,26 +11,26 @@
     {
       "title": "Properties",
       "items": [
-        831,
-        824,
-        825,
-        835,
-        833,
-        836,
-        822,
-        834,
-        830,
-        823,
-        828,
-        827,
-        832,
-        826,
-        829
+        888,
+        881,
+        882,
+        892,
+        890,
+        893,
+        879,
+        891,
+        887,
+        880,
+        885,
+        884,
+        889,
+        883,
+        886
       ]
     }
   ],
   "reflections": {
-    "822": {
+    "879": {
       "name": "id",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#id",
@@ -51,7 +51,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 125,
+              "line": 135,
               "character": 4
             }
           ],
@@ -67,7 +67,7 @@
         }
       ]
     },
-    "823": {
+    "880": {
       "name": "main",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#main",
@@ -88,7 +88,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 129,
+              "line": 139,
               "character": 4
             }
           ],
@@ -104,7 +104,7 @@
         }
       ]
     },
-    "824": {
+    "881": {
       "name": "appPath",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#apppath",
@@ -141,7 +141,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 134,
+              "line": 144,
               "character": 4
             }
           ],
@@ -173,7 +173,7 @@
         }
       ]
     },
-    "825": {
+    "882": {
       "name": "appResourcesPath",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#appresourcespath",
@@ -210,7 +210,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 139,
+              "line": 149,
               "character": 4
             }
           ],
@@ -242,7 +242,7 @@
         }
       ]
     },
-    "826": {
+    "883": {
       "name": "shared",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#shared",
@@ -255,7 +255,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 140,
+              "line": 150,
               "character": 4
             }
           ],
@@ -263,7 +263,7 @@
         }
       ]
     },
-    "827": {
+    "884": {
       "name": "previewAppSchema",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#previewappschema",
@@ -276,7 +276,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 141,
+              "line": 151,
               "character": 4
             }
           ],
@@ -284,7 +284,7 @@
         }
       ]
     },
-    "828": {
+    "885": {
       "name": "overridePods",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#overridepods",
@@ -297,7 +297,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 142,
+              "line": 152,
               "character": 4
             }
           ],
@@ -305,7 +305,7 @@
         }
       ]
     },
-    "829": {
+    "886": {
       "name": "webpackConfigPath",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#webpackconfigpath",
@@ -334,7 +334,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 147,
+              "line": 157,
               "character": 4
             }
           ],
@@ -358,7 +358,7 @@
         }
       ]
     },
-    "830": {
+    "887": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#ios",
@@ -379,7 +379,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 152,
+              "line": 162,
               "character": 4
             }
           ],
@@ -395,7 +395,7 @@
         }
       ]
     },
-    "831": {
+    "888": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#android",
@@ -416,7 +416,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 157,
+              "line": 167,
               "character": 4
             }
           ],
@@ -432,7 +432,7 @@
         }
       ]
     },
-    "832": {
+    "889": {
       "name": "profiling",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#profiling",
@@ -453,7 +453,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 162,
+              "line": 172,
               "character": 4
             }
           ],
@@ -469,7 +469,7 @@
         }
       ]
     },
-    "833": {
+    "890": {
       "name": "cssParser",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#cssparser",
@@ -490,7 +490,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 167,
+              "line": 177,
               "character": 4
             }
           ],
@@ -506,7 +506,7 @@
         }
       ]
     },
-    "834": {
+    "891": {
       "name": "ignoredNativeDependencies",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#ignorednativedependencies",
@@ -527,7 +527,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 171,
+              "line": 181,
               "character": 4
             }
           ],
@@ -543,7 +543,7 @@
         }
       ]
     },
-    "835": {
+    "892": {
       "name": "cli",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#cli",
@@ -564,7 +564,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 175,
+              "line": 185,
               "character": 4
             }
           ],
@@ -580,7 +580,7 @@
         }
       ]
     },
-    "836": {
+    "893": {
       "name": "hooks",
       "type": "Property",
       "url": "/api/interface/NativeScriptConfig#hooks",
@@ -601,7 +601,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
-              "line": 179,
+              "line": 189,
               "character": 4
             }
           ],

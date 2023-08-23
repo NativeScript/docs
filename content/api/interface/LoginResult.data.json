@@ -11,14 +11,14 @@
     {
       "title": "Properties",
       "items": [
-        10169,
-        10167,
-        10168
+        13025,
+        13023,
+        13024
       ]
     }
   ],
   "reflections": {
-    "10167": {
+    "13023": {
       "name": "result",
       "type": "Property",
       "url": "/api/interface/LoginResult#result",
@@ -53,7 +53,7 @@
         }
       ]
     },
-    "10168": {
+    "13024": {
       "name": "userName",
       "type": "Property",
       "url": "/api/interface/LoginResult#username",
@@ -88,7 +88,7 @@
         }
       ]
     },
-    "10169": {
+    "13025": {
       "name": "password",
       "type": "Property",
       "url": "/api/interface/LoginResult#password",

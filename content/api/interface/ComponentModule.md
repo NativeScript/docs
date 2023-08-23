@@ -1,9 +1,16 @@
 ---
 title: ComponentModule
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ComponentModule'
 layout: api
 seo:
-  description: undefined
+  description: ComponentModule
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ComponentModule {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ComponentModule {
   component: <a href="/api/class/View">View</a>;
   exports: any;
 }</pre>
@@ -31,7 +38,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5053" v-once>
+<APIRef for="7516" v-once>
 
 <template #title>
 
@@ -45,7 +52,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5054" v-once>
+<APIRef for="7517" v-once>
 
 <template #title>
 

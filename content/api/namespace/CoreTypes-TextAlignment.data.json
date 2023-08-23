@@ -5,158 +5,94 @@
     {
       "title": "Variables",
       "items": [
-        2621,
-        2623,
-        2620,
-        2622
+        4849,
+        4851,
+        4848,
+        4850
       ]
     }
   ],
   "reflections": {
-    "2620": {
+    "4848": {
       "name": "left",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-TextAlignment#left",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents left text-align."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "left: <a href=\"/api/namespace/CoreTypes#textalignmenttype\">TextAlignmentType</a>",
+          "code": "left: \"left\" = \"left\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 115,
-              "character": 15
+              "line": 64,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents left text-align."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextAlignment#left"
         }
       ]
     },
-    "2621": {
+    "4849": {
       "name": "center",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-TextAlignment#center",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents center text-align."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "center: <a href=\"/api/namespace/CoreTypes#textalignmenttype\">TextAlignmentType</a>",
+          "code": "center: \"center\" = \"center\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 120,
-              "character": 15
+              "line": 65,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents center text-align."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextAlignment#center"
         }
       ]
     },
-    "2622": {
+    "4850": {
       "name": "right",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-TextAlignment#right",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents right text-align."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "right: <a href=\"/api/namespace/CoreTypes#textalignmenttype\">TextAlignmentType</a>",
+          "code": "right: \"right\" = \"right\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 125,
-              "character": 15
+              "line": 66,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents right text-align."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextAlignment#right"
         }
       ]
     },
-    "2623": {
+    "4851": {
       "name": "justify",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-TextAlignment#justify",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents justify text-align."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "justify: <a href=\"/api/namespace/CoreTypes#textalignmenttype\">TextAlignmentType</a>",
+          "code": "justify: \"justify\" = \"justify\"",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 130,
-              "character": 16
+              "line": 67,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents justify text-align."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextAlignment#justify"
         }
       ]

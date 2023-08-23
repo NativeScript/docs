@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        2900
+        5153
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2902
+        5155
       ]
     }
   ],
   "reflections": {
-    "2900": {
+    "5153": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Trace-ConsoleWriter#constructor",
@@ -37,7 +37,7 @@
         }
       ]
     },
-    "2902": {
+    "5155": {
       "name": "write",
       "type": "Method",
       "url": "/api/class/Trace-ConsoleWriter#write",

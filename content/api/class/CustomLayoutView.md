@@ -1,6 +1,13 @@
 ---
 title: CustomLayoutView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'CustomLayoutView'
 layout: api
 seo:
   description: "Base class for all UI components that implement custom layouts."
@@ -28,55 +35,11 @@ seo:
 
 <div class="">
 
-<APIRef for="8405" v-once>
+<APIRef for="11170" v-once>
 
 <template #title>
 
 ### constructor
-
-</template>
-
-</APIRef>
-
-</div>
-
-## Methods
-
-<div class="isPrivate">
-
-<APIRef for="8414" v-once>
-
-<template #title>
-
-### _setChildMinHeightNative
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="8410" v-once>
-
-<template #title>
-
-### _setChildMinWidthNative
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="8407" v-once>
-
-<template #title>
-
-### _updateNativeLayoutParams
 
 </template>
 

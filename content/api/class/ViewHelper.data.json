@@ -11,21 +11,21 @@
     {
       "title": "Constructors",
       "items": [
-        8267
+        11017
       ]
     },
     {
       "title": "Methods",
       "items": [
-        8263,
-        8249,
-        8240,
-        8257
+        11013,
+        10999,
+        10990,
+        11007
       ]
     }
   ],
   "reflections": {
-    "8240": {
+    "10990": {
       "name": "measureChild",
       "type": "Method",
       "url": "/api/class/ViewHelper#measurechild",
@@ -95,7 +95,7 @@
         }
       ]
     },
-    "8249": {
+    "10999": {
       "name": "layoutChild",
       "type": "Method",
       "url": "/api/class/ViewHelper#layoutchild",
@@ -199,7 +199,7 @@
         }
       ]
     },
-    "8257": {
+    "11007": {
       "name": "resolveSizeAndState",
       "type": "Method",
       "url": "/api/class/ViewHelper#resolvesizeandstate",
@@ -253,7 +253,7 @@
         }
       ]
     },
-    "8263": {
+    "11013": {
       "name": "combineMeasuredStates",
       "type": "Method",
       "url": "/api/class/ViewHelper#combinemeasuredstates",
@@ -289,7 +289,7 @@
         }
       ]
     },
-    "8267": {
+    "11017": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ViewHelper#constructor",

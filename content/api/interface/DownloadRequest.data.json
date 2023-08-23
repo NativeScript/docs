@@ -11,15 +11,15 @@
     {
       "title": "Properties",
       "items": [
-        12759,
-        12764,
-        12758,
-        12757
+        15801,
+        15806,
+        15800,
+        15799
       ]
     }
   ],
   "reflections": {
-    "12757": {
+    "15799": {
       "name": "url",
       "type": "Property",
       "url": "/api/interface/DownloadRequest#url",
@@ -54,7 +54,7 @@
         }
       ]
     },
-    "12758": {
+    "15800": {
       "name": "key",
       "type": "Property",
       "url": "/api/interface/DownloadRequest#key",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "12759": {
+    "15801": {
       "name": "completed",
       "type": "Property",
       "url": "/api/interface/DownloadRequest#completed",
@@ -110,7 +110,7 @@
         }
       ]
     },
-    "12764": {
+    "15806": {
       "name": "error",
       "type": "Property",
       "url": "/api/interface/DownloadRequest#error",

@@ -11,16 +11,16 @@
     {
       "title": "Properties",
       "items": [
-        5049,
-        5050,
-        5048,
-        5051,
-        5047
+        7512,
+        7513,
+        7511,
+        7514,
+        7510
       ]
     }
   ],
   "reflections": {
-    "5047": {
+    "7510": {
       "name": "path",
       "type": "Property",
       "url": "/api/interface/LoadOptions#path",
@@ -39,7 +39,7 @@
         }
       ]
     },
-    "5048": {
+    "7511": {
       "name": "name",
       "type": "Property",
       "url": "/api/interface/LoadOptions#name",
@@ -58,7 +58,7 @@
         }
       ]
     },
-    "5049": {
+    "7512": {
       "name": "attributes",
       "type": "Property",
       "url": "/api/interface/LoadOptions#attributes",
@@ -79,7 +79,7 @@
         }
       ]
     },
-    "5050": {
+    "7513": {
       "name": "exports",
       "type": "Property",
       "url": "/api/interface/LoadOptions#exports",
@@ -100,7 +100,7 @@
         }
       ]
     },
-    "5051": {
+    "7514": {
       "name": "page",
       "type": "Property",
       "url": "/api/interface/LoadOptions#page",

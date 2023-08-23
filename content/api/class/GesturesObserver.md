@@ -1,6 +1,13 @@
 ---
 title: GesturesObserver
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'GesturesObserver'
 layout: api
 seo:
   description: "Provides options for the GesturesObserver."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11065" v-once>
+<APIRef for="13979" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11084" v-once>
+<APIRef for="13998" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11079" v-once>
+<APIRef for="13993" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11083" v-once>
+<APIRef for="13997" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11078" v-once>
+<APIRef for="13992" v-once>
 
 <template #title>
 
@@ -102,7 +109,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11076" v-once>
+<APIRef for="13990" v-once>
 
 <template #title>
 
@@ -116,7 +123,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11073" v-once>
+<APIRef for="13987" v-once>
 
 <template #title>
 

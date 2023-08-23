@@ -1,9 +1,16 @@
 ---
 title: FlexboxLayout
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'FlexboxLayout'
 layout: api
 seo:
-  description: undefined
+  description: FlexboxLayout
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="31079" v-once>
+<APIRef for="36036" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31085" v-once>
+<APIRef for="36042" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31084" v-once>
+<APIRef for="36041" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31081" v-once>
+<APIRef for="36038" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31082" v-once>
+<APIRef for="36039" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="31083" v-once>
+<APIRef for="36040" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="31005" v-once>
+<APIRef for="35947" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="30991" v-once>
+<APIRef for="35933" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="30998" v-once>
+<APIRef for="35940" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="31012" v-once>
+<APIRef for="35954" v-once>
 
 <template #title>
 
@@ -170,7 +177,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="30984" v-once>
+<APIRef for="35926" v-once>
 
 <template #title>
 
@@ -184,7 +191,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="31001" v-once>
+<APIRef for="35943" v-once>
 
 <template #title>
 
@@ -198,7 +205,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="30987" v-once>
+<APIRef for="35929" v-once>
 
 <template #title>
 
@@ -212,7 +219,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="30994" v-once>
+<APIRef for="35936" v-once>
 
 <template #title>
 
@@ -226,7 +233,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="31008" v-once>
+<APIRef for="35950" v-once>
 
 <template #title>
 
@@ -240,7 +247,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="30980" v-once>
+<APIRef for="35922" v-once>
 
 <template #title>
 

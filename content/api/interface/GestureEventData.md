@@ -1,6 +1,13 @@
 ---
 title: GestureEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'GestureEventData'
 layout: api
 seo:
   description: "Provides gesture event data."
@@ -18,11 +25,11 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface GestureEventData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface GestureEventData extends <a href="/api/interface/EventData">EventData</a> {
   android: any;
   ios: any;
   type: <a href="/api/enum/GestureTypes">GestureTypes</a>;
-  view: Partial&lt;<a href="/api/class/View">View</a>&gt;;
+  view: <a href="/api/class/View">View</a>;
 }</pre>
 
 <APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJQcm92aWRlcyBnZXN0dXJlIGV2ZW50IGRhdGEuIn1dfQ==" v-once />
@@ -35,7 +42,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11141" v-once>
+<APIRef for="14055" v-once>
 
 <template #title>
 
@@ -49,7 +56,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11140" v-once>
+<APIRef for="14054" v-once>
 
 <template #title>
 
@@ -63,7 +70,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11138" v-once>
+<APIRef for="14052" v-once>
 
 <template #title>
 
@@ -77,7 +84,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11139" v-once>
+<APIRef for="14053" v-once>
 
 <template #title>
 

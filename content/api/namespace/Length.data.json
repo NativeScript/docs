@@ -5,15 +5,15 @@
     {
       "title": "Functions",
       "items": [
-        35674,
-        35666,
-        35663,
-        35670
+        40934,
+        40926,
+        40923,
+        40930
       ]
     }
   ],
   "reflections": {
-    "35663": {
+    "40923": {
       "name": "parse",
       "type": "Function",
       "url": "/api/namespace/Length#parse",
@@ -41,7 +41,7 @@
         }
       ]
     },
-    "35666": {
+    "40926": {
       "name": "equals",
       "type": "Function",
       "url": "/api/namespace/Length#equals",
@@ -74,7 +74,7 @@
         }
       ]
     },
-    "35670": {
+    "40930": {
       "name": "toDevicePixels",
       "type": "Function",
       "url": "/api/namespace/Length#todevicepixels",
@@ -133,7 +133,7 @@
         }
       ]
     },
-    "35674": {
+    "40934": {
       "name": "convertToString",
       "type": "Function",
       "url": "/api/namespace/Length#converttostring",

@@ -17,17 +17,17 @@
     {
       "title": "Properties",
       "items": [
-        1648,
-        1651,
-        1652,
-        1649,
-        1653,
-        1650
+        1416,
+        1419,
+        1420,
+        1417,
+        1421,
+        1418
       ]
     }
   ],
   "reflections": {
-    "1648": {
+    "1416": {
       "name": "action",
       "type": "Property",
       "url": "/api/interface/ChangedData#action",
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "1649": {
+    "1417": {
       "name": "index",
       "type": "Property",
       "url": "/api/interface/ChangedData#index",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "1650": {
+    "1418": {
       "name": "removed",
       "type": "Property",
       "url": "/api/interface/ChangedData#removed",
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "1651": {
+    "1419": {
       "name": "addedCount",
       "type": "Property",
       "url": "/api/interface/ChangedData#addedcount",
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "1652": {
+    "1420": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/ChangedData#eventname",
@@ -192,8 +192,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -214,7 +214,7 @@
         }
       ]
     },
-    "1653": {
+    "1421": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/ChangedData#object",
@@ -239,8 +239,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

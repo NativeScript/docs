@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.ReturnKeyType
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'ReturnKeyType'
 layout: api
 seo:
-  description: "Represents the flavor of the return key on the soft keyboard."
+  description: CoreTypes.ReturnKeyType
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJSZXByZXNlbnRzIHRoZSBmbGF2b3Igb2YgdGhlIHJldHVybiBrZXkgb24gdGhlIHNvZnQga2V5Ym9hcmQuIn1dfQ==" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2613" v-once>
+<APIRef for="4841" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2615" v-once>
+<APIRef for="4843" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2614" v-once>
+<APIRef for="4842" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2616" v-once>
+<APIRef for="4844" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2617" v-once>
+<APIRef for="4845" v-once>
 
 <template #title>
 

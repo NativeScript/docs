@@ -1,9 +1,16 @@
 ---
 title: CoreTypes
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
 layout: api
 seo:
-  description: undefined
+  description: CoreTypes
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2679" v-once>
+<APIRef for="4950" v-once>
 
 <template #title>
 
@@ -40,7 +47,21 @@ seo:
 
 <div class="">
 
-<APIRef for="2729" v-once>
+<APIRef for="4831" v-once>
+
+<template #title>
+
+### AutofillType
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="4988" v-once>
 
 <template #title>
 
@@ -54,7 +75,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2628" v-once>
+<APIRef for="4872" v-once>
 
 <template #title>
 
@@ -68,7 +89,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2673" v-once>
+<APIRef for="4944" v-once>
 
 <template #title>
 
@@ -82,7 +103,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2633" v-once>
+<APIRef for="4877" v-once>
 
 <template #title>
 
@@ -96,7 +117,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2647" v-once>
+<APIRef for="4912" v-once>
 
 <template #title>
 
@@ -110,7 +131,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2603" v-once>
+<APIRef for="4823" v-once>
 
 <template #title>
 
@@ -124,7 +145,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2589" v-once>
+<APIRef for="4808" v-once>
 
 <template #title>
 
@@ -138,7 +159,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2597" v-once>
+<APIRef for="4816" v-once>
 
 <template #title>
 
@@ -152,7 +173,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2593" v-once>
+<APIRef for="4812" v-once>
 
 <template #title>
 
@@ -166,7 +187,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2601" v-once>
+<APIRef for="4820" v-once>
 
 <template #title>
 
@@ -180,7 +201,21 @@ seo:
 
 <div class="">
 
-<APIRef for="2624" v-once>
+<APIRef for="4867" v-once>
+
+<template #title>
+
+### MaxLinesType
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="4868" v-once>
 
 <template #title>
 
@@ -194,7 +229,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2602" v-once>
+<APIRef for="4821" v-once>
 
 <template #title>
 
@@ -208,7 +243,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2611" v-once>
+<APIRef for="4839" v-once>
 
 <template #title>
 
@@ -222,7 +257,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2618" v-once>
+<APIRef for="4846" v-once>
 
 <template #title>
 
@@ -236,7 +271,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2704" v-once>
+<APIRef for="4852" v-once>
 
 <template #title>
 
@@ -250,7 +285,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2709" v-once>
+<APIRef for="4857" v-once>
 
 <template #title>
 
@@ -264,7 +299,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2666" v-once>
+<APIRef for="4937" v-once>
 
 <template #title>
 
@@ -278,7 +313,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2640" v-once>
+<APIRef for="4895" v-once>
 
 <template #title>
 
@@ -292,7 +327,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2639" v-once>
+<APIRef for="4889" v-once>
 
 <template #title>
 
@@ -306,7 +341,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2653" v-once>
+<APIRef for="4918" v-once>
 
 <template #title>
 
@@ -320,7 +355,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2715" v-once>
+<APIRef for="4863" v-once>
 
 <template #title>
 
@@ -334,7 +369,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2586" v-once>
+<APIRef for="4805" v-once>
 
 <template #title>
 
@@ -348,7 +383,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2588" v-once>
+<APIRef for="4807" v-once>
 
 <template #title>
 
@@ -362,11 +397,27 @@ seo:
 
 <div class="">
 
-<APIRef for="2587" v-once>
+<APIRef for="4806" v-once>
 
 <template #title>
 
 ### px
+
+</template>
+
+</APIRef>
+
+</div>
+
+## Variables
+
+<div class="isConst">
+
+<APIRef for="4822" v-once>
+
+<template #title>
+
+### zeroLength
 
 </template>
 

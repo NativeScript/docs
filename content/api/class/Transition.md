@@ -1,9 +1,16 @@
 ---
 title: Transition
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Transition'
 layout: api
 seo:
-  description: undefined
+  description: Transition
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="28021" v-once>
+<APIRef for="32317" v-once>
 
 <template #title>
 
@@ -40,9 +47,107 @@ seo:
 
 ## Properties
 
-<div class="isStatic">
+<div class="">
 
-<APIRef for="28015" v-once>
+<APIRef for="32321" v-once>
+
+<template #title>
+
+### id
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32324" v-once>
+
+<template #title>
+
+### interactiveController
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32322" v-once>
+
+<template #title>
+
+### name
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32325" v-once>
+
+<template #title>
+
+### presented
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32326" v-once>
+
+<template #title>
+
+### presenting
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32327" v-once>
+
+<template #title>
+
+### sharedElements
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32323" v-once>
+
+<template #title>
+
+### transitionController
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isOptional">
+
+<APIRef for="32311" v-once>
 
 <template #title>
 
@@ -56,9 +161,23 @@ seo:
 
 ## Methods
 
-<div class="isPublic">
+<div class="isOptional">
 
-<APIRef for="28029" v-once>
+<APIRef for="32376" v-once>
+
+<template #title>
+
+### androidFragmentTransactionCallback
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="32341" v-once>
 
 <template #title>
 
@@ -70,9 +189,9 @@ seo:
 
 </div>
 
-<div class="isPublic">
+<div class="">
 
-<APIRef for="28039" v-once>
+<APIRef for="32347" v-once>
 
 <template #title>
 
@@ -84,9 +203,9 @@ seo:
 
 </div>
 
-<div class="isPublic">
+<div class="">
 
-<APIRef for="28027" v-once>
+<APIRef for="32339" v-once>
 
 <template #title>
 
@@ -98,9 +217,9 @@ seo:
 
 </div>
 
-<div class="isPublic">
+<div class="">
 
-<APIRef for="28025" v-once>
+<APIRef for="32334" v-once>
 
 <template #title>
 
@@ -112,13 +231,97 @@ seo:
 
 </div>
 
-<div class="isPublic">
+<div class="isOptional">
 
-<APIRef for="28042" v-once>
+<APIRef for="32356" v-once>
 
 <template #title>
 
-### toString
+### iosDismissedController
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32364" v-once>
+
+<template #title>
+
+### iosInteractionDismiss
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32367" v-once>
+
+<template #title>
+
+### iosInteractionPresented
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32370" v-once>
+
+<template #title>
+
+### iosNavigatedController
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32359" v-once>
+
+<template #title>
+
+### iosPresentedController
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="32336" v-once>
+
+<template #title>
+
+### setDuration
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="32350" v-once>
+
+<template #title>
+
+### setupInteractiveGesture
 
 </template>
 

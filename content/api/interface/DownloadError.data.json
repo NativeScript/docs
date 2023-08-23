@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        12753,
-        12754,
-        12752,
-        12755
+        15795,
+        15796,
+        15794,
+        15797
       ]
     }
   ],
   "reflections": {
-    "12752": {
+    "15794": {
       "name": "key",
       "type": "Property",
       "url": "/api/interface/DownloadError#key",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "12753": {
+    "15795": {
       "name": "error",
       "type": "Property",
       "url": "/api/interface/DownloadError#error",
@@ -95,7 +95,7 @@
         }
       ]
     },
-    "12754": {
+    "15796": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/DownloadError#eventname",
@@ -120,8 +120,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "12755": {
+    "15797": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/DownloadError#object",
@@ -167,8 +167,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

@@ -5,71 +5,80 @@
     {
       "title": "Namespaces",
       "items": [
-        2670,
-        2693,
-        2697,
-        2744,
-        2680,
-        2730,
-        2629,
-        2663,
-        2674,
-        2659,
-        2701,
-        2719,
-        2634,
-        2685,
-        2648,
-        2741,
-        2604,
-        2689,
-        2625,
-        2612,
-        2757,
-        2760,
-        2619,
-        2705,
-        2710,
-        2667,
-        2763,
-        2641,
-        2654,
-        2716
+        4941,
+        4960,
+        4964,
+        5000,
+        4951,
+        4832,
+        4989,
+        4873,
+        4934,
+        4945,
+        4930,
+        4975,
+        4978,
+        4878,
+        4971,
+        4913,
+        4968,
+        4824,
+        4956,
+        4869,
+        4840,
+        5013,
+        5016,
+        4847,
+        4853,
+        4858,
+        4938,
+        4890,
+        4896,
+        4919,
+        4864
       ]
     },
     {
       "title": "Type Aliases",
       "items": [
-        2679,
-        2729,
-        2628,
-        2586,
-        2673,
-        2633,
-        2647,
-        2603,
-        2589,
-        2597,
-        2593,
-        2601,
-        2624,
-        2588,
-        2602,
-        2587,
-        2611,
-        2618,
-        2704,
-        2709,
-        2666,
-        2640,
-        2639,
-        2653,
-        2715
+        4950,
+        4831,
+        4988,
+        4872,
+        4805,
+        4944,
+        4877,
+        4912,
+        4823,
+        4808,
+        4816,
+        4812,
+        4820,
+        4867,
+        4868,
+        4807,
+        4821,
+        4806,
+        4839,
+        4846,
+        4852,
+        4857,
+        4937,
+        4895,
+        4889,
+        4918,
+        4863
+      ]
+    },
+    {
+      "title": "Variables",
+      "items": [
+        4822
       ]
     }
   ],
   "reflections": {
-    "2586": {
+    "4805": {
       "name": "dip",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#dip",
@@ -88,8 +97,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 8,
-              "character": 13
+              "line": 9,
+              "character": 9
             }
           ],
           "comment": {
@@ -104,7 +113,7 @@
         }
       ]
     },
-    "2587": {
+    "4806": {
       "name": "px",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#px",
@@ -124,7 +133,7 @@
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
               "line": 13,
-              "character": 13
+              "character": 9
             }
           ],
           "comment": {
@@ -139,7 +148,7 @@
         }
       ]
     },
-    "2588": {
+    "4807": {
       "name": "percent",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#percent",
@@ -158,8 +167,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 21,
-              "character": 13
+              "line": 20,
+              "character": 9
             }
           ],
           "comment": {
@@ -174,7 +183,7 @@
         }
       ]
     },
-    "2589": {
+    "4808": {
       "name": "LengthDipUnit",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#lengthdipunit",
@@ -185,15 +194,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 23,
-              "character": 13
+              "line": 21,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#lengthdipunit"
         }
       ]
     },
-    "2593": {
+    "4812": {
       "name": "LengthPxUnit",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#lengthpxunit",
@@ -204,15 +213,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 24,
-              "character": 13
+              "line": 25,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#lengthpxunit"
         }
       ]
     },
-    "2597": {
+    "4816": {
       "name": "LengthPercentUnit",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#lengthpercentunit",
@@ -223,15 +232,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 25,
-              "character": 13
+              "line": 29,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#lengthpercentunit"
         }
       ]
     },
-    "2601": {
+    "4820": {
       "name": "LengthType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#lengthtype",
@@ -242,15 +251,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 27,
-              "character": 13
+              "line": 33,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#lengthtype"
         }
       ]
     },
-    "2602": {
+    "4821": {
       "name": "PercentLengthType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#percentlengthtype",
@@ -261,15 +270,36 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 28,
-              "character": 13
+              "line": 34,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#percentlengthtype"
         }
       ]
     },
-    "2603": {
+    "4822": {
+      "name": "zeroLength",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes#zerolength",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "zeroLength: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 35,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#zerolength"
+        }
+      ]
+    },
+    "4823": {
       "name": "KeyboardInputType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#keyboardinputtype",
@@ -280,26 +310,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 30,
-              "character": 13
+              "line": 36,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#keyboardinputtype"
         }
       ]
     },
-    "2604": {
+    "4824": {
       "name": "KeyboardType",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-KeyboardType",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents a soft keyboard flavor."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -307,23 +329,63 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 34,
-              "character": 15
+              "line": 37,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents a soft keyboard flavor."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-KeyboardType"
         }
       ]
     },
-    "2611": {
+    "4831": {
+      "name": "AutofillType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#autofilltype-1",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "AutofillType: \"username\" | \"password\" | \"none\" | string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 45,
+              "character": 9
+            },
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 46,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#autofilltype-1"
+        }
+      ]
+    },
+    "4832": {
+      "name": "AutofillType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AutofillType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "AutofillType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 45,
+              "character": 9
+            },
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 46,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType"
+        }
+      ]
+    },
+    "4839": {
       "name": "ReturnKeyButtonType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#returnkeybuttontype",
@@ -334,26 +396,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 71,
-              "character": 13
+              "line": 54,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#returnkeybuttontype"
         }
       ]
     },
-    "2612": {
+    "4840": {
       "name": "ReturnKeyType",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-ReturnKeyType",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents the flavor of the return key on the soft keyboard."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -361,23 +415,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 75,
-              "character": 15
+              "line": 55,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents the flavor of the return key on the soft keyboard."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-ReturnKeyType"
         }
       ]
     },
-    "2618": {
+    "4846": {
       "name": "TextAlignmentType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#textalignmenttype",
@@ -388,26 +434,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 107,
-              "character": 13
+              "line": 62,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#textalignmenttype"
         }
       ]
     },
-    "2619": {
+    "4847": {
       "name": "TextAlignment",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-TextAlignment",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents a text-align enumeration."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -415,808 +453,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 111,
-              "character": 15
+              "line": 63,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents a text-align enumeration."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextAlignment"
         }
       ]
     },
-    "2624": {
-      "name": "OrientationType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#orientationtype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "OrientationType: \"horizontal\" | \"vertical\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 133,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#orientationtype"
-        }
-      ]
-    },
-    "2625": {
-      "name": "Orientation",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-Orientation",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Orientation indicates a direction of a layout that can exist in a horizontal or vertical state."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "Orientation",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 137,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Orientation indicates a direction of a layout that can exist in a horizontal or vertical state."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-Orientation"
-        }
-      ]
-    },
-    "2628": {
-      "name": "DeviceOrientationType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#deviceorientationtype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "DeviceOrientationType: \"portrait\" | \"landscape\" | \"unknown\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 148,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#deviceorientationtype"
-        }
-      ]
-    },
-    "2629": {
-      "name": "DeviceOrientation",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-DeviceOrientation",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Orientation of a device."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "DeviceOrientation",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 152,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Orientation of a device."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-DeviceOrientation"
-        }
-      ]
-    },
-    "2633": {
-      "name": "HorizontalAlignmentType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#horizontalalignmenttype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "HorizontalAlignmentType: \"left\" | \"center\" | \"right\" | \"stretch\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 167,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#horizontalalignmenttype"
-        }
-      ]
-    },
-    "2634": {
-      "name": "HorizontalAlignment",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-HorizontalAlignment",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "HorizontalAlignment indicates where an element should be displayed on the horizontal axis relative to the allocated layout slot of the parent element."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "HorizontalAlignment",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 171,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "HorizontalAlignment indicates where an element should be displayed on the horizontal axis relative to the allocated layout slot of the parent element."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-HorizontalAlignment"
-        }
-      ]
-    },
-    "2639": {
-      "name": "VerticalAlignmentType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#verticalalignmenttype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "VerticalAlignmentType: \"top\" | \"middle\" | \"bottom\" | \"stretch\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 193,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#verticalalignmenttype"
-        }
-      ]
-    },
-    "2640": {
-      "name": "VerticalAlignmentTextType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#verticalalignmenttexttype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "VerticalAlignmentTextType: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a> & \"text-top\" | \"text-bottom\" | \"super\" | \"sub\" | \"baseline\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 194,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#verticalalignmenttexttype"
-        }
-      ]
-    },
-    "2641": {
-      "name": "VerticalAlignment",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-VerticalAlignment",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "VerticalAlignment indicates where an element should be displayed on the horizontal axis relative to the allocated layout slot of the parent element."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "VerticalAlignment",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 198,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "VerticalAlignment indicates where an element should be displayed on the horizontal axis relative to the allocated layout slot of the parent element."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-VerticalAlignment"
-        }
-      ]
-    },
-    "2647": {
-      "name": "ImageStretchType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#imagestretchtype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "ImageStretchType: \"none\" | \"aspectFill\" | \"aspectFit\" | \"fill\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 225,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#imagestretchtype"
-        }
-      ]
-    },
-    "2648": {
-      "name": "ImageStretch",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-ImageStretch",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Describes how content is resized to fill its allocated space."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "ImageStretch",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 229,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Describes how content is resized to fill its allocated space."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-ImageStretch"
-        }
-      ]
-    },
-    "2653": {
-      "name": "VisibilityType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#visibilitytype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "VisibilityType: \"visible\" | \"hidden\" | \"collapse\" | \"collapsed\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 254,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#visibilitytype"
-        }
-      ]
-    },
-    "2654": {
-      "name": "Visibility",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-Visibility",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents the visibility mode of a view."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "Visibility",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 258,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents the visibility mode of a view."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-Visibility"
-        }
-      ]
-    },
-    "2659": {
-      "name": "FontAttributes",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-FontAttributes",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "A flag enum that represents common font attributes."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "FontAttributes",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 283,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "A flag enum that represents common font attributes."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-FontAttributes"
-        }
-      ]
-    },
-    "2663": {
-      "name": "DeviceType",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-DeviceType",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Describes the type of a device"
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "DeviceType",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 303,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Describes the type of a device"
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-DeviceType"
-        }
-      ]
-    },
-    "2666": {
-      "name": "UpdateTextTriggerType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#updatetexttriggertype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "UpdateTextTriggerType: \"focusLost\" | \"textChanged\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 315,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#updatetexttriggertype"
-        }
-      ]
-    },
-    "2667": {
-      "name": "UpdateTextTrigger",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-UpdateTextTrigger",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents an enumeration specifying when the text property of an EditableTextBase will be updated."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "UpdateTextTrigger",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 319,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents an enumeration specifying when the text property of an EditableTextBase will be updated."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-UpdateTextTrigger"
-        }
-      ]
-    },
-    "2670": {
-      "name": "Accuracy",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-Accuracy",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies common accuracy values."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "Accuracy",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 334,
-              "character": 18
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies common accuracy values."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-Accuracy"
-        }
-      ]
-    },
-    "2673": {
-      "name": "DockType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#docktype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "DockType: \"left\" | \"top\" | \"right\" | \"bottom\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 346,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#docktype"
-        }
-      ]
-    },
-    "2674": {
-      "name": "Dock",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-Dock",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies the Dock position of a child element that is inside a DockLayout."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "Dock",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 350,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies the Dock position of a child element that is inside a DockLayout."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-Dock"
-        }
-      ]
-    },
-    "2679": {
-      "name": "AutocapitalizationInputType",
-      "type": "TypeAlias",
-      "url": "/api/namespace/CoreTypes#autocapitalizationinputtype",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "AutocapitalizationInputType: \"none\" | \"words\" | \"sentences\" | \"allcharacters\"",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 372,
-              "character": 13
-            }
-          ],
-          "url": "/api/namespace/CoreTypes#autocapitalizationinputtype"
-        }
-      ]
-    },
-    "2680": {
-      "name": "AutocapitalizationType",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-AutocapitalizationType",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents the auto-capitalization style for a text input."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "AutocapitalizationType",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 376,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents the auto-capitalization style for a text input."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-AutocapitalizationType"
-        }
-      ]
-    },
-    "2685": {
-      "name": "ImageFormat",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-ImageFormat",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Defines the recognized image formats."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "ImageFormat",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 401,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Defines the recognized image formats."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-ImageFormat"
-        }
-      ]
-    },
-    "2689": {
-      "name": "NavigationBarVisibility",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-NavigationBarVisibility",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies NavigationBar visibility mode."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "NavigationBarVisibility",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 421,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies NavigationBar visibility mode."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-NavigationBarVisibility"
-        }
-      ]
-    },
-    "2693": {
-      "name": "AndroidActionBarIconVisibility",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies the visibility of the application bar icon"
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "AndroidActionBarIconVisibility",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 441,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies the visibility of the application bar icon"
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility"
-        }
-      ]
-    },
-    "2697": {
-      "name": "AndroidActionItemPosition",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-AndroidActionItemPosition",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies android MenuItem position."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "AndroidActionItemPosition",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 450,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies android MenuItem position."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-AndroidActionItemPosition"
-        }
-      ]
-    },
-    "2701": {
-      "name": "FontStyle",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-FontStyle",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies different font styles."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "FontStyle",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 470,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies different font styles."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-FontStyle"
-        }
-      ]
-    },
-    "2704": {
+    "4852": {
       "name": "TextDecorationType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#textdecorationtype",
@@ -1227,26 +472,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 482,
-              "character": 13
+              "line": 69,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#textdecorationtype"
         }
       ]
     },
-    "2705": {
+    "4853": {
       "name": "TextDecoration",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-TextDecoration",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies different text decorations."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1254,23 +491,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 486,
-              "character": 15
+              "line": 70,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies different text decorations."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextDecoration"
         }
       ]
     },
-    "2709": {
+    "4857": {
       "name": "TextTransformType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#texttransformtype",
@@ -1281,26 +510,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 503,
-              "character": 13
+              "line": 75,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#texttransformtype"
         }
       ]
     },
-    "2710": {
+    "4858": {
       "name": "TextTransform",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-TextTransform",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies different text transforms."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1308,23 +529,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 507,
-              "character": 15
+              "line": 76,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies different text transforms."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextTransform"
         }
       ]
     },
-    "2715": {
+    "4863": {
       "name": "WhiteSpaceType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#whitespacetype",
@@ -1335,26 +548,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 529,
-              "character": 13
+              "line": 82,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#whitespacetype"
         }
       ]
     },
-    "2716": {
+    "4864": {
       "name": "WhiteSpace",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-WhiteSpace",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies different white spaces."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1362,34 +567,588 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 533,
-              "character": 15
+              "line": 83,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies different white spaces."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-WhiteSpace"
         }
       ]
     },
-    "2719": {
+    "4867": {
+      "name": "MaxLinesType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#maxlinestype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "MaxLinesType: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 87,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#maxlinestype"
+        }
+      ]
+    },
+    "4868": {
+      "name": "OrientationType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#orientationtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "OrientationType: \"horizontal\" | \"vertical\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 88,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#orientationtype"
+        }
+      ]
+    },
+    "4869": {
+      "name": "Orientation",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Orientation",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Orientation",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 89,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Orientation"
+        }
+      ]
+    },
+    "4872": {
+      "name": "DeviceOrientationType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#deviceorientationtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DeviceOrientationType: \"portrait\" | \"landscape\" | \"unknown\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 93,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#deviceorientationtype"
+        }
+      ]
+    },
+    "4873": {
+      "name": "DeviceOrientation",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-DeviceOrientation",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DeviceOrientation",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 94,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-DeviceOrientation"
+        }
+      ]
+    },
+    "4877": {
+      "name": "HorizontalAlignmentType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#horizontalalignmenttype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "HorizontalAlignmentType: \"left\" | \"center\" | \"right\" | \"stretch\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 99,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#horizontalalignmenttype"
+        }
+      ]
+    },
+    "4878": {
+      "name": "HorizontalAlignment",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "HorizontalAlignment",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 100,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment"
+        }
+      ]
+    },
+    "4889": {
+      "name": "VerticalAlignmentType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#verticalalignmenttype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "VerticalAlignmentType: \"top\" | \"middle\" | \"bottom\" | \"stretch\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 108,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#verticalalignmenttype"
+        }
+      ]
+    },
+    "4890": {
+      "name": "VerticalAlignment",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-VerticalAlignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "VerticalAlignment",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 109,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignment"
+        }
+      ]
+    },
+    "4895": {
+      "name": "VerticalAlignmentTextType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#verticalalignmenttexttype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "VerticalAlignmentTextType: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a> | \"text-top\" | \"text-bottom\" | \"sup\" | \"sub\" | \"baseline\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 115,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#verticalalignmenttexttype"
+        }
+      ]
+    },
+    "4896": {
+      "name": "VerticalAlignmentText",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "VerticalAlignmentText",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 116,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText"
+        }
+      ]
+    },
+    "4912": {
+      "name": "ImageStretchType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#imagestretchtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ImageStretchType: \"none\" | \"aspectFill\" | \"aspectFit\" | \"fill\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 129,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#imagestretchtype"
+        }
+      ]
+    },
+    "4913": {
+      "name": "ImageStretch",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-ImageStretch",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ImageStretch",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 130,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageStretch"
+        }
+      ]
+    },
+    "4918": {
+      "name": "VisibilityType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#visibilitytype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "VisibilityType: \"visible\" | \"hidden\" | \"collapse\" | \"collapsed\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 136,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#visibilitytype"
+        }
+      ]
+    },
+    "4919": {
+      "name": "Visibility",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Visibility",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Visibility",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 137,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Visibility"
+        }
+      ]
+    },
+    "4930": {
+      "name": "FontAttributes",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-FontAttributes",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "FontAttributes",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 145,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontAttributes"
+        }
+      ]
+    },
+    "4934": {
+      "name": "DeviceType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-DeviceType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DeviceType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 150,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-DeviceType"
+        }
+      ]
+    },
+    "4937": {
+      "name": "UpdateTextTriggerType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#updatetexttriggertype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "UpdateTextTriggerType: \"focusLost\" | \"textChanged\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 154,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#updatetexttriggertype"
+        }
+      ]
+    },
+    "4938": {
+      "name": "UpdateTextTrigger",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-UpdateTextTrigger",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "UpdateTextTrigger",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 155,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-UpdateTextTrigger"
+        }
+      ]
+    },
+    "4941": {
+      "name": "Accuracy",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Accuracy",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Accuracy",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 159,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Accuracy"
+        }
+      ]
+    },
+    "4944": {
+      "name": "DockType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#docktype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "DockType: \"left\" | \"top\" | \"right\" | \"bottom\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 163,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#docktype"
+        }
+      ]
+    },
+    "4945": {
+      "name": "Dock",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Dock",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "Dock",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 164,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Dock"
+        }
+      ]
+    },
+    "4950": {
+      "name": "AutocapitalizationInputType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#autocapitalizationinputtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "AutocapitalizationInputType: \"none\" | \"words\" | \"sentences\" | \"allcharacters\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 170,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#autocapitalizationinputtype"
+        }
+      ]
+    },
+    "4951": {
+      "name": "AutocapitalizationType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AutocapitalizationType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "AutocapitalizationType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 171,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutocapitalizationType"
+        }
+      ]
+    },
+    "4956": {
+      "name": "NavigationBarVisibility",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-NavigationBarVisibility",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "NavigationBarVisibility",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 177,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-NavigationBarVisibility"
+        }
+      ]
+    },
+    "4960": {
+      "name": "AndroidActionBarIconVisibility",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "AndroidActionBarIconVisibility",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 182,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility"
+        }
+      ]
+    },
+    "4964": {
+      "name": "AndroidActionItemPosition",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AndroidActionItemPosition",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "AndroidActionItemPosition",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 187,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionItemPosition"
+        }
+      ]
+    },
+    "4968": {
+      "name": "IOSActionItemPosition",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-IOSActionItemPosition",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "IOSActionItemPosition",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 192,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-IOSActionItemPosition"
+        }
+      ]
+    },
+    "4971": {
+      "name": "ImageFormat",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-ImageFormat",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "ImageFormat",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 196,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageFormat"
+        }
+      ]
+    },
+    "4975": {
+      "name": "FontStyle",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-FontStyle",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "FontStyle",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 201,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontStyle"
+        }
+      ]
+    },
+    "4978": {
       "name": "FontWeight",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-FontWeight",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies different font weights."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1397,23 +1156,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 548,
-              "character": 15
+              "line": 205,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies different font weights."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight"
         }
       ]
     },
-    "2729": {
+    "4988": {
       "name": "BackgroundRepeatType",
       "type": "TypeAlias",
       "url": "/api/namespace/CoreTypes#backgroundrepeattype",
@@ -1424,26 +1175,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 595,
-              "character": 13
+              "line": 216,
+              "character": 9
             }
           ],
           "url": "/api/namespace/CoreTypes#backgroundrepeattype"
         }
       ]
     },
-    "2730": {
+    "4989": {
       "name": "BackgroundRepeat",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-BackgroundRepeat",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies background repeat."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1451,69 +1194,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 599,
-              "character": 15
+              "line": 217,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies background repeat."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-BackgroundRepeat"
         }
       ]
     },
-    "2741": {
-      "name": "IOSActionItemPosition",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-IOSActionItemPosition",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies android MenuItem position."
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "IOSActionItemPosition",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 611,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies android MenuItem position."
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-IOSActionItemPosition"
-        }
-      ]
-    },
-    "2744": {
+    "5000": {
       "name": "AnimationCurve",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-AnimationCurve",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Represents an animation curve type."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1521,48 +1213,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 626,
-              "character": 15
+              "line": 225,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Represents an animation curve type."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-AnimationCurve"
         }
       ]
     },
-    "2757": {
+    "5013": {
       "name": "StatusBarStyle",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-StatusBarStyle",
-      "comment": {
-        "summary": [],
-        "blockTags": [
-          {
-            "tag": "@deprecated",
-            "content": [
-              {
-                "kind": "text",
-                "text": "use "
-              },
-              {
-                "kind": "code",
-                "text": "`SystemAppearance`"
-              },
-              {
-                "kind": "text",
-                "text": " instead.\n\nSpecifies the types of the status bar style."
-              }
-            ]
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1570,48 +1232,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 668,
-              "character": 15
+              "line": 234,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [],
-            "blockTags": [
-              {
-                "tag": "@deprecated",
-                "content": [
-                  {
-                    "kind": "text",
-                    "text": "use "
-                  },
-                  {
-                    "kind": "code",
-                    "text": "`SystemAppearance`"
-                  },
-                  {
-                    "kind": "text",
-                    "text": " instead.\n\nSpecifies the types of the status bar style."
-                  }
-                ]
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-StatusBarStyle"
         }
       ]
     },
-    "2760": {
+    "5016": {
       "name": "SystemAppearance",
       "type": "Namespace",
       "url": "/api/namespace/CoreTypes-SystemAppearance",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Specifies the types of the system appearance."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
@@ -1619,82 +1251,11 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 683,
-              "character": 15
+              "line": 238,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Specifies the types of the system appearance."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-SystemAppearance"
-        }
-      ]
-    },
-    "2763": {
-      "name": "UserInterfaceStyle",
-      "type": "Namespace",
-      "url": "/api/namespace/CoreTypes-UserInterfaceStyle",
-      "comment": {
-        "summary": [],
-        "blockTags": [
-          {
-            "tag": "@deprecated",
-            "content": [
-              {
-                "kind": "text",
-                "text": "use "
-              },
-              {
-                "kind": "code",
-                "text": "`SystemAppearance`"
-              },
-              {
-                "kind": "text",
-                "text": " instead.\n\nSpecifies the types of the user interface style."
-              }
-            ]
-          }
-        ]
-      },
-      "flags": {},
-      "signatures": [
-        {
-          "code": "UserInterfaceStyle",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 700,
-              "character": 15
-            }
-          ],
-          "comment": {
-            "summary": [],
-            "blockTags": [
-              {
-                "tag": "@deprecated",
-                "content": [
-                  {
-                    "kind": "text",
-                    "text": "use "
-                  },
-                  {
-                    "kind": "code",
-                    "text": "`SystemAppearance`"
-                  },
-                  {
-                    "kind": "text",
-                    "text": " instead.\n\nSpecifies the types of the user interface style."
-                  }
-                ]
-              }
-            ]
-          },
-          "url": "/api/namespace/CoreTypes-UserInterfaceStyle"
         }
       ]
     }

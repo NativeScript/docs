@@ -1,6 +1,13 @@
 ---
 title: HttpContent
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs: 
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'HttpContent'
 layout: api
 seo:
   description: "Encapsulates the content of an HttpResponse."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface HttpContent {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface HttpContent {
   raw: any;
   toArrayBuffer: () => ArrayBuffer;
   toFile: (destinationFilePath?: string) => <a href="/api/class/File">File</a>;
@@ -37,7 +44,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2144" v-once>
+<APIRef for="2000" v-once>
 
 <template #title>
 
@@ -51,7 +58,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2145" v-once>
+<APIRef for="2001" v-once>
 
 <template #title>
 
@@ -65,7 +72,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2159" v-once>
+<APIRef for="2015" v-once>
 
 <template #title>
 
@@ -79,7 +86,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2156" v-once>
+<APIRef for="2012" v-once>
 
 <template #title>
 
@@ -93,7 +100,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2152" v-once>
+<APIRef for="2008" v-once>
 
 <template #title>
 
@@ -107,7 +114,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2148" v-once>
+<APIRef for="2004" v-once>
 
 <template #title>
 
