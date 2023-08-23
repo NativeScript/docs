@@ -48,6 +48,7 @@ export default [
   },
   {
     text: 'Project Structure',
+    type: 'filetree',
     items: [
       {
         text: 'App_Resources/',
@@ -66,12 +67,12 @@ export default [
             icon: 'folder',
           },
           {
-            text: 'app.(css|scss)',
+            text: 'app.css•scss',
             link: '/project-structure/src/app-css-scss',
             icon: 'file',
           },
           {
-            text: 'main.(js|ts)',
+            text: 'main.js•ts',
             link: '/project-structure/src/main-js-ts',
             icon: 'file',
           },

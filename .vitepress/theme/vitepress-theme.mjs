@@ -3926,7 +3926,7 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
           h("div", Dp, [
             P(u) ? (g(), ue(Mn(P(u)), {
               key: 0,
-              class: "mr-2"
+              class: "relative -top-0.5 mr-1.5 h-5 w-5"
             })) : K("", !0),
             h("div", {
               innerHTML: P(i),
@@ -3948,12 +3948,12 @@ const ar = /* @__PURE__ */ jt($p, [["render", Cp]]), Ap = {
         P(s) ? qt((g(), b("ul", {
           key: 2,
           class: te({
-            "border-l-2 border-slate-200 dark:border-slate-800": e.depth === 0
+            "border-l-2 border-slate-200 dark:border-slate-800": e.depth === 0 && e.item.type !== "filetree"
           })
         }, [
           (g(!0), b(z, null, ne(P(s), (S) => (g(), ue(y, {
             item: S,
-            depth: e.depth + 1
+            depth: e.item.type === "filetree" ? 0 : e.depth + 1
           }, null, 8, ["item", "depth"]))), 256))
         ], 2)), [
           [dr, !c.value]

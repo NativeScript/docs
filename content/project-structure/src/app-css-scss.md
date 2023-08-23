@@ -1,5 +1,5 @@
 ---
-title: The app.css or app.scss
+title: app.css (or app.scss)
 contributors:
   - rigor789
 ---
