@@ -16,13 +16,13 @@ export default [
         ],
       },
       {
-        text: 'Creating a new Project',
-        link: '/creating-a-new-project',
+        text: 'Creating a Project',
+        link: '/guide/creating-a-project',
       },
-      {
-        text: 'Tutorials',
-        link: '/tutorials/',
-      },
+      // {
+      //   text: 'Tutorials',
+      //   link: '/tutorials/',
+      // },
       {
         text: 'Troubleshooting',
         link: '/troubleshooting',
@@ -118,6 +118,10 @@ export default [
         text: 'Device',
         link: '/guide/core/device',
       },
+      {
+        text: 'ImageCache',
+        link: '/guide/core/image-cache',
+      },
     ],
   },
   {
@@ -130,10 +134,6 @@ export default [
       {
         text: 'Code Sharing',
         link: '/guide/code-sharing',
-      },
-      {
-        text: 'ImageCache',
-        link: '/guide/ui/image-cache',
       },
       {
         text: 'Shared Element Transitions',
