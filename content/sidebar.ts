@@ -8,7 +8,6 @@ export default [
       {
         text: 'Environment Setup',
         link: '/setup/',
-        hideChildren: true,
         items: [
           { text: 'Windows', link: '/setup/windows' },
           { text: 'macOS', link: '/setup/macos' },

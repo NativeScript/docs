@@ -4014,7 +4014,7 @@ const ar = /* @__PURE__ */ jt(Pp, [["render", Ap]]), Ip = {
             "flex items-center",
             P(Et)(P(r).relativePath, a.activeMatch, !!a.activeMatch) ? "text-blue-600 dark:text-cyan-400" : "text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300"
           ]),
-          target: a.target ?? "_self"
+          target: a.target
         }, [
           a.icon in t ? (g(), b("div", zp, [
             (g(), ue(Mn(t[a.icon]), { class: "h-5 w-5" }))

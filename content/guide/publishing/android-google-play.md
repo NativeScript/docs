@@ -2,6 +2,8 @@
 title: Publishing to Google Play
 category: Publishing
 categoryLink: /guide/publishing/
+prev: /guide/publishing/
+next: false
 contributors:
   - rigor789
 ---

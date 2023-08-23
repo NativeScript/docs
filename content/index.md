@@ -16,9 +16,9 @@ The "frontend" code can be authored in various frameworks often referred to as _
 - React&mdash;published under `react-nativescript`
 - Svelte&mdash;published under `svelte-native`
 
-::: tip
+::: tip There's more!
 
-These are the officially supported frontend flavors, however given how NativeScript is built, new flavors can be implemented on top of it. A great example is a few community projects that bring support for various other flavors: [Example 1](#), [Example 2](#)
+These are the officially supported frontend flavors, however given how NativeScript is built, new flavors can be implemented on top of it. A great example is a few community projects that bring support for various other flavors: [SolidJS](https://github.com/nativescript-community/solid-js), [rEFui](https://github.com/SudoMaker/rEFui#native).
 
 :::
 

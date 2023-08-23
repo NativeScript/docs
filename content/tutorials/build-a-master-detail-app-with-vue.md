@@ -2,6 +2,8 @@
 title: Build a master-detail app with Vue
 category: Tutorials
 categoryLink: /tutorials/
+prev: false
+next: false
 contributors:
   - williamjuan027
   - Leon0824

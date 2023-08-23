@@ -1,6 +1,7 @@
 ---
 title: Tutorials
 description: Learn NativeScript by following a tutorial...
+prev: false
 next: false
 contributors: false
 ---
