@@ -28,7 +28,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "cancelled: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancelled</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -63,7 +63,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "began: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">began</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -98,7 +98,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "changed: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">changed</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -133,7 +133,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ended: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ended</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

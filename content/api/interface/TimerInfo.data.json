@@ -24,7 +24,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "totalTime: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">totalTime</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/profiling/index.d.ts",
@@ -43,7 +43,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "count: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">count</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/profiling/index.d.ts",

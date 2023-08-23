@@ -2,7 +2,7 @@
 title: TraceErrorHandler
 category: Interfaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Interfaces'
@@ -25,9 +25,9 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface TraceErrorHandler {
-  handlerError(error: Error): any;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">TraceErrorHandler</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #B392F0">handlerError</span><span style="color: #E1E4E8">(</span><span style="color: #FFAB70">error</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">Error</span><span style="color: #E1E4E8">)</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 <APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJBbiBpbnRlcmZhY2UgdXNlZCB0byBmb3IgaGFuZGxpbmcgdHJhY2UgZXJyb3IifV19" v-once />
 

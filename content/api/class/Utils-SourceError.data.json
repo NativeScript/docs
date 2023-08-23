@@ -52,7 +52,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "captureStackTrace(targetObject: object, constructorOpt?: Function): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">captureStackTrace</span><span style=\"color: #E1E4E8\">(targetObject: object, constructorOpt</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Function): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Utils-SourceError#capturestacktrace-capturestacktrace-1",
           "sources": [
             {
@@ -107,7 +107,7 @@
       },
       "signatures": [
         {
-          "code": "prepareStackTrace?: (err: Error, stackTraces: CallSite[]) => any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">prepareStackTrace</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">err</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">Error</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">stackTraces</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">CallSite</span><span style=\"color: #E1E4E8\">[]) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
@@ -135,7 +135,7 @@
       },
       "signatures": [
         {
-          "code": "stackTraceLimit: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stackTraceLimit</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "node_modules/@types/node/ts4.8/globals.d.ts",
@@ -234,7 +234,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -261,7 +261,7 @@
       },
       "signatures": [
         {
-          "code": "message: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">message</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
@@ -289,7 +289,7 @@
       },
       "signatures": [
         {
-          "code": "stack?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">stack</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "node_modules/typescript/lib/lib.es5.d.ts",

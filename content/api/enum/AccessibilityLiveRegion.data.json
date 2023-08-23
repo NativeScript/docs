@@ -19,7 +19,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "None: \"none\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">None</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -38,7 +38,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Polite: \"polite\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Polite</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;polite&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -57,7 +57,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Assertive: \"assertive\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Assertive</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;assertive&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",

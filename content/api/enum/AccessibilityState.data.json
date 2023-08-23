@@ -20,7 +20,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Selected: \"selected\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Selected</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;selected&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -39,7 +39,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Checked: \"checked\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Checked</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;checked&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -58,7 +58,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Unchecked: \"unchecked\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Unchecked</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;unchecked&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -77,7 +77,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Disabled: \"disabled\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Disabled</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;disabled&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",

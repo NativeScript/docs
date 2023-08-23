@@ -123,7 +123,7 @@
       },
       "signatures": [
         {
-          "code": "inProgress: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">inProgress</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -153,7 +153,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "events(): SharedTransitionObservable",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">events</span><span style=\"color: #E1E4E8\">(): SharedTransitionObservable</span></span></code>",
           "url": "/api/class/SharedTransition#events-events-1",
           "sources": [
             {
@@ -203,7 +203,7 @@
       },
       "signatures": [
         {
-          "code": "startedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">startedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -240,7 +240,7 @@
       },
       "signatures": [
         {
-          "code": "finishedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">finishedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -277,7 +277,7 @@
       },
       "signatures": [
         {
-          "code": "interactiveCancelledEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveCancelledEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -314,7 +314,7 @@
       },
       "signatures": [
         {
-          "code": "interactiveUpdateEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveUpdateEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -344,7 +344,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyEvent(eventName: string, data: SharedTransitionEventDataPayload): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyEvent</span><span style=\"color: #E1E4E8\">(eventName: string, data: SharedTransitionEventDataPayload): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransition#notifyevent-notifyevent-1",
           "sources": [
             {
@@ -402,7 +402,7 @@
       },
       "signatures": [
         {
-          "code": "DEBUG: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DEBUG</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -432,7 +432,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "updateState(id: number, state: SharedTransitionState): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">updateState</span><span style=\"color: #E1E4E8\">(id: number, state: SharedTransitionState): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransition#updatestate-updatestate-1",
           "sources": [
             {
@@ -491,7 +491,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getState(id: number): SharedTransitionState",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getState</span><span style=\"color: #E1E4E8\">(id: number): SharedTransitionState</span></span></code>",
           "url": "/api/class/SharedTransition#getstate-getstate-1",
           "sources": [
             {
@@ -537,7 +537,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "finishState(id: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">finishState</span><span style=\"color: #E1E4E8\">(id: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransition#finishstate-finishstate-1",
           "sources": [
             {

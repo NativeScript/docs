@@ -21,7 +21,7 @@
       },
       "signatures": [
         {
-          "code": "png: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">png</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -42,7 +42,7 @@
       },
       "signatures": [
         {
-          "code": "jpeg: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">jpeg</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -63,7 +63,7 @@
       },
       "signatures": [
         {
-          "code": "jpg: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">jpg</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

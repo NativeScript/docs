@@ -104,7 +104,7 @@
       },
       "signatures": [
         {
-          "code": "changeEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">changeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -147,7 +147,7 @@
       },
       "signatures": [
         {
-          "code": "propertyChangeEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -551,7 +551,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getItem(pos: number): T",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getItem</span><span style=\"color: #E1E4E8\">(pos: number): </span><span style=\"color: #79B8FF\">T</span></span></code>",
           "url": "/api/class/ObservableArray#getitem-getitem-1",
           "sources": [
             {
@@ -587,7 +587,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setItem(pos: number, value: T): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setItem</span><span style=\"color: #E1E4E8\">(pos: number, value: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ObservableArray#setitem-setitem-1",
           "sources": [
             {
@@ -628,7 +628,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get length(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">length</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/ObservableArray#length-length-1",
           "sources": [
             {
@@ -658,7 +658,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toJSON(): any[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toJSON</span><span style=\"color: #E1E4E8\">(): any[]</span></span></code>",
           "url": "/api/class/ObservableArray#tojson-tojson-1",
           "sources": [
             {
@@ -680,7 +680,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/ObservableArray#tostring-tostring-1",
           "sources": [
             {
@@ -710,7 +710,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toLocaleString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toLocaleString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/ObservableArray#tolocalestring-tolocalestring-1",
           "sources": [
             {
@@ -770,7 +770,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "join(separator?: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">join</span><span style=\"color: #E1E4E8\">(separator</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): string</span></span></code>",
           "url": "/api/class/ObservableArray#join-join-1",
           "sources": [
             {
@@ -816,7 +816,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "pop(): T",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">pop</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">T</span></span></code>",
           "url": "/api/class/ObservableArray#pop-pop-1",
           "sources": [
             {
@@ -846,7 +846,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "push(...args: T[]): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">push</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">[]): number</span></span></code>",
           "url": "/api/class/ObservableArray#push-push-1",
           "sources": [
             {
@@ -884,7 +884,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_notifyLengthChange(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_notifyLengthChange</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ObservableArray#notifylengthchange-notifylengthchange-1",
           "sources": [
             {
@@ -936,7 +936,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "shift(): T",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">shift</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">T</span></span></code>",
           "url": "/api/class/ObservableArray#shift-shift-1",
           "sources": [
             {
@@ -1147,7 +1147,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "unshift(...args: T[]): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unshift</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">[]): number</span></span></code>",
           "url": "/api/class/ObservableArray#unshift-unshift-1",
           "sources": [
             {
@@ -1293,7 +1293,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "includes(searchElement: T, fromIndex?: number): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">includes</span><span style=\"color: #E1E4E8\">(searchElement: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, fromIndex</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): boolean</span></span></code>",
           "url": "/api/class/ObservableArray#includes-includes-1",
           "sources": [
             {
@@ -1352,7 +1352,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "indexOf(searchElement: T, fromIndex?: number): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">indexOf</span><span style=\"color: #E1E4E8\">(searchElement: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, fromIndex</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
           "url": "/api/class/ObservableArray#indexof-indexof-1",
           "sources": [
             {
@@ -1411,7 +1411,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "lastIndexOf(searchElement: T, fromIndex?: number): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lastIndexOf</span><span style=\"color: #E1E4E8\">(searchElement: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, fromIndex</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
           "url": "/api/class/ObservableArray#lastindexof-lastindexof-1",
           "sources": [
             {
@@ -2018,7 +2018,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "[iterator](): Generator&lt;T, void, unknown&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">[iterator](): Generator</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">, unknown</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ObservableArray#iterator-iterator-1",
           "sources": [
             {
@@ -2046,7 +2046,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "get(name: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
           "url": "/api/class/ObservableArray#get-get-1",
           "sources": [
             {
@@ -2094,7 +2094,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "set(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ObservableArray#set-set-1",
           "sources": [
             {
@@ -2147,7 +2147,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setProperty(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ObservableArray#setproperty-setproperty-1",
           "sources": [
             {
@@ -2524,7 +2524,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notify&lt;T&gt;(data: T): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
           "url": "/api/class/ObservableArray#notify-notify-1",
           "sources": [
             {
@@ -2580,7 +2580,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyPropertyChange(name: string, value: any, oldValue?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ObservableArray#notifypropertychange-notifypropertychange-1",
           "sources": [
             {
@@ -2640,7 +2640,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasListeners(eventName: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
           "url": "/api/class/ObservableArray#haslisteners-haslisteners-1",
           "sources": [
             {
@@ -2756,7 +2756,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_emit(eventNames: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ObservableArray#emit-emit-1",
           "sources": [
             {

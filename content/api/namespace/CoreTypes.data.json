@@ -93,7 +93,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "dip: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dip</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -128,7 +128,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "px: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">px</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -163,7 +163,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "percent: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">percent</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -190,7 +190,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LengthDipUnit: {\n  unit: \"dip\"\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LengthDipUnit</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">unit</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;dip&quot;</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -209,7 +209,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LengthPxUnit: {\n  unit: \"px\"\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LengthPxUnit</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">unit</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;px&quot;</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -228,7 +228,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LengthPercentUnit: {\n  unit: \"%\"\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LengthPercentUnit</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">unit</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;%&quot;</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -306,7 +306,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyboardInputType: \"datetime\" | \"phone\" | \"number\" | \"url\" | \"email\" | \"integer\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">KeyboardInputType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -325,7 +325,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyboardType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">KeyboardType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -344,7 +344,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AutofillType: \"username\" | \"password\" | \"none\" | string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AutofillType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;username&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;password&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -368,7 +368,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AutofillType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AutofillType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -392,7 +392,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ReturnKeyButtonType: \"done\" | \"next\" | \"go\" | \"search\" | \"send\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ReturnKeyButtonType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;done&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;next&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;go&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;search&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;send&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -411,7 +411,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ReturnKeyType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ReturnKeyType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -430,7 +430,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextAlignmentType: \"initial\" | \"left\" | \"center\" | \"right\" | \"justify\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">TextAlignmentType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;initial&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;justify&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -449,7 +449,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextAlignment",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextAlignment</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -468,7 +468,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextDecorationType: \"none\" | \"underline\" | \"line-through\" | \"underline line-through\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">TextDecorationType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;underline&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;line-through&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;underline line-through&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -487,7 +487,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextDecoration",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextDecoration</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -506,7 +506,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextTransformType: \"initial\" | \"none\" | \"capitalize\" | \"uppercase\" | \"lowercase\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">TextTransformType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;initial&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;capitalize&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;uppercase&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;lowercase&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -525,7 +525,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextTransform",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextTransform</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -544,7 +544,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "WhiteSpaceType: \"initial\" | \"normal\" | \"nowrap\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">WhiteSpaceType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;initial&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;nowrap&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -563,7 +563,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "WhiteSpace",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">WhiteSpace</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -582,7 +582,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "MaxLinesType: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MaxLinesType</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -601,7 +601,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "OrientationType: \"horizontal\" | \"vertical\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">OrientationType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;horizontal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;vertical&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -620,7 +620,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Orientation",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Orientation</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -639,7 +639,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DeviceOrientationType: \"portrait\" | \"landscape\" | \"unknown\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DeviceOrientationType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -658,7 +658,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DeviceOrientation",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DeviceOrientation</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -677,7 +677,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "HorizontalAlignmentType: \"left\" | \"center\" | \"right\" | \"stretch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">HorizontalAlignmentType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -696,7 +696,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "HorizontalAlignment",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">HorizontalAlignment</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -715,7 +715,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "VerticalAlignmentType: \"top\" | \"middle\" | \"bottom\" | \"stretch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">VerticalAlignmentType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -734,7 +734,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "VerticalAlignment",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">VerticalAlignment</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -772,7 +772,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "VerticalAlignmentText",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">VerticalAlignmentText</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -791,7 +791,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageStretchType: \"none\" | \"aspectFill\" | \"aspectFit\" | \"fill\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ImageStretchType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;aspectFill&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;aspectFit&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;fill&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -810,7 +810,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageStretch",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageStretch</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -829,7 +829,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "VisibilityType: \"visible\" | \"hidden\" | \"collapse\" | \"collapsed\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">VisibilityType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;visible&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;hidden&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;collapse&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;collapsed&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -848,7 +848,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Visibility",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Visibility</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -867,7 +867,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontAttributes",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontAttributes</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -886,7 +886,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DeviceType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DeviceType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -905,7 +905,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UpdateTextTriggerType: \"focusLost\" | \"textChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UpdateTextTriggerType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;focusLost&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;textChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -924,7 +924,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UpdateTextTrigger",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">UpdateTextTrigger</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -943,7 +943,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Accuracy",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Accuracy</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -962,7 +962,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DockType: \"left\" | \"top\" | \"right\" | \"bottom\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DockType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -981,7 +981,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Dock",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Dock</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1000,7 +1000,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AutocapitalizationInputType: \"none\" | \"words\" | \"sentences\" | \"allcharacters\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AutocapitalizationInputType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;words&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;sentences&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;allcharacters&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1019,7 +1019,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AutocapitalizationType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AutocapitalizationType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1038,7 +1038,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NavigationBarVisibility",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NavigationBarVisibility</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1057,7 +1057,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActionBarIconVisibility",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActionBarIconVisibility</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1076,7 +1076,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActionItemPosition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActionItemPosition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1095,7 +1095,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "IOSActionItemPosition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">IOSActionItemPosition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1114,7 +1114,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageFormat",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageFormat</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1133,7 +1133,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontStyle",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontStyle</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1152,7 +1152,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontWeight",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontWeight</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1171,7 +1171,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "BackgroundRepeatType: \"repeat\" | \"repeat-x\" | \"repeat-y\" | \"no-repeat\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BackgroundRepeatType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;repeat&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;repeat-x&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;repeat-y&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;no-repeat&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1190,7 +1190,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "BackgroundRepeat",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">BackgroundRepeat</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1209,7 +1209,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AnimationCurve",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AnimationCurve</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1228,7 +1228,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "StatusBarStyle",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">StatusBarStyle</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -1247,7 +1247,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SystemAppearance",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SystemAppearance</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

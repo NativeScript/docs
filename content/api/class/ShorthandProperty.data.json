@@ -72,7 +72,7 @@
       },
       "signatures": [
         {
-          "code": "key: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -93,7 +93,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -114,7 +114,7 @@
       },
       "signatures": [
         {
-          "code": "cssName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -135,7 +135,7 @@
       },
       "signatures": [
         {
-          "code": "cssLocalName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssLocalName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -157,7 +157,7 @@
       },
       "signatures": [
         {
-          "code": "cssValueDescriptor: PropertyDescriptor",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -179,7 +179,7 @@
       },
       "signatures": [
         {
-          "code": "localValueDescriptor: PropertyDescriptor",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">localValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -201,7 +201,7 @@
       },
       "signatures": [
         {
-          "code": "propertyBagDescriptor: PropertyDescriptor",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyBagDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -222,7 +222,7 @@
       },
       "signatures": [
         {
-          "code": "sourceKey: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sourceKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",

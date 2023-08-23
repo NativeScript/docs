@@ -43,7 +43,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "eventType: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventType</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -78,7 +78,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "position: Position",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">position</span><span style=\"color: #E1E4E8\">: Position</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -115,7 +115,7 @@
       },
       "signatures": [
         {
-          "code": "prefix?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">prefix</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -152,7 +152,7 @@
       },
       "signatures": [
         {
-          "code": "namespace?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">namespace</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -189,7 +189,7 @@
       },
       "signatures": [
         {
-          "code": "elementName?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">elementName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -226,7 +226,7 @@
       },
       "signatures": [
         {
-          "code": "attributes?: Object",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">attributes</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Object</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -263,7 +263,7 @@
       },
       "signatures": [
         {
-          "code": "data?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">data</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -291,7 +291,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/interface/ParserEvent#tostring-tostring-1",
           "sources": [
             {

@@ -42,7 +42,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "action: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">action</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -77,7 +77,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "index: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">index</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -112,7 +112,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "removed: T[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removed</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">[]</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -147,7 +147,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "addedCount: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addedCount</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -188,7 +188,7 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",

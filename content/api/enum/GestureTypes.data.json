@@ -32,7 +32,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "tap: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">tap</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -67,7 +67,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "doubleTap: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">doubleTap</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -102,7 +102,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "pinch: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">pinch</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -137,7 +137,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "pan: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">pan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -172,7 +172,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "swipe: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">swipe</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -207,7 +207,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "rotation: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotation</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -242,7 +242,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "longPress: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">longPress</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -277,7 +277,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "touch: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touch</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

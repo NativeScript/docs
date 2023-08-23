@@ -2,7 +2,7 @@
 title: ShowModalOptions
 category: Interfaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Interfaces'
@@ -25,22 +25,22 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ShowModalOptions {
-  android: {
-  cancelable?: boolean
-};
-  animated: boolean;
-  cancelable: boolean;
-  closeCallback: (...args: any[]) => void;
-  context: any;
-  fullscreen: boolean;
-  ios: {
-  height?: number
-  presentationStyle?: any
-};
-  stretched: boolean;
-  transition: ModalTransitionType;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">ShowModalOptions</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">android</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">cancelable</span><span style="color: #F97583">?:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">boolean</span></span>
+<span class="line"><span style="color: #E1E4E8">};</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">animated</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">boolean</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">cancelable</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">boolean</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #B392F0">closeCallback</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> (</span><span style="color: #F97583">...</span><span style="color: #FFAB70">args</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span><span style="color: #E1E4E8">[]) </span><span style="color: #F97583">=&gt;</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">void</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">context</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">fullscreen</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">boolean</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">ios</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">height</span><span style="color: #F97583">?:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">number</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">presentationStyle</span><span style="color: #F97583">?:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span></span>
+<span class="line"><span style="color: #E1E4E8">};</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">stretched</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">boolean</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">transition</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">ModalTransitionType</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 ## <Heading ignore>Summary</Heading>
 

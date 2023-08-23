@@ -32,7 +32,7 @@
       },
       "signatures": [
         {
-          "code": "ISO_8859_1: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ISO_8859_1</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -69,7 +69,7 @@
       },
       "signatures": [
         {
-          "code": "US_ASCII: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">US_ASCII</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -106,7 +106,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_16: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -143,7 +143,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_16BE: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16BE</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -180,7 +180,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_16LE: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16LE</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -217,7 +217,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_8: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_8</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",

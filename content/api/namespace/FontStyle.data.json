@@ -26,7 +26,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isValid(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isValid</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/FontStyle#isvalid-isvalid-1",
           "sources": [
             {
@@ -54,7 +54,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "parse(value: string): FontStyleType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parse</span><span style=\"color: #E1E4E8\">(value: string): FontStyleType</span></span></code>",
           "url": "/api/namespace/FontStyle#parse-parse-1",
           "sources": [
             {
@@ -83,7 +83,7 @@
       },
       "signatures": [
         {
-          "code": "NORMAL: \"normal\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NORMAL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -104,7 +104,7 @@
       },
       "signatures": [
         {
-          "code": "ITALIC: \"italic\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ITALIC</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;italic&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",

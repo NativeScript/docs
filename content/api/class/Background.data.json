@@ -178,7 +178,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "image: string | LinearGradient",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">image</span><span style=\"color: #E1E4E8\">: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> LinearGradient</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -216,7 +216,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "position: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">position</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -235,7 +235,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "size: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">size</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -330,7 +330,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderTopWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderTopWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -349,7 +349,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderRightWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderRightWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -368,7 +368,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderBottomWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderBottomWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -387,7 +387,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderLeftWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderLeftWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -406,7 +406,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderTopLeftRadius: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderTopLeftRadius</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -425,7 +425,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderTopRightRadius: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderTopRightRadius</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -444,7 +444,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderBottomLeftRadius: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderBottomLeftRadius</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -463,7 +463,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "borderBottomRightRadius: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">borderBottomRightRadius</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -482,7 +482,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "clipPath: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clipPath</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -501,7 +501,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "boxShadow: CSSShadow",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">boxShadow</span><span style=\"color: #E1E4E8\">: CSSShadow</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -520,7 +520,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "clearFlags: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearFlags</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -1072,7 +1072,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isEmpty(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isEmpty</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#isempty-isempty-1",
           "sources": [
             {
@@ -1094,7 +1094,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasBorderColor(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasBorderColor</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasbordercolor-hasbordercolor-1",
           "sources": [
             {
@@ -1116,7 +1116,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasBorderWidth(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasBorderWidth</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasborderwidth-hasborderwidth-1",
           "sources": [
             {
@@ -1138,7 +1138,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasBorderRadius(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasBorderRadius</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasborderradius-hasborderradius-1",
           "sources": [
             {
@@ -1160,7 +1160,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasUniformBorderColor(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasUniformBorderColor</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasuniformbordercolor-hasuniformbordercolor-1",
           "sources": [
             {
@@ -1182,7 +1182,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasUniformBorderWidth(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasUniformBorderWidth</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasuniformborderwidth-hasuniformborderwidth-1",
           "sources": [
             {
@@ -1204,7 +1204,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasUniformBorderRadius(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasUniformBorderRadius</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasuniformborderradius-hasuniformborderradius-1",
           "sources": [
             {
@@ -1226,7 +1226,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasUniformBorder(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasUniformBorder</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasuniformborder-hasuniformborder-1",
           "sources": [
             {
@@ -1270,7 +1270,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getUniformBorderWidth(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getUniformBorderWidth</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/Background#getuniformborderwidth-getuniformborderwidth-1",
           "sources": [
             {
@@ -1292,7 +1292,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getUniformBorderRadius(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getUniformBorderRadius</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/Background#getuniformborderradius-getuniformborderradius-1",
           "sources": [
             {
@@ -1314,7 +1314,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasBoxShadow(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasBoxShadow</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Background#hasboxshadow-hasboxshadow-1",
           "sources": [
             {
@@ -1336,7 +1336,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getBoxShadow(): CSSShadow",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getBoxShadow</span><span style=\"color: #E1E4E8\">(): CSSShadow</span></span></code>",
           "url": "/api/class/Background#getboxshadow-getboxshadow-1",
           "sources": [
             {
@@ -1358,7 +1358,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/Background#tostring-tostring-1",
           "sources": [
             {

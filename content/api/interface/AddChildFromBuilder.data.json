@@ -24,7 +24,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_addChildFromBuilder(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_addChildFromBuilder</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/interface/AddChildFromBuilder#addchildfrombuilder-addchildfrombuilder-1",
           "sources": [
             {

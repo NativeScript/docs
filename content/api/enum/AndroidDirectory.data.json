@@ -28,7 +28,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ALARMS: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ALARMS</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -47,7 +47,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AUDIOBOOKS: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AUDIOBOOKS</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -66,7 +66,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DCIM: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DCIM</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -85,7 +85,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DOCUMENTS: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DOCUMENTS</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -104,7 +104,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DOWNLOADS: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DOWNLOADS</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -123,7 +123,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "MOVIES: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MOVIES</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -142,7 +142,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "MUSIC: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MUSIC</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -161,7 +161,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NOTIFICATIONS: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NOTIFICATIONS</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -180,7 +180,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PICTURES: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PICTURES</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -199,7 +199,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PODCASTS: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PODCASTS</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -218,7 +218,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "RINGTONES: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">RINGTONES</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -237,7 +237,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SCREENSHOTS: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">SCREENSHOTS</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",

@@ -2,7 +2,7 @@
 title: AddChildFromBuilder
 category: Interfaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Interfaces'
@@ -25,9 +25,9 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface AddChildFromBuilder {
-  _addChildFromBuilder(name: string, value: any): void;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">AddChildFromBuilder</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #B392F0">_addChildFromBuilder</span><span style="color: #E1E4E8">(</span><span style="color: #FFAB70">name</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">, </span><span style="color: #FFAB70">value</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span><span style="color: #E1E4E8">)</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">void</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 <APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJEZWZpbmVzIGFuIGludGVyZmFjZSBmb3IgYWRkaW5nIGEgY2hpbGQgZWxlbWVudCBkZWNsYXJlZCBpbiB4bWwuIn1dfQ==" v-once />
 

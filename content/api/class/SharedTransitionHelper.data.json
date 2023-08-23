@@ -36,7 +36,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "animate(\n  state: SharedTransitionState,\n  transitionContext: any,\n  type: TransitionNavigationType\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">animate</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  state: SharedTransitionState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  transitionContext: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  type: TransitionNavigationType</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransitionHelper#animate-animate-1",
           "sources": [
             {
@@ -76,7 +76,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "interactiveStart(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveStart</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  state: SharedTransitionState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  interactiveState: TransitionInteractiveState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  type: TransitionNavigationType</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransitionHelper#interactivestart-interactivestart-1",
           "sources": [
             {
@@ -116,7 +116,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "interactiveUpdate(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType,\n  percent: number\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveUpdate</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  state: SharedTransitionState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  interactiveState: TransitionInteractiveState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  type: TransitionNavigationType,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  percent: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransitionHelper#interactiveupdate-interactiveupdate-1",
           "sources": [
             {
@@ -161,7 +161,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "interactiveCancel(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveCancel</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  state: SharedTransitionState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  interactiveState: TransitionInteractiveState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  type: TransitionNavigationType</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransitionHelper#interactivecancel-interactivecancel-1",
           "sources": [
             {
@@ -201,7 +201,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "interactiveFinish(\n  state: SharedTransitionState,\n  interactiveState: TransitionInteractiveState,\n  type: TransitionNavigationType\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveFinish</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  state: SharedTransitionState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  interactiveState: TransitionInteractiveState,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  type: TransitionNavigationType</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SharedTransitionHelper#interactivefinish-interactivefinish-1",
           "sources": [
             {

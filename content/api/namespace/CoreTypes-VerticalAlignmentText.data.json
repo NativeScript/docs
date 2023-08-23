@@ -34,7 +34,7 @@
       },
       "signatures": [
         {
-          "code": "top: \"top\" = \"top\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">top</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -55,7 +55,7 @@
       },
       "signatures": [
         {
-          "code": "middle: \"middle\" = \"middle\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">middle</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -76,7 +76,7 @@
       },
       "signatures": [
         {
-          "code": "bottom: \"bottom\" = \"bottom\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bottom</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -97,7 +97,7 @@
       },
       "signatures": [
         {
-          "code": "stretch: \"stretch\" = \"stretch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stretch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -118,7 +118,7 @@
       },
       "signatures": [
         {
-          "code": "texttop: \"text-top\" = \"text-top\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">texttop</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;text-top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;text-top&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -139,7 +139,7 @@
       },
       "signatures": [
         {
-          "code": "textbottom: \"text-bottom\" = \"text-bottom\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">textbottom</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;text-bottom&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;text-bottom&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -160,7 +160,7 @@
       },
       "signatures": [
         {
-          "code": "sup: \"sup\" = \"sup\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sup</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;sup&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;sup&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -181,7 +181,7 @@
       },
       "signatures": [
         {
-          "code": "sub: \"sub\" = \"sub\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sub</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;sub&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;sub&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -202,7 +202,7 @@
       },
       "signatures": [
         {
-          "code": "baseline: \"baseline\" = \"baseline\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">baseline</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;baseline&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;baseline&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

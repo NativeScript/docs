@@ -55,7 +55,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "activity: AppCompatActivity",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">activity</span><span style=\"color: #E1E4E8\">: AppCompatActivity</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -90,7 +90,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -125,7 +125,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "object: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">object</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",

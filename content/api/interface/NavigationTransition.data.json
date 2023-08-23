@@ -36,7 +36,7 @@
       },
       "signatures": [
         {
-          "code": "name?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -110,7 +110,7 @@
       },
       "signatures": [
         {
-          "code": "duration?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">duration</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -147,7 +147,7 @@
       },
       "signatures": [
         {
-          "code": "curve?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",

@@ -25,7 +25,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "duration: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">duration</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -65,7 +65,7 @@
       },
       "signatures": [
         {
-          "code": "curve?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",

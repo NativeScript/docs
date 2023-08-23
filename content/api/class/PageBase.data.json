@@ -353,7 +353,7 @@
       },
       "signatures": [
         {
-          "code": "navigatingToEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">navigatingToEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -374,7 +374,7 @@
       },
       "signatures": [
         {
-          "code": "navigatedToEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">navigatedToEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -395,7 +395,7 @@
       },
       "signatures": [
         {
-          "code": "navigatingFromEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">navigatingFromEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -416,7 +416,7 @@
       },
       "signatures": [
         {
-          "code": "navigatedFromEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">navigatedFromEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -449,7 +449,7 @@
       },
       "signatures": [
         {
-          "code": "layoutChangedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">layoutChangedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -493,7 +493,7 @@
       },
       "signatures": [
         {
-          "code": "showingModallyEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">showingModallyEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -537,7 +537,7 @@
       },
       "signatures": [
         {
-          "code": "shownModallyEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">shownModallyEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -581,7 +581,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityBlurEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityBlurEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -625,7 +625,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityFocusEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityFocusEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -669,7 +669,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityFocusChangedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityFocusChangedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -892,7 +892,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "resolveSizeAndState(\n  size: number,\n  specSize: number,\n  specMode: number,\n  childMeasuredState: number\n): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resolveSizeAndState</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  size: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  specSize: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  specMode: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  childMeasuredState: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): number</span></span></code>",
           "url": "/api/class/PageBase#resolvesizeandstate-resolvesizeandstate-1",
           "sources": [
             {
@@ -952,7 +952,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "combineMeasuredStates(curState: number, newState: any): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">combineMeasuredStates</span><span style=\"color: #E1E4E8\">(curState: number, newState: any): number</span></span></code>",
           "url": "/api/class/PageBase#combinemeasuredstates-combinemeasuredstates-1",
           "sources": [
             {
@@ -992,7 +992,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityPerformEscapeEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityPerformEscapeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -1027,7 +1027,7 @@
       },
       "signatures": [
         {
-          "code": "loadedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -1070,7 +1070,7 @@
       },
       "signatures": [
         {
-          "code": "unloadedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unloadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -1113,7 +1113,7 @@
       },
       "signatures": [
         {
-          "code": "createdEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createdEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -1156,7 +1156,7 @@
       },
       "signatures": [
         {
-          "code": "disposeNativeViewEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeViewEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -1199,7 +1199,7 @@
       },
       "signatures": [
         {
-          "code": "propertyChangeEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -1520,7 +1520,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "actionBarHidden: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">actionBarHidden</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -1539,7 +1539,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "enableSwipeBackNavigation: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">enableSwipeBackNavigation</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -1558,7 +1558,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "backgroundSpanUnderStatusBar: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundSpanUnderStatusBar</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -1577,7 +1577,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "hasActionBar: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasActionBar</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -1596,7 +1596,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "accessibilityAnnouncePageEnabled: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityAnnouncePageEnabled</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -1616,7 +1616,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get navigationContext(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">navigationContext</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/PageBase#navigationcontext-navigationcontext-1",
           "sources": [
             {
@@ -1660,7 +1660,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get statusBarStyle(): \"dark\" | \"light\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">statusBarStyle</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span></span></code>",
           "url": "/api/class/PageBase#statusbarstyle-statusbarstyle-1",
           "sources": [
             {
@@ -1726,7 +1726,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_addChildFromBuilder(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_addChildFromBuilder</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#addchildfrombuilder-addchildfrombuilder-1",
           "sources": [
             {
@@ -1809,7 +1809,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onNavigatingTo(\n  context: any,\n  isBackNavigation: boolean,\n  bindingContext?: any\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onNavigatingTo</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  context: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  isBackNavigation: boolean,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  bindingContext</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onnavigatingto-onnavigatingto-1",
           "sources": [
             {
@@ -1849,7 +1849,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onNavigatedTo(isBackNavigation: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onNavigatedTo</span><span style=\"color: #E1E4E8\">(isBackNavigation: boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onnavigatedto-onnavigatedto-1",
           "sources": [
             {
@@ -1877,7 +1877,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onNavigatingFrom(isBackNavigation: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onNavigatingFrom</span><span style=\"color: #E1E4E8\">(isBackNavigation: boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onnavigatingfrom-onnavigatingfrom-1",
           "sources": [
             {
@@ -1905,7 +1905,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onNavigatedFrom(isBackNavigation: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onNavigatedFrom</span><span style=\"color: #E1E4E8\">(isBackNavigation: boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onnavigatedfrom-onnavigatedfrom-1",
           "sources": [
             {
@@ -1961,7 +1961,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get _childrenCount(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">_childrenCount</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/PageBase#childrencount-childrencount-1",
           "sources": [
             {
@@ -1983,7 +1983,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "accessibilityScreenChanged(refocus?: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityScreenChanged</span><span style=\"color: #E1E4E8\">(refocus</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#accessibilityscreenchanged-accessibilityscreenchanged-1",
           "sources": [
             {
@@ -2051,7 +2051,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "on(\n  event: \"navigatingTo\",\n  callback: (args: NavigatedData) => void,\n  thisArg?: any\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">on</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  event: </span><span style=\"color: #9ECBFF\">&quot;navigatingTo&quot;</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  callback: (</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">NavigatedData</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  thisArg</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#on-on-2",
           "sources": [
             {
@@ -2086,7 +2086,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "on(\n  event: \"navigatedTo\",\n  callback: (args: NavigatedData) => void,\n  thisArg?: any\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">on</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  event: </span><span style=\"color: #9ECBFF\">&quot;navigatedTo&quot;</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  callback: (</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">NavigatedData</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  thisArg</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#on-on-3",
           "sources": [
             {
@@ -2121,7 +2121,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "on(\n  event: \"navigatingFrom\",\n  callback: (args: NavigatedData) => void,\n  thisArg?: any\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">on</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  event: </span><span style=\"color: #9ECBFF\">&quot;navigatingFrom&quot;</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  callback: (</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">NavigatedData</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  thisArg</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#on-on-4",
           "sources": [
             {
@@ -2156,7 +2156,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "on(\n  event: \"navigatedFrom\",\n  callback: (args: NavigatedData) => void,\n  thisArg?: any\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">on</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  event: </span><span style=\"color: #9ECBFF\">&quot;navigatedFrom&quot;</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  callback: (</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">NavigatedData</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  thisArg</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#on-on-5",
           "sources": [
             {
@@ -2334,7 +2334,7 @@
       },
       "signatures": [
         {
-          "code": "iosOverflowSafeArea: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosOverflowSafeArea</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -2377,7 +2377,7 @@
       },
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -2420,7 +2420,7 @@
       },
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -2461,7 +2461,7 @@
       },
       "signatures": [
         {
-          "code": "bindingContext: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bindingContext</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3166,7 +3166,7 @@
       },
       "signatures": [
         {
-          "code": "accessible: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessible</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3215,7 +3215,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityHidden: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityHidden</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3256,7 +3256,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityIdentifier: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityIdentifier</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3379,7 +3379,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityLabel: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityLabel</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3420,7 +3420,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityValue: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityValue</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3461,7 +3461,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityHint: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityHint</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3527,7 +3527,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityLanguage: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityLanguage</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3568,7 +3568,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityMediaSession: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityMediaSession</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3609,7 +3609,7 @@
       },
       "signatures": [
         {
-          "code": "iosAccessibilityAdjustsFontSize: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityAdjustsFontSize</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3650,7 +3650,7 @@
       },
       "signatures": [
         {
-          "code": "iosAccessibilityMinFontScale: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMinFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3691,7 +3691,7 @@
       },
       "signatures": [
         {
-          "code": "iosAccessibilityMaxFontScale: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMaxFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3734,7 +3734,7 @@
       },
       "signatures": [
         {
-          "code": "_androidContentDescriptionUpdated?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">_androidContentDescriptionUpdated</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3767,7 +3767,7 @@
       },
       "signatures": [
         {
-          "code": "automationText: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">automationText</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3800,7 +3800,7 @@
       },
       "signatures": [
         {
-          "code": "androidElevation: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">androidElevation</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3841,7 +3841,7 @@
       },
       "signatures": [
         {
-          "code": "androidDynamicElevationOffset: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">androidDynamicElevationOffset</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3882,7 +3882,7 @@
       },
       "signatures": [
         {
-          "code": "background: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">background</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -3964,7 +3964,7 @@
       },
       "signatures": [
         {
-          "code": "backgroundImage: string | LinearGradient",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundImage</span><span style=\"color: #E1E4E8\">: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> LinearGradient</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4005,7 +4005,7 @@
       },
       "signatures": [
         {
-          "code": "boxShadow: string | CSSShadow",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">boxShadow</span><span style=\"color: #E1E4E8\">: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> CSSShadow</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4538,7 +4538,7 @@
       },
       "signatures": [
         {
-          "code": "opacity: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">opacity</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4579,7 +4579,7 @@
       },
       "signatures": [
         {
-          "code": "rotate: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotate</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4620,7 +4620,7 @@
       },
       "signatures": [
         {
-          "code": "rotateX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotateX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4661,7 +4661,7 @@
       },
       "signatures": [
         {
-          "code": "rotateY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotateY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4702,7 +4702,7 @@
       },
       "signatures": [
         {
-          "code": "perspective: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">perspective</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4743,7 +4743,7 @@
       },
       "signatures": [
         {
-          "code": "translateX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">translateX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4784,7 +4784,7 @@
       },
       "signatures": [
         {
-          "code": "translateY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">translateY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4825,7 +4825,7 @@
       },
       "signatures": [
         {
-          "code": "scaleX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scaleX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4866,7 +4866,7 @@
       },
       "signatures": [
         {
-          "code": "scaleY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scaleY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4907,7 +4907,7 @@
       },
       "signatures": [
         {
-          "code": "originX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">originX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4948,7 +4948,7 @@
       },
       "signatures": [
         {
-          "code": "originY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">originY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -4989,7 +4989,7 @@
       },
       "signatures": [
         {
-          "code": "isEnabled: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isEnabled</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5030,7 +5030,7 @@
       },
       "signatures": [
         {
-          "code": "isUserInteractionEnabled: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isUserInteractionEnabled</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5071,7 +5071,7 @@
       },
       "signatures": [
         {
-          "code": "iosOverflowSafeAreaEnabled: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosOverflowSafeAreaEnabled</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5112,7 +5112,7 @@
       },
       "signatures": [
         {
-          "code": "iosIgnoreSafeArea: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosIgnoreSafeArea</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5153,7 +5153,7 @@
       },
       "signatures": [
         {
-          "code": "isLayoutValid: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isLayoutValid</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5194,7 +5194,7 @@
       },
       "signatures": [
         {
-          "code": "cssType: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssType</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5227,7 +5227,7 @@
       },
       "signatures": [
         {
-          "code": "cssClasses: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5252,7 +5252,7 @@
       },
       "signatures": [
         {
-          "code": "cssPseudoClasses: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssPseudoClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -5280,7 +5280,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "measure(widthMeasureSpec: number, heightMeasureSpec: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">measure</span><span style=\"color: #E1E4E8\">(widthMeasureSpec: number, heightMeasureSpec: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#measure-measure-1",
           "sources": [
             {
@@ -5345,7 +5345,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "layout(\n  left: number,\n  top: number,\n  right: number,\n  bottom: number,\n  setFrame?: boolean\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">layout</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  left: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  top: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  right: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  bottom: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  setFrame</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#layout-layout-1",
           "sources": [
             {
@@ -5411,7 +5411,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getMeasuredWidth(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMeasuredWidth</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/PageBase#getmeasuredwidth-getmeasuredwidth-1",
           "sources": [
             {
@@ -5449,7 +5449,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getMeasuredHeight(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMeasuredHeight</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/PageBase#getmeasuredheight-getmeasuredheight-1",
           "sources": [
             {
@@ -5487,7 +5487,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getMeasuredState(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMeasuredState</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/PageBase#getmeasuredstate-getmeasuredstate-1",
           "sources": [
             {
@@ -5517,7 +5517,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onMeasure(widthMeasureSpec: number, heightMeasureSpec: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onMeasure</span><span style=\"color: #E1E4E8\">(widthMeasureSpec: number, heightMeasureSpec: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onmeasure-onmeasure-1",
           "sources": [
             {
@@ -5582,7 +5582,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onLayout(left: number, top: number, right: number, bottom: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onLayout</span><span style=\"color: #E1E4E8\">(left: number, top: number, right: number, bottom: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onlayout-onlayout-1",
           "sources": [
             {
@@ -5673,7 +5673,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setMeasuredDimension(measuredWidth: number, measuredHeight: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setMeasuredDimension</span><span style=\"color: #E1E4E8\">(measuredWidth: number, measuredHeight: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#setmeasureddimension-setmeasureddimension-1",
           "sources": [
             {
@@ -5738,7 +5738,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "layoutNativeView(\n  left: number,\n  top: number,\n  right: number,\n  bottom: number\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">layoutNativeView</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  left: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  top: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  right: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  bottom: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#layoutnativeview-layoutnativeview-1",
           "sources": [
             {
@@ -5829,7 +5829,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "focus(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">focus</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/PageBase#focus-focus-1",
           "sources": [
             {
@@ -6112,7 +6112,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getSafeAreaInsets(): {\n  bottom: any\n  left: any\n  right: any\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getSafeAreaInsets</span><span style=\"color: #E1E4E8\">(): {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  bottom: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  left: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  right: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "url": "/api/class/PageBase#getsafeareainsets-getsafeareainsets-1",
           "sources": [
             {
@@ -6150,7 +6150,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getLocationInWindow(): Point",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getLocationInWindow</span><span style=\"color: #E1E4E8\">(): Point</span></span></code>",
           "url": "/api/class/PageBase#getlocationinwindow-getlocationinwindow-1",
           "sources": [
             {
@@ -6188,7 +6188,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getLocationOnScreen(): Point",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getLocationOnScreen</span><span style=\"color: #E1E4E8\">(): Point</span></span></code>",
           "url": "/api/class/PageBase#getlocationonscreen-getlocationonscreen-1",
           "sources": [
             {
@@ -6306,7 +6306,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onBackPressed(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onBackPressed</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/PageBase#onbackpressed-onbackpressed-1",
           "sources": [
             {
@@ -6342,7 +6342,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_getNativeViewsCount(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_getNativeViewsCount</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/PageBase#getnativeviewscount-getnativeviewscount-1",
           "sources": [
             {
@@ -6370,7 +6370,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_closeAllModalViewsInternal(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_closeAllModalViewsInternal</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/PageBase#closeallmodalviewsinternal-closeallmodalviewsinternal-1",
           "sources": [
             {
@@ -6458,7 +6458,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_eachLayoutView(callback: (View: any) => void): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_eachLayoutView</span><span style=\"color: #E1E4E8\">(callback: (</span><span style=\"color: #FFAB70\">View</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#eachlayoutview-eachlayoutview-1",
           "sources": [
             {
@@ -6494,7 +6494,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_onSizeChanged(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_onSizeChanged</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onsizechanged-onsizechanged-1",
           "sources": [
             {
@@ -6532,7 +6532,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasGestureObservers(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasGestureObservers</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/PageBase#hasgestureobservers-hasgestureobservers-1",
           "sources": [
             {
@@ -6570,7 +6570,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setOnTouchListener(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setOnTouchListener</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#setontouchlistener-setontouchlistener-1",
           "sources": [
             {
@@ -6608,7 +6608,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "sendAccessibilityEvent(options: Partial&lt;AccessibilityEventOptions&gt;): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sendAccessibilityEvent</span><span style=\"color: #E1E4E8\">(options: Partial</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;AccessibilityEventOptions</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#sendaccessibilityevent-sendaccessibilityevent-1",
           "sources": [
             {
@@ -6671,7 +6671,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "accessibilityAnnouncement(msg?: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityAnnouncement</span><span style=\"color: #E1E4E8\">(msg</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#accessibilityannouncement-accessibilityannouncement-1",
           "sources": [
             {
@@ -6715,7 +6715,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_handleLivesync(context?: { path: string }): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_handleLivesync</span><span style=\"color: #E1E4E8\">(context</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> { path: string }): boolean</span></span></code>",
           "url": "/api/class/PageBase#handlelivesync-handlelivesync-1",
           "sources": [
             {
@@ -6751,7 +6751,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_updateStyleScope(\n  cssFileName?: string,\n  cssString?: string,\n  css?: string\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_updateStyleScope</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  cssFileName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  cssString</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  css</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#updatestylescope-updatestylescope-1",
           "sources": [
             {
@@ -6818,7 +6818,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_onAttachedToWindow(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_onAttachedToWindow</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onattachedtowindow-onattachedtowindow-1",
           "sources": [
             {
@@ -6854,7 +6854,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_onDetachedFromWindow(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_onDetachedFromWindow</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#ondetachedfromwindow-ondetachedfromwindow-1",
           "sources": [
             {
@@ -6932,7 +6932,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_getValue(property: any): never",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_getValue</span><span style=\"color: #E1E4E8\">(property: any): never</span></span></code>",
           "url": "/api/class/PageBase#getvalue-getvalue-1",
           "sources": [
             {
@@ -6974,7 +6974,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_setValue(property: any, value: any): never",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setValue</span><span style=\"color: #E1E4E8\">(property: any, value: any): never</span></span></code>",
           "url": "/api/class/PageBase#setvalue-setvalue-1",
           "sources": [
             {
@@ -7020,7 +7020,7 @@
       },
       "signatures": [
         {
-          "code": "testID: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">testID</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -7070,7 +7070,7 @@
       },
       "signatures": [
         {
-          "code": "ignoreTouchAnimation: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ignoreTouchAnimation</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -7095,7 +7095,7 @@
       },
       "signatures": [
         {
-          "code": "touchDelay: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touchDelay</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -7122,7 +7122,7 @@
       },
       "signatures": [
         {
-          "code": "_closeModalCallback: Function",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_closeModalCallback</span><span style=\"color: #E1E4E8\">: Function</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -7155,7 +7155,7 @@
       },
       "signatures": [
         {
-          "code": "transitionId: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">transitionId</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -7190,7 +7190,7 @@
       },
       "signatures": [
         {
-          "code": "_isLayoutValid: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isLayoutValid</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -7216,7 +7216,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onLoaded(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onloaded-onloaded-1",
           "sources": [
             {
@@ -7244,7 +7244,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_setupAsRootView(context: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupAsRootView</span><span style=\"color: #E1E4E8\">(context: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#setupasrootview-setupasrootview-1",
           "sources": [
             {
@@ -7454,7 +7454,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "closeModal(...args: any[]): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">closeModal</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any[]): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#closemodal-closemodal-1",
           "sources": [
             {
@@ -7574,7 +7574,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_raiseLayoutChangedEvent(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_raiseLayoutChangedEvent</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#raiselayoutchangedevent-raiselayoutchangedevent-1",
           "sources": [
             {
@@ -7604,7 +7604,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_raiseShownModallyEvent(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_raiseShownModallyEvent</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#raiseshownmodallyevent-raiseshownmodallyevent-1",
           "sources": [
             {
@@ -7634,7 +7634,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_raiseShowingModallyEvent(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_raiseShowingModallyEvent</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#raiseshowingmodallyevent-raiseshowingmodallyevent-1",
           "sources": [
             {
@@ -7662,7 +7662,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get backgroundSize(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">backgroundSize</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/PageBase#backgroundsize-backgroundsize-1",
           "sources": [
             {
@@ -7690,7 +7690,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get backgroundPosition(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">backgroundPosition</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/PageBase#backgroundposition-backgroundposition-1",
           "sources": [
             {
@@ -7774,7 +7774,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "requestLayout(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">requestLayout</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#requestlayout-requestlayout-1",
           "sources": [
             {
@@ -7836,7 +7836,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "resetNativeView(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#resetnativeview-resetnativeview-1",
           "sources": [
             {
@@ -7864,7 +7864,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setTestID(view: any, value: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setTestID</span><span style=\"color: #E1E4E8\">(view: any, value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#settestid-settestid-1",
           "sources": [
             {
@@ -7902,7 +7902,7 @@
       },
       "signatures": [
         {
-          "code": "domNode: DOMNode",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">domNode</span><span style=\"color: #E1E4E8\">: DOMNode</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -7927,7 +7927,7 @@
       },
       "signatures": [
         {
-          "code": "recycleNativeView: \"auto\" | \"always\" | \"never\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">recycleNativeView</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;auto&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;always&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;never&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -7960,7 +7960,7 @@
       },
       "signatures": [
         {
-          "code": "viewController: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">viewController</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8001,7 +8001,7 @@
       },
       "signatures": [
         {
-          "code": "nativeViewProtected: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeViewProtected</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8083,7 +8083,7 @@
       },
       "signatures": [
         {
-          "code": "isCollapsed: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isCollapsed</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8124,7 +8124,7 @@
       },
       "signatures": [
         {
-          "code": "id: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">id</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8165,7 +8165,7 @@
       },
       "signatures": [
         {
-          "code": "className: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">className</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8206,7 +8206,7 @@
       },
       "signatures": [
         {
-          "code": "sharedTransitionTag: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionTag</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8247,7 +8247,7 @@
       },
       "signatures": [
         {
-          "code": "sharedTransitionIgnore: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionIgnore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8280,7 +8280,7 @@
       },
       "signatures": [
         {
-          "code": "_domId: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_domId</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8305,7 +8305,7 @@
       },
       "signatures": [
         {
-          "code": "_context: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8330,7 +8330,7 @@
       },
       "signatures": [
         {
-          "code": "_isAddedToNativeVisualTree: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isAddedToNativeVisualTree</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8355,7 +8355,7 @@
       },
       "signatures": [
         {
-          "code": "_cssState: CssState",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_cssState</span><span style=\"color: #E1E4E8\">: CssState</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8380,7 +8380,7 @@
       },
       "signatures": [
         {
-          "code": "_styleScope: StyleScope",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_styleScope</span><span style=\"color: #E1E4E8\">: StyleScope</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8413,7 +8413,7 @@
       },
       "signatures": [
         {
-          "code": "_suspendNativeUpdatesCount: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdatesCount</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8446,7 +8446,7 @@
       },
       "signatures": [
         {
-          "code": "_isStyleScopeHost: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isStyleScopeHost</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8471,7 +8471,7 @@
       },
       "signatures": [
         {
-          "code": "_automaticallyAdjustsScrollViewInsets: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_automaticallyAdjustsScrollViewInsets</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8546,7 +8546,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveLeft: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8571,7 +8571,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveTop: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8596,7 +8596,7 @@
       },
       "signatures": [
         {
-          "code": "dock: \"left\" | \"right\" | \"top\" | \"bottom\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dock</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8621,7 +8621,7 @@
       },
       "signatures": [
         {
-          "code": "row: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">row</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8646,7 +8646,7 @@
       },
       "signatures": [
         {
-          "code": "col: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">col</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8671,7 +8671,7 @@
       },
       "signatures": [
         {
-          "code": "column: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">column</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8696,7 +8696,7 @@
       },
       "signatures": [
         {
-          "code": "rowSpan: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rowSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8721,7 +8721,7 @@
       },
       "signatures": [
         {
-          "code": "colSpan: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">colSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8746,7 +8746,7 @@
       },
       "signatures": [
         {
-          "code": "columnSpan: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">columnSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8771,7 +8771,7 @@
       },
       "signatures": [
         {
-          "code": "order: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">order</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8796,7 +8796,7 @@
       },
       "signatures": [
         {
-          "code": "flexGrow: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexGrow</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8821,7 +8821,7 @@
       },
       "signatures": [
         {
-          "code": "flexShrink: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexShrink</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8846,7 +8846,7 @@
       },
       "signatures": [
         {
-          "code": "flexWrapBefore: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrapBefore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8871,7 +8871,7 @@
       },
       "signatures": [
         {
-          "code": "alignSelf: AlignSelf",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignSelf</span><span style=\"color: #E1E4E8\">: AlignSelf</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8896,7 +8896,7 @@
       },
       "signatures": [
         {
-          "code": "_oldLeft: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8921,7 +8921,7 @@
       },
       "signatures": [
         {
-          "code": "_oldTop: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8946,7 +8946,7 @@
       },
       "signatures": [
         {
-          "code": "_oldRight: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8971,7 +8971,7 @@
       },
       "signatures": [
         {
-          "code": "_oldBottom: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8996,7 +8996,7 @@
       },
       "signatures": [
         {
-          "code": "_ignoreFlexMinWidthHeightReset: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_ignoreFlexMinWidthHeightReset</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9021,7 +9021,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveMinWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9046,7 +9046,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveMinHeight: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9071,7 +9071,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9096,7 +9096,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveHeight: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9121,7 +9121,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveMarginTop: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9146,7 +9146,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveMarginRight: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9171,7 +9171,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveMarginBottom: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9196,7 +9196,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveMarginLeft: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9221,7 +9221,7 @@
       },
       "signatures": [
         {
-          "code": "effectivePaddingTop: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9246,7 +9246,7 @@
       },
       "signatures": [
         {
-          "code": "effectivePaddingRight: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9271,7 +9271,7 @@
       },
       "signatures": [
         {
-          "code": "effectivePaddingBottom: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9296,7 +9296,7 @@
       },
       "signatures": [
         {
-          "code": "effectivePaddingLeft: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9321,7 +9321,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveBorderTopWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderTopWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9346,7 +9346,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveBorderRightWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderRightWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9371,7 +9371,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveBorderBottomWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderBottomWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9396,7 +9396,7 @@
       },
       "signatures": [
         {
-          "code": "effectiveBorderLeftWidth: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderLeftWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9421,7 +9421,7 @@
       },
       "signatures": [
         {
-          "code": "_defaultPaddingTop: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9446,7 +9446,7 @@
       },
       "signatures": [
         {
-          "code": "_defaultPaddingRight: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9471,7 +9471,7 @@
       },
       "signatures": [
         {
-          "code": "_defaultPaddingBottom: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9496,7 +9496,7 @@
       },
       "signatures": [
         {
-          "code": "_defaultPaddingLeft: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9521,7 +9521,7 @@
       },
       "signatures": [
         {
-          "code": "_isPaddingRelative: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isPaddingRelative</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9554,7 +9554,7 @@
       },
       "signatures": [
         {
-          "code": "reusable: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">reusable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -9624,7 +9624,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get nativeView(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">nativeView</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/PageBase#nativeview-nativeview-1",
           "sources": [
             {
@@ -9652,7 +9652,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get typeName(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">typeName</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/PageBase#typename-typename-1",
           "sources": [
             {
@@ -9724,7 +9724,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get isLoaded(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">isLoaded</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/PageBase#isloaded-isloaded-1",
           "sources": [
             {
@@ -9752,7 +9752,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get class(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">class</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/PageBase#class-class-1",
           "sources": [
             {
@@ -9780,7 +9780,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getViewById&lt;T&gt;(id: string): T",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewById</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">id</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
           "url": "/api/class/PageBase#getviewbyid-getviewbyid-1",
           "sources": [
             {
@@ -9822,7 +9822,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getViewByDomId&lt;T&gt;(domId: number): T",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewByDomId</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">domId</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">number</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
           "url": "/api/class/PageBase#getviewbydomid-getviewbydomid-1",
           "sources": [
             {
@@ -9864,7 +9864,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "ensureDomNode(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ensureDomNode</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#ensuredomnode-ensuredomnode-1",
           "sources": [
             {
@@ -9906,7 +9906,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "set(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#set-set-1",
           "sources": [
             {
@@ -9945,7 +9945,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onUnloaded(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onunloaded-onunloaded-1",
           "sources": [
             {
@@ -9973,7 +9973,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_layoutParent(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_layoutParent</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#layoutparent-layoutparent-1",
           "sources": [
             {
@@ -10001,7 +10001,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_suspendNativeUpdates(type: SuspendType): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#suspendnativeupdates-suspendnativeupdates-1",
           "sources": [
             {
@@ -10035,7 +10035,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_resumeNativeUpdates(type: SuspendType): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_resumeNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#resumenativeupdates-resumenativeupdates-1",
           "sources": [
             {
@@ -10069,7 +10069,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_batchUpdate&lt;T&gt;(callback: () => T): T",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">_batchUpdate</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #B392F0\">callback</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
           "url": "/api/class/PageBase#batchupdate-batchupdate-1",
           "sources": [
             {
@@ -10111,7 +10111,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "callLoaded(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#callloaded-callloaded-1",
           "sources": [
             {
@@ -10139,7 +10139,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "callUnloaded(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#callunloaded-callunloaded-1",
           "sources": [
             {
@@ -10169,7 +10169,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addPseudoClass(name: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addPseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#addpseudoclass-addpseudoclass-1",
           "sources": [
             {
@@ -10219,7 +10219,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "deletePseudoClass(name: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deletePseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#deletepseudoclass-deletepseudoclass-1",
           "sources": [
             {
@@ -10308,7 +10308,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "unbind(property: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unbind</span><span style=\"color: #E1E4E8\">(property: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#unbind-unbind-1",
           "sources": [
             {
@@ -10482,7 +10482,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_shouldDelayLayout(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_shouldDelayLayout</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/PageBase#shoulddelaylayout-shoulddelaylayout-1",
           "sources": [
             {
@@ -10652,7 +10652,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "createNativeView(): Object",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createNativeView</span><span style=\"color: #E1E4E8\">(): Object</span></span></code>",
           "url": "/api/class/PageBase#createnativeview-createnativeview-1",
           "sources": [
             {
@@ -10688,7 +10688,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "disposeNativeView(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#disposenativeview-disposenativeview-1",
           "sources": [
             {
@@ -10724,7 +10724,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "initNativeView(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">initNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#initnativeview-initnativeview-1",
           "sources": [
             {
@@ -10760,7 +10760,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_setupUI(context: any, atIndex?: number, parentIsLoaded?: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupUI</span><span style=\"color: #E1E4E8\">(context: any, atIndex</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number, parentIsLoaded</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#setupui-setupui-1",
           "sources": [
             {
@@ -10816,7 +10816,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setNativeView(value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNativeView</span><span style=\"color: #E1E4E8\">(value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#setnativeview-setnativeview-1",
           "sources": [
             {
@@ -10858,7 +10858,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "destroyNode(forceDestroyChildren?: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">destroyNode</span><span style=\"color: #E1E4E8\">(forceDestroyChildren</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#destroynode-destroynode-1",
           "sources": [
             {
@@ -10921,7 +10921,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_tearDownUI(force?: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_tearDownUI</span><span style=\"color: #E1E4E8\">(force</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#teardownui-teardownui-1",
           "sources": [
             {
@@ -10965,7 +10965,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_childIndexToNativeChildIndex(index?: number): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_childIndexToNativeChildIndex</span><span style=\"color: #E1E4E8\">(index</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
           "url": "/api/class/PageBase#childindextonativechildindex-childindextonativechildindex-1",
           "sources": [
             {
@@ -11092,7 +11092,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_applyXmlAttribute(attribute: string, value: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_applyXmlAttribute</span><span style=\"color: #E1E4E8\">(attribute: string, value: string): boolean</span></span></code>",
           "url": "/api/class/PageBase#applyxmlattribute-applyxmlattribute-1",
           "sources": [
             {
@@ -11145,7 +11145,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setInlineStyle(style: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInlineStyle</span><span style=\"color: #E1E4E8\">(style: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#setinlinestyle-setinlinestyle-1",
           "sources": [
             {
@@ -11213,7 +11213,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "onResumeNativeUpdates(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onResumeNativeUpdates</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onresumenativeupdates-onresumenativeupdates-1",
           "sources": [
             {
@@ -11241,7 +11241,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/PageBase#tostring-tostring-1",
           "sources": [
             {
@@ -11269,7 +11269,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_inheritStyleScope(styleScope: StyleScope): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_inheritStyleScope</span><span style=\"color: #E1E4E8\">(styleScope: StyleScope): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#inheritstylescope-inheritstylescope-1",
           "sources": [
             {
@@ -11303,7 +11303,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_dialogClosed(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_dialogClosed</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#dialogclosed-dialogclosed-1",
           "sources": [
             {
@@ -11339,7 +11339,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_onRootViewReset(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_onRootViewReset</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#onrootviewreset-onrootviewreset-1",
           "sources": [
             {
@@ -11375,7 +11375,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "get(name: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
           "url": "/api/class/PageBase#get-get-1",
           "sources": [
             {
@@ -11417,7 +11417,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setProperty(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#setproperty-setproperty-1",
           "sources": [
             {
@@ -11550,7 +11550,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notify&lt;T&gt;(data: T): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
           "url": "/api/class/PageBase#notify-notify-1",
           "sources": [
             {
@@ -11600,7 +11600,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyPropertyChange(name: string, value: any, oldValue?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#notifypropertychange-notifypropertychange-1",
           "sources": [
             {
@@ -11654,7 +11654,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasListeners(eventName: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
           "url": "/api/class/PageBase#haslisteners-haslisteners-1",
           "sources": [
             {
@@ -11758,7 +11758,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_emit(eventNames: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/PageBase#emit-emit-1",
           "sources": [
             {

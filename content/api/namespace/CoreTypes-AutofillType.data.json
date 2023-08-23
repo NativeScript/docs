@@ -24,7 +24,7 @@
       },
       "signatures": [
         {
-          "code": "username: \"username\" = \"username\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">username</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;username&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;username&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -45,7 +45,7 @@
       },
       "signatures": [
         {
-          "code": "password: \"password\" = \"password\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">password</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;password&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;password&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -66,7 +66,7 @@
       },
       "signatures": [
         {
-          "code": "newUsername: \"newUsername\" = \"newUsername\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">newUsername</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;newUsername&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;newUsername&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -87,7 +87,7 @@
       },
       "signatures": [
         {
-          "code": "newPassword: \"newPassword\" = \"newPassword\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">newPassword</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;newPassword&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;newPassword&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -108,7 +108,7 @@
       },
       "signatures": [
         {
-          "code": "oneTimeCode: \"oneTimeCode\" = \"oneTimeCode\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">oneTimeCode</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;oneTimeCode&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;oneTimeCode&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -129,7 +129,7 @@
       },
       "signatures": [
         {
-          "code": "none: \"none\" = \"none\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

@@ -43,7 +43,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "exports: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exports</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/component-builder/index.d.ts",

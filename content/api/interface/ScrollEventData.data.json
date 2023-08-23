@@ -32,7 +32,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "scrollX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scrollX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
@@ -51,7 +51,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "scrollY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scrollY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
@@ -84,7 +84,7 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",

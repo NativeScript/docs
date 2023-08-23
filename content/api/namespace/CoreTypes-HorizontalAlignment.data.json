@@ -29,7 +29,7 @@
       },
       "signatures": [
         {
-          "code": "left: \"left\" = \"left\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">left</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -50,7 +50,7 @@
       },
       "signatures": [
         {
-          "code": "center: \"center\" = \"center\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">center</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -71,7 +71,7 @@
       },
       "signatures": [
         {
-          "code": "right: \"right\" = \"right\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">right</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -92,7 +92,7 @@
       },
       "signatures": [
         {
-          "code": "stretch: \"stretch\" = \"stretch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stretch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

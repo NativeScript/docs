@@ -2,7 +2,7 @@
 title: KeyframeDeclaration
 category: Interfaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Interfaces'
@@ -25,10 +25,10 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface KeyframeDeclaration {
-  property: string;
-  value: any;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">KeyframeDeclaration</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">property</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">value</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 ## <Heading ignore>Summary</Heading>
 

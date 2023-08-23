@@ -26,7 +26,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getConnectionType(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getConnectionType</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/namespace/Connectivity#getconnectiontype-getconnectiontype-1",
           "sources": [
             {
@@ -56,7 +56,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "startMonitoring(\n  connectionTypeChangedCallback: (newConnectionType: number) => void\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">startMonitoring</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  connectionTypeChangedCallback: (</span><span style=\"color: #FFAB70\">newConnectionType</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">number</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Connectivity#startmonitoring-startmonitoring-1",
           "sources": [
             {
@@ -100,7 +100,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "stopMonitoring(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stopMonitoring</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Connectivity#stopmonitoring-stopmonitoring-1",
           "sources": [
             {
@@ -137,7 +137,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "connectionType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">connectionType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/connectivity/index.d.ts",

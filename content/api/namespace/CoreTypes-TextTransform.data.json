@@ -22,7 +22,7 @@
       },
       "signatures": [
         {
-          "code": "none: \"none\" = \"none\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -43,7 +43,7 @@
       },
       "signatures": [
         {
-          "code": "capitalize: \"capitalize\" = \"capitalize\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">capitalize</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;capitalize&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;capitalize&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -64,7 +64,7 @@
       },
       "signatures": [
         {
-          "code": "uppercase: \"uppercase\" = \"uppercase\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">uppercase</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;uppercase&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;uppercase&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -85,7 +85,7 @@
       },
       "signatures": [
         {
-          "code": "lowercase: \"lowercase\" = \"lowercase\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lowercase</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;lowercase&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;lowercase&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

@@ -20,7 +20,7 @@
       },
       "signatures": [
         {
-          "code": "normal: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normal</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -41,7 +41,7 @@
       },
       "signatures": [
         {
-          "code": "italic: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">italic</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

@@ -18,7 +18,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UTF8: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF8</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -37,7 +37,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GBK: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">GBK</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",

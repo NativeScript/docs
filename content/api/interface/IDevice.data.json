@@ -39,7 +39,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "manufacturer: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">manufacturer</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -74,7 +74,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "model: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">model</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -109,7 +109,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "os: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">os</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -144,7 +144,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "osVersion: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">osVersion</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -179,7 +179,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "sdkVersion: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sdkVersion</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -214,7 +214,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "deviceType: \"Phone\" | \"Tablet\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deviceType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Phone&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Tablet&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -249,7 +249,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "uuid: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">uuid</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -284,7 +284,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "language: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">language</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -319,7 +319,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "region: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">region</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",

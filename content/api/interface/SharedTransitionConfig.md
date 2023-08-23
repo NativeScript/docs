@@ -2,7 +2,7 @@
 title: SharedTransitionConfig
 category: Interfaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Interfaces'
@@ -25,16 +25,16 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface SharedTransitionConfig {
-  interactive: {};
-  pageEnd: SharedTransitionPageWithDurationProperties;
-  pageReturn: SharedRect & {
-  opacity?: number
-} & {
-  sharedTransitionTags?: {}
-} & {} & {};
-  pageStart: SharedTransitionPageProperties;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">SharedTransitionConfig</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">interactive</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> {};</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">pageEnd</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">SharedTransitionPageWithDurationProperties</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">pageReturn</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">SharedRect</span><span style="color: #E1E4E8"> </span><span style="color: #F97583">&amp;</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">opacity</span><span style="color: #F97583">?:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">number</span></span>
+<span class="line"><span style="color: #E1E4E8">} </span><span style="color: #F97583">&amp;</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">sharedTransitionTags</span><span style="color: #F97583">?:</span><span style="color: #E1E4E8"> {}</span></span>
+<span class="line"><span style="color: #E1E4E8">} </span><span style="color: #F97583">&amp;</span><span style="color: #E1E4E8"> {} </span><span style="color: #F97583">&amp;</span><span style="color: #E1E4E8"> {};</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">pageStart</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">SharedTransitionPageProperties</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 ## <Heading ignore>Summary</Heading>
 

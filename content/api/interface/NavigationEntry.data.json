@@ -48,7 +48,7 @@
       },
       "signatures": [
         {
-          "code": "context?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">context</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -85,7 +85,7 @@
       },
       "signatures": [
         {
-          "code": "bindingContext?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">bindingContext</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -122,7 +122,7 @@
       },
       "signatures": [
         {
-          "code": "animated?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animated</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -270,7 +270,7 @@
       },
       "signatures": [
         {
-          "code": "backstackVisible?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">backstackVisible</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -307,7 +307,7 @@
       },
       "signatures": [
         {
-          "code": "clearHistory?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">clearHistory</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -350,7 +350,7 @@
       },
       "signatures": [
         {
-          "code": "moduleName?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">moduleName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",

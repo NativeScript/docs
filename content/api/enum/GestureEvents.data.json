@@ -27,7 +27,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "gestureAttached: \"gestureAttached\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">gestureAttached</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;gestureAttached&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -62,7 +62,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "touchDown: \"touchDown\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touchDown</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;touchDown&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -97,7 +97,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "touchUp: \"touchUp\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touchUp</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;touchUp&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

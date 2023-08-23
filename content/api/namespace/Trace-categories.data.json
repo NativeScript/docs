@@ -40,7 +40,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "concat(...args: any): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">concat</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any): string</span></span></code>",
           "url": "/api/namespace/Trace-categories#concat-concat-1",
           "sources": [
             {
@@ -71,7 +71,7 @@
       },
       "signatures": [
         {
-          "code": "VisualTreeEvents: \"VisualTreeEvents\" = 'VisualTreeEvents'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">VisualTreeEvents</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;VisualTreeEvents&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;VisualTreeEvents&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -92,7 +92,7 @@
       },
       "signatures": [
         {
-          "code": "Layout: \"Layout\" = 'Layout'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Layout</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Layout&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Layout&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -113,7 +113,7 @@
       },
       "signatures": [
         {
-          "code": "Style: \"Style\" = 'Style'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Style</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Style&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Style&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -134,7 +134,7 @@
       },
       "signatures": [
         {
-          "code": "ViewHierarchy: \"ViewHierarchy\" = 'ViewHierarchy'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ViewHierarchy</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;ViewHierarchy&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;ViewHierarchy&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -155,7 +155,7 @@
       },
       "signatures": [
         {
-          "code": "NativeLifecycle: \"NativeLifecycle\" = 'NativeLifecycle'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NativeLifecycle</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;NativeLifecycle&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;NativeLifecycle&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -176,7 +176,7 @@
       },
       "signatures": [
         {
-          "code": "Debug: \"Debug\" = 'Debug'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Debug</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Debug&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Debug&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -197,7 +197,7 @@
       },
       "signatures": [
         {
-          "code": "Navigation: \"Navigation\" = 'Navigation'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Navigation</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Navigation&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Navigation&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -218,7 +218,7 @@
       },
       "signatures": [
         {
-          "code": "Test: \"Test\" = 'Test'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Test</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Test&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Test&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -239,7 +239,7 @@
       },
       "signatures": [
         {
-          "code": "Binding: \"Binding\" = 'Binding'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Binding</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Binding&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Binding&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -260,7 +260,7 @@
       },
       "signatures": [
         {
-          "code": "BindingError: \"BindingError\" = 'BindingError'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BindingError</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;BindingError&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;BindingError&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -281,7 +281,7 @@
       },
       "signatures": [
         {
-          "code": "Error: \"Error\" = 'Error'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Error</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Error&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Error&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -302,7 +302,7 @@
       },
       "signatures": [
         {
-          "code": "Animation: \"Animation\" = 'Animation'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Animation</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Animation&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Animation&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -323,7 +323,7 @@
       },
       "signatures": [
         {
-          "code": "Transition: \"Transition\" = 'Transition'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Transition</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Transition&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Transition&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -344,7 +344,7 @@
       },
       "signatures": [
         {
-          "code": "Livesync: \"Livesync\" = 'Livesync'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Livesync</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Livesync&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Livesync&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -365,7 +365,7 @@
       },
       "signatures": [
         {
-          "code": "ModuleNameResolver: \"ModuleNameResolver\" = 'ModuleNameResolver'",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ModuleNameResolver</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;ModuleNameResolver&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;ModuleNameResolver&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -386,7 +386,7 @@
       },
       "signatures": [
         {
-          "code": "separator: \",\" = ','",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">separator</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;,&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;,&#39;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -407,7 +407,7 @@
       },
       "signatures": [
         {
-          "code": "All: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">All</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",

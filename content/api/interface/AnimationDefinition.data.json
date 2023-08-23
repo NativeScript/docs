@@ -81,7 +81,7 @@
       },
       "signatures": [
         {
-          "code": "opacity?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">opacity</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -155,7 +155,7 @@
       },
       "signatures": [
         {
-          "code": "translate?: Pair",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">translate</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Pair</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -192,7 +192,7 @@
       },
       "signatures": [
         {
-          "code": "scale?: Pair",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">scale</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Pair</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -303,7 +303,7 @@
       },
       "signatures": [
         {
-          "code": "rotate?: number | Point3D",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">rotate</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> Point3D</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -340,7 +340,7 @@
       },
       "signatures": [
         {
-          "code": "duration?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">duration</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -377,7 +377,7 @@
       },
       "signatures": [
         {
-          "code": "delay?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -414,7 +414,7 @@
       },
       "signatures": [
         {
-          "code": "iterations?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">iterations</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -451,7 +451,7 @@
       },
       "signatures": [
         {
-          "code": "curve?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",

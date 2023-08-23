@@ -699,7 +699,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "height: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">height</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -734,7 +734,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "width: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">width</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -769,7 +769,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "rotationAngle: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotationAngle</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -804,7 +804,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -839,7 +839,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -917,7 +917,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromResource(name: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromResource</span><span style=\"color: #E1E4E8\">(name: string): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfromresource-loadfromresource-1",
           "sources": [
             {
@@ -967,7 +967,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromResource(name: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromResource</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#fromresource-fromresource-1",
           "sources": [
             {
@@ -1017,7 +1017,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromFile(path: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromFile</span><span style=\"color: #E1E4E8\">(path: string): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfromfile-loadfromfile-1",
           "sources": [
             {
@@ -1067,7 +1067,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromFile(path: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromFile</span><span style=\"color: #E1E4E8\">(path: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#fromfile-fromfile-1",
           "sources": [
             {
@@ -1117,7 +1117,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromData(data: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromData</span><span style=\"color: #E1E4E8\">(data: any): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfromdata-loadfromdata-1",
           "sources": [
             {
@@ -1167,7 +1167,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromData(data: any): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromData</span><span style=\"color: #E1E4E8\">(data: any): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#fromdata-fromdata-1",
           "sources": [
             {
@@ -1217,7 +1217,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromBase64(source: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromBase64</span><span style=\"color: #E1E4E8\">(source: string): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfrombase64-loadfrombase64-1",
           "sources": [
             {
@@ -1267,7 +1267,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromBase64(source: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromBase64</span><span style=\"color: #E1E4E8\">(source: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#frombase64-frombase64-1",
           "sources": [
             {
@@ -1393,7 +1393,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setNativeSource(nativeSource: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNativeSource</span><span style=\"color: #E1E4E8\">(nativeSource: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageSource#setnativesource-setnativesource-1",
           "sources": [
             {
@@ -1437,7 +1437,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "saveToFile(\n  path: string,\n  format: \"png\" | \"jpeg\" | \"jpg\",\n  quality?: number\n): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">saveToFile</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  path: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): boolean</span></span></code>",
           "url": "/api/class/ImageSource#savetofile-savetofile-1",
           "sources": [
             {
@@ -1509,7 +1509,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "saveToFileAsync(path: string, format: \"png\" | \"jpeg\" | \"jpg\", quality?: number): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">saveToFileAsync</span><span style=\"color: #E1E4E8\">(path: string, format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">, quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#savetofileasync-savetofileasync-1",
           "sources": [
             {
@@ -1581,7 +1581,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toBase64String(format: \"png\" | \"jpeg\" | \"jpg\", quality?: number): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toBase64String</span><span style=\"color: #E1E4E8\">(format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">, quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): string</span></span></code>",
           "url": "/api/class/ImageSource#tobase64string-tobase64string-1",
           "sources": [
             {
@@ -1640,7 +1640,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toBase64StringAsync(format: \"png\" | \"jpeg\" | \"jpg\", quality?: number): Promise&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toBase64StringAsync</span><span style=\"color: #E1E4E8\">(format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">, quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#tobase64stringasync-tobase64stringasync-1",
           "sources": [
             {

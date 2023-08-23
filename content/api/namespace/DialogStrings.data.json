@@ -25,7 +25,7 @@
       },
       "signatures": [
         {
-          "code": "STRING: \"string\" = \"string\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">STRING</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;string&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;string&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
@@ -46,7 +46,7 @@
       },
       "signatures": [
         {
-          "code": "PROMPT: \"Prompt\" = \"Prompt\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PROMPT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Prompt&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Prompt&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
@@ -67,7 +67,7 @@
       },
       "signatures": [
         {
-          "code": "CONFIRM: \"Confirm\" = \"Confirm\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CONFIRM</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Confirm&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Confirm&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
@@ -88,7 +88,7 @@
       },
       "signatures": [
         {
-          "code": "ALERT: \"Alert\" = \"Alert\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ALERT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Alert&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Alert&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
@@ -109,7 +109,7 @@
       },
       "signatures": [
         {
-          "code": "LOGIN: \"Login\" = \"Login\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LOGIN</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Login&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Login&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
@@ -130,7 +130,7 @@
       },
       "signatures": [
         {
-          "code": "OK: \"OK\" = \"OK\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">OK</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;OK&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;OK&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
@@ -151,7 +151,7 @@
       },
       "signatures": [
         {
-          "code": "CANCEL: \"Cancel\" = \"Cancel\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CANCEL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Cancel&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Cancel&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",

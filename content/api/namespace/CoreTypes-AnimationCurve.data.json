@@ -29,7 +29,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "cubicBezier(\n  x1: number,\n  y1: number,\n  x2: number,\n  y2: number\n): animationModule.CubicBezierAnimationCurve",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cubicBezier</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  x1: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  y1: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  x2: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  y2: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): animationModule.CubicBezierAnimationCurve</span></span></code>",
           "url": "/api/namespace/CoreTypes-AnimationCurve#cubicbezier-cubicbezier-1",
           "sources": [
             {
@@ -73,7 +73,7 @@
       },
       "signatures": [
         {
-          "code": "ease: \"ease\" = \"ease\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ease</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;ease&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;ease&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -94,7 +94,7 @@
       },
       "signatures": [
         {
-          "code": "easeIn: \"easeIn\" = \"easeIn\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">easeIn</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;easeIn&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;easeIn&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -115,7 +115,7 @@
       },
       "signatures": [
         {
-          "code": "easeOut: \"easeOut\" = \"easeOut\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">easeOut</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;easeOut&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;easeOut&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -136,7 +136,7 @@
       },
       "signatures": [
         {
-          "code": "easeInOut: \"easeInOut\" = \"easeInOut\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">easeInOut</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;easeInOut&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;easeInOut&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -157,7 +157,7 @@
       },
       "signatures": [
         {
-          "code": "linear: \"linear\" = \"linear\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">linear</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;linear&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;linear&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -178,7 +178,7 @@
       },
       "signatures": [
         {
-          "code": "spring: \"spring\" = \"spring\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">spring</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;spring&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;spring&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

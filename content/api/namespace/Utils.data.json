@@ -104,7 +104,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "GC(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">GC</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/namespace/Utils#gc-gc-1",
           "sources": [
             {
@@ -134,7 +134,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "queueGC(delay?: number, useThrottle?: boolean): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">queueGC</span><span style=\"color: #E1E4E8\">(delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number, useThrottle</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): any</span></span></code>",
           "url": "/api/namespace/Utils#queuegc-queuegc-1",
           "sources": [
             {
@@ -195,7 +195,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "throttle(fn: any, delay?: number): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">throttle</span><span style=\"color: #E1E4E8\">(fn: any, delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): any</span></span></code>",
           "url": "/api/namespace/Utils#throttle-throttle-1",
           "sources": [
             {
@@ -254,7 +254,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "debounce(fn: any, delay?: number): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">debounce</span><span style=\"color: #E1E4E8\">(fn: any, delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): any</span></span></code>",
           "url": "/api/namespace/Utils#debounce-debounce-1",
           "sources": [
             {
@@ -313,7 +313,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "releaseNativeObject(object: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">releaseNativeObject</span><span style=\"color: #E1E4E8\">(object: any): any</span></span></code>",
           "url": "/api/namespace/Utils#releasenativeobject-releasenativeobject-1",
           "sources": [
             {
@@ -357,7 +357,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "queueMacrotask(task: () => void): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">queueMacrotask</span><span style=\"color: #E1E4E8\">(task: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#queuemacrotask-queuemacrotask-1",
           "sources": [
             {
@@ -401,7 +401,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "executeOnMainThread(func: Function): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">executeOnMainThread</span><span style=\"color: #E1E4E8\">(func: Function): any</span></span></code>",
           "url": "/api/namespace/Utils#executeonmainthread-executeonmainthread-1",
           "sources": [
             {
@@ -445,7 +445,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "executeOnUIThread(func: Function): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">executeOnUIThread</span><span style=\"color: #E1E4E8\">(func: Function): any</span></span></code>",
           "url": "/api/namespace/Utils#executeonuithread-executeonuithread-1",
           "sources": [
             {
@@ -489,7 +489,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "mainThreadify(func: Function): (...args: any[]) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">mainThreadify</span><span style=\"color: #E1E4E8\">(func: Function)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #F97583\">...</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">[]) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#mainthreadify-mainthreadify-1",
           "sources": [
             {
@@ -544,7 +544,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isFontIconURI(uri: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isFontIconURI</span><span style=\"color: #E1E4E8\">(uri: string): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isfonticonuri-isfonticonuri-1",
           "sources": [
             {
@@ -588,7 +588,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isFileOrResourcePath(path: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isFileOrResourcePath</span><span style=\"color: #E1E4E8\">(path: string): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isfileorresourcepath-isfileorresourcepath-1",
           "sources": [
             {
@@ -632,7 +632,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getFileExtension(path: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getFileExtension</span><span style=\"color: #E1E4E8\">(path: string): string</span></span></code>",
           "url": "/api/namespace/Utils#getfileextension-getfileextension-1",
           "sources": [
             {
@@ -687,7 +687,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isDataURI(uri: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isDataURI</span><span style=\"color: #E1E4E8\">(uri: string): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isdatauri-isdatauri-1",
           "sources": [
             {
@@ -731,7 +731,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "openUrl(url: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">openUrl</span><span style=\"color: #E1E4E8\">(url: string): boolean</span></span></code>",
           "url": "/api/namespace/Utils#openurl-openurl-1",
           "sources": [
             {
@@ -775,7 +775,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "openFile(filePath: string, title?: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">openFile</span><span style=\"color: #E1E4E8\">(filePath: string, title</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): boolean</span></span></code>",
           "url": "/api/namespace/Utils#openfile-openfile-1",
           "sources": [
             {
@@ -834,7 +834,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "escapeRegexSymbols(source: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">escapeRegexSymbols</span><span style=\"color: #E1E4E8\">(source: string): string</span></span></code>",
           "url": "/api/namespace/Utils#escaperegexsymbols-escaperegexsymbols-1",
           "sources": [
             {
@@ -878,7 +878,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "convertString(value: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">convertString</span><span style=\"color: #E1E4E8\">(value: any): any</span></span></code>",
           "url": "/api/namespace/Utils#convertstring-convertstring-1",
           "sources": [
             {
@@ -922,7 +922,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getModuleName(path: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getModuleName</span><span style=\"color: #E1E4E8\">(path: string): string</span></span></code>",
           "url": "/api/namespace/Utils#getmodulename-getmodulename-1",
           "sources": [
             {
@@ -966,7 +966,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "mergeSort(arr: any[], compareFunc: (a: any, b: any) => number): any[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">mergeSort</span><span style=\"color: #E1E4E8\">(arr: any[], compareFunc: (</span><span style=\"color: #FFAB70\">a</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">b</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> number): any[]</span></span></code>",
           "url": "/api/namespace/Utils#mergesort-mergesort-1",
           "sources": [
             {
@@ -1023,7 +1023,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasDuplicates(arr: any[]): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasDuplicates</span><span style=\"color: #E1E4E8\">(arr: any[]): boolean</span></span></code>",
           "url": "/api/namespace/Utils#hasduplicates-hasduplicates-1",
           "sources": [
             {
@@ -1067,7 +1067,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "eliminateDuplicates(arr: any[]): any[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eliminateDuplicates</span><span style=\"color: #E1E4E8\">(arr: any[]): any[]</span></span></code>",
           "url": "/api/namespace/Utils#eliminateduplicates-eliminateduplicates-1",
           "sources": [
             {
@@ -1111,7 +1111,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isRealDevice(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isRealDevice</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isrealdevice-isrealdevice-1",
           "sources": [
             {
@@ -1141,7 +1141,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "dismissSoftInput(nativeView?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dismissSoftInput</span><span style=\"color: #E1E4E8\">(nativeView</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#dismisssoftinput-dismisssoftinput-1",
           "sources": [
             {
@@ -1179,7 +1179,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "dismissKeyboard(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dismissKeyboard</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#dismisskeyboard-dismisskeyboard-1",
           "sources": [
             {
@@ -1209,7 +1209,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "copyToClipboard(value: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">copyToClipboard</span><span style=\"color: #E1E4E8\">(value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#copytoclipboard-copytoclipboard-1",
           "sources": [
             {
@@ -1245,7 +1245,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "clearInterval(id: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearInterval</span><span style=\"color: #E1E4E8\">(id: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#clearinterval-clearinterval-1",
           "sources": [
             {
@@ -1289,7 +1289,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "clearTimeout(id: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearTimeout</span><span style=\"color: #E1E4E8\">(id: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#cleartimeout-cleartimeout-1",
           "sources": [
             {
@@ -1333,7 +1333,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setInterval(callback: Function, milliseconds?: number, ...args: any[]): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInterval</span><span style=\"color: #E1E4E8\">(callback: Function, milliseconds</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number, </span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any[]): number</span></span></code>",
           "url": "/api/namespace/Utils#setinterval-setinterval-1",
           "sources": [
             {
@@ -1407,7 +1407,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setTimeout(callback: Function, milliseconds?: number, ...args: any[]): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setTimeout</span><span style=\"color: #E1E4E8\">(callback: Function, milliseconds</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number, </span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any[]): number</span></span></code>",
           "url": "/api/namespace/Utils#settimeout-settimeout-1",
           "sources": [
             {
@@ -1482,7 +1482,7 @@
       },
       "signatures": [
         {
-          "code": "RESOURCE_PREFIX: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">RESOURCE_PREFIX</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/index.d.ts",
@@ -1503,7 +1503,7 @@
       },
       "signatures": [
         {
-          "code": "FILE_PREFIX: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">FILE_PREFIX</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/index.d.ts",
@@ -1523,7 +1523,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "sanitizeModuleName(moduleName: string, removeExtension?: boolean): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sanitizeModuleName</span><span style=\"color: #E1E4E8\">(moduleName: string, removeExtension</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): string</span></span></code>",
           "url": "/api/namespace/Utils#sanitizemodulename-sanitizemodulename-1",
           "sources": [
             {
@@ -1582,7 +1582,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "merge(left: any, right: any, compareFunc: any): any[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">merge</span><span style=\"color: #E1E4E8\">(left: any, right: any, compareFunc: any): any[]</span></span></code>",
           "url": "/api/namespace/Utils#merge-merge-1",
           "sources": [
             {
@@ -1620,7 +1620,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isEmoji(value: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isEmoji</span><span style=\"color: #E1E4E8\">(value: string): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isemoji-isemoji-1",
           "sources": [
             {
@@ -1648,7 +1648,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getDurationWithDampingFromSpring(springSettings?: {\n  friction?: number\n  mass?: number\n  tension?: number\n}): {\n  damping: number\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDurationWithDampingFromSpring</span><span style=\"color: #E1E4E8\">(springSettings</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  friction?: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  mass</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  tension</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}): {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  damping: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "url": "/api/namespace/Utils#getdurationwithdampingfromspring-getdurationwithdampingfromspring-1",
           "sources": [
             {
@@ -1714,7 +1714,7 @@
       },
       "signatures": [
         {
-          "code": "CORE_ANIMATION_DEFAULTS: {\n  duration: number\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CORE_ANIMATION_DEFAULTS</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">duration</span><span style=\"color: #E1E4E8\">: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/common.d.ts",
@@ -1742,7 +1742,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "dispatchToMainThread(func: Function): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dispatchToMainThread</span><span style=\"color: #E1E4E8\">(func: Function): any</span></span></code>",
           "url": "/api/namespace/Utils#dispatchtomainthread-dispatchtomainthread-1",
           "sources": [
             {
@@ -1786,7 +1786,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isMainThread(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isMainThread</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/namespace/Utils#ismainthread-ismainthread-1",
           "sources": [
             {
@@ -1822,7 +1822,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "dispatchToUIThread(func: Function): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dispatchToUIThread</span><span style=\"color: #E1E4E8\">(func: Function): any</span></span></code>",
           "url": "/api/namespace/Utils#dispatchtouithread-dispatchtouithread-1",
           "sources": [
             {
@@ -1867,7 +1867,7 @@
       },
       "signatures": [
         {
-          "code": "SDK_VERSION: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">SDK_VERSION</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/constants.d.ts",
@@ -1894,7 +1894,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "debug: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">debug</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/debug.d.ts",
@@ -1929,7 +1929,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Source",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Source</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/debug.d.ts",
@@ -1964,7 +1964,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ScopeError",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ScopeError</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/debug.d.ts",
@@ -1999,7 +1999,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SourceError",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SourceError</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/debug.d.ts",
@@ -2034,7 +2034,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "layout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">layout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
@@ -2062,7 +2062,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "dataSerialize(data?: any, wrapPrimitives?: boolean): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dataSerialize</span><span style=\"color: #E1E4E8\">(data</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any, wrapPrimitives</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): any</span></span></code>",
           "url": "/api/namespace/Utils#dataserialize-dataserialize-1",
           "sources": [
             {
@@ -2115,7 +2115,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "dataDeserialize(nativeData?: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dataDeserialize</span><span style=\"color: #E1E4E8\">(nativeData</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): any</span></span></code>",
           "url": "/api/namespace/Utils#datadeserialize-datadeserialize-1",
           "sources": [
             {
@@ -2160,7 +2160,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "android",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/android/index.d.ts",
@@ -2200,7 +2200,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/ios/index.d.ts",
@@ -2241,7 +2241,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isString(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isString</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isstring-isstring-1",
           "sources": [
             {
@@ -2285,7 +2285,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isNumber(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isNumber</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isnumber-isnumber-1",
           "sources": [
             {
@@ -2329,7 +2329,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isBoolean(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isBoolean</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isboolean-isboolean-1",
           "sources": [
             {
@@ -2373,7 +2373,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isFunction(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isFunction</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isfunction-isfunction-1",
           "sources": [
             {
@@ -2417,7 +2417,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isObject(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isObject</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isobject-isobject-1",
           "sources": [
             {
@@ -2461,7 +2461,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isUndefined(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isUndefined</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isundefined-isundefined-1",
           "sources": [
             {
@@ -2505,7 +2505,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isDefined(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isDefined</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isdefined-isdefined-1",
           "sources": [
             {
@@ -2549,7 +2549,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isNullOrUndefined(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isNullOrUndefined</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/Utils#isnullorundefined-isnullorundefined-1",
           "sources": [
             {
@@ -2593,7 +2593,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "verifyCallback(value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">verifyCallback</span><span style=\"color: #E1E4E8\">(value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils#verifycallback-verifycallback-1",
           "sources": [
             {
@@ -2637,7 +2637,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "numberHasDecimals(value: number): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">numberHasDecimals</span><span style=\"color: #E1E4E8\">(value: number): boolean</span></span></code>",
           "url": "/api/namespace/Utils#numberhasdecimals-numberhasdecimals-1",
           "sources": [
             {
@@ -2681,7 +2681,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "numberIs64Bit(value: number): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">numberIs64Bit</span><span style=\"color: #E1E4E8\">(value: number): boolean</span></span></code>",
           "url": "/api/namespace/Utils#numberis64bit-numberis64bit-1",
           "sources": [
             {
@@ -2725,7 +2725,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getClass(object: any): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getClass</span><span style=\"color: #E1E4E8\">(object: any): string</span></span></code>",
           "url": "/api/namespace/Utils#getclass-getclass-1",
           "sources": [
             {
@@ -2769,7 +2769,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getBaseClasses(object: any): string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getBaseClasses</span><span style=\"color: #E1E4E8\">(object: any): string[]</span></span></code>",
           "url": "/api/namespace/Utils#getbaseclasses-getbaseclasses-1",
           "sources": [
             {
@@ -2857,7 +2857,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toUIString(object: any): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toUIString</span><span style=\"color: #E1E4E8\">(object: any): string</span></span></code>",
           "url": "/api/namespace/Utils#touistring-touistring-1",
           "sources": [
             {
@@ -2908,7 +2908,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ClassInfo",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ClassInfo</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/types.d.ts",

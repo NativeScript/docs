@@ -20,7 +20,7 @@
       },
       "signatures": [
         {
-          "code": "horizontal: \"horizontal\" = \"horizontal\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">horizontal</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;horizontal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;horizontal&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -41,7 +41,7 @@
       },
       "signatures": [
         {
-          "code": "vertical: \"vertical\" = \"vertical\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">vertical</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;vertical&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;vertical&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

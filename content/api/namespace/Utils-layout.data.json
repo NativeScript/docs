@@ -39,7 +39,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getMode(mode: number): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMode</span><span style=\"color: #E1E4E8\">(mode: number): string</span></span></code>",
           "url": "/api/namespace/Utils-layout#getmode-getmode-1",
           "sources": [
             {
@@ -83,7 +83,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getMeasureSpecMode(spec: number): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMeasureSpecMode</span><span style=\"color: #E1E4E8\">(spec: number): number</span></span></code>",
           "url": "/api/namespace/Utils-layout#getmeasurespecmode-getmeasurespecmode-1",
           "sources": [
             {
@@ -127,7 +127,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getMeasureSpecSize(spec: number): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMeasureSpecSize</span><span style=\"color: #E1E4E8\">(spec: number): number</span></span></code>",
           "url": "/api/namespace/Utils-layout#getmeasurespecsize-getmeasurespecsize-1",
           "sources": [
             {
@@ -171,7 +171,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "makeMeasureSpec(px: number, mode: number): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">makeMeasureSpec</span><span style=\"color: #E1E4E8\">(px: number, mode: number): number</span></span></code>",
           "url": "/api/namespace/Utils-layout#makemeasurespec-makemeasurespec-1",
           "sources": [
             {
@@ -220,7 +220,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getDisplayDensity(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDisplayDensity</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/namespace/Utils-layout#getdisplaydensity-getdisplaydensity-1",
           "sources": [
             {
@@ -382,7 +382,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "measureNativeView(\n  nativeView: any,\n  width: number,\n  widthMode: number,\n  height: number,\n  heightMode: number\n): {\n  height: number\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">measureNativeView</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  nativeView: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  width: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  widthMode: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  height: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  heightMode: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  height: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "url": "/api/namespace/Utils-layout#measurenativeview-measurenativeview-1",
           "sources": [
             {
@@ -478,7 +478,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "measureSpecToString(measureSpec: number): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">measureSpecToString</span><span style=\"color: #E1E4E8\">(measureSpec: number): string</span></span></code>",
           "url": "/api/namespace/Utils-layout#measurespectostring-measurespectostring-1",
           "sources": [
             {
@@ -531,7 +531,7 @@
       },
       "signatures": [
         {
-          "code": "MEASURED_HEIGHT_STATE_SHIFT: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MEASURED_HEIGHT_STATE_SHIFT</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
@@ -560,7 +560,7 @@
       },
       "signatures": [
         {
-          "code": "MEASURED_SIZE_MASK: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MEASURED_SIZE_MASK</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
@@ -581,7 +581,7 @@
       },
       "signatures": [
         {
-          "code": "MEASURED_STATE_MASK: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MEASURED_STATE_MASK</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
@@ -602,7 +602,7 @@
       },
       "signatures": [
         {
-          "code": "MEASURED_STATE_TOO_SMALL: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MEASURED_STATE_TOO_SMALL</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
@@ -623,7 +623,7 @@
       },
       "signatures": [
         {
-          "code": "UNSPECIFIED: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UNSPECIFIED</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
@@ -644,7 +644,7 @@
       },
       "signatures": [
         {
-          "code": "EXACTLY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EXACTLY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",
@@ -665,7 +665,7 @@
       },
       "signatures": [
         {
-          "code": "AT_MOST: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AT_MOST</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/layout-helper/index.d.ts",

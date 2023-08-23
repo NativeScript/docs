@@ -33,7 +33,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "result: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">result</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -68,7 +68,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "userName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">userName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -103,7 +103,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "password: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">password</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

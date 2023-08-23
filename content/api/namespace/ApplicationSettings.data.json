@@ -28,7 +28,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasKey(key: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasKey</span><span style=\"color: #E1E4E8\">(key: string): boolean</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#haskey-haskey-1",
           "sources": [
             {
@@ -72,7 +72,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getBoolean(key: string, defaultValue?: boolean): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getBoolean</span><span style=\"color: #E1E4E8\">(key: string, defaultValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): boolean</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#getboolean-getboolean-1",
           "sources": [
             {
@@ -131,7 +131,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getString(key: string, defaultValue?: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getString</span><span style=\"color: #E1E4E8\">(key: string, defaultValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): string</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#getstring-getstring-1",
           "sources": [
             {
@@ -190,7 +190,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getNumber(key: string, defaultValue?: number): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getNumber</span><span style=\"color: #E1E4E8\">(key: string, defaultValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#getnumber-getnumber-1",
           "sources": [
             {
@@ -249,7 +249,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setBoolean(key: string, value: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setBoolean</span><span style=\"color: #E1E4E8\">(key: string, value: boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#setboolean-setboolean-1",
           "sources": [
             {
@@ -306,7 +306,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setString(key: string, value: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setString</span><span style=\"color: #E1E4E8\">(key: string, value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#setstring-setstring-1",
           "sources": [
             {
@@ -363,7 +363,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setNumber(key: string, value: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNumber</span><span style=\"color: #E1E4E8\">(key: string, value: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#setnumber-setnumber-1",
           "sources": [
             {
@@ -420,7 +420,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "remove(key: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(key: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#remove-remove-1",
           "sources": [
             {
@@ -464,7 +464,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "clear(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clear</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#clear-clear-1",
           "sources": [
             {
@@ -494,7 +494,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "flush(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flush</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#flush-flush-1",
           "sources": [
             {
@@ -535,7 +535,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getAllKeys(): string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getAllKeys</span><span style=\"color: #E1E4E8\">(): string[]</span></span></code>",
           "url": "/api/namespace/ApplicationSettings#getallkeys-getallkeys-1",
           "sources": [
             {

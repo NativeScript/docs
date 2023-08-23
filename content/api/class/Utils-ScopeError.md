@@ -2,7 +2,7 @@
 title: Utils.ScopeError
 category: Classes
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Classes'

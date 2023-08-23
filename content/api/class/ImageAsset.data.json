@@ -79,7 +79,7 @@
       },
       "signatures": [
         {
-          "code": "propertyChangeEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -415,7 +415,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getImageAsync(callback: (image: any, error: any) => void): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getImageAsync</span><span style=\"color: #E1E4E8\">(callback: (</span><span style=\"color: #FFAB70\">image</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">): any</span></span></code>",
           "url": "/api/class/ImageAsset#getimageasync-getimageasync-1",
           "sources": [
             {
@@ -442,7 +442,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -461,7 +461,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "nativeImage: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeImage</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -480,7 +480,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -525,7 +525,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "get(name: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
           "url": "/api/class/ImageAsset#get-get-1",
           "sources": [
             {
@@ -573,7 +573,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "set(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageAsset#set-set-1",
           "sources": [
             {
@@ -626,7 +626,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setProperty(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageAsset#setproperty-setproperty-1",
           "sources": [
             {
@@ -1103,7 +1103,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notify&lt;T&gt;(data: T): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
           "url": "/api/class/ImageAsset#notify-notify-1",
           "sources": [
             {
@@ -1159,7 +1159,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyPropertyChange(name: string, value: any, oldValue?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageAsset#notifypropertychange-notifypropertychange-1",
           "sources": [
             {
@@ -1219,7 +1219,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasListeners(eventName: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
           "url": "/api/class/ImageAsset#haslisteners-haslisteners-1",
           "sources": [
             {
@@ -1335,7 +1335,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_emit(eventNames: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageAsset#emit-emit-1",
           "sources": [
             {

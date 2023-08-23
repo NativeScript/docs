@@ -39,7 +39,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "context: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -66,7 +66,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "closeCallback: (...args: any[]) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">closeCallback</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #F97583\">...</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">[]) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -95,7 +95,7 @@
       },
       "signatures": [
         {
-          "code": "fullscreen?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">fullscreen</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -132,7 +132,7 @@
       },
       "signatures": [
         {
-          "code": "animated?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animated</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -169,7 +169,7 @@
       },
       "signatures": [
         {
-          "code": "stretched?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">stretched</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -206,7 +206,7 @@
       },
       "signatures": [
         {
-          "code": "transition?: ModalTransitionType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">transition</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> ModalTransitionType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -243,7 +243,7 @@
       },
       "signatures": [
         {
-          "code": "ios?: {\n  height?: number\n  presentationStyle?: any\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  height?: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  presentationStyle</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -272,7 +272,7 @@
       },
       "signatures": [
         {
-          "code": "android?: {\n  cancelable?: boolean\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  cancelable?: boolean</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -301,7 +301,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",

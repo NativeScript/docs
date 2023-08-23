@@ -30,7 +30,7 @@
       },
       "signatures": [
         {
-          "code": "none: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -67,7 +67,7 @@
       },
       "signatures": [
         {
-          "code": "all: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">all</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -104,7 +104,7 @@
       },
       "signatures": [
         {
-          "code": "sentences: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sentences</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -141,7 +141,7 @@
       },
       "signatures": [
         {
-          "code": "words: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">words</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

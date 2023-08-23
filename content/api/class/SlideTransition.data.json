@@ -68,7 +68,7 @@
       },
       "signatures": [
         {
-          "code": "AndroidTransitionType?: {\n  enter?: string\n  exit?: string\n  popEnter?: string\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidTransitionType</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  enter?: string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  exit</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  popEnter</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -141,7 +141,7 @@
       },
       "signatures": [
         {
-          "code": "id: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">id</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -182,7 +182,7 @@
       },
       "signatures": [
         {
-          "code": "name?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -223,7 +223,7 @@
       },
       "signatures": [
         {
-          "code": "transitionController?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">transitionController</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -256,7 +256,7 @@
       },
       "signatures": [
         {
-          "code": "interactiveController?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">interactiveController</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -289,7 +289,7 @@
       },
       "signatures": [
         {
-          "code": "presented?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">presented</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -322,7 +322,7 @@
       },
       "signatures": [
         {
-          "code": "presenting?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">presenting</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -355,7 +355,7 @@
       },
       "signatures": [
         {
-          "code": "sharedElements?: {\n  independent?: (SharedElementSettings & {})[]\n  presented?: SharedElementSettings[]\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">sharedElements</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  independent?: (SharedElementSettings </span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\"> {})[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  presented</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> SharedElementSettings[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -387,7 +387,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getDuration(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDuration</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/SlideTransition#getduration-getduration-1",
           "sources": [
             {
@@ -421,7 +421,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setDuration(value: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setDuration</span><span style=\"color: #E1E4E8\">(value: number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SlideTransition#setduration-setduration-1",
           "sources": [
             {
@@ -461,7 +461,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getCurve(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCurve</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/SlideTransition#getcurve-getcurve-1",
           "sources": [
             {
@@ -495,7 +495,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "animateIOSTransition(\n  transitionContext: any,\n  fromViewCtrl: any,\n  toViewCtrl: any,\n  operation: any\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">animateIOSTransition</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  transitionContext: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  fromViewCtrl: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toViewCtrl: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  operation: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/SlideTransition#animateiostransition-animateiostransition-1",
           "sources": [
             {
@@ -550,7 +550,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "createAndroidAnimator(transitionType: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createAndroidAnimator</span><span style=\"color: #E1E4E8\">(transitionType: string): any</span></span></code>",
           "url": "/api/class/SlideTransition#createandroidanimator-createandroidanimator-1",
           "sources": [
             {
@@ -639,7 +639,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "iosDismissedController(dismissed: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosDismissedController</span><span style=\"color: #E1E4E8\">(dismissed: any): any</span></span></code>",
           "url": "/api/class/SlideTransition#iosdismissedcontroller-iosdismissedcontroller-1",
           "sources": [
             {
@@ -681,7 +681,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "iosPresentedController(presented: any, presenting: any, source: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosPresentedController</span><span style=\"color: #E1E4E8\">(presented: any, presenting: any, source: any): any</span></span></code>",
           "url": "/api/class/SlideTransition#iospresentedcontroller-iospresentedcontroller-1",
           "sources": [
             {
@@ -733,7 +733,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "iosInteractionDismiss(animator: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosInteractionDismiss</span><span style=\"color: #E1E4E8\">(animator: any): any</span></span></code>",
           "url": "/api/class/SlideTransition#iosinteractiondismiss-iosinteractiondismiss-1",
           "sources": [
             {
@@ -775,7 +775,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "iosInteractionPresented(animator: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosInteractionPresented</span><span style=\"color: #E1E4E8\">(animator: any): any</span></span></code>",
           "url": "/api/class/SlideTransition#iosinteractionpresented-iosinteractionpresented-1",
           "sources": [
             {
@@ -817,7 +817,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "iosNavigatedController(\n  navigationController: any,\n  operation: number,\n  fromVC: any,\n  toVC: any\n): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosNavigatedController</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  navigationController: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  operation: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  fromVC: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toVC: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): any</span></span></code>",
           "url": "/api/class/SlideTransition#iosnavigatedcontroller-iosnavigatedcontroller-1",
           "sources": [
             {

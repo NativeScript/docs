@@ -175,7 +175,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "uri: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">uri</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/debug.d.ts",
@@ -210,7 +210,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "line: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">line</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/debug.d.ts",
@@ -245,7 +245,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "column: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">column</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/debug.d.ts",

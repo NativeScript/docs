@@ -74,7 +74,7 @@
       },
       "signatures": [
         {
-          "code": "play: (resetOnFinish?: boolean) => AnimationPromise",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">play</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">resetOnFinish</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">boolean</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> AnimationPromise</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -95,7 +95,7 @@
       },
       "signatures": [
         {
-          "code": "cancel: () => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancel</span><span style=\"color: #E1E4E8\">: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -116,7 +116,7 @@
       },
       "signatures": [
         {
-          "code": "isPlaying: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isPlaying</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -138,7 +138,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_resolveAnimationCurve(curve: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_resolveAnimationCurve</span><span style=\"color: #E1E4E8\">(curve: any): any</span></span></code>",
           "url": "/api/class/Animation#resolveanimationcurve-resolveanimationcurve-1",
           "sources": [
             {

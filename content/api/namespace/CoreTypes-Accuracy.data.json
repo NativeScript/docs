@@ -20,7 +20,7 @@
       },
       "signatures": [
         {
-          "code": "any: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">any</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -41,7 +41,7 @@
       },
       "signatures": [
         {
-          "code": "high: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">high</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

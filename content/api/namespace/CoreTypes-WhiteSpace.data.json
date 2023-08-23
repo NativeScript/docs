@@ -20,7 +20,7 @@
       },
       "signatures": [
         {
-          "code": "normal: \"normal\" = \"normal\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normal</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -41,7 +41,7 @@
       },
       "signatures": [
         {
-          "code": "nowrap: \"nowrap\" = \"nowrap\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nowrap</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;nowrap&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;nowrap&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

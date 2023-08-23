@@ -22,7 +22,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityBlurEvent: \"accessibilityBlur\" = Accessibility.accessibilityBlurEvent",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityBlurEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityBlur&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityBlurEvent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/index.d.ts",
@@ -43,7 +43,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityFocusEvent: \"accessibilityFocus\" = Accessibility.accessibilityFocusEvent",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityFocusEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityFocus&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityFocusEvent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/index.d.ts",
@@ -64,7 +64,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityFocusChangedEvent: \"accessibilityFocusChanged\" = Accessibility.accessibilityFocusChangedEvent",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityFocusChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityFocusChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityFocusChangedEvent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/index.d.ts",
@@ -85,7 +85,7 @@
       },
       "signatures": [
         {
-          "code": "accessibilityPerformEscapeEvent: \"accessibilityPerformEscape\" = Accessibility.accessibilityPerformEscapeEvent",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityPerformEscapeEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityPerformEscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityPerformEscapeEvent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/index.d.ts",

@@ -2,7 +2,7 @@
 title: Size
 category: Interfaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Interfaces'
@@ -25,10 +25,10 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface Size {
-  height: number;
-  width: number;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">Size</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">height</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">number</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">width</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">number</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 <APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJUaGUgU2l6ZSBpbnRlcmZhY2UgZGVzY3JpYmVzIGFic3RyYWN0IGRpbWVuc2lvbnMgaW4gdHdvIGRpbWVuc2lvbmFsIHNwYWNlLlxuSXQgaGFzIHR3byBwcm9wZXJ0aWVzIHdpZHRoIGFuZCBoZWlnaHQsIHJlcHJlc2VudGluZyB0aGUgd2lkdGggYW5kIGhlaWdodCB2YWx1ZXMgb2YgdGhlIHNpemUuIn1dfQ==" v-once />
 

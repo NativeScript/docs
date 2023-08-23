@@ -96,7 +96,7 @@
       },
       "signatures": [
         {
-          "code": "name?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -133,7 +133,7 @@
       },
       "signatures": [
         {
-          "code": "duration?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">duration</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -170,7 +170,7 @@
       },
       "signatures": [
         {
-          "code": "delay?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -207,7 +207,7 @@
       },
       "signatures": [
         {
-          "code": "iterations?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">iterations</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -244,7 +244,7 @@
       },
       "signatures": [
         {
-          "code": "curve?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -279,7 +279,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isForwards: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isForwards</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -316,7 +316,7 @@
       },
       "signatures": [
         {
-          "code": "isReverse?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">isReverse</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",

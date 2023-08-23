@@ -73,7 +73,7 @@
       },
       "signatures": [
         {
-          "code": "savedInstanceState?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">savedInstanceState</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -94,7 +94,7 @@
       },
       "signatures": [
         {
-          "code": "android?: Intent",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Intent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -115,7 +115,7 @@
       },
       "signatures": [
         {
-          "code": "ios?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -148,7 +148,7 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",

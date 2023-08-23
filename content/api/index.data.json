@@ -451,7 +451,7 @@
       },
       "signatures": [
         {
-          "code": "ViewCommon",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ViewCommon</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-common.d.ts",
@@ -470,7 +470,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NativeScriptConfig",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NativeScriptConfig</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -489,7 +489,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ApplicationSettings",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ApplicationSettings</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application-settings/index.d.ts",
@@ -508,7 +508,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AccessibilityEvents",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AccessibilityEvents</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/index.d.ts",
@@ -527,7 +527,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AccessibilityLiveRegion",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AccessibilityLiveRegion</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -546,7 +546,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AccessibilityRole",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AccessibilityRole</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -565,7 +565,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AccessibilityState",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AccessibilityState</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -584,7 +584,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AccessibilityTrait",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AccessibilityTrait</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -603,7 +603,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontScaleCategory",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontScaleCategory</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/font-scale.d.ts",
@@ -630,7 +630,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Color",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Color</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -657,7 +657,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Connectivity",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Connectivity</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/connectivity/index.d.ts",
@@ -676,7 +676,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CSSUtils",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CSSUtils</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/css/system-classes.d.ts",
@@ -703,7 +703,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ObservableArray<T>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ObservableArray</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -735,7 +735,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ChangeType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ChangeType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -762,7 +762,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ChangedData<T>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ChangedData</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable-array/index.d.ts",
@@ -821,7 +821,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Observable",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Observable</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -888,7 +888,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "WrappedValue",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">WrappedValue</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -1003,7 +1003,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PropertyChangeData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PropertyChangeData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -1038,7 +1038,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "EventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">EventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -1073,7 +1073,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "VirtualArray<T>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">VirtualArray</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
@@ -1113,7 +1113,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ItemsLoading",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ItemsLoading</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
@@ -1148,7 +1148,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "File",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">File</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1183,7 +1183,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FileSystemEntity",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FileSystemEntity</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1218,7 +1218,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Folder",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Folder</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1253,7 +1253,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "knownFolders",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">knownFolders</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1288,7 +1288,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "path",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">path</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1316,7 +1316,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getFileAccess(): FileSystemAccess",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getFileAccess</span><span style=\"color: #E1E4E8\">(): FileSystemAccess</span></span></code>",
           "url": "/api/index#getfileaccess-getfileaccess-1",
           "sources": [
             {
@@ -1356,7 +1356,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidDirectory",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidDirectory</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1383,7 +1383,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "HttpRequestOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">HttpRequestOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -1418,7 +1418,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "HttpResponse",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">HttpResponse</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -1445,7 +1445,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Headers: {}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Headers</span><span style=\"color: #E1E4E8\">: {}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -1464,7 +1464,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "HttpResponseEncoding",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">HttpResponseEncoding</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -1491,7 +1491,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "HttpContent",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">HttpContent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -1518,7 +1518,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Http",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Http</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -1569,7 +1569,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageAsset",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageAsset</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -1620,7 +1620,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageAssetOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageAssetOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -1647,7 +1647,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageSource",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageSource</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -1674,7 +1674,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ModuleNameResolver",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ModuleNameResolver</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/module-name-resolver/index.d.ts",
@@ -1737,7 +1737,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ModuleListProvider: () => string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ModuleListProvider</span><span style=\"color: #E1E4E8\">: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> string[]</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/module-name-resolver/index.d.ts",
@@ -1764,7 +1764,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PlatformContext",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PlatformContext</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
@@ -1801,7 +1801,7 @@
       },
       "signatures": [
         {
-          "code": "isAndroid: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isAndroid</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -1838,7 +1838,7 @@
       },
       "signatures": [
         {
-          "code": "isIOS: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isIOS</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -1873,7 +1873,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Screen",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Screen</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -1939,7 +1939,7 @@
       },
       "signatures": [
         {
-          "code": "platformNames: {\n  android: string\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">platformNames</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -1958,7 +1958,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "IDevice",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">IDevice</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -1978,7 +1978,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profile(name?: string): MethodDecorator",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profile</span><span style=\"color: #E1E4E8\">(name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): MethodDecorator</span></span></code>",
           "url": "/api/index#profile-profile-1",
           "sources": [
             {
@@ -2016,7 +2016,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "profile&lt;F&gt;(fn: F): F",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">profile</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">F</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">fn</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">F</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">F</span></span></code>",
           "url": "/api/index#profile-profile-2",
           "sources": [
             {
@@ -2052,7 +2052,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "profile&lt;F&gt;(name: string, fn: F): F",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">profile</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">F</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">name</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">fn</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">F</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">F</span></span></code>",
           "url": "/api/index#profile-profile-3",
           "sources": [
             {
@@ -2101,7 +2101,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "profile&lt;T&gt;(target: Object, propertyKey: string | symbol, descriptor: TypedPropertyDescriptor&lt;T&gt;): TypedPropertyDescriptor&lt;T&gt; | void",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">profile</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">target</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">Object</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">propertyKey</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">symbol</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">descriptor</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">TypedPropertyDescriptor</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">gt</span><span style=\"color: #E1E4E8\">;)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">TypedPropertyDescriptor</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">gt</span><span style=\"color: #E1E4E8\">; </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
           "url": "/api/index#profile-profile-4",
           "sources": [
             {
@@ -2139,7 +2139,7 @@
         },
         {
           "type": "CallSignature",
-          "code": "profile(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profile</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/index#profile-profile-5",
           "sources": [
             {
@@ -2219,7 +2219,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingDisable(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingDisable</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/index#profilingdisable-profilingdisable-1",
           "sources": [
             {
@@ -2249,7 +2249,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingTime(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingTime</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/index#profilingtime-profilingtime-1",
           "sources": [
             {
@@ -2279,7 +2279,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingUptime(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingUptime</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/index#profilinguptime-profilinguptime-1",
           "sources": [
             {
@@ -2309,7 +2309,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingStart(name: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingStart</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/index#profilingstart-profilingstart-1",
           "sources": [
             {
@@ -2408,7 +2408,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingIsRunning(name: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingIsRunning</span><span style=\"color: #E1E4E8\">(name: string): boolean</span></span></code>",
           "url": "/api/index#profilingisrunning-profilingisrunning-1",
           "sources": [
             {
@@ -2463,7 +2463,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingDumpProfiles(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingDumpProfiles</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/index#profilingdumpprofiles-profilingdumpprofiles-1",
           "sources": [
             {
@@ -2493,7 +2493,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingResetProfiles(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingResetProfiles</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/index#profilingresetprofiles-profilingresetprofiles-1",
           "sources": [
             {
@@ -2523,7 +2523,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingStartCPU(name: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingStartCPU</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/index#profilingstartcpu-profilingstartcpu-1",
           "sources": [
             {
@@ -2567,7 +2567,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "profilingStopCPU(name: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">profilingStopCPU</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/index#profilingstopcpu-profilingstopcpu-1",
           "sources": [
             {
@@ -2642,7 +2642,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "InstrumentationMode: \"counters\" | \"timeline\" | \"lifecycle\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">InstrumentationMode</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;counters&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;timeline&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;lifecycle&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/profiling/index.d.ts",
@@ -2701,7 +2701,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TimerInfo",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TimerInfo</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/profiling/index.d.ts",
@@ -2736,7 +2736,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "encoding",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">encoding</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -2763,7 +2763,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Utils",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Utils</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/index.d.ts",
@@ -2790,7 +2790,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "XmlParser",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">XmlParser</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -2825,7 +2825,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ParserEventType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ParserEventType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -2860,7 +2860,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ParserEvent",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ParserEvent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -2908,7 +2908,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidApplication",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidApplication</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application.d.ts",
@@ -2927,7 +2927,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "iOSApplication",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">iOSApplication</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application.d.ts",
@@ -2946,7 +2946,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ApplicationCommon",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ApplicationCommon</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -2973,7 +2973,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NativeScriptError",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NativeScriptError</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3008,7 +3008,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ApplicationEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ApplicationEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3043,7 +3043,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LaunchEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">LaunchEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3078,7 +3078,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "OrientationChangedEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">OrientationChangedEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3113,7 +3113,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SystemAppearanceChangedEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SystemAppearanceChangedEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3148,7 +3148,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontScaleChangedEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontScaleChangedEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3183,7 +3183,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UnhandledErrorEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">UnhandledErrorEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3218,7 +3218,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DiscardedErrorEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DiscardedErrorEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3253,7 +3253,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CssChangedEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CssChangedEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3288,7 +3288,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActivityEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActivityEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3323,7 +3323,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActivityBundleEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActivityBundleEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3358,7 +3358,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActivityRequestPermissionsEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActivityRequestPermissionsEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3393,7 +3393,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActivityResultEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActivityResultEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3428,7 +3428,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActivityNewIntentEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActivityNewIntentEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3463,7 +3463,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActivityBackPressedEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActivityBackPressedEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3498,7 +3498,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LoadAppCSSEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">LoadAppCSSEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-interfaces.d.ts",
@@ -3553,7 +3553,7 @@
       },
       "signatures": [
         {
-          "code": "addCss: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addCss</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -3626,7 +3626,7 @@
       },
       "signatures": [
         {
-          "code": "getCssFileName: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCssFileName</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -3699,7 +3699,7 @@
       },
       "signatures": [
         {
-          "code": "getMainEntry: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMainEntry</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -3772,7 +3772,7 @@
       },
       "signatures": [
         {
-          "code": "getNativeApplication: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getNativeApplication</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -3845,7 +3845,7 @@
       },
       "signatures": [
         {
-          "code": "getResources: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getResources</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -3918,7 +3918,7 @@
       },
       "signatures": [
         {
-          "code": "getRootView: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getRootView</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -3991,7 +3991,7 @@
       },
       "signatures": [
         {
-          "code": "hasLaunched: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasLaunched</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4064,7 +4064,7 @@
       },
       "signatures": [
         {
-          "code": "hasListeners: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4137,7 +4137,7 @@
       },
       "signatures": [
         {
-          "code": "loadAppCss: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadAppCss</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4210,7 +4210,7 @@
       },
       "signatures": [
         {
-          "code": "notify: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notify</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4283,7 +4283,7 @@
       },
       "signatures": [
         {
-          "code": "off: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">off</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4356,7 +4356,7 @@
       },
       "signatures": [
         {
-          "code": "on: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">on</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4429,7 +4429,7 @@
       },
       "signatures": [
         {
-          "code": "orientation: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">orientation</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4502,7 +4502,7 @@
       },
       "signatures": [
         {
-          "code": "resetRootView: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetRootView</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4575,7 +4575,7 @@
       },
       "signatures": [
         {
-          "code": "_resetRootView: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_resetRootView</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4648,7 +4648,7 @@
       },
       "signatures": [
         {
-          "code": "run: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">run</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4721,7 +4721,7 @@
       },
       "signatures": [
         {
-          "code": "setAutoSystemAppearanceChanged: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setAutoSystemAppearanceChanged</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4794,7 +4794,7 @@
       },
       "signatures": [
         {
-          "code": "setCssFileName: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setCssFileName</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4867,7 +4867,7 @@
       },
       "signatures": [
         {
-          "code": "setMaxRefreshRate: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setMaxRefreshRate</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -4940,7 +4940,7 @@
       },
       "signatures": [
         {
-          "code": "setResources: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setResources</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5013,7 +5013,7 @@
       },
       "signatures": [
         {
-          "code": "systemAppearance: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">systemAppearance</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5086,7 +5086,7 @@
       },
       "signatures": [
         {
-          "code": "systemAppearanceChanged: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">systemAppearanceChanged</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5159,7 +5159,7 @@
       },
       "signatures": [
         {
-          "code": "discardedErrorEvent: \"discardedError\" = \"discardedError\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">discardedErrorEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;discardedError&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;discardedError&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5232,7 +5232,7 @@
       },
       "signatures": [
         {
-          "code": "uncaughtErrorEvent: \"uncaughtError\" = \"uncaughtError\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">uncaughtErrorEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;uncaughtError&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;uncaughtError&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5305,7 +5305,7 @@
       },
       "signatures": [
         {
-          "code": "displayedEvent: \"displayed\" = \"displayed\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">displayedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;displayed&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;displayed&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5378,7 +5378,7 @@
       },
       "signatures": [
         {
-          "code": "exitEvent: \"exit\" = \"exit\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exitEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;exit&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;exit&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5451,7 +5451,7 @@
       },
       "signatures": [
         {
-          "code": "fontScaleChangedEvent: \"fontScaleChanged\" = \"fontScaleChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontScaleChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;fontScaleChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;fontScaleChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5524,7 +5524,7 @@
       },
       "signatures": [
         {
-          "code": "launchEvent: \"launch\" = \"launch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">launchEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;launch&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;launch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5597,7 +5597,7 @@
       },
       "signatures": [
         {
-          "code": "lowMemoryEvent: \"lowMemory\" = \"lowMemory\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lowMemoryEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;lowMemory&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;lowMemory&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5670,7 +5670,7 @@
       },
       "signatures": [
         {
-          "code": "resumeEvent: \"resume\" = \"resume\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resumeEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;resume&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;resume&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5743,7 +5743,7 @@
       },
       "signatures": [
         {
-          "code": "orientationChangedEvent: \"orientationChanged\" = \"orientationChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">orientationChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;orientationChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;orientationChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5816,7 +5816,7 @@
       },
       "signatures": [
         {
-          "code": "suspendEvent: \"suspend\" = \"suspend\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">suspendEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;suspend&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;suspend&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5889,7 +5889,7 @@
       },
       "signatures": [
         {
-          "code": "systemAppearanceChangedEvent: \"systemAppearanceChanged\" = \"systemAppearanceChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">systemAppearanceChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;systemAppearanceChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;systemAppearanceChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -5962,7 +5962,7 @@
       },
       "signatures": [
         {
-          "code": "backgroundEvent: \"background\" = \"background\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;background&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;background&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -6035,7 +6035,7 @@
       },
       "signatures": [
         {
-          "code": "foregroundEvent: \"foreground\" = \"foreground\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">foregroundEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;foreground&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;foreground&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -6108,7 +6108,7 @@
       },
       "signatures": [
         {
-          "code": "inBackground: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">inBackground</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -6181,7 +6181,7 @@
       },
       "signatures": [
         {
-          "code": "suspended: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">suspended</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -6254,7 +6254,7 @@
       },
       "signatures": [
         {
-          "code": "android: AndroidApplication",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: AndroidApplication</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -6327,7 +6327,7 @@
       },
       "signatures": [
         {
-          "code": "ios: iOSApplication",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: iOSApplication</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-shims.d.ts",
@@ -6372,7 +6372,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CoreTypes",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CoreTypes</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -6413,7 +6413,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "dip: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dip</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -6476,7 +6476,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "px: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">px</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -6539,7 +6539,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "percent: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">percent</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -7159,7 +7159,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TraceWriter",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TraceWriter</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -7194,7 +7194,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TraceEventListener",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TraceEventListener</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -7229,7 +7229,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TraceErrorHandler",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TraceErrorHandler</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -7256,7 +7256,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Trace",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Trace</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -7283,7 +7283,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ActionBar",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ActionBar</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
@@ -7318,7 +7318,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ActionItem",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ActionItem</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
@@ -7353,7 +7353,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ActionItems",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ActionItems</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
@@ -7388,7 +7388,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NavigationButton",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NavigationButton</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
@@ -7423,7 +7423,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ActivityIndicator",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ActivityIndicator</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/activity-indicator/index.d.ts",
@@ -7458,7 +7458,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Animation",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Animation</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -7485,7 +7485,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyframeAnimation",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">KeyframeAnimation</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -7512,7 +7512,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyframeAnimationInfo",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">KeyframeAnimationInfo</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -7539,7 +7539,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyframeDeclaration",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">KeyframeDeclaration</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -7558,7 +7558,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyframeInfo",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">KeyframeInfo</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -7585,7 +7585,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AnimationDefinition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AnimationDefinition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/index.d.ts",
@@ -7612,7 +7612,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Builder",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Builder</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -7631,7 +7631,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LoadOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">LoadOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -7650,7 +7650,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ComponentModule",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ComponentModule</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/component-builder/index.d.ts",
@@ -7698,7 +7698,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Button",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Button</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/button/index.d.ts",
@@ -7725,7 +7725,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ContentView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ContentView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/content-view/index.d.ts",
@@ -7744,7 +7744,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Binding",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Binding</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
@@ -7771,7 +7771,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "BindingOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">BindingOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
@@ -7806,7 +7806,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ControlStateChangeListener",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ControlStateChangeListener</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/control-state-change/index.d.ts",
@@ -7835,7 +7835,7 @@
       },
       "signatures": [
         {
-          "code": "ViewBase",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ViewBase</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8026,7 +8026,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "booleanConverter(v: string | boolean): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">booleanConverter</span><span style=\"color: #E1E4E8\">(v: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> boolean): boolean</span></span></code>",
           "url": "/api/index#booleanconverter-booleanconverter-1",
           "sources": [
             {
@@ -8110,7 +8110,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ShowModalOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ShowModalOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
@@ -8139,7 +8139,7 @@
       },
       "signatures": [
         {
-          "code": "View",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">View</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8167,7 +8167,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "CSSType(type: string): ClassDecorator",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CSSType</span><span style=\"color: #E1E4E8\">(type: string): ClassDecorator</span></span></code>",
           "url": "/api/index#csstype-csstype-1",
           "sources": [
             {
@@ -8234,7 +8234,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ContainerView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ContainerView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8261,7 +8261,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ViewHelper",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ViewHelper</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
@@ -8288,7 +8288,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "IOSHelper",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">IOSHelper</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
@@ -8337,7 +8337,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "PseudoClassHandler(...pseudoClasses: string[]): MethodDecorator",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PseudoClassHandler</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">pseudoClasses: string[]): MethodDecorator</span></span></code>",
           "url": "/api/index#pseudoclasshandler-pseudoclasshandler-1",
           "sources": [
             {
@@ -8374,7 +8374,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CustomLayoutView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CustomLayoutView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8447,7 +8447,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyedTemplate",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">KeyedTemplate</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8482,7 +8482,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ShownModallyData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ShownModallyData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8517,7 +8517,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AddArrayFromBuilder",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AddArrayFromBuilder</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8552,7 +8552,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AddChildFromBuilder",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AddChildFromBuilder</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8587,7 +8587,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Size",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Size</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -8614,7 +8614,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Property<T, U>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Property</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #79B8FF\">U</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8633,7 +8633,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CoercibleProperty<T, U>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CoercibleProperty</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #79B8FF\">U</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8652,7 +8652,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "InheritedProperty<T, U>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">InheritedProperty</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #79B8FF\">U</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8671,7 +8671,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CssProperty<T, U>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CssProperty</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #79B8FF\">U</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8690,7 +8690,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "InheritedCssProperty<T, U>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">InheritedCssProperty</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #79B8FF\">U</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8709,7 +8709,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ShorthandProperty<T, P>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ShorthandProperty</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #79B8FF\">P</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8728,7 +8728,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CssAnimationProperty<T, U>",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CssAnimationProperty</span><span style=\"color: #F97583\">&lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #79B8FF\">U</span><span style=\"color: #F97583\">&gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8757,7 +8757,7 @@
       },
       "signatures": [
         {
-          "code": "unsetValue: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unsetValue</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -8785,7 +8785,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "makeParser&lt;T&gt;(isValid: (value: any) => boolean, allowNumbers?: boolean): (value: any) => T",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">makeParser</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #B392F0\">isValid</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">boolean</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">allowNumbers</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">boolean</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">T</span></span></code>",
           "url": "/api/index#makeparser-makeparser-1",
           "sources": [
             {
@@ -8820,7 +8820,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "makeValidator&lt;T&gt;(...values: T[]): (value: any) => value is T",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">makeValidator</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #F97583\">...</span><span style=\"color: #FFAB70\">values</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">[])</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> value is </span><span style=\"color: #79B8FF\">T</span></span></code>",
           "url": "/api/index#makevalidator-makevalidator-1",
           "sources": [
             {
@@ -9023,7 +9023,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DatePicker",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DatePicker</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/date-picker/index.d.ts",
@@ -9050,7 +9050,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DialogStrings",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DialogStrings</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
@@ -9070,7 +9070,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "action(message: string, cancelButtonText: string, actions: string[]): Promise&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">action</span><span style=\"color: #E1E4E8\">(message: string, cancelButtonText: string, actions: string[]): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/index#action-1-action-2",
           "sources": [
             {
@@ -9176,7 +9176,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "alert(message: string | number | boolean): Promise&lt;void&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alert</span><span style=\"color: #E1E4E8\">(message: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> number </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #F97583\">void&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/index#alert-1-alert-2",
           "sources": [
             {
@@ -9256,7 +9256,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "confirm(message: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">confirm</span><span style=\"color: #E1E4E8\">(message: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/index#confirm-1-confirm-2",
           "sources": [
             {
@@ -9703,7 +9703,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "inputType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">inputType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9738,7 +9738,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "capitalizationType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">capitalizationType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9773,7 +9773,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DialogOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DialogOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9808,7 +9808,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CancelableOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CancelableOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9843,7 +9843,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AlertOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AlertOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9878,7 +9878,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PromptResult",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PromptResult</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9913,7 +9913,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PromptOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PromptOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9948,7 +9948,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ActionOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ActionOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -9983,7 +9983,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ConfirmOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ConfirmOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -10018,7 +10018,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LoginResult",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">LoginResult</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -10053,7 +10053,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LoginOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">LoginOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -10088,7 +10088,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Frame",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Frame</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -10116,7 +10116,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setActivityCallbacks(activity: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setActivityCallbacks</span><span style=\"color: #E1E4E8\">(activity: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/index#setactivitycallbacks-setactivitycallbacks-1",
           "sources": [
             {
@@ -10151,7 +10151,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NavigationEntry",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NavigationEntry</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -10186,7 +10186,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NavigationContext",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NavigationContext</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -10221,7 +10221,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NavigationTransition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NavigationTransition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -10256,7 +10256,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "BackstackEntry",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">BackstackEntry</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -10291,7 +10291,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ViewEntry",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ViewEntry</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -10318,7 +10318,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AndroidActivityCallbacks",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActivityCallbacks</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -10345,7 +10345,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GesturesObserver",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GesturesObserver</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10380,7 +10380,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TouchAction",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TouchAction</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10415,7 +10415,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GestureTypes",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GestureTypes</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10450,7 +10450,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GestureStateTypes",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GestureStateTypes</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10485,7 +10485,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SwipeDirection",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SwipeDirection</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10520,7 +10520,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GestureEvents",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GestureEvents</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10555,7 +10555,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TouchManager",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TouchManager</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
@@ -10590,7 +10590,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GestureEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GestureEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10625,7 +10625,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GestureEventDataWithState",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GestureEventDataWithState</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10660,7 +10660,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TapGestureEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TapGestureEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10695,7 +10695,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PanGestureEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PanGestureEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10730,7 +10730,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PinchGestureEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PinchGestureEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10765,7 +10765,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "RotationGestureEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">RotationGestureEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10800,7 +10800,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SwipeGestureEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SwipeGestureEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10835,7 +10835,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TouchGestureEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TouchGestureEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -10862,7 +10862,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TouchAnimationOptions: {\n  down?: TouchAnimationFn | AnimationDefinition\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">TouchAnimationOptions</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  down</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> TouchAnimationFn </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> AnimationDefinition</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/touch-manager.d.ts",
@@ -10889,7 +10889,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "HtmlView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">HtmlView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/html-view/index.d.ts",
@@ -10924,7 +10924,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Image",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Image</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image/index.d.ts",
@@ -10959,7 +10959,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageCache",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageCache</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -10994,7 +10994,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DownloadError",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DownloadError</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -11029,7 +11029,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DownloadRequest",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DownloadRequest</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -11064,7 +11064,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DownloadedData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DownloadedData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -11099,7 +11099,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Label",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Label</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/label/index.d.ts",
@@ -11134,7 +11134,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ListPicker",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ListPicker</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-picker/index.d.ts",
@@ -11169,7 +11169,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ListView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ListView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -11204,7 +11204,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ItemEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ItemEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -11231,7 +11231,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TemplatedItemsView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TemplatedItemsView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -11250,7 +11250,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ItemsSource",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ItemsSource</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -11277,7 +11277,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Page",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Page</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/index.d.ts",
@@ -11304,7 +11304,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PageBase",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PageBase</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/page-common.d.ts",
@@ -11336,7 +11336,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NavigatedData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NavigatedData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/page/index.d.ts",
@@ -11371,7 +11371,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Placeholder",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Placeholder</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/placeholder/index.d.ts",
@@ -11406,7 +11406,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CreateViewEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CreateViewEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/placeholder/index.d.ts",
@@ -11441,7 +11441,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Progress",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Progress</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/progress/index.d.ts",
@@ -11476,7 +11476,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ProxyViewContainer",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ProxyViewContainer</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/proxy-view-container/index.d.ts",
@@ -11511,7 +11511,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Repeater",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Repeater</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/repeater/index.d.ts",
@@ -11546,7 +11546,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ScrollView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ScrollView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
@@ -11581,7 +11581,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ScrollEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ScrollEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
@@ -11616,7 +11616,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SearchBar",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SearchBar</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/search-bar/index.d.ts",
@@ -11651,7 +11651,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SegmentedBar",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SegmentedBar</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/segmented-bar/index.d.ts",
@@ -11686,7 +11686,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SegmentedBarItem",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SegmentedBarItem</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/segmented-bar/index.d.ts",
@@ -11721,7 +11721,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Slider",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Slider</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/slider/index.d.ts",
@@ -11749,7 +11749,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addTaggedAdditionalCSS(cssText: string, tag?: string | Number): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addTaggedAdditionalCSS</span><span style=\"color: #E1E4E8\">(cssText: string, tag</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> Number): boolean</span></span></code>",
           "url": "/api/index#addtaggedadditionalcss-addtaggedadditionalcss-1",
           "sources": [
             {
@@ -11784,7 +11784,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeTaggedAdditionalCSS(tag: String | Number): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeTaggedAdditionalCSS</span><span style=\"color: #E1E4E8\">(tag: String </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> Number): boolean</span></span></code>",
           "url": "/api/index#removetaggedadditionalcss-removetaggedadditionalcss-1",
           "sources": [
             {
@@ -11812,7 +11812,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "resolveFileNameFromUrl(\n  url: string,\n  appDirectory: string,\n  fileExists: (filepath: string) => boolean,\n  importSource?: string\n): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resolveFileNameFromUrl</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  url: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  appDirectory: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  fileExists: (</span><span style=\"color: #FFAB70\">filepath</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> boolean,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  importSource</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): string</span></span></code>",
           "url": "/api/index#resolvefilenamefromurl-resolvefilenamefromurl-1",
           "sources": [
             {
@@ -11856,7 +11856,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Background",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Background</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background-common.d.ts",
@@ -11875,7 +11875,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CacheMode",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CacheMode</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background.d.ts",
@@ -11895,7 +11895,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "parseCSSShadow(value: string): CSSShadow",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parseCSSShadow</span><span style=\"color: #E1E4E8\">(value: string): CSSShadow</span></span></code>",
           "url": "/api/index#parsecssshadow-parsecssshadow-1",
           "sources": [
             {
@@ -11934,7 +11934,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "animationTimingFunctionConverter(value: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">animationTimingFunctionConverter</span><span style=\"color: #E1E4E8\">(value: string): any</span></span></code>",
           "url": "/api/index#animationtimingfunctionconverter-animationtimingfunctionconverter-1",
           "sources": [
             {
@@ -11962,7 +11962,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "timeConverter(value: string): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">timeConverter</span><span style=\"color: #E1E4E8\">(value: string): number</span></span></code>",
           "url": "/api/index#timeconverter-timeconverter-1",
           "sources": [
             {
@@ -11989,7 +11989,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Font",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Font</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -12008,7 +12008,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontStyle",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontStyle</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -12027,7 +12027,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontWeight",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontWeight</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -12046,7 +12046,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FontVariationSettings",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontVariationSettings</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -12065,7 +12065,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Style",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Style</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -12084,7 +12084,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CommonLayoutParams",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CommonLayoutParams</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -12103,7 +12103,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CssAnimationParser",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">CssAnimationParser</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/css-animation-parser.d.ts",
@@ -12152,7 +12152,7 @@
       },
       "signatures": [
         {
-          "code": "CSSHelper: {\n  AttributeSelector: typeof AttributeSelector\n  ClassSelector: typeof ClassSelector\n  InvalidSelector: typeof InvalidSelector\n  PseudoClassSelector: typeof PseudoClassSelector\n  RuleSet: typeof RuleSet\n  Selector: typeof Selector\n  SelectorCore: typeof SelectorCore\n  SelectorsMap: typeof SelectorsMap\n  SelectorsMatch: typeof SelectorsMatch\n  SimpleSelector: typeof SimpleSelector\n  SimpleSelectorSequence: typeof SimpleSelectorSequence\n  TypeSelector: typeof TypeSelector\n  UniversalSelector: typeof UniversalSelector\n  createSelector: typeof createSelector\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CSSHelper</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">AttributeSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> AttributeSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">ClassSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> ClassSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">InvalidSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> InvalidSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">PseudoClassSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> PseudoClassSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">RuleSet</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> RuleSet</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">Selector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> Selector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">SelectorCore</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> SelectorCore</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">SelectorsMap</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> SelectorsMap</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">SelectorsMatch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> SelectorsMatch</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">SimpleSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> SimpleSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">SimpleSelectorSequence</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> SimpleSelectorSequence</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">TypeSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> TypeSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">UniversalSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> UniversalSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">createSelector</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #F97583\">typeof</span><span style=\"color: #E1E4E8\"> createSelector</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/css-selector.d.ts",
@@ -12179,7 +12179,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Switch",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Switch</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/switch/index.d.ts",
@@ -12214,7 +12214,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TabView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TabView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/tab-view/index.d.ts",
@@ -12249,7 +12249,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TabViewItem",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TabViewItem</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/tab-view/index.d.ts",
@@ -12276,7 +12276,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextBase",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextBase</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/text-base/index.d.ts",
@@ -12483,7 +12483,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FormattedString",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FormattedString</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/text-base/formatted-string.d.ts",
@@ -12518,7 +12518,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Span",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Span</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/text-base/span.d.ts",
@@ -12553,7 +12553,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextField",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextField</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/text-field/index.d.ts",
@@ -12588,7 +12588,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TextView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/text-view/index.d.ts",
@@ -12623,7 +12623,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "TimePicker",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TimePicker</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/time-picker/index.d.ts",
@@ -12650,7 +12650,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Transition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Transition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
@@ -12669,7 +12669,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ModalTransition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ModalTransition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/modal-transition.d.ts",
@@ -12688,7 +12688,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PageTransition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PageTransition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/page-transition.d.ts",
@@ -12707,7 +12707,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FadeTransition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FadeTransition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/fade-transition.d.ts",
@@ -12726,7 +12726,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SlideTransition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SlideTransition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/slide-transition.d.ts",
@@ -12753,7 +12753,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SharedTransition",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SharedTransition</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -12780,7 +12780,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SharedTransitionAnimationType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SharedTransitionAnimationType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -12807,7 +12807,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SharedTransitionHelper",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SharedTransitionHelper</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition-helper.d.ts",
@@ -12834,7 +12834,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SharedTransitionConfig",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SharedTransitionConfig</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -12896,7 +12896,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "WebView",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">WebView</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/web-view/index.d.ts",
@@ -12931,7 +12931,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LoadEventData",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">LoadEventData</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/web-view/index.d.ts",
@@ -12966,7 +12966,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "WebViewNavigationType: \"linkClicked\" | \"formSubmitted\" | \"backForward\" | \"reload\" | \"formResubmitted\" | \"other\" | undefined",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">WebViewNavigationType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;linkClicked&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;formSubmitted&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;backForward&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;reload&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;formResubmitted&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;other&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">undefined</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/web-view/index.d.ts",
@@ -13001,7 +13001,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "EditableTextBase",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">EditableTextBase</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/editable-text-base/index.d.ts",
@@ -13225,7 +13225,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AbsoluteLayout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AbsoluteLayout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/absolute-layout/index.d.ts",
@@ -13260,7 +13260,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DockLayout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DockLayout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/dock-layout/index.d.ts",
@@ -13287,7 +13287,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "FlexboxLayout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FlexboxLayout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/flexbox-layout/index.d.ts",
@@ -13314,7 +13314,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GridLayout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GridLayout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -13341,7 +13341,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GridUnitType: \"pixel\" | \"star\" | \"auto\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">GridUnitType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;pixel&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;star&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;auto&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -13365,7 +13365,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "GridUnitType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">GridUnitType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -13397,7 +13397,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ItemSpec",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ItemSpec</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -13424,7 +13424,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "RootLayout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">RootLayout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
@@ -13465,7 +13465,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "RootLayoutOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">RootLayoutOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
@@ -13484,7 +13484,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ShadeCoverOptions",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ShadeCoverOptions</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
@@ -13511,7 +13511,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "StackLayout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">StackLayout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/stack-layout/index.d.ts",
@@ -13546,7 +13546,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "WrapLayout",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">WrapLayout</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/wrap-layout/index.d.ts",
@@ -13581,7 +13581,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "LayoutBase",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">LayoutBase</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/layout-base.d.ts",
@@ -13609,7 +13609,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "transformConverter(text: string): TransformFunctionsInfo",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">transformConverter</span><span style=\"color: #E1E4E8\">(text: string): TransformFunctionsInfo</span></span></code>",
           "url": "/api/index#transformconverter-transformconverter-1",
           "sources": [
             {
@@ -13636,7 +13636,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Length",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Length</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
@@ -13655,7 +13655,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PercentLength",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">PercentLength</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",

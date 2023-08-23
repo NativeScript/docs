@@ -50,7 +50,7 @@
       },
       "signatures": [
         {
-          "code": "knownTemplates: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">knownTemplates</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -79,7 +79,7 @@
       },
       "signatures": [
         {
-          "code": "knownMultiTemplates: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">knownMultiTemplates</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -100,7 +100,7 @@
       },
       "signatures": [
         {
-          "code": "knownCollections: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">knownCollections</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",

@@ -47,7 +47,7 @@
       },
       "signatures": [
         {
-          "code": "id?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">id</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -84,7 +84,7 @@
       },
       "signatures": [
         {
-          "code": "main?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">main</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -137,7 +137,7 @@
       },
       "signatures": [
         {
-          "code": "appPath?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">appPath</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -206,7 +206,7 @@
       },
       "signatures": [
         {
-          "code": "appResourcesPath?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">appResourcesPath</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -251,7 +251,7 @@
       },
       "signatures": [
         {
-          "code": "shared?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">shared</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -272,7 +272,7 @@
       },
       "signatures": [
         {
-          "code": "previewAppSchema?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">previewAppSchema</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -293,7 +293,7 @@
       },
       "signatures": [
         {
-          "code": "overridePods?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">overridePods</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -330,7 +330,7 @@
       },
       "signatures": [
         {
-          "code": "webpackConfigPath?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">webpackConfigPath</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -375,7 +375,7 @@
       },
       "signatures": [
         {
-          "code": "ios?: IConfigIOS",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigIOS</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -412,7 +412,7 @@
       },
       "signatures": [
         {
-          "code": "android?: IConfigAndroid",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigAndroid</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -486,7 +486,7 @@
       },
       "signatures": [
         {
-          "code": "cssParser?: \"rework\" | \"nativescript\" | \"css-tree\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cssParser</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;rework&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;nativescript&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;css-tree&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -523,7 +523,7 @@
       },
       "signatures": [
         {
-          "code": "ignoredNativeDependencies?: string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ignoredNativeDependencies</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string[]</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -560,7 +560,7 @@
       },
       "signatures": [
         {
-          "code": "cli?: IConfigCLI",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cli</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigCLI</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",
@@ -597,7 +597,7 @@
       },
       "signatures": [
         {
-          "code": "hooks?: IConfigHook[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">hooks</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigHook[]</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/config/config.interface.d.ts",

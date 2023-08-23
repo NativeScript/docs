@@ -71,7 +71,7 @@
       },
       "signatures": [
         {
-          "code": "android: Android",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: Android</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -93,7 +93,7 @@
       },
       "signatures": [
         {
-          "code": "ios: iOS",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: iOS</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -115,7 +115,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "exists(path: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exists</span><span style=\"color: #E1E4E8\">(path: string): boolean</span></span></code>",
           "url": "/api/class/File#exists-exists-1",
           "sources": [
             {
@@ -254,7 +254,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "extension: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extension</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -289,7 +289,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "size: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">size</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -324,7 +324,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isLocked: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isLocked</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -352,7 +352,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "appendText(content: string, encoding?: string): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">appendText</span><span style=\"color: #E1E4E8\">(content: string, encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#appendtext-appendtext-1",
           "sources": [
             {
@@ -411,7 +411,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "appendTextSync(\n  content: string,\n  onError?: (error: any) => any,\n  encoding?: string\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">appendTextSync</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  content: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#appendtextsync-appendtextsync-1",
           "sources": [
             {
@@ -485,7 +485,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "append(content: any): Promise&lt;void&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">append</span><span style=\"color: #E1E4E8\">(content: any): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #F97583\">void&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#append-append-1",
           "sources": [
             {
@@ -529,7 +529,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "appendSync(content: any, onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">appendSync</span><span style=\"color: #E1E4E8\">(content: any, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#appendsync-appendsync-1",
           "sources": [
             {
@@ -588,7 +588,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "copy(dest: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">copy</span><span style=\"color: #E1E4E8\">(dest: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#copy-copy-1",
           "sources": [
             {
@@ -632,7 +632,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "copySync(dest: string, onError?: (error: any) => any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">copySync</span><span style=\"color: #E1E4E8\">(dest: string, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): any</span></span></code>",
           "url": "/api/class/File#copysync-copysync-1",
           "sources": [
             {
@@ -691,7 +691,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "readText(encoding?: string): Promise&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">readText</span><span style=\"color: #E1E4E8\">(encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#readtext-readtext-1",
           "sources": [
             {
@@ -737,7 +737,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "readTextSync(onError?: (error: any) => any, encoding?: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">readTextSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any, encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): string</span></span></code>",
           "url": "/api/class/File#readtextsync-readtextsync-1",
           "sources": [
             {
@@ -798,7 +798,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "read(): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">read</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#read-read-1",
           "sources": [
             {
@@ -828,7 +828,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "readSync(onError?: (error: any) => any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">readSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): any</span></span></code>",
           "url": "/api/class/File#readsync-readsync-1",
           "sources": [
             {
@@ -874,7 +874,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "writeText(content: string, encoding?: string): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">writeText</span><span style=\"color: #E1E4E8\">(content: string, encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#writetext-writetext-1",
           "sources": [
             {
@@ -933,7 +933,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "writeTextSync(\n  content: string,\n  onError?: (error: any) => any,\n  encoding?: string\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">writeTextSync</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  content: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#writetextsync-writetextsync-1",
           "sources": [
             {
@@ -1007,7 +1007,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "write(content: any): Promise&lt;void&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">write</span><span style=\"color: #E1E4E8\">(content: any): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #F97583\">void&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#write-write-1",
           "sources": [
             {
@@ -1051,7 +1051,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "writeSync(content: any, onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">writeSync</span><span style=\"color: #E1E4E8\">(content: any, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#writesync-writesync-1",
           "sources": [
             {
@@ -1123,7 +1123,7 @@
       },
       "signatures": [
         {
-          "code": "lastModified: Date",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lastModified</span><span style=\"color: #E1E4E8\">: Date</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1170,7 +1170,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1217,7 +1217,7 @@
       },
       "signatures": [
         {
-          "code": "path: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">path</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
@@ -1304,7 +1304,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "remove(): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#remove-remove-1",
           "sources": [
             {
@@ -1346,7 +1346,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeSync(onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#removesync-removesync-1",
           "sources": [
             {
@@ -1396,7 +1396,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "rename(newName: string): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rename</span><span style=\"color: #E1E4E8\">(newName: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#rename-rename-1",
           "sources": [
             {
@@ -1452,7 +1452,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "renameSync(newName: string, onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">renameSync</span><span style=\"color: #E1E4E8\">(newName: string, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#renamesync-renamesync-1",
           "sources": [
             {

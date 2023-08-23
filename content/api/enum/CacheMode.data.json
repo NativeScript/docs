@@ -19,7 +19,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "none: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background.d.ts",
@@ -38,7 +38,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "memory: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">memory</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background.d.ts",
@@ -57,7 +57,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "diskAndMemory: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">diskAndMemory</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background.d.ts",

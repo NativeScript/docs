@@ -182,7 +182,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getPositionFromFrame(frame: any): {\n  bottom: any\n  left: any\n  right: any\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPositionFromFrame</span><span style=\"color: #E1E4E8\">(frame: any): {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  bottom: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  left: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  right: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "url": "/api/namespace/IOSHelper#getpositionfromframe-getpositionfromframe-1",
           "sources": [
             {
@@ -210,7 +210,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getFrameFromPosition(\n  position: {\n    bottom: any\n    left: any\n    right: any\n  },\n  insets?: {\n    bottom: any\n    left: any\n    right: any\n  }\n): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getFrameFromPosition</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  position: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    bottom: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    left: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    right: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  },</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  insets</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    bottom: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    left: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    right: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  }</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): any</span></span></code>",
           "url": "/api/namespace/IOSHelper#getframefromposition-getframefromposition-1",
           "sources": [
             {
@@ -320,7 +320,7 @@
       },
       "signatures": [
         {
-          "code": "traitCollectionColorAppearanceChangedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">traitCollectionColorAppearanceChangedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
@@ -347,7 +347,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UILayoutViewController",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">UILayoutViewController</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
@@ -366,7 +366,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UIAdaptivePresentationControllerDelegateImp",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">UIAdaptivePresentationControllerDelegateImp</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
@@ -385,7 +385,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UIPopoverPresentationControllerDelegateImp",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">UIPopoverPresentationControllerDelegateImp</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",

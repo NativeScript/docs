@@ -149,7 +149,7 @@
       },
       "signatures": [
         {
-          "code": "off: (eventNames: string, callback?: any, thisArg?: any) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">off</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">eventNames</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">callback</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">thisArg</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -170,7 +170,7 @@
       },
       "signatures": [
         {
-          "code": "notify: (eventData: T) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notify</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">eventData</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -191,7 +191,7 @@
       },
       "signatures": [
         {
-          "code": "hasListeners: (eventName: string) => boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">eventName</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -212,7 +212,7 @@
       },
       "signatures": [
         {
-          "code": "launchEvent: \"launch\" = \"launch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">launchEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;launch&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;launch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -233,7 +233,7 @@
       },
       "signatures": [
         {
-          "code": "suspendEvent: \"suspend\" = \"suspend\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">suspendEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;suspend&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;suspend&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -254,7 +254,7 @@
       },
       "signatures": [
         {
-          "code": "displayedEvent: \"displayed\" = \"displayed\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">displayedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;displayed&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;displayed&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -275,7 +275,7 @@
       },
       "signatures": [
         {
-          "code": "backgroundEvent: \"background\" = \"background\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;background&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;background&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -296,7 +296,7 @@
       },
       "signatures": [
         {
-          "code": "foregroundEvent: \"foreground\" = \"foreground\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">foregroundEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;foreground&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;foreground&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -317,7 +317,7 @@
       },
       "signatures": [
         {
-          "code": "resumeEvent: \"resume\" = \"resume\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resumeEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;resume&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;resume&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -338,7 +338,7 @@
       },
       "signatures": [
         {
-          "code": "exitEvent: \"exit\" = \"exit\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exitEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;exit&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;exit&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -359,7 +359,7 @@
       },
       "signatures": [
         {
-          "code": "lowMemoryEvent: \"lowMemory\" = \"lowMemory\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lowMemoryEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;lowMemory&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;lowMemory&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -380,7 +380,7 @@
       },
       "signatures": [
         {
-          "code": "uncaughtErrorEvent: \"uncaughtError\" = \"uncaughtError\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">uncaughtErrorEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;uncaughtError&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;uncaughtError&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -401,7 +401,7 @@
       },
       "signatures": [
         {
-          "code": "discardedErrorEvent: \"discardedError\" = \"discardedError\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">discardedErrorEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;discardedError&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;discardedError&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -422,7 +422,7 @@
       },
       "signatures": [
         {
-          "code": "orientationChangedEvent: \"orientationChanged\" = \"orientationChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">orientationChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;orientationChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;orientationChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -443,7 +443,7 @@
       },
       "signatures": [
         {
-          "code": "systemAppearanceChangedEvent: \"systemAppearanceChanged\" = \"systemAppearanceChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">systemAppearanceChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;systemAppearanceChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;systemAppearanceChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -464,7 +464,7 @@
       },
       "signatures": [
         {
-          "code": "fontScaleChangedEvent: \"fontScaleChanged\" = \"fontScaleChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontScaleChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;fontScaleChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;fontScaleChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -485,7 +485,7 @@
       },
       "signatures": [
         {
-          "code": "livesyncEvent: \"livesync\" = \"livesync\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">livesyncEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;livesync&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;livesync&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -506,7 +506,7 @@
       },
       "signatures": [
         {
-          "code": "loadAppCssEvent: \"loadAppCss\" = \"loadAppCss\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadAppCssEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;loadAppCss&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;loadAppCss&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -527,7 +527,7 @@
       },
       "signatures": [
         {
-          "code": "cssChangedEvent: \"cssChanged\" = \"cssChanged\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;cssChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;cssChanged&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -584,7 +584,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "off: (eventNames: string, callback?: any, thisArg?: any) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">off</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">eventNames</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">callback</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">thisArg</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -603,7 +603,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "notify: (eventData: T) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notify</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">eventData</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -622,7 +622,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "hasListeners: (eventName: string) => boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">eventName</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -729,7 +729,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setMaxRefreshRate(options?: { max?: number; min?: number }): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setMaxRefreshRate</span><span style=\"color: #E1E4E8\">(options</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> { max?: number; min</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number }): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setmaxrefreshrate-setmaxrefreshrate-1",
           "sources": [
             {
@@ -780,7 +780,7 @@
       },
       "signatures": [
         {
-          "code": "mainEntry: NavigationEntry",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">mainEntry</span><span style=\"color: #E1E4E8\">: NavigationEntry</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -800,7 +800,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getMainEntry(): NavigationEntry",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getMainEntry</span><span style=\"color: #E1E4E8\">(): NavigationEntry</span></span></code>",
           "url": "/api/class/ApplicationCommon#getmainentry-getmainentry-1",
           "sources": [
             {
@@ -934,7 +934,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "resetRootView(entry?: string | NavigationEntry): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetRootView</span><span style=\"color: #E1E4E8\">(entry</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> NavigationEntry): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#resetrootview-resetrootview-1",
           "sources": [
             {
@@ -992,7 +992,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getResources(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getResources</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/ApplicationCommon#getresources-getresources-1",
           "sources": [
             {
@@ -1022,7 +1022,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setResources(res: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setResources</span><span style=\"color: #E1E4E8\">(res: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setresources-setresources-1",
           "sources": [
             {
@@ -1058,7 +1058,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setCssFileName(cssFileName: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setCssFileName</span><span style=\"color: #E1E4E8\">(cssFileName: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setcssfilename-setcssfilename-1",
           "sources": [
             {
@@ -1094,7 +1094,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getCssFileName(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCssFileName</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/ApplicationCommon#getcssfilename-getcssfilename-1",
           "sources": [
             {
@@ -1124,7 +1124,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadAppCss(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadAppCss</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#loadappcss-loadappcss-1",
           "sources": [
             {
@@ -1154,7 +1154,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addCss(cssText: string, attributeScoped?: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addCss</span><span style=\"color: #E1E4E8\">(cssText: string, attributeScoped</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#addcss-addcss-1",
           "sources": [
             {
@@ -1189,7 +1189,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "run(entry?: string | NavigationEntry): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">run</span><span style=\"color: #E1E4E8\">(entry</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> NavigationEntry): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#run-run-1",
           "sources": [
             {
@@ -1221,7 +1221,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getOrientation(): \"portrait\" | \"landscape\" | \"unknown\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getOrientation</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span></span></code>",
           "url": "/api/class/ApplicationCommon#getorientation-getorientation-1",
           "sources": [
             {
@@ -1245,7 +1245,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setOrientation(value: \"portrait\" | \"landscape\" | \"unknown\"): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setOrientation</span><span style=\"color: #E1E4E8\">(value: </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setorientation-setorientation-1",
           "sources": [
             {
@@ -1273,7 +1273,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "orientation(): \"portrait\" | \"landscape\" | \"unknown\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">orientation</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span></span></code>",
           "url": "/api/class/ApplicationCommon#orientation-orientation-1",
           "sources": [
             {
@@ -1328,7 +1328,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getNativeApplication(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getNativeApplication</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/ApplicationCommon#getnativeapplication-getnativeapplication-1",
           "sources": [
             {
@@ -1350,7 +1350,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasLaunched(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasLaunched</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/ApplicationCommon#haslaunched-haslaunched-1",
           "sources": [
             {
@@ -1374,7 +1374,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getSystemAppearance(): \"dark\" | \"light\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getSystemAppearance</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span></span></code>",
           "url": "/api/class/ApplicationCommon#getsystemappearance-getsystemappearance-1",
           "sources": [
             {
@@ -1398,7 +1398,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setSystemAppearance(value: \"dark\" | \"light\"): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setSystemAppearance</span><span style=\"color: #E1E4E8\">(value: </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setsystemappearance-setsystemappearance-1",
           "sources": [
             {
@@ -1426,7 +1426,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "systemAppearance(): \"dark\" | \"light\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">systemAppearance</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span></span></code>",
           "url": "/api/class/ApplicationCommon#systemappearance-systemappearance-1",
           "sources": [
             {
@@ -1455,7 +1455,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "autoSystemAppearanceChanged: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">autoSystemAppearanceChanged</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",
@@ -1483,7 +1483,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setAutoSystemAppearanceChanged(value: boolean): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setAutoSystemAppearanceChanged</span><span style=\"color: #E1E4E8\">(value: boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setautosystemappearancechanged-setautosystemappearancechanged-1",
           "sources": [
             {
@@ -1576,7 +1576,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get inBackground(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">inBackground</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/ApplicationCommon#inbackground-inbackground-1",
           "sources": [
             {
@@ -1598,7 +1598,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setInBackground(value: boolean, additonalData?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInBackground</span><span style=\"color: #E1E4E8\">(value: boolean, additonalData</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setinbackground-setinbackground-1",
           "sources": [
             {
@@ -1633,7 +1633,7 @@
       "signatures": [
         {
           "type": "GetSignature",
-          "code": "get suspended(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">suspended</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/ApplicationCommon#suspended-suspended-1",
           "sources": [
             {
@@ -1655,7 +1655,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setSuspended(value: boolean, additonalData?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setSuspended</span><span style=\"color: #E1E4E8\">(value: boolean, additonalData</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ApplicationCommon#setsuspended-setsuspended-1",
           "sources": [
             {
@@ -1689,7 +1689,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "started: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">started</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/application/application-common.d.ts",

@@ -28,7 +28,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "right: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">right</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -63,7 +63,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "left: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">left</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -98,7 +98,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "up: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">up</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -133,7 +133,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "down: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">down</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

@@ -39,7 +39,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "unwrap(value: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unwrap</span><span style=\"color: #E1E4E8\">(value: any): any</span></span></code>",
           "url": "/api/class/WrappedValue#unwrap-unwrap-1",
           "sources": [
             {
@@ -85,7 +85,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "wrap(value: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">wrap</span><span style=\"color: #E1E4E8\">(value: any): any</span></span></code>",
           "url": "/api/class/WrappedValue#wrap-wrap-1",
           "sources": [
             {
@@ -180,7 +180,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "wrapped: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">wrapped</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",

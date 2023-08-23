@@ -20,7 +20,7 @@
       },
       "signatures": [
         {
-          "code": "Phone: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Phone</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -41,7 +41,7 @@
       },
       "signatures": [
         {
-          "code": "Tablet: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Tablet</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

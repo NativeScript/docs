@@ -33,7 +33,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getApplicationContext(): globalAndroid.content.Context",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getApplicationContext</span><span style=\"color: #E1E4E8\">(): globalAndroid.content.Context</span></span></code>",
           "url": "/api/namespace/Utils-android#getapplicationcontext-getapplicationcontext-1",
           "sources": [
             {
@@ -55,7 +55,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getCurrentActivity(): androidx.appcompat.app.AppCompatActivity",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCurrentActivity</span><span style=\"color: #E1E4E8\">(): androidx.appcompat.app.AppCompatActivity</span></span></code>",
           "url": "/api/namespace/Utils-android#getcurrentactivity-getcurrentactivity-1",
           "sources": [
             {
@@ -77,7 +77,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getApplication(): globalAndroid.app.Application",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getApplication</span><span style=\"color: #E1E4E8\">(): globalAndroid.app.Application</span></span></code>",
           "url": "/api/namespace/Utils-android#getapplication-getapplication-1",
           "sources": [
             {
@@ -99,7 +99,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getResources(): globalAndroid.content.res.Resources",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getResources</span><span style=\"color: #E1E4E8\">(): globalAndroid.content.res.Resources</span></span></code>",
           "url": "/api/namespace/Utils-android#getresources-getresources-1",
           "sources": [
             {
@@ -121,7 +121,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getPackageName(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPackageName</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/namespace/Utils-android#getpackagename-getpackagename-1",
           "sources": [
             {
@@ -143,7 +143,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getInputMethodManager(): android.view.inputmethod.InputMethodManager",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getInputMethodManager</span><span style=\"color: #E1E4E8\">(): android.view.inputmethod.InputMethodManager</span></span></code>",
           "url": "/api/namespace/Utils-android#getinputmethodmanager-getinputmethodmanager-1",
           "sources": [
             {
@@ -165,7 +165,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "showSoftInput(nativeView: View): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">showSoftInput</span><span style=\"color: #E1E4E8\">(nativeView: View): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils-android#showsoftinput-showsoftinput-1",
           "sources": [
             {
@@ -193,7 +193,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "dismissSoftInput(nativeView?: View): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dismissSoftInput</span><span style=\"color: #E1E4E8\">(nativeView</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> View): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils-android#dismisssoftinput-dismisssoftinput-1",
           "sources": [
             {
@@ -223,7 +223,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isRealDevice(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isRealDevice</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/namespace/Utils-android#isrealdevice-isrealdevice-1",
           "sources": [
             {
@@ -244,7 +244,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "collections",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">collections</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/android/index.d.ts",
@@ -263,7 +263,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "resources",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">resources</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/android/index.d.ts",

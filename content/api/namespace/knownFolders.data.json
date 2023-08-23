@@ -158,7 +158,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",

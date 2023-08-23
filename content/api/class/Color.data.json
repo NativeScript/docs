@@ -131,7 +131,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isValid(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isValid</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/class/Color#isvalid-isvalid-1",
           "sources": [
             {
@@ -482,7 +482,7 @@
       },
       "signatures": [
         {
-          "code": "a: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">a</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -519,7 +519,7 @@
       },
       "signatures": [
         {
-          "code": "r: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">r</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -556,7 +556,7 @@
       },
       "signatures": [
         {
-          "code": "g: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">g</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -593,7 +593,7 @@
       },
       "signatures": [
         {
-          "code": "b: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">b</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -630,7 +630,7 @@
       },
       "signatures": [
         {
-          "code": "hex: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hex</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -667,7 +667,7 @@
       },
       "signatures": [
         {
-          "code": "argb: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">argb</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -704,7 +704,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -739,7 +739,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "android: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -774,7 +774,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/color/index.d.ts",
@@ -850,7 +850,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isDark(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isDark</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Color#isdark-isdark-1",
           "sources": [
             {
@@ -882,7 +882,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isLight(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isLight</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/class/Color#islight-islight-1",
           "sources": [
             {
@@ -914,7 +914,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getBrightness(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getBrightness</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/Color#getbrightness-getbrightness-1",
           "sources": [
             {
@@ -946,7 +946,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getLuminance(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getLuminance</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/Color#getluminance-getluminance-1",
           "sources": [
             {
@@ -1016,7 +1016,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toHsl(): {\n  a: number\n  h: number\n  l: number\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toHsl</span><span style=\"color: #E1E4E8\">(): {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  a: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  h: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  l: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "url": "/api/class/Color#tohsl-tohsl-1",
           "sources": [
             {
@@ -1048,7 +1048,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toHslString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toHslString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/Color#tohslstring-tohslstring-1",
           "sources": [
             {
@@ -1080,7 +1080,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toHsv(): {\n  a: number\n  h: number\n  s: number\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toHsv</span><span style=\"color: #E1E4E8\">(): {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  a: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  h: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  s: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "url": "/api/class/Color#tohsv-tohsv-1",
           "sources": [
             {
@@ -1112,7 +1112,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toHsvString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toHsvString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/Color#tohsvstring-tohsvstring-1",
           "sources": [
             {
@@ -1144,7 +1144,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toRgbString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toRgbString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/Color#torgbstring-torgbstring-1",
           "sources": [
             {

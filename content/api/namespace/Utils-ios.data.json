@@ -46,7 +46,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getter&lt;T&gt;(_this: any, property: T | () => T): T",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getter</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">_this</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">property</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
           "url": "/api/namespace/Utils-ios#getter-getter-1",
           "sources": [
             {
@@ -79,7 +79,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getRootViewController(): UIViewController",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getRootViewController</span><span style=\"color: #E1E4E8\">(): UIViewController</span></span></code>",
           "url": "/api/namespace/Utils-ios#getrootviewcontroller-getrootviewcontroller-1",
           "sources": [
             {
@@ -101,7 +101,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getWindow(): UIWindow",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getWindow</span><span style=\"color: #E1E4E8\">(): UIWindow</span></span></code>",
           "url": "/api/namespace/Utils-ios#getwindow-getwindow-1",
           "sources": [
             {
@@ -123,7 +123,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setWindowBackgroundColor(value: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setWindowBackgroundColor</span><span style=\"color: #E1E4E8\">(value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils-ios#setwindowbackgroundcolor-setwindowbackgroundcolor-1",
           "sources": [
             {
@@ -151,7 +151,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isLandscape(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isLandscape</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/namespace/Utils-ios#islandscape-islandscape-1",
           "sources": [
             {
@@ -173,7 +173,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "openFile(filePath: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">openFile</span><span style=\"color: #E1E4E8\">(filePath: string): boolean</span></span></code>",
           "url": "/api/namespace/Utils-ios#openfile-openfile-1",
           "sources": [
             {
@@ -201,7 +201,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getCurrentAppPath(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCurrentAppPath</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/namespace/Utils-ios#getcurrentapppath-getcurrentapppath-1",
           "sources": [
             {
@@ -223,7 +223,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "joinPaths(...paths: string[]): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">joinPaths</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">paths: string[]): string</span></span></code>",
           "url": "/api/namespace/Utils-ios#joinpaths-joinpaths-1",
           "sources": [
             {
@@ -253,7 +253,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getVisibleViewController(\n  rootViewController: UIViewController\n): UIViewController",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getVisibleViewController</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  rootViewController: UIViewController</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): UIViewController</span></span></code>",
           "url": "/api/namespace/Utils-ios#getvisibleviewcontroller-getvisibleviewcontroller-1",
           "sources": [
             {
@@ -281,7 +281,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "applyRotateTransform(\n  transform: CATransform3D,\n  x: number,\n  y: number,\n  z: number\n): CATransform3D",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">applyRotateTransform</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  transform: CATransform3D,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  x: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  y: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  z: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): CATransform3D</span></span></code>",
           "url": "/api/namespace/Utils-ios#applyrotatetransform-applyrotatetransform-1",
           "sources": [
             {
@@ -324,7 +324,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getShadowLayer(nativeView: UIView, name?: string, create?: boolean): CALayer",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getShadowLayer</span><span style=\"color: #E1E4E8\">(nativeView: UIView, name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string, create</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): CALayer</span></span></code>",
           "url": "/api/namespace/Utils-ios#getshadowlayer-getshadowlayer-1",
           "sources": [
             {
@@ -366,7 +366,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "createUIDocumentInteractionControllerDelegate(): NSObject",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createUIDocumentInteractionControllerDelegate</span><span style=\"color: #E1E4E8\">(): NSObject</span></span></code>",
           "url": "/api/namespace/Utils-ios#createuidocumentinteractioncontrollerdelegate-createuidocumentinteractioncontrollerdelegate-1",
           "sources": [
             {
@@ -388,7 +388,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isRealDevice(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isRealDevice</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/namespace/Utils-ios#isrealdevice-isrealdevice-1",
           "sources": [
             {
@@ -410,7 +410,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "printCGRect(rect: CGRect): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">printCGRect</span><span style=\"color: #E1E4E8\">(rect: CGRect): string</span></span></code>",
           "url": "/api/namespace/Utils-ios#printcgrect-printcgrect-1",
           "sources": [
             {
@@ -438,7 +438,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "snapshotView(view: UIView, scale: number): UIImage",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">snapshotView</span><span style=\"color: #E1E4E8\">(view: UIView, scale: number): UIImage</span></span></code>",
           "url": "/api/namespace/Utils-ios#snapshotview-snapshotview-1",
           "sources": [
             {
@@ -471,7 +471,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "copyLayerProperties(\n  view: UIView,\n  toView: UIView,\n  customProperties?: {\n    layer?: (string | number | symbol)[]\n  }\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">copyLayerProperties</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  view: UIView,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toView: UIView,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  customProperties</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    layer?: (string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> number </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> symbol)[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  }</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils-ios#copylayerproperties-copylayerproperties-1",
           "sources": [
             {
@@ -511,7 +511,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "animateWithSpring(options?: {\n  animateOptions?: UIViewAnimationOptions\n  animations?: () => void\n  completion?: (finished?: boolean) => void\n  delay?: number\n  friction?: number\n  mass?: number\n  tension?: number\n}): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">animateWithSpring</span><span style=\"color: #E1E4E8\">(options</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  animateOptions?: UIViewAnimationOptions</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  animations</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  completion</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">finished</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">boolean</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  friction</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  mass</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  tension</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Utils-ios#animatewithspring-animatewithspring-1",
           "sources": [
             {
@@ -540,7 +540,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "collections",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">collections</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/ios/index.d.ts",
@@ -561,7 +561,7 @@
       },
       "signatures": [
         {
-          "code": "MajorVersion: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MajorVersion</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/utils/ios/index.d.ts",

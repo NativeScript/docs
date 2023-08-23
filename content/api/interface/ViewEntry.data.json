@@ -40,7 +40,7 @@
       },
       "signatures": [
         {
-          "code": "moduleName?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">moduleName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",

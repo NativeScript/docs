@@ -23,7 +23,7 @@
       },
       "signatures": [
         {
-          "code": "done: \"done\" = \"done\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">done</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;done&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;done&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -44,7 +44,7 @@
       },
       "signatures": [
         {
-          "code": "next: \"next\" = \"next\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">next</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;next&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;next&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -65,7 +65,7 @@
       },
       "signatures": [
         {
-          "code": "go: \"go\" = \"go\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">go</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;go&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;go&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -86,7 +86,7 @@
       },
       "signatures": [
         {
-          "code": "search: \"search\" = \"search\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">search</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;search&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;search&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -107,7 +107,7 @@
       },
       "signatures": [
         {
-          "code": "send: \"send\" = \"send\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">send</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;send&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;send&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

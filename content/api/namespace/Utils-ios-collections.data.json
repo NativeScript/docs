@@ -19,7 +19,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "jsArrayToNSArray&lt;T&gt;(str: T[]): NSArray&lt;T&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">jsArrayToNSArray</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">str</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">[])</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">NSArray</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">gt</span><span style=\"color: #E1E4E8\">;</span></span></code>",
           "url": "/api/namespace/Utils-ios-collections#jsarraytonsarray-jsarraytonsarray-1",
           "sources": [
             {
@@ -47,7 +47,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "nsArrayToJSArray&lt;T&gt;(a: NSArray&lt;T&gt;): T[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">nsArrayToJSArray</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">a</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">NSArray</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">gt</span><span style=\"color: #E1E4E8\">;)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">[]</span></span></code>",
           "url": "/api/namespace/Utils-ios-collections#nsarraytojsarray-nsarraytojsarray-1",
           "sources": [
             {

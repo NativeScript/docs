@@ -42,7 +42,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Adjustable: \"adjustable\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Adjustable</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;adjustable&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -77,7 +77,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Button: \"button\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Button</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;button&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -112,7 +112,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Checkbox: \"checkbox\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Checkbox</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;checkbox&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -147,7 +147,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Header: \"header\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Header</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;header&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -182,7 +182,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Image: \"image\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Image</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;image&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -217,7 +217,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageButton: \"imageButton\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ImageButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;imageButton&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -252,7 +252,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyboardKey: \"keyboardKey\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">KeyboardKey</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;keyboardKey&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -287,7 +287,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Link: \"link\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Link</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;link&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -322,7 +322,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "None: \"none\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">None</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -357,7 +357,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PlaysSound: \"plays\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PlaysSound</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;plays&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -392,7 +392,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ProgressBar: \"progressBar\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ProgressBar</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;progressBar&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -427,7 +427,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "RadioButton: \"radioButton\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">RadioButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;radioButton&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -462,7 +462,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Search: \"search\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Search</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;search&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -497,7 +497,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SpinButton: \"spinButton\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">SpinButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;spinButton&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -532,7 +532,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "StartsMediaSession: \"startsMedia\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StartsMediaSession</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;startsMedia&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -567,7 +567,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "StaticText: \"text\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StaticText</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;text&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -602,7 +602,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Summary: \"summary\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Summary</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;summary&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -637,7 +637,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Switch: \"switch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Switch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;switch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",

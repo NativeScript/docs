@@ -30,7 +30,7 @@
       },
       "signatures": [
         {
-          "code": "down: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">down</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -67,7 +67,7 @@
       },
       "signatures": [
         {
-          "code": "up: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">up</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -104,7 +104,7 @@
       },
       "signatures": [
         {
-          "code": "move: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">move</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -141,7 +141,7 @@
       },
       "signatures": [
         {
-          "code": "cancel: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancel</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

@@ -2,7 +2,7 @@
 title: CoreTypes.ReturnKeyType
 category: Namespaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Namespaces'

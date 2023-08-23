@@ -23,7 +23,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getDrawableId(name: any): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDrawableId</span><span style=\"color: #E1E4E8\">(name: any): number</span></span></code>",
           "url": "/api/namespace/Utils-android-resources#getdrawableid-getdrawableid-1",
           "sources": [
             {
@@ -51,7 +51,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getStringId(name: any): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getStringId</span><span style=\"color: #E1E4E8\">(name: any): number</span></span></code>",
           "url": "/api/namespace/Utils-android-resources#getstringid-getstringid-1",
           "sources": [
             {
@@ -79,7 +79,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getId(name: string): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getId</span><span style=\"color: #E1E4E8\">(name: string): number</span></span></code>",
           "url": "/api/namespace/Utils-android-resources#getid-getid-1",
           "sources": [
             {
@@ -107,7 +107,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getResource(name: string, type?: string): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getResource</span><span style=\"color: #E1E4E8\">(name: string, type</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): number</span></span></code>",
           "url": "/api/namespace/Utils-android-resources#getresource-getresource-1",
           "sources": [
             {
@@ -142,7 +142,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getPalleteColor(name: string, context: Context): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPalleteColor</span><span style=\"color: #E1E4E8\">(name: string, context: Context): number</span></span></code>",
           "url": "/api/namespace/Utils-android-resources#getpalletecolor-getpalletecolor-1",
           "sources": [
             {
@@ -175,7 +175,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getPaletteColor(name: string, context: Context): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPaletteColor</span><span style=\"color: #E1E4E8\">(name: string, context: Context): number</span></span></code>",
           "url": "/api/namespace/Utils-android-resources#getpalettecolor-getpalettecolor-1",
           "sources": [
             {

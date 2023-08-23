@@ -43,7 +43,7 @@
       },
       "signatures": [
         {
-          "code": "StartElement: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StartElement</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -80,7 +80,7 @@
       },
       "signatures": [
         {
-          "code": "EndElement: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EndElement</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -117,7 +117,7 @@
       },
       "signatures": [
         {
-          "code": "Text: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -154,7 +154,7 @@
       },
       "signatures": [
         {
-          "code": "CDATA: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CDATA</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -191,7 +191,7 @@
       },
       "signatures": [
         {
-          "code": "Comment: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Comment</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",

@@ -2,7 +2,7 @@
 title: CoreTypes.HorizontalAlignment
 category: Namespaces
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Namespaces'

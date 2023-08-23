@@ -24,7 +24,7 @@
       },
       "signatures": [
         {
-          "code": "datetime: \"datetime\" = \"datetime\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">datetime</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -45,7 +45,7 @@
       },
       "signatures": [
         {
-          "code": "phone: \"phone\" = \"phone\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">phone</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -66,7 +66,7 @@
       },
       "signatures": [
         {
-          "code": "number: \"number\" = \"number\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">number</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -87,7 +87,7 @@
       },
       "signatures": [
         {
-          "code": "url: \"url\" = \"url\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -108,7 +108,7 @@
       },
       "signatures": [
         {
-          "code": "email: \"email\" = \"email\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">email</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -129,7 +129,7 @@
       },
       "signatures": [
         {
-          "code": "integer: \"integer\" = \"integer\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">integer</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

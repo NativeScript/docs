@@ -19,7 +19,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "stringArrayToStringSet(str: string[]): java.util.HashSet&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stringArrayToStringSet</span><span style=\"color: #E1E4E8\">(str: string[]): java.util.HashSet</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/namespace/Utils-android-collections#stringarraytostringset-stringarraytostringset-1",
           "sources": [
             {
@@ -47,7 +47,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "stringSetToStringArray(stringSet: any): string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stringSetToStringArray</span><span style=\"color: #E1E4E8\">(stringSet: any): string[]</span></span></code>",
           "url": "/api/namespace/Utils-android-collections#stringsettostringarray-stringsettostringarray-1",
           "sources": [
             {

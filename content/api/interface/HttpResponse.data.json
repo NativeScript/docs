@@ -33,7 +33,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "statusCode: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">statusCode</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",

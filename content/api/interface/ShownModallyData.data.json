@@ -42,7 +42,7 @@
       },
       "signatures": [
         {
-          "code": "context?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">context</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -79,7 +79,7 @@
       },
       "signatures": [
         {
-          "code": "closeCallback?: Function",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">closeCallback</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Function</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
@@ -120,7 +120,7 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",

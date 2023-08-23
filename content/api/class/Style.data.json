@@ -191,7 +191,7 @@
       },
       "signatures": [
         {
-          "code": "propertyChangeEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -494,7 +494,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setScopedCssVariable(varName: string, value: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setScopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string, value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#setscopedcssvariable-setscopedcssvariable-1",
           "sources": [
             {
@@ -527,7 +527,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setUnscopedCssVariable(varName: string, value: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setUnscopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string, value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#setunscopedcssvariable-setunscopedcssvariable-1",
           "sources": [
             {
@@ -560,7 +560,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeScopedCssVariable(varName: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeScopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#removescopedcssvariable-removescopedcssvariable-1",
           "sources": [
             {
@@ -588,7 +588,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeUnscopedCssVariable(varName: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeUnscopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#removeunscopedcssvariable-removeunscopedcssvariable-1",
           "sources": [
             {
@@ -616,7 +616,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getCssVariable(varName: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCssVariable</span><span style=\"color: #E1E4E8\">(varName: string): string</span></span></code>",
           "url": "/api/class/Style#getcssvariable-getcssvariable-1",
           "sources": [
             {
@@ -644,7 +644,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "resetScopedCssVariables(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetScopedCssVariables</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#resetscopedcssvariables-resetscopedcssvariables-1",
           "sources": [
             {
@@ -666,7 +666,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "resetUnscopedCssVariables(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetUnscopedCssVariables</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#resetunscopedcssvariables-resetunscopedcssvariables-1",
           "sources": [
             {
@@ -688,7 +688,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toString(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/class/Style#tostring-tostring-1",
           "sources": [
             {
@@ -736,7 +736,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "fontScaleInternal: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontScaleInternal</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -782,7 +782,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "rotate: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotate</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -801,7 +801,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "rotateX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotateX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -820,7 +820,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "rotateY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotateY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -839,7 +839,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "perspective: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">perspective</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -858,7 +858,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "scaleX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scaleX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -877,7 +877,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "scaleY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scaleY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -896,7 +896,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "translateX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">translateX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -915,7 +915,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "translateY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">translateY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -934,7 +934,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "clipPath: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clipPath</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1010,7 +1010,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "background: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">background</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1048,7 +1048,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "backgroundImage: string | LinearGradient",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundImage</span><span style=\"color: #E1E4E8\">: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> LinearGradient</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1086,7 +1086,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "backgroundSize: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundSize</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1105,7 +1105,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "backgroundPosition: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundPosition</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1409,7 +1409,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "boxShadow: CSSShadow",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">boxShadow</span><span style=\"color: #E1E4E8\">: CSSShadow</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1428,7 +1428,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "fontSize: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontSize</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1447,7 +1447,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "fontFamily: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontFamily</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1466,7 +1466,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "fontStyle: FontStyleType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontStyle</span><span style=\"color: #E1E4E8\">: FontStyleType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1485,7 +1485,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "fontWeight: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontWeight</span><span style=\"color: #E1E4E8\">: FontWeightType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1504,7 +1504,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "font: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">font</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1523,7 +1523,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "maxLines: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">maxLines</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1542,7 +1542,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "androidElevation: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">androidElevation</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1561,7 +1561,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "androidDynamicElevationOffset: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">androidDynamicElevationOffset</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1580,7 +1580,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "zIndex: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">zIndex</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1599,7 +1599,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "opacity: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">opacity</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1637,7 +1637,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "letterSpacing: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">letterSpacing</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1656,7 +1656,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "lineHeight: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lineHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -1732,7 +1732,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "textShadow: CSSShadow",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">textShadow</span><span style=\"color: #E1E4E8\">: CSSShadow</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2074,7 +2074,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "tabTextFontSize: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">tabTextFontSize</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2207,7 +2207,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "statusBarStyle: \"dark\" | \"light\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">statusBarStyle</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2302,7 +2302,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "flexDirection: FlexDirection",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexDirection</span><span style=\"color: #E1E4E8\">: FlexDirection</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2321,7 +2321,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "flexWrap: FlexWrap",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrap</span><span style=\"color: #E1E4E8\">: FlexWrap</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2340,7 +2340,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "justifyContent: JustifyContent",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">justifyContent</span><span style=\"color: #E1E4E8\">: JustifyContent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2359,7 +2359,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "alignItems: AlignItems",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignItems</span><span style=\"color: #E1E4E8\">: AlignItems</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2378,7 +2378,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "alignContent: AlignContent",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignContent</span><span style=\"color: #E1E4E8\">: AlignContent</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2397,7 +2397,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "order: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">order</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2416,7 +2416,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "flexGrow: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexGrow</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2435,7 +2435,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "flexShrink: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexShrink</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2454,7 +2454,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "flexWrapBefore: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrapBefore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2473,7 +2473,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "alignSelf: AlignSelf",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignSelf</span><span style=\"color: #E1E4E8\">: AlignSelf</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2492,7 +2492,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "accessible: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessible</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2511,7 +2511,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "accessibilityHidden: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityHidden</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2587,7 +2587,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "accessibilityLanguage: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityLanguage</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2606,7 +2606,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "accessibilityMediaSession: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityMediaSession</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2625,7 +2625,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "accessibilityStep: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityStep</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2644,7 +2644,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "iosAccessibilityAdjustsFontSize: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityAdjustsFontSize</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2663,7 +2663,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "iosAccessibilityMinFontScale: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMinFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2682,7 +2682,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "iosAccessibilityMaxFontScale: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMaxFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2701,7 +2701,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PropertyBag: {\n  prototype: {}\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PropertyBag</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">prototype</span><span style=\"color: #E1E4E8\">: {}</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
@@ -2765,7 +2765,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "get(name: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
           "url": "/api/class/Style#get-get-1",
           "sources": [
             {
@@ -2807,7 +2807,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "set(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#set-set-1",
           "sources": [
             {
@@ -2854,7 +2854,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setProperty(name: string, value: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#setproperty-setproperty-1",
           "sources": [
             {
@@ -3295,7 +3295,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notify&lt;T&gt;(data: T): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
           "url": "/api/class/Style#notify-notify-1",
           "sources": [
             {
@@ -3345,7 +3345,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyPropertyChange(name: string, value: any, oldValue?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#notifypropertychange-notifypropertychange-1",
           "sources": [
             {
@@ -3399,7 +3399,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasListeners(eventName: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
           "url": "/api/class/Style#haslisteners-haslisteners-1",
           "sources": [
             {
@@ -3503,7 +3503,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_emit(eventNames: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Style#emit-emit-1",
           "sources": [
             {

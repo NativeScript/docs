@@ -89,7 +89,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "actualLength: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">actualLength</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -159,7 +159,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isAbsolute: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isAbsolute</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -194,7 +194,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isAuto: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isAuto</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -229,7 +229,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isStar: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isStar</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -264,7 +264,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "value: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">value</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",

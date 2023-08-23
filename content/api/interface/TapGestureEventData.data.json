@@ -49,7 +49,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getPointerCount(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPointerCount</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/interface/TapGestureEventData#getpointercount-getpointercount-1",
           "sources": [
             {
@@ -79,7 +79,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getX(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getX</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/interface/TapGestureEventData#getx-getx-1",
           "sources": [
             {
@@ -109,7 +109,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getY(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getY</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/interface/TapGestureEventData#gety-gety-1",
           "sources": [
             {
@@ -246,7 +246,7 @@
       },
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -293,7 +293,7 @@
       },
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -340,7 +340,7 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",

@@ -27,7 +27,7 @@
       },
       "signatures": [
         {
-          "code": "thin: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">thin</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -48,7 +48,7 @@
       },
       "signatures": [
         {
-          "code": "extraLight: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extraLight</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -69,7 +69,7 @@
       },
       "signatures": [
         {
-          "code": "light: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">light</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -90,7 +90,7 @@
       },
       "signatures": [
         {
-          "code": "normal: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normal</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -111,7 +111,7 @@
       },
       "signatures": [
         {
-          "code": "medium: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">medium</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -132,7 +132,7 @@
       },
       "signatures": [
         {
-          "code": "semiBold: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">semiBold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -153,7 +153,7 @@
       },
       "signatures": [
         {
-          "code": "bold: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -174,7 +174,7 @@
       },
       "signatures": [
         {
-          "code": "extraBold: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extraBold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
@@ -195,7 +195,7 @@
       },
       "signatures": [
         {
-          "code": "black: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">black</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",

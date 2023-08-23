@@ -29,7 +29,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "filter: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">filter</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -49,7 +49,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "on(object: Object, name: string, data?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">on</span><span style=\"color: #E1E4E8\">(object: Object, name: string, data</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/interface/TraceEventListener#on-on-1",
           "sources": [
             {

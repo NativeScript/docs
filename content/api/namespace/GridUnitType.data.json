@@ -27,7 +27,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isValid(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isValid</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/GridUnitType#isvalid-isvalid-1",
           "sources": [
             {
@@ -84,7 +84,7 @@
       },
       "signatures": [
         {
-          "code": "PIXEL: \"pixel\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PIXEL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;pixel&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -105,7 +105,7 @@
       },
       "signatures": [
         {
-          "code": "STAR: \"star\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">STAR</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;star&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -126,7 +126,7 @@
       },
       "signatures": [
         {
-          "code": "AUTO: \"auto\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AUTO</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;auto&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",

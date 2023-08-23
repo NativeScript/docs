@@ -41,7 +41,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "propertyName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -76,7 +76,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "value: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">value</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -113,7 +113,7 @@
       },
       "signatures": [
         {
-          "code": "oldValue?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
@@ -154,7 +154,7 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",

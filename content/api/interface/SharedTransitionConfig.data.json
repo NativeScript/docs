@@ -36,7 +36,7 @@
       },
       "signatures": [
         {
-          "code": "interactive?: {}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">interactive</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -73,7 +73,7 @@
       },
       "signatures": [
         {
-          "code": "pageStart?: SharedTransitionPageProperties",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">pageStart</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> SharedTransitionPageProperties</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -110,7 +110,7 @@
       },
       "signatures": [
         {
-          "code": "pageEnd?: SharedTransitionPageWithDurationProperties",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">pageEnd</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> SharedTransitionPageWithDurationProperties</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
@@ -147,7 +147,7 @@
       },
       "signatures": [
         {
-          "code": "pageReturn?: SharedRect & {\n  opacity?: number\n} & {\n  sharedTransitionTags?: {}\n} & {} & {}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">pageReturn</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> SharedRect </span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  opacity</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">} </span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  sharedTransitionTags</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {}</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">} </span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\"> {} </span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\"> {}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",

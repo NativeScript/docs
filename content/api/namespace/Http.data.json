@@ -33,7 +33,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getString(url: string): Promise&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getString</span><span style=\"color: #E1E4E8\">(url: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/namespace/Http#getstring-getstring-1",
           "sources": [
             {
@@ -113,7 +113,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getJSON&lt;T&gt;(url: string): Promise&lt;T&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getJSON</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">url</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">gt</span><span style=\"color: #E1E4E8\">;</span></span></code>",
           "url": "/api/namespace/Http#getjson-getjson-1",
           "sources": [
             {
@@ -383,7 +383,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getBinary(url: string): Promise&lt;ArrayBuffer&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getBinary</span><span style=\"color: #E1E4E8\">(url: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;ArrayBuffer</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/namespace/Http#getbinary-getbinary-1",
           "sources": [
             {

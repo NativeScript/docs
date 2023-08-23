@@ -36,7 +36,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "url: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -71,7 +71,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "method: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">method</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -108,7 +108,7 @@
       },
       "signatures": [
         {
-          "code": "headers?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">headers</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -145,7 +145,7 @@
       },
       "signatures": [
         {
-          "code": "content?: string | FormData | ArrayBuffer",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">content</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> FormData </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> ArrayBuffer</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -182,7 +182,7 @@
       },
       "signatures": [
         {
-          "code": "timeout?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">timeout</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -219,7 +219,7 @@
       },
       "signatures": [
         {
-          "code": "dontFollowRedirects?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">dontFollowRedirects</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",

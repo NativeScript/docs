@@ -27,7 +27,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "path: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">path</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -46,7 +46,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -67,7 +67,7 @@
       },
       "signatures": [
         {
-          "code": "attributes?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">attributes</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -88,7 +88,7 @@
       },
       "signatures": [
         {
-          "code": "exports?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #79B8FF\">exports</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",

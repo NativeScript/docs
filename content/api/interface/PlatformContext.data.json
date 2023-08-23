@@ -26,7 +26,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "width: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">width</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
@@ -45,7 +45,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "height: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">height</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
@@ -64,7 +64,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "os: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">os</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
@@ -83,7 +83,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "deviceType: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deviceType</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",

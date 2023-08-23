@@ -28,7 +28,7 @@
       },
       "signatures": [
         {
-          "code": "width?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">width</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -49,7 +49,7 @@
       },
       "signatures": [
         {
-          "code": "height?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">height</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -70,7 +70,7 @@
       },
       "signatures": [
         {
-          "code": "keepAspectRatio?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">keepAspectRatio</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -91,7 +91,7 @@
       },
       "signatures": [
         {
-          "code": "autoScaleFactor?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">autoScaleFactor</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",

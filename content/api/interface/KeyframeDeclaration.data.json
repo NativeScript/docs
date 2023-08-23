@@ -24,7 +24,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "property: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">property</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -43,7 +43,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "value: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">value</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",

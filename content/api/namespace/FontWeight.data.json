@@ -33,7 +33,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isValid(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isValid</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/FontWeight#isvalid-isvalid-1",
           "sources": [
             {
@@ -61,7 +61,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "parse(value: string): FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parse</span><span style=\"color: #E1E4E8\">(value: string): FontWeightType</span></span></code>",
           "url": "/api/namespace/FontWeight#parse-parse-1",
           "sources": [
             {
@@ -90,7 +90,7 @@
       },
       "signatures": [
         {
-          "code": "THIN: \"100\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">THIN</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;100&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -111,7 +111,7 @@
       },
       "signatures": [
         {
-          "code": "EXTRA_LIGHT: \"200\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EXTRA_LIGHT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;200&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -132,7 +132,7 @@
       },
       "signatures": [
         {
-          "code": "LIGHT: \"300\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LIGHT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;300&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -153,7 +153,7 @@
       },
       "signatures": [
         {
-          "code": "NORMAL: \"normal\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NORMAL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -174,7 +174,7 @@
       },
       "signatures": [
         {
-          "code": "MEDIUM: \"500\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MEDIUM</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;500&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -195,7 +195,7 @@
       },
       "signatures": [
         {
-          "code": "SEMI_BOLD: \"600\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">SEMI_BOLD</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;600&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -216,7 +216,7 @@
       },
       "signatures": [
         {
-          "code": "BOLD: \"bold\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BOLD</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;bold&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -237,7 +237,7 @@
       },
       "signatures": [
         {
-          "code": "EXTRA_BOLD: \"800\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EXTRA_BOLD</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;800&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -258,7 +258,7 @@
       },
       "signatures": [
         {
-          "code": "BLACK: \"900\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BLACK</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;900&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",

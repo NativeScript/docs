@@ -2,7 +2,7 @@
 title: SwipeDirection
 category: Enumerations
 titleTemplate: 'API - NativeScript'
-breadcrumbs: 
+breadcrumbs:
   - name: 'API Index'
     href: '/api/'
   - name: 'Enumerations'

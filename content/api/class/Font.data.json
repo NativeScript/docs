@@ -177,7 +177,7 @@
       },
       "signatures": [
         {
-          "code": "fontFamily: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontFamily</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -198,7 +198,7 @@
       },
       "signatures": [
         {
-          "code": "fontStyle: FontStyleType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontStyle</span><span style=\"color: #E1E4E8\">: FontStyleType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -219,7 +219,7 @@
       },
       "signatures": [
         {
-          "code": "fontWeight: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontWeight</span><span style=\"color: #E1E4E8\">: FontWeightType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -240,7 +240,7 @@
       },
       "signatures": [
         {
-          "code": "fontSize: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontSize</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -261,7 +261,7 @@
       },
       "signatures": [
         {
-          "code": "fontScale: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -283,7 +283,7 @@
       },
       "signatures": [
         {
-          "code": "fontVariationSettings?: FontVariationSettings[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">fontVariationSettings</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> FontVariationSettings[]</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -304,7 +304,7 @@
       },
       "signatures": [
         {
-          "code": "isBold: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isBold</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -325,7 +325,7 @@
       },
       "signatures": [
         {
-          "code": "isItalic: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isItalic</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
@@ -347,7 +347,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getAndroidTypeface(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getAndroidTypeface</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/Font#getandroidtypeface-getandroidtypeface-1",
           "sources": [
             {
@@ -371,7 +371,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getUIFont(defaultFont: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getUIFont</span><span style=\"color: #E1E4E8\">(defaultFont: any): any</span></span></code>",
           "url": "/api/class/Font#getuifont-getuifont-1",
           "sources": [
             {

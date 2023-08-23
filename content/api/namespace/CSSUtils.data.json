@@ -32,7 +32,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getSystemCssClasses(): string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getSystemCssClasses</span><span style=\"color: #E1E4E8\">(): string[]</span></span></code>",
           "url": "/api/namespace/CSSUtils#getsystemcssclasses-getsystemcssclasses-1",
           "sources": [
             {
@@ -54,7 +54,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "pushToSystemCssClasses(value: string): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">pushToSystemCssClasses</span><span style=\"color: #E1E4E8\">(value: string): number</span></span></code>",
           "url": "/api/namespace/CSSUtils#pushtosystemcssclasses-pushtosystemcssclasses-1",
           "sources": [
             {
@@ -82,7 +82,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeSystemCssClass(value: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeSystemCssClass</span><span style=\"color: #E1E4E8\">(value: string): string</span></span></code>",
           "url": "/api/namespace/CSSUtils#removesystemcssclass-removesystemcssclass-1",
           "sources": [
             {
@@ -110,7 +110,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getModalRootViewCssClass(): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getModalRootViewCssClass</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
           "url": "/api/namespace/CSSUtils#getmodalrootviewcssclass-getmodalrootviewcssclass-1",
           "sources": [
             {
@@ -132,7 +132,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getRootViewCssClasses(): string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getRootViewCssClasses</span><span style=\"color: #E1E4E8\">(): string[]</span></span></code>",
           "url": "/api/namespace/CSSUtils#getrootviewcssclasses-getrootviewcssclasses-1",
           "sources": [
             {
@@ -154,7 +154,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "pushToRootViewCssClasses(value: string): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">pushToRootViewCssClasses</span><span style=\"color: #E1E4E8\">(value: string): number</span></span></code>",
           "url": "/api/namespace/CSSUtils#pushtorootviewcssclasses-pushtorootviewcssclasses-1",
           "sources": [
             {
@@ -182,7 +182,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeFromRootViewCssClasses(value: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeFromRootViewCssClasses</span><span style=\"color: #E1E4E8\">(value: string): string</span></span></code>",
           "url": "/api/namespace/CSSUtils#removefromrootviewcssclasses-removefromrootviewcssclasses-1",
           "sources": [
             {
@@ -211,7 +211,7 @@
       },
       "signatures": [
         {
-          "code": "CLASS_PREFIX: \"ns-\" = \"ns-\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CLASS_PREFIX</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;ns-&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;ns-&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/css/system-classes.d.ts",
@@ -232,7 +232,7 @@
       },
       "signatures": [
         {
-          "code": "MODAL_ROOT_VIEW_CSS_CLASS: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MODAL_ROOT_VIEW_CSS_CLASS</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/css/system-classes.d.ts",
@@ -253,7 +253,7 @@
       },
       "signatures": [
         {
-          "code": "ROOT_VIEW_CSS_CLASS: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ROOT_VIEW_CSS_CLASS</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/css/system-classes.d.ts",

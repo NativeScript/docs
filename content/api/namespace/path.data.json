@@ -25,7 +25,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "normalize(path: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normalize</span><span style=\"color: #E1E4E8\">(path: string): string</span></span></code>",
           "url": "/api/namespace/path#normalize-normalize-1",
           "sources": [
             {
@@ -69,7 +69,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "join(...paths: string[]): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">join</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">paths: string[]): string</span></span></code>",
           "url": "/api/namespace/path#join-join-1",
           "sources": [
             {
@@ -124,7 +124,7 @@
       },
       "signatures": [
         {
-          "code": "separator: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">separator</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
