@@ -241,7 +241,7 @@ Defaults to `"initial"`.
 
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/label).
 
-## Event(s)
+## Events
 
 ### textChange
 

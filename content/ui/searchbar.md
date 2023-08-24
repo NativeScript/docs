@@ -203,7 +203,7 @@ Gets or sets the color of the placeholder text.
 
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/searchbar)
 
-## Event(s)
+## Events
 
 ### textChange
 

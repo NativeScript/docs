@@ -147,7 +147,7 @@ Gets or sets the off-state color.
 
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/switch).
 
-## Event(s)
+## Events
 
 ### checkedChange
 

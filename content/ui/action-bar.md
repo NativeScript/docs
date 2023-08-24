@@ -706,7 +706,7 @@ Gets or sets the icon of the action item.
 | `unloaded`      | Emitted when the view is unloaded.                                         |
 | `layoutChanged` | Emitted when the layout bounds of a view changes due to layout processing. |
 
-### API
+## API
 
 | Name                                                                                     | Type    |
 | :--------------------------------------------------------------------------------------- | :------ |

@@ -148,7 +148,7 @@ Gets or sets the maximum value of the slider.
 
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/slider).
 
-## Event(s)
+## Events
 
 ### valueChange
 

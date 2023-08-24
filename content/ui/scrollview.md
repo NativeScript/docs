@@ -232,7 +232,7 @@ Scrolls the content to the specified horizontal offset position. Set `animated` 
 
 ---
 
-## Event(s)
+## Events
 
 ### scroll
 

@@ -238,7 +238,7 @@ Gets or sets the selectable minute interval. `Default`:`1`.
 
 ---
 
-### Inherited Props
+### ...Inherited
 
 For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/timepicker) |
 

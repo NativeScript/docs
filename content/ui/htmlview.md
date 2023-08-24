@@ -121,7 +121,7 @@ Gets or sets a value indicating whether HtmlView is selectable.
 
 ---
 
-### Inherited
+### ...Inherited
 
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/htmlview).
 

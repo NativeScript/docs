@@ -202,7 +202,7 @@ Checks if the item with the specified index is visible.
 
 ---
 
-## Event(s)
+## Events
 
 ### itemTap
 

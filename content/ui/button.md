@@ -129,13 +129,13 @@ Make the button disabled or enabled. A disabled button is unusable and un-clicka
 
 ---
 
-### Inherited
+### ...Inherited
 
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/button).
 
 ---
 
-## Event(s)
+## Events
 
 ### tap
 

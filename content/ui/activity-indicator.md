@@ -117,7 +117,7 @@ Gets or sets whether the indicator is active.
 
 ---
 
-### Inherited
+### ...Inherited
 
 For additional inherited properties,refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/activityindicator).
 

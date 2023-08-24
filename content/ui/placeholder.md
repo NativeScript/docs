@@ -2,7 +2,7 @@
 title: Placeholder
 ---
 
-`<Placeholder>` allows you to add any native widget to your application. To do that, you need to put a Placeholder somewhere in the UI hierarchy and then create and configure the native widget that you want to appear there. Finally, pass your native widget to the event arguments of the creatingView event.
+`<Placeholder>` allows adding native views directly in your markup without creating a full [View](#) wrapper for it. When NativeScript is constructing the UI and encounters a placeholder element, it emits a `creatingView` event, allowing you to pass in any native view to be rendered by assigning it to the `args.view` parameter.
 
 ### Creating a Simple Placeholder
 
@@ -29,6 +29,7 @@ export function creatingView(args) {
     nativeView.setText('Native View (Android)')
   }
 
+  // assign it to args.view so NativeScript can place it into the UI
   args.view = nativeView
 }
 ```
@@ -122,24 +123,21 @@ methods: {
 
 /// -->
 
-## Placeholder Reference(s)
+## Props
 
-### Props
+### ...Inherited
 
-| Name           | Type        | Description                                                                                                                              |
-| -------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `N/A`          | `N/A`       | None.                                                                                                                                    |
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/placeholder) |
+Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/placeholder)
 
-<!-- TODO: Add description for  creatingView event-->
+## Events
 
-### Events
+### creatingView
 
-| Name           | Description |
-| -------------- | ----------- |
-| `creatingView` |             |
+Emitted when building the UI, the event args allow passing a native view instance back via `args.view`.
 
-### CreateViewEventData
+#### CreateViewEventData
+
+<!-- todo: perhaps just link to API ref. -->
 
 | Name      | Type  | Description                                              |
 | --------- | ----- | -------------------------------------------------------- |

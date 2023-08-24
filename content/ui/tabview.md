@@ -259,7 +259,7 @@ The `TabView` component has the following unique styling properties:
   - [title](#title)
   - [textTransform](#texttransform)
   - [iconSource](#iconsource)
-- [Event(s)](#events)
+- [Events](#events)
   - [selectedIndexChange](#selectedindexchange)
     - [SelectedIndexChangedEventData](#selectedindexchangedeventdata)
 - [Native component](#native-component)
@@ -413,7 +413,7 @@ Sets the text transform individually for every `TabViewItem`. See [textTransfo
 
 Gets or sets the icon source of the tab strip entry. Supports local image paths (`~`), resource images (`res://`) and icon fonts (`font://`).
 
-## Event(s)
+## Events
 
 ### selectedIndexChange
 

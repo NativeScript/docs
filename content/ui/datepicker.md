@@ -284,7 +284,7 @@ Valid values are numbers:
 
 ---
 
-## Event(s)
+## Events
 
 ### dateChange
 

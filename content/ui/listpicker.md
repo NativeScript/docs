@@ -143,7 +143,7 @@ Gets or sets the index of the currently selected item.
 
 For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/listpicker).
 
-## Event(s)
+## Events
 
 ### selectedIndexChange
 

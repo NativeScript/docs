@@ -190,7 +190,7 @@ Reloads the current url.
 
 ---
 
-### Inherited
+### ...Inherited
 
 For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/webview)
 
