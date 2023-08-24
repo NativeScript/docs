@@ -39,6 +39,7 @@ export default [
         text: 'Running',
         link: '/guide/running',
       },
+
       {
         text: 'Debugging',
         link: '/guide/debugging',
@@ -46,6 +47,19 @@ export default [
       {
         text: 'Publishing',
         link: '/guide/publishing/',
+      },
+    ],
+  },
+  {
+    text: 'Configuration',
+    items: [
+      {
+        text: 'Config Reference',
+        link: '/configuration/nativescript',
+      },
+      {
+        text: 'Webpack Reference',
+        link: '/configuration/webpack',
       },
     ],
   },
@@ -91,7 +105,11 @@ export default [
         link: '/project-structure/package-json',
         icon: 'file',
       },
-      { text: 'webpack.config.js', link: '/webpack', icon: 'file' },
+      {
+        text: 'webpack.config.js',
+        link: '/project-structure/webpack-config',
+        icon: 'file',
+      },
       // {
       //   text: 'package.json',
       //   link: '//#',

@@ -7,7 +7,7 @@ contributors:
 
 :::warning Note
 This section is only aplicable to `@nativescript/webpack` version `5.0.0` and above.
-If you are using an older version, consider upgrading. This is compatible with webpack version 5.x.
+If you are using an older version, consider upgrading.
 :::
 
 All NativeScript applications are bundled using webpack. To manage the required configuration, we maintain the `@nativescript/webpack` package.
