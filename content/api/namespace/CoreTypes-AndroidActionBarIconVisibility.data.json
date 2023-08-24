@@ -1,0 +1,79 @@
+{
+  "title": "AndroidActionBarIconVisibility",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4963,
+        4961,
+        4962
+      ]
+    }
+  ],
+  "reflections": {
+    "4961": {
+      "name": "auto",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#auto",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">auto</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 183,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#auto"
+        }
+      ]
+    },
+    "4962": {
+      "name": "never",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#never",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">never</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 184,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#never"
+        }
+      ]
+    },
+    "4963": {
+      "name": "always",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#always",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">always</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 185,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#always"
+        }
+      ]
+    }
+  }
+}

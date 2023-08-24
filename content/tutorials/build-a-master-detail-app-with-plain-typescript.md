@@ -2,6 +2,12 @@
 title: Build a master-detail app with Plain TypeScript
 category: Tutorials
 categoryLink: /tutorials/
+prev: false
+next: false
+contributors:
+  - williamjuan027
+  - Leon0824
+  - reneroboter
 ---
 
 This tutorial introduces you to the fundamentals of NativeScript by walking you through building an example app with some basic functionalities.

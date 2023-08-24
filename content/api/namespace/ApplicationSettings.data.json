@@ -1,0 +1,572 @@
+{
+  "title": "ApplicationSettings",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        925,
+        927,
+        929,
+        898,
+        906,
+        902,
+        895,
+        922,
+        910,
+        918,
+        914
+      ]
+    }
+  ],
+  "reflections": {
+    "895": {
+      "name": "hasKey",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#haskey",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasKey</span><span style=\"color: #E1E4E8\">(key: string): boolean</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#haskey-haskey-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 5,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether such a key exists."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "898": {
+      "name": "getBoolean",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#getboolean",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getBoolean</span><span style=\"color: #E1E4E8\">(key: string, defaultValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): boolean</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#getboolean-getboolean-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 12,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets a value (if existing) for a key as a Boolean Object. A default value can be provided in case there is no existing value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key to check for."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "defaultValue",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value to be returned in case there is no existing value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "902": {
+      "name": "getString",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#getstring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getString</span><span style=\"color: #E1E4E8\">(key: string, defaultValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): string</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#getstring-getstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 19,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets a value (if existing) for a key as a String Object. A default value can be provided in case there is no existing value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key to check for."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "defaultValue",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value to be returned in case there is no existing value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "906": {
+      "name": "getNumber",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#getnumber",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getNumber</span><span style=\"color: #E1E4E8\">(key: string, defaultValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#getnumber-getnumber-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 26,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets a value (if existing) for a key as a Number Object. A default value can be provided in case there is no existing value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key to check for."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "defaultValue",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value to be returned in case there is no existing value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "910": {
+      "name": "setBoolean",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#setboolean",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setBoolean</span><span style=\"color: #E1E4E8\">(key: string, value: boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#setboolean-setboolean-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 33,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Sets a Boolean Object for a key."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "value",
+              "type": "boolean",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "914": {
+      "name": "setString",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#setstring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setString</span><span style=\"color: #E1E4E8\">(key: string, value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#setstring-setstring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 40,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Sets a String Object for a key."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "918": {
+      "name": "setNumber",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#setnumber",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNumber</span><span style=\"color: #E1E4E8\">(key: string, value: number): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#setnumber-setnumber-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 47,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Sets a Number Object for a key."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "922": {
+      "name": "remove",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#remove",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(key: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#remove-remove-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 53,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes a value (if existing) for a key."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "key",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The key to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "925": {
+      "name": "clear",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#clear",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clear</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#clear-clear-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 58,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes all values."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "927": {
+      "name": "flush",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#flush",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flush</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#flush-flush-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 64,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Flush all changes to disk synchronously."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "boolean flag indicating if changes were saved successfully to disk."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "929": {
+      "name": "getAllKeys",
+      "type": "Function",
+      "url": "/api/namespace/ApplicationSettings#getallkeys",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getAllKeys</span><span style=\"color: #E1E4E8\">(): string[]</span></span></code>",
+          "url": "/api/namespace/ApplicationSettings#getallkeys-getallkeys-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application-settings/index.d.ts",
+              "line": 70,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get all stored keys"
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Array containing all stored keys"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string[]"
+        }
+      ]
+    }
+  }
+}

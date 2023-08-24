@@ -1,0 +1,197 @@
+{
+  "title": "ApplicationEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "ApplicationEventData"
+      }
+    ],
+    [
+      {
+        "text": "OrientationChangedEventData",
+        "link": "/api/interface/OrientationChangedEventData"
+      },
+      {
+        "text": "SystemAppearanceChangedEventData",
+        "link": "/api/interface/SystemAppearanceChangedEventData"
+      },
+      {
+        "text": "FontScaleChangedEventData",
+        "link": "/api/interface/FontScaleChangedEventData"
+      },
+      {
+        "text": "UnhandledErrorEventData",
+        "link": "/api/interface/UnhandledErrorEventData"
+      },
+      {
+        "text": "DiscardedErrorEventData",
+        "link": "/api/interface/DiscardedErrorEventData"
+      },
+      {
+        "text": "CssChangedEventData",
+        "link": "/api/interface/CssChangedEventData"
+      },
+      {
+        "text": "LoadAppCSSEventData",
+        "link": "/api/interface/LoadAppCSSEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        4680,
+        4678,
+        4679,
+        4681
+      ]
+    }
+  ],
+  "reflections": {
+    "4678": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/ApplicationEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 28,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ApplicationEventData#eventname"
+        }
+      ]
+    },
+    "4679": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/ApplicationEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 32,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+              }
+            ]
+          },
+          "url": "/api/interface/ApplicationEventData#ios"
+        }
+      ]
+    },
+    "4680": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/ApplicationEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native Android event arguments. Valid only when running on Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 36,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native Android event arguments. Valid only when running on Android."
+              }
+            ]
+          },
+          "url": "/api/interface/ApplicationEventData#android"
+        }
+      ]
+    },
+    "4681": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/ApplicationEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a> | <a href=\"/api/class/ApplicationCommon\">ApplicationCommon</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 40,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ApplicationEventData#object"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "title": "GestureStateTypes",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        14018,
+        14017,
+        14019,
+        14020
+      ]
+    }
+  ],
+  "reflections": {
+    "14017": {
+      "name": "cancelled",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#cancelled",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture canceled."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancelled</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 70,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture canceled."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#cancelled"
+        }
+      ]
+    },
+    "14018": {
+      "name": "began",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#began",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture began."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">began</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 74,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture began."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#began"
+        }
+      ]
+    },
+    "14019": {
+      "name": "changed",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#changed",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture changed."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">changed</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 78,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture changed."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#changed"
+        }
+      ]
+    },
+    "14020": {
+      "name": "ended",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureStateTypes#ended",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gesture ended."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ended</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 82,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gesture ended."
+              }
+            ]
+          },
+          "url": "/api/enum/GestureStateTypes#ended"
+        }
+      ]
+    }
+  }
+}

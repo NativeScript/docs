@@ -1,0 +1,102 @@
+{
+  "title": "CssAnimationParser",
+  "hierarchy": [
+    [
+      {
+        "text": "CssAnimationParser"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        26594
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        26588,
+        26591
+      ]
+    }
+  ],
+  "reflections": {
+    "26588": {
+      "name": "keyframeAnimationsFromCSSDeclarations",
+      "type": "Method",
+      "url": "/api/class/CssAnimationParser#keyframeanimationsfromcssdeclarations",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "keyframeAnimationsFromCSSDeclarations(declarations: <a href=\"/api/interface/KeyframeDeclaration\">KeyframeDeclaration</a>[]): <a href=\"/api/class/KeyframeAnimationInfo\">KeyframeAnimationInfo</a>[]",
+          "url": "/api/class/CssAnimationParser#keyframeanimationsfromcssdeclarations-keyframeanimationsfromcssdeclarations-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/css-animation-parser.d.ts",
+              "line": 3,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "declarations",
+              "type": "<a href=\"/api/interface/KeyframeDeclaration\">KeyframeDeclaration</a>[]",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/KeyframeAnimationInfo\">KeyframeAnimationInfo</a>[]"
+        }
+      ]
+    },
+    "26591": {
+      "name": "keyframesArrayFromCSS",
+      "type": "Method",
+      "url": "/api/class/CssAnimationParser#keyframesarrayfromcss",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "keyframesArrayFromCSS(keyframes: UnparsedKeyframe[]): <a href=\"/api/interface/KeyframeInfo\">KeyframeInfo</a>[]",
+          "url": "/api/class/CssAnimationParser#keyframesarrayfromcss-keyframesarrayfromcss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/css-animation-parser.d.ts",
+              "line": 4,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "keyframes",
+              "type": "UnparsedKeyframe[]",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/interface/KeyframeInfo\">KeyframeInfo</a>[]"
+        }
+      ]
+    },
+    "26594": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/CssAnimationParser#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new CssAnimationParser(): <a href=\"/api/class/CssAnimationParser\">CssAnimationParser</a>",
+          "url": "/api/class/CssAnimationParser#constructor-new-cssanimationparser",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/CssAnimationParser\">CssAnimationParser</a>"
+        }
+      ]
+    }
+  }
+}

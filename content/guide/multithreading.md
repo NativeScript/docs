@@ -1,6 +1,9 @@
 ---
 title: Multithreading and Workers
 description: Heavy tasks on the main thread are a no-go, luckily NativeScript can be multi-threaded!
+contributors:
+  - rigor789
+  - ammarahm-ed
 ---
 
 One of NativeScript's benefits is that it allows fast and efficient access to all native platform (Android/Objective-C) APIs through JavaScript, without using (de)serialization or reflection. JavaScript executes on the main thread (aka the UI thread). That means that operations that potentially take longer can lag the rendering of the UI and make the application lag.

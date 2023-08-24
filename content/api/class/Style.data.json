@@ -1,0 +1,3530 @@
+{
+  "title": "Style",
+  "hierarchy": [
+    [
+      {
+        "text": "Observable",
+        "link": "/api/class/Observable"
+      }
+    ],
+    [
+      {
+        "text": "Style"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        26355
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        26477,
+        26481,
+        26480,
+        26482,
+        26478,
+        26479,
+        26483,
+        26476,
+        26470,
+        26469,
+        26475,
+        26463,
+        26464,
+        26465,
+        26427,
+        26426,
+        26458,
+        26462,
+        26398,
+        26399,
+        26400,
+        26385,
+        26403,
+        26401,
+        26402,
+        26407,
+        26418,
+        26417,
+        26412,
+        26404,
+        26408,
+        26413,
+        26414,
+        26406,
+        26411,
+        26405,
+        26415,
+        26416,
+        26410,
+        26409,
+        26419,
+        26394,
+        26395,
+        26466,
+        26472,
+        26473,
+        26467,
+        26474,
+        26424,
+        26421,
+        26383,
+        26384,
+        26420,
+        26422,
+        26423,
+        26441,
+        26452,
+        26484,
+        26486,
+        26485,
+        26468,
+        26431,
+        26432,
+        26442,
+        26446,
+        26443,
+        26445,
+        26444,
+        26425,
+        26439,
+        26438,
+        26429,
+        26471,
+        26447,
+        26451,
+        26448,
+        26450,
+        26449,
+        26389,
+        26397,
+        26487,
+        26314,
+        26386,
+        26387,
+        26388,
+        26390,
+        26391,
+        26460,
+        26457,
+        26459,
+        26461,
+        26456,
+        26455,
+        26454,
+        26433,
+        26434,
+        26436,
+        26435,
+        26396,
+        26392,
+        26393,
+        26453,
+        26497,
+        26430,
+        26437,
+        26440,
+        26428
+      ]
+    },
+    {
+      "title": "Accessors",
+      "items": [
+        26498
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        26564,
+        26569,
+        26536,
+        26347,
+        26501,
+        26374,
+        26561,
+        26552,
+        26556,
+        26528,
+        26331,
+        26512,
+        26315,
+        26520,
+        26323,
+        26544,
+        26339,
+        26368,
+        26371,
+        26377,
+        26379,
+        26504,
+        26508,
+        26360,
+        26364,
+        26381
+      ]
+    }
+  ],
+  "reflections": {
+    "26314": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/Style#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 74,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/Style#propertychangeevent"
+        }
+      ]
+    },
+    "26315": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/Style#on-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#on-2-on-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26323": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/Style#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 126,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26331": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/Style#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 127,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26339": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/Style#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 128,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26347": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/Style#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26355": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Style#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Style(ownerView: <a href=\"/api/class/ViewBase\">ViewBase</a> | WeakRef&lt;<a href=\"/api/class/ViewBase\">ViewBase</a>&gt;): <a href=\"/api/class/Style\">Style</a>",
+          "url": "/api/class/Style#constructor-new-style",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 31,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "ownerView",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a> | WeakRef&lt;<a href=\"/api/class/ViewBase\">ViewBase</a>&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Style\">Style</a>"
+        }
+      ]
+    },
+    "26360": {
+      "name": "setScopedCssVariable",
+      "type": "Method",
+      "url": "/api/class/Style#setscopedcssvariable",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setScopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string, value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#setscopedcssvariable-setscopedcssvariable-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 32,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "varName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26364": {
+      "name": "setUnscopedCssVariable",
+      "type": "Method",
+      "url": "/api/class/Style#setunscopedcssvariable",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setUnscopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string, value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#setunscopedcssvariable-setunscopedcssvariable-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 33,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "varName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26368": {
+      "name": "removeScopedCssVariable",
+      "type": "Method",
+      "url": "/api/class/Style#removescopedcssvariable",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeScopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#removescopedcssvariable-removescopedcssvariable-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 34,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "varName",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26371": {
+      "name": "removeUnscopedCssVariable",
+      "type": "Method",
+      "url": "/api/class/Style#removeunscopedcssvariable",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeUnscopedCssVariable</span><span style=\"color: #E1E4E8\">(varName: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#removeunscopedcssvariable-removeunscopedcssvariable-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 35,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "varName",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26374": {
+      "name": "getCssVariable",
+      "type": "Method",
+      "url": "/api/class/Style#getcssvariable",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCssVariable</span><span style=\"color: #E1E4E8\">(varName: string): string</span></span></code>",
+          "url": "/api/class/Style#getcssvariable-getcssvariable-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 36,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "varName",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "26377": {
+      "name": "resetScopedCssVariables",
+      "type": "Method",
+      "url": "/api/class/Style#resetscopedcssvariables",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetScopedCssVariables</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#resetscopedcssvariables-resetscopedcssvariables-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 37,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "26379": {
+      "name": "resetUnscopedCssVariables",
+      "type": "Method",
+      "url": "/api/class/Style#resetunscopedcssvariables",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetUnscopedCssVariables</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#resetunscopedcssvariables-resetunscopedcssvariables-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 38,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "26381": {
+      "name": "toString",
+      "type": "Method",
+      "url": "/api/class/Style#tostring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/Style#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 39,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "26383": {
+      "name": "fontInternal",
+      "type": "Property",
+      "url": "/api/class/Style#fontinternal",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "fontInternal: <a href=\"/api/class/Font\">Font</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 40,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#fontinternal"
+        }
+      ]
+    },
+    "26384": {
+      "name": "fontScaleInternal",
+      "type": "Property",
+      "url": "/api/class/Style#fontscaleinternal",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "This property ensures inheritance of a11y scale among views."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontScaleInternal</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 44,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This property ensures inheritance of a11y scale among views."
+              }
+            ]
+          },
+          "url": "/api/class/Style#fontscaleinternal"
+        }
+      ]
+    },
+    "26385": {
+      "name": "backgroundInternal",
+      "type": "Property",
+      "url": "/api/class/Style#backgroundinternal",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "backgroundInternal: <a href=\"/api/class/Background\">Background</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 45,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#backgroundinternal"
+        }
+      ]
+    },
+    "26386": {
+      "name": "rotate",
+      "type": "Property",
+      "url": "/api/class/Style#rotate",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotate</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 46,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#rotate"
+        }
+      ]
+    },
+    "26387": {
+      "name": "rotateX",
+      "type": "Property",
+      "url": "/api/class/Style#rotatex",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotateX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 47,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#rotatex"
+        }
+      ]
+    },
+    "26388": {
+      "name": "rotateY",
+      "type": "Property",
+      "url": "/api/class/Style#rotatey",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotateY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 48,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#rotatey"
+        }
+      ]
+    },
+    "26389": {
+      "name": "perspective",
+      "type": "Property",
+      "url": "/api/class/Style#perspective",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">perspective</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 49,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#perspective"
+        }
+      ]
+    },
+    "26390": {
+      "name": "scaleX",
+      "type": "Property",
+      "url": "/api/class/Style#scalex",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scaleX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 50,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#scalex"
+        }
+      ]
+    },
+    "26391": {
+      "name": "scaleY",
+      "type": "Property",
+      "url": "/api/class/Style#scaley",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scaleY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 51,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#scaley"
+        }
+      ]
+    },
+    "26392": {
+      "name": "translateX",
+      "type": "Property",
+      "url": "/api/class/Style#translatex",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">translateX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 52,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#translatex"
+        }
+      ]
+    },
+    "26393": {
+      "name": "translateY",
+      "type": "Property",
+      "url": "/api/class/Style#translatey",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">translateY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#translatey"
+        }
+      ]
+    },
+    "26394": {
+      "name": "clipPath",
+      "type": "Property",
+      "url": "/api/class/Style#clippath",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clipPath</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 54,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#clippath"
+        }
+      ]
+    },
+    "26395": {
+      "name": "color",
+      "type": "Property",
+      "url": "/api/class/Style#color",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "color: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 55,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#color"
+        }
+      ]
+    },
+    "26396": {
+      "name": "tintColor",
+      "type": "Property",
+      "url": "/api/class/Style#tintcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "tintColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 56,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#tintcolor"
+        }
+      ]
+    },
+    "26397": {
+      "name": "placeholderColor",
+      "type": "Property",
+      "url": "/api/class/Style#placeholdercolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "placeholderColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 57,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#placeholdercolor"
+        }
+      ]
+    },
+    "26398": {
+      "name": "background",
+      "type": "Property",
+      "url": "/api/class/Style#background",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">background</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 58,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#background"
+        }
+      ]
+    },
+    "26399": {
+      "name": "backgroundColor",
+      "type": "Property",
+      "url": "/api/class/Style#backgroundcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "backgroundColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 59,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#backgroundcolor"
+        }
+      ]
+    },
+    "26400": {
+      "name": "backgroundImage",
+      "type": "Property",
+      "url": "/api/class/Style#backgroundimage",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundImage</span><span style=\"color: #E1E4E8\">: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> LinearGradient</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 60,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#backgroundimage"
+        }
+      ]
+    },
+    "26401": {
+      "name": "backgroundRepeat",
+      "type": "Property",
+      "url": "/api/class/Style#backgroundrepeat",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "backgroundRepeat: <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 61,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#backgroundrepeat"
+        }
+      ]
+    },
+    "26402": {
+      "name": "backgroundSize",
+      "type": "Property",
+      "url": "/api/class/Style#backgroundsize",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundSize</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 62,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#backgroundsize"
+        }
+      ]
+    },
+    "26403": {
+      "name": "backgroundPosition",
+      "type": "Property",
+      "url": "/api/class/Style#backgroundposition",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">backgroundPosition</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 63,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#backgroundposition"
+        }
+      ]
+    },
+    "26404": {
+      "name": "borderColor",
+      "type": "Property",
+      "url": "/api/class/Style#bordercolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderColor: string | <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 64,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#bordercolor"
+        }
+      ]
+    },
+    "26405": {
+      "name": "borderTopColor",
+      "type": "Property",
+      "url": "/api/class/Style#bordertopcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 65,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#bordertopcolor"
+        }
+      ]
+    },
+    "26406": {
+      "name": "borderRightColor",
+      "type": "Property",
+      "url": "/api/class/Style#borderrightcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderRightColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 66,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderrightcolor"
+        }
+      ]
+    },
+    "26407": {
+      "name": "borderBottomColor",
+      "type": "Property",
+      "url": "/api/class/Style#borderbottomcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 67,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderbottomcolor"
+        }
+      ]
+    },
+    "26408": {
+      "name": "borderLeftColor",
+      "type": "Property",
+      "url": "/api/class/Style#borderleftcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderLeftColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 68,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderleftcolor"
+        }
+      ]
+    },
+    "26409": {
+      "name": "borderWidth",
+      "type": "Property",
+      "url": "/api/class/Style#borderwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderWidth: string | number | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 69,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderwidth"
+        }
+      ]
+    },
+    "26410": {
+      "name": "borderTopWidth",
+      "type": "Property",
+      "url": "/api/class/Style#bordertopwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopWidth: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 70,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#bordertopwidth"
+        }
+      ]
+    },
+    "26411": {
+      "name": "borderRightWidth",
+      "type": "Property",
+      "url": "/api/class/Style#borderrightwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderRightWidth: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 71,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderrightwidth"
+        }
+      ]
+    },
+    "26412": {
+      "name": "borderBottomWidth",
+      "type": "Property",
+      "url": "/api/class/Style#borderbottomwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomWidth: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 72,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderbottomwidth"
+        }
+      ]
+    },
+    "26413": {
+      "name": "borderLeftWidth",
+      "type": "Property",
+      "url": "/api/class/Style#borderleftwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderLeftWidth: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 73,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderleftwidth"
+        }
+      ]
+    },
+    "26414": {
+      "name": "borderRadius",
+      "type": "Property",
+      "url": "/api/class/Style#borderradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderRadius: string | number | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 74,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderradius"
+        }
+      ]
+    },
+    "26415": {
+      "name": "borderTopLeftRadius",
+      "type": "Property",
+      "url": "/api/class/Style#bordertopleftradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopLeftRadius: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 75,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#bordertopleftradius"
+        }
+      ]
+    },
+    "26416": {
+      "name": "borderTopRightRadius",
+      "type": "Property",
+      "url": "/api/class/Style#bordertoprightradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderTopRightRadius: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 76,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#bordertoprightradius"
+        }
+      ]
+    },
+    "26417": {
+      "name": "borderBottomRightRadius",
+      "type": "Property",
+      "url": "/api/class/Style#borderbottomrightradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomRightRadius: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 77,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderbottomrightradius"
+        }
+      ]
+    },
+    "26418": {
+      "name": "borderBottomLeftRadius",
+      "type": "Property",
+      "url": "/api/class/Style#borderbottomleftradius",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "borderBottomLeftRadius: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 78,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#borderbottomleftradius"
+        }
+      ]
+    },
+    "26419": {
+      "name": "boxShadow",
+      "type": "Property",
+      "url": "/api/class/Style#boxshadow",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">boxShadow</span><span style=\"color: #E1E4E8\">: CSSShadow</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 79,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#boxshadow"
+        }
+      ]
+    },
+    "26420": {
+      "name": "fontSize",
+      "type": "Property",
+      "url": "/api/class/Style#fontsize",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontSize</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 80,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#fontsize"
+        }
+      ]
+    },
+    "26421": {
+      "name": "fontFamily",
+      "type": "Property",
+      "url": "/api/class/Style#fontfamily",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontFamily</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 81,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#fontfamily"
+        }
+      ]
+    },
+    "26422": {
+      "name": "fontStyle",
+      "type": "Property",
+      "url": "/api/class/Style#fontstyle",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontStyle</span><span style=\"color: #E1E4E8\">: FontStyleType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 82,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#fontstyle"
+        }
+      ]
+    },
+    "26423": {
+      "name": "fontWeight",
+      "type": "Property",
+      "url": "/api/class/Style#fontweight",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontWeight</span><span style=\"color: #E1E4E8\">: FontWeightType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 83,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#fontweight"
+        }
+      ]
+    },
+    "26424": {
+      "name": "font",
+      "type": "Property",
+      "url": "/api/class/Style#font",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">font</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#font"
+        }
+      ]
+    },
+    "26425": {
+      "name": "maxLines",
+      "type": "Property",
+      "url": "/api/class/Style#maxlines",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">maxLines</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 85,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#maxlines"
+        }
+      ]
+    },
+    "26426": {
+      "name": "androidElevation",
+      "type": "Property",
+      "url": "/api/class/Style#androidelevation",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">androidElevation</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 86,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#androidelevation"
+        }
+      ]
+    },
+    "26427": {
+      "name": "androidDynamicElevationOffset",
+      "type": "Property",
+      "url": "/api/class/Style#androiddynamicelevationoffset",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">androidDynamicElevationOffset</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 87,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#androiddynamicelevationoffset"
+        }
+      ]
+    },
+    "26428": {
+      "name": "zIndex",
+      "type": "Property",
+      "url": "/api/class/Style#zindex",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">zIndex</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#zindex"
+        }
+      ]
+    },
+    "26429": {
+      "name": "opacity",
+      "type": "Property",
+      "url": "/api/class/Style#opacity",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">opacity</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 89,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#opacity"
+        }
+      ]
+    },
+    "26430": {
+      "name": "visibility",
+      "type": "Property",
+      "url": "/api/class/Style#visibility",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "visibility: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 90,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#visibility"
+        }
+      ]
+    },
+    "26431": {
+      "name": "letterSpacing",
+      "type": "Property",
+      "url": "/api/class/Style#letterspacing",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">letterSpacing</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 91,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#letterspacing"
+        }
+      ]
+    },
+    "26432": {
+      "name": "lineHeight",
+      "type": "Property",
+      "url": "/api/class/Style#lineheight",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lineHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#lineheight"
+        }
+      ]
+    },
+    "26433": {
+      "name": "textAlignment",
+      "type": "Property",
+      "url": "/api/class/Style#textalignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "textAlignment: <a href=\"/api/namespace/CoreTypes#textalignmenttype\">TextAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 93,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#textalignment"
+        }
+      ]
+    },
+    "26434": {
+      "name": "textDecoration",
+      "type": "Property",
+      "url": "/api/class/Style#textdecoration",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "textDecoration: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 94,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#textdecoration"
+        }
+      ]
+    },
+    "26435": {
+      "name": "textTransform",
+      "type": "Property",
+      "url": "/api/class/Style#texttransform",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "textTransform: <a href=\"/api/namespace/CoreTypes#texttransformtype\">TextTransformType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 95,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#texttransform"
+        }
+      ]
+    },
+    "26436": {
+      "name": "textShadow",
+      "type": "Property",
+      "url": "/api/class/Style#textshadow",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">textShadow</span><span style=\"color: #E1E4E8\">: CSSShadow</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 96,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#textshadow"
+        }
+      ]
+    },
+    "26437": {
+      "name": "whiteSpace",
+      "type": "Property",
+      "url": "/api/class/Style#whitespace",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "whiteSpace: <a href=\"/api/namespace/CoreTypes#whitespacetype\">WhiteSpaceType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 97,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#whitespace"
+        }
+      ]
+    },
+    "26438": {
+      "name": "minWidth",
+      "type": "Property",
+      "url": "/api/class/Style#minwidth",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "minWidth: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 98,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#minwidth"
+        }
+      ]
+    },
+    "26439": {
+      "name": "minHeight",
+      "type": "Property",
+      "url": "/api/class/Style#minheight",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "minHeight: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 99,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#minheight"
+        }
+      ]
+    },
+    "26440": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/class/Style#width",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "width: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 100,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#width"
+        }
+      ]
+    },
+    "26441": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/class/Style#height",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "height: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 101,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#height"
+        }
+      ]
+    },
+    "26442": {
+      "name": "margin",
+      "type": "Property",
+      "url": "/api/class/Style#margin",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "margin: string | number | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpercentunit\">LengthPercentUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 102,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#margin"
+        }
+      ]
+    },
+    "26443": {
+      "name": "marginLeft",
+      "type": "Property",
+      "url": "/api/class/Style#marginleft",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "marginLeft: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 103,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#marginleft"
+        }
+      ]
+    },
+    "26444": {
+      "name": "marginTop",
+      "type": "Property",
+      "url": "/api/class/Style#margintop",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "marginTop: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 104,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#margintop"
+        }
+      ]
+    },
+    "26445": {
+      "name": "marginRight",
+      "type": "Property",
+      "url": "/api/class/Style#marginright",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "marginRight: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 105,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#marginright"
+        }
+      ]
+    },
+    "26446": {
+      "name": "marginBottom",
+      "type": "Property",
+      "url": "/api/class/Style#marginbottom",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "marginBottom: <a href=\"/api/namespace/CoreTypes#percentlengthtype\">PercentLengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#marginbottom"
+        }
+      ]
+    },
+    "26447": {
+      "name": "padding",
+      "type": "Property",
+      "url": "/api/class/Style#padding",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "padding: string | number | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 107,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#padding"
+        }
+      ]
+    },
+    "26448": {
+      "name": "paddingLeft",
+      "type": "Property",
+      "url": "/api/class/Style#paddingleft",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "paddingLeft: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 108,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#paddingleft"
+        }
+      ]
+    },
+    "26449": {
+      "name": "paddingTop",
+      "type": "Property",
+      "url": "/api/class/Style#paddingtop",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "paddingTop: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 109,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#paddingtop"
+        }
+      ]
+    },
+    "26450": {
+      "name": "paddingRight",
+      "type": "Property",
+      "url": "/api/class/Style#paddingright",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "paddingRight: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#paddingright"
+        }
+      ]
+    },
+    "26451": {
+      "name": "paddingBottom",
+      "type": "Property",
+      "url": "/api/class/Style#paddingbottom",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "paddingBottom: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 111,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#paddingbottom"
+        }
+      ]
+    },
+    "26452": {
+      "name": "horizontalAlignment",
+      "type": "Property",
+      "url": "/api/class/Style#horizontalalignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "horizontalAlignment: <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 112,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#horizontalalignment"
+        }
+      ]
+    },
+    "26453": {
+      "name": "verticalAlignment",
+      "type": "Property",
+      "url": "/api/class/Style#verticalalignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "verticalAlignment: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 113,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#verticalalignment"
+        }
+      ]
+    },
+    "26454": {
+      "name": "tabTextFontSize",
+      "type": "Property",
+      "url": "/api/class/Style#tabtextfontsize",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">tabTextFontSize</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 114,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#tabtextfontsize"
+        }
+      ]
+    },
+    "26455": {
+      "name": "tabTextColor",
+      "type": "Property",
+      "url": "/api/class/Style#tabtextcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "tabTextColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 115,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#tabtextcolor"
+        }
+      ]
+    },
+    "26456": {
+      "name": "tabBackgroundColor",
+      "type": "Property",
+      "url": "/api/class/Style#tabbackgroundcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "tabBackgroundColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 116,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#tabbackgroundcolor"
+        }
+      ]
+    },
+    "26457": {
+      "name": "selectedTabTextColor",
+      "type": "Property",
+      "url": "/api/class/Style#selectedtabtextcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "selectedTabTextColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 117,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#selectedtabtextcolor"
+        }
+      ]
+    },
+    "26458": {
+      "name": "androidSelectedTabHighlightColor",
+      "type": "Property",
+      "url": "/api/class/Style#androidselectedtabhighlightcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "androidSelectedTabHighlightColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 118,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#androidselectedtabhighlightcolor"
+        }
+      ]
+    },
+    "26459": {
+      "name": "separatorColor",
+      "type": "Property",
+      "url": "/api/class/Style#separatorcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "separatorColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 119,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#separatorcolor"
+        }
+      ]
+    },
+    "26460": {
+      "name": "selectedBackgroundColor",
+      "type": "Property",
+      "url": "/api/class/Style#selectedbackgroundcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "selectedBackgroundColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 120,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#selectedbackgroundcolor"
+        }
+      ]
+    },
+    "26461": {
+      "name": "statusBarStyle",
+      "type": "Property",
+      "url": "/api/class/Style#statusbarstyle",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">statusBarStyle</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 121,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#statusbarstyle"
+        }
+      ]
+    },
+    "26462": {
+      "name": "androidStatusBarBackground",
+      "type": "Property",
+      "url": "/api/class/Style#androidstatusbarbackground",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "androidStatusBarBackground: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 122,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#androidstatusbarbackground"
+        }
+      ]
+    },
+    "26463": {
+      "name": "androidContentInset",
+      "type": "Property",
+      "url": "/api/class/Style#androidcontentinset",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "androidContentInset: string | number | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 123,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#androidcontentinset"
+        }
+      ]
+    },
+    "26464": {
+      "name": "androidContentInsetLeft",
+      "type": "Property",
+      "url": "/api/class/Style#androidcontentinsetleft",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "androidContentInsetLeft: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 124,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#androidcontentinsetleft"
+        }
+      ]
+    },
+    "26465": {
+      "name": "androidContentInsetRight",
+      "type": "Property",
+      "url": "/api/class/Style#androidcontentinsetright",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "androidContentInsetRight: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#androidcontentinsetright"
+        }
+      ]
+    },
+    "26466": {
+      "name": "flexDirection",
+      "type": "Property",
+      "url": "/api/class/Style#flexdirection",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexDirection</span><span style=\"color: #E1E4E8\">: FlexDirection</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 126,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#flexdirection"
+        }
+      ]
+    },
+    "26467": {
+      "name": "flexWrap",
+      "type": "Property",
+      "url": "/api/class/Style#flexwrap",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrap</span><span style=\"color: #E1E4E8\">: FlexWrap</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 127,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#flexwrap"
+        }
+      ]
+    },
+    "26468": {
+      "name": "justifyContent",
+      "type": "Property",
+      "url": "/api/class/Style#justifycontent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">justifyContent</span><span style=\"color: #E1E4E8\">: JustifyContent</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 128,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#justifycontent"
+        }
+      ]
+    },
+    "26469": {
+      "name": "alignItems",
+      "type": "Property",
+      "url": "/api/class/Style#alignitems",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignItems</span><span style=\"color: #E1E4E8\">: AlignItems</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#alignitems"
+        }
+      ]
+    },
+    "26470": {
+      "name": "alignContent",
+      "type": "Property",
+      "url": "/api/class/Style#aligncontent",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignContent</span><span style=\"color: #E1E4E8\">: AlignContent</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 130,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#aligncontent"
+        }
+      ]
+    },
+    "26471": {
+      "name": "order",
+      "type": "Property",
+      "url": "/api/class/Style#order",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">order</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 131,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#order"
+        }
+      ]
+    },
+    "26472": {
+      "name": "flexGrow",
+      "type": "Property",
+      "url": "/api/class/Style#flexgrow",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexGrow</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 132,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#flexgrow"
+        }
+      ]
+    },
+    "26473": {
+      "name": "flexShrink",
+      "type": "Property",
+      "url": "/api/class/Style#flexshrink",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexShrink</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 133,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#flexshrink"
+        }
+      ]
+    },
+    "26474": {
+      "name": "flexWrapBefore",
+      "type": "Property",
+      "url": "/api/class/Style#flexwrapbefore",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrapBefore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 134,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#flexwrapbefore"
+        }
+      ]
+    },
+    "26475": {
+      "name": "alignSelf",
+      "type": "Property",
+      "url": "/api/class/Style#alignself",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignSelf</span><span style=\"color: #E1E4E8\">: AlignSelf</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 135,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#alignself"
+        }
+      ]
+    },
+    "26476": {
+      "name": "accessible",
+      "type": "Property",
+      "url": "/api/class/Style#accessible",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessible</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 136,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessible"
+        }
+      ]
+    },
+    "26477": {
+      "name": "accessibilityHidden",
+      "type": "Property",
+      "url": "/api/class/Style#accessibilityhidden",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityHidden</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 137,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessibilityhidden"
+        }
+      ]
+    },
+    "26478": {
+      "name": "accessibilityRole",
+      "type": "Property",
+      "url": "/api/class/Style#accessibilityrole",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "accessibilityRole: <a href=\"/api/enum/AccessibilityRole\">AccessibilityRole</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 138,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessibilityrole"
+        }
+      ]
+    },
+    "26479": {
+      "name": "accessibilityState",
+      "type": "Property",
+      "url": "/api/class/Style#accessibilitystate",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "accessibilityState: <a href=\"/api/enum/AccessibilityState\">AccessibilityState</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 139,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessibilitystate"
+        }
+      ]
+    },
+    "26480": {
+      "name": "accessibilityLiveRegion",
+      "type": "Property",
+      "url": "/api/class/Style#accessibilityliveregion",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "accessibilityLiveRegion: <a href=\"/api/enum/AccessibilityLiveRegion\">AccessibilityLiveRegion</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 140,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessibilityliveregion"
+        }
+      ]
+    },
+    "26481": {
+      "name": "accessibilityLanguage",
+      "type": "Property",
+      "url": "/api/class/Style#accessibilitylanguage",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityLanguage</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 141,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessibilitylanguage"
+        }
+      ]
+    },
+    "26482": {
+      "name": "accessibilityMediaSession",
+      "type": "Property",
+      "url": "/api/class/Style#accessibilitymediasession",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityMediaSession</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 142,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessibilitymediasession"
+        }
+      ]
+    },
+    "26483": {
+      "name": "accessibilityStep",
+      "type": "Property",
+      "url": "/api/class/Style#accessibilitystep",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityStep</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 143,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#accessibilitystep"
+        }
+      ]
+    },
+    "26484": {
+      "name": "iosAccessibilityAdjustsFontSize",
+      "type": "Property",
+      "url": "/api/class/Style#iosaccessibilityadjustsfontsize",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityAdjustsFontSize</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 144,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#iosaccessibilityadjustsfontsize"
+        }
+      ]
+    },
+    "26485": {
+      "name": "iosAccessibilityMinFontScale",
+      "type": "Property",
+      "url": "/api/class/Style#iosaccessibilityminfontscale",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMinFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 145,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#iosaccessibilityminfontscale"
+        }
+      ]
+    },
+    "26486": {
+      "name": "iosAccessibilityMaxFontScale",
+      "type": "Property",
+      "url": "/api/class/Style#iosaccessibilitymaxfontscale",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMaxFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 146,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#iosaccessibilitymaxfontscale"
+        }
+      ]
+    },
+    "26487": {
+      "name": "PropertyBag",
+      "type": "Property",
+      "url": "/api/class/Style#propertybag",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PropertyBag</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">prototype</span><span style=\"color: #E1E4E8\">: {}</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 147,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#propertybag"
+        }
+      ]
+    },
+    "26497": {
+      "name": "viewRef",
+      "type": "Property",
+      "url": "/api/class/Style#viewref",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "viewRef: WeakRef&lt;<a href=\"/api/class/ViewBase\">ViewBase</a>&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Style#viewref"
+        }
+      ]
+    },
+    "26498": {
+      "name": "view",
+      "type": "Accessor",
+      "url": "/api/class/Style#view",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get view(): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/Style#view-view-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style/index.d.ts",
+              "line": 156,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        }
+      ]
+    },
+    "26501": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/Style#get",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
+          "url": "/api/class/Style#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "26504": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/Style#set",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26508": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/Style#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26512": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/Style#on",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 99,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which will be used as "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`this`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " context for callback execution."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26520": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/Style#once",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26528": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/Style#off",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26536": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/Style#addeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 117,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26544": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/Style#removeeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Style#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 124,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26552": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/Style#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
+          "url": "/api/class/Style#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 140,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26556": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/Style#notifypropertychange",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 145,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "26561": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/Style#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
+          "url": "/api/class/Style#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "26564": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/Style#createpropertychangedata",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/Style#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "26569": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/Style#emit",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Style#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

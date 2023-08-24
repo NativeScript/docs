@@ -1,0 +1,194 @@
+{
+  "title": "NativeScriptError",
+  "hierarchy": [
+    [
+      {
+        "text": "Error"
+      }
+    ],
+    [
+      {
+        "text": "NativeScriptError"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        4676,
+        4675,
+        4672,
+        4674,
+        4673
+      ]
+    }
+  ],
+  "reflections": {
+    "4672": {
+      "name": "nativeException",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptError#nativeexception",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Represents the native error object."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">nativeException</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 11,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Represents the native error object."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptError#nativeexception"
+        }
+      ]
+    },
+    "4673": {
+      "name": "stackTrace",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptError#stacktrace",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The native stack trace."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">stackTrace</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 15,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The native stack trace."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptError#stacktrace"
+        }
+      ]
+    },
+    "4674": {
+      "name": "stack",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptError#stack",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Javascript portion of stack trace."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">stack</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 19,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Javascript portion of stack trace."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptError#stack"
+        }
+      ]
+    },
+    "4675": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptError#name",
+      "flags": {
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1040,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/interface/NativeScriptError#name"
+        }
+      ]
+    },
+    "4676": {
+      "name": "message",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptError#message",
+      "flags": {
+        "isExternal": true
+      },
+      "inheritedFrom": {
+        "fromName": "Error"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">message</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "node_modules/typescript/lib/lib.es5.d.ts",
+              "line": 1041,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Error"
+          },
+          "url": "/api/interface/NativeScriptError#message"
+        }
+      ]
+    }
+  }
+}

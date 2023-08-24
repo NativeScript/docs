@@ -1,0 +1,279 @@
+{
+  "title": "android",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Namespaces",
+      "items": [
+        2669,
+        2676
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2664,
+        2653,
+        2649,
+        2651,
+        2659,
+        2657,
+        2655,
+        2667,
+        2661
+      ]
+    }
+  ],
+  "reflections": {
+    "2649": {
+      "name": "getApplicationContext",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#getapplicationcontext",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getApplicationContext</span><span style=\"color: #E1E4E8\">(): globalAndroid.content.Context</span></span></code>",
+          "url": "/api/namespace/Utils-android#getapplicationcontext-getapplicationcontext-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 1,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "globalAndroid.content.Context"
+        }
+      ]
+    },
+    "2651": {
+      "name": "getCurrentActivity",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#getcurrentactivity",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCurrentActivity</span><span style=\"color: #E1E4E8\">(): androidx.appcompat.app.AppCompatActivity</span></span></code>",
+          "url": "/api/namespace/Utils-android#getcurrentactivity-getcurrentactivity-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 2,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "androidx.appcompat.app.AppCompatActivity"
+        }
+      ]
+    },
+    "2653": {
+      "name": "getApplication",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#getapplication",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getApplication</span><span style=\"color: #E1E4E8\">(): globalAndroid.app.Application</span></span></code>",
+          "url": "/api/namespace/Utils-android#getapplication-getapplication-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 3,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "globalAndroid.app.Application"
+        }
+      ]
+    },
+    "2655": {
+      "name": "getResources",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#getresources",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getResources</span><span style=\"color: #E1E4E8\">(): globalAndroid.content.res.Resources</span></span></code>",
+          "url": "/api/namespace/Utils-android#getresources-getresources-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 4,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "globalAndroid.content.res.Resources"
+        }
+      ]
+    },
+    "2657": {
+      "name": "getPackageName",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#getpackagename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPackageName</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/namespace/Utils-android#getpackagename-getpackagename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 5,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "2659": {
+      "name": "getInputMethodManager",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#getinputmethodmanager",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getInputMethodManager</span><span style=\"color: #E1E4E8\">(): android.view.inputmethod.InputMethodManager</span></span></code>",
+          "url": "/api/namespace/Utils-android#getinputmethodmanager-getinputmethodmanager-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 6,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "android.view.inputmethod.InputMethodManager"
+        }
+      ]
+    },
+    "2661": {
+      "name": "showSoftInput",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#showsoftinput",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">showSoftInput</span><span style=\"color: #E1E4E8\">(nativeView: View): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/Utils-android#showsoftinput-showsoftinput-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 7,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "nativeView",
+              "type": "View",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2664": {
+      "name": "dismissSoftInput",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#dismisssoftinput",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dismissSoftInput</span><span style=\"color: #E1E4E8\">(nativeView</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> View): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/Utils-android#dismisssoftinput-dismisssoftinput-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 8,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "nativeView",
+              "type": "View",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2667": {
+      "name": "isRealDevice",
+      "type": "Function",
+      "url": "/api/namespace/Utils-android#isrealdevice",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isRealDevice</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/namespace/Utils-android#isrealdevice-isrealdevice-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 21,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2669": {
+      "name": "collections",
+      "type": "Namespace",
+      "url": "/api/namespace/Utils-android-collections",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">collections</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 9,
+              "character": 25
+            }
+          ],
+          "url": "/api/namespace/Utils-android-collections"
+        }
+      ]
+    },
+    "2676": {
+      "name": "resources",
+      "type": "Namespace",
+      "url": "/api/namespace/Utils-android-resources",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">resources</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/android/index.d.ts",
+              "line": 13,
+              "character": 25
+            }
+          ],
+          "url": "/api/namespace/Utils-android-resources"
+        }
+      ]
+    }
+  }
+}

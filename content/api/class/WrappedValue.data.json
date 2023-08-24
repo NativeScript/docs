@@ -1,0 +1,204 @@
+{
+  "title": "WrappedValue",
+  "hierarchy": [
+    [
+      {
+        "text": "WrappedValue"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1551
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1554
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1545,
+        1548
+      ]
+    }
+  ],
+  "reflections": {
+    "1545": {
+      "name": "unwrap",
+      "type": "Method",
+      "url": "/api/class/WrappedValue#unwrap",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unwrap</span><span style=\"color: #E1E4E8\">(value: any): any</span></span></code>",
+          "url": "/api/class/WrappedValue#unwrap-unwrap-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 58,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the real value of previously wrappedValue."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Value that should be unwraped. If there is no wrappedValue property of the value object then value will be returned."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1548": {
+      "name": "wrap",
+      "type": "Method",
+      "url": "/api/class/WrappedValue#wrap",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">wrap</span><span style=\"color: #E1E4E8\">(value: any): any</span></span></code>",
+          "url": "/api/class/WrappedValue#wrap-wrap-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 63,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns an instance of WrappedValue. The actual instance is get from a WrappedValues pool."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Value that should be wrapped."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1551": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/WrappedValue#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new WrappedValue(wrapped: any): <a href=\"/api/class/WrappedValue\">WrappedValue</a>",
+          "url": "/api/class/WrappedValue#constructor-new-wrappedvalue",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 49,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates an instance of WrappedValue object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "wrapped",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the real value which should be wrapped."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/WrappedValue\">WrappedValue</a>"
+        }
+      ]
+    },
+    "1554": {
+      "name": "wrapped",
+      "type": "Property",
+      "url": "/api/class/WrappedValue#wrapped",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Property which holds the real value."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">wrapped</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 44,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Property which holds the real value."
+              }
+            ]
+          },
+          "url": "/api/class/WrappedValue#wrapped"
+        }
+      ]
+    }
+  }
+}
