@@ -36,7 +36,7 @@ The following example creates a column of equally-sized items. When the column r
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/wrap_layout_vertical.svg" />
 
-## WrapLayout Reference(s)
+## WrapLayout Reference
 
 ### Props
 

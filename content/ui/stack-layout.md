@@ -123,7 +123,7 @@ The following example creates a diagonal stack of items with responsive sizes.
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_horizontal_align_children.svg" />
 
-## StackLayout Reference(s)
+## StackLayout Reference
 
 ### Props
 

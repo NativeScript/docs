@@ -96,7 +96,7 @@ If you need to build more complex UIs with overlapping elements, consider using 
 
 :::
 
-## AbsoluteLayout Reference(s)
+## AbsoluteLayout Reference
 
 ### Props
 

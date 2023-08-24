@@ -14,7 +14,7 @@ You can set a fixed size for column width and row height or you can create them 
 - **auto:** Makes the column as wide as its widest child or makes the row as tall as its tallest child.
 - **\*:** Takes as much space as available after filling all auto and fixed size columns or rows.
 
-See [Reference(s)](#references) for more information.
+See [References](#references) for more information.
 
 ### Grid layout with fixed sizing
 
@@ -79,7 +79,7 @@ The following example creates a complex grid with responsive design, mixed width
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/grid_layout_complex.svg" />
 
-## Reference(s)
+## Reference
 
 ### Props
 
