@@ -1,131 +1,68 @@
 ---
 title: CLI Basics
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
-The development workflow starts with the [NativeScript CLI](https://www.npmjs.com/package/nativescript).
+When working with NativeScript, you will often interact with the NativeScript CLI. The CLI is self-documented, so you can always run `ns --help` or `ns <command> --help` to view available commands, flags and descriptions.
 
-## CLI Basics
+This page is a quick reference for useful development commands, but it's not meant to be an exhaustive list of all the commands.
 
-In this article, you'll  learn the basics of the NativeScript command-line interface, including how to create new apps, how to get those apps running on devices, and how to set up a development workflow that lets you iterate fast.
+**The following workflows have their dedicated pages with further information:**
 
-### Creating a new project
+- [Running](/guide/running)
+- [Debugging](/guide/debugging)
+- [Publishing](/guide/publishing/)
 
-To create a new NativeScript app project, run:
+## Cleaning
 
-```cli
-ns create
-```
+### Cleaning a single project
 
-The NS CLI will walk you through selecting a template using interactive prompts.
+When you're installing plugins with native dependencies or updating runtime versions, it's a good practice to perform a clean build.
+This helps ensure everything fits together correctly. If you're dealing with mysterious build errors, they might disappear after a clean build.
 
-You can also use the `--template` flag with the `ns create` command to target a specific template
-
-```cli
-ns create HelloWorld --template @nativescript/template-hello-world-ts
-```
-`HelloWorld` above is the app name and the `--template` option tells the NativeScript CLI to scaffold an app using a predefined template named “@nativescript/template-hello-world-ts” found [here](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-hello-world-ts).
-
-For a full list of the templates you can use, see the [full list here](https://github.com/NativeScript/nativescript-app-templates/tree/master/packages)
-
-The `create` command will take a minute to complete, as the NativeScript CLI needs to download a few dependencies while setting up your new app.
-
-### Cleaning a project
-
-Some times you have trouble running your application, or you have added new dependencies and you're issues. To fix try running:
-
-Cleaning a NativeScript project is similar to running "Clean Build Folder" in XCode or other IDE environments. Sometimes during development you may trouble. To achieve that, run:
+To clean, run this command from your project's root directory:
 
 ```cli
 ns clean
 ```
-Running `ns clean` is similar to running "Clean Build Folder" in XCode or other IDE environments. It deletes the `node_modules`, `hooks`, and `platforms` directories from your project.
 
-### Running an app on a device or simulator
+Running `ns clean` removes the `node_modules`, `hooks`, and `platforms` directories. You can customize what's cleaned in the [nativescript.config.ts](/project-structure/nativescript-config#cli-pathstoclean).
 
-To run your app on all connected devices and emulators, run:
+### Cleaning multiple projects
 
-```cli
-ns run
-```
+If you have multiple projects piled up in your projects folder, and would like to free up some disk space, you can run `ns clean` in your projects folder, and it will scan for any valid NativeScript projects in sub-directories and the prompt you to choose the ones to clean.
 
-The command prepares, builds and deploys the app on the connected devices. By default, it listens for changes in your code, synchronizes those changes and refreshes all the devices.
+<DeviceFrame type="ios">
+<video controls src="https://user-images.githubusercontent.com/879060/230395606-dbb4a56f-74e8-403b-a687-62e27a61f8d4.mov"></video>
+</DeviceFrame>
 
-To launch the app on a connected Android device or Android emulator, run:
+## Listing connected devices
 
-```cli
-ns run android
-```
-
-::: warning Note
-If you get an error at this point you might not have completed the full [NativeScript CLI setup](/setup/).
-
-You must have at least one AVD (Android Virtual Device) configured on your development machine for this command to run your app up on an Android emulator.
-Or a connected Android device with debugging enabled.
-
-Check the `devDependencies` of your `package.json` file. `@nativescript/android` must be installed to avoid the "[Unable to apply changes on device: emulator-5554. Error is: Invalid Version: null.](https://github.com/NativeScript/nativescript-cli/issues/4451)" error.
-:::
-
-To launch the app on a connected iOS device or iOS simulator.
-```cli
-ns run ios
-```
-
-::: tip Note
-NativeScript uses Xcode to build and run iOS apps, and Xcode is only available on macOS; therefore, you can only run iOS apps on macOS. There are VM and/or cloud services that allow you to build on a Mac from a PC.
-:::
-
-
-You can customize the `ns run` command using any of the following options:
-
-- `--no-hmr` - Disables the webpack HMR option, so changes made during a session will restart the application.
-- `--emulator` - Specifies that you want to debug the app in an emulator.
-- `--timeout` - Sets the number of seconds that the NativeScript CLI will wait for the debugger to boot. If not set, the default timeout is 90 seconds.
-- `--clean` - If set forces rebuilding the native application.
-
-::: tip Note
-If you see this output in the terminal:
-
-```
-Webpack compilation complete. Watching for file changes.
-Watchpack Error (watcher): Error: EMFILE: too many open files 'FILE_PATH'
-Watchpack Error (watcher): Error: EMFILE: too many open files 'FILE_PATH'
-Watchpack Error (watcher): Error: EMFILE: too many open files 'FILE_PATH' <-- This repeats many times
-```
-
-This is related to node configuration options on your machine.
-
-**Solution**:
-
-Try adding this to your `~/.bash_profile` if you have one or `~/.zshenv` if using Zsh:
-
-```
-export NODE_OPTIONS="--max-old-space-size=6096"
-```
-
-Then open a new terminal window and run your app.
-:::
-
-### List connected devices
-
-To list all connected devices(physical and emulators), run:
+To list all connected devices (both physical and virtual), run:
 
 ```cli
-ns device
+ns devices
 ```
-`ns device` output:
 
-| \# | Device Name | Platform | Device Identifier  | Type | Status | Connection Type |
-|---|-------------|----------|----------|---------|------|-----|
-| 1 | Pixel 4 API 33   | Android  | emulator-5554 | Emulator | Connected | Local |
-| 2 | mlv5n_global_com | Android  | LGM250KVGQSWVKJZFQ | Device   | Connected | USB |
-| 3 | iPhone 14 Pro    | iOS      | 38356C8F-073B-4F07-B65E-3BFA7B22977A | Emulator | Connected|Local|
+Example output:
 
-### help
+```
+| # | Device Name    | Platform | Device Identifier                    | Type     | Status    | Connection Type |
+| - | -------------- | -------- | ------------------------------------ | -------- | --------- | --------------- |
+| 1 | Pixel 4 API 33 | Android  | emulator-5554                        | Emulator | Connected | Local           |
+| 2 | generic_device | Android  | XXXXXXXXXXXXXX                       | Device   | Connected | USB             |
+| 3 | iPhone 14 Pro  | iOS      | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX | Emulator | Connected | Local           |
+```
 
-To get the CLI's documentation, run:
+## Setting the default package manager
+
+To set the default package manager that the CLI uses (unless overridden in [nativescript.config.ts](/project-structure/nativescript-config#cli-packagemanager)):
 
 ```cli
-ns help
+ns package-manager set npm
+ns package-manager set yarn
+ns package-manager set yarn2 # experimental
+ns package-manager set pnpm
 ```
-
-It will open documentation in your web browser.
