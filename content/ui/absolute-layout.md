@@ -1,6 +1,9 @@
 ---
 title: AbsoluteLayout
 description: A simple layout container for positioning elements at top/left coordinates.
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 The `<AbsoluteLayout>` container is the simplest layout container in NativeScript.

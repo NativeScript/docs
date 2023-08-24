@@ -2,6 +2,10 @@
 title: Publishing to Google Play
 category: Publishing
 categoryLink: /guide/publishing/
+prev: /guide/publishing/
+next: false
+contributors:
+  - rigor789
 ---
 
 Publishing a NativeScript is generally the same as publishing any other Android app, documented in the [Official Android Docs](https://developer.android.com/studio/publish)

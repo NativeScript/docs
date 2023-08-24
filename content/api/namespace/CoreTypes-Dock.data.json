@@ -1,0 +1,101 @@
+{
+  "title": "Dock",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4949,
+        4946,
+        4948,
+        4947
+      ]
+    }
+  ],
+  "reflections": {
+    "4946": {
+      "name": "left",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Dock#left",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "left: <a href=\"/api/namespace/CoreTypes#docktype\">DockType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 165,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Dock#left"
+        }
+      ]
+    },
+    "4947": {
+      "name": "top",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Dock#top",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "top: <a href=\"/api/namespace/CoreTypes#docktype\">DockType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 166,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Dock#top"
+        }
+      ]
+    },
+    "4948": {
+      "name": "right",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Dock#right",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "right: <a href=\"/api/namespace/CoreTypes#docktype\">DockType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 167,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Dock#right"
+        }
+      ]
+    },
+    "4949": {
+      "name": "bottom",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Dock#bottom",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "bottom: <a href=\"/api/namespace/CoreTypes#docktype\">DockType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 168,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Dock#bottom"
+        }
+      ]
+    }
+  }
+}

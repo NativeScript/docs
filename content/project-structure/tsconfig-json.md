@@ -1,5 +1,8 @@
 ---
 title: tsconfig.json
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 Projects using TypeScript use the `tsconfig.json` to control the TypeScript compilation. Our templates ship with curated default values, however if you need to, you can fine-tune the [compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).

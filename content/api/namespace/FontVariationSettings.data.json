@@ -1,0 +1,71 @@
+{
+  "title": "FontVariationSettings",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        26307,
+        26310
+      ]
+    }
+  ],
+  "reflections": {
+    "26307": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/FontVariationSettings#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parse</span><span style=\"color: #E1E4E8\">(fontVariationSettings: string): FontVariationSettingsType[] </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">null</span></span></code>",
+          "url": "/api/namespace/FontVariationSettings#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "fontVariationSettings",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "FontVariationSettingsType[] | null"
+        }
+      ]
+    },
+    "26310": {
+      "name": "toString",
+      "type": "Function",
+      "url": "/api/namespace/FontVariationSettings#tostring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(fontVariationSettings: FontVariationSettingsType[]): string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">null</span></span></code>",
+          "url": "/api/namespace/FontVariationSettings#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 55,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "fontVariationSettings",
+              "type": "FontVariationSettingsType[]",
+              "flags": {}
+            }
+          ],
+          "returns": "string | null"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5566 @@
+{
+  "title": "TabViewItem",
+  "hierarchy": [
+    [
+      {
+        "text": "ViewBase",
+        "link": "/api/class/ViewBase"
+      }
+    ],
+    [
+      {
+        "text": "TabViewItem"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        28132
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        28161,
+        28151,
+        28153,
+        28201,
+        28202,
+        28200,
+        28199,
+        28150,
+        28182,
+        28152,
+        28203,
+        28160,
+        28181,
+        28178,
+        28180,
+        28179,
+        28154,
+        28159,
+        28177,
+        28142,
+        28147,
+        28168,
+        28171,
+        28169,
+        28172,
+        28089,
+        28268,
+        28269,
+        28090,
+        28166,
+        28139,
+        28197,
+        28198,
+        28196,
+        28195,
+        28186,
+        28164,
+        28189,
+        28190,
+        28188,
+        28187,
+        28184,
+        28183,
+        28193,
+        28194,
+        28192,
+        28191,
+        28165,
+        28185,
+        28174,
+        28175,
+        28176,
+        28136,
+        28146,
+        28145,
+        28162,
+        28087,
+        28143,
+        28173,
+        28144,
+        28091,
+        28140,
+        28205,
+        28167,
+        28170,
+        28149,
+        28148,
+        28137,
+        28134,
+        28163,
+        28088,
+        28135,
+        28141
+      ]
+    },
+    {
+      "title": "Accessors",
+      "items": [
+        28220,
+        28226,
+        28222,
+        28224,
+        28210,
+        28238,
+        28206,
+        28216,
+        28214
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        28291,
+        28295,
+        28341,
+        28351,
+        28258,
+        28338,
+        28444,
+        28380,
+        28449,
+        28348,
+        28367,
+        28250,
+        28382,
+        28358,
+        28307,
+        28310,
+        28345,
+        28255,
+        28321,
+        28324,
+        28302,
+        28252,
+        28335,
+        28416,
+        28124,
+        28270,
+        28276,
+        28264,
+        28266,
+        28377,
+        28313,
+        28273,
+        28332,
+        28315,
+        28285,
+        28240,
+        28385,
+        28234,
+        28230,
+        28441,
+        28317,
+        28299,
+        28432,
+        28436,
+        28408,
+        28108,
+        28392,
+        28092,
+        28400,
+        28100,
+        28246,
+        28361,
+        28248,
+        28424,
+        28116,
+        28283,
+        28319,
+        28242,
+        28355,
+        28329,
+        28388,
+        28370,
+        28363,
+        28280,
+        28304
+      ]
+    }
+  ],
+  "reflections": {
+    "28087": {
+      "name": "loadedEvent",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#loadedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to loaded event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 127,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to loaded event."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#loadedevent"
+        }
+      ]
+    },
+    "28088": {
+      "name": "unloadedEvent",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#unloadedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to unloaded event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unloadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 131,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to unloaded event."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#unloadedevent"
+        }
+      ]
+    },
+    "28089": {
+      "name": "createdEvent",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#createdevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to creation event"
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createdEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 135,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to creation event"
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#createdevent"
+        }
+      ]
+    },
+    "28090": {
+      "name": "disposeNativeViewEvent",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#disposenativeviewevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to disposeNativeView event"
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeViewEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 139,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to disposeNativeView event"
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#disposenativeviewevent"
+        }
+      ]
+    },
+    "28091": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 74,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#propertychangeevent"
+        }
+      ]
+    },
+    "28092": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#on-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#on-2-on-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28100": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 126,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28108": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 127,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28116": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 128,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28124": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28132": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/TabViewItem#constructor",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new TabViewItem(): <a href=\"/api/class/TabViewItem\">TabViewItem</a>",
+          "url": "/api/class/TabViewItem#constructor-new-tabviewitem",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 263,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/TabViewItem\">TabViewItem</a>"
+        }
+      ]
+    },
+    "28134": {
+      "name": "title",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#title",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the title of the TabViewItem."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">title</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/tab-view/index.d.ts",
+              "line": 19,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the title of the TabViewItem."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#title"
+        }
+      ]
+    },
+    "28135": {
+      "name": "view",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#view",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the view of the TabViewItem."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "view: <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/tab-view/index.d.ts",
+              "line": 24,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the view of the TabViewItem."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#view"
+        }
+      ]
+    },
+    "28136": {
+      "name": "iconSource",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#iconsource",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the icon source of the TabViewItem. This could either be a a file name or resource id."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iconSource</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/tab-view/index.d.ts",
+              "line": 29,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the icon source of the TabViewItem. This could either be a a file name or resource id."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#iconsource"
+        }
+      ]
+    },
+    "28137": {
+      "name": "textTransform",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#texttransform",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the text transform of the tab titles."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "textTransform: <a href=\"/api/namespace/CoreTypes#texttransformtype\">TextTransformType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/tab-view/index.d.ts",
+              "line": 34,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the text transform of the tab titles."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#texttransform"
+        }
+      ]
+    },
+    "28139": {
+      "name": "domNode",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#domnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">domNode</span><span style=\"color: #E1E4E8\">: DOMNode</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 149,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#domnode"
+        }
+      ]
+    },
+    "28140": {
+      "name": "recycleNativeView",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#recyclenativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">recycleNativeView</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;auto&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;always&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;never&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#recyclenativeview"
+        }
+      ]
+    },
+    "28141": {
+      "name": "viewController",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#viewcontroller",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "returns the native UIViewController."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">viewController</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "returns the native UIViewController."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#viewcontroller"
+        }
+      ]
+    },
+    "28142": {
+      "name": "bindingContext",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#bindingcontext",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bindingContext</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#bindingcontext"
+        }
+      ]
+    },
+    "28143": {
+      "name": "nativeViewProtected",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#nativeviewprotected",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "read-only. If you want to set out-of-band the nativeView use the setNativeView method."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeViewProtected</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 159,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "read-only. If you want to set out-of-band the nativeView use the setNativeView method."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#nativeviewprotected"
+        }
+      ]
+    },
+    "28144": {
+      "name": "parent",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#parent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the parent view. This property is read-only."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "parent: <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 163,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the parent view. This property is read-only."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#parent"
+        }
+      ]
+    },
+    "28145": {
+      "name": "isCollapsed",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#iscollapsed",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns true if visibility is set to 'collapse'.\nDefault(false) set in prototype\nReadonly property"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isCollapsed</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 169,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if visibility is set to 'collapse'.\nDefault(false) set in prototype\nReadonly property"
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#iscollapsed"
+        }
+      ]
+    },
+    "28146": {
+      "name": "id",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#id",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the id for this view."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">id</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 173,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the id for this view."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#id"
+        }
+      ]
+    },
+    "28147": {
+      "name": "className",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#classname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the CSS class name for this view."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">className</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 177,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the CSS class name for this view."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#classname"
+        }
+      ]
+    },
+    "28148": {
+      "name": "sharedTransitionTag",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#sharedtransitiontag",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the shared transition tag for animated view transitions"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionTag</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 181,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the shared transition tag for animated view transitions"
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#sharedtransitiontag"
+        }
+      ]
+    },
+    "28149": {
+      "name": "sharedTransitionIgnore",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#sharedtransitionignore",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Opt out of shared transition under different binding conditions"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionIgnore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 185,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Opt out of shared transition under different binding conditions"
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#sharedtransitionignore"
+        }
+      ]
+    },
+    "28150": {
+      "name": "_domId",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#domid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_domId</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 186,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#domid"
+        }
+      ]
+    },
+    "28151": {
+      "name": "_context",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#context",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 187,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#context"
+        }
+      ]
+    },
+    "28152": {
+      "name": "_isAddedToNativeVisualTree",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#isaddedtonativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isAddedToNativeVisualTree</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 188,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#isaddedtonativevisualtree"
+        }
+      ]
+    },
+    "28153": {
+      "name": "_cssState",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#cssstate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_cssState</span><span style=\"color: #E1E4E8\">: CssState</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 189,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#cssstate"
+        }
+      ]
+    },
+    "28154": {
+      "name": "_styleScope",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#stylescope",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_styleScope</span><span style=\"color: #E1E4E8\">: StyleScope</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 190,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#stylescope"
+        }
+      ]
+    },
+    "28159": {
+      "name": "_suspendNativeUpdatesCount",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#suspendnativeupdatescount",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Determines the depth of suspended updates.\nWhen the value is 0 the current property updates are not batched nor scoped and must be immediately applied.\nIf the value is 1 or greater, the current updates are batched and does not have to provide immediate update.\nDo not set this field, the _batchUpdate method is responsible to keep the count up to date,\nas well as adding/rmoving the view to/from the visual tree."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdatesCount</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 208,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Determines the depth of suspended updates.\nWhen the value is 0 the current property updates are not batched nor scoped and must be immediately applied.\nIf the value is 1 or greater, the current updates are batched and does not have to provide immediate update.\nDo not set this field, the _batchUpdate method is responsible to keep the count up to date,\nas well as adding/rmoving the view to/from the visual tree."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#suspendnativeupdatescount"
+        }
+      ]
+    },
+    "28160": {
+      "name": "_isStyleScopeHost",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#isstylescopehost",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isStyleScopeHost</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 209,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#isstylescopehost"
+        }
+      ]
+    },
+    "28161": {
+      "name": "_automaticallyAdjustsScrollViewInsets",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#automaticallyadjustsscrollviewinsets",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_automaticallyAdjustsScrollViewInsets</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 210,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#automaticallyadjustsscrollviewinsets"
+        }
+      ]
+    },
+    "28162": {
+      "name": "left",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#left",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "left: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 211,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#left"
+        }
+      ]
+    },
+    "28163": {
+      "name": "top",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#top",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "top: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 212,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#top"
+        }
+      ]
+    },
+    "28164": {
+      "name": "effectiveLeft",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectiveleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 213,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectiveleft"
+        }
+      ]
+    },
+    "28165": {
+      "name": "effectiveTop",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivetop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 214,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivetop"
+        }
+      ]
+    },
+    "28166": {
+      "name": "dock",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#dock",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dock</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 215,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#dock"
+        }
+      ]
+    },
+    "28167": {
+      "name": "row",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#row",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">row</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 216,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#row"
+        }
+      ]
+    },
+    "28168": {
+      "name": "col",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#col",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">col</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 217,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#col"
+        }
+      ]
+    },
+    "28169": {
+      "name": "column",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#column",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">column</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 218,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#column"
+        }
+      ]
+    },
+    "28170": {
+      "name": "rowSpan",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#rowspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rowSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 219,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#rowspan"
+        }
+      ]
+    },
+    "28171": {
+      "name": "colSpan",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#colspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">colSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 220,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#colspan"
+        }
+      ]
+    },
+    "28172": {
+      "name": "columnSpan",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#columnspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">columnSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 221,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#columnspan"
+        }
+      ]
+    },
+    "28173": {
+      "name": "order",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#order",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">order</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 222,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#order"
+        }
+      ]
+    },
+    "28174": {
+      "name": "flexGrow",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#flexgrow",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexGrow</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 223,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#flexgrow"
+        }
+      ]
+    },
+    "28175": {
+      "name": "flexShrink",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#flexshrink",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexShrink</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 224,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#flexshrink"
+        }
+      ]
+    },
+    "28176": {
+      "name": "flexWrapBefore",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#flexwrapbefore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrapBefore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 225,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#flexwrapbefore"
+        }
+      ]
+    },
+    "28177": {
+      "name": "alignSelf",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#alignself",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignSelf</span><span style=\"color: #E1E4E8\">: AlignSelf</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 226,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#alignself"
+        }
+      ]
+    },
+    "28178": {
+      "name": "_oldLeft",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#oldleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 227,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#oldleft"
+        }
+      ]
+    },
+    "28179": {
+      "name": "_oldTop",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#oldtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 228,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#oldtop"
+        }
+      ]
+    },
+    "28180": {
+      "name": "_oldRight",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#oldright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 229,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#oldright"
+        }
+      ]
+    },
+    "28181": {
+      "name": "_oldBottom",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#oldbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 230,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#oldbottom"
+        }
+      ]
+    },
+    "28182": {
+      "name": "_ignoreFlexMinWidthHeightReset",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#ignoreflexminwidthheightreset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_ignoreFlexMinWidthHeightReset</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 231,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#ignoreflexminwidthheightreset"
+        }
+      ]
+    },
+    "28183": {
+      "name": "effectiveMinWidth",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectiveminwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 232,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectiveminwidth"
+        }
+      ]
+    },
+    "28184": {
+      "name": "effectiveMinHeight",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectiveminheight",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 233,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectiveminheight"
+        }
+      ]
+    },
+    "28185": {
+      "name": "effectiveWidth",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivewidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 234,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivewidth"
+        }
+      ]
+    },
+    "28186": {
+      "name": "effectiveHeight",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectiveheight",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 235,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectiveheight"
+        }
+      ]
+    },
+    "28187": {
+      "name": "effectiveMarginTop",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivemargintop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 236,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivemargintop"
+        }
+      ]
+    },
+    "28188": {
+      "name": "effectiveMarginRight",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivemarginright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 237,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivemarginright"
+        }
+      ]
+    },
+    "28189": {
+      "name": "effectiveMarginBottom",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivemarginbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 238,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivemarginbottom"
+        }
+      ]
+    },
+    "28190": {
+      "name": "effectiveMarginLeft",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivemarginleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 239,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivemarginleft"
+        }
+      ]
+    },
+    "28191": {
+      "name": "effectivePaddingTop",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivepaddingtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 240,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivepaddingtop"
+        }
+      ]
+    },
+    "28192": {
+      "name": "effectivePaddingRight",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivepaddingright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 241,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivepaddingright"
+        }
+      ]
+    },
+    "28193": {
+      "name": "effectivePaddingBottom",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivepaddingbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 242,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivepaddingbottom"
+        }
+      ]
+    },
+    "28194": {
+      "name": "effectivePaddingLeft",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivepaddingleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 243,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivepaddingleft"
+        }
+      ]
+    },
+    "28195": {
+      "name": "effectiveBorderTopWidth",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectivebordertopwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderTopWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 244,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectivebordertopwidth"
+        }
+      ]
+    },
+    "28196": {
+      "name": "effectiveBorderRightWidth",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectiveborderrightwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderRightWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 245,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectiveborderrightwidth"
+        }
+      ]
+    },
+    "28197": {
+      "name": "effectiveBorderBottomWidth",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectiveborderbottomwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderBottomWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 246,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectiveborderbottomwidth"
+        }
+      ]
+    },
+    "28198": {
+      "name": "effectiveBorderLeftWidth",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#effectiveborderleftwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderLeftWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 247,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#effectiveborderleftwidth"
+        }
+      ]
+    },
+    "28199": {
+      "name": "_defaultPaddingTop",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#defaultpaddingtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 248,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#defaultpaddingtop"
+        }
+      ]
+    },
+    "28200": {
+      "name": "_defaultPaddingRight",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#defaultpaddingright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 249,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#defaultpaddingright"
+        }
+      ]
+    },
+    "28201": {
+      "name": "_defaultPaddingBottom",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#defaultpaddingbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 250,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#defaultpaddingbottom"
+        }
+      ]
+    },
+    "28202": {
+      "name": "_defaultPaddingLeft",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#defaultpaddingleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 251,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#defaultpaddingleft"
+        }
+      ]
+    },
+    "28203": {
+      "name": "_isPaddingRelative",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#ispaddingrelative",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isPaddingRelative</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 252,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#ispaddingrelative"
+        }
+      ]
+    },
+    "28205": {
+      "name": "reusable",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#reusable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets if the view is reusable.\nReusable views are not automatically destroyed when removed from the View tree."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">reusable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 262,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets if the view is reusable.\nReusable views are not automatically destroyed when removed from the View tree."
+              }
+            ]
+          },
+          "url": "/api/class/TabViewItem#reusable"
+        }
+      ]
+    },
+    "28206": {
+      "name": "parentNode",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#parentnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get parentNode(): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/TabViewItem#parentnode-parentnode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 267,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the template parent or the native parent. Sets the template parent."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        }
+      ]
+    },
+    "28210": {
+      "name": "nativeView",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#nativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">nativeView</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/TabViewItem#nativeview-nativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 269,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "28214": {
+      "name": "typeName",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#typename",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">typeName</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/TabViewItem#typename-typename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 274,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the constructor function for this instance. E.g. for a Button class this will return \"Button\"."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "28216": {
+      "name": "style",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#style",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get style(): <a href=\"/api/class/Style\">Style</a>",
+          "url": "/api/class/TabViewItem#style-style-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 278,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the style object associated to this view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Style\">Style</a>"
+        }
+      ]
+    },
+    "28220": {
+      "name": "android",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#android",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/TabViewItem#android-android-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 280,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "28222": {
+      "name": "ios",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#ios",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/TabViewItem#ios-ios-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 281,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "28224": {
+      "name": "isLoaded",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#isloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">isLoaded</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/class/TabViewItem#isloaded-isloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 282,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "28226": {
+      "name": "class",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#class",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">class</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/TabViewItem#class-class-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 283,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "28230": {
+      "name": "getViewById",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#getviewbyid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewById</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">id</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/TabViewItem#getviewbyid-getviewbyid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 288,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the child view with the specified id."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "28234": {
+      "name": "getViewByDomId",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#getviewbydomid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewByDomId</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">domId</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">number</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/TabViewItem#getviewbydomid-getviewbydomid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 292,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the child view with the specified domId."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "domId",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "28238": {
+      "name": "page",
+      "type": "Accessor",
+      "url": "/api/class/TabViewItem#page",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get page(): <a href=\"/api/class/Page\">Page</a>",
+          "url": "/api/class/TabViewItem#page-page-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 296,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets owner page. This is a read-only property."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Page\">Page</a>"
+        }
+      ]
+    },
+    "28240": {
+      "name": "ensureDomNode",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#ensuredomnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ensureDomNode</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#ensuredomnode-ensuredomnode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 301,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Ensures a dom-node for this view."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28242": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#set",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 302,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28246": {
+      "name": "onLoaded",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#onloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#onloaded-onloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 303,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28248": {
+      "name": "onUnloaded",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#onunloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#onunloaded-onunloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 304,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28250": {
+      "name": "_layoutParent",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#layoutparent",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_layoutParent</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#layoutparent-layoutparent-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 305,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28252": {
+      "name": "_suspendNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#suspendnativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#suspendnativeupdates-suspendnativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 306,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "type",
+              "type": "SuspendType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28255": {
+      "name": "_resumeNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#resumenativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_resumeNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#resumenativeupdates-resumenativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 307,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "type",
+              "type": "SuspendType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28258": {
+      "name": "_batchUpdate",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#batchupdate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">_batchUpdate</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #B392F0\">callback</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/TabViewItem#batchupdate-batchupdate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 311,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Allow multiple updates to be performed on the instance at once."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "() => T",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "28264": {
+      "name": "callLoaded",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#callloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#callloaded-callloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 315,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28266": {
+      "name": "callUnloaded",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#callunloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#callunloaded-callunloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 316,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28268": {
+      "name": "cssClasses",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#cssclasses",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 319,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#cssclasses"
+        }
+      ]
+    },
+    "28269": {
+      "name": "cssPseudoClasses",
+      "type": "Property",
+      "url": "/api/class/TabViewItem#csspseudoclasses",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssPseudoClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 320,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/TabViewItem#csspseudoclasses"
+        }
+      ]
+    },
+    "28270": {
+      "name": "addPseudoClass",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#addpseudoclass",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addPseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#addpseudoclass-addpseudoclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 327,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "A widget can call this method to add a matching css pseudo class."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28273": {
+      "name": "deletePseudoClass",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#deletepseudoclass",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deletePseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#deletepseudoclass-deletepseudoclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 333,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "A widget can call this method to discard matching css pseudo class."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28276": {
+      "name": "bind",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#bind",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "bind(options: <a href=\"/api/interface/BindingOptions\">BindingOptions</a>, source?: Object): void",
+          "url": "/api/class/TabViewItem#bind-bind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 338,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/BindingOptions\">BindingOptions</a>",
+              "flags": {}
+            },
+            {
+              "name": "source",
+              "type": "Object",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28280": {
+      "name": "unbind",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#unbind",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unbind</span><span style=\"color: #E1E4E8\">(property: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#unbind-unbind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 339,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "property",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28283": {
+      "name": "requestLayout",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#requestlayout",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">requestLayout</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#requestlayout-requestlayout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 344,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Invalidates the layout of the view and triggers a new layout pass."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28285": {
+      "name": "eachChild",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#eachchild",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "eachChild(callback: (child: <a href=\"/api/class/ViewBase\">ViewBase</a>) => boolean): void",
+          "url": "/api/class/TabViewItem#eachchild-eachchild-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 349,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Iterates over children of type ViewBase."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "(child: <a href=\"/api/class/ViewBase\">ViewBase</a>) => boolean",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Called for each child of type ViewBase. Iteration stops if this method returns falsy value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28291": {
+      "name": "_addView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#addview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): void",
+          "url": "/api/class/TabViewItem#addview-addview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 350,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28295": {
+      "name": "_addViewCore",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#addviewcore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addViewCore(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): void",
+          "url": "/api/class/TabViewItem#addviewcore-addviewcore-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 354,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28299": {
+      "name": "loadView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#loadview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "loadView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/TabViewItem#loadview-loadview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 359,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Load view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "to load."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28302": {
+      "name": "_shouldDelayLayout",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#shoulddelaylayout",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_shouldDelayLayout</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/class/TabViewItem#shoulddelaylayout-shoulddelaylayout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 364,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When returning true the callLoaded method will be run in setTimeout\nMethod is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "28304": {
+      "name": "unloadView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#unloadview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "unloadView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/TabViewItem#unloadview-unloadview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 369,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Unload view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "to unload."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28307": {
+      "name": "_removeView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#removeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/TabViewItem#removeview-removeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 373,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Core logic for removing a child view from this instance. Used by the framework to handle lifecycle events more centralized. Do not use outside the UI Stack implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28310": {
+      "name": "_removeViewCore",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#removeviewcore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeViewCore(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/TabViewItem#removeviewcore-removeviewcore-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 377,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28313": {
+      "name": "createNativeView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#createnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createNativeView</span><span style=\"color: #E1E4E8\">(): Object</span></span></code>",
+          "url": "/api/class/TabViewItem#createnativeview-createnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 382,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates a native view.\nReturns either android.view.View or UIView."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Object"
+        }
+      ]
+    },
+    "28315": {
+      "name": "disposeNativeView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#disposenativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#disposenativeview-disposenativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 386,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Clean up references to the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28317": {
+      "name": "initNativeView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#initnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">initNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#initnativeview-initnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 390,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Initializes properties/listeners of the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28319": {
+      "name": "resetNativeView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#resetnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#resetnativeview-resetnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 394,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Resets properties/listeners set to the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28321": {
+      "name": "_setupAsRootView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#setupasrootview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupAsRootView</span><span style=\"color: #E1E4E8\">(context: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#setupasrootview-setupasrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 396,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "context",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28324": {
+      "name": "_setupUI",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#setupui",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupUI</span><span style=\"color: #E1E4E8\">(context: any, atIndex</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number, parentIsLoaded</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#setupui-setupui-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 401,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Setups the UI for ViewBase and all its children recursively.\nThis method should *not* be overridden by derived views."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "context",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "parentIsLoaded",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28329": {
+      "name": "setNativeView",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#setnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNativeView</span><span style=\"color: #E1E4E8\">(value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#setnativeview-setnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 407,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set the nativeView field performing extra checks and updates to the native properties on the new view.\nUse in cases where the createNativeView is not suitable.\nAs an example use in item controls where the native parent view will create the native views for child items."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28332": {
+      "name": "destroyNode",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#destroynode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">destroyNode</span><span style=\"color: #E1E4E8\">(forceDestroyChildren</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#destroynode-destroynode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 413,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Tears down the UI of a reusable node by making it no longer reusable."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@see",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "_tearDownUI"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "forceDestroyChildren",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Force destroy the children (even if they are reusable)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28335": {
+      "name": "_tearDownUI",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#teardownui",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_tearDownUI</span><span style=\"color: #E1E4E8\">(force</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#teardownui-teardownui-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 418,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Tears down the UI for ViewBase and all its children recursively.\nThis method should *not* be overridden by derived views."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "force",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28338": {
+      "name": "_childIndexToNativeChildIndex",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#childindextonativechildindex",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_childIndexToNativeChildIndex</span><span style=\"color: #E1E4E8\">(index</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
+          "url": "/api/class/TabViewItem#childindextonativechildindex-childindextonativechildindex-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 419,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "28341": {
+      "name": "_addViewToNativeVisualTree",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#addviewtonativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addViewToNativeVisualTree(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): boolean",
+          "url": "/api/class/TabViewItem#addviewtonativevisualtree-addviewtonativevisualtree-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 424,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Performs the core logic of adding a child view to the native visual tree. Returns true if the view's native representation has been successfully added, false otherwise.\nMethod is intended to be overridden by inheritors and used as \"protected\"."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "28345": {
+      "name": "_removeViewFromNativeVisualTree",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#removeviewfromnativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeViewFromNativeVisualTree(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/TabViewItem#removeviewfromnativevisualtree-removeviewfromnativevisualtree-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 428,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28348": {
+      "name": "_goToVisualState",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#gotovisualstate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_goToVisualState</span><span style=\"color: #E1E4E8\">(state: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#gotovisualstate-gotovisualstate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 429,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "state",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28351": {
+      "name": "_applyXmlAttribute",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#applyxmlattribute",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_applyXmlAttribute</span><span style=\"color: #E1E4E8\">(attribute: string, value: string): boolean</span></span></code>",
+          "url": "/api/class/TabViewItem#applyxmlattribute-applyxmlattribute-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 436,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "This used to be the way to set attribute values in early {N} versions.\nNow attributes are expected to be set as plain properties on the view instances."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "attribute",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "28355": {
+      "name": "setInlineStyle",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#setinlinestyle",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInlineStyle</span><span style=\"color: #E1E4E8\">(style: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#setinlinestyle-setinlinestyle-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 437,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "style",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28358": {
+      "name": "_parentChanged",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#parentchanged",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_parentChanged(oldParent: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/TabViewItem#parentchanged-parentchanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 438,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "oldParent",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28361": {
+      "name": "onResumeNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#onresumenativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onResumeNativeUpdates</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#onresumenativeupdates-onresumenativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 439,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28363": {
+      "name": "toString",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#tostring",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/TabViewItem#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 440,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "28367": {
+      "name": "_inheritStyleScope",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#inheritstylescope",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_inheritStyleScope</span><span style=\"color: #E1E4E8\">(styleScope: StyleScope): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#inheritstylescope-inheritstylescope-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 447,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "styleScope",
+              "type": "StyleScope",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28370": {
+      "name": "showModal",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#showmodal",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "showModal(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, modalOptions?: <a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/TabViewItem#showmodal-showmodal-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 453,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shows the view passed as parameter as a modal view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "View instance to be shown modally."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "modalOptions",
+              "type": "<a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A ShowModalOptions instance"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        },
+        {
+          "type": "CallSignature",
+          "code": "showModal(moduleName: string, modalOptions?: <a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/TabViewItem#showmodal-showmodal-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 459,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shows the View contained in moduleName as a modal view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "moduleName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the module to load starting from the application root."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "modalOptions",
+              "type": "<a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A ShowModalOptions instance"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        }
+      ]
+    },
+    "28377": {
+      "name": "closeModal",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#closemodal",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">closeModal</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any[]): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#closemodal-closemodal-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 464,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Closes the current modal view that this page is showing."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "args",
+              "type": "any[]",
+              "flags": {
+                "isRest": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28380": {
+      "name": "_dialogClosed",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#dialogclosed",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_dialogClosed</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#dialogclosed-dialogclosed-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 468,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28382": {
+      "name": "_onRootViewReset",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#onrootviewreset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_onRootViewReset</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#onrootviewreset-onrootviewreset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 472,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "28385": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#get",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
+          "url": "/api/class/TabViewItem#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "28388": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28392": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#on",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 99,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which will be used as "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`this`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " context for callback execution."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28400": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#once",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28408": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#off",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28416": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#addeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 117,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28424": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#removeeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/TabViewItem#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 124,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28432": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 140,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28436": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#notifypropertychange",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 145,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "28441": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
+          "url": "/api/class/TabViewItem#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "28444": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#createpropertychangedata",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/TabViewItem#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "28449": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/TabViewItem#emit",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/TabViewItem#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

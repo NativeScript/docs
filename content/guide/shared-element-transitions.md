@@ -1,6 +1,9 @@
 ---
 title: Shared Element Transitions
 description: Shared Element Transitions allow you to auto animate shared elements from one page to the next allowing you to deliver smooth navigational experiences.
+contributors:
+  - NathanWalker
+  - rigor789
 ---
 
 ::: tip API Availabilty
@@ -13,7 +16,7 @@ When looking for ways to elevate user experience of your apps, Shared Element Tr
 
 In essence you can declare `sharedTransitionTag` attributes on components across different pages, and pass in a custom `SharedTransition` to create engaging visual effects.
 
-<DeviceFrame type="ios">
+<DeviceFrame type="window" :buttons="false" title="Shared Element Transition Example">
 <img src="/assets/images/guide/shared-element-transitions.gif">
 </DeviceFrame>
 

@@ -2,6 +2,14 @@
 title: Build a master-detail app with Svelte
 category: Tutorials
 categoryLink: /tutorials/
+prev: false
+next: false
+contributors:
+  - williamjuan027
+  - marckassay
+  - winescout
+  - Leon0824
+  - rigor789
 ---
 
 This tutorial introduces you to the fundamentals of using NativeScript with Svelte by walking you through building an example app with some basic functionalities.
