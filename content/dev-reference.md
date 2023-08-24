@@ -115,3 +115,40 @@ Note the blank lines above and below the markdown list, this is required due to 
 10. Finally, we can see those **double digits** in action right here.
 
 </StepList>
+
+## DeviceFrame
+
+To make content pretty, you can wrap it in a device frame
+
+### iOS Frame
+
+<DeviceFrame type="ios">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-ios.png">
+</DeviceFrame>
+
+### Android Frame
+
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-android.png">
+</DeviceFrame>
+
+### Generic Window Frame
+
+Props:
+
+- `title: string | false` - sets a custom window title
+- `buttons: boolean` - hide window buttons
+
+<DeviceFrame type="window" >
+<video controls src="https://user-images.githubusercontent.com/879060/230395606-dbb4a56f-74e8-403b-a687-62e27a61f8d4.mov"></video>
+</DeviceFrame>
+
+---
+
+<DeviceFrame type="window" :buttons="false" title="Hello World!">
+
+<div class="p-4">
+No Buttons & Custom Title
+</div>
+
+</DeviceFrame>
