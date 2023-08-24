@@ -32,6 +32,10 @@ export default [
     text: 'Development Workflow',
     items: [
       {
+        text: 'CLI Basics',
+        link: '/guide/cli-basics',
+      },
+      {
         text: 'Running',
         link: '/guide/running',
       },
