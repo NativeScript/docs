@@ -388,7 +388,7 @@ Emitted when the field loses focus. Event data type: [EventData](https://docs.na
 
 ---
 
-### Native component
+## Native component
 
 | Android                                                                                           | iOS                                                                          |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |

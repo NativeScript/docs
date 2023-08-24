@@ -6,7 +6,7 @@ title: Label
 
 `<Label>` is a UI component that displays read-only text.
 
-::: warning :orange_circle: Note
+::: warning Note
 This `<Label>` is **not** the same as the HTML `<Label>`.
 :::
 

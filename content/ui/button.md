@@ -153,7 +153,7 @@ Emitted when the button is tapped. Event type is [EventData](https://docs.native
 
 ---
 
-### Native component
+## Native component
 
 | Android                                                                                       | iOS                                                                    |
 | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |

@@ -104,8 +104,7 @@ export default {
 ### busy
 
 ```xml
-<ActivityIndicator busy="{{ isBusy }}"
-/>
+<ActivityIndicator busy="{{ isBusy }}" />
 ```
 
 ```ts
@@ -141,11 +140,13 @@ export class HelloWorldModel extends Observable {
 }
 ```
 
-Emitted when the [busy](#busy) property is changed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata).
+Emitted when the [busy](#busy) property is changed.
+
+Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata).
 
 ---
 
-### Native component
+## Native component
 
 | Android                                                                                                                        | iOS                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |

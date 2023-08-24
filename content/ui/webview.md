@@ -234,7 +234,7 @@ Emitted when the page has finished loading in the `<WebView>`. The event data is
 
 ---
 
-### Native component
+## Native component
 
 | Android                                                                                    | iOS                                                                       |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |

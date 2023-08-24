@@ -305,7 +305,7 @@ Emitted when the selected date changes. See the [PropertyChangeData](https://doc
 
 ---
 
-### Native component
+## Native component
 
 | Android                                                                                               | iOS                                                                            |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |

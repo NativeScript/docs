@@ -715,7 +715,7 @@ Gets or sets the icon of the action item.
 | [ActionItems](https://docs.nativescript.org/api-reference/classes/actionitems)           | `Class` |
 | [NavigationButton](https://docs.nativescript.org/api-reference/classes/navigationbutton) | `Class` |
 
-### Native Component
+## Native component
 
 | Android                                                                                       | iOS                                                                                           |
 | :-------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |

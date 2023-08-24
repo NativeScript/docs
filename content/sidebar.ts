@@ -182,6 +182,7 @@ export default [
       { text: 'ActionBar', link: '/ui/action-bar' },
       // { text: 'ActionItem', link: '//#' },
       // { text: 'NavigationButton', link: '//#' },
+      // todo: move this elsewhere
       {
         text: 'Showing Modal',
         link: '/guide/ui/showing-modal',
