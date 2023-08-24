@@ -32,7 +32,7 @@ Running `ns clean` removes the `node_modules`, `hooks`, and `platforms` director
 
 ### Cleaning multiple projects
 
-If you have multiple projects piled up in your projects folder, and would like to free up some disk space, you can run `ns clean` in your projects folder, and it will scan for any valid NativeScript projects in sub-directories and the prompt you to choose the ones to clean.
+If you have multiple projects in a directory, you can run `ns clean` in it, and it will scan for any valid NativeScript projects in sub-directories and then prompt you to choose the ones to clean.
 
 <DeviceFrame type="ios">
 <video controls src="https://user-images.githubusercontent.com/879060/230395606-dbb4a56f-74e8-403b-a687-62e27a61f8d4.mov"></video>
