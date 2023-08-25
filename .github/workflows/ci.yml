@@ -22,10 +22,10 @@ jobs:
       - run: npm run build --if-present
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'
-
-      # re-run lint:text with junit output for github annotations
-      - run: npm run lint:text -- --format junit --output-file lint-report.xml
-      - uses: mikepenz/action-junit-report@v3
-        if: always()
-        with:
-          report_paths: 'lint-report.xml'
+# disabled because the output of textlint marks warnings as errors
+# # re-run lint:text with junit output for github annotations
+# - run: npm run lint:text -- --format junit --output-file lint-report.xml
+# - uses: mikepenz/action-junit-report@v3
+#   if: always()
+#   with:
+#     report_paths: 'lint-report.xml'
