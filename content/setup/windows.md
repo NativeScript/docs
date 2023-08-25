@@ -10,7 +10,7 @@ contributors:
 
 You will need Node, a JDK (java development kit), Android Studio and the NativeScript CLI (command line interface).
 
-**Android Studio** is not strictly necessary &mdash; however it provides an easy to use interface for installing and managing the Android SDKs.
+**Android Studio** is not strictly necessary &mdash; however it provides an easy-to-use interface for installing and managing the Android SDKs.
 
 We recommend using [Chocolatey](https://chocolatey.org/) to install the required dependencies &mdash; a popular package manager for Windows.
 

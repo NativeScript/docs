@@ -62,7 +62,7 @@ ns create myCoolApp --template @nativescript/template-blank
 
 ### Drawer Template
 
-A simple template with a side drawer.
+A template with a side drawer.
 
 <!-- TODO: make nicer images -->
 
@@ -81,7 +81,7 @@ ns create myCoolApp --template @nativescript/template-drawer-navigation
 
 ### Tabs Template
 
-A simple template with multiple tabs.
+A template with multiple tabs.
 
 <!-- TODO: make nicer images -->
 
@@ -100,7 +100,8 @@ ns create myCoolApp --template @nativescript/template-tab-navigation
 
 ### List & Details Template
 
-A simple template with a ListView and a details screen.
+A template with a ListView and a details screen.
+
 <DeviceFrame type="ios">
 <img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-ios.png">
 </DeviceFrame>

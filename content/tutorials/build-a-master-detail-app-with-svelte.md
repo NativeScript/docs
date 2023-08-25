@@ -38,7 +38,7 @@ To set up your development environment, follow the instructions in the [Environm
 
 ## Create a new NativeScript application
 
-We will be using Typescript for this tutorial. To create a new NativeScript Typescript application, run the CLI command `ns create` with the name of the application followed by `--svelte`.
+We will be using TypeScript for this tutorial. To create a new NativeScript TypeScript application, run the CLI command `ns create` with the name of the application followed by `--svelte`.
 
 ```cli
 ns create example-app --svelte
@@ -64,7 +64,7 @@ The `ns run` command builds the app and launches the app on a connected Android 
 
 ## Folder structure
 
-Based on the Typescript starter app, we will be creating the following file/folder structure for our application.
+Based on the TypeScript starter app, we will be creating the following file/folder structure for our application.
 
 ```
 app

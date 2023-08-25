@@ -19,7 +19,7 @@ jobs:
           node-version: 19
           cache: 'npm'
       - run: npm ci
-      - run: npm run lint:check --if-present
+      - run: npm run lint --if-present
       - run: npm run build --if-present
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"

@@ -574,7 +574,7 @@ export class AppRoutingModule {}
 
 ### Setup navigation
 
-Now that we have the routes already set up, we can use NativeScript Angular's `RouterExtensions` to perform the navigation. The `RouterExtensions` class provides methods for imperative navigation, similar to how you would navigate with the Angular `Router` and `Location` classes. To use the class simply inject it in your component constructor and call it's `navigate` function. Open `home.component.ts` and add the following:
+Now that we have the routes already set up, we can use NativeScript Angular's `RouterExtensions` to perform the navigation. The `RouterExtensions` class provides methods for imperative navigation, similar to how you would navigate with the Angular `Router` and `Location` classes. To use the class, inject it in your component constructor and call it's `navigate` function. Open `home.component.ts` and add the following:
 
 ```typescript{7-8,22,26-28}
 // src/app/features/home/home.component.ts

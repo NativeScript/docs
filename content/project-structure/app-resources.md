@@ -203,7 +203,7 @@ To change the mode of the TimePicker from the default `spinner` style, change `a
 
 ### Enabling force Dark Mode
 
-On API29+ apps can opt-in to a default Dark Mode when the system is set to use Dark Mode. This is disabled by default as it can lead to visual issues, since the automatic conversion may not display correctly in all cases.
+On API29+ apps can opt-in to a default Dark Mode when the system is set to use Dark Mode. This is turned off by default as it can lead to visual issues, since the automatic conversion may not display correctly in all cases.
 
 To opt-in, change the `android:forceDarkAllowed` value to `true` in `App_Resources/Android/src/main/res/values-v29/styles.xml`:
 

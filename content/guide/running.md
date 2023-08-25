@@ -72,7 +72,7 @@ If any of the above failed, we recommend checking out the [Android ADB documenta
 
 ### Preparing an iOS device for development
 
-Before the NativeScript cli can run apps on a physical iOS device, the device must be set up and registered.
+Before the NativeScript CLI can run apps on a physical iOS device, the device must be set up and registered.
 
 Use a USB cable to connect the device. Navigate to the `platforms/ios` folder in your project, then open the `.xcworkspace` file in Xcode.
 

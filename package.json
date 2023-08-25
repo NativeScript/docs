@@ -5,12 +5,20 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "lint:check": "prettier --check ./content/**/*.md",
-    "lint": "prettier --write ./content/**/*.md"
+    "lint": "npm-run-all lint:*",
+    "fix": "npm-run-all fix:*",
+    "fix:format": "prettier --write ./content/**/*.md",
+    "fix:text": "textlint ./content/**/*.md --fix",
+    "lint:format": "prettier --check ./content/**/*.md",
+    "lint:text": "textlint ./content/**/*.md"
   },
   "devDependencies": {
     "@types/node": "18.11.9",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
+    "textlint": "^13.3.3",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-terminology": "^3.0.5",
     "vitepress": "1.0.0-rc.4"
   },
   "prettier": {

@@ -19,7 +19,7 @@ This tutorial will teach you the following:
 
 ## Prerequisites
 
-NativeScript Core uses Javascript or Typescript and XML to create your applications. To get the most out of this tutorial you should already have a basic understanding of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). This Tutorial illustrates the use of JavaScript, the TypeScript tutorial is [here](./build-a-master-detail-app-with-plain-typescript.md).
+NativeScript Core uses JavaScript or TypeScript and XML to create your applications. To get the most out of this tutorial you should already have a basic understanding of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). This Tutorial illustrates the use of JavaScript, the TypeScript tutorial is [here](./build-a-master-detail-app-with-plain-typescript.md).
 
 ## Overview of the example application
 

@@ -26,6 +26,6 @@ module.exports = (env) => {
 
 ::: tip Read More
 
-:point_right: [NativeScript Webpack Reference](/configuration/webpack)
+:point_right: [NativeScript webpack Reference](/configuration/webpack)
 
 :::
