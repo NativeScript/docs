@@ -12,7 +12,7 @@ It gets activated through three steps:
 
 When you look at a new project, you see an example of those steps applied.
 
-There are several ways of data flow (data bindings):
+There are various ways to manage data flow, often referred to as data bindings:
 
 - **One-way (to UI) data binding** - This is the most popular way of binding. A good example is bindingi a `string` property in the Model to a `Label` component.
 
