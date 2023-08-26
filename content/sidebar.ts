@@ -33,6 +33,10 @@ export default [
             text: 'Debugging',
             link: '/guide/debugging',
           },
+          {
+            text: 'Plugins',
+            link: '/guide/development-workflow/using-packages'
+          },
         ],
       },
       {
