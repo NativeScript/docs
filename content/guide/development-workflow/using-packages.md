@@ -48,7 +48,7 @@ npm i @nativescript/types --save-dev
 ```
 
 ::: tip Note
-The difference between dependencies and developer dependencies is that **dependencies** are required to run, while **devDependencies** are needed only during development. Example for dependency is the **@nativescript/camera** plugin which is required at runtime so you could use the hardware camera. On the other hand, the **@nativescript/types** is a developer dependency required only for intelliSense during the development process. The `devDependencies` should not be installed as `dependencies` to avoid large output build files (large application size). Example `package.json` file using both `dependencies` and `devDependencies` can be found [here](https://github.com/NativeScript/nativescript-sdk-examples-js/blob/master/package.json#L31-L44).
+Regarding package handling, **dependencies** are necessary for the application to run, while **devDependencies** are only needed during the development phase. For instance, the **@nativescript/camera** plugin is a dependency required at runtime to utilize the hardware camera.  Conversely, **@nativescript/types** is a developer dependency used solely for IntelliSense during the development process. It is important to avoid installing `devDependencies` as `dependencies` to prevent large output build files and keep the application size manageable. You can find an example of a `package.json` file using both `dependencies` and `devDependencies` [here](https://github.com/NativeScript/nativescript-sdk-examples-js/blob/master/package.json#L31-L44).
 :::
 
 #### Importing and Using Plugins
