@@ -243,7 +243,7 @@ Default value: `stretch`.
 
 ### ...Inherited
 
-Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/flexboxlayout)
+Additional inherited properties not shown. Refer to the [API Reference](/api/class/FlexboxLayout)
 
 ## Children props
 
