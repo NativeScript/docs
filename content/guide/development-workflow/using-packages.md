@@ -10,7 +10,7 @@ NativeScript plugins are npm packages that often include additional native funct
 
 The NativeScript team maintains a list of plugins [here](https://docs.nativescript.org/plugins/index.html).
 
-You can also look for plugins at the [NativeScript marketplace](https://market.nativescript.org/) or on the [npm’s site](https://www.npmjs.com/)
+Plugins can also be found at the [NativeScript marketplace](https://market.nativescript.org/) or on the [npm’s site](https://www.npmjs.com/)
 
 Not finding the right plugin? You can try asking on our [Discord Community](https://nativescript.org/discord). Or perhaps [build a new plugin](/https://docs.nativescript.org/plugins/index.html#developing-your-own-plugins).
 <!-- TODO: fix links -->
