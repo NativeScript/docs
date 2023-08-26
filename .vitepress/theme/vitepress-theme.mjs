@@ -8735,7 +8735,7 @@ const fm = {
 }, ym = {
   key: 0,
   class: "mb-2 text-base font-semibold leading-6 text-blue-500 dark:text-cyan-400"
-}, _m = { class: "text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-200 sm:text-4xl" }, bm = { class: "mt-2 text-lg text-slate-700 dark:text-slate-400" }, wm = { class: "hidden w-72 flex-none xl:block" }, Sm = { class: "h-sidebar sticky top-[72px] overflow-y-auto overflow-x-hidden" }, xm = { class: "pt-16 pb-10 pr-3" }, Om = ["href"], km = /* @__PURE__ */ L({
+}, _m = { class: "text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-200 sm:text-4xl" }, bm = { class: "mt-2 text-lg text-slate-700 dark:text-slate-400" }, wm = { class: "hidden w-72 flex-none xl:block" }, Sm = { class: "h-sidebar sticky top-[72px] overflow-y-auto overflow-x-hidden" }, xm = { class: "pt-16 pb-10 pr-3" }, Om = ["href", "target"], km = /* @__PURE__ */ L({
   __name: "default",
   setup(e) {
     const { page: t } = De(), n = um(), r = Fn(), o = T(() => Yo(r.value)), i = T(() => o.value.find(
@@ -8778,7 +8778,7 @@ const fm = {
                   F(I2, { class: "mt-4" }),
                   h("a", {
                     href: P(n).url,
-                    target: "_blank",
+                    target: P(n).url.startsWith("http") ? "_blank" : "_self",
                     class: "mt-4 block rounded-md border border-gray-400 bg-white px-4 py-2 text-center text-sm text-gray-700 hover:border-gray-600 hover:text-gray-900 dark:border-white/20 dark:bg-transparent dark:text-white dark:hover:border-white/40"
                   }, V(P(n).text), 9, Om),
                   F(N2, { class: "mt-2" })

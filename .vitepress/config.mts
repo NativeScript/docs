@@ -3,6 +3,10 @@ import apiSidebar from '../content/api/sidebar.json'
 import mainSidebar from '../content/sidebar'
 import nav from './nav'
 import './theme/cliLanguage'
+import path from 'node:path'
+
+const isDev = process.env.NODE_ENV !== 'production'
+const branch = process.env.CF_PAGES_BRANCH ?? 'main'
 
 export default defineConfig({
   srcDir: './content',
@@ -15,10 +19,14 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     editLink: {
+      ...(isDev && {
+        text: 'Edit in VS Code',
+      }),
       // pattern:
       //   'https://github.com/NativeScript/docs/blob/main/content/:filePath',
-      pattern:
-        'https://pr.new/github.com/NativeScript/docs/edit/main/content/:filePath?initialPath=:path',
+      pattern: isDev
+        ? `vscode://file/${path.resolve(__dirname, '../content/:filePath')}`
+        : `https://pr.new/github.com/NativeScript/docs/edit/${branch}/content/:filePath?initialPath=:path`,
     },
     algolia: {
       appId: '',
