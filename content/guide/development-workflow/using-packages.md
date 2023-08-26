@@ -4,7 +4,7 @@ title: Using packages in NativeScript
 
 ### Plugins
 
-NativeScript plugins are npm packages with some added native functionality. Therefore, finding, installing, and removing NativeScript plugins works a lot like working with npm packages you might use in your Node.js or front-end web development.
+NativeScript plugins are npm packages that often include additional native functionality. Consequently, discovering, installing, and removing NativeScript plugins resembles the process of working with npm packages used in Node.js or other front-end web development.
 
 #### Finding plugins
 
