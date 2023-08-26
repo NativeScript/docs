@@ -19,7 +19,7 @@ You can also explore [@nativescript/core](https://docs.nativescript.org/understa
 
 #### Installing Plugins
 
-Once you’ve found the plugin you need, install the plugin into your app using the `ns plugin add` command.
+Once the needed plugin is found, it can be installed in a NativeScript app using the `ns plugin add` command which behaves just like `npm install` while also modifying any existing platform projects (linking, etc.).
 
 ```cli
 ns plugin add <plugin-name>
