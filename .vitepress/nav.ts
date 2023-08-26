@@ -52,7 +52,7 @@ export default [
     icon: 'CubeTransparentIcon',
   },
   {
-    text: 'API',
+    text: 'API Reference',
     link: '/api/',
     activeMatch: '^/api',
     icon: 'CodeBracketIcon',

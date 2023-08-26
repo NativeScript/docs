@@ -7,7 +7,7 @@ contributors: false
   import uiSidebar from "./sidebar";
 
   function category(name: string) {
-    return uiSidebar[0].items.find(i => i.text === 'Layout Containers').items
+    return uiSidebar[0].items.find(i => i.text === name).items
   }
 </script>
 
