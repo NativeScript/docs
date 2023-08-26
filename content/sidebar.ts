@@ -27,7 +27,7 @@ export default [
           },
           {
             text: 'Testing',
-            link: '/guide/testing'
+            link: '/guide/testing',
           },
           {
             text: 'Debugging',
@@ -75,8 +75,8 @@ export default [
       },
       {
         text: 'Updating',
-        link: '/guide/updating-an-app'
-      }
+        link: '/guide/updating-an-app',
+      },
     ],
   },
   {
@@ -135,6 +135,16 @@ export default [
         icon: 'file',
       },
       {
+        text: 'references.d.ts',
+        link: '/project-structure/references-d-ts',
+        icon: 'file',
+      },
+      {
+        text: 'tsconfig.json',
+        link: '/project-structure/tsconfig-json',
+        icon: 'file',
+      },
+      {
         text: 'webpack.config.js',
         link: '/project-structure/webpack-config',
         icon: 'file',
@@ -153,12 +163,6 @@ export default [
       //     },
       //   ],
       // },
-      {
-        text: 'tsconfig.json',
-        link: '/project-structure/tsconfig-json',
-        icon: 'file',
-      },
-      // { text: 'references.d.ts', link: '//#', icon: 'file' },
     ],
   },
   {
@@ -171,31 +175,31 @@ export default [
       },
       {
         text: 'Color',
-        link: '/guide/core/color'
+        link: '/guide/core/color',
       },
       {
         text: 'Connectivity',
         link: '/guide/core/connectivity',
       },
-      { 
+      {
         text: 'Http',
-        link: '/guide/core/http'
+        link: '/guide/core/http',
       },
       {
         text: 'FPS Meter',
-        link: '/guide/core/fps-meter'
+        link: '/guide/core/fps-meter',
       },
       {
         text: 'FileSystem',
-        link: '/guide/core/file-system'
+        link: '/guide/core/file-system',
       },
       {
         text: 'Observable',
-        link: '/guide/core/observable'
+        link: '/guide/core/observable',
       },
       {
         text: 'Screen',
-        link: '/guide/core/screen'
+        link: '/guide/core/screen',
       },
       {
         text: 'Device',
@@ -207,15 +211,15 @@ export default [
       },
       {
         text: 'Trace',
-        link: '/guide/core/tracing'
+        link: '/guide/core/tracing',
       },
       {
         text: 'XmlParser',
-        link: '/guide/core/xml-parser'
+        link: '/guide/core/xml-parser',
       },
       {
         text: 'Utils',
-        link: '/guide/core/utils'
+        link: '/guide/core/utils',
       },
     ],
   },
@@ -224,7 +228,7 @@ export default [
     items: [
       {
         text: 'Data Binding',
-        link: '/guide/data-binding'
+        link: '/guide/data-binding',
       },
       {
         text: 'Navigation',
@@ -240,7 +244,7 @@ export default [
       },
       {
         text: 'Metadata',
-        link: '/guide/metadata'
+        link: '/guide/metadata',
       },
       {
         text: 'Marshalling',
@@ -256,12 +260,12 @@ export default [
           {
             text: 'Android',
             link: '/guide/android-marshalling',
-          }
-        ]
+          },
+        ],
       },
       {
         text: 'Property System',
-        link: '/guide/property-system'
+        link: '/guide/property-system',
       },
       {
         text: 'Shared Element Transitions',
@@ -277,13 +281,13 @@ export default [
         items: [
           {
             text: 'ImageCache',
-            link: '/guide/ui/image-cache'
+            link: '/guide/ui/image-cache',
           },
           {
             text: 'ImageSource',
-            link: '/guide/ui/image-source'
-          }
-        ]
+            link: '/guide/ui/image-source',
+          },
+        ],
       },
       //       { text: 'Styling', link: '//#' },
       //       { text: 'Interactivity', link: '//#' },
