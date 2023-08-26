@@ -44,7 +44,7 @@ export class HelloWorldModel extends Observable {
 }
 ```
 
-- **Two-way data binding** - The data flows from the Model to the UI and vice versa. A typical example is a `TextField` that reads its value from Model, and also changes the Model based on user input.
+- **Two-way data binding** - The data flows from the Model to the UI and vice versa. A typical example is a `TextField` that reads its value from a Model, and also changes the Model based on user input.
 
 ```xml
 <TextField text="{{ name }}"/>
