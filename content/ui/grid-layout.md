@@ -1,8 +1,10 @@
 ---
 title: GridLayout
+description: A layout container that lets you arrange its child elements in a table-like manner.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
-
-`<GridLayout>` is a layout container that lets you arrange its child elements in a table-like manner.
 
 The grid consists of rows, columns, and cells. A cell can span one or more rows and one or more columns. It can contain multiple child elements which can span over multiple rows and columns, and even overlap each other.
 
@@ -13,8 +15,6 @@ You can set a fixed size for column width and row height or you can create them 
 - **An absolute number:** Indicates a fixed size.
 - **auto:** Makes the column as wide as its widest child or makes the row as tall as its tallest child.
 - **\*:** Takes as much space as available after filling all auto and fixed size columns or rows.
-
-See [References](#references) for more information.
 
 ### GridLayout with fixed sizing
 
@@ -79,23 +79,76 @@ The following example creates a complex grid with responsive design, mixed width
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/grid_layout_complex.svg" />
 
-## Reference
+## Props
 
-### Props
+### columns {#grid-columns}
 
-| Name           | Type        | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| -------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `columns`      | `String`    | A string value representing column widths delimited with commas.<br/>Valid values: an absolute number, `auto`, or `*`.<br/>A number indicates an absolute column width. `auto` makes the column as wide as its widest child. `*` makes the column occupy all available horizontal space. The space is proportionally divided over all star-sized columns. You can set values such as `3*` and `5*` to indicate a ratio of 3:5 in sizes. |
-| `rows`         | `String`    | A string value representing row heights delimited with commas.<br/>Valid values: an absolute number, `auto`, or `*`.<br/>A number indicates an absolute row height. `auto` makes the row as tall as its tallest child. `*` makes the row occupy all available vertical space. The space is proportionally divided over all star-sized rows. You can set values such as `3*` and `5*` to indicate a ratio of 3:5 in sizes.               |
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/gridlayout)                                                                                                                                                                                                                                                                                                 |
+```ts
+columns: string // eg. *, 50, auto
+```
 
-### Children props
+A string value representing column widths delimited with commas.
 
-When an element is a direct child of `<GridLayout>`, you can work with the following additional properties.
+Valid values: an absolute number, `auto`, or `*`:
 
-| Name      | Type     | Description                                                                                                                                                    |
-| --------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `row`     | `Number` | Specifies the row for this element. Combined with a `col` property, specifies the cell coordinates of the element.<br/>The first row is indicated by `0`.      |
-| `col`     | `Number` | Specifies the column for the element. Combined with a `row` property, specifies the cell coordinates of the element.<br/>The first column is indicated by `0`. |
-| `rowSpan` | `Number` | Specifies the number of rows which this element spans across.                                                                                                  |
-| `colSpan` | `Number` | Specifies the number of columns which this element spans across.                                                                                               |
+- A number indicates an absolute column width.
+- `auto` makes the column as wide as its widest child.
+- `*` makes the column occupy all available horizontal space. The space is proportionally divided over all star-sized columns. You can set values such as `3*` and `5*` to indicate a ratio of 3:5 in sizes.
+
+### rows {#grid-rows}
+
+```ts
+rows: string // eg. *, 50, auto
+```
+
+A string value representing row heights delimited with commas.
+
+Valid values: an absolute number, `auto`, or `*`:
+
+- A number indicates an absolute row height.
+- `auto` makes the row as tall as its tallest child.
+- `*` makes the row occupy all available vertical space. The space is proportionally divided over all star-sized rows. You can set values such as `3*` and `5*` to indicate a ratio of 3:5 in sizes.
+
+### ...Inherited
+
+Additional inherited properties not shown. Refer to the [API Reference](/api/class/GridLayout).
+
+## Children props
+
+When an element is a direct child of `<GridLayout>`, these properties are accounted for:
+
+### row
+
+```ts
+row: number
+```
+
+The row for the element.
+
+The rows are 0-indexed, so the first row is indicated by `0`.
+
+### col
+
+```ts
+col: number
+```
+
+The column for the element.
+
+The columns are 0-indexed, so the first column is indicated by `0`.
+
+### rowSpan
+
+```ts
+rowSpan: number
+```
+
+The number of rows for the element to span across.
+
+### colSpan
+
+```ts
+colSpan: number
+```
+
+The number of columns for the element to span across.

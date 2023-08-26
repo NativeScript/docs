@@ -1,12 +1,11 @@
 ---
 title: StackLayout
+description: A layout container that arranges child views in a horizontal or vertical stack.
 contributors:
   - rigor789
   - Ombuweb
   - ammarahm-ed
 ---
-
-`<StackLayout>` is a layout container that arranges child views in a horizontal or vertical stack.
 
 When you add child views to a StackLayout, they will be arranged one after the other in the specified direction, either horizontally or vertically. By default, the orientation of a StackLayout is vertical, but you can change it to `horizontal` by setting the `orientation` property.
 
