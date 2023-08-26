@@ -205,7 +205,7 @@ Special characters need to be escaped as follows:
 
 ## Using data converters
 
-Often data within ViewModel is stored in a way that is optimized for best performance of tasks like search, replace and so on. Unfortunately, the way computers store data differs a lot with a human readable format. Probably the best example is the `Date` object. In JavaScript, Date actually is a very big number that represents milliseconds from `01.01.1970` which does not speak much to any human. Here comes the use of data converters which basically are functions that formats the data (from Model) in a human readable format (display in UI). 
+Often data within the Model is stored in a way that is optimized for best performance regarding tasks such as search, replace etc. Unfortunately, the way computers store data differs significantly from human-readable formats. One fitting example is the Date object. In JavaScript, Date actually is a very big number that represents milliseconds from `01.01.1970` which does not speak much to any human. This is where data converters come into play. Data converters are essentially functions that format the data from the Model into a human-readable format for display in the UI.
 
  <!-- TODO: Add SB+Preview -->
 
