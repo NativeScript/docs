@@ -1,5 +1,5 @@
 ---
-title: Using packages in NativeScript
+title: Using packages (aka, plugins) in NativeScript
 ---
 
 ### Plugins
