@@ -180,7 +180,7 @@ To use the latest:
 
 #### Handling internal breaking changes
 
-It is possible that an internal breaking change gets introduced involving an update to both the runtimes and the modules. An internal breaking change would mean that the public API of the tns_modules does not get affected, but a work in progress change in the runtimes requires a change in the internal code of the tns_modules themselves.
+It is possible for an internal breaking change to be introduced, affecting both the runtimes and core.  This type of change requires modifications to the internal code of @nativescript/core, while the public API remains unaffected.
 
 When such a case happens, the [ios](https://github.com/NativeScript/ns-v8ios-runtime) and [android](https://github.com/NativeScript/android-runtime) runtimes must be built separately and updated via the CLI command of:
 `ns platform update android/ios --frameworkPath=[Path-to-Runtime-Package]`
