@@ -223,6 +223,10 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Data Binding',
+        link: '/guide/data-binding'
+      },
+      {
         text: 'Navigation',
         link: '/guide/ui/navigation',
       },
