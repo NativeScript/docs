@@ -5,16 +5,16 @@ contributors: false
 
 <script setup lang="ts">
   import uiSidebar from "./sidebar";
-  function categoryId(category: any) {
-    const url = new URL(category.link, 'https://example.com/')
-    return url.hash.slice(1);
+
+  function category(name: string) {
+    return uiSidebar[0].items.find(i => i.text === 'Layout Containers').items
   }
 </script>
 
 ## Layout Containers {#layout-containers}
 
 <ul>
-  <li v-for="item in uiSidebar.find(i => i.text === 'Layout Containers').items">
+  <li v-for="item in category('Layout Containers')">
     <a :href="item.link">{{ item.text }}</a>
   </li>
 </ul>
@@ -22,7 +22,7 @@ contributors: false
 ## Navigation Components {#navigation-components}
 
 <ul>
-  <li v-for="item in uiSidebar.find(i => i.text === 'Navigation Components').items">
+  <li v-for="item in category('Navigation Components')">
     <a :href="item.link">{{ item.text }}</a>
   </li>
 </ul>
@@ -30,7 +30,7 @@ contributors: false
 ## Components {#components}
 
 <ul>
-  <li v-for="item in uiSidebar.find(i => i.text === 'Components').items">
+  <li v-for="item in category('Components')">
     <a :href="item.link">{{ item.text }}</a>
   </li>
 </ul>
