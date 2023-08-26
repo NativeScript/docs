@@ -1,0 +1,243 @@
+{
+  "title": "HttpRequestOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "HttpRequestOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1985,
+        1987,
+        1984,
+        1983,
+        1986,
+        1982
+      ]
+    }
+  ],
+  "reflections": {
+    "1982": {
+      "name": "url",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#url",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request url."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 79,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request url."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#url"
+        }
+      ]
+    },
+    "1983": {
+      "name": "method",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#method",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request method."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">method</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 84,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request method."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#method"
+        }
+      ]
+    },
+    "1984": {
+      "name": "headers",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#headers",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request headers in JSON format."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">headers</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 89,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request headers in JSON format."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#headers"
+        }
+      ]
+    },
+    "1985": {
+      "name": "content",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#content",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request body."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">content</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> FormData </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> ArrayBuffer</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 94,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request body."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#content"
+        }
+      ]
+    },
+    "1986": {
+      "name": "timeout",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#timeout",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the request timeout in milliseconds."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">timeout</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 99,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the request timeout in milliseconds."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#timeout"
+        }
+      ]
+    },
+    "1987": {
+      "name": "dontFollowRedirects",
+      "type": "Property",
+      "url": "/api/interface/HttpRequestOptions#dontfollowredirects",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets wether to *not* follow server's redirection responses."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">dontFollowRedirects</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 104,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets wether to *not* follow server's redirection responses."
+              }
+            ]
+          },
+          "url": "/api/interface/HttpRequestOptions#dontfollowredirects"
+        }
+      ]
+    }
+  }
+}

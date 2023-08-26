@@ -1,0 +1,79 @@
+{
+  "title": "AndroidActionItemPosition",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4965,
+        4966,
+        4967
+      ]
+    }
+  ],
+  "reflections": {
+    "4965": {
+      "name": "actionBar",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbar",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">actionBar</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 188,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbar"
+        }
+      ]
+    },
+    "4966": {
+      "name": "actionBarIfRoom",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbarifroom",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">actionBarIfRoom</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 189,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#actionbarifroom"
+        }
+      ]
+    },
+    "4967": {
+      "name": "popup",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#popup",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">popup</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 190,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionItemPosition#popup"
+        }
+      ]
+    }
+  }
+}

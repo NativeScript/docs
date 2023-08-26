@@ -1,0 +1,85 @@
+{
+  "title": "ViewEntry",
+  "hierarchy": [
+    [
+      {
+        "text": "ViewEntry"
+      }
+    ],
+    [
+      {
+        "text": "NavigationEntry",
+        "link": "/api/interface/NavigationEntry"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        13918,
+        13917
+      ]
+    }
+  ],
+  "reflections": {
+    "13917": {
+      "name": "moduleName",
+      "type": "Property",
+      "url": "/api/interface/ViewEntry#modulename",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the module containing the View instance to load. Optional."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">moduleName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 280,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the module containing the View instance to load. Optional."
+              }
+            ]
+          },
+          "url": "/api/interface/ViewEntry#modulename"
+        }
+      ]
+    },
+    "13918": {
+      "name": "create",
+      "type": "Property",
+      "url": "/api/interface/ViewEntry#create",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "create?: () => <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 285,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ViewEntry#create"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "title": "Connectivity",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumerations",
+      "items": [
+        1091
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        1081,
+        1083,
+        1089
+      ]
+    }
+  ],
+  "reflections": {
+    "1081": {
+      "name": "getConnectionType",
+      "type": "Function",
+      "url": "/api/namespace/Connectivity#getconnectiontype",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getConnectionType</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
+          "url": "/api/namespace/Connectivity#getconnectiontype-getconnectiontype-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 6,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the type of connection.\nReturns a value from the connectivity.connectionType enumeration.\nTo use this method on Android you need to have the android.permission.ACCESS_NETWORK_STATE permission added to the AndroidManifest.xml file."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "1083": {
+      "name": "startMonitoring",
+      "type": "Function",
+      "url": "/api/namespace/Connectivity#startmonitoring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">startMonitoring</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  connectionTypeChangedCallback: (</span><span style=\"color: #FFAB70\">newConnectionType</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">number</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/Connectivity#startmonitoring-startmonitoring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 47,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Starts monitoring the connection type."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "connectionTypeChangedCallback",
+              "type": "(newConnectionType: number) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function that will be called when the connection type changes."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1089": {
+      "name": "stopMonitoring",
+      "type": "Function",
+      "url": "/api/namespace/Connectivity#stopmonitoring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stopMonitoring</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/Connectivity#stopmonitoring-stopmonitoring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 52,
+              "character": 0
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Stops monitoring the connection type."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "1091": {
+      "name": "connectionType",
+      "type": "Enum",
+      "url": "/api/enum/Connectivity-connectionType",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Defines the different connection types."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">connectionType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/connectivity/index.d.ts",
+              "line": 11,
+              "character": 12
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Defines the different connection types."
+              }
+            ]
+          },
+          "url": "/api/enum/Connectivity-connectionType"
+        }
+      ]
+    }
+  }
+}

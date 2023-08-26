@@ -1,0 +1,125 @@
+{
+  "rules": {
+    "terminology": {
+      "severity": "warning",
+      "defaultTerms": false,
+      // Some terms borrowed from https://github.com/cypress-io/cypress-documentation/blob/main/.textlintrc
+      "terms": [
+        // NativeScript specifics
+        ["absolute[- ]?layout(s?)", "AbsoluteLayout$1"],
+        ["dock[- ]?layout(s?)", "DockLayout$1"],
+        ["flex(?:box)?[- ]?layout(s?)", "FlexboxLayout$1"],
+        ["grid[- ]?layout(s?)", "GridLayout$1"],
+        ["root[- ]?layout(s?)", "RootLayout$1"],
+        ["stack[- ]?layout(s?)", "StackLayout$1"],
+        ["wrap[- ]?layout(s?)", "WrapLayout$1"],
+        ["activity[- ]?indicator(s?)", "ActivityIndicator$1"],
+        ["date[- ]?picker(s?)", "DatePicker$1"],
+        ["html[- ]?view(s?)", "HtmlView$1"],
+        ["list[- ]?picker(s?)", "ListPicker$1"],
+        ["list[- ]?view(s?)", "ListView$1"],
+        ["place[- ]?holder(s?)", "Placeholder$1"],
+        ["scroll[- ]?view(s?)", "ScrollView$1"],
+        ["search[- ]?bar(s?)", "SearchBar$1"],
+        ["segmented[- ]?bar(s?)", "SegmentedBar$1"],
+        ["tab[- ]?view(s?)", "TabView$1"],
+        ["text[- ]?field(s?)", "TextField$1"],
+        ["text[- ]?view(s?)", "TextView$1"],
+        ["time[- ]?picker(s?)", "TimePicker$1"],
+        ["web[- ]?view(s?)", "WebView$1"],
+        ["action[- ]?bar(s?)", "ActionBar$1"],
+
+        // Prefer simple
+        ["callback function", "callback"],
+
+        // Brands and Technologies
+        "JavaScript",
+        "TypeScript",
+        "NativeScript",
+        ["ns", "NativeScript"],
+        "GitHub",
+        ["VSCode", "VS Code"],
+        "webpack",
+        ["WebSocket(s?)", "WebSocket$1"],
+        "WiFi",
+        "API",
+        ["API['’]?s", "APIs"],
+        "CLI",
+        "CSS",
+
+        // Words and phrases
+        ["\\(s\\)he", "they"],
+        ["he or she", "they"],
+        ["he/she", "they"],
+        ["crazy", "complex"],
+        ["crazier", "more complex"],
+        ["craziest", "most complex"],
+        ["dumb", "unintended"],
+        ["insane", "outrageous"],
+        ["blacklist", "block"],
+        ["whitelist", "allow"],
+        ["will be executed", "will be called"],
+
+        // Prefer American spelling
+        ["behaviour", "behavior"],
+        ["cancelled", "canceled"],
+        ["cancelling", "canceling"],
+        ["centre", "center"],
+        ["colour", "color"],
+        ["customise", "customize"],
+        ["customisation", "customization"],
+        ["favourite", "favorite"],
+        ["labelled", "labeled"],
+        ["licence", "license"],
+        ["organise", "organize"],
+
+        // Common misspellings
+        ["gaurantee", "guarantee"],
+
+        // Words we would like to not use altogether
+        ["obviously", ""],
+        ["basically", ""],
+        ["simply", ""],
+        ["of( )?course", ""],
+        ["clearly", ""],
+        ["just", ""],
+        ["everyone knows", ""],
+        ["easy", ""],
+        ["which will( be)?", ""],
+        ["which is the", ""],
+
+        // Words we would like to not use at the start of a sentence
+        ["^so", ""],
+        ["^and", ""],
+        ["^but", ""],
+        ["^however", ""],
+
+        // Single word
+        ["change[- ]log(s?)", "changelog$1"],
+        ["code[- ]base(es?)", "codebase$1"],
+        ["e[- ]mail(s?)", "email$1"],
+        ["end[- ]point(s?)", "endpoint$1"],
+        ["file[- ]name(s?)", "filename$1"],
+        ["can[- ]not", "cannot$1"],
+        ["back-?end(s?)", "backend$1"],
+        ["front-?end(s?)", "frontend$1"],
+        ["full-?stack(s?)", "fullstack$1"],
+
+        // Multiple words
+        ["open-?source(ed?)", "open source$1"],
+
+        // Hyphenated
+        ["end ?to ?end", "end-to-end"],
+        ["retryability", "retry-ability"],
+        ["retriability", "retry-ability"],
+
+        // Shortened words
+        ["repo\\b", "repository"],
+        ["repos\\b", "repositories"]
+      ]
+    }
+  },
+  "filters": {
+    "comments": true
+  }
+}

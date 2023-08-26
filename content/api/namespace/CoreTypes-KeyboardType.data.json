@@ -1,0 +1,145 @@
+{
+  "title": "KeyboardType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4825,
+        4829,
+        4830,
+        4827,
+        4826,
+        4828
+      ]
+    }
+  ],
+  "reflections": {
+    "4825": {
+      "name": "datetime",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-KeyboardType#datetime",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">datetime</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 38,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-KeyboardType#datetime"
+        }
+      ]
+    },
+    "4826": {
+      "name": "phone",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-KeyboardType#phone",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">phone</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 39,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-KeyboardType#phone"
+        }
+      ]
+    },
+    "4827": {
+      "name": "number",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-KeyboardType#number",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">number</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 40,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-KeyboardType#number"
+        }
+      ]
+    },
+    "4828": {
+      "name": "url",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-KeyboardType#url",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 41,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-KeyboardType#url"
+        }
+      ]
+    },
+    "4829": {
+      "name": "email",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-KeyboardType#email",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">email</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 42,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-KeyboardType#email"
+        }
+      ]
+    },
+    "4830": {
+      "name": "integer",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-KeyboardType#integer",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">integer</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 43,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-KeyboardType#integer"
+        }
+      ]
+    }
+  }
+}

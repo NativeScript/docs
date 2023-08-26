@@ -1,0 +1,81 @@
+{
+  "title": "KeyframeInfo",
+  "hierarchy": [
+    [
+      {
+        "text": "KeyframeInfo"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        7472,
+        7471,
+        7470
+      ]
+    }
+  ],
+  "reflections": {
+    "7470": {
+      "name": "duration",
+      "type": "Property",
+      "url": "/api/interface/KeyframeInfo#duration",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">duration</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 37,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeInfo#duration"
+        }
+      ]
+    },
+    "7471": {
+      "name": "declarations",
+      "type": "Property",
+      "url": "/api/interface/KeyframeInfo#declarations",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "declarations: <a href=\"/api/interface/KeyframeDeclaration\">KeyframeDeclaration</a>[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 38,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeInfo#declarations"
+        }
+      ]
+    },
+    "7472": {
+      "name": "curve",
+      "type": "Property",
+      "url": "/api/interface/KeyframeInfo#curve",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 39,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/KeyframeInfo#curve"
+        }
+      ]
+    }
+  }
+}
