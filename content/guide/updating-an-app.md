@@ -187,7 +187,7 @@ When such a case happens, the [ios](https://github.com/NativeScript/ns-v8ios-run
 
 #### Building the runtimes
 
-As the NativeScript framework gets distributed via npm, the runtimes are also packed as npm packages. For consistency reasons, the native builds (gradle/xcode-build) are wrapped by grunt builds that do the job.
+The NativeScript framework and runtimes are distributed as npm packages. To maintain consistency, the native builds (gradle/xcode-build) are encapsulated within grunt builds.
 
 #### Building the Android runtime
 
