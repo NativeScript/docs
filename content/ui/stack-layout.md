@@ -7,7 +7,8 @@ title: StackLayout
 When you add child views to a StackLayout, they will be arranged one after the other in the specified direction, either horizontally or vertically. By default, the orientation of a StackLayout is vertical, but you can change it to `horizontal` by setting the `orientation` property.
 
 ::: danger Important
-StackLayout is a relatively simple layout container, and it's easy to overuse it in complex layouts. When you have many nested StackLayout containers or lots of child views, it can lead to poor performance and slow rendering times. Therefore If you find yourself nesting a lot of `<StackLayout>` you will likely get better performance by switching to a `<GridLayout>` or `<FlexboxLayout>`.
+
+StackLayout is a basic layout container often used excessively in complex layouts. Overusing it with many nested containers or numerous child views can result in poor performance and slow rendering. If you're extensively nesting `<StackLayout>`, consider switching to `<GridLayout>` or `<FlexboxLayout>` for better performance.
 
 <!-- See [Layout Nesting](/common-pitfalls.html#layout-nesting) for more information. -->
 

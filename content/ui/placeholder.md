@@ -2,7 +2,7 @@
 title: Placeholder
 ---
 
-`<Placeholder>` allows adding native views directly in your markup without creating a full [View](#) wrapper for it. When NativeScript is constructing the UI and encounters a placeholder element, it emits a `creatingView` event, allowing you to pass in any native view to be rendered by assigning it to the `args.view` parameter.
+`<Placeholder>` allows adding native views directly in your markup without creating a full [View](#) wrapper for it. When NativeScript is constructing the UI and encounters a Placeholder element, it emits a `creatingView` event, allowing you to pass in any native view to be rendered by assigning it to the `args.view` parameter.
 
 ### Creating a Simple Placeholder
 

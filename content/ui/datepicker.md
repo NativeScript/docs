@@ -274,13 +274,13 @@ Gets or sets the year.
 datePicker.iosPreferredDatePickerStyle = 2
 ```
 
-Gets or set the UIDatePickerStyle of the date picker in iOS `13.4+`. Defaults to `0`.
+Gets or set the UIDatePickerStyle of the DatePicker in iOS `13.4+`. Defaults to `0`.
 Valid values are numbers:
 
-- `0 = automatic`: system picks the concrete style based on the current platform and date picker mode.
-- `1 = wheels`: the date picker displays as a wheel picker.
-- `2 = compact` : the date picker displays as a label that when tapped displays a calendar-style editor.
-- `3 = inline` : the date pickers displays as an inline, editable field
+- `0 = automatic`: system picks the concrete style based on the current platform and DatePicker mode.
+- `1 = wheels`: the DatePicker displays as a wheel picker.
+- `2 = compact` : the DatePicker displays as a label that when tapped displays a calendar-style editor.
+- `3 = inline` : the DatePickers displays as an inline, editable field
 
 ---
 

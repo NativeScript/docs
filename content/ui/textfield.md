@@ -185,7 +185,7 @@ Gets or sets the `text` value of the component.
 hint: string = textField.hint
 ```
 
-Gets or sets the placeholder text for the component.
+Gets or sets the Placeholder text for the component.
 
 ---
 

@@ -16,7 +16,7 @@ You can set a fixed size for column width and row height or you can create them 
 
 See [References](#references) for more information.
 
-### Grid layout with fixed sizing
+### GridLayout with fixed sizing
 
 The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
@@ -31,7 +31,7 @@ The following example creates a simple 2-by-2 grid with fixed column widths and 
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/grid_layout.svg" />
 
-### Grid layout with star sizing
+### GridLayout with star sizing
 
 The following example creates a grid with responsive design, where space is allotted proportionally to child elements.
 
@@ -46,7 +46,7 @@ The following example creates a grid with responsive design, where space is allo
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/grid_layout_star_sizing.svg" />
 
-### Grid layout with fixed and auto sizing
+### GridLayout with fixed and auto sizing
 
 The following example create a grid with one auto-sized column and one column with fixed size. Rows have a fixed height.
 
@@ -61,7 +61,7 @@ The following example create a grid with one auto-sized column and one column wi
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/grid_layout_fixed_auto.svg" />
 
-### Grid layout with mixed sizing and merged cells
+### GridLayout with mixed sizing and merged cells
 
 The following example creates a complex grid with responsive design, mixed width and height settings, and some merged cells.
 

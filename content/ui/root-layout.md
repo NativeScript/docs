@@ -5,9 +5,9 @@ title: RootLayout
 <!-- TODO: Add Preview -->
 <!-- TODO: Add flavors tabs -->
 
-`<RootLayout>` is a layout container designed to be used as the primary root layout container for your app with a built-in API to easily control dynamic view layers. It extends a [GridLayout]() so has all the features of a grid but enhanced with additional apis.
+`<RootLayout>` is a layout container designed to be used as the primary RootLayout container for your app with a built-in API to easily control dynamic view layers. It extends a [GridLayout]() so has all the features of a grid but enhanced with additional APIs.
 
-You can use `getRootLayout()` to get a reference to the root layout in your app from anywhere.
+You can use `getRootLayout()` to get a reference to the RootLayout in your app from anywhere.
 
 ## Usage
 

@@ -234,7 +234,7 @@ const segmentedBar = new SegmentedBar()
 segmentedBar.items = [segmentedBarItem1, segmentedBarItem2]
 ```
 
-An array of items to be displayed in the segmented bar. Represents the button labels or icons of the segmented bar.
+An array of items to be displayed in the SegmentedBar. Represents the button labels or icons of the SegmentedBar.
 
 ---
 
@@ -283,7 +283,7 @@ onSelectedIndexChange(args: SelectedIndexChangedEventData) {
 }
 ```
 
-Emitted when the an item on the segmented bar is tapped. See the [SelectedIndexChangedEventData interface](#selectedindexchangedeventdata-interface) for the event data.
+Emitted when the an item on the SegmentedBar is tapped. See the [SelectedIndexChangedEventData interface](#selectedindexchangedeventdata-interface) for the event data.
 
 ---
 

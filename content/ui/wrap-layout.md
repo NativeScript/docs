@@ -4,7 +4,7 @@ title: WrapLayout
 
 `<WrapLayout>` is a layout container that lets you position items in rows or columns, based on the `orientation` property. When the space is filled, the container automatically wraps items onto a new row or column.
 
-## Horizontal wrap layout
+## Horizontal WrapLayout
 
 By default, a `WrapLayout` wraps its child items along a row.
 The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item to a new row.
@@ -20,7 +20,7 @@ The following example creates a row of equally-sized items. When the row runs ou
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/wrap_layout_horizontal.svg" />
 
-## Vertical wrap layout
+## Vertical WrapLayout
 
 To wrap child items vertically, set the `WrapLayout`'s `orentation` property to `vertical`.
 The following example creates a column of equally-sized items. When the column runs out of space, the container wraps the last item to a new column.

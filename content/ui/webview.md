@@ -144,7 +144,7 @@ Disable scrolling in the WebView.
 webView.iosAllowInlineMediaPlayback = true
 ```
 
-(`iOS only`) Enables inline media playback on iOS. By default, webview forces iPhone into fullscreen media playback.
+(`iOS only`) Enables inline media playback on iOS. By default, WebView forces iPhone into fullscreen media playback.
 
 ---
 

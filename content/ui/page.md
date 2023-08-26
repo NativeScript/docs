@@ -211,7 +211,7 @@ Developers coming from a web background would usually reach for the `mounted` li
 
 ## Props
 
-### actionBar
+### ActionBar
 
 ```ts
 actionBar: ActionBar = page.actionBar

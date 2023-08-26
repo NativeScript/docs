@@ -123,7 +123,7 @@ export class HelloWorldModel extends Observable {
 }
 ```
 
-Gets or sets the specified items array as options in the list picker.
+Gets or sets the specified items array as options in the ListPicker.
 
 ---
 

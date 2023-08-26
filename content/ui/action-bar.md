@@ -348,7 +348,8 @@ If you need to place a custom button on the left side of the `<ActionBar>` (e.g.
 On Android, you can't add text inside the navigation button.
 You can use the icon property to set an image (e.g., `~/images/nav-image.png` or `res:\\ic_nav`).
 You can use `android.systemIcon` to set one of the system icons available in Android.
-In this case, there is no default behaviour for NavigationButton tap event, and we should set the callback function, which will be executed.
+In this case, there is no default behavior for NavigationButton tap event, instead the passed-in callback will be called.
+
 :::
 
 ## Setting an app icon for Android in ActionBar
@@ -415,7 +416,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 ## Styling ActionBar
 
-To style the `<ActionBar>`, you can use only `background-color` and `color` properties. Alternatively, you can use [@nativescript/tailwind](https://docs.nativescript.org/plugins/tailwindcss.html) and use the default styles for each different theme. The icon property of `ActionItem` can use Icon Fonts with the `font://` prefix. By setting up this prefix, a new image will be generated, which will be set as an `<ActionItem>`'s icon resource. While using this functionality, we need to specify the font-size, which will calculate the size of the generated image base on the device's dpi.
+To style the `<ActionBar>`, you can use only `background-color` and `color` properties. Alternatively, you can use [@nativescript/tailwind](https://docs.nativescript.org/plugins/tailwindcss.html) and use the default styles for each different theme. The icon property of `ActionItem` can use Icon Fonts with the `font://` prefix. By setting up this prefix, a new image will be generated, and set as the `<ActionItem>`'s icon resource. While using this functionality, we need to specify the font-size, to calculate the size of the generated image base on the device's dpi.
 
 <!-- /// flavor angular
 
@@ -531,7 +532,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 actionBar.title = 'About'
 ```
 
-Gets or sets the action bar title.
+Gets or sets the ActionBar title.
 
 ---
 
@@ -590,7 +591,7 @@ Gets the collection of action items.
 actionBar.iosIconRenderingMode
 ```
 
-Gets or set the [UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode) of the action bar icons in iOS. Defaults to `alwaysOriginal`. Available values:
+Gets or set the [UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode) of the ActionBar icons in iOS. Defaults to `alwaysOriginal`. Available values:
 
 - `automatic`
 - `alwaysTemplate`
@@ -636,7 +637,7 @@ Sets the position of the item. Avaibable values: `left` or `right`. Defaults to 
 <ActionItem android.position="popup">
 ```
 
-Sets the position of the item. Avaibable values: ``enum`: `actionBar`, `popup`, `actionBarIfRoom`. Defaults to `actionBar`.
+Sets the position of the item. Avaibable values: `ActionBar`, `popup`, `actionBarIfRoom`. Defaults to `actionBar`.
 
 ---
 
@@ -660,13 +661,17 @@ Sets a path to a resource icon ( see the [list of Android system drawables](http
 
 ---
 
+<!-- textlint-disable terminology -->
+
 ### actionBar
+
+<!-- textlint-enable-->
 
 ```ts
 actionBar: ActionBar = actionItem.actionBar
 ```
 
-Gets the action bar that contains the action item.
+Gets the ActionBar that contains the action item.
 
 ---
 

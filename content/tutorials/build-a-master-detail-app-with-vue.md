@@ -612,7 +612,7 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
 
 ### Access navigation props
 
-We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details component. We can use the `props` property to get the passed in `id`. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.vue` and add the following:
+We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details component. We can use the `props` property to get the passed-in `id`. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.vue` and add the following:
 
 ```vue{10,13,17,20-22}
 <!-- app/components/Details.vue -->

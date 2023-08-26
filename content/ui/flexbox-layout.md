@@ -2,7 +2,7 @@
 title: FlexBoxLayout
 ---
 
-`<FlexboxLayout>` is a layout container that provides a non-exact implementation of the [CSS Flexbox layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). This layout lets you arrange child components both horizontally and vertically.
+`<FlexboxLayout>` is a layout container that provides a non-exact implementation of the [CSS FlexboxLayout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). This layout lets you arrange child components both horizontally and vertically.
 
 ## Placing child elements horizontally
 

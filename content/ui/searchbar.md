@@ -165,7 +165,7 @@ export class UsageComponent {
 <SearchBar hint="Enter search term here ..."  />
 ```
 
-Gets or sets placeholder text for the input area.
+Gets or sets Placeholder text for the input area.
 
 ---
 
@@ -195,7 +195,7 @@ Gets or sets the background color of the input area.
  <SearchBar textFieldHintColor="#fff"/>
 ```
 
-Gets or sets the color of the placeholder text.
+Gets or sets the color of the Placeholder text.
 
 ---
 

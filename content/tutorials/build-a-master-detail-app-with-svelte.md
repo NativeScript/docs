@@ -546,7 +546,7 @@ Next, let's add the tap event to the ListView items. Open `Home.svelte` and add 
 
 ### Access navigation props
 
-We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details page. We can access the passed in `flickId` by declaring and exporting a variable with the same name in the details component. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.svelte` and add the following:
+We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details page. We can access the passed-in `flickId` by declaring and exporting a variable with the same name in the details component. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.svelte` and add the following:
 
 ```xml{7}
 <!-- app/pages/Details.svelte -->
