@@ -37,7 +37,7 @@ Instead of using plugin add, package managers like npm, yarn, or pnpm can also b
 npm install --save @nativescript/camera
 ```
 
-The installation of a NativeScript plugin mimics the installation of an npm package. The NativeScript CLI downloads the plugin from npm and adds the plugin to the `node_modules` folder in the root of your project. During this process, the NativeScript CLI adds the plugin to your project’s root `package.json` file and also resolves the plugin’s dependencies (if any).
+The installation of a NativeScript plugin is similar to installing a npm package.  The NativeScript CLI downloads the plugin from npm and adds it to the node_modules folder in the project's root. This process also includes updating the root package.json file with the plugin and resolving its dependencies (if any).
 
 #### Installing Plugins as Developer Dependencies
 
