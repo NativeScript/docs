@@ -1,5 +1,5 @@
 ---
-title: FlexBoxLayout
+title: FlexboxLayout
 ---
 
 `<FlexboxLayout>` is a layout container that provides a non-exact implementation of the [CSS FlexboxLayout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). This layout lets you arrange child components both horizontally and vertically.
@@ -10,9 +10,9 @@ By default, `<FlexboxLayout>` creates a row of `n`( 3 in the below example ) equ
 
 ```xml
 <FlexboxLayout backgroundColor="#3c495e">
-  <Label text="first" width="70" backgroundColor="#43b883" />
-  <Label text="second" width="70" backgroundColor="#1c6b48" />
-  <Label text="third" width="70" backgroundColor="#289062" />
+  <Label text="first" width="70" backgroundColor="#43B3F4" />
+  <Label text="second" width="70" backgroundColor="#075B88" />
+  <Label text="third" width="70" backgroundColor="#1089CA" />
 </FlexboxLayout>
 ```
 
@@ -24,9 +24,9 @@ To place the items at the top of the screen, set the `<FlexboxLayout>`'s `alignI
 
 ```xml
 <FlexboxLayout alignItems="flex-start" backgroundColor="#3c495e">
-  <Label text="first" width="70" height="70" backgroundColor="#43b883" />
-  <Label text="second" width="70" height="70" backgroundColor="#1c6b48" />
-  <Label text="third" width="70" height="70" backgroundColor="#289062" />
+  <Label text="first" width="70" height="70" backgroundColor="#43B3F4" />
+  <Label text="second" width="70" height="70" backgroundColor="#075B88" />
+  <Label text="third" width="70" height="70" backgroundColor="#1089CA" />
 </FlexboxLayout>
 ```
 
@@ -43,21 +43,21 @@ To place the child items in a certain order, set the child's `order` property to
     order="2"
     width="70"
     height="70"
-    backgroundColor="#43b883"
+    backgroundColor="#43B3F4"
   />
   <Label
     text="second"
     order="3"
     width="70"
     height="70"
-    backgroundColor="#1c6b48"
+    backgroundColor="#075B88"
   />
   <Label
     text="third"
     order="1"
     width="70"
     height="70"
-    backgroundColor="#289062"
+    backgroundColor="#1089CA"
   />
 </FlexboxLayout>
 ```
@@ -70,10 +70,10 @@ To wrap an item to the next line when the current row runs out of space, set the
 
 ```xml
 <FlexboxLayout flexWrap="wrap" backgroundColor="#3c495e">
-  <Label text="first" width="30%" backgroundColor="#43b883" />
-  <Label text="second" width="30%" backgroundColor="#1c6b48" />
-  <Label text="third" width="30%" backgroundColor="#289062" />
-  <Label text="fourth" width="30%" backgroundColor="#289062" />
+  <Label text="first" width="30%" backgroundColor="#43B3F4" />
+  <Label text="second" width="30%" backgroundColor="#075B88" />
+  <Label text="third" width="30%" backgroundColor="#1089CA" />
+  <Label text="fourth" width="30%" backgroundColor="#1089CA" />
 </FlexboxLayout>
 ```
 
@@ -85,9 +85,9 @@ To place the child elements vertically from top to bottom, set the `<FlexboxLayo
 
 ```xml
 <FlexboxLayout flexDirection="column" backgroundColor="#3c495e">
-  <Label text="first" height="70" backgroundColor="#43b883" />
-  <Label text="second" height="70" backgroundColor="#1c6b48" />
-  <Label text="third" height="70" backgroundColor="#289062" />
+  <Label text="first" height="70" backgroundColor="#43B3F4" />
+  <Label text="second" height="70" backgroundColor="#075B88" />
+  <Label text="third" height="70" backgroundColor="#1089CA" />
 </FlexboxLayout>
 ```
 
@@ -108,22 +108,22 @@ The example below shows how to combine `flexDirection` with
   justifyContent="space-around"
   backgroundColor="#3c495e"
 >
-  <Label text="first" height="70" backgroundColor="#43b883" />
+  <Label text="first" height="70" backgroundColor="#43B3F4" />
   <Label
     text="second"
     alignSelf="center"
     width="70"
     height="70"
-    backgroundColor="#1c6b48"
+    backgroundColor="#075B88"
   />
   <Label
     text="third\nflex-end"
     alignSelf="flex-end"
     width="70"
     height="70"
-    backgroundColor="#289062"
+    backgroundColor="#1089CA"
   />
-  <Label text="fourth" height="70" backgroundColor="#289062" />
+  <Label text="fourth" height="70" backgroundColor="#1089CA" />
 </FlexboxLayout>
 ```
 

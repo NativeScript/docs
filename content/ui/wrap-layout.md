@@ -11,10 +11,10 @@ The following example creates a row of equally-sized items. When the row runs ou
 
 ```xml
 <WrapLayout backgroundColor="#3c495e">
-  <Label text="first" width="30%" height="30%" backgroundColor="#43b883" />
-  <Label text="second" width="30%" height="30%" backgroundColor="#1c6b48" />
-  <Label text="third" width="30%" height="30%" backgroundColor="#289062" />
-  <Label text="fourth" width="30%" height="30%" backgroundColor="#289062" />
+  <Label text="first" width="30%" height="30%" backgroundColor="#43B3F4" />
+  <Label text="second" width="30%" height="30%" backgroundColor="#075B88" />
+  <Label text="third" width="30%" height="30%" backgroundColor="#1089CA" />
+  <Label text="fourth" width="30%" height="30%" backgroundColor="#1089CA" />
 </WrapLayout>
 ```
 
@@ -27,10 +27,10 @@ The following example creates a column of equally-sized items. When the column r
 
 ```xml
 <WrapLayout orientation="vertical" backgroundColor="#3c495e">
-  <Label text="first" width="30%" height="30%" backgroundColor="#43b883" />
-  <Label text="second" width="30%" height="30%" backgroundColor="#1c6b48" />
-  <Label text="third" width="30%" height="30%" backgroundColor="#289062" />
-  <Label text="fourth" width="30%" height="30%" backgroundColor="#289062" />
+  <Label text="first" width="30%" height="30%" backgroundColor="#43B3F4" />
+  <Label text="second" width="30%" height="30%" backgroundColor="#075B88" />
+  <Label text="third" width="30%" height="30%" backgroundColor="#1089CA" />
+  <Label text="fourth" width="30%" height="30%" backgroundColor="#1089CA" />
 </WrapLayout>
 ```
 

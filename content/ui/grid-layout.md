@@ -22,10 +22,10 @@ The following example creates a simple 2-by-2 grid with fixed column widths and 
 
 ```xml
 <GridLayout columns="115, 115" rows="115, 115">
-  <Label text="0,0" row="0" col="0" backgroundColor="#43b883" />
-  <Label text="0,1" row="0" col="1" backgroundColor="#1c6b48" />
-  <Label text="1,0" row="1" col="0" backgroundColor="#289062" />
-  <Label text="1,1" row="1" col="1" backgroundColor="#43b883" />
+  <Label text="0,0" row="0" col="0" backgroundColor="#43B3F4" />
+  <Label text="0,1" row="0" col="1" backgroundColor="#075B88" />
+  <Label text="1,0" row="1" col="0" backgroundColor="#1089CA" />
+  <Label text="1,1" row="1" col="1" backgroundColor="#43B3F4" />
 </GridLayout>
 ```
 
@@ -37,10 +37,10 @@ The following example creates a grid with responsive design, where space is allo
 
 ```xml
 <GridLayout columns="*, 2*" rows="2*, 3*" backgroundColor="#3c495e">
-  <Label text="0,0" row="0" col="0" backgroundColor="#43b883" />
-  <Label text="0,1" row="0" col="1" backgroundColor="#1c6b48" />
-  <Label text="1,0" row="1" col="0" backgroundColor="#289062" />
-  <Label text="1,1" row="1" col="1" backgroundColor="#43b883" />
+  <Label text="0,0" row="0" col="0" backgroundColor="#43B3F4" />
+  <Label text="0,1" row="0" col="1" backgroundColor="#075B88" />
+  <Label text="1,0" row="1" col="0" backgroundColor="#1089CA" />
+  <Label text="1,1" row="1" col="1" backgroundColor="#43B3F4" />
 </GridLayout>
 ```
 
@@ -52,10 +52,10 @@ The following example create a grid with one auto-sized column and one column wi
 
 ```xml
 <GridLayout columns="80, auto" rows="80, 80" backgroundColor="#3c495e">
-  <Label text="0,0" row="0" col="0" backgroundColor="#43b883" />
-  <Label text="0,1" row="0" col="1" backgroundColor="#1c6b48" />
-  <Label text="1,0" row="1" col="0" backgroundColor="#289062" />
-  <Label text="1,1" row="1" col="1" backgroundColor="#43b883" />
+  <Label text="0,0" row="0" col="0" backgroundColor="#43B3F4" />
+  <Label text="0,1" row="0" col="1" backgroundColor="#075B88" />
+  <Label text="1,0" row="1" col="0" backgroundColor="#1089CA" />
+  <Label text="1,1" row="1" col="1" backgroundColor="#43B3F4" />
 </GridLayout>
 ```
 
@@ -67,13 +67,13 @@ The following example creates a complex grid with responsive design, mixed width
 
 ```xml
 <GridLayout columns="40, auto, *" rows="40, auto, *" backgroundColor="#3c495e">
-  <Label text="0,0" row="0" col="0" backgroundColor="#43b883" />
-  <Label text="0,1" row="0" col="1" colSpan="2" backgroundColor="#1c6b48" />
-  <Label text="1,0" row="1" col="0" rowSpan="2" backgroundColor="#289062" />
-  <Label text="1,1" row="1" col="1" backgroundColor="#43b883" />
-  <Label text="1,2" row="1" col="2" backgroundColor="#289062" />
-  <Label text="2,1" row="2" col="1" backgroundColor="#1c6b48" />
-  <Label text="2,2" row="2" col="2" backgroundColor="#43b883" />
+  <Label text="0,0" row="0" col="0" backgroundColor="#43B3F4" />
+  <Label text="0,1" row="0" col="1" colSpan="2" backgroundColor="#075B88" />
+  <Label text="1,0" row="1" col="0" rowSpan="2" backgroundColor="#1089CA" />
+  <Label text="1,1" row="1" col="1" backgroundColor="#43B3F4" />
+  <Label text="1,2" row="1" col="2" backgroundColor="#1089CA" />
+  <Label text="2,1" row="2" col="1" backgroundColor="#075B88" />
+  <Label text="2,2" row="2" col="2" backgroundColor="#43B3F4" />
 </GridLayout>
 ```
 

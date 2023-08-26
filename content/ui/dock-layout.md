@@ -16,10 +16,10 @@ The following example creates a frame-like layout consisting of 4 elements, posi
 
 ```xml
 <DockLayout stretchLastChild="false" backgroundColor="#3c495e">
-  <Label text="left" dock="left" width="40" backgroundColor="#43b883" />
-  <Label text="top" dock="top" height="40" backgroundColor="#289062" />
-  <Label text="right" dock="right" width="40" backgroundColor="#43b883" />
-  <Label text="bottom" dock="bottom" height="40" backgroundColor="#289062" />
+  <Label text="left" dock="left" width="40" backgroundColor="#43B3F4" />
+  <Label text="top" dock="top" height="40" backgroundColor="#1089CA" />
+  <Label text="right" dock="right" width="40" backgroundColor="#43B3F4" />
+  <Label text="bottom" dock="bottom" height="40" backgroundColor="#1089CA" />
 </DockLayout>
 ```
 
@@ -31,10 +31,10 @@ The following example shows how `stretchLastChild` affects the positioning of ch
 
 ```xml
 <DockLayout stretchLastChild="true" backgroundColor="#3c495e">
-  <Label text="left" dock="left" width="40" backgroundColor="#43b883" />
-  <Label text="top" dock="top" height="40" backgroundColor="#289062" />
-  <Label text="right" dock="right" width="40" backgroundColor="#43b883" />
-  <Label text="bottom" dock="bottom" backgroundColor="#1c6b48" />
+  <Label text="left" dock="left" width="40" backgroundColor="#43B3F4" />
+  <Label text="top" dock="top" height="40" backgroundColor="#1089CA" />
+  <Label text="right" dock="right" width="40" backgroundColor="#43B3F4" />
+  <Label text="bottom" dock="bottom" backgroundColor="#075B88" />
 </DockLayout>
 ```
 
@@ -46,11 +46,11 @@ The following example creates a `<DockLayout>` of 5 elements. The first four wra
 
 ```xml
 <DockLayout stretchLastChild="true" backgroundColor="#3c495e">
-  <Label text="left" dock="left" width="40" backgroundColor="#43b883" />
-  <Label text="top" dock="top" height="40" backgroundColor="#289062" />
-  <Label text="right" dock="right" width="40" backgroundColor="#43b883" />
-  <Label text="bottom" dock="bottom" height="40" backgroundColor="#289062" />
-  <Label text="center" backgroundColor="#1c6b48" />
+  <Label text="left" dock="left" width="40" backgroundColor="#43B3F4" />
+  <Label text="top" dock="top" height="40" backgroundColor="#1089CA" />
+  <Label text="right" dock="right" width="40" backgroundColor="#43B3F4" />
+  <Label text="bottom" dock="bottom" height="40" backgroundColor="#1089CA" />
+  <Label text="center" backgroundColor="#075B88" />
 </DockLayout>
 ```
 
@@ -62,10 +62,10 @@ The following example creates a single line of 4 elements that stretch across th
 
 ```xml
 <DockLayout stretchLastChild="true" backgroundColor="#3c495e">
-  <Label text="left 1" dock="left" width="40" backgroundColor="#43b883" />
-  <Label text="left 2" dock="left" width="40" backgroundColor="#289062" />
-  <Label text="left 3" dock="left" width="40" backgroundColor="#1c6b48" />
-  <Label text="last child" backgroundColor="#43b883" />
+  <Label text="left 1" dock="left" width="40" backgroundColor="#43B3F4" />
+  <Label text="left 2" dock="left" width="40" backgroundColor="#1089CA" />
+  <Label text="left 3" dock="left" width="40" backgroundColor="#075B88" />
+  <Label text="last child" backgroundColor="#43B3F4" />
 </DockLayout>
 ```
 
