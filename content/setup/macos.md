@@ -190,6 +190,23 @@ If the binary is not found run `gem env` to examine your folders, and update you
 
 ### Installing Python and `six`
 
+Install python3 from Homebrew:
+
+```cli
+brew install python
+
+# verify installation
+python3 --version
+```
+
+Next, update **<abbr title="Python package manager">pip</abbr>** and install **<abbr title="Python 2 & 3 compatibility package used by NativeScript">six</abbr>** by running the following:
+
+```cli
+python3 -m pip install --upgrade pip
+python3 -m pip install six
+```
+
+<!--
 ::: warning Note
 
 macOS ships with Python pre-installed, however starting with **macos 12.3** there's no longer a `python` executable, and aliasing to the system `python3` causes an issue where it prompts to "_Install command-line tools_" whenever invoked through the alias. To work around this issue, we recommend installing Python from Homebrew instead.
@@ -219,6 +236,7 @@ Next, update **<abbr title="Python package manager">pip</abbr>** and install **<
 python -m pip install --upgrade pip
 python -m pip install six
 ```
+-->
 
 ### Installing the NativeScript CLI
 

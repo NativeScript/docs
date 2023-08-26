@@ -1,0 +1,89 @@
+{
+  "title": "DeviceType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2664,
+        2665
+      ]
+    }
+  ],
+  "reflections": {
+    "2664": {
+      "name": "Phone",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-DeviceType#phone",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Indicates a smart-phone device."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Phone: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 307,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Indicates a smart-phone device."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-DeviceType#phone"
+        }
+      ]
+    },
+    "2665": {
+      "name": "Tablet",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-DeviceType#tablet",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Indicates a tablet device."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "Tablet: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 312,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Indicates a tablet device."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-DeviceType#tablet"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "title": "ImageFormat",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2687,
+        2688,
+        2686
+      ]
+    }
+  ],
+  "reflections": {
+    "2686": {
+      "name": "png",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageFormat#png",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The W3C Portable Network Graphics (PNG) image format."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "png: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 405,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The W3C Portable Network Graphics (PNG) image format."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-ImageFormat#png"
+        }
+      ]
+    },
+    "2687": {
+      "name": "jpeg",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageFormat#jpeg",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Joint Photographic Experts Group (JPEG) image format."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "jpeg: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 410,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Joint Photographic Experts Group (JPEG) image format."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-ImageFormat#jpeg"
+        }
+      ]
+    },
+    "2688": {
+      "name": "jpg",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageFormat#jpg",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Joint Photographic Experts Group (JPEG) image format."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "jpg: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 415,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Joint Photographic Experts Group (JPEG) image format."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-ImageFormat#jpg"
+        }
+      ]
+    }
+  }
+}
