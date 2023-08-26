@@ -205,4 +205,4 @@ The resulting @nativescript/android-x.x.x.tgz package will get created in the `d
 
 Follow the instructions on setting up the dependencies for building the [ios runtime](https://github.com/NativeScript/ns-v8ios-runtime) in the repository README and then run `grunt package`.
 
-The build @nativescript/ios-x.x.x.tgx package will get created in the `dist` folder.
+The @nativescript/ios-x.x.x.tgx package will be generated in the dist folder.
