@@ -1,0 +1,48 @@
+{
+  "title": "TraceErrorHandler",
+  "hierarchy": [
+    [
+      {
+        "text": "TraceErrorHandler"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Methods",
+      "items": [
+        2822
+      ]
+    }
+  ],
+  "reflections": {
+    "2822": {
+      "name": "handlerError",
+      "type": "Method",
+      "url": "/api/interface/TraceErrorHandler#handlererror",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "handlerError(error: Error): any",
+          "url": "/api/interface/TraceErrorHandler#handlererror-handlererror-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 20,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "error",
+              "type": "Error",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    }
+  }
+}
