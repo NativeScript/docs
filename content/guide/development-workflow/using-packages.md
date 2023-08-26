@@ -53,7 +53,7 @@ The difference between dependencies and developer dependencies is that **depende
 
 #### Importing and Using Plugins
 
-Once the plugin you need is installed, you can start using it in your project. Note that each plugin might have its configuration that needs to be satisfied so always check carefully the plugin's documentation and the README file. The below code snippet demonstrated the basic usage of **@nativescript/camera** plugin.
+Once the required plugin is installed, it can be utilized in the project. It's crucial to carefully review the plugin's documentation and README file as each plugin may have specific configuration requirements. The following code snippet demonstrates the basic usage of the [@nativescript/camera](https://docs.nativescript.org/plugins/camera.html) plugin:
 
 ```javascript
 import { requestPermissions } from '@nativescript/camera'
