@@ -81,7 +81,7 @@ ns plugin remove @nativescript/camera
 
 As with installation, the removal of a NativeScript plugin mimics the removal of an npm package.
 
-The NativeScript CLI removes any plugin files from your app’s `node_modules` folder in the root of your project. The CLI also removes any of the plugin’s dependencies and also removes the plugin from your project’s root `package.json` file.
+The NativeScript CLI removes plugin files from the app's node_modules folder in the project's root. It also removes the plugin's dependencies and removes the plugin from the project's root package.json file.
 
 ### Package Managers
 
