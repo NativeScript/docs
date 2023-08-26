@@ -27,7 +27,7 @@ export class HelloWorldModel extends Observable {
 
 }
 ```
-- **One-way (to Model) data binding** - Binding which updates Model due to some action on UI. The best example for this is a [tap](/guide/ui-components/gestures-in-nativescript#tap-gesture-in-nativescript) event.
+- **One-way (to Model) data binding** - Binding which updates the model in relation to some action in the UI. The best example for this is a [tap](/guide/ui-components/gestures-in-nativescript#tap-gesture-in-nativescript) event.
 
 ```xml
 <Button text="Submit" tap="{{ onTap }}"/>
