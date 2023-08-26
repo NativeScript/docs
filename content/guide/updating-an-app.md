@@ -193,7 +193,7 @@ As the NativeScript framework gets distributed via npm, the runtimes are also pa
 
 The [android runtime](https://github.com/NativeScript/android-runtime) depends on the [android-metadata-generator](https://github.com/NativeScript/android-metadata-generator).
 
-Provided you have all the dependencies set, the easiest way to have the Android runtime built is to clone the two repos to a single folder so that the two are sibling folders, `cd` into the `android-runtime` folder and run:
+If all dependencies are set, the simplest way to build the Android runtime is by cloning the two repositories into a single folder, ensuring they are sibling folders. Then navigate to the `android-runtime` directory and execute the specified command.
 
 ```cli
 gradle packar -PwidgetsPath=./widgets.jar
