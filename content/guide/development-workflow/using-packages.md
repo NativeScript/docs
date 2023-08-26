@@ -85,7 +85,7 @@ The NativeScript CLI removes any plugin files from your app’s `node_modules` f
 
 ### Package Managers
 
-A package manager is a piece of software that lets you manage the external code, written by you or someone else, that your project needs to work correctly. By default, NativeScript CLI uses Node Package Manager (`npm`) for managing the dependencies of the application. When new application is created, CLI automatically calls `npm install` to install all of its dependencies.
+A package manager is software that enables management of external code necessary for a project to function properly.  The NativeScript CLI employs Node Package Manager (npm) as its default package manager.  Upon creating a new app, the CLI automatically executes `npm install` to install all required dependencies.
 
 #### Supported package managers
 
