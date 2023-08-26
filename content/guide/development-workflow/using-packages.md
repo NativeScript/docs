@@ -31,7 +31,7 @@ For example, the following command installs the [NativeScript camera plugin](htt
 ns plugin add @nativescript/camera
 ```
 
-Instead of using `plugin add`, you can use your package manager as well (npm, yarn, pnpm...):
+Instead of using plugin add, package managers like npm, yarn, or pnpm can also be used:
 
 ```cli
 npm install --save @nativescript/camera
