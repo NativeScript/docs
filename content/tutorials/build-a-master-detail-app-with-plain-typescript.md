@@ -20,7 +20,7 @@ This tutorial will teach you the following:
 
 ## Prerequisites
 
-NativeScript Core uses Javascript or Typescript and XML to create your applications. To get the most out of this tutorial you should already have a basic understanding of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) or [TypeScript](https://www.typescriptlang.org/).
+NativeScript Core uses JavaScript or TypeScript and XML to create your applications. To get the most out of this tutorial you should already have a basic understanding of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) or [TypeScript](https://www.typescriptlang.org/).
 
 ## Overview of the example application
 
@@ -36,7 +36,7 @@ To set up your development environment, follow the instructions in the [Environm
 
 ## Create a new NativeScript application
 
-We will be using Typescript for this tutorial. To create a new NativeScript Typescript application, run the CLI command `ns create` with the name of the application followed by `--ts`.
+We will be using TypeScript for this tutorial. To create a new NativeScript TypeScript application, run the CLI command `ns create` with the name of the application followed by `--ts`.
 
 ```cli
 ns create example-app --ts
@@ -62,7 +62,7 @@ The `ns run` command builds the app and launches the app on a connected Android 
 
 ## Folder structure
 
-Based on the Typescript starter app, we will be creating the following file/folder structure for our application.
+Based on the TypeScript starter app, we will be creating the following file/folder structure for our application.
 
 ```
 app
@@ -277,7 +277,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 ![Home page layout breakdown](/assets/images/tutorial/tutorial-example-app-master-breakdown.png)
 
-The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `home-page.xml` and add the following code:
+The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `home-page.xml` and add the following code:
 
 ```xml
 <!-- app/home/home-page.xml -->
@@ -500,7 +500,7 @@ export class HomeViewModel extends Observable {
 }
 ```
 
-Next, let's add the tap event to the listview items. Open `home-page.xml` and add the following:
+Next, let's add the tap event to the ListView items. Open `home-page.xml` and add the following:
 
 ```xml{10}
 <!-- app/home/home-page.xml -->
@@ -597,7 +597,7 @@ Let's break down the layout and UI elements of the details page.
 
 ![Details page layout breakdown](/assets/images/tutorial/tutorial-example-app-details-breakdown.png)
 
-The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use NativeScript's `Repeater` component to loop through the array and create a UI element or set of elements for each entry in the array. Open `details-page.xml` and add the following code:
+The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use NativeScript's `Repeater` component to loop through the array and create a UI element or set of elements for each entry in the array. Open `details-page.xml` and add the following code:
 
 ```xml{4,7-33}
 <!-- app/details/details-page.xml -->

@@ -334,7 +334,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 ![Home page layout breakdown](/assets/images/tutorial/tutorial-example-app-master-breakdown.png)
 
-The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `home.component.html` and add the following code:
+The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `home.component.html` and add the following code:
 
 ```xml
 <!-- src/app/features/home/home.component.html -->
@@ -574,7 +574,7 @@ export class AppRoutingModule {}
 
 ### Setup navigation
 
-Now that we have the routes already set up, we can use NativeScript Angular's `RouterExtensions` to perform the navigation. The `RouterExtensions` class provides methods for imperative navigation, similar to how you would navigate with the Angular `Router` and `Location` classes. To use the class simply inject it in your component constructor and call it's `navigate` function. Open `home.component.ts` and add the following:
+Now that we have the routes already set up, we can use NativeScript Angular's `RouterExtensions` to perform the navigation. The `RouterExtensions` class provides methods for imperative navigation, similar to how you would navigate with the Angular `Router` and `Location` classes. To use the class, inject it in your component constructor and call it's `navigate` function. Open `home.component.ts` and add the following:
 
 ```typescript{7-8,22,26-28}
 // src/app/features/home/home.component.ts
@@ -608,7 +608,7 @@ export class HomeComponent {
 }
 ```
 
-Next, let's add the tap event to the listview items. Open `home.component.html` and add the following:
+Next, let's add the tap event to the ListView items. Open `home.component.html` and add the following:
 
 ```xml{10}
 <!-- src/app/features/home/home.component.html -->
@@ -699,7 +699,7 @@ Let's break down the layout and UI elements of the details page.
 
 ![Details page layout breakdown](/assets/images/tutorial/tutorial-example-app-details-breakdown.png)
 
-The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Angular's `*ngFor` directive to loop through the array and create a UI element or set of elements for each entry in the array. Open `details.component.html` and add the following code:
+The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Angular's `*ngFor` directive to loop through the array and create a UI element or set of elements for each entry in the array. Open `details.component.html` and add the following code:
 
 ```xml
 <!-- src/app/features/details/details.component.html -->

@@ -81,7 +81,7 @@ page.showModal('views/modal', {
 
 ### Independent shared elements
 
-In some cases you might not have an element present on both "ends", or just need to animate additional elements during the transition. That's what "independent" shared elements solve.
+In some cases you might not have an element present on both "ends", or need to animate additional elements during the transition. That's what "independent" shared elements solve.
 
 Consider the following example:
 
@@ -420,7 +420,7 @@ Used internally to finish the state after a transition has completed. Provided i
 
 ## Troubleshooting
 
-- It's easy to accidentally provide mismatching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
+- It's common to accidentally provide mismatching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
 - Try avoiding `sharedTransitionTag` on Labels since they usually won't exhibit expected behavior.
 
 ## Acknowledgements

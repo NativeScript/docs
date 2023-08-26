@@ -127,7 +127,7 @@ We define a few useful globally available variables that you can use to alter lo
 - `__NS_WEBPACK__` - always `true` when building with webpack
 - `__NS_ENV_VERBOSE__` - `true` when `--env.verbose` is set
 - `__NS_DEV_HOST_IPS__` - an array of IP addresses of the host machine (the machine running the build) when in `development` mode, and an empty array in production mode.
-- `__CSS_PARSER__` - the css parser used by NativeScript Core. The value is set based on the `cssParser` value in the `nativescript.config.ts` and defaults to `css-tree`
+- `__CSS_PARSER__` - the CSS parser used by NativeScript Core. The value is set based on the `cssParser` value in the `nativescript.config.ts` and defaults to `css-tree`
 - `__UI_USE_XML_PARSER__` - a flag used by NativeScript Core to disable the XML parser when it's not used
 - `__UI_USE_EXTERNAL_RENDERER__` - a flag used by NativeScript Core to disable registering global modules when an external renderer is used.
 
@@ -486,7 +486,7 @@ module.exports = (env) => {
 
 In some cases, you may want to explicitly set which base config should be used.
 
-For example in the NativeScript-Vue repo, the `sample` app doesn't have `nativescript-vue` listed as a dependency, so we have to specify the base config we want to use.
+For example in the NativeScript-Vue repository, the `sample` app doesn't have `nativescript-vue` listed as a dependency, so we have to specify the base config we want to use.
 
 ```js
 const webpack = require('@nativescript/webpack')
@@ -527,6 +527,8 @@ module.exports = (env) => {
 ```
 
 ### Merging options into the config
+
+<!--alex ignore simple-->
 
 For simple things, you can merge objects into the final config instead of using `chainWebpack`
 

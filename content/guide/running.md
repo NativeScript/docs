@@ -26,11 +26,6 @@ These flags are identical. Using them runs the project only on virtual devices.
 
 Only run on the specified device. The id is taken from the output of [`ns devices`](/guide/cli-basics#listing-connected-devices).
 
-#### --timeout &lt;seconds&gt;
-
-The number of seconds to wait for the debugger to boot.
-The default timeout is 90 seconds.
-
 #### --clean
 
 Forces a clean rebuild of the native application.
@@ -77,7 +72,7 @@ If any of the above failed, we recommend checking out the [Android ADB documenta
 
 ### Preparing an iOS device for development
 
-Before the NativeScript cli can run apps on a physical iOS device, the device must be set up and registered.
+Before the NativeScript CLI can run apps on a physical iOS device, the device must be set up and registered.
 
 Use a USB cable to connect the device. Navigate to the `platforms/ios` folder in your project, then open the `.xcworkspace` file in Xcode.
 

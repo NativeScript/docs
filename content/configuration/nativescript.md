@@ -9,7 +9,7 @@ contributors:
 The `nativescript.config.ts` is a central place to configure your project. It allows you to configure your project structure, application id, runtime related flags and more.
 
 ::: info Note about the `.ts` extension
-You can author the config file as plain `.js` file as well, however we recommend sticking with the `.ts` extension even if your project doesn't use TypeScript, because most editors will provide autocompletion in the `.ts` file.
+You can author the config file as plain `.js` file as well. We recommend sticking with the `.ts` extension even if your project doesn't use TypeScript, because most editors will provide autocompletion in the `.ts` file.
 :::
 
 By default a config looks somewhat like the following
@@ -98,7 +98,7 @@ TODO: document or remove?
 webpackConfigPath: string = 'custom-webpack.config.js'
 ```
 
-Specifies the [webpack config](/webpack) location. The default is `webpack.config.js` in the root however you can use a custom name and place elsewhere.
+Specifies the [webpack config](/webpack) location. The default is `webpack.config.js` in the root.
 
 ### profiling
 
@@ -126,7 +126,11 @@ ignoredNativeDependencies: string[] = ['@nativescript/imagepicker']
 
 A list of npm package names to ignore when attaching native dependencies to the build.
 
+<!-- textlint-disable -->
+
 ### cli
+
+<!-- textlint-enable -->
 
 ```ts
 cli: Object = {}
@@ -172,7 +176,7 @@ cli.packageManager: 'npm' | 'yarn' | 'pnpm' | 'yarn2' = 'yarn';
 
 Sets the package manager to use for this project.
 
-Defaults to the package manager set with the cli (`ns package-manager set yarn`), or `npm` if not set.
+Defaults to the package manager set with the CLI (`ns package-manager set yarn`), or `npm` if not set.
 
 ### cli.pathsToClean
 
@@ -208,7 +212,7 @@ See also [ios.id](#ios-id).
 android.discardUncaughtJsExceptions: boolean = true;
 ```
 
-Discard any uncaught JS exceptions. This can be very useful in production environments where you don't want your app to crash in case an unexpected JS exception is thrown.
+Discard any uncaught JS exceptions. This can be useful in production environments where you don't want your app to crash in case an unexpected JS exception is thrown.
 
 ### android.v8Flags
 
@@ -256,7 +260,13 @@ Trigger a gc periodically (in `ms`). Defaults to `0` (disabled).
 android.markingMode: 'none' | 'full';
 ```
 
-Sets the default gc marking mode, defaults to `none`. `full` has been deprecated and it's not recommended.
+Sets the default gc marking mode, defaults to `none`.
+
+::: warning Deprecated value
+
+`full` has been deprecated and it's not recommended.
+
+:::
 
 ### android.handleTimeZoneChanges
 
@@ -272,7 +282,7 @@ Notify the app when the timezone changes, defaults to `false`.
 android.maxLogcatObjectSize: number = 9999;
 ```
 
-Sets the maximum lenght of a single output string. Defaults to `1024`.
+Sets the max length of a single output string. Defaults to `1024`.
 
 ### android.forceLog
 
@@ -336,7 +346,7 @@ See also [android.id](#android-id).
 ios.discardUncaughtJsExceptions: boolean = true;
 ```
 
-Discard any uncaught JS exceptions. This can be very useful in production environments where you don't want your app to crash in case an unexpected JS exception is thrown.
+Discard any uncaught JS exceptions. This can be useful in production environments where you don't want your app to crash in case an unexpected JS exception is thrown.
 
 ### ios.SPMPackages
 
@@ -391,12 +401,12 @@ Avaialable hooks (prefix with `before-` or `after-`):
 - `buildAndroidPlugin` - Builds aar file for Android plugin, runs during prepareNativeApp
 - `buildAndroid` - Builds Android app
 - `buildIOS` - Builds iOS app
-- `checkEnvironment` - Validate project env, runs during ns doctor, clean, and most build commands
+- `checkEnvironment` - Validate project env, runs during `ns` doctor, clean, and most build commands
 - `checkForChanges` - Changes occurred during watch
 - `install` - Application installed to device/emulator
 - `prepare` - Compiles webpack and prepares native app in platforms folder
 - `prepareNativeApp` - Preparing the actual native app, runs during prepare/watch hook
-- `resolveCommand` - Resolves command and arguments, runs before all cli commands
+- `resolveCommand` - Resolves command and arguments, runs before all CLI commands
 - `watch` - Setup watchers for live sync, runs during prepare hook
 - `watchPatterns` - Setup watch patterns, runs during watch hook
 
