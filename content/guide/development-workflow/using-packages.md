@@ -15,7 +15,7 @@ Plugins can also be found at the [NativeScript marketplace](https://market.nativ
 Not finding the right plugin? You can try asking on our [Discord Community](https://nativescript.org/discord). Or perhaps [build a new plugin](/https://docs.nativescript.org/plugins/index.html#developing-your-own-plugins).
 <!-- TODO: fix links -->
 
-Also, make sure to look through the [NativeScript core modules](https://docs.nativescript.org/understanding-packages.html#nativescript-core), which ship as a dependency of every NativeScript app. There’s a chance that the functionality you need is built in. 
+You can also explore [@nativescript/core](https://docs.nativescript.org/understanding-packages.html#nativescript-core), which is included as a dependency in every NativeScript app. It is possible that the required functionality is already available.
 
 #### Installing Plugins
 
