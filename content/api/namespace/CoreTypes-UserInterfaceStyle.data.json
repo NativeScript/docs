@@ -1,0 +1,89 @@
+{
+  "title": "UserInterfaceStyle",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2765,
+        2764
+      ]
+    }
+  ],
+  "reflections": {
+    "2764": {
+      "name": "light",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-UserInterfaceStyle#light",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The light style of the user interface."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "light: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 704,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The light style of the user interface."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-UserInterfaceStyle#light"
+        }
+      ]
+    },
+    "2765": {
+      "name": "dark",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-UserInterfaceStyle#dark",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The dark style of the user interface."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "dark: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 709,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The dark style of the user interface."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-UserInterfaceStyle#dark"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2741 @@
+{
+  "title": "AndroidApplication",
+  "hierarchy": [
+    [
+      {
+        "text": "Observable",
+        "link": "/api/class/Observable"
+      }
+    ],
+    [
+      {
+        "text": "AndroidApplication"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        895
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1066,
+        866,
+        858,
+        859,
+        867,
+        861,
+        868,
+        865,
+        862,
+        860,
+        863,
+        905,
+        898,
+        899,
+        906,
+        897,
+        901,
+        903,
+        904,
+        869,
+        864,
+        900,
+        902
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1061,
+        1058,
+        1022,
+        885,
+        1043,
+        995,
+        1055,
+        1046,
+        1050,
+        1017,
+        880,
+        910,
+        870,
+        1009,
+        875,
+        998,
+        1030,
+        890,
+        1035,
+        1039,
+        1006
+      ]
+    }
+  ],
+  "reflections": {
+    "858": {
+      "name": "activityCreatedEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activitycreatedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityCreated event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityCreatedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 616,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityCreated event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activitycreatedevent"
+        }
+      ]
+    },
+    "859": {
+      "name": "activityDestroyedEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activitydestroyedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityDestroyed event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityDestroyedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 621,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityDestroyed event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activitydestroyedevent"
+        }
+      ]
+    },
+    "860": {
+      "name": "activityStartedEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activitystartedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityStarted event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityStartedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 626,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityStarted event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activitystartedevent"
+        }
+      ]
+    },
+    "861": {
+      "name": "activityPausedEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activitypausedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityPaused event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityPausedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 631,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityPaused event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activitypausedevent"
+        }
+      ]
+    },
+    "862": {
+      "name": "activityResumedEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activityresumedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityResumed event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityResumedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 636,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityResumed event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activityresumedevent"
+        }
+      ]
+    },
+    "863": {
+      "name": "activityStoppedEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activitystoppedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityStopped event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityStoppedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 641,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityStopped event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activitystoppedevent"
+        }
+      ]
+    },
+    "864": {
+      "name": "saveActivityStateEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#saveactivitystateevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to saveActivityState event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "saveActivityStateEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 646,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to saveActivityState event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#saveactivitystateevent"
+        }
+      ]
+    },
+    "865": {
+      "name": "activityResultEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activityresultevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityResult event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityResultEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 651,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityResult event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activityresultevent"
+        }
+      ]
+    },
+    "866": {
+      "name": "activityBackPressedEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activitybackpressedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityBackPressed event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityBackPressedEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 656,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityBackPressed event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activitybackpressedevent"
+        }
+      ]
+    },
+    "867": {
+      "name": "activityNewIntentEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activitynewintentevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to activityNewIntent event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityNewIntentEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 661,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to activityNewIntent event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activitynewintentevent"
+        }
+      ]
+    },
+    "868": {
+      "name": "activityRequestPermissionsEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#activityrequestpermissionsevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to requestPermissions event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "activityRequestPermissionsEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 666,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to requestPermissions event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#activityrequestpermissionsevent"
+        }
+      ]
+    },
+    "869": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "propertyChangeEvent",
+        "url": "/api/class/Observable#propertychangeevent",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "code": "propertyChangeEvent: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 81,
+              "character": 8
+            }
+          ],
+          "inheritedFrom": {
+            "name": "propertyChangeEvent",
+            "url": "/api/class/Observable#propertychangeevent",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#propertychangeevent"
+        }
+      ]
+    },
+    "870": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#on-13",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "on",
+        "url": "/api/class/Observable#on-3",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: any, thisArg?: any): void",
+          "url": "/api/class/AndroidApplication#on-13-on-14",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 91,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/Observable#on-3",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "875": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/Observable#once-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: any, thisArg?: any): void",
+          "url": "/api/class/AndroidApplication#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/Observable#once-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "880": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/Observable#off-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: any, thisArg?: any): void",
+          "url": "/api/class/AndroidApplication#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 113,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/Observable#off-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "885": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: any, thisArg?: any): void",
+          "url": "/api/class/AndroidApplication#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 123,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "890": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "removeEventListener",
+        "url": "/api/class/Observable#removeeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: any, thisArg?: any): void",
+          "url": "/api/class/AndroidApplication#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 133,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeEventListener",
+            "url": "/api/class/Observable#removeeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "895": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/AndroidApplication#constructor",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "constructor",
+        "url": "/api/class/Observable#constructor",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new AndroidApplication(): <a href=\"/api/class/AndroidApplication\">AndroidApplication</a>",
+          "url": "/api/class/AndroidApplication#constructor-new-androidapplication",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 76,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "constructor",
+            "url": "/api/class/Observable#constructor",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Please note that should you be using the "
+              },
+              {
+                "kind": "code",
+                "text": "`new Observable({})`"
+              },
+              {
+                "kind": "text",
+                "text": " constructor, it is **obsolete** since v3.0,\nand you have to migrate to the \"data/observable\" "
+              },
+              {
+                "kind": "code",
+                "text": "`fromObject({})`"
+              },
+              {
+                "kind": "text",
+                "text": " or the "
+              },
+              {
+                "kind": "code",
+                "text": "`fromObjectRecursive({})`"
+              },
+              {
+                "kind": "text",
+                "text": " functions."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/AndroidApplication\">AndroidApplication</a>"
+        }
+      ]
+    },
+    "897": {
+      "name": "nativeApp",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#nativeapp",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The [android Application](http://developer.android.com/reference/android/app/Application.html) object instance provided to the init of the module."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "nativeApp: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 497,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The [android Application](http://developer.android.com/reference/android/app/Application.html) object instance provided to the init of the module."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#nativeapp"
+        }
+      ]
+    },
+    "898": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The application's [android Context](http://developer.android.com/reference/android/content/Context.html) object instance."
+          }
+        ],
+        "blockTags": [
+          {
+            "tag": "@deprecated",
+            "content": [
+              {
+                "kind": "text",
+                "text": "Use Utils.android.getApplicationContext() instead."
+              }
+            ]
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "context: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 503,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The application's [android Context](http://developer.android.com/reference/android/content/Context.html) object instance."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Use Utils.android.getApplicationContext() instead."
+                  }
+                ]
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#context"
+        }
+      ]
+    },
+    "899": {
+      "name": "foregroundActivity",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#foregroundactivity",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The currently active (loaded) [android Activity](http://developer.android.com/reference/android/app/Activity.html). This property is automatically updated upon Activity events."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "foregroundActivity: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 508,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The currently active (loaded) [android Activity](http://developer.android.com/reference/android/app/Activity.html). This property is automatically updated upon Activity events."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#foregroundactivity"
+        }
+      ]
+    },
+    "900": {
+      "name": "startActivity",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#startactivity",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The main (start) Activity for the application."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "startActivity: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 513,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The main (start) Activity for the application."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#startactivity"
+        }
+      ]
+    },
+    "901": {
+      "name": "orientation",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#orientation",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the orientation of the application.\nAvailable values: \"portrait\", \"landscape\", \"unknown\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "orientation: \"portrait\" | \"landscape\" | \"unknown\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 519,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the orientation of the application.\nAvailable values: \"portrait\", \"landscape\", \"unknown\"."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#orientation"
+        }
+      ]
+    },
+    "902": {
+      "name": "systemAppearance",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#systemappearance",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the system appearance.\nAvailable values: \"dark\", \"light\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "systemAppearance: \"dark\" | \"light\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 525,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the system appearance.\nAvailable values: \"dark\", \"light\"."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#systemappearance"
+        }
+      ]
+    },
+    "903": {
+      "name": "packageName",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#packagename",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the application package."
+          }
+        ],
+        "blockTags": [
+          {
+            "tag": "@deprecated",
+            "content": [
+              {
+                "kind": "text",
+                "text": "Use Utils.android.getPackageName() instead."
+              }
+            ]
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "packageName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 531,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the application package."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Use Utils.android.getPackageName() instead."
+                  }
+                ]
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#packagename"
+        }
+      ]
+    },
+    "904": {
+      "name": "paused",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#paused",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "True if the main application activity is not running (suspended), false otherwise."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "paused: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 536,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "True if the main application activity is not running (suspended), false otherwise."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#paused"
+        }
+      ]
+    },
+    "905": {
+      "name": "backgrounded",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#backgrounded",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "True if the main application activity is in background, false otherwise."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "backgrounded: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 541,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "True if the main application activity is in background, false otherwise."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#backgrounded"
+        }
+      ]
+    },
+    "906": {
+      "name": "init",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#init",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "init: (nativeApp: any) => void",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 548,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/AndroidApplication#init"
+        }
+      ]
+    },
+    "910": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#on",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 556,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which will be used as "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`this`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " context for callback execution."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityCreated\", callback: (args: <a href=\"/api/interface/AndroidActivityBundleEventData\">AndroidActivityBundleEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 561,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application ActivityCreated."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityCreated\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityBundleEventData\">AndroidActivityBundleEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityDestroyed\", callback: (args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 566,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application ActivityDestroyed."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityDestroyed\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityStarted\", callback: (args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-4",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 571,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application ActivityStarted."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityStarted\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityPaused\", callback: (args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-5",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 576,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application ActivityPaused."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityPaused\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityResumed\", callback: (args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-6",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 581,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application ActivityResumed."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityResumed\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityStopped\", callback: (args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-7",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 586,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application ActivityStopped."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityStopped\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityEventData\">AndroidActivityEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"saveActivityState\", callback: (args: <a href=\"/api/interface/AndroidActivityBundleEventData\">AndroidActivityBundleEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-8",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 591,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application SaveActivityState."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"saveActivityState\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityBundleEventData\">AndroidActivityBundleEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityResult\", callback: (args: <a href=\"/api/interface/AndroidActivityResultEventData\">AndroidActivityResultEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-9",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 596,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on android application ActivityResult."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityResult\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityResultEventData\">AndroidActivityResultEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityBackPressed\", callback: (args: <a href=\"/api/interface/AndroidActivityBackPressedEventData\">AndroidActivityBackPressedEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-10",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 601,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised on the back button is pressed in an android application."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityBackPressed\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityBackPressedEventData\">AndroidActivityBackPressedEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityNewIntent\", callback: (args: <a href=\"/api/interface/AndroidActivityNewIntentEventData\">AndroidActivityNewIntentEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-11",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 606,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised when the Android app was launched by an Intent with data."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityNewIntent\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityNewIntentEventData\">AndroidActivityNewIntentEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"activityRequestPermissions\", callback: (args: <a href=\"/api/interface/AndroidActivityRequestPermissionsEventData\">AndroidActivityRequestPermissionsEventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#on-on-12",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 611,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This event is raised when the Android activity requests permissions."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"activityRequestPermissions\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/AndroidActivityRequestPermissionsEventData\">AndroidActivityRequestPermissionsEventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "995": {
+      "name": "getRegisteredBroadcastReceiver",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#getregisteredbroadcastreceiver",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getRegisteredBroadcastReceiver(intentFilter: string): any",
+          "url": "/api/class/AndroidApplication#getregisteredbroadcastreceiver-getregisteredbroadcastreceiver-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 672,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get a registered BroadcastReceiver, then you can get the result code of BroadcastReceiver in onReceiveCallback method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "intentFilter",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A string containing the intent filter."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "998": {
+      "name": "registerBroadcastReceiver",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#registerbroadcastreceiver",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "registerBroadcastReceiver(\n  intentFilter: string,\n  onReceiveCallback: (context: any, intent: any) => void\n): void",
+          "url": "/api/class/AndroidApplication#registerbroadcastreceiver-registerbroadcastreceiver-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 680,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Register a BroadcastReceiver to be run in the main activity thread. The receiver will be called with any broadcast Intent that matches filter, in the main application thread.\nFor more information, please visit 'http://developer.android.com/reference/android/content/Context.html#registerReceiver%28android.content.BroadcastReceiver,%20android.content.IntentFilter%29'"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "intentFilter",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A string containing the intent filter."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onReceiveCallback",
+              "type": "(context: any, intent: any) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A callback function that will be called each time the receiver receives a broadcast."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1006": {
+      "name": "unregisterBroadcastReceiver",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#unregisterbroadcastreceiver",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "unregisterBroadcastReceiver(intentFilter: string): void",
+          "url": "/api/class/AndroidApplication#unregisterbroadcastreceiver-unregisterbroadcastreceiver-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 687,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Unregister a previously registered BroadcastReceiver.\nFor more information, please visit 'http://developer.android.com/reference/android/content/Context.html#unregisterReceiver(android.content.BroadcastReceiver)'"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "intentFilter",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A string containing the intent filter with which the receiver was originally registered."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1009": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#once",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/Observable#once",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 104,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/Observable#once",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1017": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#off",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/Observable#off",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: any, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 111,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/Observable#off",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1022": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#addeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 121,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1030": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#removeeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "removeEventListener",
+        "url": "/api/class/Observable#removeeventlistener",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: any, thisArg?: any): any",
+          "url": "/api/class/AndroidApplication#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 131,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeEventListener",
+            "url": "/api/class/Observable#removeeventlistener",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1035": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#set",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "set",
+        "url": "/api/class/Observable#set",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "set(name: string, value: any): void",
+          "url": "/api/class/AndroidApplication#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 138,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "set",
+            "url": "/api/class/Observable#set",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1039": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setProperty",
+        "url": "/api/class/Observable#setproperty",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setProperty(name: string, value: any): void",
+          "url": "/api/class/AndroidApplication#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 143,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setProperty",
+            "url": "/api/class/Observable#setproperty",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1043": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#get",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "get",
+        "url": "/api/class/Observable#get",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "get(name: string): any",
+          "url": "/api/class/AndroidApplication#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 148,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "get",
+            "url": "/api/class/Observable#get",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1046": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "notify",
+        "url": "/api/class/Observable#notify",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "notify&lt;T&gt;(data: T): void",
+          "url": "/api/class/AndroidApplication#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notify",
+            "url": "/api/class/Observable#notify",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the event provided in the data.eventName."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The data associated with the event."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1050": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#notifypropertychange",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "notifyPropertyChange",
+        "url": "/api/class/Observable#notifypropertychange",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "notifyPropertyChange(propertyName: string, value: any, oldValue?: any): void",
+          "url": "/api/class/AndroidApplication#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 159,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notifyPropertyChange",
+            "url": "/api/class/Observable#notifypropertychange",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1055": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "hasListeners",
+        "url": "/api/class/Observable#haslisteners",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "hasListeners(eventName: string): boolean",
+          "url": "/api/class/AndroidApplication#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 165,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "hasListeners",
+            "url": "/api/class/Observable#haslisteners",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1058": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#emit",
+      "flags": {
+        "isPublic": true
+      },
+      "inheritedFrom": {
+        "name": "_emit",
+        "url": "/api/class/Observable#emit",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_emit(eventNames: string): any",
+          "url": "/api/class/AndroidApplication#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 167,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_emit",
+            "url": "/api/class/Observable#emit",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1061": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/AndroidApplication#createpropertychangedata",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "_createPropertyChangeData",
+        "url": "/api/class/Observable#createpropertychangedata",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(name: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/AndroidApplication#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 172,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_createPropertyChangeData",
+            "url": "/api/class/Observable#createpropertychangedata",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "1066": {
+      "name": "_isViewBase",
+      "type": "Property",
+      "url": "/api/class/AndroidApplication#isviewbase",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Filed to use instead of instanceof ViewBase."
+          }
+        ]
+      },
+      "flags": {
+        "isPrivate": true
+      },
+      "inheritedFrom": {
+        "name": "_isViewBase",
+        "url": "/api/class/Observable#isviewbase",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "code": "_isViewBase: boolean",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 179,
+              "character": 8
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_isViewBase",
+            "url": "/api/class/Observable#isviewbase",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Filed to use instead of instanceof ViewBase."
+              }
+            ]
+          },
+          "url": "/api/class/AndroidApplication#isviewbase"
+        }
+      ]
+    }
+  }
+}

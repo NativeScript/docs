@@ -1,0 +1,89 @@
+{
+  "title": "FontStyle",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2703,
+        2702
+      ]
+    }
+  ],
+  "reflections": {
+    "2702": {
+      "name": "normal",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontStyle#normal",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Normal font style."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "normal: FontStyleType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 474,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Normal font style."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontStyle#normal"
+        }
+      ]
+    },
+    "2703": {
+      "name": "italic",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontStyle#italic",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Italic font style."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "italic: FontStyleType",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 479,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Italic font style."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes-FontStyle#italic"
+        }
+      ]
+    }
+  }
+}
