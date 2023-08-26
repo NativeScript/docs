@@ -29,6 +29,9 @@
         ["web[- ]?view(s?)", "WebView$1"],
         ["action[- ]?bar(s?)", "ActionBar$1"],
 
+        // Prefer simple
+        ["callback function", "callback"],
+
         // Brands and Technologies
         "JavaScript",
         "TypeScript",
@@ -55,6 +58,7 @@
         ["insane", "outrageous"],
         ["blacklist", "block"],
         ["whitelist", "allow"],
+        ["will be executed", "will be called"],
 
         // Prefer American spelling
         ["behaviour", "behavior"],
@@ -81,6 +85,8 @@
         ["just", ""],
         ["everyone knows", ""],
         ["easy", ""],
+        ["which will( be)?", ""],
+        ["which is the", ""],
 
         // Words we would like to not use at the start of a sentence
         ["^so", ""],
