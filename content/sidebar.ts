@@ -225,6 +225,10 @@ export default [
     text: 'UI',
     items: [
       {
+        text: 'Dialogs',
+        link: '/ui/dialogs',
+      },
+      {
         text: 'Image',
         items: [
           {
@@ -295,8 +299,8 @@ export default [
   //           { text: 'PromptDialog', link: '//#' },
   //         ],
   //       },
-  //     ],
-  //   },
+      ],
+    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],
