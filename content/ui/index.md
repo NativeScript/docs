@@ -1,5 +1,6 @@
 ---
 title: UI Components
+description: NativeScript ships with commonly used UI components, these are the foundational building blocks. Additional UI components can be created or installed via plugins.
 contributors: false
 ---
 
