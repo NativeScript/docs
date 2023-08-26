@@ -129,7 +129,7 @@ npm install -g nativescript@next
 }
 ```
 
-Instead of editing the package.json file by hand, you could run the following commands:
+Instead of editing the package.json file directly, the following commands can be run:
 
 ```cli
 ns platform add ios@next
