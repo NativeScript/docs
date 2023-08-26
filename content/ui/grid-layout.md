@@ -16,6 +16,8 @@ You can set a fixed size for column width and row height or you can create them 
 - **auto:** Makes the column as wide as its widest child or makes the row as tall as its tallest child.
 - **\*:** Takes as much space as available after filling all auto and fixed size columns or rows.
 
+## Examples
+
 ### GridLayout with fixed sizing
 
 The following example creates a simple 2-by-2 grid with fixed column widths and row heights.

@@ -17,7 +17,9 @@ StackLayout is a basic layout container often used excessively in complex layout
 
 :::
 
-## Vertical StackLayout
+## Examples
+
+### Vertical StackLayout
 
 By default, `<StackLayout>` stacks its child items vertically. The following example creates a vertical StackLayout of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
 
@@ -73,7 +75,7 @@ For example, we can align child elements diagonally in a vertical StackLayout.
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/stack_layout_vertical_align_children.svg" />
 
-## Horizontal StackLayout
+### Horizontal StackLayout
 
 Setting `orientation="horizontal"` on the `StackLayout` will stack items horizontally.
 The following example creates a horizontal StackLayout of 3 equally-sized elements. Items are stretched to cover the entire height of the screen.
