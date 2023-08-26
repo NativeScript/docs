@@ -8,7 +8,7 @@
         // NativeScript specifics
         ["absolute[- ]?layout(s?)", "AbsoluteLayout$1"],
         ["dock[- ]?layout(s?)", "DockLayout$1"],
-        ["flex(box)?[- ]?layout(s?)", "FlexboxLayout$1"],
+        ["flex(?:box)?[- ]?layout(s?)", "FlexboxLayout$1"],
         ["grid[- ]?layout(s?)", "GridLayout$1"],
         ["root[- ]?layout(s?)", "RootLayout$1"],
         ["stack[- ]?layout(s?)", "StackLayout$1"],
