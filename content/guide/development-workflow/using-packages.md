@@ -67,7 +67,7 @@ requestPermissions()
 
 #### Removing Plugins
 
-To remove a NativeScript plugin from your project, run the following command from your command line.
+To remove a NativeScript plugin, you can use the following command.
 
 ```cli
 ns plugin remove <plugin-name>
