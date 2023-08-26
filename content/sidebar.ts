@@ -90,6 +90,12 @@ export default [
         link: '/project-structure/package-json',
         icon: 'file',
       },
+      { text: 'references.d.ts', link: '/project-structure/references-d-ts', icon: 'file' },
+      {
+        text: 'tsconfig.json',
+        link: '/project-structure/tsconfig-json',
+        icon: 'file',
+      },
       { text: 'webpack.config.js', link: '/webpack', icon: 'file' },
       // {
       //   text: 'package.json',
@@ -105,12 +111,6 @@ export default [
       //     },
       //   ],
       // },
-      {
-        text: 'tsconfig.json',
-        link: '/project-structure/tsconfig-json',
-        icon: 'file',
-      },
-      // { text: 'references.d.ts', link: '//#', icon: 'file' },
     ],
   },
   {
