@@ -80,7 +80,7 @@ If it is an array of objects,you use the current object property name as the var
 
 ## Using binding expressions
 
-NativeScript supports the following polymer binding expressions :
+NativeScript supports the following polymorphic binding expressions:
 
 ### Property access
 
