@@ -401,7 +401,7 @@ Avaialable hooks (prefix with `before-` or `after-`):
 - `buildAndroidPlugin` - Builds aar file for Android plugin, runs during prepareNativeApp
 - `buildAndroid` - Builds Android app
 - `buildIOS` - Builds iOS app
-- `checkEnvironment` - Validate project env, runs during ns doctor, clean, and most build commands
+- `checkEnvironment` - Validate project env, runs during `ns` doctor, clean, and most build commands
 - `checkForChanges` - Changes occurred during watch
 - `install` - Application installed to device/emulator
 - `prepare` - Compiles webpack and prepares native app in platforms folder

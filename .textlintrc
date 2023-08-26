@@ -1,14 +1,39 @@
 {
   "rules": {
     "terminology": {
-      "severity" : "warning",
+      "severity": "warning",
       "defaultTerms": false,
       // Some terms borrowed from https://github.com/cypress-io/cypress-documentation/blob/main/.textlintrc
       "terms": [
+        // NativeScript specifics
+        ["absolute[- ]?layout(s?)", "AbsoluteLayout$1"],
+        ["dock[- ]?layout(s?)", "DockLayout$1"],
+        ["flex(box)?[- ]?layout(s?)", "FlexboxLayout$1"],
+        ["grid[- ]?layout(s?)", "GridLayout$1"],
+        ["root[- ]?layout(s?)", "RootLayout$1"],
+        ["stack[- ]?layout(s?)", "StackLayout$1"],
+        ["wrap[- ]?layout(s?)", "WrapLayout$1"],
+        ["activity[- ]?indicator(s?)", "ActivityIndicator$1"],
+        ["date[- ]?picker(s?)", "DatePicker$1"],
+        ["html[- ]?view(s?)", "HtmlView$1"],
+        ["list[- ]?picker(s?)", "ListPicker$1"],
+        ["list[- ]?view(s?)", "ListView$1"],
+        ["place[- ]?holder(s?)", "Placeholder$1"],
+        ["scroll[- ]?view(s?)", "ScrollView$1"],
+        ["search[- ]?bar(s?)", "SearchBar$1"],
+        ["segmented[- ]?bar(s?)", "SegmentedBar$1"],
+        ["tab[- ]?view(s?)", "TabView$1"],
+        ["text[- ]?field(s?)", "TextField$1"],
+        ["text[- ]?view(s?)", "TextView$1"],
+        ["time[- ]?picker(s?)", "TimePicker$1"],
+        ["web[- ]?view(s?)", "WebView$1"],
+        ["action[- ]?bar(s?)", "ActionBar$1"],
+
         // Brands and Technologies
         "JavaScript",
         "TypeScript",
         "NativeScript",
+        ["ns", "NativeScript"],
         "GitHub",
         ["VSCode", "VS Code"],
         "webpack",

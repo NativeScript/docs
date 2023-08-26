@@ -5,6 +5,8 @@ contributors:
   - NathanWalker
 ---
 
+<!-- textlint-disable terminology -->
+
 JavaScript provides opportunities of immense scalability if architectured properly. One key word that often comes up in this department is **"code sharing"**. Over the years, several lessons have emerged around scalability with JavaScript in lieu of NativeScript in particular.
 
 **The NativeScript TSC's 5 fundamental lessons about good code sharing**:

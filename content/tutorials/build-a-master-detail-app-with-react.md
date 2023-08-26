@@ -280,7 +280,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 ![Home page layout breakdown](/assets/images/tutorial/tutorial-example-app-master-breakdown.png)
 
-The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `Navigator.tsx` and add the following code:
+The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `Navigator.tsx` and add the following code:
 
 ```tsx{17-19,24-26}
 // src/components/Navigator.tsx
@@ -653,7 +653,7 @@ export function HomeScreen({ navigation }: HomeScreenProps) {
 }
 ```
 
-Next, let's add the tap event to the listview items. Open `HomeScreen.tsx` and add the following:
+Next, let's add the tap event to the ListView items. Open `HomeScreen.tsx` and add the following:
 
 ```tsx{66}
 // src/components/HomeScreen.tsx
@@ -766,7 +766,7 @@ Let's break down the layout and UI elements of the details page.
 
 ![Details page layout breakdown](/assets/images/tutorial/tutorial-example-app-details-breakdown.png)
 
-The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Javascript's array `map` operator to loop through the `details` array and create a UI element or set of elements for each entry in the array. Open `DetailsScreen.tsx` and add the following code:
+The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Javascript's array `map` operator to loop through the `details` array and create a UI element or set of elements for each entry in the array. Open `DetailsScreen.tsx` and add the following code:
 
 ```tsx{20-44}
 // src/components/DetailsScreen.tsx
