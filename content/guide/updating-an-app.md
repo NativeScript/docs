@@ -93,7 +93,7 @@ previous_url: /running-latest
 
 #### Running the Latest Code
 
-Often when working with open-source projects, one needs functionality that has not yet passed the full release cycle, or even functionality that is not yet fully implemented. We know that many of you are experimenters and want to try the latest and greatest features of NativeScript. That is why we tried to make this process simple and easy to follow. There are two ways to get the latest development code for NativeScript:
+Often when working with open-source projects, at times there is a requirement for functionality that has not yet passed the full release cycle, or even functionality that is not yet fully implemented. We know that many developers using open-source software are experimenters and would wish to enjoy the option to try out the latest and greatest features of NativeScript. This is why we tried to make this process simple and easy to follow. There are two ways to get the latest development code for NativeScript:
 
 - You can get it via npm.
 - You can build the source code.
