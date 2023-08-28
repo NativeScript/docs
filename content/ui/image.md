@@ -1,17 +1,16 @@
 ---
 title: Image
+description: UI component for rendering images
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
-`<Image>` is a UI component that shows an image from an [ImageSource](https://docs.nativescript.org/api-reference/classes/imagesource) or from a URL.
+`<Image>` is a UI component for rendering images. Images can be referenced by URL, resource URL (`res://`), base64 string, font resource (`font://`), [ImageSource](/api/class/ImageSource), and [ImageAsset](/api/class/ImageAsset).
 
-<!-- TODO: fix links -->
-<!-- TODO: add flavors -->
-
-::: tip
+<!-- ::: tip
 When working with images, consider following [the best practices](/performance.html#image-optimizations).
-:::
-
----
+::: -->
 
 <DeviceFrame type="ios">
 <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Image.png"/>
@@ -20,318 +19,121 @@ When working with images, consider following [the best practices](/performance.h
 <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Image.png" />
 </DeviceFrame>
 
-### Displaying an image from `App_Resources`
+## Examples
 
-<!-- /// flavor plain -->
+### Displaying images from App_Resources
 
-```xml
-<Image src="res://icon" stretch="aspectFill" />
-```
-
-<!-- ///
-
-/// flavor angular
+To display images from platform specific locations (`App_Resources/Android/drawable-XXX/`, or `App_Resources/iOS/`) prefix the source with `res://`.
 
 ```xml
-<Image src="res://icon" stretch="aspectFill"> </image>
+<Image src="res://icon" />
 ```
 
-///
+### Displaying images from the src/assets directory
 
-/// flavor react
-
-```tsx
-<Image src="res://icon" stretch="aspectFill" />
-```
-
-///
-
-/// flavor vue
+By default all assets placed in the `src/assets` directory (create the directory if it's not present) will be copied to the correct native platform location to be bundled with the app. To reference these images, prefix them with the `~` character, which is an alias pointing to the `src` folder.
 
 ```xml
-<Image src="res://icon" stretch="aspectFill" />
+<Image src="~/assets/logo.png" />
 ```
 
-///
+### Displaying images from URLs
 
-/// flavor svelte
-
-```xml
-<Image src="res://icon" stretch="aspectFill" />
-```
-
-/// -->
-
-### Displaying an image relative to the `app` directory
-
-<!-- /// flavor plain -->
-
-```xml
-<Image src="~/logo.png" stretch="aspectFill" />
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<Image src="~/logo.png" stretch="aspectFill"></image>
-```
-
-///
-
-/// flavor react
-
-```tsx
-<Image src="~/logo.png" stretch="aspectFill" />
-```
-
-///
-
-/// flavor vue
-
-```xml
-<Image src="~/logo.png" stretch="aspectFill" />
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<Image src="~/logo.png" stretch="aspectFill" />
-```
-
-/// -->
-
-### Displaying an image from a URL
-
-:::tip Note
-
-Setting `loadMode` to `async` will prevent freezing the UI on Android when loading photos async (e.g. from online API)
-
-:::
-
-<!-- /// flavor plain -->
+Images can be displayed from remote URLs. Depending on the software version of the device, insecure URLs may be blocked (`http://`), it's recommended to always use secure URLs (`https://`).
 
 ```xml
 <Image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
-  stretch="aspectFill"
 />
 ```
 
-<!-- ///
+### Displaying `base64`-encoded images
 
-/// flavor angular
-
-```xml
-<Image
-  src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
-  stretch="aspectFill"
->
-</image>
-```
-
-///
-
-/// flavor react
-
-```tsx
-<Image
-  src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
-  stretch="aspectFill"
-/>
-```
-
-///
-
-/// flavor vue
+Images can be displayed from `base64` encoded strings.
 
 ```xml
-<Image
-  src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
-  stretch="aspectFill"
-/>
+<Image src="data:Image/png;base64,iVBORw..." />
 ```
 
-///
+### Rendering font icons as images
 
-/// flavor svelte
-
-```xml
-<Image
-  src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
-  stretch="aspectFill"
-/>
-```
-
-/// -->
-
-### Displaying a `base64`-encoded image
-
-<!-- /// flavor plain -->
-
-```xml
-<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
-```
-
-<!--
-///
-
-/// flavor angular
-
-```xml
-<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill"></image>
-```
-
-///
-
-/// flavor react
-
-```tsx
-<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
-```
-
-///
-
-/// flavor vue
-
-```xml
-<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
-```
-
-/// -->
-
-### Rendering a font icon as image
-
-<!-- /// flavor plain -->
+Font symbols can be rendered as an image by prefixing the source with `font://` and setting the correct `font-family` via eg. a CSS class:
 
 ```xml
 <Image src="font://&#xf004;" class="fas" />
 ```
 
-<!--
-///
-
-/// flavor angular
-
-```xml
-<Image src="font://&#xf004;" class="fas"></image>
+```css
+.fas {
+  font-family: 'Font Awesome';
+  /* ... */
+}
 ```
-
-///
-
-/// flavor react
-
-```tsx
-<Image src="font://&#xf004;" class="fas" />
-```
-
-///
-
-/// flavor vue
-
-```xml
-<Image src.decode="font://&#xf004;" class="fas" />
-```
-
-:::warning Note
-
-In NativeScript-Vue, `.decode` is required for parsing properties that have HTML entities in them.
-
-:::
-
-///
-
-/// flavor svelte
-
-```xml
-<Image src="font://&#xf004;" class="fas" />
-```
-
-/// -->
 
 ## Props
 
 ### src
 
-```xml
-<Image src="{{ src }}" />
-
-<Image src="font://&#xf004;" />
-
-<Image src="~/assets/images/cat.jpeg" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  src: string | ImageSource | ImageAsset = '~/assets/images/cat.jpeg'
-}
+src: string | ImageSource | ImageAsset
 ```
 
-Gets or sets the source([`ImageSource`](https://docs.nativescript.org/api-reference/classes/imagesource) | [`ImageAsset`](/api-reference/classes/imageasset)) of the image.
+Gets or sets the source.
 
----
+A string can be a `http://`, `https://`, `res://`, `font://` or an absolute path (eg. `~/assets/image.png`).
+
+See [`ImageSource`](/api/class/ImageSource) and [`ImageAsset`](/api/class/ImageAsset).
 
 ### imageSource
 
 ```ts
-ImageSource.fromUrl(url)
-  .then((imageSource: ImageSource) => {
-    image.imageSource = imageSource
-  })
-  .catch((error) => {
-    // handle errror
-  })
+imageSource: ImageSource
 ```
+
+Gets or sets the source from an `ImageSource` instance.
+
+See [`ImageSource`](/api/class/ImageSource).
 
 ### tintColor
 
-```xml
-<Image src="{{ src }}" tintColor="#ff00ffaa"/>
+```ts
+tintColor: Color | string
 ```
 
-Sets a color to tint template images.
+Sets a color to tint the image.
 
----
+See [`Color`](/api/class/Color).
 
 ### stretch
 
-```xml
-<Image src="{{ src }}" class="fas" stretch="aspectFill"/>
+```ts
+stretch: ImageStretchType // "none" | "aspectFill" | "aspectFit" | "fill"
 ```
 
-Gets or sets the way the image is resized to fill its allocated space. For valid values, see [ImageStretch](https://docs.nativescript.org/api-reference/modules/coretypes.imagestretch).
+Gets or sets the way the image is resized to fill its allocated space.
 
----
+See [`ImageStretchType`](/api/namespace/CoreTypes#imagestretchtype)
 
 ### loadMode
 
-```xml
-<Image src="{{ src }}" loadMode="sync"/>
-
+```ts
+loadMode: 'sync' | 'async'
 ```
 
-Gets or sets the loading strategy for the images on the local file system.
+Gets or sets the loading strategy for the images.
+
+Default value: `async`.
+
 Valid values:
 
-- `sync` - blocks the UI if necessary to display immediately. Only recommeded for small icons.
-- `async` (`default`) - will load in the background, may appear with short delay, good for large images. When loading images from web they are always loaded async no regardless `loadMode` value.
+- `sync` - blocks the UI if necessary to display immediately. Only recommeded for small images like icons.
+- `async` - loads in the background, the image may appear with a short delay, good for large images.
 
----
+**Note:** When loading images from the web, they are always loaded `async`.
 
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/image).
+For additional inherited properties, refer to the [API Reference](/api/class/Image).
 
 ## Native component
 
