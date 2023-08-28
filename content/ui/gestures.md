@@ -288,7 +288,7 @@ onPinch(args: PinchGestureEventData) {
 
 /// -->
 
-Possible usage: Zoom into content or out of content.
+Possible usage: Zoom in or out of content.
 
 ## Rotate gesture
 
