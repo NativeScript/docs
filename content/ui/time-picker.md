@@ -6,7 +6,7 @@ title: TimePicker
 
 `<TimePicker>` is a UI component that lets users select time.
 
-See also: [DatePicker](/ui/datepicker).
+See also: [DatePicker](/ui/date-picker).
 
 ---
 

@@ -8,7 +8,7 @@ contributors:
 
 `<DatePicker>` is a UI component that lets users select a date from a pre-configured range.
 
-See also: [TimePicker](/ui/timepicker).
+See also: [TimePicker](/ui/time-picker).
 
 <DeviceFrame type="ios">
 <img src="../screenshots/ios/DatePicker.png"/>

@@ -8,7 +8,7 @@ contributors:
 
 `<HtmlView>` is a UI component for rendering simple static HTML content.
 
-See also: [WebView](/ui/webview).
+See also: [WebView](/ui/web-view).
 
 <DeviceFrame type="ios">
 <img src="../screenshots/ios/HtmlView.png"/>
