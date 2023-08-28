@@ -198,7 +198,7 @@ Available directions:
 
 ## Pan gesture
 
-**Action**: A pan gesture occurs when a user presses down a component and immediately start moving it around. Pans are executed more slowly and allow for more precision and the screen stops responding as soon as the finger is lifted off it
+**Action**: A pan gesture occurs when a user presses down on a component and immediately starts moving it around. Pans are executed more slowly and allow for more precision. The event stops emitting as soon as the finger is lifted off it.
 
 #### Pan gesture event data
 
