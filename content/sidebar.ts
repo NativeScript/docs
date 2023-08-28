@@ -229,6 +229,10 @@ export default [
         link: '/ui/dialogs',
       },
       {
+        text: 'Gestures',
+        link: '/ui/gestures',
+      },
+      {
         text: 'Image',
         items: [
           {
