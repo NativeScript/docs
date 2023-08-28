@@ -3,7 +3,7 @@ title: Gestures
 ---
 <!-- TODO: SB for gestures -->
 <!-- TODO: Add flavor tabs for the gestures -->
-Gestures are the different kinds of ways a user interacts with a UI component. NativeScript supports the following gestures:
+Users can interact with UI components using gestures. NativeScript supports the following gestures:
 
 - [tap](#tap-gesture-in-nativescript)
 - [doubleTap](#double-tap-event-data)
