@@ -14,4 +14,5 @@ output.screenshots = [
   'Progress',
   'ScrollView',
   'SearchBar',
+  'SegmentedBar',
 ]
