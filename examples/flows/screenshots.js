@@ -9,4 +9,5 @@ output.screenshots = [
   'Image',
   'Label',
   'ListPicker',
+  'ListView'
 ]
