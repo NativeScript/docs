@@ -245,7 +245,7 @@ onPan(args: PanGestureEventData) {
 
 ## Pinch gesture
 
-**Action**: A user touches a component with two fingers, then moves them towards each other or away from each other.
+**Action**: A user touches a component with two fingers, then moves them towards or away from each other.
 
 #### Pinch gesture event data
 
