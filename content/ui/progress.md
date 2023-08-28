@@ -1,170 +1,65 @@
 ---
 title: Progress
+description: UI component to indicate the progress of a task.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
 `<Progress>` is a UI component that shows a bar to indicate the progress of a task.
 
 See also: [ActivityIndicator](/ui/activity-indicator).
 
----
-
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Progress.png"/>
+<img src="../screenshots/ios/Progress.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Progress.png" />
+<img src="../screenshots/android/Progress.png"/>
 </DeviceFrame>
 
-### Creating a Progress
+<<< @/../examples/src/ui/Progress/template.xml#example
 
-<!-- /// flavor plain -->
+## Example
+
+### Styling the Progress bar
+
+To style the Progress bar, set the `backgroundColor` and `color`.
+
+The `backgroundColor` will be applied to the track, and the `color` will be applied to the bar itself.
 
 ```xml
 <Progress
-  width="100%"
-  value="{{ progressValue }}"
-  maxValue="{{ progressMaxValue }}"
-  loaded="onProgressLoaded"
+  value="75"
+  backgroundColor="#fff"
+  color="#000"
 />
-```
-
-```ts
-import {
-  Observable,
-  Page,
-  Progress,
-  PropertyChangeData,
-} from '@nativescript/core'
-
-export function onNavigatingTo(args) {
-  const page = args.object as Page
-  vm.set('progressValue', 10) // Initial value
-  vm.set('progressMaxValue', 100) // Maximum value
-  // Forcing progress value change (for demonstration)
-  setInterval(() => {
-    const value = vm.get('progressValue')
-    vm.set('progressValue', value + 2)
-  }, 300)
-  page.bindingContext = vm
-}
-export function onProgressLoaded(args) {
-  const myProgressBar = args.object as Progress
-  myProgressBar.on('valueChange', (pargs: PropertyChangeData) => {
-    // TIP: args (for valueChange of Progress) is extending EventData with oldValue & value parameters
-    console.log(`Old Value: ${pargs.oldValue}`)
-    console.log(`New Value: ${pargs.value}`)
-  })
-}
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<progress value="25" maxValue="100" (valueChanged)="onValueChanged($event)"></progress>
-```
-
-```ts
-import { Component, OnInit } from '@angular/core'
-
-@Component({
-  moduleId: module.id,
-  templateUrl: './styling.component.html',
-  styleUrls: ['./styling.component.css']
-})
-export class StylingComponent implements OnInit {
-  public progressValue: number
-
-  ngOnInit() {
-    this.progressValue = 25
-  }
-}
-```
-
-///
-
-/// flavor react
-
-```tsx
-function getTaskCompletionPercent() {
-  // Just a stub method to illustrate the concept.
-  return 10
-}
-
-;<progress value={getTaskCompletionPercent()} maxValue={100} />
-```
-
-///
-
-/// flavor vue
-
-```xml
-<progress :value="currentProgress" />
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<progress value="{currentProgress}" />
-```
-
-/// -->
-
-### Styling Progress
-
-Using `backgroundColor` (**CSS**: `background-color`) & color to change the Progress style.
-
-:::tip Note
-`backgroundColor` will work only on `iOS`; on `Android` the background will be the color with applied opacity.
-:::
-
-```xml
-<progress
-  value="50"
-  maxValue="100"
-  backgroundColor="red"
-  color="green"
-></progress>
-<!-- Using @nativescript/tailwind to change the Progress style -->
-<progress value="25" maxValue="100" class="bg-red-500 text-red-900"></progress>
 ```
 
 ## Props
 
 ### value
 
-```xml
-<Progress value="{{ progressValue }}" />
+```ts
+value: number
 ```
 
-ets or sets the current value of the progress bar. Must be within the range of 0 to [maxValue](#maxvalue).
+Gets or sets the current value of the progress bar.
 
----
+Must be within the range of 0 to [maxValue](#maxValue).
 
-### maxValue
+### maxValue {#maxValue}
 
-```xml
-<Progress maxValue="{{ progressMaxValue }}" />
+```ts
+maxValue: number
 ```
 
-Gets or sets the maximum value of the progress bar. Defaults to: `100`.
+Gets or sets the maximum value of the progress bar.
 
----
+Defaults to: `100`.
 
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/progress)
-
-## Events
-
-### valueChange
-
-Emitted when the `value` property changes.
-
----
+For additional inherited properties, refer to the [API Reference](/api/class/Progress)
 
 ## Native Component
 

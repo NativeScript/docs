@@ -10,5 +10,6 @@ output.screenshots = [
   'Label',
   'ListPicker',
   'ListView',
-  'Placeholder'
+  'Placeholder',
+  'Progress',
 ]
