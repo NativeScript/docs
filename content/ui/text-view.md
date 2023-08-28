@@ -1,6 +1,9 @@
 ---
 title: TextView
 description: UI component for multi-line text entry.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
 `<TextView>` is a UI component for multi-line text entry. When set to read-only, it can also be used to display multi-line text.
