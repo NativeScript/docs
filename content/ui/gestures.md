@@ -68,7 +68,7 @@ onTap(args: EventData) {
 
 ## Double tap gesture
 
-**Action**: Two taps on a component in a quick succession.
+**Action**: Two taps on a component in quick succession.
 
 #### Double tap event data
 
