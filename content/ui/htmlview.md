@@ -11,23 +11,14 @@ contributors:
 See also: [WebView](/ui/webview).
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/HtmlView.png"/>
+<img src="../screenshots/ios/HtmlView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/HtmlView.png" />
+<img src="../screenshots/android/HtmlView.png"/>
 </DeviceFrame>
 
-```xml
-<HtmlView html="{{ htmlString }}" />
-```
-
-```html
-const htmlString = `
-<span>
-  <h1><font color="blue">NativeScript HtmlView</font></h1>
-</span>
-`
-```
+<<< @/../examples/src/ui/HtmlView/template.xml#example
+<<< @/../examples/src/ui/HtmlView/template.ts#example{xml}
 
 ## Props
 

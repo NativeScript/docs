@@ -1,5 +1,9 @@
 ---
 title: Label
+description: UI component for displaying text.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
 <!-- TODO: Add flavors -->
@@ -7,66 +11,23 @@ title: Label
 `<Label>` is a UI component that displays read-only text.
 
 ::: warning Note
-This `<Label>` is **not** the same as the HTML `<Label>`.
+The NativeScript `<Label>` is not the same as the HTML `<Label>`.
 :::
 
----
-
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Label.png"/>
+<img src="../screenshots/ios/Label.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Label.png" />
+<img src="../screenshots/android/Label.png"/>
 </DeviceFrame>
 
-### Simple label
+<<< @/../examples/src/ui/Label/template.xml#example
 
-<!-- /// flavor plain -->
+## Examples
 
-```xml
-<Label text="Label" />
-```
-
-<!--
-///
-
-/// flavor angular
-
-```xml
-<Label text="Label"></label>
-```
-
-///
-
-/// flavor react
-
-```tsx
-<Label>Label</label>
-```
-
-///
-
-/// flavor vue
-
-```xml
-<Label text="Label" />
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<Label text="Label" />
-```
-
-/// -->
-
-### Styling the label
+### Formatting text inside a button
 
 If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
-
-<!-- /// flavor plain -->
 
 ```xml
 <Label textWrap="true">
@@ -80,189 +41,109 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 </Label>
 ```
 
-<!-- ///
-
-/// flavor angular
-
-```xml
-<Label textWrap="true">
-  <FormattedString>
-    <span text="This text has a "></span>
-    <span text="red " style="color: red"></span>
-    <span text="piece of text. "></span>
-    <span text="Also, this bit is italic, " fontStyle="italic"></span>
-    <span text="and this bit is bold." fontWeight="bold"></span>
-  </FormattedString>
-</label>
-```
-
-///
-
-/// flavor react
-
-```tsx
-import { Color } from '@nativescript/core'
-;<Label textWrap={true}>
-  <formattedString>
-    <span>This text has a </span>
-    <span color={new Color('red')}>red </span>
-    <span>piece of text. </span>
-    <span fontStyle="italic">Also, this bit is italic, </span>
-    <span fontWeight="bold">and this bit is bold.</span>
-  </formattedString>
-</label>
-```
-
-///
-
-/// flavor vue
-
-```xml
-<Label textWrap="true">
-  <FormattedString>
-    <span text="This text has a " />
-    <span text="red " style="color: red" />
-    <span text="piece of text. " />
-    <span text="Also, this bit is italic, " fontStyle="italic" />
-    <span text="and this bit is bold." fontWeight="bold" />
-  </FormattedString>
-</label>
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<Label textWrap="{true}">
-  <formattedString>
-    <span text="This text has a " />
-    <span text="red " style="color: red" />
-    <span text="piece of text. " />
-    <span text="Also, this bit is italic, " fontStyle="italic" />
-    <span text="and this bit is bold." fontWeight="bold" />
-  </formattedString>
-</label>
-```
-
-/// -->
-
 ## Props
 
 ### letterSpacing
 
-```xml
-<Label text="Hello there!" letterSpacing="1"/>
+```ts
+letterSpacing: number
 ```
 
-_Type_: `number`
+Gets or sets the letter spacing.
 
-Gets or sets [letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) style property.
-
----
+See [MDN: CSS letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing).
 
 ### lineHeight
 
-```xml
-<Label text="Hello there!" lineHeight="10"/>
+```ts
+lineHeight: number
 ```
 
-_Type_: `number`
+Gets or sets the line height.
 
-Gets or sets [line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) style property.
-
----
+See [MDN: CSS line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height).
 
 ### text
 
-```xml
-<Label text="Hello there!" />
+```ts
+text: string
 ```
 
-_Type_: `string`
-Gets or sets the text displayed or to be displayed by the Label instance.
-
----
+Gets or sets the text shown.
 
 ### textAlignment
 
-```xml
-<Label text="Hello there!" textAlignment="center" />
+```ts
+textAlignment: 'initial' | 'left' | 'center' | 'right' = 'left'
 ```
 
-Gets or sets text-alignment style property. Valid values:
-`"initial"` | `"left"` | `"center"` | `"right"`. Defaults to `"left"`
+Gets or sets the text alignment style property.
 
----
+Defaults to `left`.
 
 ### textDecoration
 
-```xml
-<Label text="Hello there!" textDecoration="underline" />
+```ts
+textDecoration: TextDecorationType // "none" | "underline" | "line-through" | "underline line-through"
 ```
 
-Gets or sets text decoration style property. See [TextDecorationType](https://docs.nativescript.org/api-reference/modules/coretypes#textdecorationtype) for valid values. Defaults to `"none"`.
+Gets or sets the text decoration style.
 
----
+See [TextDecorationType](/api/namespace/CoreTypes#textdecorationtype).
+
+Defaults to `none`.
 
 ### textTransform
 
-```xml
-<Label text="Hello there!" textTransform="capitalize"/>
+```ts
+textTransform: TextTransformType // "initial" | "none" | "capitalize" | "uppercase" | "lowercase"
 ```
 
-Gets or sets text transform style property. See [TextTransformType](https://docs.nativescript.org/api-reference/modules/coretypes#texttransformtype) for valid values. Defaults to `"initial"`.
+Gets or sets the text transform.
 
----
+See [TextTransformType](/api/namespace/CoreTypes#texttransformtype).
+
+Defaults to `initial`.
 
 ### textWrap
 
-```xml
-<Label text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available." textWrap="true"/>
+```ts
+textWrap: boolean
 ```
 
-Gets or sets whether the text breaks and renders on the next line if the current runs out of space. Defaults to `false`.
+Gets or sets whether the label should wrap longer text to new lines.
 
----
+Default value is `false`.
 
 ### whiteSpace
 
-```xml
-<Label text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available." whiteSpace="normal"/>
+```ts
+whiteSpace: WhiteSpaceType // "initial" | "normal" | "nowrap"
 ```
 
-Gets or sets the white space style.
-Valid values: `"initial"` | `"normal"` | `"nowrap"`
-Defaults to `"initial"`.
+Gets or sets white-space handling.
 
----
+See [WhiteSpaceType](/api/namespace/CoreTypes#whitespacetype) and [MDN: CSS white-space](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space).
+
+Defaults to `initial`.
 
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/label).
+For additional inherited properties, refer to the [API Reference](/api/class/Label).
 
-## Events
+<!-- note: commented out - does it make sense to cover textChange? There's rarely a need to listen to this in real apps, so perhaps it's better to just document/link to the Property System page (once ready) that covers how every property emits {property}Change events. -->
+<!-- ## Events
 
 ### textChange
 
-```xml
-    <Label text="{{ greeting }}" loaded="{{ onLabelLoaded }}"/>
-```
-
 ```ts
-onLabelLoaded(args: EventData) {
-    const label = args.object as Label
-
-    label.on("textChange", (textChangeEvent: PropertyChangeData)=>{
-
-    console.log(textChangeEvent.eventName)
-    })
-}
+on('textChange', (args: PropertyChangeData) => {
+  const label = args.object as Label
+  console.log('Label text changed to:', args.value)
+})
 ```
 
-Emitted when the label text is changed.
-
----
+Emitted when the label text is changed. -->
 
 ## Native component
 

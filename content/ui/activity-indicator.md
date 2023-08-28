@@ -2,18 +2,20 @@
 title: ActivityIndicator
 description: UI component for signaling activity.
 contributors:
- - rigor789
- - Ombuweb
+  - rigor789
+  - Ombuweb
 ---
 
 `<ActivityIndicator>` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
 
 <DeviceFrame type="ios">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ActivityIndicator.png"/>
+<img src="../screenshots/ios/ActivityIndicator.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ActivityIndicator.png" />
+<img src="../screenshots/android/ActivityIndicator.png"/>
 </DeviceFrame>
+
+<<< @/../examples/src/ui/ActivityIndicator/template.xml#example
 
 ## Examples
 

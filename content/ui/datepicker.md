@@ -11,11 +11,13 @@ contributors:
 See also: [TimePicker](/ui/timepicker).
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/DatePicker.png"/>
+<img src="../screenshots/ios/DatePicker.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/DatePicker.png" />
+<img src="../screenshots/android/DatePicker.png"/>
 </DeviceFrame>
+
+<<< @/../examples/src/ui/DatePicker/template.xml#example
 
 ```xml
 <DatePicker

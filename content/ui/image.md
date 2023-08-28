@@ -13,11 +13,13 @@ When working with images, consider following [the best practices](/performance.h
 ::: -->
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Image.png"/>
+<img src="../screenshots/ios/Image.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Image.png" />
+<img src="../screenshots/android/Image.png"/>
 </DeviceFrame>
+
+<<< @/../examples/src/ui/Image/template.xml#example
 
 ## Examples
 

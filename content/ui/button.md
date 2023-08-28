@@ -11,15 +11,13 @@ contributors:
 For more information about the available gestures, see [Gestures](/guide/ui/gestures).
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Button.png"/>
+<img src="../screenshots/ios/Button.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Button.png" />
+<img src="../screenshots/android/Button.png"/>
 </DeviceFrame>
 
-```xml
-<Button text="Button" />
-```
+<<< @/../examples/src/ui/Button/template.xml#example
 
 ## Examples
 
