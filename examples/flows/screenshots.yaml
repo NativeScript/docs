@@ -23,7 +23,7 @@ appId: org.nativescript.examplesApp
       # - startRecording: ./screenshots/${output.current}
       - openLink: ns-examples://navigate/${output.current}
       - waitForAnimationToEnd:
-          timeout: 2000
+          timeout: 5000
       - takeScreenshot: ../content/screenshots/${output.platform}/${output.current}
       # - stopRecording
 - openLink: ns-examples://disableDemoMode

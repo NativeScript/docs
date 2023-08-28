@@ -83,7 +83,7 @@ On iOS, any valid `UIKeyboardType` number works, for example:
 keyboardType = 8 // UIKeyboardType.DecimalPad
 ```
 
-See [CoreTypes.KeyboardType](/api/namespace/CoreTypes-KeyboardType), [UIKeyboardType](https://developer.apple.com/documentation/uikit/uikeyboardtype?language=objc)
+See [CoreTypes.KeyboardType](/api/namespace/CoreTypes-KeyboardType), [UIKeyboardType](https://developer.apple.com/documentation/uikit/uikeyboardtype?language=objc).
 
 ### returnKeyType
 
@@ -93,7 +93,7 @@ returnKeyType: CoreTypes.ReturnKeyType // "done" | "go" | "next" | "search" | "s
 
 Gets or sets the label of the return key.
 
-See [CoreTypes.ReturnKeyType](/api/namespace/CoreTypes-ReturnKeyType)
+See [CoreTypes.ReturnKeyType](/api/namespace/CoreTypes-ReturnKeyType).
 
 ### isEnabled
 
@@ -196,7 +196,7 @@ on('focus', (args: EventData) => {
 })
 ```
 
-Emitted when the field gains focus.
+Emitted when the TextField gains focus.
 
 ### blur
 
@@ -207,7 +207,7 @@ on('blur', (args: EventData) => {
 })
 ```
 
-Emitted when the field loses focus.
+Emitted when the TextField loses focus.
 
 ## Native component
 

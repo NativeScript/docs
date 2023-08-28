@@ -1,329 +1,189 @@
 ---
 title: TextView
+description: UI component for multi-line text entry.
 ---
 
-`<TextView>` is a UI component that shows an editable or a read-only multi-line text container. You can use it to let users type large text in your app or to show longer, multi-line text on the screen.
+`<TextView>` is a UI component for multi-line text entry. When set to read-only, it can also be used to display multi-line text.
 
-`<TextView>` extends [`TextBase`](https://docs.nativescript.org/api-reference/classes/textbase) and [`EditableTextBase`](https://docs.nativescript.org/api-reference/classes/editabletextbase) which provide additional properties and events.
-
----
+For single-line text input, see [TextField](/ui/text-field).
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TextView.png"/>
+<img src="../screenshots/ios/TextView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TextView.png" />
+<img src="../screenshots/android/TextView.png"/>
 </DeviceFrame>
 
-<!-- /// flavor plain -->
+<<< @/../examples/src/ui/TextView/template.xml#example
+<<< @/../examples/src/ui/TextView/template.ts#example
+
+## Examples
+
+### Formatting text inside a TextView
+
+If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
 ```xml
-<TextView
-  loaded="onTextViewLoaded"
-  hint="Enter Date"
-  text="{{ viewDate }}"
-  secure="false"
-  keyboardType="datetime"
-  returnKeyType="done"
-  autocorrect="false"
-  maxLength="10"
-/>
-```
-
-```ts
-import { Observable, Page, TextView } from '@nativescript/core'
-
-export function onNavigatingTo(args) {
-  const page = args.object as Page
-  const vm = new Observable()
-  vm.set('viewDate', '')
-  page.bindingContext = vm
-}
-export function onTextViewLoaded(argsloaded) {
-  const textView = argsloaded.object as TextView
-  textView.on('focus', (args) => {
-    const view = args.object as TextView
-    console.log('On TextView focus')
-  })
-  textView.on('blur', (args) => {
-    const view = args.object as TextView
-    console.log('On TextView blur')
-  })
-}
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<TextView hint="Enter some text..." [text]="tvtext" (textChange)="onTextChange($event)">
-</TextView>
-```
-
-```ts
-import { Component } from '@angular/core'
-import { EventData, TextView } from '@nativescript/core'
-
-@Component({
-  moduleId: module.id,
-  templateUrl: './usage.component.html'
-})
-export class UsageComponent {
-  tvtext = ''
-
-  onTextChange(args: EventData) {
-    const tv = args.object as TextView
-    console.log(tv.text)
-  }
-}
-```
-
-///
-
-/// flavor vue
-
-```xml
-<TextView text="Multi\nLine\nText" />
-```
-
-`<TextView>` provides two-way data binding using `v-model`.
-
-```xml
-<TextView v-model="textViewValue" />
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<textView text="Multi\nLine\nText" />
-```
-
-`<textView>` provides two-way data binding using `bind`.
-
-```xml
-<textView bind:text="{textViewValue}" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-<textView text={'Multi\nLine\nText'} />
-```
-
-/// -->
-
-### Displaying multi-style text
-
-To apply multiple styles to the text in your `<TextView>`, you can use `<FormattedString>`
-
-<!-- /// flavor vue
-
-```xml
-<TextView editable="false">
+<TextView>
   <FormattedString>
-    <span text="You can use text attributes such as " />
-    <span text="bold, " fontWeight="Bold" />
-    <span text="italic " fontStyle="Italic" />
-    <span text="and " />
-    <span text="underline." textDecoration="Underline" />
+    <Span text="This text has a " />
+    <Span text="red " style="color: red" />
+    <Span text="piece of text. " />
+    <Span text="Also, this bit is italic, " fontStyle="italic" />
+    <Span text="and this bit is bold." fontWeight="bold" />
   </FormattedString>
 </TextView>
 ```
-
-///
-
-/// flavor svelte
-
-```tsx
-<textView editable="{false}">
-  <formattedString>
-    <span text="You can use text attributes such as " />
-    <span text="bold, " fontWeight="Bold" />
-    <span text="italic " fontStyle="Italic" />
-    <span text="and " />
-    <span text="underline." textDecoration="Underline" />
-  </formattedString>
-</textView>
-```
-
-///
-
-/// flavor plain -->
-
-```xml
-<TextView editable="false">
-  <FormattedString>
-    <span text="You can use text attributes such as " />
-    <span text="bold, " fontWeight="Bold" />
-    <span text="italic " fontStyle="Italic" />
-    <span text="and " />
-    <span text="underline." textDecoration="Underline" />
-  </FormattedString>
-</TextView>
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<TextView editable="false">
-  <FormattedString>
-    <span text="You can use text attributes such as "></span>
-    <span text="bold, " fontWeight="Bold"></span>
-    <span text="italic " fontStyle="Italic"></span>
-    <span text="and "></span>
-    <span text="underline." textDecoration="Underline"></span>
-  </FormattedString>
-</TextView>
-```
-
- ///
-
-/// flavor react
-
-```tsx
-<textView editable={false}>
-  <formattedString>
-    <span text="You can use text attributes such as " />
-    <span text="bold, " fontWeight="bold" />
-    <span text="italic " fontStyle="italic" />
-    <span text="and " />
-    <span text="underline." textDecoration="underline" />
-     To set text on the <span> element, please do use the `text` prop; it can't safely take text nodes as children!
-  </formattedString>
-</textView>
-```
-
-/// -->
 
 ## Props
 
 ### text
 
-```xml
-<TextView text="{{ viewDate }}" />
-```
-
 ```ts
-text: string = textView.text
+text: string
 ```
 
-Gets or sets the `text` value of the component.
-
----
+Gets or sets the text of the TextView.
 
 ### hint
 
-```xml
-<TextView hint="hint" />
-```
-
 ```ts
-hint: string = textView.hint
+hint: string
 ```
 
-Gets or sets the Placeholder text for the component.
+<!-- textlint-disable terminology -->
 
----
+Gets or sets the placeholder text for the TextView.
+
+<!-- textlint-enable -->
 
 ### editable
 
-```xml
-<TextView editable="false" />
-```
-
 ```ts
-editable: boolean = textView.editable
-//or
-textView.editable = false
+editable: boolean
 ```
 
-Toggles the ability to take user input.
+When set to `false` the TextView is read-only.
 
----
+Defaults to `true`.
 
 ### keyboardType
 
-```xml
-<TextView keyboardType="number" />
+```ts
+keyboardType: CoreTypes.KeyboardType | number // "datetime" | "email" | "integer" | "number" | "phone" | "url"
 ```
+
+Gets or sets the keyboard type shown when editing this TextView.
+
+On iOS, any valid `UIKeyboardType` number works, for example:
 
 ```ts
-textView.keyboardType = CoreTypes.KeyboardType.number
-//or
-keyboardType: CoreTypes.KeyboardType = textView.keyboardType
+keyboardType = 8 // UIKeyboardType.DecimalPad
 ```
 
-Shows the appropriate keyboard keys for the data the TextField will capture. See [CoreTypes.KeyboardType](https://docs.nativescript.org/api-reference/modules/coretypes.keyboardtype) for available values.
-
----
+See [CoreTypes.KeyboardType](/api/namespace/CoreTypes-KeyboardType), [UIKeyboardType](https://developer.apple.com/documentation/uikit/uikeyboardtype?language=objc).
 
 ### returnKeyType
 
-```xml
-<TextView returnKeyType="next" />
-```
-
 ```ts
-textView.returnKeyType = CoreTypes.ReturnKeyType.next
-//or
-returnKeyType: CoreTypes.ReturnKeyType = textView.returnKeyType
+returnKeyType: CoreTypes.ReturnKeyType // "done" | "go" | "next" | "search" | "send"
 ```
 
-Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://docs.nativescript.org/api-reference/modules/coretypes.returnkeytype) for available values.
+Gets or sets the label of the return key.
 
----
+See [CoreTypes.ReturnKeyType](/api/namespace/CoreTypes-ReturnKeyType).
+
+### isEnabled
+
+Allows disabling the TextView. A disabled TextView does not react to user gestures or input.
+
+Default value is `true`.
 
 ### maxLines
 
-```xml
-<TextView maxLines="2" />
-```
-
 ```ts
-textView.maxLines = 2
+maxLines: number
 ```
 
-Limits input to a certain number of lines.
-
----
+Limits input to the specified number of lines.
 
 ### autocorrect
 
-```xml
-<TextView returnKeyType="autocorrect" />
-```
-
 ```ts
-textView.autocorrect = true
-//or
-autocorrect: boolean = textView.autocorrect
+autocorrect: boolean
 ```
 
 Enables or disables autocorrect.
 
----
-
 ### ...Inherited
 
-For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textview).
+For additional inherited properties not shown, refer to the [API Reference](/api/class/TextView).
 
----
+## Methods
+
+### focus()
+
+```ts
+focus(): boolean
+```
+
+Focuses the TextView and returns `true` if the focus was succeessful.
+
+### dismissSoftInput()
+
+```ts
+dismissSoftInput(): void
+```
+
+Hides the on-screen keyboard.
 
 ## Events
 
-| Name          | Description                                                                                                                                     |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| `textChange`  | Emitted when the text changes. Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) |
-| `returnPress` | Emitted when the return key is pressed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)          |
-| `focus`       | Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)              |
-| `blur`        | Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)              |
+### textChange
+
+```ts
+on('textChange', (args: PropertyChangeData) => {
+  const textView = args.object as TextView
+  console.log('TextView text changed:', args.value)
+})
+```
+
+Emitted when the input text changes.
+
+Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)
+
+### returnPress
+
+```ts
+on('returnPress', (args: EventData) => {
+  const textView = args.object as TextView
+  console.log('TextView return key pressed.')
+})
+```
+
+Emitted when the return key is pressed.
+
+### focus
+
+```ts
+on('focus', (args: EventData) => {
+  const textView = args.object as TextView
+  console.log('TextView has been focused')
+})
+```
+
+Emitted when the TextView gains focus.
+
+### blur
+
+```ts
+on('blur', (args: EventData) => {
+  const textView = args.object as TextView
+  console.log('TextView has been blured')
+})
+```
+
+Emitted when the TextView loses focus.
 
 ## Native component
 

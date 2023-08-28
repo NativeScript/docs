@@ -18,4 +18,8 @@ output.screenshots = [
   'Slider',
   'Switch',
   'TabView',
+  'TextField',
+  'TextView',
+  'TimePicker',
+  'WebView',
 ]
