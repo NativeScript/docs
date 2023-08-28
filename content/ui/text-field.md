@@ -1,6 +1,9 @@
 ---
 title: TextField
 description: UI component for single-line text entry.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
 `<TextField>` is a UI component for single-line text entry.
