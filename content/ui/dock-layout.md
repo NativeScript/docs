@@ -1,8 +1,12 @@
 ---
 title: DockLayout
+description: Layout container for docking views to the sides or the middle.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
-`<DockLayout>` is a layout container that lets you dock child elements to the sides or the center of the layout.
+`<DockLayout>` is a layout container that lets you dock child views to the sides or the center of the layout.
 
 `<DockLayout>` has the following behavior:
 
@@ -10,9 +14,11 @@ title: DockLayout
 - Enforces layout constraints to its children.
 - Resizes its children at runtime when its size changes.
 
-#### Example: Dock to every side without stretching the last child
+## Examples
 
-The following example creates a frame-like layout consisting of 4 elements, position at the 4 edges of the screen.
+### Dock to every side without stretching the last child
+
+The following example creates a frame-like layout consisting of 4 elements, positioned at the 4 edges of the screen.
 
 ```xml
 <DockLayout stretchLastChild="false" backgroundColor="#3c495e">
@@ -25,7 +31,7 @@ The following example creates a frame-like layout consisting of 4 elements, posi
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/dock_layout_no_stretch.svg" />
 
-#### Example: Dock to every side and stretch the last child
+### Dock to every side and stretch the last child
 
 The following example shows how `stretchLastChild` affects the positioning of child elements in a `DockLayout` container. The last child (`bottom`) is stretched to take up all the remaining space after positioning the first three elements.
 
@@ -40,7 +46,7 @@ The following example shows how `stretchLastChild` affects the positioning of ch
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/dock_layout_stretch.svg" />
 
-#### Example: Dock to every side and the center
+### Dock to every side and the center
 
 The following example creates a `<DockLayout>` of 5 elements. The first four wrap the center element in a frame.
 
@@ -56,7 +62,7 @@ The following example creates a `<DockLayout>` of 5 elements. The first four wra
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/dock_layout_all_sides_and_stretch.svg" />
 
-#### Example: Dock multiple children to the same side
+### Dock multiple children to the same side
 
 The following example creates a single line of 4 elements that stretch across the entire height and width of the screen.
 
@@ -71,17 +77,28 @@ The following example creates a single line of 4 elements that stretch across th
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/dock_layout_multiple_on_same_side.svg" />
 
-#### Props
+## Props
 
-| Name               | Type        | Description                                                                                                                             |
-| ------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `stretchLastChild` | `Boolean`   | Enables or disables stretching the last child to fit the remaining space.                                                               |
-| `...Inherited`     | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/docklayout) |
+### stretchLastChild
 
-#### Additional children props
+```ts
+stretchLastChild: boolean
+```
 
-When an element is a direct child of `<DockLayout>`, you can set the following additional properties.
+Enables or disables stretching the last child to fit the remaining space.
 
-| Name   | Type     | Description                                                                                         |
-| ------ | -------- | --------------------------------------------------------------------------------------------------- |
-| `dock` | `String` | Specifies which side to dock the element to.<br/>Valid values: `top`, `right`, `bottom`, or `left`. |
+### ...Inherited
+
+Additional inherited properties not shown. Refer to the [API Reference](/api/class/DockLayout).
+
+## Children props
+
+When an element is a direct child of `<DockLayout>`, these properties are accounted for:
+
+### dock
+
+```ts
+dock: 'top' | 'right' | 'bottom' | 'left'
+```
+
+Specifies which side to dock the element to.
