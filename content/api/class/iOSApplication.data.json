@@ -1,0 +1,377 @@
+{
+  "title": "iOSApplication",
+  "hierarchy": [
+    [
+      {
+        "text": "iOSApplication"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        838
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        842,
+        845,
+        843,
+        840,
+        844,
+        841
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        846,
+        853
+      ]
+    }
+  ],
+  "reflections": {
+    "838": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/iOSApplication#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new iOSApplication(): <a href=\"/api/class/iOSApplication\">iOSApplication</a>",
+          "url": "/api/class/iOSApplication#constructor-new-iosapplication",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/iOSApplication\">iOSApplication</a>"
+        }
+      ]
+    },
+    "840": {
+      "name": "rootController",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#rootcontroller",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The root view controller for the application."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "rootController: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 699,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The root view controller for the application."
+              }
+            ]
+          },
+          "url": "/api/class/iOSApplication#rootcontroller"
+        }
+      ]
+    },
+    "841": {
+      "name": "window",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#window",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The key window."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "window: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 705,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The key window."
+              }
+            ]
+          },
+          "url": "/api/class/iOSApplication#window"
+        }
+      ]
+    },
+    "842": {
+      "name": "delegate",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#delegate",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The [UIApplicationDelegate](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html) class."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "delegate: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 710,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The [UIApplicationDelegate](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html) class."
+              }
+            ]
+          },
+          "url": "/api/class/iOSApplication#delegate"
+        }
+      ]
+    },
+    "843": {
+      "name": "orientation",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#orientation",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the orientation of the application.\nAvailable values: \"portrait\", \"landscape\", \"unknown\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "orientation: \"portrait\" | \"landscape\" | \"unknown\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 716,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the orientation of the application.\nAvailable values: \"portrait\", \"landscape\", \"unknown\"."
+              }
+            ]
+          },
+          "url": "/api/class/iOSApplication#orientation"
+        }
+      ]
+    },
+    "844": {
+      "name": "systemAppearance",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#systemappearance",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the system appearance.\nAvailable values: \"dark\", \"light\", null.\nNull for iOS <= 11."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "systemAppearance: \"dark\" | \"light\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 723,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the system appearance.\nAvailable values: \"dark\", \"light\", null.\nNull for iOS <= 11."
+              }
+            ]
+          },
+          "url": "/api/class/iOSApplication#systemappearance"
+        }
+      ]
+    },
+    "845": {
+      "name": "nativeApp",
+      "type": "Property",
+      "url": "/api/class/iOSApplication#nativeapp",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The [UIApplication](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "nativeApp: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 728,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The [UIApplication](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)."
+              }
+            ]
+          },
+          "url": "/api/class/iOSApplication#nativeapp"
+        }
+      ]
+    },
+    "846": {
+      "name": "addNotificationObserver",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#addnotificationobserver",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addNotificationObserver(\n  notificationName: string,\n  onReceiveCallback: (notification: any) => void\n): any",
+          "url": "/api/class/iOSApplication#addnotificationobserver-addnotificationobserver-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 736,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds an observer to the default notification center for the specified notification.\nFor more information, please visit 'https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/#//apple_ref/occ/instm/NSNotificationCenter/addObserver:selector:name:object:'"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "notificationName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A string containing the name of the notification."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onReceiveCallback",
+              "type": "(notification: any) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A callback function that will be called each time the observer receives a notification."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "853": {
+      "name": "removeNotificationObserver",
+      "type": "Method",
+      "url": "/api/class/iOSApplication#removenotificationobserver",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeNotificationObserver(observer: any, notificationName: string): void",
+          "url": "/api/class/iOSApplication#removenotificationobserver-removenotificationobserver-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 745,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes the observer for the specified notification from the default notification center.\nFor more information, please visit 'https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/#//apple_ref/occ/instm/NSNotificationCenter/addObserver:selector:name:object:'"
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "observer",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The observer that was returned from the addNotificationObserver method."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "notificationName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A string containing the name of the notification."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

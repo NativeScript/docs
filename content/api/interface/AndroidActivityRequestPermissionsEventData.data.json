@@ -1,0 +1,277 @@
+{
+  "title": "AndroidActivityRequestPermissionsEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "AndroidActivityEventData",
+        "link": "/api/interface/AndroidActivityEventData"
+      }
+    ],
+    [
+      {
+        "text": "AndroidActivityRequestPermissionsEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1119,
+        1120,
+        1118,
+        1121,
+        1117,
+        1116
+      ]
+    }
+  ],
+  "reflections": {
+    "1116": {
+      "name": "requestCode",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityRequestPermissionsEventData#requestcode",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The request code."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "requestCode: number",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 437,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The request code."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityRequestPermissionsEventData#requestcode"
+        }
+      ]
+    },
+    "1117": {
+      "name": "permissions",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityRequestPermissionsEventData#permissions",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Permissions."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "permissions: string[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 442,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Permissions."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityRequestPermissionsEventData#permissions"
+        }
+      ]
+    },
+    "1118": {
+      "name": "grantResults",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityRequestPermissionsEventData#grantresults",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Granted."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "grantResults: number[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 447,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Granted."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityRequestPermissionsEventData#grantresults"
+        }
+      ]
+    },
+    "1119": {
+      "name": "activity",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityRequestPermissionsEventData#activity",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The activity."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "activity",
+        "url": "/api/interface/AndroidActivityEventData#activity",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "activity: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 407,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "activity",
+            "url": "/api/interface/AndroidActivityEventData#activity",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The activity."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityRequestPermissionsEventData#activity"
+        }
+      ]
+    },
+    "1120": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityRequestPermissionsEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/AndroidActivityEventData#eventname",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "eventName: string",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 412,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/AndroidActivityEventData#eventname",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityRequestPermissionsEventData#eventname"
+        }
+      ]
+    },
+    "1121": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityRequestPermissionsEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/AndroidActivityEventData#object",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "object: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/index.d.ts",
+              "line": 417,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/AndroidActivityEventData#object",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityRequestPermissionsEventData#object"
+        }
+      ]
+    }
+  }
+}
