@@ -17,7 +17,7 @@ contributors:
 
 ## Examples
 
-### Busy ActivityIndicator
+### Always busy ActivityIndicator
 
 ```xml
 <ActivityIndicator busy="true" />

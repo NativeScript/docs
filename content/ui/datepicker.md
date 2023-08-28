@@ -1,14 +1,14 @@
 ---
 title: DatePicker
+description: UI component for selecting a date.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
-
-<!-- TODO: Add flavors -->
 
 `<DatePicker>` is a UI component that lets users select a date from a pre-configured range.
 
 See also: [TimePicker](/ui/timepicker).
-
----
 
 <DeviceFrame type="ios">
 <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/DatePicker.png"/>
@@ -17,293 +17,163 @@ See also: [TimePicker](/ui/timepicker).
 <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/DatePicker.png" />
 </DeviceFrame>
 
-<!-- /// flavor plain -->
-
 ```xml
 <DatePicker
-  year="1980"
-  month="4"
-  day="20"
-  loaded="onDatePickerLoaded"
+  year="2023"
+  month="8"
+  day="28"
   date="{{ date }}"
   minDate="{{ minDate }}"
   maxDate="{{ maxDate }}"
 />
 ```
 
-```ts
-import { DatePicker, EventData, Observable, Page } from '@nativescript/core'
-
-export function onNavigatingTo(args: EventData) {
-  const page = args.object as Page
-  const vm = new Observable()
-
-  // in the following example the DatePicker properties are binded via Observableproperties
-  vm.set('minDate', new Date(1975, 0, 29)) // the binded minDate property accepts Date object
-  vm.set('maxDate', new Date(2045, 4, 12)) // the binded maxDate property accepts Date object
-
-  page.bindingContext = vm
-}
-
-export function onDatePickerLoaded(data: EventData) {
-  const datePicker = data.object as DatePicker
-  datePicker.on('dateChange', (args) => {
-    console.dir(args)
-  })
-  datePicker.on('dayChange', (args) => {
-    console.dir(args)
-  })
-  datePicker.on('monthChange', (args) => {
-    console.dir(args)
-  })
-  datePicker.on('yearChange', (args) => {
-    console.dir(args)
-  })
-}
-```
-
-<!--
-///
-
-/// flavor angular
-
-```xml
-<DatePicker
-  year="1980"
-  month="4"
-  day="20"
-  [minDate]="minDate"
-  [maxDate]="maxDate"
-  (dateChange)="onDateChanged($event)"
-  (dayChange)="onDayChanged($event)"
-  (monthChange)="onMonthChanged($event)"
-  (yearChange)="onYearChanged($event)"
-  (loaded)="onDatePickerLoaded($event)"
-  verticalAlignment="center"
->
-</DatePicker>
-```
-
-```typescript
-import { Component } from '@angular/core'
-import { DatePicker } from '@nativescript/core'
-
-@Component({
-  moduleId: module.id,
-  templateUrl: './usage.component.html'
-})
-export class DatePickerUsageComponent {
-  minDate: Date = new Date(1975, 0, 29)
-  maxDate: Date = new Date(2045, 4, 12)
-
-  onDatePickerLoaded(args) {
-    // const datePicker = args.object as DatePicker;
-  }
-
-  onDateChanged(args) {
-    console.log('Date New value: ' + args.value)
-    console.log('Date value: ' + args.oldValue)
-  }
-
-  onDayChanged(args) {
-    console.log('Day New value: ' + args.value)
-    console.log('Day Old value: ' + args.oldValue)
-  }
-
-  onMonthChanged(args) {
-    console.log('Month New value: ' + args.value)
-    console.log('Month Old value: ' + args.oldValue)
-  }
-
-  onYearChanged(args) {
-    console.log('Year New value: ' + args.value)
-    console.log('Year Old value: ' + args.oldValue)
-  }
-}
-```
-
-///
-
-/// flavor vue
-
-```xml
-<DatePicker :date="someDate" />
-```
-
-`<DatePicker>` provides two-way data binding using `v-model`.
-
-```xml
-<DatePicker v-model="selectedDate" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-import { EventData } from '@nativescript/core'
-;<datePicker
-  date={new Date()}
-  onDateChange={(args: EventData) => {
-    const datePicker = args.object
-  }}
-/>
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<datePicker date="{someDate}" />
-```
-
-`<datePicker>` provides two-way data binding using `bind`.
-
-```xml
-<datePicker bind:date="{selectedDate}" />
-```
-
-/// -->
-
 ## Props
 
 ### date
 
-```xml
-<DatePicker date="{{ date }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  date = new Date()
-}
+date: Date
 ```
 
 Gets or sets the complete date.
 
----
-
-### dateMin
-
-```xml
-<DatePicker minDate="{{ minDate }}" />
-```
+### minDate
 
 ```ts
-export class HelloWorldModel extends Observable {
-  minDate = new Date('2021-01-01')
-}
+minDate: Date
 ```
 
 Gets or sets the earliest possible date to select.
 
----
-
-### dateMax
-
-```xml
-<DatePicker maxDate="{{ maxDate }}" />
-```
+### maxDate
 
 ```ts
-export class HelloWorldModel extends Observable {
-  minDate = new Date('2023-12-31')
-}
+maxDate: Date
 ```
 
 Gets or sets the latest possible date to select.
 
----
-
 ### day
 
-```xml
-<DatePicker day="{{ day }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  day = 1
-}
+day: number
 ```
 
 Gets or sets the day of the month.
 
----
-
 ### month
 
-```xml
-<DatePicker month="{{ month }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  month = 1
-}
+month: number
 ```
 
 Gets or sets the month.
 
----
-
 ### year
 
-```xml
-<DatePicker year="{{ year }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  year = 2022
-}
+year: number
 ```
 
 Gets or sets the year.
 
----
-
 ### iosPreferredDatePickerStyle
 
-```xml
-<DatePicker iosPreferredDatePickerStyle="2"/>
-```
-
 ```ts
-datePicker.iosPreferredDatePickerStyle = 2
+iosPreferredDatePickerStyle: UIDatePickerStyle
 ```
 
-Gets or set the UIDatePickerStyle of the DatePicker in iOS `13.4+`. Defaults to `0`.
-Valid values are numbers:
+Gets or set the UIDatePickerStyle of the DatePicker in iOS `13.4+`.
+
+Default value: `0` (automatic).
+
+Valid values:
 
 - `0 = automatic`: system picks the concrete style based on the current platform and DatePicker mode.
 - `1 = wheels`: the DatePicker displays as a wheel picker.
 - `2 = compact` : the DatePicker displays as a label that when tapped displays a calendar-style editor.
 - `3 = inline` : the DatePickers displays as an inline, editable field
 
----
-
 ## Events
 
 ### dateChange
 
-```xml
-<DatePicker loaded="{{ onDatePickerLoaded }}"/>
+```ts
+on('dateChange', (args: PropertyChangeData) => {
+  const picker = args.object as DatePicker
+  console.log('New date:', args.value)
+})
 ```
+
+Emitted when the selected date changes.
+
+See [PropertyChangeData](/api/interface/PropertyChangeData).
+
+### minDateChange
 
 ```ts
-onDatePickerLoaded(args: EventData) {
-    const picker = args.object as DatePicker
-    picker.on("dateChange", (args: PropertyChangeData) => {
-    console.log("New date: ", args.value)
-    })
-  }
+on('minDateChange', (args: PropertyChangeData) => {
+  const picker = args.object as DatePicker
+  console.log('New minDate:', args.value)
+})
 ```
 
-Emitted when the selected date changes. See the [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata) interface for the event data.
+Emitted when the minimum date changes.
 
----
+See [PropertyChangeData](/api/interface/PropertyChangeData).
+
+### maxDateChange
+
+```ts
+on('maxDateChange', (args: PropertyChangeData) => {
+  const picker = args.object as DatePicker
+  console.log('New maxDate:', args.value)
+})
+```
+
+Emitted when the maximum date changes.
+
+See [PropertyChangeData](/api/interface/PropertyChangeData).
+
+### dayChange
+
+```ts
+on('dayChange', (args: PropertyChangeData) => {
+  const picker = args.object as DatePicker
+  console.log('New day:', args.value)
+})
+```
+
+Emitted when the day changes.
+
+See [PropertyChangeData](/api/interface/PropertyChangeData).
+
+### monthChange
+
+```ts
+on('monthChange', (args: PropertyChangeData) => {
+  const picker = args.object as DatePicker
+  console.log('New month:', args.value)
+})
+```
+
+Emitted when the month changes.
+
+See [PropertyChangeData](/api/interface/PropertyChangeData).
+
+### yearChange
+
+```ts
+on('yearChange', (args: PropertyChangeData) => {
+  const picker = args.object as DatePicker
+  console.log('New year:', args.value)
+})
+```
+
+Emitted when the year changes.
+
+See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 ## Native component
 

@@ -18,23 +18,25 @@ For more information about the available gestures, see [Gestures](/guide/ui/gest
 </DeviceFrame>
 
 ```xml
-<Button text="Tap me!" />
+<Button text="Button" />
 ```
 
-### Styling the button
+## Examples
+
+### Formatting text inside a button
 
 If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
 ```xml
-<button>
+<Button>
   <FormattedString>
-    <span text="This text has a " />
-    <span text="red " style="color: red" />
-    <span text="piece of text. " />
-    <span text="Also, this bit is italic, " fontStyle="italic" />
-    <span text="and this bit is bold." fontWeight="bold" />
+    <Span text="This text has a " />
+    <Span text="red " style="color: red" />
+    <Span text="piece of text. " />
+    <Span text="Also, this bit is italic, " fontStyle="italic" />
+    <Span text="and this bit is bold." fontWeight="bold" />
   </FormattedString>
-</button>
+</Button>
 ```
 
 ## Props
