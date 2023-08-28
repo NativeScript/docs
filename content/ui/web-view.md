@@ -1,238 +1,149 @@
 ---
 title: WebView
+description: UI component for rendering web content.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
-`<WebView>` is a UI component that lets you show web content in your app. You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
+`<WebView>` is a UI component for rendering web content. The content can be from a remote URL, a local file, or an inline string.
 
 See also: [HtmlView](/ui/html-view).
 
----
-
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/WebView.png"/>
+<img src="../screenshots/ios/WebView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/WebView.png" />
+<img src="../screenshots/android/WebView.png"/>
 </DeviceFrame>
 
-<!-- /// flavor plain -->
+<<< @/../examples/src/ui/WebView/template.xml#example
 
-```xml
-<WebView row="1" loaded="onWebViewLoaded" id="myWebView" src="{{ webViewSrc }}" />
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<WebView
-  [src]="webViewSrc"
-  (loadStarted)="onLoadStarted($event)"
-  (loadFinished)="onLoadFinished($event)"
->
-</WebView>
-```
-
-///
-
-/// flavor vue
-
-```xml
-<WebView src="http://nativescript-vue.org/" />
-
-<WebView src="~/html/index.html" />
-
-<WebView src="<div><h1>Some static HTML</h1></div>" />
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<webView src="http://nativescript.org/" />
-
-<webView src="~/html/index.html" />
-
-<webView src="<div><h1>Some static HTML</h1></div>" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-<webView src="http://nativescript.org/" />
-
-<webView src="~/html/index.html" />
-
-<webView src="<div><h1>Some static HTML</h1></div>" />
-```
-
-/// -->
-
-::: tip Tip
-To be able to use gestures in WebView component on Android, we should first disabled the zoom control. To do that we could access the android property and with the help of setDisplayZoomControls to set this control to false.
+::: info Tip
+To be able to use gestures inside a WebView on Android, [disable zoom controls](#disableZoom).
 :::
 
 ## Props
 
 ### src
 
-```xml
-<WebView src="http://nativescript-vue.org/" />
-
-<WebView src="~/html/index.html" />
-
-<WebView src="<div><h1>Some static HTML</h1></div>" />
+```ts
+src: string
 ```
 
+The source to load in the WebView. The value can be a valid HTTP URL, a path to a local HTML file, or a HTML string.
+
+**Example:**
+
 ```ts
-webView.src = 'http://nativescript-vue.org/'
-//or
-webView.src = '~/html/index.html'
-//or
+webView.src = 'https://nativescript.org/'
+webView.src = '~/assets/html/index.html'
 webView.src = '<div><h1>Some static HTML</h1></div>'
 ```
 
-Gets or sets the web content to be displayed. Valid values:
-
-- an absolute URL,
-- the path to a local HTML file,
-- or static HTML.
-
----
+::: warning Insecure URLs
+Depending on the software version of the device, insecure URLs may be blocked (`http://`), it's recommended to always use secure URLs (`https://`).
+:::
 
 ### canGoBack
 
 ```ts
-canGoBack: boolean = webView.canGoBack
+canGoBack: boolean
 ```
 
 Gets a value indicating whether the WebView can navigate back.
 
----
-
 ### canGoForward
 
 ```ts
-canGoForward: boolean = webView.canGoForward
+canGoForward: boolean
 ```
 
 Gets a value indicating whether the WebView can navigate forward.
 
----
-
-### disableZoom
+### disableZoom {#disableZoom}
 
 ```ts
-webView.disableZoom = true
+disableZoom: boolean
 ```
 
-Disable scrolling in the WebView.
-
----
+Disable zooming in the WebView.
 
 ### iosAllowInlineMediaPlayback
 
-```xml
-<WebView src="https://docs.nativescript.org/" iosAllowInlineMediaPlayback="true"/>
-```
-
 ```ts
-webView.iosAllowInlineMediaPlayback = true
+iosAllowInlineMediaPlayback: boolean
 ```
 
-(`iOS only`) Enables inline media playback on iOS. By default, WebView forces iPhone into fullscreen media playback.
+Enables inline media playback on iOS. By default, WebView forces iPhone into fullscreen media playback. **iOS only.**
 
----
+### ...Inherited
+
+For additional inherited properties not shown, refer to the [API Reference](/api/class/WebView)
 
 ## Methods
 
 ### stopLoading()
 
 ```ts
-webView.stopLoading()
+stopLoading(): void
 ```
 
 Stops loading the current content (if any).
 
----
-
 ### goBack()
 
 ```ts
-webView.goBack()
+goBack(): void
 ```
 
-Navigates back.
-
----
+Navigates the WebView back.
 
 ### goForward()
 
 ```ts
-webView.goForward()
+goForward(): void
 ```
 
-Navigates forward.
-
----
+Navigates the WebView forward.
 
 ### reload()
 
 ```ts
-webView.reload()
+reload(): void
 ```
 
 Reloads the current url.
-
----
-
-### ...Inherited
-
-For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/webview)
 
 ## Events
 
 ### loadStarted
 
-```xml
-<WebView src="https://docs.nativescript.org/" loadStarted="onLoadStarted"/>
-```
-
 ```ts
-export function onLoadStarted(args) {
-  const webView = args.object as WebView
+on('loadStarted', (args: EventData) => {
+  const webView = arg.object as WebView
 
-  console.log('Can go back? ', Object.keys(args))
-  console.log('Can go forward? ', webView.canGoForward)
-}
+  console.log('WebView started loading', args.url)
+})
 ```
 
-Emitted when the page has started loading in the `<WebView>`. The event data is of [LoadEventData](https://docs.nativescript.org/api-reference/interfaces/loadeventdata) type.
+Emitted when the page has started loading in the `<WebView>`.
 
----
+See [LoadEventData](/api/interface/LoadEventData).
 
 ### loadFinished
 
-```xml
-<WebView src="https://docs.nativescript.org/" loadFinished="onLoadFinished"/>
-```
-
 ```ts
-export function onLoadFinished(args) {
-  const webView = args.object as WebView
+on('loadFinished', (args: EventData) => {
+  const webView = arg.object as WebView
 
-  console.log('Can go back? ', Object.keys(args))
-  console.log('Can go forward? ', webView.canGoForward)
-}
+  console.log('WebView finished loading', args.url)
+})
 ```
 
-Emitted when the page has finished loading in the `<WebView>`. The event data is of [LoadEventData](https://docs.nativescript.org/api-reference/interfaces/loadeventdata) type.
+Emitted when the page has started loading in the `<WebView>`.
 
----
+See [LoadEventData](/api/interface/LoadEventData).
 
 ## Native component
 
