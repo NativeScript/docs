@@ -1,10 +1,16 @@
 ---
 title: WrapLayout
+description: Layout Container that wraps it's items once there's no more space to fit them.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
 `<WrapLayout>` is a layout container that lets you position items in rows or columns, based on the `orientation` property. When the space is filled, the container automatically wraps items onto a new row or column.
 
-## Horizontal WrapLayout
+## Examples
+
+### Horizontal WrapLayout
 
 By default, a `WrapLayout` wraps its child items along a row.
 The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item to a new row.
@@ -20,7 +26,7 @@ The following example creates a row of equally-sized items. When the row runs ou
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/wrap_layout_horizontal.svg" />
 
-## Vertical WrapLayout
+### Vertical WrapLayout
 
 To wrap child items vertically, set the `WrapLayout`'s `orentation` property to `vertical`.
 The following example creates a column of equally-sized items. When the column runs out of space, the container wraps the last item to a new column.
@@ -36,17 +42,36 @@ The following example creates a column of equally-sized items. When the column r
 
 <img class="md:w-1/2 lg:w-1/3" src="https://art.nativescript.org/layouts/wrap_layout_vertical.svg" />
 
-## WrapLayout Reference
+## Props
 
-### Props
+### orientation
 
-| Name           | Type        | Description                                                                                                                                                            |
-| -------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `orientation`  | `String`    | Specifies the stacking direction.<br/>Valid values: `horizontal` (arranges items in rows) and `vertical` (arranges items in columns).<br/>Default value: `horizontal`. |
-| `itemWidth`    | `Number`    | Sets the width used to measure and layout each child.<br/>Default value: `Number.NaN`, which does not restrict children.                                               |
-| `itemHeight`   | `Number`    | Sets the height used to measure and layout each child.<br/>Default value is `Number.NaN`, which does not restrict children.                                            |
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/wraplayout)                                |
+```ts
+orientation: 'horizontal' | 'vertical'
+```
 
-### Children props
+Specifies the stacking direction.
 
-None.
+Defaults to `horizontal`.
+
+### itemWidth
+
+```ts
+itemWidth: number
+```
+
+Sets the width used to measure and layout each child. When not set, the item width is automatically calculated based on it's contents.
+
+Defaults to `Number.NaN`.
+
+### itemHeight
+
+```ts
+itemHeight: number
+```
+
+Sets the height used to measure and layout each child. When not set, the item height is automatically calculated based on it's contents.
+
+### ...Inherited
+
+For additional inherited properties not shown, refer to the [API Reference](/api/class/WrapLayout).
