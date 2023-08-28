@@ -35,7 +35,7 @@ The `tap` gesture event only offers the `eventName` and `object` properties.
 
 The [TouchManager](/guide/ui-components/animations-in-nativescript#touchmanager-8-2) offers a convenient and easy-to-use API including animation abilities that you can apply to the `tap` gesture (individually or even globally across your entire app for any wired tap gesture/event).
 
-To handle a `tap` event follow:
+Here are some example `tap` event bindings:
 
 <!-- /// flavor plain
 ```xml
