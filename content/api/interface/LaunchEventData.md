@@ -1,6 +1,13 @@
 ---
 title: LaunchEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'LaunchEventData'
 layout: api
 seo:
   description: "Event data containing information for launch event."
@@ -18,7 +25,9 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface LaunchEventData extends <a href="/api/interface/ApplicationEventData">ApplicationEventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface LaunchEventData extends <a href="/api/interface/EventData">EventData</a> {
+  android: Intent;
+  ios: any;
   root: <a href="/api/class/View">View</a>;
   savedInstanceState: any;
 }</pre>
@@ -33,7 +42,35 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="1073" v-once>
+<APIRef for="4685" v-once>
+
+<template #title>
+
+### android
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="4686" v-once>
+
+<template #title>
+
+### ios
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isOptional">
+
+<APIRef for="4683" v-once>
 
 <template #title>
 
@@ -47,7 +84,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="1074" v-once>
+<APIRef for="4684" v-once>
 
 <template #title>
 

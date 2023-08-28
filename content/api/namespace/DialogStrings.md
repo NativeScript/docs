@@ -1,9 +1,16 @@
 ---
 title: DialogStrings
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'DialogStrings'
 layout: api
 seo:
-  description: undefined
+  description: DialogStrings
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10061" v-once>
+<APIRef for="12917" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10064" v-once>
+<APIRef for="12920" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10060" v-once>
+<APIRef for="12916" v-once>
 
 <template #title>
 
@@ -68,7 +75,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10062" v-once>
+<APIRef for="12918" v-once>
 
 <template #title>
 
@@ -82,7 +89,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10063" v-once>
+<APIRef for="12919" v-once>
 
 <template #title>
 
@@ -96,7 +103,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10059" v-once>
+<APIRef for="12915" v-once>
 
 <template #title>
 
@@ -110,7 +117,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10058" v-once>
+<APIRef for="12914" v-once>
 
 <template #title>
 

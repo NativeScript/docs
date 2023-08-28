@@ -1,6 +1,13 @@
 ---
 title: ListPicker
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ListPicker'
 layout: api
 seo:
   description: "Represents an list picker."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="13550" v-once>
+<APIRef for="16660" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="13552" v-once>
+<APIRef for="16662" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="13553" v-once>
+<APIRef for="16663" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="13555" v-once>
+<APIRef for="16665" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="13554" v-once>
+<APIRef for="16664" v-once>
 
 <template #title>
 

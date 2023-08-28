@@ -1,9 +1,16 @@
 ---
 title: PageBase
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'PageBase'
 layout: api
 seo:
-  description: undefined
+  description: PageBase
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15723" v-once>
+<APIRef for="18990" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15725" v-once>
+<APIRef for="18994" v-once>
 
 <template #title>
 
@@ -56,11 +63,11 @@ seo:
 
 <div class="">
 
-<APIRef for="15731" v-once>
+<APIRef for="18999" v-once>
 
 <template #title>
 
-### actionBar
+### accessibilityAnnouncePageEnabled
 
 </template>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15726" v-once>
+<APIRef for="18995" v-once>
 
 <template #title>
 
@@ -84,21 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15733" v-once>
-
-<template #title>
-
-### androidStatusBarBackground
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="15728" v-once>
+<APIRef for="18997" v-once>
 
 <template #title>
 
@@ -112,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15727" v-once>
+<APIRef for="18996" v-once>
 
 <template #title>
 
@@ -124,23 +117,9 @@ seo:
 
 </div>
 
-<div class="isReadonly">
-
-<APIRef for="15742" v-once>
-
-<template #title>
-
-### frame
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="15729" v-once>
+<APIRef for="18998" v-once>
 
 <template #title>
 
@@ -152,51 +131,9 @@ seo:
 
 </div>
 
-<div class="isReadonly">
-
-<APIRef for="15730" v-once>
-
-<template #title>
-
-### navigationContext
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isReadonly">
-
-<APIRef for="15734" v-once>
-
-<template #title>
-
-### page
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="15732" v-once>
-
-<template #title>
-
-### statusBarStyle
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isStatic">
 
-<APIRef for="15658" v-once>
+<APIRef for="18910" v-once>
 
 <template #title>
 
@@ -210,7 +147,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="15656" v-once>
+<APIRef for="18908" v-once>
 
 <template #title>
 
@@ -224,7 +161,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="15657" v-once>
+<APIRef for="18909" v-once>
 
 <template #title>
 
@@ -238,7 +175,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="15655" v-once>
+<APIRef for="18907" v-once>
 
 <template #title>
 
@@ -250,11 +187,111 @@ seo:
 
 </div>
 
+## Accessors
+
+<div class="">
+
+<APIRef for="19046" v-once>
+
+<template #title>
+
+### _childrenCount
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="19002" v-once>
+
+<template #title>
+
+### actionBar
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="19010" v-once>
+
+<template #title>
+
+### androidStatusBarBackground
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="19023" v-once>
+
+<template #title>
+
+### frame
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="19000" v-once>
+
+<template #title>
+
+### navigationContext
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="19014" v-once>
+
+<template #title>
+
+### page
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="19006" v-once>
+
+<template #title>
+
+### statusBarStyle
+
+</template>
+
+</APIRef>
+
+</div>
+
 ## Methods
 
 <div class="">
 
-<APIRef for="15735" v-once>
+<APIRef for="19016" v-once>
 
 <template #title>
 
@@ -268,11 +305,11 @@ seo:
 
 <div class="">
 
-<APIRef for="15743" v-once>
+<APIRef for="19048" v-once>
 
 <template #title>
 
-### createNavigatedData
+### accessibilityScreenChanged
 
 </template>
 
@@ -282,7 +319,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15761" v-once>
+<APIRef for="19040" v-once>
 
 <template #title>
 
@@ -296,7 +333,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15739" v-once>
+<APIRef for="19020" v-once>
 
 <template #title>
 
@@ -310,7 +347,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15758" v-once>
+<APIRef for="19037" v-once>
 
 <template #title>
 
@@ -324,7 +361,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15752" v-once>
+<APIRef for="19031" v-once>
 
 <template #title>
 
@@ -338,7 +375,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15755" v-once>
+<APIRef for="19034" v-once>
 
 <template #title>
 
@@ -352,7 +389,7 @@ seo:
 
 <div class="">
 
-<APIRef for="15747" v-once>
+<APIRef for="19026" v-once>
 
 <template #title>
 

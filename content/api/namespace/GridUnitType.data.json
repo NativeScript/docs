@@ -5,21 +5,21 @@
     {
       "title": "Variables",
       "items": [
-        32576,
-        32574,
-        32575
+        37624,
+        37622,
+        37623
       ]
     },
     {
       "title": "Functions",
       "items": [
-        32568,
-        32571
+        37616,
+        37619
       ]
     }
   ],
   "reflections": {
-    "32568": {
+    "37616": {
       "name": "isValid",
       "type": "Function",
       "url": "/api/namespace/GridUnitType#isvalid",
@@ -27,7 +27,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isValid(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isValid</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/GridUnitType#isvalid-isvalid-1",
           "sources": [
             {
@@ -47,7 +47,7 @@
         }
       ]
     },
-    "32571": {
+    "37619": {
       "name": "parse",
       "type": "Function",
       "url": "/api/namespace/GridUnitType#parse",
@@ -75,7 +75,7 @@
         }
       ]
     },
-    "32574": {
+    "37622": {
       "name": "PIXEL",
       "type": "Variable",
       "url": "/api/namespace/GridUnitType#pixel",
@@ -84,7 +84,7 @@
       },
       "signatures": [
         {
-          "code": "PIXEL: \"pixel\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PIXEL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;pixel&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -96,7 +96,7 @@
         }
       ]
     },
-    "32575": {
+    "37623": {
       "name": "STAR",
       "type": "Variable",
       "url": "/api/namespace/GridUnitType#star",
@@ -105,7 +105,7 @@
       },
       "signatures": [
         {
-          "code": "STAR: \"star\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">STAR</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;star&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -117,7 +117,7 @@
         }
       ]
     },
-    "32576": {
+    "37624": {
       "name": "AUTO",
       "type": "Variable",
       "url": "/api/namespace/GridUnitType#auto",
@@ -126,7 +126,7 @@
       },
       "signatures": [
         {
-          "code": "AUTO: \"auto\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AUTO</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;auto&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",

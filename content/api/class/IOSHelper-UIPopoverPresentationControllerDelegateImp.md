@@ -1,9 +1,18 @@
 ---
 title: IOSHelper.UIPopoverPresentationControllerDelegateImp
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'IOSHelper'
+    href: '/api/namespace/IOSHelper'
+  - name: 'UIPopoverPresentationControllerDelegateImp'
 layout: api
 seo:
-  description: undefined
+  description: IOSHelper.UIPopoverPresentationControllerDelegateImp
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8334" v-once>
+<APIRef for="11084" v-once>
 
 <template #title>
 
@@ -42,7 +51,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="8330" v-once>
+<APIRef for="11080" v-once>
 
 <template #title>
 

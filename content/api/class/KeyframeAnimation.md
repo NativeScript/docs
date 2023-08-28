@@ -1,9 +1,16 @@
 ---
 title: KeyframeAnimation
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'KeyframeAnimation'
 layout: api
 seo:
-  description: undefined
+  description: KeyframeAnimation
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4979" v-once>
+<APIRef for="7442" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4981" v-once>
+<APIRef for="7444" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="4989" v-once>
+<APIRef for="7452" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4982" v-once>
+<APIRef for="7445" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4984" v-once>
+<APIRef for="7447" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4983" v-once>
+<APIRef for="7446" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="4985" v-once>
+<APIRef for="7448" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="4976" v-once>
+<APIRef for="7439" v-once>
 
 <template #title>
 

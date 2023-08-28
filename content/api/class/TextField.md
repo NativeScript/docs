@@ -1,6 +1,13 @@
 ---
 title: TextField
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'TextField'
 layout: api
 seo:
   description: "Represents an editable text field."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="25916" v-once>
+<APIRef for="30060" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="25918" v-once>
+<APIRef for="30062" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="25921" v-once>
+<APIRef for="30065" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="25919" v-once>
+<APIRef for="30063" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="25920" v-once>
+<APIRef for="30064" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="25922" v-once>
+<APIRef for="30066" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="25848" v-once>
+<APIRef for="29977" v-once>
 
 <template #title>
 
@@ -130,7 +137,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="25923" v-once>
+<APIRef for="30067" v-once>
 
 <template #title>
 

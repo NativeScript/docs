@@ -1,5 +1,8 @@
 ---
 title: package.json
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 The `package.json` contains a list of dependencies, scripts and the entry point to your app (in the `main` field). [Learn more on the NPM docs](https://docs.npmjs.com/cli/v9/configuring-npm/package-json)

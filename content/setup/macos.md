@@ -2,13 +2,15 @@
 title: Setting up macOS for NativeScript
 prev: /setup
 next: /creating-a-new-project
+contributors:
+  - rigor789
 ---
 
 ## Setting up macOS for Android
 
 You will need Node, NativeScript CLI (command line interface), Android Studio and a JDK (java development kit).
 
-**Android Studio** is not strictly necessary &mdash; however it provides an easy to use interface for installing and managing the Android SDKs.
+**Android Studio** is not strictly necessary &mdash; however it provides an easy-to-use interface for installing and managing the Android SDKs.
 
 We recommend using [Homebrew](https://brew.sh/) to install the required dependencies &mdash; a popular package manager for macOS.
 
@@ -45,7 +47,7 @@ brew tap homebrew/cask-versions
 brew install --cask temurin11
 ```
 
-Once installed, open a new Terminal and verify that the default version is the one we just installed:
+Once installed, open a new Terminal and verify that the default version is the one we installed:
 
 ```cli
 javac --version

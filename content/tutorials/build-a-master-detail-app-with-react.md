@@ -2,6 +2,12 @@
 title: Build a master-detail app with React
 category: Tutorials
 categoryLink: /tutorials/
+prev: false
+next: false
+contributors:
+  - williamjuan027
+  - Leon0824
+  - winescout
 ---
 
 This tutorial introduces you to the fundamentals of using NativeScript with React by walking you through building an example app with some basic functionalities.
@@ -30,7 +36,7 @@ To set up your development environment, follow the instructions in the [Environm
 
 ## Create a new NativeScript application
 
-We will be using Typescript for this tutorial. To create a new NativeScript Typescript application, run the CLI command `ns create` with the name of the application followed by `--react`.
+We will be using TypeScript for this tutorial. To create a new NativeScript TypeScript application, run the CLI command `ns create` with the name of the application followed by `--react`.
 
 ```cli
 ns create example-app --react
@@ -56,7 +62,7 @@ The `ns run` command builds the app and launches the app on a connected Android 
 
 ## Folder structure
 
-Based on the Typescript starter app, we will be creating the following file/folder structure for our application.
+Based on the TypeScript starter app, we will be creating the following file/folder structure for our application.
 
 ```
 src
@@ -274,7 +280,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 ![Home page layout breakdown](/assets/images/tutorial/tutorial-example-app-master-breakdown.png)
 
-The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `Navigator.tsx` and add the following code:
+The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `Navigator.tsx` and add the following code:
 
 ```tsx{17-19,24-26}
 // src/components/Navigator.tsx
@@ -647,7 +653,7 @@ export function HomeScreen({ navigation }: HomeScreenProps) {
 }
 ```
 
-Next, let's add the tap event to the listview items. Open `HomeScreen.tsx` and add the following:
+Next, let's add the tap event to the ListView items. Open `HomeScreen.tsx` and add the following:
 
 ```tsx{66}
 // src/components/HomeScreen.tsx
@@ -760,7 +766,7 @@ Let's break down the layout and UI elements of the details page.
 
 ![Details page layout breakdown](/assets/images/tutorial/tutorial-example-app-details-breakdown.png)
 
-The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Javascript's array `map` operator to loop through the `details` array and create a UI element or set of elements for each entry in the array. Open `DetailsScreen.tsx` and add the following code:
+The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Javascript's array `map` operator to loop through the `details` array and create a UI element or set of elements for each entry in the array. Open `DetailsScreen.tsx` and add the following code:
 
 ```tsx{20-44}
 // src/components/DetailsScreen.tsx

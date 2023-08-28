@@ -1,6 +1,13 @@
 ---
 title: File
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'File'
 layout: api
 seo:
   description: "Represents a File entity on the file system."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1934" v-once>
+<APIRef for="1745" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1936" v-once>
+<APIRef for="1747" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1938" v-once>
+<APIRef for="1749" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1937" v-once>
+<APIRef for="1748" v-once>
 
 <template #title>
 
@@ -84,11 +91,123 @@ seo:
 
 </div>
 
+<div class="isStatic isReadonly">
+
+<APIRef for="1736" v-once>
+
+<template #title>
+
+### android
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="1737" v-once>
+
+<template #title>
+
+### ios
+
+</template>
+
+</APIRef>
+
+</div>
+
 ## Methods
 
 <div class="">
 
-<APIRef for="1949" v-once>
+<APIRef for="1762" v-once>
+
+<template #title>
+
+### append
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="1765" v-once>
+
+<template #title>
+
+### appendSync
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="1750" v-once>
+
+<template #title>
+
+### appendText
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="1754" v-once>
+
+<template #title>
+
+### appendTextSync
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="1772" v-once>
+
+<template #title>
+
+### copy
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="1775" v-once>
+
+<template #title>
+
+### copySync
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="1792" v-once>
 
 <template #title>
 
@@ -102,7 +221,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1951" v-once>
+<APIRef for="1794" v-once>
 
 <template #title>
 
@@ -116,7 +235,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1939" v-once>
+<APIRef for="1782" v-once>
 
 <template #title>
 
@@ -130,7 +249,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1942" v-once>
+<APIRef for="1785" v-once>
 
 <template #title>
 
@@ -144,7 +263,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1969" v-once>
+<APIRef for="1812" v-once>
 
 <template #title>
 
@@ -158,7 +277,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1972" v-once>
+<APIRef for="1815" v-once>
 
 <template #title>
 
@@ -172,7 +291,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1957" v-once>
+<APIRef for="1800" v-once>
 
 <template #title>
 
@@ -186,7 +305,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1961" v-once>
+<APIRef for="1804" v-once>
 
 <template #title>
 
@@ -200,7 +319,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1928" v-once>
+<APIRef for="1738" v-once>
 
 <template #title>
 
@@ -214,7 +333,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1931" v-once>
+<APIRef for="1741" v-once>
 
 <template #title>
 

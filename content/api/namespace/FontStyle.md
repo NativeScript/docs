@@ -1,9 +1,16 @@
 ---
 title: FontStyle
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'FontStyle'
 layout: api
 seo:
-  description: undefined
+  description: FontStyle
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22487" v-once>
+<APIRef for="26289" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22486" v-once>
+<APIRef for="26288" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22480" v-once>
+<APIRef for="26282" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22483" v-once>
+<APIRef for="26285" v-once>
 
 <template #title>
 

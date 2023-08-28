@@ -1,6 +1,13 @@
 ---
 title: StackLayout
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'StackLayout'
 layout: api
 seo:
   description: "A Layout that arranges its children horizontally or vertically. The direction can be set by orientation property."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="33503" v-once>
+<APIRef for="38619" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="33505" v-once>
+<APIRef for="38621" v-once>
 
 <template #title>
 

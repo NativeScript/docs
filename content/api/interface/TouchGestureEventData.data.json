@@ -17,28 +17,28 @@
     {
       "title": "Properties",
       "items": [
-        11206,
-        11220,
-        11221,
-        11219,
-        11222,
-        11217,
-        11218
+        14120,
+        14134,
+        14135,
+        14133,
+        14136,
+        14131,
+        14132
       ]
     },
     {
       "title": "Methods",
       "items": [
-        11207,
-        11209,
-        11211,
-        11213,
-        11215
+        14121,
+        14123,
+        14125,
+        14127,
+        14129
       ]
     }
   ],
   "reflections": {
-    "11206": {
+    "14120": {
       "name": "action",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#action",
@@ -53,7 +53,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "action: \"up\" | \"move\" | \"down\" | \"cancel\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">action</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;up&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;move&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;down&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;cancel&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -73,7 +73,7 @@
         }
       ]
     },
-    "11207": {
+    "14121": {
       "name": "getActivePointers",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getactivepointers",
@@ -81,7 +81,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getActivePointers(): Pointer[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getActivePointers</span><span style=\"color: #E1E4E8\">(): Pointer[]</span></span></code>",
           "url": "/api/interface/TouchGestureEventData#getactivepointers-getactivepointers-1",
           "sources": [
             {
@@ -103,7 +103,7 @@
         }
       ]
     },
-    "11209": {
+    "14123": {
       "name": "getAllPointers",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getallpointers",
@@ -111,7 +111,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getAllPointers(): Pointer[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getAllPointers</span><span style=\"color: #E1E4E8\">(): Pointer[]</span></span></code>",
           "url": "/api/interface/TouchGestureEventData#getallpointers-getallpointers-1",
           "sources": [
             {
@@ -133,7 +133,7 @@
         }
       ]
     },
-    "11211": {
+    "14125": {
       "name": "getPointerCount",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getpointercount",
@@ -147,7 +147,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getPointerCount(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPointerCount</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/interface/TouchGestureEventData#getpointercount-getpointercount-1",
           "sources": [
             {
@@ -175,7 +175,7 @@
         }
       ]
     },
-    "11213": {
+    "14127": {
       "name": "getX",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#getx",
@@ -189,7 +189,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getX(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getX</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/interface/TouchGestureEventData#getx-getx-1",
           "sources": [
             {
@@ -217,7 +217,7 @@
         }
       ]
     },
-    "11215": {
+    "14129": {
       "name": "getY",
       "type": "Method",
       "url": "/api/interface/TouchGestureEventData#gety",
@@ -231,7 +231,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getY(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getY</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/interface/TouchGestureEventData#gety-gety-1",
           "sources": [
             {
@@ -259,7 +259,7 @@
         }
       ]
     },
-    "11217": {
+    "14131": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#type",
@@ -306,7 +306,7 @@
         }
       ]
     },
-    "11218": {
+    "14132": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#view",
@@ -327,7 +327,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -353,7 +353,7 @@
         }
       ]
     },
-    "11219": {
+    "14133": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#ios",
@@ -374,7 +374,7 @@
       },
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -400,7 +400,7 @@
         }
       ]
     },
-    "11220": {
+    "14134": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#android",
@@ -421,7 +421,7 @@
       },
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -447,7 +447,7 @@
         }
       ]
     },
-    "11221": {
+    "14135": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#eventname",
@@ -468,12 +468,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -494,7 +494,7 @@
         }
       ]
     },
-    "11222": {
+    "14136": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/TouchGestureEventData#object",
@@ -519,8 +519,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

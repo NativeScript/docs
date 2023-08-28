@@ -1,6 +1,15 @@
 ---
 title: Trace.ConsoleWriter
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Trace'
+    href: '/api/namespace/Trace'
+  - name: 'ConsoleWriter'
 layout: api
 seo:
   description: "An interface used to define a writer used by trace to print (log)."
@@ -28,7 +37,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2900" v-once>
+<APIRef for="5153" v-once>
 
 <template #title>
 
@@ -44,7 +53,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="2902" v-once>
+<APIRef for="5155" v-once>
 
 <template #title>
 

@@ -1,5 +1,7 @@
 ---
 title: The Fonts folder
+contributors:
+  - rigor789
 ---
 
 A folder for storing custom fonts. Any `.ttf` files placed here are automatically picked up by NativeScript.

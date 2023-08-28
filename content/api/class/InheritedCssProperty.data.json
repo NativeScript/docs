@@ -17,38 +17,38 @@
     {
       "title": "Constructors",
       "items": [
-        9229
+        12032
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9244,
-        9243,
-        9245,
-        9253,
-        9252,
-        9249,
-        9247,
-        9248,
-        9246,
-        9242,
-        9238,
-        9234,
-        9250,
-        9251
+        12043,
+        12042,
+        12044,
+        12052,
+        12051,
+        12048,
+        12046,
+        12047,
+        12045,
+        12041,
+        12053,
+        12037,
+        12049,
+        12050
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9259,
-        9254
+        12062,
+        12057
       ]
     }
   ],
   "reflections": {
-    "9229": {
+    "12032": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/InheritedCssProperty#constructor",
@@ -61,7 +61,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 120,
+              "line": 119,
               "character": 4
             }
           ],
@@ -76,14 +76,14 @@
         }
       ]
     },
-    "9234": {
+    "12037": {
       "name": "setInheritedValue",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#setinheritedvalue",
       "flags": {},
       "signatures": [
         {
-          "code": "setInheritedValue: (value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInheritedValue</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -95,26 +95,7 @@
         }
       ]
     },
-    "9238": {
-      "name": "overrideHandlers",
-      "type": "Property",
-      "url": "/api/class/InheritedCssProperty#overridehandlers",
-      "flags": {},
-      "signatures": [
-        {
-          "code": "overrideHandlers: (options: CssPropertyOptions&lt;T, U&gt;) => void",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 119,
-              "character": 4
-            }
-          ],
-          "url": "/api/class/InheritedCssProperty#overridehandlers"
-        }
-      ]
-    },
-    "9242": {
+    "12041": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#name",
@@ -126,7 +107,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -141,7 +122,7 @@
         }
       ]
     },
-    "9243": {
+    "12042": {
       "name": "cssName",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#cssname",
@@ -153,7 +134,7 @@
       },
       "signatures": [
         {
-          "code": "cssName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -168,7 +149,7 @@
         }
       ]
     },
-    "9244": {
+    "12043": {
       "name": "cssLocalName",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#csslocalname",
@@ -180,7 +161,7 @@
       },
       "signatures": [
         {
-          "code": "cssLocalName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssLocalName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -195,7 +176,7 @@
         }
       ]
     },
-    "9245": {
+    "12044": {
       "name": "cssValueDescriptor",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#cssvaluedescriptor",
@@ -208,7 +189,7 @@
       },
       "signatures": [
         {
-          "code": "cssValueDescriptor: PropertyDescriptor",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -223,7 +204,7 @@
         }
       ]
     },
-    "9246": {
+    "12045": {
       "name": "localValueDescriptor",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#localvaluedescriptor",
@@ -236,7 +217,7 @@
       },
       "signatures": [
         {
-          "code": "localValueDescriptor: PropertyDescriptor",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">localValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -251,7 +232,7 @@
         }
       ]
     },
-    "9247": {
+    "12046": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#isstyleproperty",
@@ -261,7 +242,7 @@
       },
       "signatures": [
         {
-          "code": "isStyleProperty: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isStyleProperty</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -276,7 +257,7 @@
         }
       ]
     },
-    "9248": {
+    "12047": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#key",
@@ -288,7 +269,7 @@
       },
       "signatures": [
         {
-          "code": "key: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -303,7 +284,7 @@
         }
       ]
     },
-    "9249": {
+    "12048": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#getdefault",
@@ -315,7 +296,7 @@
       },
       "signatures": [
         {
-          "code": "getDefault: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDefault</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -330,7 +311,7 @@
         }
       ]
     },
-    "9250": {
+    "12049": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#setnative",
@@ -342,7 +323,7 @@
       },
       "signatures": [
         {
-          "code": "setNative: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNative</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -357,7 +338,7 @@
         }
       ]
     },
-    "9251": {
+    "12050": {
       "name": "sourceKey",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#sourcekey",
@@ -369,7 +350,7 @@
       },
       "signatures": [
         {
-          "code": "sourceKey: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sourceKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -384,7 +365,7 @@
         }
       ]
     },
-    "9252": {
+    "12051": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#defaultvaluekey",
@@ -396,7 +377,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValueKey: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValueKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -411,7 +392,7 @@
         }
       ]
     },
-    "9253": {
+    "12052": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/InheritedCssProperty#defaultvalue",
@@ -423,7 +404,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValue: U",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValue</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">U</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -438,7 +419,32 @@
         }
       ]
     },
-    "9254": {
+    "12053": {
+      "name": "overrideHandlers",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#overridehandlers",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">overrideHandlers</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">options</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">CssPropertyOptions</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">U</span><span style=\"color: #E1E4E8\">&amp;</span><span style=\"color: #FFAB70\">gt</span><span style=\"color: #E1E4E8\">;) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 87,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#overridehandlers"
+        }
+      ]
+    },
+    "12057": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/InheritedCssProperty#register",
@@ -449,7 +455,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "register(cls: {}): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">register</span><span style=\"color: #E1E4E8\">(cls: {}): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/InheritedCssProperty#register-register-1",
           "sources": [
             {
@@ -472,7 +478,7 @@
         }
       ]
     },
-    "9259": {
+    "12062": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/InheritedCssProperty#isset",
@@ -483,7 +489,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isSet(instance: T): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isSet</span><span style=\"color: #E1E4E8\">(instance: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">): boolean</span></span></code>",
           "url": "/api/class/InheritedCssProperty#isset-isset-1",
           "sources": [
             {

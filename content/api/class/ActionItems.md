@@ -1,6 +1,13 @@
 ---
 title: ActionItems
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ActionItems'
 layout: api
 seo:
   description: "Represents a collection of ActionItems."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3937" v-once>
+<APIRef for="6295" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3939" v-once>
+<APIRef for="6297" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3947" v-once>
+<APIRef for="6305" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3945" v-once>
+<APIRef for="6303" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3942" v-once>
+<APIRef for="6300" v-once>
 
 <template #title>
 

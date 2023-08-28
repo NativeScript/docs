@@ -1,6 +1,13 @@
 ---
 title: AlertOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'AlertOptions'
 layout: api
 seo:
   description: "Provides options for the alert."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface AlertOptions extends <a href="/api/interface/DialogOptions">DialogOptions</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface AlertOptions extends <a href="/api/interface/DialogOptions">DialogOptions</a> {
   okButtonText: string;
 }</pre>
 
@@ -32,7 +39,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10131" v-once>
+<APIRef for="12987" v-once>
 
 <template #title>
 

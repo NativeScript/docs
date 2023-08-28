@@ -5,15 +5,15 @@
     {
       "title": "Functions",
       "items": [
-        35690,
-        35681,
-        35678,
-        35685
+        40950,
+        40941,
+        40938,
+        40945
       ]
     }
   ],
   "reflections": {
-    "35678": {
+    "40938": {
       "name": "parse",
       "type": "Function",
       "url": "/api/namespace/PercentLength#parse",
@@ -41,7 +41,7 @@
         }
       ]
     },
-    "35681": {
+    "40941": {
       "name": "equals",
       "type": "Function",
       "url": "/api/namespace/PercentLength#equals",
@@ -74,7 +74,7 @@
         }
       ]
     },
-    "35685": {
+    "40945": {
       "name": "toDevicePixels",
       "type": "Function",
       "url": "/api/namespace/PercentLength#todevicepixels",
@@ -148,7 +148,7 @@
         }
       ]
     },
-    "35690": {
+    "40950": {
       "name": "convertToString",
       "type": "Function",
       "url": "/api/namespace/PercentLength#converttostring",

@@ -1,6 +1,9 @@
 ---
 title: AbsoluteLayout
 description: A simple layout container for positioning elements at top/left coordinates.
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 The `<AbsoluteLayout>` container is the simplest layout container in NativeScript.
@@ -56,7 +59,7 @@ The following example creates a simple grid.
 
 ::: warning Note
 
-This example shows building a grid-like layout, however this mainly serves as an example to illustrate how `<AbsoluteLayout>` works. In most cases building this type of UI will be better served by using a [GridLayout](/ui/grid-layout).
+This example shows building a grid-like layout, this mainly serves as an example to illustrate how `<AbsoluteLayout>` works. In most cases building this UI will be better served by using a [GridLayout](/ui/grid-layout).
 
 :::
 

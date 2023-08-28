@@ -11,14 +11,14 @@
     {
       "title": "Properties",
       "items": [
-        2135,
-        2134,
-        2133
+        1991,
+        1990,
+        1989
       ]
     }
   ],
   "reflections": {
-    "2133": {
+    "1989": {
       "name": "statusCode",
       "type": "Property",
       "url": "/api/interface/HttpResponse#statuscode",
@@ -33,7 +33,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "statusCode: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">statusCode</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -53,7 +53,7 @@
         }
       ]
     },
-    "2134": {
+    "1990": {
       "name": "headers",
       "type": "Property",
       "url": "/api/interface/HttpResponse#headers",
@@ -88,7 +88,7 @@
         }
       ]
     },
-    "2135": {
+    "1991": {
       "name": "content",
       "type": "Property",
       "url": "/api/interface/HttpResponse#content",

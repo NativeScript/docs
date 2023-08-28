@@ -1,9 +1,16 @@
 ---
 title: Background
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Background'
 layout: api
 seo:
-  description: undefined
+  description: Background
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22317" v-once>
+<APIRef for="26115" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22326" v-once>
+<APIRef for="26124" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22334" v-once>
+<APIRef for="26132" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22335" v-once>
+<APIRef for="26133" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22330" v-once>
+<APIRef for="26128" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22327" v-once>
+<APIRef for="26125" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22331" v-once>
+<APIRef for="26129" v-once>
 
 <template #title>
 
@@ -126,7 +133,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22325" v-once>
+<APIRef for="26123" v-once>
 
 <template #title>
 
@@ -140,7 +147,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22329" v-once>
+<APIRef for="26127" v-once>
 
 <template #title>
 
@@ -154,7 +161,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22324" v-once>
+<APIRef for="26122" v-once>
 
 <template #title>
 
@@ -168,7 +175,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22332" v-once>
+<APIRef for="26130" v-once>
 
 <template #title>
 
@@ -182,7 +189,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22333" v-once>
+<APIRef for="26131" v-once>
 
 <template #title>
 
@@ -196,7 +203,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22328" v-once>
+<APIRef for="26126" v-once>
 
 <template #title>
 
@@ -210,7 +217,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22337" v-once>
+<APIRef for="26135" v-once>
 
 <template #title>
 
@@ -224,7 +231,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22338" v-once>
+<APIRef for="26136" v-once>
 
 <template #title>
 
@@ -238,7 +245,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22336" v-once>
+<APIRef for="26134" v-once>
 
 <template #title>
 
@@ -250,23 +257,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="22339" v-once>
-
-<template #title>
-
-### clone
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="22319" v-once>
+<APIRef for="26117" v-once>
 
 <template #title>
 
@@ -280,7 +273,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22320" v-once>
+<APIRef for="26118" v-once>
 
 <template #title>
 
@@ -294,7 +287,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22322" v-once>
+<APIRef for="26120" v-once>
 
 <template #title>
 
@@ -308,7 +301,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22321" v-once>
+<APIRef for="26119" v-once>
 
 <template #title>
 
@@ -322,7 +315,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22323" v-once>
+<APIRef for="26121" v-once>
 
 <template #title>
 
@@ -336,7 +329,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="22312" v-once>
+<APIRef for="26110" v-once>
 
 <template #title>
 
@@ -352,7 +345,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22421" v-once>
+<APIRef for="26219" v-once>
 
 <template #title>
 
@@ -366,7 +359,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22413" v-once>
+<APIRef for="26211" v-once>
 
 <template #title>
 
@@ -380,7 +373,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22417" v-once>
+<APIRef for="26215" v-once>
 
 <template #title>
 
@@ -394,7 +387,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22415" v-once>
+<APIRef for="26213" v-once>
 
 <template #title>
 
@@ -408,7 +401,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22399" v-once>
+<APIRef for="26197" v-once>
 
 <template #title>
 
@@ -422,7 +415,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22403" v-once>
+<APIRef for="26201" v-once>
 
 <template #title>
 
@@ -436,7 +429,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22401" v-once>
+<APIRef for="26199" v-once>
 
 <template #title>
 
@@ -450,7 +443,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22419" v-once>
+<APIRef for="26217" v-once>
 
 <template #title>
 
@@ -464,7 +457,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22411" v-once>
+<APIRef for="26209" v-once>
 
 <template #title>
 
@@ -478,7 +471,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22405" v-once>
+<APIRef for="26203" v-once>
 
 <template #title>
 
@@ -492,7 +485,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22409" v-once>
+<APIRef for="26207" v-once>
 
 <template #title>
 
@@ -506,7 +499,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22407" v-once>
+<APIRef for="26205" v-once>
 
 <template #title>
 
@@ -520,7 +513,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22397" v-once>
+<APIRef for="26195" v-once>
 
 <template #title>
 
@@ -534,7 +527,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22423" v-once>
+<APIRef for="26221" v-once>
 
 <template #title>
 
@@ -548,7 +541,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22361" v-once>
+<APIRef for="26159" v-once>
 
 <template #title>
 
@@ -562,7 +555,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22388" v-once>
+<APIRef for="26186" v-once>
 
 <template #title>
 
@@ -576,7 +569,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22385" v-once>
+<APIRef for="26183" v-once>
 
 <template #title>
 
@@ -590,7 +583,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22373" v-once>
+<APIRef for="26171" v-once>
 
 <template #title>
 
@@ -604,7 +597,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22364" v-once>
+<APIRef for="26162" v-once>
 
 <template #title>
 
@@ -618,7 +611,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22376" v-once>
+<APIRef for="26174" v-once>
 
 <template #title>
 
@@ -632,7 +625,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22358" v-once>
+<APIRef for="26156" v-once>
 
 <template #title>
 
@@ -646,7 +639,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22370" v-once>
+<APIRef for="26168" v-once>
 
 <template #title>
 
@@ -660,7 +653,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22355" v-once>
+<APIRef for="26153" v-once>
 
 <template #title>
 
@@ -674,7 +667,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22379" v-once>
+<APIRef for="26177" v-once>
 
 <template #title>
 
@@ -688,7 +681,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22382" v-once>
+<APIRef for="26180" v-once>
 
 <template #title>
 
@@ -702,7 +695,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22367" v-once>
+<APIRef for="26165" v-once>
 
 <template #title>
 
@@ -716,7 +709,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22394" v-once>
+<APIRef for="26192" v-once>
 
 <template #title>
 
@@ -730,7 +723,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22391" v-once>
+<APIRef for="26189" v-once>
 
 <template #title>
 
@@ -744,7 +737,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22340" v-once>
+<APIRef for="26138" v-once>
 
 <template #title>
 
@@ -758,7 +751,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22343" v-once>
+<APIRef for="26141" v-once>
 
 <template #title>
 
@@ -772,7 +765,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22349" v-once>
+<APIRef for="26147" v-once>
 
 <template #title>
 
@@ -786,7 +779,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22346" v-once>
+<APIRef for="26144" v-once>
 
 <template #title>
 
@@ -800,7 +793,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22352" v-once>
+<APIRef for="26150" v-once>
 
 <template #title>
 
@@ -814,7 +807,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="22313" v-once>
+<APIRef for="26111" v-once>
 
 <template #title>
 

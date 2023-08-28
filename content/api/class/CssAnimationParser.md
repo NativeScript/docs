@@ -1,9 +1,16 @@
 ---
 title: CssAnimationParser
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'CssAnimationParser'
 layout: api
 seo:
-  description: undefined
+  description: CssAnimationParser
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22769" v-once>
+<APIRef for="26594" v-once>
 
 <template #title>
 
@@ -40,9 +47,9 @@ seo:
 
 ## Methods
 
-<div class="isPublic isStatic">
+<div class="isStatic">
 
-<APIRef for="22763" v-once>
+<APIRef for="26588" v-once>
 
 <template #title>
 
@@ -54,9 +61,9 @@ seo:
 
 </div>
 
-<div class="isPublic isStatic">
+<div class="isStatic">
 
-<APIRef for="22766" v-once>
+<APIRef for="26591" v-once>
 
 <template #title>
 

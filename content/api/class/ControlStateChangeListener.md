@@ -1,6 +1,13 @@
 ---
 title: ControlStateChangeListener
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ControlStateChangeListener'
 layout: api
 seo:
   description: "An utility class used for supporting styling infrastructure.\nWARNING: This class is intended for IOS only."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="6501" v-once>
+<APIRef for="9067" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="6508" v-once>
+<APIRef for="9074" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="6510" v-once>
+<APIRef for="9076" v-once>
 
 <template #title>
 

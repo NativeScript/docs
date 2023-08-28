@@ -5,19 +5,19 @@
     {
       "title": "Variables",
       "items": [
-        2122
+        1965
       ]
     },
     {
       "title": "Functions",
       "items": [
-        2119,
-        2116
+        1962,
+        1959
       ]
     }
   ],
   "reflections": {
-    "2116": {
+    "1959": {
       "name": "normalize",
       "type": "Function",
       "url": "/api/namespace/path#normalize",
@@ -25,12 +25,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "normalize(path: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normalize</span><span style=\"color: #E1E4E8\">(path: string): string</span></span></code>",
           "url": "/api/namespace/path#normalize-normalize-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 292,
+              "line": 368,
               "character": 1
             }
           ],
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "2119": {
+    "1962": {
       "name": "join",
       "type": "Function",
       "url": "/api/namespace/path#join",
@@ -69,12 +69,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "join(...paths: string[]): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">join</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">paths: string[]): string</span></span></code>",
           "url": "/api/namespace/path#join-join-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 298,
+              "line": 374,
               "character": 1
             }
           ],
@@ -107,7 +107,7 @@
         }
       ]
     },
-    "2122": {
+    "1965": {
       "name": "separator",
       "type": "Variable",
       "url": "/api/namespace/path#separator",
@@ -124,11 +124,11 @@
       },
       "signatures": [
         {
-          "code": "separator: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">separator</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 303,
+              "line": 379,
               "character": 14
             }
           ],

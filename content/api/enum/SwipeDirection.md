@@ -1,6 +1,13 @@
 ---
 title: SwipeDirection
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'SwipeDirection'
 layout: api
 seo:
   description: "Defines an enum for swipe gesture direction."
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11111" v-once>
+<APIRef for="14025" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11109" v-once>
+<APIRef for="14023" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11108" v-once>
+<APIRef for="14022" v-once>
 
 <template #title>
 
@@ -68,7 +75,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11110" v-once>
+<APIRef for="14024" v-once>
 
 <template #title>
 

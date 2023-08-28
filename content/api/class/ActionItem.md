@@ -1,6 +1,13 @@
 ---
 title: ActionItem
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ActionItem'
 layout: api
 seo:
   description: "Represents an action item in the action bar."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3648" v-once>
+<APIRef for="5969" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3654" v-once>
+<APIRef for="5975" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3652" v-once>
+<APIRef for="5973" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3671" v-once>
+<APIRef for="5992" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3651" v-once>
+<APIRef for="5972" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3670" v-once>
+<APIRef for="5991" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3650" v-once>
+<APIRef for="5971" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="3653" v-once>
+<APIRef for="5974" v-once>
 
 <template #title>
 
@@ -142,23 +149,9 @@ seo:
 
 ## Methods
 
-<div class="isPrivate">
-
-<APIRef for="3668" v-once>
-
-<template #title>
-
-### _raiseTap
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="3655" v-once>
+<APIRef for="5976" v-once>
 
 <template #title>
 

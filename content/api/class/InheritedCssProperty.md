@@ -1,9 +1,16 @@
 ---
 title: InheritedCssProperty
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'InheritedCssProperty'
 layout: api
 seo:
-  description: undefined
+  description: InheritedCssProperty
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9229" v-once>
+<APIRef for="12032" v-once>
 
 <template #title>
 
@@ -42,21 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9238" v-once>
-
-<template #title>
-
-### overrideHandlers
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="9234" v-once>
+<APIRef for="12037" v-once>
 
 <template #title>
 

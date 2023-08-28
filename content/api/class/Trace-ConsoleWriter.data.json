@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        2900
+        5153
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2902
+        5155
       ]
     }
   ],
   "reflections": {
-    "2900": {
+    "5153": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Trace-ConsoleWriter#constructor",
@@ -37,7 +37,7 @@
         }
       ]
     },
-    "2902": {
+    "5155": {
       "name": "write",
       "type": "Method",
       "url": "/api/class/Trace-ConsoleWriter#write",
@@ -47,7 +47,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "write(message: any, category: string, type?: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">write</span><span style=\"color: #E1E4E8\">(message: any, category: string, type</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Trace-ConsoleWriter#write-write-1",
           "sources": [
             {

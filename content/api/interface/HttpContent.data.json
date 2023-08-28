@@ -11,17 +11,17 @@
     {
       "title": "Properties",
       "items": [
-        2144,
-        2145,
-        2159,
-        2156,
-        2152,
-        2148
+        2000,
+        2001,
+        2015,
+        2012,
+        2008,
+        2004
       ]
     }
   ],
   "reflections": {
-    "2144": {
+    "2000": {
       "name": "raw",
       "type": "Property",
       "url": "/api/interface/HttpContent#raw",
@@ -36,7 +36,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "raw: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">raw</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -56,14 +56,14 @@
         }
       ]
     },
-    "2145": {
+    "2001": {
       "name": "toArrayBuffer",
       "type": "Property",
       "url": "/api/interface/HttpContent#toarraybuffer",
       "flags": {},
       "signatures": [
         {
-          "code": "toArrayBuffer: () => ArrayBuffer",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toArrayBuffer</span><span style=\"color: #E1E4E8\">: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> ArrayBuffer</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -75,7 +75,7 @@
         }
       ]
     },
-    "2148": {
+    "2004": {
       "name": "toString",
       "type": "Property",
       "url": "/api/interface/HttpContent#tostring",
@@ -94,7 +94,7 @@
         }
       ]
     },
-    "2152": {
+    "2008": {
       "name": "toJSON",
       "type": "Property",
       "url": "/api/interface/HttpContent#tojson",
@@ -113,7 +113,7 @@
         }
       ]
     },
-    "2156": {
+    "2012": {
       "name": "toImage",
       "type": "Property",
       "url": "/api/interface/HttpContent#toimage",
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "2159": {
+    "2015": {
       "name": "toFile",
       "type": "Property",
       "url": "/api/interface/HttpContent#tofile",

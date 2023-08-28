@@ -11,15 +11,15 @@
     {
       "title": "Properties",
       "items": [
-        2291,
-        2289,
-        2290,
-        2288
+        2189,
+        2187,
+        2188,
+        2186
       ]
     }
   ],
   "reflections": {
-    "2288": {
+    "2186": {
       "name": "width",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#width",
@@ -28,7 +28,7 @@
       },
       "signatures": [
         {
-          "code": "width?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">width</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -40,7 +40,7 @@
         }
       ]
     },
-    "2289": {
+    "2187": {
       "name": "height",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#height",
@@ -49,7 +49,7 @@
       },
       "signatures": [
         {
-          "code": "height?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">height</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "2290": {
+    "2188": {
       "name": "keepAspectRatio",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#keepaspectratio",
@@ -70,7 +70,7 @@
       },
       "signatures": [
         {
-          "code": "keepAspectRatio?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">keepAspectRatio</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",
@@ -82,7 +82,7 @@
         }
       ]
     },
-    "2291": {
+    "2189": {
       "name": "autoScaleFactor",
       "type": "Property",
       "url": "/api/interface/ImageAssetOptions#autoscalefactor",
@@ -91,7 +91,7 @@
       },
       "signatures": [
         {
-          "code": "autoScaleFactor?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">autoScaleFactor</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-asset/index.d.ts",

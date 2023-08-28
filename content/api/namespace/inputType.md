@@ -1,6 +1,13 @@
 ---
 title: inputType
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'inputType'
 layout: api
 seo:
   description: "Defines the input type for prompt dialog."
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10115" v-once>
+<APIRef for="12971" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10113" v-once>
+<APIRef for="12969" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10114" v-once>
+<APIRef for="12970" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10112" v-once>
+<APIRef for="12968" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10116" v-once>
+<APIRef for="12972" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10111" v-once>
+<APIRef for="12967" v-once>
 
 <template #title>
 

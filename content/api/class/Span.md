@@ -1,6 +1,13 @@
 ---
 title: Span
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Span'
 layout: api
 seo:
   description: "A class used to create a single part of formatted string with a common text properties."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="25552" v-once>
+<APIRef for="29646" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25560" v-once>
+<APIRef for="29654" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25559" v-once>
+<APIRef for="29653" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25554" v-once>
+<APIRef for="29648" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25555" v-once>
+<APIRef for="29649" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25556" v-once>
+<APIRef for="29650" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25557" v-once>
+<APIRef for="29651" v-once>
 
 <template #title>
 
@@ -126,9 +133,51 @@ seo:
 
 </div>
 
+<div class="">
+
+<APIRef for="29655" v-once>
+
+<template #title>
+
+### iosAccessibilityAdjustsFontSize
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="29657" v-once>
+
+<template #title>
+
+### iosAccessibilityMaxFontScale
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="29656" v-once>
+
+<template #title>
+
+### iosAccessibilityMinFontScale
+
+</template>
+
+</APIRef>
+
+</div>
+
 <div class="isPublic isReadonly">
 
-<APIRef for="25562" v-once>
+<APIRef for="29659" v-once>
 
 <template #title>
 
@@ -142,7 +191,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25561" v-once>
+<APIRef for="29658" v-once>
 
 <template #title>
 
@@ -156,7 +205,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="25558" v-once>
+<APIRef for="29652" v-once>
 
 <template #title>
 
@@ -170,27 +219,11 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="25521" v-once>
+<APIRef for="29600" v-once>
 
 <template #title>
 
 ### linkTapEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-## Methods
-
-<div class="isPrivate">
-
-<APIRef for="25563" v-once>
-
-<template #title>
-
-### _setTextInternal
 
 </template>
 

@@ -5,41 +5,41 @@
     {
       "title": "Namespaces",
       "items": [
-        2878,
-        2873
+        5131,
+        5126
       ]
     },
     {
       "title": "Classes",
       "items": [
-        2899,
-        2907
+        5152,
+        5160
       ]
     },
     {
       "title": "Functions",
       "items": [
-        2843,
-        2859,
-        2832,
-        2838,
-        2828,
-        2826,
-        2870,
-        2865,
-        2846,
-        2830,
-        2854,
-        2862,
-        2835,
-        2840,
-        2867,
-        2849
+        5096,
+        5112,
+        5085,
+        5091,
+        5081,
+        5079,
+        5123,
+        5118,
+        5099,
+        5083,
+        5107,
+        5115,
+        5088,
+        5093,
+        5120,
+        5102
       ]
     }
   ],
   "reflections": {
-    "2826": {
+    "5079": {
       "name": "enable",
       "type": "Function",
       "url": "/api/namespace/Trace#enable",
@@ -47,7 +47,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "enable(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">enable</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#enable-enable-1",
           "sources": [
             {
@@ -69,7 +69,7 @@
         }
       ]
     },
-    "2828": {
+    "5081": {
       "name": "disable",
       "type": "Function",
       "url": "/api/namespace/Trace#disable",
@@ -77,7 +77,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "disable(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disable</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#disable-disable-1",
           "sources": [
             {
@@ -99,7 +99,7 @@
         }
       ]
     },
-    "2830": {
+    "5083": {
       "name": "isEnabled",
       "type": "Function",
       "url": "/api/namespace/Trace#isenabled",
@@ -107,7 +107,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isEnabled(): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isEnabled</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
           "url": "/api/namespace/Trace#isenabled-isenabled-1",
           "sources": [
             {
@@ -129,7 +129,7 @@
         }
       ]
     },
-    "2832": {
+    "5085": {
       "name": "addWriter",
       "type": "Function",
       "url": "/api/namespace/Trace#addwriter",
@@ -173,7 +173,7 @@
         }
       ]
     },
-    "2835": {
+    "5088": {
       "name": "removeWriter",
       "type": "Function",
       "url": "/api/namespace/Trace#removewriter",
@@ -217,7 +217,7 @@
         }
       ]
     },
-    "2838": {
+    "5091": {
       "name": "clearWriters",
       "type": "Function",
       "url": "/api/namespace/Trace#clearwriters",
@@ -225,7 +225,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "clearWriters(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearWriters</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#clearwriters-clearwriters-1",
           "sources": [
             {
@@ -247,7 +247,7 @@
         }
       ]
     },
-    "2840": {
+    "5093": {
       "name": "setCategories",
       "type": "Function",
       "url": "/api/namespace/Trace#setcategories",
@@ -255,7 +255,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setCategories(categories: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setCategories</span><span style=\"color: #E1E4E8\">(categories: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#setcategories-setcategories-1",
           "sources": [
             {
@@ -291,7 +291,7 @@
         }
       ]
     },
-    "2843": {
+    "5096": {
       "name": "addCategories",
       "type": "Function",
       "url": "/api/namespace/Trace#addcategories",
@@ -299,7 +299,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addCategories(categories: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addCategories</span><span style=\"color: #E1E4E8\">(categories: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#addcategories-addcategories-1",
           "sources": [
             {
@@ -335,7 +335,7 @@
         }
       ]
     },
-    "2846": {
+    "5099": {
       "name": "isCategorySet",
       "type": "Function",
       "url": "/api/namespace/Trace#iscategoryset",
@@ -343,7 +343,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isCategorySet(category: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isCategorySet</span><span style=\"color: #E1E4E8\">(category: string): boolean</span></span></code>",
           "url": "/api/namespace/Trace#iscategoryset-iscategoryset-1",
           "sources": [
             {
@@ -379,7 +379,7 @@
         }
       ]
     },
-    "2849": {
+    "5102": {
       "name": "write",
       "type": "Function",
       "url": "/api/namespace/Trace#write",
@@ -387,7 +387,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "write(message: any, category: string, type?: number): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">write</span><span style=\"color: #E1E4E8\">(message: any, category: string, type</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#write-write-1",
           "sources": [
             {
@@ -451,7 +451,7 @@
         }
       ]
     },
-    "2854": {
+    "5107": {
       "name": "notifyEvent",
       "type": "Function",
       "url": "/api/namespace/Trace#notifyevent",
@@ -459,7 +459,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyEvent(object: Object, name: string, data?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyEvent</span><span style=\"color: #E1E4E8\">(object: Object, name: string, data</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#notifyevent-notifyevent-1",
           "sources": [
             {
@@ -523,7 +523,7 @@
         }
       ]
     },
-    "2859": {
+    "5112": {
       "name": "addEventListener",
       "type": "Function",
       "url": "/api/namespace/Trace#addeventlistener",
@@ -551,7 +551,7 @@
         }
       ]
     },
-    "2862": {
+    "5115": {
       "name": "removeEventListener",
       "type": "Function",
       "url": "/api/namespace/Trace#removeeventlistener",
@@ -579,7 +579,7 @@
         }
       ]
     },
-    "2865": {
+    "5118": {
       "name": "getErrorHandler",
       "type": "Function",
       "url": "/api/namespace/Trace#geterrorhandler",
@@ -601,7 +601,7 @@
         }
       ]
     },
-    "2867": {
+    "5120": {
       "name": "setErrorHandler",
       "type": "Function",
       "url": "/api/namespace/Trace#seterrorhandler",
@@ -629,7 +629,7 @@
         }
       ]
     },
-    "2870": {
+    "5123": {
       "name": "error",
       "type": "Function",
       "url": "/api/namespace/Trace#error",
@@ -637,7 +637,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "error(error: string | Error): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">error</span><span style=\"color: #E1E4E8\">(error: string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> Error): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/namespace/Trace#error-error-1",
           "sources": [
             {
@@ -673,14 +673,14 @@
         }
       ]
     },
-    "2873": {
+    "5126": {
       "name": "messageType",
       "type": "Namespace",
       "url": "/api/namespace/Trace-messageType",
       "flags": {},
       "signatures": [
         {
-          "code": "messageType",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">messageType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -692,7 +692,7 @@
         }
       ]
     },
-    "2878": {
+    "5131": {
       "name": "categories",
       "type": "Namespace",
       "url": "/api/namespace/Trace-categories",
@@ -707,7 +707,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "categories",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">categories</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -727,7 +727,7 @@
         }
       ]
     },
-    "2899": {
+    "5152": {
       "name": "ConsoleWriter",
       "type": "Class",
       "url": "/api/class/Trace-ConsoleWriter",
@@ -742,7 +742,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ConsoleWriter",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ConsoleWriter</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",
@@ -762,7 +762,7 @@
         }
       ]
     },
-    "2907": {
+    "5160": {
       "name": "DefaultErrorHandler",
       "type": "Class",
       "url": "/api/class/Trace-DefaultErrorHandler",
@@ -777,7 +777,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "DefaultErrorHandler",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DefaultErrorHandler</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/trace/index.d.ts",

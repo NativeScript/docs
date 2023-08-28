@@ -17,27 +17,27 @@
     {
       "title": "Properties",
       "items": [
-        11172,
-        11166,
-        11167,
-        11173,
-        11171,
-        11174,
-        11168,
-        11169,
-        11170
+        14086,
+        14080,
+        14081,
+        14087,
+        14085,
+        14088,
+        14082,
+        14083,
+        14084
       ]
     }
   ],
   "reflections": {
-    "11166": {
+    "14080": {
       "name": "deltaX",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#deltax",
       "flags": {},
       "signatures": [
         {
-          "code": "deltaX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deltaX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -49,14 +49,14 @@
         }
       ]
     },
-    "11167": {
+    "14081": {
       "name": "deltaY",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#deltay",
       "flags": {},
       "signatures": [
         {
-          "code": "deltaY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deltaY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "11168": {
+    "14082": {
       "name": "state",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#state",
@@ -81,7 +81,7 @@
       },
       "signatures": [
         {
-          "code": "state: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">state</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -99,7 +99,7 @@
         }
       ]
     },
-    "11169": {
+    "14083": {
       "name": "type",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#type",
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "11170": {
+    "14084": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#view",
@@ -167,7 +167,7 @@
       },
       "signatures": [
         {
-          "code": "view: Partial&lt;<a href=\"/api/class/View\">View</a>&gt;",
+          "code": "view: <a href=\"/api/class/View\">View</a>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -193,7 +193,7 @@
         }
       ]
     },
-    "11171": {
+    "14085": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#ios",
@@ -214,7 +214,7 @@
       },
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -240,7 +240,7 @@
         }
       ]
     },
-    "11172": {
+    "14086": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#android",
@@ -261,7 +261,7 @@
       },
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -287,7 +287,7 @@
         }
       ]
     },
-    "11173": {
+    "14087": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#eventname",
@@ -308,12 +308,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -334,7 +334,7 @@
         }
       ]
     },
-    "11174": {
+    "14088": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/PanGestureEventData#object",
@@ -359,8 +359,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

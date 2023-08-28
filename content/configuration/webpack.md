@@ -1,11 +1,13 @@
 ---
 title: Configuring Webpack
 description: NativeScript apps are bundled with webpack, giving you flexibility to configure it any way you need it.
+contributors:
+  - rigor789
 ---
 
 :::warning Note
 This section is only aplicable to `@nativescript/webpack` version `5.0.0` and above.
-If you are using an older version, consider upgrading. This is compatible with webpack version 5.x.
+If you are using an older version, consider upgrading.
 :::
 
 All NativeScript applications are bundled using webpack. To manage the required configuration, we maintain the `@nativescript/webpack` package.
@@ -13,16 +15,16 @@ All NativeScript applications are bundled using webpack. To manage the required 
 All new projects come with the base `webpack.config.js` that's pre-configured to build a NativeScript app:
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   // Learn how to customize:
   // https://docs.nativescript.org/webpack
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 The above config configures most things required to bundle a NativeScript application. Internally it's using [webpack-chain](https://github.com/neutrinojs/webpack-chain) to generate the final config that is passed to webpack.
@@ -54,7 +56,7 @@ Example:
 will add an alias, so the following code
 
 ```ts
-import { environment } from './environments/environment.ts';
+import { environment } from './environments/environment.ts'
 ```
 
 would resolve the import path to `./environments/environment.prod.ts`.
@@ -125,7 +127,7 @@ We define a few useful globally available variables that you can use to alter lo
 - `__NS_WEBPACK__` - always `true` when building with webpack
 - `__NS_ENV_VERBOSE__` - `true` when `--env.verbose` is set
 - `__NS_DEV_HOST_IPS__` - an array of IP addresses of the host machine (the machine running the build) when in `development` mode, and an empty array in production mode.
-- `__CSS_PARSER__` - the css parser used by NativeScript Core. The value is set based on the `cssParser` value in the `nativescript.config.ts` and defaults to `css-tree`
+- `__CSS_PARSER__` - the CSS parser used by NativeScript Core. The value is set based on the `cssParser` value in the `nativescript.config.ts` and defaults to `css-tree`
 - `__UI_USE_XML_PARSER__` - a flag used by NativeScript Core to disable the XML parser when it's not used
 - `__UI_USE_EXTERNAL_RENDERER__` - a flag used by NativeScript Core to disable registering global modules when an external renderer is used.
 
@@ -179,8 +181,8 @@ See details about the limitations in the [DotEnv documentation](https://github.c
 ```ts
 // default, no flags - loaded from .env by default
 
-console.log(process.env.MY_API_ENDPOINT); // https://staging-api-host/api/v2
-console.log(process.env.MY_API_SECRET); // supersecrettoken
+console.log(process.env.MY_API_ENDPOINT) // https://staging-api-host/api/v2
+console.log(process.env.MY_API_SECRET) // supersecrettoken
 ```
 
 <!-- tab: With --env.env=prod -->
@@ -188,8 +190,8 @@ console.log(process.env.MY_API_SECRET); // supersecrettoken
 ```ts
 // With --env.env=prod: loaded from .env.prod
 
-console.log(process.env.MY_API_ENDPOINT); // https://production-api-host/api/v2
-console.log(process.env.MY_API_SECRET); // verysuperverysecretverytoken
+console.log(process.env.MY_API_ENDPOINT) // https://production-api-host/api/v2
+console.log(process.env.MY_API_SECRET) // verysuperverysecretverytoken
 ```
 
 <!-- tab: With --env.env=nonexistent -->
@@ -197,8 +199,8 @@ console.log(process.env.MY_API_SECRET); // verysuperverysecretverytoken
 ```ts
 // With --env.env=nonexistent: falls back to .env
 
-console.log(process.env.MY_API_ENDPOINT); // https://staging-api-host/api/v2
-console.log(process.env.MY_API_SECRET); // supersecrettoken
+console.log(process.env.MY_API_ENDPOINT) // https://staging-api-host/api/v2
+console.log(process.env.MY_API_SECRET) // supersecrettoken
 ```
 
 ## Configuration examples
@@ -210,13 +212,13 @@ Note that the config is built using [webpack-chain](https://github.com/neutrinoj
 ### Adding a copy rule
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   // Example: copy all markdown files to the build directory
-  webpack.Utils.addCopyRule('**/*.md');
+  webpack.Utils.addCopyRule('**/*.md')
 
   // Example: copy all files from a dependency
   webpack.Utils.addCopyRule({
@@ -226,10 +228,10 @@ module.exports = (env) => {
     // we used the getProjectFilePath util here, but this could have been
     // a path.resolve(__dirname, 'node_modules') too.
     context: webpack.Utils.project.getProjectFilePath('node_modules'),
-  });
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 For all the valid options you can pass, refer to the [CopyWebpackPlugin Documentation](https://webpack.js.org/plugins/copy-webpack-plugin/#patterns)
@@ -237,13 +239,13 @@ For all the valid options you can pass, refer to the [CopyWebpackPlugin Document
 ### Adding a plugin
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 // import the plugin first
-const { BannerPlugin } = require('webpack');
+const { BannerPlugin } = require('webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   // first we add our callback to the internal chain
   webpack.chainWebpack((config) => {
@@ -252,11 +254,11 @@ module.exports = (env) => {
       {
         banner: 'hello world',
       },
-    ]);
-  });
+    ])
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 The second argument of the `.use` call is an array of arguments you would pass to the plugin. For example, the above example is converted from the official BannerPlugin docs that stated the following:
@@ -264,33 +266,33 @@ The second argument of the `.use` call is an array of arguments you would pass t
 ```js
 new webpack.BannerPlugin({
   banner: 'hello world',
-});
+})
 ```
 
 ### Adding a resolver plugin
 
 ```js
-const webpack = require('@nativescript/webpack');
-const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+const webpack = require('@nativescript/webpack')
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
-    config.resolve.plugin('TsconfigPathsPlugin').use(TsconfigPathsPlugin);
-  });
+    config.resolve.plugin('TsconfigPathsPlugin').use(TsconfigPathsPlugin)
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Adding a loader
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     // add a new rule for *.something files
@@ -301,20 +303,20 @@ module.exports = (env) => {
       .loader('something-loader')
       .options({
         example: true,
-      });
-  });
+      })
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Adding Externals
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     config.externals(
@@ -323,11 +325,11 @@ module.exports = (env) => {
         // add your own externals
         'some-external-dependency',
       ])
-    );
-  });
+    )
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Adding path aliases
@@ -335,28 +337,28 @@ module.exports = (env) => {
 You can define `import`-aliases for specific source directories.
 
 ```js
-const webpack = require('@nativescript/webpack');
-const { resolve } = require('path');
+const webpack = require('@nativescript/webpack')
+const { resolve } = require('path')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     // change the "@" alias to "app/libs"
-    config.resolve.alias.set('@', resolve(__dirname, 'app/libs'));
-  });
+    config.resolve.alias.set('@', resolve(__dirname, 'app/libs'))
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Extending the DefinePlugin options
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     config.plugin('DefinePlugin').tap((args) => {
@@ -364,14 +366,14 @@ module.exports = (env) => {
         'global.isProduction': !!env.production,
         'global.someNumber': 42,
         'global.someString': JSON.stringify('some string value'),
-      });
+      })
 
-      return args;
-    });
-  });
+      return args
+    })
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Changing an existing rule
@@ -411,10 +413,10 @@ Will print the resolved internal config with helpful comments above each rule th
 To add a new loader, we can use the same syntax we used above for adding new loaders:
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     config.module
@@ -423,30 +425,30 @@ module.exports = (env) => {
       .loader('something-loader')
       .options({
         example: true,
-      });
-  });
+      })
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Changing an existing loader options
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     config.module
       .rule('scss')
       .use('sass-loader')
-      .options({ sassOptions: { indentedSyntax: true } });
-  });
+      .options({ sassOptions: { indentedSyntax: true } })
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Changing an existing plugin configuration
@@ -454,10 +456,10 @@ module.exports = (env) => {
 Let's change the BannerPlugin we added above:
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     config.plugin('BannerPlugin').tap((args) => {
@@ -467,38 +469,38 @@ module.exports = (env) => {
       // be careful when accessing an array index
       // and do proper checks before writing to
       // avoid errors
-      args[0].banner = 'changed banner.';
+      args[0].banner = 'changed banner.'
 
       // should always return all the arguments that should be passed to the plugin constructor
       // in some cases you may want to remove an argument - you can do that by returning an array
       // with that argument removed from it.
-      return args;
-    });
-  });
+      return args
+    })
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Explicitly set base config
 
 In some cases, you may want to explicitly set which base config should be used.
 
-For example in the NativeScript-Vue repo, the `sample` app doesn't have `nativescript-vue` listed as a dependency, so we have to specify the base config we want to use.
+For example in the NativeScript-Vue repository, the `sample` app doesn't have `nativescript-vue` listed as a dependency, so we have to specify the base config we want to use.
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   // set the base config
   // can be false to opt out from using a base config (used mostly in tests)
   // or can be one of the base configs: base, angular, javascript, react, svelte, typescript, vue
-  webpack.useConfig('vue');
+  webpack.useConfig('vue')
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Suppressing warnings
@@ -506,10 +508,10 @@ module.exports = (env) => {
 If your build produces warnings that you want to hide, you can do that with the following:
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
     config.set(
@@ -517,36 +519,38 @@ module.exports = (env) => {
       (config.get('ignoreWarnings') || []).concat([
         /a regex that matches the warning to suppress/,
       ])
-    );
-  });
+    )
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ### Merging options into the config
 
+<!--alex ignore simple-->
+
 For simple things, you can merge objects into the final config instead of using `chainWebpack`
 
 ```js
-const webpack = require('@nativescript/webpack');
+const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   // merge a simple object
-  webpack.mergeWebpack({ mode: 'production' });
+  webpack.mergeWebpack({ mode: 'production' })
 
   // using a function
   webpack.mergeWebpack((env) => {
     // return the object to be merged
     return {
       mode: 'production',
-    };
-  });
+    }
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ## Plugin API
@@ -572,10 +576,10 @@ module.exports = (webpack) => {
         .rule('something')
         .test(/\.something$/)
         .use('something-loader')
-        .loader('something-loader');
+        .loader('something-loader')
     } /*, options */
-  );
-};
+  )
+}
 ```
 
 ## API
@@ -624,8 +628,8 @@ The `options` is an optional object with the following optional properties:
 
 ```js
 webpack.chainWebpack((config, env) => {
-  config.mode('production');
-});
+  config.mode('production')
+})
 ```
 
 **Example: Run a config "last"**
@@ -635,10 +639,10 @@ Setting `order: 10` doesn't necessarily guarantee the `chainFn` will be applied 
 ```js
 webpack.chainWebpack(
   (config, env) => {
-    config.set('somethingThatShouldBeSetLast', true);
+    config.set('somethingThatShouldBeSetLast', true)
   },
   { order: 10 }
-);
+)
 ```
 
 ---
@@ -657,13 +661,13 @@ _Optional_: merges an object (or an object returned by a function) into the reso
 // merge an object into the internal config
 webpack.mergeWebpack({
   something: true,
-});
+})
 // or pass a function that returns an object
 webpack.mergeWebpack((env) => {
   return {
     something: true,
-  };
-});
+  }
+})
 ```
 
 ---

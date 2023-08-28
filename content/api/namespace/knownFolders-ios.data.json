@@ -5,19 +5,19 @@
     {
       "title": "Functions",
       "items": [
-        2103,
-        2101,
-        2105,
-        2099,
-        2107,
-        2109,
-        2111,
-        2113
+        1946,
+        1944,
+        1948,
+        1942,
+        1950,
+        1952,
+        1954,
+        1956
       ]
     }
   ],
   "reflections": {
-    "2099": {
+    "1942": {
       "name": "library",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#library",
@@ -30,7 +30,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 245,
+              "line": 321,
               "character": 2
             }
           ],
@@ -47,7 +47,7 @@
         }
       ]
     },
-    "2101": {
+    "1944": {
       "name": "developer",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#developer",
@@ -60,7 +60,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 250,
+              "line": 326,
               "character": 2
             }
           ],
@@ -77,7 +77,7 @@
         }
       ]
     },
-    "2103": {
+    "1946": {
       "name": "desktop",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#desktop",
@@ -90,7 +90,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 255,
+              "line": 331,
               "character": 2
             }
           ],
@@ -107,7 +107,7 @@
         }
       ]
     },
-    "2105": {
+    "1948": {
       "name": "downloads",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#downloads",
@@ -120,7 +120,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 260,
+              "line": 336,
               "character": 2
             }
           ],
@@ -137,7 +137,7 @@
         }
       ]
     },
-    "2107": {
+    "1950": {
       "name": "movies",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#movies",
@@ -150,7 +150,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 265,
+              "line": 341,
               "character": 2
             }
           ],
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "2109": {
+    "1952": {
       "name": "music",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#music",
@@ -180,7 +180,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 270,
+              "line": 346,
               "character": 2
             }
           ],
@@ -197,7 +197,7 @@
         }
       ]
     },
-    "2111": {
+    "1954": {
       "name": "pictures",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#pictures",
@@ -210,7 +210,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 275,
+              "line": 351,
               "character": 2
             }
           ],
@@ -227,7 +227,7 @@
         }
       ]
     },
-    "2113": {
+    "1956": {
       "name": "sharedPublic",
       "type": "Function",
       "url": "/api/namespace/knownFolders-ios#sharedpublic",
@@ -240,7 +240,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 280,
+              "line": 356,
               "character": 2
             }
           ],

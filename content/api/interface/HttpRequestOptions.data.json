@@ -11,17 +11,17 @@
     {
       "title": "Properties",
       "items": [
-        2129,
-        2131,
-        2128,
-        2127,
-        2130,
-        2126
+        1985,
+        1987,
+        1984,
+        1983,
+        1986,
+        1982
       ]
     }
   ],
   "reflections": {
-    "2126": {
+    "1982": {
       "name": "url",
       "type": "Property",
       "url": "/api/interface/HttpRequestOptions#url",
@@ -36,7 +36,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "url: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -56,7 +56,7 @@
         }
       ]
     },
-    "2127": {
+    "1983": {
       "name": "method",
       "type": "Property",
       "url": "/api/interface/HttpRequestOptions#method",
@@ -71,7 +71,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "method: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">method</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -91,7 +91,7 @@
         }
       ]
     },
-    "2128": {
+    "1984": {
       "name": "headers",
       "type": "Property",
       "url": "/api/interface/HttpRequestOptions#headers",
@@ -108,7 +108,7 @@
       },
       "signatures": [
         {
-          "code": "headers?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">headers</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -128,7 +128,7 @@
         }
       ]
     },
-    "2129": {
+    "1985": {
       "name": "content",
       "type": "Property",
       "url": "/api/interface/HttpRequestOptions#content",
@@ -145,7 +145,7 @@
       },
       "signatures": [
         {
-          "code": "content?: string | FormData | ArrayBuffer",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">content</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> FormData </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> ArrayBuffer</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -165,7 +165,7 @@
         }
       ]
     },
-    "2130": {
+    "1986": {
       "name": "timeout",
       "type": "Property",
       "url": "/api/interface/HttpRequestOptions#timeout",
@@ -182,7 +182,7 @@
       },
       "signatures": [
         {
-          "code": "timeout?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">timeout</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -202,7 +202,7 @@
         }
       ]
     },
-    "2131": {
+    "1987": {
       "name": "dontFollowRedirects",
       "type": "Property",
       "url": "/api/interface/HttpRequestOptions#dontfollowredirects",
@@ -219,7 +219,7 @@
       },
       "signatures": [
         {
-          "code": "dontFollowRedirects?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">dontFollowRedirects</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",

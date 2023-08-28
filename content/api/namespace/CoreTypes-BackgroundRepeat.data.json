@@ -5,22 +5,22 @@
     {
       "title": "Variables",
       "items": [
-        2734,
-        2731,
-        2732,
-        2733
+        4993,
+        4990,
+        4991,
+        4992
       ]
     },
     {
       "title": "Functions",
       "items": [
-        2735,
-        2738
+        4994,
+        4997
       ]
     }
   ],
   "reflections": {
-    "2731": {
+    "4990": {
       "name": "repeat",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeat",
@@ -33,15 +33,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 600,
-              "character": 15
+              "line": 218,
+              "character": 14
             }
           ],
           "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeat"
         }
       ]
     },
-    "2732": {
+    "4991": {
       "name": "repeatX",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeatx",
@@ -54,15 +54,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 601,
-              "character": 15
+              "line": 219,
+              "character": 14
             }
           ],
           "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeatx"
         }
       ]
     },
-    "2733": {
+    "4992": {
       "name": "repeatY",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeaty",
@@ -75,15 +75,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 602,
-              "character": 15
+              "line": 220,
+              "character": 14
             }
           ],
           "url": "/api/namespace/CoreTypes-BackgroundRepeat#repeaty"
         }
       ]
     },
-    "2734": {
+    "4993": {
       "name": "noRepeat",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-BackgroundRepeat#norepeat",
@@ -96,15 +96,15 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 603,
-              "character": 15
+              "line": 221,
+              "character": 14
             }
           ],
           "url": "/api/namespace/CoreTypes-BackgroundRepeat#norepeat"
         }
       ]
     },
-    "2735": {
+    "4994": {
       "name": "isValid",
       "type": "Function",
       "url": "/api/namespace/CoreTypes-BackgroundRepeat#isvalid",
@@ -112,13 +112,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isValid(value: any): <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
+          "code": "isValid(value: any): value is <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>",
           "url": "/api/namespace/CoreTypes-BackgroundRepeat#isvalid-isvalid-1",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 604,
-              "character": 24
+              "line": 222,
+              "character": 23
             }
           ],
           "parameters": [
@@ -128,11 +128,11 @@
               "flags": {}
             }
           ],
-          "returns": "<a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>"
+          "returns": "value is <a href=\"/api/namespace/CoreTypes#backgroundrepeattype\">BackgroundRepeatType</a>"
         }
       ]
     },
-    "2738": {
+    "4997": {
       "name": "parse",
       "type": "Function",
       "url": "/api/namespace/CoreTypes-BackgroundRepeat#parse",
@@ -145,8 +145,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 605,
-              "character": 22
+              "line": 223,
+              "character": 21
             }
           ],
           "parameters": [

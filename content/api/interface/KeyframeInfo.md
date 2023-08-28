@@ -1,9 +1,16 @@
 ---
 title: KeyframeInfo
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'KeyframeInfo'
 layout: api
 seo:
-  description: undefined
+  description: KeyframeInfo
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface KeyframeInfo {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface KeyframeInfo {
   curve: any;
   declarations: <a href="/api/interface/KeyframeDeclaration">KeyframeDeclaration</a>[];
   duration: number;
@@ -32,7 +39,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5009" v-once>
+<APIRef for="7472" v-once>
 
 <template #title>
 
@@ -46,7 +53,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5008" v-once>
+<APIRef for="7471" v-once>
 
 <template #title>
 
@@ -60,7 +67,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5007" v-once>
+<APIRef for="7470" v-once>
 
 <template #title>
 

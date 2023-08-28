@@ -1,9 +1,12 @@
 ---
 title: Creating a New Project
 prev: /setup/
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
-<!--@include: ./parts/online-playground.md-->
+<!--@include: ../parts/online-playground.md-->
 
 ## Summary
 
@@ -59,7 +62,7 @@ ns create myCoolApp --template @nativescript/template-blank
 
 ### Drawer Template
 
-A simple template with a side drawer.
+A template with a side drawer.
 
 <!-- TODO: make nicer images -->
 
@@ -78,7 +81,7 @@ ns create myCoolApp --template @nativescript/template-drawer-navigation
 
 ### Tabs Template
 
-A simple template with multiple tabs.
+A template with multiple tabs.
 
 <!-- TODO: make nicer images -->
 
@@ -97,7 +100,8 @@ ns create myCoolApp --template @nativescript/template-tab-navigation
 
 ### List & Details Template
 
-A simple template with a ListView and a details screen.
+A template with a ListView and a details screen.
+
 <DeviceFrame type="ios">
 <img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-ios.png">
 </DeviceFrame>
@@ -113,4 +117,4 @@ ns create myCoolApp --template @nativescript/template-master-detail
 
 ## Creating custom templates
 
-The NativeScript CLI can create projects using custom templates either from `npm` or a local path by passing the `--template` `<npm_package_name_or_local_path>` flag to the `ns create` command. If you need a custom template, start with one of the official templates and customize it for your needs.
+The NativeScript CLI can create projects from `npm` packages or local folders by passing the `--template <npm_package_name_or_local_path>` flag to the `ns create` command. If you need a custom template, start with one of the official templates and customize it for your needs.

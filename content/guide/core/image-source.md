@@ -1,5 +1,5 @@
 ---
-title: ImagaSource
+title: ImageSource
 description: Create an instance from different sources.
 ---
 

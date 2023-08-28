@@ -3,8 +3,8 @@
   "hierarchy": [
     [
       {
-        "text": "EventData",
-        "link": "/api/interface/EventData"
+        "text": "ApplicationEventData",
+        "link": "/api/interface/ApplicationEventData"
       }
     ],
     [
@@ -17,15 +17,17 @@
     {
       "title": "Properties",
       "items": [
-        1098,
-        1099,
-        1100,
-        1101
+        4724,
+        4720,
+        4721,
+        4722,
+        4723,
+        4725
       ]
     }
   ],
   "reflections": {
-    "1098": {
+    "4720": {
       "name": "cssFile",
       "type": "Property",
       "url": "/api/interface/CssChangedEventData#cssfile",
@@ -34,19 +36,19 @@
       },
       "signatures": [
         {
-          "code": "cssFile?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cssFile</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 191,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 101,
+              "character": 4
             }
           ],
           "url": "/api/interface/CssChangedEventData#cssfile"
         }
       ]
     },
-    "1099": {
+    "4721": {
       "name": "cssText",
       "type": "Property",
       "url": "/api/interface/CssChangedEventData#csstext",
@@ -55,19 +57,19 @@
       },
       "signatures": [
         {
-          "code": "cssText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cssText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 192,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 102,
+              "character": 4
             }
           ],
           "url": "/api/interface/CssChangedEventData#csstext"
         }
       ]
     },
-    "1100": {
+    "4722": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/CssChangedEventData#eventname",
@@ -82,25 +84,25 @@
       "flags": {},
       "inheritedFrom": {
         "name": "eventName",
-        "url": "/api/interface/EventData#eventname",
-        "fromName": "EventData",
-        "fromUrl": "/api/interface/EventData"
+        "url": "/api/interface/ApplicationEventData#eventname",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 28,
+              "character": 4
             }
           ],
           "inheritedFrom": {
             "name": "eventName",
-            "url": "/api/interface/EventData#eventname",
-            "fromName": "EventData",
-            "fromUrl": "/api/interface/EventData"
+            "url": "/api/interface/ApplicationEventData#eventname",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
           },
           "comment": {
             "summary": [
@@ -114,7 +116,105 @@
         }
       ]
     },
-    "1101": {
+    "4723": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/CssChangedEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "ios",
+        "url": "/api/interface/ApplicationEventData#ios",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 32,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "ios",
+            "url": "/api/interface/ApplicationEventData#ios",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+              }
+            ]
+          },
+          "url": "/api/interface/CssChangedEventData#ios"
+        }
+      ]
+    },
+    "4724": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/CssChangedEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native Android event arguments. Valid only when running on Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "android",
+        "url": "/api/interface/ApplicationEventData#android",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 36,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "android",
+            "url": "/api/interface/ApplicationEventData#android",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native Android event arguments. Valid only when running on Android."
+              }
+            ]
+          },
+          "url": "/api/interface/CssChangedEventData#android"
+        }
+      ]
+    },
+    "4725": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/CssChangedEventData#object",
@@ -122,38 +222,38 @@
         "summary": [
           {
             "kind": "text",
-            "text": "The Observable instance that has raised the event."
+            "text": "The instance that has raised the event."
           }
         ]
       },
       "flags": {},
       "inheritedFrom": {
         "name": "object",
-        "url": "/api/interface/EventData#object",
-        "fromName": "EventData",
-        "fromUrl": "/api/interface/EventData"
+        "url": "/api/interface/ApplicationEventData#object",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
       },
       "signatures": [
         {
-          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a> | <a href=\"/api/class/ApplicationCommon\">ApplicationCommon</a>",
           "sources": [
             {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 40,
+              "character": 4
             }
           ],
           "inheritedFrom": {
             "name": "object",
-            "url": "/api/interface/EventData#object",
-            "fromName": "EventData",
-            "fromUrl": "/api/interface/EventData"
+            "url": "/api/interface/ApplicationEventData#object",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
           },
           "comment": {
             "summary": [
               {
                 "kind": "text",
-                "text": "The Observable instance that has raised the event."
+                "text": "The instance that has raised the event."
               }
             ]
           },

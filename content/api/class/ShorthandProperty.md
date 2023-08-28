@@ -1,9 +1,16 @@
 ---
 title: ShorthandProperty
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ShorthandProperty'
 layout: api
 seo:
-  description: undefined
+  description: ShorthandProperty
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9265" v-once>
+<APIRef for="12068" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9274" v-once>
+<APIRef for="12077" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9273" v-once>
+<APIRef for="12076" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isProtected isReadonly">
 
-<APIRef for="9275" v-once>
+<APIRef for="12078" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9271" v-once>
+<APIRef for="12074" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isProtected isReadonly">
 
-<APIRef for="9276" v-once>
+<APIRef for="12079" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9272" v-once>
+<APIRef for="12075" v-once>
 
 <template #title>
 
@@ -126,7 +133,7 @@ seo:
 
 <div class="isProtected isReadonly">
 
-<APIRef for="9277" v-once>
+<APIRef for="12080" v-once>
 
 <template #title>
 
@@ -138,23 +145,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="9270" v-once>
-
-<template #title>
-
-### registered
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isReadonly">
 
-<APIRef for="9278" v-once>
+<APIRef for="12081" v-once>
 
 <template #title>
 
@@ -170,7 +163,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9279" v-once>
+<APIRef for="12082" v-once>
 
 <template #title>
 

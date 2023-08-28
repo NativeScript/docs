@@ -5,26 +5,18 @@
     {
       "title": "Variables",
       "items": [
-        2678,
-        2675,
-        2677,
-        2676
+        4949,
+        4946,
+        4948,
+        4947
       ]
     }
   ],
   "reflections": {
-    "2675": {
+    "4946": {
       "name": "left",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Dock#left",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "A child element that is positioned on the left side of the DockLayout."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -34,34 +26,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 354,
-              "character": 15
+              "line": 165,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "A child element that is positioned on the left side of the DockLayout."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Dock#left"
         }
       ]
     },
-    "2676": {
+    "4947": {
       "name": "top",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Dock#top",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "A child element that is positioned on the top side of the DockLayout."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -71,34 +47,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 359,
-              "character": 15
+              "line": 166,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "A child element that is positioned on the top side of the DockLayout."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Dock#top"
         }
       ]
     },
-    "2677": {
+    "4948": {
       "name": "right",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Dock#right",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "A child element that is positioned on the right side of the DockLayout."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -108,34 +68,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 364,
-              "character": 15
+              "line": 167,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "A child element that is positioned on the right side of the DockLayout."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Dock#right"
         }
       ]
     },
-    "2678": {
+    "4949": {
       "name": "bottom",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Dock#bottom",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "A child element that is positioned on the bottom side of the DockLayout."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -145,18 +89,10 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 369,
-              "character": 15
+              "line": 168,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "A child element that is positioned on the bottom side of the DockLayout."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Dock#bottom"
         }
       ]

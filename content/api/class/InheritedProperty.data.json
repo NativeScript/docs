@@ -17,39 +17,39 @@
     {
       "title": "Constructors",
       "items": [
-        9150
+        11953
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9184,
-        9165,
-        9164,
-        9183,
-        9172,
-        9162,
-        9171,
-        9161,
-        9160,
-        9166,
-        9179,
-        9175,
-        9156,
-        9163,
-        9155
+        11987,
+        11968,
+        11967,
+        11986,
+        11975,
+        11965,
+        11974,
+        11964,
+        11963,
+        11969,
+        11982,
+        11978,
+        11959,
+        11966,
+        11958
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9190,
-        9185
+        11993,
+        11988
       ]
     }
   ],
   "reflections": {
-    "9150": {
+    "11953": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/InheritedProperty#constructor",
@@ -77,7 +77,7 @@
         }
       ]
     },
-    "9155": {
+    "11958": {
       "name": "sourceKey",
       "type": "Property",
       "url": "/api/class/InheritedProperty#sourcekey",
@@ -86,7 +86,7 @@
       },
       "signatures": [
         {
-          "code": "sourceKey: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sourceKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -98,7 +98,7 @@
         }
       ]
     },
-    "9156": {
+    "11959": {
       "name": "setInheritedValue",
       "type": "Property",
       "url": "/api/class/InheritedProperty#setinheritedvalue",
@@ -107,7 +107,7 @@
       },
       "signatures": [
         {
-          "code": "setInheritedValue: (value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInheritedValue</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -119,7 +119,7 @@
         }
       ]
     },
-    "9160": {
+    "11963": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/InheritedProperty#name",
@@ -131,7 +131,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -146,7 +146,7 @@
         }
       ]
     },
-    "9161": {
+    "11964": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/InheritedProperty#key",
@@ -158,7 +158,7 @@
       },
       "signatures": [
         {
-          "code": "key: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -173,7 +173,7 @@
         }
       ]
     },
-    "9162": {
+    "11965": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/InheritedProperty#getdefault",
@@ -185,7 +185,7 @@
       },
       "signatures": [
         {
-          "code": "getDefault: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDefault</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -200,7 +200,7 @@
         }
       ]
     },
-    "9163": {
+    "11966": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/InheritedProperty#setnative",
@@ -212,7 +212,7 @@
       },
       "signatures": [
         {
-          "code": "setNative: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNative</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -227,7 +227,7 @@
         }
       ]
     },
-    "9164": {
+    "11967": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/InheritedProperty#defaultvaluekey",
@@ -239,7 +239,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValueKey: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValueKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -254,7 +254,7 @@
         }
       ]
     },
-    "9165": {
+    "11968": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/InheritedProperty#defaultvalue",
@@ -266,7 +266,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValue: U",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValue</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">U</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -281,7 +281,7 @@
         }
       ]
     },
-    "9166": {
+    "11969": {
       "name": "nativeValueChange",
       "type": "Property",
       "url": "/api/class/InheritedProperty#nativevaluechange",
@@ -293,7 +293,7 @@
       },
       "signatures": [
         {
-          "code": "nativeValueChange: (owner: T, value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeValueChange</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">owner</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -308,7 +308,7 @@
         }
       ]
     },
-    "9171": {
+    "11974": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/InheritedProperty#isstyleproperty",
@@ -318,7 +318,7 @@
       },
       "signatures": [
         {
-          "code": "isStyleProperty: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isStyleProperty</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -333,7 +333,7 @@
         }
       ]
     },
-    "9172": {
+    "11975": {
       "name": "get",
       "type": "Property",
       "url": "/api/class/InheritedProperty#get",
@@ -343,7 +343,7 @@
       },
       "signatures": [
         {
-          "code": "get: () => U",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">U</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -358,7 +358,7 @@
         }
       ]
     },
-    "9175": {
+    "11978": {
       "name": "set",
       "type": "Property",
       "url": "/api/class/InheritedProperty#set",
@@ -368,7 +368,7 @@
       },
       "signatures": [
         {
-          "code": "set: (value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -383,7 +383,7 @@
         }
       ]
     },
-    "9179": {
+    "11982": {
       "name": "overrideHandlers",
       "type": "Property",
       "url": "/api/class/InheritedProperty#overridehandlers",
@@ -393,7 +393,7 @@
       },
       "signatures": [
         {
-          "code": "overrideHandlers: (options: PropertyOptions&lt;T, U&gt;) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">overrideHandlers</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">options</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">PropertyOptions</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">U</span><span style=\"color: #E1E4E8\">&amp;</span><span style=\"color: #FFAB70\">gt</span><span style=\"color: #E1E4E8\">;) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -408,7 +408,7 @@
         }
       ]
     },
-    "9183": {
+    "11986": {
       "name": "enumerable",
       "type": "Property",
       "url": "/api/class/InheritedProperty#enumerable",
@@ -418,7 +418,7 @@
       },
       "signatures": [
         {
-          "code": "enumerable: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">enumerable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -433,7 +433,7 @@
         }
       ]
     },
-    "9184": {
+    "11987": {
       "name": "configurable",
       "type": "Property",
       "url": "/api/class/InheritedProperty#configurable",
@@ -443,7 +443,7 @@
       },
       "signatures": [
         {
-          "code": "configurable: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">configurable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -458,7 +458,7 @@
         }
       ]
     },
-    "9185": {
+    "11988": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/InheritedProperty#register",
@@ -469,7 +469,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "register(cls: {}): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">register</span><span style=\"color: #E1E4E8\">(cls: {}): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/InheritedProperty#register-register-1",
           "sources": [
             {
@@ -492,7 +492,7 @@
         }
       ]
     },
-    "9190": {
+    "11993": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/InheritedProperty#isset",
@@ -503,7 +503,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isSet(instance: T): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isSet</span><span style=\"color: #E1E4E8\">(instance: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">): boolean</span></span></code>",
           "url": "/api/class/InheritedProperty#isset-isset-1",
           "sources": [
             {

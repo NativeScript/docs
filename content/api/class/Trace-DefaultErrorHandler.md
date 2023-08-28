@@ -1,6 +1,15 @@
 ---
 title: Trace.DefaultErrorHandler
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Trace'
+    href: '/api/namespace/Trace'
+  - name: 'DefaultErrorHandler'
 layout: api
 seo:
   description: "An interface used to for handling trace error"
@@ -28,7 +37,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2908" v-once>
+<APIRef for="5161" v-once>
 
 <template #title>
 
@@ -44,7 +53,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2910" v-once>
+<APIRef for="5163" v-once>
 
 <template #title>
 

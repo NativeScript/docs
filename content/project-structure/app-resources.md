@@ -1,5 +1,7 @@
 ---
 title: App_Resources
+contributors:
+  - rigor789
 ---
 
 The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform.
@@ -201,7 +203,7 @@ To change the mode of the TimePicker from the default `spinner` style, change `a
 
 ### Enabling force Dark Mode
 
-On API29+ apps can opt-in to a default Dark Mode when the system is set to use Dark Mode. This is disabled by default as it can lead to visual issues, since the automatic conversion may not display correctly in all cases.
+On API29+ apps can opt-in to a default Dark Mode when the system is set to use Dark Mode. This is turned off by default as it can lead to visual issues, since the automatic conversion may not display correctly in all cases.
 
 To opt-in, change the `android:forceDarkAllowed` value to `true` in `App_Resources/Android/src/main/res/values-v29/styles.xml`:
 
@@ -224,7 +226,25 @@ If you enable `android:forceDarkAllowed` make sure you check if all the screens 
 
 ## iOS specific resources
 
-Most things on iOS are controlled directly through the app's template code.
+Most things on iOS are controlled directly through the app's template code however you can change the status bar style between dark (black text) or light (white text) by adding the following to your app's App_Resources/iOS/ Info.plist:
+
+- Use white text on dark background:
+
+```xml
+<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleLightContent</string>
+<key>UIViewControllerBasedStatusBarAppearance</key>
+<false/>
+```
+
+- Use black text on light background:
+
+```xml
+<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleDarkContent</string>
+<key>UIViewControllerBasedStatusBarAppearance</key>
+<false/>
+```
 
 ### Adding custom entitlements
 

@@ -1,6 +1,9 @@
 ---
 title: Shared Element Transitions
 description: Shared Element Transitions allow you to auto animate shared elements from one page to the next allowing you to deliver smooth navigational experiences.
+contributors:
+  - NathanWalker
+  - rigor789
 ---
 
 ::: tip API Availabilty
@@ -13,7 +16,7 @@ When looking for ways to elevate user experience of your apps, Shared Element Tr
 
 In essence you can declare `sharedTransitionTag` attributes on components across different pages, and pass in a custom `SharedTransition` to create engaging visual effects.
 
-<DeviceFrame type="ios">
+<DeviceFrame type="window" :buttons="false" title="Shared Element Transition Example">
 <img src="/assets/images/guide/shared-element-transitions.gif">
 </DeviceFrame>
 
@@ -78,7 +81,7 @@ page.showModal('views/modal', {
 
 ### Independent shared elements
 
-In some cases you might not have an element present on both "ends", or just need to animate additional elements during the transition. That's what "independent" shared elements solve.
+In some cases you might not have an element present on both "ends", or need to animate additional elements during the transition. That's what "independent" shared elements solve.
 
 Consider the following example:
 
@@ -417,7 +420,7 @@ Used internally to finish the state after a transition has completed. Provided i
 
 ## Troubleshooting
 
-- It's easy to accidentally provide mismatching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
+- It's common to accidentally provide mismatching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
 - Try avoiding `sharedTransitionTag` on Labels since they usually won't exhibit expected behavior.
 
 ## Acknowledgements

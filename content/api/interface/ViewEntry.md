@@ -1,6 +1,13 @@
 ---
 title: ViewEntry
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ViewEntry'
 layout: api
 seo:
   description: "Represents an entry to be used to create a view or load it form file"
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ViewEntry {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ViewEntry {
   create: () => <a href="/api/class/View">View</a>;
   moduleName: string;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="11004" v-once>
+<APIRef for="13918" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="11003" v-once>
+<APIRef for="13917" v-once>
 
 <template #title>
 

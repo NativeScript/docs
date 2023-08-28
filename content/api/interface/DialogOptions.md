@@ -1,6 +1,13 @@
 ---
 title: DialogOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'DialogOptions'
 layout: api
 seo:
   description: "Provides options for the dialog."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface DialogOptions extends <a href="/api/interface/CancelableOptions">CancelableOptions</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface DialogOptions extends <a href="/api/interface/CancelableOptions">CancelableOptions</a> {
   message: string;
   title: string;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10124" v-once>
+<APIRef for="12980" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10123" v-once>
+<APIRef for="12979" v-once>
 
 <template #title>
 

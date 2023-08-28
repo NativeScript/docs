@@ -17,21 +17,21 @@
     {
       "title": "Properties",
       "items": [
-        10148,
-        10143,
-        10142,
-        10140,
-        10141,
-        10147,
-        10144,
-        10145,
-        10149,
-        10146
+        13004,
+        12999,
+        12998,
+        12996,
+        12997,
+        13003,
+        13000,
+        13001,
+        13005,
+        13002
       ]
     }
   ],
   "reflections": {
-    "10140": {
+    "12996": {
       "name": "defaultText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#defaulttext",
@@ -48,7 +48,7 @@
       },
       "signatures": [
         {
-          "code": "defaultText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">defaultText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "10141": {
+    "12997": {
       "name": "inputType",
       "type": "Property",
       "url": "/api/interface/PromptOptions#inputtype",
@@ -85,7 +85,7 @@
       },
       "signatures": [
         {
-          "code": "inputType?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">inputType</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -105,7 +105,7 @@
         }
       ]
     },
-    "10142": {
+    "12998": {
       "name": "capitalizationType",
       "type": "Property",
       "url": "/api/interface/PromptOptions#capitalizationtype",
@@ -122,7 +122,7 @@
       },
       "signatures": [
         {
-          "code": "capitalizationType?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">capitalizationType</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "10143": {
+    "12999": {
       "name": "cancelButtonText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#cancelbuttontext",
@@ -165,7 +165,7 @@
       },
       "signatures": [
         {
-          "code": "cancelButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -191,7 +191,7 @@
         }
       ]
     },
-    "10144": {
+    "13000": {
       "name": "neutralButtonText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#neutralbuttontext",
@@ -214,7 +214,7 @@
       },
       "signatures": [
         {
-          "code": "neutralButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">neutralButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -240,7 +240,7 @@
         }
       ]
     },
-    "10145": {
+    "13001": {
       "name": "okButtonText",
       "type": "Property",
       "url": "/api/interface/PromptOptions#okbuttontext",
@@ -263,7 +263,7 @@
       },
       "signatures": [
         {
-          "code": "okButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">okButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -289,7 +289,7 @@
         }
       ]
     },
-    "10146": {
+    "13002": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/PromptOptions#title",
@@ -312,7 +312,7 @@
       },
       "signatures": [
         {
-          "code": "title?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">title</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -338,7 +338,7 @@
         }
       ]
     },
-    "10147": {
+    "13003": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/PromptOptions#message",
@@ -361,7 +361,7 @@
       },
       "signatures": [
         {
-          "code": "message?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">message</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -387,7 +387,7 @@
         }
       ]
     },
-    "10148": {
+    "13004": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/PromptOptions#cancelable",
@@ -410,7 +410,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -436,7 +436,7 @@
         }
       ]
     },
-    "10149": {
+    "13005": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/PromptOptions#theme",
@@ -459,7 +459,7 @@
       },
       "signatures": [
         {
-          "code": "theme?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">theme</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

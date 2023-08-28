@@ -11,19 +11,19 @@
     {
       "title": "Constructors",
       "items": [
-        6501
+        9067
       ]
     },
     {
       "title": "Methods",
       "items": [
-        6508,
-        6510
+        9074,
+        9076
       ]
     }
   ],
   "reflections": {
-    "6501": {
+    "9067": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ControlStateChangeListener#constructor",
@@ -80,7 +80,7 @@
         }
       ]
     },
-    "6508": {
+    "9074": {
       "name": "start",
       "type": "Method",
       "url": "/api/class/ControlStateChangeListener#start",
@@ -88,7 +88,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "start(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">start</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/ControlStateChangeListener#start-start-1",
           "sources": [
             {
@@ -102,7 +102,7 @@
         }
       ]
     },
-    "6510": {
+    "9076": {
       "name": "stop",
       "type": "Method",
       "url": "/api/class/ControlStateChangeListener#stop",
@@ -110,7 +110,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "stop(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stop</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/ControlStateChangeListener#stop-stop-1",
           "sources": [
             {

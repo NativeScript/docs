@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        1136,
-        1135,
-        1137,
-        1138
+        4756,
+        4755,
+        4757,
+        4758
       ]
     }
   ],
   "reflections": {
-    "1135": {
+    "4755": {
       "name": "cancel",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBackPressedEventData#cancel",
@@ -40,12 +40,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "cancel: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancel</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 487,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 180,
+              "character": 4
             }
           ],
           "comment": {
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "1136": {
+    "4756": {
       "name": "activity",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBackPressedEventData#activity",
@@ -81,12 +81,12 @@
       },
       "signatures": [
         {
-          "code": "activity: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">activity</span><span style=\"color: #E1E4E8\">: AppCompatActivity</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 407,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -107,7 +107,7 @@
         }
       ]
     },
-    "1137": {
+    "4757": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBackPressedEventData#eventname",
@@ -128,12 +128,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 412,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "1138": {
+    "4758": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/AndroidActivityBackPressedEventData#object",
@@ -175,12 +175,12 @@
       },
       "signatures": [
         {
-          "code": "object: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">object</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 417,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
             }
           ],
           "inheritedFrom": {

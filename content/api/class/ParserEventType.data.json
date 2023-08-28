@@ -11,22 +11,22 @@
     {
       "title": "Constructors",
       "items": [
-        2573
+        2858
       ]
     },
     {
       "title": "Properties",
       "items": [
-        2571,
-        2572,
-        2569,
-        2568,
-        2570
+        2856,
+        2857,
+        2854,
+        2853,
+        2855
       ]
     }
   ],
   "reflections": {
-    "2568": {
+    "2853": {
       "name": "StartElement",
       "type": "Property",
       "url": "/api/class/ParserEventType#startelement",
@@ -43,7 +43,7 @@
       },
       "signatures": [
         {
-          "code": "StartElement: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StartElement</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -63,7 +63,7 @@
         }
       ]
     },
-    "2569": {
+    "2854": {
       "name": "EndElement",
       "type": "Property",
       "url": "/api/class/ParserEventType#endelement",
@@ -80,7 +80,7 @@
       },
       "signatures": [
         {
-          "code": "EndElement: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EndElement</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -100,7 +100,7 @@
         }
       ]
     },
-    "2570": {
+    "2855": {
       "name": "Text",
       "type": "Property",
       "url": "/api/class/ParserEventType#text",
@@ -117,7 +117,7 @@
       },
       "signatures": [
         {
-          "code": "Text: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -137,7 +137,7 @@
         }
       ]
     },
-    "2571": {
+    "2856": {
       "name": "CDATA",
       "type": "Property",
       "url": "/api/class/ParserEventType#cdata",
@@ -154,7 +154,7 @@
       },
       "signatures": [
         {
-          "code": "CDATA: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CDATA</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -174,7 +174,7 @@
         }
       ]
     },
-    "2572": {
+    "2857": {
       "name": "Comment",
       "type": "Property",
       "url": "/api/class/ParserEventType#comment",
@@ -191,7 +191,7 @@
       },
       "signatures": [
         {
-          "code": "Comment: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Comment</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/xml/index.d.ts",
@@ -211,7 +211,7 @@
         }
       ]
     },
-    "2573": {
+    "2858": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ParserEventType#constructor",

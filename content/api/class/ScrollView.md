@@ -1,6 +1,13 @@
 ---
 title: ScrollView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ScrollView'
 layout: api
 seo:
   description: "Represents a scrollable area that can have content that is larger than its bounds."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19304" v-once>
+<APIRef for="22858" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19308" v-once>
+<APIRef for="22862" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19306" v-once>
+<APIRef for="22860" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19320" v-once>
+<APIRef for="22874" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19311" v-once>
+<APIRef for="22865" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19309" v-once>
+<APIRef for="22863" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19310" v-once>
+<APIRef for="22864" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19307" v-once>
+<APIRef for="22861" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="19239" v-once>
+<APIRef for="22778" v-once>
 
 <template #title>
 
@@ -158,7 +165,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19336" v-once>
+<APIRef for="22890" v-once>
 
 <template #title>
 
@@ -172,7 +179,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19321" v-once>
+<APIRef for="22875" v-once>
 
 <template #title>
 
@@ -186,7 +193,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19316" v-once>
+<APIRef for="22870" v-once>
 
 <template #title>
 
@@ -200,7 +207,7 @@ seo:
 
 <div class="">
 
-<APIRef for="19312" v-once>
+<APIRef for="22866" v-once>
 
 <template #title>
 

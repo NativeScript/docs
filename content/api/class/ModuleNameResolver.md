@@ -1,9 +1,16 @@
 ---
 title: ModuleNameResolver
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ModuleNameResolver'
 layout: api
 seo:
-  description: undefined
+  description: ModuleNameResolver
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2401" v-once>
+<APIRef for="2299" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2409" v-once>
+<APIRef for="2307" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2405" v-once>
+<APIRef for="2303" v-once>
 
 <template #title>
 

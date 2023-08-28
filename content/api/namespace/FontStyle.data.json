@@ -5,20 +5,20 @@
     {
       "title": "Variables",
       "items": [
-        22487,
-        22486
+        26289,
+        26288
       ]
     },
     {
       "title": "Functions",
       "items": [
-        22480,
-        22483
+        26282,
+        26285
       ]
     }
   ],
   "reflections": {
-    "22480": {
+    "26282": {
       "name": "isValid",
       "type": "Function",
       "url": "/api/namespace/FontStyle#isvalid",
@@ -26,12 +26,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isValid(value: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isValid</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
           "url": "/api/namespace/FontStyle#isvalid-isvalid-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
-              "line": 31,
+              "line": 35,
               "character": 1
             }
           ],
@@ -46,7 +46,7 @@
         }
       ]
     },
-    "22483": {
+    "26285": {
       "name": "parse",
       "type": "Function",
       "url": "/api/namespace/FontStyle#parse",
@@ -54,12 +54,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "parse(value: string): <a href=\"/api/index#fontstyle-1\">FontStyle</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parse</span><span style=\"color: #E1E4E8\">(value: string): FontStyleType</span></span></code>",
           "url": "/api/namespace/FontStyle#parse-parse-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
-              "line": 32,
+              "line": 36,
               "character": 1
             }
           ],
@@ -70,11 +70,11 @@
               "flags": {}
             }
           ],
-          "returns": "<a href=\"/api/index#fontstyle-1\">FontStyle</a>"
+          "returns": "FontStyleType"
         }
       ]
     },
-    "22486": {
+    "26288": {
       "name": "NORMAL",
       "type": "Variable",
       "url": "/api/namespace/FontStyle#normal",
@@ -83,11 +83,11 @@
       },
       "signatures": [
         {
-          "code": "NORMAL: \"normal\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NORMAL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
-              "line": 29,
+              "line": 33,
               "character": 14
             }
           ],
@@ -95,7 +95,7 @@
         }
       ]
     },
-    "22487": {
+    "26289": {
       "name": "ITALIC",
       "type": "Variable",
       "url": "/api/namespace/FontStyle#italic",
@@ -104,11 +104,11 @@
       },
       "signatures": [
         {
-          "code": "ITALIC: \"italic\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ITALIC</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;italic&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/font.d.ts",
-              "line": 30,
+              "line": 34,
               "character": 14
             }
           ],

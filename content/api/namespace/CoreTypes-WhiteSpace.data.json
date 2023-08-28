@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2717,
-        2718
+        4865,
+        4866
       ]
     }
   ],
   "reflections": {
-    "2717": {
+    "4865": {
       "name": "normal",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-WhiteSpace#normal",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Normal wrap."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "normal: <a href=\"/api/namespace/CoreTypes#whitespacetype\">WhiteSpaceType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normal</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 537,
-              "character": 15
+              "line": 84,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Normal wrap."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-WhiteSpace#normal"
         }
       ]
     },
-    "2718": {
+    "4866": {
       "name": "nowrap",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-WhiteSpace#nowrap",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "No wrap."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "nowrap: <a href=\"/api/namespace/CoreTypes#whitespacetype\">WhiteSpaceType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nowrap</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;nowrap&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;nowrap&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 542,
-              "character": 15
+              "line": 85,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "No wrap."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-WhiteSpace#nowrap"
         }
       ]

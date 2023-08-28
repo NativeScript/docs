@@ -1,6 +1,13 @@
 ---
 title: AbsoluteLayout
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'AbsoluteLayout'
 layout: api
 seo:
   description: "A layout that lets you specify exact locations (left/top coordinates) of its children."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="29558" v-once>
+<APIRef for="34409" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="29480" v-once>
+<APIRef for="34316" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="29487" v-once>
+<APIRef for="34323" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="29483" v-once>
+<APIRef for="34319" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="29490" v-once>
+<APIRef for="34326" v-once>
 
 <template #title>
 

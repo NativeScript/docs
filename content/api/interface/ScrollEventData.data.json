@@ -17,22 +17,22 @@
     {
       "title": "Properties",
       "items": [
-        19937,
-        19938,
-        19935,
-        19936
+        23529,
+        23530,
+        23527,
+        23528
       ]
     }
   ],
   "reflections": {
-    "19935": {
+    "23527": {
       "name": "scrollX",
       "type": "Property",
       "url": "/api/interface/ScrollEventData#scrollx",
       "flags": {},
       "signatures": [
         {
-          "code": "scrollX: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scrollX</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
@@ -44,14 +44,14 @@
         }
       ]
     },
-    "19936": {
+    "23528": {
       "name": "scrollY",
       "type": "Property",
       "url": "/api/interface/ScrollEventData#scrolly",
       "flags": {},
       "signatures": [
         {
-          "code": "scrollY: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">scrollY</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/scroll-view/index.d.ts",
@@ -63,7 +63,7 @@
         }
       ]
     },
-    "19937": {
+    "23529": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/ScrollEventData#eventname",
@@ -84,12 +84,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -110,7 +110,7 @@
         }
       ]
     },
-    "19938": {
+    "23530": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/ScrollEventData#object",
@@ -135,8 +135,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

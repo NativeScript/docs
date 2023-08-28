@@ -1,6 +1,13 @@
 ---
 title: capitalizationType
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'capitalizationType'
 layout: api
 seo:
   description: "Defines the capitalization type for prompt dialog."
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10119" v-once>
+<APIRef for="12975" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10118" v-once>
+<APIRef for="12974" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10120" v-once>
+<APIRef for="12976" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="10121" v-once>
+<APIRef for="12977" v-once>
 
 <template #title>
 

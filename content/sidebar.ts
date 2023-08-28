@@ -1,4 +1,4 @@
-import { NSSidebarGroup } from '@packages/vitepress-theme/src'
+import type { NSSidebarGroup } from '../.vitepress/theme/vitepress-theme'
 
 export default [
   {
@@ -8,7 +8,6 @@ export default [
       {
         text: 'Environment Setup',
         link: '/setup/',
-        hideChildren: true,
         items: [
           { text: 'Windows', link: '/setup/windows' },
           { text: 'macOS', link: '/setup/macos' },
@@ -16,8 +15,8 @@ export default [
         ],
       },
       {
-        text: 'Creating a new Project',
-        link: '/creating-a-new-project',
+        text: 'Creating a Project',
+        link: '/guide/creating-a-project',
       },
       {
         text: 'Development Workflow',
@@ -48,6 +47,10 @@ export default [
         text: 'Publishing',
         link: '/guide/publishing/',
       },
+      // {
+      //   text: 'Tutorials',
+      //   link: '/tutorials/',
+      // },
       {
         text: 'Troubleshooting',
         link: '/troubleshooting',
@@ -55,7 +58,43 @@ export default [
     ],
   },
   {
+    text: 'Development Workflow',
+    items: [
+      {
+        text: 'CLI Basics',
+        link: '/guide/cli-basics',
+      },
+      {
+        text: 'Running',
+        link: '/guide/running',
+      },
+
+      {
+        text: 'Debugging',
+        link: '/guide/debugging',
+      },
+      {
+        text: 'Publishing',
+        link: '/guide/publishing/',
+      },
+    ],
+  },
+  {
+    text: 'Configuration',
+    items: [
+      {
+        text: 'Config Reference',
+        link: '/configuration/nativescript',
+      },
+      {
+        text: 'Webpack Reference',
+        link: '/configuration/webpack',
+      },
+    ],
+  },
+  {
     text: 'Project Structure',
+    type: 'filetree',
     items: [
       {
         text: 'App_Resources/',
@@ -66,6 +105,7 @@ export default [
         text: 'src/',
         link: '/project-structure/src/',
         icon: 'folder',
+        collapsible: false,
         items: [
           {
             text: 'fonts/',
@@ -73,12 +113,12 @@ export default [
             icon: 'folder',
           },
           {
-            text: 'app.(css|scss)',
+            text: 'app.css•scss',
             link: '/project-structure/src/app-css-scss',
             icon: 'file',
           },
           {
-            text: 'main.(js|ts)',
+            text: 'main.js•ts',
             link: '/project-structure/src/main-js-ts',
             icon: 'file',
           },
@@ -217,8 +257,8 @@ export default [
       },
       {
         text: 'Shared Element Transitions',
-        link: '/guide/shared-element-transitions'
-      }
+        link: '/guide/shared-element-transitions',
+      },
     ],
   },
   {
@@ -293,18 +333,6 @@ export default [
       //           { text: 'WevView', link: '//#' },
     ],
   },
-  //       {
-  //         text: 'Dialogs',
-  //         items: [
-  //           { text: 'ActionDialog', link: '//#' },
-  //           { text: 'AlertDialog', link: '//#' },
-  //           { text: 'ConfirmDialog', link: '//#' },
-  //           { text: 'LoginDialog', link: '//#' },
-  //           { text: 'PromptDialog', link: '//#' },
-  //         ],
-  //       },
-      ],
-    },
   //   {
   //     text: 'Diving Deeper',
   //     items: [{ text: 'Architecture concepts', link: '//#' }],

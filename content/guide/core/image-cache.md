@@ -1,5 +1,7 @@
 ---
 title: ImageCache
+contributors:
+  - Ombuweb
 ---
 
 ImageCache allows you to cache an image from an HTTP request.

@@ -1,6 +1,13 @@
 ---
 title: Page
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Page'
 layout: api
 seo:
   description: "Represents a logical unit for navigation (inside Frame)."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="14984" v-once>
+<APIRef for="18200" v-once>
 
 <template #title>
 
@@ -42,23 +49,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate">
-
-<APIRef for="15038" v-once>
-
-<template #title>
-
-### _frame
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isPublic">
 
-<APIRef for="15000" v-once>
+<APIRef for="18216" v-once>
 
 <template #title>
 
@@ -72,7 +65,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14996" v-once>
+<APIRef for="18212" v-once>
 
 <template #title>
 
@@ -86,7 +79,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14989" v-once>
+<APIRef for="18205" v-once>
 
 <template #title>
 
@@ -100,7 +93,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14988" v-once>
+<APIRef for="18204" v-once>
 
 <template #title>
 
@@ -114,7 +107,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14986" v-once>
+<APIRef for="18202" v-once>
 
 <template #title>
 
@@ -128,7 +121,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14990" v-once>
+<APIRef for="18206" v-once>
 
 <template #title>
 
@@ -142,7 +135,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14995" v-once>
+<APIRef for="18211" v-once>
 
 <template #title>
 
@@ -154,23 +147,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="15037" v-once>
-
-<template #title>
-
-### hasActionBar
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isPublic">
 
-<APIRef for="14994" v-once>
+<APIRef for="18210" v-once>
 
 <template #title>
 
@@ -184,7 +163,7 @@ seo:
 
 <div class="isPublic isOptional">
 
-<APIRef for="14997" v-once>
+<APIRef for="18213" v-once>
 
 <template #title>
 
@@ -198,7 +177,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14987" v-once>
+<APIRef for="18203" v-once>
 
 <template #title>
 
@@ -210,9 +189,9 @@ seo:
 
 </div>
 
-<div class="isPublic isStatic">
+<div class="isPublic isStatic isReadonly">
 
-<APIRef for="14919" v-once>
+<APIRef for="18120" v-once>
 
 <template #title>
 
@@ -224,9 +203,9 @@ seo:
 
 </div>
 
-<div class="isPublic isStatic">
+<div class="isPublic isStatic isReadonly">
 
-<APIRef for="14917" v-once>
+<APIRef for="18118" v-once>
 
 <template #title>
 
@@ -238,9 +217,9 @@ seo:
 
 </div>
 
-<div class="isPublic isStatic">
+<div class="isPublic isStatic isReadonly">
 
-<APIRef for="14918" v-once>
+<APIRef for="18119" v-once>
 
 <template #title>
 
@@ -252,9 +231,9 @@ seo:
 
 </div>
 
-<div class="isPublic isStatic">
+<div class="isPublic isStatic isReadonly">
 
-<APIRef for="14916" v-once>
+<APIRef for="18117" v-once>
 
 <template #title>
 
@@ -270,7 +249,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="15053" v-once>
+<APIRef for="18269" v-once>
 
 <template #title>
 
@@ -284,7 +263,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="14991" v-once>
+<APIRef for="18207" v-once>
 
 <template #title>
 
@@ -298,67 +277,11 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="15001" v-once>
+<APIRef for="18217" v-once>
 
 <template #title>
 
 ### on
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="15050" v-once>
-
-<template #title>
-
-### onNavigatedFrom
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="15044" v-once>
-
-<template #title>
-
-### onNavigatedTo
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="15047" v-once>
-
-<template #title>
-
-### onNavigatingFrom
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="15039" v-once>
-
-<template #title>
-
-### onNavigatingTo
 
 </template>
 

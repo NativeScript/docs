@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.FontWeight
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'FontWeight'
 layout: api
 seo:
-  description: "Specifies different font weights."
+  description: CoreTypes.FontWeight
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJTcGVjaWZpZXMgZGlmZmVyZW50IGZvbnQgd2VpZ2h0cy4ifV19" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2728" v-once>
+<APIRef for="4987" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2726" v-once>
+<APIRef for="4985" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2727" v-once>
+<APIRef for="4986" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2721" v-once>
+<APIRef for="4980" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2722" v-once>
+<APIRef for="4981" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2724" v-once>
+<APIRef for="4983" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2723" v-once>
+<APIRef for="4982" v-once>
 
 <template #title>
 
@@ -126,7 +133,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2725" v-once>
+<APIRef for="4984" v-once>
 
 <template #title>
 
@@ -140,7 +147,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2720" v-once>
+<APIRef for="4979" v-once>
 
 <template #title>
 

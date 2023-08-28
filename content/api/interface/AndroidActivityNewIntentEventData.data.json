@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        1131,
-        1132,
-        1130,
-        1133
+        4751,
+        4752,
+        4750,
+        4753
       ]
     }
   ],
   "reflections": {
-    "1130": {
+    "4750": {
       "name": "intent",
       "type": "Property",
       "url": "/api/interface/AndroidActivityNewIntentEventData#intent",
@@ -40,12 +40,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "intent: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">intent</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 477,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 171,
+              "character": 4
             }
           ],
           "comment": {
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "1131": {
+    "4751": {
       "name": "activity",
       "type": "Property",
       "url": "/api/interface/AndroidActivityNewIntentEventData#activity",
@@ -81,12 +81,12 @@
       },
       "signatures": [
         {
-          "code": "activity: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">activity</span><span style=\"color: #E1E4E8\">: AppCompatActivity</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 407,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -107,7 +107,7 @@
         }
       ]
     },
-    "1132": {
+    "4752": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/AndroidActivityNewIntentEventData#eventname",
@@ -128,12 +128,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 412,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "1133": {
+    "4753": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/AndroidActivityNewIntentEventData#object",
@@ -175,12 +175,12 @@
       },
       "signatures": [
         {
-          "code": "object: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">object</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 417,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
             }
           ],
           "inheritedFrom": {

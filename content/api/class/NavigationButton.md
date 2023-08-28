@@ -1,6 +1,13 @@
 ---
 title: NavigationButton
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'NavigationButton'
 layout: api
 seo:
   description: "Represents the navigation (a.k.a. \"back\") button."
@@ -28,27 +35,11 @@ seo:
 
 <div class="">
 
-<APIRef for="3981" v-once>
+<APIRef for="6354" v-once>
 
 <template #title>
 
 ### constructor
-
-</template>
-
-</APIRef>
-
-</div>
-
-## Properties
-
-<div class="isPrivate isOptional">
-
-<APIRef for="3983" v-once>
-
-<template #title>
-
-### _navigationItem
 
 </template>
 

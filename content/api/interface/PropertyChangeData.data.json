@@ -17,16 +17,16 @@
     {
       "title": "Properties",
       "items": [
-        1778,
-        1779,
-        1777,
-        1775,
-        1776
+        1565,
+        1566,
+        1564,
+        1562,
+        1563
       ]
     }
   ],
   "reflections": {
-    "1775": {
+    "1562": {
       "name": "propertyName",
       "type": "Property",
       "url": "/api/interface/PropertyChangeData#propertyname",
@@ -41,12 +41,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "propertyName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 27,
-              "character": 1
+              "line": 25,
+              "character": 4
             }
           ],
           "comment": {
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "1776": {
+    "1563": {
       "name": "value",
       "type": "Property",
       "url": "/api/interface/PropertyChangeData#value",
@@ -76,12 +76,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "value: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">value</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 31,
-              "character": 1
+              "line": 29,
+              "character": 4
             }
           ],
           "comment": {
@@ -96,7 +96,7 @@
         }
       ]
     },
-    "1777": {
+    "1564": {
       "name": "oldValue",
       "type": "Property",
       "url": "/api/interface/PropertyChangeData#oldvalue",
@@ -113,12 +113,12 @@
       },
       "signatures": [
         {
-          "code": "oldValue?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 35,
-              "character": 1
+              "line": 33,
+              "character": 4
             }
           ],
           "comment": {
@@ -133,7 +133,7 @@
         }
       ]
     },
-    "1778": {
+    "1565": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/PropertyChangeData#eventname",
@@ -154,12 +154,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -180,7 +180,7 @@
         }
       ]
     },
-    "1779": {
+    "1566": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/PropertyChangeData#object",
@@ -205,8 +205,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

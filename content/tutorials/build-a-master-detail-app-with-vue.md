@@ -2,6 +2,12 @@
 title: Build a master-detail app with Vue
 category: Tutorials
 categoryLink: /tutorials/
+prev: false
+next: false
+contributors:
+  - williamjuan027
+  - Leon0824
+  - winescout
 ---
 
 This tutorial introduces you to the fundamentals of building a NativeScript app with Vue by walking you through building an example app with some basic functionalities.
@@ -252,7 +258,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 ![Home page layout breakdown](/assets/images/tutorial/tutorial-example-app-master-breakdown.png)
 
-The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `Home.vue` and add the following code:
+The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `Home.vue` and add the following code:
 
 ```vue{6}
 <!-- app/components/Home.vue -->
@@ -529,7 +535,7 @@ export default Vue.extend({
 </script>
 ```
 
-Next, let's add the tap event to the listview items. Open `Home.vue` and add the following:
+Next, let's add the tap event to the ListView items. Open `Home.vue` and add the following:
 
 ```html{11}
 <!-- app/components/Home.vue -->
@@ -642,7 +648,7 @@ Let's break down the layout and UI elements of the details page.
 
 ![Details page layout breakdown](/assets/images/tutorial/tutorial-example-app-details-breakdown.png)
 
-The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Vue's `v-for` directive to loop through the array and create a UI element or set of elements for each entry in the array. Open `Details.vue` and add the following code:
+The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Vue's `v-for` directive to loop through the array and create a UI element or set of elements for each entry in the array. Open `Details.vue` and add the following code:
 
 ```vue{6,9-31}
 <!-- app/components/Details.vue -->

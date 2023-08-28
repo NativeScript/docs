@@ -5,21 +5,21 @@
     {
       "title": "Enumeration Members",
       "items": [
-        22428,
-        22427,
-        22426
+        26226,
+        26225,
+        26224
       ]
     }
   ],
   "reflections": {
-    "22426": {
+    "26224": {
       "name": "none",
       "type": "EnumMember",
       "url": "/api/enum/CacheMode#none",
       "flags": {},
       "signatures": [
         {
-          "code": "none: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background.d.ts",
@@ -31,14 +31,14 @@
         }
       ]
     },
-    "22427": {
+    "26225": {
       "name": "memory",
       "type": "EnumMember",
       "url": "/api/enum/CacheMode#memory",
       "flags": {},
       "signatures": [
         {
-          "code": "memory: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">memory</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background.d.ts",
@@ -50,14 +50,14 @@
         }
       ]
     },
-    "22428": {
+    "26226": {
       "name": "diskAndMemory",
       "type": "EnumMember",
       "url": "/api/enum/CacheMode#diskandmemory",
       "flags": {},
       "signatures": [
         {
-          "code": "diskAndMemory: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">diskAndMemory</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/background.d.ts",

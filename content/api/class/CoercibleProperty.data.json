@@ -17,38 +17,38 @@
     {
       "title": "Constructors",
       "items": [
-        9105
+        11908
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9110,
-        9138,
-        9119,
-        9118,
-        9137,
-        9126,
-        9116,
-        9125,
-        9115,
-        9114,
-        9120,
-        9133,
-        9129,
-        9117
+        11913,
+        11941,
+        11922,
+        11921,
+        11940,
+        11929,
+        11919,
+        11928,
+        11918,
+        11917,
+        11923,
+        11936,
+        11932,
+        11920
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9144,
-        9139
+        11947,
+        11942
       ]
     }
   ],
   "reflections": {
-    "9105": {
+    "11908": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/CoercibleProperty#constructor",
@@ -76,7 +76,7 @@
         }
       ]
     },
-    "9110": {
+    "11913": {
       "name": "coerce",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#coerce",
@@ -85,7 +85,7 @@
       },
       "signatures": [
         {
-          "code": "coerce: (target: T) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">coerce</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">target</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "9114": {
+    "11917": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#name",
@@ -109,7 +109,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -124,7 +124,7 @@
         }
       ]
     },
-    "9115": {
+    "11918": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#key",
@@ -136,7 +136,7 @@
       },
       "signatures": [
         {
-          "code": "key: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -151,7 +151,7 @@
         }
       ]
     },
-    "9116": {
+    "11919": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#getdefault",
@@ -163,7 +163,7 @@
       },
       "signatures": [
         {
-          "code": "getDefault: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDefault</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -178,7 +178,7 @@
         }
       ]
     },
-    "9117": {
+    "11920": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#setnative",
@@ -190,7 +190,7 @@
       },
       "signatures": [
         {
-          "code": "setNative: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNative</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -205,7 +205,7 @@
         }
       ]
     },
-    "9118": {
+    "11921": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#defaultvaluekey",
@@ -217,7 +217,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValueKey: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValueKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -232,7 +232,7 @@
         }
       ]
     },
-    "9119": {
+    "11922": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#defaultvalue",
@@ -244,7 +244,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValue: U",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValue</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">U</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -259,7 +259,7 @@
         }
       ]
     },
-    "9120": {
+    "11923": {
       "name": "nativeValueChange",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#nativevaluechange",
@@ -271,7 +271,7 @@
       },
       "signatures": [
         {
-          "code": "nativeValueChange: (owner: T, value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeValueChange</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">owner</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -286,7 +286,7 @@
         }
       ]
     },
-    "9125": {
+    "11928": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#isstyleproperty",
@@ -296,7 +296,7 @@
       },
       "signatures": [
         {
-          "code": "isStyleProperty: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isStyleProperty</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -311,7 +311,7 @@
         }
       ]
     },
-    "9126": {
+    "11929": {
       "name": "get",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#get",
@@ -321,7 +321,7 @@
       },
       "signatures": [
         {
-          "code": "get: () => U",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">U</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -336,7 +336,7 @@
         }
       ]
     },
-    "9129": {
+    "11932": {
       "name": "set",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#set",
@@ -346,7 +346,7 @@
       },
       "signatures": [
         {
-          "code": "set: (value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -361,7 +361,7 @@
         }
       ]
     },
-    "9133": {
+    "11936": {
       "name": "overrideHandlers",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#overridehandlers",
@@ -371,7 +371,7 @@
       },
       "signatures": [
         {
-          "code": "overrideHandlers: (options: PropertyOptions&lt;T, U&gt;) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">overrideHandlers</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">options</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">PropertyOptions</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">U</span><span style=\"color: #E1E4E8\">&amp;</span><span style=\"color: #FFAB70\">gt</span><span style=\"color: #E1E4E8\">;) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -386,7 +386,7 @@
         }
       ]
     },
-    "9137": {
+    "11940": {
       "name": "enumerable",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#enumerable",
@@ -396,7 +396,7 @@
       },
       "signatures": [
         {
-          "code": "enumerable: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">enumerable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -411,7 +411,7 @@
         }
       ]
     },
-    "9138": {
+    "11941": {
       "name": "configurable",
       "type": "Property",
       "url": "/api/class/CoercibleProperty#configurable",
@@ -421,7 +421,7 @@
       },
       "signatures": [
         {
-          "code": "configurable: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">configurable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -436,7 +436,7 @@
         }
       ]
     },
-    "9139": {
+    "11942": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/CoercibleProperty#register",
@@ -447,7 +447,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "register(cls: {}): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">register</span><span style=\"color: #E1E4E8\">(cls: {}): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/CoercibleProperty#register-register-1",
           "sources": [
             {
@@ -470,7 +470,7 @@
         }
       ]
     },
-    "9144": {
+    "11947": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/CoercibleProperty#isset",
@@ -481,7 +481,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isSet(instance: T): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isSet</span><span style=\"color: #E1E4E8\">(instance: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">): boolean</span></span></code>",
           "url": "/api/class/CoercibleProperty#isset-isset-1",
           "sources": [
             {

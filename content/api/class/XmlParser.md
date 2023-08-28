@@ -1,6 +1,13 @@
 ---
 title: XmlParser
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'XmlParser'
 layout: api
 seo:
   description: "A simple non-validating SAX parser based on https://github.com/vflash/easysax version 0.1.14"
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2551" v-once>
+<APIRef for="2836" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2564" v-once>
+<APIRef for="2849" v-once>
 
 <template #title>
 

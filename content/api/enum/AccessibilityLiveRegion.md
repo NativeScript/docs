@@ -1,9 +1,16 @@
 ---
 title: AccessibilityLiveRegion
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'AccessibilityLiveRegion'
 layout: api
 seo:
-  description: undefined
+  description: AccessibilityLiveRegion
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -24,7 +31,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1204" v-once>
+<APIRef for="939" v-once>
 
 <template #title>
 
@@ -38,7 +45,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1202" v-once>
+<APIRef for="937" v-once>
 
 <template #title>
 
@@ -52,7 +59,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1203" v-once>
+<APIRef for="938" v-once>
 
 <template #title>
 

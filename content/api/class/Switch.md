@@ -1,6 +1,13 @@
 ---
 title: Switch
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Switch'
 layout: api
 seo:
   description: "Represents a switch component."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22857" v-once>
+<APIRef for="26697" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22859" v-once>
+<APIRef for="26699" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22861" v-once>
+<APIRef for="26701" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22860" v-once>
+<APIRef for="26700" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22862" v-once>
+<APIRef for="26702" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="22792" v-once>
+<APIRef for="26617" v-once>
 
 <template #title>
 

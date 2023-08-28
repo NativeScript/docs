@@ -17,18 +17,18 @@
     {
       "title": "Properties",
       "items": [
-        10154,
-        10156,
-        10153,
-        10155,
-        10152,
-        10157,
-        10151
+        13010,
+        13012,
+        13009,
+        13011,
+        13008,
+        13013,
+        13007
       ]
     }
   ],
   "reflections": {
-    "10151": {
+    "13007": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/ActionOptions#title",
@@ -45,7 +45,7 @@
       },
       "signatures": [
         {
-          "code": "title?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">title</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -65,7 +65,7 @@
         }
       ]
     },
-    "10152": {
+    "13008": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/ActionOptions#message",
@@ -82,7 +82,7 @@
       },
       "signatures": [
         {
-          "code": "message?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">message</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -102,7 +102,7 @@
         }
       ]
     },
-    "10153": {
+    "13009": {
       "name": "cancelButtonText",
       "type": "Property",
       "url": "/api/interface/ActionOptions#cancelbuttontext",
@@ -119,7 +119,7 @@
       },
       "signatures": [
         {
-          "code": "cancelButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -139,7 +139,7 @@
         }
       ]
     },
-    "10154": {
+    "13010": {
       "name": "actions",
       "type": "Property",
       "url": "/api/interface/ActionOptions#actions",
@@ -156,7 +156,7 @@
       },
       "signatures": [
         {
-          "code": "actions?: string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">actions</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string[]</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -176,7 +176,7 @@
         }
       ]
     },
-    "10155": {
+    "13011": {
       "name": "destructiveActionsIndexes",
       "type": "Property",
       "url": "/api/interface/ActionOptions#destructiveactionsindexes",
@@ -193,7 +193,7 @@
       },
       "signatures": [
         {
-          "code": "destructiveActionsIndexes?: number[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">destructiveActionsIndexes</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number[]</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -213,7 +213,7 @@
         }
       ]
     },
-    "10156": {
+    "13012": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/ActionOptions#cancelable",
@@ -236,7 +236,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -262,7 +262,7 @@
         }
       ]
     },
-    "10157": {
+    "13013": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/ActionOptions#theme",
@@ -285,7 +285,7 @@
       },
       "signatures": [
         {
-          "code": "theme?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">theme</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

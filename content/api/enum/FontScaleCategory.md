@@ -1,9 +1,16 @@
 ---
 title: FontScaleCategory
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'FontScaleCategory'
 layout: api
 seo:
-  description: undefined
+  description: FontScaleCategory
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -24,7 +31,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1238" v-once>
+<APIRef for="973" v-once>
 
 <template #title>
 
@@ -38,7 +45,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1236" v-once>
+<APIRef for="971" v-once>
 
 <template #title>
 
@@ -52,7 +59,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1237" v-once>
+<APIRef for="972" v-once>
 
 <template #title>
 

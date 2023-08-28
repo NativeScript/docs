@@ -2,6 +2,11 @@
 title: Build a master-detail app with Plain JavaScript
 category: Tutorials
 categoryLink: /tutorials/
+prev: false
+next: false
+contributors:
+  - jcassidyav
+  - NathanWalker
 ---
 
 This tutorial introduces you to the fundamentals of NativeScript by walking you through building an example app with some basic functionalities.
@@ -14,7 +19,7 @@ This tutorial will teach you the following:
 
 ## Prerequisites
 
-NativeScript Core uses Javascript or Typescript and XML to create your applications. To get the most out of this tutorial you should already have a basic understanding of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). This Tutorial illustrates the use of JavaScript, the TypeScript tutorial is [here](./build-a-master-detail-app-with-plain-typescript.md).
+NativeScript Core uses JavaScript or TypeScript and XML to create your applications. To get the most out of this tutorial you should already have a basic understanding of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). This Tutorial illustrates the use of JavaScript, the TypeScript tutorial is [here](./build-a-master-detail-app-with-plain-typescript.md).
 
 ## Overview of the example application
 
@@ -244,7 +249,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 ![Home page layout breakdown](/assets/images/tutorial/tutorial-example-app-master-breakdown.png)
 
-The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `home-page.xml` and add the following code:
+The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `home-page.xml` and add the following code:
 
 ```xml
 <!-- app/home/home-page.xml -->
@@ -466,7 +471,7 @@ export class HomeViewModel extends Observable {
 }
 ```
 
-Next, let's add the tap event to the listview items. Open `home-page.xml` and add the following:
+Next, let's add the tap event to the ListView items. Open `home-page.xml` and add the following:
 
 ```xml{10}
 <!-- app/home/home-page.xml -->
@@ -561,7 +566,7 @@ Let's break down the layout and UI elements of the details page.
 
 ![Details page layout breakdown](/assets/images/tutorial/tutorial-example-app-details-breakdown.png)
 
-The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use NativeScript's `Repeater` component to loop through the array and create a UI element or set of elements for each entry in the array. Open `details-page.xml` and add the following code:
+The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use NativeScript's `Repeater` component to loop through the array and create a UI element or set of elements for each entry in the array. Open `details-page.xml` and add the following code:
 
 ```xml{4,7-33}
 <!-- app/details/details-page.xml -->

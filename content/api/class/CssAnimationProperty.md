@@ -1,9 +1,16 @@
 ---
 title: CssAnimationProperty
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'CssAnimationProperty'
 layout: api
 seo:
-  description: undefined
+  description: CssAnimationProperty
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9291" v-once>
+<APIRef for="12094" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="9313" v-once>
+<APIRef for="12116" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9298" v-once>
+<APIRef for="12101" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9297" v-once>
+<APIRef for="12100" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9311" v-once>
+<APIRef for="12114" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9308" v-once>
+<APIRef for="12111" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9299" v-once>
+<APIRef for="12102" v-once>
 
 <template #title>
 
@@ -126,7 +133,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9312" v-once>
+<APIRef for="12115" v-once>
 
 <template #title>
 
@@ -140,7 +147,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9309" v-once>
+<APIRef for="12112" v-once>
 
 <template #title>
 
@@ -154,7 +161,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9307" v-once>
+<APIRef for="12110" v-once>
 
 <template #title>
 
@@ -168,7 +175,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9296" v-once>
+<APIRef for="12099" v-once>
 
 <template #title>
 
@@ -182,7 +189,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9301" v-once>
+<APIRef for="12104" v-once>
 
 <template #title>
 
@@ -196,7 +203,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9300" v-once>
+<APIRef for="12103" v-once>
 
 <template #title>
 
@@ -208,39 +215,11 @@ seo:
 
 </div>
 
-<div class="isPrivate isReadonly">
-
-<APIRef for="9310" v-once>
-
-<template #title>
-
-### source
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate isStatic">
-
-<APIRef for="9285" v-once>
-
-<template #title>
-
-### properties
-
-</template>
-
-</APIRef>
-
-</div>
-
 ## Methods
 
 <div class="">
 
-<APIRef for="9317" v-once>
+<APIRef for="12120" v-once>
 
 <template #title>
 
@@ -254,7 +233,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9320" v-once>
+<APIRef for="12123" v-once>
 
 <template #title>
 
@@ -268,7 +247,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="9286" v-once>
+<APIRef for="12089" v-once>
 
 <template #title>
 
@@ -282,7 +261,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="9289" v-once>
+<APIRef for="12092" v-once>
 
 <template #title>
 

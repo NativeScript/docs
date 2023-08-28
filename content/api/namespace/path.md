@@ -1,6 +1,13 @@
 ---
 title: path
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'path'
 layout: api
 seo:
   description: "Enables path-specific operations like join, extension, etc."
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2122" v-once>
+<APIRef for="1965" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2119" v-once>
+<APIRef for="1962" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2116" v-once>
+<APIRef for="1959" v-once>
 
 <template #title>
 

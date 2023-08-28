@@ -11,13 +11,13 @@
     {
       "title": "Properties",
       "items": [
-        10137,
-        10138
+        12993,
+        12994
       ]
     }
   ],
   "reflections": {
-    "10137": {
+    "12993": {
       "name": "result",
       "type": "Property",
       "url": "/api/interface/PromptResult#result",
@@ -32,7 +32,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "result: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">result</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "10138": {
+    "12994": {
       "name": "text",
       "type": "Property",
       "url": "/api/interface/PromptResult#text",
@@ -67,7 +67,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "text: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

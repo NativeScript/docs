@@ -1,6 +1,13 @@
 ---
 title: TouchGestureEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'TouchGestureEventData'
 layout: api
 seo:
   description: "Provides gesture event data."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface TouchGestureEventData extends <a href="/api/interface/TapGestureEventData">TapGestureEventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface TouchGestureEventData extends <a href="/api/interface/TapGestureEventData">TapGestureEventData</a> {
   action: "up" | "move" | "down" | "cancel";
   getActivePointers(): Pointer[];
   getAllPointers(): Pointer[];
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11206" v-once>
+<APIRef for="14120" v-once>
 
 <template #title>
 
@@ -50,7 +57,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11207" v-once>
+<APIRef for="14121" v-once>
 
 <template #title>
 
@@ -64,7 +71,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11209" v-once>
+<APIRef for="14123" v-once>
 
 <template #title>
 

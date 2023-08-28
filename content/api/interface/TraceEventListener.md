@@ -1,6 +1,13 @@
 ---
 title: TraceEventListener
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'TraceEventListener'
 layout: api
 seo:
   description: "An interface used to trace information about specific event."
@@ -18,10 +25,10 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface TraceEventListener {
-  filter: string;
-  on(object: Object, name: string, data?: any): void;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">TraceEventListener</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">filter</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #B392F0">on</span><span style="color: #E1E4E8">(</span><span style="color: #FFAB70">object</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">Object</span><span style="color: #E1E4E8">, </span><span style="color: #FFAB70">name</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">, </span><span style="color: #FFAB70">data</span><span style="color: #F97583">?:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span><span style="color: #E1E4E8">)</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">void</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 <APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJBbiBpbnRlcmZhY2UgdXNlZCB0byB0cmFjZSBpbmZvcm1hdGlvbiBhYm91dCBzcGVjaWZpYyBldmVudC4ifV19" v-once />
 
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2815" v-once>
+<APIRef for="5068" v-once>
 
 <template #title>
 
@@ -49,7 +56,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2816" v-once>
+<APIRef for="5069" v-once>
 
 <template #title>
 

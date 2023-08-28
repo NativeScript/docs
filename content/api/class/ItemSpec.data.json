@@ -11,23 +11,23 @@
     {
       "title": "Constructors",
       "items": [
-        32578
+        37626
       ]
     },
     {
       "title": "Properties",
       "items": [
-        32583,
-        32584,
-        32585,
-        32586,
-        32587,
-        32588
+        37631,
+        37632,
+        37633,
+        37634,
+        37635,
+        37636
       ]
     }
   ],
   "reflections": {
-    "32578": {
+    "37626": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ItemSpec#constructor",
@@ -74,7 +74,7 @@
         }
       ]
     },
-    "32583": {
+    "37631": {
       "name": "actualLength",
       "type": "Property",
       "url": "/api/class/ItemSpec#actuallength",
@@ -89,7 +89,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "actualLength: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">actualLength</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -109,7 +109,7 @@
         }
       ]
     },
-    "32584": {
+    "37632": {
       "name": "gridUnitType",
       "type": "Property",
       "url": "/api/class/ItemSpec#gridunittype",
@@ -144,7 +144,7 @@
         }
       ]
     },
-    "32585": {
+    "37633": {
       "name": "isAbsolute",
       "type": "Property",
       "url": "/api/class/ItemSpec#isabsolute",
@@ -159,7 +159,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isAbsolute: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isAbsolute</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -179,7 +179,7 @@
         }
       ]
     },
-    "32586": {
+    "37634": {
       "name": "isAuto",
       "type": "Property",
       "url": "/api/class/ItemSpec#isauto",
@@ -194,7 +194,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isAuto: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isAuto</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -214,7 +214,7 @@
         }
       ]
     },
-    "32587": {
+    "37635": {
       "name": "isStar",
       "type": "Property",
       "url": "/api/class/ItemSpec#isstar",
@@ -229,7 +229,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isStar: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isStar</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",
@@ -249,7 +249,7 @@
         }
       ]
     },
-    "32588": {
+    "37636": {
       "name": "value",
       "type": "Property",
       "url": "/api/class/ItemSpec#value",
@@ -264,7 +264,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "value: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">value</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/grid-layout/index.d.ts",

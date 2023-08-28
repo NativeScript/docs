@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.VerticalAlignment
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'VerticalAlignment'
 layout: api
 seo:
-  description: "VerticalAlignment indicates where an element should be displayed on the horizontal axis relative to the allocated layout slot of the parent element."
+  description: CoreTypes.VerticalAlignment
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJWZXJ0aWNhbEFsaWdubWVudCBpbmRpY2F0ZXMgd2hlcmUgYW4gZWxlbWVudCBzaG91bGQgYmUgZGlzcGxheWVkIG9uIHRoZSBob3Jpem9udGFsIGF4aXMgcmVsYXRpdmUgdG8gdGhlIGFsbG9jYXRlZCBsYXlvdXQgc2xvdCBvZiB0aGUgcGFyZW50IGVsZW1lbnQuIn1dfQ==" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2645" v-once>
+<APIRef for="4893" v-once>
 
 <template #title>
 
@@ -42,21 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2643" v-once>
-
-<template #title>
-
-### center
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="2644" v-once>
+<APIRef for="4892" v-once>
 
 <template #title>
 
@@ -70,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2646" v-once>
+<APIRef for="4894" v-once>
 
 <template #title>
 
@@ -84,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2642" v-once>
+<APIRef for="4891" v-once>
 
 <template #title>
 

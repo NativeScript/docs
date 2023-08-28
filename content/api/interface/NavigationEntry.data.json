@@ -17,21 +17,21 @@
     {
       "title": "Properties",
       "items": [
-        10974,
-        10978,
-        10973,
-        10979,
-        10972,
-        10981,
-        10980,
-        10975,
-        10977,
-        10976
+        13888,
+        13892,
+        13887,
+        13893,
+        13886,
+        13895,
+        13894,
+        13889,
+        13891,
+        13890
       ]
     }
   ],
   "reflections": {
-    "10972": {
+    "13886": {
       "name": "context",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#context",
@@ -48,7 +48,7 @@
       },
       "signatures": [
         {
-          "code": "context?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">context</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "10973": {
+    "13887": {
       "name": "bindingContext",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#bindingcontext",
@@ -85,7 +85,7 @@
       },
       "signatures": [
         {
-          "code": "bindingContext?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">bindingContext</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -105,7 +105,7 @@
         }
       ]
     },
-    "10974": {
+    "13888": {
       "name": "animated",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#animated",
@@ -122,7 +122,7 @@
       },
       "signatures": [
         {
-          "code": "animated?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animated</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "10975": {
+    "13889": {
       "name": "transition",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#transition",
@@ -179,7 +179,7 @@
         }
       ]
     },
-    "10976": {
+    "13890": {
       "name": "transitioniOS",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#transitionios",
@@ -216,7 +216,7 @@
         }
       ]
     },
-    "10977": {
+    "13891": {
       "name": "transitionAndroid",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#transitionandroid",
@@ -253,7 +253,7 @@
         }
       ]
     },
-    "10978": {
+    "13892": {
       "name": "backstackVisible",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#backstackvisible",
@@ -270,7 +270,7 @@
       },
       "signatures": [
         {
-          "code": "backstackVisible?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">backstackVisible</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -290,7 +290,7 @@
         }
       ]
     },
-    "10979": {
+    "13893": {
       "name": "clearHistory",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#clearhistory",
@@ -307,7 +307,7 @@
       },
       "signatures": [
         {
-          "code": "clearHistory?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">clearHistory</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -327,7 +327,7 @@
         }
       ]
     },
-    "10980": {
+    "13894": {
       "name": "moduleName",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#modulename",
@@ -350,7 +350,7 @@
       },
       "signatures": [
         {
-          "code": "moduleName?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">moduleName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -376,7 +376,7 @@
         }
       ]
     },
-    "10981": {
+    "13895": {
       "name": "create",
       "type": "Property",
       "url": "/api/interface/NavigationEntry#create",

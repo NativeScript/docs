@@ -5,234 +5,138 @@
     {
       "title": "Variables",
       "items": [
-        2605,
-        2609,
-        2610,
-        2607,
-        2606,
-        2608
+        4825,
+        4829,
+        4830,
+        4827,
+        4826,
+        4828
       ]
     }
   ],
   "reflections": {
-    "2605": {
+    "4825": {
       "name": "datetime",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-KeyboardType#datetime",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [TYPE_CLASS_DATETIME](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_DATETIME) | [TYPE_DATETIME_VARIATION_NORMAL](http://developer.android.com/reference/android/text/InputType.html#TYPE_DATETIME_VARIATION_NORMAL)\niOS:  [UIKeyboardTypeNumbersAndPunctuation](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "datetime: <a href=\"/api/namespace/CoreTypes#keyboardinputtype\">KeyboardInputType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">datetime</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 39,
-              "character": 15
+              "line": 38,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [TYPE_CLASS_DATETIME](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_DATETIME) | [TYPE_DATETIME_VARIATION_NORMAL](http://developer.android.com/reference/android/text/InputType.html#TYPE_DATETIME_VARIATION_NORMAL)\niOS:  [UIKeyboardTypeNumbersAndPunctuation](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-KeyboardType#datetime"
         }
       ]
     },
-    "2606": {
+    "4826": {
       "name": "phone",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-KeyboardType#phone",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [TYPE_CLASS_PHONE](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_PHONE)\niOS:  [UIKeyboardTypePhonePad](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "phone: <a href=\"/api/namespace/CoreTypes#keyboardinputtype\">KeyboardInputType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">phone</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 44,
-              "character": 15
+              "line": 39,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [TYPE_CLASS_PHONE](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_PHONE)\niOS:  [UIKeyboardTypePhonePad](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-KeyboardType#phone"
         }
       ]
     },
-    "2607": {
+    "4827": {
       "name": "number",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-KeyboardType#number",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [TYPE_CLASS_NUMBER](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_NUMBER) | [TYPE_NUMBER_VARIATION_NORMAL](http://developer.android.com/intl/es/reference/android/text/InputType.html#TYPE_NUMBER_VARIATION_NORMAL) | [TYPE_NUMBER_FLAG_SIGNED](http://developer.android.com/reference/android/text/InputType.html#TYPE_NUMBER_FLAG_SIGNED) | [TYPE_NUMBER_FLAG_DECIMAL](http://developer.android.com/reference/android/text/InputType.html#TYPE_NUMBER_FLAG_DECIMAL)\niOS:  [UIKeyboardTypeNumbersAndPunctuation](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "number: <a href=\"/api/namespace/CoreTypes#keyboardinputtype\">KeyboardInputType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">number</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 50,
-              "character": 15
+              "line": 40,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [TYPE_CLASS_NUMBER](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_NUMBER) | [TYPE_NUMBER_VARIATION_NORMAL](http://developer.android.com/intl/es/reference/android/text/InputType.html#TYPE_NUMBER_VARIATION_NORMAL) | [TYPE_NUMBER_FLAG_SIGNED](http://developer.android.com/reference/android/text/InputType.html#TYPE_NUMBER_FLAG_SIGNED) | [TYPE_NUMBER_FLAG_DECIMAL](http://developer.android.com/reference/android/text/InputType.html#TYPE_NUMBER_FLAG_DECIMAL)\niOS:  [UIKeyboardTypeNumbersAndPunctuation](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-KeyboardType#number"
         }
       ]
     },
-    "2608": {
+    "4828": {
       "name": "url",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-KeyboardType#url",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [TYPE_CLASS_TEXT](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_TEXT) | [TYPE_TEXT_VARIATION_URI](http://developer.android.com/reference/android/text/InputType.html#TYPE_TEXT_VARIATION_URI)\niOS:  [UIKeyboardTypeURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "url: <a href=\"/api/namespace/CoreTypes#keyboardinputtype\">KeyboardInputType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 56,
-              "character": 15
+              "line": 41,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [TYPE_CLASS_TEXT](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_TEXT) | [TYPE_TEXT_VARIATION_URI](http://developer.android.com/reference/android/text/InputType.html#TYPE_TEXT_VARIATION_URI)\niOS:  [UIKeyboardTypeURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-KeyboardType#url"
         }
       ]
     },
-    "2609": {
+    "4829": {
       "name": "email",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-KeyboardType#email",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [TYPE_CLASS_TEXT](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_TEXT) | [TYPE_TEXT_VARIATION_EMAIL_ADDRESS](http://developer.android.com/reference/android/text/InputType.html#TYPE_TEXT_VARIATION_EMAIL_ADDRESS)\niOS:  [UIKeyboardTypeEmailAddress](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "email: <a href=\"/api/namespace/CoreTypes#keyboardinputtype\">KeyboardInputType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">email</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 62,
-              "character": 15
+              "line": 42,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [TYPE_CLASS_TEXT](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_TEXT) | [TYPE_TEXT_VARIATION_EMAIL_ADDRESS](http://developer.android.com/reference/android/text/InputType.html#TYPE_TEXT_VARIATION_EMAIL_ADDRESS)\niOS:  [UIKeyboardTypeEmailAddress](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-KeyboardType#email"
         }
       ]
     },
-    "2610": {
+    "4830": {
       "name": "integer",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-KeyboardType#integer",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Android: [TYPE_CLASS_NUMBER](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_NUMBER | [TYPE_NUMBER_VARIATION_PASSWORD](android type_text_variation_password))\niOS:  [UIKeyboardTypeNumberPad](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "integer: <a href=\"/api/namespace/CoreTypes#keyboardinputtype\">KeyboardInputType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">integer</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 68,
-              "character": 15
+              "line": 43,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Android: [TYPE_CLASS_NUMBER](http://developer.android.com/reference/android/text/InputType.html#TYPE_CLASS_NUMBER | [TYPE_NUMBER_VARIATION_PASSWORD](android type_text_variation_password))\niOS:  [UIKeyboardTypeNumberPad](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextInputTraits_Protocol/index.html#//apple_ref/c/tdef/UIKeyboardType)"
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-KeyboardType#integer"
         }
       ]

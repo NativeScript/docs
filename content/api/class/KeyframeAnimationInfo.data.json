@@ -11,25 +11,25 @@
     {
       "title": "Constructors",
       "items": [
-        4993
+        7456
       ]
     },
     {
       "title": "Properties",
       "items": [
-        5000,
-        4998,
-        4997,
-        5001,
-        5002,
-        4999,
-        4995,
-        4996
+        7463,
+        7461,
+        7460,
+        7464,
+        7465,
+        7462,
+        7458,
+        7459
       ]
     }
   ],
   "reflections": {
-    "4993": {
+    "7456": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/KeyframeAnimationInfo#constructor",
@@ -44,7 +44,7 @@
         }
       ]
     },
-    "4995": {
+    "7458": {
       "name": "keyframes",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#keyframes",
@@ -79,7 +79,7 @@
         }
       ]
     },
-    "4996": {
+    "7459": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#name",
@@ -96,7 +96,7 @@
       },
       "signatures": [
         {
-          "code": "name?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -116,7 +116,7 @@
         }
       ]
     },
-    "4997": {
+    "7460": {
       "name": "duration",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#duration",
@@ -133,7 +133,7 @@
       },
       "signatures": [
         {
-          "code": "duration?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">duration</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -153,7 +153,7 @@
         }
       ]
     },
-    "4998": {
+    "7461": {
       "name": "delay",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#delay",
@@ -170,7 +170,7 @@
       },
       "signatures": [
         {
-          "code": "delay?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -190,7 +190,7 @@
         }
       ]
     },
-    "4999": {
+    "7462": {
       "name": "iterations",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#iterations",
@@ -207,7 +207,7 @@
       },
       "signatures": [
         {
-          "code": "iterations?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">iterations</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -227,7 +227,7 @@
         }
       ]
     },
-    "5000": {
+    "7463": {
       "name": "curve",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#curve",
@@ -244,7 +244,7 @@
       },
       "signatures": [
         {
-          "code": "curve?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -264,7 +264,7 @@
         }
       ]
     },
-    "5001": {
+    "7464": {
       "name": "isForwards",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#isforwards",
@@ -279,7 +279,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isForwards: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isForwards</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -299,7 +299,7 @@
         }
       ]
     },
-    "5002": {
+    "7465": {
       "name": "isReverse",
       "type": "Property",
       "url": "/api/class/KeyframeAnimationInfo#isreverse",
@@ -316,7 +316,7 @@
       },
       "signatures": [
         {
-          "code": "isReverse?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">isReverse</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",

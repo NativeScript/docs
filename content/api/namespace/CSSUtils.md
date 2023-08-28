@@ -1,9 +1,16 @@
 ---
 title: CSSUtils
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CSSUtils'
 layout: api
 seo:
-  description: undefined
+  description: CSSUtils
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="1370" v-once>
+<APIRef for="1117" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="1371" v-once>
+<APIRef for="1118" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="1372" v-once>
+<APIRef for="1119" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1360" v-once>
+<APIRef for="1107" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1362" v-once>
+<APIRef for="1109" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1352" v-once>
+<APIRef for="1099" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1364" v-once>
+<APIRef for="1111" v-once>
 
 <template #title>
 
@@ -126,7 +133,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1354" v-once>
+<APIRef for="1101" v-once>
 
 <template #title>
 
@@ -140,7 +147,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1367" v-once>
+<APIRef for="1114" v-once>
 
 <template #title>
 
@@ -154,7 +161,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1357" v-once>
+<APIRef for="1104" v-once>
 
 <template #title>
 

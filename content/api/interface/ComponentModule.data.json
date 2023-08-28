@@ -11,13 +11,13 @@
     {
       "title": "Properties",
       "items": [
-        5053,
-        5054
+        7516,
+        7517
       ]
     }
   ],
   "reflections": {
-    "5053": {
+    "7516": {
       "name": "component",
       "type": "Property",
       "url": "/api/interface/ComponentModule#component",
@@ -36,14 +36,14 @@
         }
       ]
     },
-    "5054": {
+    "7517": {
       "name": "exports",
       "type": "Property",
       "url": "/api/interface/ComponentModule#exports",
       "flags": {},
       "signatures": [
         {
-          "code": "exports: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exports</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/component-builder/index.d.ts",

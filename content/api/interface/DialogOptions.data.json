@@ -23,15 +23,15 @@
     {
       "title": "Properties",
       "items": [
-        10125,
-        10124,
-        10126,
-        10123
+        12981,
+        12980,
+        12982,
+        12979
       ]
     }
   ],
   "reflections": {
-    "10123": {
+    "12979": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/DialogOptions#title",
@@ -48,7 +48,7 @@
       },
       "signatures": [
         {
-          "code": "title?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">title</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -68,7 +68,7 @@
         }
       ]
     },
-    "10124": {
+    "12980": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/DialogOptions#message",
@@ -85,7 +85,7 @@
       },
       "signatures": [
         {
-          "code": "message?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">message</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -105,7 +105,7 @@
         }
       ]
     },
-    "10125": {
+    "12981": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/DialogOptions#cancelable",
@@ -128,7 +128,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "10126": {
+    "12982": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/DialogOptions#theme",
@@ -177,7 +177,7 @@
       },
       "signatures": [
         {
-          "code": "theme?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">theme</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

@@ -1,6 +1,13 @@
 ---
 title: RotationGestureEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'RotationGestureEventData'
 layout: api
 seo:
   description: "Provides gesture event data for rotation gesture."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface RotationGestureEventData extends <a href="/api/interface/GestureEventDataWithState">GestureEventDataWithState</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface RotationGestureEventData extends <a href="/api/interface/GestureEventDataWithState">GestureEventDataWithState</a> {
   rotation: number;
 }</pre>
 
@@ -32,7 +39,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11189" v-once>
+<APIRef for="14103" v-once>
 
 <template #title>
 

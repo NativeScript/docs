@@ -1,6 +1,13 @@
 ---
 title: Animation
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Animation'
 layout: api
 seo:
   description: "Defines a animation set."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4960" v-once>
+<APIRef for="7423" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="4968" v-once>
+<APIRef for="7431" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="4971" v-once>
+<APIRef for="7434" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="4964" v-once>
+<APIRef for="7427" v-once>
 
 <template #title>
 
@@ -88,7 +95,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="4972" v-once>
+<APIRef for="7435" v-once>
 
 <template #title>
 

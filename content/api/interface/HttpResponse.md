@@ -1,6 +1,13 @@
 ---
 title: HttpResponse
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'HttpResponse'
 layout: api
 seo:
   description: "Encapsulates HTTP-response information from an HTTP-request."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface HttpResponse {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface HttpResponse {
   content: <a href="/api/interface/HttpContent">HttpContent</a>;
   headers: <a href="/api/index#headers">Headers</a>;
   statusCode: number;
@@ -34,7 +41,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2135" v-once>
+<APIRef for="1991" v-once>
 
 <template #title>
 
@@ -48,7 +55,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2134" v-once>
+<APIRef for="1990" v-once>
 
 <template #title>
 
@@ -62,7 +69,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2133" v-once>
+<APIRef for="1989" v-once>
 
 <template #title>
 
