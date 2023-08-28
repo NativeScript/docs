@@ -26,12 +26,12 @@ export default [
             link: '/guide/running',
           },
           {
-            text: 'Testing',
-            link: '/guide/testing'
-          },
-          {
             text: 'Debugging',
             link: '/guide/debugging',
+          },
+          {
+            text: 'Testing',
+            link: '/guide/testing'
           },
           {
             text: 'Plugins',
