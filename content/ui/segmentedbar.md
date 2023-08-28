@@ -1,6 +1,9 @@
 ---
 title: SegmentedBar
 description: UI component for discrete slection.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
 `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection.

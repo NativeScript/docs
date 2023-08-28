@@ -15,4 +15,5 @@ output.screenshots = [
   'ScrollView',
   'SearchBar',
   'SegmentedBar',
+  'Slider',
 ]
