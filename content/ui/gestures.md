@@ -391,7 +391,7 @@ You can handle multiple gestures as follows:
 
 ## Gesture Manipulations
 
-In some scenarios, you would want to disable the user interaction or to create more complex UI where some gestures are passing through the parents of the actual interactive zone. NativeScript provides some specific properties for handling similar cases as follows:
+In some scenarios, you may want to disable user interaction or create more complex UI interactions where some gestures are passing through the parents of the actual interactive zone. NativeScript provides some specific properties for handling similar cases as follows:
 
 - `isUserInteractionEnabled` - Gets or sets a boolean value indicating whether the user can interact with the view. Does not affect the appearance of the view. The default value is `true`.
 
