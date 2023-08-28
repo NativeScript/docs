@@ -1,0 +1,29 @@
+appId: org.nativescript.examplesApp
+---
+- launchApp:
+    permissions:
+      android.permission.DUMP: allow
+- waitForAnimationToEnd
+- openLink: ns-examples://enableDemoMode
+- runScript: screenshots.js
+- runFlow:
+    when:
+      platform: android
+    commands: 
+      - evalScript: ${output.platform = 'android'}
+- runFlow:
+    when:
+      platform: ios
+    commands: 
+      - evalScript: ${output.platform = 'ios'}
+- repeat:
+    while:
+      true: ${(output.current = output.screenshots.shift()) !== undefined}
+    commands:
+      # - startRecording: ./screenshots/${output.current}
+      - openLink: ns-examples://navigate/${output.current}
+      - waitForAnimationToEnd:
+          timeout: 2000
+      - takeScreenshot: ../../content/screenshots/${output.platform}/${output.current}
+      # - stopRecording
+- openLink: ns-examples://disableDemoMode
