@@ -292,7 +292,7 @@ Possible usage: Zoom in or out of content.
 
 ## Rotate gesture
 
-**Action**: A user touches a component with two fingers, then rotate them simultaneously left or right.
+**Action**: A user touches a component with two fingers, then rotates them simultaneously left or right.
 
 #### Rotate gesture event data
 
