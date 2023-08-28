@@ -1,6 +1,9 @@
 ---
 title: ScrollView
 description: UI component for rendering scrollable content (horizontal or vertical).
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
 `<ScrollView>` is a UI component for rendering scrollable content. Content can be scrolled `vertically` (default) or `horizontally`.
