@@ -1,206 +1,78 @@
 ---
 title: ScrollView
+description: UI component for rendering scrollable content (horizontal or vertical).
 ---
 
-`<ScrollView>` is a UI component that shows a scrollable content area. Content can be scrolled vertically or horizontally.
+`<ScrollView>` is a UI component for rendering scrollable content. Content can be scrolled `vertically` (default) or `horizontally`.
 
-It's important to note that `<ScrollView>` extends [`ContentView`](https://docs.nativescript.org/api-reference/classes/contentview), so it can only have a single child element.
+::: warning Note
 
-By default, ScrollView scrolls vertically. To scroll horizontally, set the ScrollView's `orientation` property to `horizontal`.
+A ScrollView can only have a single child element.
 
----
+:::
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ScrollView.png"/>
+<img src="../screenshots/ios/ScrollView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ScrollView.png" />
+<img src="../screenshots/android/ScrollView.png"/>
 </DeviceFrame>
 
-### Creating a Simple ScrollView
-
-<!-- /// flavor plain -->
-
-```xml
-
-<ScrollView scroll="onScroll">
-  <GridLayout rows="200 200 200 200 200 200 200 200 200 200">
-    <Label row="0" text="Some row content goes here..." />
-    <Label row="1" text="Some row content goes here..." />
-    <Label row="2" text="Some row content goes here..." />
-    <Label row="3" text="Some row content goes here..." />
-    <Label row="4" text="Some row content goes here..." />
-    <Label row="5" text="Some row content goes here..." />
-    <Label row="6" text="Some row content goes here..." />
-    <Label row="7" text="Some row content goes here..." />
-    <Label row="8" text="Some row content goes here..." />
-    <Label row="9" text="Some row content goes here..." />
-  </GridLayout>
-</ScrollView>
-```
-
-```ts
-import { Page, ScrollEventData, ScrollView } from '@nativescript/core'
-
-export function onScroll(args: ScrollEventData) {
-  const scrollView = args.object as ScrollView
-
-  console.log('scrollX: ' + args.scrollX)
-  console.log('scrollY: ' + args.scrollY)
-}
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<ScrollView (scroll)="onScroll($event)">
-  <GridLayout rows="200 200 200 200 200 200 200 200 200 200">
-    <Label row="0" text="Some row content goes here..."></label>
-    <Label row="1" text="Some row content goes here..."></label>
-    <Label row="2" text="Some row content goes here..."></label>
-    <Label row="3" text="Some row content goes here..."></label>
-    <Label row="4" text="Some row content goes here..."></label>
-    <Label row="5" text="Some row content goes here..."></label>
-    <Label row="6" text="Some row content goes here..."></label>
-    <Label row="7" text="Some row content goes here..."></label>
-    <Label row="8" text="Some row content goes here..."></label>
-    <Label row="9" text="Some row content goes here..."></label>
-  </GridLayout>
-</ScrollView>
-```
-
-```ts
-import { Component } from '@angular/core'
-import { ScrollView, ScrollEventData } from '@nativescript/core'
-
-@Component({
-  moduleId: module.id,
-  templateUrl: './tips-and-tricks.component.html'
-})
-export class TipsAndTricksComponent {
-  onScroll(args: ScrollEventData) {
-    const scrollView = args.object as ScrollView
-
-    console.log('scrollX: ' + args.scrollX)
-    console.log('scrollY: ' + args.scrollY)
-  }
-}
-```
-
-///
-
-/// flavor vue
-
-```xml
-<ScrollView orientation="horizontal">
-  <StackLayout orientation="horizontal">
-    <Label text="this" />
-    <Label text="text" />
-    <Label text="scrolls" />
-    <Label text="horizontally" />
-    <Label text="if necessary" />
-  </StackLayout>
-</ScrollView>
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<scrollView orientation="horizontal">
-  <stackLayout orientation="horizontal">
-    <Label text="this" />
-    <Label text="text" />
-    <Label text="scrolls" />
-    <Label text="horizontally" />
-    <Label text="if necessary" />
-  </stackLayout>
-</scrollView>
-```
-
-///
-
-/// flavor react
-
-```xml
-<scrollView orientation="horizontal">
-  <stackLayout orientation="horizontal">
-    <Label text="this" />
-    <Label text="text" />
-    <Label text="scrolls" />
-    <Label text="horizontally" />
-    <Label text="if necessary" />
-  </stackLayout>
-</scrollView>
-```
-
-///
--->
+<<< @/../examples/src/ui/ScrollView/template.xml#example
 
 ## Props
 
 ### orientation
 
-```xml
- <ScrollView orientation="horizontal">
+```ts
+orientation: 'horizontal' | 'vertical'
 ```
 
-Gets or sets the direction in which the content can be scrolled: `horizontal` or `vertical`. Defaults to `vertical`.
+Gets or sets the direction in which the content can be scrolled.
 
----
+Defaults to `vertical`.
 
 ### scrollBarIndicatorVisible
 
-```xml
- <ScrollView scrollBarIndicatorVisible="false">
+```ts
+scrollBarIndicatorVisible: boolean
 ```
 
-Specifies if the scrollbar is visible. Defaults to `true`.
+Specifies if the scrollbar is visible.
 
----
+Defaults to `true`.
 
 ### isScrollEnabled
 
-```xml
- <ScrollView isScrollEnabled="false">
+```ts
+isScrollEnabled: boolean
 ```
 
-Gets or sets a value indicating whether scroll is enabled.
+Enables or disables scrolling of the ScrollView.
 
----
-
-### verticalOffset
+### verticalOffset {#verticalOffset}
 
 ```ts
-verticalOffset: number = scrollView.verticalOffset
+verticalOffset: number
 ```
 
-Gets a value that contains the vertical offset of the scrolled content.
+Gets the vertical offset of the scrolled content.
 
----
-
-### horizontalOffset
+### horizontalOffset {#horizontalOffset}
 
 ```ts
-horizontalOffset: number = scrollView.horizontalOffset
+horizontalOffset: number
 ```
 
-Gets a value that contains the horizontal offset of the scrolled content.
-
----
+Gets the horizontal offset of the scrolled content.
 
 ### scrollableHeight
 
 ```ts
-scrollableHeight: number = scrollView.scrollableHeight
+scrollableHeight: number
 ```
 
-Gets the maximum value for the [verticalOffset](#verticaloffset).
-
----
+Gets the maximum scrollable height, this is also the maximum value for the [verticalOffset](#verticalOffset).
 
 ### scrollableWidth
 
@@ -208,37 +80,47 @@ Gets the maximum value for the [verticalOffset](#verticaloffset).
 scrollableWidth: number = scrollView.scrollableWidth
 ```
 
-Gets the maximum value for the [horizontalOffset](#horizontaloffset).
+Gets the maximum scrollable width, this is also the maximum value for the [horizontalOffset](#horizontalOffset).
 
----
+## Methods
 
 ### scrollToVerticalOffset()
 
 ```ts
-scrollView.scrollToVerticalOffset(value: number, animated: boolean)
+scrollToVerticalOffset(value: number, animated: boolean)
 ```
 
-Scrolls the content to the specified vertical offset position. Set `animated` to `true` for animated scroll, `false` for immediate scroll.
+Scrolls the content to the specified vertical offset.
 
----
+Set `animated` to `true` for animated scroll, `false` for immediate scroll.
 
 ### scrollToHorizontalOffset()
 
 ```ts
-scrollView.scrollToHorizontalOffset(value: number, animated: boolean)
+scrollToHorizontalOffset(value: number, animated: boolean)
 ```
 
-Scrolls the content to the specified horizontal offset position. Set `animated` to `true` for animated scroll, `false` for immediate scroll.
+Scrolls the content to the specified horizontal offset position.
 
----
+Set `animated` to `true` for animated scroll, `false` for immediate scroll.
 
 ## Events
 
 ### scroll
 
-Emitted when a scroll event occurs. For the event's data, see [ScrollEventData Interface](https://docs.nativescript.org/api-reference/interfaces/scrolleventdata).
+```ts
+on('scroll', (args: ScrollEventData) => {
+  const scrollView = args.object as ScrollView
+  console.log('Scrolled', {
+    scrollX: args.scrollX,
+    scrollY: args.scrollY,
+  })
+})
+```
 
----
+Emitted when the ScrollView is scrolled.
+
+See [ScrollEventData](/api/interface/ScrollEventData).
 
 ## Native component
 
