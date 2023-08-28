@@ -17,4 +17,5 @@ output.screenshots = [
   'SegmentedBar',
   'Slider',
   'Switch',
+  'TabView',
 ]
