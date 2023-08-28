@@ -21,7 +21,7 @@ For more information about the available gestures, see [Gestures](/guide/ui/gest
 
 ## Examples
 
-### Formatting text inside a button
+### Formatting text inside a Button
 
 If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
