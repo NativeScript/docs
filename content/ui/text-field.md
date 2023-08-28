@@ -1,392 +1,210 @@
 ---
 title: TextField
+description: UI component for single-line text entry.
 ---
 
-`<TextField>` is an input component that creates an editable single-line box.
+`<TextField>` is a UI component for single-line text entry.
 
-`<TextField>` extends [`TextBase`](https://docs.nativescript.org/api-reference/classes/textbase) and [`EditableTextBase`](https://docs.nativescript.org/api-reference/classes/editabletextbase) which provide additional properties and events.
-
----
+For multi-line text input, see [TextView](/ui/text-view).
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/TextField.png"/>
+<img src="../screenshots/ios/TextField.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/TextField.png" />
+<img src="../screenshots/android/TextField.png"/>
 </DeviceFrame>
 
-### Creating a simple TextField
+<<< @/../examples/src/ui/TextField/template.xml#example
 
-Below is a simple TextField component listening to a user input change event.
+## Examples
 
-<!-- /// flavor plain -->
+### Formatting text inside a TextField
 
-```xml
-<TextField
-  hint="Your first name"
-  text="{{ firstName }}"
-  textChange="{{ onFirstNameChange }}"
-/>
-```
-
-```ts
-  onFirstNameChange(args: PropertyChangeData) {
-    console.log(args.value)
-  }
-```
-
-<!-- ///
-
-/// flavor angular
+If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
 ```xml
-<TextField
-  hint="Enter Date"
-  secure="false"
-  keyboardType="datetime"
-  returnKeyType="done"
-  autocorrect="false"
-  maxLength="10"
-  [text]="name"
-  (returnPress)="onReturnPress($event)"
-  (focus)="onFocus($event)"
-  (blur)="onBlur($event)"
->
+<TextField>
+  <FormattedString>
+    <Span text="This text has a " />
+    <Span text="red " style="color: red" />
+    <Span text="piece of text. " />
+    <Span text="Also, this bit is italic, " fontStyle="italic" />
+    <Span text="and this bit is bold." fontWeight="bold" />
+  </FormattedString>
 </TextField>
-```
-
-```ts
-import { Component } from '@angular/core'
-import { TextField, Utils } from '@nativescript/core'
-
-@Component({
-  moduleId: module.id,
-  templateUrl: './usage.component.html'
-})
-export class UsageComponent {
-  name = ''
-
-  onReturnPress(args) {
-    // returnPress event will be triggered when user submits a value
-    const textField = args.object as TextField
-
-    // Gets or sets the placeholder text.
-    console.log(textField.hint)
-    // Gets or sets the input text.
-    console.log(textField.text)
-    // Gets or sets the secure option (e.g. for passwords).
-    console.log(textField.secure)
-    // Gets or sets the secure without autofill for iOS 12+ (e.g. for passwords).
-    console.log(textField.secureWithoutAutofill)
-    // Gets or sets the soft keyboard type. Options: "datetime" | "phone" | "number" | "url" | "email"
-    console.log(textField.keyboardType)
-    // Gets or sets the soft keyboard return key flavor. Options: "done" | "next" | "go" | "search" | "send"
-    console.log(textField.returnKeyType)
-    // Gets or sets the autocapitalization type. Options: "none" | "words" | "sentences" | "allcharacters"
-    console.log(textField.autocapitalizationType)
-    // Gets or sets a value indicating when the text property will be updated.
-    console.log(textField.updateTextTrigger)
-    // Gets or sets whether the instance is editable.
-    console.log(textField.editable)
-    // Enables or disables autocorrection.
-    console.log(textField.autocorrect)
-    // Limits input to a certain number of characters.
-    console.log(textField.maxLength)
-
-    Utils.setTimeout(() => {
-      textField.dismissSoftInput() // Hides the soft input method, usually a soft keyboard.
-    }, 100)
-  }
-
-  onFocus(args) {
-    // focus event will be triggered when the users enters the TextField
-    const textField = args.object as TextField
-  }
-
-  onBlur(args) {
-    // blur event will be triggered when the user leaves the TextField
-    const textField = args.object as TextField
-  }
-}
-```
-
-///
-
-/// flavor vue
-
-```xml
-<TextField :text="textFieldValue" hint="Enter text..." />
-```
-
-`<TextField>` provides two-way data binding using `v-model`.
-
-```xml
-<TextField v-model="textFieldValue" />
-```
-
-///
-
-/// flavor svelte
-
-```tsx
-<textField text="{textFieldValue}" hint="Enter text..." />
-```
-
-`<textField>` provides two-way data binding using `bind`.
-
-```xml
-<textField bind:text="{textFieldValue}" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-<textField text={textFieldValue} hint="Enter text..." />
-```
-
-/// -->
-
-### Styling
-
-The following example shows a TextField styled with `@nativescript/tailwind`.
-
-```xml
- <TextField hint="Your first name"
-    text="{{ firstName }}"
-    textChange="{{ onFirstNameChange }}"
-    class="border border-gray-500 rounded-lg pl-2 text-gray-700"/>
 ```
 
 ## Props
 
 ### text
 
-```xml
-<TextView text="{{ viewDate }}" />
-```
-
 ```ts
-text: string = textField.text
+text: string
 ```
 
-Gets or sets the `text` value of the component.
-
----
+Gets or sets the `text` of the TextField.
 
 ### hint
 
-```xml
-<TextView hint="hint" />
-```
-
 ```ts
-hint: string = textField.hint
+hint: string
 ```
 
-Gets or sets the Placeholder text for the component.
+<!-- textlint-disable terminology -->
 
----
+Gets or sets the placeholder text for the TextField.
+
+<!-- textlint-enable -->
 
 ### editable
 
-```xml
-<TextView editable="false" />
-```
-
 ```ts
-editable: boolean = textField.editable
-//or
-textField.editable = false
+editable: boolean
 ```
 
-Toggles the ability to take user input.
+When set to `false` the TextField is read-only.
 
----
+Defaults to `true`.
 
 ### keyboardType
 
-```xml
-<TextView keyboardType="number" />
+```ts
+keyboardType: CoreTypes.KeyboardType | number // "datetime" | "email" | "integer" | "number" | "phone" | "url"
 ```
+
+Gets or sets the keyboard type shown when editing this TextField.
+
+On iOS, any valid `UIKeyboardType` number works, for example:
 
 ```ts
-textField.keyboardType = CoreTypes.KeyboardType.number
-//or
-keyboardType: CoreTypes.KeyboardType = textField.keyboardType
+keyboardType = 8 // UIKeyboardType.DecimalPad
 ```
 
-Shows the appropriate keyboard keys for the data the TextField will capture. See [CoreTypes.KeyboardType](https://docs.nativescript.org/api-reference/modules/coretypes.keyboardtype) for available values.
-
----
+See [CoreTypes.KeyboardType](/api/namespace/CoreTypes-KeyboardType), [UIKeyboardType](https://developer.apple.com/documentation/uikit/uikeyboardtype?language=objc)
 
 ### returnKeyType
 
-```xml
-<TextView returnKeyType="next" />
-```
-
 ```ts
-textField.returnKeyType = CoreTypes.ReturnKeyType.next
-//or
-returnKeyType: CoreTypes.ReturnKeyType = textField.returnKeyType
+returnKeyType: CoreTypes.ReturnKeyType // "done" | "go" | "next" | "search" | "send"
 ```
 
-Gets or sets the label of the return key. See [CoreTypes.ReturnKeyType](https://docs.nativescript.org/api-reference/modules/coretypes.returnkeytype) for available values.
+Gets or sets the label of the return key.
 
----
+See [CoreTypes.ReturnKeyType](/api/namespace/CoreTypes-ReturnKeyType)
 
 ### isEnabled
 
-Allows or disallow the field to be editted. Default value is `true`.
+Allows disabling the TextField. A disabled TextField does not react to user gestures or input.
 
----
+Default value is `true`.
 
 ### maxLength
 
-```xml
-<TextView maxLength="10" />
-```
-
 ```ts
-textView.maxLength = 10
+maxLength: number
 ```
 
 Limits input to the specified number of characters.
 
----
-
 ### secure
 
-```xml
-<TextView secure="true" />
+```ts
+secure: boolean
 ```
 
-Hides the entered text when `true`. Use this property for password input fields. Default value: `false`.
+Hides the entered text when `true`. Useful for password input fields.
 
----
+Defaults to `false`.
 
 ### secureWithoutAutofill
 
-(`iOS-only`) Prevents iOS 12+ auto suggested strong password handling.
+```ts
+secureWithoutAutofill: boolean
+```
 
----
+Prevents iOS 12+ auto suggested strong password handling. **iOS only**
+
+Defaults to `false`.
 
 ### autocapitalizationType
 
-```xml
-<TextField text="Hello" autocapitalizationType="words" />
+```ts
+autocapitalizationType: CoreTypes.AutocapitalizationType // "allCharacters" | "none" | "sentences" | "words"
 ```
 
-Gets or sets the autocapitalization type. See [AutocapitalizationType](https://docs.nativescript.org/api-reference/modules/coretypes.autocapitalizationtype) interface for valid options.
+Gets or sets the autocapitalization type.
 
----
-
-### letterSpacing
-
-```xml
-<TextField text="Hello" letterSpacing="4" />
-```
-
-Gets or sets letter space style property.
-
----
-
-<!-- Is the lineHeight necessary for a TextField -->
-<!-- ### lineHeight
-```xml
-<TextField text="Hello" lineHeight="4" />
-```
-Gets or sets line height style property.
-
---- -->
-
-### textAlignment
-
-```xml
-<TextView textAlignment="center" />
-```
-
-Gets or sets the text alignment. See [TextAlignment](https://docs.nativescript.org/api-reference/modules/coretypes.textalignment) for valid options.
-
----
-
-### textDecoration
-
-Gets or sets the text decoration. See [TextDecoration](https://docs.nativescript.org/api-reference/modules/coretypes.textdecoration) for valid options.
-
----
-
-### textTransform
-
-```xml
-<TextField hint="" text="Hello" textTransform="uppercase">
-```
-
-Gets or sets the text transform. See [TextTransform](https://docs.nativescript.org/api-reference/modules/coretypes.texttransform) for valid options.
-
----
-
-### whiteSpace
-
-Gets or sets white space style property. See [WhiteSpace](https://docs.nativescript.org/api-reference/modules/coretypes.whitespace) for valid options.
-
----
+See [CoreTypes.AutocapitalizationType](/api/namespace/CoreTypes-AutocapitalizationType)
 
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/textfield).
-
----
+For additional inherited properties, refer to the [API Reference](/api/class/TextField).
 
 ## Methods
 
 ### focus()
 
 ```ts
-isFieldFocused: boolean = textField.focus()
+focus(): boolean
 ```
 
-Focuses the TextField and returns `true` if the focus is succeessful.
-
----
+Focuses the TextField and returns `true` if the focus was succeessful.
 
 ### dismissSoftInput()
 
 ```ts
-textField.dismissSoftInput()
+dismissSoftInput(): void
 ```
 
-Hides the keyboard on the screen.
-
----
+Hides the on-screen keyboard.
 
 ## Events
 
 ### textChange
 
-Emitted when the input value text changes. Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)
+```ts
+on('textChange', (args: PropertyChangeData) => {
+  const textField = args.object as TextField
+  console.log('TextField text changed:', args.value)
+})
+```
 
----
+Emitted when the input text changes.
+
+Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)
 
 ### returnPress
 
-Emitted when the return key is pressed. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+```ts
+on('returnPress', (args: EventData) => {
+  const textField = args.object as TextField
+  console.log('TextField return key pressed.')
+})
+```
 
----
+Emitted when the return key is pressed.
 
 ### focus
 
-Emitted when the field is in focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+```ts
+on('focus', (args: EventData) => {
+  const textField = args.object as TextField
+  console.log('TextField has been focused')
+})
+```
 
----
+Emitted when the field gains focus.
 
 ### blur
 
-Emitted when the field loses focus. Event data type: [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+```ts
+on('blur', (args: EventData) => {
+  const textField = args.object as TextField
+  console.log('TextField has been blured')
+})
+```
 
----
+Emitted when the field loses focus.
 
 ## Native component
 
