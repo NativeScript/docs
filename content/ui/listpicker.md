@@ -1,154 +1,58 @@
 ---
 title: ListPicker
+description: UI component for selecting a value from a list.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
-
-<!-- TODO: Add flavors -->
 
 `<ListPicker>` is a UI component that lets the user select a value from a pre-configured list.
 
----
-
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ListPicker.png"/>
+<img src="../screenshots/ios/ListPicker.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ListPicker.png" />
+<img src="../screenshots/android/ListPicker.png"/>
 </DeviceFrame>
 
-### Creating A Simple ListPicker
-
-<!-- /// flavor plain -->
-
-```xml
-<ListPicker items="{{ years }}" loaded="{{ onListPickerLoaded }}" />
-```
-
-```ts
-import { EventData, Observable, ListPicker, Page } from '@nativescript/core'
-export class HelloWorldModel extends Observable {
-  years = [1980, 1990, 2000, 2010, 2020]
-
-  onListPickerLoaded(args) {
-    const listPickerComponent = args.object
-    listPickerComponent.on('selectedIndexChange', (data: ProperyChangeData) => {
-      const picker = data.object as ListPicker
-      console.log(
-        `index: ${picker.selectedIndex}; item" ${years[picker.selectedIndex]}`
-      )
-    })
-  }
-}
-```
-
-<!--
-///
-
-/// flavor angular
-
-```xml
-<ListPicker [items]="items" class="picker"> </ListPicker>
-```
-
-///
-
-/// flavor vue
-
-```xml
-<ListPicker
-  :items="listOfItems"
-  selectedIndex="0"
-  @selectedIndexChange="selectedIndexChanged"
-/>
-```
-
-`<ListPicker>` provides two-way data binding using `v-model`.
-
-```xml
-<ListPicker :items="listOfItems" v-model="selectedItem" />
-```
-
-///
-
-/// flavor svelte
-
-```tsx
-<listPicker
-  items="{listOfItems}"
-  selectedIndex="0"
-  on:selectedIndexChange="{selectedIndexChanged}"
-/>
-```
-
-```js
-let listOfItems = ['one', 'two', 'three']
-const selectedIndexChanged = e => console.log(e.index)
-```
-
-`<ListPicker>` provides two-way data binding for `selectedIndex`.
-
-```tsx
-<listPicker items="{listOfItems}" bind:selectedIndex="{selectedItem}" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-import { EventData, ListPicker } from '@nativescript/core'
-;<listPicker
-  items={listOfItems}
-  selectedIndex={0}
-  onSelectedIndexChange={(args: EventData) => {
-    const listPicker: ListPicker = args.object as ListPicker
-    const index: number = listPicker.selectedIndex
-    const item = listPicker.items[index]
-  }}
-/>
-```
-
-/// -->
+<<< @/../examples/src/ui/ListPicker/template.xml#example
+<<< @/../examples/src/ui/ListPicker/template.ts#example
 
 ## Props
 
 ### items
 
-```xml
-<ListPicker items="{{ years }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  years = [1980, 1990, 2000, 2010, 2020]
-}
+items: Array<string | number>
 ```
 
-Gets or sets the specified items array as options in the ListPicker.
-
----
+Gets or sets the items of the ListPicker.
 
 ### selectedIndex
 
 ```ts
-listPicker.selectedIndex
-//or
-listPicker.selectedIndex = 2
+selectedIndex: number
 ```
 
 Gets or sets the index of the currently selected item.
 
----
-
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/listpicker).
+For additional inherited properties, refer to the [API Reference](/api/class/ListPicker).
 
 ## Events
 
 ### selectedIndexChange
 
-See [Creating a simple ListPicker](#creating-a-simple-listpicker)
-Emitted when the currently selected option (index) changes.
+```ts
+on('selectedIndexChange', (args: PropertyChangeData) => {
+  const picker = args.object as ListPicker
+  console.log('selectedIndex changed to', args.value)
+  // or picker.selectedIndex
+})
+```
+
+Emitted when the currently selected item (index) changes.
 
 ## Native component
 
