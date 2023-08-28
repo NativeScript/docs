@@ -2,8 +2,8 @@
 title: FlexboxLayout
 description: A layout container that implements (close-to-spec) CSS Flexbox.
 contributors:
- - rigor789
- - Ombuweb
+  - rigor789
+  - Ombuweb
 ---
 
 `<FlexboxLayout>` is a layout container that provides a non-exact implementation of [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). This layout lets you arrange child components both horizontally and vertically.
