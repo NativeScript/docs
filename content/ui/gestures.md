@@ -14,7 +14,7 @@ Users can interact with UI components using gestures. NativeScript supports the 
 - [rotation](#rotate-gesture-in-nativescript)
 - [touch](#touch-gesture-in-nativescript)
 
-All the gesture events, except the `tap`, provide the following data in common:
+All gesture events, except `tap`, have the following data in common:
 
 | Name | Type | Description |
 |------|------|-------------|
