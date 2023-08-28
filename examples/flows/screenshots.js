@@ -12,5 +12,6 @@ output.screenshots = [
   'ListView',
   'Placeholder',
   'Progress',
-  'ScrollView'
+  'ScrollView',
+  'SearchBar',
 ]

@@ -1,259 +1,108 @@
 ---
 title: SearchBar
+description: UI component for entering search queries.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
-<!-- TODO: Add flavors -->
-
-`<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
-
----
+`<SearchBar>` is a UI component that provides a user interface for entering search queries.
 
 <DeviceFrame type="ios">
-<img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/SearchBar.png"/>
+<img src="../screenshots/ios/SearchBar.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/SearchBar.png" />
+<img src="../screenshots/android/SearchBar.png"/>
 </DeviceFrame>
 
-<!-- /// flavor plain -->
-
-### A simple SearchBar handling the clear and submit events
-
-```xml
-<SearchBar id="searchBar"
-     hint="Enter search term here ..."
-     text="{{ searchText }}" clear="{{ onClear }}"
-     submit="{{ onSubmit }}"
-     loaded="{{ onSearchBarLoaded }}"/>
-```
-
-```ts
-import { Observable, Page, SearchBar } from '@nativescript/core'
-
-export function onNavigatingTo(args) {
-  const page = args.object as Page
-  const vm = new HelloWorldModel()
-  page.bindingContext = vm
-}
-
-export class HelloWorldModel extends Observable {
-  searchText = ''
-  constructor() {
-    super()
-  }
-
-  onSearchBarLoaded(args: EventData) {
-    const searchBar = args.object as SearchBar
-    searchBar.on('textChange', (args: PropertyChangeData) => {
-      console.log('Event name: ', args.eventName)
-    })
-  }
-  onSubmit(args: EventData) {
-    const searchBar = args.object as SearchBar
-    console.log(`Searching for ${searchBar.text}`)
-  }
-
-  onClear(args: EventData) {
-    const searchBar = args.object as SearchBar
-    console.log(`Clear event raised`)
-  }
-}
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<SearchBar
-  hint="Enter search term here ..."
-  [text]="searchPhrase"
-  (textChange)="onTextChanged($event)"
-  (clear)="onClear($event)"
-  (submit)="onSubmit($event)"
->
-</SearchBar>
-```
-
-```ts
-import { Component } from '@angular/core'
-import { SearchBar } from '@nativescript/core'
-
-@Component({
-  moduleId: module.id,
-  templateUrl: './usage.component.html'
-})
-export class UsageComponent {
-  searchPhrase: string
-
-  onSubmit(args) {
-    const searchBar = args.object as SearchBar
-    console.log(`Searching for ${searchBar.text}`)
-  }
-
-  onTextChanged(args) {
-    const searchBar = args.object as SearchBar
-    console.log(`Input changed! New value: ${searchBar.text}`)
-  }
-
-  onClear(args) {
-    const searchBar = args.object as SearchBar
-    console.log(`Clear event raised`)
-  }
-}
-```
-
-///
-
-/// flavor vue
-
-```xml
-<SearchBar
-  hint="Search hint"
-  :text="searchPhrase"
-  @textChange="onTextChanged"
-  @submit="onSubmit"
-/>
-```
-
-`<SearchBar>` provides two-way data binding using `v-model`.
-
-```xml
-<SearchBar v-model="searchQuery" />
-```
-
-///
-
-/// flavor svelte
-
-```tsx
-<searchBar
-  hint="Search hint"
-  text="{searchQuery}"
-  on:textChange="{onTextChanged}"
-  on:submit="{onSubmit}"
-/>
-```
-
-`<SearchBar>` provides two-way data binding for `text`.
-
-```xml
-<searchBar bind:text="{searchQuery}" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-<searchBar
-  hint="Search hint"
-  text="searchPhrase"
-  onTextChange={onTextChanged}
-  onSubmit={onSubmit}
-  onClose={onClose}
-/>
-```
-
-/// -->
+<<< @/../examples/src/ui/SearchBar/template.xml#example
 
 ## Props
 
 ### hint
 
-```xml
-<SearchBar hint="Enter search term here ..."  />
+```ts
+hint: string
 ```
 
-Gets or sets Placeholder text for the input area.
+<!-- textlint-disable terminology -->
 
----
+Gets or sets the placeholder text for the input area.
+
+<!-- textlint-enable -->
 
 ### text
 
-```xml
-<SearchBar text="{{ searchText }}" />
+```ts
+text: string
 ```
 
 Gets or sets the value of the search query.
 
----
-
 ### textFieldBackgroundColor
 
-```xml
- <SearchBar textFieldBackgroundColor="#76ABEB"/>
+```ts
+textFieldBackgroundColor: Color
 ```
 
 Gets or sets the background color of the input area.
 
----
+See [Color](/api/class/Color).
 
 ### textFieldHintColor
 
-```xml
- <SearchBar textFieldHintColor="#fff"/>
+```ts
+textFieldHintColor: Color
 ```
 
-Gets or sets the color of the Placeholder text.
+<!-- textlint-disable terminology -->
 
----
+Gets or sets the color of the placeholder text.
+
+<!-- textlint-enable -->
+
+See [Color](/api/class/Color).
 
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/searchbar)
+For additional inherited properties, refer to the [API Reference](/api/class/SearchBar)
 
 ## Events
 
 ### textChange
 
 ```ts
-searchBar.on('textChange', (args: PropertyChangeData) => {
-  console.log('Event name: ', args.oldValue)
+on('textChange', (args: PropertyChangeData) => {
+  const searchBar = args.object as SearchBar
+  console.log('Search query:', args.value)
 })
 ```
 
 Emitted when the search text is changed.
 
----
+See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 ### submit
 
-```xml
-<SearchBar submit="{{ onSubmit }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  onSubmit(args: EventData) {
-    const searchBar = args.object as SearchBar
-    console.log(`Searching for ${searchBar.text}`)
-  }
-}
+on('submit', (args: EventData) => {
+  const searchBar = args.object as SearchBar
+  console.log('Search for:', searchBar.text)
+})
 ```
 
 Emitted when the search text is submitted.
 
----
-
 ### clear
 
-```xml
-<SearchBar clear="{{ onClear }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  onClear(args: EventData) {
-    const searchBar = args.object as SearchBar
-    console.log(`Clear event raised`)
-  }
-}
+on('submit', (args: EventData) => {
+  const searchBar = args.object as SearchBar
+  console.log('SearchBar cleared')
+})
 ```
 
-Emitted when the current search input is cleared through the **X** button in the input area.
-
----
+Emitted when the search input is cleared through the **&cross;** button in the input area.
 
 ## Native Component
 
