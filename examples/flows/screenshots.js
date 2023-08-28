@@ -16,4 +16,5 @@ output.screenshots = [
   'SearchBar',
   'SegmentedBar',
   'Slider',
+  'Switch',
 ]
