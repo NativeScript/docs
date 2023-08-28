@@ -44,7 +44,7 @@ For additional inherited properties, refer to the [API Reference](/api/class/Act
 ### busyChange
 
 ```ts
-indicator.on('busyChange', (args: EventData) => {
+on('busyChange', (args: EventData) => {
   const indicator = args.object as ActivityIndicator
   console.log(`indicator.busy changed to: ${indicator.busy}`)
 })

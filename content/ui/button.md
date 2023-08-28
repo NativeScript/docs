@@ -1,14 +1,14 @@
 ---
 title: Button
+description: A basic native button that reacts to user gestures.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
-<!-- TODO: Add flavors -->
-
-`<Button>` is a UI component that displays a button which reacts to a user gesture.
+`<Button>` is a UI component that displays a button which reacts to user gestures.
 
 For more information about the available gestures, see [Gestures](/guide/ui/gestures).
-
----
 
 <DeviceFrame type="ios">
 <img  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/Button.png"/>
@@ -17,69 +17,9 @@ For more information about the available gestures, see [Gestures](/guide/ui/gest
 <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/Button.png" />
 </DeviceFrame>
 
-<!-- /// flavor plain -->
-
 ```xml
-<Button text="Tap me!" tap="onTap" />
+<Button text="Tap me!" />
 ```
-
-```ts
-import { Button } from '@nativescript/core'
-
-export function onTap(args) {
-  const button = args.object as Button
-  // execute your custom logic here...
-}
-```
-
-<!-- ///
-
-/// flavor angular
-
-```xml
-<button text="Tap me!" (tap)="onTap($event)"></button>
-```
-
-```ts
-import { Button, EventData } from '@nativescript/core'
-
-onTap(args: EventData) {
-    const button = args.object as Button
-    // execute your custom logic here...
-}
-```
-
-///
-
-/// flavor vue
-
-```xml
-<button text="Button" @tap="onButtonTap" />
-```
-
-///
-
-/// flavor svelte
-
-```xml
-<button text="Button" on:tap="{onButtonTap}" />
-```
-
-///
-
-/// flavor react
-
-```tsx
-import { EventData } from '@nativescript/core'
-;<button
-  text="Button"
-  onTap={(args: EventData) => {
-    const button = args.object
-  }}
-/>
-```
-
-/// -->
 
 ### Styling the button
 
@@ -101,57 +41,50 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 
 ### text
 
-```xml
-<Button text="Tap me!"/>
+```ts
+text: string
 ```
 
-Sets the label of the button.
-
----
+Sets the text shown in the button.
 
 ### textWrap
 
-```xml
-<Button text="Tap me!" textWrap="true" />
+```ts
+textWrap: boolean
 ```
 
-Gets or sets whether the widget wraps the text of the label. Useful for longer labels. Default value is `false`.
+Gets or sets whether the button should wrap longer text to new lines.
 
----
+Default value is `false`.
 
 ### isEnabled
 
 ```ts
-button.isEnabled = false
+isEnabled: boolean
 ```
 
-Make the button disabled or enabled. A disabled button is unusable and un-clickable. Default value is `true`.
+Allows disabling the button. A disabled button does not react to user gestures.
 
----
+Default value is `true`.
 
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/button).
-
----
+For additional inherited properties, refer to the [API Reference](/api/class/Button).
 
 ## Events
 
 ### tap
 
-```xml
-<Button text="Tap me!" tap="{{ onTap }}" />
-```
-
 ```ts
-export class HelloWorldModel extends Observable {
-  onTap(args: EventData) {}
-}
+on('tap', (args: TapGestureEventData) => {
+  const button = args.object as Button
+  console.log(`The button has been tapped!`)
+})
 ```
 
-Emitted when the button is tapped. Event type is [EventData](https://docs.nativescript.org/api-reference/interfaces/eventdata)
+Emitted when the button is tapped
 
----
+See [TapGestureEventData](/api/interface/TapGestureEventData).
 
 ## Native component
 
