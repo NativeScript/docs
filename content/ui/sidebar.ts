@@ -29,11 +29,6 @@ export default [
           // { text: 'Frame', link: '//#' },
           { text: 'Page', link: '/ui/page' },
           { text: 'ActionBar', link: '/ui/action-bar' },
-          // todo: move this elsewhere
-          {
-            text: 'Showing Modal',
-            link: '/guide/ui/showing-modal',
-          },
         ],
       },
       {
