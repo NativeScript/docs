@@ -384,7 +384,7 @@ Before we dive into creating the card below, let's create some classes for our b
 
 As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts. Open your `Home.vue` and add the following:
 
-```html{7-37}
+```xml{7-37}
 <!-- app/components/Home.vue -->
 
 <template>
@@ -402,8 +402,8 @@ As you can see in the image above, each card is made up of 3 components, the pre
           margin="5 10"
           padding="0"
         >
-          <image row="0" margin="0" stretch="aspectFill" :src="item.image" />
-          <label
+          <Image row="0" margin="0" stretch="aspectFill" :src="item.image" />
+          <Label
             row="1"
             margin="10 10 0 10"
             fontWeight="700"
@@ -411,7 +411,7 @@ As you can see in the image above, each card is made up of 3 components, the pre
             fontSize="18"
             :text="item.title"
           />
-          <label
+          <Label
             row="2"
             margin="0 10 10 10"
             class="text-secondary"
@@ -455,7 +455,7 @@ Let's start with creating the file for our details feature with the following co
 <!-- app/components/Details.vue -->
 
 <template>
-  <Page> </Page>
+  <Page></Page>
 </template>
 
 <script lang="ts">
@@ -537,7 +537,7 @@ export default Vue.extend({
 
 Next, let's add the tap event to the ListView items. Open `Home.vue` and add the following:
 
-```html{11}
+```xml{11}
 <!-- app/components/Home.vue -->
 
 <template>
@@ -561,8 +561,8 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
             margin="5 10"
             padding="0"
           >
-            <image row="0" margin="0" stretch="aspectFill" :src="item.image" />
-            <label
+            <Image row="0" margin="0" stretch="aspectFill" :src="item.image" />
+            <Label
               row="1"
               margin="10 10 0 10"
               fontWeight="700"
@@ -570,7 +570,7 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
               fontSize="18"
               :text="item.title"
             />
-            <label
+            <Label
               row="2"
               margin="0 10 10 10"
               class="text-secondary"
@@ -612,7 +612,7 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
 
 ### Access navigation props
 
-We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details component. We can use the `props` property to get the passed in `id`. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.vue` and add the following:
+We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details component. We can use the `props` property to get the passed-in `id`. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.vue` and add the following:
 
 ```vue{10,13,17,20-22}
 <!-- app/components/Details.vue -->

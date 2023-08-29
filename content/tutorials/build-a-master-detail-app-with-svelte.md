@@ -88,7 +88,7 @@ app
 
 Let's start with creating the file for our home page with the following contents:
 
-```html
+```xml
 <!-- app/pages/Home.svelte -->
 <page> </page>
 
@@ -99,7 +99,7 @@ Let's start with creating the file for our home page with the following contents
 
 We will be setting up the home page as our default route when the app starts. We can set the default route by importing the home component in our `App.svelte` file and setting it as the `defaultPage` of the root's `frame` component. Open `App.svelte` and add the following code:
 
-```html
+```xml
 <!-- app/App.svelte -->
 
 <page>
@@ -255,7 +255,7 @@ Next, let's break down the layout and UI elements of the home page.
 
 The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `Home.svelte` and add the following code:
 
-```html
+```xml
 <!-- app/pages/Home.svelte -->
 <page>
   <actionBar title="NativeFlix" />
@@ -265,7 +265,7 @@ The home page can be divided into two main parts, the ActionBar with the title a
 
 Since we have an array of flicks to display we can use NativeScript's [`ListView`](https://docs.nativescript.org/ui-and-styling.html#listview) component. `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list. Let's first create a variable called flick in our home component that we are going to use as our `ListView`'s data source. Open `Home.svelte` and add the following:
 
-```html{9}
+```xml{9}
 <!-- app/pages/Home.svelte -->
 
 <page>
@@ -282,7 +282,7 @@ Since we have an array of flicks to display we can use NativeScript's [`ListView
 
 Next, add the `ListView` component:
 
-```html{6-12,17}
+```xml{6-12,17}
 <!-- app/pages/Home.svelte -->
 
 <page>
@@ -348,7 +348,7 @@ Before we dive into creating the card below, let's create some classes for our b
 
 As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts. Open your `Home.svelte` and add the following:
 
-```html
+```xml
 <!-- app/pages/Home.svelte -->
 
 <page>
@@ -407,7 +407,7 @@ If you've followed along this far, running the app on either platform should res
 
 Let's start with creating the file for our details page with the following contents:
 
-```html
+```xml
 <!-- app/pages/Details.svelte -->
 
 <page> </page>
@@ -419,7 +419,7 @@ Let's start with creating the file for our details page with the following conte
 
 We will be using the `navigate` function from `svelte-native` class to navigate from our home component to the details component. In addition to the page name, we will also pass in the flick's `id` as part of the `props` object of the `navigate` function. We will use this `id` in our details component to access more information about the flick. Open `Home.svelte` and add the following:
 
-```html{42,46,51-56}
+```xml{42,46,51-56}
 <!-- app/pages/Home.svelte -->
 
 <page>
@@ -481,7 +481,7 @@ We will be using the `navigate` function from `svelte-native` class to navigate 
 
 Next, let's add the tap event to the ListView items. Open `Home.svelte` and add the following:
 
-```html{11}
+```xml{11}
 <!-- app/pages/Home.svelte -->
 
 <page>
@@ -546,9 +546,9 @@ Next, let's add the tap event to the ListView items. Open `Home.svelte` and add 
 
 ### Access navigation props
 
-We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details page. We can access the passed in `flickId` by declaring and exporting a variable with the same name in the details component. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.svelte` and add the following:
+We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details page. We can access the passed-in `flickId` by declaring and exporting a variable with the same name in the details component. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `Details.svelte` and add the following:
 
-```html{7}
+```xml{7}
 <!-- app/pages/Details.svelte -->
 
 <page> </page>
@@ -561,7 +561,7 @@ We passed in the `id` of the flick card the user tapped on in the previous secti
 
 Next, let's use the `flickId` to get the flick information from our `FlickService`. Open `Details.svelte` and add the following:
 
-```html{7,11}
+```xml{7,11}
 <!-- app/pages/Details.svelte -->
 
 <page> </page>
@@ -584,7 +584,7 @@ Let's break down the layout and UI elements of the details page.
 
 The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Svelte's `#each` block to loop through the array and create a UI element or set of elements for each entry in the array. Open `Details.svelte` and add the following code:
 
-```html{5,8-32}
+```xml{5,8-32}
 <!-- app/pages/Details.svelte -->
 
 <page>

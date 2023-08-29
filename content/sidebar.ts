@@ -18,10 +18,10 @@ export default [
         text: 'Creating a Project',
         link: '/guide/creating-a-project',
       },
-      // {
-      //   text: 'Tutorials',
-      //   link: '/tutorials/',
-      // },
+      {
+        text: 'Using Modals',
+        link: '/guide/navigation/modals',
+      },
       {
         text: 'Troubleshooting',
         link: '/troubleshooting',
@@ -161,9 +161,5 @@ export default [
         link: '/guide/shared-element-transitions',
       },
     ],
-  },
-  {
-    text: 'UI / Layout Containers',
-    items: [{ text: 'AbsoluteLayout', link: '/ui/absolute-layout' }],
   },
 ] as NSSidebarGroup[]
