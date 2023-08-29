@@ -1,347 +1,341 @@
 ---
 title: Page
+description: UI component for representing application screens the users can navigate to.
+contributors:
+  - rigor789
+  - Ombuweb
 ---
 
-<!-- TODO: Add flavors -->
+`<Page>` is a UI component for representing screens that users are able to navigate to through a [Frame](/ui/frame). A Page itself can only contain a single child view with the exception of the [ActionBar](/ui/action-bar) which has it's own special "slot".
 
-`<Page>` is a UI component that represents an application screen. NativeScript apps typically consist of one or more `<Page>` that wrap content such as an [`<ActionBar>`](#actionbar) and other UI widgets.
-`<Page>` provides navigation events such as `navigatedTo`. See [events](#events) for more.
-
-### Creating a Page
-
-<!-- /// flavor svelte
-
-```xml
-<page>
-  <actionBar title="My App" />
-  <gridLayout>
-    <Label text="My Content" />
-  </gridLayout>
-</page>
-```
-
-///
-
-/// flavor vue
+<!-- reusing ActionBar screenshot -->
+<DeviceFrame type="ios">
+<img src="../screenshots/ios/ActionBar.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="../screenshots/android/ActionBar.png"/>
+</DeviceFrame>
 
 ```xml
 <Page>
-  <ActionBar title="My App" />
+  <ActionBar title="MyApp" />
+
+  <!-- the main content - must be a single view -->
   <GridLayout>
-    <Label text="My Content" />
+    <Label text="Main Content" />
   </GridLayout>
 </Page>
 ```
 
-///
+## Page Lifecycle
 
-/// flavor react
+A page emits various events during navigation that you can use to update data/state in your app.
 
-```tsx
-<page>
-  <actionBar title="My App" />
-  <gridLayout>
-    <Label>My Content</label>
-  </gridLayout>
-</page>
+<!-- todo: create diagrams? -->
+
+### Navigating forward and back
+
+```bash
+# frame.navigate('mainPage') - initial navigation
+mainPage > loaded
+mainPage > navigatingTo (isBackNavigation: false)
+mainPage > layoutChanged  # todo: check if this is correct
+mainPage > navigatedTo (isBackNavigation: false)
+
+# frame.navigate({ moduleName: 'detailsPage' })
+
+mainPage > navigatingFrom (isBackNavigation: false)
+detailsPage > navigatingTo (isBackNavigation: false)
+mainPage > navigatedFrom (isBackNavigation: false)
+detailsPage > navigatedTo (isBackNavigation: false)
+
+# frame.goBack()
+
+detailPage > navigatingFrom (isBackNavigation: true)
+mainPage > navigatingTo (isBackNavigation: true)
+detailsPage > navigatedFrom (isBackNavigation: true)
+mainPage > navigatedTo (isBackNavigation: true)
+detailsPage > unloaded # since it's no longer in the backstack
 ```
 
-### The special case of the ActionBar child
+### Navigating forward and clearing history
 
-It doesn't matter whether the `<actionBar>` is a first child, last child, or middle child of `<page>`.
-React NativeScript will automatically detect it using an `child instanceof Page` check, and set it as the `ActionBar` for the Page.
+```bash
+# frame.navigate('mainPage')
+mainPage > loaded
+mainPage > navigatingTo (isBackNavigation: false)
+mainPage > layoutChanged  # todo: check if this is correct
+mainPage > navigatedTo (isBackNavigation: false)
 
-:::tip Note
-You can skip this check by explicitly setting `<actionBar nodeRole="actionBar">`, but it's not a major performance concern.
-:::
-Any non-ActionBar child will be handled as the content view. Page only supports a single child, so if you want to insert multiple children on the Page (which is normally the case!), you should use a LayoutBase such as GridLayout to enscapsulate them.
+# frame.navigate({ moduleName: 'detailsPage', clearHistory: true })
 
-:::tip Out of interest
-You'd expect to be able to set ActionBar as the content view by specifying `<actionBar nodeRole="content">`, but it's not supported in NativeScript Core, so React NativeScript doesn't support it either!
-:::
+mainPage > navigatingFrom (isBackNavigation: false)
+detailsPage > navigatingTo (isBackNavigation: false)
+mainPage > navigatedFrom (isBackNavigation: false)
+detailsPage > navigatedTo (isBackNavigation: false)
+mainPage > unloaded # since clearHistory: true
 
-///
-
-/// flavor plain -->
-
-```xml
-<Page>
-  <ActionBar title="My App" />
-  <GridLayout>
-    <Label text="My Content" />
-  </GridLayout>
-</Page>
+# frame.goBack() - no-op, there's nothing in the backstack.
 ```
 
-<!-- /// -->
+### Navigating forward without a backstack entry
 
-### Getting current page reference
+```bash
+# frame.navigate({ moduleName: 'mainPage', backstackVisible: false })
+mainPage > loaded
+mainPage > navigatingTo (isBackNavigation: false)
+mainPage > layoutChanged  # todo: check if this is correct
+mainPage > navigatedTo (isBackNavigation: false)
+
+# frame.navigate({ moduleName: 'detailsPage', : true })
+
+mainPage > navigatingFrom (isBackNavigation: false)
+detailsPage > navigatingTo (isBackNavigation: false)
+mainPage > navigatedFrom (isBackNavigation: false)
+detailsPage > navigatedTo (isBackNavigation: false)
+mainPage > unloaded # since backstackVisible: false, we won't be able to reach mainPage after this point
+```
+
+## Examples
+
+### Getting a reference to the current Page
 
 NativeScript provides various ways to access the current Page instance.
 
-#### Via Page Eventes
+#### Via Page Events
+
+Any events emitted by the Page will have a reference to the Page itself via `args.object`. For example:
 
 ```ts
 // loaded event
 onPageLoaded(args: LoadEventData) {
-    const page = args.object;
+  const page = args.object as Page;
 }
 
 // navigatedTo event
-export function onNavigatedTo(args) {
-    const page = args.object;
+onNavigatedTo(args: NavigatedData) {
+  const page = args.object as Page;
 }
 ```
 
-#### Via the page property of a View instance
+#### Via the page property of any View within the Page
+
+Any View nested inside a Page hierarchy can access the Page via the `page` property.
 
 ```ts
 onTap(args: EventData) {
-    const btn = args.object as Button
-    const page: Page = btn.page;
+  const button = args.object as Button
+  const page = button.page as Page;
 }
 ```
 
 #### Via the currentPage property of a Frame instance
 
+The currently displayed page can be accessed via the Frame, to get a reference to the frame you can use `Frame.topmost()` for example:
+
 ```ts
-const currentPage: Page = Frame.topmost().currentPage
+import { Frame } from '@nativescript/core'
+
+const frame = Frame.topmost()
+const page = frame.currentPage // Page
 ```
 
-See [Getting a Frame instance](/guide/ui/navigation#getting-a-frame-instance) for more ways to get a Frame instance.
+See [Frame](/ui/frame), [Getting a Frame Instance](/ui/frame#getting-a-frame-instance).
 
-### Using the `loaded` event for triggering UI changes
+### Handling various Page events
 
-A typical scenario is performing UI changes after the page is loaded. The recommended way to do it is by using the `loaded` event, triggered by NativeScript when the page is fully loaded:
+A page emits various events during it's lifecycle, navigation events and general View events like `loaded`/`unloaded`/`layoutChanged` etc.
 
-<!-- /// flavor plain -->
+::: code-group
 
-```xml
+```xml [Page Definition]
 <Page
-  loaded="onPageLoaded"
+  loaded="onLoaded"
+  unloaded="onUnloaded"
   navigatedFrom="onNavigatedFrom"
   navigatedTo="onNavigatedTo"
   navigatingFrom="onNavigatingFrom"
   navigatingTo="onNavigatingTo"
-  unloaded="onUnloaded"
   layoutChanged="onLayoutChanged"
 >
-  <Page.actionBar>
-    <ActionBar title="Page Creation" />
-  </Page.actionBar>
-  <!-- Each page can have only a single root view -->
-  <StackLayout>
-    <!-- content here -->
-    <Label text="Hello, world!" />
-  </StackLayout>
+  <ActionBar title="MyApp" />
+  <!-- ... -->
 </Page>
 ```
 
-```ts
-import { EventData, Page } from '@nativescript/core'
-
-export function onPageLoaded(args: EventData): void {
-  console.log('Page Loaded')
+```ts [Event Handlers]
+onLoaded(args: EventData) {
   const page = args.object as Page
 }
-export function onLayoutChanged(args: EventData) {
-  console.log(args.eventName)
-  console.log(args.object)
+
+onUnloaded(args: EventData) {
+  const page = args.object as Page
 }
 
-export function onNavigatedTo(args: NavigatedData) {
-  console.log(args.eventName)
-  console.log(args.object)
-  console.log(args.context)
+onLayoutChanged(args: EventData) {
+  const page = args.object as Page
+}
+
+onNavigatedTo(args: NavigatedData) {
+  const page = args.object as Page
   console.log(args.isBackNavigation)
 }
 
-export function onNavigatingFrom(args: NavigatedData) {
-  console.log(args.eventName)
-  console.log(args.object)
-  console.log(args.context)
+onNavigatingFrom(args: NavigatedData) {
+  const page = args.object as Page
   console.log(args.isBackNavigation)
 }
 
-export function onUnloaded(args: EventData) {
-  console.log(args.eventName)
-  console.log(args.object)
-}
-
-export function onNavigatedFrom(args: NavigatedData) {
-  console.log(args.eventName)
-  console.log(args.object)
-  console.log(args.context)
+onNavigatedFrom(args: NavigatedData) {
+  const page = args.object as Page
   console.log(args.isBackNavigation)
 }
 ```
 
-<!-- ///
-
-/// flavor vue
-
-```xml
-<Page @loaded="greet">
-  <ActionBar title="My App" />
-  <GridLayout>
-    <Label text="My Content" />
-  </GridLayout>
-</Page>
-```
-
-```js
-export default {
-  methods: {
-    greet() {
-      alert('Hello!').then(() => {
-        console.log('Dialog closed')
-      })
-    }
-  }
-}
-```
-
-::: warning Note
-Developers coming from a web background would usually reach for the `mounted` lifecycle hook Vue provides, however in NativeScript the application, and certain elements might not yet be loaded when the `mounted` hook is executed, thus certain actions such as alerts, dialogs, navigation etc. are not possible inside the `mounted` hook. To work around this limitation, the `loaded` event may be used, which only fires after the application is ready. In this case, we are using the `loaded` event of the [`<Page>`](#page) element, but this event is available for all NativeScript elements.
 :::
-
-/// -->
-
-<!-- TODO: examples in all flavors -->
 
 ## Props
 
-### ActionBar
+<!-- textlint-disable terminology -->
+
+### actionBar
+
+<!-- textlint-enable -->
 
 ```ts
-actionBar: ActionBar = page.actionBar
+actionBar: ActionBar
 ```
 
-Gets the ActionBar for this page.
+Gets or sets the ActionBar for this page.
 
----
+See [ActionBar](/ui/action-bar).
 
 ### actionBarHidden
 
-```xml
-<Page actionBarHidden="true">
-```
-
 ```ts
-page.actionBarHidden = true
+actionBarHidden: boolean
 ```
 
-Shows or hides the `<ActionBar>` for the page. Defaults to `false`.
+Allows hiding the ActionBar.
 
----
+Defaults to `false`.
 
 ### frame
 
 ```ts
-frame: Frame = page.frame
+frame: Frame
 ```
 
 The Frame instance containing the page.
 
----
+See [Frame](/ui/frame).
 
 ### navigationContext
 
 ```ts
-navigationContext = page.navigationContext
+navigationContext: any
 ```
 
-A property that is used to pass data to another page.
-
----
+A context used to pass data during navigation.
 
 ### backgroundSpanUnderStatusBar
 
-Gets or sets whether the background of the page spans under the status bar. Defaults to `false`.
+```ts
+backgroundSpanUnderStatusBar: boolean
+```
 
----
+Gets or sets whether the background of the page spans under the status bar.
+
+Defaults to `false`.
 
 ### androidStatusBarBackground
 
-```xml
-<Page androidStatusBarBackground="blue">
+```ts
+androidStatusBarBackground: Color
 ```
 
-(`Android-only`) Gets or sets the color of the status bar on Android devices.
+Gets or sets the color of the status bar on Android devices. **Android only.**
 
----
+See [Color](/api/class/Color).
 
 ### enableSwipeBackNavigation
 
-```xml
-<Page enableSwipeBackNavigation="false">
-```
-
 ```ts
-page.enableSwipeBackNavigation = false
+enableSwipeBackNavigation: boolean
 ```
 
-(`iOS-only`) Gets or sets whether the page can be swiped back on iOS. Defaults to `true`.
+Gets or sets whether the page can be swiped back on iOS. **iOS only.**
 
----
+Defaults to `true`.
 
 ### statusBarStyle
 
-Gets or sets the style of the status bar.
-
-```xml
-<Page statusBarStyle="light">
-```
-
 ```ts
-page.statusBarStyle = 'light'
+statusBarStyle: 'light' | 'dark'
 ```
 
-Valid values:`light`or `dark`.
-
----
+Gets or sets the style of the status bar.
 
 ### ...Inherited
 
-For additional inherited properties, refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/page).
-
----
+For additional inherited properties, refer to the [API Reference](/api/class/Page).
 
 ## Events
 
 ### loaded
 
+```ts
+on('loaded', (args: EventData) => {
+  const page = args.object as Page
+  console.log('Page loaded')
+})
+```
+
 Emitted after the page has been loaded.
-
----
-
-### navigatedFrom
-
-Emitted after the app has navigated away from the current page.
-
----
-
-### navigatedTo
-
-Emitted after the app has navigated to the current page.
-
----
-
-### navigatingFrom
-
-Emitted before the app has navigated away from the current page.
-
----
 
 ### navigatingTo
 
+```ts
+on('navigatingTo', (args: NavigatedData) => {
+  const page = args.object as Page
+  console.log('Page is being navigated to:', args.isBackNavigation)
+})
+```
+
 Emitted before the app has navigated to the current page.
 
----
+### navigatedTo
 
-::: warning Note
-The events loaded, unloaded and layoutChanged are UI component lifecycles events and are universal for all classes that extend the View class (including Page). They can be used with all NativeScript elements (e.g. layouts, buttons, UI plugins, etc.).
-:::
+```ts
+on('navigatedTo', (args: NavigatedData) => {
+  const page = args.object as Page
+  console.log('Page has been navigated to:', args.isBackNavigation)
+})
+```
+
+Emitted after the app has navigated to the current page.
+
+### navigatingFrom
+
+```ts
+on('navigatingFrom', (args: NavigatedData) => {
+  const page = args.object as Page
+  console.log('Page is being navigated from:', args.isBackNavigation)
+})
+```
+
+Emitted before the app has navigated away from the current page.
+
+### navigatedFrom
+
+```ts
+on('navigatedFrom', (args: NavigatedData) => {
+  const page = args.object as Page
+  console.log('Page has been navigated from:', args.isBackNavigation)
+})
+```
+
+Emitted after the app has navigated away from the current page.
 
 ## Native component
 
