@@ -12,6 +12,15 @@ contributors:
 When working with images, consider following [the best practices](/performance.html#image-optimizations).
 ::: -->
 
+::: tip
+
+Working with many images can quickly become a memory hog, for improved image handling it's recommended to use an Image caching library. Here are a few plugins from our community:
+
+- [@triniwiz/image-cache-it](https://triniwiz.github.io/nativescript-plugins/api-reference/image-cache-it.html)
+- [@nativescript-community/ui-image](https://github.com/nativescript-community/ui-image)
+
+:::
+
 <DeviceFrame type="ios">
 <img src="../screenshots/ios/Image.png"/>
 </DeviceFrame>
