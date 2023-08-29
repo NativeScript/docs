@@ -19,6 +19,10 @@ export default [
         link: '/guide/creating-a-project',
       },
       {
+        text: 'Navigation',
+        link: '/guide/navigation/',
+      },
+      {
         text: 'Using Modals',
         link: '/guide/navigation/modals',
       },
@@ -41,7 +45,7 @@ export default [
       },
       {
         text: 'Using Plugins',
-        link: '/guide/development-workflow/using-packages'
+        link: '/guide/development-workflow/using-packages',
       },
       {
         text: 'Debugging',
@@ -49,7 +53,7 @@ export default [
       },
       {
         text: 'Testing',
-        link: '/guide/testing'
+        link: '/guide/testing',
       },
       {
         text: 'Publishing',
@@ -112,13 +116,21 @@ export default [
         link: '/project-structure/package-json',
         icon: 'file',
       },
-      { text: 'references.d.ts', link: '/project-structure/references-d-ts', icon: 'file' },
+      {
+        text: 'references.d.ts',
+        link: '/project-structure/references-d-ts',
+        icon: 'file',
+      },
       {
         text: 'tsconfig.json',
         link: '/project-structure/tsconfig-json',
         icon: 'file',
       },
-      { text: 'webpack.config.js', link: '/webpack', icon: 'file' },
+      {
+        text: 'webpack.config.js',
+        link: '/project-structure/webpack-config',
+        icon: 'file',
+      },
       // {
       //   text: 'package.json',
       //   link: '//#',
@@ -145,60 +157,60 @@ export default [
       },
       {
         text: 'Color',
-        link: '/guide/core/color'
+        link: '/guide/core/color',
       },
       {
         text: 'Connectivity',
         link: '/guide/core/connectivity',
       },
-      { 
+      {
         text: 'Http',
-        link: '/guide/core/http'
+        link: '/guide/core/http',
       },
       {
         text: 'FPS Meter',
-        link: '/guide/core/fps-meter'
+        link: '/guide/core/fps-meter',
       },
       {
         text: 'FileSystem',
-        link: '/guide/core/file-system'
+        link: '/guide/core/file-system',
       },
       {
         text: 'Observable',
-        link: '/guide/core/observable'
+        link: '/guide/core/observable',
       },
       {
         text: 'Screen',
-        link: '/guide/core/screen'
+        link: '/guide/core/screen',
       },
       {
         text: 'Device',
-        link: '/guide/core/device'
+        link: '/guide/core/device',
       },
       {
         text: 'Trace',
-        link: '/guide/core/tracing'
+        link: '/guide/core/tracing',
       },
       {
         text: 'XmlParser',
-        link: '/guide/core/xml-parser'
+        link: '/guide/core/xml-parser',
       },
       {
         text: 'Utils',
-        link: '/guide/core/utils'
-      }
-    ]
+        link: '/guide/core/utils',
+      },
+      {
+        text: 'ImageCache',
+        link: '/guide/core/image-cache',
+      },
+    ],
   },
   {
     text: 'Advanced Concepts',
     items: [
       {
         text: 'Data Binding',
-        link: '/guide/data-binding'
-      },
-      {
-        text: 'Navigation',
-        link: '/guide/ui/navigation',
+        link: '/guide/data-binding',
       },
       {
         text: 'Multithreading',
@@ -210,28 +222,29 @@ export default [
       },
       {
         text: 'Metadata',
-        link: '/guide/metadata'
+        link: '/guide/metadata',
       },
       {
         text: 'Marshalling',
+        link: '#',
         items: [
           {
             text: 'iOS Marshalling',
             link: '/guide/ios-marshalling',
           },
           {
-            text: 'iOS',
+            text: 'iOS Runtime Types',
             link: '/guide/ios-runtime-types',
           },
           {
-            text: 'Android',
+            text: 'Android Marshalling',
             link: '/guide/android-marshalling',
-          }
-        ]
+          },
+        ],
       },
       {
         text: 'Property System',
-        link: '/guide/property-system'
+        link: '/guide/property-system',
       },
       {
         text: 'Shared Element Transitions',
