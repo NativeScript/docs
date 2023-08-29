@@ -8,6 +8,13 @@ contributors:
 
 `<ListView>` is a UI component that renders items in a vertically scrolling list, the template for the items can be defined via `itemTemplate` (or multiple templates via `itemTemplates` - more on that below). The ListView only renders the visible items, as the user scrolls, new items render by reusing a no-longer-visible item's view&mdash;this is usually referred to as view-recycling.
 
+::: tip
+
+For additional features and improved performance in certain scenarios, consider using an alternative implementation like the
+[CollectionView](https://github.com/nativescript-community/ui-collectionview) from the community.
+
+:::
+
 <DeviceFrame type="ios">
 <img src="../screenshots/ios/ListView.png"/>
 </DeviceFrame>
