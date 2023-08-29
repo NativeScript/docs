@@ -2,6 +2,7 @@
 // to generate screenshots for the examples
 
 output.screenshots = [
+  'ActionBar',
   'ActivityIndicator',
   'Button',
   'DatePicker',
