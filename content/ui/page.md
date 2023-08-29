@@ -339,6 +339,5 @@ Emitted after the app has navigated away from the current page.
 
 ## Native component
 
-| Android                                                                                                                                                                                          | iOS                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| [`org.nativescript.widgets.GridLayout`](https://github.com/NativeScript/NativeScript/blob/master/packages/ui-mobile-base/android/widgets/src/main/java/org/nativescript/widgets/GridLayout.java) | [`UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller) |
+- Android: [`org.nativescript.widgets.GridLayout`](https://github.com/NativeScript/NativeScript/blob/master/packages/ui-mobile-base/android/widgets/src/main/java/org/nativescript/widgets/GridLayout.java)
+- iOS: [`UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller)

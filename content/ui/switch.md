@@ -70,6 +70,5 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 ## Native component
 
-| Android                                                                                       | iOS                                                                    |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [`android.widget.Switch`](https://developer.android.com/reference/android/widget/Switch.html) | [`UISwitch`](https://developer.apple.com/documentation/uikit/uiswitch) |
+- Android: [`android.widget.Switch`](https://developer.android.com/reference/android/widget/Switch.html)
+- iOS: [`UISwitch`](https://developer.apple.com/documentation/uikit/uiswitch)

@@ -127,6 +127,5 @@ See [ScrollEventData](/api/interface/ScrollEventData).
 
 ## Native component
 
-| Android                                                                          | iOS                                                                            |
-| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [`android.view`](https://developer.android.com/reference/android/view/View.html) | [`UIScrollView`](https://developer.apple.com/documentation/uikit/uiscrollview) |
+- Android: [`android.view`](https://developer.android.com/reference/android/view/View.html)
+- iOS: [`UIScrollView`](https://developer.apple.com/documentation/uikit/uiscrollview)

@@ -76,6 +76,5 @@ Emitted when an item in the SegmentedBar is tapped.
 
 ## Native component
 
-| Android                                                                                         | iOS                                                                                        |
-| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [`android.widget.TabHost`](https://developer.android.com/reference/android/widget/TabHost.html) | [`UISegmentedControl`](https://developer.apple.com/documentation/uikit/uisegmentedcontrol) |
+- Android: [`android.widget.TabHost`](https://developer.android.com/reference/android/widget/TabHost.html)
+- iOS: [`UISegmentedControl`](https://developer.apple.com/documentation/uikit/uisegmentedcontrol)

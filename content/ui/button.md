@@ -88,6 +88,5 @@ See [TapGestureEventData](/api/interface/TapGestureEventData).
 
 ## Native component
 
-| Android                                                                                       | iOS                                                                    |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [`android.widget.Button`](https://developer.android.com/reference/android/widget/Button.html) | [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton) |
+- Android: [`android.widget.Button`](https://developer.android.com/reference/android/widget/Button.html)
+- iOS: [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton)

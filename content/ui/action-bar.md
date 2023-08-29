@@ -294,8 +294,17 @@ See [R.drawable](https://developer.android.com/reference/android/R.drawable.html
 
 ## Native component
 
-| View             | Android                                                                                       | iOS                                                                                                 |
-| ---------------- | :-------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| ActionBar        | [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html) | [UINavigationBar](https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc)    |
-| ActionItem       | [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html) | [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca) |
-| NavigationButton | [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html) | [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca) |
+### ActionBar
+
+- Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
+- iOS: [UINavigationBar](https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc)
+
+### ActionItem
+
+- Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
+- iOS: [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca)
+
+### NavigationButton
+
+- Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
+- iOS: [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca)

@@ -147,6 +147,5 @@ See [LoadEventData](/api/interface/LoadEventData).
 
 ## Native component
 
-| Android                                                                                    | iOS                                                                       |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| [`android.webkit.WebView`](https://developer.android.com/reference/android/webkit/WebView) | [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview) |
+- Android: [`android.webkit.WebView`](https://developer.android.com/reference/android/webkit/WebView)
+- iOS: [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview)

@@ -190,6 +190,5 @@ Emitted when the TextView loses focus.
 
 ## Native component
 
-| Android                                                                                           | iOS                                                                        |
-| ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html) | [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview) |
+- Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
+- iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)

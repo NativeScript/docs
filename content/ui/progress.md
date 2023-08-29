@@ -61,8 +61,7 @@ Defaults to: `100`.
 
 For additional inherited properties, refer to the [API Reference](/api/class/Progress)
 
-## Native Component
+## Native component
 
-| Android                                                                                                                         | iOS                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [`android.widget.ProgressBar` (indeterminate = false)](https://developer.android.com/reference/android/widget/ProgressBar.html) | [`UIProgressView`](https://developer.apple.com/documentation/uikit/uiprogressview) |
+- Android: [`android.widget.ProgressBar` (indeterminate = false)](https://developer.android.com/reference/android/widget/ProgressBar.html)
+- iOS: [`UIProgressView`](https://developer.apple.com/documentation/uikit/uiprogressview)

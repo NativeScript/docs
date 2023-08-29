@@ -66,6 +66,5 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 ## Native component
 
-| Android                                                                                         | iOS                                                                    |
-| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [`android.widget.SeekBar`](https://developer.android.com/reference/android/widget/SeekBar.html) | [`UISlider`](https://developer.apple.com/documentation/uikit/uislider) |
+- Android: [`android.widget.SeekBar`](https://developer.android.com/reference/android/widget/SeekBar.html)
+- iOS: [`UISlider`](https://developer.apple.com/documentation/uikit/uislider)

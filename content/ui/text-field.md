@@ -211,6 +211,5 @@ Emitted when the TextField loses focus.
 
 ## Native component
 
-| Android                                                                                           | iOS                                                                          |
-| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html) | [`UITextField`](https://developer.apple.com/documentation/uikit/uitextfield) |
+- Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
+- iOS: [`UITextField`](https://developer.apple.com/documentation/uikit/uitextfield)

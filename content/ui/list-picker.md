@@ -56,6 +56,5 @@ Emitted when the currently selected item (index) changes.
 
 ## Native component
 
-| Android                                                                                                   | iOS                                                                            |
-| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [`android.widget.NumberPicker`](https://developer.android.com/reference/android/widget/NumberPicker.html) | [`UIPickerView`](https://developer.apple.com/documentation/uikit/uipickerview) |
+- Android: [`android.widget.NumberPicker`](https://developer.android.com/reference/android/widget/NumberPicker.html)
+- iOS: [`UIPickerView`](https://developer.apple.com/documentation/uikit/uipickerview)

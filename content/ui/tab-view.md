@@ -182,6 +182,5 @@ Emitted when the selected tab changes.
 
 ## Native component
 
-| Android                                                                                                               | iOS                                                                                        |
-| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [`android.support.v4.view.ViewPager`](https://developer.android.com/reference/android/support/v4/view/ViewPager.html) | [`UITabBarController`](https://developer.apple.com/documentation/uikit/uitabbarcontroller) |
+- Android: [`androidx.viewpager.widget.ViewPager`](https://developer.android.com/reference/androidx/viewpager/widget/ViewPager)
+- iOS: [`UITabBarController`](https://developer.apple.com/documentation/uikit/uitabbarcontroller)

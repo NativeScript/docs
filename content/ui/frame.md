@@ -64,7 +64,7 @@ This is a simplified example to convey the possibilities, in a real app implemen
 actionBarVisibility: 'auto' | 'always' | 'never'
 ```
 
-Used to control the visibility the Navigation Bar in iOS and the Action Bar in Android for all Pages within this Frame.
+Used to control the visibility the Navigation Bar in iOS and the ActionBar in Android for all Pages within this Frame.
 
 ### animated
 
@@ -218,6 +218,5 @@ Emitted when the Frame has navigated to a new Page.
 
 ## Native component
 
-| Android                                                                                                                                                                                    | iOS                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| [`org.nativescript.widgets.ContentLayout`](https://github.com/NativeScript/tns-core-modules-widgets/blob/master/android/widgets/src/main/java/org/nativescript/widgets/ContentLayout.java) | [`UINavigationController`](https://developer.apple.com/documentation/uikit/uinavigationcontroller) |
+- Android: [`org.nativescript.widgets.ContentLayout`](https://github.com/NativeScript/tns-core-modules-widgets/blob/master/android/widgets/src/main/java/org/nativescript/widgets/ContentLayout.java)
+- iOS: [`UINavigationController`](https://developer.apple.com/documentation/uikit/uinavigationcontroller)

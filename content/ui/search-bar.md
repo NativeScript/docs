@@ -104,8 +104,7 @@ on('submit', (args: EventData) => {
 
 Emitted when the search input is cleared through the **&cross;** button in the input area.
 
-## Native Component
+## Native component
 
-| Android                                                                                               | iOS                                                                          |
-| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [`android.widget.SearchView`](https://developer.android.com/reference/android/widget/SearchView.html) | [`UISearchBar`](https://developer.apple.com/documentation/uikit/uisearchbar) |
+- Android: [`android.widget.SearchView`](https://developer.android.com/reference/android/widget/SearchView.html)
+- iOS: [`UISearchBar`](https://developer.apple.com/documentation/uikit/uisearchbar)

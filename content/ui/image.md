@@ -139,6 +139,5 @@ For additional inherited properties, refer to the [API Reference](/api/class/Ima
 
 ## Native component
 
-| Android                                                                                        | iOS                                                                          |
-| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [`android.widget.ImageView`](https://developer.android.com/reference/android/widget/ImageView) | [`UIImageView`](https://developer.apple.com/documentation/uikit/uiimageview) |
+- Android: [`android.widget.ImageView`](https://developer.android.com/reference/android/widget/ImageView)
+- iOS: [`UIImageView`](https://developer.apple.com/documentation/uikit/uiimageview)

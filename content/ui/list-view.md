@@ -186,6 +186,5 @@ Emitted when the user reaches the end of the ListView. Useful for loading additi
 
 ## Native component
 
-| Android                                                                                           | iOS                                                                          |
-| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [`android.widget.ListView`](https://developer.android.com/reference/android/widget/ListView.html) | [`UITableView`](https://developer.apple.com/documentation/uikit/uitableview) |
+- Android: [`android.widget.ListView`](https://developer.android.com/reference/android/widget/ListView.html)
+- iOS: [`UITableView`](https://developer.apple.com/documentation/uikit/uitableview)

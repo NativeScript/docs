@@ -44,6 +44,5 @@ For additional inherited properties, refer to the [API Reference](/api/class/Htm
 
 ## Native component
 
-| Android                                                                                           | iOS                                                                        |
-| ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html) | [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview) |
+- Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
+- iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)

@@ -179,6 +179,5 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 ## Native component
 
-| Android                                                                                               | iOS                                                                            |
-| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [`android.widget.DatePicker`](https://developer.android.com/reference/android/widget/DatePicker.html) | [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker) |
+- Android: [`android.widget.DatePicker`](https://developer.android.com/reference/android/widget/DatePicker.html)
+- iOS: [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker)

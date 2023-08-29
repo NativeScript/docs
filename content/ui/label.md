@@ -147,6 +147,5 @@ Emitted when the label text is changed. -->
 
 ## Native component
 
-| Android                                                                                           | iOS                                                                  |
-| ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html) | [`UILabel`](https://developer.apple.com/documentation/uikit/uilabel) |
+- Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
+- iOS: [`UILabel`](https://developer.apple.com/documentation/uikit/uilabel)

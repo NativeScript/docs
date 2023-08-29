@@ -110,6 +110,5 @@ Emitted when the selected time changes.
 
 ## Native component
 
-| Android                                                                                          | iOS                                                                            |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| [`android.widget.TimePicker`](https://developer.android.com/reference/android/widget/TimePicker) | [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker) |
+- Android: [`android.widget.TimePicker`](https://developer.android.com/reference/android/widget/TimePicker)
+- iOS: [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker)
