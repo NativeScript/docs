@@ -26,9 +26,19 @@ export default [
         text: 'Navigation Components',
         link: '/ui/#navigation-containers',
         items: [
-          // { text: 'Frame', link: '//#' },
+          { text: 'Frame', link: '/ui/frame' },
           { text: 'Page', link: '/ui/page' },
           { text: 'ActionBar', link: '/ui/action-bar' },
+          {
+            text: 'ActionItem',
+            link: '/ui/action-bar#action-item',
+            visible: false, // only shown in the index/reference
+          },
+          {
+            text: 'NavigationButton',
+            link: '/ui/action-bar#navigation-button',
+            visible: false, // only shown in the index/reference
+          },
         ],
       },
       {
