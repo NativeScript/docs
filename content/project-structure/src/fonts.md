@@ -8,7 +8,7 @@ A folder for storing custom fonts. Any `.ttf` files placed here are automaticall
 
 ## Using Custom Fonts
 
-Place the `.ttf` file(s) in the `src/fonts` folder, then run
+Place the `.ttf` files in the `src/fonts` folder, then run
 
 ```cli
 ns fonts

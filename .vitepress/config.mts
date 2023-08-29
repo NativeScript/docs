@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import apiSidebar from '../content/api/sidebar.json'
 import mainSidebar from '../content/sidebar'
+import uiSidebar from '../content/ui/sidebar'
 import nav from './nav'
 import './theme/cliLanguage'
 import path from 'node:path'
@@ -36,6 +37,7 @@ export default defineConfig({
     nav,
     sidebar: {
       '/api': apiSidebar,
+      '/ui': uiSidebar,
       '/': mainSidebar,
     },
   },

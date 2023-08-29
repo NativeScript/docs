@@ -19,38 +19,9 @@ export default [
         link: '/guide/creating-a-project',
       },
       {
-        text: 'Development Workflow',
-        items: [
-          {
-            text: 'Running',
-            link: '/guide/running',
-          },
-          {
-            text: 'Debugging',
-            link: '/guide/debugging',
-          },
-          {
-            text: 'Testing',
-            link: '/guide/testing'
-          },
-          {
-            text: 'Plugins',
-            link: '/guide/development-workflow/using-packages'
-          },
-        ],
+        text: 'Using Modals',
+        link: '/guide/navigation/modals',
       },
-      {
-        text: 'Tutorials',
-        link: '/tutorials/',
-      },
-      {
-        text: 'Publishing',
-        link: '/guide/publishing/',
-      },
-      // {
-      //   text: 'Tutorials',
-      //   link: '/tutorials/',
-      // },
       {
         text: 'Troubleshooting',
         link: '/troubleshooting',
@@ -68,10 +39,17 @@ export default [
         text: 'Running',
         link: '/guide/running',
       },
-
+      {
+        text: 'Using Plugins',
+        link: '/guide/development-workflow/using-packages'
+      },
       {
         text: 'Debugging',
         link: '/guide/debugging',
+      },
+      {
+        text: 'Testing',
+        link: '/guide/testing'
       },
       {
         text: 'Publishing',
@@ -261,127 +239,4 @@ export default [
       },
     ],
   },
-  {
-    text: 'UI',
-    items: [
-      {
-        text: 'Dialogs',
-        link: '/ui/dialogs',
-      },
-      {
-        text: 'Gestures',
-        link: '/ui/gestures',
-      },
-      {
-        text: 'Image',
-        items: [
-          {
-            text: 'ImageCache',
-            link: '/guide/ui/image-cache'
-          },
-          {
-            text: 'ImageSource',
-            link: '/guide/ui/image-source'
-          }
-        ]
-      },
-      //       { text: 'Styling', link: '//#' },
-      //       { text: 'Interactivity', link: '//#' },
-      {
-        text: 'Layout Containers',
-        items: [
-          //           { text: 'StackLayout', link: '//#' },
-          //           { text: 'GridLayout', link: '//#' },
-          //           { text: 'RootLayout', link: '//#' },
-          //           { text: 'FlexboxLayout', link: '//#' },
-          //           { text: 'WrapLayout', link: '//#' },
-          { text: 'AbsoluteLayout', link: '/ui/absolute-layout' },
-        ],
-      },
-      //       {
-      //         text: 'Navigation Components',
-      //         items: [
-      //           { text: 'Frame', link: '//#' },
-      //           { text: 'Page', link: '//#' },
-      //           { text: 'ActionBar', link: '//#' },
-      //           { text: 'ActionItem', link: '//#' },
-      //           { text: 'NavigationButton', link: '//#' },
-      //         ],
-      //       },
-      //       {
-      //         text: 'Components',
-      //         items: [
-      //           { text: 'ActivityIndicator', link: '//#' },
-      //           { text: 'Button', link: '//#' },
-      //           { text: 'DatePicker', link: '//#' },
-      //           { text: 'HtmlView', link: '//#' },
-      //           { text: 'Image', link: '/' },
-      //           { text: 'Label', link: '//#' },
-      //           { text: 'ListPicker', link: '//#' },
-      //           { text: 'ListView', link: '//#' },
-      //           { text: 'Placeholder', link: '//#' },
-      //           { text: 'Progress', link: '//#' },
-      //           { text: 'ScrollView', link: '//#' },
-      //           { text: 'SearchBar', link: '//#' },
-      //           { text: 'SegmentedBar', link: '//#' },
-      //           { text: 'Slider', link: '//#' },
-      //           { text: 'Switch', link: '//#' },
-      //           { text: 'TabView', link: '//#' },
-      //           { text: 'TextField', link: '//#' },
-      //           { text: 'TextView', link: '//#' },
-      //           { text: 'TimePicker', link: '//#' },
-      //           { text: 'WevView', link: '//#' },
-    ],
-  },
-  //   {
-  //     text: 'Diving Deeper',
-  //     items: [{ text: 'Architecture concepts', link: '//#' }],
-  //   },
-  // {
-  //   text: 'UI & Styling',
-  //   items: [
-  //     {
-  //       text: 'UI & Styling',
-  //       link: '//#',
-  //     },
-  //     { text: 'Interaction', link: '//#' },
-  //   ],
-  // },
-  // {
-  //   text: 'Networking & Security',
-  //   items: [
-  //     { text: 'Networking', link: '//#' },
-  //     {
-  //       text: 'Security (Nathanael)',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: 'Performance',
-  //   items: [{ text: 'Performance', link: '//#' }],
-  // },
-
-  // {
-  //   text: 'Distribution',
-  //   items: [
-  //     {
-  //       text: 'Releasing your app',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: 'Troubleshooting',
-  //   items: [
-  //     {
-  //       text: 'Common Issues',
-  //       link: '//#',
-  //     },
-  //     {
-  //       text: 'Common Pitfalls',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
 ] as NSSidebarGroup[]

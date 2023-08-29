@@ -18,9 +18,9 @@ The `<AbsoluteLayout>` container is the simplest layout container in NativeScrip
 
 The following example creates a simple grid.
 
-```html
+```xml
 <AbsoluteLayout backgroundColor="#eef7ff">
-  <label
+  <Label
     text="10, 10"
     left="10"
     top="10"
@@ -28,7 +28,7 @@ The following example creates a simple grid.
     height="100"
     backgroundColor="#43b2f4"
   />
-  <label
+  <Label
     text="120, 10"
     left="120"
     top="10"
@@ -36,7 +36,7 @@ The following example creates a simple grid.
     height="100"
     backgroundColor="#43b2f4"
   />
-  <label
+  <Label
     text="10, 120"
     left="10"
     top="120"
@@ -44,7 +44,7 @@ The following example creates a simple grid.
     height="100"
     backgroundColor="#43b2f4"
   />
-  <label
+  <Label
     text="120, 120"
     left="120"
     top="120"
@@ -67,9 +67,9 @@ This example shows building a grid-like layout, this mainly serves as an example
 
 The following example creates a group of overlapping items.
 
-```html
+```xml
 <AbsoluteLayout backgroundColor="#eef7ff">
-  <label
+  <Label
     text="10, 10"
     left="10"
     top="10"
@@ -77,7 +77,7 @@ The following example creates a group of overlapping items.
     height="100"
     backgroundColor="#0089ca"
   />
-  <label
+  <Label
     text="30, 40"
     left="30"
     top="40"
@@ -96,7 +96,7 @@ If you need to build more complex UIs with overlapping elements, consider using 
 
 :::
 
-## AbsoluteLayout Reference(s)
+## AbsoluteLayout Reference
 
 ### Props
 
