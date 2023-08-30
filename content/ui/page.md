@@ -31,9 +31,11 @@ contributors:
 
 A page emits various events during navigation that you can use to update data/state in your app.
 
-<!-- todo: create diagrams? -->
+<img class="w-full" alt="Frame and Page lifecycle" src="../assets/diagrams/Frame_Page_Lifecycle.svg" />
 
-### Navigating forward and back
+### Lifecycle event examples
+
+::: details Navigating forward and back
 
 ```bash
 # frame.navigate('mainPage') - initial navigation
@@ -58,7 +60,9 @@ mainPage > navigatedTo (isBackNavigation: true)
 detailsPage > unloaded # since it's no longer in the backstack
 ```
 
-### Navigating forward and clearing history
+:::
+
+::: details Navigating forward and clearing history
 
 ```bash
 # frame.navigate('mainPage')
@@ -78,7 +82,9 @@ mainPage > unloaded # since clearHistory: true
 # frame.goBack() - no-op, there's nothing in the backstack.
 ```
 
-### Navigating forward without a backstack entry
+:::
+
+::: details Navigating forward without a backstack entry
 
 ```bash
 # frame.navigate({ moduleName: 'mainPage', backstackVisible: false })
@@ -95,6 +101,8 @@ mainPage > navigatedFrom (isBackNavigation: false)
 detailsPage > navigatedTo (isBackNavigation: false)
 mainPage > unloaded # since backstackVisible: false, we won't be able to reach mainPage after this point
 ```
+
+:::
 
 ## Examples
 
