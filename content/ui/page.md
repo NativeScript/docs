@@ -31,7 +31,7 @@ contributors:
 
 A page emits various events during navigation that you can use to update data/state in your app.
 
-<img class="w-full" alt="Frame and Page lifecycle" src="../assets/diagrams/Frame_Page_Lifecycle.svg" />
+<img class="w-full" alt="Frame and Page lifecycle" src="../assets/diagrams/Frame_Page_Lifecycle.drawio.svg" />
 
 ### Lifecycle event examples
 
