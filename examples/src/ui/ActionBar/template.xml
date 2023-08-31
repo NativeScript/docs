@@ -1,0 +1,5 @@
+<Page>
+  <GridLayout>
+    <Frame id="actionBarFrame" defaultPage="ui/ActionBar/page" />
+  </GridLayout>
+</Page>

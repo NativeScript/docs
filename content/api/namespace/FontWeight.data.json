@@ -1,0 +1,274 @@
+{
+  "title": "FontWeight",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        26305,
+        26303,
+        26304,
+        26298,
+        26299,
+        26301,
+        26300,
+        26302,
+        26297
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        26291,
+        26294
+      ]
+    }
+  ],
+  "reflections": {
+    "26291": {
+      "name": "isValid",
+      "type": "Function",
+      "url": "/api/namespace/FontWeight#isvalid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isValid</span><span style=\"color: #E1E4E8\">(value: any): boolean</span></span></code>",
+          "url": "/api/namespace/FontWeight#isvalid-isvalid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 49,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "26294": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/FontWeight#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parse</span><span style=\"color: #E1E4E8\">(value: string): FontWeightType</span></span></code>",
+          "url": "/api/namespace/FontWeight#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 50,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "FontWeightType"
+        }
+      ]
+    },
+    "26297": {
+      "name": "THIN",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#thin",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">THIN</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;100&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 40,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#thin"
+        }
+      ]
+    },
+    "26298": {
+      "name": "EXTRA_LIGHT",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#extra-light",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EXTRA_LIGHT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;200&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 41,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#extra-light"
+        }
+      ]
+    },
+    "26299": {
+      "name": "LIGHT",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#light",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LIGHT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;300&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 42,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#light"
+        }
+      ]
+    },
+    "26300": {
+      "name": "NORMAL",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#normal",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NORMAL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 43,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#normal"
+        }
+      ]
+    },
+    "26301": {
+      "name": "MEDIUM",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#medium",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MEDIUM</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;500&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 44,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#medium"
+        }
+      ]
+    },
+    "26302": {
+      "name": "SEMI_BOLD",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#semi-bold",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">SEMI_BOLD</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;600&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 45,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#semi-bold"
+        }
+      ]
+    },
+    "26303": {
+      "name": "BOLD",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#bold",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BOLD</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;bold&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 46,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#bold"
+        }
+      ]
+    },
+    "26304": {
+      "name": "EXTRA_BOLD",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#extra-bold",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EXTRA_BOLD</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;800&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 47,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#extra-bold"
+        }
+      ]
+    },
+    "26305": {
+      "name": "BLACK",
+      "type": "Variable",
+      "url": "/api/namespace/FontWeight#black",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BLACK</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;900&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/font.d.ts",
+              "line": 48,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/FontWeight#black"
+        }
+      ]
+    }
+  }
+}

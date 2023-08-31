@@ -20,3 +20,6 @@
 /tutorial/svelte            /tutorials/build-a-master-detail-app-with-svelte                301
 
 /tutorial/*                 /tutorials/                                                     301
+
+# redirect webpack config
+/webpack/                   /configuration/webpack/                                         301

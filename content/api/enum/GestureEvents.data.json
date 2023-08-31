@@ -1,0 +1,121 @@
+{
+  "title": "GestureEvents",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        14027,
+        14028,
+        14029
+      ]
+    }
+  ],
+  "reflections": {
+    "14027": {
+      "name": "gestureAttached",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureEvents#gestureattached",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When the gesture is attached to the view\nProvides access to the native gesture recognizer for further customization"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">gestureAttached</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;gestureAttached&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 14,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When the gesture is attached to the view\nProvides access to the native gesture recognizer for further customization"
+              }
+            ]
+          },
+          "url": "/api/enum/GestureEvents#gestureattached"
+        }
+      ]
+    },
+    "14028": {
+      "name": "touchDown",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureEvents#touchdown",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When a touch down was detected"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touchDown</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;touchDown&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 18,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When a touch down was detected"
+              }
+            ]
+          },
+          "url": "/api/enum/GestureEvents#touchdown"
+        }
+      ]
+    },
+    "14029": {
+      "name": "touchUp",
+      "type": "EnumMember",
+      "url": "/api/enum/GestureEvents#touchup",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When a touch up was detected"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touchUp</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;touchUp&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 22,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When a touch up was detected"
+              }
+            ]
+          },
+          "url": "/api/enum/GestureEvents#touchup"
+        }
+      ]
+    }
+  }
+}

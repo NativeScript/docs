@@ -1,0 +1,340 @@
+{
+  "title": "KeyframeAnimationInfo",
+  "hierarchy": [
+    [
+      {
+        "text": "KeyframeAnimationInfo"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        7456
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        7463,
+        7461,
+        7460,
+        7464,
+        7465,
+        7462,
+        7458,
+        7459
+      ]
+    }
+  ],
+  "reflections": {
+    "7456": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/KeyframeAnimationInfo#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new KeyframeAnimationInfo(): <a href=\"/api/class/KeyframeAnimationInfo\">KeyframeAnimationInfo</a>",
+          "url": "/api/class/KeyframeAnimationInfo#constructor-new-keyframeanimationinfo",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/KeyframeAnimationInfo\">KeyframeAnimationInfo</a>"
+        }
+      ]
+    },
+    "7458": {
+      "name": "keyframes",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#keyframes",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Return animation keyframes."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "keyframes: <a href=\"/api/interface/KeyframeInfo\">KeyframeInfo</a>[]",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 49,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Return animation keyframes."
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#keyframes"
+        }
+      ]
+    },
+    "7459": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The animation name."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The animation name."
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#name"
+        }
+      ]
+    },
+    "7460": {
+      "name": "duration",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#duration",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The length of the animation in milliseconds. The default duration is 300 milliseconds."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">duration</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 59,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The length of the animation in milliseconds. The default duration is 300 milliseconds."
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#duration"
+        }
+      ]
+    },
+    "7461": {
+      "name": "delay",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#delay",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The amount of time, in milliseconds, to delay starting the animation."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 64,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The amount of time, in milliseconds, to delay starting the animation."
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#delay"
+        }
+      ]
+    },
+    "7462": {
+      "name": "iterations",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#iterations",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies how many times the animation should be played. Default is 1.\niOS animations support fractional iterations, i.e. 1.5.\nTo repeat an animation infinitely, use Number.POSITIVE_INFINITY"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">iterations</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 71,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies how many times the animation should be played. Default is 1.\niOS animations support fractional iterations, i.e. 1.5.\nTo repeat an animation infinitely, use Number.POSITIVE_INFINITY"
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#iterations"
+        }
+      ]
+    },
+    "7463": {
+      "name": "curve",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#curve",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional animation curve. Possible values are contained in the [AnimationCurve enumeration](../modules/_ui_enums_.animationcurve.html).\nAlternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 77,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional animation curve. Possible values are contained in the [AnimationCurve enumeration](../modules/_ui_enums_.animationcurve.html).\nAlternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android."
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#curve"
+        }
+      ]
+    },
+    "7464": {
+      "name": "isForwards",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#isforwards",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Determines whether the animation values will be applied on the animated object after the animation finishes."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isForwards</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 82,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Determines whether the animation values will be applied on the animated object after the animation finishes."
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#isforwards"
+        }
+      ]
+    },
+    "7465": {
+      "name": "isReverse",
+      "type": "Property",
+      "url": "/api/class/KeyframeAnimationInfo#isreverse",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "If true the animation will be played backwards."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">isReverse</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
+              "line": 87,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "If true the animation will be played backwards."
+              }
+            ]
+          },
+          "url": "/api/class/KeyframeAnimationInfo#isreverse"
+        }
+      ]
+    }
+  }
+}

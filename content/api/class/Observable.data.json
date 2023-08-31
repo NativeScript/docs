@@ -1,0 +1,1035 @@
+{
+  "title": "Observable",
+  "hierarchy": [
+    [
+      {
+        "text": "Observable"
+      }
+    ],
+    [
+      {
+        "text": "ObservableArray",
+        "link": "/api/class/ObservableArray"
+      },
+      {
+        "text": "VirtualArray",
+        "link": "/api/class/VirtualArray"
+      },
+      {
+        "text": "ImageAsset",
+        "link": "/api/class/ImageAsset"
+      },
+      {
+        "text": "ViewBase",
+        "link": "/api/class/ViewBase"
+      },
+      {
+        "text": "ImageCache",
+        "link": "/api/class/ImageCache"
+      },
+      {
+        "text": "Style",
+        "link": "/api/class/Style"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1467
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1424
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1535,
+        1540,
+        1506,
+        1457,
+        1471,
+        1532,
+        1523,
+        1527,
+        1498,
+        1441,
+        1482,
+        1425,
+        1490,
+        1433,
+        1514,
+        1449,
+        1474,
+        1478
+      ]
+    }
+  ],
+  "reflections": {
+    "1424": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/Observable#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 74,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/Observable#propertychangeevent"
+        }
+      ]
+    },
+    "1425": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/Observable#on-2",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#on-2-on-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1433": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/Observable#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 126,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1441": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/Observable#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 127,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1449": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/Observable#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 128,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1457": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/Observable#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1467": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Observable#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Observable(): <a href=\"/api/class/Observable\">Observable</a>",
+          "url": "/api/class/Observable#constructor-new-observable",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Observable\">Observable</a>"
+        }
+      ]
+    },
+    "1471": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/Observable#get",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
+          "url": "/api/class/Observable#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1474": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/Observable#set",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Observable#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1478": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/Observable#setproperty",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Observable#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1482": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/Observable#on",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 99,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which will be used as "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`this`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " context for callback execution."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1490": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/Observable#once",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1498": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/Observable#off",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1506": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/Observable#addeventlistener",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 117,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1514": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/Observable#removeeventlistener",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Observable#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 124,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1523": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/Observable#notify",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
+          "url": "/api/class/Observable#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 140,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1527": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/Observable#notifypropertychange",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Observable#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 145,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1532": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/Observable#haslisteners",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
+          "url": "/api/class/Observable#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1535": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/Observable#createpropertychangedata",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/Observable#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "1540": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/Observable#emit",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Observable#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}
