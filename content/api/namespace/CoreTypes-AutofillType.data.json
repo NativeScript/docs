@@ -1,0 +1,145 @@
+{
+  "title": "AutofillType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4836,
+        4835,
+        4838,
+        4837,
+        4834,
+        4833
+      ]
+    }
+  ],
+  "reflections": {
+    "4833": {
+      "name": "username",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#username",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">username</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;username&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;username&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 47,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#username"
+        }
+      ]
+    },
+    "4834": {
+      "name": "password",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#password",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">password</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;password&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;password&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 48,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#password"
+        }
+      ]
+    },
+    "4835": {
+      "name": "newUsername",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#newusername",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">newUsername</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;newUsername&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;newUsername&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 49,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#newusername"
+        }
+      ]
+    },
+    "4836": {
+      "name": "newPassword",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#newpassword",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">newPassword</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;newPassword&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;newPassword&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 50,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#newpassword"
+        }
+      ]
+    },
+    "4837": {
+      "name": "oneTimeCode",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#onetimecode",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">oneTimeCode</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;oneTimeCode&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;oneTimeCode&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 51,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#onetimecode"
+        }
+      ]
+    },
+    "4838": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutofillType#none",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 52,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType#none"
+        }
+      ]
+    }
+  }
+}

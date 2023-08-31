@@ -1,0 +1,77 @@
+{
+  "title": "AddChildFromBuilder",
+  "hierarchy": [
+    [
+      {
+        "text": "AddChildFromBuilder"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Methods",
+      "items": [
+        11858
+      ]
+    }
+  ],
+  "reflections": {
+    "11858": {
+      "name": "_addChildFromBuilder",
+      "type": "Method",
+      "url": "/api/interface/AddChildFromBuilder#addchildfrombuilder",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_addChildFromBuilder</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/interface/AddChildFromBuilder#addchildfrombuilder-addchildfrombuilder-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 982,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Called for every child element declared in xml.\nThis method will add a child element (value) to current element."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the element."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Value of the element."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

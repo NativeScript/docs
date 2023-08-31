@@ -1,0 +1,77 @@
+{
+  "title": "AddArrayFromBuilder",
+  "hierarchy": [
+    [
+      {
+        "text": "AddArrayFromBuilder"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Methods",
+      "items": [
+        11853
+      ]
+    }
+  ],
+  "reflections": {
+    "11853": {
+      "name": "_addArrayFromBuilder",
+      "type": "Method",
+      "url": "/api/interface/AddArrayFromBuilder#addarrayfrombuilder",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_addArrayFromBuilder</span><span style=\"color: #E1E4E8\">(name: string, value: any[]): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/interface/AddArrayFromBuilder#addarrayfrombuilder-addarrayfrombuilder-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 969,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A function that is called when an array declaration is found in xml."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the array."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "value",
+              "type": "any[]",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The actual value of the array."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

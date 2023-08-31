@@ -1,6 +1,11 @@
 node_modules
-content/api/**/*
+# we'll be generating api docs on CI/during the build in the future
+# however, for now, we'll just manually include the generated apiref
+# content/api/**/*
 .vitepress/dist
+.vitepress/cache
+
+explore/
 
 yarn.lock
 .DS_Store

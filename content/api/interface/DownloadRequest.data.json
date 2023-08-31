@@ -1,0 +1,135 @@
+{
+  "title": "DownloadRequest",
+  "hierarchy": [
+    [
+      {
+        "text": "DownloadRequest"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        15801,
+        15806,
+        15800,
+        15799
+      ]
+    }
+  ],
+  "reflections": {
+    "15799": {
+      "name": "url",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#url",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The url of the image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The url of the image."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadRequest#url"
+        }
+      ]
+    },
+    "15800": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#key",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The key used to cache the image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The key used to cache the image."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadRequest#key"
+        }
+      ]
+    },
+    "15801": {
+      "name": "completed",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#completed",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">completed</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">image</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">key</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 19,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/DownloadRequest#completed"
+        }
+      ]
+    },
+    "15806": {
+      "name": "error",
+      "type": "Property",
+      "url": "/api/interface/DownloadRequest#error",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">error</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">key</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 23,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/DownloadRequest#error"
+        }
+      ]
+    }
+  }
+}
