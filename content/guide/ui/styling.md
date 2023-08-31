@@ -2,9 +2,9 @@
 title: Styling
 ---
 
-In NativeScript you style the UI similarly to how you do it in a web application using Cascading Style Sheets (CSS), or by changing the style property of the views in JavaScript/Typescript. For CSS styling, NativeScript supports tools such as [Tailwind](https://docs.nativescript.org/plugins/tailwindcss.html), [SASS](#using-sass). 
+In NativeScript you style the UI similar to how you would in a web application using Cascading Style Sheets (CSS), or by changing the style property of the views in JavaScript/Typescript. For CSS styling, NativeScript supports tools such as [Tailwind](https://docs.nativescript.org/plugins/tailwindcss.html) or  [SASS](#using-sass). 
 
-Similarly to the DOM Style Object, each View instance exposes a style property, which holds all the style properties for the view. When the view is displayed, all its style properties are applied to the underlying native widget.
+Similar to the DOM Style Object, each View instance exposes a style property, which holds all the style properties for the view. When the view is displayed, all its style properties are applied to the underlying native component.
 
 ## Applying CSS styles
 
@@ -16,7 +16,7 @@ In NativeScript the CSS styles can be set on 4 different levels:
 - [Inline CSS](#inline-css): Applies directly to a UI view
 - [Platform-specific CSS](#platform-specific-css)
 
-If there is CSS declared on different levels&mdash;all will be applied. The inline CSS will have the highest priority and the application CSS will have the lowest priority.
+If there is CSS declared on different levels, all will be applied. The inline CSS will have the highest priority and the application CSS will have the lowest priority.
 
 ### Application Wide CSS
 
@@ -63,14 +63,14 @@ When the page's XML declaration file is loaded, NativeScript looks for a CSS fil
 If you import any custom components on your page, the CSS from those components will be applied to the page, too. As a best practice, scope the CSS of custom components so that component styles do not "leak" on to pages.
 /// flavor plain
 ```xml
-<StackLayout class="mywidget">
+<StackLayout class="my-component">
   <Label text="Custom component layout" class="label" />
 </StackLayout>
 ```
 
 ```css
 /* GOOD: This will ONLY apply to the custom component */
-.mywidget .label {
+.my-component .label {
   color: blue;
 }
 
@@ -207,10 +207,8 @@ This list of properties can be set in CSS or through the style property of each 
 
 | CSS Property          | JavaScript Property   | Description                                                                                                                                                                                                                               |
 | :-------------------- | :-------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `color`               | `color`               | Sets a solid-color value to the matched view’s foreground.                                                                                                                                                                                |
 | `background`          | `background`          | Sets a solid-color value or [a linear gradient](https://docs.nativescript.org/cookbook/ui/styling) to the matched view’s background.                                                                                                      |
 | `background-color`    | `backgroundColor`     | Sets a solid-color value to the matched view’s background.                                                                                                                                                                                |
-| `placeholder-color`   | `placeholderColor`    | Sets the placeholder (hint) font color to matched views.                                                                                                                                                                                  |
 | `background-image`    | `backgroundImage`     | Sets a image url to the matched view’s background image.                                                                                                                                                                                  |
 | `background-repeat`   | `backgroundRepeat`    | Sets if/how the background image should be repeated. Possible values: `repeat`, `repeat-x`, `repeat-y`, `no-repeat`                                                                                                                       |
 | `background-position` | `backgroundPosition`  | Sets the starting position of the background image. You can set the position with absolute, percent or alignment values. More info [here](http://www.w3schools.com/cssref/pr_background-position.asp).                                    |
@@ -227,37 +225,39 @@ This list of properties can be set in CSS or through the style property of each 
 | `border-left-width`   | `borderLeftWidth`     | Sets a left border width to the matched view’s.                                                                                                                                                                                           |
 | `border-radius`       | `borderRadius`        | Sets a border radius to the matched view’s.                                                                                                                                                                                               |
 | `box-shadow`          | `boxShadow`           | Sets a box shadow to the matched view's.                                                                                                                                                                                                  |
+| `clip-path`           | `clip-path`           | Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using [clippy](http://bennettfeely.com/clippy/)                                                                                 |
+| `color`               | `color`               | Sets a solid-color value to the matched view’s foreground.                                                                                                                                                                                |
 | `font`                | `font`                | Sets the font properties (this includes `font-family`, `font-size`, `font-style` and `font-weight`) of the matched view.                                                                                                                  |
 | `font-family`         | `fontFamily`          | Sets the font family of the matched view.                                                                                                                                                                                                 |
 | `font-size`           | `fontSize`            | Sets the font size of the matched view (only supports device-independent units).                                                                                                                                                          |
 | `font-style`          | `fontStyle`           | Sets the font style of the matched view. Possible values: `italic`, `normal`.                                                                                                                                                             |
 | `font-weight`         | `fontWeight`          | Sets the font weight of the matched view Possible values: `bold`, `normal` OR `100`,`200`,`300`,`400`,`500`,`600`,`700`,`800`,`900`, where `400` is `normal` and `700` is `bold` (NOTE: Some fonts do not support all available variants) |
-| `text-align`          | `textAlignment`       | Sets text alignment in the matched view. Possible values: `left` , `center`, `right`, `justify`.                                                                                                                                          |
-| `text-decoration`     | `textDecoration`      | Sets the text formatting. Possible values: `none`, `line-through`, `underline`.                                                                                                                                                           |
-| `text-transform`      | `textTransform`       | Sets the text transform. Possible values: `none`, `capitalize`, `uppercase`, `lowercase`.                                                                                                                                                 |
+| `height`              | `height`              | Sets the view height.                                                                                                                                                                                                                     |
 | `letter-spacing`      | `letterSpacing`       | Sets the text letter spacing. (On Android API Level 21 and above.)                                                                                                                                                                        |
 | `line-height`         | `lineHeight`          | Sets the text line height                                                                                                                                                                                                                 |
-| `z-index`             | `zIndex`              | Sets the z-index. (On Android API Level 21 and above.)                                                                                                                                                                                    |
-| `clip-path`           | `clip-path`           | Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using [clippy](http://bennettfeely.com/clippy/)                                                                                 |
-| `vertical-align`      | `verticalAlignment`   | Sets the vertical alignment of the current view within its parent. Possible values: `top`, `center`, `bottom`, `stretch`.                                                                                                                 |
-| `horizontal-align`    | `horizontalAlignment` | Sets the horizontal alignment of the current view within its parent. Possible values: `left`, `center`, `right`, `stretch`.                                                                                                               |
 | `margin`              | `margin`              | Sets the margin of the view within its parent.                                                                                                                                                                                            |
 | `margin-top`          | `marginTop`           | Sets the top margin of the view within its parent.                                                                                                                                                                                        |
 | `margin-right`        | `marginRight`         | Sets the right margin of the view within its parent.                                                                                                                                                                                      |
 | `margin-bottom`       | `marginBottom`        | Sets the bottom margin of the view within its parent.                                                                                                                                                                                     |
 | `margin-left`         | `marginLeft`          | Sets the left margin of the view within its parent.                                                                                                                                                                                       |
-| `width`               | `width`               | Sets the view width.                                                                                                                                                                                                                      |
-| `height`              | `height`              | Sets the view height.                                                                                                                                                                                                                     |
 | `min-width`           | `minWidth`            | Sets the minimal view width.                                                                                                                                                                                                              |
 | `min-height`          | `minHeight`           | Sets the minimal view height.                                                                                                                                                                                                             |
+| `opacity`             | `opacity`             | Sets the view opacity. The value is in the [0, 1] range.                                                                                                                                                                                  |
 | `padding`             | `padding`             | Sets the distance between the boundaries of the layout container and its children.                                                                                                                                                        |
 | `padding-top`         | `paddingTop`          | Sets the top padding of a layout container.                                                                                                                                                                                               |
 | `padding-right`       | `paddingRight`        | Sets the right padding of a layout container.                                                                                                                                                                                             |
 | `padding-bottom`      | `paddingBottom`       | Sets the bottom padding of a layout container.                                                                                                                                                                                            |
-| `padding-left`        | `paddingLeft`         | Sets the left padding of a layout container.                                                                                                                                                                                              |
+| `padding-left`        | `paddingLeft`         | Sets the left padding of a layout container.                 
+| `text-align`          | `textAlignment`       | Sets text alignment in the matched view. Possible values: `left` , `center`, `right`, `justify`.                                                                                                                                          |
+| `text-decoration`     | `textDecoration`      | Sets the text formatting. Possible values: `none`, `line-through`, `underline`.                                                                                                                                                           |                                                  
+| `text-overflow`         | `textOverflow`          | Sets how hidden overflow content is signaled to users.                                                                                                                   |
 | `text-shadow`         | `textShadow`          | Sets a text shadow on a label.                                                                                                                                                                                                            |
+| `text-transform`      | `textTransform`       | Sets the text transform. Possible values: `none`, `capitalize`, `uppercase`, `lowercase`.                                                                                                                                                 | 
+| `vertical-align`      | `verticalAlignment`   | Sets the vertical alignment of the current view within its parent. Possible values: `top`, `center`, `bottom`, `stretch`.                                                                                                                 |
 | `visibility`          | `visibility`          | Sets the view visibility. Possible values: `visible`, `collapse` (or `collapsed`).                                                                                                                                                        |
-| `opacity`             | `opacity`             | Sets the view opacity. The value is in the [0, 1] range.                                                                                                                                                                                  |
+| `white-space`             | `whiteSpace`             | Sets how white space inside an element is handled.                                                                                                                                                                                  |
+| `width`               | `width`               | Sets the view width.                                                                                                                                                                                                                      |
+| `z-index`             | `zIndex`              | Sets the z-index. (On Android API Level 21 and above.)                                                                                                                                                                                    |
 
 ### Accessing NativeScript View properties with CSS
 
@@ -277,11 +277,12 @@ In the context of mobile development, there are a number of properties that are 
 
 | CSS Property                           | JavaScript Property                | Platform    | Compatibility | Description                                                                                                                      |
 | :------------------------------------- | :--------------------------------- | :---------- | :------------ | :------------------------------------------------------------------------------------------------------------------------------- |
+| `horizontal-align`    | `horizontalAlignment` | Sets the horizontal alignment of the current view within its parent. Possible values: `left`, `center`, `right`, `stretch`.                                                                                                               |
+| `placeholder-color`   | `placeholderColor`    | Sets the placeholder (hint) font color to matched views.                                                                                                                                                                                  | 
 | `tab-text-color`                       | `tabTextColor`                     | Both        | `TabView`     | Sets the text color of the tabs titles.                                                                                          |
 | `selected-tab-text-color`              | `selectedTabTextColor`             | Both        | `TabView`     | Sets the color of the text, while selecting some of the tabs.                                                                    |
 | `tab-background-color`                 | `tabBackgroundColor`               | Both        | `TabView`     | Sets the background color of the tabs.                                                                                           |
 | `tab-text-font-size`                   | `tabTextFontSize`                  | Both        | `TabView`     | Sets the tab titles font size, without changing the font size of all contents of the tab.                                        |
-| `text-transform`                       | `textTransform`                    | Both        | `TabViewItem` | Sets the text transform individually for every `TabViewItem`. Value options: `capitalize`, `lowercase`, `none`, and `uppercase`. |
 | `android-selected-tab-highlight-color` | `androidSelectedTabHighlightColor` | **Android** | `TabView`     | Sets the underline color of the tabs in Android.                                                                                 |
 | `android-elevation`                    | `androidElevation`                 | **Android** | `View`        | Sets the elevation of the View in Android.                                                                                       |
 | `android-dynamic-elevation-offset `    | `androidDynamicElevationOffset`    | **Android** | `View`        | Sets the elevation of the View in Android, which will be shown when an action was performed(e.g. `tap`, `touch`).                |
