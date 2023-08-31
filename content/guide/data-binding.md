@@ -19,6 +19,7 @@ There are various ways to manage data flow, often referred to as data bindings:
 ```xml
 <Label text="{{ name }}" />
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
         name = "John Doe"
@@ -27,14 +28,16 @@ export class HelloWorldModel extends Observable {
 
 }
 ```
+
 - **One-way (to Model) data binding** - Binding which updates the model in relation to some action in the UI. The best example for this is a [tap](/guide/ui-components/gestures-in-nativescript#tap-gesture-in-nativescript) event.
 
 ```xml
 <Button text="Submit" tap="{{ onTap }}"/>
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
-        
+
         onTap(args: EventData){
 
         }
@@ -49,6 +52,7 @@ export class HelloWorldModel extends Observable {
 ```xml
 <TextField text="{{ name }}"/>
 ```
+
 ```ts
 export class HelloWorldModel extends Observable {
         name = "John Doe"
@@ -60,12 +64,13 @@ export class HelloWorldModel extends Observable {
 
 ## Accessing parent bindingContext
 
-A parent  and a child UI components can have different binding contexts and the child component might need to bind its property to a source property in its parent's **bindingContext**.
+A parent and a child UI components can have different binding contexts and the child component might need to bind its property to a source property in its parent's **bindingContext**.
 
 <!-- TODO: fix links -->
-Generally, the binding context is inheritable, but not when the components are created dynamically based on some data source. For example, [ListView]() creates its child items based on an `itemТemplate`, which describes what the ListView component will look like. When this component is added to the visual tree, for binding context it gets an element from a `ListView` items array (with the corresponding index). 
 
-This process creates a new binding context chain for the child item and its inner UI components. So, the inner UI component cannot access the binding context of the `ListView`. In order to solve this problem, NativeScript binding infrastructure has two special keywords: 
+Generally, the binding context is inheritable, but not when the components are created dynamically based on some data source. For example, [ListView]() creates its child items based on an `itemТemplate`, which describes what the ListView component will look like. When this component is added to the visual tree, for binding context it gets an element from a `ListView` items array (with the corresponding index).
+
+This process creates a new binding context chain for the child item and its inner UI components. So, the inner UI component cannot access the binding context of the `ListView`. In order to solve this problem, NativeScript binding infrastructure has two special keywords:
 
 - `$parent` : denotes the binding context of the direct parent visual component
 - `$parents` : can be used as an array (with a number or string index). This gives you the option to choose either N levels of UI nesting or get a parent UI component with a given type.
@@ -85,22 +90,23 @@ NativeScript supports the following polymorphic binding expressions:
 ### Property access
 
 To access a value stored in an object property of the bindingContext, use the propert access expression:
- 
- ```ts
- ...
- user = {
-  names:{
-      first: "Sara"
-  }
- }
- ...
- ```
 
- ```xml
+```ts
+...
+user = {
+ names:{
+     first: "Sara"
+ }
+}
+...
+```
+
+```xml
 
 <Label text="{{  user.name.first  }}" textWrap="true" />
 
 ```
+
 ---
 
 ### array access
@@ -166,7 +172,9 @@ Supported operators: `>`,`<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 <Label text="{{  prop1 ? prop2 : prop3  }}" textWrap="true" />
 
 ```
+
 ---
+
 ### grouping parenthesis
 
 ```xml
@@ -174,7 +182,9 @@ Supported operators: `>`,`<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 <Label text="{{  prop1*(prop2 + prop3)  }}" textWrap="true" />
 
 ```
+
 ---
+
 ### function calls
 
 ```xml
@@ -182,7 +192,9 @@ Supported operators: `>`,`<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 <Label text="{{  someMethod(p1,p2,...,pN)  }}" textWrap="true" />
 
 ```
+
 ---
+
 ### comparison operators
 
 ```xml
@@ -194,6 +206,7 @@ Supported operators: `>`,`<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 Other supported operators are: `<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 
 ---
+
 :::tip Note
 Special characters need to be escaped as follows:
 
@@ -209,17 +222,17 @@ Often data within the Model is stored in a way that is optimized for best perfor
 
  <!-- TODO: Add SB+Preview -->
 
- ```xml
+```xml
 
-  <StackLayout class="p-20 bg">
+ <StackLayout class="p-20 bg">
 
-  <Label text="{{ date | dateConverter('dd-mm-yyyy') }}" textWrap="true" />
-  <Label text="{{ name | toUpperCaseConverter }}" textWrap="true" />
-  <Label text="{{ title | toTitle }}" textWrap="true" />
+ <Label text="{{ date | dateConverter('dd-mm-yyyy') }}" textWrap="true" />
+ <Label text="{{ name | toUpperCaseConverter }}" textWrap="true" />
+ <Label text="{{ title | toTitle }}" textWrap="true" />
 
-  </StackLayout>
+ </StackLayout>
 
- ```
+```
 
 ```ts
 export class HelloWorldModel extends Observable {
@@ -231,7 +244,7 @@ export class HelloWorldModel extends Observable {
   toUpperCaseConverter = this.toUpperCase()
   toTitle = this.convertToTitle()
 
-  ... 
+  ...
 
 formatDate() {
     return {
