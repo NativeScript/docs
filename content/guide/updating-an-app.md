@@ -71,16 +71,6 @@ The `ns create` command will create a new project, add the **@nativescript/core*
 
 Another place to find the **@nativescript/core** package is [NativeScript Releases](https://github.com/NativeScript/NativeScript/releases/), where you can find a collection of the available @nativescript/core-\*.tgz packages for every release. You can download a selected release and install it by running: `npm install <path to @nativescript/core-*.tgz> --save`.
 
-#### Upgrading Angular dependencies
-
-The Angular plugin is available as [@nativescript/angular](https://www.npmjs.com/package/@nativescript/angular). To update the version of the plugin and the related dependency, the package should be explicitly installed, and the related Angular dependencies should be updated accordingly. To ease the update process, the plugin comes with an automated script `update-app-ng-deps` located in `<project-folder/node_modules/.bin>` folder.
-
-```cli
-npm i @nativescript/angular@latest --save
-./node_modules/.bin/update-app-ng-deps
-npm i
-```
-
 ---
 
 title: Running Latest Code
