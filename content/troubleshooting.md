@@ -1,6 +1,10 @@
 ---
 title: Troubleshooting
 description: Common issues and solutions
+contributors:
+  - Ombuweb
+  - rigor789
+  - NathanWalker
 ---
 
 ## Useful tips
@@ -141,11 +145,13 @@ Watchpack Error (watcher): Error: EMFILE: too many open files 'FILE_PATH' <-- Th
 
 Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zshrc` config file:
 
-```
-export NODE_OPTIONS="--max-old-space-size=6096"
+```bash
+export NODE_OPTIONS="--max-old-space-size=4096"
 ```
 
 Then open a new terminal window and try running again.
+
+**Note**: you can increase this number further, but keep in mind the maximum value depends on the available system memory.
 
 :::
 

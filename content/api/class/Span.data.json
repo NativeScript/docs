@@ -1,0 +1,5906 @@
+{
+  "title": "Span",
+  "hierarchy": [
+    [
+      {
+        "text": "ViewBase",
+        "link": "/api/class/ViewBase"
+      }
+    ],
+    [
+      {
+        "text": "Span"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        29646
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        29685,
+        29675,
+        29677,
+        29725,
+        29726,
+        29724,
+        29723,
+        29674,
+        29706,
+        29676,
+        29727,
+        29684,
+        29705,
+        29702,
+        29704,
+        29703,
+        29678,
+        29683,
+        29701,
+        29654,
+        29666,
+        29671,
+        29692,
+        29653,
+        29695,
+        29693,
+        29696,
+        29603,
+        29792,
+        29793,
+        29604,
+        29690,
+        29663,
+        29721,
+        29722,
+        29720,
+        29719,
+        29710,
+        29688,
+        29713,
+        29714,
+        29712,
+        29711,
+        29708,
+        29707,
+        29717,
+        29718,
+        29716,
+        29715,
+        29689,
+        29709,
+        29698,
+        29699,
+        29700,
+        29648,
+        29649,
+        29650,
+        29651,
+        29670,
+        29655,
+        29657,
+        29656,
+        29669,
+        29686,
+        29600,
+        29601,
+        29667,
+        29697,
+        29668,
+        29605,
+        29664,
+        29729,
+        29691,
+        29694,
+        29673,
+        29672,
+        29659,
+        29658,
+        29652,
+        29687,
+        29602,
+        29665
+      ]
+    },
+    {
+      "title": "Accessors",
+      "items": [
+        29744,
+        29750,
+        29746,
+        29748,
+        29734,
+        29762,
+        29730,
+        29740,
+        29738
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        29815,
+        29819,
+        29865,
+        29875,
+        29782,
+        29862,
+        29968,
+        29904,
+        29973,
+        29872,
+        29891,
+        29774,
+        29906,
+        29882,
+        29831,
+        29834,
+        29869,
+        29779,
+        29845,
+        29848,
+        29826,
+        29776,
+        29859,
+        29940,
+        29638,
+        29794,
+        29800,
+        29788,
+        29790,
+        29901,
+        29837,
+        29797,
+        29856,
+        29839,
+        29809,
+        29764,
+        29909,
+        29758,
+        29754,
+        29965,
+        29841,
+        29823,
+        29956,
+        29960,
+        29932,
+        29622,
+        29916,
+        29606,
+        29924,
+        29614,
+        29770,
+        29885,
+        29772,
+        29948,
+        29630,
+        29807,
+        29843,
+        29766,
+        29879,
+        29853,
+        29912,
+        29894,
+        29887,
+        29804,
+        29828
+      ]
+    }
+  ],
+  "reflections": {
+    "29600": {
+      "name": "linkTapEvent",
+      "type": "Property",
+      "url": "/api/class/Span#linktapevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to linkTap event."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">linkTapEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 67,
+              "character": 15
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to linkTap event."
+              }
+            ]
+          },
+          "url": "/api/class/Span#linktapevent"
+        }
+      ]
+    },
+    "29601": {
+      "name": "loadedEvent",
+      "type": "Property",
+      "url": "/api/class/Span#loadedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to loaded event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 127,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to loaded event."
+              }
+            ]
+          },
+          "url": "/api/class/Span#loadedevent"
+        }
+      ]
+    },
+    "29602": {
+      "name": "unloadedEvent",
+      "type": "Property",
+      "url": "/api/class/Span#unloadedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to unloaded event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unloadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 131,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to unloaded event."
+              }
+            ]
+          },
+          "url": "/api/class/Span#unloadedevent"
+        }
+      ]
+    },
+    "29603": {
+      "name": "createdEvent",
+      "type": "Property",
+      "url": "/api/class/Span#createdevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to creation event"
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createdEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 135,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to creation event"
+              }
+            ]
+          },
+          "url": "/api/class/Span#createdevent"
+        }
+      ]
+    },
+    "29604": {
+      "name": "disposeNativeViewEvent",
+      "type": "Property",
+      "url": "/api/class/Span#disposenativeviewevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to disposeNativeView event"
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeViewEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 139,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to disposeNativeView event"
+              }
+            ]
+          },
+          "url": "/api/class/Span#disposenativeviewevent"
+        }
+      ]
+    },
+    "29605": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/Span#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 74,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/Span#propertychangeevent"
+        }
+      ]
+    },
+    "29606": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/Span#on-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#on-2-on-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29614": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/Span#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 126,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29622": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/Span#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 127,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29630": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/Span#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 128,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29638": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/Span#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29646": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Span#constructor",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Span(): <a href=\"/api/class/Span\">Span</a>",
+          "url": "/api/class/Span#constructor-new-span",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 263,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Span\">Span</a>"
+        }
+      ]
+    },
+    "29648": {
+      "name": "fontFamily",
+      "type": "Property",
+      "url": "/api/class/Span#fontfamily",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the font family of the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontFamily</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 13,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the font family of the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#fontfamily"
+        }
+      ]
+    },
+    "29649": {
+      "name": "fontSize",
+      "type": "Property",
+      "url": "/api/class/Span#fontsize",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the font size of the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontSize</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 18,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the font size of the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#fontsize"
+        }
+      ]
+    },
+    "29650": {
+      "name": "fontStyle",
+      "type": "Property",
+      "url": "/api/class/Span#fontstyle",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the font style of the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontStyle</span><span style=\"color: #E1E4E8\">: FontStyleType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 23,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the font style of the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#fontstyle"
+        }
+      ]
+    },
+    "29651": {
+      "name": "fontWeight",
+      "type": "Property",
+      "url": "/api/class/Span#fontweight",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the font weight of the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fontWeight</span><span style=\"color: #E1E4E8\">: FontWeightType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 28,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the font weight of the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#fontweight"
+        }
+      ]
+    },
+    "29652": {
+      "name": "textDecoration",
+      "type": "Property",
+      "url": "/api/class/Span#textdecoration",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets text decorations for the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "textDecoration: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 33,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets text decorations for the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#textdecoration"
+        }
+      ]
+    },
+    "29653": {
+      "name": "color",
+      "type": "Property",
+      "url": "/api/class/Span#color",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the font foreground color of the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "color: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 38,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the font foreground color of the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#color"
+        }
+      ]
+    },
+    "29654": {
+      "name": "backgroundColor",
+      "type": "Property",
+      "url": "/api/class/Span#backgroundcolor",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the font background color of the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "backgroundColor: <a href=\"/api/class/Color\">Color</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 43,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the font background color of the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#backgroundcolor"
+        }
+      ]
+    },
+    "29655": {
+      "name": "iosAccessibilityAdjustsFontSize",
+      "type": "Property",
+      "url": "/api/class/Span#iosaccessibilityadjustsfontsize",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Defines whether accessibility font scale should affect font size."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityAdjustsFontSize</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Defines whether accessibility font scale should affect font size."
+              }
+            ]
+          },
+          "url": "/api/class/Span#iosaccessibilityadjustsfontsize"
+        }
+      ]
+    },
+    "29656": {
+      "name": "iosAccessibilityMinFontScale",
+      "type": "Property",
+      "url": "/api/class/Span#iosaccessibilityminfontscale",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the minimum accessibility font scale."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMinFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 53,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the minimum accessibility font scale."
+              }
+            ]
+          },
+          "url": "/api/class/Span#iosaccessibilityminfontscale"
+        }
+      ]
+    },
+    "29657": {
+      "name": "iosAccessibilityMaxFontScale",
+      "type": "Property",
+      "url": "/api/class/Span#iosaccessibilitymaxfontscale",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the maximum accessibility font scale."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosAccessibilityMaxFontScale</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 58,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the maximum accessibility font scale."
+              }
+            ]
+          },
+          "url": "/api/class/Span#iosaccessibilitymaxfontscale"
+        }
+      ]
+    },
+    "29658": {
+      "name": "text",
+      "type": "Property",
+      "url": "/api/class/Span#text",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the text for the span."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 63,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the text for the span."
+              }
+            ]
+          },
+          "url": "/api/class/Span#text"
+        }
+      ]
+    },
+    "29659": {
+      "name": "tappable",
+      "type": "Property",
+      "url": "/api/class/Span#tappable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets if the span is tappable or not."
+          }
+        ]
+      },
+      "flags": {
+        "isPublic": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">tappable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/text-base/span.d.ts",
+              "line": 72,
+              "character": 17
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets if the span is tappable or not."
+              }
+            ]
+          },
+          "url": "/api/class/Span#tappable"
+        }
+      ]
+    },
+    "29663": {
+      "name": "domNode",
+      "type": "Property",
+      "url": "/api/class/Span#domnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">domNode</span><span style=\"color: #E1E4E8\">: DOMNode</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 149,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#domnode"
+        }
+      ]
+    },
+    "29664": {
+      "name": "recycleNativeView",
+      "type": "Property",
+      "url": "/api/class/Span#recyclenativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">recycleNativeView</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;auto&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;always&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;never&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#recyclenativeview"
+        }
+      ]
+    },
+    "29665": {
+      "name": "viewController",
+      "type": "Property",
+      "url": "/api/class/Span#viewcontroller",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "returns the native UIViewController."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">viewController</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "returns the native UIViewController."
+              }
+            ]
+          },
+          "url": "/api/class/Span#viewcontroller"
+        }
+      ]
+    },
+    "29666": {
+      "name": "bindingContext",
+      "type": "Property",
+      "url": "/api/class/Span#bindingcontext",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bindingContext</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#bindingcontext"
+        }
+      ]
+    },
+    "29667": {
+      "name": "nativeViewProtected",
+      "type": "Property",
+      "url": "/api/class/Span#nativeviewprotected",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "read-only. If you want to set out-of-band the nativeView use the setNativeView method."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeViewProtected</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 159,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "read-only. If you want to set out-of-band the nativeView use the setNativeView method."
+              }
+            ]
+          },
+          "url": "/api/class/Span#nativeviewprotected"
+        }
+      ]
+    },
+    "29668": {
+      "name": "parent",
+      "type": "Property",
+      "url": "/api/class/Span#parent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the parent view. This property is read-only."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "parent: <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 163,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the parent view. This property is read-only."
+              }
+            ]
+          },
+          "url": "/api/class/Span#parent"
+        }
+      ]
+    },
+    "29669": {
+      "name": "isCollapsed",
+      "type": "Property",
+      "url": "/api/class/Span#iscollapsed",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns true if visibility is set to 'collapse'.\nDefault(false) set in prototype\nReadonly property"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isCollapsed</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 169,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if visibility is set to 'collapse'.\nDefault(false) set in prototype\nReadonly property"
+              }
+            ]
+          },
+          "url": "/api/class/Span#iscollapsed"
+        }
+      ]
+    },
+    "29670": {
+      "name": "id",
+      "type": "Property",
+      "url": "/api/class/Span#id",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the id for this view."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">id</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 173,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the id for this view."
+              }
+            ]
+          },
+          "url": "/api/class/Span#id"
+        }
+      ]
+    },
+    "29671": {
+      "name": "className",
+      "type": "Property",
+      "url": "/api/class/Span#classname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the CSS class name for this view."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">className</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 177,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the CSS class name for this view."
+              }
+            ]
+          },
+          "url": "/api/class/Span#classname"
+        }
+      ]
+    },
+    "29672": {
+      "name": "sharedTransitionTag",
+      "type": "Property",
+      "url": "/api/class/Span#sharedtransitiontag",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the shared transition tag for animated view transitions"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionTag</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 181,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the shared transition tag for animated view transitions"
+              }
+            ]
+          },
+          "url": "/api/class/Span#sharedtransitiontag"
+        }
+      ]
+    },
+    "29673": {
+      "name": "sharedTransitionIgnore",
+      "type": "Property",
+      "url": "/api/class/Span#sharedtransitionignore",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Opt out of shared transition under different binding conditions"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionIgnore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 185,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Opt out of shared transition under different binding conditions"
+              }
+            ]
+          },
+          "url": "/api/class/Span#sharedtransitionignore"
+        }
+      ]
+    },
+    "29674": {
+      "name": "_domId",
+      "type": "Property",
+      "url": "/api/class/Span#domid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_domId</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 186,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#domid"
+        }
+      ]
+    },
+    "29675": {
+      "name": "_context",
+      "type": "Property",
+      "url": "/api/class/Span#context",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 187,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#context"
+        }
+      ]
+    },
+    "29676": {
+      "name": "_isAddedToNativeVisualTree",
+      "type": "Property",
+      "url": "/api/class/Span#isaddedtonativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isAddedToNativeVisualTree</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 188,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#isaddedtonativevisualtree"
+        }
+      ]
+    },
+    "29677": {
+      "name": "_cssState",
+      "type": "Property",
+      "url": "/api/class/Span#cssstate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_cssState</span><span style=\"color: #E1E4E8\">: CssState</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 189,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#cssstate"
+        }
+      ]
+    },
+    "29678": {
+      "name": "_styleScope",
+      "type": "Property",
+      "url": "/api/class/Span#stylescope",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_styleScope</span><span style=\"color: #E1E4E8\">: StyleScope</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 190,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#stylescope"
+        }
+      ]
+    },
+    "29683": {
+      "name": "_suspendNativeUpdatesCount",
+      "type": "Property",
+      "url": "/api/class/Span#suspendnativeupdatescount",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Determines the depth of suspended updates.\nWhen the value is 0 the current property updates are not batched nor scoped and must be immediately applied.\nIf the value is 1 or greater, the current updates are batched and does not have to provide immediate update.\nDo not set this field, the _batchUpdate method is responsible to keep the count up to date,\nas well as adding/rmoving the view to/from the visual tree."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdatesCount</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 208,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Determines the depth of suspended updates.\nWhen the value is 0 the current property updates are not batched nor scoped and must be immediately applied.\nIf the value is 1 or greater, the current updates are batched and does not have to provide immediate update.\nDo not set this field, the _batchUpdate method is responsible to keep the count up to date,\nas well as adding/rmoving the view to/from the visual tree."
+              }
+            ]
+          },
+          "url": "/api/class/Span#suspendnativeupdatescount"
+        }
+      ]
+    },
+    "29684": {
+      "name": "_isStyleScopeHost",
+      "type": "Property",
+      "url": "/api/class/Span#isstylescopehost",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isStyleScopeHost</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 209,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#isstylescopehost"
+        }
+      ]
+    },
+    "29685": {
+      "name": "_automaticallyAdjustsScrollViewInsets",
+      "type": "Property",
+      "url": "/api/class/Span#automaticallyadjustsscrollviewinsets",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_automaticallyAdjustsScrollViewInsets</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 210,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#automaticallyadjustsscrollviewinsets"
+        }
+      ]
+    },
+    "29686": {
+      "name": "left",
+      "type": "Property",
+      "url": "/api/class/Span#left",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "left: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 211,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#left"
+        }
+      ]
+    },
+    "29687": {
+      "name": "top",
+      "type": "Property",
+      "url": "/api/class/Span#top",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "top: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 212,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#top"
+        }
+      ]
+    },
+    "29688": {
+      "name": "effectiveLeft",
+      "type": "Property",
+      "url": "/api/class/Span#effectiveleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 213,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectiveleft"
+        }
+      ]
+    },
+    "29689": {
+      "name": "effectiveTop",
+      "type": "Property",
+      "url": "/api/class/Span#effectivetop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 214,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivetop"
+        }
+      ]
+    },
+    "29690": {
+      "name": "dock",
+      "type": "Property",
+      "url": "/api/class/Span#dock",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dock</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 215,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#dock"
+        }
+      ]
+    },
+    "29691": {
+      "name": "row",
+      "type": "Property",
+      "url": "/api/class/Span#row",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">row</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 216,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#row"
+        }
+      ]
+    },
+    "29692": {
+      "name": "col",
+      "type": "Property",
+      "url": "/api/class/Span#col",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">col</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 217,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#col"
+        }
+      ]
+    },
+    "29693": {
+      "name": "column",
+      "type": "Property",
+      "url": "/api/class/Span#column",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">column</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 218,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#column"
+        }
+      ]
+    },
+    "29694": {
+      "name": "rowSpan",
+      "type": "Property",
+      "url": "/api/class/Span#rowspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rowSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 219,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#rowspan"
+        }
+      ]
+    },
+    "29695": {
+      "name": "colSpan",
+      "type": "Property",
+      "url": "/api/class/Span#colspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">colSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 220,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#colspan"
+        }
+      ]
+    },
+    "29696": {
+      "name": "columnSpan",
+      "type": "Property",
+      "url": "/api/class/Span#columnspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">columnSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 221,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#columnspan"
+        }
+      ]
+    },
+    "29697": {
+      "name": "order",
+      "type": "Property",
+      "url": "/api/class/Span#order",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">order</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 222,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#order"
+        }
+      ]
+    },
+    "29698": {
+      "name": "flexGrow",
+      "type": "Property",
+      "url": "/api/class/Span#flexgrow",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexGrow</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 223,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#flexgrow"
+        }
+      ]
+    },
+    "29699": {
+      "name": "flexShrink",
+      "type": "Property",
+      "url": "/api/class/Span#flexshrink",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexShrink</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 224,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#flexshrink"
+        }
+      ]
+    },
+    "29700": {
+      "name": "flexWrapBefore",
+      "type": "Property",
+      "url": "/api/class/Span#flexwrapbefore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrapBefore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 225,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#flexwrapbefore"
+        }
+      ]
+    },
+    "29701": {
+      "name": "alignSelf",
+      "type": "Property",
+      "url": "/api/class/Span#alignself",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignSelf</span><span style=\"color: #E1E4E8\">: AlignSelf</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 226,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#alignself"
+        }
+      ]
+    },
+    "29702": {
+      "name": "_oldLeft",
+      "type": "Property",
+      "url": "/api/class/Span#oldleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 227,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#oldleft"
+        }
+      ]
+    },
+    "29703": {
+      "name": "_oldTop",
+      "type": "Property",
+      "url": "/api/class/Span#oldtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 228,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#oldtop"
+        }
+      ]
+    },
+    "29704": {
+      "name": "_oldRight",
+      "type": "Property",
+      "url": "/api/class/Span#oldright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 229,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#oldright"
+        }
+      ]
+    },
+    "29705": {
+      "name": "_oldBottom",
+      "type": "Property",
+      "url": "/api/class/Span#oldbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 230,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#oldbottom"
+        }
+      ]
+    },
+    "29706": {
+      "name": "_ignoreFlexMinWidthHeightReset",
+      "type": "Property",
+      "url": "/api/class/Span#ignoreflexminwidthheightreset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_ignoreFlexMinWidthHeightReset</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 231,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#ignoreflexminwidthheightreset"
+        }
+      ]
+    },
+    "29707": {
+      "name": "effectiveMinWidth",
+      "type": "Property",
+      "url": "/api/class/Span#effectiveminwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 232,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectiveminwidth"
+        }
+      ]
+    },
+    "29708": {
+      "name": "effectiveMinHeight",
+      "type": "Property",
+      "url": "/api/class/Span#effectiveminheight",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 233,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectiveminheight"
+        }
+      ]
+    },
+    "29709": {
+      "name": "effectiveWidth",
+      "type": "Property",
+      "url": "/api/class/Span#effectivewidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 234,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivewidth"
+        }
+      ]
+    },
+    "29710": {
+      "name": "effectiveHeight",
+      "type": "Property",
+      "url": "/api/class/Span#effectiveheight",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 235,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectiveheight"
+        }
+      ]
+    },
+    "29711": {
+      "name": "effectiveMarginTop",
+      "type": "Property",
+      "url": "/api/class/Span#effectivemargintop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 236,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivemargintop"
+        }
+      ]
+    },
+    "29712": {
+      "name": "effectiveMarginRight",
+      "type": "Property",
+      "url": "/api/class/Span#effectivemarginright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 237,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivemarginright"
+        }
+      ]
+    },
+    "29713": {
+      "name": "effectiveMarginBottom",
+      "type": "Property",
+      "url": "/api/class/Span#effectivemarginbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 238,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivemarginbottom"
+        }
+      ]
+    },
+    "29714": {
+      "name": "effectiveMarginLeft",
+      "type": "Property",
+      "url": "/api/class/Span#effectivemarginleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 239,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivemarginleft"
+        }
+      ]
+    },
+    "29715": {
+      "name": "effectivePaddingTop",
+      "type": "Property",
+      "url": "/api/class/Span#effectivepaddingtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 240,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivepaddingtop"
+        }
+      ]
+    },
+    "29716": {
+      "name": "effectivePaddingRight",
+      "type": "Property",
+      "url": "/api/class/Span#effectivepaddingright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 241,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivepaddingright"
+        }
+      ]
+    },
+    "29717": {
+      "name": "effectivePaddingBottom",
+      "type": "Property",
+      "url": "/api/class/Span#effectivepaddingbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 242,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivepaddingbottom"
+        }
+      ]
+    },
+    "29718": {
+      "name": "effectivePaddingLeft",
+      "type": "Property",
+      "url": "/api/class/Span#effectivepaddingleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 243,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivepaddingleft"
+        }
+      ]
+    },
+    "29719": {
+      "name": "effectiveBorderTopWidth",
+      "type": "Property",
+      "url": "/api/class/Span#effectivebordertopwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderTopWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 244,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectivebordertopwidth"
+        }
+      ]
+    },
+    "29720": {
+      "name": "effectiveBorderRightWidth",
+      "type": "Property",
+      "url": "/api/class/Span#effectiveborderrightwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderRightWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 245,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectiveborderrightwidth"
+        }
+      ]
+    },
+    "29721": {
+      "name": "effectiveBorderBottomWidth",
+      "type": "Property",
+      "url": "/api/class/Span#effectiveborderbottomwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderBottomWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 246,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectiveborderbottomwidth"
+        }
+      ]
+    },
+    "29722": {
+      "name": "effectiveBorderLeftWidth",
+      "type": "Property",
+      "url": "/api/class/Span#effectiveborderleftwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderLeftWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 247,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#effectiveborderleftwidth"
+        }
+      ]
+    },
+    "29723": {
+      "name": "_defaultPaddingTop",
+      "type": "Property",
+      "url": "/api/class/Span#defaultpaddingtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 248,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#defaultpaddingtop"
+        }
+      ]
+    },
+    "29724": {
+      "name": "_defaultPaddingRight",
+      "type": "Property",
+      "url": "/api/class/Span#defaultpaddingright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 249,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#defaultpaddingright"
+        }
+      ]
+    },
+    "29725": {
+      "name": "_defaultPaddingBottom",
+      "type": "Property",
+      "url": "/api/class/Span#defaultpaddingbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 250,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#defaultpaddingbottom"
+        }
+      ]
+    },
+    "29726": {
+      "name": "_defaultPaddingLeft",
+      "type": "Property",
+      "url": "/api/class/Span#defaultpaddingleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 251,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#defaultpaddingleft"
+        }
+      ]
+    },
+    "29727": {
+      "name": "_isPaddingRelative",
+      "type": "Property",
+      "url": "/api/class/Span#ispaddingrelative",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isPaddingRelative</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 252,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#ispaddingrelative"
+        }
+      ]
+    },
+    "29729": {
+      "name": "reusable",
+      "type": "Property",
+      "url": "/api/class/Span#reusable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets if the view is reusable.\nReusable views are not automatically destroyed when removed from the View tree."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">reusable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 262,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets if the view is reusable.\nReusable views are not automatically destroyed when removed from the View tree."
+              }
+            ]
+          },
+          "url": "/api/class/Span#reusable"
+        }
+      ]
+    },
+    "29730": {
+      "name": "parentNode",
+      "type": "Accessor",
+      "url": "/api/class/Span#parentnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get parentNode(): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/Span#parentnode-parentnode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 267,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the template parent or the native parent. Sets the template parent."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        }
+      ]
+    },
+    "29734": {
+      "name": "nativeView",
+      "type": "Accessor",
+      "url": "/api/class/Span#nativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">nativeView</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/Span#nativeview-nativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 269,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "29738": {
+      "name": "typeName",
+      "type": "Accessor",
+      "url": "/api/class/Span#typename",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">typeName</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/Span#typename-typename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 274,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the constructor function for this instance. E.g. for a Button class this will return \"Button\"."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "29740": {
+      "name": "style",
+      "type": "Accessor",
+      "url": "/api/class/Span#style",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get style(): <a href=\"/api/class/Style\">Style</a>",
+          "url": "/api/class/Span#style-style-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 278,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the style object associated to this view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Style\">Style</a>"
+        }
+      ]
+    },
+    "29744": {
+      "name": "android",
+      "type": "Accessor",
+      "url": "/api/class/Span#android",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/Span#android-android-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 280,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "29746": {
+      "name": "ios",
+      "type": "Accessor",
+      "url": "/api/class/Span#ios",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/Span#ios-ios-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 281,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "29748": {
+      "name": "isLoaded",
+      "type": "Accessor",
+      "url": "/api/class/Span#isloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">isLoaded</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/class/Span#isloaded-isloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 282,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "29750": {
+      "name": "class",
+      "type": "Accessor",
+      "url": "/api/class/Span#class",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">class</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/Span#class-class-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 283,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "29754": {
+      "name": "getViewById",
+      "type": "Method",
+      "url": "/api/class/Span#getviewbyid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewById</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">id</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/Span#getviewbyid-getviewbyid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 288,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the child view with the specified id."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "29758": {
+      "name": "getViewByDomId",
+      "type": "Method",
+      "url": "/api/class/Span#getviewbydomid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewByDomId</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">domId</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">number</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/Span#getviewbydomid-getviewbydomid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 292,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the child view with the specified domId."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "domId",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "29762": {
+      "name": "page",
+      "type": "Accessor",
+      "url": "/api/class/Span#page",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get page(): <a href=\"/api/class/Page\">Page</a>",
+          "url": "/api/class/Span#page-page-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 296,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets owner page. This is a read-only property."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Page\">Page</a>"
+        }
+      ]
+    },
+    "29764": {
+      "name": "ensureDomNode",
+      "type": "Method",
+      "url": "/api/class/Span#ensuredomnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ensureDomNode</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#ensuredomnode-ensuredomnode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 301,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Ensures a dom-node for this view."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29766": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/Span#set",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 302,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29770": {
+      "name": "onLoaded",
+      "type": "Method",
+      "url": "/api/class/Span#onloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#onloaded-onloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 303,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29772": {
+      "name": "onUnloaded",
+      "type": "Method",
+      "url": "/api/class/Span#onunloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#onunloaded-onunloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 304,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29774": {
+      "name": "_layoutParent",
+      "type": "Method",
+      "url": "/api/class/Span#layoutparent",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_layoutParent</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#layoutparent-layoutparent-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 305,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29776": {
+      "name": "_suspendNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/Span#suspendnativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#suspendnativeupdates-suspendnativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 306,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "type",
+              "type": "SuspendType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29779": {
+      "name": "_resumeNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/Span#resumenativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_resumeNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#resumenativeupdates-resumenativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 307,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "type",
+              "type": "SuspendType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29782": {
+      "name": "_batchUpdate",
+      "type": "Method",
+      "url": "/api/class/Span#batchupdate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">_batchUpdate</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #B392F0\">callback</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/Span#batchupdate-batchupdate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 311,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Allow multiple updates to be performed on the instance at once."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "() => T",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "29788": {
+      "name": "callLoaded",
+      "type": "Method",
+      "url": "/api/class/Span#callloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#callloaded-callloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 315,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29790": {
+      "name": "callUnloaded",
+      "type": "Method",
+      "url": "/api/class/Span#callunloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#callunloaded-callunloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 316,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29792": {
+      "name": "cssClasses",
+      "type": "Property",
+      "url": "/api/class/Span#cssclasses",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 319,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#cssclasses"
+        }
+      ]
+    },
+    "29793": {
+      "name": "cssPseudoClasses",
+      "type": "Property",
+      "url": "/api/class/Span#csspseudoclasses",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssPseudoClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 320,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "url": "/api/class/Span#csspseudoclasses"
+        }
+      ]
+    },
+    "29794": {
+      "name": "addPseudoClass",
+      "type": "Method",
+      "url": "/api/class/Span#addpseudoclass",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addPseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#addpseudoclass-addpseudoclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 327,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "A widget can call this method to add a matching css pseudo class."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29797": {
+      "name": "deletePseudoClass",
+      "type": "Method",
+      "url": "/api/class/Span#deletepseudoclass",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deletePseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#deletepseudoclass-deletepseudoclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 333,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "A widget can call this method to discard matching css pseudo class."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29800": {
+      "name": "bind",
+      "type": "Method",
+      "url": "/api/class/Span#bind",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "bind(options: <a href=\"/api/interface/BindingOptions\">BindingOptions</a>, source?: Object): void",
+          "url": "/api/class/Span#bind-bind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 338,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/BindingOptions\">BindingOptions</a>",
+              "flags": {}
+            },
+            {
+              "name": "source",
+              "type": "Object",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29804": {
+      "name": "unbind",
+      "type": "Method",
+      "url": "/api/class/Span#unbind",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unbind</span><span style=\"color: #E1E4E8\">(property: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#unbind-unbind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 339,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "property",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29807": {
+      "name": "requestLayout",
+      "type": "Method",
+      "url": "/api/class/Span#requestlayout",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">requestLayout</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#requestlayout-requestlayout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 344,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Invalidates the layout of the view and triggers a new layout pass."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29809": {
+      "name": "eachChild",
+      "type": "Method",
+      "url": "/api/class/Span#eachchild",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "eachChild(callback: (child: <a href=\"/api/class/ViewBase\">ViewBase</a>) => boolean): void",
+          "url": "/api/class/Span#eachchild-eachchild-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 349,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Iterates over children of type ViewBase."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "(child: <a href=\"/api/class/ViewBase\">ViewBase</a>) => boolean",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Called for each child of type ViewBase. Iteration stops if this method returns falsy value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29815": {
+      "name": "_addView",
+      "type": "Method",
+      "url": "/api/class/Span#addview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): void",
+          "url": "/api/class/Span#addview-addview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 350,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29819": {
+      "name": "_addViewCore",
+      "type": "Method",
+      "url": "/api/class/Span#addviewcore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addViewCore(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): void",
+          "url": "/api/class/Span#addviewcore-addviewcore-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 354,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29823": {
+      "name": "loadView",
+      "type": "Method",
+      "url": "/api/class/Span#loadview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "loadView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/Span#loadview-loadview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 359,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Load view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "to load."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29826": {
+      "name": "_shouldDelayLayout",
+      "type": "Method",
+      "url": "/api/class/Span#shoulddelaylayout",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_shouldDelayLayout</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/class/Span#shoulddelaylayout-shoulddelaylayout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 364,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When returning true the callLoaded method will be run in setTimeout\nMethod is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "29828": {
+      "name": "unloadView",
+      "type": "Method",
+      "url": "/api/class/Span#unloadview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "unloadView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/Span#unloadview-unloadview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 369,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Unload view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "to unload."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29831": {
+      "name": "_removeView",
+      "type": "Method",
+      "url": "/api/class/Span#removeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/Span#removeview-removeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 373,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Core logic for removing a child view from this instance. Used by the framework to handle lifecycle events more centralized. Do not use outside the UI Stack implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29834": {
+      "name": "_removeViewCore",
+      "type": "Method",
+      "url": "/api/class/Span#removeviewcore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeViewCore(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/Span#removeviewcore-removeviewcore-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 377,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29837": {
+      "name": "createNativeView",
+      "type": "Method",
+      "url": "/api/class/Span#createnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createNativeView</span><span style=\"color: #E1E4E8\">(): Object</span></span></code>",
+          "url": "/api/class/Span#createnativeview-createnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 382,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates a native view.\nReturns either android.view.View or UIView."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Object"
+        }
+      ]
+    },
+    "29839": {
+      "name": "disposeNativeView",
+      "type": "Method",
+      "url": "/api/class/Span#disposenativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#disposenativeview-disposenativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 386,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Clean up references to the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29841": {
+      "name": "initNativeView",
+      "type": "Method",
+      "url": "/api/class/Span#initnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">initNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#initnativeview-initnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 390,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Initializes properties/listeners of the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29843": {
+      "name": "resetNativeView",
+      "type": "Method",
+      "url": "/api/class/Span#resetnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#resetnativeview-resetnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 394,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Resets properties/listeners set to the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29845": {
+      "name": "_setupAsRootView",
+      "type": "Method",
+      "url": "/api/class/Span#setupasrootview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupAsRootView</span><span style=\"color: #E1E4E8\">(context: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#setupasrootview-setupasrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 396,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "context",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29848": {
+      "name": "_setupUI",
+      "type": "Method",
+      "url": "/api/class/Span#setupui",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupUI</span><span style=\"color: #E1E4E8\">(context: any, atIndex</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number, parentIsLoaded</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#setupui-setupui-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 401,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Setups the UI for ViewBase and all its children recursively.\nThis method should *not* be overridden by derived views."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "context",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "parentIsLoaded",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29853": {
+      "name": "setNativeView",
+      "type": "Method",
+      "url": "/api/class/Span#setnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNativeView</span><span style=\"color: #E1E4E8\">(value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#setnativeview-setnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 407,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set the nativeView field performing extra checks and updates to the native properties on the new view.\nUse in cases where the createNativeView is not suitable.\nAs an example use in item controls where the native parent view will create the native views for child items."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29856": {
+      "name": "destroyNode",
+      "type": "Method",
+      "url": "/api/class/Span#destroynode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">destroyNode</span><span style=\"color: #E1E4E8\">(forceDestroyChildren</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#destroynode-destroynode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 413,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Tears down the UI of a reusable node by making it no longer reusable."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@see",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "_tearDownUI"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "forceDestroyChildren",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Force destroy the children (even if they are reusable)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29859": {
+      "name": "_tearDownUI",
+      "type": "Method",
+      "url": "/api/class/Span#teardownui",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_tearDownUI</span><span style=\"color: #E1E4E8\">(force</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#teardownui-teardownui-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 418,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Tears down the UI for ViewBase and all its children recursively.\nThis method should *not* be overridden by derived views."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "force",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29862": {
+      "name": "_childIndexToNativeChildIndex",
+      "type": "Method",
+      "url": "/api/class/Span#childindextonativechildindex",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_childIndexToNativeChildIndex</span><span style=\"color: #E1E4E8\">(index</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
+          "url": "/api/class/Span#childindextonativechildindex-childindextonativechildindex-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 419,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "29865": {
+      "name": "_addViewToNativeVisualTree",
+      "type": "Method",
+      "url": "/api/class/Span#addviewtonativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addViewToNativeVisualTree(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): boolean",
+          "url": "/api/class/Span#addviewtonativevisualtree-addviewtonativevisualtree-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 424,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Performs the core logic of adding a child view to the native visual tree. Returns true if the view's native representation has been successfully added, false otherwise.\nMethod is intended to be overridden by inheritors and used as \"protected\"."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "29869": {
+      "name": "_removeViewFromNativeVisualTree",
+      "type": "Method",
+      "url": "/api/class/Span#removeviewfromnativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeViewFromNativeVisualTree(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/Span#removeviewfromnativevisualtree-removeviewfromnativevisualtree-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 428,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29872": {
+      "name": "_goToVisualState",
+      "type": "Method",
+      "url": "/api/class/Span#gotovisualstate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_goToVisualState</span><span style=\"color: #E1E4E8\">(state: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#gotovisualstate-gotovisualstate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 429,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "state",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29875": {
+      "name": "_applyXmlAttribute",
+      "type": "Method",
+      "url": "/api/class/Span#applyxmlattribute",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_applyXmlAttribute</span><span style=\"color: #E1E4E8\">(attribute: string, value: string): boolean</span></span></code>",
+          "url": "/api/class/Span#applyxmlattribute-applyxmlattribute-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 436,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "This used to be the way to set attribute values in early {N} versions.\nNow attributes are expected to be set as plain properties on the view instances."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "attribute",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "29879": {
+      "name": "setInlineStyle",
+      "type": "Method",
+      "url": "/api/class/Span#setinlinestyle",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInlineStyle</span><span style=\"color: #E1E4E8\">(style: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#setinlinestyle-setinlinestyle-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 437,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "style",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29882": {
+      "name": "_parentChanged",
+      "type": "Method",
+      "url": "/api/class/Span#parentchanged",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_parentChanged(oldParent: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/Span#parentchanged-parentchanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 438,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "oldParent",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29885": {
+      "name": "onResumeNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/Span#onresumenativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onResumeNativeUpdates</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#onresumenativeupdates-onresumenativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 439,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29887": {
+      "name": "toString",
+      "type": "Method",
+      "url": "/api/class/Span#tostring",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/Span#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 440,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "29891": {
+      "name": "_inheritStyleScope",
+      "type": "Method",
+      "url": "/api/class/Span#inheritstylescope",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_inheritStyleScope</span><span style=\"color: #E1E4E8\">(styleScope: StyleScope): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#inheritstylescope-inheritstylescope-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 447,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "styleScope",
+              "type": "StyleScope",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29894": {
+      "name": "showModal",
+      "type": "Method",
+      "url": "/api/class/Span#showmodal",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "showModal(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, modalOptions?: <a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/Span#showmodal-showmodal-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 453,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shows the view passed as parameter as a modal view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "View instance to be shown modally."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "modalOptions",
+              "type": "<a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A ShowModalOptions instance"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        },
+        {
+          "type": "CallSignature",
+          "code": "showModal(moduleName: string, modalOptions?: <a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/Span#showmodal-showmodal-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 459,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shows the View contained in moduleName as a modal view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "moduleName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the module to load starting from the application root."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "modalOptions",
+              "type": "<a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A ShowModalOptions instance"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        }
+      ]
+    },
+    "29901": {
+      "name": "closeModal",
+      "type": "Method",
+      "url": "/api/class/Span#closemodal",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">closeModal</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any[]): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#closemodal-closemodal-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 464,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Closes the current modal view that this page is showing."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "args",
+              "type": "any[]",
+              "flags": {
+                "isRest": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29904": {
+      "name": "_dialogClosed",
+      "type": "Method",
+      "url": "/api/class/Span#dialogclosed",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_dialogClosed</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#dialogclosed-dialogclosed-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 468,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29906": {
+      "name": "_onRootViewReset",
+      "type": "Method",
+      "url": "/api/class/Span#onrootviewreset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_onRootViewReset</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#onrootviewreset-onrootviewreset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 472,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "29909": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/Span#get",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
+          "url": "/api/class/Span#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "29912": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/Span#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29916": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/Span#on",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 99,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which will be used as "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`this`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " context for callback execution."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29924": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/Span#once",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29932": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/Span#off",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29940": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/Span#addeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 117,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29948": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/Span#removeeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/Span#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 124,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29956": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/Span#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
+          "url": "/api/class/Span#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 140,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29960": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/Span#notifypropertychange",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 145,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "29965": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/Span#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
+          "url": "/api/class/Span#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "29968": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/Span#createpropertychangedata",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/Span#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "29973": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/Span#emit",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ViewBase"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Span#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ViewBase"
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

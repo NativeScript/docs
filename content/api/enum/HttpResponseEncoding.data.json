@@ -1,0 +1,53 @@
+{
+  "title": "HttpResponseEncoding",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        1998,
+        1997
+      ]
+    }
+  ],
+  "reflections": {
+    "1997": {
+      "name": "UTF8",
+      "type": "EnumMember",
+      "url": "/api/enum/HttpResponseEncoding#utf8",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF8</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 130,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/HttpResponseEncoding#utf8"
+        }
+      ]
+    },
+    "1998": {
+      "name": "GBK",
+      "type": "EnumMember",
+      "url": "/api/enum/HttpResponseEncoding#gbk",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">GBK</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/http/index.d.ts",
+              "line": 131,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/HttpResponseEncoding#gbk"
+        }
+      ]
+    }
+  }
+}

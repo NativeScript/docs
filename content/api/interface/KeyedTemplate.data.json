@@ -1,0 +1,91 @@
+{
+  "title": "KeyedTemplate",
+  "hierarchy": [
+    [
+      {
+        "text": "KeyedTemplate"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        11846,
+        11845
+      ]
+    }
+  ],
+  "reflections": {
+    "11845": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/interface/KeyedTemplate#key",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The unique key of the template."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 952,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The unique key of the template."
+              }
+            ]
+          },
+          "url": "/api/interface/KeyedTemplate#key"
+        }
+      ]
+    },
+    "11846": {
+      "name": "createView",
+      "type": "Property",
+      "url": "/api/interface/KeyedTemplate#createview",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The function that creates the view."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "createView: <a href=\"/api/interface/Template\">Template</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 957,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The function that creates the view."
+              }
+            ]
+          },
+          "url": "/api/interface/KeyedTemplate#createview"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "title": "PropertyChangeData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "PropertyChangeData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1565,
+        1566,
+        1564,
+        1562,
+        1563
+      ]
+    }
+  ],
+  "reflections": {
+    "1562": {
+      "name": "propertyName",
+      "type": "Property",
+      "url": "/api/interface/PropertyChangeData#propertyname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the property that has changed."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 25,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the property that has changed."
+              }
+            ]
+          },
+          "url": "/api/interface/PropertyChangeData#propertyname"
+        }
+      ]
+    },
+    "1563": {
+      "name": "value",
+      "type": "Property",
+      "url": "/api/interface/PropertyChangeData#value",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The new value of the property."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">value</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 29,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The new value of the property."
+              }
+            ]
+          },
+          "url": "/api/interface/PropertyChangeData#value"
+        }
+      ]
+    },
+    "1564": {
+      "name": "oldValue",
+      "type": "Property",
+      "url": "/api/interface/PropertyChangeData#oldvalue",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The previous value of the property."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 33,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The previous value of the property."
+              }
+            ]
+          },
+          "url": "/api/interface/PropertyChangeData#oldvalue"
+        }
+      ]
+    },
+    "1565": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/PropertyChangeData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/PropertyChangeData#eventname"
+        }
+      ]
+    },
+    "1566": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/PropertyChangeData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/PropertyChangeData#object"
+        }
+      ]
+    }
+  }
+}

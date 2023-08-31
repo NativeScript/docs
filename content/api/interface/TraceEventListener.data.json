@@ -1,0 +1,85 @@
+{
+  "title": "TraceEventListener",
+  "hierarchy": [
+    [
+      {
+        "text": "TraceEventListener"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        5068
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        5069
+      ]
+    }
+  ],
+  "reflections": {
+    "5068": {
+      "name": "filter",
+      "type": "Property",
+      "url": "/api/interface/TraceEventListener#filter",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">filter</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/TraceEventListener#filter"
+        }
+      ]
+    },
+    "5069": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/interface/TraceEventListener#on",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">on</span><span style=\"color: #E1E4E8\">(object: Object, name: string, data</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/interface/TraceEventListener#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "object",
+              "type": "Object",
+              "flags": {}
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "data",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

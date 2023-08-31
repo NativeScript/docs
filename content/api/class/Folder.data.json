@@ -1,0 +1,936 @@
+{
+  "title": "Folder",
+  "hierarchy": [
+    [
+      {
+        "text": "FileSystemEntity",
+        "link": "/api/class/FileSystemEntity"
+      }
+    ],
+    [
+      {
+        "text": "Folder"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1876
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1878,
+        1910,
+        1911,
+        1913,
+        1912
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1882,
+        1884,
+        1879,
+        1904,
+        1873,
+        1870,
+        1896,
+        1898,
+        1890,
+        1893,
+        1914,
+        1916,
+        1922,
+        1925
+      ]
+    }
+  ],
+  "reflections": {
+    "1870": {
+      "name": "fromPath",
+      "type": "Method",
+      "url": "/api/class/Folder#frompath",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "fromPath(path: string): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/class/Folder#frompath-frompath-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 231,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or creates a Folder entity at the specified path."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path to get/create the folder at."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1873": {
+      "name": "exists",
+      "type": "Method",
+      "url": "/api/class/Folder#exists",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exists</span><span style=\"color: #E1E4E8\">(path: string): boolean</span></span></code>",
+          "url": "/api/class/Folder#exists-exists-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 237,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a Folder with the specified path already exists."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1876": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Folder#constructor",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "constructor",
+        "url": "/api/class/FileSystemEntity#constructor",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Folder(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/class/Folder#constructor-new-folder",
+          "inheritedFrom": {
+            "name": "constructor",
+            "url": "/api/class/FileSystemEntity#constructor",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1878": {
+      "name": "isKnown",
+      "type": "Property",
+      "url": "/api/class/Folder#isknown",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Determines whether this instance is a KnownFolder (accessed through the KnownFolders object)."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isKnown</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 225,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Determines whether this instance is a KnownFolder (accessed through the KnownFolders object)."
+              }
+            ]
+          },
+          "url": "/api/class/Folder#isknown"
+        }
+      ]
+    },
+    "1879": {
+      "name": "contains",
+      "type": "Method",
+      "url": "/api/class/Folder#contains",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">contains</span><span style=\"color: #E1E4E8\">(name: string): boolean</span></span></code>",
+          "url": "/api/class/Folder#contains-contains-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 244,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether this Folder contains an Entity with the specified name.\nThe path of the folder is added to the name to resolve the complete path to check for."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the entity to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1882": {
+      "name": "clear",
+      "type": "Method",
+      "url": "/api/class/Folder#clear",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clear</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/Folder#clear-clear-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 249,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Deletes all the files and folders (recursively), contained within this Folder."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1884": {
+      "name": "clearSync",
+      "type": "Method",
+      "url": "/api/class/Folder#clearsync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Folder#clearsync-clearsync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 255,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Deletes all the files and folders (recursively), contained within this Folder synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some error occurs."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1890": {
+      "name": "getFile",
+      "type": "Method",
+      "url": "/api/class/Folder#getfile",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getFile(name: string): <a href=\"/api/class/File\">File</a>",
+          "url": "/api/class/Folder#getfile-getfile-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 261,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or creates a File entity with the specified name within this Folder."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the file to get/create."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/File\">File</a>"
+        }
+      ]
+    },
+    "1893": {
+      "name": "getFolder",
+      "type": "Method",
+      "url": "/api/class/Folder#getfolder",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getFolder(name: string): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/class/Folder#getfolder-getfolder-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 267,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or creates a Folder entity with the specified name within this Folder."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the folder to get/create."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1896": {
+      "name": "getEntities",
+      "type": "Method",
+      "url": "/api/class/Folder#getentities",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getEntities(): Promise&lt;<a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>[]&gt;",
+          "url": "/api/class/Folder#getentities-getentities-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 272,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets all the top-level entities residing within this folder."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Promise&lt;<a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>[]&gt;"
+        }
+      ]
+    },
+    "1898": {
+      "name": "getEntitiesSync",
+      "type": "Method",
+      "url": "/api/class/Folder#getentitiessync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getEntitiesSync(onError?: (error: any) => any): <a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>[]",
+          "url": "/api/class/Folder#getentitiessync-getentitiessync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 278,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets all the top-level entities residing within this folder synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some error occurs."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>[]"
+        }
+      ]
+    },
+    "1904": {
+      "name": "eachEntity",
+      "type": "Method",
+      "url": "/api/class/Folder#eachentity",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "eachEntity(onEntity: (entity: <a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>) => boolean): any",
+          "url": "/api/class/Folder#eachentity-eachentity-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 284,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Enumerates all the top-level FileSystem entities residing within this folder."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onEntity",
+              "type": "(entity: <a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>) => boolean",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A callback that receives the current entity. If the callback returns false this will mean for the iteration to stop."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1910": {
+      "name": "lastModified",
+      "type": "Property",
+      "url": "/api/class/Folder#lastmodified",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Date object specifying the last time this entity was modified."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "lastModified",
+        "url": "/api/class/FileSystemEntity#lastmodified",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lastModified</span><span style=\"color: #E1E4E8\">: Date</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "lastModified",
+            "url": "/api/class/FileSystemEntity#lastmodified",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Date object specifying the last time this entity was modified."
+              }
+            ]
+          },
+          "url": "/api/class/Folder#lastmodified"
+        }
+      ]
+    },
+    "1911": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/Folder#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the name of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "name",
+        "url": "/api/class/FileSystemEntity#name",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 36,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "name",
+            "url": "/api/class/FileSystemEntity#name",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/Folder#name"
+        }
+      ]
+    },
+    "1912": {
+      "name": "path",
+      "type": "Property",
+      "url": "/api/class/Folder#path",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "path",
+        "url": "/api/class/FileSystemEntity#path",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">path</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 41,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "path",
+            "url": "/api/class/FileSystemEntity#path",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/Folder#path"
+        }
+      ]
+    },
+    "1913": {
+      "name": "parent",
+      "type": "Property",
+      "url": "/api/class/Folder#parent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "parent",
+        "url": "/api/class/FileSystemEntity#parent",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "code": "parent: <a href=\"/api/class/Folder\">Folder</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "parent",
+            "url": "/api/class/FileSystemEntity#parent",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+              }
+            ]
+          },
+          "url": "/api/class/Folder#parent"
+        }
+      ]
+    },
+    "1914": {
+      "name": "remove",
+      "type": "Method",
+      "url": "/api/class/Folder#remove",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "remove",
+        "url": "/api/class/FileSystemEntity#remove",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/Folder#remove-remove-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 53,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "remove",
+            "url": "/api/class/FileSystemEntity#remove",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1916": {
+      "name": "removeSync",
+      "type": "Method",
+      "url": "/api/class/Folder#removesync",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "removeSync",
+        "url": "/api/class/FileSystemEntity#removesync",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Folder#removesync-removesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 58,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeSync",
+            "url": "/api/class/FileSystemEntity#removesync",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1922": {
+      "name": "rename",
+      "type": "Method",
+      "url": "/api/class/Folder#rename",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "rename",
+        "url": "/api/class/FileSystemEntity#rename",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rename</span><span style=\"color: #E1E4E8\">(newName: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/Folder#rename-rename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 64,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "rename",
+            "url": "/api/class/FileSystemEntity#rename",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1925": {
+      "name": "renameSync",
+      "type": "Method",
+      "url": "/api/class/Folder#renamesync",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "renameSync",
+        "url": "/api/class/FileSystemEntity#renamesync",
+        "fromName": "FileSystemEntity",
+        "fromUrl": "/api/class/FileSystemEntity"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">renameSync</span><span style=\"color: #E1E4E8\">(newName: string, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Folder#renamesync-renamesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 70,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "renameSync",
+            "url": "/api/class/FileSystemEntity#renamesync",
+            "fromName": "FileSystemEntity",
+            "fromUrl": "/api/class/FileSystemEntity"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity synchronously, using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

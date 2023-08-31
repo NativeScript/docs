@@ -1,0 +1,63 @@
+{
+  "title": "RootLayoutOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "RootLayoutOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        38526,
+        38525
+      ]
+    }
+  ],
+  "reflections": {
+    "38525": {
+      "name": "shadeCover",
+      "type": "Property",
+      "url": "/api/interface/RootLayoutOptions#shadecover",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "shadeCover?: <a href=\"/api/interface/ShadeCoverOptions\">ShadeCoverOptions</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 18,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/RootLayoutOptions#shadecover"
+        }
+      ]
+    },
+    "38526": {
+      "name": "animation",
+      "type": "Property",
+      "url": "/api/interface/RootLayoutOptions#animation",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animation</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  enterFrom?: TransitionAnimation</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
+              "line": 19,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/RootLayoutOptions#animation"
+        }
+      ]
+    }
+  }
+}

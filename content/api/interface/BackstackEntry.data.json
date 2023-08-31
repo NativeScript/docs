@@ -1,0 +1,59 @@
+{
+  "title": "BackstackEntry",
+  "hierarchy": [
+    [
+      {
+        "text": "BackstackEntry"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        13908,
+        13909
+      ]
+    }
+  ],
+  "reflections": {
+    "13908": {
+      "name": "entry",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#entry",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "entry: <a href=\"/api/interface/NavigationEntry\">NavigationEntry</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 385,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/BackstackEntry#entry"
+        }
+      ]
+    },
+    "13909": {
+      "name": "resolvedPage",
+      "type": "Property",
+      "url": "/api/interface/BackstackEntry#resolvedpage",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "resolvedPage: <a href=\"/api/class/Page\">Page</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 386,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/BackstackEntry#resolvedpage"
+        }
+      ]
+    }
+  }
+}

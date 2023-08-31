@@ -1,0 +1,325 @@
+{
+  "title": "ShowModalOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "ShowModalOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        9499,
+        9491,
+        9503,
+        9486,
+        9485,
+        9490,
+        9494,
+        9492,
+        9493
+      ]
+    }
+  ],
+  "reflections": {
+    "9485": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Any context you want to pass to the modally shown view. This same context will be available in the arguments of the shownModally event handler."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 22,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Any context you want to pass to the modally shown view. This same context will be available in the arguments of the shownModally event handler."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#context"
+        }
+      ]
+    },
+    "9486": {
+      "name": "closeCallback",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#closecallback",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">closeCallback</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #F97583\">...</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">[]) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 26,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/ShowModalOptions#closecallback"
+        }
+      ]
+    },
+    "9490": {
+      "name": "fullscreen",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#fullscreen",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether to show the modal view in full-screen mode."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">fullscreen</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 30,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether to show the modal view in full-screen mode."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#fullscreen"
+        }
+      ]
+    },
+    "9491": {
+      "name": "animated",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#animated",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether to show the modal view with animation."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animated</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 34,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether to show the modal view with animation."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#animated"
+        }
+      ]
+    },
+    "9492": {
+      "name": "stretched",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#stretched",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether to stretch the modal view when not in full-screen mode."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">stretched</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 38,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether to stretch the modal view when not in full-screen mode."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#stretched"
+        }
+      ]
+    },
+    "9493": {
+      "name": "transition",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#transition",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional custom transition effect"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">transition</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> ModalTransitionType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 42,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional custom transition effect"
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#transition"
+        }
+      ]
+    },
+    "9494": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter that specify options specific to iOS as an object."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  height?: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  presentationStyle</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 46,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter that specify options specific to iOS as an object."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#ios"
+        }
+      ]
+    },
+    "9499": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#android",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  cancelable?: boolean</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 60,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/ShowModalOptions#android"
+        }
+      ]
+    },
+    "9503": {
+      "name": "cancelable",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#cancelable-1",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 75,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode."
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#cancelable-1"
+        }
+      ]
+    }
+  }
+}

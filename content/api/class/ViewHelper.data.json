@@ -1,0 +1,308 @@
+{
+  "title": "ViewHelper",
+  "hierarchy": [
+    [
+      {
+        "text": "ViewHelper"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        11017
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        11013,
+        10999,
+        10990,
+        11007
+      ]
+    }
+  ],
+  "reflections": {
+    "10990": {
+      "name": "measureChild",
+      "type": "Method",
+      "url": "/api/class/ViewHelper#measurechild",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "measureChild(parent: <a href=\"/api/class/View\">View</a>, child: <a href=\"/api/class/View\">View</a>, widthMeasureSpec: number, heightMeasureSpec: number): {\n  measuredHeight: number\n}",
+          "url": "/api/class/ViewHelper#measurechild-measurechild-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Measure a child by taking into account its margins and a given measureSpecs."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "parent",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "This parameter is not used. You can pass null."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "child",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The view to be measured."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "widthMeasureSpec",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "heightMeasureSpec",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "{\n  measuredHeight: number\n}"
+        }
+      ]
+    },
+    "10999": {
+      "name": "layoutChild",
+      "type": "Method",
+      "url": "/api/class/ViewHelper#layoutchild",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "layoutChild(parent: <a href=\"/api/class/View\">View</a>, child: <a href=\"/api/class/View\">View</a>, left: number, top: number, right: number, bottom: number): void",
+          "url": "/api/class/ViewHelper#layoutchild-layoutchild-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 21,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Layout a child by taking into account its margins, horizontal and vertical alignments and a given bounds."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "parent",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "This parameter is not used. You can pass null."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "child",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            },
+            {
+              "name": "left",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Left position, relative to parent"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "top",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Top position, relative to parent"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "right",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Right position, relative to parent"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "bottom",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Bottom position, relative to parent"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "11007": {
+      "name": "resolveSizeAndState",
+      "type": "Method",
+      "url": "/api/class/ViewHelper#resolvesizeandstate",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resolveSizeAndState</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  size: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  specSize: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  specMode: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  childMeasuredState: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): number</span></span></code>",
+          "url": "/api/class/ViewHelper#resolvesizeandstate-resolvesizeandstate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Utility to reconcile a desired size and state, with constraints imposed\nby a MeasureSpec.  Will take the desired size, unless a different size\nis imposed by the constraints.  The returned value is a compound integer,\nwith the resolved size in the MEASURED_SIZE_MASK bits and\noptionally the bit MEASURED_STATE_TOO_SMALL set if the resulting\nsize is smaller than the size the view wants to be."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "size",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "specSize",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "specMode",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "childMeasuredState",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "11013": {
+      "name": "combineMeasuredStates",
+      "type": "Method",
+      "url": "/api/class/ViewHelper#combinemeasuredstates",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">combineMeasuredStates</span><span style=\"color: #E1E4E8\">(curState: number, newState: any): number</span></span></code>",
+          "url": "/api/class/ViewHelper#combinemeasuredstates-combinemeasuredstates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 33,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "curState",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "newState",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "11017": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ViewHelper#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ViewHelper(): <a href=\"/api/class/ViewHelper\">ViewHelper</a>",
+          "url": "/api/class/ViewHelper#constructor-new-viewhelper",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ViewHelper\">ViewHelper</a>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Accuracy",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4942,
+        4943
+      ]
+    }
+  ],
+  "reflections": {
+    "4942": {
+      "name": "any",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Accuracy#any",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">any</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 160,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Accuracy#any"
+        }
+      ]
+    },
+    "4943": {
+      "name": "high",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Accuracy#high",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">high</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 161,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Accuracy#high"
+        }
+      ]
+    }
+  }
+}

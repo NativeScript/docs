@@ -1,0 +1,9 @@
+<Page>
+  <GridLayout padding="8">
+    <ContentView verticalAlignment="center">
+      <!-- #region example -->
+      <Slider value="75" minValue="0" maxValue="100" />
+      <!-- #endregion example -->
+    </ContentView>
+  </GridLayout>
+</Page>
