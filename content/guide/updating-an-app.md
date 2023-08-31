@@ -16,13 +16,13 @@ To upgrade an app, run:
 ns update
 ```
 
-In order to get the latest development release instead, pass **next** as argument:
+In order to get the latest development release instead, pass **next** as an argument:
 
 ```cli
 ns update next
 ```
 
-You can also switch to specific version by passing it to the command:
+You can also switch to a specific version by passing the version:
 
 ```cli
 ns update 8.0.0
@@ -39,7 +39,7 @@ When using the `--configs` flag, any previous configuration will be overwritten 
 
 #### Upgrading platforms
 
-Follow those steps in order to get the latest versions of Android and/or iOS runtimes. Navigate to the root folder of your project, and then if you are working on an Android project, type:
+Follow those steps in order to get the latest versions of Android and/or iOS runtimes. Navigate to the root folder of your project, and then if working on an Android project, type:
 
 ```cli
 ns platform remove android
