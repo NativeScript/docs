@@ -100,7 +100,7 @@ Often when working with open-source projects, at times there is a requirement fo
 
 #### Getting the latest development version via npm
 
-As an open-source project NativeScript keeps not only its source code, but its build infrastructure open. Every commit in the main branch of all major NativeScript repos triggers a Github Action Workflow that publishes a npm package, which can be used directly.  Follow these steps in order to get the latest development version of NativeScript:
+As an open-source project NativeScript keeps not only its source code, but its build infrastructure open. Every commit in the main branch of all major NativeScript repos triggers a Github Action Workflow that publishes a npm package, which can be used directly. Follow these steps in order to get the latest development version of NativeScript:
 
 - Uninstall any existing NativeScript versions:
 
@@ -164,9 +164,9 @@ Building the source code is essential when one wants to contribute to an open so
 
 #### Contents of the NativeScript repo
 
-The [NativeScript framework](https://github.com/NativeScript/NativeScript) is built using TypeScript. For that, one of the build steps is TypeScript compilation, which uses TypeScript declarations of the underlying native objects. These are really large files ([android17.d.ts](https://github.com/NativeScript/NativeScript/blob/master/packages/types-android/src/lib/android-17.d.ts) and [ios.d.ts](https://github.com/NativeScript/NativeScript/blob/master/packages/types-ios/src/lib/ios/ios.d.ts)). The TypeScript compilation with these two files loaded in memory takes a lot of time. To save development time and have as quick and stable feature output, the NativeScript team decided to keep several important applications inside the same repository so that all of them get compiled in a single pass.
+[@nativescript/core](https://github.com/NativeScript/NativeScript/tree/main/packages/core) is built using TypeScript. For that, one of the build steps is TypeScript compilation, which uses TypeScript declarations of the underlying native objects. These are really large files ([android17.d.ts](https://github.com/NativeScript/NativeScript/blob/main/packages/types-android/src/lib/android/android-platform-17.d.ts) and [ios.d.ts](https://github.com/NativeScript/NativeScript/blob/master/packages/types-ios/src/lib/ios/ios.d.ts)). The TypeScript compilation with these two files loaded in memory can take a moment. To save development time, the NativeScript team decided to keep several important applications inside the same repository so that all of them get compiled in a single pass.
 
-Having said that, each subfolder of the [apps](https://github.com/NativeScript/NativeScript/tree/master/apps) subfolder of the repo represents a single application.
+Having said that, each subfolder of the [apps](https://github.com/NativeScript/NativeScript/tree/master/apps) subfolder of the repo represents a single application used for different purposes (`toolbox` to quickly prototype feature and verify fixes, `ui` to confirm fixes and `automated` which runs a full e2e test suite against latest changes).
 
 
 #### Using the latest
@@ -180,7 +180,7 @@ To use the latest:
 
 #### Handling internal breaking changes
 
-It is possible for an internal breaking change to be introduced, affecting both the runtimes and core.  This type of change requires modifications to the internal code of @nativescript/core, while the public API remains unaffected.
+It is possible for an internal breaking change to be introduced, affecting both the runtimes and core. This type of change requires modifications to the internal code of @nativescript/core, while the public API remains unaffected.
 
 When such a case happens, the [ios](https://github.com/NativeScript/ns-v8ios-runtime) and [android](https://github.com/NativeScript/android-runtime) runtimes must be built separately and updated via the CLI command of:
 `ns platform update android/ios --frameworkPath=[Path-to-Runtime-Package]`
@@ -203,6 +203,6 @@ The resulting @nativescript/android-x.x.x.tgz package will get created in the `d
 
 #### Building the iOS runtime
 
-Follow the instructions on setting up the dependencies for building the [ios runtime](https://github.com/NativeScript/ns-v8ios-runtime) in the repository README and then run `grunt package`.
+Follow the instructions on setting up the dependencies for building the [ios runtime](https://github.com/NativeScript/ns-v8ios-runtime) in the repo.
 
 The @nativescript/ios-x.x.x.tgx package will be generated in the dist folder.
