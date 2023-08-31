@@ -53,7 +53,7 @@ export default [
       // },
       {
         text: 'Navigation',
-        link: '/guide/core/navigation',
+        link: '/guide/navigation/',
       },
       {
         text: 'Using Modals',
