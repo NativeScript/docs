@@ -27,6 +27,10 @@ export default [
         link: '/guide/navigation/modals',
       },
       {
+        text: 'Styling',
+        link: '/guide/ui/styling',
+      },
+      {
         text: 'Choosing an editor',
         link: '/guide/choosing-an-editor'
       },
