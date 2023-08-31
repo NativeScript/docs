@@ -3,20 +3,18 @@ title: Animations
 ---
 <!-- TODO: SB+Preview with Animation class example -->
 
-One of the ways to improve the attractiveness of your application is by adding animations. NativeScript exposes a simple and easy, but powerful enough API to allow animating almost every native component in your application.
+NativeScript exposes a simple yet powerful API to allow animating almost every native component in your app. The singular API allows you to animate both iOS and Android the same way. You always have the discretion to use platform animations directly where desired but let's look at how comprehensive this simple API is as it is well suited for a large majority of commonly desired animations.
 
-For your convenience, we expose two ways of creating animations:
+For your convenience, there are two popular ways of creating animations:
 
-- [Declarative](#animating-ui-componentsviews-with-css-in-nativescript) - you will use the easy and familiar CSS3 animations API
+- [Declarative](#animating-ui-componentsviews-with-css-in-nativescript) - easy and familiar CSS3 animations API
 - [Imperative](#animating-ui-componentsviews-with-code-in-nativescript) - take full control of any animation by calling animation methods directly with code
 
-This article demonstrates the different CSS animations available in NativeScript.
+## Declarative: Animating UI components with CSS
 
-## Animating UI components(views) with CSS
+CSS animations are based on the [CSS3 animations API](http://www.w3schools.com/css/css3_animations.asp) standard. You can use them to animate almost every native view without even having to know JavaScript. You can use multiple frames and change the animation direction. With CSS animations, you can separate the animation code from your app logic if desired.
 
-CSS animations are based on the simple and easy to use [CSS3 animations API](http://www.w3schools.com/css/css3_animations.asp) standard. You can use them to animate almost every native view without even having to know JavaScript.  You can use multiple frames and change the animation direction. Finally, with CSS animations, you can separate the animation code from your application logic.
-
-CSS animations consist of two components: a style describing the CSS animation and a set of keyframes that indicate the start and end states of the animation's style, as well as possible intermediate waypoints. 
+CSS animations consist of two components: a style describing the CSS animation and a set of keyframes that indicate the start and end states of the animation's style, as well as possible intermediate waypoints.
 
 Add animation with `@keyframes` in CSS as follows:
 
@@ -54,7 +52,7 @@ If the `animation-duration` property is not specified, the animation will use a 
 
 :::
 
-A basic `@keyframes` rule has two waypoints. The `from` property represents `0%` (the start)  of the animation time and `to` represents the 100% (the final value). 
+A basic `@keyframes` rule has two waypoints. The `from` property represents `0%` (the start) of the animation time and `to` represents the 100% (the final value). 
 
 ```css
 @keyframes example {
@@ -113,7 +111,6 @@ You cannot set a single x or y field in scale and translate. If you set only x i
 ### CSS Animation properties
 
 A CSS animation is defined by using the `animation` property and its sub-properties in the following list. The actual animation appearance is defined with the `@keyframes` rule.
-
 
 - `animation-name`: Specifies the name of the `@keyframes` rule that should be used.
 - `animation-delay`: Specifies the time between the style is applied and the beginning of the animation.
@@ -183,8 +180,6 @@ The `animation-fill-mode` property determines the end-of-animation style for the
 }
 ```
 
-You can the rest of the properties like the preceeding examples.
-
 ### Animation property shorthand
 
 To set all the properties above in a single line, use the `animation` property:
@@ -195,7 +190,7 @@ To set all the properties above in a single line, use the `animation` property:
 }
 ```
 
-The below is the order of the properties:
+The order of properties are as follows:
 
 `animation`: `name` `duration` `timing-function delay` `iteration-count` `direction` `fill-mode`;
 
@@ -335,11 +330,9 @@ The `Button` component has a built-in special state `highlighted` to for the `to
 ///
  -->
 
-## Animating UI components(views) with code
+## Imperative: Animating UI components with code
 
-The easiest way to animate a single [View](https://docs.nativescript.org/api-reference/classes/view.html) is by using the `View.animate` method which accepts an [`AnimationDefinition`](https://docs.nativescript.org/api-reference/interfaces/animationdefinition.html), immediately starts the animation and then returns its finished promise.
-
-You can animate a view as follows:
+The easiest way to animate a single [View](https://docs.nativescript.org/api/class/View) is by using the `View.animate` method which accepts an [`AnimationDefinition`](https://docs.nativescript.org/api/interface/AnimationDefinition). It immediately starts and returns its finished promise.
 
 ```typescript
 view.animate({
@@ -357,33 +350,29 @@ You should create an [Animation](#the-animation-class) class in order to be able
 
 ### The AnimationDefinition interface
 
-The [AnimationDefinition](https://docs.nativescript.org/api-reference/interfaces/animationdefinition.html) interface he AnimationDefinition interface defines the properties to be animated.
-
-The `AnimationDefinition` interface has the following members:
+The [AnimationDefinition](https://docs.nativescript.org/api/interface/AnimationDefinition) interface defines the following properties to be animated:
 
 - `target`: The view whose property is to be animated.
 - `opacity`: Animates the opacity of the view. Value should be a number between 0.0 and 1.0.
 - `backgroundColor`: Animates the backgroundColor of the view.
-- `translate`: Animates the translate affine transform of the view. Value should be a [`Pair`](https://v6.docs.nativescript.org/api-reference/interfaces/_ui_animation_.pair.html).
-- `scale`: Animates the scale affine transform of the view. Value should be a [`Pair`](https://v6.docs.nativescript.org/api-reference/interfaces/_ui_animation_.pair.html).
+- `translate`: Animates the translate affine transform of the view. Value should be `{ x: number; y: number; }`
+- `scale`: Animates the scale affine transform of the view. Value should be `{ x: number; y: number; }`
 - `rotate`: Animates the rotate affine transform of the view. Value should be a number specifying the rotation amount in degrees.
 - `duration`: The length of the animation in milliseconds. The default duration is 300 milliseconds.
 - `delay`: The amount of time, in milliseconds, to delay starting the animation.
 - `iterations`: Specifies how many times the animation should be played. Default is 1. iOS animations support fractional iterations, i.e., 1.5. To repeat an animation infinitely, use `Number.POSITIVE_INFINITY`.
-- `curve`: An optional animation curve. Possible values are contained in the [AnimationCurve](https://docs.nativescript.org/api-reference/modules/coretypes.animationcurve.html). Alternatively, you can pass an instance of type [`UIViewAnimationCurve`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/#//apple_ref/c/tdef/UIViewAnimationCurve) for iOS or [`android.animation.TimeInterpolator`](http://developer.android.com/reference/android/animation/TimeInterpolator.html) for Android.
+- `curve`: An optional animation curve. Possible values are contained in the [CoreTypes.AnimationCurve](https://github.com/NativeScript/NativeScript/blob/8d25d251cd1c311d3f73e526bf2fd4ee0b2be0b8/packages/core/core-types/index.ts#L268). Alternatively, you can pass an instance of type [`UIViewAnimationCurve`](https://developer.apple.com/documentation/uikit/uiviewanimationcurve?language=objc) for iOS or [`android.animation.TimeInterpolator`](https://developer.android.com/reference/android/animation/TimeInterpolator) for Android.
 - `width`: Animates view's width.
 - `height`: Animates view's height.
 
 All members of the interface are **optional** and have default values with the following exceptions:
 
-- `target` is only optional when calling the `animate` method of a [`View`](https://docs.nativescript.org/api-reference/classes/view.html) instance since it is set automatically for you.
+- `target` is only optional when calling the `animate` method of a [`View`](https://docs.nativescript.org/api/class/View) instance since it is set automatically for you.
 - You must specify at least one of: opacity, backgroundColor, scale, rotate or translate.
 
 ### The Animation class
 
-The [`Animation`](https://docs.nativescript.org/api-reference/classes/animation.html) class represents a set of one or more [AnimationDefinitions](#the-animationdefinition-interface) that can be played either simultaneously or sequentially. This class is typically used when you need to animate several views together. The constructor of the `Animation` class accepts an array of `AnimationDefinitions` and a boolean parameter indicating whether to play the animations sequentially. Creating an instance of the `Animation` class does not start the animation playback. Call the `play` method to start the animation. 
-
-The class has four members:
+The [`Animation`](https://docs.nativescript.org/api/class/Animation) class represents a set of one or more [AnimationDefinitions](#the-animationdefinition-interface) that can be played either simultaneously or sequentially. The constructor of the `Animation` class accepts an array of `AnimationDefinitions` and a boolean parameter indicating whether to play the animations sequentially. Creating an instance of the `Animation` class does not start the animation playback. Call the `play` method to start the animation. 
 
 - `play`: A method that starts the animation and returns the instance it was called on for fluent animation chaining.
 - `cancel`: A void method that stops the animation.
@@ -392,11 +381,11 @@ The class has four members:
 
 ### Animating from a different component's origin
 
-A view has the originX and originY properties. By default, they have a value of 0.5. To create complex rotation animations, you can change those properties. The pair represents the origin point around which the view will be transformed.
+A view has the `originX` and `originY` properties. By default, they have a value of 0.5. To create complex rotation animations, you can change those properties. The pair represents the origin point around which the view will be transformed.
 
 ### Chaining animations with promises
 
-Use the promise return by the `animatie` method to chain animations:
+Use the promise returned by the `animate` method to chain animations:
 
 ```typescript
 view
@@ -422,14 +411,14 @@ view
 
 ### Access CSS animations from code
 
-To trigger a animation defined in CSS is by changing the view's `className` property:
+To trigger an animation defined in CSS, you can change the view's `className` property:
 
 ```ts
 const view = page.getViewById('view')
 view.className = 'transparent'
 ```
 
-To access the access `@keyframes` defined in CSS, use the `Page` view's `getKeyframeAnimationWithName` method. This allows for further customization of animation properties:
+To access `@keyframes` defined in CSS, use the `Page` view's `getKeyframeAnimationWithName` method. This allows for further customization of animation properties:
 
 ```ts
 import { KeyframeAnimation, View } from '@nativescript/core'
@@ -575,4 +564,4 @@ When using `TouchManager.enableGlobalTapAnimations` you can declare any views to
 
 ## Limitations
 
-- `Span` and `FormattedString` can not be animated. `Span` and `FormattedString` components are not extending the [`View`](https://docs.nativescript.org/api-reference/classes/view.html) class, but only [`ViewBase`](https://docs.nativescript.org/api-reference/classes/viewbase.html). Because of this, neither `Span` nor `FormattedString` are ui components, making it impossible to animate them and causing a crash on iOS.
+- `Span` and `FormattedString` can not be animated. `Span` and `FormattedString` components are not extending the [`View`](https://docs.nativescript.org/api/class/View) class, but only [`ViewBase`](https://docs.nativescript.org/api/class/ViewBase). Because of this, neither `Span` nor `FormattedString` are ui components, making it impossible to animate them and causing a crash on iOS.
