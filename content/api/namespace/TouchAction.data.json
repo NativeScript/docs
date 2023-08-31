@@ -1,0 +1,165 @@
+{
+  "title": "TouchAction",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        14006,
+        14003,
+        14005,
+        14004
+      ]
+    }
+  ],
+  "reflections": {
+    "14003": {
+      "name": "down",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#down",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Down action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">down</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 114,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Down action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#down"
+        }
+      ]
+    },
+    "14004": {
+      "name": "up",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#up",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Up action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">up</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 119,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Up action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#up"
+        }
+      ]
+    },
+    "14005": {
+      "name": "move",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#move",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Move action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">move</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 124,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Move action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#move"
+        }
+      ]
+    },
+    "14006": {
+      "name": "cancel",
+      "type": "Variable",
+      "url": "/api/namespace/TouchAction#cancel",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Cancel action."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancel</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 129,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Cancel action."
+              }
+            ]
+          },
+          "url": "/api/namespace/TouchAction#cancel"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "title": "NavigatedData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "NavigatedData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        19722,
+        19724,
+        19723,
+        19725
+      ]
+    }
+  ],
+  "reflections": {
+    "19722": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/interface/NavigatedData#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The navigation context (optional, may be undefined) passed to the page navigation events method."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/page/index.d.ts",
+              "line": 19,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The navigation context (optional, may be undefined) passed to the page navigation events method."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigatedData#context"
+        }
+      ]
+    },
+    "19723": {
+      "name": "isBackNavigation",
+      "type": "Property",
+      "url": "/api/interface/NavigatedData#isbacknavigation",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Represents if a navigation is forward or backward."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isBackNavigation</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/page/index.d.ts",
+              "line": 24,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Represents if a navigation is forward or backward."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigatedData#isbacknavigation"
+        }
+      ]
+    },
+    "19724": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/NavigatedData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigatedData#eventname"
+        }
+      ]
+    },
+    "19725": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/NavigatedData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigatedData#object"
+        }
+      ]
+    }
+  }
+}

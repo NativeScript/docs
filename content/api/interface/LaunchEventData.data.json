@@ -1,0 +1,225 @@
+{
+  "title": "LaunchEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "LaunchEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        4685,
+        4687,
+        4686,
+        4688,
+        4683,
+        4684
+      ]
+    }
+  ],
+  "reflections": {
+    "4683": {
+      "name": "root",
+      "type": "Property",
+      "url": "/api/interface/LaunchEventData#root",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The root view for this Window on iOS or Activity for Android.\nIf not set a new Frame will be created as a root view in order to maintain backwards compatibility.\nIf explicitly set to null, there will be no root view."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "root?: <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 51,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The root view for this Window on iOS or Activity for Android.\nIf not set a new Frame will be created as a root view in order to maintain backwards compatibility.\nIf explicitly set to null, there will be no root view."
+              }
+            ]
+          },
+          "url": "/api/interface/LaunchEventData#root"
+        }
+      ]
+    },
+    "4684": {
+      "name": "savedInstanceState",
+      "type": "Property",
+      "url": "/api/interface/LaunchEventData#savedinstancestate",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">savedInstanceState</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 52,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/LaunchEventData#savedinstancestate"
+        }
+      ]
+    },
+    "4685": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/LaunchEventData#android",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Intent</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/LaunchEventData#android"
+        }
+      ]
+    },
+    "4686": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/LaunchEventData#ios",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 54,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/LaunchEventData#ios"
+        }
+      ]
+    },
+    "4687": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/LaunchEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/LaunchEventData#eventname"
+        }
+      ]
+    },
+    "4688": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/LaunchEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/LaunchEventData#object"
+        }
+      ]
+    }
+  }
+}

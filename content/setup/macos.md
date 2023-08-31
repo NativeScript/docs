@@ -2,13 +2,15 @@
 title: Setting up macOS for NativeScript
 prev: /setup
 next: /creating-a-new-project
+contributors:
+  - rigor789
 ---
 
 ## Setting up macOS for Android
 
 You will need Node, NativeScript CLI (command line interface), Android Studio and a JDK (java development kit).
 
-**Android Studio** is not strictly necessary &mdash; however it provides an easy to use interface for installing and managing the Android SDKs.
+**Android Studio** is not strictly necessary &mdash; however it provides an easy-to-use interface for installing and managing the Android SDKs.
 
 We recommend using [Homebrew](https://brew.sh/) to install the required dependencies &mdash; a popular package manager for macOS.
 
@@ -45,7 +47,7 @@ brew tap homebrew/cask-versions
 brew install --cask temurin11
 ```
 
-Once installed, open a new Terminal and verify that the default version is the one we just installed:
+Once installed, open a new Terminal and verify that the default version is the one we installed:
 
 ```cli
 javac --version
@@ -190,6 +192,23 @@ If the binary is not found run `gem env` to examine your folders, and update you
 
 ### Installing Python and `six`
 
+Install python3 from Homebrew:
+
+```cli
+brew install python
+
+# verify installation
+python3 --version
+```
+
+Next, update **<abbr title="Python package manager">pip</abbr>** and install **<abbr title="Python 2 & 3 compatibility package used by NativeScript">six</abbr>** by running the following:
+
+```cli
+python3 -m pip install --upgrade pip
+python3 -m pip install six
+```
+
+<!--
 ::: warning Note
 
 macOS ships with Python pre-installed, however starting with **macos 12.3** there's no longer a `python` executable, and aliasing to the system `python3` causes an issue where it prompts to "_Install command-line tools_" whenever invoked through the alias. To work around this issue, we recommend installing Python from Homebrew instead.
@@ -219,6 +238,7 @@ Next, update **<abbr title="Python package manager">pip</abbr>** and install **<
 python -m pip install --upgrade pip
 python -m pip install six
 ```
+-->
 
 ### Installing the NativeScript CLI
 

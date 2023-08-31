@@ -1,0 +1,101 @@
+{
+  "title": "VerticalAlignment",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4893,
+        4892,
+        4894,
+        4891
+      ]
+    }
+  ],
+  "reflections": {
+    "4891": {
+      "name": "top",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignment#top",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">top</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 110,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignment#top"
+        }
+      ]
+    },
+    "4892": {
+      "name": "middle",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignment#middle",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">middle</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 111,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignment#middle"
+        }
+      ]
+    },
+    "4893": {
+      "name": "bottom",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignment#bottom",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bottom</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 112,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignment#bottom"
+        }
+      ]
+    },
+    "4894": {
+      "name": "stretch",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignment#stretch",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stretch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 113,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignment#stretch"
+        }
+      ]
+    }
+  }
+}

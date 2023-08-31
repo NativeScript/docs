@@ -1,0 +1,9 @@
+<Page>
+  <GridLayout padding="8">
+    <ContentView verticalAlignment="center" horizontalAlignment="center">
+      <!-- #region example -->
+      <Switch checked="true" />
+      <!-- #endregion example -->
+    </ContentView>
+  </GridLayout>
+</Page>

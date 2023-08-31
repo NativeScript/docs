@@ -1,0 +1,164 @@
+{
+  "title": "Visibility",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4921,
+        4922,
+        4923,
+        4920
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        4924,
+        4927
+      ]
+    }
+  ],
+  "reflections": {
+    "4920": {
+      "name": "visible",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#visible",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "visible: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 138,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Visibility#visible"
+        }
+      ]
+    },
+    "4921": {
+      "name": "collapse",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#collapse",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "collapse: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 139,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Visibility#collapse"
+        }
+      ]
+    },
+    "4922": {
+      "name": "collapsed",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#collapsed",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "collapsed: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 140,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Visibility#collapsed"
+        }
+      ]
+    },
+    "4923": {
+      "name": "hidden",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-Visibility#hidden",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "hidden: <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 141,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Visibility#hidden"
+        }
+      ]
+    },
+    "4924": {
+      "name": "isValid",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-Visibility#isvalid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isValid(value: any): value is <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "url": "/api/namespace/CoreTypes-Visibility#isvalid-isvalid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 142,
+              "character": 23
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "value is <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>"
+        }
+      ]
+    },
+    "4927": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-Visibility#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(value: string): <a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>",
+          "url": "/api/namespace/CoreTypes-Visibility#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 143,
+              "character": 21
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#visibilitytype\">VisibilityType</a>"
+        }
+      ]
+    }
+  }
+}

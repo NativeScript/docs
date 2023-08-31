@@ -1,0 +1,150 @@
+{
+  "title": "ChangeType",
+  "hierarchy": [
+    [
+      {
+        "text": "ChangeType"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1413
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1408,
+        1412,
+        1409,
+        1411,
+        1410
+      ]
+    }
+  ],
+  "reflections": {
+    "1408": {
+      "name": "Add",
+      "type": "Property",
+      "url": "/api/class/ChangeType#add",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Add</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 3,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#add"
+        }
+      ]
+    },
+    "1409": {
+      "name": "Delete",
+      "type": "Property",
+      "url": "/api/class/ChangeType#delete",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Delete</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 4,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#delete"
+        }
+      ]
+    },
+    "1410": {
+      "name": "Update",
+      "type": "Property",
+      "url": "/api/class/ChangeType#update",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Update</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 5,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#update"
+        }
+      ]
+    },
+    "1411": {
+      "name": "Splice",
+      "type": "Property",
+      "url": "/api/class/ChangeType#splice",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Splice</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 6,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#splice"
+        }
+      ]
+    },
+    "1412": {
+      "name": "Change",
+      "type": "Property",
+      "url": "/api/class/ChangeType#change",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Change</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 7,
+              "character": 11
+            }
+          ],
+          "url": "/api/class/ChangeType#change"
+        }
+      ]
+    },
+    "1413": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ChangeType#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ChangeType(): <a href=\"/api/class/ChangeType\">ChangeType</a>",
+          "url": "/api/class/ChangeType#constructor-new-changetype",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ChangeType\">ChangeType</a>"
+        }
+      ]
+    }
+  }
+}

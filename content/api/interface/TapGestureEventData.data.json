@@ -1,0 +1,417 @@
+{
+  "title": "TapGestureEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "GestureEventData",
+        "link": "/api/interface/GestureEventData"
+      }
+    ],
+    [
+      {
+        "text": "TapGestureEventData"
+      }
+    ],
+    [
+      {
+        "text": "TouchGestureEventData",
+        "link": "/api/interface/TouchGestureEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        14076,
+        14077,
+        14075,
+        14078,
+        14073,
+        14074
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        14067,
+        14069,
+        14071
+      ]
+    }
+  ],
+  "reflections": {
+    "14067": {
+      "name": "getPointerCount",
+      "type": "Method",
+      "url": "/api/interface/TapGestureEventData#getpointercount",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getPointerCount</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
+          "url": "/api/interface/TapGestureEventData#getpointercount-getpointercount-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 161,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the number of pointers in the event."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "14069": {
+      "name": "getX",
+      "type": "Method",
+      "url": "/api/interface/TapGestureEventData#getx",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getX</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
+          "url": "/api/interface/TapGestureEventData#getx-getx-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 165,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the X coordinate of this event inside the view that triggered the event"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "14071": {
+      "name": "getY",
+      "type": "Method",
+      "url": "/api/interface/TapGestureEventData#gety",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getY</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
+          "url": "/api/interface/TapGestureEventData#gety-gety-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 169,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Y coordinate of the event inside the view that triggered the event."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "14073": {
+      "name": "type",
+      "type": "Property",
+      "url": "/api/interface/TapGestureEventData#type",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the type of the gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "type",
+        "url": "/api/interface/GestureEventData#type",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "type: <a href=\"/api/enum/GestureTypes\">GestureTypes</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 139,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "type",
+            "url": "/api/interface/GestureEventData#type",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the type of the gesture."
+              }
+            ]
+          },
+          "url": "/api/interface/TapGestureEventData#type"
+        }
+      ]
+    },
+    "14074": {
+      "name": "view",
+      "type": "Property",
+      "url": "/api/interface/TapGestureEventData#view",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the view which originates the gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "view",
+        "url": "/api/interface/GestureEventData#view",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "view: <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 143,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "view",
+            "url": "/api/interface/GestureEventData#view",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the view which originates the gesture."
+              }
+            ]
+          },
+          "url": "/api/interface/TapGestureEventData#view"
+        }
+      ]
+    },
+    "14075": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/TapGestureEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/)."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "ios",
+        "url": "/api/interface/GestureEventData#ios",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 147,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "ios",
+            "url": "/api/interface/GestureEventData#ios",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/)."
+              }
+            ]
+          },
+          "url": "/api/interface/TapGestureEventData#ios"
+        }
+      ]
+    },
+    "14076": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/TapGestureEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "android",
+        "url": "/api/interface/GestureEventData#android",
+        "fromName": "GestureEventData",
+        "fromUrl": "/api/interface/GestureEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 151,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "android",
+            "url": "/api/interface/GestureEventData#android",
+            "fromName": "GestureEventData",
+            "fromUrl": "/api/interface/GestureEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)."
+              }
+            ]
+          },
+          "url": "/api/interface/TapGestureEventData#android"
+        }
+      ]
+    },
+    "14077": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/TapGestureEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/TapGestureEventData#eventname"
+        }
+      ]
+    },
+    "14078": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/TapGestureEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/TapGestureEventData#object"
+        }
+      ]
+    }
+  }
+}

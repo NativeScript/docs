@@ -1,0 +1,516 @@
+{
+  "title": "InheritedCssProperty",
+  "hierarchy": [
+    [
+      {
+        "text": "CssProperty<T, U>",
+        "link": "/api/class/CssProperty"
+      }
+    ],
+    [
+      {
+        "text": "InheritedCssProperty"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        12032
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        12043,
+        12042,
+        12044,
+        12052,
+        12051,
+        12048,
+        12046,
+        12047,
+        12045,
+        12041,
+        12053,
+        12037,
+        12049,
+        12050
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        12062,
+        12057
+      ]
+    }
+  ],
+  "reflections": {
+    "12032": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/InheritedCssProperty#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new InheritedCssProperty&lt;T, U&gt;(options: CssPropertyOptions&lt;T, U&gt;): <a href=\"/api/class/InheritedCssProperty\">InheritedCssProperty</a>&lt;T, U&gt;",
+          "url": "/api/class/InheritedCssProperty#constructor-new-inheritedcssproperty",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 119,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "CssPropertyOptions&lt;T, U&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/InheritedCssProperty\">InheritedCssProperty</a>&lt;T, U&gt;"
+        }
+      ]
+    },
+    "12037": {
+      "name": "setInheritedValue",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#setinheritedvalue",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInheritedValue</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 118,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/InheritedCssProperty#setinheritedvalue"
+        }
+      ]
+    },
+    "12041": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#name",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 75,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#name"
+        }
+      ]
+    },
+    "12042": {
+      "name": "cssName",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#cssname",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 76,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#cssname"
+        }
+      ]
+    },
+    "12043": {
+      "name": "cssLocalName",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#csslocalname",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssLocalName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 77,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#csslocalname"
+        }
+      ]
+    },
+    "12044": {
+      "name": "cssValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#cssvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 78,
+              "character": 23
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#cssvaluedescriptor"
+        }
+      ]
+    },
+    "12045": {
+      "name": "localValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#localvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">localValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 79,
+              "character": 23
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#localvaluedescriptor"
+        }
+      ]
+    },
+    "12046": {
+      "name": "isStyleProperty",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#isstyleproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isStyleProperty</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 80,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#isstyleproperty"
+        }
+      ]
+    },
+    "12047": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#key",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 81,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#key"
+        }
+      ]
+    },
+    "12048": {
+      "name": "getDefault",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#getdefault",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDefault</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 82,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#getdefault"
+        }
+      ]
+    },
+    "12049": {
+      "name": "setNative",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#setnative",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNative</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 83,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#setnative"
+        }
+      ]
+    },
+    "12050": {
+      "name": "sourceKey",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#sourcekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sourceKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 84,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#sourcekey"
+        }
+      ]
+    },
+    "12051": {
+      "name": "defaultValueKey",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#defaultvaluekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValueKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 85,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#defaultvaluekey"
+        }
+      ]
+    },
+    "12052": {
+      "name": "defaultValue",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#defaultvalue",
+      "flags": {
+        "isReadonly": true
+      },
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValue</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">U</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 86,
+              "character": 13
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#defaultvalue"
+        }
+      ]
+    },
+    "12053": {
+      "name": "overrideHandlers",
+      "type": "Property",
+      "url": "/api/class/InheritedCssProperty#overridehandlers",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">overrideHandlers</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">options</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">CssPropertyOptions</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">U</span><span style=\"color: #E1E4E8\">&amp;</span><span style=\"color: #FFAB70\">gt</span><span style=\"color: #E1E4E8\">;) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 87,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "url": "/api/class/InheritedCssProperty#overridehandlers"
+        }
+      ]
+    },
+    "12057": {
+      "name": "register",
+      "type": "Method",
+      "url": "/api/class/InheritedCssProperty#register",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">register</span><span style=\"color: #E1E4E8\">(cls: {}): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/InheritedCssProperty#register-register-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 89,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "{}",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "12062": {
+      "name": "isSet",
+      "type": "Method",
+      "url": "/api/class/InheritedCssProperty#isset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "CssProperty"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isSet</span><span style=\"color: #E1E4E8\">(instance: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">): boolean</span></span></code>",
+          "url": "/api/class/InheritedCssProperty#isset-isset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "CssProperty"
+          },
+          "parameters": [
+            {
+              "name": "instance",
+              "type": "T",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    }
+  }
+}

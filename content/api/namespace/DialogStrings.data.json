@@ -1,0 +1,167 @@
+{
+  "title": "DialogStrings",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        12917,
+        12920,
+        12916,
+        12918,
+        12919,
+        12915,
+        12914
+      ]
+    }
+  ],
+  "reflections": {
+    "12914": {
+      "name": "STRING",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#string",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">STRING</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;string&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;string&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 4,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#string"
+        }
+      ]
+    },
+    "12915": {
+      "name": "PROMPT",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#prompt",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PROMPT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Prompt&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Prompt&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 5,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#prompt"
+        }
+      ]
+    },
+    "12916": {
+      "name": "CONFIRM",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#confirm",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CONFIRM</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Confirm&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Confirm&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 6,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#confirm"
+        }
+      ]
+    },
+    "12917": {
+      "name": "ALERT",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#alert",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ALERT</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Alert&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Alert&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 7,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#alert"
+        }
+      ]
+    },
+    "12918": {
+      "name": "LOGIN",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#login",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LOGIN</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Login&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Login&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 8,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#login"
+        }
+      ]
+    },
+    "12919": {
+      "name": "OK",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#ok",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">OK</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;OK&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;OK&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 9,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#ok"
+        }
+      ]
+    },
+    "12920": {
+      "name": "CANCEL",
+      "type": "Variable",
+      "url": "/api/namespace/DialogStrings#cancel",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CANCEL</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Cancel&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Cancel&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/dialogs-common.d.ts",
+              "line": 10,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/DialogStrings#cancel"
+        }
+      ]
+    }
+  }
+}

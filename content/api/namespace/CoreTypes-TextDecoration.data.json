@@ -1,0 +1,79 @@
+{
+  "title": "TextDecoration",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4856,
+        4854,
+        4855
+      ]
+    }
+  ],
+  "reflections": {
+    "4854": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextDecoration#none",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 71,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-TextDecoration#none"
+        }
+      ]
+    },
+    "4855": {
+      "name": "underline",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextDecoration#underline",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">underline</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;underline&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;underline&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 72,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-TextDecoration#underline"
+        }
+      ]
+    },
+    "4856": {
+      "name": "lineThrough",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-TextDecoration#linethrough",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lineThrough</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;line-through&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;line-through&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 73,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-TextDecoration#linethrough"
+        }
+      ]
+    }
+  }
+}

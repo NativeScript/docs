@@ -1,0 +1,91 @@
+{
+  "title": "Size",
+  "hierarchy": [
+    [
+      {
+        "text": "Size"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        11864,
+        11863
+      ]
+    }
+  ],
+  "reflections": {
+    "11863": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/Size#width",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Represents the width of the size."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">width</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 75,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Represents the width of the size."
+              }
+            ]
+          },
+          "url": "/api/interface/Size#width"
+        }
+      ]
+    },
+    "11864": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/Size#height",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Represents the height of the size."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">height</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 80,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Represents the height of the size."
+              }
+            ]
+          },
+          "url": "/api/interface/Size#height"
+        }
+      ]
+    }
+  }
+}

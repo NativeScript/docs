@@ -1,6 +1,9 @@
 ---
 title: Multithreading and Workers
 description: Heavy tasks on the main thread are a no-go, luckily NativeScript can be multi-threaded!
+contributors:
+  - rigor789
+  - ammarahm-ed
 ---
 
 One of NativeScript's benefits is that it allows fast and efficient access to all native platform (Android/Objective-C) APIs through JavaScript, without using (de)serialization or reflection. JavaScript executes on the main thread (aka the UI thread). That means that operations that potentially take longer can lag the rendering of the UI and make the application lag.
@@ -12,7 +15,7 @@ The Workers API in NativeScript is loosely based on the [Web Workers API](https:
 For optimal results when using the Workers API, follow these guidelines:
 
 - Always make sure you close the worker threads, using the appropriate API (`terminate()` or `close()`), when the worker's finished its job. If Worker instances become unreachable in the scope you are working in before you are able to terminate it, you will be able to close it only from inside the worker script itself by calling the `close()` function.
-- Workers are not a general solution for all performance-related problems. Starting a Worker has an overhead of its own, and may sometimes be slower than just processing a quick task. Optimize DB queries, or rethink complex application logic before resorting to workers.
+- Workers are not a general solution for all performance-related problems. Starting a Worker has an overhead of its own, and may sometimes be slower than processing a quick task. Optimize DB queries, or rethink complex application logic before resorting to workers.
 - Since worker threads have access to the entire native SDK, the NativeScript developer must take care of all the synchronization when calling APIs which are not guaranteed to be thread-safe from more than one thread.
 
 ## Using Workers
