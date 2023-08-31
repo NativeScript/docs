@@ -19,39 +19,6 @@ export default [
         link: '/guide/creating-a-project',
       },
       {
-        text: 'Development Workflow',
-        items: [
-          {
-            text: 'Running',
-            link: '/guide/running',
-          },
-          {
-            text: 'Testing',
-            link: '/guide/testing',
-          },
-          {
-            text: 'Debugging',
-            link: '/guide/debugging',
-          },
-          {
-            text: 'Plugins',
-            link: '/guide/development-workflow/using-packages',
-          },
-        ],
-      },
-      {
-        text: 'Tutorials',
-        link: '/tutorials/',
-      },
-      {
-        text: 'Publishing',
-        link: '/guide/publishing/',
-      },
-      // {
-      //   text: 'Tutorials',
-      //   link: '/tutorials/',
-      // },
-      {
         text: 'Navigation',
         link: '/guide/navigation/',
       },
@@ -77,12 +44,12 @@ export default [
         link: '/guide/running',
       },
       {
-        text: 'Using Plugins',
-        link: '/guide/development-workflow/using-packages',
-      },
-      {
         text: 'Debugging',
         link: '/guide/debugging',
+      },
+      {
+        text: 'Plugins',
+        link: '/guide/development-workflow/using-packages',
       },
       {
         text: 'Testing',
