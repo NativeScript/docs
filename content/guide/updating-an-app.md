@@ -39,14 +39,14 @@ When using the `--configs` flag, any previous configuration will be overwritten 
 
 #### Upgrading platforms
 
-Follow those steps in order to get the latest versions of Android and/or iOS runtimes. Navigate to the root folder of your project, and then if you are working on a Android project, type:
+Follow those steps in order to get the latest versions of Android and/or iOS runtimes. Navigate to the root folder of your project, and then if you are working on an Android project, type:
 
 ```cli
 ns platform remove android
 ns platform add android
 ```
 
-and/or (if you are working on a iOS version on a Mac):
+If working on an iOS version using macOS:
 
 ```cli
 ns platform remove ios
@@ -55,7 +55,7 @@ ns platform add ios
 
 #### Upgrading @nativescript/core
 
-The cross-platform modules are available as a npm package named [@nativescript/core](https://www.npmjs.com/package/@nativescript/core).
+Core is available as an npm package named [@nativescript/core](https://www.npmjs.com/package/@nativescript/core).
 
 In order to use them in your project, you will have to explicitly install the package, for example (assuming you are still in your main app project folder from the steps above):
 
@@ -69,7 +69,7 @@ This installs the **@nativescript/core** package to the node_modules folder and 
 The `ns create` command will create a new project, add the **@nativescript/core** package as a dependency to its package.json and install it. So each new project you create will have the **@nativescript/core** package installed and you do not have to install it explicitly.
 :::
 
-Another place to find **@nativescript/core** package is [NativeScript Releases](https://github.com/NativeScript/NativeScript/releases/), where you can find a collection of the available @nativescript/core-\*.tgz packages for every release. You can download a selected release and install it by running: `npm install <path to @nativescript/core-*.tgz> --save`.
+Another place to find the **@nativescript/core** package is [NativeScript Releases](https://github.com/NativeScript/NativeScript/releases/), where you can find a collection of the available @nativescript/core-\*.tgz packages for every release. You can download a selected release and install it by running: `npm install <path to @nativescript/core-*.tgz> --save`.
 
 #### Upgrading Angular dependencies
 
