@@ -405,7 +405,8 @@ view
   })
 ```
 
-![chaining-with-promises](/assets/images/modules/animation/chaining-with-promises.gif 'Chaining with Promises')
+<!-- todo: missing gif. -->
+<!-- ![chaining-with-promises](/assets/images/modules/animation/chaining-with-promises.gif 'Chaining with Promises') -->
 
 ### OR
 

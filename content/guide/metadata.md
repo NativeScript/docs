@@ -88,7 +88,8 @@ For each global symbol that is discovered by the generator, there should be a li
 
 The NativeScript Metadata is the mapping between the JavaScript and the Android world. Besides a full list with all the available classes and methods, the metadata contains the [JNI](http://developer.android.com/training/articles/perf-jni.html) signature for each accessible Android method/field. It is pre-generated in a binary format, and embedded in the application package (apk), storing the minimal required information thus providing small size and highly efficient read access. The generation process uses bytecode reading to parse all publicly available types in the Android libraries supplied to the NativeScript project. The generator works as part of the Android build process, meaning that no user interaction is required for it to work.
 
-![Metadata](/assets/images/metadata_diagram.png)
+<!-- todo: create 🔥 new diagram -->
+<!-- ![Metadata](/assets/images/metadata_diagram.png) -->
 
 ### Metadata API Level
 
