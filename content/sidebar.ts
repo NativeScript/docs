@@ -32,7 +32,7 @@ export default [
       },
       {
         text: 'Choosing an editor',
-        link: '/guide/choosing-an-editor'
+        link: '/guide/choosing-an-editor',
       },
       {
         text: 'Troubleshooting',
@@ -261,6 +261,15 @@ export default [
       {
         text: 'Shared Element Transitions',
         link: '/guide/shared-element-transitions',
+      },
+    ],
+  },
+  {
+    text: 'UI',
+    items: [
+      {
+        text: 'Animations',
+        link: '/ui/animations',
       },
     ],
   },
