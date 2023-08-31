@@ -16,7 +16,7 @@ In NativeScript the CSS styles can be set on 4 different levels:
 - [Inline CSS](#inline-css): Applies directly to a UI view
 - [Platform-specific CSS](#platform-specific-css)
 
-If there is CSS declared on different levels, all will be applied. The inline CSS will have the highest priority and the application CSS will have the lowest priority.
+Like with web development, if there is CSS declared on different levels&mdash;all will be applied. The inline CSS will have the highest priority and the application CSS will have the lowest priority.
 
 ### Application Wide CSS
 
@@ -130,7 +130,7 @@ page.addCssFile(cssFileName)
 Similarly to HTML, CSS can be defined inline for a UI view in the XML markup:
 
 ```html
-<button text="inline style" style="background-color: green;"></button>
+<Button text="inline style" style="background-color: green;"></Button>
 ```
 
 ### Platform-specific CSS
@@ -225,7 +225,7 @@ This list of properties can be set in CSS or through the style property of each 
 | `border-left-width`   | `borderLeftWidth`     | Sets a left border width to the matched view’s.                                                                                                                                                                                           |
 | `border-radius`       | `borderRadius`        | Sets a border radius to the matched view’s.                                                                                                                                                                                               |
 | `box-shadow`          | `boxShadow`           | Sets a box shadow to the matched view's.                                                                                                                                                                                                  |
-| `clip-path`           | `clip-path`           | Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using [clippy](http://bennettfeely.com/clippy/)                                                                                 |
+| `clip-path`           | `clipPath`           | Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using [clippy](http://bennettfeely.com/clippy/)                                                                                 |
 | `color`               | `color`               | Sets a solid-color value to the matched view’s foreground.                                                                                                                                                                                |
 | `font`                | `font`                | Sets the font properties (this includes `font-family`, `font-size`, `font-style` and `font-weight`) of the matched view.                                                                                                                  |
 | `font-family`         | `fontFamily`          | Sets the font family of the matched view.                                                                                                                                                                                                 |
@@ -309,8 +309,8 @@ On Android, to add a shadow to a View instance use the `androidElevation` proper
     textWrap="true"
     text="TextView"
   ></TextView>
-  <label androidElevation="5" class="sampleLabel" textWrap="true" text="Label"></label>
-  <button androidElevation="7" class="sampleButton" text="Button"></button>
+  <Label androidElevation="5" class="sampleLabel" textWrap="true" text="Label"></Label>
+  <Button androidElevation="7" class="sampleButton" text="Button"></Button>
 </StackLayout>
 ```
 
@@ -325,13 +325,13 @@ Example:
 
 ```xml
 <StackLayout class="home-panel">
-  <button
+  <Button
     androidElevation="7"
     androidDynamicElevationOffset="8"
     class="sampleButton"
     text="Button"
-  ></button>
-  <button class="sampleButton2" text="Button"></button>
+  ></Button>
+  <Button class="sampleButton2" text="Button"></Button>
 </StackLayout>
 ```
 
@@ -383,7 +383,7 @@ To use `className` in JS/TS to add a class to an element, the class rule must be
 :::
 
 ```xml
-<label className="title"></label>
+<Label className="title"></Label>
 ```
 
 ```css
@@ -403,7 +403,7 @@ label.className = 'title'
 [Id selectors](http://www.w3schools.com/cssref/sel_id.asp) select all views with a given id. The `id` is set using the `id` property of the view.
 
 ```xml
-<button id="login-button"></button>
+<Button id="login-button"></Button>
 ```
 
 ```css
@@ -454,9 +454,9 @@ The background-color rule will not be applied. In order to apply the selector, t
 
 ```xml
 <StackLayout class="layout-class">
-  <label text="Direct sibling test by id"></label>
-  <button class="test-child" text="First Button"></button>
-  <button class="test-child-2" text="Second Button"></button>
+  <Label text="Direct sibling test by id"></Label>
+  <Button class="test-child" text="First Button"></Button>
+  <Button class="test-child-2" text="Second Button"></Button>
 </StackLayout>
 ```
 
@@ -470,9 +470,9 @@ The background-color rule will not be applied. In order to apply the selector, t
 
 ```xml
 <StackLayout class="layout-class">
-  <label text="Direct sibling test by id"></label>
-  <button id="test-child" text="First Button"></button>
-  <button id="test-child-2" text="Second Button"></button>
+  <Label text="Direct sibling test by id"></Label>
+  <Button id="test-child" text="First Button"></Button>
+  <Button id="test-child-2" text="Second Button"></Button>
 </StackLayout>
 ```
 
@@ -486,13 +486,13 @@ The background-color rule will not be applied. In order to apply the selector, t
 
 ```xml
 <StackLayout class="direct-sibling--type">
-  <label text="Direct sibling by type"></label>
-  <button text="Test Button"></button>
-  <label text="Test Label"></label>
-  <button text="Test Button"></button>
-  <label text="Test Label"></label>
-  <button text="Test Button"></button>
-  <label text="Test Label"></label>
+  <Label text="Direct sibling by type"></Label>
+  <Button text="Test Button"></Button>
+  <Label text="Test Label"></Label>
+  <Button text="Test Button"></Button>
+  <Label text="Test Label"></Label>
+  <Button text="Test Button"></Button>
+  <Label text="Test Label"></Label>
 </StackLayout>
 ```
 
@@ -506,7 +506,7 @@ StackLayout Button + Label {
 ### Attribute Selector
 
 ```xml
-<button testAttr="flower"></button>
+<Button testAttr="flower"></Button>
 ```
 
 ```css
@@ -529,8 +529,8 @@ Also, some more advanced scenarios are supported:
 Attribute selectors could be used alone or could be combined with all type of CSS selectors.
 
 ```xml
-<button id="login-button" testAttr="flower"></button>
-<label testAttr="some value"></label>
+<Button id="login-button" testAttr="flower"></Button>
+<Label testAttr="some value"></Label>
 ```
 
 ```css
@@ -547,7 +547,7 @@ Attribute selectors could be used alone or could be combined with all type of CS
 A pseudo-selector or also pseudo-class is used to define a special state of an element. Currently, NativeScript supports only :highlighted pseudo-selector.
 
 ```xml
-<button testAttr="flower"></button>
+<Button testAttr="flower"></Button>
 ```
 
 ```css
