@@ -35,7 +35,7 @@ export default [
           },
           {
             text: 'Plugins',
-            link: '/guide/development-workflow/using-packages'
+            link: '/guide/development-workflow/using-packages',
           },
         ],
       },
@@ -51,6 +51,14 @@ export default [
       //   text: 'Tutorials',
       //   link: '/tutorials/',
       // },
+      {
+        text: 'Navigation',
+        link: '/guide/core/navigation',
+      },
+      {
+        text: 'Using Modals',
+        link: '/guide/navigation/modals',
+      },
       {
         text: 'Troubleshooting',
         link: '/troubleshooting',
@@ -68,10 +76,17 @@ export default [
         text: 'Running',
         link: '/guide/running',
       },
-
+      {
+        text: 'Using Plugins',
+        link: '/guide/development-workflow/using-packages',
+      },
       {
         text: 'Debugging',
         link: '/guide/debugging',
+      },
+      {
+        text: 'Testing',
+        link: '/guide/testing',
       },
       {
         text: 'Publishing',
@@ -210,6 +225,18 @@ export default [
         link: '/guide/core/device',
       },
       {
+        text: 'Trace',
+        link: '/guide/core/tracing',
+      },
+      {
+        text: 'XmlParser',
+        link: '/guide/core/xml-parser',
+      },
+      {
+        text: 'Utils',
+        link: '/guide/core/utils',
+      },
+      {
         text: 'ImageCache',
         link: '/guide/core/image-cache',
       },
@@ -235,10 +262,6 @@ export default [
         link: '/guide/data-binding',
       },
       {
-        text: 'Navigation',
-        link: '/guide/ui/navigation',
-      },
-      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
@@ -252,17 +275,19 @@ export default [
       },
       {
         text: 'Marshalling',
+        link: '#',
         items: [
           {
             text: 'iOS Marshalling',
             link: '/guide/ios-marshalling',
           },
           {
-            text: 'iOS',
+            text: 'iOS Runtime Types',
             link: '/guide/ios-runtime-types',
           },
+
           {
-            text: 'Android',
+            text: 'Android Marshalling',
             link: '/guide/android-marshalling',
           },
         ],
@@ -285,11 +310,11 @@ export default [
         items: [
           {
             text: 'ImageCache',
-            link: '/guide/ui/image-cache',
+            link: '/guide/core/image-cache',
           },
           {
             text: 'ImageSource',
-            link: '/guide/ui/image-source',
+            link: '/guide/core/image-source',
           },
         ],
       },

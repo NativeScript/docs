@@ -522,7 +522,7 @@ Next, let's add the tap event to the ListView items. Open `home-page.xml` and ad
 
 ### Access navigation props
 
-We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details page. We can access the passed in `id` via the page's `navigationContext`. We will first get the `navigationContext` on our details page and pass it along to our `DetailsViewModel`. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `details-page.js` and add the following:
+We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details page. We can access the passed-in `id` via the page's `navigationContext`. We will first get the `navigationContext` on our details page and pass it along to our `DetailsViewModel`. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `details-page.js` and add the following:
 
 ```javascript{9}
 // app/details/details-page.js
@@ -547,7 +547,7 @@ import { FlickService } from '../services/flick.service'
 export class DetailsViewModel extends Observable {
   #flick
 
-  // the passed in context object during the navigation will be here
+  // the passed-in context object during the navigation will be here
   constructor(_context) {
     super()
 

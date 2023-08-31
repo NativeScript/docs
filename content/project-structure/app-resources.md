@@ -226,7 +226,25 @@ If you enable `android:forceDarkAllowed` make sure you check if all the screens 
 
 ## iOS specific resources
 
-Most things on iOS are controlled directly through the app's template code.
+Most things on iOS are controlled directly through the app's template code however you can change the status bar style between dark (black text) or light (white text) by adding the following to your app's App_Resources/iOS/ Info.plist:
+
+- Use white text on dark background:
+
+```xml
+<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleLightContent</string>
+<key>UIViewControllerBasedStatusBarAppearance</key>
+<false/>
+```
+
+- Use black text on light background:
+
+```xml
+<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleDarkContent</string>
+<key>UIViewControllerBasedStatusBarAppearance</key>
+<false/>
+```
 
 ### Adding custom entitlements
 

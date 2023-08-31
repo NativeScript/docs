@@ -5,6 +5,8 @@ on:
     branches: [main, docs/ui]
   pull_request:
     branches: [main, docs/ui]
+  merge_group:
+    branches: [main, docs/ui]
 
 jobs:
   build:

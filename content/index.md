@@ -6,7 +6,9 @@ contributors:
 
 ## What is NativeScript?
 
-NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience, which can be used to build cross platform apps. This is facilitated by the iOS (@nativescript/ios) and Android (@nativescript/android) runtimes. To aid in cross-platform development, common use-cases are implemented in @nativescript/core utilizing the underlying native APIs provided by each runtime.
+NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience, which can be used to build cross platform apps. This is facilitated by the iOS (@nativescript/ios) and Android (@nativescript/android) runtimes.
+
+To aid in cross-platform development, common use-cases are implemented in @nativescript/core utilizing the underlying native APIs provided by each runtime.
 
 The "frontend" code can be authored in various frameworks often referred to as _flavors_. The currently supported flavors consist of the following:
 

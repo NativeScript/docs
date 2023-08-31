@@ -10,7 +10,7 @@ breadcrumbs:
   - name: 'Image'
 layout: api
 seo:
-  description: "Represents a class that provides functionality for loading and streching image(s)."
+  description: "Represents a class that provides functionality for loading and streching images."
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
