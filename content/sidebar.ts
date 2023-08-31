@@ -27,6 +27,10 @@ export default [
         link: '/guide/navigation/modals',
       },
       {
+        text: 'Choosing an editor',
+        link: '/guide/choosing-an-editor'
+      },
+      {
         text: 'Troubleshooting',
         link: '/troubleshooting',
       },
