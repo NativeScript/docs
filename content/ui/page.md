@@ -38,26 +38,27 @@ A page emits various events during navigation that you can use to update data/st
 ::: details Navigating forward and back
 
 ```bash
-# frame.navigate('mainPage') - initial navigation
-mainPage > loaded
-mainPage > navigatingTo (isBackNavigation: false)
-mainPage > layoutChanged  # todo: check if this is correct
-mainPage > navigatedTo (isBackNavigation: false)
+# frame.navigate(mainPage) - initial navigation
+mainPage    > navigatingTo (isBackNavigation: false)
+mainPage    > loaded
+mainPage    > navigatedTo (isBackNavigation: false)
 
-# frame.navigate({ moduleName: 'detailsPage' })
-
-mainPage > navigatingFrom (isBackNavigation: false)
+# frame.navigate(detailsPage)
+mainPage    > navigatingFrom (isBackNavigation: false)
 detailsPage > navigatingTo (isBackNavigation: false)
-mainPage > navigatedFrom (isBackNavigation: false)
+detailsPage > loaded
+mainPage    > unloaded
+mainPage    > navigatedFrom (isBackNavigation: false)
 detailsPage > navigatedTo (isBackNavigation: false)
 
 # frame.goBack()
-
-detailPage > navigatingFrom (isBackNavigation: true)
-mainPage > navigatingTo (isBackNavigation: true)
+detailsPage > navigatingFrom (isBackNavigation: true)
+mainPage    > navigatingTo (isBackNavigation: true)
+mainPage    > loaded
+detailsPage > unloaded
 detailsPage > navigatedFrom (isBackNavigation: true)
-mainPage > navigatedTo (isBackNavigation: true)
-detailsPage > unloaded # since it's no longer in the backstack
+detailsPage > disposeNativeView # since it's no longer in the backstack
+mainPage    > navigatedTo (isBackNavigation: true)
 ```
 
 :::
@@ -65,19 +66,19 @@ detailsPage > unloaded # since it's no longer in the backstack
 ::: details Navigating forward and clearing history
 
 ```bash
-# frame.navigate('mainPage')
-mainPage > loaded
-mainPage > navigatingTo (isBackNavigation: false)
-mainPage > layoutChanged  # todo: check if this is correct
-mainPage > navigatedTo (isBackNavigation: false)
+# frame.navigate(mainPage) - initial navigation
+mainPage    > navigatingTo (isBackNavigation: false)
+mainPage    > loaded
+mainPage    > navigatedTo (isBackNavigation: false)
 
-# frame.navigate({ moduleName: 'detailsPage', clearHistory: true })
-
-mainPage > navigatingFrom (isBackNavigation: false)
+# frame.navigate(detailsPage, { clearHistory: true })
+mainPage    > navigatingFrom (isBackNavigation: false)
 detailsPage > navigatingTo (isBackNavigation: false)
-mainPage > navigatedFrom (isBackNavigation: false)
+detailsPage > loaded
+mainPage    > unloaded
+mainPage    > navigatedFrom (isBackNavigation: false)
+mainPage    > disposeNativeView
 detailsPage > navigatedTo (isBackNavigation: false)
-mainPage > unloaded # since clearHistory: true
 
 # frame.goBack() - no-op, there's nothing in the backstack.
 ```
@@ -87,19 +88,19 @@ mainPage > unloaded # since clearHistory: true
 ::: details Navigating forward without a backstack entry
 
 ```bash
-# frame.navigate({ moduleName: 'mainPage', backstackVisible: false })
-mainPage > loaded
-mainPage > navigatingTo (isBackNavigation: false)
-mainPage > layoutChanged  # todo: check if this is correct
-mainPage > navigatedTo (isBackNavigation: false)
+# frame.navigate(mainPage, { backstackVisible: false }) - initial navigation
+mainPage    > navigatingTo (isBackNavigation: false)
+mainPage    > loaded
+mainPage    > navigatedTo (isBackNavigation: false)
 
-# frame.navigate({ moduleName: 'detailsPage', : true })
-
-mainPage > navigatingFrom (isBackNavigation: false)
+# frame.navigate(detailsPage)
+mainPage    > navigatingFrom (isBackNavigation: false)
 detailsPage > navigatingTo (isBackNavigation: false)
-mainPage > navigatedFrom (isBackNavigation: false)
+detailsPage > loaded
+mainPage    > unloaded
+mainPage    > navigatedFrom (isBackNavigation: false)
+mainPage    > disposeNativeView # since backstackVisible: false, we won't be able to reach mainPage after this point
 detailsPage > navigatedTo (isBackNavigation: false)
-mainPage > unloaded # since backstackVisible: false, we won't be able to reach mainPage after this point
 ```
 
 :::
