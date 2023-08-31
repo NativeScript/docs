@@ -44,12 +44,12 @@ export default [
         link: '/guide/running',
       },
       {
-        text: 'Using Plugins',
-        link: '/guide/development-workflow/using-packages',
-      },
-      {
         text: 'Debugging',
         link: '/guide/debugging',
+      },
+      {
+        text: 'Plugins',
+        link: '/guide/development-workflow/using-packages',
       },
       {
         text: 'Testing',
@@ -58,6 +58,10 @@ export default [
       {
         text: 'Publishing',
         link: '/guide/publishing/',
+      },
+      {
+        text: 'Updating',
+        link: '/guide/updating-an-app',
       },
     ],
   },
