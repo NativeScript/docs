@@ -4,43 +4,40 @@ title: iOS Runtime Types
 
 NativeScript provides the `interop` module for working with native C types, pointers, pointer arithmetic and memory.
 
-
 <!-- TODO: Add examples -->
 
 ## Using interop
 
 ### Creating a pointer
 
-The `Pointer` type allows you to represent a void*.
+The `Pointer` type allows you to represent a void\*.
 
 #### Using the constructor
 
 To create a new pointer with the given offset, use the constructor:
 
 ```ts
-   const interop1 = new interop.Pointer(34)
+const interop1 = new interop.Pointer(34)
 ```
 
 #### Creating a pointer by adding an offset from an existing pointer
 
- ```ts
+```ts
 const interop2 = interop1.add(4)
- ```
+```
 
 #### Creating a pointer by removing an offset to an existing pointer
 
- ```ts
+```ts
 const interop3 = interop1.subtract(3)
- ```
+```
 
 ## interop API
 
 ### Pointer.toNumber()
 
 ```ts
-
 pointerInstance.toNumber()
-
 ```
 
 Converts the value of a `Pointer` instance to a number.
@@ -78,6 +75,7 @@ Releases the memory of the specified unadopted pointer.
 interop.sizeof(type: any): number
 
 ```
+
 Returns the size of the provided type. The `type` can be: a class constructor (of Objective-C interface), an instance (wrapper of Objective-C interface), struct constructor, struct instance, reference, protocol, function (for c function), fundamental types
 
 ---
@@ -118,7 +116,6 @@ Wraps an NSData instance in an ArrayBuffer.
 
 ---
 
-
 ### new Reference(value)
 
 Creates a new reference around a JavaScript `value`. The native representation of the type will be determined during the first time the Reference is used in an operation involving marshalling.
@@ -143,7 +140,6 @@ Creates a function reference that can be marshalled as a native function pointer
 
 ### interop types
 
-
 - "void": Type\<void\>
 - bool: Type\<boolean\>
 - int8: Type\<number\>
@@ -165,7 +161,7 @@ Creates a function reference that can be marshalled as a native function pointer
 - "class": Type\<any\>
 - selector: Type\<string\>
 
-----
+---
 
 ### new StructType()
 
@@ -180,6 +176,7 @@ Create a new instance of the struct and initialize it from the fields of the pro
 ---
 
 ### equals
+
 ```ts
 someStructTypeIntastance.equals(left: T, right: T): boolean
 

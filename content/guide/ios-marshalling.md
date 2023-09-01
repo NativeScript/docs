@@ -105,10 +105,9 @@ array.setObjectAtIndex(button, 1)
 
 ## Calling Objective-C/Swift methods with multiple arguments
 
-Consider the following `NSMutableArray` selector: `replaceObjectsInRange:withObjectsFromArray:range:`. 
+Consider the following `NSMutableArray` selector: `replaceObjectsInRange:withObjectsFromArray:range:`.
 
-In JavaScript it is represented by: `replaceObjectsInRangeWithObjectsFromArrayRange(objectsToRange, sourceArray, sourceRange)` (argument names are arbitrary). 
-
+In JavaScript it is represented by: `replaceObjectsInRangeWithObjectsFromArrayRange(objectsToRange, sourceArray, sourceRange)` (argument names are arbitrary).
 
 In Objective-C, when generating the function name for a method, it follows a convention of appending the names of the arguments defined by the Objective-C selector. The function name starts with a lowercase letter for the first argument and appends subsequent arguments with a capital letter.
 
@@ -123,7 +122,8 @@ For an example of how to extend an Objective-C/Swift class, have a look at [Exte
 The below code shows how to convert a JavaScript array to a `CGFloat` array to pass it to an Objective-C method expecting `CGFloat` as an argument:
 
 ```js
-const CGFloatArray = interop.sizeof(interop.types.id) == 4 ? Float32Array : Float64Array
+const CGFloatArray =
+  interop.sizeof(interop.types.id) == 4 ? Float32Array : Float64Array
 const jsArray = [4.5, 0, 1e-5, -1242e10, -4.5, 34, -34, -1e-6]
 
 FloatArraySample.dumpFloats(CGFloatArray.from(jsArray), jsArray.length)
@@ -157,15 +157,17 @@ On the other hand, any API that expects a `NSNull`, `NSNumber`, `NSString` or `N
 ### Converting numeric types
 
 ```ts
-console.log(`pow(2.5, 3) = ${Math.pow(2.5, 3)}`);
+console.log(`pow(2.5, 3) = ${Math.pow(2.5, 3)}`)
 ```
+
 The iOS Runtime converts JavaScript number literals to native doubles and utilizes the native pow(double x, double y) function. The resulting native integer is automatically converted back to a JavaScript number and then passed as an argument to console.log() for output..
 
 ### Converting string
+
 ```ts
-let button = UIButton.new();
-button.setTitleForState('Button title', UIControlState.Normal); 
-console.log(button.titleLabel.text);
+let button = UIButton.new()
+button.setTitleForState('Button title', UIControlState.Normal)
+console.log(button.titleLabel.text)
 ```
 
 `Button title` is converted to `NSString` and the returned `NSString` is converted to JavaScript `string`.
@@ -173,14 +175,13 @@ console.log(button.titleLabel.text);
 ### Converting boolean
 
 ```ts
-let str = NSString.stringWithString('YES');
-let isTrue = str.boolValue;
+let str = NSString.stringWithString('YES')
+let isTrue = str.boolValue
 ```
 
 ## Objective-C Protocols
 
-Protocols in Objective-C serve a similar purpose as interfaces in other programming languages. They define a blueprint or contract that specifies the members (methods, properties, etc.) that a class should implement.  Protocols are exposed as empty objects in JavaScript. Protocols are usually only referenced when [subclassing](/guide/subclassing/extending-classes-and-conforming-protocols-ios) an Objective-C class or when checking whether an object or class conforms to a protocol.
-
+Protocols in Objective-C serve a similar purpose as interfaces in other programming languages. They define a blueprint or contract that specifies the members (methods, properties, etc.) that a class should implement. Protocols are exposed as empty objects in JavaScript. Protocols are usually only referenced when [subclassing](/guide/subclassing/extending-classes-and-conforming-protocols-ios) an Objective-C class or when checking whether an object or class conforms to a protocol.
 
 ```objc
 BOOL isCopying = [NSArray conformsToProtocol:@protocol(NSCopying)];
@@ -189,6 +190,7 @@ BOOL isCopying = [NSArray conformsToProtocol:@protocol(NSCopying)];
 ```js
 const isCopying = NSArray.conformsToProtocol(NSCopying)
 ```
+
 To implement Objective-C/Swift protocols in NativeScript, hava look at [Conforming to Objective-C/Swift protocols in NativeScript](/guide/subclassing/extending-classes-and-conforming-protocols-ios#conforming-to-objective-c-swift-protocols-in-nativescript)
 
 ## Objective-C Selectors
@@ -272,12 +274,12 @@ UIView *view = [[UIView alloc] initWithFrame:rect];
 const rect = {
   origin: {
     x: 0,
-    y: 0
+    y: 0,
   },
   size: {
     width: 100,
-    height: 100
-  }
+    height: 100,
+  },
 }
 const view = UIView.alloc().initWithFrame(rect)
 ```

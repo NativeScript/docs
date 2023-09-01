@@ -1,8 +1,10 @@
 ---
 title: Gestures
 ---
+
 <!-- TODO: SB for gestures -->
 <!-- TODO: Add flavor tabs for the gestures -->
+
 Users can interact with UI components using gestures. NativeScript supports the following gestures:
 
 - [tap](#tap-gesture-in-nativescript)
@@ -16,14 +18,14 @@ Users can interact with UI components using gestures. NativeScript supports the 
 
 All gesture events, except `tap`, have the following data in common:
 
-| Name | Type | Description |
-|------|------|-------------|
-| `eventName` | `string` | The name of the event. |
-| `object` | `Observable` |  The `Observable` instance that triggered the event. |
-| `type` | `GestureTypes` | The type of the gesture |
-| `view` | `Partial<View>` | The `Partial<View>` instance that triggered the event. This is the same ui component as return by `object`|
-| `ios` | `UIGestureRecognizer `| Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/).|
-| `android`| `android.view.GestureDetector`| Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)|
+| Name        | Type                           | Description                                                                                                                                                      |
+| ----------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `eventName` | `string`                       | The name of the event.                                                                                                                                           |
+| `object`    | `Observable`                   | The `Observable` instance that triggered the event.                                                                                                              |
+| `type`      | `GestureTypes`                 | The type of the gesture                                                                                                                                          |
+| `view`      | `Partial<View>`                | The `Partial<View>` instance that triggered the event. This is the same ui component as return by `object`                                                       |
+| `ios`       | `UIGestureRecognizer `         | Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/). |
+| `android`   | `android.view.GestureDetector` | Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)                         |
 
 ## Tap gesture
 
@@ -72,11 +74,11 @@ onTap(args: EventData) {
 
 #### Double tap event data
 
-| Name | Type | Description|
-|------|------|------------|
-| `getPointerCount()`| `number`| Gets the number of pointers in the event.| 
-| `getX()`| `number`| Gets the `x` coordinate of the event inside the view that triggered the event.| 
-| `getY()`| `number`| Gets the `y` coordinate of the event inside the view that triggered the event.| 
+| Name                | Type     | Description                                                                    |
+| ------------------- | -------- | ------------------------------------------------------------------------------ |
+| `getPointerCount()` | `number` | Gets the number of pointers in the event.                                      |
+| `getX()`            | `number` | Gets the `x` coordinate of the event inside the view that triggered the event. |
+| `getY()`            | `number` | Gets the `y` coordinate of the event inside the view that triggered the event. |
 
 <!-- /// flavor plain
 
@@ -107,13 +109,13 @@ onDoubleTap(args: GestureEventData) {
 ///
  -->
 
- ## Long press gesture
+## Long press gesture
 
- **Action**: A component is pressed for a few moments.
+**Action**: A component is pressed for a few moments.
 
 #### Long press gesture event data
 
-- `state` : The [state](#gesturestatetypes) of the pressing. 
+- `state` : The [state](#gesturestatetypes) of the pressing.
 
  <!-- /// flavor plain
 
@@ -148,9 +150,9 @@ onLongPress(args: GestureEventDataWithState) {
 ///
  -->
 
- ## Swipe gesture
+## Swipe gesture
 
- **Action**: Swiftly sliding a finger across the screen. Swipes are quick and affect the screen even after the finger is lifted off the screen:
+**Action**: Swiftly sliding a finger across the screen. Swipes are quick and affect the screen even after the finger is lifted off the screen:
 
 <!-- /// flavor plain
 ```xml
@@ -163,7 +165,7 @@ onLongPress(args: GestureEventDataWithState) {
  onSwipe(args: SwipeGestureEventData) {
     console.log("Direction: ", args.direction)
   }
- ``` 
+ ```
 
  ///
 
@@ -202,11 +204,12 @@ Available directions:
 
 #### Pan gesture event data
 
-| Name | Type | Description |
-|------|------|-------------|
-| `deltaX` | `number` | Distance , in DIPs, moved in the `x` direction from previous position. |
-| `deltaY` | `number` | Distance , in DIPs, moved in the `x` direction from previous position.|
-| `state` | `GestureStateTypes` | Indicates the state of panning. See [GestureStateTypes](#gesturestatetypes) for available states. |
+| Name     | Type                | Description                                                                                       |
+| -------- | ------------------- | ------------------------------------------------------------------------------------------------- |
+| `deltaX` | `number`            | Distance , in DIPs, moved in the `x` direction from previous position.                            |
+| `deltaY` | `number`            | Distance , in DIPs, moved in the `x` direction from previous position.                            |
+| `state`  | `GestureStateTypes` | Indicates the state of panning. See [GestureStateTypes](#gesturestatetypes) for available states. |
+
 <!-- TODO: CORRECT `state` values -->
 
 <!-- /// flavor plain
@@ -249,18 +252,18 @@ onPan(args: PanGestureEventData) {
 
 #### Pinch gesture event data
 
-| Name | Type | Description |
-|------|------|-------------|
-| `state`|`number`| The state of the `pinch` gesture.|
-| `scale`|`number`||
-| `getFocusX()`| `number`| |
-| `getFocusY()`| `number`| |
+| Name          | Type     | Description                       |
+| ------------- | -------- | --------------------------------- |
+| `state`       | `number` | The state of the `pinch` gesture. |
+| `scale`       | `number` |                                   |
+| `getFocusX()` | `number` |                                   |
+| `getFocusY()` | `number` |                                   |
 
 <!-- /// flavor plain
 
 ```xml
   <Button  text="Pinch here" class="button"  pinch="{{ onPinch }}"/>
-  
+
 ```
 ```ts
 import { PinchGestureEventData } from '@nativescript/core'
@@ -296,7 +299,7 @@ Possible usage: Zoom in or out of content.
 
 #### Rotate gesture event data
 
-- `	rotation` (type: `number`): 
+- `	rotation` (type: `number`):
 
 <!-- /// flavor plain
 
@@ -330,20 +333,19 @@ onRotate(args: RotationGestureEventData) {
 
 /// -->
 
-
 ## Touch gesture
 
 This is a general purpose gesture that is triggered whenever a pointer (usually a finger) has performed a touch action (up, down, move or cancel).
- 
-#### Touch gesture event data 
 
-| Name | Type | Description|
-|------|------|------------|
-| `action` | `'up'` \| `'move'` \| `'down'` \| 'cancel'| Gets action of the touch|
-| `getActivePointers()`| `Array<Pointer>` | Gets the pointers that triggered the event.<br>**Note**: In Android there is aways only one active pointer. <br> [Pointer] is an object representing a finger (or other object) that is touching the screen.|
-| `getAllPointers()` | `Array<Pointer>` | Gets all pointers.|
-| `getAX()` | `number` | |
-| `getAY()` | `number` | |
+#### Touch gesture event data
+
+| Name                  | Type                                       | Description                                                                                                                                                                                                  |
+| --------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `action`              | `'up'` \| `'move'` \| `'down'` \| 'cancel' | Gets action of the touch                                                                                                                                                                                     |
+| `getActivePointers()` | `Array<Pointer>`                           | Gets the pointers that triggered the event.<br>**Note**: In Android there is aways only one active pointer. <br> [Pointer] is an object representing a finger (or other object) that is touching the screen. |
+| `getAllPointers()`    | `Array<Pointer>`                           | Gets all pointers.                                                                                                                                                                                           |
+| `getAX()`             | `number`                                   |                                                                                                                                                                                                              |
+| `getAY()`             | `number`                                   |                                                                                                                                                                                                              |
 
 <!-- /// flavor plain
 
@@ -397,7 +399,6 @@ In some scenarios, you may want to disable user interaction or create more compl
 
 - `isEnabled` - Gets or sets a boolean value indicating whether the view is enabled. Affects the appearance of the view. The default value is `true`.
 
-
 ## GestureStateTypes
 
 - `cancelled = 0`
@@ -407,13 +408,9 @@ In some scenarios, you may want to disable user interaction or create more compl
 
 ## The Pointer interface
 
-| Name| Type| Description |
-|-----|-----|-------------|
-| `android` | `any` | The id of the pointer. |
-| `ios` | `UITouch` | The `UITouch` object associated to the touch|
-| `getX()`| `number`| Gets the X coordinate of the pointer inside the view that triggered the event.|
-| `getY()`| `number`| Gets the Y coordinate of the pointer inside the view that triggered the event.|
-
-
-
-
+| Name      | Type      | Description                                                                    |
+| --------- | --------- | ------------------------------------------------------------------------------ |
+| `android` | `any`     | The id of the pointer.                                                         |
+| `ios`     | `UITouch` | The `UITouch` object associated to the touch                                   |
+| `getX()`  | `number`  | Gets the X coordinate of the pointer inside the view that triggered the event. |
+| `getY()`  | `number`  | Gets the Y coordinate of the pointer inside the view that triggered the event. |

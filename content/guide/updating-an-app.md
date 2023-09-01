@@ -158,7 +158,6 @@ Building the source code is essential when one wants to contribute to an open so
 
 Having said that, each subfolder of the [apps](https://github.com/NativeScript/NativeScript/tree/master/apps) subfolder of the repo represents a single application used for different purposes (`toolbox` to quickly prototype feature and verify fixes, `ui` to confirm fixes and `automated` which runs a full e2e test suite against latest changes).
 
-
 #### Using the latest
 
 To use the latest:

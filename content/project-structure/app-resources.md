@@ -268,9 +268,11 @@ App_Resources/
 │  └─
 └─ ... more
 ```
+
 <!--  -->
 
 <!-- tab: Swift -->
+
 ```swift
 extension UIView {
 
@@ -284,6 +286,7 @@ extension UIView {
 ```
 
 <!-- tab: Objective C -->
+
 ```objc
 #import "Shimmer.h"
 

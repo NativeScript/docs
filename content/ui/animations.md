@@ -1,6 +1,7 @@
 ---
 title: Animations
 ---
+
 <!-- TODO: SB+Preview with Animation class example -->
 
 NativeScript exposes a simple yet powerful API to allow animating almost every native component in your app. The singular API allows you to animate both iOS and Android the same way. You always have the discretion to use platform animations directly where desired but let's look at how comprehensive this simple API is as it is well suited for a large majority of commonly desired animations.
@@ -34,6 +35,7 @@ Add animation with `@keyframes` in CSS as follows:
   animation-fill-mode: forwards;
 }
 ```
+
 The animation starts as soon as the component with the `.example` class is loaded.
 
 To trigger it later, set the component's `className` property to `.view` where you want the animation to start:
@@ -52,7 +54,7 @@ If the `animation-duration` property is not specified, the animation will use a 
 
 :::
 
-A basic `@keyframes` rule has two waypoints. The `from` property represents `0%` (the start) of the animation time and `to` represents the 100% (the final value). 
+A basic `@keyframes` rule has two waypoints. The `from` property represents `0%` (the start) of the animation time and `to` represents the 100% (the final value).
 
 ```css
 @keyframes example {
@@ -120,7 +122,6 @@ A CSS animation is defined by using the `animation` property and its sub-propert
 - `animation-fill-mode`: Configures what values are applied by the animation to the view component when it ends.
 - `animation-direction`: Configures whether or not the animation should alternate direction on each run through the sequence or reset to the start point and repeat itself.
 - `animation`: The shorthand property allows setting all animation properties in a single line.
-
 
 ### Setting animation delay
 
@@ -198,8 +199,8 @@ You can combine two animations in the `animation` property by using commas:
 
 ```css
 .view {
-  animation: example 4s ease-in-out 2s infinite reverse, second-animation-example 5s
-      ease-out;
+  animation: example 4s ease-in-out 2s infinite reverse, second-animation-example
+      5s ease-out;
 }
 ```
 
@@ -228,8 +229,8 @@ The `Button` component has a built-in special state `highlighted` to for the `to
 }
 ```
 
-
 ### Animating width and height
+
 <!-- TODO: add flavors -->
 <!-- /// flavor plain
 
@@ -338,13 +339,13 @@ The easiest way to animate a single [View](https://docs.nativescript.org/api/cla
 view.animate({
   translate: { x: 0, y: 100 },
   duration: 1000,
-  curve: CoreTypes.AnimationCurve.easeIn
+  curve: CoreTypes.AnimationCurve.easeIn,
 })
 ```
 
 :::tip Note
 
-You should create an [Animation](#the-animation-class) class in order to be able to **cancel** the animation. 
+You should create an [Animation](#the-animation-class) class in order to be able to **cancel** the animation.
 
 :::
 
@@ -372,7 +373,7 @@ All members of the interface are **optional** and have default values with the f
 
 ### The Animation class
 
-The [`Animation`](https://docs.nativescript.org/api/class/Animation) class represents a set of one or more [AnimationDefinitions](#the-animationdefinition-interface) that can be played either simultaneously or sequentially. The constructor of the `Animation` class accepts an array of `AnimationDefinitions` and a boolean parameter indicating whether to play the animations sequentially. Creating an instance of the `Animation` class does not start the animation playback. Call the `play` method to start the animation. 
+The [`Animation`](https://docs.nativescript.org/api/class/Animation) class represents a set of one or more [AnimationDefinitions](#the-animationdefinition-interface) that can be played either simultaneously or sequentially. The constructor of the `Animation` class accepts an array of `AnimationDefinitions` and a boolean parameter indicating whether to play the animations sequentially. Creating an instance of the `Animation` class does not start the animation playback. Call the `play` method to start the animation.
 
 - `play`: A method that starts the animation and returns the instance it was called on for fluent animation chaining.
 - `cancel`: A void method that stops the animation.
@@ -382,6 +383,8 @@ The [`Animation`](https://docs.nativescript.org/api/class/Animation) class repre
 ### Animating from a different component's origin
 
 A view has the `originX` and `originY` properties. By default, they have a value of 0.5. To create complex rotation animations, you can change those properties. The pair represents the origin point around which the view will be transformed.
+
+<img alt="View Origin" src="../assets/diagrams/View_Origin.drawio.svg" />
 
 ### Chaining animations with promises
 
@@ -400,12 +403,13 @@ view
   .then(() => {
     console.log('Animation finished')
   })
-  .catch(e => {
+  .catch((e) => {
     console.log(e.message)
   })
 ```
 
-![chaining-with-promises](/assets/images/modules/animation/chaining-with-promises.gif 'Chaining with Promises')
+<!-- todo: missing gif. -->
+<!-- ![chaining-with-promises](/assets/images/modules/animation/chaining-with-promises.gif 'Chaining with Promises') -->
 
 ### OR
 
@@ -449,13 +453,13 @@ TouchManager.animations = {
   down: {
     scale: { x: 0.95, y: 0.95 },
     duration: 200,
-    curve: CoreTypes.AnimationCurve.easeInOut
+    curve: CoreTypes.AnimationCurve.easeInOut,
   },
   up: {
     scale: { x: 1, y: 1 },
     duration: 200,
-    curve: CoreTypes.AnimationCurve.easeInOut
-  }
+    curve: CoreTypes.AnimationCurve.easeInOut,
+  },
 }
 
 // bootstrap the app...
@@ -524,7 +528,7 @@ touchAnimation = {
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(0.95)
       animation.start()
     }
-  }
+  },
 }
 ```
 
@@ -544,14 +548,14 @@ touchAnimation = {
     scale: { x: 0.95, y: 0.95 },
     backgroundColor: new Color('yellow'),
     duration: 250,
-    curve: CoreTypes.AnimationCurve.easeInOut
+    curve: CoreTypes.AnimationCurve.easeInOut,
   },
   up: {
     scale: { x: 1, y: 1 },
     backgroundColor: new Color('#63cdff'),
     duration: 250,
-    curve: CoreTypes.AnimationCurve.easeInOut
-  }
+    curve: CoreTypes.AnimationCurve.easeInOut,
+  },
 }
 ```
 
@@ -560,7 +564,6 @@ When using `TouchManager.enableGlobalTapAnimations` you can declare any views to
 ```xml
 <Button text="Global tap animations simply ignored" ignoreTouchAnimation="true" />
 ```
-
 
 ## Limitations
 

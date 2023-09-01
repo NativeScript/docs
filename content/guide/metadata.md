@@ -75,7 +75,9 @@ Missing metadata entities could result in bugs at runtime. For example, if a nat
 - On Android they are located in `platforms/android/build-tools/buildMetadata.log`
 
 For each global symbol that is discovered by the generator, there should be a line providing information whether it was included in the metadata or not, and which rules or what exception caused this. Examples:
+
 <!-- TODO: An example of the following -->
+
 - `verbose: Blacklisted kCFBuddhistCalendar from CoreFoundation.CFLocale (disabled by 'CoreFoundation*:*')` - when there are no whitelist rules a blacklisted symbol will show only the rule which disabled it
 - `verbose: Blacklisted NSString from Foundation.NSString` - when there is at least one whitelist rule, some blacklisted symbols will not specify a rule. This means that the symbol didn't match any of the whitelist rules.
 - `verbose: Blacklisted PHImageContentModeDefault from Photos.PhotosTypes (enabled by 'Photos.PhotosTypes:*', disabled by 'Photos.PhotosTypes:PHImageContentMode*')`, `verbose: Blacklisted String from java.lang (enabled by java.lang:*, disabled by java.lang:String)` - a blacklisted entry which matches both a whitelist rule and a blacklist rule will specify both.
@@ -88,7 +90,8 @@ For each global symbol that is discovered by the generator, there should be a li
 
 The NativeScript Metadata is the mapping between the JavaScript and the Android world. Besides a full list with all the available classes and methods, the metadata contains the [JNI](http://developer.android.com/training/articles/perf-jni.html) signature for each accessible Android method/field. It is pre-generated in a binary format, and embedded in the application package (apk), storing the minimal required information thus providing small size and highly efficient read access. The generation process uses bytecode reading to parse all publicly available types in the Android libraries supplied to the NativeScript project. The generator works as part of the Android build process, meaning that no user interaction is required for it to work.
 
-![Metadata](/assets/images/metadata_diagram.png)
+<!-- todo: create 🔥 new diagram -->
+<!-- ![Metadata](/assets/images/metadata_diagram.png) -->
 
 ### Metadata API Level
 
@@ -130,4 +133,3 @@ if (android.os.Build.VERSION.SDK_INT >= 21) {
 ## iOS Metadata
 
 This is our own custom data format for listing the iOS APIs we are aware of and can handle. It stores the minimal required information and provides a small size and highly efficient read access. iOS supports type introspection to some extent but along with the C APIs embedded all the way in the native APIs we had to store a lot of extra information. The Metadata is pre-generated at compile time from the SDK header files and embedded in the app package (ipa).
-
