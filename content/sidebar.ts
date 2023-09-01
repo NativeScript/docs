@@ -229,6 +229,10 @@ export default [
         link: '/guide/data-binding',
       },
       {
+        text: 'Extending Native Classes',
+        link: '/guide/subclassing'
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
