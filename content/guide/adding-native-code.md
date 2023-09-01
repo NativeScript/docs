@@ -21,7 +21,7 @@ For Android run:
 ns typings android --jar <.jar path>
 ```
 
-3. Reference the generated types in the [references.d.ts](/project-structure/references-d-ts-in-nativescript)
+3. Reference the generated types in [references.d.ts](/project-structure/references-d-ts-in-nativescript)
 
 4. Code against the APIs. For various examples on how to code the native API's in JavaScript/TypeScript, visit the [Subclassing](/guide/subclassing/), [iOS Marshalling](/guide/marshalling/nativescript-ios-marshalling) and [Android Marshalling](/guide/marshalling/nativescript-android-marshalling) pages
 
