@@ -2,8 +2,7 @@
 title: Error handling
 ---
 
-
-Errors in NativeScript are handled differently to how they operate in a web application. By default when an unhandled exception is thrown in NativeScript, the app may crash, and an error with the corresponding stack trace will be shown. When the app is in **development** mode this may be the desired behaviour. However, when the app is in **production** similar application crashes can seriously hurt your app's credibility and drive away customers. In many cases, a different behavior is desired (e.g. app freeze, blank screen, failed navigation) to an actual crash with an error log.
+Errors in NativeScript are handled differently to how they operate in a web application. By default when an unhandled exception is thrown in NativeScript, the app may crash, and an error with the corresponding stack trace will be shown. When the app is in **development** mode this may be the desired behaviour. However, when the app is in **production** similar application crashes can seriously hurt an app's credibility and drive away customers. In many cases, a different behavior is desired (e.g. app freeze, blank screen, failed navigation) to an actual crash with an error log.
 
 NativeScript allows error handling to be set dependent on whether the app is in **development** or **production** mode in the following three ways:
 
@@ -34,7 +33,7 @@ const errorHandler: TraceErrorHandler = {
 ```
 - **production mode**
 
-**Prevent app crash**: Send an error report to your analytics/error-report server but continue app execution.
+**Prevent app crash**: For example, send an error report to an analytics server but continue app execution.
 
 ```ts
 const errorHandler: TraceErrorHandler = {
@@ -78,7 +77,7 @@ Application.on(Application.discardedErrorEvent, function (args: DiscardedErrorEv
   console.log(error.name)
   console.log(error.stack)
   console.log(error.nativeError)
-  //report the exception in your analytics solution here
+  // for example, report the exception to an analytics solution here
 })
 ```
 
