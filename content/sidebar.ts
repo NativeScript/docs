@@ -222,7 +222,7 @@ export default [
     items: [
       {
         text: 'Adding Native Code',
-        link: '/guide/adding-native-code'
+        link: '/guide/adding-native-code',
       },
       {
         text: 'Data Binding',
@@ -261,6 +261,10 @@ export default [
       {
         text: 'Property System',
         link: '/guide/property-system',
+      },
+      {
+        text: 'Error Handling',
+        link: '/guide/error-handling',
       },
       {
         text: 'Shared Element Transitions',
