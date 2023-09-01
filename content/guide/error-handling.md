@@ -64,7 +64,7 @@ android: {
   
 },
 ```
-To handle discarded exceptions, you have 2 options:
+To handle discarded exceptions, two options are available:
 - Listening to the `Application.discardedErrorEvent` and using the received `DiscardedErrorEventData` instance
 
 ```ts
