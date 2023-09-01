@@ -1,0 +1,83 @@
+{
+  "title": "ConsoleWriter",
+  "hierarchy": [
+    [
+      {
+        "text": "ConsoleWriter"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        5153
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        5155
+      ]
+    }
+  ],
+  "reflections": {
+    "5153": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Trace-ConsoleWriter#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ConsoleWriter(): <a href=\"/api/class/Trace-ConsoleWriter\">ConsoleWriter</a>",
+          "url": "/api/class/Trace-ConsoleWriter#constructor-new-consolewriter",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Trace-ConsoleWriter\">ConsoleWriter</a>"
+        }
+      ]
+    },
+    "5155": {
+      "name": "write",
+      "type": "Method",
+      "url": "/api/class/Trace-ConsoleWriter#write",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">write</span><span style=\"color: #E1E4E8\">(message: any, category: string, type</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Trace-ConsoleWriter#write-write-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 130,
+              "character": 2
+            }
+          ],
+          "parameters": [
+            {
+              "name": "message",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "type",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

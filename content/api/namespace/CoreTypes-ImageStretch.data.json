@@ -1,0 +1,101 @@
+{
+  "title": "ImageStretch",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4915,
+        4916,
+        4917,
+        4914
+      ]
+    }
+  ],
+  "reflections": {
+    "4914": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageStretch#none",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "none: <a href=\"/api/namespace/CoreTypes#imagestretchtype\">ImageStretchType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 131,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageStretch#none"
+        }
+      ]
+    },
+    "4915": {
+      "name": "aspectFill",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageStretch#aspectfill",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "aspectFill: <a href=\"/api/namespace/CoreTypes#imagestretchtype\">ImageStretchType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 132,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageStretch#aspectfill"
+        }
+      ]
+    },
+    "4916": {
+      "name": "aspectFit",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageStretch#aspectfit",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "aspectFit: <a href=\"/api/namespace/CoreTypes#imagestretchtype\">ImageStretchType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 133,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageStretch#aspectfit"
+        }
+      ]
+    },
+    "4917": {
+      "name": "fill",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageStretch#fill",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "fill: <a href=\"/api/namespace/CoreTypes#imagestretchtype\">ImageStretchType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 134,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageStretch#fill"
+        }
+      ]
+    }
+  }
+}

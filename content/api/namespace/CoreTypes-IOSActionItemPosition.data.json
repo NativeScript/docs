@@ -1,0 +1,57 @@
+{
+  "title": "IOSActionItemPosition",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4969,
+        4970
+      ]
+    }
+  ],
+  "reflections": {
+    "4969": {
+      "name": "left",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-IOSActionItemPosition#left",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">left</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 193,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-IOSActionItemPosition#left"
+        }
+      ]
+    },
+    "4970": {
+      "name": "right",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-IOSActionItemPosition#right",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">right</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 194,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-IOSActionItemPosition#right"
+        }
+      ]
+    }
+  }
+}

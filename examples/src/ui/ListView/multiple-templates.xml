@@ -1,0 +1,16 @@
+<Page navigatingTo="navigatingTo">
+  <GridLayout>
+    <!-- #region example -->
+    <ListView items="{{ items }}" itemTemplateSelector="{{ itemTemplateSelector }}">
+      <ListView.itemTemplates>
+        <template key="heading">
+          <!-- template for headings -->
+        </template>
+        <template key="item">
+          <!-- template for items -->
+        </template>
+      </ListView.itemTemplates>
+    </ListView>
+    <!-- #endregion example -->
+  </GridLayout>
+</Page>

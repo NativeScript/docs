@@ -1,0 +1,1263 @@
+{
+  "title": "CoreTypes",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Namespaces",
+      "items": [
+        4941,
+        4960,
+        4964,
+        5000,
+        4951,
+        4832,
+        4989,
+        4873,
+        4934,
+        4945,
+        4930,
+        4975,
+        4978,
+        4878,
+        4971,
+        4913,
+        4968,
+        4824,
+        4956,
+        4869,
+        4840,
+        5013,
+        5016,
+        4847,
+        4853,
+        4858,
+        4938,
+        4890,
+        4896,
+        4919,
+        4864
+      ]
+    },
+    {
+      "title": "Type Aliases",
+      "items": [
+        4950,
+        4831,
+        4988,
+        4872,
+        4805,
+        4944,
+        4877,
+        4912,
+        4823,
+        4808,
+        4816,
+        4812,
+        4820,
+        4867,
+        4868,
+        4807,
+        4821,
+        4806,
+        4839,
+        4846,
+        4852,
+        4857,
+        4937,
+        4895,
+        4889,
+        4918,
+        4863
+      ]
+    },
+    {
+      "title": "Variables",
+      "items": [
+        4822
+      ]
+    }
+  ],
+  "reflections": {
+    "4805": {
+      "name": "dip",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#dip",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes a length number that is in device independent pixel units."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dip</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 9,
+              "character": 9
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes a length number that is in device independent pixel units."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes#dip"
+        }
+      ]
+    },
+    "4806": {
+      "name": "px",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#px",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes a length number that is in physical device pixels."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">px</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 13,
+              "character": 9
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes a length number that is in physical device pixels."
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes#px"
+        }
+      ]
+    },
+    "4807": {
+      "name": "percent",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#percent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes a normalized percent number.\n0% is represented as 0\n50% is represented as 0.5\n100% is represented as 1"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">percent</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 20,
+              "character": 9
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes a normalized percent number.\n0% is represented as 0\n50% is represented as 0.5\n100% is represented as 1"
+              }
+            ]
+          },
+          "url": "/api/namespace/CoreTypes#percent"
+        }
+      ]
+    },
+    "4808": {
+      "name": "LengthDipUnit",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#lengthdipunit",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LengthDipUnit</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">unit</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;dip&quot;</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 21,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#lengthdipunit"
+        }
+      ]
+    },
+    "4812": {
+      "name": "LengthPxUnit",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#lengthpxunit",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LengthPxUnit</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">unit</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;px&quot;</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 25,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#lengthpxunit"
+        }
+      ]
+    },
+    "4816": {
+      "name": "LengthPercentUnit",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#lengthpercentunit",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">LengthPercentUnit</span><span style=\"color: #E1E4E8\">: {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  </span><span style=\"color: #B392F0\">unit</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;%&quot;</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 29,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#lengthpercentunit"
+        }
+      ]
+    },
+    "4820": {
+      "name": "LengthType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#lengthtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "LengthType: \"auto\" | <a href=\"/api/namespace/CoreTypes#dip\">dip</a> | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 33,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#lengthtype"
+        }
+      ]
+    },
+    "4821": {
+      "name": "PercentLengthType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#percentlengthtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "PercentLengthType: \"auto\" | <a href=\"/api/namespace/CoreTypes#dip\">dip</a> | <a href=\"/api/namespace/CoreTypes#lengthdipunit\">LengthDipUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpxunit\">LengthPxUnit</a> | <a href=\"/api/namespace/CoreTypes#lengthpercentunit\">LengthPercentUnit</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 34,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#percentlengthtype"
+        }
+      ]
+    },
+    "4822": {
+      "name": "zeroLength",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes#zerolength",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "zeroLength: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 35,
+              "character": 10
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#zerolength"
+        }
+      ]
+    },
+    "4823": {
+      "name": "KeyboardInputType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#keyboardinputtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">KeyboardInputType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;datetime&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;phone&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;number&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;url&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;email&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;integer&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 36,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#keyboardinputtype"
+        }
+      ]
+    },
+    "4824": {
+      "name": "KeyboardType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-KeyboardType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">KeyboardType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 37,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-KeyboardType"
+        }
+      ]
+    },
+    "4831": {
+      "name": "AutofillType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#autofilltype-1",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AutofillType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;username&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;password&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 45,
+              "character": 9
+            },
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 46,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#autofilltype-1"
+        }
+      ]
+    },
+    "4832": {
+      "name": "AutofillType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AutofillType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AutofillType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 45,
+              "character": 9
+            },
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 46,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutofillType"
+        }
+      ]
+    },
+    "4839": {
+      "name": "ReturnKeyButtonType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#returnkeybuttontype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ReturnKeyButtonType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;done&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;next&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;go&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;search&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;send&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 54,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#returnkeybuttontype"
+        }
+      ]
+    },
+    "4840": {
+      "name": "ReturnKeyType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-ReturnKeyType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ReturnKeyType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 55,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ReturnKeyType"
+        }
+      ]
+    },
+    "4846": {
+      "name": "TextAlignmentType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#textalignmenttype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">TextAlignmentType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;initial&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;justify&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 62,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#textalignmenttype"
+        }
+      ]
+    },
+    "4847": {
+      "name": "TextAlignment",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-TextAlignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextAlignment</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 63,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-TextAlignment"
+        }
+      ]
+    },
+    "4852": {
+      "name": "TextDecorationType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#textdecorationtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">TextDecorationType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;underline&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;line-through&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;underline line-through&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 69,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#textdecorationtype"
+        }
+      ]
+    },
+    "4853": {
+      "name": "TextDecoration",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-TextDecoration",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextDecoration</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 70,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-TextDecoration"
+        }
+      ]
+    },
+    "4857": {
+      "name": "TextTransformType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#texttransformtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">TextTransformType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;initial&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;capitalize&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;uppercase&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;lowercase&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 75,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#texttransformtype"
+        }
+      ]
+    },
+    "4858": {
+      "name": "TextTransform",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-TextTransform",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">TextTransform</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 76,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-TextTransform"
+        }
+      ]
+    },
+    "4863": {
+      "name": "WhiteSpaceType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#whitespacetype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">WhiteSpaceType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;initial&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;normal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;nowrap&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 82,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#whitespacetype"
+        }
+      ]
+    },
+    "4864": {
+      "name": "WhiteSpace",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-WhiteSpace",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">WhiteSpace</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 83,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-WhiteSpace"
+        }
+      ]
+    },
+    "4867": {
+      "name": "MaxLinesType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#maxlinestype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MaxLinesType</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 87,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#maxlinestype"
+        }
+      ]
+    },
+    "4868": {
+      "name": "OrientationType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#orientationtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">OrientationType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;horizontal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;vertical&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 88,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#orientationtype"
+        }
+      ]
+    },
+    "4869": {
+      "name": "Orientation",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Orientation",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Orientation</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 89,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Orientation"
+        }
+      ]
+    },
+    "4872": {
+      "name": "DeviceOrientationType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#deviceorientationtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DeviceOrientationType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 93,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#deviceorientationtype"
+        }
+      ]
+    },
+    "4873": {
+      "name": "DeviceOrientation",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-DeviceOrientation",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DeviceOrientation</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 94,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-DeviceOrientation"
+        }
+      ]
+    },
+    "4877": {
+      "name": "HorizontalAlignmentType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#horizontalalignmenttype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">HorizontalAlignmentType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 99,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#horizontalalignmenttype"
+        }
+      ]
+    },
+    "4878": {
+      "name": "HorizontalAlignment",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">HorizontalAlignment</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 100,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment"
+        }
+      ]
+    },
+    "4889": {
+      "name": "VerticalAlignmentType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#verticalalignmenttype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">VerticalAlignmentType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 108,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#verticalalignmenttype"
+        }
+      ]
+    },
+    "4890": {
+      "name": "VerticalAlignment",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-VerticalAlignment",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">VerticalAlignment</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 109,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignment"
+        }
+      ]
+    },
+    "4895": {
+      "name": "VerticalAlignmentTextType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#verticalalignmenttexttype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "VerticalAlignmentTextType: <a href=\"/api/namespace/CoreTypes#verticalalignmenttype\">VerticalAlignmentType</a> | \"text-top\" | \"text-bottom\" | \"sup\" | \"sub\" | \"baseline\"",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 115,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#verticalalignmenttexttype"
+        }
+      ]
+    },
+    "4896": {
+      "name": "VerticalAlignmentText",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">VerticalAlignmentText</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 116,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText"
+        }
+      ]
+    },
+    "4912": {
+      "name": "ImageStretchType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#imagestretchtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ImageStretchType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;aspectFill&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;aspectFit&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;fill&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 129,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#imagestretchtype"
+        }
+      ]
+    },
+    "4913": {
+      "name": "ImageStretch",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-ImageStretch",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageStretch</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 130,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageStretch"
+        }
+      ]
+    },
+    "4918": {
+      "name": "VisibilityType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#visibilitytype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">VisibilityType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;visible&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;hidden&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;collapse&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;collapsed&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 136,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#visibilitytype"
+        }
+      ]
+    },
+    "4919": {
+      "name": "Visibility",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Visibility",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Visibility</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 137,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Visibility"
+        }
+      ]
+    },
+    "4930": {
+      "name": "FontAttributes",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-FontAttributes",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontAttributes</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 145,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontAttributes"
+        }
+      ]
+    },
+    "4934": {
+      "name": "DeviceType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-DeviceType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">DeviceType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 150,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-DeviceType"
+        }
+      ]
+    },
+    "4937": {
+      "name": "UpdateTextTriggerType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#updatetexttriggertype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UpdateTextTriggerType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;focusLost&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;textChanged&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 154,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#updatetexttriggertype"
+        }
+      ]
+    },
+    "4938": {
+      "name": "UpdateTextTrigger",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-UpdateTextTrigger",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">UpdateTextTrigger</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 155,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-UpdateTextTrigger"
+        }
+      ]
+    },
+    "4941": {
+      "name": "Accuracy",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Accuracy",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Accuracy</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 159,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Accuracy"
+        }
+      ]
+    },
+    "4944": {
+      "name": "DockType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#docktype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DockType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 163,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#docktype"
+        }
+      ]
+    },
+    "4945": {
+      "name": "Dock",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-Dock",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">Dock</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 164,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-Dock"
+        }
+      ]
+    },
+    "4950": {
+      "name": "AutocapitalizationInputType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#autocapitalizationinputtype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AutocapitalizationInputType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;words&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;sentences&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;allcharacters&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 170,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#autocapitalizationinputtype"
+        }
+      ]
+    },
+    "4951": {
+      "name": "AutocapitalizationType",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AutocapitalizationType",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AutocapitalizationType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 171,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutocapitalizationType"
+        }
+      ]
+    },
+    "4956": {
+      "name": "NavigationBarVisibility",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-NavigationBarVisibility",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">NavigationBarVisibility</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 177,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-NavigationBarVisibility"
+        }
+      ]
+    },
+    "4960": {
+      "name": "AndroidActionBarIconVisibility",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActionBarIconVisibility</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 182,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility"
+        }
+      ]
+    },
+    "4964": {
+      "name": "AndroidActionItemPosition",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AndroidActionItemPosition",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidActionItemPosition</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 187,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AndroidActionItemPosition"
+        }
+      ]
+    },
+    "4968": {
+      "name": "IOSActionItemPosition",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-IOSActionItemPosition",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">IOSActionItemPosition</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 192,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-IOSActionItemPosition"
+        }
+      ]
+    },
+    "4971": {
+      "name": "ImageFormat",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-ImageFormat",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ImageFormat</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 196,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageFormat"
+        }
+      ]
+    },
+    "4975": {
+      "name": "FontStyle",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-FontStyle",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontStyle</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 201,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontStyle"
+        }
+      ]
+    },
+    "4978": {
+      "name": "FontWeight",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-FontWeight",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">FontWeight</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 205,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight"
+        }
+      ]
+    },
+    "4988": {
+      "name": "BackgroundRepeatType",
+      "type": "TypeAlias",
+      "url": "/api/namespace/CoreTypes#backgroundrepeattype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BackgroundRepeatType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;repeat&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;repeat-x&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;repeat-y&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;no-repeat&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 216,
+              "character": 9
+            }
+          ],
+          "url": "/api/namespace/CoreTypes#backgroundrepeattype"
+        }
+      ]
+    },
+    "4989": {
+      "name": "BackgroundRepeat",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-BackgroundRepeat",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">BackgroundRepeat</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 217,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-BackgroundRepeat"
+        }
+      ]
+    },
+    "5000": {
+      "name": "AnimationCurve",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-AnimationCurve",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AnimationCurve</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 225,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AnimationCurve"
+        }
+      ]
+    },
+    "5013": {
+      "name": "StatusBarStyle",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-StatusBarStyle",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">StatusBarStyle</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 234,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-StatusBarStyle"
+        }
+      ]
+    },
+    "5016": {
+      "name": "SystemAppearance",
+      "type": "Namespace",
+      "url": "/api/namespace/CoreTypes-SystemAppearance",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">SystemAppearance</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 238,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-SystemAppearance"
+        }
+      ]
+    }
+  }
+}

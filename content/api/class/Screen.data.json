@@ -1,0 +1,78 @@
+{
+  "title": "Screen",
+  "hierarchy": [
+    [
+      {
+        "text": "Screen"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2324
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2323
+      ]
+    }
+  ],
+  "reflections": {
+    "2323": {
+      "name": "mainScreen",
+      "type": "Property",
+      "url": "/api/class/Screen#mainscreen",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets information about the main screen of the current device."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">mainScreen</span><span style=\"color: #E1E4E8\">: ScreenMetrics</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 121,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets information about the main screen of the current device."
+              }
+            ]
+          },
+          "url": "/api/class/Screen#mainscreen"
+        }
+      ]
+    },
+    "2324": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Screen#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Screen(): <a href=\"/api/class/Screen\">Screen</a>",
+          "url": "/api/class/Screen#constructor-new-screen",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Screen\">Screen</a>"
+        }
+      ]
+    }
+  }
+}

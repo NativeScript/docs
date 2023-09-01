@@ -1,0 +1,101 @@
+{
+  "title": "AutocapitalizationType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4955,
+        4952,
+        4954,
+        4953
+      ]
+    }
+  ],
+  "reflections": {
+    "4952": {
+      "name": "none",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutocapitalizationType#none",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "none: <a href=\"/api/namespace/CoreTypes#autocapitalizationinputtype\">AutocapitalizationInputType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 172,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutocapitalizationType#none"
+        }
+      ]
+    },
+    "4953": {
+      "name": "words",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutocapitalizationType#words",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "words: <a href=\"/api/namespace/CoreTypes#autocapitalizationinputtype\">AutocapitalizationInputType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 173,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutocapitalizationType#words"
+        }
+      ]
+    },
+    "4954": {
+      "name": "sentences",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutocapitalizationType#sentences",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "sentences: <a href=\"/api/namespace/CoreTypes#autocapitalizationinputtype\">AutocapitalizationInputType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 174,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutocapitalizationType#sentences"
+        }
+      ]
+    },
+    "4955": {
+      "name": "allCharacters",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AutocapitalizationType#allcharacters",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "allCharacters: <a href=\"/api/namespace/CoreTypes#autocapitalizationinputtype\">AutocapitalizationInputType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 175,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AutocapitalizationType#allcharacters"
+        }
+      ]
+    }
+  }
+}

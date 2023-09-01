@@ -1,0 +1,59 @@
+{
+  "title": "ComponentModule",
+  "hierarchy": [
+    [
+      {
+        "text": "ComponentModule"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        7516,
+        7517
+      ]
+    }
+  ],
+  "reflections": {
+    "7516": {
+      "name": "component",
+      "type": "Property",
+      "url": "/api/interface/ComponentModule#component",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "component: <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/component-builder/index.d.ts",
+              "line": 3,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/ComponentModule#component"
+        }
+      ]
+    },
+    "7517": {
+      "name": "exports",
+      "type": "Property",
+      "url": "/api/interface/ComponentModule#exports",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exports</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/builder/component-builder/index.d.ts",
+              "line": 4,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/ComponentModule#exports"
+        }
+      ]
+    }
+  }
+}

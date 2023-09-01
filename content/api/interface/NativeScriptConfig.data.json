@@ -1,0 +1,621 @@
+{
+  "title": "NativeScriptConfig",
+  "hierarchy": [
+    [
+      {
+        "text": "NativeScriptConfig"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        888,
+        881,
+        882,
+        892,
+        890,
+        893,
+        879,
+        891,
+        887,
+        880,
+        885,
+        884,
+        889,
+        883,
+        886
+      ]
+    }
+  ],
+  "reflections": {
+    "879": {
+      "name": "id",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#id",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "App's bundle id\nUsed for both iOS and Android if they use the same bundle id. You can override per platform in the respective platform specific configurations."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">id</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 135,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "App's bundle id\nUsed for both iOS and Android if they use the same bundle id. You can override per platform in the respective platform specific configurations."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#id"
+        }
+      ]
+    },
+    "880": {
+      "name": "main",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#main",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "App's main entry file - this setting overrides the value set in package.json"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">main</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 139,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "App's main entry file - this setting overrides the value set in package.json"
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#main"
+        }
+      ]
+    },
+    "881": {
+      "name": "appPath",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#apppath",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Path to the app source directory\nThis is often the "
+          },
+          {
+            "kind": "code",
+            "text": "`src`"
+          },
+          {
+            "kind": "text",
+            "text": " or "
+          },
+          {
+            "kind": "code",
+            "text": "`app`"
+          },
+          {
+            "kind": "text",
+            "text": " directory however can be changed."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">appPath</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 144,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Path to the app source directory\nThis is often the "
+              },
+              {
+                "kind": "code",
+                "text": "`src`"
+              },
+              {
+                "kind": "text",
+                "text": " or "
+              },
+              {
+                "kind": "code",
+                "text": "`app`"
+              },
+              {
+                "kind": "text",
+                "text": " directory however can be changed."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#apppath"
+        }
+      ]
+    },
+    "882": {
+      "name": "appResourcesPath",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#appresourcespath",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "App_Resources path\nThis is often at the root or inside "
+          },
+          {
+            "kind": "code",
+            "text": "`src`"
+          },
+          {
+            "kind": "text",
+            "text": " or "
+          },
+          {
+            "kind": "code",
+            "text": "`app`"
+          },
+          {
+            "kind": "text",
+            "text": " directory however can be anywhere."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">appResourcesPath</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 149,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "App_Resources path\nThis is often at the root or inside "
+              },
+              {
+                "kind": "code",
+                "text": "`src`"
+              },
+              {
+                "kind": "text",
+                "text": " or "
+              },
+              {
+                "kind": "code",
+                "text": "`app`"
+              },
+              {
+                "kind": "text",
+                "text": " directory however can be anywhere."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#appresourcespath"
+        }
+      ]
+    },
+    "883": {
+      "name": "shared",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#shared",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">shared</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/NativeScriptConfig#shared"
+        }
+      ]
+    },
+    "884": {
+      "name": "previewAppSchema",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#previewappschema",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">previewAppSchema</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 151,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/NativeScriptConfig#previewappschema"
+        }
+      ]
+    },
+    "885": {
+      "name": "overridePods",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#overridepods",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">overridePods</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 152,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/NativeScriptConfig#overridepods"
+        }
+      ]
+    },
+    "886": {
+      "name": "webpackConfigPath",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#webpackconfigpath",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Custom webpack config path\nThe default is "
+          },
+          {
+            "kind": "code",
+            "text": "`webpack.config.js`"
+          },
+          {
+            "kind": "text",
+            "text": " in the root however you can use a custom name and place elsewhere."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">webpackConfigPath</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 157,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Custom webpack config path\nThe default is "
+              },
+              {
+                "kind": "code",
+                "text": "`webpack.config.js`"
+              },
+              {
+                "kind": "text",
+                "text": " in the root however you can use a custom name and place elsewhere."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#webpackconfigpath"
+        }
+      ]
+    },
+    "887": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "iOS specific configurations\nVarious iOS specific configurations including iOS runtime flags."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigIOS</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 162,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "iOS specific configurations\nVarious iOS specific configurations including iOS runtime flags."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#ios"
+        }
+      ]
+    },
+    "888": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Android specific configurations\nVarious Android specific configurations including Android runtime flags."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigAndroid</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 167,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Android specific configurations\nVarious Android specific configurations including Android runtime flags."
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#android"
+        }
+      ]
+    },
+    "889": {
+      "name": "profiling",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#profiling",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Enable profiling for the application. Default: no profiling\nIn most cases when profiling, you will want to use \"timeline\""
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "profiling?: <a href=\"/api/index#instrumentationmode\">InstrumentationMode</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 172,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Enable profiling for the application. Default: no profiling\nIn most cases when profiling, you will want to use \"timeline\""
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#profiling"
+        }
+      ]
+    },
+    "890": {
+      "name": "cssParser",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#cssparser",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Set the default CSS parser that NativeScript will use.\nDefault: css-tree"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cssParser</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;rework&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;nativescript&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;css-tree&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 177,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set the default CSS parser that NativeScript will use.\nDefault: css-tree"
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#cssparser"
+        }
+      ]
+    },
+    "891": {
+      "name": "ignoredNativeDependencies",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#ignorednativedependencies",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Optionally specify a list of npm package names for which you would like the NativeScript CLI to ignore when attaching native dependencies to the build"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ignoredNativeDependencies</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string[]</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 181,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Optionally specify a list of npm package names for which you would like the NativeScript CLI to ignore when attaching native dependencies to the build"
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#ignorednativedependencies"
+        }
+      ]
+    },
+    "892": {
+      "name": "cli",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#cli",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Set cli options"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cli</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigCLI</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 185,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set cli options"
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#cli"
+        }
+      ]
+    },
+    "893": {
+      "name": "hooks",
+      "type": "Property",
+      "url": "/api/interface/NativeScriptConfig#hooks",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Set project persistent hooks to run"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">hooks</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> IConfigHook[]</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/config/config.interface.d.ts",
+              "line": 189,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set project persistent hooks to run"
+              }
+            ]
+          },
+          "url": "/api/interface/NativeScriptConfig#hooks"
+        }
+      ]
+    }
+  }
+}
