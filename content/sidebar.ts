@@ -221,6 +221,10 @@ export default [
     text: 'Advanced Concepts',
     items: [
       {
+        text: 'Adding Native Code',
+        link: '/guide/adding-native-code'
+      },
+      {
         text: 'Data Binding',
         link: '/guide/data-binding',
       },
