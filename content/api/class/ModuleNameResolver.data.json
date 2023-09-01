@@ -1,0 +1,117 @@
+{
+  "title": "ModuleNameResolver",
+  "hierarchy": [
+    [
+      {
+        "text": "ModuleNameResolver"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2299
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2307,
+        2303
+      ]
+    }
+  ],
+  "reflections": {
+    "2299": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ModuleNameResolver#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ModuleNameResolver(context: <a href=\"/api/interface/PlatformContext\">PlatformContext</a>, moduleListProvider?: <a href=\"/api/index#modulelistprovider\">ModuleListProvider</a>): <a href=\"/api/class/ModuleNameResolver\">ModuleNameResolver</a>",
+          "url": "/api/class/ModuleNameResolver#constructor-new-modulenameresolver",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "context",
+              "type": "<a href=\"/api/interface/PlatformContext\">PlatformContext</a>",
+              "flags": {}
+            },
+            {
+              "name": "moduleListProvider",
+              "type": "<a href=\"/api/index#modulelistprovider\">ModuleListProvider</a>",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ModuleNameResolver\">ModuleNameResolver</a>"
+        }
+      ]
+    },
+    "2303": {
+      "name": "resolveModuleName",
+      "type": "Method",
+      "url": "/api/class/ModuleNameResolver#resolvemodulename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resolveModuleName</span><span style=\"color: #E1E4E8\">(path: string, ext: string): string</span></span></code>",
+          "url": "/api/class/ModuleNameResolver#resolvemodulename-resolvemodulename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/index.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "path",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "ext",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2307": {
+      "name": "clearCache",
+      "type": "Method",
+      "url": "/api/class/ModuleNameResolver#clearcache",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearCache</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/ModuleNameResolver#clearcache-clearcache-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/index.d.ts",
+              "line": 14,
+              "character": 1
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "title": "AccessibilityTrait",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        965,
+        966,
+        967,
+        968,
+        969
+      ]
+    }
+  ],
+  "reflections": {
+    "965": {
+      "name": "AllowsDirectInteraction",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityTrait#allowsdirectinteraction",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element allows direct touch interaction for VoiceOver users."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AllowsDirectInteraction</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;allowsDirectInteraction&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 6,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element allows direct touch interaction for VoiceOver users."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityTrait#allowsdirectinteraction"
+        }
+      ]
+    },
+    "966": {
+      "name": "CausesPageTurn",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityTrait#causespageturn",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element should cause an automatic page turn when VoiceOver finishes reading the text within it.\nNote: Requires custom view with accessibilityScroll(...)"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CausesPageTurn</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;pageTurn&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 11,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element should cause an automatic page turn when VoiceOver finishes reading the text within it.\nNote: Requires custom view with accessibilityScroll(...)"
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityTrait#causespageturn"
+        }
+      ]
+    },
+    "967": {
+      "name": "NotEnabled",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityTrait#notenabled",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element is not enabled and does not respond to user interaction."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NotEnabled</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;disabled&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 15,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element is not enabled and does not respond to user interaction."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityTrait#notenabled"
+        }
+      ]
+    },
+    "968": {
+      "name": "Selected",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityTrait#selected",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element is currently selected."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Selected</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;selected&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 19,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element is currently selected."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityTrait#selected"
+        }
+      ]
+    },
+    "969": {
+      "name": "UpdatesFrequently",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityTrait#updatesfrequently",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element frequently updates its label or value."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UpdatesFrequently</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;frequentUpdates&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 23,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element frequently updates its label or value."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityTrait#updatesfrequently"
+        }
+      ]
+    }
+  }
+}

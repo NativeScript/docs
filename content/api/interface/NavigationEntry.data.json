@@ -1,0 +1,413 @@
+{
+  "title": "NavigationEntry",
+  "hierarchy": [
+    [
+      {
+        "text": "ViewEntry",
+        "link": "/api/interface/ViewEntry"
+      }
+    ],
+    [
+      {
+        "text": "NavigationEntry"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        13888,
+        13892,
+        13887,
+        13893,
+        13886,
+        13895,
+        13894,
+        13889,
+        13891,
+        13890
+      ]
+    }
+  ],
+  "reflections": {
+    "13886": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An object passed to the onNavigatedTo callback of the Page. Typically this is used to pass some data among pages. Optional."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">context</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 294,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An object passed to the onNavigatedTo callback of the Page. Typically this is used to pass some data among pages. Optional."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#context"
+        }
+      ]
+    },
+    "13887": {
+      "name": "bindingContext",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#bindingcontext",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An object to become the binding context of the page navigating to. Optional."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">bindingContext</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 299,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An object to become the binding context of the page navigating to. Optional."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#bindingcontext"
+        }
+      ]
+    },
+    "13888": {
+      "name": "animated",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#animated",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "True to navigate to the new Page using animated transitions, false otherwise."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animated</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 304,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "True to navigate to the new Page using animated transitions, false otherwise."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#animated"
+        }
+      ]
+    },
+    "13889": {
+      "name": "transition",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#transition",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies an optional navigation transition for all platforms. If not specified, the default platform transition will be used."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "transition?: <a href=\"/api/interface/NavigationTransition\">NavigationTransition</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 309,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies an optional navigation transition for all platforms. If not specified, the default platform transition will be used."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#transition"
+        }
+      ]
+    },
+    "13890": {
+      "name": "transitioniOS",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#transitionios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies an optional navigation transition for iOS. If not specified, the default platform transition will be used."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "transitioniOS?: <a href=\"/api/interface/NavigationTransition\">NavigationTransition</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 314,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies an optional navigation transition for iOS. If not specified, the default platform transition will be used."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#transitionios"
+        }
+      ]
+    },
+    "13891": {
+      "name": "transitionAndroid",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#transitionandroid",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies an optional navigation transition for Android. If not specified, the default platform transition will be used."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "transitionAndroid?: <a href=\"/api/interface/NavigationTransition\">NavigationTransition</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 319,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies an optional navigation transition for Android. If not specified, the default platform transition will be used."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#transitionandroid"
+        }
+      ]
+    },
+    "13892": {
+      "name": "backstackVisible",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#backstackvisible",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "True to record the navigation in the backstack, false otherwise.\nIf the parameter is set to false then the Page will be displayed but once navigated from it will not be able to be navigated back to."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">backstackVisible</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 325,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "True to record the navigation in the backstack, false otherwise.\nIf the parameter is set to false then the Page will be displayed but once navigated from it will not be able to be navigated back to."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#backstackvisible"
+        }
+      ]
+    },
+    "13893": {
+      "name": "clearHistory",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#clearhistory",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "True to clear the navigation history, false otherwise. Very useful when navigating away from login pages."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">clearHistory</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 330,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "True to clear the navigation history, false otherwise. Very useful when navigating away from login pages."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#clearhistory"
+        }
+      ]
+    },
+    "13894": {
+      "name": "moduleName",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#modulename",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the module containing the View instance to load. Optional."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "moduleName",
+        "url": "/api/interface/ViewEntry#modulename",
+        "fromName": "ViewEntry",
+        "fromUrl": "/api/interface/ViewEntry"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">moduleName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 280,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "moduleName",
+            "url": "/api/interface/ViewEntry#modulename",
+            "fromName": "ViewEntry",
+            "fromUrl": "/api/interface/ViewEntry"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the module containing the View instance to load. Optional."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationEntry#modulename"
+        }
+      ]
+    },
+    "13895": {
+      "name": "create",
+      "type": "Property",
+      "url": "/api/interface/NavigationEntry#create",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "create",
+        "url": "/api/interface/ViewEntry#create",
+        "fromName": "ViewEntry",
+        "fromUrl": "/api/interface/ViewEntry"
+      },
+      "signatures": [
+        {
+          "code": "create?: () => <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 285,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "create",
+            "url": "/api/interface/ViewEntry#create",
+            "fromName": "ViewEntry",
+            "fromUrl": "/api/interface/ViewEntry"
+          },
+          "url": "/api/interface/NavigationEntry#create"
+        }
+      ]
+    }
+  }
+}

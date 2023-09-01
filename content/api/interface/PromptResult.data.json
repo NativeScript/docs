@@ -1,0 +1,91 @@
+{
+  "title": "PromptResult",
+  "hierarchy": [
+    [
+      {
+        "text": "PromptResult"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        12993,
+        12994
+      ]
+    }
+  ],
+  "reflections": {
+    "12993": {
+      "name": "result",
+      "type": "Property",
+      "url": "/api/interface/PromptResult#result",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the prompt dialog boolean result."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">result</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 274,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the prompt dialog boolean result."
+              }
+            ]
+          },
+          "url": "/api/interface/PromptResult#result"
+        }
+      ]
+    },
+    "12994": {
+      "name": "text",
+      "type": "Property",
+      "url": "/api/interface/PromptResult#text",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the text entered in the prompt dialog."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 279,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the text entered in the prompt dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/PromptResult#text"
+        }
+      ]
+    }
+  }
+}

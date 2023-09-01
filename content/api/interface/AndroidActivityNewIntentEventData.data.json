@@ -1,0 +1,205 @@
+{
+  "title": "AndroidActivityNewIntentEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "AndroidActivityEventData",
+        "link": "/api/interface/AndroidActivityEventData"
+      }
+    ],
+    [
+      {
+        "text": "AndroidActivityNewIntentEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        4751,
+        4752,
+        4750,
+        4753
+      ]
+    }
+  ],
+  "reflections": {
+    "4750": {
+      "name": "intent",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityNewIntentEventData#intent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The intent."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">intent</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 171,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The intent."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityNewIntentEventData#intent"
+        }
+      ]
+    },
+    "4751": {
+      "name": "activity",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityNewIntentEventData#activity",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The activity."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "activity",
+        "url": "/api/interface/AndroidActivityEventData#activity",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">activity</span><span style=\"color: #E1E4E8\">: AppCompatActivity</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "activity",
+            "url": "/api/interface/AndroidActivityEventData#activity",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The activity."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityNewIntentEventData#activity"
+        }
+      ]
+    },
+    "4752": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityNewIntentEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/AndroidActivityEventData#eventname",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/AndroidActivityEventData#eventname",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityNewIntentEventData#eventname"
+        }
+      ]
+    },
+    "4753": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/AndroidActivityNewIntentEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/AndroidActivityEventData#object",
+        "fromName": "AndroidActivityEventData",
+        "fromUrl": "/api/interface/AndroidActivityEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">object</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/AndroidActivityEventData#object",
+            "fromName": "AndroidActivityEventData",
+            "fromUrl": "/api/interface/AndroidActivityEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/AndroidActivityNewIntentEventData#object"
+        }
+      ]
+    }
+  }
+}

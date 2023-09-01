@@ -1,0 +1,274 @@
+{
+  "title": "VerticalAlignmentText",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4905,
+        4899,
+        4898,
+        4900,
+        4904,
+        4903,
+        4902,
+        4901,
+        4897
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        4906,
+        4909
+      ]
+    }
+  ],
+  "reflections": {
+    "4897": {
+      "name": "top",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#top",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">top</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 117,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#top"
+        }
+      ]
+    },
+    "4898": {
+      "name": "middle",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#middle",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">middle</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;middle&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 118,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#middle"
+        }
+      ]
+    },
+    "4899": {
+      "name": "bottom",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#bottom",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bottom</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 119,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#bottom"
+        }
+      ]
+    },
+    "4900": {
+      "name": "stretch",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#stretch",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stretch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 120,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#stretch"
+        }
+      ]
+    },
+    "4901": {
+      "name": "texttop",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#texttop",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">texttop</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;text-top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;text-top&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 121,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#texttop"
+        }
+      ]
+    },
+    "4902": {
+      "name": "textbottom",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#textbottom",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">textbottom</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;text-bottom&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;text-bottom&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 122,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#textbottom"
+        }
+      ]
+    },
+    "4903": {
+      "name": "sup",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#sup",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sup</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;sup&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;sup&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 123,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#sup"
+        }
+      ]
+    },
+    "4904": {
+      "name": "sub",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#sub",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sub</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;sub&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;sub&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 124,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#sub"
+        }
+      ]
+    },
+    "4905": {
+      "name": "baseline",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#baseline",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">baseline</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;baseline&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;baseline&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 125,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#baseline"
+        }
+      ]
+    },
+    "4906": {
+      "name": "isValid",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#isvalid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isValid(value: any): value is <a href=\"/api/namespace/CoreTypes#verticalalignmenttexttype\">VerticalAlignmentTextType</a>",
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#isvalid-isvalid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 126,
+              "character": 23
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "value is <a href=\"/api/namespace/CoreTypes#verticalalignmenttexttype\">VerticalAlignmentTextType</a>"
+        }
+      ]
+    },
+    "4909": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-VerticalAlignmentText#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(value: string): <a href=\"/api/namespace/CoreTypes#verticalalignmenttexttype\">VerticalAlignmentTextType</a>",
+          "url": "/api/namespace/CoreTypes-VerticalAlignmentText#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 127,
+              "character": 21
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#verticalalignmenttexttype\">VerticalAlignmentTextType</a>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "title": "Animation",
+  "hierarchy": [
+    [
+      {
+        "text": "Animation"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        7423
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        7431,
+        7434,
+        7427
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        7435
+      ]
+    }
+  ],
+  "reflections": {
+    "7423": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Animation#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Animation(animationDefinitions: <a href=\"/api/interface/AnimationDefinition\">AnimationDefinition</a>[], playSequentially?: boolean): <a href=\"/api/class/Animation\">Animation</a>",
+          "url": "/api/class/Animation#constructor-new-animation",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 145,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "animationDefinitions",
+              "type": "<a href=\"/api/interface/AnimationDefinition\">AnimationDefinition</a>[]",
+              "flags": {}
+            },
+            {
+              "name": "playSequentially",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/Animation\">Animation</a>"
+        }
+      ]
+    },
+    "7427": {
+      "name": "play",
+      "type": "Property",
+      "url": "/api/class/Animation#play",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">play</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">resetOnFinish</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">boolean</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> AnimationPromise</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 146,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Animation#play"
+        }
+      ]
+    },
+    "7431": {
+      "name": "cancel",
+      "type": "Property",
+      "url": "/api/class/Animation#cancel",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancel</span><span style=\"color: #E1E4E8\">: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 147,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Animation#cancel"
+        }
+      ]
+    },
+    "7434": {
+      "name": "isPlaying",
+      "type": "Property",
+      "url": "/api/class/Animation#isplaying",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isPlaying</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 148,
+              "character": 8
+            }
+          ],
+          "url": "/api/class/Animation#isplaying"
+        }
+      ]
+    },
+    "7435": {
+      "name": "_resolveAnimationCurve",
+      "type": "Method",
+      "url": "/api/class/Animation#resolveanimationcurve",
+      "flags": {
+        "isPublic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_resolveAnimationCurve</span><span style=\"color: #E1E4E8\">(curve: any): any</span></span></code>",
+          "url": "/api/class/Animation#resolveanimationcurve-resolveanimationcurve-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/animation/index.d.ts",
+              "line": 149,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "curve",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    }
+  }
+}

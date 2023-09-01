@@ -1,0 +1,265 @@
+{
+  "title": "ChangedData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "ChangedData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        1416,
+        1419,
+        1420,
+        1417,
+        1421,
+        1418
+      ]
+    }
+  ],
+  "reflections": {
+    "1416": {
+      "name": "action",
+      "type": "Property",
+      "url": "/api/interface/ChangedData#action",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Change type."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">action</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 16,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Change type."
+              }
+            ]
+          },
+          "url": "/api/interface/ChangedData#action"
+        }
+      ]
+    },
+    "1417": {
+      "name": "index",
+      "type": "Property",
+      "url": "/api/interface/ChangedData#index",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Start index."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">index</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 20,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Start index."
+              }
+            ]
+          },
+          "url": "/api/interface/ChangedData#index"
+        }
+      ]
+    },
+    "1418": {
+      "name": "removed",
+      "type": "Property",
+      "url": "/api/interface/ChangedData#removed",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Removed items."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removed</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">[]</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 24,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removed items."
+              }
+            ]
+          },
+          "url": "/api/interface/ChangedData#removed"
+        }
+      ]
+    },
+    "1419": {
+      "name": "addedCount",
+      "type": "Property",
+      "url": "/api/interface/ChangedData#addedcount",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Number of added items."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addedCount</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable-array/index.d.ts",
+              "line": 28,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Number of added items."
+              }
+            ]
+          },
+          "url": "/api/interface/ChangedData#addedcount"
+        }
+      ]
+    },
+    "1420": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/ChangedData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ChangedData#eventname"
+        }
+      ]
+    },
+    "1421": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/ChangedData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ChangedData#object"
+        }
+      ]
+    }
+  }
+}

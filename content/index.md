@@ -1,10 +1,14 @@
 ---
 title: Introduction
+contributors:
+  - rigor789
 ---
 
 ## What is NativeScript?
 
-NativeScript is primarily a framework for building cross platform applications. The core technology revolves around exposing native APIs directly to the JavaScript runtime, providing type declarations for a rich TypeScript development experience. This is facilitated by the iOS runtime (`@nativescript/ios` on npm) and the Android runtime (`@nativescript/android`). To aid in cross-platform development, common use-cases are implemented in `@nativescript/core` utilizing the underlying native APIs exposed by each runtime.
+NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience, which can be used to build cross platform apps. This is facilitated by the iOS (@nativescript/ios) and Android (@nativescript/android) runtimes.
+
+To aid in cross-platform development, common use-cases are implemented in @nativescript/core utilizing the underlying native APIs provided by each runtime.
 
 The "frontend" code can be authored in various frameworks often referred to as _flavors_. The currently supported flavors consist of the following:
 
@@ -14,9 +18,9 @@ The "frontend" code can be authored in various frameworks often referred to as _
 - React&mdash;published under `react-nativescript`
 - Svelte&mdash;published under `svelte-native`
 
-::: tip
+::: tip There's more!
 
-These are the officially supported frontend flavors, however given how NativeScript is built, new flavors can be implemented on top of it. A great example is a few community projects that bring support for various other flavors: [Example 1](#), [Example 2](#)
+These are the officially supported frontend flavors, however given how NativeScript is built, new flavors can be implemented on top of it. A great example is a few community projects that bring support for various other flavors: [SolidJS](https://github.com/nativescript-community/solid-js), [rEFui](https://github.com/SudoMaker/rEFui#native), and [more with DOMiNATIVE](https://github.com/SudoMaker/dominative).
 
 :::
 
