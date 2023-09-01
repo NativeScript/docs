@@ -48,7 +48,7 @@ For more details about the `TraceErrorHandler`, see the [Tracing in NativeScript
 
 ### Disabling rethrowing of uncaught JS exceptions to native
 
-Nativescript also allows you to prevent app crash by disabling rethrowing of uncaught JS exceptions to native. You do that by setting the `discardUncaughtJsExceptions` property to `true` inside the [nativescript.config.ts](/project-structure/nativescript-config-ts)file.
+Nativescript also allows the prevention of an app crash by disabling rethrowing of uncaught JS exceptions to native. This can be done by setting the `discardUncaughtJsExceptions` property to `true` inside the [nativescript.config.ts](/project-structure/nativescript-config-ts)file.
 
 <!--tab: app/nativescript.config.ts -->
 
