@@ -1,0 +1,241 @@
+{
+  "title": "encoding",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        2390,
+        2391,
+        2392,
+        2393,
+        2394,
+        2395
+      ]
+    }
+  ],
+  "reflections": {
+    "2390": {
+      "name": "ISO_8859_1",
+      "type": "Variable",
+      "url": "/api/namespace/encoding#iso-8859-1",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes ISO-8859-1 character encoding."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ISO_8859_1</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/text/index.d.ts",
+              "line": 10,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes ISO-8859-1 character encoding."
+              }
+            ]
+          },
+          "url": "/api/namespace/encoding#iso-8859-1"
+        }
+      ]
+    },
+    "2391": {
+      "name": "US_ASCII",
+      "type": "Variable",
+      "url": "/api/namespace/encoding#us-ascii",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes US_ASCII character encoding."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">US_ASCII</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/text/index.d.ts",
+              "line": 15,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes US_ASCII character encoding."
+              }
+            ]
+          },
+          "url": "/api/namespace/encoding#us-ascii"
+        }
+      ]
+    },
+    "2392": {
+      "name": "UTF_16",
+      "type": "Variable",
+      "url": "/api/namespace/encoding#utf-16",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes UTF_16 character encoding."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/text/index.d.ts",
+              "line": 20,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes UTF_16 character encoding."
+              }
+            ]
+          },
+          "url": "/api/namespace/encoding#utf-16"
+        }
+      ]
+    },
+    "2393": {
+      "name": "UTF_16BE",
+      "type": "Variable",
+      "url": "/api/namespace/encoding#utf-16be",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes UTF_16BE character encoding."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16BE</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/text/index.d.ts",
+              "line": 25,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes UTF_16BE character encoding."
+              }
+            ]
+          },
+          "url": "/api/namespace/encoding#utf-16be"
+        }
+      ]
+    },
+    "2394": {
+      "name": "UTF_16LE",
+      "type": "Variable",
+      "url": "/api/namespace/encoding#utf-16le",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes UTF_16LE character encoding."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16LE</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/text/index.d.ts",
+              "line": 30,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes UTF_16LE character encoding."
+              }
+            ]
+          },
+          "url": "/api/namespace/encoding#utf-16le"
+        }
+      ]
+    },
+    "2395": {
+      "name": "UTF_8",
+      "type": "Variable",
+      "url": "/api/namespace/encoding#utf-8",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes UTF_8 character encoding."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_8</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/text/index.d.ts",
+              "line": 35,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes UTF_8 character encoding."
+              }
+            ]
+          },
+          "url": "/api/namespace/encoding#utf-8"
+        }
+      ]
+    }
+  }
+}

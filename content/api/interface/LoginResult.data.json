@@ -1,0 +1,127 @@
+{
+  "title": "LoginResult",
+  "hierarchy": [
+    [
+      {
+        "text": "LoginResult"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        13025,
+        13023,
+        13024
+      ]
+    }
+  ],
+  "reflections": {
+    "13023": {
+      "name": "result",
+      "type": "Property",
+      "url": "/api/interface/LoginResult#result",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the login dialog boolean result."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">result</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 289,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the login dialog boolean result."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginResult#result"
+        }
+      ]
+    },
+    "13024": {
+      "name": "userName",
+      "type": "Property",
+      "url": "/api/interface/LoginResult#username",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the user entered in the login dialog."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">userName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 294,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the user entered in the login dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginResult#username"
+        }
+      ]
+    },
+    "13025": {
+      "name": "password",
+      "type": "Property",
+      "url": "/api/interface/LoginResult#password",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the password entered in the login dialog."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">password</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 299,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the password entered in the login dialog."
+              }
+            ]
+          },
+          "url": "/api/interface/LoginResult#password"
+        }
+      ]
+    }
+  }
+}

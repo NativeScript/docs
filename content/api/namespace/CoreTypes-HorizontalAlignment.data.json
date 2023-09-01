@@ -1,0 +1,164 @@
+{
+  "title": "HorizontalAlignment",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4880,
+        4879,
+        4881,
+        4882
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        4883,
+        4886
+      ]
+    }
+  ],
+  "reflections": {
+    "4879": {
+      "name": "left",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#left",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">left</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 101,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#left"
+        }
+      ]
+    },
+    "4880": {
+      "name": "center",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#center",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">center</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;center&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 102,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#center"
+        }
+      ]
+    },
+    "4881": {
+      "name": "right",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#right",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">right</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 103,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#right"
+        }
+      ]
+    },
+    "4882": {
+      "name": "stretch",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#stretch",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">stretch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;stretch&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 104,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#stretch"
+        }
+      ]
+    },
+    "4883": {
+      "name": "isValid",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#isvalid",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "isValid(value: any): value is <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#isvalid-isvalid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 105,
+              "character": 23
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "value is <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>"
+        }
+      ]
+    },
+    "4886": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-HorizontalAlignment#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(value: any): <a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>",
+          "url": "/api/namespace/CoreTypes-HorizontalAlignment#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 106,
+              "character": 21
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#horizontalalignmenttype\">HorizontalAlignmentType</a>"
+        }
+      ]
+    }
+  }
+}

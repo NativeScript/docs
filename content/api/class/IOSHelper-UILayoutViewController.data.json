@@ -1,0 +1,72 @@
+{
+  "title": "UILayoutViewController",
+  "hierarchy": [
+    [
+      {
+        "text": "UILayoutViewController"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        11070
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        11067
+      ]
+    }
+  ],
+  "reflections": {
+    "11067": {
+      "name": "initWithOwner",
+      "type": "Method",
+      "url": "/api/class/IOSHelper-UILayoutViewController#initwithowner",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "initWithOwner(owner: WeakRef&lt;<a href=\"/api/class/View\">View</a>&gt;): <a href=\"/api/class/IOSHelper-UILayoutViewController\">UILayoutViewController</a>",
+          "url": "/api/class/IOSHelper-UILayoutViewController#initwithowner-initwithowner-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/view-helper/index.d.ts",
+              "line": 58,
+              "character": 2
+            }
+          ],
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "WeakRef&lt;<a href=\"/api/class/View\">View</a>&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/IOSHelper-UILayoutViewController\">UILayoutViewController</a>"
+        }
+      ]
+    },
+    "11070": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/IOSHelper-UILayoutViewController#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new UILayoutViewController(): <a href=\"/api/class/IOSHelper-UILayoutViewController\">UILayoutViewController</a>",
+          "url": "/api/class/IOSHelper-UILayoutViewController#constructor-new-uilayoutviewcontroller",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/IOSHelper-UILayoutViewController\">UILayoutViewController</a>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "title": "ShownModallyData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "ShownModallyData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        11849,
+        11848,
+        11850,
+        11851
+      ]
+    }
+  ],
+  "reflections": {
+    "11848": {
+      "name": "context",
+      "type": "Property",
+      "url": "/api/interface/ShownModallyData#context",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The context (optional, may be undefined) passed to the view when shown modally."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">context</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 90,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The context (optional, may be undefined) passed to the view when shown modally."
+              }
+            ]
+          },
+          "url": "/api/interface/ShownModallyData#context"
+        }
+      ]
+    },
+    "11849": {
+      "name": "closeCallback",
+      "type": "Property",
+      "url": "/api/interface/ShownModallyData#closecallback",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A callback to call when you want to close the modally shown view.\nPass in any kind of arguments and you will receive when the callback parameter\nof View.showModal is executed."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">closeCallback</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Function</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view/index.d.ts",
+              "line": 97,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A callback to call when you want to close the modally shown view.\nPass in any kind of arguments and you will receive when the callback parameter\nof View.showModal is executed."
+              }
+            ]
+          },
+          "url": "/api/interface/ShownModallyData#closecallback"
+        }
+      ]
+    },
+    "11850": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/ShownModallyData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ShownModallyData#eventname"
+        }
+      ]
+    },
+    "11851": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/ShownModallyData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/ShownModallyData#object"
+        }
+      ]
+    }
+  }
+}
