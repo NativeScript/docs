@@ -5,7 +5,7 @@ title: Error handling
 
 Errors in NativeScript are handled differently to how they operate in a web application. By default when an unhandled exception is thrown in NativeScript, the app may crash, and an error with the corresponding stack trace will be shown. When the app is in **development** mode this may be the desired behaviour. However, when the app is in **production** similar application crashes can seriously hurt your app's credibility and drive away customers. In many cases, a different behavior is desired (e.g. app freeze, blank screen, failed navigation) to an actual crash with an error log.
 
-NativeScript allows you to set error handling dependent on whether the app is in **development** or **production** mode in the following 3 ways:
+NativeScript allows error handling to be set dependent on whether the app is in **development** or **production** mode in the following three ways:
 
 - **development mode**
 **Allow app crash**: Throw exceptions as soon as an error occurs and crash the app.
