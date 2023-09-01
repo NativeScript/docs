@@ -6,6 +6,30 @@ contributors:
 
 This page serves as a reference for the available markdown options in the docs.
 
+## Diagrams
+
+### Android Runtime Overview
+
+<img class="w-full" src="./assets/diagrams/Android_Runtime_Overview.drawio.svg"/>
+
+### iOS Runtime Overview
+
+<img class="w-full" src="./assets/diagrams/iOS_Runtime_Overview.drawio.svg"/>
+
+### Frame and Page Lifecycle
+
+<img class="w-full" src="./assets/diagrams/Frame_Page_Lifecycle.drawio.svg"/>
+
+### View Origin
+
+<img src="./assets/diagrams/View_Origin.drawio.svg"/>
+
+### StackLayout (exploration)
+
+<DeviceFrame type="ios">
+<img src="./assets/diagrams/StackLayout.drawio.svg"/>
+</DeviceFrame>
+
 ## Frontmatter
 
 The top of the markdown file contains a section surrounded by `---` this part is called the frontmatter, and it is used to set a few things on a page. For example:
