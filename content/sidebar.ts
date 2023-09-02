@@ -225,12 +225,14 @@ export default [
         link: '/guide/adding-native-code',
       },
       {
-        text: 'Data Binding',
-        link: '/guide/data-binding',
-      },
-      {
         text: 'Extending Native Classes',
-        link: '/guide/subclassing',
+        link: '/guide/subclassing/',
+        items: [
+          {
+            text: 'iOS',
+            link: '/guide/extending-classes-and-conforming-to-protocols-ios',
+          }
+        ]
       },
       {
         text: 'Multithreading',
@@ -263,24 +265,28 @@ export default [
         ],
       },
       {
-        text: 'Property System',
-        link: '/guide/property-system',
-      },
-      {
-        text: 'Error Handling',
-        link: '/guide/error-handling',
-      },
-      {
-        text: 'Shared Element Transitions',
-        link: '/guide/shared-element-transitions',
-      },
-      {
         text: 'Animations',
         link: '/guide/animations',
       },
       {
         text: 'Gestures',
         link: '/guide/gestures',
+      },
+      {
+        text: 'Shared Element Transitions',
+        link: '/guide/shared-element-transitions',
+      },
+      {
+        text: 'Data Binding',
+        link: '/guide/data-binding',
+      },
+      {
+        text: 'Property System',
+        link: '/guide/property-system',
+      },
+      {
+        text: 'Error Handling',
+        link: '/guide/error-handling',
       },
     ],
   },
