@@ -2,7 +2,7 @@
 title: Marshalling in NativeScript
 ---
 
-Marshalling in NativeScript refers to the conversion of JavaScript data types to native platform languages(Objective C/Swift and Java/Kotlin) data types and vice versa.
+Marshalling in NativeScript refers to the conversion of JavaScript data types to native platform language (Swift/Objective C and Kotlin/Java) data types and vice versa.
 
 The conversion is handled implicitly by the NativeScript iOS and Android runtimes.
 
