@@ -19,7 +19,7 @@ During **the layout pass** every view is placed in a specific layout slot. The s
 The layout process is by nature an resource-intensive process and it's performance highly depends on the number views (and complexity).
 <!-- TODO: fix links -->
 :::tip
-Try to keep the view hierarchy as flat as possible by utilizing different [Layout Containers](/ui-and-styling#layout-containers) rather than relying on excessive view nesting.
+It's a good practice to minimize deep nesting of views. Instead, utilize different [Layout Containers](https://chat.openai.com/ui-and-styling#layout-containers) to achieve a simpler and more organized view hierarchy. This approach improves readability, maintainability and performance.
 
 **For example:** don't treat `<StackLayout>` as a `<div>` &mdash; instead try to use a `<GridLayout>` with specific `rows` and `columns` to achieve the same result:
 
