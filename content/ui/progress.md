@@ -11,10 +11,10 @@ contributors:
 See also: [ActivityIndicator](/ui/activity-indicator).
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/Progress.png"/>
+<img src="../assets/images/screenshots/ios/Progress.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/Progress.png"/>
+<img src="../assets/images/screenshots/android/Progress.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/Progress/template.xml#example

@@ -9,10 +9,10 @@ contributors:
 `<ActivityIndicator>` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/ActivityIndicator.png"/>
+<img src="../assets/images/screenshots/ios/ActivityIndicator.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/ActivityIndicator.png"/>
+<img src="../assets/images/screenshots/android/ActivityIndicator.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/ActivityIndicator/template.xml#example

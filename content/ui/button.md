@@ -11,10 +11,10 @@ contributors:
 For more information about the available gestures, see [Gestures](/guide/ui/gestures).
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/Button.png"/>
+<img src="../assets/images/screenshots/ios/Button.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/Button.png"/>
+<img src="../assets/images/screenshots/android/Button.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/Button/template.xml#example

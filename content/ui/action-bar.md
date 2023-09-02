@@ -14,10 +14,10 @@ Views also part of the ActionBar abstraction:
 - [NavigationButton](#navigation-button)
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/ActionBar.png"/>
+<img src="../assets/images/screenshots/ios/ActionBar.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/ActionBar.png"/>
+<img src="../assets/images/screenshots/android/ActionBar.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/ActionBar/page.xml#example
