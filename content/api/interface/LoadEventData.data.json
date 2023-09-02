@@ -17,16 +17,16 @@
     {
       "title": "Properties",
       "items": [
-        28728,
-        28729,
-        28727,
-        28730,
-        28726
+        33507,
+        33508,
+        33506,
+        33509,
+        33505
       ]
     }
   ],
   "reflections": {
-    "28726": {
+    "33505": {
       "name": "url",
       "type": "Property",
       "url": "/api/interface/LoadEventData#url",
@@ -41,11 +41,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "url: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">url</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/web-view/index.d.ts",
-              "line": 109,
+              "line": 115,
               "character": 1
             }
           ],
@@ -61,7 +61,7 @@
         }
       ]
     },
-    "28727": {
+    "33506": {
       "name": "navigationType",
       "type": "Property",
       "url": "/api/interface/LoadEventData#navigationtype",
@@ -76,11 +76,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "navigationType: NavigationType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">navigationType</span><span style=\"color: #E1E4E8\">: NavigationType</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/web-view/index.d.ts",
-              "line": 114,
+              "line": 120,
               "character": 1
             }
           ],
@@ -96,7 +96,7 @@
         }
       ]
     },
-    "28728": {
+    "33507": {
       "name": "error",
       "type": "Property",
       "url": "/api/interface/LoadEventData#error",
@@ -111,11 +111,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "error: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">error</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/web-view/index.d.ts",
-              "line": 119,
+              "line": 125,
               "character": 1
             }
           ],
@@ -131,7 +131,7 @@
         }
       ]
     },
-    "28729": {
+    "33508": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/LoadEventData#eventname",
@@ -152,12 +152,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -178,7 +178,7 @@
         }
       ]
     },
-    "28730": {
+    "33509": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/LoadEventData#object",
@@ -203,8 +203,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

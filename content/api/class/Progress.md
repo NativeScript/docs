@@ -1,6 +1,13 @@
 ---
 title: Progress
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Progress'
 layout: api
 seo:
   description: "Represents a progress component."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17129" v-once>
+<APIRef for="20525" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17131" v-once>
+<APIRef for="20527" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17132" v-once>
+<APIRef for="20528" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17134" v-once>
+<APIRef for="20530" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="17133" v-once>
+<APIRef for="20529" v-once>
 
 <template #title>
 

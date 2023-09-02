@@ -1,9 +1,16 @@
 ---
 title: AndroidApplication
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'AndroidApplication'
 layout: api
 seo:
-  description: "The abstraction of an Android-specific application object."
+  description: AndroidApplication
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,21 +25,19 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJUaGUgYWJzdHJhY3Rpb24gb2YgYW4gQW5kcm9pZC1zcGVjaWZpYyBhcHBsaWNhdGlvbiBvYmplY3QuIn1dfQ==" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
 
-## Constructors
+## Properties
 
-<div class="">
+<div class="isReadonly">
 
-<APIRef for="895" v-once>
+<APIRef for="3122" v-once>
 
 <template #title>
 
-### constructor
+### activityBackPressedEvent
 
 </template>
 
@@ -40,11 +45,305 @@ seo:
 
 </div>
 
-## Properties
+<div class="isReadonly">
+
+<APIRef for="3114" v-once>
+
+<template #title>
+
+### activityCreatedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3115" v-once>
+
+<template #title>
+
+### activityDestroyedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3123" v-once>
+
+<template #title>
+
+### activityNewIntentEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3117" v-once>
+
+<template #title>
+
+### activityPausedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3124" v-once>
+
+<template #title>
+
+### activityRequestPermissionsEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3121" v-once>
+
+<template #title>
+
+### activityResultEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3118" v-once>
+
+<template #title>
+
+### activityResumedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3116" v-once>
+
+<template #title>
+
+### activityStartedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3119" v-once>
+
+<template #title>
+
+### activityStoppedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isReadonly">
+
+<APIRef for="3120" v-once>
+
+<template #title>
+
+### saveActivityStateEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2880" v-once>
+
+<template #title>
+
+### activityBackPressedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2872" v-once>
+
+<template #title>
+
+### activityCreatedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2873" v-once>
+
+<template #title>
+
+### activityDestroyedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2881" v-once>
+
+<template #title>
+
+### activityNewIntentEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2875" v-once>
+
+<template #title>
+
+### activityPausedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2882" v-once>
+
+<template #title>
+
+### activityRequestPermissionsEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2879" v-once>
+
+<template #title>
+
+### activityResultEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2876" v-once>
+
+<template #title>
+
+### activityResumedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2874" v-once>
+
+<template #title>
+
+### activityStartedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2877" v-once>
+
+<template #title>
+
+### activityStoppedEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="isStatic isReadonly">
+
+<APIRef for="2878" v-once>
+
+<template #title>
+
+### saveActivityStateEvent
+
+</template>
+
+</APIRef>
+
+</div>
+
+## Accessors
 
 <div class="">
 
-<APIRef for="905" v-once>
+<APIRef for="3140" v-once>
 
 <template #title>
 
@@ -58,7 +357,7 @@ seo:
 
 <div class="">
 
-<APIRef for="898" v-once>
+<APIRef for="3138" v-once>
 
 <template #title>
 
@@ -72,7 +371,7 @@ seo:
 
 <div class="">
 
-<APIRef for="899" v-once>
+<APIRef for="3136" v-once>
 
 <template #title>
 
@@ -86,21 +385,7 @@ seo:
 
 <div class="">
 
-<APIRef for="906" v-once>
-
-<template #title>
-
-### init
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="897" v-once>
+<APIRef for="3130" v-once>
 
 <template #title>
 
@@ -114,21 +399,7 @@ seo:
 
 <div class="">
 
-<APIRef for="901" v-once>
-
-<template #title>
-
-### orientation
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="903" v-once>
+<APIRef for="3132" v-once>
 
 <template #title>
 
@@ -142,7 +413,7 @@ seo:
 
 <div class="">
 
-<APIRef for="904" v-once>
+<APIRef for="3142" v-once>
 
 <template #title>
 
@@ -156,7 +427,7 @@ seo:
 
 <div class="">
 
-<APIRef for="900" v-once>
+<APIRef for="3134" v-once>
 
 <template #title>
 
@@ -168,179 +439,25 @@ seo:
 
 </div>
 
-<div class="">
-
-<APIRef for="902" v-once>
-
-<template #title>
-
-### systemAppearance
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="866" v-once>
-
-<template #title>
-
-### activityBackPressedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="858" v-once>
-
-<template #title>
-
-### activityCreatedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="859" v-once>
-
-<template #title>
-
-### activityDestroyedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="867" v-once>
-
-<template #title>
-
-### activityNewIntentEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="861" v-once>
-
-<template #title>
-
-### activityPausedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="868" v-once>
-
-<template #title>
-
-### activityRequestPermissionsEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="865" v-once>
-
-<template #title>
-
-### activityResultEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="862" v-once>
-
-<template #title>
-
-### activityResumedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="860" v-once>
-
-<template #title>
-
-### activityStartedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="863" v-once>
-
-<template #title>
-
-### activityStoppedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPublic isStatic">
-
-<APIRef for="864" v-once>
-
-<template #title>
-
-### saveActivityStateEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
 ## Methods
 
-<div class="isPublic">
+<div class="">
 
-<APIRef for="995" v-once>
+<APIRef for="3125" v-once>
+
+<template #title>
+
+### getNativeApplication
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="3155" v-once>
 
 <template #title>
 
@@ -354,7 +471,7 @@ seo:
 
 <div class="">
 
-<APIRef for="910" v-once>
+<APIRef for="3158" v-once>
 
 <template #title>
 
@@ -368,7 +485,7 @@ seo:
 
 <div class="">
 
-<APIRef for="998" v-once>
+<APIRef for="3144" v-once>
 
 <template #title>
 
@@ -382,7 +499,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1006" v-once>
+<APIRef for="3152" v-once>
 
 <template #title>
 

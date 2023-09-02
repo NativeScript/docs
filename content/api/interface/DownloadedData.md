@@ -1,6 +1,13 @@
 ---
 title: DownloadedData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'DownloadedData'
 layout: api
 seo:
   description: "Provides data for downloaded event."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface DownloadedData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface DownloadedData extends <a href="/api/interface/EventData">EventData</a> {
   image: <a href="/api/class/ImageSource">ImageSource</a>;
   key: string;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12770" v-once>
+<APIRef for="15812" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="12769" v-once>
+<APIRef for="15811" v-once>
 
 <template #title>
 

@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        2551
+        2836
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2564
+        2849
       ]
     }
   ],
   "reflections": {
-    "2551": {
+    "2836": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/XmlParser#constructor",
@@ -103,7 +103,7 @@
         }
       ]
     },
-    "2564": {
+    "2849": {
       "name": "parse",
       "type": "Method",
       "url": "/api/class/XmlParser#parse",
@@ -111,7 +111,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "parse(xmlString: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parse</span><span style=\"color: #E1E4E8\">(xmlString: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/XmlParser#parse-parse-1",
           "sources": [
             {

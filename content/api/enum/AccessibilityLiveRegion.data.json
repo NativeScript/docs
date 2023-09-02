@@ -5,21 +5,21 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1204,
-        1202,
-        1203
+        939,
+        937,
+        938
       ]
     }
   ],
   "reflections": {
-    "1202": {
+    "937": {
       "name": "None",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityLiveRegion#none",
       "flags": {},
       "signatures": [
         {
-          "code": "None: \"none\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">None</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -31,14 +31,14 @@
         }
       ]
     },
-    "1203": {
+    "938": {
       "name": "Polite",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityLiveRegion#polite",
       "flags": {},
       "signatures": [
         {
-          "code": "Polite: \"polite\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Polite</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;polite&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -50,14 +50,14 @@
         }
       ]
     },
-    "1204": {
+    "939": {
       "name": "Assertive",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityLiveRegion#assertive",
       "flags": {},
       "signatures": [
         {
-          "code": "Assertive: \"assertive\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Assertive</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;assertive&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",

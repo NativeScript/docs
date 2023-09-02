@@ -1,9 +1,16 @@
 ---
 title: Image
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Image'
 layout: api
 seo:
-  description: "Represents a class that provides functionality for loading and streching image(s)."
+  description: "Represents a class that provides functionality for loading and streching images."
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11981" v-once>
+<APIRef for="14964" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11983" v-once>
+<APIRef for="14966" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11991" v-once>
+<APIRef for="14974" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11992" v-once>
+<APIRef for="14975" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11985" v-once>
+<APIRef for="14968" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11984" v-once>
+<APIRef for="14967" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="11987" v-once>
+<APIRef for="14970" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11989" v-once>
+<APIRef for="14972" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11986" v-once>
+<APIRef for="14969" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11988" v-once>
+<APIRef for="14971" v-once>
 
 <template #title>
 
@@ -170,7 +177,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11990" v-once>
+<APIRef for="14973" v-once>
 
 <template #title>
 

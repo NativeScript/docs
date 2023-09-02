@@ -5,14 +5,14 @@
     {
       "title": "Enumeration Members",
       "items": [
-        11113,
-        11114,
-        11115
+        14027,
+        14028,
+        14029
       ]
     }
   ],
   "reflections": {
-    "11113": {
+    "14027": {
       "name": "gestureAttached",
       "type": "EnumMember",
       "url": "/api/enum/GestureEvents#gestureattached",
@@ -27,7 +27,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "gestureAttached: \"gestureAttached\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">gestureAttached</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;gestureAttached&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -47,7 +47,7 @@
         }
       ]
     },
-    "11114": {
+    "14028": {
       "name": "touchDown",
       "type": "EnumMember",
       "url": "/api/enum/GestureEvents#touchdown",
@@ -62,7 +62,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "touchDown: \"touchDown\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touchDown</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;touchDown&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -82,7 +82,7 @@
         }
       ]
     },
-    "11115": {
+    "14029": {
       "name": "touchUp",
       "type": "EnumMember",
       "url": "/api/enum/GestureEvents#touchup",
@@ -97,7 +97,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "touchUp: \"touchUp\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touchUp</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;touchUp&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

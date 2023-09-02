@@ -1,6 +1,13 @@
 ---
 title: TextView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'TextView'
 layout: api
 seo:
   description: "Represents an editable multiline text view."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="26653" v-once>
+<APIRef for="30854" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="26655" v-once>
+<APIRef for="30856" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="26656" v-once>
+<APIRef for="30857" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="26657" v-once>
+<APIRef for="30858" v-once>
 
 <template #title>
 

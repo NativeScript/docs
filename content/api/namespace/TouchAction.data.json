@@ -5,15 +5,15 @@
     {
       "title": "Variables",
       "items": [
-        11092,
-        11089,
-        11091,
-        11090
+        14006,
+        14003,
+        14005,
+        14004
       ]
     }
   ],
   "reflections": {
-    "11089": {
+    "14003": {
       "name": "down",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#down",
@@ -30,7 +30,7 @@
       },
       "signatures": [
         {
-          "code": "down: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">down</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -50,7 +50,7 @@
         }
       ]
     },
-    "11090": {
+    "14004": {
       "name": "up",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#up",
@@ -67,7 +67,7 @@
       },
       "signatures": [
         {
-          "code": "up: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">up</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    "11091": {
+    "14005": {
       "name": "move",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#move",
@@ -104,7 +104,7 @@
       },
       "signatures": [
         {
-          "code": "move: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">move</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -124,7 +124,7 @@
         }
       ]
     },
-    "11092": {
+    "14006": {
       "name": "cancel",
       "type": "Variable",
       "url": "/api/namespace/TouchAction#cancel",
@@ -141,7 +141,7 @@
       },
       "signatures": [
         {
-          "code": "cancel: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancel</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

@@ -1,6 +1,13 @@
 ---
 title: WrappedValue
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'WrappedValue'
 layout: api
 seo:
   description: "Helper class that is used to fire property change even when real object is the same.\nBy default property change will not be fired for a same object.\nBy wrapping object into a WrappedValue instance `same object restriction` will be passed."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1764" v-once>
+<APIRef for="1551" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1767" v-once>
+<APIRef for="1554" v-once>
 
 <template #title>
 
@@ -60,7 +67,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1758" v-once>
+<APIRef for="1545" v-once>
 
 <template #title>
 
@@ -74,7 +81,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1761" v-once>
+<APIRef for="1548" v-once>
 
 <template #title>
 

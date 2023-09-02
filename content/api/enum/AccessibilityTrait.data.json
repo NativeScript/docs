@@ -5,16 +5,16 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1230,
-        1231,
-        1232,
-        1233,
-        1234
+        965,
+        966,
+        967,
+        968,
+        969
       ]
     }
   ],
   "reflections": {
-    "1230": {
+    "965": {
       "name": "AllowsDirectInteraction",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#allowsdirectinteraction",
@@ -29,7 +29,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "AllowsDirectInteraction: \"allowsDirectInteraction\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">AllowsDirectInteraction</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;allowsDirectInteraction&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -49,7 +49,7 @@
         }
       ]
     },
-    "1231": {
+    "966": {
       "name": "CausesPageTurn",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#causespageturn",
@@ -64,7 +64,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "CausesPageTurn: \"pageTurn\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CausesPageTurn</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;pageTurn&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -84,7 +84,7 @@
         }
       ]
     },
-    "1232": {
+    "967": {
       "name": "NotEnabled",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#notenabled",
@@ -99,7 +99,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "NotEnabled: \"disabled\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NotEnabled</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;disabled&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -119,7 +119,7 @@
         }
       ]
     },
-    "1233": {
+    "968": {
       "name": "Selected",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#selected",
@@ -134,7 +134,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Selected: \"selected\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Selected</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;selected&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -154,7 +154,7 @@
         }
       ]
     },
-    "1234": {
+    "969": {
       "name": "UpdatesFrequently",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityTrait#updatesfrequently",
@@ -169,7 +169,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "UpdatesFrequently: \"frequentUpdates\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UpdatesFrequently</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;frequentUpdates&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",

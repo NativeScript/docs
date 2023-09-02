@@ -11,16 +11,16 @@
     {
       "title": "Properties",
       "items": [
-        33433,
-        33431,
-        33437,
-        33430,
-        33432
+        38534,
+        38532,
+        38538,
+        38531,
+        38533
       ]
     }
   ],
   "reflections": {
-    "33430": {
+    "38531": {
       "name": "opacity",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#opacity",
@@ -29,7 +29,7 @@
       },
       "signatures": [
         {
-          "code": "opacity?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">opacity</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
@@ -41,7 +41,7 @@
         }
       ]
     },
-    "33431": {
+    "38532": {
       "name": "color",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#color",
@@ -50,7 +50,7 @@
       },
       "signatures": [
         {
-          "code": "color?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">color</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "33432": {
+    "38533": {
       "name": "tapToClose",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#taptoclose",
@@ -71,7 +71,7 @@
       },
       "signatures": [
         {
-          "code": "tapToClose?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">tapToClose</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
@@ -83,7 +83,7 @@
         }
       ]
     },
-    "33433": {
+    "38534": {
       "name": "animation",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#animation",
@@ -92,7 +92,7 @@
       },
       "signatures": [
         {
-          "code": "animation?: {\n  enterFrom?: TransitionAnimation\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animation</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  enterFrom?: TransitionAnimation</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",
@@ -104,7 +104,7 @@
         }
       ]
     },
-    "33437": {
+    "38538": {
       "name": "ignoreShadeRestore",
       "type": "Property",
       "url": "/api/interface/ShadeCoverOptions#ignoreshaderestore",
@@ -113,7 +113,7 @@
       },
       "signatures": [
         {
-          "code": "ignoreShadeRestore?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ignoreShadeRestore</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/layouts/root-layout/index.d.ts",

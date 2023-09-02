@@ -11,20 +11,20 @@
     {
       "title": "Properties",
       "items": [
-        2490,
-        2489
+        2388,
+        2387
       ]
     }
   ],
   "reflections": {
-    "2489": {
+    "2387": {
       "name": "totalTime",
       "type": "Property",
       "url": "/api/interface/TimerInfo#totaltime",
       "flags": {},
       "signatures": [
         {
-          "code": "totalTime: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">totalTime</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/profiling/index.d.ts",
@@ -36,14 +36,14 @@
         }
       ]
     },
-    "2490": {
+    "2388": {
       "name": "count",
       "type": "Property",
       "url": "/api/interface/TimerInfo#count",
       "flags": {},
       "signatures": [
         {
-          "code": "count: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">count</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/profiling/index.d.ts",

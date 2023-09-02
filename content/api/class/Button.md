@@ -1,6 +1,13 @@
 ---
 title: Button
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Button'
 layout: api
 seo:
   description: "Represents a standard Button widget."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5125" v-once>
+<APIRef for="7600" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5127" v-once>
+<APIRef for="7602" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5128" v-once>
+<APIRef for="7603" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5129" v-once>
+<APIRef for="7604" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="5060" v-once>
+<APIRef for="7520" v-once>
 
 <template #title>
 
@@ -102,7 +109,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5130" v-once>
+<APIRef for="7605" v-once>
 
 <template #title>
 

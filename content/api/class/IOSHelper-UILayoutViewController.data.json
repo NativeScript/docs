@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        8320
+        11070
       ]
     },
     {
       "title": "Methods",
       "items": [
-        8317
+        11067
       ]
     }
   ],
   "reflections": {
-    "8317": {
+    "11067": {
       "name": "initWithOwner",
       "type": "Method",
       "url": "/api/class/IOSHelper-UILayoutViewController#initwithowner",
@@ -33,7 +33,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "initWithOwner(owner: WeakRef&lt;Partial&lt;<a href=\"/api/class/View\">View</a>&gt;&gt;): <a href=\"/api/class/IOSHelper-UILayoutViewController\">UILayoutViewController</a>",
+          "code": "initWithOwner(owner: WeakRef&lt;<a href=\"/api/class/View\">View</a>&gt;): <a href=\"/api/class/IOSHelper-UILayoutViewController\">UILayoutViewController</a>",
           "url": "/api/class/IOSHelper-UILayoutViewController#initwithowner-initwithowner-1",
           "sources": [
             {
@@ -45,7 +45,7 @@
           "parameters": [
             {
               "name": "owner",
-              "type": "WeakRef&lt;Partial&lt;<a href=\"/api/class/View\">View</a>&gt;&gt;",
+              "type": "WeakRef&lt;<a href=\"/api/class/View\">View</a>&gt;",
               "flags": {}
             }
           ],
@@ -53,7 +53,7 @@
         }
       ]
     },
-    "8320": {
+    "11070": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/IOSHelper-UILayoutViewController#constructor",

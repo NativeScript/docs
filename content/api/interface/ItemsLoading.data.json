@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        1924,
-        1925,
-        1923,
-        1926
+        1732,
+        1733,
+        1731,
+        1734
       ]
     }
   ],
   "reflections": {
-    "1923": {
+    "1731": {
       "name": "index",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#index",
@@ -40,7 +40,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "index: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">index</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "1924": {
+    "1732": {
       "name": "count",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#count",
@@ -75,7 +75,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "count: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">count</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
@@ -95,7 +95,7 @@
         }
       ]
     },
-    "1925": {
+    "1733": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#eventname",
@@ -116,12 +116,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "1926": {
+    "1734": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/ItemsLoading#object",
@@ -167,8 +167,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

@@ -5,21 +5,21 @@
     {
       "title": "Namespaces",
       "items": [
-        2098
+        1941
       ]
     },
     {
       "title": "Functions",
       "items": [
-        2096,
-        2090,
-        2092,
-        2094
+        1939,
+        1933,
+        1935,
+        1937
       ]
     }
   ],
   "reflections": {
-    "2090": {
+    "1933": {
       "name": "documents",
       "type": "Function",
       "url": "/api/namespace/knownFolders#documents",
@@ -32,7 +32,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 218,
+              "line": 294,
               "character": 1
             }
           ],
@@ -49,7 +49,7 @@
         }
       ]
     },
-    "2092": {
+    "1935": {
       "name": "externalDocuments",
       "type": "Function",
       "url": "/api/namespace/knownFolders#externaldocuments",
@@ -62,7 +62,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 225,
+              "line": 301,
               "character": 1
             }
           ],
@@ -83,7 +83,7 @@
         }
       ]
     },
-    "2094": {
+    "1937": {
       "name": "temp",
       "type": "Function",
       "url": "/api/namespace/knownFolders#temp",
@@ -96,7 +96,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 230,
+              "line": 306,
               "character": 1
             }
           ],
@@ -113,7 +113,7 @@
         }
       ]
     },
-    "2096": {
+    "1939": {
       "name": "currentApp",
       "type": "Function",
       "url": "/api/namespace/knownFolders#currentapp",
@@ -126,7 +126,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 236,
+              "line": 312,
               "character": 1
             }
           ],
@@ -143,7 +143,7 @@
         }
       ]
     },
-    "2098": {
+    "1941": {
       "name": "ios",
       "type": "Namespace",
       "url": "/api/namespace/knownFolders-ios",
@@ -158,11 +158,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 241,
+              "line": 317,
               "character": 8
             }
           ],

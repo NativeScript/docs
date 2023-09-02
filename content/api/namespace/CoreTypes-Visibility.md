@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.Visibility
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'Visibility'
 layout: api
 seo:
-  description: "Represents the visibility mode of a view."
+  description: CoreTypes.Visibility
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJSZXByZXNlbnRzIHRoZSB2aXNpYmlsaXR5IG1vZGUgb2YgYSB2aWV3LiJ9XX0=" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2656" v-once>
+<APIRef for="4921" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2657" v-once>
+<APIRef for="4922" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2658" v-once>
+<APIRef for="4923" v-once>
 
 <template #title>
 
@@ -70,11 +77,41 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2655" v-once>
+<APIRef for="4920" v-once>
 
 <template #title>
 
 ### visible
+
+</template>
+
+</APIRef>
+
+</div>
+
+## Functions
+
+<div class="">
+
+<APIRef for="4924" v-once>
+
+<template #title>
+
+### isValid
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="4927" v-once>
+
+<template #title>
+
+### parse
 
 </template>
 

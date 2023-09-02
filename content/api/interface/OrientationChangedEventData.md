@@ -1,6 +1,13 @@
 ---
 title: OrientationChangedEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'OrientationChangedEventData'
 layout: api
 seo:
   description: "Event data containing information for orientation changed event."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface OrientationChangedEventData extends <a href="/api/interface/ApplicationEventData">ApplicationEventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface OrientationChangedEventData extends <a href="/api/interface/ApplicationEventData">ApplicationEventData</a> {
   newValue: "portrait" | "landscape" | "unknown";
 }</pre>
 
@@ -32,7 +39,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1080" v-once>
+<APIRef for="4690" v-once>
 
 <template #title>
 

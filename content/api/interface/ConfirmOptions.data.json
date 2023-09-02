@@ -27,18 +27,18 @@
     {
       "title": "Properties",
       "items": [
-        10164,
-        10159,
-        10163,
-        10160,
-        10161,
-        10165,
-        10162
+        13020,
+        13015,
+        13019,
+        13016,
+        13017,
+        13021,
+        13018
       ]
     }
   ],
   "reflections": {
-    "10159": {
+    "13015": {
       "name": "cancelButtonText",
       "type": "Property",
       "url": "/api/interface/ConfirmOptions#cancelbuttontext",
@@ -55,7 +55,7 @@
       },
       "signatures": [
         {
-          "code": "cancelButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -75,7 +75,7 @@
         }
       ]
     },
-    "10160": {
+    "13016": {
       "name": "neutralButtonText",
       "type": "Property",
       "url": "/api/interface/ConfirmOptions#neutralbuttontext",
@@ -92,7 +92,7 @@
       },
       "signatures": [
         {
-          "code": "neutralButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">neutralButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -112,7 +112,7 @@
         }
       ]
     },
-    "10161": {
+    "13017": {
       "name": "okButtonText",
       "type": "Property",
       "url": "/api/interface/ConfirmOptions#okbuttontext",
@@ -135,7 +135,7 @@
       },
       "signatures": [
         {
-          "code": "okButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">okButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -161,7 +161,7 @@
         }
       ]
     },
-    "10162": {
+    "13018": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/ConfirmOptions#title",
@@ -184,7 +184,7 @@
       },
       "signatures": [
         {
-          "code": "title?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">title</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -210,7 +210,7 @@
         }
       ]
     },
-    "10163": {
+    "13019": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/ConfirmOptions#message",
@@ -233,7 +233,7 @@
       },
       "signatures": [
         {
-          "code": "message?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">message</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -259,7 +259,7 @@
         }
       ]
     },
-    "10164": {
+    "13020": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/ConfirmOptions#cancelable",
@@ -282,7 +282,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -308,7 +308,7 @@
         }
       ]
     },
-    "10165": {
+    "13021": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/ConfirmOptions#theme",
@@ -331,7 +331,7 @@
       },
       "signatures": [
         {
-          "code": "theme?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">theme</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

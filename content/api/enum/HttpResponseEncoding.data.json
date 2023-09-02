@@ -5,20 +5,20 @@
     {
       "title": "Enumeration Members",
       "items": [
-        2142,
-        2141
+        1998,
+        1997
       ]
     }
   ],
   "reflections": {
-    "2141": {
+    "1997": {
       "name": "UTF8",
       "type": "EnumMember",
       "url": "/api/enum/HttpResponseEncoding#utf8",
       "flags": {},
       "signatures": [
         {
-          "code": "UTF8: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF8</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",
@@ -30,14 +30,14 @@
         }
       ]
     },
-    "2142": {
+    "1998": {
       "name": "GBK",
       "type": "EnumMember",
       "url": "/api/enum/HttpResponseEncoding#gbk",
       "flags": {},
       "signatures": [
         {
-          "code": "GBK: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">GBK</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/http/index.d.ts",

@@ -1,6 +1,13 @@
 ---
 title: encoding
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'encoding'
 layout: api
 seo:
   description: "Defines the supported character encodings."
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2492" v-once>
+<APIRef for="2390" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2493" v-once>
+<APIRef for="2391" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2494" v-once>
+<APIRef for="2392" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2495" v-once>
+<APIRef for="2393" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2496" v-once>
+<APIRef for="2394" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2497" v-once>
+<APIRef for="2395" v-once>
 
 <template #title>
 

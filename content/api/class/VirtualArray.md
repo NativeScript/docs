@@ -1,6 +1,13 @@
 ---
 title: VirtualArray
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'VirtualArray'
 layout: api
 seo:
   description: "Advanced array like class that helps loading items on demand."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1812" v-once>
+<APIRef for="1614" v-once>
 
 <template #title>
 
@@ -42,93 +49,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate">
-
-<APIRef for="1819" v-once>
-
-<template #title>
-
-### _cache
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="1818" v-once>
-
-<template #title>
-
-### _length
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="1824" v-once>
-
-<template #title>
-
-### _loadSize
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="1817" v-once>
-
-<template #title>
-
-### _loadedIndexes
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="1816" v-once>
-
-<template #title>
-
-### _requestedIndexes
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isPrivate">
-
-<APIRef for="1840" v-once>
-
-<template #title>
-
-### requestItems
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isStatic">
 
-<APIRef for="1784" v-once>
+<APIRef for="1571" v-once>
 
 <template #title>
 
@@ -142,7 +65,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1785" v-once>
+<APIRef for="1572" v-once>
 
 <template #title>
 
@@ -158,7 +81,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1820" v-once>
+<APIRef for="1622" v-once>
 
 <template #title>
 
@@ -172,7 +95,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1825" v-once>
+<APIRef for="1627" v-once>
 
 <template #title>
 
@@ -188,7 +111,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1829" v-once>
+<APIRef for="1631" v-once>
 
 <template #title>
 
@@ -202,7 +125,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1836" v-once>
+<APIRef for="1638" v-once>
 
 <template #title>
 
@@ -216,7 +139,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1832" v-once>
+<APIRef for="1634" v-once>
 
 <template #title>
 

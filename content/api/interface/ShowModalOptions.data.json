@@ -11,19 +11,20 @@
     {
       "title": "Properties",
       "items": [
-        6855,
-        6848,
-        6859,
-        6846,
-        6845,
-        6847,
-        6850,
-        6849
+        9499,
+        9491,
+        9503,
+        9486,
+        9485,
+        9490,
+        9494,
+        9492,
+        9493
       ]
     }
   ],
   "reflections": {
-    "6845": {
+    "9485": {
       "name": "context",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#context",
@@ -38,12 +39,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "context: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 49,
-              "character": 1
+              "line": 22,
+              "character": 4
             }
           ],
           "comment": {
@@ -58,42 +59,26 @@
         }
       ]
     },
-    "6846": {
+    "9486": {
       "name": "closeCallback",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#closecallback",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "A function that will be called when the view is closed. Any arguments provided when calling ShownModallyData.closeCallback will be available here."
-          }
-        ]
-      },
       "flags": {},
       "signatures": [
         {
-          "code": "closeCallback: Function",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">closeCallback</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #F97583\">...</span><span style=\"color: #FFAB70\">args</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">[]) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 54,
-              "character": 1
+              "line": 26,
+              "character": 4
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "A function that will be called when the view is closed. Any arguments provided when calling ShownModallyData.closeCallback will be available here."
-              }
-            ]
-          },
           "url": "/api/interface/ShowModalOptions#closecallback"
         }
       ]
     },
-    "6847": {
+    "9490": {
       "name": "fullscreen",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#fullscreen",
@@ -110,12 +95,12 @@
       },
       "signatures": [
         {
-          "code": "fullscreen?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">fullscreen</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 59,
-              "character": 1
+              "line": 30,
+              "character": 4
             }
           ],
           "comment": {
@@ -130,7 +115,7 @@
         }
       ]
     },
-    "6848": {
+    "9491": {
       "name": "animated",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#animated",
@@ -147,12 +132,12 @@
       },
       "signatures": [
         {
-          "code": "animated?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">animated</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 64,
-              "character": 1
+              "line": 34,
+              "character": 4
             }
           ],
           "comment": {
@@ -167,7 +152,7 @@
         }
       ]
     },
-    "6849": {
+    "9492": {
       "name": "stretched",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#stretched",
@@ -184,12 +169,12 @@
       },
       "signatures": [
         {
-          "code": "stretched?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">stretched</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 69,
-              "character": 1
+              "line": 38,
+              "character": 4
             }
           ],
           "comment": {
@@ -204,7 +189,44 @@
         }
       ]
     },
-    "6850": {
+    "9493": {
+      "name": "transition",
+      "type": "Property",
+      "url": "/api/interface/ShowModalOptions#transition",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional custom transition effect"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">transition</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> ModalTransitionType</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 42,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional custom transition effect"
+              }
+            ]
+          },
+          "url": "/api/interface/ShowModalOptions#transition"
+        }
+      ]
+    },
+    "9494": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#ios",
@@ -221,12 +243,12 @@
       },
       "signatures": [
         {
-          "code": "ios?: {\n  height?: number\n  presentationStyle?: any\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  height?: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  presentationStyle</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 74,
-              "character": 1
+              "line": 46,
+              "character": 4
             }
           ],
           "comment": {
@@ -241,7 +263,7 @@
         }
       ]
     },
-    "6855": {
+    "9499": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#android",
@@ -250,19 +272,19 @@
       },
       "signatures": [
         {
-          "code": "android?: {\n  cancelable?: boolean\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  cancelable?: boolean</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 88,
-              "character": 1
+              "line": 60,
+              "character": 4
             }
           ],
           "url": "/api/interface/ShowModalOptions#android"
         }
       ]
     },
-    "6859": {
+    "9503": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/ShowModalOptions#cancelable-1",
@@ -279,12 +301,12 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
-              "line": 103,
-              "character": 1
+              "line": 75,
+              "character": 4
             }
           ],
           "comment": {

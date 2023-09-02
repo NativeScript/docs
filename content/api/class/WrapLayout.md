@@ -1,6 +1,13 @@
 ---
 title: WrapLayout
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'WrapLayout'
 layout: api
 seo:
   description: "WrapLayout position children in rows or columns depending on orientation property\nuntil space is filled and then wraps them on new row or column."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="34243" v-once>
+<APIRef for="39412" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="34247" v-once>
+<APIRef for="39416" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="34246" v-once>
+<APIRef for="39415" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="34245" v-once>
+<APIRef for="39414" v-once>
 
 <template #title>
 

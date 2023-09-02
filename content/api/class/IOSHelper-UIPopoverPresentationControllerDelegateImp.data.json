@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        8334
+        11084
       ]
     },
     {
       "title": "Methods",
       "items": [
-        8330
+        11080
       ]
     }
   ],
   "reflections": {
-    "8330": {
+    "11080": {
       "name": "initWithOwnerAndCallback",
       "type": "Method",
       "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp#initwithownerandcallback",
@@ -33,7 +33,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "initWithOwnerAndCallback(owner: WeakRef&lt;Partial&lt;<a href=\"/api/class/View\">View</a>&gt;&gt;, whenClosedCallback: Function): <a href=\"/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp\">UIPopoverPresentationControllerDelegateImp</a>",
+          "code": "initWithOwnerAndCallback(owner: WeakRef&lt;<a href=\"/api/class/View\">View</a>&gt;, whenClosedCallback: Function): <a href=\"/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp\">UIPopoverPresentationControllerDelegateImp</a>",
           "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp#initwithownerandcallback-initwithownerandcallback-1",
           "sources": [
             {
@@ -45,7 +45,7 @@
           "parameters": [
             {
               "name": "owner",
-              "type": "WeakRef&lt;Partial&lt;<a href=\"/api/class/View\">View</a>&gt;&gt;",
+              "type": "WeakRef&lt;<a href=\"/api/class/View\">View</a>&gt;",
               "flags": {}
             },
             {
@@ -58,7 +58,7 @@
         }
       ]
     },
-    "8334": {
+    "11084": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp#constructor",

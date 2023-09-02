@@ -5,15 +5,15 @@
     {
       "title": "Enumeration Members",
       "items": [
-        11104,
-        11103,
-        11105,
-        11106
+        14018,
+        14017,
+        14019,
+        14020
       ]
     }
   ],
   "reflections": {
-    "11103": {
+    "14017": {
       "name": "cancelled",
       "type": "EnumMember",
       "url": "/api/enum/GestureStateTypes#cancelled",
@@ -28,7 +28,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "cancelled: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cancelled</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -48,7 +48,7 @@
         }
       ]
     },
-    "11104": {
+    "14018": {
       "name": "began",
       "type": "EnumMember",
       "url": "/api/enum/GestureStateTypes#began",
@@ -63,7 +63,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "began: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">began</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -83,7 +83,7 @@
         }
       ]
     },
-    "11105": {
+    "14019": {
       "name": "changed",
       "type": "EnumMember",
       "url": "/api/enum/GestureStateTypes#changed",
@@ -98,7 +98,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "changed: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">changed</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -118,7 +118,7 @@
         }
       ]
     },
-    "11106": {
+    "14020": {
       "name": "ended",
       "type": "EnumMember",
       "url": "/api/enum/GestureStateTypes#ended",
@@ -133,7 +133,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ended: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ended</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

@@ -1,6 +1,13 @@
 ---
 title: ParserEventType
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ParserEventType'
 layout: api
 seo:
   description: "Specifies the type of parser event."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2573" v-once>
+<APIRef for="2858" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2571" v-once>
+<APIRef for="2856" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2572" v-once>
+<APIRef for="2857" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2569" v-once>
+<APIRef for="2854" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2568" v-once>
+<APIRef for="2853" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2570" v-once>
+<APIRef for="2855" v-once>
 
 <template #title>
 

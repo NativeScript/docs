@@ -11,20 +11,20 @@
     {
       "title": "Properties",
       "items": [
-        5004,
-        5005
+        7467,
+        7468
       ]
     }
   ],
   "reflections": {
-    "5004": {
+    "7467": {
       "name": "property",
       "type": "Property",
       "url": "/api/interface/KeyframeDeclaration#property",
       "flags": {},
       "signatures": [
         {
-          "code": "property: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">property</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -36,14 +36,14 @@
         }
       ]
     },
-    "5005": {
+    "7468": {
       "name": "value",
       "type": "Property",
       "url": "/api/interface/KeyframeDeclaration#value",
       "flags": {},
       "signatures": [
         {
-          "code": "value: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">value</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",

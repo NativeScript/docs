@@ -5,348 +5,204 @@
     {
       "title": "Variables",
       "items": [
-        2728,
-        2726,
-        2727,
-        2721,
-        2722,
-        2724,
-        2723,
-        2725,
-        2720
+        4987,
+        4985,
+        4986,
+        4980,
+        4981,
+        4983,
+        4982,
+        4984,
+        4979
       ]
     }
   ],
   "reflections": {
-    "2720": {
+    "4979": {
       "name": "thin",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#thin",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Thin font weight. CSS font-weight 100."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "thin: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">thin</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 552,
-              "character": 15
+              "line": 206,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Thin font weight. CSS font-weight 100."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#thin"
         }
       ]
     },
-    "2721": {
+    "4980": {
       "name": "extraLight",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#extralight",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Extra-light / Ultra-light font weight. CSS font-weight 200."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "extraLight: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extraLight</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 557,
-              "character": 15
+              "line": 207,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Extra-light / Ultra-light font weight. CSS font-weight 200."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#extralight"
         }
       ]
     },
-    "2722": {
+    "4981": {
       "name": "light",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#light",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Light font weight. CSS font-weight 300."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "light: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">light</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 562,
-              "character": 15
+              "line": 208,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Light font weight. CSS font-weight 300."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#light"
         }
       ]
     },
-    "2723": {
+    "4982": {
       "name": "normal",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#normal",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Normal font weight. CSS font-weight 400."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "normal: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normal</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 567,
-              "character": 15
+              "line": 209,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Normal font weight. CSS font-weight 400."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#normal"
         }
       ]
     },
-    "2724": {
+    "4983": {
       "name": "medium",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#medium",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Medium font weight. CSS font-weight 500."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "medium: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">medium</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 572,
-              "character": 15
+              "line": 210,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Medium font weight. CSS font-weight 500."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#medium"
         }
       ]
     },
-    "2725": {
+    "4984": {
       "name": "semiBold",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#semibold",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Semi-bold / Demi-bold font weight. CSS font-weight 600."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "semiBold: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">semiBold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 577,
-              "character": 15
+              "line": 211,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Semi-bold / Demi-bold font weight. CSS font-weight 600."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#semibold"
         }
       ]
     },
-    "2726": {
+    "4985": {
       "name": "bold",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#bold",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Bold font weight. CSS font-weight 700."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "bold: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 582,
-              "character": 15
+              "line": 212,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Bold font weight. CSS font-weight 700."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#bold"
         }
       ]
     },
-    "2727": {
+    "4986": {
       "name": "extraBold",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#extrabold",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Extra-bold / Ultra-bold font weight. CSS font-weight 800."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "extraBold: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extraBold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 587,
-              "character": 15
+              "line": 213,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Extra-bold / Ultra-bold font weight. CSS font-weight 800."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#extrabold"
         }
       ]
     },
-    "2728": {
+    "4987": {
       "name": "black",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-FontWeight#black",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Black font weight. CSS font-weight 900."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "black: FontWeightType",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">black</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 592,
-              "character": 15
+              "line": 214,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Black font weight. CSS font-weight 900."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-FontWeight#black"
         }
       ]

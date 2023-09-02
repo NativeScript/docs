@@ -11,12 +11,12 @@
     {
       "title": "Methods",
       "items": [
-        2822
+        5075
       ]
     }
   ],
   "reflections": {
-    "2822": {
+    "5075": {
       "name": "handlerError",
       "type": "Method",
       "url": "/api/interface/TraceErrorHandler#handlererror",
@@ -24,7 +24,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "handlerError(error: Error): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">handlerError</span><span style=\"color: #E1E4E8\">(error: Error): any</span></span></code>",
           "url": "/api/interface/TraceErrorHandler#handlererror-handlererror-1",
           "sources": [
             {

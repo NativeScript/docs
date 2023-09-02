@@ -17,55 +17,51 @@
     {
       "title": "Constructors",
       "items": [
-        12641
+        15677
       ]
     },
     {
       "title": "Properties",
       "items": [
-        12750,
-        12613,
-        12614,
-        12644,
-        12643,
-        12615
+        15634,
+        15635,
+        15680,
+        15679,
+        15636
       ]
     },
     {
       "title": "Methods",
       "items": [
-        12745,
-        12689,
-        12742,
-        12692,
-        12696,
-        12713,
-        12631,
-        12665,
-        12647,
-        12645,
-        12652,
-        12655,
-        12739,
-        12730,
-        12734,
-        12708,
-        12626,
-        12667,
-        12616,
-        12700,
-        12621,
-        12649,
-        12662,
-        12721,
-        12636,
-        12658,
-        12726
+        15785,
+        15790,
+        15757,
+        15669,
+        15701,
+        15683,
+        15681,
+        15688,
+        15691,
+        15782,
+        15773,
+        15777,
+        15749,
+        15653,
+        15703,
+        15637,
+        15741,
+        15645,
+        15685,
+        15698,
+        15765,
+        15661,
+        15694,
+        15737
       ]
     }
   ],
   "reflections": {
-    "12613": {
+    "15634": {
       "name": "downloadedEvent",
       "type": "Property",
       "url": "/api/class/ImageCache#downloadedevent",
@@ -83,7 +79,7 @@
       },
       "signatures": [
         {
-          "code": "downloadedEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">downloadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -103,7 +99,7 @@
         }
       ]
     },
-    "12614": {
+    "15635": {
       "name": "downloadErrorEvent",
       "type": "Property",
       "url": "/api/class/ImageCache#downloaderrorevent",
@@ -121,7 +117,7 @@
       },
       "signatures": [
         {
-          "code": "downloadErrorEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">downloadErrorEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -141,7 +137,7 @@
         }
       ]
     },
-    "12615": {
+    "15636": {
       "name": "propertyChangeEvent",
       "type": "Property",
       "url": "/api/class/ImageCache#propertychangeevent",
@@ -164,12 +160,12 @@
       },
       "signatures": [
         {
-          "code": "propertyChangeEvent: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 81,
-              "character": 8
+              "line": 74,
+              "character": 11
             }
           ],
           "inheritedFrom": {
@@ -190,7 +186,7 @@
         }
       ]
     },
-    "12616": {
+    "15637": {
       "name": "on",
       "type": "Method",
       "url": "/api/class/ImageCache#on-4",
@@ -199,25 +195,25 @@
       },
       "inheritedFrom": {
         "name": "on",
-        "url": "/api/class/Observable#on-3",
+        "url": "/api/class/Observable#on-2",
         "fromName": "Observable",
         "fromUrl": "/api/class/Observable"
       },
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "on(eventName: string, callback: any, thisArg?: any): void",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#on-4-on-5",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 91,
-              "character": 1
+              "line": 125,
+              "character": 4
             }
           ],
           "inheritedFrom": {
             "name": "on",
-            "url": "/api/class/Observable#on-3",
+            "url": "/api/class/Observable#on-2",
             "fromName": "Observable",
             "fromUrl": "/api/class/Observable"
           },
@@ -229,7 +225,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {}
             },
             {
@@ -244,7 +240,7 @@
         }
       ]
     },
-    "12621": {
+    "15645": {
       "name": "once",
       "type": "Method",
       "url": "/api/class/ImageCache#once-2",
@@ -260,13 +256,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "once(eventName: string, callback: any, thisArg?: any): void",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#once-2-once-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 106,
-              "character": 1
+              "line": 126,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -283,7 +279,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {}
             },
             {
@@ -298,7 +294,7 @@
         }
       ]
     },
-    "12626": {
+    "15653": {
       "name": "off",
       "type": "Method",
       "url": "/api/class/ImageCache#off-2",
@@ -314,13 +310,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "off(eventName: string, callback?: any, thisArg?: any): void",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#off-2-off-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 113,
-              "character": 1
+              "line": 127,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -337,7 +333,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -354,61 +350,7 @@
         }
       ]
     },
-    "12631": {
-      "name": "addEventListener",
-      "type": "Method",
-      "url": "/api/class/ImageCache#addeventlistener-2",
-      "flags": {
-        "isStatic": true
-      },
-      "inheritedFrom": {
-        "name": "addEventListener",
-        "url": "/api/class/Observable#addeventlistener-2",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "addEventListener(eventName: string, callback: any, thisArg?: any): void",
-          "url": "/api/class/ImageCache#addeventlistener-2-addeventlistener-3",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 123,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "addEventListener",
-            "url": "/api/class/Observable#addeventlistener-2",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "parameters": [
-            {
-              "name": "eventName",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "callback",
-              "type": "any",
-              "flags": {}
-            },
-            {
-              "name": "thisArg",
-              "type": "any",
-              "flags": {
-                "isOptional": true
-              }
-            }
-          ],
-          "returns": "void"
-        }
-      ]
-    },
-    "12636": {
+    "15661": {
       "name": "removeEventListener",
       "type": "Method",
       "url": "/api/class/ImageCache#removeeventlistener-2",
@@ -424,13 +366,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeEventListener(eventName: string, callback?: any, thisArg?: any): void",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#removeeventlistener-2-removeeventlistener-3",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 133,
-              "character": 1
+              "line": 128,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -447,7 +389,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -464,7 +406,61 @@
         }
       ]
     },
-    "12641": {
+    "15669": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/ImageCache#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/ImageCache#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "15677": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ImageCache#constructor",
@@ -480,57 +476,18 @@
           "type": "ConstructorSignature",
           "code": "new ImageCache(): <a href=\"/api/class/ImageCache\">ImageCache</a>",
           "url": "/api/class/ImageCache#constructor-new-imagecache",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 76,
-              "character": 1
-            }
-          ],
           "inheritedFrom": {
             "name": "constructor",
             "url": "/api/class/Observable#constructor",
             "fromName": "Observable",
             "fromUrl": "/api/class/Observable"
           },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Please note that should you be using the "
-              },
-              {
-                "kind": "code",
-                "text": "`new Observable({})`"
-              },
-              {
-                "kind": "text",
-                "text": " constructor, it is **obsolete** since v3.0,\nand you have to migrate to the \"data/observable\" "
-              },
-              {
-                "kind": "code",
-                "text": "`fromObject({})`"
-              },
-              {
-                "kind": "text",
-                "text": " or the "
-              },
-              {
-                "kind": "code",
-                "text": "`fromObjectRecursive({})`"
-              },
-              {
-                "kind": "text",
-                "text": " functions."
-              }
-            ]
-          },
           "parameters": [],
           "returns": "<a href=\"/api/class/ImageCache\">ImageCache</a>"
         }
       ]
     },
-    "12643": {
+    "15679": {
       "name": "placeholder",
       "type": "Property",
       "url": "/api/class/ImageCache#placeholder",
@@ -565,7 +522,7 @@
         }
       ]
     },
-    "12644": {
+    "15680": {
       "name": "maxRequests",
       "type": "Property",
       "url": "/api/class/ImageCache#maxrequests",
@@ -580,7 +537,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "maxRequests: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">maxRequests</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -600,7 +557,7 @@
         }
       ]
     },
-    "12645": {
+    "15681": {
       "name": "enableDownload",
       "type": "Method",
       "url": "/api/class/ImageCache#enabledownload",
@@ -608,7 +565,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "enableDownload(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">enableDownload</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageCache#enabledownload-enabledownload-1",
           "sources": [
             {
@@ -630,7 +587,7 @@
         }
       ]
     },
-    "12647": {
+    "15683": {
       "name": "disableDownload",
       "type": "Method",
       "url": "/api/class/ImageCache#disabledownload",
@@ -638,7 +595,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "disableDownload(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disableDownload</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageCache#disabledownload-disabledownload-1",
           "sources": [
             {
@@ -660,7 +617,7 @@
         }
       ]
     },
-    "12649": {
+    "15685": {
       "name": "push",
       "type": "Method",
       "url": "/api/class/ImageCache#push",
@@ -696,7 +653,7 @@
         }
       ]
     },
-    "12652": {
+    "15688": {
       "name": "enqueue",
       "type": "Method",
       "url": "/api/class/ImageCache#enqueue",
@@ -732,7 +689,7 @@
         }
       ]
     },
-    "12655": {
+    "15691": {
       "name": "get",
       "type": "Method",
       "url": "/api/class/ImageCache#get",
@@ -740,7 +697,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "get(key: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(key: string): any</span></span></code>",
           "url": "/api/class/ImageCache#get-get-1",
           "sources": [
             {
@@ -768,7 +725,7 @@
         }
       ]
     },
-    "12658": {
+    "15694": {
       "name": "set",
       "type": "Method",
       "url": "/api/class/ImageCache#set",
@@ -776,7 +733,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "set(key: string, image: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(key: string, image: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageCache#set-set-1",
           "sources": [
             {
@@ -809,7 +766,7 @@
         }
       ]
     },
-    "12662": {
+    "15698": {
       "name": "remove",
       "type": "Method",
       "url": "/api/class/ImageCache#remove",
@@ -817,7 +774,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "remove(key: string): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(key: string): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageCache#remove-remove-1",
           "sources": [
             {
@@ -845,7 +802,7 @@
         }
       ]
     },
-    "12665": {
+    "15701": {
       "name": "clear",
       "type": "Method",
       "url": "/api/class/ImageCache#clear",
@@ -853,7 +810,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "clear(): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clear</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageCache#clear-clear-1",
           "sources": [
             {
@@ -875,7 +832,7 @@
         }
       ]
     },
-    "12667": {
+    "15703": {
       "name": "on",
       "type": "Method",
       "url": "/api/class/ImageCache#on",
@@ -883,7 +840,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "on(eventNames: string, callback: (args: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "on(eventNames: string, callback: (args: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#on-on-1",
           "sources": [
             {
@@ -959,11 +916,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         },
         {
           "type": "CallSignature",
-          "code": "on(event: \"downloaded\", callback: (args: <a href=\"/api/interface/DownloadedData\">DownloadedData</a>) => void, thisArg?: any): any",
+          "code": "on(event: \"downloaded\", callback: (args: <a href=\"/api/interface/DownloadedData\">DownloadedData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#on-on-2",
           "sources": [
             {
@@ -999,11 +956,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         },
         {
           "type": "CallSignature",
-          "code": "on(event: \"downloadError\", callback: (args: <a href=\"/api/interface/DownloadError\">DownloadError</a>) => void, thisArg?: any): any",
+          "code": "on(event: \"downloadError\", callback: (args: <a href=\"/api/interface/DownloadError\">DownloadError</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#on-on-3",
           "sources": [
             {
@@ -1039,120 +996,64 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "12689": {
-      "name": "_downloadCore",
+    "15737": {
+      "name": "setProperty",
       "type": "Method",
-      "url": "/api/class/ImageCache#downloadcore",
-      "flags": {
-        "isPrivate": true
+      "url": "/api/class/ImageCache#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setProperty",
+        "url": "/api/class/Observable#setproperty",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
       },
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_downloadCore(request: <a href=\"/api/interface/DownloadRequest\">DownloadRequest</a>): any",
-          "url": "/api/class/ImageCache#downloadcore-downloadcore-1",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/ImageCache#setproperty-setproperty-1",
           "sources": [
             {
-              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
-              "line": 104,
-              "character": 1
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
             }
           ],
+          "inheritedFrom": {
+            "name": "setProperty",
+            "url": "/api/class/Observable#setproperty",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
           "comment": {
-            "summary": []
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
           },
           "parameters": [
             {
-              "name": "request",
-              "type": "<a href=\"/api/interface/DownloadRequest\">DownloadRequest</a>",
-              "flags": {}
-            }
-          ],
-          "returns": "any"
-        }
-      ]
-    },
-    "12692": {
-      "name": "_onDownloadCompleted",
-      "type": "Method",
-      "url": "/api/class/ImageCache#ondownloadcompleted",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "_onDownloadCompleted(key: string, image: any): any",
-          "url": "/api/class/ImageCache#ondownloadcompleted-ondownloadcompleted-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
-              "line": 108,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": []
-          },
-          "parameters": [
-            {
-              "name": "key",
+              "name": "name",
               "type": "string",
               "flags": {}
             },
             {
-              "name": "image",
+              "name": "value",
               "type": "any",
               "flags": {}
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "12696": {
-      "name": "_onDownloadError",
-      "type": "Method",
-      "url": "/api/class/ImageCache#ondownloaderror",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "_onDownloadError(key: string, err: Error): any",
-          "url": "/api/class/ImageCache#ondownloaderror-ondownloaderror-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
-              "line": 113,
-              "character": 1
-            }
-          ],
-          "comment": {
-            "summary": []
-          },
-          "parameters": [
-            {
-              "name": "key",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "err",
-              "type": "Error",
-              "flags": {}
-            }
-          ],
-          "returns": "any"
-        }
-      ]
-    },
-    "12700": {
+    "15741": {
       "name": "once",
       "type": "Method",
       "url": "/api/class/ImageCache#once",
@@ -1166,13 +1067,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#once-once-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 104,
-              "character": 1
+              "line": 106,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1240,11 +1141,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "12708": {
+    "15749": {
       "name": "off",
       "type": "Method",
       "url": "/api/class/ImageCache#off",
@@ -1258,13 +1159,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "off(eventNames: string, callback?: any, thisArg?: any): any",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#off-off-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 111,
-              "character": 1
+              "line": 110,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1289,7 +1190,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               }
@@ -1302,11 +1203,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "12713": {
+    "15757": {
       "name": "addEventListener",
       "type": "Method",
       "url": "/api/class/ImageCache#addeventlistener",
@@ -1320,13 +1221,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): any",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#addeventlistener-addeventlistener-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 121,
-              "character": 1
+              "line": 117,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1386,11 +1287,11 @@
               }
             }
           ],
-          "returns": "any"
+          "returns": "void"
         }
       ]
     },
-    "12721": {
+    "15765": {
       "name": "removeEventListener",
       "type": "Method",
       "url": "/api/class/ImageCache#removeeventlistener",
@@ -1404,13 +1305,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeEventListener(eventNames: string, callback?: any, thisArg?: any): any",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
           "url": "/api/class/ImageCache#removeeventlistener-removeeventlistener-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 131,
-              "character": 1
+              "line": 124,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1443,7 +1344,7 @@
             },
             {
               "name": "callback",
-              "type": "any",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
               "flags": {
                 "isOptional": true
               },
@@ -1472,64 +1373,11 @@
               }
             }
           ],
-          "returns": "any"
-        }
-      ]
-    },
-    "12726": {
-      "name": "setProperty",
-      "type": "Method",
-      "url": "/api/class/ImageCache#setproperty",
-      "flags": {},
-      "inheritedFrom": {
-        "name": "setProperty",
-        "url": "/api/class/Observable#setproperty",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "setProperty(name: string, value: any): void",
-          "url": "/api/class/ImageCache#setproperty-setproperty-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 143,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "setProperty",
-            "url": "/api/class/Observable#setproperty",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
-              }
-            ]
-          },
-          "parameters": [
-            {
-              "name": "name",
-              "type": "string",
-              "flags": {}
-            },
-            {
-              "name": "value",
-              "type": "any",
-              "flags": {}
-            }
-          ],
           "returns": "void"
         }
       ]
     },
-    "12730": {
+    "15773": {
       "name": "notify",
       "type": "Method",
       "url": "/api/class/ImageCache#notify",
@@ -1543,13 +1391,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notify&lt;T&gt;(data: T): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
           "url": "/api/class/ImageCache#notify-notify-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 154,
-              "character": 1
+              "line": 140,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1562,7 +1410,7 @@
             "summary": [
               {
                 "kind": "text",
-                "text": "Notifies all the registered listeners for the event provided in the data.eventName."
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
               }
             ]
           },
@@ -1575,7 +1423,7 @@
                 "summary": [
                   {
                     "kind": "text",
-                    "text": "The data associated with the event."
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
                   }
                 ]
               }
@@ -1585,7 +1433,7 @@
         }
       ]
     },
-    "12734": {
+    "15777": {
       "name": "notifyPropertyChange",
       "type": "Method",
       "url": "/api/class/ImageCache#notifypropertychange",
@@ -1599,13 +1447,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "notifyPropertyChange(propertyName: string, value: any, oldValue?: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageCache#notifypropertychange-notifypropertychange-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 159,
-              "character": 1
+              "line": 145,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1624,7 +1472,7 @@
           },
           "parameters": [
             {
-              "name": "propertyName",
+              "name": "name",
               "type": "string",
               "flags": {}
             },
@@ -1645,7 +1493,7 @@
         }
       ]
     },
-    "12739": {
+    "15782": {
       "name": "hasListeners",
       "type": "Method",
       "url": "/api/class/ImageCache#haslisteners",
@@ -1659,13 +1507,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "hasListeners(eventName: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
           "url": "/api/class/ImageCache#haslisteners-haslisteners-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 165,
-              "character": 1
+              "line": 150,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1701,49 +1549,7 @@
         }
       ]
     },
-    "12742": {
-      "name": "_emit",
-      "type": "Method",
-      "url": "/api/class/ImageCache#emit",
-      "flags": {
-        "isPublic": true
-      },
-      "inheritedFrom": {
-        "name": "_emit",
-        "url": "/api/class/Observable#emit",
-        "fromName": "Observable",
-        "fromUrl": "/api/class/Observable"
-      },
-      "signatures": [
-        {
-          "type": "CallSignature",
-          "code": "_emit(eventNames: string): any",
-          "url": "/api/class/ImageCache#emit-emit-1",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 167,
-              "character": 1
-            }
-          ],
-          "inheritedFrom": {
-            "name": "_emit",
-            "url": "/api/class/Observable#emit",
-            "fromName": "Observable",
-            "fromUrl": "/api/class/Observable"
-          },
-          "parameters": [
-            {
-              "name": "eventNames",
-              "type": "string",
-              "flags": {}
-            }
-          ],
-          "returns": "any"
-        }
-      ]
-    },
-    "12745": {
+    "15785": {
       "name": "_createPropertyChangeData",
       "type": "Method",
       "url": "/api/class/ImageCache#createpropertychangedata",
@@ -1757,13 +1563,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_createPropertyChangeData(name: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
           "url": "/api/class/ImageCache#createpropertychangedata-createpropertychangedata-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 172,
-              "character": 1
+              "line": 154,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -1782,7 +1588,7 @@
           },
           "parameters": [
             {
-              "name": "name",
+              "name": "propertyName",
               "type": "string",
               "flags": {}
             },
@@ -1803,52 +1609,43 @@
         }
       ]
     },
-    "12750": {
-      "name": "_isViewBase",
-      "type": "Property",
-      "url": "/api/class/ImageCache#isviewbase",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Filed to use instead of instanceof ViewBase."
-          }
-        ]
-      },
-      "flags": {
-        "isPrivate": true
-      },
+    "15790": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/ImageCache#emit",
+      "flags": {},
       "inheritedFrom": {
-        "name": "_isViewBase",
-        "url": "/api/class/Observable#isviewbase",
+        "name": "_emit",
+        "url": "/api/class/Observable#emit",
         "fromName": "Observable",
         "fromUrl": "/api/class/Observable"
       },
       "signatures": [
         {
-          "code": "_isViewBase: boolean",
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/ImageCache#emit-emit-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 179,
-              "character": 8
+              "line": 155,
+              "character": 4
             }
           ],
           "inheritedFrom": {
-            "name": "_isViewBase",
-            "url": "/api/class/Observable#isviewbase",
+            "name": "_emit",
+            "url": "/api/class/Observable#emit",
             "fromName": "Observable",
             "fromUrl": "/api/class/Observable"
           },
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Filed to use instead of instanceof ViewBase."
-              }
-            ]
-          },
-          "url": "/api/class/ImageCache#isviewbase"
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
         }
       ]
     }

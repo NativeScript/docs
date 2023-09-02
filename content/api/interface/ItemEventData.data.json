@@ -17,17 +17,17 @@
     {
       "title": "Properties",
       "items": [
-        14885,
-        14886,
-        14882,
-        14884,
-        14887,
-        14883
+        18086,
+        18087,
+        18083,
+        18085,
+        18088,
+        18084
       ]
     }
   ],
   "reflections": {
-    "14882": {
+    "18083": {
       "name": "index",
       "type": "Property",
       "url": "/api/interface/ItemEventData#index",
@@ -42,7 +42,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "index: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">index</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "14883": {
+    "18084": {
       "name": "view",
       "type": "Property",
       "url": "/api/interface/ItemEventData#view",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "14884": {
+    "18085": {
       "name": "ios",
       "type": "Property",
       "url": "/api/interface/ItemEventData#ios",
@@ -112,7 +112,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "14885": {
+    "18086": {
       "name": "android",
       "type": "Property",
       "url": "/api/interface/ItemEventData#android",
@@ -147,7 +147,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "14886": {
+    "18087": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/ItemEventData#eventname",
@@ -188,12 +188,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -214,7 +214,7 @@
         }
       ]
     },
-    "14887": {
+    "18088": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/ItemEventData#object",
@@ -239,8 +239,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

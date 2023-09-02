@@ -5,17 +5,17 @@
     {
       "title": "Variables",
       "items": [
-        10115,
-        10113,
-        10114,
-        10112,
-        10116,
-        10111
+        12971,
+        12969,
+        12970,
+        12968,
+        12972,
+        12967
       ]
     }
   ],
   "reflections": {
-    "10111": {
+    "12967": {
       "name": "text",
       "type": "Variable",
       "url": "/api/namespace/inputType#text",
@@ -32,7 +32,7 @@
       },
       "signatures": [
         {
-          "code": "text: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "10112": {
+    "12968": {
       "name": "password",
       "type": "Variable",
       "url": "/api/namespace/inputType#password",
@@ -69,7 +69,7 @@
       },
       "signatures": [
         {
-          "code": "password: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">password</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "10113": {
+    "12969": {
       "name": "email",
       "type": "Variable",
       "url": "/api/namespace/inputType#email",
@@ -106,7 +106,7 @@
       },
       "signatures": [
         {
-          "code": "email: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">email</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -126,7 +126,7 @@
         }
       ]
     },
-    "10114": {
+    "12970": {
       "name": "number",
       "type": "Variable",
       "url": "/api/namespace/inputType#number",
@@ -143,7 +143,7 @@
       },
       "signatures": [
         {
-          "code": "number: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">number</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -163,7 +163,7 @@
         }
       ]
     },
-    "10115": {
+    "12971": {
       "name": "decimal",
       "type": "Variable",
       "url": "/api/namespace/inputType#decimal",
@@ -180,7 +180,7 @@
       },
       "signatures": [
         {
-          "code": "decimal: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">decimal</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -200,7 +200,7 @@
         }
       ]
     },
-    "10116": {
+    "12972": {
       "name": "phone",
       "type": "Variable",
       "url": "/api/namespace/inputType#phone",
@@ -217,7 +217,7 @@
       },
       "signatures": [
         {
-          "code": "phone: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">phone</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

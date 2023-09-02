@@ -1,6 +1,13 @@
 ---
 title: ContainerView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ContainerView'
 layout: api
 seo:
   description: "Base class for all UI components that are containers."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="7616" v-once>
+<APIRef for="10328" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="7618" v-once>
+<APIRef for="10330" v-once>
 
 <template #title>
 

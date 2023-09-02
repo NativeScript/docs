@@ -17,43 +17,95 @@
     {
       "title": "Constructors",
       "items": [
-        1934
+        1745
       ]
     },
     {
       "title": "Properties",
       "items": [
-        1936,
-        1938,
-        1979,
-        1980,
-        1982,
-        1981,
-        1937
+        1736,
+        1747,
+        1737,
+        1749,
+        1822,
+        1823,
+        1825,
+        1824,
+        1748
       ]
     },
     {
       "title": "Methods",
       "items": [
-        1928,
-        1931,
-        1949,
-        1951,
-        1939,
-        1942,
-        1983,
-        1985,
-        1991,
-        1994,
-        1969,
-        1972,
-        1957,
-        1961
+        1762,
+        1765,
+        1750,
+        1754,
+        1772,
+        1775,
+        1738,
+        1741,
+        1792,
+        1794,
+        1782,
+        1785,
+        1826,
+        1828,
+        1834,
+        1837,
+        1812,
+        1815,
+        1800,
+        1804
       ]
     }
   ],
   "reflections": {
-    "1928": {
+    "1736": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/class/File#android",
+      "flags": {
+        "isStatic": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: Android</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 90,
+              "character": 17
+            }
+          ],
+          "url": "/api/class/File#android"
+        }
+      ]
+    },
+    "1737": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/class/File#ios",
+      "flags": {
+        "isStatic": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: iOS</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 92,
+              "character": 17
+            }
+          ],
+          "url": "/api/class/File#ios"
+        }
+      ]
+    },
+    "1738": {
       "name": "exists",
       "type": "Method",
       "url": "/api/class/File#exists",
@@ -63,12 +115,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "exists(path: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exists</span><span style=\"color: #E1E4E8\">(path: string): boolean</span></span></code>",
           "url": "/api/class/File#exists-exists-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 66,
+              "line": 98,
               "character": 1
             }
           ],
@@ -99,7 +151,7 @@
         }
       ]
     },
-    "1931": {
+    "1741": {
       "name": "fromPath",
       "type": "Method",
       "url": "/api/class/File#frompath",
@@ -109,12 +161,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromPath(path: string): <a href=\"/api/class/File\">File</a>",
+          "code": "fromPath(path: string, copy?: boolean): <a href=\"/api/class/File\">File</a>",
           "url": "/api/class/File#frompath-frompath-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 87,
+              "line": 163,
               "character": 1
             }
           ],
@@ -139,13 +191,28 @@
                   }
                 ]
               }
+            },
+            {
+              "name": "copy",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value when set, copies the content-uri to a temp file enabling the legacy behaviour"
+                  }
+                ]
+              }
             }
           ],
           "returns": "<a href=\"/api/class/File\">File</a>"
         }
       ]
     },
-    "1934": {
+    "1745": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/File#constructor",
@@ -172,7 +239,7 @@
         }
       ]
     },
-    "1936": {
+    "1747": {
       "name": "extension",
       "type": "Property",
       "url": "/api/class/File#extension",
@@ -187,11 +254,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "extension: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extension</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 71,
+              "line": 103,
               "character": 1
             }
           ],
@@ -207,7 +274,7 @@
         }
       ]
     },
-    "1937": {
+    "1748": {
       "name": "size",
       "type": "Property",
       "url": "/api/class/File#size",
@@ -222,11 +289,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "size: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">size</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 76,
+              "line": 108,
               "character": 1
             }
           ],
@@ -242,7 +309,7 @@
         }
       ]
     },
-    "1938": {
+    "1749": {
       "name": "isLocked",
       "type": "Property",
       "url": "/api/class/File#islocked",
@@ -257,11 +324,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isLocked: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isLocked</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 81,
+              "line": 113,
               "character": 1
             }
           ],
@@ -277,7 +344,346 @@
         }
       ]
     },
-    "1939": {
+    "1750": {
+      "name": "appendText",
+      "type": "Method",
+      "url": "/api/class/File#appendtext",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">appendText</span><span style=\"color: #E1E4E8\">(content: string, encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/File#appendtext-appendtext-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 120,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Appends the provided string to the file, using the specified encoding (defaults to UTF-8)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The content to be saved to the file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "encoding",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value specifying the preferred encoding (defaults to UTF-8)."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1754": {
+      "name": "appendTextSync",
+      "type": "Method",
+      "url": "/api/class/File#appendtextsync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">appendTextSync</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  content: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/File#appendtextsync-appendtextsync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 128,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Appends the provided string to the file synchronously, using the specified encoding (defaults to UTF-8)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The content to be saved to the file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some IO-error occurs."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "encoding",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional value specifying the preferred encoding (defaults to UTF-8)."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1762": {
+      "name": "append",
+      "type": "Method",
+      "url": "/api/class/File#append",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">append</span><span style=\"color: #E1E4E8\">(content: any): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #F97583\">void&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/File#append-append-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 134,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Appends the provided binary content to the file."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The binary content to be saved to the file."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;void&gt;"
+        }
+      ]
+    },
+    "1765": {
+      "name": "appendSync",
+      "type": "Method",
+      "url": "/api/class/File#appendsync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">appendSync</span><span style=\"color: #E1E4E8\">(content: any, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/File#appendsync-appendsync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 141,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Appends the provided binary content to the file synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "content",
+              "type": "any",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The binary content to be saved to the file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional function to be called if some IO-error occurs."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1772": {
+      "name": "copy",
+      "type": "Method",
+      "url": "/api/class/File#copy",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">copy</span><span style=\"color: #E1E4E8\">(dest: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/File#copy-copy-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 148,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Copies a file to a given path."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path to the destination file.\nReturns a Promise with a boolean."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;boolean&gt;"
+        }
+      ]
+    },
+    "1775": {
+      "name": "copySync",
+      "type": "Method",
+      "url": "/api/class/File#copysync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">copySync</span><span style=\"color: #E1E4E8\">(dest: string, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): any</span></span></code>",
+          "url": "/api/class/File#copysync-copysync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 156,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Copies a file to a given path."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "dest",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The path to the destination file."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "(optional) A callback function to use if any error occurs.\nReturns a Promise with a boolean."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1782": {
       "name": "readText",
       "type": "Method",
       "url": "/api/class/File#readtext",
@@ -285,12 +691,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "readText(encoding?: string): Promise&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">readText</span><span style=\"color: #E1E4E8\">(encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#readtext-readtext-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 93,
+              "line": 169,
               "character": 1
             }
           ],
@@ -323,7 +729,7 @@
         }
       ]
     },
-    "1942": {
+    "1785": {
       "name": "readTextSync",
       "type": "Method",
       "url": "/api/class/File#readtextsync",
@@ -331,12 +737,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "readTextSync(onError?: (error: any) => any, encoding?: string): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">readTextSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any, encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): string</span></span></code>",
           "url": "/api/class/File#readtextsync-readtextsync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 100,
+              "line": 176,
               "character": 1
             }
           ],
@@ -384,7 +790,7 @@
         }
       ]
     },
-    "1949": {
+    "1792": {
       "name": "read",
       "type": "Method",
       "url": "/api/class/File#read",
@@ -392,12 +798,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "read(): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">read</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#read-read-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 105,
+              "line": 181,
               "character": 1
             }
           ],
@@ -414,7 +820,7 @@
         }
       ]
     },
-    "1951": {
+    "1794": {
       "name": "readSync",
       "type": "Method",
       "url": "/api/class/File#readsync",
@@ -422,12 +828,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "readSync(onError?: (error: any) => any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">readSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): any</span></span></code>",
           "url": "/api/class/File#readsync-readsync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 111,
+              "line": 187,
               "character": 1
             }
           ],
@@ -460,7 +866,7 @@
         }
       ]
     },
-    "1957": {
+    "1800": {
       "name": "writeText",
       "type": "Method",
       "url": "/api/class/File#writetext",
@@ -468,12 +874,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "writeText(content: string, encoding?: string): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">writeText</span><span style=\"color: #E1E4E8\">(content: string, encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#writetext-writetext-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 118,
+              "line": 194,
               "character": 1
             }
           ],
@@ -519,7 +925,7 @@
         }
       ]
     },
-    "1961": {
+    "1804": {
       "name": "writeTextSync",
       "type": "Method",
       "url": "/api/class/File#writetextsync",
@@ -527,12 +933,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "writeTextSync(\n  content: string,\n  onError?: (error: any) => any,\n  encoding?: string\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">writeTextSync</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  content: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  encoding</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#writetextsync-writetextsync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 126,
+              "line": 202,
               "character": 1
             }
           ],
@@ -593,7 +999,7 @@
         }
       ]
     },
-    "1969": {
+    "1812": {
       "name": "write",
       "type": "Method",
       "url": "/api/class/File#write",
@@ -601,12 +1007,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "write(content: any): Promise&lt;void&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">write</span><span style=\"color: #E1E4E8\">(content: any): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #F97583\">void&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#write-write-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 132,
+              "line": 208,
               "character": 1
             }
           ],
@@ -637,7 +1043,7 @@
         }
       ]
     },
-    "1972": {
+    "1815": {
       "name": "writeSync",
       "type": "Method",
       "url": "/api/class/File#writesync",
@@ -645,12 +1051,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "writeSync(content: any, onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">writeSync</span><span style=\"color: #E1E4E8\">(content: any, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#writesync-writesync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 139,
+              "line": 215,
               "character": 1
             }
           ],
@@ -696,7 +1102,7 @@
         }
       ]
     },
-    "1979": {
+    "1822": {
       "name": "lastModified",
       "type": "Property",
       "url": "/api/class/File#lastmodified",
@@ -717,11 +1123,11 @@
       },
       "signatures": [
         {
-          "code": "lastModified: Date",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lastModified</span><span style=\"color: #E1E4E8\">: Date</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 16,
+              "line": 31,
               "character": 1
             }
           ],
@@ -743,7 +1149,7 @@
         }
       ]
     },
-    "1980": {
+    "1823": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/File#name",
@@ -764,11 +1170,11 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 21,
+              "line": 36,
               "character": 1
             }
           ],
@@ -790,7 +1196,7 @@
         }
       ]
     },
-    "1981": {
+    "1824": {
       "name": "path",
       "type": "Property",
       "url": "/api/class/File#path",
@@ -811,11 +1217,11 @@
       },
       "signatures": [
         {
-          "code": "path: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">path</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 26,
+              "line": 41,
               "character": 1
             }
           ],
@@ -837,7 +1243,7 @@
         }
       ]
     },
-    "1982": {
+    "1825": {
       "name": "parent",
       "type": "Property",
       "url": "/api/class/File#parent",
@@ -862,7 +1268,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 33,
+              "line": 48,
               "character": 1
             }
           ],
@@ -884,7 +1290,7 @@
         }
       ]
     },
-    "1983": {
+    "1826": {
       "name": "remove",
       "type": "Method",
       "url": "/api/class/File#remove",
@@ -898,12 +1304,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "remove(): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#remove-remove-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 38,
+              "line": 53,
               "character": 1
             }
           ],
@@ -926,7 +1332,7 @@
         }
       ]
     },
-    "1985": {
+    "1828": {
       "name": "removeSync",
       "type": "Method",
       "url": "/api/class/File#removesync",
@@ -940,12 +1346,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeSync(onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#removesync-removesync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 43,
+              "line": 58,
               "character": 1
             }
           ],
@@ -976,7 +1382,7 @@
         }
       ]
     },
-    "1991": {
+    "1834": {
       "name": "rename",
       "type": "Method",
       "url": "/api/class/File#rename",
@@ -990,12 +1396,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "rename(newName: string): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rename</span><span style=\"color: #E1E4E8\">(newName: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/File#rename-rename-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 49,
+              "line": 64,
               "character": 1
             }
           ],
@@ -1032,7 +1438,7 @@
         }
       ]
     },
-    "1994": {
+    "1837": {
       "name": "renameSync",
       "type": "Method",
       "url": "/api/class/File#renamesync",
@@ -1046,12 +1452,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "renameSync(newName: string, onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">renameSync</span><span style=\"color: #E1E4E8\">(newName: string, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/File#renamesync-renamesync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 55,
+              "line": 70,
               "character": 1
             }
           ],

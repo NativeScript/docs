@@ -17,17 +17,17 @@
     {
       "title": "Properties",
       "items": [
-        1119,
-        1120,
-        1118,
-        1121,
-        1117,
-        1116
+        4739,
+        4740,
+        4738,
+        4741,
+        4737,
+        4736
       ]
     }
   ],
   "reflections": {
-    "1116": {
+    "4736": {
       "name": "requestCode",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#requestcode",
@@ -42,12 +42,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "requestCode: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">requestCode</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 437,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 137,
+              "character": 4
             }
           ],
           "comment": {
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "1117": {
+    "4737": {
       "name": "permissions",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#permissions",
@@ -77,12 +77,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "permissions: string[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">permissions</span><span style=\"color: #E1E4E8\">: string[]</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 442,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 141,
+              "character": 4
             }
           ],
           "comment": {
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "1118": {
+    "4738": {
       "name": "grantResults",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#grantresults",
@@ -112,12 +112,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "grantResults: number[]",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">grantResults</span><span style=\"color: #E1E4E8\">: number[]</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 447,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 145,
+              "character": 4
             }
           ],
           "comment": {
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "1119": {
+    "4739": {
       "name": "activity",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#activity",
@@ -153,12 +153,12 @@
       },
       "signatures": [
         {
-          "code": "activity: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">activity</span><span style=\"color: #E1E4E8\">: AppCompatActivity</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 407,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 111,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -179,7 +179,7 @@
         }
       ]
     },
-    "1120": {
+    "4740": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#eventname",
@@ -200,12 +200,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 412,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 115,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -226,7 +226,7 @@
         }
       ]
     },
-    "1121": {
+    "4741": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/AndroidActivityRequestPermissionsEventData#object",
@@ -247,12 +247,12 @@
       },
       "signatures": [
         {
-          "code": "object: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">object</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
-              "fileName": "@nativescript/core/application/index.d.ts",
-              "line": 417,
-              "character": 1
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 119,
+              "character": 4
             }
           ],
           "inheritedFrom": {

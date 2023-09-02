@@ -1,6 +1,13 @@
 ---
 title: KeyframeAnimationInfo
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'KeyframeAnimationInfo'
 layout: api
 seo:
   description: "Defines animation options for the View.animate method."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4993" v-once>
+<APIRef for="7456" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5000" v-once>
+<APIRef for="7463" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="4998" v-once>
+<APIRef for="7461" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="4997" v-once>
+<APIRef for="7460" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5001" v-once>
+<APIRef for="7464" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="5002" v-once>
+<APIRef for="7465" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="4999" v-once>
+<APIRef for="7462" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="4995" v-once>
+<APIRef for="7458" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="4996" v-once>
+<APIRef for="7459" v-once>
 
 <template #title>
 

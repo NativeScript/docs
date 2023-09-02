@@ -203,12 +203,24 @@ Utils.executeOnMainThread(fn: Function)
 ```
 Checks if the current thread is the main thread. If it is, calls the passed function. Otherwise, it dispatches it to the main thread.
 
+:::warning Important!
+
+This will be made synchronously when invoked from the main thread, or asynchronously if it's not.
+
+:::
+
 ---
 ### executeOnUIThread()
 ```ts
 Utils.executeOnUIThread(fn: Function)
 ```
 Runs the passed function on the UI Thread.
+
+:::warning Important!
+
+Always dispatches asynchronously to the UI thread.
+
+:::
 
 ---
 ### mainThreadify()

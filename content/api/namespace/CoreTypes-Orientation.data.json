@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2626,
-        2627
+        4870,
+        4871
       ]
     }
   ],
   "reflections": {
-    "2626": {
+    "4870": {
       "name": "horizontal",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Orientation#horizontal",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Layout should be horizontally oriented."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "horizontal: <a href=\"/api/namespace/CoreTypes#orientationtype\">OrientationType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">horizontal</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;horizontal&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;horizontal&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 141,
-              "character": 15
+              "line": 90,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Layout should be horizontally oriented."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Orientation#horizontal"
         }
       ]
     },
-    "2627": {
+    "4871": {
       "name": "vertical",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-Orientation#vertical",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Layout should be vertically oriented."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "vertical: <a href=\"/api/namespace/CoreTypes#orientationtype\">OrientationType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">vertical</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;vertical&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;vertical&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 145,
-              "character": 15
+              "line": 91,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Layout should be vertically oriented."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-Orientation#vertical"
         }
       ]

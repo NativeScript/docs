@@ -21,38 +21,37 @@
     {
       "title": "Constructors",
       "items": [
-        9063
+        11866
       ]
     },
     {
       "title": "Properties",
       "items": [
-        9093,
-        9074,
-        9073,
-        9092,
-        9081,
-        9071,
-        9080,
-        9070,
-        9069,
-        9075,
-        9088,
-        9068,
-        9084,
-        9072
+        11896,
+        11877,
+        11876,
+        11895,
+        11884,
+        11874,
+        11883,
+        11873,
+        11872,
+        11878,
+        11891,
+        11887,
+        11875
       ]
     },
     {
       "title": "Methods",
       "items": [
-        9099,
-        9094
+        11902,
+        11897
       ]
     }
   ],
   "reflections": {
-    "9063": {
+    "11866": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Property#constructor",
@@ -80,28 +79,7 @@
         }
       ]
     },
-    "9068": {
-      "name": "registered",
-      "type": "Property",
-      "url": "/api/class/Property#registered",
-      "flags": {
-        "isPrivate": true
-      },
-      "signatures": [
-        {
-          "code": "registered: any",
-          "sources": [
-            {
-              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
-              "line": 44,
-              "character": 12
-            }
-          ],
-          "url": "/api/class/Property#registered"
-        }
-      ]
-    },
-    "9069": {
+    "11872": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/Property#name",
@@ -110,7 +88,7 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -122,7 +100,7 @@
         }
       ]
     },
-    "9070": {
+    "11873": {
       "name": "key",
       "type": "Property",
       "url": "/api/class/Property#key",
@@ -131,7 +109,7 @@
       },
       "signatures": [
         {
-          "code": "key: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -143,7 +121,7 @@
         }
       ]
     },
-    "9071": {
+    "11874": {
       "name": "getDefault",
       "type": "Property",
       "url": "/api/class/Property#getdefault",
@@ -152,7 +130,7 @@
       },
       "signatures": [
         {
-          "code": "getDefault: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDefault</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -164,7 +142,7 @@
         }
       ]
     },
-    "9072": {
+    "11875": {
       "name": "setNative",
       "type": "Property",
       "url": "/api/class/Property#setnative",
@@ -173,7 +151,7 @@
       },
       "signatures": [
         {
-          "code": "setNative: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNative</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -185,7 +163,7 @@
         }
       ]
     },
-    "9073": {
+    "11876": {
       "name": "defaultValueKey",
       "type": "Property",
       "url": "/api/class/Property#defaultvaluekey",
@@ -194,7 +172,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValueKey: symbol",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValueKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -206,7 +184,7 @@
         }
       ]
     },
-    "9074": {
+    "11877": {
       "name": "defaultValue",
       "type": "Property",
       "url": "/api/class/Property#defaultvalue",
@@ -215,7 +193,7 @@
       },
       "signatures": [
         {
-          "code": "defaultValue: U",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">defaultValue</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">U</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -227,7 +205,7 @@
         }
       ]
     },
-    "9075": {
+    "11878": {
       "name": "nativeValueChange",
       "type": "Property",
       "url": "/api/class/Property#nativevaluechange",
@@ -236,7 +214,7 @@
       },
       "signatures": [
         {
-          "code": "nativeValueChange: (owner: T, value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeValueChange</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">owner</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -248,14 +226,14 @@
         }
       ]
     },
-    "9080": {
+    "11883": {
       "name": "isStyleProperty",
       "type": "Property",
       "url": "/api/class/Property#isstyleproperty",
       "flags": {},
       "signatures": [
         {
-          "code": "isStyleProperty: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isStyleProperty</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -267,14 +245,14 @@
         }
       ]
     },
-    "9081": {
+    "11884": {
       "name": "get",
       "type": "Property",
       "url": "/api/class/Property#get",
       "flags": {},
       "signatures": [
         {
-          "code": "get: () => U",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">: () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">U</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -286,14 +264,14 @@
         }
       ]
     },
-    "9084": {
+    "11887": {
       "name": "set",
       "type": "Property",
       "url": "/api/class/Property#set",
       "flags": {},
       "signatures": [
         {
-          "code": "set: (value: U) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">value</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">U</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -305,14 +283,14 @@
         }
       ]
     },
-    "9088": {
+    "11891": {
       "name": "overrideHandlers",
       "type": "Property",
       "url": "/api/class/Property#overridehandlers",
       "flags": {},
       "signatures": [
         {
-          "code": "overrideHandlers: (options: PropertyOptions&lt;T, U&gt;) => void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">overrideHandlers</span><span style=\"color: #E1E4E8\">: (</span><span style=\"color: #FFAB70\">options</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">PropertyOptions</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #B392F0\">lt</span><span style=\"color: #E1E4E8\">;</span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">U</span><span style=\"color: #E1E4E8\">&amp;</span><span style=\"color: #FFAB70\">gt</span><span style=\"color: #E1E4E8\">;) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -324,14 +302,14 @@
         }
       ]
     },
-    "9092": {
+    "11895": {
       "name": "enumerable",
       "type": "Property",
       "url": "/api/class/Property#enumerable",
       "flags": {},
       "signatures": [
         {
-          "code": "enumerable: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">enumerable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -343,14 +321,14 @@
         }
       ]
     },
-    "9093": {
+    "11896": {
       "name": "configurable",
       "type": "Property",
       "url": "/api/class/Property#configurable",
       "flags": {},
       "signatures": [
         {
-          "code": "configurable: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">configurable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
@@ -362,7 +340,7 @@
         }
       ]
     },
-    "9094": {
+    "11897": {
       "name": "register",
       "type": "Method",
       "url": "/api/class/Property#register",
@@ -370,7 +348,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "register(cls: {}): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">register</span><span style=\"color: #E1E4E8\">(cls: {}): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Property#register-register-1",
           "sources": [
             {
@@ -390,7 +368,7 @@
         }
       ]
     },
-    "9099": {
+    "11902": {
       "name": "isSet",
       "type": "Method",
       "url": "/api/class/Property#isset",
@@ -398,7 +376,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "isSet(instance: T): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isSet</span><span style=\"color: #E1E4E8\">(instance: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">): boolean</span></span></code>",
           "url": "/api/class/Property#isset-isset-1",
           "sources": [
             {

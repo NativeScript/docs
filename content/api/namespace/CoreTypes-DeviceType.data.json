@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2664,
-        2665
+        4935,
+        4936
       ]
     }
   ],
   "reflections": {
-    "2664": {
+    "4935": {
       "name": "Phone",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-DeviceType#phone",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Indicates a smart-phone device."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "Phone: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Phone</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 307,
-              "character": 15
+              "line": 151,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Indicates a smart-phone device."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-DeviceType#phone"
         }
       ]
     },
-    "2665": {
+    "4936": {
       "name": "Tablet",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-DeviceType#tablet",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Indicates a tablet device."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "Tablet: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Tablet</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 312,
-              "character": 15
+              "line": 152,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Indicates a tablet device."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-DeviceType#tablet"
         }
       ]

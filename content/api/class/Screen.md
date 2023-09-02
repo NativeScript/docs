@@ -1,6 +1,13 @@
 ---
 title: Screen
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Screen'
 layout: api
 seo:
   description: "An object describing general information about a display."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2426" v-once>
+<APIRef for="2324" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="2425" v-once>
+<APIRef for="2323" v-once>
 
 <template #title>
 

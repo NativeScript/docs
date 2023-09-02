@@ -1,6 +1,13 @@
 ---
 title: ItemsLoading
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ItemsLoading'
 layout: api
 seo:
   description: "Event args for \"itemsLoading\" event."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ItemsLoading extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface ItemsLoading extends <a href="/api/interface/EventData">EventData</a> {
   count: number;
   index: number;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1924" v-once>
+<APIRef for="1732" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1923" v-once>
+<APIRef for="1731" v-once>
 
 <template #title>
 

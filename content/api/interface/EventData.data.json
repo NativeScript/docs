@@ -8,18 +8,6 @@
     ],
     [
       {
-        "text": "ApplicationEventData",
-        "link": "/api/interface/ApplicationEventData"
-      },
-      {
-        "text": "CssChangedEventData",
-        "link": "/api/interface/CssChangedEventData"
-      },
-      {
-        "text": "LoadAppCSSEventData",
-        "link": "/api/interface/LoadAppCSSEventData"
-      },
-      {
         "text": "ChangedData",
         "link": "/api/interface/ChangedData"
       },
@@ -30,6 +18,10 @@
       {
         "text": "ItemsLoading",
         "link": "/api/interface/ItemsLoading"
+      },
+      {
+        "text": "LaunchEventData",
+        "link": "/api/interface/LaunchEventData"
       },
       {
         "text": "ShownModallyData",
@@ -73,13 +65,13 @@
     {
       "title": "Properties",
       "items": [
-        1781,
-        1782
+        1568,
+        1569
       ]
     }
   ],
   "reflections": {
-    "1781": {
+    "1568": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/EventData#eventname",
@@ -94,12 +86,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "comment": {
@@ -114,7 +106,7 @@
         }
       ]
     },
-    "1782": {
+    "1569": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/EventData#object",
@@ -133,8 +125,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "comment": {

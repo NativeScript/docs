@@ -5,82 +5,50 @@
     {
       "title": "Variables",
       "items": [
-        2742,
-        2743
+        4969,
+        4970
       ]
     }
   ],
   "reflections": {
-    "2742": {
+    "4969": {
       "name": "left",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-IOSActionItemPosition#left",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Show this item at the left of the navigation bar."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "left: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">left</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 615,
-              "character": 15
+              "line": 193,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Show this item at the left of the navigation bar."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-IOSActionItemPosition#left"
         }
       ]
     },
-    "2743": {
+    "4970": {
       "name": "right",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-IOSActionItemPosition#right",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Show this item at the right of the action bar."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "right: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">right</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 620,
-              "character": 15
+              "line": 194,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Show this item at the right of the action bar."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-IOSActionItemPosition#right"
         }
       ]

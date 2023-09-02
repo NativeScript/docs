@@ -1,5 +1,8 @@
 ---
 title: Debugging
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments or the Android Studio developer tools.
@@ -82,12 +85,12 @@ If you are new to JavaScript debugging, we recommend reading the following resou
 | Memory Profiling           | :white_check_mark:             | :white_check_mark:             |
 | Timeline and CPU Profiling | :white_check_mark:             | :white_check_mark:             |
 
-## Debugging with VSCode
+## Debugging with VS Code
 
-VSCode uses the same protocol as the Chrome DevTools, in order to start a debugging session in VSCode you need to install the [NativeScript extension for VS Code](https://marketplace.visualstudio.com/items?itemName=NativeScript.nativescript).
+VS Code uses the same protocol as the Chrome DevTools, in order to start a debugging session in VS Code you need to install the [NativeScript extension for VS Code](https://marketplace.visualstudio.com/items?itemName=NativeScript.nativescript).
 
 ::: warning Note
-The VSCode extension for NativeScript is currently outdated and may not work. We are planning on revamping the project and bring it up-to-date with all the latest features soon.
+The VS Code extension for NativeScript is currently outdated and may not work. We are planning on revamping the project and bring it up-to-date with all the latest features soon.
 :::
 
 ## Debugging with XCode

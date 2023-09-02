@@ -5,29 +5,29 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1206,
-        1207,
-        1208,
-        1209,
-        1210,
-        1211,
-        1212,
-        1213,
-        1214,
-        1215,
-        1216,
-        1217,
-        1218,
-        1219,
-        1220,
-        1221,
-        1222,
-        1223
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958
       ]
     }
   ],
   "reflections": {
-    "1206": {
+    "941": {
       "name": "Adjustable",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#adjustable",
@@ -42,7 +42,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Adjustable: \"adjustable\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Adjustable</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;adjustable&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -62,7 +62,7 @@
         }
       ]
     },
-    "1207": {
+    "942": {
       "name": "Button",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#button",
@@ -77,7 +77,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Button: \"button\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Button</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;button&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "1208": {
+    "943": {
       "name": "Checkbox",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#checkbox",
@@ -112,7 +112,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Checkbox: \"checkbox\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Checkbox</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;checkbox&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "1209": {
+    "944": {
       "name": "Header",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#header",
@@ -147,7 +147,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Header: \"header\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Header</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;header&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "1210": {
+    "945": {
       "name": "Image",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#image",
@@ -182,7 +182,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Image: \"image\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Image</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;image&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -202,7 +202,7 @@
         }
       ]
     },
-    "1211": {
+    "946": {
       "name": "ImageButton",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#imagebutton",
@@ -217,7 +217,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ImageButton: \"imageButton\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ImageButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;imageButton&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -237,7 +237,7 @@
         }
       ]
     },
-    "1212": {
+    "947": {
       "name": "KeyboardKey",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#keyboardkey",
@@ -252,7 +252,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "KeyboardKey: \"keyboardKey\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">KeyboardKey</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;keyboardKey&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -272,7 +272,7 @@
         }
       ]
     },
-    "1213": {
+    "948": {
       "name": "Link",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#link",
@@ -287,7 +287,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Link: \"link\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Link</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;link&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -307,7 +307,7 @@
         }
       ]
     },
-    "1214": {
+    "949": {
       "name": "None",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#none",
@@ -322,7 +322,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "None: \"none\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">None</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -342,7 +342,7 @@
         }
       ]
     },
-    "1215": {
+    "950": {
       "name": "PlaysSound",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#playssound",
@@ -357,7 +357,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "PlaysSound: \"plays\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PlaysSound</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;plays&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -377,7 +377,7 @@
         }
       ]
     },
-    "1216": {
+    "951": {
       "name": "ProgressBar",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#progressbar",
@@ -392,7 +392,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ProgressBar: \"progressBar\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ProgressBar</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;progressBar&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -412,7 +412,7 @@
         }
       ]
     },
-    "1217": {
+    "952": {
       "name": "RadioButton",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#radiobutton",
@@ -427,7 +427,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "RadioButton: \"radioButton\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">RadioButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;radioButton&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -447,7 +447,7 @@
         }
       ]
     },
-    "1218": {
+    "953": {
       "name": "Search",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#search",
@@ -462,7 +462,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Search: \"search\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Search</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;search&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -482,7 +482,7 @@
         }
       ]
     },
-    "1219": {
+    "954": {
       "name": "SpinButton",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#spinbutton",
@@ -497,7 +497,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "SpinButton: \"spinButton\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">SpinButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;spinButton&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -517,7 +517,7 @@
         }
       ]
     },
-    "1220": {
+    "955": {
       "name": "StartsMediaSession",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#startsmediasession",
@@ -532,7 +532,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "StartsMediaSession: \"startsMedia\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StartsMediaSession</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;startsMedia&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -552,7 +552,7 @@
         }
       ]
     },
-    "1221": {
+    "956": {
       "name": "StaticText",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#statictext",
@@ -567,7 +567,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "StaticText: \"text\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StaticText</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;text&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -587,7 +587,7 @@
         }
       ]
     },
-    "1222": {
+    "957": {
       "name": "Summary",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#summary",
@@ -602,7 +602,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Summary: \"summary\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Summary</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;summary&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
@@ -622,7 +622,7 @@
         }
       ]
     },
-    "1223": {
+    "958": {
       "name": "Switch",
       "type": "EnumMember",
       "url": "/api/enum/AccessibilityRole#switch",
@@ -637,7 +637,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "Switch: \"switch\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Switch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;switch&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",

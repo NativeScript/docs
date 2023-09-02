@@ -5,120 +5,72 @@
     {
       "title": "Variables",
       "items": [
-        2708,
-        2706,
-        2707
+        4856,
+        4854,
+        4855
       ]
     }
   ],
   "reflections": {
-    "2706": {
+    "4854": {
       "name": "none",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-TextDecoration#none",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "No decoration."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "none: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 490,
-              "character": 15
+              "line": 71,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "No decoration."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextDecoration#none"
         }
       ]
     },
-    "2707": {
+    "4855": {
       "name": "underline",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-TextDecoration#underline",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Text decoration underline."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "underline: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">underline</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;underline&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;underline&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 495,
-              "character": 15
+              "line": 72,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Text decoration underline."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextDecoration#underline"
         }
       ]
     },
-    "2708": {
+    "4856": {
       "name": "lineThrough",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-TextDecoration#linethrough",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Text decoration line-through."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "lineThrough: <a href=\"/api/namespace/CoreTypes#textdecorationtype\">TextDecorationType</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lineThrough</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;line-through&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;line-through&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 500,
-              "character": 15
+              "line": 73,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Text decoration line-through."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-TextDecoration#linethrough"
         }
       ]

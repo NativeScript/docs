@@ -1,9 +1,16 @@
 ---
 title: Builder
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Builder'
 layout: api
 seo:
-  description: undefined
+  description: Builder
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="5044" v-once>
+<APIRef for="7507" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="5026" v-once>
+<APIRef for="7489" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="5025" v-once>
+<APIRef for="7488" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="5024" v-once>
+<APIRef for="7487" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="5027" v-once>
+<APIRef for="7490" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="5038" v-once>
+<APIRef for="7501" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="5030" v-once>
+<APIRef for="7493" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="5034" v-once>
+<APIRef for="7497" v-once>
 
 <template #title>
 

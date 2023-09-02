@@ -1,7 +1,9 @@
 ---
 title: Tutorials
 description: Learn NativeScript by following a tutorial...
+prev: false
 next: false
+contributors: false
 ---
 
 NativeScript is a celebration of the platform in your favorite language, **JavaScript**. Along with that comes all the benefits you might expect, like being able to use your favorite JavaScript framework.

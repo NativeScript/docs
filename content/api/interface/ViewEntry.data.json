@@ -17,13 +17,13 @@
     {
       "title": "Properties",
       "items": [
-        11004,
-        11003
+        13918,
+        13917
       ]
     }
   ],
   "reflections": {
-    "11003": {
+    "13917": {
       "name": "moduleName",
       "type": "Property",
       "url": "/api/interface/ViewEntry#modulename",
@@ -40,7 +40,7 @@
       },
       "signatures": [
         {
-          "code": "moduleName?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">moduleName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/frame/index.d.ts",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "11004": {
+    "13918": {
       "name": "create",
       "type": "Property",
       "url": "/api/interface/ViewEntry#create",

@@ -21,13 +21,13 @@
     {
       "title": "Properties",
       "items": [
-        10128,
-        10129
+        12984,
+        12985
       ]
     }
   ],
   "reflections": {
-    "10128": {
+    "12984": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/CancelableOptions#cancelable",
@@ -44,7 +44,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -64,7 +64,7 @@
         }
       ]
     },
-    "10129": {
+    "12985": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/CancelableOptions#theme",
@@ -81,7 +81,7 @@
       },
       "signatures": [
         {
-          "code": "theme?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">theme</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

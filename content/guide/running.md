@@ -1,5 +1,8 @@
 ---
 title: Running a Project
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
 To run a NativeScript app, you need a device &mdash; either a physical or virtual.
@@ -21,7 +24,11 @@ These flags are identical. Using them runs the project only on virtual devices.
 
 #### --device &lt;id&gt;
 
-Only run on the specified device. The id is taken from the output of `ns devices`.
+Only run on the specified device. The id is taken from the output of [`ns devices`](/guide/cli-basics#listing-connected-devices).
+
+#### --clean
+
+Forces a clean rebuild of the native application.
 
 ## Running on physical devices
 
@@ -65,7 +72,7 @@ If any of the above failed, we recommend checking out the [Android ADB documenta
 
 ### Preparing an iOS device for development
 
-Before the NativeScript cli can run apps on a physical iOS device, the device must be set up and registered.
+Before the NativeScript CLI can run apps on a physical iOS device, the device must be set up and registered.
 
 Use a USB cable to connect the device. Navigate to the `platforms/ios` folder in your project, then open the `.xcworkspace` file in Xcode.
 

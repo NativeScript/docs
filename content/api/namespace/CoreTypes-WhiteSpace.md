@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.WhiteSpace
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'WhiteSpace'
 layout: api
 seo:
-  description: "Specifies different white spaces."
+  description: CoreTypes.WhiteSpace
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJTcGVjaWZpZXMgZGlmZmVyZW50IHdoaXRlIHNwYWNlcy4ifV19" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2717" v-once>
+<APIRef for="4865" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2718" v-once>
+<APIRef for="4866" v-once>
 
 <template #title>
 

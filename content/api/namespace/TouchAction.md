@@ -1,6 +1,13 @@
 ---
 title: TouchAction
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'TouchAction'
 layout: api
 seo:
   description: "Defines a touch action"
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="11092" v-once>
+<APIRef for="14006" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="11089" v-once>
+<APIRef for="14003" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="11091" v-once>
+<APIRef for="14005" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="11090" v-once>
+<APIRef for="14004" v-once>
 
 <template #title>
 

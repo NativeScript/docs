@@ -1,6 +1,13 @@
 ---
 title: SegmentedBarItem
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'SegmentedBarItem'
 layout: api
 seo:
   description: "Represents a SegmentedBar item."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="21317" v-once>
+<APIRef for="25030" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="21319" v-once>
+<APIRef for="25032" v-once>
 
 <template #title>
 

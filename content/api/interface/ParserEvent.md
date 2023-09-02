@@ -1,6 +1,13 @@
 ---
 title: ParserEvent
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'ParserEvent'
 layout: api
 seo:
   description: "Provides information for a parser event."
@@ -18,16 +25,16 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface ParserEvent {
-  attributes: Object;
-  data: string;
-  elementName: string;
-  eventType: string;
-  namespace: string;
-  position: Position;
-  prefix: string;
-  toString(): string;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">ParserEvent</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">attributes</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">Object</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">data</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">elementName</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">eventType</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">namespace</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">position</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">Position</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">prefix</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #B392F0">toString</span><span style="color: #E1E4E8">()</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 <APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJQcm92aWRlcyBpbmZvcm1hdGlvbiBmb3IgYSBwYXJzZXIgZXZlbnQuIn1dfQ==" v-once />
 
@@ -39,7 +46,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2581" v-once>
+<APIRef for="2866" v-once>
 
 <template #title>
 
@@ -53,7 +60,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2582" v-once>
+<APIRef for="2867" v-once>
 
 <template #title>
 
@@ -67,7 +74,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2580" v-once>
+<APIRef for="2865" v-once>
 
 <template #title>
 
@@ -81,7 +88,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2576" v-once>
+<APIRef for="2861" v-once>
 
 <template #title>
 
@@ -95,7 +102,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2579" v-once>
+<APIRef for="2864" v-once>
 
 <template #title>
 
@@ -109,7 +116,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2577" v-once>
+<APIRef for="2862" v-once>
 
 <template #title>
 
@@ -123,7 +130,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2578" v-once>
+<APIRef for="2863" v-once>
 
 <template #title>
 
@@ -139,7 +146,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2583" v-once>
+<APIRef for="2868" v-once>
 
 <template #title>
 

@@ -11,25 +11,25 @@
     {
       "title": "Constructors",
       "items": [
-        1764
+        1551
       ]
     },
     {
       "title": "Properties",
       "items": [
-        1767
+        1554
       ]
     },
     {
       "title": "Methods",
       "items": [
-        1758,
-        1761
+        1545,
+        1548
       ]
     }
   ],
   "reflections": {
-    "1758": {
+    "1545": {
       "name": "unwrap",
       "type": "Method",
       "url": "/api/class/WrappedValue#unwrap",
@@ -39,13 +39,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "unwrap(value: any): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unwrap</span><span style=\"color: #E1E4E8\">(value: any): any</span></span></code>",
           "url": "/api/class/WrappedValue#unwrap-unwrap-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 59,
-              "character": 1
+              "line": 58,
+              "character": 4
             }
           ],
           "comment": {
@@ -75,7 +75,7 @@
         }
       ]
     },
-    "1761": {
+    "1548": {
       "name": "wrap",
       "type": "Method",
       "url": "/api/class/WrappedValue#wrap",
@@ -85,13 +85,13 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "wrap(value: any): <a href=\"/api/class/WrappedValue\">WrappedValue</a>",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">wrap</span><span style=\"color: #E1E4E8\">(value: any): any</span></span></code>",
           "url": "/api/class/WrappedValue#wrap-wrap-1",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 65,
-              "character": 1
+              "line": 63,
+              "character": 4
             }
           ],
           "comment": {
@@ -117,11 +117,11 @@
               }
             }
           ],
-          "returns": "<a href=\"/api/class/WrappedValue\">WrappedValue</a>"
+          "returns": "any"
         }
       ]
     },
-    "1764": {
+    "1551": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/WrappedValue#constructor",
@@ -129,13 +129,13 @@
       "signatures": [
         {
           "type": "ConstructorSignature",
-          "code": "new WrappedValue(value: any): <a href=\"/api/class/WrappedValue\">WrappedValue</a>",
+          "code": "new WrappedValue(wrapped: any): <a href=\"/api/class/WrappedValue\">WrappedValue</a>",
           "url": "/api/class/WrappedValue#constructor-new-wrappedvalue",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 53,
-              "character": 1
+              "line": 49,
+              "character": 4
             }
           ],
           "comment": {
@@ -148,7 +148,7 @@
           },
           "parameters": [
             {
-              "name": "value",
+              "name": "wrapped",
               "type": "any",
               "flags": {},
               "comment": {
@@ -165,7 +165,7 @@
         }
       ]
     },
-    "1767": {
+    "1554": {
       "name": "wrapped",
       "type": "Property",
       "url": "/api/class/WrappedValue#wrapped",
@@ -180,12 +180,12 @@
       "flags": {},
       "signatures": [
         {
-          "code": "wrapped: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">wrapped</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 47,
-              "character": 1
+              "line": 44,
+              "character": 4
             }
           ],
           "comment": {

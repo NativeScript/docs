@@ -11,23 +11,23 @@
     {
       "title": "Properties",
       "items": [
-        5049,
-        5050,
-        5048,
-        5051,
-        5047
+        7512,
+        7513,
+        7511,
+        7514,
+        7510
       ]
     }
   ],
   "reflections": {
-    "5047": {
+    "7510": {
       "name": "path",
       "type": "Property",
       "url": "/api/interface/LoadOptions#path",
       "flags": {},
       "signatures": [
         {
-          "code": "path: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">path</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -39,14 +39,14 @@
         }
       ]
     },
-    "5048": {
+    "7511": {
       "name": "name",
       "type": "Property",
       "url": "/api/interface/LoadOptions#name",
       "flags": {},
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -58,7 +58,7 @@
         }
       ]
     },
-    "5049": {
+    "7512": {
       "name": "attributes",
       "type": "Property",
       "url": "/api/interface/LoadOptions#attributes",
@@ -67,7 +67,7 @@
       },
       "signatures": [
         {
-          "code": "attributes?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">attributes</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -79,7 +79,7 @@
         }
       ]
     },
-    "5050": {
+    "7513": {
       "name": "exports",
       "type": "Property",
       "url": "/api/interface/LoadOptions#exports",
@@ -88,7 +88,7 @@
       },
       "signatures": [
         {
-          "code": "exports?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #79B8FF\">exports</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -100,7 +100,7 @@
         }
       ]
     },
-    "5051": {
+    "7514": {
       "name": "page",
       "type": "Property",
       "url": "/api/interface/LoadOptions#page",

@@ -1,6 +1,13 @@
 ---
 title: Placeholder
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Placeholder'
 layout: api
 seo:
   description: "Represents a Placeholder, which is used to add a native view to the visual tree."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="16466" v-once>
+<APIRef for="19807" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="16401" v-once>
+<APIRef for="19727" v-once>
 
 <template #title>
 
@@ -60,7 +67,7 @@ seo:
 
 <div class="">
 
-<APIRef for="16468" v-once>
+<APIRef for="19809" v-once>
 
 <template #title>
 

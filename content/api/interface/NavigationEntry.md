@@ -1,6 +1,13 @@
 ---
 title: NavigationEntry
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'NavigationEntry'
 layout: api
 seo:
   description: "Represents an entry in passed to navigate method."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface NavigationEntry extends <a href="/api/interface/ViewEntry">ViewEntry</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface NavigationEntry extends <a href="/api/interface/ViewEntry">ViewEntry</a> {
   animated: boolean;
   backstackVisible: boolean;
   bindingContext: any;
@@ -39,7 +46,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10974" v-once>
+<APIRef for="13888" v-once>
 
 <template #title>
 
@@ -53,7 +60,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10978" v-once>
+<APIRef for="13892" v-once>
 
 <template #title>
 
@@ -67,7 +74,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10973" v-once>
+<APIRef for="13887" v-once>
 
 <template #title>
 
@@ -81,7 +88,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10979" v-once>
+<APIRef for="13893" v-once>
 
 <template #title>
 
@@ -95,7 +102,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10972" v-once>
+<APIRef for="13886" v-once>
 
 <template #title>
 
@@ -109,7 +116,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10975" v-once>
+<APIRef for="13889" v-once>
 
 <template #title>
 
@@ -123,7 +130,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10977" v-once>
+<APIRef for="13891" v-once>
 
 <template #title>
 
@@ -137,7 +144,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="10976" v-once>
+<APIRef for="13890" v-once>
 
 <template #title>
 

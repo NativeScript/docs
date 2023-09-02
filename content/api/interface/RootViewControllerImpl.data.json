@@ -1,0 +1,40 @@
+{
+  "title": "RootViewControllerImpl",
+  "hierarchy": [
+    [
+      {
+        "text": "RootViewControllerImpl"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2870
+      ],
+      "inheritedItems": []
+    }
+  ],
+  "reflections": {
+    "2870": {
+      "name": "contentController",
+      "type": "Property",
+      "url": "/api/interface/RootViewControllerImpl#contentcontroller",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "contentController: any",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 181,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/RootViewControllerImpl#contentcontroller"
+        }
+      ]
+    }
+  }
+}

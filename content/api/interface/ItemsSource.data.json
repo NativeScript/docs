@@ -11,25 +11,25 @@
     {
       "title": "Properties",
       "items": [
-        14911
+        18112
       ]
     },
     {
       "title": "Methods",
       "items": [
-        14912
+        18113
       ]
     }
   ],
   "reflections": {
-    "14911": {
+    "18112": {
       "name": "length",
       "type": "Property",
       "url": "/api/interface/ItemsSource#length",
       "flags": {},
       "signatures": [
         {
-          "code": "length: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">length</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/list-view/index.d.ts",
@@ -41,7 +41,7 @@
         }
       ]
     },
-    "14912": {
+    "18113": {
       "name": "getItem",
       "type": "Method",
       "url": "/api/interface/ItemsSource#getitem",
@@ -49,7 +49,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getItem(index: number): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getItem</span><span style=\"color: #E1E4E8\">(index: number): any</span></span></code>",
           "url": "/api/interface/ItemsSource#getitem-getitem-1",
           "sources": [
             {

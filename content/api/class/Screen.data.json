@@ -11,18 +11,18 @@
     {
       "title": "Constructors",
       "items": [
-        2426
+        2324
       ]
     },
     {
       "title": "Properties",
       "items": [
-        2425
+        2323
       ]
     }
   ],
   "reflections": {
-    "2425": {
+    "2323": {
       "name": "mainScreen",
       "type": "Property",
       "url": "/api/class/Screen#mainscreen",
@@ -39,7 +39,7 @@
       },
       "signatures": [
         {
-          "code": "mainScreen: ScreenMetrics",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">mainScreen</span><span style=\"color: #E1E4E8\">: ScreenMetrics</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/platform/index.d.ts",
@@ -59,7 +59,7 @@
         }
       ]
     },
-    "2426": {
+    "2324": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Screen#constructor",

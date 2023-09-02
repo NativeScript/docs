@@ -11,15 +11,15 @@
     {
       "title": "Properties",
       "items": [
-        6499,
-        6496,
-        6497,
-        6498
+        9065,
+        9062,
+        9063,
+        9064
       ]
     }
   ],
   "reflections": {
-    "6496": {
+    "9062": {
       "name": "sourceProperty",
       "type": "Property",
       "url": "/api/interface/BindingOptions#sourceproperty",
@@ -34,7 +34,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "sourceProperty: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sourceProperty</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
@@ -54,7 +54,7 @@
         }
       ]
     },
-    "6497": {
+    "9063": {
       "name": "targetProperty",
       "type": "Property",
       "url": "/api/interface/BindingOptions#targetproperty",
@@ -69,7 +69,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "targetProperty: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">targetProperty</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "6498": {
+    "9064": {
       "name": "twoWay",
       "type": "Property",
       "url": "/api/interface/BindingOptions#twoway",
@@ -106,7 +106,7 @@
       },
       "signatures": [
         {
-          "code": "twoWay?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">twoWay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
@@ -126,7 +126,7 @@
         }
       ]
     },
-    "6499": {
+    "9065": {
       "name": "expression",
       "type": "Property",
       "url": "/api/interface/BindingOptions#expression",
@@ -143,7 +143,7 @@
       },
       "signatures": [
         {
-          "code": "expression?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">expression</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",

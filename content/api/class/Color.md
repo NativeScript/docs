@@ -1,6 +1,13 @@
 ---
 title: Color
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Color'
 layout: api
 seo:
   description: "Represents a color object. Stores all color components (alpha (opacity), red, green, blue) in a [0..255] range."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1267" v-once>
+<APIRef for="1002" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1280" v-once>
+<APIRef for="1015" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1287" v-once>
+<APIRef for="1022" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1285" v-once>
+<APIRef for="1020" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1283" v-once>
+<APIRef for="1018" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1282" v-once>
+<APIRef for="1017" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1284" v-once>
+<APIRef for="1019" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1288" v-once>
+<APIRef for="1023" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1286" v-once>
+<APIRef for="1021" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1281" v-once>
+<APIRef for="1016" v-once>
 
 <template #title>
 
@@ -172,7 +179,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1334" v-once>
+<APIRef for="1069" v-once>
 
 <template #title>
 
@@ -186,7 +193,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1343" v-once>
+<APIRef for="1078" v-once>
 
 <template #title>
 
@@ -200,7 +207,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1337" v-once>
+<APIRef for="1072" v-once>
 
 <template #title>
 
@@ -214,7 +221,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1323" v-once>
+<APIRef for="1058" v-once>
 
 <template #title>
 
@@ -228,7 +235,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1289" v-once>
+<APIRef for="1024" v-once>
 
 <template #title>
 
@@ -242,7 +249,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1296" v-once>
+<APIRef for="1031" v-once>
 
 <template #title>
 
@@ -256,7 +263,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1298" v-once>
+<APIRef for="1033" v-once>
 
 <template #title>
 
@@ -270,7 +277,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1329" v-once>
+<APIRef for="1064" v-once>
 
 <template #title>
 
@@ -284,7 +291,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1292" v-once>
+<APIRef for="1027" v-once>
 
 <template #title>
 
@@ -298,7 +305,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1294" v-once>
+<APIRef for="1029" v-once>
 
 <template #title>
 
@@ -312,7 +319,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1331" v-once>
+<APIRef for="1066" v-once>
 
 <template #title>
 
@@ -326,7 +333,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1326" v-once>
+<APIRef for="1061" v-once>
 
 <template #title>
 
@@ -340,7 +347,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1300" v-once>
+<APIRef for="1035" v-once>
 
 <template #title>
 
@@ -354,7 +361,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1340" v-once>
+<APIRef for="1075" v-once>
 
 <template #title>
 
@@ -368,7 +375,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1303" v-once>
+<APIRef for="1038" v-once>
 
 <template #title>
 
@@ -382,7 +389,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1310" v-once>
+<APIRef for="1045" v-once>
 
 <template #title>
 
@@ -396,7 +403,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1312" v-once>
+<APIRef for="1047" v-once>
 
 <template #title>
 
@@ -410,7 +417,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1319" v-once>
+<APIRef for="1054" v-once>
 
 <template #title>
 
@@ -424,7 +431,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="1321" v-once>
+<APIRef for="1056" v-once>
 
 <template #title>
 
@@ -438,7 +445,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="1240" v-once>
+<APIRef for="975" v-once>
 
 <template #title>
 
@@ -452,7 +459,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="1255" v-once>
+<APIRef for="990" v-once>
 
 <template #title>
 
@@ -466,7 +473,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="1261" v-once>
+<APIRef for="996" v-once>
 
 <template #title>
 
@@ -480,7 +487,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="1247" v-once>
+<APIRef for="982" v-once>
 
 <template #title>
 
@@ -494,7 +501,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="1244" v-once>
+<APIRef for="979" v-once>
 
 <template #title>
 
@@ -508,7 +515,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="1250" v-once>
+<APIRef for="985" v-once>
 
 <template #title>
 

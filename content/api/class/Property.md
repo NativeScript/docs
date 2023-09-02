@@ -1,9 +1,16 @@
 ---
 title: Property
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Property'
 layout: api
 seo:
-  description: undefined
+  description: Property
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9063" v-once>
+<APIRef for="11866" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9093" v-once>
+<APIRef for="11896" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9074" v-once>
+<APIRef for="11877" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9073" v-once>
+<APIRef for="11876" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9092" v-once>
+<APIRef for="11895" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9081" v-once>
+<APIRef for="11884" v-once>
 
 <template #title>
 
@@ -112,7 +119,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9071" v-once>
+<APIRef for="11874" v-once>
 
 <template #title>
 
@@ -126,7 +133,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9080" v-once>
+<APIRef for="11883" v-once>
 
 <template #title>
 
@@ -140,7 +147,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9070" v-once>
+<APIRef for="11873" v-once>
 
 <template #title>
 
@@ -154,7 +161,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9069" v-once>
+<APIRef for="11872" v-once>
 
 <template #title>
 
@@ -168,7 +175,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9075" v-once>
+<APIRef for="11878" v-once>
 
 <template #title>
 
@@ -182,7 +189,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9088" v-once>
+<APIRef for="11891" v-once>
 
 <template #title>
 
@@ -194,23 +201,9 @@ seo:
 
 </div>
 
-<div class="isPrivate">
-
-<APIRef for="9068" v-once>
-
-<template #title>
-
-### registered
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="">
 
-<APIRef for="9084" v-once>
+<APIRef for="11887" v-once>
 
 <template #title>
 
@@ -224,7 +217,7 @@ seo:
 
 <div class="isReadonly">
 
-<APIRef for="9072" v-once>
+<APIRef for="11875" v-once>
 
 <template #title>
 
@@ -240,7 +233,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9099" v-once>
+<APIRef for="11902" v-once>
 
 <template #title>
 
@@ -254,7 +247,7 @@ seo:
 
 <div class="">
 
-<APIRef for="9094" v-once>
+<APIRef for="11897" v-once>
 
 <template #title>
 

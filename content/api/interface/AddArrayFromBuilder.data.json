@@ -11,12 +11,12 @@
     {
       "title": "Methods",
       "items": [
-        9050
+        11853
       ]
     }
   ],
   "reflections": {
-    "9050": {
+    "11853": {
       "name": "_addArrayFromBuilder",
       "type": "Method",
       "url": "/api/interface/AddArrayFromBuilder#addarrayfrombuilder",
@@ -24,12 +24,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "_addArrayFromBuilder(name: string, value: any[]): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_addArrayFromBuilder</span><span style=\"color: #E1E4E8\">(name: string, value: any[]): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/interface/AddArrayFromBuilder#addarrayfrombuilder-addarrayfrombuilder-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/core/view/index.d.ts",
-              "line": 954,
+              "line": 969,
               "character": 1
             }
           ],

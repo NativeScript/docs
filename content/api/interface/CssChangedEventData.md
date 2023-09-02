@@ -1,6 +1,13 @@
 ---
 title: CssChangedEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'CssChangedEventData'
 layout: api
 seo:
   description: "Event data containing information about application css change."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface CssChangedEventData extends <a href="/api/interface/EventData">EventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface CssChangedEventData extends <a href="/api/interface/ApplicationEventData">ApplicationEventData</a> {
   cssFile: string;
   cssText: string;
 }</pre>
@@ -33,7 +40,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="1098" v-once>
+<APIRef for="4720" v-once>
 
 <template #title>
 
@@ -47,7 +54,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="1099" v-once>
+<APIRef for="4721" v-once>
 
 <template #title>
 

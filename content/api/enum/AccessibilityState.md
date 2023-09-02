@@ -1,9 +1,16 @@
 ---
 title: AccessibilityState
-titleTemplate: "API - NativeScript"
+category: Enumerations
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Enumerations'
+    href: '/api/#summary-Enumerations'
+  - name: 'AccessibilityState'
 layout: api
 seo:
-  description: undefined
+  description: AccessibilityState
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -24,7 +31,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1226" v-once>
+<APIRef for="961" v-once>
 
 <template #title>
 
@@ -38,7 +45,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1228" v-once>
+<APIRef for="963" v-once>
 
 <template #title>
 
@@ -52,7 +59,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1225" v-once>
+<APIRef for="960" v-once>
 
 <template #title>
 
@@ -66,7 +73,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1227" v-once>
+<APIRef for="962" v-once>
 
 <template #title>
 

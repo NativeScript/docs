@@ -23,16 +23,16 @@
     {
       "title": "Properties",
       "items": [
-        10134,
-        10133,
-        10131,
-        10135,
-        10132
+        12990,
+        12989,
+        12987,
+        12991,
+        12988
       ]
     }
   ],
   "reflections": {
-    "10131": {
+    "12987": {
       "name": "okButtonText",
       "type": "Property",
       "url": "/api/interface/AlertOptions#okbuttontext",
@@ -49,7 +49,7 @@
       },
       "signatures": [
         {
-          "code": "okButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">okButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -69,7 +69,7 @@
         }
       ]
     },
-    "10132": {
+    "12988": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/AlertOptions#title",
@@ -92,7 +92,7 @@
       },
       "signatures": [
         {
-          "code": "title?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">title</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -118,7 +118,7 @@
         }
       ]
     },
-    "10133": {
+    "12989": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/AlertOptions#message",
@@ -141,7 +141,7 @@
       },
       "signatures": [
         {
-          "code": "message?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">message</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "10134": {
+    "12990": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/AlertOptions#cancelable",
@@ -190,7 +190,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -216,7 +216,7 @@
         }
       ]
     },
-    "10135": {
+    "12991": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/AlertOptions#theme",
@@ -239,7 +239,7 @@
       },
       "signatures": [
         {
-          "code": "theme?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">theme</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

@@ -5,17 +5,17 @@
     {
       "title": "Variables",
       "items": [
-        2492,
-        2493,
-        2494,
-        2495,
-        2496,
-        2497
+        2390,
+        2391,
+        2392,
+        2393,
+        2394,
+        2395
       ]
     }
   ],
   "reflections": {
-    "2492": {
+    "2390": {
       "name": "ISO_8859_1",
       "type": "Variable",
       "url": "/api/namespace/encoding#iso-8859-1",
@@ -32,7 +32,7 @@
       },
       "signatures": [
         {
-          "code": "ISO_8859_1: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ISO_8859_1</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "2493": {
+    "2391": {
       "name": "US_ASCII",
       "type": "Variable",
       "url": "/api/namespace/encoding#us-ascii",
@@ -69,7 +69,7 @@
       },
       "signatures": [
         {
-          "code": "US_ASCII: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">US_ASCII</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "2494": {
+    "2392": {
       "name": "UTF_16",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-16",
@@ -106,7 +106,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_16: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -126,7 +126,7 @@
         }
       ]
     },
-    "2495": {
+    "2393": {
       "name": "UTF_16BE",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-16be",
@@ -143,7 +143,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_16BE: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16BE</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -163,7 +163,7 @@
         }
       ]
     },
-    "2496": {
+    "2394": {
       "name": "UTF_16LE",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-16le",
@@ -180,7 +180,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_16LE: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_16LE</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",
@@ -200,7 +200,7 @@
         }
       ]
     },
-    "2497": {
+    "2395": {
       "name": "UTF_8",
       "type": "Variable",
       "url": "/api/namespace/encoding#utf-8",
@@ -217,7 +217,7 @@
       },
       "signatures": [
         {
-          "code": "UTF_8: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">UTF_8</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/text/index.d.ts",

@@ -1,9 +1,16 @@
 ---
 title: ChangeType
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ChangeType'
 layout: api
 seo:
-  description: undefined
+  description: ChangeType
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1645" v-once>
+<APIRef for="1413" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1640" v-once>
+<APIRef for="1408" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1644" v-once>
+<APIRef for="1412" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1641" v-once>
+<APIRef for="1409" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1643" v-once>
+<APIRef for="1411" v-once>
 
 <template #title>
 
@@ -98,7 +105,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1642" v-once>
+<APIRef for="1410" v-once>
 
 <template #title>
 

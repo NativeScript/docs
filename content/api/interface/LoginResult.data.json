@@ -11,14 +11,14 @@
     {
       "title": "Properties",
       "items": [
-        10169,
-        10167,
-        10168
+        13025,
+        13023,
+        13024
       ]
     }
   ],
   "reflections": {
-    "10167": {
+    "13023": {
       "name": "result",
       "type": "Property",
       "url": "/api/interface/LoginResult#result",
@@ -33,7 +33,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "result: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">result</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -53,7 +53,7 @@
         }
       ]
     },
-    "10168": {
+    "13024": {
       "name": "userName",
       "type": "Property",
       "url": "/api/interface/LoginResult#username",
@@ -68,7 +68,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "userName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">userName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -88,7 +88,7 @@
         }
       ]
     },
-    "10169": {
+    "13025": {
       "name": "password",
       "type": "Property",
       "url": "/api/interface/LoginResult#password",
@@ -103,7 +103,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "password: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">password</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

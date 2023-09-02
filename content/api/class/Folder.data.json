@@ -17,41 +17,41 @@
     {
       "title": "Constructors",
       "items": [
-        2033
+        1876
       ]
     },
     {
       "title": "Properties",
       "items": [
-        2035,
-        2067,
-        2068,
-        2070,
-        2069
+        1878,
+        1910,
+        1911,
+        1913,
+        1912
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2039,
-        2041,
-        2036,
-        2061,
-        2030,
-        2027,
-        2053,
-        2055,
-        2047,
-        2050,
-        2071,
-        2073,
-        2079,
-        2082
+        1882,
+        1884,
+        1879,
+        1904,
+        1873,
+        1870,
+        1896,
+        1898,
+        1890,
+        1893,
+        1914,
+        1916,
+        1922,
+        1925
       ]
     }
   ],
   "reflections": {
-    "2027": {
+    "1870": {
       "name": "fromPath",
       "type": "Method",
       "url": "/api/class/Folder#frompath",
@@ -66,7 +66,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 155,
+              "line": 231,
               "character": 1
             }
           ],
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "2030": {
+    "1873": {
       "name": "exists",
       "type": "Method",
       "url": "/api/class/Folder#exists",
@@ -107,12 +107,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "exists(path: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">exists</span><span style=\"color: #E1E4E8\">(path: string): boolean</span></span></code>",
           "url": "/api/class/Folder#exists-exists-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 161,
+              "line": 237,
               "character": 1
             }
           ],
@@ -143,7 +143,7 @@
         }
       ]
     },
-    "2033": {
+    "1876": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Folder#constructor",
@@ -170,7 +170,7 @@
         }
       ]
     },
-    "2035": {
+    "1878": {
       "name": "isKnown",
       "type": "Property",
       "url": "/api/class/Folder#isknown",
@@ -185,11 +185,11 @@
       "flags": {},
       "signatures": [
         {
-          "code": "isKnown: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isKnown</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 149,
+              "line": 225,
               "character": 1
             }
           ],
@@ -205,7 +205,7 @@
         }
       ]
     },
-    "2036": {
+    "1879": {
       "name": "contains",
       "type": "Method",
       "url": "/api/class/Folder#contains",
@@ -213,12 +213,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "contains(name: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">contains</span><span style=\"color: #E1E4E8\">(name: string): boolean</span></span></code>",
           "url": "/api/class/Folder#contains-contains-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 168,
+              "line": 244,
               "character": 1
             }
           ],
@@ -249,7 +249,7 @@
         }
       ]
     },
-    "2039": {
+    "1882": {
       "name": "clear",
       "type": "Method",
       "url": "/api/class/Folder#clear",
@@ -257,12 +257,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "clear(): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clear</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/Folder#clear-clear-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 173,
+              "line": 249,
               "character": 1
             }
           ],
@@ -279,7 +279,7 @@
         }
       ]
     },
-    "2041": {
+    "1884": {
       "name": "clearSync",
       "type": "Method",
       "url": "/api/class/Folder#clearsync",
@@ -287,12 +287,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "clearSync(onError?: (error: any) => void): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Folder#clearsync-clearsync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 179,
+              "line": 255,
               "character": 1
             }
           ],
@@ -325,7 +325,7 @@
         }
       ]
     },
-    "2047": {
+    "1890": {
       "name": "getFile",
       "type": "Method",
       "url": "/api/class/Folder#getfile",
@@ -338,7 +338,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 185,
+              "line": 261,
               "character": 1
             }
           ],
@@ -369,7 +369,7 @@
         }
       ]
     },
-    "2050": {
+    "1893": {
       "name": "getFolder",
       "type": "Method",
       "url": "/api/class/Folder#getfolder",
@@ -382,7 +382,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 191,
+              "line": 267,
               "character": 1
             }
           ],
@@ -413,7 +413,7 @@
         }
       ]
     },
-    "2053": {
+    "1896": {
       "name": "getEntities",
       "type": "Method",
       "url": "/api/class/Folder#getentities",
@@ -426,7 +426,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 196,
+              "line": 272,
               "character": 1
             }
           ],
@@ -443,7 +443,7 @@
         }
       ]
     },
-    "2055": {
+    "1898": {
       "name": "getEntitiesSync",
       "type": "Method",
       "url": "/api/class/Folder#getentitiessync",
@@ -456,7 +456,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 202,
+              "line": 278,
               "character": 1
             }
           ],
@@ -489,7 +489,7 @@
         }
       ]
     },
-    "2061": {
+    "1904": {
       "name": "eachEntity",
       "type": "Method",
       "url": "/api/class/Folder#eachentity",
@@ -502,7 +502,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 208,
+              "line": 284,
               "character": 1
             }
           ],
@@ -533,7 +533,7 @@
         }
       ]
     },
-    "2067": {
+    "1910": {
       "name": "lastModified",
       "type": "Property",
       "url": "/api/class/Folder#lastmodified",
@@ -554,11 +554,11 @@
       },
       "signatures": [
         {
-          "code": "lastModified: Date",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lastModified</span><span style=\"color: #E1E4E8\">: Date</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 16,
+              "line": 31,
               "character": 1
             }
           ],
@@ -580,7 +580,7 @@
         }
       ]
     },
-    "2068": {
+    "1911": {
       "name": "name",
       "type": "Property",
       "url": "/api/class/Folder#name",
@@ -601,11 +601,11 @@
       },
       "signatures": [
         {
-          "code": "name: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 21,
+              "line": 36,
               "character": 1
             }
           ],
@@ -627,7 +627,7 @@
         }
       ]
     },
-    "2069": {
+    "1912": {
       "name": "path",
       "type": "Property",
       "url": "/api/class/Folder#path",
@@ -648,11 +648,11 @@
       },
       "signatures": [
         {
-          "code": "path: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">path</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 26,
+              "line": 41,
               "character": 1
             }
           ],
@@ -674,7 +674,7 @@
         }
       ]
     },
-    "2070": {
+    "1913": {
       "name": "parent",
       "type": "Property",
       "url": "/api/class/Folder#parent",
@@ -699,7 +699,7 @@
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 33,
+              "line": 48,
               "character": 1
             }
           ],
@@ -721,7 +721,7 @@
         }
       ]
     },
-    "2071": {
+    "1914": {
       "name": "remove",
       "type": "Method",
       "url": "/api/class/Folder#remove",
@@ -735,12 +735,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "remove(): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/Folder#remove-remove-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 38,
+              "line": 53,
               "character": 1
             }
           ],
@@ -763,7 +763,7 @@
         }
       ]
     },
-    "2073": {
+    "1916": {
       "name": "removeSync",
       "type": "Method",
       "url": "/api/class/Folder#removesync",
@@ -777,12 +777,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "removeSync(onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Folder#removesync-removesync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 43,
+              "line": 58,
               "character": 1
             }
           ],
@@ -813,7 +813,7 @@
         }
       ]
     },
-    "2079": {
+    "1922": {
       "name": "rename",
       "type": "Method",
       "url": "/api/class/Folder#rename",
@@ -827,12 +827,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "rename(newName: string): Promise&lt;any&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rename</span><span style=\"color: #E1E4E8\">(newName: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/Folder#rename-rename-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 49,
+              "line": 64,
               "character": 1
             }
           ],
@@ -869,7 +869,7 @@
         }
       ]
     },
-    "2082": {
+    "1925": {
       "name": "renameSync",
       "type": "Method",
       "url": "/api/class/Folder#renamesync",
@@ -883,12 +883,12 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "renameSync(newName: string, onError?: (error: any) => any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">renameSync</span><span style=\"color: #E1E4E8\">(newName: string, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Folder#renamesync-renamesync-1",
           "sources": [
             {
               "fileName": "@nativescript/core/file-system/index.d.ts",
-              "line": 55,
+              "line": 70,
               "character": 1
             }
           ],

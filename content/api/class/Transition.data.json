@@ -5,47 +5,80 @@
       {
         "text": "Transition"
       }
+    ],
+    [
+      {
+        "text": "ModalTransition",
+        "link": "/api/class/ModalTransition"
+      },
+      {
+        "text": "PageTransition",
+        "link": "/api/class/PageTransition"
+      },
+      {
+        "text": "FadeTransition",
+        "link": "/api/class/FadeTransition"
+      },
+      {
+        "text": "SlideTransition",
+        "link": "/api/class/SlideTransition"
+      }
     ]
   ],
   "summary": [
     {
       "title": "Constructors",
       "items": [
-        28021
+        32317
       ]
     },
     {
       "title": "Properties",
       "items": [
-        28015
+        32311,
+        32321,
+        32324,
+        32322,
+        32325,
+        32326,
+        32327,
+        32323
       ]
     },
     {
       "title": "Methods",
       "items": [
-        28029,
-        28039,
-        28027,
-        28025,
-        28042
+        32376,
+        32341,
+        32347,
+        32339,
+        32334,
+        32356,
+        32364,
+        32367,
+        32370,
+        32359,
+        32336,
+        32350
       ]
     }
   ],
   "reflections": {
-    "28015": {
+    "32311": {
       "name": "AndroidTransitionType",
       "type": "Property",
       "url": "/api/class/Transition#androidtransitiontype",
       "flags": {
-        "isStatic": true
+        "isStatic": true,
+        "isOptional": true
       },
       "signatures": [
         {
-          "code": "AndroidTransitionType: {\n  enter: string\n  exit: string\n  popEnter: string\n}",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidTransitionType</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  enter?: string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  exit</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  popEnter</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
-              "line": 2,
+              "line": 38,
               "character": 8
             }
           ],
@@ -53,7 +86,7 @@
         }
       ]
     },
-    "28021": {
+    "32317": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Transition#constructor",
@@ -61,12 +94,12 @@
       "signatures": [
         {
           "type": "ConstructorSignature",
-          "code": "new Transition(duration: number, nativeCurve: any): <a href=\"/api/class/Transition\">Transition</a>",
+          "code": "new Transition(duration?: number, nativeCurve?: any): <a href=\"/api/class/Transition\">Transition</a>",
           "url": "/api/class/Transition#constructor-new-transition",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
-              "line": 3,
+              "line": 39,
               "character": 1
             }
           ],
@@ -74,34 +107,197 @@
             {
               "name": "duration",
               "type": "number",
-              "flags": {}
+              "flags": {
+                "isOptional": true
+              }
             },
             {
               "name": "nativeCurve",
               "type": "any",
-              "flags": {}
+              "flags": {
+                "isOptional": true
+              }
             }
           ],
           "returns": "<a href=\"/api/class/Transition\">Transition</a>"
         }
       ]
     },
-    "28025": {
-      "name": "getDuration",
-      "type": "Method",
-      "url": "/api/class/Transition#getduration",
+    "32321": {
+      "name": "id",
+      "type": "Property",
+      "url": "/api/class/Transition#id",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">id</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 23,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/Transition#id"
+        }
+      ]
+    },
+    "32322": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/Transition#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "(Optional) Provide a unique name to identify this transition"
+          }
+        ]
+      },
       "flags": {
-        "isPublic": true
+        "isOptional": true
       },
       "signatures": [
         {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 27,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "(Optional) Provide a unique name to identify this transition"
+              }
+            ]
+          },
+          "url": "/api/class/Transition#name"
+        }
+      ]
+    },
+    "32323": {
+      "name": "transitionController",
+      "type": "Property",
+      "url": "/api/class/Transition#transitioncontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">transitionController</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 28,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/Transition#transitioncontroller"
+        }
+      ]
+    },
+    "32324": {
+      "name": "interactiveController",
+      "type": "Property",
+      "url": "/api/class/Transition#interactivecontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">interactiveController</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 29,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/Transition#interactivecontroller"
+        }
+      ]
+    },
+    "32325": {
+      "name": "presented",
+      "type": "Property",
+      "url": "/api/class/Transition#presented",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">presented</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 30,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/Transition#presented"
+        }
+      ]
+    },
+    "32326": {
+      "name": "presenting",
+      "type": "Property",
+      "url": "/api/class/Transition#presenting",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">presenting</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/Transition#presenting"
+        }
+      ]
+    },
+    "32327": {
+      "name": "sharedElements",
+      "type": "Property",
+      "url": "/api/class/Transition#sharedelements",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">sharedElements</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  independent?: (SharedElementSettings </span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\"> {})[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  presented</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> SharedElementSettings[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "url": "/api/class/Transition#sharedelements"
+        }
+      ]
+    },
+    "32334": {
+      "name": "getDuration",
+      "type": "Method",
+      "url": "/api/class/Transition#getduration",
+      "flags": {},
+      "signatures": [
+        {
           "type": "CallSignature",
-          "code": "getDuration(): number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDuration</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
           "url": "/api/class/Transition#getduration-getduration-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
-              "line": 4,
+              "line": 40,
               "character": 1
             }
           ],
@@ -110,22 +306,48 @@
         }
       ]
     },
-    "28027": {
-      "name": "getCurve",
+    "32336": {
+      "name": "setDuration",
       "type": "Method",
-      "url": "/api/class/Transition#getcurve",
-      "flags": {
-        "isPublic": true
-      },
+      "url": "/api/class/Transition#setduration",
+      "flags": {},
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "getCurve(): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setDuration</span><span style=\"color: #E1E4E8\">(value: number): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Transition#setduration-setduration-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 41,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32339": {
+      "name": "getCurve",
+      "type": "Method",
+      "url": "/api/class/Transition#getcurve",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCurve</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
           "url": "/api/class/Transition#getcurve-getcurve-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
-              "line": 5,
+              "line": 42,
               "character": 1
             }
           ],
@@ -134,38 +356,36 @@
         }
       ]
     },
-    "28029": {
+    "32341": {
       "name": "animateIOSTransition",
       "type": "Method",
       "url": "/api/class/Transition#animateiostransition",
-      "flags": {
-        "isPublic": true
-      },
+      "flags": {},
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "animateIOSTransition(\n  containerView: any,\n  fromView: any,\n  toView: any,\n  operation: any,\n  completion: (finished: boolean) => void\n): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">animateIOSTransition</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  transitionContext: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  fromViewCtrl: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toViewCtrl: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  operation: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/Transition#animateiostransition-animateiostransition-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
-              "line": 6,
+              "line": 43,
               "character": 1
             }
           ],
           "parameters": [
             {
-              "name": "containerView",
+              "name": "transitionContext",
               "type": "any",
               "flags": {}
             },
             {
-              "name": "fromView",
+              "name": "fromViewCtrl",
               "type": "any",
               "flags": {}
             },
             {
-              "name": "toView",
+              "name": "toViewCtrl",
               "type": "any",
               "flags": {}
             },
@@ -173,33 +393,26 @@
               "name": "operation",
               "type": "any",
               "flags": {}
-            },
-            {
-              "name": "completion",
-              "type": "(finished: boolean) => void",
-              "flags": {}
             }
           ],
           "returns": "void"
         }
       ]
     },
-    "28039": {
+    "32347": {
       "name": "createAndroidAnimator",
       "type": "Method",
       "url": "/api/class/Transition#createandroidanimator",
-      "flags": {
-        "isPublic": true
-      },
+      "flags": {},
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "createAndroidAnimator(transitionType: string): any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createAndroidAnimator</span><span style=\"color: #E1E4E8\">(transitionType: string): any</span></span></code>",
           "url": "/api/class/Transition#createandroidanimator-createandroidanimator-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
-              "line": 7,
+              "line": 44,
               "character": 1
             }
           ],
@@ -214,27 +427,253 @@
         }
       ]
     },
-    "28042": {
-      "name": "toString",
+    "32350": {
+      "name": "setupInteractiveGesture",
       "type": "Method",
-      "url": "/api/class/Transition#tostring",
+      "url": "/api/class/Transition#setupinteractivegesture",
       "flags": {
-        "isPublic": true
+        "isOptional": true
       },
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toString(): string",
-          "url": "/api/class/Transition#tostring-tostring-1",
+          "code": "setupInteractiveGesture(startCallback: () => void, view: <a href=\"/api/class/View\">View</a>): void",
+          "url": "/api/class/Transition#setupinteractivegesture-setupinteractivegesture-1",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/transition/index.d.ts",
-              "line": 8,
+              "line": 46,
               "character": 1
             }
           ],
-          "parameters": [],
-          "returns": "string"
+          "parameters": [
+            {
+              "name": "startCallback",
+              "type": "() => void",
+              "flags": {}
+            },
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32356": {
+      "name": "iosDismissedController",
+      "type": "Method",
+      "url": "/api/class/Transition#iosdismissedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosDismissedController</span><span style=\"color: #E1E4E8\">(dismissed: any): any</span></span></code>",
+          "url": "/api/class/Transition#iosdismissedcontroller-iosdismissedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "dismissed",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32359": {
+      "name": "iosPresentedController",
+      "type": "Method",
+      "url": "/api/class/Transition#iospresentedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosPresentedController</span><span style=\"color: #E1E4E8\">(presented: any, presenting: any, source: any): any</span></span></code>",
+          "url": "/api/class/Transition#iospresentedcontroller-iospresentedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 50,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "presented",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "presenting",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "source",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32364": {
+      "name": "iosInteractionDismiss",
+      "type": "Method",
+      "url": "/api/class/Transition#iosinteractiondismiss",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosInteractionDismiss</span><span style=\"color: #E1E4E8\">(animator: any): any</span></span></code>",
+          "url": "/api/class/Transition#iosinteractiondismiss-iosinteractiondismiss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 52,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "animator",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32367": {
+      "name": "iosInteractionPresented",
+      "type": "Method",
+      "url": "/api/class/Transition#iosinteractionpresented",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosInteractionPresented</span><span style=\"color: #E1E4E8\">(animator: any): any</span></span></code>",
+          "url": "/api/class/Transition#iosinteractionpresented-iosinteractionpresented-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "animator",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32370": {
+      "name": "iosNavigatedController",
+      "type": "Method",
+      "url": "/api/class/Transition#iosnavigatedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosNavigatedController</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  navigationController: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  operation: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  fromVC: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toVC: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): any</span></span></code>",
+          "url": "/api/class/Transition#iosnavigatedcontroller-iosnavigatedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 56,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "navigationController",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "operation",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "fromVC",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "toVC",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32376": {
+      "name": "androidFragmentTransactionCallback",
+      "type": "Method",
+      "url": "/api/class/Transition#androidfragmenttransactioncallback",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "androidFragmentTransactionCallback(fragmentTransaction: any, currentEntry: <a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>, newEntry: <a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>): void",
+          "url": "/api/class/Transition#androidfragmenttransactioncallback-androidfragmenttransactioncallback-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 58,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "fragmentTransaction",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "currentEntry",
+              "type": "<a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>",
+              "flags": {}
+            },
+            {
+              "name": "newEntry",
+              "type": "<a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
         }
       ]
     }

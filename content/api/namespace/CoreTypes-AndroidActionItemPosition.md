@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.AndroidActionItemPosition
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'AndroidActionItemPosition'
 layout: api
 seo:
-  description: "Specifies android MenuItem position."
+  description: CoreTypes.AndroidActionItemPosition
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJTcGVjaWZpZXMgYW5kcm9pZCBNZW51SXRlbSBwb3NpdGlvbi4ifV19" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2698" v-once>
+<APIRef for="4965" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2699" v-once>
+<APIRef for="4966" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2700" v-once>
+<APIRef for="4967" v-once>
 
 <template #title>
 

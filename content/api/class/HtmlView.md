@@ -1,6 +1,13 @@
 ---
 title: HtmlView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'HtmlView'
 layout: api
 seo:
   description: "Represents a view with html content. Use this component instead WebView when you want to show just static HTML content.\n[iOS support](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata)\n[android support](http://developer.android.com/reference/android/text/Html.html)"
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11292" v-once>
+<APIRef for="14221" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11294" v-once>
+<APIRef for="14223" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11296" v-once>
+<APIRef for="14225" v-once>
 
 <template #title>
 
@@ -72,11 +79,25 @@ seo:
 
 <div class="">
 
-<APIRef for="11295" v-once>
+<APIRef for="14224" v-once>
 
 <template #title>
 
 ### ios
+
+</template>
+
+</APIRef>
+
+</div>
+
+<div class="">
+
+<APIRef for="14226" v-once>
+
+<template #title>
+
+### selectable
 
 </template>
 

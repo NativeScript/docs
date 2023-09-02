@@ -5,14 +5,14 @@
     {
       "title": "Variables",
       "items": [
-        2696,
-        2694,
-        2695
+        4963,
+        4961,
+        4962
       ]
     }
   ],
   "reflections": {
-    "2694": {
+    "4961": {
       "name": "auto",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#auto",
@@ -21,19 +21,19 @@
       },
       "signatures": [
         {
-          "code": "auto: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">auto</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 442,
-              "character": 15
+              "line": 183,
+              "character": 14
             }
           ],
           "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#auto"
         }
       ]
     },
-    "2695": {
+    "4962": {
       "name": "never",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#never",
@@ -42,19 +42,19 @@
       },
       "signatures": [
         {
-          "code": "never: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">never</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 443,
-              "character": 15
+              "line": 184,
+              "character": 14
             }
           ],
           "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#never"
         }
       ]
     },
-    "2696": {
+    "4963": {
       "name": "always",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#always",
@@ -63,12 +63,12 @@
       },
       "signatures": [
         {
-          "code": "always: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">always</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 444,
-              "character": 15
+              "line": 185,
+              "character": 14
             }
           ],
           "url": "/api/namespace/CoreTypes-AndroidActionBarIconVisibility#always"

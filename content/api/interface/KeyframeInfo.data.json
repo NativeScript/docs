@@ -11,21 +11,21 @@
     {
       "title": "Properties",
       "items": [
-        5009,
-        5008,
-        5007
+        7472,
+        7471,
+        7470
       ]
     }
   ],
   "reflections": {
-    "5007": {
+    "7470": {
       "name": "duration",
       "type": "Property",
       "url": "/api/interface/KeyframeInfo#duration",
       "flags": {},
       "signatures": [
         {
-          "code": "duration: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">duration</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",
@@ -37,7 +37,7 @@
         }
       ]
     },
-    "5008": {
+    "7471": {
       "name": "declarations",
       "type": "Property",
       "url": "/api/interface/KeyframeInfo#declarations",
@@ -56,7 +56,7 @@
         }
       ]
     },
-    "5009": {
+    "7472": {
       "name": "curve",
       "type": "Property",
       "url": "/api/interface/KeyframeInfo#curve",
@@ -65,7 +65,7 @@
       },
       "signatures": [
         {
-          "code": "curve?: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/animation/keyframe-animation.d.ts",

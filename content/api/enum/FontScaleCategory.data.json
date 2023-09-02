@@ -5,21 +5,21 @@
     {
       "title": "Enumeration Members",
       "items": [
-        1238,
-        1236,
-        1237
+        973,
+        971,
+        972
       ]
     }
   ],
   "reflections": {
-    "1236": {
+    "971": {
       "name": "ExtraSmall",
       "type": "EnumMember",
       "url": "/api/enum/FontScaleCategory#extrasmall",
       "flags": {},
       "signatures": [
         {
-          "code": "ExtraSmall: \"extra-small\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ExtraSmall</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;extra-small&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/font-scale.d.ts",
@@ -31,14 +31,14 @@
         }
       ]
     },
-    "1237": {
+    "972": {
       "name": "Medium",
       "type": "EnumMember",
       "url": "/api/enum/FontScaleCategory#medium",
       "flags": {},
       "signatures": [
         {
-          "code": "Medium: \"medium\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Medium</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;medium&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/font-scale.d.ts",
@@ -50,14 +50,14 @@
         }
       ]
     },
-    "1238": {
+    "973": {
       "name": "ExtraLarge",
       "type": "EnumMember",
       "url": "/api/enum/FontScaleCategory#extralarge",
       "flags": {},
       "signatures": [
         {
-          "code": "ExtraLarge: \"extra-large\"",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ExtraLarge</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;extra-large&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/accessibility/font-scale.d.ts",

@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.UpdateTextTrigger
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'UpdateTextTrigger'
 layout: api
 seo:
-  description: "Represents an enumeration specifying when the text property of an EditableTextBase will be updated."
+  description: CoreTypes.UpdateTextTrigger
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJSZXByZXNlbnRzIGFuIGVudW1lcmF0aW9uIHNwZWNpZnlpbmcgd2hlbiB0aGUgdGV4dCBwcm9wZXJ0eSBvZiBhbiBFZGl0YWJsZVRleHRCYXNlIHdpbGwgYmUgdXBkYXRlZC4ifV19" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2668" v-once>
+<APIRef for="4939" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2669" v-once>
+<APIRef for="4940" v-once>
 
 <template #title>
 

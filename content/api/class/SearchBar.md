@@ -1,6 +1,13 @@
 ---
 title: SearchBar
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'SearchBar'
 layout: api
 seo:
   description: "Represents a search bar component."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20006" v-once>
+<APIRef for="23613" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20008" v-once>
+<APIRef for="23615" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20011" v-once>
+<APIRef for="23618" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20009" v-once>
+<APIRef for="23616" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20010" v-once>
+<APIRef for="23617" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20012" v-once>
+<APIRef for="23619" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20013" v-once>
+<APIRef for="23620" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="19941" v-once>
+<APIRef for="23533" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="19940" v-once>
+<APIRef for="23532" v-once>
 
 <template #title>
 
@@ -158,7 +165,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20036" v-once>
+<APIRef for="23643" v-once>
 
 <template #title>
 
@@ -172,7 +179,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20014" v-once>
+<APIRef for="23621" v-once>
 
 <template #title>
 

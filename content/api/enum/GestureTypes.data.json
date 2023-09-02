@@ -5,19 +5,19 @@
     {
       "title": "Enumeration Members",
       "items": [
-        11095,
-        11100,
-        11097,
-        11096,
-        11099,
-        11098,
-        11094,
-        11101
+        14009,
+        14014,
+        14011,
+        14010,
+        14013,
+        14012,
+        14008,
+        14015
       ]
     }
   ],
   "reflections": {
-    "11094": {
+    "14008": {
       "name": "tap",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#tap",
@@ -32,7 +32,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "tap: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">tap</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -52,7 +52,7 @@
         }
       ]
     },
-    "11095": {
+    "14009": {
       "name": "doubleTap",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#doubletap",
@@ -67,7 +67,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "doubleTap: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">doubleTap</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    "11096": {
+    "14010": {
       "name": "pinch",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#pinch",
@@ -102,7 +102,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "pinch: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">pinch</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -122,7 +122,7 @@
         }
       ]
     },
-    "11097": {
+    "14011": {
       "name": "pan",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#pan",
@@ -137,7 +137,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "pan: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">pan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -157,7 +157,7 @@
         }
       ]
     },
-    "11098": {
+    "14012": {
       "name": "swipe",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#swipe",
@@ -172,7 +172,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "swipe: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">swipe</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -192,7 +192,7 @@
         }
       ]
     },
-    "11099": {
+    "14013": {
       "name": "rotation",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#rotation",
@@ -207,7 +207,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "rotation: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotation</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -227,7 +227,7 @@
         }
       ]
     },
-    "11100": {
+    "14014": {
       "name": "longPress",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#longpress",
@@ -242,7 +242,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "longPress: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">longPress</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",
@@ -262,7 +262,7 @@
         }
       ]
     },
-    "11101": {
+    "14015": {
       "name": "touch",
       "type": "EnumMember",
       "url": "/api/enum/GestureTypes#touch",
@@ -277,7 +277,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "touch: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">touch</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/gestures/index.d.ts",

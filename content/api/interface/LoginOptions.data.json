@@ -17,22 +17,22 @@
     {
       "title": "Properties",
       "items": [
-        10180,
-        10175,
-        10179,
-        10176,
-        10177,
-        10174,
-        10172,
-        10181,
-        10178,
-        10173,
-        10171
+        13036,
+        13031,
+        13035,
+        13032,
+        13033,
+        13030,
+        13028,
+        13037,
+        13034,
+        13029,
+        13027
       ]
     }
   ],
   "reflections": {
-    "10171": {
+    "13027": {
       "name": "userNameHint",
       "type": "Property",
       "url": "/api/interface/LoginOptions#usernamehint",
@@ -49,7 +49,7 @@
       },
       "signatures": [
         {
-          "code": "userNameHint?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">userNameHint</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -69,7 +69,7 @@
         }
       ]
     },
-    "10172": {
+    "13028": {
       "name": "passwordHint",
       "type": "Property",
       "url": "/api/interface/LoginOptions#passwordhint",
@@ -86,7 +86,7 @@
       },
       "signatures": [
         {
-          "code": "passwordHint?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">passwordHint</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -106,7 +106,7 @@
         }
       ]
     },
-    "10173": {
+    "13029": {
       "name": "userName",
       "type": "Property",
       "url": "/api/interface/LoginOptions#username",
@@ -123,7 +123,7 @@
       },
       "signatures": [
         {
-          "code": "userName?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">userName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -143,7 +143,7 @@
         }
       ]
     },
-    "10174": {
+    "13030": {
       "name": "password",
       "type": "Property",
       "url": "/api/interface/LoginOptions#password",
@@ -160,7 +160,7 @@
       },
       "signatures": [
         {
-          "code": "password?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">password</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -180,7 +180,7 @@
         }
       ]
     },
-    "10175": {
+    "13031": {
       "name": "cancelButtonText",
       "type": "Property",
       "url": "/api/interface/LoginOptions#cancelbuttontext",
@@ -203,7 +203,7 @@
       },
       "signatures": [
         {
-          "code": "cancelButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -229,7 +229,7 @@
         }
       ]
     },
-    "10176": {
+    "13032": {
       "name": "neutralButtonText",
       "type": "Property",
       "url": "/api/interface/LoginOptions#neutralbuttontext",
@@ -252,7 +252,7 @@
       },
       "signatures": [
         {
-          "code": "neutralButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">neutralButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -278,7 +278,7 @@
         }
       ]
     },
-    "10177": {
+    "13033": {
       "name": "okButtonText",
       "type": "Property",
       "url": "/api/interface/LoginOptions#okbuttontext",
@@ -301,7 +301,7 @@
       },
       "signatures": [
         {
-          "code": "okButtonText?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">okButtonText</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -327,7 +327,7 @@
         }
       ]
     },
-    "10178": {
+    "13034": {
       "name": "title",
       "type": "Property",
       "url": "/api/interface/LoginOptions#title",
@@ -350,7 +350,7 @@
       },
       "signatures": [
         {
-          "code": "title?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">title</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -376,7 +376,7 @@
         }
       ]
     },
-    "10179": {
+    "13035": {
       "name": "message",
       "type": "Property",
       "url": "/api/interface/LoginOptions#message",
@@ -399,7 +399,7 @@
       },
       "signatures": [
         {
-          "code": "message?: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">message</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -425,7 +425,7 @@
         }
       ]
     },
-    "10180": {
+    "13036": {
       "name": "cancelable",
       "type": "Property",
       "url": "/api/interface/LoginOptions#cancelable",
@@ -448,7 +448,7 @@
       },
       "signatures": [
         {
-          "code": "cancelable?: boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">cancelable</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
@@ -474,7 +474,7 @@
         }
       ]
     },
-    "10181": {
+    "13037": {
       "name": "theme",
       "type": "Property",
       "url": "/api/interface/LoginOptions#theme",
@@ -497,7 +497,7 @@
       },
       "signatures": [
         {
-          "code": "theme?: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">theme</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/dialogs/index.d.ts",

@@ -1,9 +1,16 @@
 ---
 title: FontWeight
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'FontWeight'
 layout: api
 seo:
-  description: undefined
+  description: FontWeight
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22504" v-once>
+<APIRef for="26305" v-once>
 
 <template #title>
 
@@ -40,7 +47,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22502" v-once>
+<APIRef for="26303" v-once>
 
 <template #title>
 
@@ -54,7 +61,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22503" v-once>
+<APIRef for="26304" v-once>
 
 <template #title>
 
@@ -68,7 +75,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22497" v-once>
+<APIRef for="26298" v-once>
 
 <template #title>
 
@@ -82,7 +89,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22498" v-once>
+<APIRef for="26299" v-once>
 
 <template #title>
 
@@ -96,7 +103,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22500" v-once>
+<APIRef for="26301" v-once>
 
 <template #title>
 
@@ -110,7 +117,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22499" v-once>
+<APIRef for="26300" v-once>
 
 <template #title>
 
@@ -124,7 +131,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22501" v-once>
+<APIRef for="26302" v-once>
 
 <template #title>
 
@@ -138,7 +145,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="22496" v-once>
+<APIRef for="26297" v-once>
 
 <template #title>
 
@@ -154,7 +161,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22490" v-once>
+<APIRef for="26291" v-once>
 
 <template #title>
 
@@ -168,7 +175,7 @@ seo:
 
 <div class="">
 
-<APIRef for="22493" v-once>
+<APIRef for="26294" v-once>
 
 <template #title>
 

@@ -1,6 +1,13 @@
 ---
 title: TabView
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'TabView'
 layout: api
 seo:
   description: "Represents a tab view."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23548" v-once>
+<APIRef for="27441" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23557" v-once>
+<APIRef for="27450" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23560" v-once>
+<APIRef for="27453" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23561" v-once>
+<APIRef for="27454" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23556" v-once>
+<APIRef for="27449" v-once>
 
 <template #title>
 
@@ -100,7 +107,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23563" v-once>
+<APIRef for="27456" v-once>
 
 <template #title>
 
@@ -114,7 +121,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23562" v-once>
+<APIRef for="27455" v-once>
 
 <template #title>
 
@@ -128,7 +135,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23558" v-once>
+<APIRef for="27451" v-once>
 
 <template #title>
 
@@ -142,7 +149,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23559" v-once>
+<APIRef for="27452" v-once>
 
 <template #title>
 
@@ -156,7 +163,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23550" v-once>
+<APIRef for="27443" v-once>
 
 <template #title>
 
@@ -170,7 +177,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23551" v-once>
+<APIRef for="27444" v-once>
 
 <template #title>
 
@@ -184,7 +191,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23555" v-once>
+<APIRef for="27448" v-once>
 
 <template #title>
 
@@ -198,7 +205,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23554" v-once>
+<APIRef for="27447" v-once>
 
 <template #title>
 
@@ -212,7 +219,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23553" v-once>
+<APIRef for="27446" v-once>
 
 <template #title>
 
@@ -226,7 +233,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23552" v-once>
+<APIRef for="27445" v-once>
 
 <template #title>
 
@@ -240,7 +247,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="23483" v-once>
+<APIRef for="27361" v-once>
 
 <template #title>
 
@@ -256,7 +263,7 @@ seo:
 
 <div class="">
 
-<APIRef for="23564" v-once>
+<APIRef for="27457" v-once>
 
 <template #title>
 

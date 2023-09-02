@@ -11,56 +11,56 @@
     {
       "title": "Constructors",
       "items": [
-        2331
+        2229
       ]
     },
     {
       "title": "Properties",
       "items": [
-        2338,
-        2334,
-        2337,
-        2336,
-        2335
+        2236,
+        2232,
+        2235,
+        2234,
+        2233
       ]
     },
     {
       "title": "Methods",
       "items": [
-        2339,
-        2293,
-        2363,
-        2323,
-        2320,
-        2357,
-        2317,
-        2314,
-        2351,
-        2308,
-        2311,
-        2305,
-        2326,
-        2345,
-        2302,
-        2299,
-        2296,
-        2360,
-        2354,
-        2348,
-        2366,
-        2342,
-        2392,
-        2396,
-        2374,
-        2379,
-        2371,
-        2384,
-        2388
+        2237,
+        2191,
+        2261,
+        2221,
+        2218,
+        2255,
+        2215,
+        2212,
+        2249,
+        2206,
+        2209,
+        2203,
+        2224,
+        2243,
+        2200,
+        2197,
+        2194,
+        2258,
+        2252,
+        2246,
+        2264,
+        2240,
+        2290,
+        2294,
+        2272,
+        2277,
+        2269,
+        2282,
+        2286
       ]
     }
   ],
   "reflections": {
-    "2293": {
+    "2191": {
       "name": "fromAsset",
       "type": "Method",
       "url": "/api/class/ImageSource#fromasset-2",
@@ -106,7 +106,7 @@
         }
       ]
     },
-    "2296": {
+    "2194": {
       "name": "fromUrl",
       "type": "Method",
       "url": "/api/class/ImageSource#fromurl",
@@ -152,7 +152,7 @@
         }
       ]
     },
-    "2299": {
+    "2197": {
       "name": "fromResourceSync",
       "type": "Method",
       "url": "/api/class/ImageSource#fromresourcesync",
@@ -198,7 +198,7 @@
         }
       ]
     },
-    "2302": {
+    "2200": {
       "name": "fromResource",
       "type": "Method",
       "url": "/api/class/ImageSource#fromresource-2",
@@ -244,7 +244,7 @@
         }
       ]
     },
-    "2305": {
+    "2203": {
       "name": "fromFileSync",
       "type": "Method",
       "url": "/api/class/ImageSource#fromfilesync",
@@ -290,7 +290,7 @@
         }
       ]
     },
-    "2308": {
+    "2206": {
       "name": "fromFile",
       "type": "Method",
       "url": "/api/class/ImageSource#fromfile-2",
@@ -336,7 +336,7 @@
         }
       ]
     },
-    "2311": {
+    "2209": {
       "name": "fromFileOrResourceSync",
       "type": "Method",
       "url": "/api/class/ImageSource#fromfileorresourcesync",
@@ -382,7 +382,7 @@
         }
       ]
     },
-    "2314": {
+    "2212": {
       "name": "fromDataSync",
       "type": "Method",
       "url": "/api/class/ImageSource#fromdatasync",
@@ -428,7 +428,7 @@
         }
       ]
     },
-    "2317": {
+    "2215": {
       "name": "fromData",
       "type": "Method",
       "url": "/api/class/ImageSource#fromdata-2",
@@ -474,7 +474,7 @@
         }
       ]
     },
-    "2320": {
+    "2218": {
       "name": "fromBase64Sync",
       "type": "Method",
       "url": "/api/class/ImageSource#frombase64sync",
@@ -520,7 +520,7 @@
         }
       ]
     },
-    "2323": {
+    "2221": {
       "name": "fromBase64",
       "type": "Method",
       "url": "/api/class/ImageSource#frombase64-2",
@@ -566,7 +566,7 @@
         }
       ]
     },
-    "2326": {
+    "2224": {
       "name": "fromFontIconCodeSync",
       "type": "Method",
       "url": "/api/class/ImageSource#fromfonticoncodesync",
@@ -638,7 +638,7 @@
         }
       ]
     },
-    "2331": {
+    "2229": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/ImageSource#constructor",
@@ -684,7 +684,7 @@
         }
       ]
     },
-    "2334": {
+    "2232": {
       "name": "height",
       "type": "Property",
       "url": "/api/class/ImageSource#height",
@@ -699,7 +699,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "height: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">height</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -719,7 +719,7 @@
         }
       ]
     },
-    "2335": {
+    "2233": {
       "name": "width",
       "type": "Property",
       "url": "/api/class/ImageSource#width",
@@ -734,7 +734,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "width: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">width</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -754,7 +754,7 @@
         }
       ]
     },
-    "2336": {
+    "2234": {
       "name": "rotationAngle",
       "type": "Property",
       "url": "/api/class/ImageSource#rotationangle",
@@ -769,7 +769,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "rotationAngle: number",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rotationAngle</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -789,7 +789,7 @@
         }
       ]
     },
-    "2337": {
+    "2235": {
       "name": "ios",
       "type": "Property",
       "url": "/api/class/ImageSource#ios",
@@ -804,7 +804,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "ios: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -824,7 +824,7 @@
         }
       ]
     },
-    "2338": {
+    "2236": {
       "name": "android",
       "type": "Property",
       "url": "/api/class/ImageSource#android",
@@ -839,7 +839,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "android: any",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/image-source/index.d.ts",
@@ -859,7 +859,7 @@
         }
       ]
     },
-    "2339": {
+    "2237": {
       "name": "fromAsset",
       "type": "Method",
       "url": "/api/class/ImageSource#fromasset",
@@ -909,7 +909,7 @@
         }
       ]
     },
-    "2342": {
+    "2240": {
       "name": "loadFromResource",
       "type": "Method",
       "url": "/api/class/ImageSource#loadfromresource",
@@ -917,7 +917,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromResource(name: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromResource</span><span style=\"color: #E1E4E8\">(name: string): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfromresource-loadfromresource-1",
           "sources": [
             {
@@ -959,7 +959,7 @@
         }
       ]
     },
-    "2345": {
+    "2243": {
       "name": "fromResource",
       "type": "Method",
       "url": "/api/class/ImageSource#fromresource",
@@ -967,7 +967,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromResource(name: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromResource</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#fromresource-fromresource-1",
           "sources": [
             {
@@ -1009,7 +1009,7 @@
         }
       ]
     },
-    "2348": {
+    "2246": {
       "name": "loadFromFile",
       "type": "Method",
       "url": "/api/class/ImageSource#loadfromfile",
@@ -1017,7 +1017,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromFile(path: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromFile</span><span style=\"color: #E1E4E8\">(path: string): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfromfile-loadfromfile-1",
           "sources": [
             {
@@ -1059,7 +1059,7 @@
         }
       ]
     },
-    "2351": {
+    "2249": {
       "name": "fromFile",
       "type": "Method",
       "url": "/api/class/ImageSource#fromfile",
@@ -1067,7 +1067,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromFile(path: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromFile</span><span style=\"color: #E1E4E8\">(path: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#fromfile-fromfile-1",
           "sources": [
             {
@@ -1109,7 +1109,7 @@
         }
       ]
     },
-    "2354": {
+    "2252": {
       "name": "loadFromData",
       "type": "Method",
       "url": "/api/class/ImageSource#loadfromdata",
@@ -1117,7 +1117,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromData(data: any): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromData</span><span style=\"color: #E1E4E8\">(data: any): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfromdata-loadfromdata-1",
           "sources": [
             {
@@ -1159,7 +1159,7 @@
         }
       ]
     },
-    "2357": {
+    "2255": {
       "name": "fromData",
       "type": "Method",
       "url": "/api/class/ImageSource#fromdata",
@@ -1167,7 +1167,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromData(data: any): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromData</span><span style=\"color: #E1E4E8\">(data: any): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#fromdata-fromdata-1",
           "sources": [
             {
@@ -1209,7 +1209,7 @@
         }
       ]
     },
-    "2360": {
+    "2258": {
       "name": "loadFromBase64",
       "type": "Method",
       "url": "/api/class/ImageSource#loadfrombase64",
@@ -1217,7 +1217,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "loadFromBase64(source: string): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadFromBase64</span><span style=\"color: #E1E4E8\">(source: string): boolean</span></span></code>",
           "url": "/api/class/ImageSource#loadfrombase64-loadfrombase64-1",
           "sources": [
             {
@@ -1259,7 +1259,7 @@
         }
       ]
     },
-    "2363": {
+    "2261": {
       "name": "fromBase64",
       "type": "Method",
       "url": "/api/class/ImageSource#frombase64",
@@ -1267,7 +1267,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "fromBase64(source: string): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">fromBase64</span><span style=\"color: #E1E4E8\">(source: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#frombase64-frombase64-1",
           "sources": [
             {
@@ -1309,7 +1309,7 @@
         }
       ]
     },
-    "2366": {
+    "2264": {
       "name": "loadFromFontIconCode",
       "type": "Method",
       "url": "/api/class/ImageSource#loadfromfonticoncode",
@@ -1385,7 +1385,7 @@
         }
       ]
     },
-    "2371": {
+    "2269": {
       "name": "setNativeSource",
       "type": "Method",
       "url": "/api/class/ImageSource#setnativesource",
@@ -1393,7 +1393,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "setNativeSource(nativeSource: any): void",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNativeSource</span><span style=\"color: #E1E4E8\">(nativeSource: any): </span><span style=\"color: #F97583\">void</span></span></code>",
           "url": "/api/class/ImageSource#setnativesource-setnativesource-1",
           "sources": [
             {
@@ -1429,7 +1429,7 @@
         }
       ]
     },
-    "2374": {
+    "2272": {
       "name": "saveToFile",
       "type": "Method",
       "url": "/api/class/ImageSource#savetofile",
@@ -1437,7 +1437,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "saveToFile(\n  path: string,\n  format: \"png\" | \"jpeg\" | \"jpg\",\n  quality?: number\n): boolean",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">saveToFile</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  path: string,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): boolean</span></span></code>",
           "url": "/api/class/ImageSource#savetofile-savetofile-1",
           "sources": [
             {
@@ -1501,7 +1501,7 @@
         }
       ]
     },
-    "2379": {
+    "2277": {
       "name": "saveToFileAsync",
       "type": "Method",
       "url": "/api/class/ImageSource#savetofileasync",
@@ -1509,7 +1509,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "saveToFileAsync(path: string, format: \"png\" | \"jpeg\" | \"jpg\", quality?: number): Promise&lt;boolean&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">saveToFileAsync</span><span style=\"color: #E1E4E8\">(path: string, format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">, quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;boolean</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#savetofileasync-savetofileasync-1",
           "sources": [
             {
@@ -1573,7 +1573,7 @@
         }
       ]
     },
-    "2384": {
+    "2282": {
       "name": "toBase64String",
       "type": "Method",
       "url": "/api/class/ImageSource#tobase64string",
@@ -1581,7 +1581,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toBase64String(format: \"png\" | \"jpeg\" | \"jpg\", quality?: number): string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toBase64String</span><span style=\"color: #E1E4E8\">(format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">, quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): string</span></span></code>",
           "url": "/api/class/ImageSource#tobase64string-tobase64string-1",
           "sources": [
             {
@@ -1632,7 +1632,7 @@
         }
       ]
     },
-    "2388": {
+    "2286": {
       "name": "toBase64StringAsync",
       "type": "Method",
       "url": "/api/class/ImageSource#tobase64stringasync",
@@ -1640,7 +1640,7 @@
       "signatures": [
         {
           "type": "CallSignature",
-          "code": "toBase64StringAsync(format: \"png\" | \"jpeg\" | \"jpg\", quality?: number): Promise&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toBase64StringAsync</span><span style=\"color: #E1E4E8\">(format: </span><span style=\"color: #9ECBFF\">&quot;png&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpeg&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;jpg&quot;</span><span style=\"color: #E1E4E8\">, quality</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "url": "/api/class/ImageSource#tobase64stringasync-tobase64stringasync-1",
           "sources": [
             {
@@ -1691,7 +1691,7 @@
         }
       ]
     },
-    "2392": {
+    "2290": {
       "name": "resize",
       "type": "Method",
       "url": "/api/class/ImageSource#resize",
@@ -1750,7 +1750,7 @@
         }
       ]
     },
-    "2396": {
+    "2294": {
       "name": "resizeAsync",
       "type": "Method",
       "url": "/api/class/ImageSource#resizeasync",

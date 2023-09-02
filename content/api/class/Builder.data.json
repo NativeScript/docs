@@ -11,29 +11,29 @@
     {
       "title": "Constructors",
       "items": [
-        5044
+        7507
       ]
     },
     {
       "title": "Properties",
       "items": [
-        5026,
-        5025,
-        5024
+        7489,
+        7488,
+        7487
       ]
     },
     {
       "title": "Methods",
       "items": [
-        5027,
-        5038,
-        5030,
-        5034
+        7490,
+        7501,
+        7493,
+        7497
       ]
     }
   ],
   "reflections": {
-    "5024": {
+    "7487": {
       "name": "knownTemplates",
       "type": "Property",
       "url": "/api/class/Builder#knowntemplates",
@@ -50,7 +50,7 @@
       },
       "signatures": [
         {
-          "code": "knownTemplates: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">knownTemplates</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -70,7 +70,7 @@
         }
       ]
     },
-    "5025": {
+    "7488": {
       "name": "knownMultiTemplates",
       "type": "Property",
       "url": "/api/class/Builder#knownmultitemplates",
@@ -79,7 +79,7 @@
       },
       "signatures": [
         {
-          "code": "knownMultiTemplates: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">knownMultiTemplates</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -91,7 +91,7 @@
         }
       ]
     },
-    "5026": {
+    "7489": {
       "name": "knownCollections",
       "type": "Property",
       "url": "/api/class/Builder#knowncollections",
@@ -100,7 +100,7 @@
       },
       "signatures": [
         {
-          "code": "knownCollections: Set&lt;string&gt;",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">knownCollections</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/builder/index.d.ts",
@@ -112,7 +112,7 @@
         }
       ]
     },
-    "5027": {
+    "7490": {
       "name": "createViewFromEntry",
       "type": "Method",
       "url": "/api/class/Builder#createviewfromentry",
@@ -158,7 +158,7 @@
         }
       ]
     },
-    "5030": {
+    "7493": {
       "name": "parse",
       "type": "Method",
       "url": "/api/class/Builder#parse",
@@ -195,7 +195,7 @@
         }
       ]
     },
-    "5034": {
+    "7497": {
       "name": "parseMultipleTemplates",
       "type": "Method",
       "url": "/api/class/Builder#parsemultipletemplates",
@@ -256,7 +256,7 @@
         }
       ]
     },
-    "5038": {
+    "7501": {
       "name": "load",
       "type": "Method",
       "url": "/api/class/Builder#load",
@@ -353,7 +353,7 @@
         }
       ]
     },
-    "5044": {
+    "7507": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/Builder#constructor",

@@ -1,6 +1,13 @@
 ---
 title: AndroidActivityRequestPermissionsEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'AndroidActivityRequestPermissionsEventData'
 layout: api
 seo:
   description: "Data for the Android activity onRequestPermissions callback"
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface AndroidActivityRequestPermissionsEventData extends <a href="/api/interface/AndroidActivityEventData">AndroidActivityEventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface AndroidActivityRequestPermissionsEventData extends <a href="/api/interface/AndroidActivityEventData">AndroidActivityEventData</a> {
   grantResults: number[];
   permissions: string[];
   requestCode: number;
@@ -34,7 +41,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1118" v-once>
+<APIRef for="4738" v-once>
 
 <template #title>
 
@@ -48,7 +55,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1117" v-once>
+<APIRef for="4737" v-once>
 
 <template #title>
 
@@ -62,7 +69,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1116" v-once>
+<APIRef for="4736" v-once>
 
 <template #title>
 

@@ -11,24 +11,23 @@
     {
       "title": "Constructors",
       "items": [
-        22769
+        26594
       ]
     },
     {
       "title": "Methods",
       "items": [
-        22763,
-        22766
+        26588,
+        26591
       ]
     }
   ],
   "reflections": {
-    "22763": {
+    "26588": {
       "name": "keyframeAnimationsFromCSSDeclarations",
       "type": "Method",
       "url": "/api/class/CssAnimationParser#keyframeanimationsfromcssdeclarations",
       "flags": {
-        "isPublic": true,
         "isStatic": true
       },
       "signatures": [
@@ -39,8 +38,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/css-animation-parser.d.ts",
-              "line": 4,
-              "character": 1
+              "line": 3,
+              "character": 4
             }
           ],
           "parameters": [
@@ -54,12 +53,11 @@
         }
       ]
     },
-    "22766": {
+    "26591": {
       "name": "keyframesArrayFromCSS",
       "type": "Method",
       "url": "/api/class/CssAnimationParser#keyframesarrayfromcss",
       "flags": {
-        "isPublic": true,
         "isStatic": true
       },
       "signatures": [
@@ -70,8 +68,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/ui/styling/css-animation-parser.d.ts",
-              "line": 6,
-              "character": 1
+              "line": 4,
+              "character": 4
             }
           ],
           "parameters": [
@@ -85,7 +83,7 @@
         }
       ]
     },
-    "22769": {
+    "26594": {
       "name": "constructor",
       "type": "Constructor",
       "url": "/api/class/CssAnimationParser#constructor",

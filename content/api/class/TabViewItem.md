@@ -1,6 +1,13 @@
 ---
 title: TabViewItem
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'TabViewItem'
 layout: api
 seo:
   description: "Represents a tab view entry."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24186" v-once>
+<APIRef for="28132" v-once>
 
 <template #title>
 
@@ -42,23 +49,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate isOptional">
-
-<APIRef for="24192" v-once>
-
-<template #title>
-
-### canBeLoaded
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isPublic">
 
-<APIRef for="24190" v-once>
+<APIRef for="28136" v-once>
 
 <template #title>
 
@@ -72,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="24191" v-once>
+<APIRef for="28137" v-once>
 
 <template #title>
 
@@ -86,7 +79,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="24188" v-once>
+<APIRef for="28134" v-once>
 
 <template #title>
 
@@ -100,7 +93,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="24189" v-once>
+<APIRef for="28135" v-once>
 
 <template #title>
 

@@ -1,8 +1,45 @@
 ---
 title: '[DEV] Reference'
+contributors:
+  - rigor789
 ---
 
 This page serves as a reference for the available markdown options in the docs.
+
+## Diagrams
+
+### Android Runtime Overview
+
+<img class="w-full" src="./assets/diagrams/Android_Runtime_Overview.drawio.svg"/>
+
+### iOS Runtime Overview
+
+<img class="w-full" src="./assets/diagrams/iOS_Runtime_Overview.drawio.svg"/>
+
+### Frame and Page Lifecycle
+
+<img class="w-full" src="./assets/diagrams/Frame_Page_Lifecycle.drawio.svg"/>
+
+### View Origin
+
+<img src="./assets/diagrams/View_Origin.drawio.svg"/>
+
+### StackLayout (exploration)
+
+<DeviceFrame type="ios">
+<img src="./assets/diagrams/StackLayout.drawio.svg"/>
+</DeviceFrame>
+
+## Videos
+
+### View Origin Demo
+
+<DeviceFrame type="ios">
+<video style="max-width: 400px;" muted="true" disablepictureinpicture="true" autoplay="true" loop="true" src="./assets/videos/animation_origin_ios.mp4"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<video style="max-width: 400px;" muted="true" disablepictureinpicture="true" autoplay="true" loop="true" src="./assets/videos/animation_origin_android.mp4"/>
+</DeviceFrame>
 
 ## Frontmatter
 
@@ -28,6 +65,10 @@ prev: the URL where the `Previous` button at the bottom should link to
 prevText: the text to show in the `Previous` button. By default the text is looked up in the sidebar.
 next: the URL where the `Next` button at the bottom should link to
 nextText: the text to show in the `Next` button. By default the text is looked up in the sidebar.
+contributors: false # to disable the contributors list in the right sidebar
+contributors:
+ - GitHubUsername1
+ - GitHubUsername2
 ---
 
 <!-- the rest of the markdown -->
@@ -53,7 +94,7 @@ For example:
 ![some image](../assets/images/setup/windows/<some_image>.png)
 ```
 
-<Tabs>
+<!-- <Tabs>
 <Tab name="Vue">
 
 SOMETHING SOMETHING
@@ -64,7 +105,7 @@ asd
 
 </Tab>
 
-</Tabs>
+</Tabs> -->
 
 ## StepList
 
@@ -89,6 +130,10 @@ To notate steps from a screenshot, or steps in general, you can wrap any list wi
 </StepList>
 ```
 
+:::warning Important
+Note the blank lines above and below the markdown list, this is required due to the way Markdown is parsed when combined with "html" elements.
+:::
+
 ---
 
 <StepList>
@@ -105,3 +150,40 @@ To notate steps from a screenshot, or steps in general, you can wrap any list wi
 10. Finally, we can see those **double digits** in action right here.
 
 </StepList>
+
+## DeviceFrame
+
+To make content pretty, you can wrap it in a device frame
+
+### iOS Frame
+
+<DeviceFrame type="ios">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-ios.png">
+</DeviceFrame>
+
+### Android Frame
+
+<DeviceFrame type="android">
+<img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-android.png">
+</DeviceFrame>
+
+### Generic Window Frame
+
+Props:
+
+- `title: string | false` - sets a custom window title
+- `buttons: boolean` - hide window buttons
+
+<DeviceFrame type="window" >
+<video controls src="https://user-images.githubusercontent.com/879060/230395606-dbb4a56f-74e8-403b-a687-62e27a61f8d4.mov"></video>
+</DeviceFrame>
+
+---
+
+<DeviceFrame type="window" :buttons="false" title="Hello World!">
+
+<div class="p-4">
+No Buttons & Custom Title
+</div>
+
+</DeviceFrame>

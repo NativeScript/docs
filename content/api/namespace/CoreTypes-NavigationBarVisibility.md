@@ -1,9 +1,18 @@
 ---
 title: CoreTypes.NavigationBarVisibility
-titleTemplate: "API - NativeScript"
+category: Namespaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Namespaces'
+    href: '/api/#summary-Namespaces'
+  - name: 'CoreTypes'
+    href: '/api/namespace/CoreTypes'
+  - name: 'NavigationBarVisibility'
 layout: api
 seo:
-  description: "Specifies NavigationBar visibility mode."
+  description: CoreTypes.NavigationBarVisibility
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,8 +27,6 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJTcGVjaWZpZXMgTmF2aWdhdGlvbkJhciB2aXNpYmlsaXR5IG1vZGUuIn1dfQ==" v-once />
-
 ## <Heading ignore>Summary</Heading>
 
 <APIRefSummary v-once />
@@ -28,7 +35,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2692" v-once>
+<APIRef for="4959" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2690" v-once>
+<APIRef for="4957" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isConst">
 
-<APIRef for="2691" v-once>
+<APIRef for="4958" v-once>
 
 <template #title>
 

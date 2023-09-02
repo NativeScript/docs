@@ -1,6 +1,13 @@
 ---
 title: SwipeGestureEventData
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'SwipeGestureEventData'
 layout: api
 seo:
   description: "Provides gesture event data for swipe gesture."
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface SwipeGestureEventData extends <a href="/api/interface/GestureEventData">GestureEventData</a> {
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline">interface SwipeGestureEventData extends <a href="/api/interface/GestureEventData">GestureEventData</a> {
   direction: <a href="/api/enum/SwipeDirection">SwipeDirection</a>;
 }</pre>
 
@@ -32,7 +39,7 @@ seo:
 
 <div class="">
 
-<APIRef for="11198" v-once>
+<APIRef for="14112" v-once>
 
 <template #title>
 

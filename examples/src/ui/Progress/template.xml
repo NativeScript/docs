@@ -1,0 +1,9 @@
+<Page>
+  <GridLayout>
+    <ContentView verticalAlignment="center">
+      <!-- #region example -->
+      <Progress value="75" />
+      <!-- #endregion example -->
+    </ContentView>
+  </GridLayout>
+</Page>

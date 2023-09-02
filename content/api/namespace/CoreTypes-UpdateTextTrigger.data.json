@@ -5,24 +5,16 @@
     {
       "title": "Variables",
       "items": [
-        2668,
-        2669
+        4939,
+        4940
       ]
     }
   ],
   "reflections": {
-    "2668": {
+    "4939": {
       "name": "focusLost",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-UpdateTextTrigger#focuslost",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The text property will be udpaded when the widget loses focus."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -32,34 +24,18 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 323,
-              "character": 15
+              "line": 156,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The text property will be udpaded when the widget loses focus."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-UpdateTextTrigger#focuslost"
         }
       ]
     },
-    "2669": {
+    "4940": {
       "name": "textChanged",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-UpdateTextTrigger#textchanged",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "The text property will be udpaded on every single character typed by the user."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
@@ -69,18 +45,10 @@
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 328,
-              "character": 15
+              "line": 157,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "The text property will be udpaded on every single character typed by the user."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-UpdateTextTrigger#textchanged"
         }
       ]

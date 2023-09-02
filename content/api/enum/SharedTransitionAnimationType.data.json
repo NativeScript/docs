@@ -1,0 +1,53 @@
+{
+  "title": "SharedTransitionAnimationType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        32707,
+        32706
+      ]
+    }
+  ],
+  "reflections": {
+    "32706": {
+      "name": "present",
+      "type": "EnumMember",
+      "url": "/api/enum/SharedTransitionAnimationType#present",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">present</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">0</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 7,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/SharedTransitionAnimationType#present"
+        }
+      ]
+    },
+    "32707": {
+      "name": "dismiss",
+      "type": "EnumMember",
+      "url": "/api/enum/SharedTransitionAnimationType#dismiss",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dismiss</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">1</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 8,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/SharedTransitionAnimationType#dismiss"
+        }
+      ]
+    }
+  }
+}

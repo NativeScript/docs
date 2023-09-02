@@ -1,6 +1,13 @@
 ---
 title: SegmentedBar
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'SegmentedBar'
 layout: api
 seo:
   description: "Represents a UI SegmentedBar component."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20680" v-once>
+<APIRef for="24340" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20684" v-once>
+<APIRef for="24344" v-once>
 
 <template #title>
 
@@ -58,7 +65,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20683" v-once>
+<APIRef for="24343" v-once>
 
 <template #title>
 
@@ -72,7 +79,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20682" v-once>
+<APIRef for="24342" v-once>
 
 <template #title>
 
@@ -86,7 +93,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="20615" v-once>
+<APIRef for="24260" v-once>
 
 <template #title>
 
@@ -102,7 +109,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="20704" v-once>
+<APIRef for="24364" v-once>
 
 <template #title>
 
@@ -116,7 +123,7 @@ seo:
 
 <div class="isPublic">
 
-<APIRef for="20700" v-once>
+<APIRef for="24360" v-once>
 
 <template #title>
 
@@ -130,7 +137,7 @@ seo:
 
 <div class="">
 
-<APIRef for="20685" v-once>
+<APIRef for="24345" v-once>
 
 <template #title>
 

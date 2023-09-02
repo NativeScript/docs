@@ -1,9 +1,16 @@
 ---
 title: Observable
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'Observable'
 layout: api
 seo:
-  description: "Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener."
+  description: "Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener.\nPlease note that should you be using the `new Observable({})` constructor, it is **obsolete** since v3.0,\nand you have to migrate to the \"data/observable\" `fromObject({})` or the `fromObjectRecursive({})` functions."
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -18,7 +25,7 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJPYnNlcnZhYmxlIGlzIHVzZWQgd2hlbiB5b3Ugd2FudCB0byBiZSBub3RpZmllZCB3aGVuIGEgY2hhbmdlIG9jY3Vycy4gVXNlIG9uL29mZiBtZXRob2RzIHRvIGFkZC9yZW1vdmUgbGlzdGVuZXIuIn1dfQ==" v-once />
+<APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJPYnNlcnZhYmxlIGlzIHVzZWQgd2hlbiB5b3Ugd2FudCB0byBiZSBub3RpZmllZCB3aGVuIGEgY2hhbmdlIG9jY3Vycy4gVXNlIG9uL29mZiBtZXRob2RzIHRvIGFkZC9yZW1vdmUgbGlzdGVuZXIuXG5QbGVhc2Ugbm90ZSB0aGF0IHNob3VsZCB5b3UgYmUgdXNpbmcgdGhlICJ9LHsia2luZCI6ImNvZGUiLCJ0ZXh0IjoiYG5ldyBPYnNlcnZhYmxlKHt9KWAifSx7ImtpbmQiOiJ0ZXh0IiwidGV4dCI6IiBjb25zdHJ1Y3RvciwgaXQgaXMgKipvYnNvbGV0ZSoqIHNpbmNlIHYzLjAsXG5hbmQgeW91IGhhdmUgdG8gbWlncmF0ZSB0byB0aGUgXCJkYXRhL29ic2VydmFibGVcIiAifSx7ImtpbmQiOiJjb2RlIiwidGV4dCI6ImBmcm9tT2JqZWN0KHt9KWAifSx7ImtpbmQiOiJ0ZXh0IiwidGV4dCI6IiBvciB0aGUgIn0seyJraW5kIjoiY29kZSIsInRleHQiOiJgZnJvbU9iamVjdFJlY3Vyc2l2ZSh7fSlgIn0seyJraW5kIjoidGV4dCIsInRleHQiOiIgZnVuY3Rpb25zLiJ9XX0=" v-once />
 
 ## <Heading ignore>Summary</Heading>
 
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1682" v-once>
+<APIRef for="1467" v-once>
 
 <template #title>
 
@@ -42,23 +49,9 @@ seo:
 
 ## Properties
 
-<div class="isPrivate">
-
-<APIRef for="1756" v-once>
-
-<template #title>
-
-### _isViewBase
-
-</template>
-
-</APIRef>
-
-</div>
-
 <div class="isStatic">
 
-<APIRef for="1656" v-once>
+<APIRef for="1424" v-once>
 
 <template #title>
 
@@ -74,7 +67,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1751" v-once>
+<APIRef for="1535" v-once>
 
 <template #title>
 
@@ -86,9 +79,9 @@ seo:
 
 </div>
 
-<div class="isPublic">
+<div class="">
 
-<APIRef for="1748" v-once>
+<APIRef for="1540" v-once>
 
 <template #title>
 
@@ -102,7 +95,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1712" v-once>
+<APIRef for="1506" v-once>
 
 <template #title>
 
@@ -116,7 +109,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1733" v-once>
+<APIRef for="1471" v-once>
 
 <template #title>
 
@@ -130,7 +123,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1745" v-once>
+<APIRef for="1532" v-once>
 
 <template #title>
 
@@ -144,7 +137,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1736" v-once>
+<APIRef for="1523" v-once>
 
 <template #title>
 
@@ -158,7 +151,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1740" v-once>
+<APIRef for="1527" v-once>
 
 <template #title>
 
@@ -172,7 +165,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1707" v-once>
+<APIRef for="1498" v-once>
 
 <template #title>
 
@@ -186,7 +179,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1684" v-once>
+<APIRef for="1482" v-once>
 
 <template #title>
 
@@ -200,7 +193,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1699" v-once>
+<APIRef for="1490" v-once>
 
 <template #title>
 
@@ -214,7 +207,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1720" v-once>
+<APIRef for="1514" v-once>
 
 <template #title>
 
@@ -228,7 +221,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1725" v-once>
+<APIRef for="1474" v-once>
 
 <template #title>
 
@@ -242,7 +235,7 @@ seo:
 
 <div class="">
 
-<APIRef for="1729" v-once>
+<APIRef for="1478" v-once>
 
 <template #title>
 
@@ -256,7 +249,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1672" v-once>
+<APIRef for="1457" v-once>
 
 <template #title>
 
@@ -270,7 +263,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1667" v-once>
+<APIRef for="1441" v-once>
 
 <template #title>
 
@@ -284,7 +277,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1657" v-once>
+<APIRef for="1425" v-once>
 
 <template #title>
 
@@ -298,7 +291,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1662" v-once>
+<APIRef for="1433" v-once>
 
 <template #title>
 
@@ -312,7 +305,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="1677" v-once>
+<APIRef for="1449" v-once>
 
 <template #title>
 

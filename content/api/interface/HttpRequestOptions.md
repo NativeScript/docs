@@ -1,6 +1,13 @@
 ---
 title: HttpRequestOptions
-titleTemplate: "API - NativeScript"
+category: Interfaces
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Interfaces'
+    href: '/api/#summary-Interfaces'
+  - name: 'HttpRequestOptions'
 layout: api
 seo:
   description: "Provides options for the http requests."
@@ -18,14 +25,14 @@ seo:
 
 <APIRefHierarchy v-once />
 
-<pre class="[&_a]:text-green-400">interface HttpRequestOptions {
-  content: string | FormData | ArrayBuffer;
-  dontFollowRedirects: boolean;
-  headers: any;
-  method: string;
-  timeout: number;
-  url: string;
-}</pre>
+<pre class="not-prose [&_a]:text-blue-400 [&_a]:no-underline"><code><span class="line"><span style="color: #F97583">interface</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">HttpRequestOptions</span><span style="color: #E1E4E8"> {</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">content</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8"> </span><span style="color: #F97583">|</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">FormData</span><span style="color: #E1E4E8"> </span><span style="color: #F97583">|</span><span style="color: #E1E4E8"> </span><span style="color: #B392F0">ArrayBuffer</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">dontFollowRedirects</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">boolean</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">headers</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">any</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">method</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">timeout</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">number</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">  </span><span style="color: #FFAB70">url</span><span style="color: #F97583">:</span><span style="color: #E1E4E8"> </span><span style="color: #79B8FF">string</span><span style="color: #E1E4E8">;</span></span>
+<span class="line"><span style="color: #E1E4E8">}</span></span></code></pre>
 
 <APIRefComment commentBase64="eyJibG9ja1RhZ3MiOltdLCJtb2RpZmllclRhZ3MiOnt9LCJzdW1tYXJ5IjpbeyJraW5kIjoidGV4dCIsInRleHQiOiJQcm92aWRlcyBvcHRpb25zIGZvciB0aGUgaHR0cCByZXF1ZXN0cy4ifV19" v-once />
 
@@ -37,7 +44,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2129" v-once>
+<APIRef for="1985" v-once>
 
 <template #title>
 
@@ -51,7 +58,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2131" v-once>
+<APIRef for="1987" v-once>
 
 <template #title>
 
@@ -65,7 +72,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2128" v-once>
+<APIRef for="1984" v-once>
 
 <template #title>
 
@@ -79,7 +86,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2127" v-once>
+<APIRef for="1983" v-once>
 
 <template #title>
 
@@ -93,7 +100,7 @@ seo:
 
 <div class="isOptional">
 
-<APIRef for="2130" v-once>
+<APIRef for="1986" v-once>
 
 <template #title>
 
@@ -107,7 +114,7 @@ seo:
 
 <div class="">
 
-<APIRef for="2126" v-once>
+<APIRef for="1982" v-once>
 
 <template #title>
 

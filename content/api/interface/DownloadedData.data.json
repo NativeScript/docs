@@ -17,15 +17,15 @@
     {
       "title": "Properties",
       "items": [
-        12771,
-        12770,
-        12769,
-        12772
+        15813,
+        15812,
+        15811,
+        15814
       ]
     }
   ],
   "reflections": {
-    "12769": {
+    "15811": {
       "name": "key",
       "type": "Property",
       "url": "/api/interface/DownloadedData#key",
@@ -40,7 +40,7 @@
       "flags": {},
       "signatures": [
         {
-          "code": "key: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
@@ -60,7 +60,7 @@
         }
       ]
     },
-    "12770": {
+    "15812": {
       "name": "image",
       "type": "Property",
       "url": "/api/interface/DownloadedData#image",
@@ -95,7 +95,7 @@
         }
       ]
     },
-    "12771": {
+    "15813": {
       "name": "eventName",
       "type": "Property",
       "url": "/api/interface/DownloadedData#eventname",
@@ -116,12 +116,12 @@
       },
       "signatures": [
         {
-          "code": "eventName: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 8,
-              "character": 1
+              "line": 9,
+              "character": 4
             }
           ],
           "inheritedFrom": {
@@ -142,7 +142,7 @@
         }
       ]
     },
-    "12772": {
+    "15814": {
       "name": "object",
       "type": "Property",
       "url": "/api/interface/DownloadedData#object",
@@ -167,8 +167,8 @@
           "sources": [
             {
               "fileName": "@nativescript/core/data/observable/index.d.ts",
-              "line": 12,
-              "character": 1
+              "line": 13,
+              "character": 4
             }
           ],
           "inheritedFrom": {

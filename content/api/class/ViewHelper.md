@@ -1,9 +1,16 @@
 ---
 title: ViewHelper
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'ViewHelper'
 layout: api
 seo:
-  description: undefined
+  description: ViewHelper
 ---
 
 <!-- This page is auto generated, do not edit manually. -->
@@ -26,7 +33,7 @@ seo:
 
 <div class="">
 
-<APIRef for="8267" v-once>
+<APIRef for="11017" v-once>
 
 <template #title>
 
@@ -42,7 +49,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="8263" v-once>
+<APIRef for="11013" v-once>
 
 <template #title>
 
@@ -56,7 +63,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="8249" v-once>
+<APIRef for="10999" v-once>
 
 <template #title>
 
@@ -70,7 +77,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="8240" v-once>
+<APIRef for="10990" v-once>
 
 <template #title>
 
@@ -84,7 +91,7 @@ seo:
 
 <div class="isPublic isStatic">
 
-<APIRef for="8257" v-once>
+<APIRef for="11007" v-once>
 
 <template #title>
 

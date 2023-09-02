@@ -1,6 +1,13 @@
 ---
 title: DockLayout
-titleTemplate: "API - NativeScript"
+category: Classes
+titleTemplate: 'API - NativeScript'
+breadcrumbs:
+  - name: 'API Index'
+    href: '/api/'
+  - name: 'Classes'
+    href: '/api/#summary-Classes'
+  - name: 'DockLayout'
 layout: api
 seo:
   description: "A Layout that arranges its children at its outer edges, and allows its last child to take up the remaining space."
@@ -28,7 +35,7 @@ seo:
 
 <div class="">
 
-<APIRef for="30304" v-once>
+<APIRef for="35208" v-once>
 
 <template #title>
 
@@ -44,7 +51,7 @@ seo:
 
 <div class="">
 
-<APIRef for="30306" v-once>
+<APIRef for="35210" v-once>
 
 <template #title>
 
@@ -60,7 +67,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="30233" v-once>
+<APIRef for="35122" v-once>
 
 <template #title>
 
@@ -74,7 +81,7 @@ seo:
 
 <div class="isStatic">
 
-<APIRef for="30236" v-once>
+<APIRef for="35125" v-once>
 
 <template #title>
 

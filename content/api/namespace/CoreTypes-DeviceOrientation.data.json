@@ -5,120 +5,72 @@
     {
       "title": "Variables",
       "items": [
-        2631,
-        2630,
-        2632
+        4875,
+        4874,
+        4876
       ]
     }
   ],
   "reflections": {
-    "2630": {
+    "4874": {
       "name": "portrait",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-DeviceOrientation#portrait",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Portrait orientation."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "portrait: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">portrait</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 156,
-              "character": 15
+              "line": 95,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Portrait orientation."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-DeviceOrientation#portrait"
         }
       ]
     },
-    "2631": {
+    "4875": {
       "name": "landscape",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-DeviceOrientation#landscape",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Landscape orientation."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "landscape: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">landscape</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 160,
-              "character": 15
+              "line": 96,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Landscape orientation."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-DeviceOrientation#landscape"
         }
       ]
     },
-    "2632": {
+    "4876": {
       "name": "unknown",
       "type": "Variable",
       "url": "/api/namespace/CoreTypes-DeviceOrientation#unknown",
-      "comment": {
-        "summary": [
-          {
-            "kind": "text",
-            "text": "Orientation cannot be determined."
-          }
-        ]
-      },
       "flags": {
         "isConst": true
       },
       "signatures": [
         {
-          "code": "unknown: string",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unknown</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span></span></code>",
           "sources": [
             {
               "fileName": "@nativescript/core/core-types/index.d.ts",
-              "line": 164,
-              "character": 15
+              "line": 97,
+              "character": 14
             }
           ],
-          "comment": {
-            "summary": [
-              {
-                "kind": "text",
-                "text": "Orientation cannot be determined."
-              }
-            ]
-          },
           "url": "/api/namespace/CoreTypes-DeviceOrientation#unknown"
         }
       ]
