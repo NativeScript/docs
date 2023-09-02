@@ -1,0 +1,182 @@
+{
+  "title": "knownFolders",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Namespaces",
+      "items": [
+        1941
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        1939,
+        1933,
+        1935,
+        1937
+      ]
+    }
+  ],
+  "reflections": {
+    "1933": {
+      "name": "documents",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders#documents",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "documents(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders#documents-documents-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 294,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Documents folder available for the current application. This Folder is private for the application and not accessible from Users/External apps."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1935": {
+      "name": "externalDocuments",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders#externaldocuments",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "externalDocuments(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders#externaldocuments-externaldocuments-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 301,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Documents folder available for the current application on an external storage. This Folder is private for the application and not accessible from Users/External apps.\nOn android this requires READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE permissions\nThere is no external storage on iOS os it is the same as "
+              },
+              {
+                "kind": "code",
+                "text": "`documents()`"
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1937": {
+      "name": "temp",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders#temp",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "temp(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders#temp-temp-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 306,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Temporary (Caches) folder available for the current application. This Folder is private for the application and not accessible from Users/External apps."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1939": {
+      "name": "currentApp",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders#currentapp",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "currentApp(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders#currentapp-currentapp-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 312,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the root folder for the current application. This Folder is private for the application and not accessible from Users/External apps.\niOS - this folder is read-only and contains the app and all its resources."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1941": {
+      "name": "ios",
+      "type": "Namespace",
+      "url": "/api/namespace/knownFolders-ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Contains iOS-specific known folders."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 317,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Contains iOS-specific known folders."
+              }
+            ]
+          },
+          "url": "/api/namespace/knownFolders-ios"
+        }
+      ]
+    }
+  }
+}

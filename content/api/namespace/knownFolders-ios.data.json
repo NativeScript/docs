@@ -1,0 +1,261 @@
+{
+  "title": "ios",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        1946,
+        1944,
+        1948,
+        1942,
+        1950,
+        1952,
+        1954,
+        1956
+      ]
+    }
+  ],
+  "reflections": {
+    "1942": {
+      "name": "library",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#library",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "library(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#library-library-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 321,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSLibraryDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1944": {
+      "name": "developer",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#developer",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "developer(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#developer-developer-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 326,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSDeveloperDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1946": {
+      "name": "desktop",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#desktop",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "desktop(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#desktop-desktop-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 331,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSDesktopDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1948": {
+      "name": "downloads",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#downloads",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "downloads(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#downloads-downloads-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 336,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSDownloadsDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1950": {
+      "name": "movies",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#movies",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "movies(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#movies-movies-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 341,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSMoviesDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1952": {
+      "name": "music",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#music",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "music(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#music-music-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 346,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSMusicDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1954": {
+      "name": "pictures",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#pictures",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "pictures(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#pictures-pictures-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 351,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSPicturesDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    },
+    "1956": {
+      "name": "sharedPublic",
+      "type": "Function",
+      "url": "/api/namespace/knownFolders-ios#sharedpublic",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "sharedPublic(): <a href=\"/api/class/Folder\">Folder</a>",
+          "url": "/api/namespace/knownFolders-ios#sharedpublic-sharedpublic-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 356,
+              "character": 2
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the NSSharedPublicDirectory. Note that the folder will not be created if it did not exist."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Folder\">Folder</a>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5665 @@
+{
+  "title": "NavigationButton",
+  "hierarchy": [
+    [
+      {
+        "text": "ActionItem",
+        "link": "/api/class/ActionItem"
+      }
+    ],
+    [
+      {
+        "text": "NavigationButton"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        6354
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        6401,
+        6391,
+        6393,
+        6441,
+        6442,
+        6440,
+        6439,
+        6390,
+        6422,
+        6392,
+        6443,
+        6400,
+        6421,
+        6418,
+        6420,
+        6419,
+        6394,
+        6399,
+        6361,
+        6359,
+        6417,
+        6378,
+        6382,
+        6387,
+        6408,
+        6411,
+        6409,
+        6412,
+        6311,
+        6504,
+        6505,
+        6312,
+        6406,
+        6379,
+        6437,
+        6438,
+        6436,
+        6435,
+        6426,
+        6404,
+        6429,
+        6430,
+        6428,
+        6427,
+        6424,
+        6423,
+        6433,
+        6434,
+        6432,
+        6431,
+        6405,
+        6425,
+        6414,
+        6415,
+        6416,
+        6358,
+        6386,
+        6377,
+        6385,
+        6402,
+        6309,
+        6383,
+        6413,
+        6384,
+        6313,
+        6380,
+        6445,
+        6407,
+        6410,
+        6389,
+        6388,
+        6357,
+        6403,
+        6310,
+        6381,
+        6360
+      ]
+    },
+    {
+      "title": "Accessors",
+      "items": [
+        6462,
+        6460,
+        6450,
+        6474,
+        6446,
+        6456,
+        6454
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        6527,
+        6531,
+        6577,
+        6587,
+        6494,
+        6574,
+        6672,
+        6616,
+        6677,
+        6584,
+        6603,
+        6486,
+        6618,
+        6594,
+        6543,
+        6546,
+        6581,
+        6491,
+        6557,
+        6560,
+        6538,
+        6488,
+        6571,
+        6644,
+        6346,
+        6506,
+        6512,
+        6500,
+        6502,
+        6613,
+        6549,
+        6509,
+        6568,
+        6551,
+        6521,
+        6476,
+        6621,
+        6470,
+        6466,
+        6669,
+        6553,
+        6535,
+        6660,
+        6664,
+        6636,
+        6330,
+        6362,
+        6314,
+        6628,
+        6322,
+        6482,
+        6597,
+        6484,
+        6652,
+        6338,
+        6519,
+        6555,
+        6478,
+        6591,
+        6565,
+        6624,
+        6606,
+        6599,
+        6516,
+        6540
+      ]
+    }
+  ],
+  "reflections": {
+    "6309": {
+      "name": "loadedEvent",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#loadedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to loaded event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 127,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to loaded event."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#loadedevent"
+        }
+      ]
+    },
+    "6310": {
+      "name": "unloadedEvent",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#unloadedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to unloaded event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unloadedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 131,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to unloaded event."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#unloadedevent"
+        }
+      ]
+    },
+    "6311": {
+      "name": "createdEvent",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#createdevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to creation event"
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createdEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 135,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to creation event"
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#createdevent"
+        }
+      ]
+    },
+    "6312": {
+      "name": "disposeNativeViewEvent",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#disposenativeviewevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to disposeNativeView event"
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeViewEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 139,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to disposeNativeView event"
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#disposenativeviewevent"
+        }
+      ]
+    },
+    "6313": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 74,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#propertychangeevent"
+        }
+      ]
+    },
+    "6314": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#on-3",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#on-3-on-4",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6322": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 126,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6330": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 127,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6338": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 128,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6346": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6354": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/NavigationButton#constructor",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new NavigationButton(): <a href=\"/api/class/NavigationButton\">NavigationButton</a>",
+          "url": "/api/class/NavigationButton#constructor-new-navigationbutton",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 263,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/NavigationButton\">NavigationButton</a>"
+        }
+      ]
+    },
+    "6357": {
+      "name": "text",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#text",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the text of the action item."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 109,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the text of the action item."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#text"
+        }
+      ]
+    },
+    "6358": {
+      "name": "icon",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#icon",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the icon of the action item."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">icon</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 114,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the icon of the action item."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#icon"
+        }
+      ]
+    },
+    "6359": {
+      "name": "actionView",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#actionview",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the custom action view of the action item."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "actionView: <a href=\"/api/class/View\">View</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 119,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the custom action view of the action item."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#actionview"
+        }
+      ]
+    },
+    "6360": {
+      "name": "visibility",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#visibility",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the visibility of the action item."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">visibility</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 124,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the visibility of the action item."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#visibility"
+        }
+      ]
+    },
+    "6361": {
+      "name": "actionBar",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#actionbar",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the action bar that contains the action item."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "actionBar: <a href=\"/api/class/ActionBar\">ActionBar</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 129,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the action bar that contains the action item."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#actionbar"
+        }
+      ]
+    },
+    "6362": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#on",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void): void",
+          "url": "/api/class/NavigationButton#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 137,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"tap\", callback: (args: <a href=\"/api/interface/EventData\">EventData</a>) => void): void",
+          "url": "/api/class/NavigationButton#on-on-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 142,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Raised when a tap event occurs."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"tap\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6377": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the iOS specific options of the action item."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ios</span><span style=\"color: #E1E4E8\">: IOSActionItemSettings</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 155,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the iOS specific options of the action item."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#ios"
+        }
+      ]
+    },
+    "6378": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Android specific options of the action item."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">android</span><span style=\"color: #E1E4E8\">: AndroidActionItemSettings</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 161,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Android specific options of the action item."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#android"
+        }
+      ]
+    },
+    "6379": {
+      "name": "domNode",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#domnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">domNode</span><span style=\"color: #E1E4E8\">: DOMNode</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 149,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#domnode"
+        }
+      ]
+    },
+    "6380": {
+      "name": "recycleNativeView",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#recyclenativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">recycleNativeView</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;auto&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;always&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;never&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#recyclenativeview"
+        }
+      ]
+    },
+    "6381": {
+      "name": "viewController",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#viewcontroller",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "returns the native UIViewController."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">viewController</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "returns the native UIViewController."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#viewcontroller"
+        }
+      ]
+    },
+    "6382": {
+      "name": "bindingContext",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#bindingcontext",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bindingContext</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#bindingcontext"
+        }
+      ]
+    },
+    "6383": {
+      "name": "nativeViewProtected",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#nativeviewprotected",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "read-only. If you want to set out-of-band the nativeView use the setNativeView method."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">nativeViewProtected</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 159,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "read-only. If you want to set out-of-band the nativeView use the setNativeView method."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#nativeviewprotected"
+        }
+      ]
+    },
+    "6384": {
+      "name": "parent",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#parent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the parent view. This property is read-only."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "parent: <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 163,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the parent view. This property is read-only."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#parent"
+        }
+      ]
+    },
+    "6385": {
+      "name": "isCollapsed",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#iscollapsed",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns true if visibility is set to 'collapse'.\nDefault(false) set in prototype\nReadonly property"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isCollapsed</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 169,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns true if visibility is set to 'collapse'.\nDefault(false) set in prototype\nReadonly property"
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#iscollapsed"
+        }
+      ]
+    },
+    "6386": {
+      "name": "id",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#id",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the id for this view."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">id</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 173,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the id for this view."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#id"
+        }
+      ]
+    },
+    "6387": {
+      "name": "className",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#classname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the CSS class name for this view."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">className</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 177,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the CSS class name for this view."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#classname"
+        }
+      ]
+    },
+    "6388": {
+      "name": "sharedTransitionTag",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#sharedtransitiontag",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets the shared transition tag for animated view transitions"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionTag</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 181,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets the shared transition tag for animated view transitions"
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#sharedtransitiontag"
+        }
+      ]
+    },
+    "6389": {
+      "name": "sharedTransitionIgnore",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#sharedtransitionignore",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Opt out of shared transition under different binding conditions"
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sharedTransitionIgnore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 185,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Opt out of shared transition under different binding conditions"
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#sharedtransitionignore"
+        }
+      ]
+    },
+    "6390": {
+      "name": "_domId",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#domid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_domId</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 186,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#domid"
+        }
+      ]
+    },
+    "6391": {
+      "name": "_context",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#context",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_context</span><span style=\"color: #E1E4E8\">: any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 187,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#context"
+        }
+      ]
+    },
+    "6392": {
+      "name": "_isAddedToNativeVisualTree",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#isaddedtonativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isAddedToNativeVisualTree</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 188,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#isaddedtonativevisualtree"
+        }
+      ]
+    },
+    "6393": {
+      "name": "_cssState",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#cssstate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_cssState</span><span style=\"color: #E1E4E8\">: CssState</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 189,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#cssstate"
+        }
+      ]
+    },
+    "6394": {
+      "name": "_styleScope",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#stylescope",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_styleScope</span><span style=\"color: #E1E4E8\">: StyleScope</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 190,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#stylescope"
+        }
+      ]
+    },
+    "6399": {
+      "name": "_suspendNativeUpdatesCount",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#suspendnativeupdatescount",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Determines the depth of suspended updates.\nWhen the value is 0 the current property updates are not batched nor scoped and must be immediately applied.\nIf the value is 1 or greater, the current updates are batched and does not have to provide immediate update.\nDo not set this field, the _batchUpdate method is responsible to keep the count up to date,\nas well as adding/rmoving the view to/from the visual tree."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdatesCount</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 208,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Determines the depth of suspended updates.\nWhen the value is 0 the current property updates are not batched nor scoped and must be immediately applied.\nIf the value is 1 or greater, the current updates are batched and does not have to provide immediate update.\nDo not set this field, the _batchUpdate method is responsible to keep the count up to date,\nas well as adding/rmoving the view to/from the visual tree."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#suspendnativeupdatescount"
+        }
+      ]
+    },
+    "6400": {
+      "name": "_isStyleScopeHost",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#isstylescopehost",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isStyleScopeHost</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 209,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#isstylescopehost"
+        }
+      ]
+    },
+    "6401": {
+      "name": "_automaticallyAdjustsScrollViewInsets",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#automaticallyadjustsscrollviewinsets",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_automaticallyAdjustsScrollViewInsets</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 210,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#automaticallyadjustsscrollviewinsets"
+        }
+      ]
+    },
+    "6402": {
+      "name": "left",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#left",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "left: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 211,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#left"
+        }
+      ]
+    },
+    "6403": {
+      "name": "top",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#top",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "top: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 212,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#top"
+        }
+      ]
+    },
+    "6404": {
+      "name": "effectiveLeft",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectiveleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 213,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectiveleft"
+        }
+      ]
+    },
+    "6405": {
+      "name": "effectiveTop",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivetop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 214,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivetop"
+        }
+      ]
+    },
+    "6406": {
+      "name": "dock",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#dock",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dock</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;left&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;right&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;top&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;bottom&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 215,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#dock"
+        }
+      ]
+    },
+    "6407": {
+      "name": "row",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#row",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">row</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 216,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#row"
+        }
+      ]
+    },
+    "6408": {
+      "name": "col",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#col",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">col</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 217,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#col"
+        }
+      ]
+    },
+    "6409": {
+      "name": "column",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#column",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">column</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 218,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#column"
+        }
+      ]
+    },
+    "6410": {
+      "name": "rowSpan",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#rowspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rowSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 219,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#rowspan"
+        }
+      ]
+    },
+    "6411": {
+      "name": "colSpan",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#colspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">colSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 220,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#colspan"
+        }
+      ]
+    },
+    "6412": {
+      "name": "columnSpan",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#columnspan",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">columnSpan</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 221,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#columnspan"
+        }
+      ]
+    },
+    "6413": {
+      "name": "order",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#order",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">order</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 222,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#order"
+        }
+      ]
+    },
+    "6414": {
+      "name": "flexGrow",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#flexgrow",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexGrow</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 223,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#flexgrow"
+        }
+      ]
+    },
+    "6415": {
+      "name": "flexShrink",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#flexshrink",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexShrink</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 224,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#flexshrink"
+        }
+      ]
+    },
+    "6416": {
+      "name": "flexWrapBefore",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#flexwrapbefore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">flexWrapBefore</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 225,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#flexwrapbefore"
+        }
+      ]
+    },
+    "6417": {
+      "name": "alignSelf",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#alignself",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">alignSelf</span><span style=\"color: #E1E4E8\">: AlignSelf</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 226,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#alignself"
+        }
+      ]
+    },
+    "6418": {
+      "name": "_oldLeft",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#oldleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 227,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#oldleft"
+        }
+      ]
+    },
+    "6419": {
+      "name": "_oldTop",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#oldtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 228,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#oldtop"
+        }
+      ]
+    },
+    "6420": {
+      "name": "_oldRight",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#oldright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 229,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#oldright"
+        }
+      ]
+    },
+    "6421": {
+      "name": "_oldBottom",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#oldbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_oldBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 230,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#oldbottom"
+        }
+      ]
+    },
+    "6422": {
+      "name": "_ignoreFlexMinWidthHeightReset",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#ignoreflexminwidthheightreset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_ignoreFlexMinWidthHeightReset</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 231,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#ignoreflexminwidthheightreset"
+        }
+      ]
+    },
+    "6423": {
+      "name": "effectiveMinWidth",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectiveminwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 232,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectiveminwidth"
+        }
+      ]
+    },
+    "6424": {
+      "name": "effectiveMinHeight",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectiveminheight",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMinHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 233,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectiveminheight"
+        }
+      ]
+    },
+    "6425": {
+      "name": "effectiveWidth",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivewidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 234,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivewidth"
+        }
+      ]
+    },
+    "6426": {
+      "name": "effectiveHeight",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectiveheight",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveHeight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 235,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectiveheight"
+        }
+      ]
+    },
+    "6427": {
+      "name": "effectiveMarginTop",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivemargintop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 236,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivemargintop"
+        }
+      ]
+    },
+    "6428": {
+      "name": "effectiveMarginRight",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivemarginright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 237,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivemarginright"
+        }
+      ]
+    },
+    "6429": {
+      "name": "effectiveMarginBottom",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivemarginbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 238,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivemarginbottom"
+        }
+      ]
+    },
+    "6430": {
+      "name": "effectiveMarginLeft",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivemarginleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveMarginLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 239,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivemarginleft"
+        }
+      ]
+    },
+    "6431": {
+      "name": "effectivePaddingTop",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivepaddingtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 240,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivepaddingtop"
+        }
+      ]
+    },
+    "6432": {
+      "name": "effectivePaddingRight",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivepaddingright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 241,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivepaddingright"
+        }
+      ]
+    },
+    "6433": {
+      "name": "effectivePaddingBottom",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivepaddingbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 242,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivepaddingbottom"
+        }
+      ]
+    },
+    "6434": {
+      "name": "effectivePaddingLeft",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivepaddingleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectivePaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 243,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivepaddingleft"
+        }
+      ]
+    },
+    "6435": {
+      "name": "effectiveBorderTopWidth",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectivebordertopwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderTopWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 244,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectivebordertopwidth"
+        }
+      ]
+    },
+    "6436": {
+      "name": "effectiveBorderRightWidth",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectiveborderrightwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderRightWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 245,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectiveborderrightwidth"
+        }
+      ]
+    },
+    "6437": {
+      "name": "effectiveBorderBottomWidth",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectiveborderbottomwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderBottomWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 246,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectiveborderbottomwidth"
+        }
+      ]
+    },
+    "6438": {
+      "name": "effectiveBorderLeftWidth",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#effectiveborderleftwidth",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">effectiveBorderLeftWidth</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 247,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#effectiveborderleftwidth"
+        }
+      ]
+    },
+    "6439": {
+      "name": "_defaultPaddingTop",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#defaultpaddingtop",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingTop</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 248,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#defaultpaddingtop"
+        }
+      ]
+    },
+    "6440": {
+      "name": "_defaultPaddingRight",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#defaultpaddingright",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingRight</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 249,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#defaultpaddingright"
+        }
+      ]
+    },
+    "6441": {
+      "name": "_defaultPaddingBottom",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#defaultpaddingbottom",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingBottom</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 250,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#defaultpaddingbottom"
+        }
+      ]
+    },
+    "6442": {
+      "name": "_defaultPaddingLeft",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#defaultpaddingleft",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_defaultPaddingLeft</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 251,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#defaultpaddingleft"
+        }
+      ]
+    },
+    "6443": {
+      "name": "_isPaddingRelative",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#ispaddingrelative",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_isPaddingRelative</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 252,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#ispaddingrelative"
+        }
+      ]
+    },
+    "6445": {
+      "name": "reusable",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#reusable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets or sets if the view is reusable.\nReusable views are not automatically destroyed when removed from the View tree."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">reusable</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 262,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets if the view is reusable.\nReusable views are not automatically destroyed when removed from the View tree."
+              }
+            ]
+          },
+          "url": "/api/class/NavigationButton#reusable"
+        }
+      ]
+    },
+    "6446": {
+      "name": "parentNode",
+      "type": "Accessor",
+      "url": "/api/class/NavigationButton#parentnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get parentNode(): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/NavigationButton#parentnode-parentnode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 267,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the template parent or the native parent. Sets the template parent."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        }
+      ]
+    },
+    "6450": {
+      "name": "nativeView",
+      "type": "Accessor",
+      "url": "/api/class/NavigationButton#nativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">nativeView</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/NavigationButton#nativeview-nativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 269,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "6454": {
+      "name": "typeName",
+      "type": "Accessor",
+      "url": "/api/class/NavigationButton#typename",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">typeName</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/NavigationButton#typename-typename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 274,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the constructor function for this instance. E.g. for a Button class this will return \"Button\"."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "6456": {
+      "name": "style",
+      "type": "Accessor",
+      "url": "/api/class/NavigationButton#style",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get style(): <a href=\"/api/class/Style\">Style</a>",
+          "url": "/api/class/NavigationButton#style-style-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 278,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the style object associated to this view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Style\">Style</a>"
+        }
+      ]
+    },
+    "6460": {
+      "name": "isLoaded",
+      "type": "Accessor",
+      "url": "/api/class/NavigationButton#isloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">isLoaded</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/class/NavigationButton#isloaded-isloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 282,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "6462": {
+      "name": "class",
+      "type": "Accessor",
+      "url": "/api/class/NavigationButton#class",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">class</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/NavigationButton#class-class-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 283,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "6466": {
+      "name": "getViewById",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#getviewbyid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewById</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">id</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">string</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/NavigationButton#getviewbyid-getviewbyid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 288,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the child view with the specified id."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "6470": {
+      "name": "getViewByDomId",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#getviewbydomid",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getViewByDomId</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">domId</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">number</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/NavigationButton#getviewbydomid-getviewbydomid-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 292,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the child view with the specified domId."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "domId",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "6474": {
+      "name": "page",
+      "type": "Accessor",
+      "url": "/api/class/NavigationButton#page",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "get page(): <a href=\"/api/class/Page\">Page</a>",
+          "url": "/api/class/NavigationButton#page-page-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 296,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets owner page. This is a read-only property."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/Page\">Page</a>"
+        }
+      ]
+    },
+    "6476": {
+      "name": "ensureDomNode",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#ensuredomnode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ensureDomNode</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#ensuredomnode-ensuredomnode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 301,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Ensures a dom-node for this view."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6478": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#set",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 302,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6482": {
+      "name": "onLoaded",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#onloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#onloaded-onloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 303,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6484": {
+      "name": "onUnloaded",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#onunloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#onunloaded-onunloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 304,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6486": {
+      "name": "_layoutParent",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#layoutparent",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_layoutParent</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#layoutparent-layoutparent-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 305,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6488": {
+      "name": "_suspendNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#suspendnativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_suspendNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#suspendnativeupdates-suspendnativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 306,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "type",
+              "type": "SuspendType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6491": {
+      "name": "_resumeNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#resumenativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_resumeNativeUpdates</span><span style=\"color: #E1E4E8\">(type: SuspendType): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#resumenativeupdates-resumenativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 307,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "type",
+              "type": "SuspendType",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6494": {
+      "name": "_batchUpdate",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#batchupdate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">_batchUpdate</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #B392F0\">callback</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/class/NavigationButton#batchupdate-batchupdate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 311,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Allow multiple updates to be performed on the instance at once."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "() => T",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "6500": {
+      "name": "callLoaded",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#callloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callLoaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#callloaded-callloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 315,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6502": {
+      "name": "callUnloaded",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#callunloaded",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">callUnloaded</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#callunloaded-callunloaded-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 316,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6504": {
+      "name": "cssClasses",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#cssclasses",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 319,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#cssclasses"
+        }
+      ]
+    },
+    "6505": {
+      "name": "cssPseudoClasses",
+      "type": "Property",
+      "url": "/api/class/NavigationButton#csspseudoclasses",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssPseudoClasses</span><span style=\"color: #E1E4E8\">: Set</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;string</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 320,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "url": "/api/class/NavigationButton#csspseudoclasses"
+        }
+      ]
+    },
+    "6506": {
+      "name": "addPseudoClass",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#addpseudoclass",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">addPseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#addpseudoclass-addpseudoclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 327,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "A widget can call this method to add a matching css pseudo class."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6509": {
+      "name": "deletePseudoClass",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#deletepseudoclass",
+      "flags": {
+        "isProtected": true
+      },
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deletePseudoClass</span><span style=\"color: #E1E4E8\">(name: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#deletepseudoclass-deletepseudoclass-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 333,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@unstable",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "A widget can call this method to discard matching css pseudo class."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6512": {
+      "name": "bind",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#bind",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "bind(options: <a href=\"/api/interface/BindingOptions\">BindingOptions</a>, source?: Object): void",
+          "url": "/api/class/NavigationButton#bind-bind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 338,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/BindingOptions\">BindingOptions</a>",
+              "flags": {}
+            },
+            {
+              "name": "source",
+              "type": "Object",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6516": {
+      "name": "unbind",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#unbind",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unbind</span><span style=\"color: #E1E4E8\">(property: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#unbind-unbind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 339,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "property",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6519": {
+      "name": "requestLayout",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#requestlayout",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">requestLayout</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#requestlayout-requestlayout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 344,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Invalidates the layout of the view and triggers a new layout pass."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6521": {
+      "name": "eachChild",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#eachchild",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "eachChild(callback: (child: <a href=\"/api/class/ViewBase\">ViewBase</a>) => boolean): void",
+          "url": "/api/class/NavigationButton#eachchild-eachchild-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 349,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Iterates over children of type ViewBase."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "callback",
+              "type": "(child: <a href=\"/api/class/ViewBase\">ViewBase</a>) => boolean",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Called for each child of type ViewBase. Iteration stops if this method returns falsy value."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6527": {
+      "name": "_addView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#addview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): void",
+          "url": "/api/class/NavigationButton#addview-addview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 350,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6531": {
+      "name": "_addViewCore",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#addviewcore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addViewCore(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): void",
+          "url": "/api/class/NavigationButton#addviewcore-addviewcore-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 354,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6535": {
+      "name": "loadView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#loadview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "loadView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/NavigationButton#loadview-loadview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 359,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Load view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "to load."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6538": {
+      "name": "_shouldDelayLayout",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#shoulddelaylayout",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_shouldDelayLayout</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/class/NavigationButton#shoulddelaylayout-shoulddelaylayout-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 364,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When returning true the callLoaded method will be run in setTimeout\nMethod is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "6540": {
+      "name": "unloadView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#unloadview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "unloadView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/NavigationButton#unloadview-unloadview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 369,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Unload view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "to unload."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6543": {
+      "name": "_removeView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#removeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeView(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/NavigationButton#removeview-removeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 373,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Core logic for removing a child view from this instance. Used by the framework to handle lifecycle events more centralized. Do not use outside the UI Stack implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6546": {
+      "name": "_removeViewCore",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#removeviewcore",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeViewCore(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/NavigationButton#removeviewcore-removeviewcore-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 377,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6549": {
+      "name": "createNativeView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#createnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createNativeView</span><span style=\"color: #E1E4E8\">(): Object</span></span></code>",
+          "url": "/api/class/NavigationButton#createnativeview-createnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 382,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates a native view.\nReturns either android.view.View or UIView."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Object"
+        }
+      ]
+    },
+    "6551": {
+      "name": "disposeNativeView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#disposenativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">disposeNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#disposenativeview-disposenativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 386,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Clean up references to the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6553": {
+      "name": "initNativeView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#initnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">initNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#initnativeview-initnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 390,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Initializes properties/listeners of the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6555": {
+      "name": "resetNativeView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#resetnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">resetNativeView</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#resetnativeview-resetnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 394,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Resets properties/listeners set to the native view."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6557": {
+      "name": "_setupAsRootView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#setupasrootview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupAsRootView</span><span style=\"color: #E1E4E8\">(context: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#setupasrootview-setupasrootview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 396,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "context",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6560": {
+      "name": "_setupUI",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#setupui",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_setupUI</span><span style=\"color: #E1E4E8\">(context: any, atIndex</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number, parentIsLoaded</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#setupui-setupui-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 401,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Setups the UI for ViewBase and all its children recursively.\nThis method should *not* be overridden by derived views."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "context",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "parentIsLoaded",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6565": {
+      "name": "setNativeView",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#setnativeview",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setNativeView</span><span style=\"color: #E1E4E8\">(value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#setnativeview-setnativeview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 407,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set the nativeView field performing extra checks and updates to the native properties on the new view.\nUse in cases where the createNativeView is not suitable.\nAs an example use in item controls where the native parent view will create the native views for child items."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6568": {
+      "name": "destroyNode",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#destroynode",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">destroyNode</span><span style=\"color: #E1E4E8\">(forceDestroyChildren</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#destroynode-destroynode-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 413,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Tears down the UI of a reusable node by making it no longer reusable."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@see",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "_tearDownUI"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "forceDestroyChildren",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Force destroy the children (even if they are reusable)"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6571": {
+      "name": "_tearDownUI",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#teardownui",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_tearDownUI</span><span style=\"color: #E1E4E8\">(force</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#teardownui-teardownui-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 418,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Tears down the UI for ViewBase and all its children recursively.\nThis method should *not* be overridden by derived views."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "force",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6574": {
+      "name": "_childIndexToNativeChildIndex",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#childindextonativechildindex",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_childIndexToNativeChildIndex</span><span style=\"color: #E1E4E8\">(index</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number): number</span></span></code>",
+          "url": "/api/class/NavigationButton#childindextonativechildindex-childindextonativechildindex-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 419,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "6577": {
+      "name": "_addViewToNativeVisualTree",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#addviewtonativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_addViewToNativeVisualTree(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, atIndex?: number): boolean",
+          "url": "/api/class/NavigationButton#addviewtonativevisualtree-addviewtonativevisualtree-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 424,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Performs the core logic of adding a child view to the native visual tree. Returns true if the view's native representation has been successfully added, false otherwise.\nMethod is intended to be overridden by inheritors and used as \"protected\"."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "atIndex",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "6581": {
+      "name": "_removeViewFromNativeVisualTree",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#removeviewfromnativevisualtree",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_removeViewFromNativeVisualTree(view: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/NavigationButton#removeviewfromnativevisualtree-removeviewfromnativevisualtree-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 428,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6584": {
+      "name": "_goToVisualState",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#gotovisualstate",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_goToVisualState</span><span style=\"color: #E1E4E8\">(state: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#gotovisualstate-gotovisualstate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 429,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "state",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6587": {
+      "name": "_applyXmlAttribute",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#applyxmlattribute",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_applyXmlAttribute</span><span style=\"color: #E1E4E8\">(attribute: string, value: string): boolean</span></span></code>",
+          "url": "/api/class/NavigationButton#applyxmlattribute-applyxmlattribute-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 436,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [],
+            "blockTags": [
+              {
+                "tag": "@deprecated",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "This used to be the way to set attribute values in early {N} versions.\nNow attributes are expected to be set as plain properties on the view instances."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "attribute",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "6591": {
+      "name": "setInlineStyle",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#setinlinestyle",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setInlineStyle</span><span style=\"color: #E1E4E8\">(style: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#setinlinestyle-setinlinestyle-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 437,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "style",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6594": {
+      "name": "_parentChanged",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#parentchanged",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_parentChanged(oldParent: <a href=\"/api/class/ViewBase\">ViewBase</a>): void",
+          "url": "/api/class/NavigationButton#parentchanged-parentchanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 438,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "oldParent",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6597": {
+      "name": "onResumeNativeUpdates",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#onresumenativeupdates",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">onResumeNativeUpdates</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#onresumenativeupdates-onresumenativeupdates-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 439,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6599": {
+      "name": "toString",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#tostring",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/class/NavigationButton#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 440,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "6603": {
+      "name": "_inheritStyleScope",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#inheritstylescope",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_inheritStyleScope</span><span style=\"color: #E1E4E8\">(styleScope: StyleScope): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#inheritstylescope-inheritstylescope-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 447,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "styleScope",
+              "type": "StyleScope",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6606": {
+      "name": "showModal",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#showmodal",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "showModal(view: <a href=\"/api/class/ViewBase\">ViewBase</a>, modalOptions?: <a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/NavigationButton#showmodal-showmodal-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 453,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shows the view passed as parameter as a modal view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "View instance to be shown modally."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "modalOptions",
+              "type": "<a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A ShowModalOptions instance"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        },
+        {
+          "type": "CallSignature",
+          "code": "showModal(moduleName: string, modalOptions?: <a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>): <a href=\"/api/class/ViewBase\">ViewBase</a>",
+          "url": "/api/class/NavigationButton#showmodal-showmodal-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 459,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shows the View contained in moduleName as a modal view."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "moduleName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the module to load starting from the application root."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "modalOptions",
+              "type": "<a href=\"/api/interface/ShowModalOptions\">ShowModalOptions</a>",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A ShowModalOptions instance"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ViewBase\">ViewBase</a>"
+        }
+      ]
+    },
+    "6613": {
+      "name": "closeModal",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#closemodal",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">closeModal</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any[]): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#closemodal-closemodal-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 464,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Closes the current modal view that this page is showing."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "args",
+              "type": "any[]",
+              "flags": {
+                "isRest": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6616": {
+      "name": "_dialogClosed",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#dialogclosed",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_dialogClosed</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#dialogclosed-dialogclosed-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 468,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6618": {
+      "name": "_onRootViewReset",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#onrootviewreset",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_onRootViewReset</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#onrootviewreset-onrootviewreset-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/view-base/index.d.ts",
+              "line": 472,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Method is intended to be overridden by inheritors and used as \"protected\""
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "6621": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#get",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
+          "url": "/api/class/NavigationButton#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "6624": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6628": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#once",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6636": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#off",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6644": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#addeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 117,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6652": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#removeeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/NavigationButton#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 124,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6660": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 140,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6664": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#notifypropertychange",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 145,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6669": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
+          "url": "/api/class/NavigationButton#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "6672": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#createpropertychangedata",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/NavigationButton#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "6677": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/NavigationButton#emit",
+      "flags": {},
+      "inheritedFrom": {
+        "fromName": "ActionItem"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/NavigationButton#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "ActionItem"
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

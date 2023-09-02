@@ -1,0 +1,73 @@
+{
+  "title": "CacheMode",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        26226,
+        26225,
+        26224
+      ]
+    }
+  ],
+  "reflections": {
+    "26224": {
+      "name": "none",
+      "type": "EnumMember",
+      "url": "/api/enum/CacheMode#none",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">none</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/CacheMode#none"
+        }
+      ]
+    },
+    "26225": {
+      "name": "memory",
+      "type": "EnumMember",
+      "url": "/api/enum/CacheMode#memory",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">memory</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/CacheMode#memory"
+        }
+      ]
+    },
+    "26226": {
+      "name": "diskAndMemory",
+      "type": "EnumMember",
+      "url": "/api/enum/CacheMode#diskandmemory",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">diskAndMemory</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/background.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "url": "/api/enum/CacheMode#diskandmemory"
+        }
+      ]
+    }
+  }
+}

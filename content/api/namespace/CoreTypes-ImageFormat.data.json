@@ -1,0 +1,79 @@
+{
+  "title": "ImageFormat",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4973,
+        4974,
+        4972
+      ]
+    }
+  ],
+  "reflections": {
+    "4972": {
+      "name": "png",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageFormat#png",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">png</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 197,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageFormat#png"
+        }
+      ]
+    },
+    "4973": {
+      "name": "jpeg",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageFormat#jpeg",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">jpeg</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 198,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageFormat#jpeg"
+        }
+      ]
+    },
+    "4974": {
+      "name": "jpg",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-ImageFormat#jpg",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">jpg</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 199,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-ImageFormat#jpg"
+        }
+      ]
+    }
+  }
+}

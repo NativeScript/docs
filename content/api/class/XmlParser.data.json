@@ -1,0 +1,151 @@
+{
+  "title": "XmlParser",
+  "hierarchy": [
+    [
+      {
+        "text": "XmlParser"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2836
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2849
+      ]
+    }
+  ],
+  "reflections": {
+    "2836": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/XmlParser#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new XmlParser(onEvent: (event: <a href=\"/api/interface/ParserEvent\">ParserEvent</a>) => void, onError?: (error: Error, position: Position) => void, processNamespaces?: boolean, angularSyntax?: boolean): <a href=\"/api/class/XmlParser\">XmlParser</a>",
+          "url": "/api/class/XmlParser#constructor-new-xmlparser",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 105,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates a new instance of the XmlParser class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onEvent",
+              "type": "(event: <a href=\"/api/interface/ParserEvent\">ParserEvent</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The callback to execute when a parser event occurs. The 'event' parameter contains information about the event."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: Error, position: Position) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The callback to execute when a parser error occurs. The 'error' parameter contains the error."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "processNamespaces",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Specifies whether namespaces should be processed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "angularSyntax",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/XmlParser\">XmlParser</a>"
+        }
+      ]
+    },
+    "2849": {
+      "name": "parse",
+      "type": "Method",
+      "url": "/api/class/XmlParser#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">parse</span><span style=\"color: #E1E4E8\">(xmlString: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/XmlParser#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 111,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Parses the supplied xml string."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "xmlString",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The string containing the xml to parse."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

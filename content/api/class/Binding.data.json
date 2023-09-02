@@ -1,0 +1,299 @@
+{
+  "title": "Binding",
+  "hierarchy": [
+    [
+      {
+        "text": "Binding"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        9017
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        9029,
+        9028,
+        9022,
+        9027
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        9038,
+        9054,
+        9034,
+        9031,
+        9049,
+        9042
+      ]
+    }
+  ],
+  "reflections": {
+    "9017": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Binding#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Binding(target: <a href=\"/api/class/ViewBase\">ViewBase</a>, options: <a href=\"/api/interface/BindingOptions\">BindingOptions</a>): <a href=\"/api/class/Binding\">Binding</a>",
+          "url": "/api/class/Binding#constructor-new-binding",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "target",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {}
+            },
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/BindingOptions\">BindingOptions</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Binding\">Binding</a>"
+        }
+      ]
+    },
+    "9022": {
+      "name": "target",
+      "type": "Property",
+      "url": "/api/class/Binding#target",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "target: WeakRef&lt;<a href=\"/api/class/ViewBase\">ViewBase</a>&gt;",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 45,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#target"
+        }
+      ]
+    },
+    "9027": {
+      "name": "updating",
+      "type": "Property",
+      "url": "/api/class/Binding#updating",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">updating</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 50,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#updating"
+        }
+      ]
+    },
+    "9028": {
+      "name": "sourceIsBindingContext",
+      "type": "Property",
+      "url": "/api/class/Binding#sourceisbindingcontext",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sourceIsBindingContext</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 51,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#sourceisbindingcontext"
+        }
+      ]
+    },
+    "9029": {
+      "name": "options",
+      "type": "Property",
+      "url": "/api/class/Binding#options",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "options: <a href=\"/api/interface/BindingOptions\">BindingOptions</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 52,
+              "character": 4
+            }
+          ],
+          "url": "/api/class/Binding#options"
+        }
+      ]
+    },
+    "9031": {
+      "name": "loadedHandlerVisualTreeBinding",
+      "type": "Method",
+      "url": "/api/class/Binding#loadedhandlervisualtreebinding",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">loadedHandlerVisualTreeBinding</span><span style=\"color: #E1E4E8\">(args: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Binding#loadedhandlervisualtreebinding-loadedhandlervisualtreebinding-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 55,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "args",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "9034": {
+      "name": "clearSource",
+      "type": "Method",
+      "url": "/api/class/Binding#clearsource",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearSource</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Binding#clearsource-clearsource-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 56,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "9038": {
+      "name": "bind",
+      "type": "Method",
+      "url": "/api/class/Binding#bind",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bind</span><span style=\"color: #E1E4E8\">(source: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Binding#bind-bind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 59,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "source",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "9042": {
+      "name": "unbind",
+      "type": "Method",
+      "url": "/api/class/Binding#unbind",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">unbind</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Binding#unbind-unbind-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 61,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    },
+    "9049": {
+      "name": "onSourcePropertyChanged",
+      "type": "Method",
+      "url": "/api/class/Binding#onsourcepropertychanged",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "onSourcePropertyChanged(data: <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>): void",
+          "url": "/api/class/Binding#onsourcepropertychanged-onsourcepropertychanged-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 67,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "data",
+              "type": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "9054": {
+      "name": "clearBinding",
+      "type": "Method",
+      "url": "/api/class/Binding#clearbinding",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">clearBinding</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/Binding#clearbinding-clearbinding-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/bindable/index.d.ts",
+              "line": 70,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

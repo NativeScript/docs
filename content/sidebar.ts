@@ -1,4 +1,4 @@
-import { NSSidebarGroup } from '@packages/vitepress-theme/src'
+import type { NSSidebarGroup } from '../.vitepress/theme/vitepress-theme'
 
 export default [
   {
@@ -8,7 +8,6 @@ export default [
       {
         text: 'Environment Setup',
         link: '/setup/',
-        hideChildren: true,
         items: [
           { text: 'Windows', link: '/setup/windows' },
           { text: 'macOS', link: '/setup/macos' },
@@ -16,20 +15,24 @@ export default [
         ],
       },
       {
-        text: 'Creating a new Project',
-        link: '/creating-a-new-project',
-      },
-      // {
-      //   text: 'Development Workflow',
-      //   link: '//#',
-      // },
-      {
-        text: 'Tutorials',
-        link: '/tutorials/',
+        text: 'Creating a Project',
+        link: '/guide/creating-a-project',
       },
       {
-        text: 'Publishing',
-        link: '/guide/publishing/',
+        text: 'Navigation',
+        link: '/guide/navigation/',
+      },
+      {
+        text: 'Using Modals',
+        link: '/guide/navigation/modals',
+      },
+      {
+        text: 'Styling',
+        link: '/guide/styling',
+      },
+      {
+        text: 'Choosing an editor',
+        link: '/guide/choosing-an-editor',
       },
       {
         text: 'Troubleshooting',
@@ -38,7 +41,54 @@ export default [
     ],
   },
   {
+    text: 'Development Workflow',
+    items: [
+      {
+        text: 'CLI Basics',
+        link: '/guide/cli-basics',
+      },
+      {
+        text: 'Running',
+        link: '/guide/running',
+      },
+      {
+        text: 'Debugging',
+        link: '/guide/debugging',
+      },
+      {
+        text: 'Plugins',
+        link: '/guide/development-workflow/using-packages',
+      },
+      {
+        text: 'Testing',
+        link: '/guide/testing',
+      },
+      {
+        text: 'Publishing',
+        link: '/guide/publishing/',
+      },
+      {
+        text: 'Updating',
+        link: '/guide/updating-an-app',
+      },
+    ],
+  },
+  {
+    text: 'Configuration',
+    items: [
+      {
+        text: 'Config Reference',
+        link: '/configuration/nativescript',
+      },
+      {
+        text: 'Webpack Reference',
+        link: '/configuration/webpack',
+      },
+    ],
+  },
+  {
     text: 'Project Structure',
+    type: 'filetree',
     items: [
       {
         text: 'App_Resources/',
@@ -49,6 +99,7 @@ export default [
         text: 'src/',
         link: '/project-structure/src/',
         icon: 'folder',
+        collapsible: false,
         items: [
           {
             text: 'fonts/',
@@ -56,12 +107,12 @@ export default [
             icon: 'folder',
           },
           {
-            text: 'app.(css|scss)',
+            text: 'app.css•scss',
             link: '/project-structure/src/app-css-scss',
             icon: 'file',
           },
           {
-            text: 'main.(js|ts)',
+            text: 'main.js•ts',
             link: '/project-structure/src/main-js-ts',
             icon: 'file',
           },
@@ -77,7 +128,21 @@ export default [
         link: '/project-structure/package-json',
         icon: 'file',
       },
-      { text: 'webpack.config.js', link: '/webpack', icon: 'file' },
+      {
+        text: 'references.d.ts',
+        link: '/project-structure/references-d-ts',
+        icon: 'file',
+      },
+      {
+        text: 'tsconfig.json',
+        link: '/project-structure/tsconfig-json',
+        icon: 'file',
+      },
+      {
+        text: 'webpack.config.js',
+        link: '/project-structure/webpack-config',
+        icon: 'file',
+      },
       // {
       //   text: 'package.json',
       //   link: '//#',
@@ -92,23 +157,87 @@ export default [
       //     },
       //   ],
       // },
-     { text: 'tsconfig.json', link: '/project-structure/tsconfig-json', icon: 'file' },
-      // { text: 'references.d.ts', link: '//#', icon: 'file' },
+    ],
+  },
+  {
+    text: '@nativescript/core',
+    items: [
+      { text: 'Application', link: '/guide/core/application' },
+      {
+        text: 'ApplicationSettings',
+        link: '/guide/core/application-settings',
+      },
+      {
+        text: 'Color',
+        link: '/guide/core/color',
+      },
+      {
+        text: 'Connectivity',
+        link: '/guide/core/connectivity',
+      },
+      {
+        text: 'Http',
+        link: '/guide/core/http',
+      },
+      {
+        text: 'FPS Meter',
+        link: '/guide/core/fps-meter',
+      },
+      {
+        text: 'FileSystem',
+        link: '/guide/core/file-system',
+      },
+      {
+        text: 'Observable',
+        link: '/guide/core/observable',
+      },
+      {
+        text: 'Screen',
+        link: '/guide/core/screen',
+      },
+      {
+        text: 'Device',
+        link: '/guide/core/device',
+      },
+      {
+        text: 'Trace',
+        link: '/guide/core/tracing',
+      },
+      {
+        text: 'XmlParser',
+        link: '/guide/core/xml-parser',
+      },
+      {
+        text: 'Utils',
+        link: '/guide/core/utils',
+      },
+      {
+        text: 'ImageCache',
+        link: '/guide/core/image-cache',
+      },
     ],
   },
   {
     text: 'Advanced Concepts',
     items: [
       {
-        text: 'Extending Classes and interfaces',
+        text: 'Adding Native Code',
+        link: '/guide/adding-native-code',
+      },
+      {
+        text: 'Extending Native Classes',
         link: '/guide/subclassing/',
         items: [
           {
             text: 'Android',
             link: '/guide/extending-classes-and-implementing-interfaces-android',
+          },
+          {
+            text: 'iOS',
+            link: '/guide/extending-classes-and-conforming-to-protocols-ios',
           }
         ]
-        },
+      },
       {
         text: 'Multithreading',
         link: '/guide/multithreading',
@@ -117,120 +246,52 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      {
+        text: 'Metadata',
+        link: '/guide/metadata',
+      },
+      {
+        text: 'Marshalling',
+        link: '#',
+        items: [
+          {
+            text: 'iOS Marshalling',
+            link: '/guide/ios-marshalling',
+          },
+          {
+            text: 'iOS Runtime Types',
+            link: '/guide/ios-runtime-types',
+          },
+          {
+            text: 'Android Marshalling',
+            link: '/guide/android-marshalling',
+          },
+        ],
+      },
+      {
+        text: 'Animations',
+        link: '/guide/animations',
+      },
+      {
+        text: 'Gestures',
+        link: '/guide/gestures',
+      },
+      {
+        text: 'Shared Element Transitions',
+        link: '/guide/shared-element-transitions',
+      },
+      {
+        text: 'Data Binding',
+        link: '/guide/data-binding',
+      },
+      {
+        text: 'Property System',
+        link: '/guide/property-system',
+      },
+      {
+        text: 'Error Handling',
+        link: '/guide/error-handling',
+      },
     ],
   },
-  //   {
-  //     text: 'Core Views',
-  //     items: [
-  //       { text: 'Styling', link: '//#' },
-  //       { text: 'Interactivity', link: '//#' },
-  //       {
-  //         text: 'Layout Containers',
-  //         items: [
-  //           { text: 'StackLayout', link: '//#' },
-  //           { text: 'GridLayout', link: '//#' },
-  //           { text: 'RootLayout', link: '//#' },
-  //           { text: 'FlexboxLayout', link: '//#' },
-  //           { text: 'WrapLayout', link: '//#' },
-  //           { text: 'AbsoluteLayout', link: '//#' },
-  //         ],
-  //       },
-  //       {
-  //         text: 'Navigation Components',
-  //         items: [
-  //           { text: 'Frame', link: '//#' },
-  //           { text: 'Page', link: '//#' },
-  //           { text: 'ActionBar', link: '//#' },
-  //           { text: 'ActionItem', link: '//#' },
-  //           { text: 'NavigationButton', link: '//#' },
-  //         ],
-  //       },
-  //       {
-  //         text: 'Components',
-  //         items: [
-  //           { text: 'ActivityIndicator', link: '//#' },
-  //           { text: 'Button', link: '//#' },
-  //           { text: 'DatePicker', link: '//#' },
-  //           { text: 'HtmlView', link: '//#' },
-  //           { text: 'Image', link: '/' },
-  //           { text: 'Label', link: '//#' },
-  //           { text: 'ListPicker', link: '//#' },
-  //           { text: 'ListView', link: '//#' },
-  //           { text: 'Placeholder', link: '//#' },
-  //           { text: 'Progress', link: '//#' },
-  //           { text: 'ScrollView', link: '//#' },
-  //           { text: 'SearchBar', link: '//#' },
-  //           { text: 'SegmentedBar', link: '//#' },
-  //           { text: 'Slider', link: '//#' },
-  //           { text: 'Switch', link: '//#' },
-  //           { text: 'TabView', link: '//#' },
-  //           { text: 'TextField', link: '//#' },
-  //           { text: 'TextView', link: '//#' },
-  //           { text: 'TimePicker', link: '//#' },
-  //           { text: 'WevView', link: '//#' },
-  //         ],
-  //       },
-  //       {
-  //         text: 'Dialogs',
-  //         items: [
-  //           { text: 'ActionDialog', link: '//#' },
-  //           { text: 'AlertDialog', link: '//#' },
-  //           { text: 'ConfirmDialog', link: '//#' },
-  //           { text: 'LoginDialog', link: '//#' },
-  //           { text: 'PromptDialog', link: '//#' },
-  //         ],
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     text: 'Diving Deeper',
-  //     items: [{ text: 'Architecture concepts', link: '//#' }],
-  //   },
-  // {
-  //   text: 'UI & Styling',
-  //   items: [
-  //     {
-  //       text: 'UI & Styling',
-  //       link: '//#',
-  //     },
-  //     { text: 'Interaction', link: '//#' },
-  //   ],
-  // },
-  // {
-  //   text: 'Networking & Security',
-  //   items: [
-  //     { text: 'Networking', link: '//#' },
-  //     {
-  //       text: 'Security (Nathanael)',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: 'Performance',
-  //   items: [{ text: 'Performance', link: '//#' }],
-  // },
-
-  // {
-  //   text: 'Distribution',
-  //   items: [
-  //     {
-  //       text: 'Releasing your app',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
-  // {
-  //   text: 'Troubleshooting',
-  //   items: [
-  //     {
-  //       text: 'Common Issues',
-  //       link: '//#',
-  //     },
-  //     {
-  //       text: 'Common Pitfalls',
-  //       link: '//#',
-  //     },
-  //   ],
-  // },
 ] as NSSidebarGroup[]

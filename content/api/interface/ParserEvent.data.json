@@ -1,0 +1,317 @@
+{
+  "title": "ParserEvent",
+  "hierarchy": [
+    [
+      {
+        "text": "ParserEvent"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2866,
+        2867,
+        2865,
+        2861,
+        2864,
+        2862,
+        2863
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2868
+      ]
+    }
+  ],
+  "reflections": {
+    "2861": {
+      "name": "eventType",
+      "type": "Property",
+      "url": "/api/interface/ParserEvent#eventtype",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns the type of the parser event. This is one of the ParserEventType static members."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventType</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 57,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the type of the parser event. This is one of the ParserEventType static members."
+              }
+            ]
+          },
+          "url": "/api/interface/ParserEvent#eventtype"
+        }
+      ]
+    },
+    "2862": {
+      "name": "position",
+      "type": "Property",
+      "url": "/api/interface/ParserEvent#position",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Get the position in the xml string where the event was generated."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">position</span><span style=\"color: #E1E4E8\">: Position</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 62,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get the position in the xml string where the event was generated."
+              }
+            ]
+          },
+          "url": "/api/interface/ParserEvent#position"
+        }
+      ]
+    },
+    "2863": {
+      "name": "prefix",
+      "type": "Property",
+      "url": "/api/interface/ParserEvent#prefix",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "If namespace processing is enabled, returns the prefix of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">prefix</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 67,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "If namespace processing is enabled, returns the prefix of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement."
+              }
+            ]
+          },
+          "url": "/api/interface/ParserEvent#prefix"
+        }
+      ]
+    },
+    "2864": {
+      "name": "namespace",
+      "type": "Property",
+      "url": "/api/interface/ParserEvent#namespace",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "If namespace processing is enabled, returns the namespace of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">namespace</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 72,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "If namespace processing is enabled, returns the namespace of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement."
+              }
+            ]
+          },
+          "url": "/api/interface/ParserEvent#namespace"
+        }
+      ]
+    },
+    "2865": {
+      "name": "elementName",
+      "type": "Property",
+      "url": "/api/interface/ParserEvent#elementname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns the name of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">elementName</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 77,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the name of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement."
+              }
+            ]
+          },
+          "url": "/api/interface/ParserEvent#elementname"
+        }
+      ]
+    },
+    "2866": {
+      "name": "attributes",
+      "type": "Property",
+      "url": "/api/interface/ParserEvent#attributes",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns a JSON object with the attributes of an element in case the eventType is ParserEventType.StartElement."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">attributes</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> Object</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 82,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns a JSON object with the attributes of an element in case the eventType is ParserEventType.StartElement."
+              }
+            ]
+          },
+          "url": "/api/interface/ParserEvent#attributes"
+        }
+      ]
+    },
+    "2867": {
+      "name": "data",
+      "type": "Property",
+      "url": "/api/interface/ParserEvent#data",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Returns the relevant data in case the eventType is ParserEventType.Text, ParserEventType.CDATA or ParserEventType.Comment."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">data</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 87,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns the relevant data in case the eventType is ParserEventType.Text, ParserEventType.CDATA or ParserEventType.Comment."
+              }
+            ]
+          },
+          "url": "/api/interface/ParserEvent#data"
+        }
+      ]
+    },
+    "2868": {
+      "name": "toString",
+      "type": "Method",
+      "url": "/api/interface/ParserEvent#tostring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">toString</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/interface/ParserEvent#tostring-tostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 92,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Returns a JSON string representation of this instance."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    }
+  }
+}

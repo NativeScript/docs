@@ -1,0 +1,577 @@
+{
+  "title": "ios",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Namespaces",
+      "items": [
+        2774
+      ]
+    },
+    {
+      "title": "Variables",
+      "items": [
+        2783
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        2757,
+        2727,
+        2749,
+        2738,
+        2719,
+        2707,
+        2733,
+        2700,
+        2724,
+        2709,
+        2714,
+        2740,
+        2721,
+        2716,
+        2742,
+        2711,
+        2745
+      ]
+    }
+  ],
+  "reflections": {
+    "2700": {
+      "name": "getter",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#getter",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">getter</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">_this</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">, </span><span style=\"color: #FFAB70\">property</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span></span></code>",
+          "url": "/api/namespace/Utils-ios#getter-getter-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 1,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "_this",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "property",
+              "type": "T | () => T",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "2707": {
+      "name": "getRootViewController",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#getrootviewcontroller",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getRootViewController</span><span style=\"color: #E1E4E8\">(): UIViewController</span></span></code>",
+          "url": "/api/namespace/Utils-ios#getrootviewcontroller-getrootviewcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 8,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "UIViewController"
+        }
+      ]
+    },
+    "2709": {
+      "name": "getWindow",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#getwindow",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getWindow</span><span style=\"color: #E1E4E8\">(): UIWindow</span></span></code>",
+          "url": "/api/namespace/Utils-ios#getwindow-getwindow-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 9,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "UIWindow"
+        }
+      ]
+    },
+    "2711": {
+      "name": "setWindowBackgroundColor",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#setwindowbackgroundcolor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setWindowBackgroundColor</span><span style=\"color: #E1E4E8\">(value: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/Utils-ios#setwindowbackgroundcolor-setwindowbackgroundcolor-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 10,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "value",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2714": {
+      "name": "isLandscape",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#islandscape",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isLandscape</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/namespace/Utils-ios#islandscape-islandscape-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 11,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2716": {
+      "name": "openFile",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#openfile",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">openFile</span><span style=\"color: #E1E4E8\">(filePath: string): boolean</span></span></code>",
+          "url": "/api/namespace/Utils-ios#openfile-openfile-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 13,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "filePath",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2719": {
+      "name": "getCurrentAppPath",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#getcurrentapppath",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCurrentAppPath</span><span style=\"color: #E1E4E8\">(): string</span></span></code>",
+          "url": "/api/namespace/Utils-ios#getcurrentapppath-getcurrentapppath-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 14,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "string"
+        }
+      ]
+    },
+    "2721": {
+      "name": "joinPaths",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#joinpaths",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">joinPaths</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">paths: string[]): string</span></span></code>",
+          "url": "/api/namespace/Utils-ios#joinpaths-joinpaths-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 15,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "paths",
+              "type": "string[]",
+              "flags": {
+                "isRest": true
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2724": {
+      "name": "getVisibleViewController",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#getvisibleviewcontroller",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getVisibleViewController</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  rootViewController: UIViewController</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): UIViewController</span></span></code>",
+          "url": "/api/namespace/Utils-ios#getvisibleviewcontroller-getvisibleviewcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 16,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "rootViewController",
+              "type": "UIViewController",
+              "flags": {}
+            }
+          ],
+          "returns": "UIViewController"
+        }
+      ]
+    },
+    "2727": {
+      "name": "applyRotateTransform",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#applyrotatetransform",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">applyRotateTransform</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  transform: CATransform3D,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  x: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  y: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  z: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): CATransform3D</span></span></code>",
+          "url": "/api/namespace/Utils-ios#applyrotatetransform-applyrotatetransform-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 17,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "transform",
+              "type": "CATransform3D",
+              "flags": {}
+            },
+            {
+              "name": "x",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "z",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "CATransform3D"
+        }
+      ]
+    },
+    "2733": {
+      "name": "getShadowLayer",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#getshadowlayer",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getShadowLayer</span><span style=\"color: #E1E4E8\">(nativeView: UIView, name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string, create</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean): CALayer</span></span></code>",
+          "url": "/api/namespace/Utils-ios#getshadowlayer-getshadowlayer-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 18,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "nativeView",
+              "type": "UIView",
+              "flags": {}
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "create",
+              "type": "boolean",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "CALayer"
+        }
+      ]
+    },
+    "2738": {
+      "name": "createUIDocumentInteractionControllerDelegate",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#createuidocumentinteractioncontrollerdelegate",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createUIDocumentInteractionControllerDelegate</span><span style=\"color: #E1E4E8\">(): NSObject</span></span></code>",
+          "url": "/api/namespace/Utils-ios#createuidocumentinteractioncontrollerdelegate-createuidocumentinteractioncontrollerdelegate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 19,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "NSObject"
+        }
+      ]
+    },
+    "2740": {
+      "name": "isRealDevice",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#isrealdevice",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">isRealDevice</span><span style=\"color: #E1E4E8\">(): boolean</span></span></code>",
+          "url": "/api/namespace/Utils-ios#isrealdevice-isrealdevice-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 20,
+              "character": 0
+            }
+          ],
+          "parameters": [],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "2742": {
+      "name": "printCGRect",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#printcgrect",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">printCGRect</span><span style=\"color: #E1E4E8\">(rect: CGRect): string</span></span></code>",
+          "url": "/api/namespace/Utils-ios#printcgrect-printcgrect-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 21,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "rect",
+              "type": "CGRect",
+              "flags": {}
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "2745": {
+      "name": "snapshotView",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#snapshotview",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">snapshotView</span><span style=\"color: #E1E4E8\">(view: UIView, scale: number): UIImage</span></span></code>",
+          "url": "/api/namespace/Utils-ios#snapshotview-snapshotview-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 22,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "view",
+              "type": "UIView",
+              "flags": {}
+            },
+            {
+              "name": "scale",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "UIImage"
+        }
+      ]
+    },
+    "2749": {
+      "name": "copyLayerProperties",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#copylayerproperties",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">copyLayerProperties</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  view: UIView,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toView: UIView,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  customProperties</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">    layer?: (string </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> number </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> symbol)[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  }</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/Utils-ios#copylayerproperties-copylayerproperties-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 23,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "view",
+              "type": "UIView",
+              "flags": {}
+            },
+            {
+              "name": "toView",
+              "type": "UIView",
+              "flags": {}
+            },
+            {
+              "name": "customProperties",
+              "type": "{\n  layer?: (string | number | symbol)[]\n}",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2757": {
+      "name": "animateWithSpring",
+      "type": "Function",
+      "url": "/api/namespace/Utils-ios#animatewithspring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">animateWithSpring</span><span style=\"color: #E1E4E8\">(options</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  animateOptions?: UIViewAnimationOptions</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  animations</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> () </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  completion</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">finished</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">boolean</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">void</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  delay</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  friction</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  mass</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  tension</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/namespace/Utils-ios#animatewithspring-animatewithspring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 27,
+              "character": 0
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "{\n  animateOptions?: UIViewAnimationOptions\n  animations?: () => void\n  completion?: (finished?: boolean) => void\n  delay?: number\n  friction?: number\n  mass?: number\n  tension?: number\n}",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "2774": {
+      "name": "collections",
+      "type": "Namespace",
+      "url": "/api/namespace/Utils-ios-collections",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">collections</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 4,
+              "character": 25
+            }
+          ],
+          "url": "/api/namespace/Utils-ios-collections"
+        }
+      ]
+    },
+    "2783": {
+      "name": "MajorVersion",
+      "type": "Variable",
+      "url": "/api/namespace/Utils-ios#majorversion",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">MajorVersion</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/ios/index.d.ts",
+              "line": 12,
+              "character": 21
+            }
+          ],
+          "url": "/api/namespace/Utils-ios#majorversion"
+        }
+      ]
+    }
+  }
+}

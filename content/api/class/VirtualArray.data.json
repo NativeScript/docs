@@ -1,0 +1,1584 @@
+{
+  "title": "VirtualArray",
+  "hierarchy": [
+    [
+      {
+        "text": "Observable",
+        "link": "/api/class/Observable"
+      }
+    ],
+    [
+      {
+        "text": "VirtualArray"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1614
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1571,
+        1572,
+        1573
+      ]
+    },
+    {
+      "title": "Accessors",
+      "items": [
+        1622,
+        1627
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1721,
+        1726,
+        1693,
+        1606,
+        1666,
+        1631,
+        1718,
+        1638,
+        1709,
+        1713,
+        1685,
+        1590,
+        1643,
+        1574,
+        1677,
+        1582,
+        1701,
+        1598,
+        1669,
+        1634,
+        1673
+      ]
+    }
+  ],
+  "reflections": {
+    "1571": {
+      "name": "changeEvent",
+      "type": "Property",
+      "url": "/api/class/VirtualArray#changeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to change event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">changeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 23,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to change event."
+              }
+            ]
+          },
+          "url": "/api/class/VirtualArray#changeevent"
+        }
+      ]
+    },
+    "1572": {
+      "name": "itemsLoadingEvent",
+      "type": "Property",
+      "url": "/api/class/VirtualArray#itemsloadingevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to itemsLoading event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">itemsLoadingEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 27,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to itemsLoading event."
+              }
+            ]
+          },
+          "url": "/api/class/VirtualArray#itemsloadingevent"
+        }
+      ]
+    },
+    "1573": {
+      "name": "propertyChangeEvent",
+      "type": "Property",
+      "url": "/api/class/VirtualArray#propertychangeevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "String value used when hooking to propertyChange event."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "propertyChangeEvent",
+        "url": "/api/class/Observable#propertychangeevent",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyChangeEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 74,
+              "character": 11
+            }
+          ],
+          "inheritedFrom": {
+            "name": "propertyChangeEvent",
+            "url": "/api/class/Observable#propertychangeevent",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "String value used when hooking to propertyChange event."
+              }
+            ]
+          },
+          "url": "/api/class/VirtualArray#propertychangeevent"
+        }
+      ]
+    },
+    "1574": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#on-4",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "on",
+        "url": "/api/class/Observable#on-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#on-4-on-5",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 125,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/Observable#on-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1582": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#once-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/Observable#once-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#once-2-once-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 126,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/Observable#once-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1590": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#off-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/Observable#off-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#off-2-off-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 127,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/Observable#off-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1598": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#removeeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "removeEventListener",
+        "url": "/api/class/Observable#removeeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventName: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#removeeventlistener-2-removeeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 128,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeEventListener",
+            "url": "/api/class/Observable#removeeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1606": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#addeventlistener-2",
+      "flags": {
+        "isStatic": true
+      },
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener-2",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventName: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#addeventlistener-2-addeventlistener-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 129,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener-2",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1614": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/VirtualArray#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new VirtualArray&lt;T&gt;(length?: number): <a href=\"/api/class/VirtualArray\">VirtualArray</a>&lt;T&gt;",
+          "url": "/api/class/VirtualArray#constructor-new-virtualarray",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 32,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "length",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/VirtualArray\">VirtualArray</a>&lt;T&gt;"
+        }
+      ]
+    },
+    "1622": {
+      "name": "length",
+      "type": "Accessor",
+      "url": "/api/class/VirtualArray#length",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">length</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
+          "url": "/api/class/VirtualArray#length-length-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 36,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets or sets length for the virtual array."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "1627": {
+      "name": "loadSize",
+      "type": "Accessor",
+      "url": "/api/class/VirtualArray#loadsize",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "GetSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">get </span><span style=\"color: #B392F0\">loadSize</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
+          "url": "/api/class/VirtualArray#loadsize-loadsize-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 42,
+              "character": 4
+            }
+          ],
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "1631": {
+      "name": "getItem",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#getitem",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getItem</span><span style=\"color: #E1E4E8\">(index: number): </span><span style=\"color: #79B8FF\">T</span></span></code>",
+          "url": "/api/class/VirtualArray#getitem-getitem-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 44,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "T"
+        }
+      ]
+    },
+    "1634": {
+      "name": "setItem",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#setitem",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setItem</span><span style=\"color: #E1E4E8\">(index: number, value: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/VirtualArray#setitem-setitem-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 45,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "T",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1638": {
+      "name": "load",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#load",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">load</span><span style=\"color: #E1E4E8\">(index: number, items: </span><span style=\"color: #79B8FF\">T</span><span style=\"color: #E1E4E8\">[]): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/VirtualArray#load-load-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 49,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Loads items from an array starting at index."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "items",
+              "type": "T[]",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1643": {
+      "name": "on",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#on",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "on",
+        "url": "/api/class/Observable#on",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "on(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#on-on-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 59,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "on",
+            "url": "/api/class/Observable#on",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A basic method signature to hook an event listener (shortcut alias to the addEventListener method)."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "String corresponding to events (e.g. \"propertyChange\"). Optionally could be used more events separated by "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`,`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " (e.g. \"propertyChange\", \"change\")."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Callback function which will be executed when event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which will be used as "
+                  },
+                  {
+                    "kind": "code",
+                    "text": "`this`"
+                  },
+                  {
+                    "kind": "text",
+                    "text": " context for callback execution."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"itemsLoading\", callback: (args: <a href=\"/api/interface/ItemsLoading\">ItemsLoading</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#on-on-2",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 63,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Raised when still not loaded items are requested."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"itemsLoading\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/ItemsLoading\">ItemsLoading</a>) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        },
+        {
+          "type": "CallSignature",
+          "code": "on(event: \"change\", callback: (args: <a href=\"/api/interface/ChangedData\">ChangedData</a>&lt;T&gt;) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#on-on-3",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/virtual-array/index.d.ts",
+              "line": 67,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "fromName": "Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Raised when a change occurs."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "\"change\"",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(args: <a href=\"/api/interface/ChangedData\">ChangedData</a>&lt;T&gt;) => void",
+              "flags": {}
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1666": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#get",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "get",
+        "url": "/api/class/Observable#get",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">get</span><span style=\"color: #E1E4E8\">(name: string): any</span></span></code>",
+          "url": "/api/class/VirtualArray#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 84,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "get",
+            "url": "/api/class/Observable#get",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the value of the specified property."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "1669": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#set",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "set",
+        "url": "/api/class/Observable#set",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">set</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/VirtualArray#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "set",
+            "url": "/api/class/Observable#set",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1673": {
+      "name": "setProperty",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#setproperty",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setProperty",
+        "url": "/api/class/Observable#setproperty",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setProperty</span><span style=\"color: #E1E4E8\">(name: string, value: any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/VirtualArray#setproperty-setproperty-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 92,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setProperty",
+            "url": "/api/class/Observable#setproperty",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1677": {
+      "name": "once",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#once",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "once",
+        "url": "/api/class/Observable#once",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "once(event: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#once-once-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "once",
+            "url": "/api/class/Observable#once",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds one-time listener function for the event named "
+              },
+              {
+                "kind": "code",
+                "text": "`event`"
+              },
+              {
+                "kind": "text",
+                "text": "."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "event",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Name of the event to attach to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when the specified event is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1685": {
+      "name": "off",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#off",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "off",
+        "url": "/api/class/Observable#off",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "off(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#off-off-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 110,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "off",
+            "url": "/api/class/Observable#off",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Shortcut alias to the removeEventListener method."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1693": {
+      "name": "addEventListener",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#addeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "addEventListener",
+        "url": "/api/class/Observable#addeventlistener",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addEventListener(eventNames: string, callback: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#addeventlistener-addeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 117,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "addEventListener",
+            "url": "/api/class/Observable#addeventlistener",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds a listener for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events to attach the listener to."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "A function to be called when some of the specified event(s) is raised."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used as \"this\" in callback method call."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1701": {
+      "name": "removeEventListener",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#removeeventlistener",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "removeEventListener",
+        "url": "/api/class/Observable#removeeventlistener",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeEventListener(eventNames: string, callback?: (data: <a href=\"/api/interface/EventData\">EventData</a>) => void, thisArg?: any): void",
+          "url": "/api/class/VirtualArray#removeeventlistener-removeeventlistener-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 124,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "removeEventListener",
+            "url": "/api/class/Observable#removeeventlistener",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes listener(s) for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Comma delimited names of the events the specified listener is associated with."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "callback",
+              "type": "(data: <a href=\"/api/interface/EventData\">EventData</a>) => void",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter pointing to a specific listener. If not defined, all listeners for the event names will be removed."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "thisArg",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1709": {
+      "name": "notify",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#notify",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "notify",
+        "url": "/api/class/Observable#notify",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">notify</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;</span><span style=\"color: #79B8FF\">T</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;(</span><span style=\"color: #FFAB70\">data</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #B392F0\">T</span><span style=\"color: #E1E4E8\">)</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">void</span></span></code>",
+          "url": "/api/class/VirtualArray#notify-notify-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 140,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notify",
+            "url": "/api/class/Observable#notify",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notify this Observable instance with some data. This causes all event\nhandlers on the Observable instance to be called, as well as any 'global'\nevent handlers set on the instance's class."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "data",
+              "type": "T",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "an object that satisfies the EventData interface, though with\nan optional 'object' property. If left undefined, the 'object' property\nwill implicitly be set as this Observable instance."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1713": {
+      "name": "notifyPropertyChange",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#notifypropertychange",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "notifyPropertyChange",
+        "url": "/api/class/Observable#notifypropertychange",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyPropertyChange</span><span style=\"color: #E1E4E8\">(name: string, value: any, oldValue</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/VirtualArray#notifypropertychange-notifypropertychange-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 145,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "notifyPropertyChange",
+            "url": "/api/class/Observable#notifypropertychange",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notifies all the registered listeners for the property change event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1718": {
+      "name": "hasListeners",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#haslisteners",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "hasListeners",
+        "url": "/api/class/Observable#haslisteners",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">hasListeners</span><span style=\"color: #E1E4E8\">(eventName: string): boolean</span></span></code>",
+          "url": "/api/class/VirtualArray#haslisteners-haslisteners-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 150,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "hasListeners",
+            "url": "/api/class/Observable#haslisteners",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Checks whether a listener is registered for the specified event name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The name of the event to check for."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "1721": {
+      "name": "_createPropertyChangeData",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#createpropertychangedata",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "_createPropertyChangeData",
+        "url": "/api/class/Observable#createpropertychangedata",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "_createPropertyChangeData(propertyName: string, value: any, oldValue?: any): <a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>",
+          "url": "/api/class/VirtualArray#createpropertychangedata-createpropertychangedata-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 154,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_createPropertyChangeData",
+            "url": "/api/class/Observable#createpropertychangedata",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "This method is intended to be overriden by inheritors to provide additional implementation."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "propertyName",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "value",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "oldValue",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/interface/PropertyChangeData\">PropertyChangeData</a>"
+        }
+      ]
+    },
+    "1726": {
+      "name": "_emit",
+      "type": "Method",
+      "url": "/api/class/VirtualArray#emit",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "_emit",
+        "url": "/api/class/Observable#emit",
+        "fromName": "Observable",
+        "fromUrl": "/api/class/Observable"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">_emit</span><span style=\"color: #E1E4E8\">(eventNames: string): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/VirtualArray#emit-emit-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 155,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "_emit",
+            "url": "/api/class/Observable#emit",
+            "fromName": "Observable",
+            "fromUrl": "/api/class/Observable"
+          },
+          "parameters": [
+            {
+              "name": "eventNames",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

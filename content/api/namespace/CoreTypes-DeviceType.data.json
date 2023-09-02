@@ -1,0 +1,57 @@
+{
+  "title": "DeviceType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4935,
+        4936
+      ]
+    }
+  ],
+  "reflections": {
+    "4935": {
+      "name": "Phone",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-DeviceType#phone",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Phone</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 151,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-DeviceType#phone"
+        }
+      ]
+    },
+    "4936": {
+      "name": "Tablet",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-DeviceType#tablet",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Tablet</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 152,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-DeviceType#tablet"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "title": "messageType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        5130,
+        5128,
+        5127,
+        5129
+      ]
+    }
+  ],
+  "reflections": {
+    "5127": {
+      "name": "log",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#log",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">log</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">0</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">0</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 97,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#log"
+        }
+      ]
+    },
+    "5128": {
+      "name": "info",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#info",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">info</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">1</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">1</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 98,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#info"
+        }
+      ]
+    },
+    "5129": {
+      "name": "warn",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#warn",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">warn</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">2</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">2</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 99,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#warn"
+        }
+      ]
+    },
+    "5130": {
+      "name": "error",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-messageType#error",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">error</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #79B8FF\">3</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">3</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 100,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-messageType#error"
+        }
+      ]
+    }
+  }
+}

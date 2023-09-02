@@ -1,0 +1,921 @@
+{
+  "title": "FadeTransition",
+  "hierarchy": [
+    [
+      {
+        "text": "Transition",
+        "link": "/api/class/Transition"
+      }
+    ],
+    [
+      {
+        "text": "FadeTransition"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        32530
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        32524,
+        32534,
+        32537,
+        32535,
+        32538,
+        32539,
+        32540,
+        32536
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        32589,
+        32554,
+        32560,
+        32552,
+        32547,
+        32569,
+        32577,
+        32580,
+        32583,
+        32572,
+        32549,
+        32563
+      ]
+    }
+  ],
+  "reflections": {
+    "32524": {
+      "name": "AndroidTransitionType",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#androidtransitiontype",
+      "flags": {
+        "isStatic": true,
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "AndroidTransitionType",
+        "url": "/api/class/Transition#androidtransitiontype",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">AndroidTransitionType</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  enter?: string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  exit</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  popEnter</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 38,
+              "character": 8
+            }
+          ],
+          "inheritedFrom": {
+            "name": "AndroidTransitionType",
+            "url": "/api/class/Transition#androidtransitiontype",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/FadeTransition#androidtransitiontype"
+        }
+      ]
+    },
+    "32530": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/FadeTransition#constructor",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "constructor",
+        "url": "/api/class/Transition#constructor",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new FadeTransition(duration?: number, nativeCurve?: any): <a href=\"/api/class/FadeTransition\">FadeTransition</a>",
+          "url": "/api/class/FadeTransition#constructor-new-fadetransition",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 39,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "constructor",
+            "url": "/api/class/Transition#constructor",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "duration",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              }
+            },
+            {
+              "name": "nativeCurve",
+              "type": "any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/FadeTransition\">FadeTransition</a>"
+        }
+      ]
+    },
+    "32534": {
+      "name": "id",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#id",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "id",
+        "url": "/api/class/Transition#id",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">id</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 23,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "id",
+            "url": "/api/class/Transition#id",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/FadeTransition#id"
+        }
+      ]
+    },
+    "32535": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "(Optional) Provide a unique name to identify this transition"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "name",
+        "url": "/api/class/Transition#name",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 27,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "name",
+            "url": "/api/class/Transition#name",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "(Optional) Provide a unique name to identify this transition"
+              }
+            ]
+          },
+          "url": "/api/class/FadeTransition#name"
+        }
+      ]
+    },
+    "32536": {
+      "name": "transitionController",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#transitioncontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "transitionController",
+        "url": "/api/class/Transition#transitioncontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">transitionController</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 28,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "transitionController",
+            "url": "/api/class/Transition#transitioncontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/FadeTransition#transitioncontroller"
+        }
+      ]
+    },
+    "32537": {
+      "name": "interactiveController",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#interactivecontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "interactiveController",
+        "url": "/api/class/Transition#interactivecontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">interactiveController</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 29,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "interactiveController",
+            "url": "/api/class/Transition#interactivecontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/FadeTransition#interactivecontroller"
+        }
+      ]
+    },
+    "32538": {
+      "name": "presented",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#presented",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "presented",
+        "url": "/api/class/Transition#presented",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">presented</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 30,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "presented",
+            "url": "/api/class/Transition#presented",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/FadeTransition#presented"
+        }
+      ]
+    },
+    "32539": {
+      "name": "presenting",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#presenting",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "presenting",
+        "url": "/api/class/Transition#presenting",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">presenting</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "presenting",
+            "url": "/api/class/Transition#presenting",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/FadeTransition#presenting"
+        }
+      ]
+    },
+    "32540": {
+      "name": "sharedElements",
+      "type": "Property",
+      "url": "/api/class/FadeTransition#sharedelements",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "sharedElements",
+        "url": "/api/class/Transition#sharedelements",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">sharedElements</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> {</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  independent?: (SharedElementSettings </span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\"> {})[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  presented</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> SharedElementSettings[]</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">}</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 32,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "sharedElements",
+            "url": "/api/class/Transition#sharedelements",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "url": "/api/class/FadeTransition#sharedelements"
+        }
+      ]
+    },
+    "32547": {
+      "name": "getDuration",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#getduration",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getDuration",
+        "url": "/api/class/Transition#getduration",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getDuration</span><span style=\"color: #E1E4E8\">(): number</span></span></code>",
+          "url": "/api/class/FadeTransition#getduration-getduration-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 40,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getDuration",
+            "url": "/api/class/Transition#getduration",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [],
+          "returns": "number"
+        }
+      ]
+    },
+    "32549": {
+      "name": "setDuration",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#setduration",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "setDuration",
+        "url": "/api/class/Transition#setduration",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">setDuration</span><span style=\"color: #E1E4E8\">(value: number): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/FadeTransition#setduration-setduration-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 41,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setDuration",
+            "url": "/api/class/Transition#setduration",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "value",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32552": {
+      "name": "getCurve",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#getcurve",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "getCurve",
+        "url": "/api/class/Transition#getcurve",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getCurve</span><span style=\"color: #E1E4E8\">(): any</span></span></code>",
+          "url": "/api/class/FadeTransition#getcurve-getcurve-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 42,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "getCurve",
+            "url": "/api/class/Transition#getcurve",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [],
+          "returns": "any"
+        }
+      ]
+    },
+    "32554": {
+      "name": "animateIOSTransition",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#animateiostransition",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "animateIOSTransition",
+        "url": "/api/class/Transition#animateiostransition",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">animateIOSTransition</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  transitionContext: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  fromViewCtrl: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toViewCtrl: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  operation: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/FadeTransition#animateiostransition-animateiostransition-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 43,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "animateIOSTransition",
+            "url": "/api/class/Transition#animateiostransition",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "transitionContext",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "fromViewCtrl",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "toViewCtrl",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "operation",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32560": {
+      "name": "createAndroidAnimator",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#createandroidanimator",
+      "flags": {},
+      "inheritedFrom": {
+        "name": "createAndroidAnimator",
+        "url": "/api/class/Transition#createandroidanimator",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">createAndroidAnimator</span><span style=\"color: #E1E4E8\">(transitionType: string): any</span></span></code>",
+          "url": "/api/class/FadeTransition#createandroidanimator-createandroidanimator-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 44,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "createAndroidAnimator",
+            "url": "/api/class/Transition#createandroidanimator",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "transitionType",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32563": {
+      "name": "setupInteractiveGesture",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#setupinteractivegesture",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "setupInteractiveGesture",
+        "url": "/api/class/Transition#setupinteractivegesture",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "setupInteractiveGesture(startCallback: () => void, view: <a href=\"/api/class/View\">View</a>): void",
+          "url": "/api/class/FadeTransition#setupinteractivegesture-setupinteractivegesture-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 46,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "setupInteractiveGesture",
+            "url": "/api/class/Transition#setupinteractivegesture",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "startCallback",
+              "type": "() => void",
+              "flags": {}
+            },
+            {
+              "name": "view",
+              "type": "<a href=\"/api/class/View\">View</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32569": {
+      "name": "iosDismissedController",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#iosdismissedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosDismissedController",
+        "url": "/api/class/Transition#iosdismissedcontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosDismissedController</span><span style=\"color: #E1E4E8\">(dismissed: any): any</span></span></code>",
+          "url": "/api/class/FadeTransition#iosdismissedcontroller-iosdismissedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosDismissedController",
+            "url": "/api/class/Transition#iosdismissedcontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "dismissed",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32572": {
+      "name": "iosPresentedController",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#iospresentedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosPresentedController",
+        "url": "/api/class/Transition#iospresentedcontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosPresentedController</span><span style=\"color: #E1E4E8\">(presented: any, presenting: any, source: any): any</span></span></code>",
+          "url": "/api/class/FadeTransition#iospresentedcontroller-iospresentedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 50,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosPresentedController",
+            "url": "/api/class/Transition#iospresentedcontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "presented",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "presenting",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "source",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32577": {
+      "name": "iosInteractionDismiss",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#iosinteractiondismiss",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosInteractionDismiss",
+        "url": "/api/class/Transition#iosinteractiondismiss",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosInteractionDismiss</span><span style=\"color: #E1E4E8\">(animator: any): any</span></span></code>",
+          "url": "/api/class/FadeTransition#iosinteractiondismiss-iosinteractiondismiss-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 52,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosInteractionDismiss",
+            "url": "/api/class/Transition#iosinteractiondismiss",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "animator",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32580": {
+      "name": "iosInteractionPresented",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#iosinteractionpresented",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosInteractionPresented",
+        "url": "/api/class/Transition#iosinteractionpresented",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosInteractionPresented</span><span style=\"color: #E1E4E8\">(animator: any): any</span></span></code>",
+          "url": "/api/class/FadeTransition#iosinteractionpresented-iosinteractionpresented-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 54,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosInteractionPresented",
+            "url": "/api/class/Transition#iosinteractionpresented",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "animator",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32583": {
+      "name": "iosNavigatedController",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#iosnavigatedcontroller",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "iosNavigatedController",
+        "url": "/api/class/Transition#iosnavigatedcontroller",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">iosNavigatedController</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  navigationController: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  operation: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  fromVC: any,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  toVC: any</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): any</span></span></code>",
+          "url": "/api/class/FadeTransition#iosnavigatedcontroller-iosnavigatedcontroller-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 56,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "iosNavigatedController",
+            "url": "/api/class/Transition#iosnavigatedcontroller",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "navigationController",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "operation",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "fromVC",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "toVC",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "32589": {
+      "name": "androidFragmentTransactionCallback",
+      "type": "Method",
+      "url": "/api/class/FadeTransition#androidfragmenttransactioncallback",
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "androidFragmentTransactionCallback",
+        "url": "/api/class/Transition#androidfragmenttransactioncallback",
+        "fromName": "Transition",
+        "fromUrl": "/api/class/Transition"
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "androidFragmentTransactionCallback(fragmentTransaction: any, currentEntry: <a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>, newEntry: <a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>): void",
+          "url": "/api/class/FadeTransition#androidfragmenttransactioncallback-androidfragmenttransactioncallback-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/index.d.ts",
+              "line": 58,
+              "character": 1
+            }
+          ],
+          "inheritedFrom": {
+            "name": "androidFragmentTransactionCallback",
+            "url": "/api/class/Transition#androidfragmenttransactioncallback",
+            "fromName": "Transition",
+            "fromUrl": "/api/class/Transition"
+          },
+          "parameters": [
+            {
+              "name": "fragmentTransaction",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "currentEntry",
+              "type": "<a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>",
+              "flags": {}
+            },
+            {
+              "name": "newEntry",
+              "type": "<a href=\"/api/interface/BackstackEntry\">BackstackEntry</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

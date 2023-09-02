@@ -1,0 +1,73 @@
+{
+  "title": "ItemsSource",
+  "hierarchy": [
+    [
+      {
+        "text": "ItemsSource"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        18112
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        18113
+      ]
+    }
+  ],
+  "reflections": {
+    "18112": {
+      "name": "length",
+      "type": "Property",
+      "url": "/api/interface/ItemsSource#length",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">length</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 158,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ItemsSource#length"
+        }
+      ]
+    },
+    "18113": {
+      "name": "getItem",
+      "type": "Method",
+      "url": "/api/interface/ItemsSource#getitem",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getItem</span><span style=\"color: #E1E4E8\">(index: number): any</span></span></code>",
+          "url": "/api/interface/ItemsSource#getitem-getitem-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/list-view/index.d.ts",
+              "line": 159,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    }
+  }
+}
