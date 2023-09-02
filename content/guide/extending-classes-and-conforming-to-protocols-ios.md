@@ -224,6 +224,6 @@ function image2text(image: UIImage): string {
 
 ```
 ## Limitations
-- You shouldn't extend an already extended class
+- You should not extend an already extended class
 - You can't override static methods or properties
 - You can't expose static methods or properties
