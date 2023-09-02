@@ -1,0 +1,29 @@
+appId: org.nativescript.examplesApp
+---
+- launchApp:
+    permissions:
+      android.permission.DUMP: allow
+- waitForAnimationToEnd
+- openLink: ns-examples://enableDemoMode
+- runScript: screenshots-dialogs.js
+- runFlow:
+    when:
+      platform: android
+    commands:
+      - evalScript: ${output.platform = 'android'}
+- runFlow:
+    when:
+      platform: ios
+    commands:
+      - evalScript: ${output.platform = 'ios'}
+- openLink: ns-examples://navigate/Dialogs
+- repeat:
+    while:
+      true: ${(output.current = output.screenshots.shift()) !== undefined}
+    commands:
+      - waitForAnimationToEnd:
+          timeout: 5000
+      - tapOn: ${output.current.type}
+      - takeScreenshot: ../content/assets/images/screenshots/${output.platform}/Dialogs-${output.current.type}
+      - tapOn: ${output.current.dismissWith}
+- openLink: ns-examples://disableDemoMode

@@ -16,10 +16,10 @@ For additional features and improved performance in certain scenarios, consider 
 :::
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/ListView.png"/>
+<img src="../assets/images/screenshots/ios/ListView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/ListView.png"/>
+<img src="../assets/images/screenshots/android/ListView.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/ListView/template.xml#example

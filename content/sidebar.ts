@@ -28,7 +28,7 @@ export default [
       },
       {
         text: 'Styling',
-        link: '/guide/ui/styling',
+        link: '/guide/styling',
       },
       {
         text: 'Choosing an editor',
@@ -225,10 +225,6 @@ export default [
         link: '/guide/adding-native-code',
       },
       {
-        text: 'Data Binding',
-        link: '/guide/data-binding',
-      },
-      {
         text: 'Extending Native Classes',
         link: '/guide/subclassing/',
         items: [
@@ -269,25 +265,28 @@ export default [
         ],
       },
       {
+        text: 'Animations',
+        link: '/guide/animations',
+      },
+      {
+        text: 'Gestures',
+        link: '/guide/gestures',
+      },
+      {
+        text: 'Shared Element Transitions',
+        link: '/guide/shared-element-transitions',
+      },
+      {
+        text: 'Data Binding',
+        link: '/guide/data-binding',
+      },
+      {
         text: 'Property System',
         link: '/guide/property-system',
       },
       {
         text: 'Error Handling',
         link: '/guide/error-handling',
-      },
-      {
-        text: 'Shared Element Transitions',
-        link: '/guide/shared-element-transitions',
-      },
-    ],
-  },
-  {
-    text: 'UI',
-    items: [
-      {
-        text: 'Animations',
-        link: '/ui/animations',
       },
     ],
   },

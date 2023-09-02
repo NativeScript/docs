@@ -11,10 +11,10 @@ contributors:
 For multi-line text input, see [TextView](/ui/text-view).
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/TextField.png"/>
+<img src="../assets/images/screenshots/ios/TextField.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/TextField.png"/>
+<img src="../assets/images/screenshots/android/TextField.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/TextField/template.xml#example

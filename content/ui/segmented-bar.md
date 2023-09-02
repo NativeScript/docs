@@ -9,10 +9,10 @@ contributors:
 `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/SegmentedBar.png"/>
+<img src="../assets/images/screenshots/ios/SegmentedBar.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/SegmentedBar.png"/>
+<img src="../assets/images/screenshots/android/SegmentedBar.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/SegmentedBar/template.xml#example

@@ -7,4 +7,4 @@ contributors:
 
 - [Publishing to Google Play](/guide/publishing/android-google-play)
 - Publishing to AppStore
-- Publishing with Fastlane
+- [Publishing with Fastlane](/guide/publishing/fastlane)

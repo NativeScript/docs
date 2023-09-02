@@ -9,10 +9,10 @@ contributors:
 `<Switch>` is a UI component that lets users toggle between two states.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/Switch.png"/>
+<img src="../assets/images/screenshots/ios/Switch.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/Switch.png"/>
+<img src="../assets/images/screenshots/android/Switch.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/Switch/template.xml#example

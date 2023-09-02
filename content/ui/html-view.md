@@ -11,10 +11,10 @@ contributors:
 See also: [WebView](/ui/web-view).
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/HtmlView.png"/>
+<img src="../assets/images/screenshots/ios/HtmlView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/HtmlView.png"/>
+<img src="../assets/images/screenshots/android/HtmlView.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/HtmlView/template.xml#example

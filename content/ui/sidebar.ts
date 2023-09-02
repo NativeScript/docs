@@ -42,6 +42,17 @@ export default [
         ],
       },
       {
+        text: 'Dialogs',
+        link: '/ui/dialogs',
+        items: [
+          { text: 'Alert', link: '/ui/dialogs#alert' },
+          { text: 'Action', link: '/ui/dialogs#action' },
+          { text: 'Confirm', link: '/ui/dialogs#confirm' },
+          { text: 'Prompt', link: '/ui/dialogs#prompt' },
+          { text: 'Login', link: '/ui/dialogs#login' },
+        ],
+      },
+      {
         text: 'Components',
         link: '/ui/#components',
         items: [
