@@ -18,19 +18,22 @@ appId: org.nativescript.examplesApp
       - evalScript: ${output.platform = 'ios'}
 
 - openLink: ns-examples://navigate/ViewOrigin
-- startRecording: ../content/assets/videos/animation_origin_${output.platform}
 - repeat:
     while:
       true: ${(output.current = output.origins.shift()) !== undefined}
     commands:
-      - tapOn: 
+      - tapOn:
           text: ${output.current}
           retryTapIfNoChange: false
+      - startRecording: ../content/assets/videos/${output.platform}/animation_origin__${output.current.replace(' / ', '_')}
       - tapOn:
           text: 'Play'
           retryTapIfNoChange: false
       - waitForAnimationToEnd:
           timeout: 5000
-- tapOn: '1 / 1' # just to delay the recording stop
-- stopRecording
+      # to delay the recording end.
+      # - tapOn:
+      #     text: ${output.current}
+      #     retryTapIfNoChange: false
+      - stopRecording
 - openLink: ns-examples://disableDemoMode

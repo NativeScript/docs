@@ -34,11 +34,39 @@ This page serves as a reference for the available markdown options in the docs.
 
 ### View Origin Demo
 
+<script setup lang="ts">
+import { ref } from "vue";
+
+const demos = [
+  '0_0', '0.5_0', '1_0',
+  '0_0.5', '0.5_0.5', '1_0.5',
+  '0_1', '0.5_1', '1_1',
+]
+
+const current = ref('0_0')
+</script>
+
+<div class="mb-4 flex">
+<div class="grid grid-cols-3 gap-4">
+<template v-for="demo in demos">
+  <button class="border px-4" @click.prevent="current = demo">{{ demo.replace('_', ' / ') }}</button>
+</template>
+</div>
+</div>
+
 <DeviceFrame type="ios">
-<video style="max-width: 400px;" muted="true" disablepictureinpicture="true" autoplay="true" loop="true" src="./assets/videos/animation_origin_ios.mp4"/>
+<template v-for="demo in demos">
+<video v-show="demo === current" 
+v-bind="demo === current ? { autoplay: true} : {}"
+muted="true" disablepictureinpicture="true"  loop="true" :src="`./assets/videos/ios/animation_origin__${demo}.mp4`"/>
+</template>
 </DeviceFrame>
 <DeviceFrame type="android">
-<video style="max-width: 400px;" muted="true" disablepictureinpicture="true" autoplay="true" loop="true" src="./assets/videos/animation_origin_android.mp4"/>
+<template v-for="demo in demos">
+<video v-show="demo === current" 
+v-bind="demo === current ? { autoplay: true} : {}"
+muted="true" disablepictureinpicture="true" loop="true" :src="`./assets/videos/android/animation_origin__${demo}.mp4`"/>
+</template>
 </DeviceFrame>
 
 ## Frontmatter
