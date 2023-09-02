@@ -289,6 +289,10 @@ export default [
         link: '/guide/property-system',
       },
       {
+        text: 'Layout',
+        link: '/guide/the-layout-process'
+      },
+      {
         text: 'Error Handling',
         link: '/guide/error-handling',
       },
