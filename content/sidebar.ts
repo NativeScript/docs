@@ -229,6 +229,10 @@ export default [
         link: '/guide/subclassing/',
         items: [
           {
+            text: 'Android',
+            link: '/guide/extending-classes-and-implementing-interfaces-android',
+          },
+          {
             text: 'iOS',
             link: '/guide/extending-classes-and-conforming-to-protocols-ios',
           }
