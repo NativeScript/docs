@@ -30,8 +30,7 @@ export default [
   },
   {
     text: 'Plugins',
-    link: '/soon',
-    activeMatch: '^/plugins',
+    link: 'https://docs.nativescript.org/plugins/index.html',
     icon: 'CubeTransparentIcon',
   },
   // {
@@ -40,11 +39,11 @@ export default [
   //   activeMatch: '^/best-practices',
   //   icon: 'CheckIcon',
   // },
-  {
-    text: 'Integrations',
-    link: '/soon',
-    icon: 'CpuChipIcon',
-  },
+  // {
+  //   text: 'Integrations',
+  //   link: '/soon',
+  //   icon: 'CpuChipIcon',
+  // },
   {
     text: 'UI Components',
     link: '/ui/',
