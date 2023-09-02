@@ -9,10 +9,10 @@ contributors:
 `<TabView>` is a UI component that shows content grouped into tabs and lets users switch between them.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/TabView.png"/>
+<img src="../assets/images/screenshots/ios/TabView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/TabView.png"/>
+<img src="../assets/images/screenshots/android/TabView.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/TabView/template.xml#example

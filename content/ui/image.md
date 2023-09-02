@@ -22,10 +22,10 @@ Working with many images can quickly become a memory hog, for improved image han
 :::
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/Image.png"/>
+<img src="../assets/images/screenshots/ios/Image.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/Image.png"/>
+<img src="../assets/images/screenshots/android/Image.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/Image/template.xml#example

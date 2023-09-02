@@ -15,10 +15,10 @@ A ScrollView can only have a single child element.
 :::
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/ScrollView.png"/>
+<img src="../assets/images/screenshots/ios/ScrollView.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/ScrollView.png"/>
+<img src="../assets/images/screenshots/android/ScrollView.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/ScrollView/template.xml#example

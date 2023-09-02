@@ -15,10 +15,10 @@ The NativeScript `<Label>` is not the same as the HTML `<Label>`.
 :::
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/Label.png"/>
+<img src="../assets/images/screenshots/ios/Label.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/Label.png"/>
+<img src="../assets/images/screenshots/android/Label.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/Label/template.xml#example

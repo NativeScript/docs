@@ -9,10 +9,10 @@ contributors:
 `<SearchBar>` is a UI component that provides a user interface for entering search queries.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/SearchBar.png"/>
+<img src="../assets/images/screenshots/ios/SearchBar.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/SearchBar.png"/>
+<img src="../assets/images/screenshots/android/SearchBar.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/SearchBar/template.xml#example

@@ -9,10 +9,10 @@ contributors:
 `<ListPicker>` is a UI component that lets the user select a value from a pre-configured list.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/ListPicker.png"/>
+<img src="../assets/images/screenshots/ios/ListPicker.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/ListPicker.png"/>
+<img src="../assets/images/screenshots/android/ListPicker.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/ListPicker/template.xml#example

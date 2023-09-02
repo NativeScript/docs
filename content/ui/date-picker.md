@@ -11,10 +11,10 @@ contributors:
 See also: [TimePicker](/ui/time-picker).
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/DatePicker.png"/>
+<img src="../assets/images/screenshots/ios/DatePicker.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/DatePicker.png"/>
+<img src="../assets/images/screenshots/android/DatePicker.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/DatePicker/template.xml#example

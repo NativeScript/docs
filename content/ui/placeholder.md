@@ -9,10 +9,10 @@ contributors:
 `<Placeholder>` allows adding native views directly in your markup without creating a full [View](#) wrapper for it. When NativeScript is constructing the UI and encounters a Placeholder element, it emits a `creatingView` event, allowing you to pass in any native view to be rendered by assigning it to the `args.view` parameter.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/Placeholder.png"/>
+<img src="../assets/images/screenshots/ios/Placeholder.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/Placeholder.png"/>
+<img src="../assets/images/screenshots/android/Placeholder.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/Placeholder/template.xml#example

@@ -9,10 +9,10 @@ contributors:
 `<Slider>` is a UI component that provides a slider control for picking values within a specified numeric range.
 
 <DeviceFrame type="ios">
-<img src="../screenshots/ios/Slider.png"/>
+<img src="../assets/images/screenshots/ios/Slider.png"/>
 </DeviceFrame>
 <DeviceFrame type="android">
-<img src="../screenshots/android/Slider.png"/>
+<img src="../assets/images/screenshots/android/Slider.png"/>
 </DeviceFrame>
 
 <<< @/../examples/src/ui/Slider/template.xml#example
