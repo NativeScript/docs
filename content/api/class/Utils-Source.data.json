@@ -1,0 +1,269 @@
+{
+  "title": "Source",
+  "hierarchy": [
+    [
+      {
+        "text": "Source"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2551
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2558,
+        2557,
+        2556
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        2544,
+        2547
+      ]
+    }
+  ],
+  "reflections": {
+    "2544": {
+      "name": "get",
+      "type": "Method",
+      "url": "/api/class/Utils-Source#get",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "get(object: any): <a href=\"/api/class/Utils-Source\">Source</a>",
+          "url": "/api/class/Utils-Source#get-get-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 33,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get the source of an object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "any",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Utils-Source\">Source</a>"
+        }
+      ]
+    },
+    "2547": {
+      "name": "set",
+      "type": "Method",
+      "url": "/api/class/Utils-Source#set",
+      "flags": {
+        "isPublic": true,
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "set(object: any, src: <a href=\"/api/class/Utils-Source\">Source</a>): any",
+          "url": "/api/class/Utils-Source#set-set-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 38,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Set the source of an object."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "object",
+              "type": "any",
+              "flags": {}
+            },
+            {
+              "name": "src",
+              "type": "<a href=\"/api/class/Utils-Source\">Source</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "any"
+        }
+      ]
+    },
+    "2551": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/Utils-Source#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new Source(uri: string, line: number, column: number): <a href=\"/api/class/Utils-Source\">Source</a>",
+          "url": "/api/class/Utils-Source#constructor-new-source",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Creates a new Source instance by given uri, line and column."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "uri",
+              "type": "string",
+              "flags": {}
+            },
+            {
+              "name": "line",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "column",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/Utils-Source\">Source</a>"
+        }
+      ]
+    },
+    "2556": {
+      "name": "uri",
+      "type": "Property",
+      "url": "/api/class/Utils-Source#uri",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the URI of the source document;"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">uri</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 18,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the URI of the source document;"
+              }
+            ]
+          },
+          "url": "/api/class/Utils-Source#uri"
+        }
+      ]
+    },
+    "2557": {
+      "name": "line",
+      "type": "Property",
+      "url": "/api/class/Utils-Source#line",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the line in the source document."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">line</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 23,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the line in the source document."
+              }
+            ]
+          },
+          "url": "/api/class/Utils-Source#line"
+        }
+      ]
+    },
+    "2558": {
+      "name": "column",
+      "type": "Property",
+      "url": "/api/class/Utils-Source#column",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the position in the source document."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">column</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/utils/debug.d.ts",
+              "line": 28,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the position in the source document."
+              }
+            ]
+          },
+          "url": "/api/class/Utils-Source#column"
+        }
+      ]
+    }
+  }
+}

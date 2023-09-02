@@ -1,0 +1,211 @@
+{
+  "title": "FontWeight",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4987,
+        4985,
+        4986,
+        4980,
+        4981,
+        4983,
+        4982,
+        4984,
+        4979
+      ]
+    }
+  ],
+  "reflections": {
+    "4979": {
+      "name": "thin",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#thin",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">thin</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 206,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#thin"
+        }
+      ]
+    },
+    "4980": {
+      "name": "extraLight",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#extralight",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extraLight</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 207,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#extralight"
+        }
+      ]
+    },
+    "4981": {
+      "name": "light",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#light",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">light</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 208,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#light"
+        }
+      ]
+    },
+    "4982": {
+      "name": "normal",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#normal",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">normal</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 209,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#normal"
+        }
+      ]
+    },
+    "4983": {
+      "name": "medium",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#medium",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">medium</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 210,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#medium"
+        }
+      ]
+    },
+    "4984": {
+      "name": "semiBold",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#semibold",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">semiBold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 211,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#semibold"
+        }
+      ]
+    },
+    "4985": {
+      "name": "bold",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#bold",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">bold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 212,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#bold"
+        }
+      ]
+    },
+    "4986": {
+      "name": "extraBold",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#extrabold",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">extraBold</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 213,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#extrabold"
+        }
+      ]
+    },
+    "4987": {
+      "name": "black",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-FontWeight#black",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">black</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 214,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-FontWeight#black"
+        }
+      ]
+    }
+  }
+}

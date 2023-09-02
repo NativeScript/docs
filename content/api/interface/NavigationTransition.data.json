@@ -1,0 +1,171 @@
+{
+  "title": "NavigationTransition",
+  "hierarchy": [
+    [
+      {
+        "text": "NavigationTransition"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        13906,
+        13905,
+        13904,
+        13903
+      ]
+    }
+  ],
+  "reflections": {
+    "13903": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/interface/NavigationTransition#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Can be one of the built-in transitions:\n- curl (same as curlUp) (iOS only)\n- curlUp (iOS only)\n- curlDown (iOS only)\n- explode (Android Lollipop(21) and up only)\n- fade\n- flip (same as flipRight)\n- flipRight\n- flipLeft\n- slide (same as slideLeft)\n- slideLeft\n- slideRight\n- slideTop\n- slideBottom"
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">name</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 362,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Can be one of the built-in transitions:\n- curl (same as curlUp) (iOS only)\n- curlUp (iOS only)\n- curlDown (iOS only)\n- explode (Android Lollipop(21) and up only)\n- fade\n- flip (same as flipRight)\n- flipRight\n- flipLeft\n- slide (same as slideLeft)\n- slideLeft\n- slideRight\n- slideTop\n- slideBottom"
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationTransition#name"
+        }
+      ]
+    },
+    "13904": {
+      "name": "instance",
+      "type": "Property",
+      "url": "/api/interface/NavigationTransition#instance",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An user-defined instance of the \"ui/transition\".Transition class."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "instance?: <a href=\"/api/class/Transition\">Transition</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 367,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An user-defined instance of the \"ui/transition\".Transition class."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationTransition#instance"
+        }
+      ]
+    },
+    "13905": {
+      "name": "duration",
+      "type": "Property",
+      "url": "/api/interface/NavigationTransition#duration",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The length of the transition in milliseconds. If you do not specify this, the default platform transition duration will be used."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">duration</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 372,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The length of the transition in milliseconds. If you do not specify this, the default platform transition duration will be used."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationTransition#duration"
+        }
+      ]
+    },
+    "13906": {
+      "name": "curve",
+      "type": "Property",
+      "url": "/api/interface/NavigationTransition#curve",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "An optional transition animation curve. Possible values are contained in the [AnimationCurve enumeration](https://docs.nativescript.org/api-reference/modules/_ui_enums_.animationcurve.html).\nAlternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">curve</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/frame/index.d.ts",
+              "line": 378,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "An optional transition animation curve. Possible values are contained in the [AnimationCurve enumeration](https://docs.nativescript.org/api-reference/modules/_ui_enums_.animationcurve.html).\nAlternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android."
+              }
+            ]
+          },
+          "url": "/api/interface/NavigationTransition#curve"
+        }
+      ]
+    }
+  }
+}

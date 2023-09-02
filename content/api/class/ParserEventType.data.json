@@ -1,0 +1,230 @@
+{
+  "title": "ParserEventType",
+  "hierarchy": [
+    [
+      {
+        "text": "ParserEventType"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        2858
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        2856,
+        2857,
+        2854,
+        2853,
+        2855
+      ]
+    }
+  ],
+  "reflections": {
+    "2853": {
+      "name": "StartElement",
+      "type": "Property",
+      "url": "/api/class/ParserEventType#startelement",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies the StartElement event type."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StartElement</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 12,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies the StartElement event type."
+              }
+            ]
+          },
+          "url": "/api/class/ParserEventType#startelement"
+        }
+      ]
+    },
+    "2854": {
+      "name": "EndElement",
+      "type": "Property",
+      "url": "/api/class/ParserEventType#endelement",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies the EndElement event type."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">EndElement</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 17,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies the EndElement event type."
+              }
+            ]
+          },
+          "url": "/api/class/ParserEventType#endelement"
+        }
+      ]
+    },
+    "2855": {
+      "name": "Text",
+      "type": "Property",
+      "url": "/api/class/ParserEventType#text",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies the Text event type."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 22,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies the Text event type."
+              }
+            ]
+          },
+          "url": "/api/class/ParserEventType#text"
+        }
+      ]
+    },
+    "2856": {
+      "name": "CDATA",
+      "type": "Property",
+      "url": "/api/class/ParserEventType#cdata",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies the CDATA event type."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">CDATA</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 27,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies the CDATA event type."
+              }
+            ]
+          },
+          "url": "/api/class/ParserEventType#cdata"
+        }
+      ]
+    },
+    "2857": {
+      "name": "Comment",
+      "type": "Property",
+      "url": "/api/class/ParserEventType#comment",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Specifies the Comment event type."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Comment</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/xml/index.d.ts",
+              "line": 32,
+              "character": 8
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Specifies the Comment event type."
+              }
+            ]
+          },
+          "url": "/api/class/ParserEventType#comment"
+        }
+      ]
+    },
+    "2858": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ParserEventType#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ParserEventType(): <a href=\"/api/class/ParserEventType\">ParserEventType</a>",
+          "url": "/api/class/ParserEventType#constructor-new-parsereventtype",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ParserEventType\">ParserEventType</a>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "title": "FileSystemEntity",
+  "hierarchy": [
+    [
+      {
+        "text": "FileSystemEntity"
+      }
+    ],
+    [
+      {
+        "text": "File",
+        "link": "/api/class/File"
+      },
+      {
+        "text": "Folder",
+        "link": "/api/class/Folder"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        1845
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        1847,
+        1848,
+        1850,
+        1849
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        1851,
+        1853,
+        1859,
+        1862
+      ]
+    }
+  ],
+  "reflections": {
+    "1845": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/FileSystemEntity#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new FileSystemEntity(): <a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>",
+          "url": "/api/class/FileSystemEntity#constructor-new-filesystementity",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/FileSystemEntity\">FileSystemEntity</a>"
+        }
+      ]
+    },
+    "1847": {
+      "name": "lastModified",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#lastmodified",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Date object specifying the last time this entity was modified."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">lastModified</span><span style=\"color: #E1E4E8\">: Date</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 31,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Date object specifying the last time this entity was modified."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#lastmodified"
+        }
+      ]
+    },
+    "1848": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#name",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the name of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 36,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the name of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#name"
+        }
+      ]
+    },
+    "1849": {
+      "name": "path",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#path",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">path</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 41,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the fully-qualified path (including the extension for a File) of the entity."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#path"
+        }
+      ]
+    },
+    "1850": {
+      "name": "parent",
+      "type": "Property",
+      "url": "/api/class/FileSystemEntity#parent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "parent: <a href=\"/api/class/Folder\">Folder</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 48,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the Folder object representing the parent of this entity.\nWill be null for a root folder like Documents or Temporary.\nThis property is readonly."
+              }
+            ]
+          },
+          "url": "/api/class/FileSystemEntity#parent"
+        }
+      ]
+    },
+    "1851": {
+      "name": "remove",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#remove",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">remove</span><span style=\"color: #E1E4E8\">(): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/FileSystemEntity#remove-remove-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 53,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1853": {
+      "name": "removeSync",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#removesync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">removeSync</span><span style=\"color: #E1E4E8\">(onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/FileSystemEntity#removesync-removesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 58,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes (deletes) the current Entity from the file system synchronously."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "1859": {
+      "name": "rename",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#rename",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">rename</span><span style=\"color: #E1E4E8\">(newName: string): </span><span style=\"color: #79B8FF\">Promise</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">lt;any</span><span style=\"color: #F97583\">&amp;</span><span style=\"color: #E1E4E8\">gt;</span></span></code>",
+          "url": "/api/class/FileSystemEntity#rename-rename-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 64,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "Promise&lt;any&gt;"
+        }
+      ]
+    },
+    "1862": {
+      "name": "renameSync",
+      "type": "Method",
+      "url": "/api/class/FileSystemEntity#renamesync",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">renameSync</span><span style=\"color: #E1E4E8\">(newName: string, onError</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> (</span><span style=\"color: #FFAB70\">error</span><span style=\"color: #F97583\">:</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #79B8FF\">any</span><span style=\"color: #E1E4E8\">) </span><span style=\"color: #F97583\">=&gt;</span><span style=\"color: #E1E4E8\"> any): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/FileSystemEntity#renamesync-renamesync-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/file-system/index.d.ts",
+              "line": 70,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Renames the current entity synchronously, using the specified name."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "newName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The new name to be applied to the entity."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "onError",
+              "type": "(error: any) => any",
+              "flags": {
+                "isOptional": true
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "NavigationBarVisibility",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4959,
+        4957,
+        4958
+      ]
+    }
+  ],
+  "reflections": {
+    "4957": {
+      "name": "auto",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-NavigationBarVisibility#auto",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">auto</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 178,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-NavigationBarVisibility#auto"
+        }
+      ]
+    },
+    "4958": {
+      "name": "never",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-NavigationBarVisibility#never",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">never</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 179,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-NavigationBarVisibility#never"
+        }
+      ]
+    },
+    "4959": {
+      "name": "always",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-NavigationBarVisibility#always",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">always</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 180,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-NavigationBarVisibility#always"
+        }
+      ]
+    }
+  }
+}

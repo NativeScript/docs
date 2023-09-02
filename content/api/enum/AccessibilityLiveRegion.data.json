@@ -1,0 +1,73 @@
+{
+  "title": "AccessibilityLiveRegion",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        939,
+        937,
+        938
+      ]
+    }
+  ],
+  "reflections": {
+    "937": {
+      "name": "None",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityLiveRegion#none",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">None</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 106,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityLiveRegion#none"
+        }
+      ]
+    },
+    "938": {
+      "name": "Polite",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityLiveRegion#polite",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Polite</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;polite&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 107,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityLiveRegion#polite"
+        }
+      ]
+    },
+    "939": {
+      "name": "Assertive",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityLiveRegion#assertive",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Assertive</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;assertive&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 108,
+              "character": 4
+            }
+          ],
+          "url": "/api/enum/AccessibilityLiveRegion#assertive"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "title": "inputType",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        12971,
+        12969,
+        12970,
+        12968,
+        12972,
+        12967
+      ]
+    }
+  ],
+  "reflections": {
+    "12967": {
+      "name": "text",
+      "type": "Variable",
+      "url": "/api/namespace/inputType#text",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Plain text input type."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">text</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 9,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Plain text input type."
+              }
+            ]
+          },
+          "url": "/api/namespace/inputType#text"
+        }
+      ]
+    },
+    "12968": {
+      "name": "password",
+      "type": "Variable",
+      "url": "/api/namespace/inputType#password",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Password input type."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">password</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 14,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Password input type."
+              }
+            ]
+          },
+          "url": "/api/namespace/inputType#password"
+        }
+      ]
+    },
+    "12969": {
+      "name": "email",
+      "type": "Variable",
+      "url": "/api/namespace/inputType#email",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Email input type."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">email</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 19,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Email input type."
+              }
+            ]
+          },
+          "url": "/api/namespace/inputType#email"
+        }
+      ]
+    },
+    "12970": {
+      "name": "number",
+      "type": "Variable",
+      "url": "/api/namespace/inputType#number",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Number input type."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">number</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 24,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Number input type."
+              }
+            ]
+          },
+          "url": "/api/namespace/inputType#number"
+        }
+      ]
+    },
+    "12971": {
+      "name": "decimal",
+      "type": "Variable",
+      "url": "/api/namespace/inputType#decimal",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Decimal input type."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">decimal</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 29,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Decimal input type."
+              }
+            ]
+          },
+          "url": "/api/namespace/inputType#decimal"
+        }
+      ]
+    },
+    "12972": {
+      "name": "phone",
+      "type": "Variable",
+      "url": "/api/namespace/inputType#phone",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Phone input type."
+          }
+        ]
+      },
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">phone</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/dialogs/index.d.ts",
+              "line": 34,
+              "character": 14
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Phone input type."
+              }
+            ]
+          },
+          "url": "/api/namespace/inputType#phone"
+        }
+      ]
+    }
+  }
+}

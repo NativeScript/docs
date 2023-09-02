@@ -1,0 +1,99 @@
+{
+  "title": "PlatformContext",
+  "hierarchy": [
+    [
+      {
+        "text": "PlatformContext"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2319,
+        2317,
+        2318,
+        2316
+      ]
+    }
+  ],
+  "reflections": {
+    "2316": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#width",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">width</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 9,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#width"
+        }
+      ]
+    },
+    "2317": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#height",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">height</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#height"
+        }
+      ]
+    },
+    "2318": {
+      "name": "os",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#os",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">os</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#os"
+        }
+      ]
+    },
+    "2319": {
+      "name": "deviceType",
+      "type": "Property",
+      "url": "/api/interface/PlatformContext#devicetype",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deviceType</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/module-name-resolver/qualifier-matcher/index.d.ts",
+              "line": 12,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/PlatformContext#devicetype"
+        }
+      ]
+    }
+  }
+}

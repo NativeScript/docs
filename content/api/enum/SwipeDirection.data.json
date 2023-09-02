@@ -1,0 +1,157 @@
+{
+  "title": "SwipeDirection",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        14025,
+        14023,
+        14022,
+        14024
+      ]
+    }
+  ],
+  "reflections": {
+    "14022": {
+      "name": "right",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#right",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes right direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">right</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 92,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes right direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#right"
+        }
+      ]
+    },
+    "14023": {
+      "name": "left",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#left",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes left direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">left</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 96,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes left direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#left"
+        }
+      ]
+    },
+    "14024": {
+      "name": "up",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#up",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes up direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">up</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 100,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes up direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#up"
+        }
+      ]
+    },
+    "14025": {
+      "name": "down",
+      "type": "EnumMember",
+      "url": "/api/enum/SwipeDirection#down",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Denotes down direction for swipe gesture."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">down</span><span style=\"color: #E1E4E8\">: number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/gestures/index.d.ts",
+              "line": 104,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Denotes down direction for swipe gesture."
+              }
+            ]
+          },
+          "url": "/api/enum/SwipeDirection#down"
+        }
+      ]
+    }
+  }
+}

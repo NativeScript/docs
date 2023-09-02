@@ -1,0 +1,57 @@
+{
+  "title": "UpdateTextTrigger",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        4939,
+        4940
+      ]
+    }
+  ],
+  "reflections": {
+    "4939": {
+      "name": "focusLost",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-UpdateTextTrigger#focuslost",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "focusLost: <a href=\"/api/namespace/CoreTypes#updatetexttriggertype\">UpdateTextTriggerType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 156,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-UpdateTextTrigger#focuslost"
+        }
+      ]
+    },
+    "4940": {
+      "name": "textChanged",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-UpdateTextTrigger#textchanged",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "textChanged: <a href=\"/api/namespace/CoreTypes#updatetexttriggertype\">UpdateTextTriggerType</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 157,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-UpdateTextTrigger#textchanged"
+        }
+      ]
+    }
+  }
+}

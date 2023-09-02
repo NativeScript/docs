@@ -1,0 +1,137 @@
+<Page navigatingTo="navigatingTo">
+  <GridLayout rows="auto, *">
+    <GridLayout padding="4" id="originSelector" rows="auto, auto, auto, auto, auto"
+      columns="*, *, *">
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_0_0" margin="4"
+        borderRadius="8" androidElevation="0" text="0 / 0" row="0" col="0" />
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_0.5_0" margin="4"
+        borderRadius="8" androidElevation="0" text="0.5 / 0" row="0" col="1" />
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_1_0" margin="4"
+        borderRadius="8" androidElevation="0" text="1 / 0" row="0" col="2" />
+
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_0_0.5" margin="4"
+        borderRadius="8" androidElevation="0" text="0 / 0.5" row="1" col="0" />
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_0.5_0.5" margin="4"
+        borderRadius="8" androidElevation="0" text="0.5 / 0.5" row="1" col="1" />
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_1_0.5" margin="4"
+        borderRadius="8" androidElevation="0" text="1 / 0.5" row="1" col="2" />
+
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_0_1" margin="4"
+        borderRadius="8" androidElevation="0" text="0 / 1" row="2" col="0" />
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_0.5_1" margin="4"
+        borderRadius="8" androidElevation="0" text="0.5 / 1" row="2" col="1" />
+      <Label textAlignment="center" padding="8" backgroundColor="#f1f5f9" color="#334155"
+        targetOrigin="origin_1_1" margin="4"
+        borderRadius="8" androidElevation="0" text="1 / 1" row="2" col="2" />
+
+      <StackLayout row="3" colSpan="3" padding="8" backgroundColor="#f1f5f9" margin="4"
+        borderRadius="8">
+        <Label text="{{ 'originX: ' + (customX / 100).toFixed(2) }}" color="#334155" fontSize="12"
+          textAlignment="left" />
+        <Slider id="customX" value="{{ customX }}" minValue="-25" maxValue="125" marginTop="4" />
+
+        <Label text="{{ 'originY: ' + (customY / 100).toFixed(2) }}" color="#334155" fontSize="12"
+          textAlignment="left" marginTop="12" />
+        <Slider id="customY" value="{{ customY }}" minValue="-25" maxValue="125" marginTop="4" />
+      </StackLayout>
+
+      <Label textAlignment="center" padding="8" id="play" backgroundColor="#f1f5f9" color="#334155"
+        margin="4"
+        borderRadius="8"
+        fontWeight="bold"
+        androidElevation="0"
+        text="Play" row="4" colSpan="3" />
+    </GridLayout>
+
+    <ContentView
+      row="1"
+      id="container"
+    >
+      <GridLayout
+        id="box"
+        width="200"
+        height="200"
+        verticalAlignment="bottom"
+        marginBottom="100"
+      >
+
+        <ContentView
+          borderWidth="2"
+          borderColor="#65adf1"
+          margin="3"
+        />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_0_0"
+          verticalAlignment="top"
+          horizontalAlignment="left" />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_0.5_0"
+          verticalAlignment="top"
+          horizontalAlignment="center" />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_1_0"
+          verticalAlignment="top"
+          horizontalAlignment="right" />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_0_0.5"
+          verticalAlignment="center"
+          horizontalAlignment="left" />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_0.5_0.5"
+          verticalAlignment="center"
+          horizontalAlignment="center" />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_1_0.5"
+          verticalAlignment="center"
+          horizontalAlignment="right" />
+
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_0_1"
+          verticalAlignment="bottom"
+          horizontalAlignment="left" />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_0.5_1"
+          verticalAlignment="bottom"
+          horizontalAlignment="center" />
+
+        <ContentView width="8" height="8" borderRadius="8"
+          backgroundColor="#94a3b8"
+          id="origin_1_1"
+          verticalAlignment="bottom"
+          horizontalAlignment="right" />
+
+        <ContentView visibility="collapse"
+          width="8" height="8" borderRadius="8"
+          backgroundColor="#fb7185"
+          id="customOrigin"
+          verticalAlignment="top"
+          horizontalAlignment="left" />
+      </GridLayout>
+    </ContentView>
+
+  </GridLayout>
+</Page>

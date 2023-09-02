@@ -1,0 +1,165 @@
+{
+  "title": "Length",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Functions",
+      "items": [
+        40934,
+        40926,
+        40923,
+        40930
+      ]
+    }
+  ],
+  "reflections": {
+    "40923": {
+      "name": "parse",
+      "type": "Function",
+      "url": "/api/namespace/Length#parse",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "parse(text: string): <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+          "url": "/api/namespace/Length#parse-parse-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 10,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "text",
+              "type": "string",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>"
+        }
+      ]
+    },
+    "40926": {
+      "name": "equals",
+      "type": "Function",
+      "url": "/api/namespace/Length#equals",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "equals(a: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>, b: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>): boolean",
+          "url": "/api/namespace/Length#equals-equals-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 11,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "a",
+              "type": "<a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+              "flags": {}
+            },
+            {
+              "name": "b",
+              "type": "<a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "boolean"
+        }
+      ]
+    },
+    "40930": {
+      "name": "toDevicePixels",
+      "type": "Function",
+      "url": "/api/namespace/Length#todevicepixels",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "toDevicePixels(length: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>, auto?: number): number",
+          "url": "/api/namespace/Length#todevicepixels-todevicepixels-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 17,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Converts Length unit to device pixels."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "length",
+              "type": "<a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The Length to convert."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "auto",
+              "type": "number",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Value to use for conversion of \"auto\". By default is Math.NaN."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "number"
+        }
+      ]
+    },
+    "40934": {
+      "name": "convertToString",
+      "type": "Function",
+      "url": "/api/namespace/Length#converttostring",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "convertToString(length: <a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>): string",
+          "url": "/api/namespace/Length#converttostring-converttostring-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/styling/style-properties.d.ts",
+              "line": 18,
+              "character": 1
+            }
+          ],
+          "parameters": [
+            {
+              "name": "length",
+              "type": "<a href=\"/api/namespace/CoreTypes#lengthtype\">LengthType</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    }
+  }
+}
