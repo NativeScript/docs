@@ -59,6 +59,8 @@
         id="box"
         width="200"
         height="200"
+        verticalAlignment="bottom"
+        marginBottom="100"
       >
 
         <ContentView
