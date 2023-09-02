@@ -8,7 +8,7 @@ title: iOS Subclassing and conforming to protocols
 The following example shows how to extend the `UIViewController`:
 
 ```js
-var MyViewController = UIViewController.extend({
+const MyViewController = UIViewController.extend({
     // Override an existing method from the base class.
     // We will obtain the method signature from the protocol.
     viewDidLoad: function () {
@@ -33,11 +33,15 @@ var MyViewController = UIViewController.extend({
 }, {
     name: "MyViewController"
 });
-
 ```
 
+The NativeScript runtime adds the `.extend` API, as an option, which is available on any platform native class which takes an object containing platform implementations (`classMembers`) for that class and an optional second argument object defining a `nativeSignature` explained below.
+
+You can also use the `@NativeClass()` decorator with standard class `extends` which may feel a bit more natural. 
+
+When creating custom platform native classes which extend others, always make sure their name is unique to avoid class name collisions with others on the system.
+
 ```ts
-// A native class with the name "JSObject" will be registered, so it should be unique
 @NativeClass()
 class JSObject extends NSObject implements NSCoding {
     public encodeWithCoder(aCoder) { /* ... */ }
@@ -65,7 +69,7 @@ There should be no TypeScript constructor, because it will not be executed. Inst
 
 As shown above, extending native classes in NativeScript take the following form:
 
-`var <DerivedClass> = <BaseClass>.extend(classMembers, nativeSignature);`
+`const <DerivedClass> = <BaseClass>.extend(classMembers, nativeSignature);`
 
 The `classMembers` object can contain three types of methods:
 
@@ -97,17 +101,17 @@ The type object in general is one of the `runtime types`:
 The following example is how you can expose a pure JavaScript method to Objective-C APIs:
 
 ```js
-var MyViewController = UIViewController.extend({
+const MyViewController = UIViewController.extend({
     viewDidLoad: function () {
         // ...
-        var aboutButton = UIButton.buttonWithType(UIButtonType.UIButtonTypeRoundedRect);
+        const aboutButton = UIButton.buttonWithType(UIButtonType.UIButtonTypeRoundedRect);
         // Pass this target and the aboutTap selector for touch up callback.
         aboutButton.addTargetActionForControlEvents(this, "aboutTap", UIControlEvents.UIControlEventTouchUpInside);
         // ...
     },
     // The aboutTap is a JavaScript method that will be accessible from Objective-C.
     aboutTap: function(sender) {
-        var alertWindow = new UIAlertView();
+        const alertWindow = new UIAlertView();
         alertWindow.title = "About";
         alertWindow.addButtonWithTitle("OK");
         alertWindow.show();
@@ -122,12 +126,13 @@ var MyViewController = UIViewController.extend({
 ```
 
 ### Overriding Initializers
+
 Initializers should always return a reference to the object itself, and if it cannot be initialized, it should return `null`. This is why we need to check if `self` exists before trying to use it.
 
 ```js
-var MyObject = NSObject.extend({
+const MyObject = NSObject.extend({
     init: function() {
-        var self = this.super.init();
+        const self = this.super.init();
         if (self) {
             // The base class initialized successfully
             console.log("Initialized");
@@ -143,7 +148,7 @@ var MyObject = NSObject.extend({
 The following example conforms to the `UIApplicationDelegate` protocol:
 
 ```js
-var MyAppDelegate = UIResponder.extend({
+const MyAppDelegate = UIResponder.extend({
     // Implement a method from UIApplicationDelegate.
     // We will obtain the method signature from the protocol.
     applicationDidFinishLaunchingWithOptions: function (application, launchOptions) {
@@ -173,9 +178,10 @@ interface G8TesseractDelegate extends NSObjectProtocol {
 Implementing the delegate:
 
 ```ts
+// native delegates often always extend NSObject
+// when in doubt, extend NSObject
 @NativeClass()
-class G8TesseractDelegateImpl
-    extends NSObject // native delegates mostly always extend NSObject
+class G8TesseractDelegateImpl extends NSObject 
     implements G8TesseractDelegate {
 
     static ObjCProtocols = [G8TesseractDelegate] // define our native protocols
@@ -204,15 +210,15 @@ class G8TesseractDelegateImpl
 Using the class conforming to the `G8TesseractDelegate`:
 
 ```ts
+let delegate: G8TesseractDelegateImpl;
+
 function image2text(image: UIImage): string {
-    let delegate: G8TesseractDelegateImpl = G8TesseractDelegateImpl.new()
     let tess: G8Tesseract = G8Tesseract.new()
-    tess.delegate = delegate
-    /*=============================
-    =            NOTES            =
-    =============================*/
+
     // The `tess.delegate` property is weak and won't be retained by the Objective-C runtime so you should manually keep the delegate JS object alive as long the tessaract instance is alive
-    /*=====  End of NOTES  ======*/
+    delegate = G8TesseractDelegateImpl.new()
+    tess.delegate = delegate
+
     tess.image = image
     let results: boolean = tess.recognize()
     if (results == true) {
@@ -223,7 +229,9 @@ function image2text(image: UIImage): string {
 }
 
 ```
+
 ## Limitations
+
 - You should not extend an already extended class
 - You can't override static methods or properties
 - You can't expose static methods or properties
