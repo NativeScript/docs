@@ -1,173 +1,123 @@
 ---
 title: Dialogs
+description: UI for grabbing the users attention, prompting for confirmation, choice, input, or credentials.
+contributors:
+  - Ombuweb
+  - rigor789
 ---
 
-<!-- TODO: Add SB+Preview -->
+NativeScript offers various dialogs, available via the `Dialogs` import from `@nativescript/core`, or globally.
 
-NativeScript lets you create dialogs in a similar manner to the web browser. Available dialogs are: `action`,`alert`, `confirm`, `prompt`, `login`.
+```ts
+import { Dialogs } from '@nativescript/core'
 
-All the dialogs take a `DialogOption` object with the properties:
+Dialogs.alert(options)
+Dialogs.action(options)
+Dialogs.confirm(options)
+Dialogs.prompt(options)
+Dialogs.login(options)
+
+// is the same as:
+alert(options)
+action(options)
+confirm(options)
+prompt(options)
+login(options)
+```
+
+All dialogs take a `DialogOptions` object with the properties:
 
 - `title`: Sets the dialog title.
 - `message` : Sets the dialog message.
-- `cancelable`(`android only`): Sets if the dialog can be canceled by taping outside of the dialog.
-- `theme`(`android only`): Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style
+- `cancelable` (**Android only**): Sets if the dialog can be canceled by taping outside of the dialog.
+- `theme` (**Android only**): Sets the theme of the Dialog. Usable themes can be found in [R.style](https://developer.android.com/reference/android/R.style)
 
-## Creating an alert dialog
+See [DialogOptions](/api/interface/DialogOptions), [R.style](https://developer.android.com/reference/android/R.style).
 
-| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/AlertDialog.png" alt="Android AlertDialog Example" height="300"/> | <img alt="iOS AlertDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/AlertDialog.png" height="300" /> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+## Avialable Dialogs
 
-To create an alert, use the `Dialogs.alert()` method:
+### Alert {#alert}
 
-`Dialogs.alert` has additonal `okButtonText` property.
+<DeviceFrame type="ios">
+<img src="../assets/images/screenshots/ios/Dialogs-Alert.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="../assets/images/screenshots/android/Dialogs-Alert.png"/>
+</DeviceFrame>
 
-At minimum, you should pass it a message:
+<<< @/../examples/src/ui/Dialogs/template.ts#example-alert
 
-```ts
-Dialogs.alert('Some messge').then(() => {
-  console.log('User notified!')
-})
-```
+A dialog for alerting the user.
 
-Add a title, custom OK text and more as follows:
+See [alert()](/api/#alert).
 
-```ts
-const alertOptions: AlertOptions = {
-        title: "Race selection",
-        message: "Race chosen: Unicorn",
-        okButtonText: "OK",
-        cancelable: false
+### Action {#action}
 
-    Dialogs.alert(alertOptions).then(() => {
-        console.log("User notified!");
-    });
-```
+<DeviceFrame type="ios">
+<img src="../assets/images/screenshots/ios/Dialogs-Action.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="../assets/images/screenshots/android/Dialogs-Action.png"/>
+</DeviceFrame>
 
-:::
+<<< @/../examples/src/ui/Dialogs/template.ts#example-action
 
-## Creating an action dialog
+A dialog for prompting the user to choose.
 
-| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ActionDialog.png" alt="Android ActionDialog Example" height="200" width="300"/> | <img alt="iOS ActionDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ActionDialog.png" height="00" width="300"/> |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+**Note**: `destructiveActionsIndexes` allows setting some actions as destructive - shown in red. **iOS only.**
 
-To let the user choose an input from a list, use `Dialogs.action()`:
-For the `action` dialog, there are 3 more properties available:
+See [action()](/api/#action).
 
-- `cancelButtonText`: Sets custom text for the cancel button.
-- `actions`: Sets the list of available inputs.
-- `destructiveActionsIndexes` (`iOS only`): Sets an array of the indexes of destructive actions.
+### Confirm {#confirm}
 
-```ts
-onst actionOptions = {
-    title: "Race selection",
-    message: "Choose your race",
-    cancelButtonText: "Cancel",
-    actions: ["Human", "Elf", "Dwarf", "Orc", "Unicorn"],
-    cancelable: true
-};
+<DeviceFrame type="ios">
+<img src="../assets/images/screenshots/ios/Dialogs-Confirm.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="../assets/images/screenshots/android/Dialogs-Confirm.png"/>
+</DeviceFrame>
 
-Dialogs.action(actionOptions).then((result) => {
-    console.log(result);
-});
-```
+<<< @/../examples/src/ui/Dialogs/template.ts#example-confirm
 
-## Creating a confirm dialog
+A dialog for prompting the user to confirm.
 
-| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/ConfirmDialog.png" alt="Android ConfirmDialog Example" height="300" width="400"/> | <img alt="iOS ConfirmDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/ConfirmDialog.png" height="300" width="400"/> |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+See [confirm()](/api/#confirm).
 
-For a user's action that requires confirmation, use the `Dialogs.confirm`:
+### Prompt {#prompt}
 
-Additional properties for the parameter object are:
+<DeviceFrame type="ios">
+<img src="../assets/images/screenshots/ios/Dialogs-Prompt.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="../assets/images/screenshots/android/Dialogs-Prompt.png"/>
+</DeviceFrame>
 
-- `cancelButtonText`
-- `okButtonText`
-- `neutralButtonText`
+<<< @/../examples/src/ui/Dialogs/template.ts#example-prompt
 
-```ts
-const confirmOptions = {
-  title: 'Race selection',
-  message: 'Are you sure you want to be a Unicorn?',
-  okButtonText: 'Yes',
-  cancelButtonText: 'No',
-  neutralButtonText: 'Cancel',
-}
-Dialogs.confirm(confirmOptions).then((result) => {
-  console.log(result)
-})
-```
-
-## Creating a prompt dialog
-
-| <img class="w-full sm:w-1/2"  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/PromptDialog.png" alt="Android PromptDialog Example" height="300" width="400"/> | <img class="w-full sm:w-1/2"  alt="iOS PromptDialog Example" src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/PromptDialog.png" height="300" width="400"/> |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-To request for a user's input, use `Dialogs.prompt`:
-
-Other properties available for the `Dialogs.prompt`:
+A dialog for prompting the user for input.
 
 - `defaultText`: Sets the default text to display in the input box.
-- `inputType`
-  - Sets the prompt input type (`text`, `password`, or `email`).
-  - Available options: `email`, `decimal`, `phone`, `number`, `text`, `password`, or `email`
-- `capitalizationType`
-  - Sets the prompt capitalization type.
-  - Avalable options: `none`, `allCharacters`, `sentences`, or `words`.
+- `inputType`: Sets the prompt input type: `email`, `decimal`, `phone`, `number`, `text`, `password`, or `email`
+- `capitalizationType`: Sets the prompt capitalization type. Avalable options: `none`, `allCharacters`, `sentences`, or `words`.
 
-```ts
-import { Dialogs, CoreTypes, inputType } from '@nativescript/core'
+See [prompt()](/api/#prompt), [CoreTypes.AutocapitalizationType](/api/namespace/CoreTypes-AutocapitalizationType)
 
-export function showPromptDialog() {
-  const promptOptions = {
-    title: 'Hey There',
-    defaultText: ' Enter your mood ',
-    message: "How you doin'",
-    okButtonText: 'OK',
-    cancelButtonText: 'Cancel',
-    neutralButtonText: 'Neutral',
-    cancelable: true,
-    inputType: inputType.text,
-    capitalizationType: Enums.AutocapitalizationType.sentences,
-  }
+### Login {#login}
 
-  Dialogs.prompt(promptOptions).then((result) => {
-    console.log('Hello, ' + result.text)
-  })
-}
-```
+<DeviceFrame type="ios">
+<img src="../assets/images/screenshots/ios/Dialogs-Login.png"/>
+</DeviceFrame>
+<DeviceFrame type="android">
+<img src="../assets/images/screenshots/android/Dialogs-Login.png"/>
+</DeviceFrame>
 
-## Creating a login dialog
+<<< @/../examples/src/ui/Dialogs/template.ts#example-login
 
-| <img src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/android23/LoginDialog.png" class="w-full sm:w-1/2" alt="Android LoginDialog Example" height="300" width="400"/> | <img alt="iOS LoginDialog Example" class="w-full sm:w-1/2"  src="https://raw.githubusercontent.com/nativescript-vue/nativescript-vue-ui-tests/master/screenshots/ios-simulator103iPhone6/LoginDialog.png" height="300" width="400"/> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+A dialog for prompting the user for credentials.
 
-To have an isolated login form, use `Dialogs.login`:
-
-:::details Additional Resources
-
-## API References
-
-| Name                                                                                      | Type        |
-| ----------------------------------------------------------------------------------------- | ----------- |
-| [@nativescript/core/dialogs](https://docs.nativescript.org/api-reference/modules#dialogs) | `Module`    |
-| [action](https://docs.nativescript.org/api-reference/interfaces/alertoptions)             | `function`  |
-| [ActionOptions](https://docs.nativescript.org/api-reference/interfaces/actionoptions)     | `interface` |
-| [alert](https://docs.nativescript.org/api-reference/modules#dialogs)                      | `function`  |
-| [AlertOptions](https://docs.nativescript.org/api-reference/interfaces/alertoptions)       | `interface` |
-| [confirm](https://docs.nativescript.org/api-reference/modules#dialogs)                    | `function`  |
-| [ConfirmOptions](https://docs.nativescript.org/api-reference/interfaces/confirmoptions)   | `interface` |
-| [login](https://docs.nativescript.org/api-reference/modules#dialogs)                      | `function`  |
-| [LoginOptions](https://docs.nativescript.org/api-reference/interfaces/loginoptions)       | `interface` |
-| [LoginResults](https://docs.nativescript.org/api-reference/interfaces/loginresult)        | `interface` |
-| [prompt](https://docs.nativescript.org/api-reference/modules#dialogs)                     | `function`  |
-| [PromptOptions](https://docs.nativescript.org/api-reference/interfaces/promptoptions)     | `interface` |
-| [PromptResults](https://docs.nativescript.org/api-reference/interfaces/promptresult)      | `interface` |
+See [login()](/api/#login).
 
 ## Native Component
 
-| Android                                                                                                    | iOS                                                                                    |
-| :--------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
-| [android.app.AlertDialog.Builder](https://developer.android.com/reference/android/app/AlertDialog.Builder) | [UIAlertController](https://developer.apple.com/documentation/uikit/uialertcontroller) |
-
-:::
+- Android: [android.app.AlertDialog.Builder](https://developer.android.com/reference/android/app/AlertDialog.Builder)
+- iOS: [UIAlertController](https://developer.apple.com/documentation/uikit/uialertcontroller)
