@@ -230,7 +230,7 @@ export default [
       },
       {
         text: 'Extending Native Classes',
-        link: '/guide/subclassing'
+        link: '/guide/subclassing',
       },
       {
         text: 'Multithreading',
@@ -274,14 +274,13 @@ export default [
         text: 'Shared Element Transitions',
         link: '/guide/shared-element-transitions',
       },
-    ],
-  },
-  {
-    text: 'UI',
-    items: [
       {
         text: 'Animations',
-        link: '/ui/animations',
+        link: '/guide/animations',
+      },
+      {
+        text: 'Gestures',
+        link: '/guide/gestures',
       },
     ],
   },
