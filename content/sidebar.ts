@@ -28,7 +28,7 @@ export default [
       },
       {
         text: 'Styling',
-        link: '/guide/ui/styling',
+        link: '/guide/styling',
       },
       {
         text: 'Choosing an editor',
