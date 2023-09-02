@@ -2,10 +2,24 @@
 title: Android Subclassing and Implementing interfaces
 ---
 
-## Extending Java/Kotlin classes
+## Extending Kotlin/Java classes
 
-The following examples demonstrate how to subclass Java/Kotlin classes in NativeScript:
+The following examples demonstrate how to subclass Kotlin/Java classes in NativeScript:
 
+- Kotlin:
+  
+```kotlin
+class MyButton(context: Context) : android.widget.Button(context) {
+    override fun setEnabled(enabled: Boolean) {
+        super.setEnabled(enabled)
+    }
+}
+
+val btn = MyButton(context)
+```
+
+- Java:
+  
 ```java
 public class MyButton extends android.widget.Button {
     public MyButton(Context context) {
@@ -20,18 +34,12 @@ public class MyButton extends android.widget.Button {
 
 MyButton btn = new MyButton(context);
 ```
-```kotlin
-class MyButton(context: Context) : android.widget.Button(context) {
-    override fun setEnabled(enabled: Boolean) {
-        super.setEnabled(enabled)
-    }
-}
 
-val btn = MyButton(context)
-```
+- NativeScript using JavaScript:
+  
 ```js
 let constructorCalled = false;
-let MyButton = android.widget.Button.extend({
+const MyButton = android.widget.Button.extend({
     // constructor
     init: function() {
         constructorCalled = true;
@@ -42,15 +50,18 @@ let MyButton = android.widget.Button.extend({
     }
 });
 
-let btn = new MyButton(context);
+const btn = new MyButton(context);
 ```
+
+- NativeScript using TypeScript:
+
 ```ts
+let constructorCalled = false;
 class MyButton extends android.widget.Button {
-    static constructorCalled: boolean = false;
-    // constructor
+
     constructor() {
         super();
-        MyButton.constructorCalled = true;
+        constructorCalled = true;
 
         // necessary when extending TypeScript constructors
         return global.__native(this);
@@ -61,16 +72,18 @@ class MyButton extends android.widget.Button {
     }
 }
 
-let btn = new MyButton(context);
+const btn = new MyButton(context);
 ```
 :::tip Note
- In the above setEnabled function the this keyword points to the JavaScript object that proxies the extended native instance. The this.super property provides access to the base class method implementation.
+In the above example, the `setEnabled` function's use of `this` keyword points to the JavaScript object that proxies the extended native instance. The `this.super` usage provides access to the base class method implementation.
 :::
 
 Creating an anonymous Java class which extends from the base Java `java.lang.Object` class:
 
+- NativeScript using JavaScript:
+  
 ```js
-let MyClass = java.lang.Object({
+const MyClass = java.lang.Object({
     // constructor
     init: function() {
     },
@@ -80,12 +93,14 @@ let MyClass = java.lang.Object({
     }
 });
 
-let myClassInstance = new MyClass();
+const myClassInstance = new MyClass();
 ```
 
+- NativeScript using TypeScript:
+  
 ```ts
 class MyClass extends java.lang.Object {
-    // constructor
+    
     constructor() {
         super();
         // necessary when extending TypeScript constructors
@@ -97,12 +112,13 @@ class MyClass extends java.lang.Object {
     }
 }
 
-let myClassInstance: any | java.lang.Object = new MyClass();
+const myClassInstance = new MyClass();
 ```
+
 To create a named Java class which extends from the `java.lang.Object` class:
 
 ```js
-let MyClass = java.lang.Object("my.application.name.MyClass", {
+const MyClass = java.lang.Object("my.application.name.MyClass", {
     // constructor
     init: function() {
     },
@@ -112,9 +128,12 @@ let MyClass = java.lang.Object("my.application.name.MyClass", {
     }
 });
 
-let myClassInstance = new MyClass();
-let myClassInstance2 = new my.application.name.MyClass();
+const myClassInstance = new MyClass();
+const myClassInstance2 = new my.application.name.MyClass();
 ```
+
+- NativeScript using TypeScript:
+
 ```ts
 class MyClass extends java.lang.Object {
     // constructor
@@ -129,27 +148,34 @@ class MyClass extends java.lang.Object {
     }
 }
 
-let myClassInstance: any | java.lang.Object = new MyClass();
-let myClassInstance2: any | java.lang.Object = new my.application.name.MyClass(); // may produce a TypeScript compilation error, because the namespace will not be recognized, it's safe to ignore
-let myClassInstance3: any = new (<any>my).application.name.MyClass(); // TypeScript compiler-safe
+const myClassInstance = new MyClass();
+
+// Note: A TypeScript compilation error will result because the namespace will not be recognized. It's safe to ignore with // @ts-ignore
+const myClassInstance2 = new my.application.name.MyClass();
+
+// or you can use as any
+const myClassInstance3: any = new (my as any).application.name.MyClass();
+
+// or you can generate types to use with 'ns typings android'
 ```
 
 :::tip 
 One important thing to note when dealing with extending classes and implementing interfaces in NativeScript is that, unlike in Java - where you can extend an Abstract class with a new java.arbitrary.abstract.Class() { }, in NativeScript the class needs to be extended as per the previous examples - using the extend function on the java.arbitrary.abstract.Class, or using the extends class syntax in TypeScript.
 :::
 
-### Custom Android Application and Activty
+### Custom Android Application and Activity
 
 NativeScript provides a way to create custom `android.app.Application` and [android.app.Activity](#extending-android-activity) implementations.
 
 #### Extending the Android Application
 
 1. Create a new TypeScript file in the root of your project folder - name it `application.android.ts` or `application.android.js` if you are using plain JS.
-   ::: tip Note
-   Note the \*.android suffix - we want this file packaged for Android only.
-   :::
+   
+::: tip Note
+Note the `*.android` suffix - we want this file packaged for Android only.
+:::
 
-2. Copy the following code for TypeScript file:
+1. Copy the following code for TypeScript file:
 
 ```ts
 // the `JavaProxy` decorator specifies the package and the name for the native *.JAVA file generated.
@@ -195,7 +221,7 @@ android.app.Application.extend('org.myApp.Application', {
 })
 ```
 
-3. Modify the application entry within the AndroidManifest.xml file found in the `<application-name>/App_Resources/Android/` folder:
+1. Modify the application entry within the `AndroidManifest.xml` in the `App_Resources/Android/` folder:
 
 ```xml
 <application
@@ -207,7 +233,7 @@ android.app.Application.extend('org.myApp.Application', {
 ```
 
 ::: tip Note
-This modification is required by the native platform; it tells Android that your custom Application class will be used as the main entry point of the application.
+This modification is required by the native platform. It tells Android that your custom Application class will be used as the main entry point of the application.
 :::
 
 4. In order to build the app, the extended Android application should be added to the webpack.config.js file.
@@ -237,22 +263,22 @@ The source code of `application.android.ts` is bundled separately as `applicatio
 The `bundle.js` and `vendor.js` files are not loaded early enough in the application launch. That's why the logic in `application.android.ts` is needed to be bundled separately in order to be loaded as early as needed in the application lifecycle.
 
 ::: warning Note
-This approach will not work if application.android.ts requires external modules.
+This approach will not work if `application.android.ts` requires external modules.
 :::
 
 <!-- TODO: add Preview -->
 
 #### Extending Android Activity
 
-NativeScript Core ships with a default `androidx.appcompat.app.AppCompatActivity` implementation, that bootstraps the NativeScript application, without forcing users to declare their custom Activity in every project. In some cases you may need to implement a custom Android Activity. In this section we'll look at how to do that!
+@nativescript/core ships with a default `androidx.appcompat.app.AppCompatActivity` implementation, that bootstraps the NativeScript application, without forcing users to declare their custom Activity in every project. In some cases you may need to implement a custom Android Activity. In this section we'll look at how to do that!
 
 Create a new `activity.android.ts` or `activity.android.js` when using plain JS.
 
 ::: tip Note
-Note the `.android.(js|ts)` suffix - we only want this file on Android.
+Note the `.android` suffix - we only want this file on Android.
 :::
 
-A basic Activity looks as follows:
+A basic Activity can be implemented as follows in TypeScript:
 
 ```ts
 import {
@@ -339,6 +365,8 @@ class Activity extends androidx.appcompat.app.AppCompatActivity {
 }
 ```
 
+A basic Activity can be implemented as follows in JavaScript:
+
 ```js
 import { Frame, Application, setActivityCallbacks } from '@nativescript/core'
 
@@ -413,7 +441,7 @@ androidx.appcompat.app.AppCompatActivity.extend('org.myApp.MainActivity', {
 ```
 
 :::warning Note
-The `this._callbacks` property is automatically assigned to your extended class by the `frame.setActivityCallbacks` method. It implements the [AndroidActivityCallbacks interface](https://docs.nativescript.org/core-concepts/application-lifecycle#android-activity-events) and allows the core modules to get notified for important Activity events. It is **important** to use these callbacks, as many parts of NativeScript rely on them!
+The `this._callbacks` property is automatically assigned to your extended class by the `frame.setActivityCallbacks` method. It implements the [AndroidActivityCallbacks interface](https://docs.nativescript.org/core-concepts/application-lifecycle#android-activity-events) and allows core to get notified for important Activity events. It is **important** to use these callbacks, as many parts of NativeScript rely on them!
 :::
 
 <!-- TODO: fix links -->
@@ -427,7 +455,7 @@ Next, modify the activity in `App_Resources/Android/src/main/AndroidManifest.xml
   android:configChanges="keyboardHidden|orientation|screenSize">
 ```
 
-To include the new Activity in the build, it has to be added to the webpack compilation by editing the `webpack.config.js`:
+To include the new Activity in the build, make sure it's added to webpack by editing the `webpack.config.js` with the following:
 
 ```js
 const webpack = require("@nativescript/webpack");
@@ -443,9 +471,19 @@ module.exports = (env) => {
 }
 ```
 
-## Implementing Java/Kotlin interfaces
+## Implementing Kotlin/Java interfaces
 
-The next example shows how to implement an interface in Java/Kotlin and NativeScript. The main difference between inheriting classes and implementing interfaces in NativeScript is the use of the `extend` keyword. Basically, you implement an interface by passing the implementation object to the interface constructor function. The syntax is identical to the [Java Anonymous Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html).
+The next example shows how to implement an interface in Kotlin/Java with NativeScript. The main difference between inheriting classes and implementing interfaces in NativeScript is the use of the `extend` keyword. Basically, you implement an interface by passing the implementation object to the interface constructor function. The syntax is identical to the [Java Anonymous Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html).
+
+- Kotlin:
+
+```kotlin
+button.setOnClickListener {
+    // Perform action on click
+}
+```
+
+- Java:
 
 ```java
 button.setOnClickListener(new View.OnClickListener() {
@@ -454,11 +492,8 @@ button.setOnClickListener(new View.OnClickListener() {
     }
 });
 ```
-```kotlin
-button.setOnClickListener {
-    // Perform action on click
-}
-```
+
+- NativeScript:
 
 ```ts
 button.setOnClickListener(new android.view.View.OnClickListener({
@@ -468,88 +503,38 @@ button.setOnClickListener(new android.view.View.OnClickListener({
 }));
 ```
 
-Alternatively you can use the following pattern for a named interface implementation:
-
-```js
-let ClickListener;
-
-function initializeClickListener() {
-    if (ClickListener) {
-        return;
-    }
-
-    ClickListener = java.lang.Object.extend({
-        interfaces: [android.view.View.OnClickListener], /* the interfaces that will be inherited by the resulting class */
-        onClick: function() {
-            // Perform action on click
-        }
-    });
-}
-
-// [...]
-
-{
-    // [...]
-
-    initializeClickListener();
-    nativeView.setOnClickListener(new ClickListener());
-}
-```
+Alternatively you can use the following pattern for a named interface implementation using TypeScript:
 
 ```ts
-interface ClickListener {
-    new(): android.view.View.OnClickListener;
-}
+@NativeClass()
+@Interfaces([android.view.View.OnClickListener])
+class ClickListener extends java.lang.Object 
+  implements android.view.View.OnClickListener {
+    constructor() {
+        super();
 
-let ClickListener: ClickListener;
-
-function initializeClickListener(): void {
-    if (ClickListener) {
-        return;
+        // necessary when extending TypeScript constructors
+        return global.__native(this);
     }
 
-    @Interfaces([android.view.View.OnClickListener])
-    class ClickListenerImpl extends java.lang.Object implements android.view.View.OnClickListener {
-        constructor() {
-            super();
-
-            // necessary when extending TypeScript constructors
-            return global.__native(this);
-        }
-
-        onClick(view: android.view.View): void {
-            // Perform action on click
-        }
+    onClick(view: android.view.View): void {
+        // Perform action on click
     }
-
-    ClickListener = ClickListenerImpl;
 }
 
-// [...]
-
-{
-    // [...]
-
-    initializeClickListener();
-    nativeView.setOnClickListener(new ClickListener());
-}
+nativeView.setOnClickListener(new ClickListener());
 ```
 
-### Implementing multiple interfaces
-Suppose you have the following interfaces in Java/Kotlin:
+Or using JavaScript:
 
-```java
-public interface Printer {
-    void print(String content);
-    void print(String content, int offset);
-}
+```js
+const ClickListener = java.lang.Object.extend({
+    // the interfaces to use
+    interfaces: [android.view.View.OnClickListener], 
+    onClick: function() {
+        // Perform action on click
+    }
+});
 
-public interface Copier {
-    String copy(String content);
-}
-
-public interface Writer {
-    void write(Object[] arr);
-    void writeLine(Object[] arr)
-}
+nativeView.setOnClickListener(new ClickListener());
 ```
