@@ -21,10 +21,16 @@ export default [
       {
         text: 'Navigation',
         link: '/guide/navigation/',
-      },
-      {
-        text: 'Using Modals',
-        link: '/guide/navigation/modals',
+        items: [
+          {
+            text: 'Using Frames and Pages',
+            link: '/guide/navigation/frames-and-pages',
+          },
+          {
+            text: 'Using Modals',
+            link: '/guide/navigation/modals',
+          },
+        ],
       },
       {
         text: 'Styling',
@@ -252,7 +258,7 @@ export default [
       },
       {
         text: 'Marshalling',
-        link: '/guide/marshalling',
+        link: '/guide/marshalling/',
         items: [
           {
             text: 'iOS Marshalling',
