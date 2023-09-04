@@ -1,5 +1,7 @@
 import type { NSSidebarGroup } from '../.vitepress/theme/vitepress-theme'
 
+import updatingItems from './guide/updating/sidebar'
+
 export default [
   {
     text: 'The Basics',
@@ -75,7 +77,9 @@ export default [
       },
       {
         text: 'Updating',
-        link: '/guide/updating-an-app',
+        link: '/guide/updating/',
+        hideChildren: true,
+        items: updatingItems
       },
     ],
   },
