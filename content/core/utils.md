@@ -2,7 +2,7 @@
 title: Utils
 ---
 
-Utils provides convenient utilities covering a broad range of common helpers used in projects from light JavaScript utilities to iOS and Android  specific properties and methods.
+Utils provides convenient utilities covering a broad range of common helpers used in projects from light JavaScript utilities to iOS and Android specific properties and methods.
 
 ## Using Utils
 
