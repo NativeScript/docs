@@ -7,14 +7,14 @@ title: Gestures
 
 Users can interact with UI components using gestures. NativeScript supports the following gestures:
 
-- [tap](#tap-gesture-in-nativescript)
-- [doubleTap](#double-tap-event-data)
-- [longPress](#long-press-gesture-in-nativescript)
-- [swipe](#swipe-gesture-in-nativescript)
-- [pan](#pan-gesture-in-nativescript)
-- [pinch](#pinch-gesture-in-nativescript)
-- [rotation](#rotate-gesture-in-nativescript)
-- [touch](#touch-gesture-in-nativescript)
+- [tap](#tap-gesture)
+- [doubleTap](#double-tap-gesture)
+- [longPress](#long-press-gesture)
+- [swipe](#swipe-gesture)
+- [pan](#pan-gesture)
+- [pinch](#pinch-gesture)
+- [rotation](#rotate-gesture)
+- [touch](#touch-gesture)
 
 All gesture events, except `tap`, have the following data in common:
 
@@ -27,7 +27,7 @@ All gesture events, except `tap`, have the following data in common:
 | `ios`       | `UIGestureRecognizer `         | Gets the underlying native iOS specific [UIGestureRecognizer](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/). |
 | `android`   | `android.view.GestureDetector` | Gets the underlying native android specific [gesture detector](http://developer.android.com/reference/android/view/GestureDetector.html)                         |
 
-## Tap gesture
+## Tap gesture {#tap-gesture}
 
 **Action**: Briefly touching a component.
 
@@ -68,7 +68,7 @@ onTap(args: EventData) {
 ```
 /// -->
 
-## Double tap gesture
+## Double tap gesture {#double-tap-gesture}
 
 **Action**: Two taps on a component in quick succession.
 
@@ -109,7 +109,7 @@ onDoubleTap(args: GestureEventData) {
 ///
  -->
 
-## Long press gesture
+## Long press gesture  {#long-press-gesture}
 
 **Action**: A component is pressed for a few moments.
 
@@ -150,7 +150,7 @@ onLongPress(args: GestureEventDataWithState) {
 ///
  -->
 
-## Swipe gesture
+## Swipe gesture {#swipe-gesture}
 
 **Action**: Swiftly sliding a finger across the screen. Swipes are quick and affect the screen even after the finger is lifted off the screen:
 
@@ -198,7 +198,7 @@ Available directions:
 - `up = 4`,
 - `down = 8`,
 
-## Pan gesture
+## Pan gesture {#pan-gesture}
 
 **Action**: A pan gesture occurs when a user presses down on a component and immediately starts moving it around. Pans are executed more slowly and allow for more precision. The event stops emitting as soon as the finger is lifted off it.
 
@@ -246,7 +246,7 @@ onPan(args: PanGestureEventData) {
 ///
  -->
 
-## Pinch gesture
+## Pinch gesture {#pinch-gesture}
 
 **Action**: A user touches a component with two fingers, then moves them towards or away from each other.
 
@@ -293,7 +293,7 @@ onPinch(args: PinchGestureEventData) {
 
 Possible usage: Zoom in or out of content.
 
-## Rotate gesture
+## Rotate gesture {#rotate-gesture}
 
 **Action**: A user touches a component with two fingers, then rotates them simultaneously left or right.
 
@@ -333,7 +333,7 @@ onRotate(args: RotationGestureEventData) {
 
 /// -->
 
-## Touch gesture
+## Touch gesture {#touch-gesture}
 
 This is a general purpose gesture that is triggered whenever a pointer (usually a finger) has performed a touch action (up, down, move or cancel).
 
