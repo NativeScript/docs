@@ -37,8 +37,8 @@ App_Resources/
 ├─ Android/
 │  ├─ app.gradle
 │  ├─ libs/
-│  │  ├─ HelloAndroidLib.aar  # Android ARchive
-│  │  └─ HelloJavaLib.jar     # Java ARchive
+│  │  ├─ HelloAndroidLib.aar  # Android Archive
+│  │  └─ HelloJavaLib.jar     # Java Archive
 │  └─ src/
 │     └─ main/
 │       ├─ java/
