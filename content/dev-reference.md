@@ -24,6 +24,12 @@ This page serves as a reference for the available markdown options in the docs.
 
 <img src="./assets/diagrams/View_Origin.drawio.svg"/>
 
+### Android View Lifecycle
+
+<img class="w-full" src="./assets/diagrams/Android_View_Lifecycle.drawio.svg"/>
+
+- OnLayoutChangeListener
+
 ### StackLayout (exploration)
 
 <DeviceFrame type="ios">
