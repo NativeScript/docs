@@ -17,7 +17,7 @@ To store a string value, use the [setString](#setstring) method:
 ApplicationSettings.setString('username', 'Wolfgang')
 ```
 
-:::tip :green_circle: Tip
+:::tip
 You can use this method with the `JSON.stringify()` (as shown in the `saveObjectAsString` method in the StackBlitz demo app at the link above) to store an object or an array as a string. Then, use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
 :::
 
