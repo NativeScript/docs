@@ -25,7 +25,7 @@ To install **Node** we recommend using a node version manager, such as [nvm-wind
 3. Once the installation is complete, open a new Command Prompt and verify you can run `nvm ls`.
 4. Install the latest Node release with:
    ```cli
-   nvm install latest
+   nvm install node
    ```
 5. Verify the installation was successful and run
    ```cli
