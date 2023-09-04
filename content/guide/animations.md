@@ -8,10 +8,10 @@ NativeScript exposes a simple yet powerful API to allow animating almost every n
 
 For your convenience, there are two popular ways of creating animations:
 
-- [Declarative](#declarative-animating-ui-components-with-css) - easy and familiar CSS3 animations API
-- [Imperative](#imperative-animating-ui-components-with-code) - take full control of any animation by calling animation methods directly with code
+- [Declarative](#animating-with-css) - easy and familiar CSS3 animations API
+- [Imperative](#animating-with-code) - take full control of any animation by calling animation methods directly with code
 
-## Declarative: Animating UI components with CSS
+## Declarative: Animating UI components with CSS {#animating-with-css}
 
 CSS animations are based on the [CSS3 animations API](http://www.w3schools.com/css/css3_animations.asp) standard. You can use them to animate almost every native view without even having to know JavaScript. You can use multiple frames and change the animation direction. With CSS animations, you can separate the animation code from your app logic if desired.
 
@@ -331,7 +331,7 @@ The `Button` component has a built-in special state `highlighted` to for the `to
 ///
  -->
 
-## Imperative: Animating UI components with code
+## Imperative: Animating UI components with code {#animating-with-code}
 
 The easiest way to animate a single [View](https://docs.nativescript.org/api/class/View) is by using the `View.animate` method which accepts an [`AnimationDefinition`](https://docs.nativescript.org/api/interface/AnimationDefinition). It immediately starts and returns its finished promise.
 
