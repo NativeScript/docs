@@ -48,10 +48,6 @@ App_Resources/
 └─ ... more
 ```
 
-<!--  -->
-
-<!-- tab: Kotlin -->
-
 ```kotlin
 // HelloKotlin.kt
 package com.example
@@ -60,8 +56,6 @@ class HelloKotlin {
   val hello = "Hello from Kotlin!"
 }
 ```
-
-<!-- tab: Java -->
 
 ```java
 // HelloJava.java
@@ -267,7 +261,6 @@ App_Resources/
 │  └─ Podfile
 └─ ... more
 ```
-
 
 ```swift
 extension UIView {

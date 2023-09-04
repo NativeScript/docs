@@ -1,9 +1,10 @@
 ---
 title: Http
 ---
-<!-- TODO: Add links -->
-Http provides utility methods to make all sorts of http networking requests.
 
+<!-- TODO: Add links -->
+
+Http provides utility methods to make all sorts of http networking requests.
 
 ## Using Http
 
@@ -16,7 +17,7 @@ Http.getString('https://httpbin.org/get').then(
   (result: string) => {
     // do something with the string response
   },
-  e => {}
+  (e) => {}
 )
 ```
 
@@ -29,7 +30,7 @@ Http.getJSON('https://httpbin.org/get').then(
   (result) => {
     console.log(result)
   },
-  e => {}
+  (e) => {}
 )
 ```
 
@@ -38,11 +39,13 @@ Http.getJSON('https://httpbin.org/get').then(
 Use the [getFile()](#getfile) method for a GET request with a response as a [File]():
 
 ```ts
-Http.getFile('https://d1lfyz5kwt8vu9.cloudfront.net/nativescript-logo-2021.png').then(
-  (resultFile: File )=> {
+Http.getFile(
+  'https://art.nativescript.org/logo/export/NativeScript_Logo_Wide_White_Blue_Rounded_Blue.png'
+).then(
+  (resultFile: File) => {
     // The returned result will be File object
   },
-  e => {}
+  (e) => {}
 )
 ```
 
@@ -52,10 +55,8 @@ Use the [getImage()](#getimage) method for a GET request with a response as an i
 
 ```ts
 Http.getImage('https://httpbin.org/image/jpeg').then(
-  (res: ImageSource) => {
-
-},
-  e => {}
+  (res: ImageSource) => {},
+  (e) => {}
 )
 ```
 
@@ -64,22 +65,26 @@ The above methods can also take, instead of the url string, an [HttpRequestOptio
 :::
 
 ### Making a POST request
+
 To make a POST request, use the [request()](#request) method:
 
 ```ts
- Http.request({
-      url: 'https://httpbin.org/get',
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      content: JSON.stringify({
-          username: "tony",
-          password: "pass"
-      })
-    }).then((response) => {
-    const result = response.content?.toJSON();
-}, (e) => {
-  // error
-})
+Http.request({
+  url: 'https://httpbin.org/get',
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  content: JSON.stringify({
+    username: 'tony',
+    password: 'pass',
+  }),
+}).then(
+  (response) => {
+    const result = response.content?.toJSON()
+  },
+  (e) => {
+    // error
+  }
+)
 ```
 
 ## API
@@ -89,9 +94,11 @@ To make a POST request, use the [request()](#request) method:
 ```ts
 Http.getString(url: string): Promise<string>
 ```
+
 Downloads the content from the specified URL as a string.
 
 ---
+
 ### getJSON()
 
 ```ts
@@ -103,22 +110,27 @@ Downloads the content from the specified URL as a string and returns its JSON.pa
 ---
 
 ### getImage()
+
 ```ts
 Http.getImage(url: string): Promise<ImageSource>
 ```
+
 Downloads the content from the specified URL and attempts to decode it as an image.
 
 ---
 
 ### getFile()
+
 ```ts
 Http.getFile(url: string, destinationFilePath?: string): Promise<File>
 ```
+
 Downloads the content from the specified URL and attempts to save it as file. `destinationFilePath` is an optional location of where you want to save the returned file.
 
 ---
 
 ### request()
+
 ```ts
 Http.request(options: HttpRequestOptions): Promise<HttpResponse>
 ```
@@ -132,9 +144,10 @@ Makes a generic http request using the provided options and returns a [HttpRespo
 The HttpRequestOptions interface has the following members:
 
 #### url
+
 ```ts
 const requestOptions = {
-  url: "https://httpbin.org"
+  url: 'https://httpbin.org',
 }
 ```
 
@@ -146,10 +159,11 @@ A string value representing the request url.
 
 ```ts
 const requestOptions = {
-  url: "https://httpbin.org",
-  method: "POST"
+  url: 'https://httpbin.org',
+  method: 'POST',
 }
 ```
+
 Gets or sets the request method.
 
 ---
@@ -158,10 +172,10 @@ Gets or sets the request method.
 
 ```ts
 const requestOptions = {
- 
-  headers: { "header-name" : "header-value" },
+  headers: { 'header-name': 'header-value' },
 }
 ```
+
 _Optional_: gets or sets the request headers in JSON format.
 
 ---
@@ -170,25 +184,25 @@ _Optional_: gets or sets the request headers in JSON format.
 
 ```ts
 const requestOptions = {
- 
   content: formData,
 }
 
 //or
 
 const requestOptions = {
- 
-  content: "some string",
+  content: 'some string',
 }
 ```
+
 _Optional_: gets or sets the request body.
 
 ---
 
 #### timeout
+
 ```ts
 const requestOptions = {
-  timeout : 22333
+  timeout: 22333,
 }
 ```
 
@@ -200,14 +214,13 @@ _Optional_: gets or sets the request timeout in milliseconds.
 
 ```ts
 const requestOptions = {
-  dontFollowRedirects : true
+  dontFollowRedirects: true,
 }
 ```
 
 _Optional_: boolean value that sets wether to **not** follow server's redirected request.
 
 ---
-
 
 ### HttpResponse interface
 
@@ -222,7 +235,7 @@ _Type_: `number`
 #### content
 
 Gets the response content.
-_Type_: [HttpContent](#httpcontent-interface) 
+_Type_: [HttpContent](#httpcontent-interface)
 
 ---
 
@@ -267,13 +280,12 @@ Gets the response body as JSON object. The `encoding` is optional of type `'UTF8
 #### toImage()
 
 ```ts
-response.content?.toImage()
-.then((image: ImageSource)=>{
-
-}).catch(error=>{
-
-})
+response.content
+  ?.toImage()
+  .then((image: ImageSource) => {})
+  .catch((error) => {})
 ```
+
 Gets the response body as [ImageSource]().
 
 ---
@@ -283,6 +295,5 @@ Gets the response body as [ImageSource]().
 ```ts
 const file: File = response.content?.toFile(destinationFilePath)
 ```
+
 Gets the response body as a file. `destinationFilePath` is an optional location of where you want to save the returned file.
-
-

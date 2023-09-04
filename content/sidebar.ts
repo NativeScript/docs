@@ -165,64 +165,7 @@ export default [
       // },
     ],
   },
-  {
-    text: '@nativescript/core',
-    items: [
-      { text: 'Application', link: '/guide/core/application' },
-      {
-        text: 'ApplicationSettings',
-        link: '/guide/core/application-settings',
-      },
-      {
-        text: 'Color',
-        link: '/guide/core/color',
-      },
-      {
-        text: 'Connectivity',
-        link: '/guide/core/connectivity',
-      },
-      {
-        text: 'Http',
-        link: '/guide/core/http',
-      },
-      {
-        text: 'FPS Meter',
-        link: '/guide/core/fps-meter',
-      },
-      {
-        text: 'FileSystem',
-        link: '/guide/core/file-system',
-      },
-      {
-        text: 'Observable',
-        link: '/guide/core/observable',
-      },
-      {
-        text: 'Screen',
-        link: '/guide/core/screen',
-      },
-      {
-        text: 'Device',
-        link: '/guide/core/device',
-      },
-      {
-        text: 'Trace',
-        link: '/guide/core/tracing',
-      },
-      {
-        text: 'XmlParser',
-        link: '/guide/core/xml-parser',
-      },
-      {
-        text: 'Utils',
-        link: '/guide/core/utils',
-      },
-      {
-        text: 'ImageCache',
-        link: '/guide/core/image-cache',
-      },
-    ],
-  },
+  
   {
     text: 'Advanced Concepts',
     items: [

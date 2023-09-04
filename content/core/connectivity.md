@@ -5,7 +5,6 @@ description: Get the current device network connection type and monitor changes 
 
 `Connectivity` provides easy-to-use APIs consolidating the appropriate platform native APIs to interact with the network's connection type and availability.
 
-
 ## Using Connectivity
 
 To use Connectivity, import it from `@nativescript/core`.
@@ -21,19 +20,23 @@ To check what type of network is currently connected use the [getConnectionType(
 ```ts
 const connectionType: number = Connectivity.getConnectionType()
 
-if (connectionType) { // `Connectivity.connectionType.none`` is `0` so truthiness can be used to determine if the device is connected to any type of network
+if (connectionType) {
+  // `Connectivity.connectionType.none`` is `0` so truthiness can be used to determine if the device is connected to any type of network
   fetch('https://httpbin.org/get')
     .then((response) => reponse.text())
-    .then((result) => console.log(`Fetched ${result} with ${connectionType}`));
+    .then((result) => console.log(`Fetched ${result} with ${connectionType}`))
 } else {
-  console.log("Not connected to a network.")
+  console.log('Not connected to a network.')
 }
 ```
 
 Conditional behavior can easily be added for certain types of connections using the `Connectivity.connectionType` enum.
 
 ```ts
-if (connectionType === Connectivity.connectionType.wifi || connectionType === Connectivity.connectionType.ethernet) {
+if (
+  connectionType === Connectivity.connectionType.wifi ||
+  connectionType === Connectivity.connectionType.ethernet
+) {
   // Download large file
 } else {
   // Download mobile friendly file
@@ -46,29 +49,29 @@ Using the [startMonitoring()](#startMonitoring) method changes to the connection
 
 ```ts
 Connectivity.startMonitoring((change: number) => {
-    switch(change) {
-        case Connectivity.connectionType.wifi:
-        case Connectivity.connectionType.ethernet:
-            console.log("Connected to home network");
-            break;
-        case Connectivity.connectionType.mobile:
-        case Connectivity.connectionType.bluetooth:
-            console.log("Connected to mobile network");
-            break;
-        case Connectivity.connectionType.vpn:
-            console.log("Connected to vpn network");
-            break;
-        default:
-            console.log("Not connected to any network");
-            break;
-    }
-});
+  switch (change) {
+    case Connectivity.connectionType.wifi:
+    case Connectivity.connectionType.ethernet:
+      console.log('Connected to home network')
+      break
+    case Connectivity.connectionType.mobile:
+    case Connectivity.connectionType.bluetooth:
+      console.log('Connected to mobile network')
+      break
+    case Connectivity.connectionType.vpn:
+      console.log('Connected to vpn network')
+      break
+    default:
+      console.log('Not connected to any network')
+      break
+  }
+})
 ```
 
 If you wish to halt the monitoring of connectivity changes, use the [stopMonitoring()](#stopMonitoring) function.
 
 ```ts
-Connectivity.stopMonitoring();
+Connectivity.stopMonitoring()
 ```
 
 ## API
@@ -130,9 +133,11 @@ This enumeration defines the different possible connection types.
 ---
 
 ## API Reference(s)
+
 - [@nativescript/core/connectivity](https://docs.nativescript.org/api-reference/modules.html#connectivity) module
-- [connectionType](https://docs.nativescript.org/api-reference/modules.html#connectivity) enum  
+- [connectionType](https://docs.nativescript.org/api-reference/modules.html#connectivity) enum
 
 ## Native Component
+
 - `Android`: [CONNECTIVITY_SERVICE (android.content.Context)](https://developer.android.com/reference/android/content/Context)
 - `iOS`: [SCNetworkReachability](https://developer.apple.com/documentation/systemconfiguration/scnetworkreachability-g7d)

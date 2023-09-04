@@ -16,20 +16,17 @@ import {
   start,
   stop,
   addCallback,
-  running
+  running,
 } from '@nativescript/core/fps-meter'
 
-let callbackId: number;
+let callbackId: number
 
 export function startFPSMeter(args: EventData) {
-
   callbackId = addCallback((fps: number, minFps: number | undefined) => {
-
     console.log(`Frames per seconds: ${fps.toFixed(2)}`)
-
     console.log(minFps?.toFixed(2))
   })
-  
+
   start()
   console.log('Is running: ', running())
 }
@@ -41,7 +38,6 @@ Remove the registered callback using its id and then call the [stop](#stop) meth
 
 ```ts
 export function stopFPSMeter(args: EventData) {
-
   removeCallback(callbackId)
 
   stop()
@@ -79,6 +75,7 @@ stop()
 Stops the frames-per-second meter.
 
 ---
+
 ### removeCallback
 
 ```ts

@@ -12,7 +12,7 @@ export default [
   {
     text: 'Docs',
     link: '/',
-    activeMatch: '^/(?!plugins|best-practices|api|dev-reference|tutorials|ui)',
+    activeMatch: '^/(?!plugins|best-practices|api|dev-reference|tutorials|ui|core)',
     icon: 'BookOpenIcon',
   },
 
@@ -49,6 +49,12 @@ export default [
     link: '/ui/',
     activeMatch: '^/ui',
     icon: 'CubeTransparentIcon',
+  },
+  {
+    text: 'Core Reference',
+    link: '/core/',
+    activeMatch: '^/core',
+    icon: 'CodeBracketIcon',
   },
   {
     text: 'API Reference',

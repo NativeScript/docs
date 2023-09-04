@@ -35,10 +35,10 @@ const appRootFolder = knownFolders.currentApp()
 
 ### Creating a folder
 
-To create a folder, call the `getFolder()` method on an instance of `Folder` (any of the root folders above or one you create) and  pass it the name of the folder.
+To create a folder, call the `getFolder()` method on an instance of `Folder` (any of the root folders above or one you create) and pass it the name of the folder.
 
 ```ts
-folder.getFolder("folder-name")
+folder.getFolder('folder-name')
 ```
 
 You can also use the [fromPath](#frompath) static method of the Folder class.
@@ -55,15 +55,15 @@ To rename a folder, use the `rename` or `renameSync` method:
 ```ts
 folder
   .rename(newName)
-  .then(res => {
+  .then((res) => {
     // Folder Successfully renamed.
-
   })
-  .catch(err => {
+  .catch((err) => {
     //Folder couldn't be renamed
     console.error(err)
   })
 ```
+
 ### Check if a folder exists
 
 ```ts
@@ -72,8 +72,7 @@ const folderExists: boolean = Folder.exists('folder-path')
 
 ### Accessing a folder's content
 
-To get a folder's files and folders, use the `getEntitiesSync` or  `getEntities` method:
-
+To get a folder's files and folders, use the `getEntitiesSync` or `getEntities` method:
 
 ```ts
 folder
@@ -81,28 +80,26 @@ folder
   .then((entities: FileSystemEntity[]) => {
     // do something
   })
-  .catch(err => {
+  .catch((err) => {
     console.log(err)
   })
-
-  ```
+```
 
 ### Deleting the contents of a Folder
 
 To delete all the content of a Folder, use the [clear](#clear) or [clearSync](#clearsync) method of a Folder instance:
 
 ```ts
-folder.clear().then((result)=>{
-// successful delete
-}).catch((rerror)=>{
-  
-})
+folder
+  .clear()
+  .then((result) => {
+    // successful delete
+  })
+  .catch((rerror) => {})
 
 // OR
 
-folder.clearSync((error)=>{
-
-})
+folder.clearSync((error) => {})
 ```
 
 ### Deleting a folder
@@ -110,23 +107,25 @@ folder.clearSync((error)=>{
 To delete a folder, use the `remove` or `removeSync` method:
 
 ```ts
-folder.remove().then((value: boolean)=>{
-
-console.log(value)
-
-}).catch((error)=>{
-
-console.error(error.message)
-})
+folder
+  .remove()
+  .then((value: boolean) => {
+    console.log(value)
+  })
+  .catch((error) => {
+    console.error(error.message)
+  })
 ```
 
 ### Creating, writing to and reading from a text file
+
 <!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-5yndru?file=app/main-view-model.ts -->
+
 - To create a file, call the `getFile()` method on an instance of the `Folder` class and pass it the file name with the extension.
 
 ```ts
-folder.getFile("my-text.txt")
-//or 
+folder.getFile('my-text.txt')
+//or
 const filePath = path.join(folder.path, 'my-text.txt')
 const file = File.fromPath(filePath)
 ```
@@ -136,25 +135,25 @@ const file = File.fromPath(filePath)
 ```ts
 file
   .writeText('Some text')
-  .then(result => {
+  .then((result) => {
     // Succeeded writing to the file.
- 
   })
-  .catch(error => {
+  .catch((error) => {
     console.log(error)
   })
-
 ```
+
 - To extract data from a text file, you can use the readText or readTextSync method of the file instance. Here's an example of how to use it:
-```ts
-   file.readText().then(res => {
-      // Succeeded read from file.
-      
-    })
-    .catch(error => {
 
+```ts
+file
+  .readText()
+  .then((res) => {
+    // Succeeded read from file.
   })
+  .catch((error) => {})
 ```
+
 ### Check if a file exists
 
 To check if a file exists, you can use [exists](#exists) with the file path:
@@ -165,18 +164,19 @@ const exists = File.exists(filePath)
 
 ### Renaming a file
 
-To rename a file, use the `rename` or `renameSync` method: 
+To rename a file, use the `rename` or `renameSync` method:
 
 ```ts
-file.rename("new-name.ext").then((value)=>{
-
-}).catch(err=>{
-
-})
+file
+  .rename('new-name.ext')
+  .then((value) => {})
+  .catch((err) => {})
 ```
 
 ### Saving a binary data to a file
+
 <!-- TODO: binary data example -->
+
 To save binary data to a file, use either the `write` or `writeSync` method:
 
 ```ts
@@ -184,14 +184,13 @@ file
   .write(binary data)
   .then(result => {
     // Succeeded writing to the file.
- 
+
   })
   .catch(error => {
     console.log(error)
   })
 
 ```
-
 
 ### Reading a binary data from a file
 
@@ -231,13 +230,12 @@ file
   .then((res: boolean) => {
     // Success removing the file.
   })
-  .catch(err => {
-  })
- ``` 
+  .catch((err) => {})
+```
 
- ### Normalizing a path
+### Normalizing a path
 
- To normalize a path use the `normalize` or create the path with the `join` method from the [path](#path-operations) object:
+To normalize a path use the `normalize` or create the path with the `join` method from the [path](#path-operations) object:
 
 ```ts
 const testPath = '///test.txt'
@@ -274,13 +272,14 @@ Gets the Documents folder available for the current application from an external
 
 - There is no external storage on iOS, it is the same as [documents()](#documents).
 
----  
+---
 
 ### temp()
 
 ```ts
 const folder: Folder = knownFolders.temp()
 ```
+
 Gets the Temporary (Caches) folder available for the current application. This Folder is private for the application and not accessible from Users/External apps.
 
 ---
@@ -300,65 +299,81 @@ Gets the root folder for the current application.
 The following methods allow to access to iOS known folders.
 
 #### library()
+
 ```ts
 const folder: Folder = knownFolders.ios.library()
 ```
+
 Gets the NSLibraryDirectory.
 
 ---
 
 #### developer()
+
 ```ts
 const folder: Folder = knownFolders.ios.developer()
 ```
+
 Gets the NSDeveloperDirectory.
 
 ---
 
 #### desktop()
+
 ```ts
 const folder: Folder = knownFolders.ios.desktop()
 ```
+
 Gets the NSDesktopDirectory.
 
 ---
 
 #### downloads()
+
 ```ts
 const folder: Folder = knownFolders.ios.downloads()
 ```
+
 Gets the NSDownloadsDirectory.
 
 ---
 
 #### movies()
+
 ```ts
 const folder: Folder = knownFolders.ios.movies()
 ```
+
 Gets the NSMoviesDirectory.
 
 ---
 
 #### music()
+
 ```ts
 const folder: Folder = knownFolders.ios.music()
 ```
+
 Gets the NSMusicDirectory.
 
 ---
 
 #### pictures()
+
 ```ts
 const folder: Folder = knownFolders.ios.pictures()
 ```
+
 Gets the NSPicturesDirectory.
 
 ---
 
 #### sharedPublic()
+
 ```ts
 const folder: Folder = knownFolders.ios.sharedPublic()
 ```
+
 Gets the NSSharedPublicDirectory.
 
 ---
@@ -366,12 +381,10 @@ Gets the NSSharedPublicDirectory.
 ### fromPath()
 
 ```ts
-
 const file: File = File.fromPath(path)
-
 ```
 
-or 
+or
 
 ```ts
 const folder: Folder = Folder.fromPath(path)
@@ -382,6 +395,7 @@ Gets or creates a Folder or File entity at the specified path.
 ---
 
 ### getFolder
+
 ```ts
 const folder: Folder = folder.getFolder(name)
 ```
@@ -390,14 +404,13 @@ Gets or creates a Folder entity with the specified `name` within a Folder.
 
 ---
 
-
 ### exists
 
 ```ts
 const folderExists: boolean = Folder.exists(path)
 ```
 
-or 
+or
 
 ```ts
 const file: boolean = File.exists(path)
@@ -412,15 +425,17 @@ Checks whether a Folder or File with the specified path already exists.
 ```ts
 const isItAKnownFolder: boolean = folder.isKnown
 ```
+
 Determines whether this instance is a known folder (accessed through the `knownFolders` object).
 
 ---
+
 Both the File and Folder classes extend the FileSystemEntity which has the following API:
 
 ### lastModified
 
 ```ts
-const lastModified: Date = entity.lastModified 
+const lastModified: Date = entity.lastModified
 ```
 
 Gets the Date object specifying the last time this entity was modified.
@@ -437,7 +452,7 @@ Gets the name of the entity.
 
 ---
 
-### path 
+### path
 
 ```ts
 const path: string = entity.path
@@ -452,10 +467,11 @@ Gets the fully-qualified path (including the extension for a File) of the entity
 ```ts
 const parent: Folder = entity.parent
 ```
+
 Gets the Folder object representing the parent of this entity.
 Will be null for a root folder like Documents or Temporary.
 This property is readonly.
-	
+
 ---
 
 ### remove()
@@ -503,6 +519,7 @@ Renames the current entity synchronously, using the specified name.
 ```ts
 folder.getEntities(): Promise<Array<FileSystemEntity>>
 ```
+
 Asynchronously gets all the top-level entities residing within a folder.
 
 ---
@@ -526,10 +543,13 @@ folder.eachEntity(onEntity: (entity: FileSystemEntity) => boolean)
 Enumerates all the top-level FileSystem entities within a folder. `onEntity` is a callback that receives the current entity.
 
 ---
+
 ### getFile()
+
 ```ts
 folder.getFile(name: string): File
 ```
+
 Gets or creates a File entity with the specified name within this Folder
 
 ---
@@ -584,7 +604,6 @@ Reads the content of the file as a string synchronously, using the specified enc
 
 ---
 
-
 ### read
 
 ```ts
@@ -596,13 +615,15 @@ Reads the binary content of the file asynchronously.
 ---
 
 ### readSync()
+
 ```ts
 const fileContent = file.readSync(onError)
 ```
+
 Reads the binary content of the file synchronously. `onError` is a function to be called if some IO-error occurs.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
+| Parameter  | Type                  | Description                                                |
+| ---------- | --------------------- | ---------------------------------------------------------- |
 | `onError?` | `(error: any) => any` | An optional function to be called if some IO-error occurs. |
 
 ---
@@ -612,11 +633,12 @@ Reads the binary content of the file synchronously. `onError` is a function to b
 ```ts
 const result = await file.writeText(content, encoding)
 ```
+
 Asynchronously writes the content of the file as a string using the specified encoding (defaults to UTF-8).
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `content` | `string` | The content to write. |
+| Parameter   | Type     | Description                                                                   |
+| ----------- | -------- | ----------------------------------------------------------------------------- |
+| `content`   | `string` | The content to write.                                                         |
 | `encoding?` | `string` | An optional encoding value. If you do not pass any encoding, `UTF-8` is used. |
 
 ---
@@ -627,13 +649,13 @@ Asynchronously writes the content of the file as a string using the specified en
 file.writeTextSync(content, onError, encoding): void
 ```
 
-Synchronously writes the content of the file as a string using the specified encoding (defaults to UTF-8). 
+Synchronously writes the content of the file as a string using the specified encoding (defaults to UTF-8).
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `content` | `string` | The content to write. |
-| `onError?` | `(error: any) => any` | An optional function to be called if some IO-error occurs. |
-| `encoding?` | `string` | An optional encoding value. If you do not pass any encoding, `UTF-8` is used. |
+| Parameter   | Type                  | Description                                                                   |
+| ----------- | --------------------- | ----------------------------------------------------------------------------- |
+| `content`   | `string`              | The content to write.                                                         |
+| `onError?`  | `(error: any) => any` | An optional function to be called if some IO-error occurs.                    |
+| `encoding?` | `string`              | An optional encoding value. If you do not pass any encoding, `UTF-8` is used. |
 
 ---
 
@@ -645,21 +667,23 @@ await file.write(content)
 
 Writes the provided binary content to the file asynchronously.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
+| Parameter | Type  | Description           |
+| --------- | ----- | --------------------- |
 | `content` | `any` | The content to write. |
 
 ---
+
 ### writeSync()
+
 ```ts
 file.writeSync(content: any, onError?: (error: any) => any): void
 ```
 
 Writes the provided binary content to the file synchronously.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `content` | `any` | The content to write. |
+| Parameter  | Type                  | Description                                                |
+| ---------- | --------------------- | ---------------------------------------------------------- |
+| `content`  | `any`                 | The content to write.                                      |
 | `onError?` | `(error: any) => any` | An optional function to be called if some IO-error occurs. |
 
 ---
@@ -669,11 +693,12 @@ Writes the provided binary content to the file synchronously.
 ```ts
 const containsEntity: boolean = folder.contains(name)
 ```
+
 Checks whether this Folder contains an Entity with the specified name.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `name` | `string` | The name of the entity to check for. |
+| Parameter | Type     | Description                          |
+| --------- | -------- | ------------------------------------ |
+| `name`    | `string` | The name of the entity to check for. |
 
 ---
 
@@ -682,6 +707,7 @@ Checks whether this Folder contains an Entity with the specified name.
 ```ts
 const result = await folder.clear()
 ```
+
 Asynchronously deletes all the files and folders (recursively), contained within the Folder.
 
 ---
@@ -691,10 +717,11 @@ Asynchronously deletes all the files and folders (recursively), contained within
 ```ts
 folder.clearSync(onError)
 ```
+
 Synchronously deletes all the files and folders (recursively), contained within the Folder.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
+| Parameter  | Type                  | Description                                                |
+| ---------- | --------------------- | ---------------------------------------------------------- |
 | `onError?` | `(error: any) => any` | An optional function to be called if some IO-error occurs. |
 
 ---
@@ -709,9 +736,9 @@ const normalizedPath: string = path.normalize(path)
 
 Normalizes a path, taking care of occurrences like `..` and `//`.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `path` | `string` | The path to normalize. |
+| Parameter | Type     | Description            |
+| --------- | -------- | ---------------------- |
+| `path`    | `string` | The path to normalize. |
 
 ---
 
@@ -723,9 +750,9 @@ const joinedPath: string = path.join(...paths)
 
 Joins all the provided string components, forming a valid and normalized path.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `paths` | `string[]` | The components of the path to join. |
+| Parameter | Type       | Description                         |
+| --------- | ---------- | ----------------------------------- |
+| `paths`   | `string[]` | The components of the path to join. |
 
 ---
 
@@ -738,7 +765,6 @@ pathSeparator: string = path.separator
 Gets the string used to separate file paths.
 
 ---
-
 
 ## API References
 
@@ -753,4 +779,3 @@ Gets the string used to separate file paths.
 - Android: [java.io.File](https://developer.android.com/reference/java/io/File)
 
 - iOS: [NSFileManager](https://developer.apple.com/documentation/foundation/nsfilemanager)
-

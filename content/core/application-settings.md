@@ -14,8 +14,9 @@ description: Persist data locally on the device storage
 To store a string value, use the [setString](#setstring) method:
 
 ```ts
-ApplicationSettings.setString("username", "Wolfgang");
+ApplicationSettings.setString('username', 'Wolfgang')
 ```
+
 :::tip :green_circle: Tip
 You can use this method with the `JSON.stringify()` (as shown in the `saveObjectAsString` method in the StackBlitz demo app at the link above) to store an object or an array as a string. Then, use `JSON.parse()` to convert the result of [getString()](#getstring) back to the object or array.
 :::
@@ -25,7 +26,7 @@ You can use this method with the `JSON.stringify()` (as shown in the `saveObject
 To store a boolean value, call the [setBoolean](#setboolean) method passing the key as the first argument and the value as second argument.
 
 ```ts
-ApplicationSettings.setBoolean("isTurnedOn", true);
+ApplicationSettings.setBoolean('isTurnedOn', true)
 ```
 
 ### Store a numeric value
@@ -33,7 +34,7 @@ ApplicationSettings.setBoolean("isTurnedOn", true);
 To store a number, use the [setNumber()](#setnumber) method:
 
 ```ts
-ApplicationSettings.setNumber("locationX", 54.321);
+ApplicationSettings.setNumber('locationX', 54.321)
 ```
 
 ## ApplicationSettings API
@@ -94,7 +95,7 @@ Sets a `boolean` for a key.
 ApplicationSettings.getBoolean(key: string, deafaultValue?: boolean)
 ```
 
-Gets a value (if existing) for a key as a `boolean`.  A default value can be provided in case the value does not exist.value.
+Gets a value (if existing) for a key as a `boolean`. A default value can be provided in case the value does not exist.value.
 
 ---
 
@@ -123,14 +124,16 @@ Removes all values from the device storage.
 ```ts
 ApplicationSettings.getAllKeys(): Array<string>
 ```
+
 Returns an array of all stored keys or an empty array if no keys exist in the device storage.
 
 ---
 
-
 ## API Reference(s)
+
 - [ApplicationSettings](https://docs.nativescript.org/api-reference/modules#applicationsettings) module
 
 ## Native Component
+
 - `Android`: [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
 - `iOS`: [NSUserDefaults](https://developer.apple.com/documentation/foundation/nsuserdefaults)

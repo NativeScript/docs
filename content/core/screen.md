@@ -5,10 +5,11 @@ title: Screen
 The `Screen` class provides methods and properties to retrieve the screen size and scale of the device.
 
 ## Importing Screen
+
 To use the `Screen` class, import it from `@nativescript/core`.
 
 ```ts
-import { Screen } from '@nativescript/core';
+import { Screen } from '@nativescript/core'
 ```
 
 ## Getting the Device Screen Size
@@ -16,31 +17,35 @@ import { Screen } from '@nativescript/core';
 To obtain the device screen size, you can use the following properties:
 
 ### heightDIPs
-- Returns the absolute height of the device screen in density-independent pixels (DIPs).
+
+Returns the absolute height of the device screen in density-independent pixels (DIPs).
 
 ```ts
-const heightDIPs: number = Screen.mainScreen.heightDIPs;
+const heightDIPs: number = Screen.mainScreen.heightDIPs
 ```
 
 ### widthDIPs
-- Returns the absolute width of the device screen in density-independent pixels (DIPs).
+
+Returns the absolute width of the device screen in density-independent pixels (DIPs).
 
 ```ts
-const widthDIPs: number = Screen.mainScreen.widthDIPs;
+const widthDIPs: number = Screen.mainScreen.widthDIPs
 ```
 
 ### heightPixels
-- Returns the absolute height of the device screen in pixels.
+
+Returns the absolute height of the device screen in pixels.
 
 ```ts
-const heightPixels: number = Screen.mainScreen.heightPixels;
+const heightPixels: number = Screen.mainScreen.heightPixels
 ```
 
 ### widthPixels
-- Returns the absolute width of the device screen in pixels.
+
+Returns the absolute width of the device screen in pixels.
 
 ```ts
-const widthPixels: number = Screen.mainScreen.widthPixels;
+const widthPixels: number = Screen.mainScreen.widthPixels
 ```
 
 ## Getting the Screen Display Density
@@ -48,7 +53,7 @@ const widthPixels: number = Screen.mainScreen.widthPixels;
 To obtain the screen display density, you can use the `scale` property, which returns the density of the display in DIPs.
 
 ```ts
-const scale: number = Screen.mainScreen.scale; // e.g., 2.75
+const scale: number = Screen.mainScreen.scale // e.g., 2.75
 ```
 
 ## API Reference

@@ -16,29 +16,32 @@ The first two step should be executed earlier in your applicaton, usually in the
 
 1. Specify atleast one category to trace:
 
-```ts
-Trace.setCategories("category"))
-// or
-Trace.setCategories(Trace.categories.concat("category1","category2"));
-//or
-Trace.addCategories("categ1, categ2")
-```
+   ```ts
+   Trace.setCategories("category"))
+   // or
+   Trace.setCategories(Trace.categories.concat("category1","category2"));
+   //or
+   Trace.addCategories("categ1, categ2")
+   ```
+
 If you don't set any category or the category you pass to `Trace.write()` is not one of the registered, `Trace.write`'s message won't be logged.
 
 2. Enable tracing
 
-```ts
-Trace.enable()
-```
+   ```ts
+   Trace.enable()
+   ```
 
 3. Instead of using console.log(), use Trace.write() to log your messages. Pass the message content, a category name, and optionally, a message type as arguments to Trace.write(). Make sure that the category you provide is one of the categories you have previously set using Trace.setCategories().
 
-```ts
-Trace.write('some message', 'category')
-```
+   ```ts
+   Trace.write('some message', 'category')
+   ```
 
 ### Creating custom Trace writer
+
 For an example, see `app/trace/trace-writer.ts` in the editor below.
+
 <!-- TODO: Add the example in a Preview -->
 
 #### Registering custom trace writer
@@ -46,7 +49,7 @@ For an example, see `app/trace/trace-writer.ts` in the editor below.
 To utilize a custom TraceWriter instance, you need to register it with the Trace module by using the addWriter() method. This ensures that your custom writer is recognized and incorporated into the Trace functionality.
 
 ```ts
-Trace.clearWriters();
+Trace.clearWriters()
 Trace.addWriter(new TimestampConsoleWriter())
 ```
 
@@ -65,12 +68,11 @@ const errorHandler: TraceErrorHandler = {
 
     // (production) - custom functionality for error handling
     reportToAnalytics(err)
-  }
+  },
 }
 
 // Register errorHandler
 Trace.setErrorHandler(errorHandler)
-
 ```
 
 ## Trace API
@@ -134,7 +136,6 @@ If you've placed several `console.log`s in your code for debugging, you might wa
 
 ```ts
 Trace.disable()
-
 ```
 
 Disables the tracing.
@@ -145,7 +146,6 @@ Disables the tracing.
 
 ```ts
 Trace.enable()
-
 ```
 
 Enables the tracing.
@@ -168,7 +168,7 @@ Passes an error to the registered TraceErrorHandler.
 Trace.getErrorHandler()
 ```
 
-Gets the registered `TraceErrorHandler`.  
+Gets the registered `TraceErrorHandler`.
 
 ---
 
@@ -241,10 +241,8 @@ Writes a message using the available writers.
 
 ---
 
-
 ## API References
 
 | Name                                                                                  | Type     |
 | ------------------------------------------------------------------------------------- | -------- |
 | [@nativescript/core/trace](https://docs.nativescript.org/api-reference/modules/trace) | `Module` |
-

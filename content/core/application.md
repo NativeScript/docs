@@ -10,26 +10,31 @@ The Application class provides the wrapper around [android.app.Application](http
 ### Register a broadcast receiver
 
 To register a broadcast receiver, you follow these 3 steps:
-1. Import the `Application` class from `@nativescript/core`.
-```ts
-import { Application, isAndroid } from '@nativescript/core';
-```
-2. Get the wrapper object for [android.app.Application](https://developer.android.com/reference/android/app/Application) instance.
-Use the `android` property to get the wrapper around [android.app.Application](https://developer.android.com/reference/android/app/Application).
 
-```ts
-const androidApp: AndroidApplication = Application.android
-```
+1. Import the `Application` class from `@nativescript/core`.
+
+   ```ts
+   import { Application, isAndroid } from '@nativescript/core'
+   ```
+
+2. Get the wrapper object for [android.app.Application](https://developer.android.com/reference/android/app/Application) instance.
+   Use the `android` property to get the wrapper around [android.app.Application](https://developer.android.com/reference/android/app/Application).
+
+   ```ts
+   const androidApp: AndroidApplication = Application.android
+   ```
 
 3. Call the [registerBroadcastReceiver](#registerbroadcastreceiver) method.
-Call the `registerBroadcastReceiver` method on `androidApp`.
-```ts
-androidApp.registerBroadcastReceiver()
-```
+   Call the `registerBroadcastReceiver` method on `androidApp`.
 
-For a complete example that shows how to register a broadcast receiver with a custom intent filter, visit the following link: 
+   ```ts
+   androidApp.registerBroadcastReceiver()
+   ```
+
+For a complete example that shows how to register a broadcast receiver with a custom intent filter, visit the following link:
 
 <!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-khnhes?file=app/app.ts -->
+
 For system intent filters, see [Standard Broadcast Actions](https://developer.android.com/reference/android/content/Intent#standard-broadcast-actions).
 
 ### Unregister a broadcast receiver
@@ -37,41 +42,43 @@ For system intent filters, see [Standard Broadcast Actions](https://developer.an
 To unregister a broadcast receiver, call the [unregisterBroadcastReceiver](#unregisterbroadcastreceiver) on the wrapper around an [android.app.Application](https://developer.android.com/reference/android/app/Application) passing it the intent filter for which to unregister the broacast receiver. The example below unregisters a broadcast receiver for the `android.content.Intent.ACTION_BATTERY_CHANGED` intent filter.
 
 ```ts
-import { Application, isAndroid } from '@nativescript/core';
-if(isAndroid){
-const androidApp: AndroidApplication = Application.android
+import { Application, isAndroid } from '@nativescript/core'
+if (isAndroid) {
+  const androidApp: AndroidApplication = Application.android
 
-androidApp.unregisterBroadcastReceiver(android.content.Intent.ACTION_BATTERY_CHANGED);
+  androidApp.unregisterBroadcastReceiver(
+    android.content.Intent.ACTION_BATTERY_CHANGED
+  )
 }
-
 ```
 
 ### Add a notification observer
 
-To add an iOS notification observer, follow the steps below: 
+To add an iOS notification observer, follow the steps below:
 
 1. Import the `Application` class from `@nativescript/core`.
 
-```ts
-import { Application, isIOS } from '@nativescript/core';
-```
+   ```ts
+   import { Application, isIOS } from '@nativescript/core'
+   ```
 
 2. Get the wrapper object for [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication?language=objc) instance.
-```ts
-const iOSApp: iOSApplication = Application.ios
-```
+
+   ```ts
+   const iOSApp: iOSApplication = Application.ios
+   ```
 
 3. Call the `addNotificationObserver` method.
-Call the `addNotificationObserver` passing it the name of the notification([NSNotificationName](https://developer.apple.com/documentation/foundation/nsnotificationname)) you would like to observe as the first parameter and as a second parameter, a callback function to be called when that notification occurs.
+   Call the `addNotificationObserver` passing it the name of the notification([NSNotificationName](https://developer.apple.com/documentation/foundation/nsnotificationname)) you would like to observe as the first parameter and as a second parameter, a callback function to be called when that notification occurs.
 
-```ts
-const observer: any = iOSApp.addNotificationObserver(
-  UIDeviceOrientationDidChangeNotification, 
-  (notification: NSNotification) => {
-    //Handle the notification
-  }
-)
-```
+   ```ts
+   const observer: any = iOSApp.addNotificationObserver(
+     UIDeviceOrientationDidChangeNotification,
+     (notification: NSNotification) => {
+       //Handle the notification
+     }
+   )
+   ```
 
 Find the complete example [here](https://stackblitz.com/edit/nativescript-stackblitz-templates-khnhes?file=app%2Fapp.ts%3AL14)
 
@@ -80,11 +87,14 @@ Find the complete example [here](https://stackblitz.com/edit/nativescript-stackb
 To remove a notification observer, use the `removeNotificationObserver` method on a `Application.ios` reference the observer id, returned by the `addNotificationObserver` as the first argument and the name of the notification to stop observing.
 
 ```ts
-iOSApp.removeNotificationObserver(observer, UIDeviceBatteryStateDidChangeNotification)
+iOSApp.removeNotificationObserver(
+  observer,
+  UIDeviceBatteryStateDidChangeNotification
+)
 ```
 
-
 ## Cross platform application events
+
 This class allows you to listen to the following lifecycle events on both platforms.
 
 ```ts
@@ -110,49 +120,68 @@ Application.on('orientationChanged', (args: ApplicationEventData) => {
 - `fontScaleChanged`
 
 :::
+
 ## getResources()
+
 ```ts
 resources: any = Application.getResources()
 ```
+
 Gets application-level static resources.
 
 ---
+
 ## setResources()
+
 ```ts
 Application.setResources(resources)
 ```
+
 Sets application-level static resources.
 
 ---
+
 ## setCssFileName()
+
 ```ts
 Application.setCssFileName(filePath)
 ```
+
 Sets css file name for the application.
 
 ---
+
 ## getCssFileName()
+
 ```ts
 cssFileName: string = Application.getCssFileName()
 ```
+
 Gets css file name for the application.
 
 ---
+
 ## loadAppCss()
+
 ```ts
 loadedCss: any = Applicatioin.loadAppCss()
 ```
+
 Loads immediately the app.css. By default the app.css file is loaded shortly after "loaded". For the Android snapshot the CSS can be parsed during the snapshot generation, as the CSS does not depend on runtime APIs, and loadAppCss will be called explicitly.
 
 ---
+
 ## addCss()
+
 ```ts
 Application.addCss(cssText, attributeScoped)
 ```
+
 Adds new values to the application styles.
+
 - `cssText` - A valid CSS styles to be add to the current application styles.
 - _Optional_: `attributeScoped` - sets whether the styles are attribute scoped. Adding attribute scoped styles does not perform a full application styling refresh.
- 
+
 ---
 
 ## Android Reference
@@ -171,14 +200,13 @@ The property gives you the `AndroidApplication` object, a Nativescript wrapper, 
 
 ```ts
 nativeApp: android.app.Application = androidApp.nativeApp
-// or 
+// or
 nativeApp: UIApplication = iOSApp.nativeApp
 ```
 
-This is a native application reference. 
+This is a native application reference.
 
 For Android, it is the [android.app.Application](http://developer.android.com/reference/android/app/Application.html) instance keeping track of the global application state. From this object you can get methods such as getFilesDir(), onLowMemory(),etc.
-
 
 For iOS, it returns the reference to a [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication?language=objc) instance for the application.
 
@@ -258,10 +286,10 @@ Unregisters a previously registered BroadcastReceiver for the specified intent f
 
 ### Android Activity lifecycles events
 
-To handle the application lifecycle events for Android, use `on` method of the 
+To handle the application lifecycle events for Android, use `on` method of the
 
 ```ts
-androidApp.on('activityResumed', args => {
+androidApp.on('activityResumed', (args) => {
   //handle the event here
 })
 ```
@@ -282,7 +310,9 @@ androidApp.on('activityResumed', args => {
 :::
 
 ---
+
 ## iOS Reference
+
 ### ios
 
 ```ts
@@ -384,8 +414,6 @@ systemAppearance = iOSApp.systemAppearance
 Returns whether the system appearance is `dark`, `light` or `null`(for iOS <= 11).
 
 ---
-
-
 
 :::details References
 
