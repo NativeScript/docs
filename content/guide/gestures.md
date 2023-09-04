@@ -7,14 +7,14 @@ title: Gestures
 
 Users can interact with UI components using gestures. NativeScript supports the following gestures:
 
-- [tap](#tap-gesture-in-nativescript)
-- [doubleTap](#double-tap-event-data)
-- [longPress](#long-press-gesture-in-nativescript)
-- [swipe](#swipe-gesture-in-nativescript)
-- [pan](#pan-gesture-in-nativescript)
-- [pinch](#pinch-gesture-in-nativescript)
-- [rotation](#rotate-gesture-in-nativescript)
-- [touch](#touch-gesture-in-nativescript)
+- [tap](#tap-gesture)
+- [doubleTap](#double-tap-gesture)
+- [longPress](#long-press-gesture)
+- [swipe](#swipe-gesture)
+- [pan](#pan-gesture)
+- [pinch](#pinch-gesture)
+- [rotation](#rotate-gesture)
+- [touch](#touch-gesture)
 
 All gesture events, except `tap`, have the following data in common:
 
