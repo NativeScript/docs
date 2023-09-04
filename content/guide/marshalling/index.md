@@ -8,5 +8,5 @@ The conversion is handled implicitly by the NativeScript iOS and Android runtime
 
 For more information about how NativeScript converts data types for each platform, read the following articles:
 
-- [iOS Marshalling](/guide/marshalling/nativescript-ios-marshalling)
-- [Android Marshalling](/guide/marshalling/nativescript-android-marshalling)
+- [iOS Marshalling](/guide/ios-marshalling)
+- [Android Marshalling](/guide/android-marshalling)
