@@ -256,36 +256,29 @@ For a list of available entitlements refer to [Apple's Entitlements documentatio
 
 You can add Objective-C/Swift source files to `App_Resources/iOS/src`. For Objective-C files, create a `.modulemap` file. To add a [CocoaPod](https://guides.cocoapods.org/using/getting-started.html), edit `App_Resources/iOS/Podfile`:
 
-```cli
+```bash
 App_Resources/
 ├─ iOS/
-│  ├─src/
-│  │   ├─ Shimmer.swift
-│  │   ├─ Shimmer.h
-│  │   ├─ Shimmer.m
-│  │   └─ module.modulemap
-│  ├─Podfile
-│  └─
+│  ├─ src/
+│  │  ├─ Shimmer.swift
+│  │  ├─ Shimmer.h
+│  │  ├─ Shimmer.m
+│  │  └─ module.modulemap
+│  └─ Podfile
 └─ ... more
 ```
 
-<!--  -->
-
-<!-- tab: Swift -->
 
 ```swift
 extension UIView {
-
   @objc func startShimmering(
     speed: Float = 1.4,
     repeatCount: Float = MAXFLOAT
   ) {
-      ...
+    // ...
   }
 }
 ```
-
-<!-- tab: Objective C -->
 
 ```objc
 #import "Shimmer.h"
@@ -293,7 +286,7 @@ extension UIView {
 @implementation UIView (Shimmer)
 - (void)startShimmering
 {
- ...
+  // ...
 }
 @end
 ```
