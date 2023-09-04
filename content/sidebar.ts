@@ -235,8 +235,8 @@ export default [
           {
             text: 'iOS',
             link: '/guide/extending-classes-and-conforming-to-protocols-ios',
-          }
-        ]
+          },
+        ],
       },
       {
         text: 'Multithreading',
@@ -289,8 +289,8 @@ export default [
         link: '/guide/property-system',
       },
       {
-        text: 'Layout',
-        link: '/guide/the-layout-process'
+        text: 'The Layout Process',
+        link: '/guide/advanced/the-layout-process',
       },
       {
         text: 'Error Handling',
