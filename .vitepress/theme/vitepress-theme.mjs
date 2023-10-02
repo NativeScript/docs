@@ -7847,7 +7847,7 @@ const hh = /* @__PURE__ */ h("svg", {
   href: "https://beta.docs.nativescript.org/",
   class: "flex flex-col content-center items-center justify-center bg-white px-4 py-2 text-white md:flex-row"
 }, [
-  /* @__PURE__ */ h("span", { class: "text-sm font-medium text-gray-800" }, "🧠 🎥 "),
+  /* @__PURE__ */ h("span", { class: "text-sm font-medium text-gray-800" }, "📚 "),
   /* @__PURE__ */ h("div", { class: "ml-2 text-sm font-bold text-gray-900 underline" }, [
     /* @__PURE__ */ Fe(" NEW docs are almost ready! Check them out here "),
     /* @__PURE__ */ h("span", { "aria-hidden": "true" }, "→")
