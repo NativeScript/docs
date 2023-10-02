@@ -92,7 +92,7 @@ currentEntry: NavigationEntry
 
 **Readonly**. The current NavigationEntry the Frame is navigated to.
 
-See [NavigationEntry](/api/interface/NavigationEntry).
+See [NavigationEntry](#navigation-entry).
 
 ### currentPage
 
@@ -112,7 +112,7 @@ transition: NavigationTransition
 
 Gets or sets the default navigation transition for this Frame.
 
-See [NavigationTransition](/api/interface/NavigationTransition).
+See [NavigationTransition](#navigation-transition).
 
 ### defaultAnimatedNavigation
 
@@ -168,7 +168,7 @@ naviage(entry: NavigationEntry): void
 
 Navigates to a Page.
 
-See [Frame.navigate Reference](/api/class/Frame#navigate), [Page](/ui/page), [NavigationEntry](/api/interface/NavigationEntry).
+See [Frame.navigate Reference](/api/class/Frame#navigate), [Page](/ui/page), [NavigationEntry](#navigation-entry).
 
 ### getFrameById()
 
@@ -215,6 +215,157 @@ on('navigatedTo', (args: NavigationData) => {
 ```
 
 Emitted when the Frame has navigated to a new Page.
+
+## NavigationTransition Interface {#navigation-transition}
+
+See [NavigationTransition API Reference](/api/interface/NavigationTransition).
+
+### name {#transition-name}
+
+```ts
+name: string
+```
+
+A named transition name. Available transitions:
+
+- `curl` (same as `curlUp`) (**iOS only**)
+- `curlUp` (**iOS only**)
+- `curlDown` (**iOS only**)
+- `explode` (**Android only**)
+- `fade`
+- `flip` (same as `flipRight`)
+- `flipRight`
+- `flipLeft`
+- `slide` (same as `slideLeft`)
+- `slideLeft`
+- `slideRight`
+- `slideTop`
+- `slideBottom`
+
+### instance
+
+```ts
+instance: Transition
+```
+
+This property allows you to define a custom transition instance
+
+See [Transition](/api/class/Transition).
+
+### duration
+
+```ts
+duration: number
+```
+
+The duration of the transition in milliseconds
+
+### curve
+
+```ts
+curve: CoreTypes.AnimationCurve
+```
+
+Sets the transition animation curve.
+
+Alternatively, you can pass an instance of type [UIViewAnimationCurve](https://developer.apple.com/documentation/uikit/uiview/animationcurve) for iOS or [android.animation.TimeInterpolator](https://developer.android.com/reference/android/animation/TimeInterpolator) for Android.
+
+See [CoreTypes.AnimationCurve](/api/namespace/CoreTypes-AnimationCurve).
+
+## NavigationEntry Interface {#navigation-entry}
+
+See [NavigationEntry API Reference](/api/interface/NavigationEntry).
+
+### moduleName
+
+```ts
+moduleName: string
+```
+
+The name of the Page module to navigate to (eg. `pages/details-page` given a `pages/details-page.xml` exists).
+
+### create()
+
+```ts
+create: () => View
+```
+
+A function called to create the Page (View instance) to be navigated to.
+
+::: details Example
+
+```ts
+function create() {
+  const page = new Page()
+  const actionBar = new ActionBar()
+  actionBar.title = 'Example Page'
+  page.actionBar = actionBar
+
+  const stackLayout = new StackLayout()
+  stackLayout.backgroundColor = '#65adf1'
+  page.content = stackLayout
+
+  return page
+}
+```
+
+:::
+
+### context
+
+```ts
+context: any
+```
+
+An object used to pass data to the navigated to Page.
+
+### transition {#navigation-entry-transition}
+
+```ts
+transition: string | NavigationTransition
+```
+
+The [transition name](#transition-name), or a NavigationTransition to use when navigating.
+
+See [NavigationTransition](#navigation-transition).
+
+### transitionAndroid
+
+```ts
+transitionAndroid: string | NavigationTransition
+```
+
+Overrides the [transition](#navigation-entry-transition) property when navigating on Android.
+
+See [NavigationTransition](#navigation-transition).
+
+### transitioniOS
+
+```ts
+transitioniOS: string | NavigationTransition
+```
+
+Overrides the [transition](#navigation-entry-transition) property when navigating on iOS.
+
+See [NavigationTransition](#navigation-transition).
+
+### backstackVisible
+
+```ts
+backstackVisible: boolean
+```
+
+If set to `true`, it records the navigation in the backstack.
+
+If set to `false`, it navigates without affecting the backstack. Once navigated away from the Page, it will get disposed and the user can't navigate back to it (via the back button).
+
+### clearHistory
+
+```ts
+clearHistory: boolean
+```
+
+If set to `true`, it clears the navigation history backstack.
 
 ## Native component
 

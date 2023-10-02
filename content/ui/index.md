@@ -30,6 +30,14 @@ next: false
   </li>
 </ul>
 
+## Dialogs {#dialogs}
+
+<ul>
+  <li v-for="item in category('Dialogs')">
+    <a :href="item.link">{{ item.text }}</a>
+  </li>
+</ul>
+
 ## Components {#components}
 
 <ul>

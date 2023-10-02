@@ -12,7 +12,7 @@ export default [
   {
     text: 'Docs',
     link: '/',
-    activeMatch: '^/(?!plugins|best-practices|api|dev-reference|tutorials|ui)',
+    activeMatch: '^/(?!plugins|best-practices|api|dev-reference|tutorials|ui|core)',
     icon: 'BookOpenIcon',
   },
 
@@ -30,8 +30,7 @@ export default [
   },
   {
     text: 'Plugins',
-    link: '/soon',
-    activeMatch: '^/plugins',
+    link: 'https://docs.nativescript.org/plugins/index.html',
     icon: 'CubeTransparentIcon',
   },
   // {
@@ -40,16 +39,22 @@ export default [
   //   activeMatch: '^/best-practices',
   //   icon: 'CheckIcon',
   // },
-  {
-    text: 'Integrations',
-    link: '/soon',
-    icon: 'CpuChipIcon',
-  },
+  // {
+  //   text: 'Integrations',
+  //   link: '/soon',
+  //   icon: 'CpuChipIcon',
+  // },
   {
     text: 'UI Components',
     link: '/ui/',
     activeMatch: '^/ui',
     icon: 'CubeTransparentIcon',
+  },
+  {
+    text: 'Core Reference',
+    link: '/core/',
+    activeMatch: '^/core',
+    icon: 'CodeBracketIcon',
   },
   {
     text: 'API Reference',
