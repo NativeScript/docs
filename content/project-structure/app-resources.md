@@ -37,8 +37,8 @@ App_Resources/
 ├─ Android/
 │  ├─ app.gradle
 │  ├─ libs/
-│  │  ├─ HelloAndroidLib.aar  # Android ARchive
-│  │  └─ HelloJavaLib.jar     # Java ARchive
+│  │  ├─ HelloAndroidLib.aar  # Android Archive
+│  │  └─ HelloJavaLib.jar     # Java Archive
 │  └─ src/
 │     └─ main/
 │       ├─ java/
@@ -48,10 +48,6 @@ App_Resources/
 └─ ... more
 ```
 
-<!--  -->
-
-<!-- tab: Kotlin -->
-
 ```kotlin
 // HelloKotlin.kt
 package com.example
@@ -60,8 +56,6 @@ class HelloKotlin {
   val hello = "Hello from Kotlin!"
 }
 ```
-
-<!-- tab: Java -->
 
 ```java
 // HelloJava.java
@@ -248,4 +242,44 @@ Most things on iOS are controlled directly through the app's template code howev
 
 ### Adding custom entitlements
 
-<!-- TODO: entitlements guide -->
+You can add custom entitlements to the `App_Resources/iOS/app.entitlements`
+
+For a list of available entitlements refer to [Apple's Entitlements documentation](https://developer.apple.com/documentation/bundleresources/entitlements?language=objc)
+
+### Adding ObjectiveC/Swift Code to an application
+
+You can add Objective-C/Swift source files to `App_Resources/iOS/src`. For Objective-C files, create a `.modulemap` file. To add a [CocoaPod](https://guides.cocoapods.org/using/getting-started.html), edit `App_Resources/iOS/Podfile`:
+
+```bash
+App_Resources/
+├─ iOS/
+│  ├─ src/
+│  │  ├─ Shimmer.swift
+│  │  ├─ Shimmer.h
+│  │  ├─ Shimmer.m
+│  │  └─ module.modulemap
+│  └─ Podfile
+└─ ... more
+```
+
+```swift
+extension UIView {
+  @objc func startShimmering(
+    speed: Float = 1.4,
+    repeatCount: Float = MAXFLOAT
+  ) {
+    // ...
+  }
+}
+```
+
+```objc
+#import "Shimmer.h"
+
+@implementation UIView (Shimmer)
+- (void)startShimmering
+{
+  // ...
+}
+@end
+```
