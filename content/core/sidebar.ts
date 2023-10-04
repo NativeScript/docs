@@ -2,12 +2,9 @@ import type { NSSidebarItem } from '../../.vitepress/theme/vitepress-theme'
 
 export default [
   {
-    text: 'Core Reference',
+    text: 'Commonly Used APIs',
     link: '/core/',
-    // hides the sidebar item from the sidebar, but keeps it in the breadcrumbs
-    visible: false,
-    // todo: add a different type to disable indentation on the root level
-    type: 'filetree',
+    hideChildren: true,
     items: [
       {
         text: '@nativescript/core',
@@ -70,7 +67,7 @@ export default [
             link: '/core/xml-parser',
           },
         ],
-      },
+      } as NSSidebarItem,
     ],
   },
 ] as NSSidebarItem[]

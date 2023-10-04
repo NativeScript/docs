@@ -31,7 +31,7 @@ export default [
   {
     text: 'Plugins',
     link: 'https://docs.nativescript.org/plugins/index.html',
-    icon: 'CubeTransparentIcon',
+    icon: 'PuzzlePieceIcon',
   },
   // {
   //   text: 'Best Practices',
@@ -48,13 +48,7 @@ export default [
     text: 'UI Components',
     link: '/ui/',
     activeMatch: '^/ui',
-    icon: 'CubeTransparentIcon',
-  },
-  {
-    text: 'Core Reference',
-    link: '/core/',
-    activeMatch: '^/core',
-    icon: 'CodeBracketIcon',
+    icon: 'RectangleGroupIcon',
   },
   {
     text: 'API Reference',

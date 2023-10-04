@@ -1,10 +1,11 @@
 import type { NSSidebarGroup } from '../.vitepress/theme/vitepress-theme'
 
 import updatingItems from './guide/updating/sidebar'
+import coreSidebarItems from './core/sidebar'
 
 export default [
   {
-    text: 'The Basics',
+    text: 'Getting Started',
     items: [
       { text: 'Introduction', link: '/' },
       {
@@ -20,24 +21,7 @@ export default [
         text: 'Creating a Project',
         link: '/guide/creating-a-project',
       },
-      {
-        text: 'Navigation',
-        link: '/guide/navigation/',
-        items: [
-          {
-            text: 'Using Frames and Pages',
-            link: '/guide/navigation/frames-and-pages',
-          },
-          {
-            text: 'Using Modals',
-            link: '/guide/navigation/modals',
-          },
-        ],
-      },
-      {
-        text: 'Styling',
-        link: '/guide/styling',
-      },
+
       {
         text: 'Choosing an editor',
         link: '/guide/choosing-an-editor',
@@ -79,20 +63,7 @@ export default [
         text: 'Updating',
         link: '/guide/updating/',
         hideChildren: true,
-        items: updatingItems
-      },
-    ],
-  },
-  {
-    text: 'Configuration',
-    items: [
-      {
-        text: 'Config Reference',
-        link: '/configuration/nativescript',
-      },
-      {
-        text: 'Webpack Reference',
-        link: '/configuration/webpack',
+        items: updatingItems,
       },
     ],
   },
@@ -169,7 +140,63 @@ export default [
       // },
     ],
   },
-  
+  {
+    text: 'Configuration',
+    items: [
+      {
+        text: 'Config Reference',
+        link: '/configuration/nativescript',
+      },
+      {
+        text: 'Webpack Reference',
+        link: '/configuration/webpack',
+      },
+    ],
+  },
+  {
+    text: 'Fundamental Concepts',
+    items: [
+      {
+        text: 'Animations',
+        link: '/guide/animations',
+      },
+      ...coreSidebarItems,
+      {
+        text: 'Data Binding',
+        link: '/guide/data-binding',
+      },
+      {
+        text: 'Error Handling',
+        link: '/guide/error-handling',
+      },
+      {
+        text: 'Gestures',
+        link: '/guide/gestures',
+      },
+      {
+        text: 'Navigation',
+        link: '/guide/navigation/',
+        items: [
+          {
+            text: 'Using Frames and Pages',
+            link: '/guide/navigation/frames-and-pages',
+          },
+          {
+            text: 'Using Modals',
+            link: '/guide/navigation/modals',
+          },
+        ],
+      },
+      {
+        text: 'Property System',
+        link: '/guide/property-system',
+      },
+      {
+        text: 'Styling',
+        link: '/guide/styling',
+      },
+    ],
+  },
   {
     text: 'Advanced Concepts',
     items: [
@@ -192,6 +219,10 @@ export default [
         ],
       },
       {
+        text: 'Shared Element Transitions',
+        link: '/guide/shared-element-transitions',
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
@@ -199,6 +230,10 @@ export default [
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
+      // {
+      //   text: 'The Layout Process',
+      //   link: '/guide/advanced/the-layout-process',
+      // },
       {
         text: 'Metadata',
         link: '/guide/metadata',
@@ -220,34 +255,6 @@ export default [
             link: '/guide/android-marshalling',
           },
         ],
-      },
-      {
-        text: 'Animations',
-        link: '/guide/animations',
-      },
-      {
-        text: 'Gestures',
-        link: '/guide/gestures',
-      },
-      {
-        text: 'Shared Element Transitions',
-        link: '/guide/shared-element-transitions',
-      },
-      {
-        text: 'Data Binding',
-        link: '/guide/data-binding',
-      },
-      {
-        text: 'Property System',
-        link: '/guide/property-system',
-      },
-      {
-        text: 'The Layout Process',
-        link: '/guide/advanced/the-layout-process',
-      },
-      {
-        text: 'Error Handling',
-        link: '/guide/error-handling',
       },
     ],
   },
