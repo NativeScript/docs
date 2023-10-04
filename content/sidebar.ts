@@ -1,4 +1,4 @@
-import type { NSSidebarGroup } from '../.vitepress/theme/vitepress-theme'
+import type { NSSidebarGroup } from '@nativescript/vitepress-theme'
 
 import updatingItems from './guide/updating/sidebar'
 import coreSidebarItems from './core/sidebar'

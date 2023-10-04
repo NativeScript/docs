@@ -13,6 +13,7 @@
     "lint:text": "textlint ./content/**/*.md"
   },
   "devDependencies": {
+    "@nativescript/vitepress-theme": "https://github.com/NativeScript/docs/releases/download/vitepress-theme/vitepress-theme.tgz",
     "@types/node": "18.11.9",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",

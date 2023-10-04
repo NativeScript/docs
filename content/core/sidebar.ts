@@ -1,4 +1,4 @@
-import type { NSSidebarItem } from '../../.vitepress/theme/vitepress-theme'
+import type { NSSidebarItem } from '@nativescript/vitepress-theme'
 
 export default [
   {
