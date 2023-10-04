@@ -12,21 +12,19 @@ NativeScript allows error handling to be set dependent on whether the app is in 
 
 ```ts
 const errorHandler: TraceErrorHandler = {
-
   handlerError(err) {
     throw err
-  }
+  },
 }
 ```
 
-**Prevent app crash**: Write the error message to the console and continue the execution of the app. 
+**Prevent app crash**: Write the error message to the console and continue the execution of the app.
 
 ```ts
 const errorHandler: TraceErrorHandler = {
-
   handlerError(err) {
     Trace.write(err, 'unhandled-error', type.error)
-  }
+  },
 }
 ```
 
@@ -36,10 +34,9 @@ const errorHandler: TraceErrorHandler = {
 
 ```ts
 const errorHandler: TraceErrorHandler = {
-
   handlerError(err) {
     reportToAnalytics(err)
-  }
+  },
 }
 ```
 
@@ -55,12 +52,12 @@ Nativescript also allows the prevention of an app crash by disabling rethrowing 
 ios: {
 ...
     "discardUncaughtJsExceptions": true,
-  
+
 },
 android: {
 ...
     "discardUncaughtJsExceptions": true,
-  
+
 },
 ```
 
@@ -71,18 +68,19 @@ To handle discarded exceptions, two options are available:
 ```ts
 import { Application, DiscardedErrorEventData } from '@nativescript/core'
 
-Application.on(Application.discardedErrorEvent, function (args: DiscardedErrorEventData) {
-  const error = args.error
+Application.on(
+  Application.discardedErrorEvent,
+  function (args: DiscardedErrorEventData) {
+    const error = args.error
 
-  console.log('Received discarded exception: ')
-  console.log(error.message)
-  console.log(error.name)
-  console.log(error.stack)
-  console.log(error.nativeError)
-  // for example, report the exception to an analytics solution here
-})
+    console.log('Received discarded exception: ')
+    console.log(error.message)
+    console.log(error.name)
+    console.log(error.stack)
+    console.log(error.nativeError)
+    // for example, report the exception to an analytics solution here
+  }
+)
 ```
 
 - Assigning a one-argument function to `global.__onDiscardedError` which will receive the exception as a `NativeScriptError` instance.
-
-

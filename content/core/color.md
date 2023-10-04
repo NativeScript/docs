@@ -4,25 +4,27 @@ description: Create a color object with any color representation and use it in y
 ---
 
 The `Color` class enables the creation of a color object:
- - using color components (alpha, red, green, blue) ranging from 0 to 255,
- - using various color representations like ARGB, color names, hex values, and more.
- 
+
+- using color components (alpha, red, green, blue) ranging from 0 to 255,
+- using various color representations like ARGB, color names, hex values, and more.
+
 The `ios` and `android` properties of the `Color` class instance return the native platform instance of [UIColor](https://developer.apple.com/documentation/uikit/uicolor) on iOS and [Color](https://developer.android.com/reference/android/graphics/Color) on Android.
 
 ## How to use the Color class
 
 <!-- Preview: https://stackblitz.com/edit/nativescript-stackblitz-templates-x2y7k6?file=app/main-view-model.ts -->
+
 ### Create a color object from a hex value
 
 ```ts
-const color = new Color('#FF00CC');
-const colorShortHex = new Color('#F0C');
+const color = new Color('#FF00CC')
+const colorShortHex = new Color('#F0C')
 ```
 
 ### Create a color object from an alpha value
 
 ```ts
-const colorARGB = new Color(100, 255, 100, 100);
+const colorARGB = new Color(100, 255, 100, 100)
 ```
 
 ## Color API
@@ -36,12 +38,15 @@ Creates a color object. The Color class offers the following constructor overloa
 ```ts
 const color = new Color(knownColor)
 ```
+
 Creates a Color instance from a known color name.
+
 - `knownColor` : A color name string such as `'red'`, `'purple'`, `'orange'`.
 
 ```ts
 const color = new Color(hex)
 ```
+
 Creates a Color instance from a color hexidecimal code.
 
 - `hex`: A string of a hexidecimal color value such as `'#fff'` or `'#FF00CC'`.
@@ -49,12 +54,15 @@ Creates a Color instance from a color hexidecimal code.
 ```ts
 const color = new Color(argb)
 ```
+
 Creates a Color instance from a number representing a color with an alpha.
-- `argb`: A number  such as `4293377432` as, representing color.
+
+- `argb`: A number such as `4293377432` as, representing color.
 
 ```ts
 const color = new Color(alpha: number, red: number, green:number, blue: number, type?: 'rgb' | 'hsl' | 'hsv')
 ```
+
 ---
 
 ### a
@@ -100,7 +108,7 @@ Gets the Blue component of the color. This is a `read-only` property.
 ### argb
 
 ```ts
-colorARGB : number = color.argb
+colorARGB: number = color.argb
 ```
 
 Gets the Argb Number representation of this color where each 8 bits represent a single color component. This is a `read-only` property.
@@ -120,7 +128,7 @@ Gets the Hexadecimal string representation of the color.
 ### name
 
 ```ts
-colorName: string =color.name
+colorName: string = color.name
 ```
 
 Gets the known name of this instance. Defined only if it has been constructed from a known color name - e.g. "red".
@@ -157,7 +165,7 @@ A static Color class method that compares two `Color` instances and returns `tru
 
 ---
 
-###  Color.isValid()
+### Color.isValid()
 
 ```ts
 isValidColorValue: boolean = Color.isValid(value)
@@ -213,7 +221,7 @@ A static method that returns a new Color from HSV.
 color.equals(value)
 ```
 
-A Color instance method that checks whether the color instance on which the method is called equals the Color instance passed to the method. 
+A Color instance method that checks whether the color instance on which the method is called equals the Color instance passed to the method.
 
 ---
 
@@ -262,9 +270,10 @@ Returns the color's [luminance](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#r
 ```ts
 colorWithAlpha: Color = color.setAlpha(a)
 ```
+
 Adds the specified alpha to the color instance on which the method is called and returns the result as a new Color instance.
 
-`a` is a value between `0` and `255`. 
+`a` is a value between `0` and `255`.
 
 ---
 
@@ -377,6 +386,7 @@ colorSpinned: Color = color.spin(amount)
 Spins the hue by the given amount, from -`360` to `360`. Calling with `0`, `360`, or -`360` does nothing since it sets the hue back to what it was before.
 
 ---
+
 ### complement()
 
 ```ts
@@ -388,5 +398,6 @@ Returns a Color instance that is the complement of the current color.
 ---
 
 ## Native Component
+
 - `Android`: [android.graphics.Color](https://developer.android.com/reference/android/graphics/Color)
 - `iOS`: [UIColor](https://developer.apple.com/documentation/uikit/uicolor?language=objc)

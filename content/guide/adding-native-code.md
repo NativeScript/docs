@@ -2,14 +2,12 @@
 title: Adding custom native code to a project
 ---
 
-
-NativeScript allows you to access any native APIs anytime in your app. If the native API you need is not exposed through [@nativescript/core](https://docs.nativescript.org/understanding-packages#nativescript-core) or [third party plugins](https://market.nativescript.org/) or [@nativescript/* plugins](https://docs.nativescript.org/plugins/index.html)), you can add it to your project and access it right away in TypeScript.
-
+NativeScript allows you to access any native APIs anytime in your app. If the native API you need is not exposed through [@nativescript/core](https://docs.nativescript.org/understanding-packages#nativescript-core) or [third party plugins](https://market.nativescript.org/) or [@nativescript/\* plugins](https://docs.nativescript.org/plugins/index.html)), you can add it to your project and access it right away in TypeScript.
 
 1. Add native code to [App_Resources](/project-structure/app-resources). For example, see [Adding Java/Kotlin code to an application](/project-structure/app-resources#adding-java-kotlin-code-to-an-application) and [Adding ObjectiveC/Swift Code to an application](/project-structure/app-resources#adding-objectivec-swift-code-to-an-application)
 
 2. Generate types for the added APIs
-For iOS types run:
+   For iOS types run:
 
 ```cli
 ns typings ios

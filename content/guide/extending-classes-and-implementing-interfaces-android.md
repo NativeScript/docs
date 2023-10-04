@@ -7,7 +7,7 @@ title: Android Subclassing and Implementing interfaces
 The following examples demonstrate how to subclass Kotlin/Java classes in NativeScript:
 
 - Kotlin:
-  
+
 ```kotlin
 class MyButton(context: Context) : android.widget.Button(context) {
     override fun setEnabled(enabled: Boolean) {
@@ -19,7 +19,7 @@ val btn = MyButton(context)
 ```
 
 - Java:
-  
+
 ```java
 public class MyButton extends android.widget.Button {
     public MyButton(Context context) {
@@ -36,44 +36,44 @@ MyButton btn = new MyButton(context);
 ```
 
 - NativeScript using JavaScript:
-  
+
 ```js
-let constructorCalled = false;
+let constructorCalled = false
 const MyButton = android.widget.Button.extend({
-    // constructor
-    init: function() {
-        constructorCalled = true;
-    },
+  // constructor
+  init: function () {
+    constructorCalled = true
+  },
 
-    setEnabled: function(enabled) {
-        this.super.setEnabled(enabled);
-    }
-});
+  setEnabled: function (enabled) {
+    this.super.setEnabled(enabled)
+  },
+})
 
-const btn = new MyButton(context);
+const btn = new MyButton(context)
 ```
 
 - NativeScript using TypeScript:
 
 ```ts
-let constructorCalled = false;
+let constructorCalled = false
 class MyButton extends android.widget.Button {
+  constructor() {
+    super()
+    constructorCalled = true
 
-    constructor() {
-        super();
-        constructorCalled = true;
+    // necessary when extending TypeScript constructors
+    return global.__native(this)
+  }
 
-        // necessary when extending TypeScript constructors
-        return global.__native(this);
-    }
-
-    setEnabled(enabled : boolean): void {
-        this.super.setEnabled(enabled);
-    }
+  setEnabled(enabled: boolean): void {
+    this.super.setEnabled(enabled)
+  }
 }
 
-const btn = new MyButton(context);
+const btn = new MyButton(context)
 ```
+
 :::tip Note
 In the above example, the `setEnabled` function's use of `this` keyword points to the JavaScript object that proxies the extended native instance. The `this.super` usage provides access to the base class method implementation.
 :::
@@ -81,85 +81,82 @@ In the above example, the `setEnabled` function's use of `this` keyword points t
 Creating an anonymous Java class which extends from the base Java `java.lang.Object` class:
 
 - NativeScript using JavaScript:
-  
+
 ```js
 const MyClass = java.lang.Object({
-    // constructor
-    init: function() {
-    },
+  // constructor
+  init: function () {},
 
-    toString: function() {
-        // override Object's toString
-    }
-});
+  toString: function () {
+    // override Object's toString
+  },
+})
 
-const myClassInstance = new MyClass();
+const myClassInstance = new MyClass()
 ```
 
 - NativeScript using TypeScript:
-  
+
 ```ts
 class MyClass extends java.lang.Object {
-    
-    constructor() {
-        super();
-        // necessary when extending TypeScript constructors
-        return global.__native(this);
-    }
+  constructor() {
+    super()
+    // necessary when extending TypeScript constructors
+    return global.__native(this)
+  }
 
-    toString(): string {
-        // override Object's toString
-    }
+  toString(): string {
+    // override Object's toString
+  }
 }
 
-const myClassInstance = new MyClass();
+const myClassInstance = new MyClass()
 ```
 
 To create a named Java class which extends from the `java.lang.Object` class:
 
 ```js
-const MyClass = java.lang.Object("my.application.name.MyClass", {
-    // constructor
-    init: function() {
-    },
+const MyClass = java.lang.Object('my.application.name.MyClass', {
+  // constructor
+  init: function () {},
 
-    toString: function() {
-        // override Object's toString
-    }
-});
+  toString: function () {
+    // override Object's toString
+  },
+})
 
-const myClassInstance = new MyClass();
-const myClassInstance2 = new my.application.name.MyClass();
+const myClassInstance = new MyClass()
+const myClassInstance2 = new my.application.name.MyClass()
 ```
 
 - NativeScript using TypeScript:
 
 ```ts
 class MyClass extends java.lang.Object {
-    // constructor
-    constructor() {
-        super();
-        // necessary when extending TypeScript constructors
-        return global.__native(this);
-    }
+  // constructor
+  constructor() {
+    super()
+    // necessary when extending TypeScript constructors
+    return global.__native(this)
+  }
 
-    toString(): string {
-        // override Object's toString
-    }
+  toString(): string {
+    // override Object's toString
+  }
 }
 
-const myClassInstance = new MyClass();
+const myClassInstance = new MyClass()
 
 // Note: A TypeScript compilation error will result because the namespace will not be recognized. It's safe to ignore with // @ts-ignore
-const myClassInstance2 = new my.application.name.MyClass();
+const myClassInstance2 = new my.application.name.MyClass()
 
 // or you can use as any
-const myClassInstance3: any = new (my as any).application.name.MyClass();
+const myClassInstance3: any = new (my as any).application.name.MyClass()
 
 // or you can generate types to use with 'ns typings android'
 ```
 
-:::tip 
+:::tip
 One important thing to note when dealing with extending classes and implementing interfaces in NativeScript is that, unlike in Java - where you can extend an Abstract class with a new java.arbitrary.abstract.Class() { }, in NativeScript the class needs to be extended as per the previous examples - using the extend function on the java.arbitrary.abstract.Class, or using the extends class syntax in TypeScript.
 :::
 
@@ -170,7 +167,7 @@ NativeScript provides a way to create custom `android.app.Application` and [andr
 #### Extending the Android Application
 
 1. Create a new TypeScript file in the root of your project folder - name it `application.android.ts` or `application.android.js` if you are using plain JS.
-   
+
 ::: tip Note
 Note the `*.android` suffix - we want this file packaged for Android only.
 :::
@@ -217,7 +214,7 @@ android.app.Application.extend('org.myApp.Application', {
     superProto.attachBaseContext.call(this, base)
     // This code enables MultiDex support for the application (if needed compile androidx.multidex:multidex)
     // androidx.multidex.MultiDex.install(this);
-  }
+  },
 })
 ```
 
@@ -241,10 +238,10 @@ This modification is required by the native platform. It tells Android that your
 ```js
 const webpack = require('@nativescript/webpack')
 
-module.exports = env => {
+module.exports = (env) => {
   webpack.init(env)
 
-  webpack.chainWebpack(config => {
+  webpack.chainWebpack((config) => {
     if (webpack.Utils.platform.getPlatformName() === 'android') {
       // make sure the path to the applicatioon.android.(js|ts)
       // is relative to the webpack.config.js
@@ -285,7 +282,7 @@ import {
   Frame,
   Application,
   setActivityCallbacks,
-  AndroidActivityCallbacks
+  AndroidActivityCallbacks,
 } from '@nativescript/core'
 
 @NativeClass()
@@ -304,15 +301,29 @@ class Activity extends androidx.appcompat.app.AppCompatActivity {
       setActivityCallbacks(this)
     }
 
-    this._callbacks.onCreate(this, savedInstanceState, this.getIntent(), super.onCreate)
+    this._callbacks.onCreate(
+      this,
+      savedInstanceState,
+      this.getIntent(),
+      super.onCreate
+    )
   }
 
   public onNewIntent(intent: android.content.Intent): void {
-    this._callbacks.onNewIntent(this, intent, super.setIntent, super.onNewIntent)
+    this._callbacks.onNewIntent(
+      this,
+      intent,
+      super.setIntent,
+      super.onNewIntent
+    )
   }
 
   public onSaveInstanceState(outState: android.os.Bundle): void {
-    this._callbacks.onSaveInstanceState(this, outState, super.onSaveInstanceState)
+    this._callbacks.onSaveInstanceState(
+      this,
+      outState,
+      super.onSaveInstanceState
+    )
   }
 
   public onStart(): void {
@@ -401,7 +412,11 @@ androidx.appcompat.app.AppCompatActivity.extend('org.myApp.MainActivity', {
     )
   },
   onSaveInstanceState: function (outState) {
-    this._callbacks.onSaveInstanceState(this, outState, superProto.onSaveInstanceState)
+    this._callbacks.onSaveInstanceState(
+      this,
+      outState,
+      superProto.onSaveInstanceState
+    )
   },
   onStart: function () {
     this._callbacks.onStart(this, superProto.onStart)
@@ -418,7 +433,11 @@ androidx.appcompat.app.AppCompatActivity.extend('org.myApp.MainActivity', {
   onBackPressed: function () {
     this._callbacks.onBackPressed(this, superProto.onBackPressed)
   },
-  onRequestPermissionsResult: function (requestCode, permissions, grantResults) {
+  onRequestPermissionsResult: function (
+    requestCode,
+    permissions,
+    grantResults
+  ) {
     this._callbacks.onRequestPermissionsResult(
       this,
       requestCode,
@@ -435,7 +454,7 @@ androidx.appcompat.app.AppCompatActivity.extend('org.myApp.MainActivity', {
       data,
       superProto.onActivityResult
     )
-  }
+  },
   /* Add any other events you need to capture */
 })
 ```
@@ -496,11 +515,13 @@ button.setOnClickListener(new View.OnClickListener() {
 - NativeScript:
 
 ```ts
-button.setOnClickListener(new android.view.View.OnClickListener({
-    onClick: function() {
-        // Perform action on click
-    }
-}));
+button.setOnClickListener(
+  new android.view.View.OnClickListener({
+    onClick: function () {
+      // Perform action on click
+    },
+  })
+)
 ```
 
 Alternatively you can use the following pattern for a named interface implementation using TypeScript:
@@ -508,33 +529,35 @@ Alternatively you can use the following pattern for a named interface implementa
 ```ts
 @NativeClass()
 @Interfaces([android.view.View.OnClickListener])
-class ClickListener extends java.lang.Object 
-  implements android.view.View.OnClickListener {
-    constructor() {
-        super();
+class ClickListener
+  extends java.lang.Object
+  implements android.view.View.OnClickListener
+{
+  constructor() {
+    super()
 
-        // necessary when extending TypeScript constructors
-        return global.__native(this);
-    }
+    // necessary when extending TypeScript constructors
+    return global.__native(this)
+  }
 
-    onClick(view: android.view.View): void {
-        // Perform action on click
-    }
+  onClick(view: android.view.View): void {
+    // Perform action on click
+  }
 }
 
-nativeView.setOnClickListener(new ClickListener());
+nativeView.setOnClickListener(new ClickListener())
 ```
 
 Or using JavaScript:
 
 ```js
 const ClickListener = java.lang.Object.extend({
-    // the interfaces to use
-    interfaces: [android.view.View.OnClickListener], 
-    onClick: function() {
-        // Perform action on click
-    }
-});
+  // the interfaces to use
+  interfaces: [android.view.View.OnClickListener],
+  onClick: function () {
+    // Perform action on click
+  },
+})
 
-nativeView.setOnClickListener(new ClickListener());
+nativeView.setOnClickListener(new ClickListener())
 ```

@@ -109,7 +109,7 @@ onDoubleTap(args: GestureEventData) {
 ///
  -->
 
-## Long press gesture  {#long-press-gesture}
+## Long press gesture {#long-press-gesture}
 
 **Action**: A component is pressed for a few moments.
 
