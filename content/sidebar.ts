@@ -55,10 +55,11 @@ export default [
         text: 'Testing',
         link: '/guide/testing',
       },
-      {
-        text: 'Publishing',
-        link: '/guide/publishing/',
-      },
+      // TODO: finish app store and fastlane
+      // {
+      //   text: 'Publishing',
+      //   link: '/guide/publishing/',
+      // },
       {
         text: 'Updating',
         link: '/guide/updating/',
@@ -234,6 +235,10 @@ export default [
       //   text: 'The Layout Process',
       //   link: '/guide/advanced/the-layout-process',
       // },
+      {
+        text: 'Developing with visionOS',
+        link: '/guide/visionos',
+      },
       {
         text: 'Metadata',
         link: '/guide/metadata',
