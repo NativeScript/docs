@@ -13,7 +13,7 @@ Apple provides [visionOS](https://developer.apple.com/visionos/) for development
 You will need an [Apple developer account](https://developer.apple.com/programs/enroll/) to download beta tools and SDKs.
 :::
 
-<iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/qWNaG4MoIu0" title="Developing for visionOS with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/1NGoY74-vZc" title="Developing for visionOS with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Create a visionOS project
 
