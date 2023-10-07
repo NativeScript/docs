@@ -3,6 +3,7 @@ title: Developing with visionOS
 description: New exciting realities await you when developing apps for Vision Pro.
 contributors:
   - NathanWalker
+  - rigor789
 ---
 
 <img class="mx-auto" src="../assets/images/guide/vision-pro.png" alt="Vision Pro" />
@@ -97,6 +98,92 @@ You will likely want to make your Pages transparent to allow the natural glass m
 ```
 
 When running your app on `visionOS`, you can scope CSS selectors where needed by the root level `.ns-visionos` class.
+
+### Hover effect for visionOS materials
+
+All standard/system UI Component usages like Button, Switch, Pickers, etc. will automatically get system hover style effects on visionOS.
+
+It's common to add `tap` bindings in NativeScript to things like StackLayout, GridLayout, etc. which are just [UIView](https://developer.apple.com/documentation/uikit/uiview)'s.
+
+You can use new @nativescript/core APIs to easily enable visionOS [hover styles](https://developer.apple.com/documentation/uikit/uihoverstyle) on any view type throughout your app or customize per view.
+
+Apple discusses some of the important spatial considerations with these effects in [this session](https://developer.apple.com/videos/play/wwdc2023/111215/).
+
+Each view can specify it's own custom `hoverStyle` as follows:
+
+```xml
+<GridLayout hoverStyle="{{customHoverStyle}}" tap="{{tapAction}}"/>
+```
+
+The `hoverStyle` property can be defined as a `string` or `VisionHoverOptions`.
+
+```ts
+import { VisionHoverOptions } from '@nativescript/core'
+
+const hoverStyle: VisionHoverOptions = {
+    effect: 'highlight',
+    shape: 'rect',
+    shapeCornerRadius: 16
+}
+```
+
+This would apply a visionOS system highlight rectangle with a cornerRadius of 16 to that `GridLayout` when a hover is detected.
+
+The options are as follows:
+
+```ts
+export type VisionHoverEffect = 'automatic' | 'highlight' | 'lift';
+export type VisionHoverShape = 'circle' | 'rect';
+export type VisionHoverOptions = {
+	effect: VisionHoverEffect;
+	shape?: VisionHoverShape;
+	shapeCornerRadius?: number;
+};
+```
+
+When a `string` is provided, it will look for predefined `hoverStyle`'s within the `TouchManager.visionHoverOptions` that match the string name. This allows you to predefine and share custom hoverStyle's across your entire app.
+
+You can enable these effects globally throughout your app for any view which has a `tap` binding by enabling:
+
+```ts
+TouchManager.enableGlobalHoverWhereTap = true;
+```
+
+This allows you to predefine any number of custom `hoverStyle`'s you'd like to use throughout your app. You could do so in the `app.ts` or `main.ts` (aka, bootstrap file), for example:
+
+```ts
+TouchManager.enableGlobalHoverWhereTap = true;
+TouchManager.visionHoverOptions = {
+    'default': {
+        effect: 'highlight',
+        shape: 'rect',
+        shapeCornerRadius: 16
+    },
+    'slimBox': {
+        effect: 'lift',
+        shape: 'rect',
+        shapeCornerRadius: 8
+    },
+    'round': {
+        effect: 'lift',
+        shape: 'circle'
+    }
+}
+```
+
+You could then apply custom `hoverStyle`'s by their name anywhere in your app:
+
+```xml
+<GridLayout hoverStyle="default" tap="tapAction"/>
+<GridLayout hoverStyle="slimBox" tap="tapAction"/>
+<GridLayout hoverStyle="round" tap="tapAction"/>
+```
+
+You can also disable a hoverStyle on any view by adding the `visionIgnoreHoverStyle` property if desired. 
+
+::: info Note
+When no `hoverStyle` is defined and not using `TouchManager.enableGlobalHoverWhereTap`, visionOS will use default behavior by enabling hoverStyle's on standard controls as mentioned. Other views would have no hoverStyle as expected.
+:::
 
 ### View template visionOS scoping
 
