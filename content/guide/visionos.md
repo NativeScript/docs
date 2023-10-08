@@ -262,6 +262,29 @@ struct NativeScriptMainWindow: Scene {
 This is enabled for `visionOS` only right now with NativeScript however this will be used in iOS and macOS apps in the future.
 :::
 
+### Support multiple windows
+
+In order to add volumetric and immersize spaces, be sure you add the following setting to your `App_Resources/visionOS/Info.plist`:
+
+```xml
+<key>UIApplicationSceneManifest</key>
+<dict>
+    <key>UIApplicationSupportsMultipleScenes</key>
+    <true/>
+</dict>
+```
+
 ## What's Next?
 
-There is an entirely new world to talk about here and **a lot is possible**. We will begin sharing more details on expanding your visionOS apps to support volumetric windows and immersive spaces while you explore what's possible already.
+Beyond what is already possible, the innovative possibility is incredible and this is the beginning of an entirely new world. @nativescript/core along with 3rd party plugins could provide even more SwiftUI providers to enable exciting and powerful development workflows. 
+
+We will begin sharing more details over time about expanding your visionOS apps to support volumetric windows and immersive spaces while you explore what's already possible.
+
+You can follow along in these "visionOS Hello World" tutorials:
+
+- [Build visionOS apps with TypeScript](https://blog.nativescript.org/build-visionos-apps-with-typescript)
+- [Build visionOS apps with Angular](https://blog.nativescript.org/build-visionos-apps-with-angular)
+- [Build visionOS apps with React](https://blog.nativescript.org/build-visionos-apps-with-react)
+- [Build visionOS apps with Solid](https://blog.nativescript.org/build-visionos-apps-with-solid)
+- [Build visionOS apps with Svelte](https://blog.nativescript.org/build-visionos-apps-with-svelte)
+- [Build visionOS apps with Vue](https://blog.nativescript.org/build-visionos-apps-with-vue)
