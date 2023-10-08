@@ -280,11 +280,11 @@ Beyond what is already possible, the innovative possibility is incredible and th
 
 We will begin sharing more details over time about expanding your visionOS apps to support volumetric windows and immersive spaces while you explore what's already possible.
 
-You can follow along in these "visionOS Hello World" tutorials:
+You can follow along in these "Vision Pro 🥽 Hello World" tutorials:
 
-- [Build visionOS apps with TypeScript](https://blog.nativescript.org/build-visionos-apps-with-typescript)
-- [Build visionOS apps with Angular](https://blog.nativescript.org/build-visionos-apps-with-angular)
-- [Build visionOS apps with React](https://blog.nativescript.org/build-visionos-apps-with-react)
-- [Build visionOS apps with Solid](https://blog.nativescript.org/build-visionos-apps-with-solid)
-- [Build visionOS apps with Svelte](https://blog.nativescript.org/build-visionos-apps-with-svelte)
-- [Build visionOS apps with Vue](https://blog.nativescript.org/build-visionos-apps-with-vue)
+- [Develop Vision Pro 🥽 apps with TypeScript](https://blog.nativescript.org/develop-visionos-apps-with-typescript)
+- [Develop Vision Pro 🥽 apps with Angular](https://blog.nativescript.org/develop-visionos-apps-with-angular)
+- [Develop Vision Pro 🥽 apps with React](https://blog.nativescript.org/develop-visionos-apps-with-react)
+- [Develop Vision Pro 🥽 apps with Solid](https://blog.nativescript.org/develop-visionos-apps-with-solid)
+- [Develop Vision Pro 🥽 apps with Svelte](https://blog.nativescript.org/develop-visionos-apps-with-svelte)
+- [Develop Vision Pro 🥽 apps with Vue](https://blog.nativescript.org/develop-visionos-apps-with-vue)
