@@ -18,6 +18,11 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   appearance: false,
+  vite: {
+    ssr: {
+      noExternal: ['@nativescript/vitepress-theme'],
+    },
+  },
   themeConfig: {
     editLink: {
       ...(isDev && {
