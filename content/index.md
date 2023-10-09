@@ -2,15 +2,39 @@
 title: Introduction
 contributors:
   - rigor789
+  - NathanWalker
 ---
 
 ## What is NativeScript?
 
-NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience, which can be used to build cross platform apps. This is facilitated by the iOS (@nativescript/ios) and Android (@nativescript/android) runtimes.
+NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience. 
 
-To aid in cross-platform development, common use-cases are implemented in @nativescript/core utilizing the underlying native APIs provided by each runtime.
+Some popular use cases:
 
-The "frontend" code can be authored in various frameworks often referred to as _flavors_. The currently supported flavors consist of the following:
+- Building iOS, Android and Vision Pro apps with a shared codebase (aka, cross platform apps)
+- Augmenting JavaScript projects with platform API capabilities
+- AndroidTV and Watch development
+- watchOS development
+- Building native platform apps with portable JavaScript skills
+- Learning native platforms through JavaScript understanding
+- [Exploring platform API documentation by executing APIs directly from a web browser without requiring a platform development machine setup](https://preview.nativescript.org/)
+
+### Why NativeScript?
+
+- JavaScript skill reuse
+- Natural platform feel and performance characteristics
+- Improve how Platform developers can work together with JavaScript developers 
+- Strengthening job market potential by allowing developers to port their skills between different environments
+ 
+This is all facilitated by the supported platform runtimes:
+
+- [@nativescript/android](https://beta.docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
+- [@nativescript/ios](https://beta.docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
+- [@nativescript/visionos](/guide/visionos)
+
+To aid in cross-platform development, common use cases are implemented in [@nativescript/core](/core) utilizing the underlying native APIs provided by each runtime.
+
+Many popular JavaScript frameworks can be used; often referred to as _flavors_, for example:
 
 - Plain JavaScript or TypeScript&mdash;currently part of `@nativescript/core`, uses XML to declare the UI and JavaScript classes for data binding
 - Angular&mdash;published under `@nativescript/angular`
@@ -20,7 +44,11 @@ The "frontend" code can be authored in various frameworks often referred to as _
 
 ::: tip There's more!
 
-These are the officially supported frontend flavors, however given how NativeScript is built, new flavors can be implemented on top of it. A great example is a few community projects that bring support for various other flavors: [SolidJS](https://github.com/nativescript-community/solid-js), [rEFui](https://github.com/SudoMaker/rEFui#native), and [more with DOMiNATIVE](https://github.com/SudoMaker/dominative).
+Given how NativeScript is built, new flavors can be implemented on top of it anytime. A few great examples from the community:
+
+- [SolidJS](https://github.com/nativescript-community/solid-js)
+- [rEFui](https://github.com/SudoMaker/rEFui#native)
+- and [more with DOMiNATIVE](https://github.com/SudoMaker/dominative)
 
 :::
 
