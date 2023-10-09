@@ -277,7 +277,7 @@ In order to add volumetric and immersize spaces, be sure you add the following s
 
 ## What's Next?
 
-Beyond what is already possible, the innovative possibility is incredible and this is the beginning of an entirely new world. @nativescript/core along with 3rd party plugins could provide even more SwiftUI providers to enable exciting and powerful development workflows.
+Beyond what is already possible, the innovative possibility is exciting and this is the beginning of an entirely new world. @nativescript/core along with 3rd party plugins could provide even more SwiftUI providers to enable new powerful development workflows.
 
 We will begin sharing more details over time about expanding your visionOS apps to support volumetric windows and immersive spaces while you explore what's already possible.
 

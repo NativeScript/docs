@@ -17,7 +17,7 @@ Some popular use cases:
 - watchOS development
 - Building native platform apps with portable JavaScript skills
 - Learning native platforms through JavaScript understanding
-- [Exploring platform API documentation by executing APIs directly from a web browser without requiring a platform development machine setup](https://preview.nativescript.org/)
+- Exploring platform API documentation by [trying APIs directly from a web browser without requiring a platform development machine setup](https://preview.nativescript.org/)
 
 ### Why NativeScript?
 
