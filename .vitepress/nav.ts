@@ -30,7 +30,7 @@ export default [
   },
   {
     text: 'Plugins',
-    link: 'https://docs.nativescript.org/plugins/index.html',
+    link: 'https://v8.docs.nativescript.org/plugins/index.html',
     icon: 'PuzzlePieceIcon',
   },
   // {
