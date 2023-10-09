@@ -13,7 +13,8 @@ Some popular use cases:
 
 - Building iOS, Android and Vision Pro apps with a shared codebase (aka, cross platform apps)
 - Augmenting JavaScript projects with platform API capabilities
-- Embedded systems development with JavaScript
+- AndroidTV and Watch development
+- watchOS development
 - Building native platform apps with portable JavaScript skills
 - Learning native platforms through JavaScript understanding
 - [Exploring platform API documentation by executing APIs directly from a web browser without requiring a platform development machine setup](https://preview.nativescript.org/)

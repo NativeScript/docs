@@ -19,3 +19,9 @@ NativeScript is a celebration of the platform in your favorite language, **JavaS
 | [Create a NativeScript plugin Part 1: Label Marquee](https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label) | Blog/Tutorial | Intermediate |
 | [Create a NativeScript plugin Part 2: Shimmer](https://blog.nativescript.org/create-a-custom-view-plugin-shimmer)             | Blog/Tutorial | Intermediate |
 | [Create a NativeScript plugin Part 3: Touch Effects](https://blog.nativescript.org/create-a-custom-view-plugin-touch-effects) | Blog/Tutorial | Intermediate |
+| [Develop Vision Pro 🥽 apps with TypeScript](https://blog.nativescript.org/develop-visionos-apps-with-typescript)             | Blog/Tutorial | Advanced     |
+| [Develop Vision Pro 🥽 apps with Angular](https://blog.nativescript.org/develop-visionos-apps-with-angular)                   | Blog/Tutorial | Advanced     |
+| [Develop Vision Pro 🥽 apps with React](https://blog.nativescript.org/develop-visionos-apps-with-react)                       | Blog/Tutorial | Advanced     |
+| [Develop Vision Pro 🥽 apps with Solid](https://blog.nativescript.org/develop-visionos-apps-with-solid)                       | Blog/Tutorial | Advanced     |
+| [Develop Vision Pro 🥽 apps with Svelte](https://blog.nativescript.org/develop-visionos-apps-with-svelte)                     | Blog/Tutorial | Advanced     |
+| [Develop Vision Pro 🥽 apps with Vue](https://blog.nativescript.org/develop-visionos-apps-with-vue)                           | Blog/Tutorial | Advanced     |

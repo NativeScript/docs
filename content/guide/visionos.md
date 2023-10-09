@@ -18,7 +18,7 @@ You will need an [Apple developer account](https://developer.apple.com/programs/
 
 ## Create a visionOS project
 
-Given that Apple is distributing visionOS with *only* [Xcode beta](https://developer.apple.com/xcode/resources) at the moment (*not the current Xcode release*), we are providing `vision` tagged npm packages to keep things distinct while you develop for visionOS.
+Given that Apple is distributing visionOS with _only_ [Xcode beta](https://developer.apple.com/xcode/resources) at the moment (_not the current Xcode release_), we are providing `vision` tagged npm packages to keep things distinct while you develop for visionOS.
 
 **You will need the `vision` CLI**:
 
@@ -77,6 +77,7 @@ Once Apple releases visionOS in a final Xcode release these tags will no longer 
 We strongly encourage developers to understand and use Apple's system glass materials throughout their apps in addition to closely following their design guidelines.
 
 We recommend watching the following WWDC 2023 videos covering visionOS for fundamental understandings:
+
 - [Design for spatial user interfaces](https://developer.apple.com/videos/play/wwdc2023/10076/)
 - [Design considerations for vision and motion](https://developer.apple.com/videos/play/wwdc2023/10078/)
 - [Meet UIKit for spatial computing](https://developer.apple.com/videos/play/wwdc2023/111215/)
@@ -93,7 +94,7 @@ You will likely want to make your Pages transparent to allow the natural glass m
 
 ```css
 .ns-visionos Page {
-    background-color: transparent;
+  background-color: transparent;
 }
 ```
 
@@ -121,9 +122,9 @@ The `hoverStyle` property can be defined as a `string` or `VisionHoverOptions`.
 import { VisionHoverOptions } from '@nativescript/core'
 
 const hoverStyle: VisionHoverOptions = {
-    effect: 'highlight',
-    shape: 'rect',
-    shapeCornerRadius: 16
+  effect: 'highlight',
+  shape: 'rect',
+  shapeCornerRadius: 16,
 }
 ```
 
@@ -132,13 +133,13 @@ This would apply a visionOS system highlight rectangle with a cornerRadius of 16
 The options are as follows:
 
 ```ts
-export type VisionHoverEffect = 'automatic' | 'highlight' | 'lift';
-export type VisionHoverShape = 'circle' | 'rect';
+export type VisionHoverEffect = 'automatic' | 'highlight' | 'lift'
+export type VisionHoverShape = 'circle' | 'rect'
 export type VisionHoverOptions = {
-	effect: VisionHoverEffect;
-	shape?: VisionHoverShape;
-	shapeCornerRadius?: number;
-};
+  effect: VisionHoverEffect
+  shape?: VisionHoverShape
+  shapeCornerRadius?: number
+}
 ```
 
 When a `string` is provided, it will look for predefined `hoverStyle`'s within the `TouchManager.visionHoverOptions` that match the string name. This allows you to predefine and share custom hoverStyle's across your entire app.
@@ -146,28 +147,28 @@ When a `string` is provided, it will look for predefined `hoverStyle`'s within t
 You can enable these effects globally throughout your app for any view which has a `tap` binding by enabling:
 
 ```ts
-TouchManager.enableGlobalHoverWhereTap = true;
+TouchManager.enableGlobalHoverWhereTap = true
 ```
 
 This allows you to predefine any number of custom `hoverStyle`'s you'd like to use throughout your app. You could do so in the `app.ts` or `main.ts` (aka, bootstrap file), for example:
 
 ```ts
-TouchManager.enableGlobalHoverWhereTap = true;
+TouchManager.enableGlobalHoverWhereTap = true
 TouchManager.visionHoverOptions = {
-    'default': {
-        effect: 'highlight',
-        shape: 'rect',
-        shapeCornerRadius: 16
-    },
-    'slimBox': {
-        effect: 'lift',
-        shape: 'rect',
-        shapeCornerRadius: 8
-    },
-    'round': {
-        effect: 'lift',
-        shape: 'circle'
-    }
+  default: {
+    effect: 'highlight',
+    shape: 'rect',
+    shapeCornerRadius: 16,
+  },
+  slimBox: {
+    effect: 'lift',
+    shape: 'rect',
+    shapeCornerRadius: 8,
+  },
+  round: {
+    effect: 'lift',
+    shape: 'circle',
+  },
 }
 ```
 
@@ -179,7 +180,7 @@ You could then apply custom `hoverStyle`'s by their name anywhere in your app:
 <GridLayout hoverStyle="round" tap="tapAction"/>
 ```
 
-You can also disable a hoverStyle on any view by adding the `visionIgnoreHoverStyle` property if desired. 
+You can also disable a hoverStyle on any view by adding the `visionIgnoreHoverStyle` property if desired.
 
 ::: info Note
 When no `hoverStyle` is defined and not using `TouchManager.enableGlobalHoverWhereTap`, visionOS will use default behavior by enabling hoverStyle's on standard controls as mentioned. Other views would have no hoverStyle as expected.
@@ -276,7 +277,7 @@ In order to add volumetric and immersize spaces, be sure you add the following s
 
 ## What's Next?
 
-Beyond what is already possible, the innovative possibility is incredible and this is the beginning of an entirely new world. @nativescript/core along with 3rd party plugins could provide even more SwiftUI providers to enable exciting and powerful development workflows. 
+Beyond what is already possible, the innovative possibility is incredible and this is the beginning of an entirely new world. @nativescript/core along with 3rd party plugins could provide even more SwiftUI providers to enable exciting and powerful development workflows.
 
 We will begin sharing more details over time about expanding your visionOS apps to support volumetric windows and immersive spaces while you explore what's already possible.
 
