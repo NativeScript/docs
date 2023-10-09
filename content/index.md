@@ -28,8 +28,8 @@ Some popular use cases:
  
 This is all facilitated by the supported platform runtimes:
 
-- [@nativescript/android](https://beta.docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
-- [@nativescript/ios](https://beta.docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
+- [@nativescript/android](/guide/extending-classes-and-implementing-interfaces-android)
+- [@nativescript/ios](/guide/extending-classes-and-conforming-to-protocols-ios)
 - [@nativescript/visionos](/guide/visionos)
 
 To aid in cross-platform development, common use cases are implemented in [@nativescript/core](/core) utilizing the underlying native APIs provided by each runtime.
