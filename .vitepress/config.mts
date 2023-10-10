@@ -35,8 +35,8 @@ export default defineConfig({
         : `https://pr.new/github.com/NativeScript/docs/edit/${branch}/content/:filePath?initialPath=:path`,
     },
     algolia: {
-      appId: '',
-      apiKey: '8d41b4ae92a02aea355e1dc8cfad1899',
+      appId: '110JARHFDU',
+      apiKey: '1092c85b01c392fc821d783427c7f27a',
       indexName: 'nativescript',
     },
     nav,

@@ -14,7 +14,7 @@
     "update-theme": "node ./.vitepress/update-theme.mjs"
   },
   "devDependencies": {
-    "@nativescript/vitepress-theme": "https://github.com/NativeScript/docs/releases/download/vitepress-theme/vitepress-theme.tgz?1696883010844",
+    "@nativescript/vitepress-theme": "https://github.com/NativeScript/docs/releases/download/vitepress-theme/vitepress-theme.tgz?1696962777084",
     "@types/node": "18.11.9",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
