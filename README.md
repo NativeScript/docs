@@ -1,10 +1,10 @@
-# NativeScript Docs (Beta)
+# NativeScript Docs
 
-Live version: https://beta.docs.nativescript.org/
+Live version: https://docs.nativescript.org/
 
 ---
 
-This repository holds the source for the **beta** version of our docs. This is a work in progress revamp of the docs structure and content. The theme and general functionality is being built in a different repo, this repo is purely focused on the content.
+This repository holds the source for the **latest** version of our docs. The theme and general functionality is being built in a different repo, this repo is purely focused on the content.
 
 ## Goals
 
