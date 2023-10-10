@@ -12,10 +12,10 @@ NativeScript provides platform APIs directly to the JavaScript runtime (_with st
 Some popular use cases:
 
 - Building iOS, Android and Vision Pro apps with a shared codebase (aka, cross platform apps)
+- Building native platform apps with portable JavaScript skills
 - Augmenting JavaScript projects with platform API capabilities
 - AndroidTV and Watch development
 - watchOS development
-- Building native platform apps with portable JavaScript skills
 - Learning native platforms through JavaScript understanding
 - Exploring platform API documentation by [trying APIs directly from a web browser without requiring a platform development machine setup](https://preview.nativescript.org/)
 
@@ -25,6 +25,7 @@ Some popular use cases:
 - Natural platform feel and performance characteristics
 - Improve how Platform developers can work together with JavaScript developers 
 - Strengthening job market potential by allowing developers to port their skills between different environments
+- Fully open source and a member of [OpenJS Foundation](https://openjsf.org/), supporting the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole
  
 This is all facilitated by the supported platform runtimes:
 

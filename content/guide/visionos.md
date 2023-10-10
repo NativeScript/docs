@@ -8,7 +8,7 @@ contributors:
 
 <img class="mx-auto" src="../assets/images/guide/vision-pro.png" alt="Vision Pro" />
 
-Apple provides [visionOS](https://developer.apple.com/visionos/) for development through the latest [Xcode 15 beta](https://developer.apple.com/xcode/resources/).
+Apple provides [visionOS](https://developer.apple.com/visionos/) development through the latest [Xcode 15 beta](https://developer.apple.com/xcode/resources/).
 
 ::: info Note
 You will need an [Apple developer account](https://developer.apple.com/programs/enroll/) to download beta tools and SDKs.
