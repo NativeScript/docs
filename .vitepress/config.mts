@@ -5,9 +5,21 @@ import uiSidebar from '../content/ui/sidebar'
 import nav from './nav'
 import './theme/cliLanguage'
 import path from 'node:path'
+import { SiteMap } from './genSitemap.mjs'
 
 const isDev = process.env.NODE_ENV !== 'production'
 const branch = process.env.CF_PAGES_BRANCH ?? 'main'
+
+const sitemap = new SiteMap()
+const baseUrl = 'https://docs.nativescript.org'
+function toUrl(path: string) {
+  const url = new URL(
+    path.replace(/((^|\/)index)?\.md$/, '$2'),
+    baseUrl
+  ).toString()
+  // remove trailing slash
+  return url.replace(/\/$/, '')
+}
 
 export default defineConfig({
   srcDir: './content',
@@ -58,6 +70,18 @@ export default defineConfig({
     pageData.frontmatter.contributors = transformContributors(
       pageData.frontmatter.contributors
     )
+  },
+  transformHtml(_, id, { pageData }) {
+    if (!/[\\/]404\.html$/.test(id))
+      sitemap.add({
+        // you might need to change this if not using clean urls mode
+        url: toUrl(pageData.relativePath),
+        lastmod:
+          pageData.lastUpdated ?? pageData.frontmatter?.date ?? Date.now(),
+      })
+  },
+  async buildEnd(config) {
+    await sitemap.write(config)
   },
 })
 
