@@ -143,13 +143,13 @@ Watchpack Error (watcher): Error: EMFILE: too many open files 'FILE_PATH' <-- Th
 
 ::: warning :orange_circle: Possible Solution
 
-Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zshrc` config file:
+Add the following lines to your shell profile, usually `~/.zshrc`, or if you are using `bash` then `~/.bash_profile` or `~/.bashrc` config file:
 
 ```bash
 export NODE_OPTIONS="--max-old-space-size=4096"
 ```
 
-Then open a new terminal window and try running again.
+Reload your shell (eg, `source ~/.zshrc`) or open a new terminal window and try running again.
 
 **Note**: you can increase this number further, but keep in mind the maximum value depends on the available system memory.
 

@@ -1,12 +1,10 @@
 ---
-title: Testing
+title: Unit Testing
 ---
 
-::: warning Note
-Be sure you have prepare/built/run the app at least once before starting the unit test runner.
+::: info Note about e2e testing
+For more information about e2e/integration testing, you can use [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) or the [`@nativescript/detox` plugin](https://docs.nativescript.org/plugins/detox.html).
 :::
-
-For more information about end-to-end testing, see [`@nativescript/detox` plugin](https://docs.nativescript.org/plugins/detox.html).
 
 Regularly writing and executing unit tests using tools like [Jasmine](http://jasmine.github.io/), [Mocha](https://mochajs.org/) with [Chai](http://chaijs.com/), or [QUnit](https://qunitjs.com/) through the NativeScript CLI helps ensure proper functioning of new features and prevents regressions in existing functionality during app development.
 
@@ -266,6 +264,10 @@ Before running your tests, verify that your development machine and your testing
 #### Run the Tests
 
 To execute your test suite on any connected Android devices or running Android emulators, run the following command.
+
+::: warning Note
+Be sure you have prepared the app at least once before starting the unit test runner.
+:::
 
 ```cli
 ns test android
