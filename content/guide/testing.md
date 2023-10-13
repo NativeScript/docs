@@ -3,7 +3,7 @@ title: Unit Testing
 ---
 
 ::: info Note about e2e testing
-For more information about e2e/integration testing, you can use [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) or the [`@nativescript/detox` plugin](https://docs.nativescript.org/plugins/detox.html).
+For more information about e2e/integration testing, you can use [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) or the [`@nativescript/detox`](https://v8.docs.nativescript.org/plugins/detox.html) plugin.
 :::
 
 Regularly writing and executing unit tests using tools like [Jasmine](http://jasmine.github.io/), [Mocha](https://mochajs.org/) with [Chai](http://chaijs.com/), or [QUnit](https://qunitjs.com/) through the NativeScript CLI helps ensure proper functioning of new features and prevents regressions in existing functionality during app development.
