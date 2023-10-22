@@ -7,6 +7,9 @@
 # redirect introduction
 /introduction/              /                                                               301
 
+# redirect Capacitor docs
+/capacitor                  https://capacitor.nativescript.org/                             301
+
 # redirect environment setup
 /environment-setup*         /setup/                                                         301
 
