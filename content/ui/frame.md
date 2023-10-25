@@ -163,7 +163,7 @@ navigate(pageModuleName: string): void
 // or
 navigate(create: () => Page): void
 // or
-naviage(entry: NavigationEntry): void
+navigate(entry: NavigationEntry): void
 ```
 
 Navigates to a Page.
