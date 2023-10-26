@@ -25,9 +25,37 @@ adb kill-server
 
 ## Common issues
 
+### Cocoapods Environment setup: CocoaPods is not installed or is not configured properly
+
+```cli
+WARNING: CocoaPods is not installed or is not configured properly. 
+ You will not be able to build your projects for iOS if they contain plugin with CocoaPod file.
+To be able to build such projects, verify that you have installed CocoaPods (sudo gem install cocoapods).
+```
+
+Cocoapods can be installed in system directories or via [homebrew](https://brew.sh/). Depending on which your system may already have them setup can lead to common issues in how Cocoapods are detected.
+
+You can try running the following safely:
+
+```cli
+pod cache clean -all
+pod deintegrate
+rm -rf "${HOME}/Library/Caches/CocoaPods"
+
+brew install cocoapods
+```
+
+You can then confirm your Cocoapods installed properly and have the version you expect by running:
+
+```cli
+pod --version
+```
+
+You could then try running `ns doctor` again.
+
 ### XCode 14: xcodebuild failed with exit code 65
 
-```
+```cli
 error: Signing for "XXX-YYY" requires a development team.
 Select a development team in the Signing & Capabilities editor. (in target 'XXX-YYY' from project 'Pods')
 
