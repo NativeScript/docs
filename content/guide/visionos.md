@@ -48,6 +48,20 @@ If you prefer a flavor, you can use any of the following:
 
 All projects are preconfigured with [tailwindcss](https://tailwindcss.com).
 
+### Run your visionOS project
+
+Open the Vision Pro Simulator, then run your app with:
+
+```bash
+ns run vision --no-hmr
+```
+
+The `vision` platform target is a shorthand alias for `visionos` so this can also be used:
+
+```bash
+ns run visionos --no-hmr
+```
+
 ### What makes a project work on visionOS?
 
 Primarily 3 key elements make up a NativeScript driven visionOS project:
