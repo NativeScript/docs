@@ -2,13 +2,14 @@ name: Docs CI
 
 on:
   push:
-    branches: [ main, docs/ui ]
+    branches: [main, docs/ui]
   pull_request:
-    branches: [ main, docs/ui ]
+    branches: [main, docs/ui]
+  merge_group:
+    branches: [main, docs/ui]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -19,5 +20,14 @@ jobs:
           node-version: 19
           cache: 'npm'
       - run: npm ci
-      - run: npm run lint:check --if-present
+      - run: npm run lint --if-present
       - run: npm run build --if-present
+        env:
+          NODE_OPTIONS: '--max_old_space_size=4096'
+# disabled because the output of textlint marks warnings as errors
+# # re-run lint:text with junit output for github annotations
+# - run: npm run lint:text -- --format junit --output-file lint-report.xml
+# - uses: mikepenz/action-junit-report@v3
+#   if: always()
+#   with:
+#     report_paths: 'lint-report.xml'

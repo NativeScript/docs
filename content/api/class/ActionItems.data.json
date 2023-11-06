@@ -1,0 +1,206 @@
+{
+  "title": "ActionItems",
+  "hierarchy": [
+    [
+      {
+        "text": "ActionItems"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        6295
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        6297,
+        6305,
+        6303,
+        6300
+      ]
+    }
+  ],
+  "reflections": {
+    "6295": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ActionItems#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ActionItems(): <a href=\"/api/class/ActionItems\">ActionItems</a>",
+          "url": "/api/class/ActionItems#constructor-new-actionitems",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ActionItems\">ActionItems</a>"
+        }
+      ]
+    },
+    "6297": {
+      "name": "addItem",
+      "type": "Method",
+      "url": "/api/class/ActionItems#additem",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "addItem(item: <a href=\"/api/class/ActionItem\">ActionItem</a>): void",
+          "url": "/api/class/ActionItems#additem-additem-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 82,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Adds an item to the collection."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "item",
+              "type": "<a href=\"/api/class/ActionItem\">ActionItem</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "the item to be added"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6300": {
+      "name": "removeItem",
+      "type": "Method",
+      "url": "/api/class/ActionItems#removeitem",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "removeItem(item: <a href=\"/api/class/ActionItem\">ActionItem</a>): void",
+          "url": "/api/class/ActionItems#removeitem-removeitem-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 88,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Removes an item to the collection."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "item",
+              "type": "<a href=\"/api/class/ActionItem\">ActionItem</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The item to be removed."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "6303": {
+      "name": "getItems",
+      "type": "Method",
+      "url": "/api/class/ActionItems#getitems",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getItems(): <a href=\"/api/class/ActionItem\">ActionItem</a>[]",
+          "url": "/api/class/ActionItems#getitems-getitems-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 93,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets an array of the current action items in the collection."
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "<a href=\"/api/class/ActionItem\">ActionItem</a>[]"
+        }
+      ]
+    },
+    "6305": {
+      "name": "getItemAt",
+      "type": "Method",
+      "url": "/api/class/ActionItems#getitemat",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getItemAt(index: number): <a href=\"/api/class/ActionItem\">ActionItem</a>",
+          "url": "/api/class/ActionItems#getitemat-getitemat-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/action-bar/index.d.ts",
+              "line": 99,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets an item at a specified index."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "index",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The index."
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "<a href=\"/api/class/ActionItem\">ActionItem</a>"
+        }
+      ]
+    }
+  }
+}

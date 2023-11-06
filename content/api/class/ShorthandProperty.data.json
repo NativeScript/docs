@@ -1,0 +1,266 @@
+{
+  "title": "ShorthandProperty",
+  "hierarchy": [
+    [
+      {
+        "text": "ShorthandProperty"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        12068
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        12077,
+        12076,
+        12078,
+        12074,
+        12079,
+        12075,
+        12080,
+        12081
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        12082
+      ]
+    }
+  ],
+  "reflections": {
+    "12068": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/ShorthandProperty#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new ShorthandProperty&lt;T, P&gt;(options: ShorthandPropertyOptions&lt;P&gt;): <a href=\"/api/class/ShorthandProperty\">ShorthandProperty</a>&lt;T, P&gt;",
+          "url": "/api/class/ShorthandProperty#constructor-new-shorthandproperty",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 131,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "options",
+              "type": "ShorthandPropertyOptions&lt;P&gt;",
+              "flags": {}
+            }
+          ],
+          "returns": "<a href=\"/api/class/ShorthandProperty\">ShorthandProperty</a>&lt;T, P&gt;"
+        }
+      ]
+    },
+    "12074": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#key",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 123,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#key"
+        }
+      ]
+    },
+    "12075": {
+      "name": "name",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#name",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">name</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 124,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#name"
+        }
+      ]
+    },
+    "12076": {
+      "name": "cssName",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#cssname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 125,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#cssname"
+        }
+      ]
+    },
+    "12077": {
+      "name": "cssLocalName",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#csslocalname",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssLocalName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 126,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#csslocalname"
+        }
+      ]
+    },
+    "12078": {
+      "name": "cssValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#cssvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cssValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 127,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#cssvaluedescriptor"
+        }
+      ]
+    },
+    "12079": {
+      "name": "localValueDescriptor",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#localvaluedescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">localValueDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 128,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#localvaluedescriptor"
+        }
+      ]
+    },
+    "12080": {
+      "name": "propertyBagDescriptor",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#propertybagdescriptor",
+      "flags": {
+        "isProtected": true,
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">propertyBagDescriptor</span><span style=\"color: #E1E4E8\">: PropertyDescriptor</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 129,
+              "character": 23
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#propertybagdescriptor"
+        }
+      ]
+    },
+    "12081": {
+      "name": "sourceKey",
+      "type": "Property",
+      "url": "/api/class/ShorthandProperty#sourcekey",
+      "flags": {
+        "isReadonly": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sourceKey</span><span style=\"color: #E1E4E8\">: symbol</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 130,
+              "character": 13
+            }
+          ],
+          "url": "/api/class/ShorthandProperty#sourcekey"
+        }
+      ]
+    },
+    "12082": {
+      "name": "register",
+      "type": "Method",
+      "url": "/api/class/ShorthandProperty#register",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "register(cls: typeof <a href=\"/api/class/Style\">Style</a>): void",
+          "url": "/api/class/ShorthandProperty#register-register-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/core/properties/index.d.ts",
+              "line": 132,
+              "character": 4
+            }
+          ],
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "typeof <a href=\"/api/class/Style\">Style</a>",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    }
+  }
+}

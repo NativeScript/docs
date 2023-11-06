@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ListView items="{{ examples }}" itemTap="onItemTap">
+        <ListView.itemTemplate>
+            <Label text="{{ name }}" padding="16" color="black" />
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

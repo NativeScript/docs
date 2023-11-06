@@ -1,5 +1,7 @@
 ---
 title: App_Resources
+contributors:
+  - rigor789
 ---
 
 The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform.
@@ -35,8 +37,8 @@ App_Resources/
 ├─ Android/
 │  ├─ app.gradle
 │  ├─ libs/
-│  │  ├─ HelloAndroidLib.aar  # Android ARchive
-│  │  └─ HelloJavaLib.jar     # Java ARchive
+│  │  ├─ HelloAndroidLib.aar  # Android Archive
+│  │  └─ HelloJavaLib.jar     # Java Archive
 │  └─ src/
 │     └─ main/
 │       ├─ java/
@@ -46,10 +48,6 @@ App_Resources/
 └─ ... more
 ```
 
-<!--  -->
-
-<!-- tab: Kotlin -->
-
 ```kotlin
 // HelloKotlin.kt
 package com.example
@@ -58,8 +56,6 @@ class HelloKotlin {
   val hello = "Hello from Kotlin!"
 }
 ```
-
-<!-- tab: Java -->
 
 ```java
 // HelloJava.java
@@ -201,7 +197,7 @@ To change the mode of the TimePicker from the default `spinner` style, change `a
 
 ### Enabling force Dark Mode
 
-On API29+ apps can opt-in to a default Dark Mode when the system is set to use Dark Mode. This is disabled by default as it can lead to visual issues, since the automatic conversion may not display correctly in all cases.
+On API29+ apps can opt-in to a default Dark Mode when the system is set to use Dark Mode. This is turned off by default as it can lead to visual issues, since the automatic conversion may not display correctly in all cases.
 
 To opt-in, change the `android:forceDarkAllowed` value to `true` in `App_Resources/Android/src/main/res/values-v29/styles.xml`:
 
@@ -224,8 +220,66 @@ If you enable `android:forceDarkAllowed` make sure you check if all the screens 
 
 ## iOS specific resources
 
-Most things on iOS are controlled directly through the app's template code.
+Most things on iOS are controlled directly through the app's template code however you can change the status bar style between dark (black text) or light (white text) by adding the following to your app's App_Resources/iOS/ Info.plist:
+
+- Use white text on dark background:
+
+```xml
+<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleLightContent</string>
+<key>UIViewControllerBasedStatusBarAppearance</key>
+<false/>
+```
+
+- Use black text on light background:
+
+```xml
+<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleDarkContent</string>
+<key>UIViewControllerBasedStatusBarAppearance</key>
+<false/>
+```
 
 ### Adding custom entitlements
 
-<!-- TODO: entitlements guide -->
+You can add custom entitlements to the `App_Resources/iOS/app.entitlements`
+
+For a list of available entitlements refer to [Apple's Entitlements documentation](https://developer.apple.com/documentation/bundleresources/entitlements?language=objc)
+
+### Adding ObjectiveC/Swift Code to an application
+
+You can add Objective-C/Swift source files to `App_Resources/iOS/src`. For Objective-C files, create a `.modulemap` file. To add a [CocoaPod](https://guides.cocoapods.org/using/getting-started.html), edit `App_Resources/iOS/Podfile`:
+
+```bash
+App_Resources/
+├─ iOS/
+│  ├─ src/
+│  │  ├─ Shimmer.swift
+│  │  ├─ Shimmer.h
+│  │  ├─ Shimmer.m
+│  │  └─ module.modulemap
+│  └─ Podfile
+└─ ... more
+```
+
+```swift
+extension UIView {
+  @objc func startShimmering(
+    speed: Float = 1.4,
+    repeatCount: Float = MAXFLOAT
+  ) {
+    // ...
+  }
+}
+```
+
+```objc
+#import "Shimmer.h"
+
+@implementation UIView (Shimmer)
+- (void)startShimmering
+{
+  // ...
+}
+@end
+```

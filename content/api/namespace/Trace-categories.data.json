@@ -1,0 +1,423 @@
+{
+  "title": "categories",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        5151,
+        5146,
+        5143,
+        5144,
+        5140,
+        5145,
+        5136,
+        5148,
+        5149,
+        5139,
+        5141,
+        5150,
+        5137,
+        5142,
+        5147,
+        5138,
+        5135
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        5132
+      ]
+    }
+  ],
+  "reflections": {
+    "5132": {
+      "name": "concat",
+      "type": "Function",
+      "url": "/api/namespace/Trace-categories#concat",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">concat</span><span style=\"color: #E1E4E8\">(</span><span style=\"color: #F97583\">...</span><span style=\"color: #E1E4E8\">args: any): string</span></span></code>",
+          "url": "/api/namespace/Trace-categories#concat-concat-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 126,
+              "character": 2
+            }
+          ],
+          "parameters": [
+            {
+              "name": "args",
+              "type": "any",
+              "flags": {
+                "isRest": true
+              }
+            }
+          ],
+          "returns": "string"
+        }
+      ]
+    },
+    "5135": {
+      "name": "VisualTreeEvents",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#visualtreeevents",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">VisualTreeEvents</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;VisualTreeEvents&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;VisualTreeEvents&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 107,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#visualtreeevents"
+        }
+      ]
+    },
+    "5136": {
+      "name": "Layout",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#layout",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Layout</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Layout&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Layout&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 108,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#layout"
+        }
+      ]
+    },
+    "5137": {
+      "name": "Style",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#style",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Style</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Style&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Style&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 109,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#style"
+        }
+      ]
+    },
+    "5138": {
+      "name": "ViewHierarchy",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#viewhierarchy",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ViewHierarchy</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;ViewHierarchy&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;ViewHierarchy&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 110,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#viewhierarchy"
+        }
+      ]
+    },
+    "5139": {
+      "name": "NativeLifecycle",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#nativelifecycle",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">NativeLifecycle</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;NativeLifecycle&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;NativeLifecycle&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 111,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#nativelifecycle"
+        }
+      ]
+    },
+    "5140": {
+      "name": "Debug",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#debug",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Debug</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Debug&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Debug&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 112,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#debug"
+        }
+      ]
+    },
+    "5141": {
+      "name": "Navigation",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#navigation",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Navigation</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Navigation&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Navigation&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 113,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#navigation"
+        }
+      ]
+    },
+    "5142": {
+      "name": "Test",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#test",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Test</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Test&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Test&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 114,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#test"
+        }
+      ]
+    },
+    "5143": {
+      "name": "Binding",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#binding",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Binding</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Binding&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Binding&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 115,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#binding"
+        }
+      ]
+    },
+    "5144": {
+      "name": "BindingError",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#bindingerror",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">BindingError</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;BindingError&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;BindingError&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 116,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#bindingerror"
+        }
+      ]
+    },
+    "5145": {
+      "name": "Error",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#error",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Error</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Error&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Error&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 117,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#error"
+        }
+      ]
+    },
+    "5146": {
+      "name": "Animation",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#animation",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Animation</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Animation&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Animation&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 118,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#animation"
+        }
+      ]
+    },
+    "5147": {
+      "name": "Transition",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#transition",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Transition</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Transition&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Transition&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 119,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#transition"
+        }
+      ]
+    },
+    "5148": {
+      "name": "Livesync",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#livesync",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Livesync</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Livesync&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;Livesync&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 120,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#livesync"
+        }
+      ]
+    },
+    "5149": {
+      "name": "ModuleNameResolver",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#modulenameresolver",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ModuleNameResolver</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;ModuleNameResolver&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;ModuleNameResolver&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 121,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#modulenameresolver"
+        }
+      ]
+    },
+    "5150": {
+      "name": "separator",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#separator",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">separator</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;,&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&#39;,&#39;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 123,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#separator"
+        }
+      ]
+    },
+    "5151": {
+      "name": "All",
+      "type": "Variable",
+      "url": "/api/namespace/Trace-categories#all",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">All</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/trace/index.d.ts",
+              "line": 124,
+              "character": 15
+            }
+          ],
+          "url": "/api/namespace/Trace-categories#all"
+        }
+      ]
+    }
+  }
+}

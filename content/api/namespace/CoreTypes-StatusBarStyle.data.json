@@ -1,0 +1,57 @@
+{
+  "title": "StatusBarStyle",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        5015,
+        5014
+      ]
+    }
+  ],
+  "reflections": {
+    "5014": {
+      "name": "light",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-StatusBarStyle#light",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">light</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;light&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 235,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-StatusBarStyle#light"
+        }
+      ]
+    },
+    "5015": {
+      "name": "dark",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-StatusBarStyle#dark",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">dark</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;dark&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 236,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-StatusBarStyle#dark"
+        }
+      ]
+    }
+  }
+}

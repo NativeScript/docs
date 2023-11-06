@@ -1,0 +1,662 @@
+{
+  "title": "SharedTransition",
+  "hierarchy": [
+    [
+      {
+        "text": "SharedTransition"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Constructors",
+      "items": [
+        32703
+      ]
+    },
+    {
+      "title": "Properties",
+      "items": [
+        32684,
+        32677,
+        32673,
+        32678,
+        32679,
+        32676
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        32667,
+        32674,
+        32692,
+        32695,
+        32689,
+        32680,
+        32685
+      ]
+    }
+  ],
+  "reflections": {
+    "32667": {
+      "name": "custom",
+      "type": "Method",
+      "url": "/api/class/SharedTransition#custom",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "custom(transition: <a href=\"/api/class/Transition\">Transition</a>, options?: <a href=\"/api/interface/SharedTransitionConfig\">SharedTransitionConfig</a>): {}",
+          "url": "/api/class/SharedTransition#custom-custom-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 167,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Configure a custom transition with presentation/dismissal options."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "a configured SharedTransition instance for use with navigational APIs."
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "transition",
+              "type": "<a href=\"/api/class/Transition\">Transition</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "The custom Transition instance."
+                  }
+                ]
+              }
+            },
+            {
+              "name": "options",
+              "type": "<a href=\"/api/interface/SharedTransitionConfig\">SharedTransitionConfig</a>",
+              "flags": {
+                "isOptional": true
+              },
+              "comment": {
+                "summary": []
+              }
+            }
+          ],
+          "returns": "{}"
+        }
+      ]
+    },
+    "32673": {
+      "name": "inProgress",
+      "type": "Property",
+      "url": "/api/class/SharedTransition#inprogress",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Whether a transition is in progress or not.\nNote: used internally however exposed in case custom state ordering is needed.\nUpdated when transitions start/end/cancel."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">inProgress</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 175,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Whether a transition is in progress or not.\nNote: used internally however exposed in case custom state ordering is needed.\nUpdated when transitions start/end/cancel."
+              }
+            ]
+          },
+          "url": "/api/class/SharedTransition#inprogress"
+        }
+      ]
+    },
+    "32674": {
+      "name": "events",
+      "type": "Method",
+      "url": "/api/class/SharedTransition#events",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">events</span><span style=\"color: #E1E4E8\">(): SharedTransitionObservable</span></span></code>",
+          "url": "/api/class/SharedTransition#events-events-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 180,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Listen to various shared element transition events."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Observable"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [],
+          "returns": "SharedTransitionObservable"
+        }
+      ]
+    },
+    "32676": {
+      "name": "startedEvent",
+      "type": "Property",
+      "url": "/api/class/SharedTransition#startedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When the transition starts."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">startedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 184,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When the transition starts."
+              }
+            ]
+          },
+          "url": "/api/class/SharedTransition#startedevent"
+        }
+      ]
+    },
+    "32677": {
+      "name": "finishedEvent",
+      "type": "Property",
+      "url": "/api/class/SharedTransition#finishedevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When the transition finishes."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">finishedEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 188,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When the transition finishes."
+              }
+            ]
+          },
+          "url": "/api/class/SharedTransition#finishedevent"
+        }
+      ]
+    },
+    "32678": {
+      "name": "interactiveCancelledEvent",
+      "type": "Property",
+      "url": "/api/class/SharedTransition#interactivecancelledevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When the interactive transition cancels."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveCancelledEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 192,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When the interactive transition cancels."
+              }
+            ]
+          },
+          "url": "/api/class/SharedTransition#interactivecancelledevent"
+        }
+      ]
+    },
+    "32679": {
+      "name": "interactiveUpdateEvent",
+      "type": "Property",
+      "url": "/api/class/SharedTransition#interactiveupdateevent",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "When the interactive transition updates with the percent value."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">interactiveUpdateEvent</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 196,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "When the interactive transition updates with the percent value."
+              }
+            ]
+          },
+          "url": "/api/class/SharedTransition#interactiveupdateevent"
+        }
+      ]
+    },
+    "32680": {
+      "name": "notifyEvent",
+      "type": "Method",
+      "url": "/api/class/SharedTransition#notifyevent",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">notifyEvent</span><span style=\"color: #E1E4E8\">(eventName: string, data: SharedTransitionEventDataPayload): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/SharedTransition#notifyevent-notifyevent-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 204,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Notify a Shared Transition event."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "eventName",
+              "type": "string",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Shared Transition event name"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "data",
+              "type": "SharedTransitionEventDataPayload",
+              "flags": {}
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32684": {
+      "name": "DEBUG",
+      "type": "Property",
+      "url": "/api/class/SharedTransition#debug",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Enable to see various console logging output of Shared Element Transition behavior."
+          }
+        ]
+      },
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">DEBUG</span><span style=\"color: #E1E4E8\">: boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 208,
+              "character": 11
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Enable to see various console logging output of Shared Element Transition behavior."
+              }
+            ]
+          },
+          "url": "/api/class/SharedTransition#debug"
+        }
+      ]
+    },
+    "32685": {
+      "name": "updateState",
+      "type": "Method",
+      "url": "/api/class/SharedTransition#updatestate",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">updateState</span><span style=\"color: #E1E4E8\">(id: number, state: SharedTransitionState): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/SharedTransition#updatestate-updatestate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 214,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Update transition state."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Transition instance id"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "state",
+              "type": "SharedTransitionState",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "SharedTransitionState"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32689": {
+      "name": "getState",
+      "type": "Method",
+      "url": "/api/class/SharedTransition#getstate",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">getState</span><span style=\"color: #E1E4E8\">(id: number): SharedTransitionState</span></span></code>",
+          "url": "/api/class/SharedTransition#getstate-getstate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 219,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Get current state for any transition."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Transition instance id"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "SharedTransitionState"
+        }
+      ]
+    },
+    "32692": {
+      "name": "finishState",
+      "type": "Method",
+      "url": "/api/class/SharedTransition#finishstate",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">finishState</span><span style=\"color: #E1E4E8\">(id: number): </span><span style=\"color: #F97583\">void</span></span></code>",
+          "url": "/api/class/SharedTransition#finishstate-finishstate-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 224,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Finish transition state."
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "id",
+              "type": "number",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Transition instance id"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "void"
+        }
+      ]
+    },
+    "32695": {
+      "name": "getSharedElements",
+      "type": "Method",
+      "url": "/api/class/SharedTransition#getsharedelements",
+      "flags": {
+        "isStatic": true
+      },
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "getSharedElements(fromPage: <a href=\"/api/class/ViewBase\">ViewBase</a>, toPage: <a href=\"/api/class/ViewBase\">ViewBase</a>): {\npresented: <a href=\"/api/class/View\">View</a>[];\npresenting: <a href=\"/api/class/View\">View</a>[];\n}",
+          "url": "/api/class/SharedTransition#getsharedelements-getsharedelements-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/transition/shared-transition.d.ts",
+              "line": 231,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gather view collections based on sharedTransitionTag details."
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "Collections of views pertaining to shared elements or particular pages"
+                  }
+                ]
+              }
+            ]
+          },
+          "parameters": [
+            {
+              "name": "fromPage",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Page moving away from"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "toPage",
+              "type": "<a href=\"/api/class/ViewBase\">ViewBase</a>",
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "Page moving to"
+                  }
+                ]
+              }
+            }
+          ],
+          "returns": "{\npresented: <a href=\"/api/class/View\">View</a>[];\npresenting: <a href=\"/api/class/View\">View</a>[];\n}"
+        }
+      ]
+    },
+    "32703": {
+      "name": "constructor",
+      "type": "Constructor",
+      "url": "/api/class/SharedTransition#constructor",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "ConstructorSignature",
+          "code": "new SharedTransition(): <a href=\"/api/class/SharedTransition\">SharedTransition</a>",
+          "url": "/api/class/SharedTransition#constructor-new-sharedtransition",
+          "parameters": [],
+          "returns": "<a href=\"/api/class/SharedTransition\">SharedTransition</a>"
+        }
+      ]
+    }
+  }
+}

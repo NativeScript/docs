@@ -1,0 +1,343 @@
+{
+  "title": "IDevice",
+  "hierarchy": [
+    [
+      {
+        "text": "IDevice"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2337,
+        2339,
+        2332,
+        2333,
+        2334,
+        2335,
+        2340,
+        2336,
+        2338
+      ]
+    }
+  ],
+  "reflections": {
+    "2332": {
+      "name": "manufacturer",
+      "type": "Property",
+      "url": "/api/interface/IDevice#manufacturer",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the manufacturer of the device.\nFor example: \"Apple\" or \"HTC\" or \"Samsung\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">manufacturer</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 33,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the manufacturer of the device.\nFor example: \"Apple\" or \"HTC\" or \"Samsung\"."
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#manufacturer"
+        }
+      ]
+    },
+    "2333": {
+      "name": "model",
+      "type": "Property",
+      "url": "/api/interface/IDevice#model",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the model of the device.\nFor example: \"Nexus 5\" or \"iPhone\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">model</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 39,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the model of the device.\nFor example: \"Nexus 5\" or \"iPhone\"."
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#model"
+        }
+      ]
+    },
+    "2334": {
+      "name": "os",
+      "type": "Property",
+      "url": "/api/interface/IDevice#os",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the OS of the device.\nFor example: \"Android\" or \"iOS\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">os</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 45,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the OS of the device.\nFor example: \"Android\" or \"iOS\"."
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#os"
+        }
+      ]
+    },
+    "2335": {
+      "name": "osVersion",
+      "type": "Property",
+      "url": "/api/interface/IDevice#osversion",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the OS version.\nFor example: 4.4.4(android), 8.1(ios)"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">osVersion</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 51,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the OS version.\nFor example: 4.4.4(android), 8.1(ios)"
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#osversion"
+        }
+      ]
+    },
+    "2336": {
+      "name": "sdkVersion",
+      "type": "Property",
+      "url": "/api/interface/IDevice#sdkversion",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the SDK version.\nFor example: 19(android), 8.1(ios)."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">sdkVersion</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 57,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the SDK version.\nFor example: 19(android), 8.1(ios)."
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#sdkversion"
+        }
+      ]
+    },
+    "2337": {
+      "name": "deviceType",
+      "type": "Property",
+      "url": "/api/interface/IDevice#devicetype",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the type of the current device.\nAvailable values: \"Phone\", \"Tablet\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">deviceType</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;Phone&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;Tablet&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 63,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the type of the current device.\nAvailable values: \"Phone\", \"Tablet\"."
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#devicetype"
+        }
+      ]
+    },
+    "2338": {
+      "name": "uuid",
+      "type": "Property",
+      "url": "/api/interface/IDevice#uuid",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the uuid.\nOn iOS this will return a new uuid if the application is re-installed on the device.\nIf you need to receive the same uuid even after the application has been re-installed on the device,\nuse this plugin: https://www.npmjs.com/package/nativescript-ios-uuid"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">uuid</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 71,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the uuid.\nOn iOS this will return a new uuid if the application is re-installed on the device.\nIf you need to receive the same uuid even after the application has been re-installed on the device,\nuse this plugin: https://www.npmjs.com/package/nativescript-ios-uuid"
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#uuid"
+        }
+      ]
+    },
+    "2339": {
+      "name": "language",
+      "type": "Property",
+      "url": "/api/interface/IDevice#language",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the preferred language. For example \"en\" or \"en-US\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">language</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 76,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the preferred language. For example \"en\" or \"en-US\"."
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#language"
+        }
+      ]
+    },
+    "2340": {
+      "name": "region",
+      "type": "Property",
+      "url": "/api/interface/IDevice#region",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the preferred region. For example \"US\"."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">region</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/platform/index.d.ts",
+              "line": 81,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the preferred region. For example \"US\"."
+              }
+            ]
+          },
+          "url": "/api/interface/IDevice#region"
+        }
+      ]
+    }
+  }
+}

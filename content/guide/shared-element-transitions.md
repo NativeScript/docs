@@ -1,6 +1,9 @@
 ---
 title: Shared Element Transitions
 description: Shared Element Transitions allow you to auto animate shared elements from one page to the next allowing you to deliver smooth navigational experiences.
+contributors:
+  - NathanWalker
+  - rigor789
 ---
 
 ::: tip API Availabilty
@@ -13,7 +16,7 @@ When looking for ways to elevate user experience of your apps, Shared Element Tr
 
 In essence you can declare `sharedTransitionTag` attributes on components across different pages, and pass in a custom `SharedTransition` to create engaging visual effects.
 
-<DeviceFrame type="ios">
+<DeviceFrame type="window" :buttons="false" title="Shared Element Transition Example">
 <img src="/assets/images/guide/shared-element-transitions.gif">
 </DeviceFrame>
 
@@ -78,7 +81,7 @@ page.showModal('views/modal', {
 
 ### Independent shared elements
 
-In some cases you might not have an element present on both "ends", or just need to animate additional elements during the transition. That's what "independent" shared elements solve.
+In some cases you might not have an element present on both "ends", or need to animate additional elements during the transition. That's what "independent" shared elements solve.
 
 Consider the following example:
 
@@ -197,7 +200,14 @@ interface SharedTransitionConfig {
    * State that the outgoing page transitions to.
    * (from it's current state)
    */
-  pageReturn?: SharedTransitionPageProperties
+  pageReturn?: SharedTransitionPageProperties & {
+    /**
+     * In some cases you may want the returning animation to start with the original opacity,
+     * instead of beginning where it ended up on pageEnd.
+     * Note: you can try enabling this property in cases where your return animation doesn't appear correct.
+     */
+    useStartOpacity?: boolean;
+  };
 
   /** @ios - only supported on iOS */
   interactive?: {
@@ -236,13 +246,48 @@ interface SharedProperties {
   }
 }
 
+interface SharedTransitionTagProperties = SharedProperties & {
+  /**
+   * (iOS only) The visual stacking order where 0 is at the bottom.
+   * Shared elements are stacked one on top of the other during each transition.
+   * By default they are not ordered in any particular fashion.
+   */
+  zIndex?: number;
+  /**
+   * (iOS only) Collection of properties to match and animate on each shared element.
+   *
+   * Defaults to: {
+   *   view: ['backgroundColor'],
+   *   layer: ['cornerRadius', 'borderWidth', 'borderColor']
+   * }
+   *
+   * Tip: Using an empty array, [], for view or layer will avoid copying any properties if desired.
+   */
+  propertiesToMatch?: {
+    /**
+     * View related properties
+     */
+    view?: Array<string>;
+    /**
+     * specific CALayer related properties
+     */
+    layer?: Array<string>;
+  };
+  /**
+   * (iOS only) Ability to modify other visuals while handling the transition.
+   * Callback will be fired before the shared element is positioned and added to the transition.
+   * For example: scroll a CollectionView based on the element's position
+   */
+  callback?: (view: View, action: SharedTransitionEventAction) => Promise<void>;
+};
+
 type SharedTransitionPageProperties = SharedProperties & {
   /**
    * @ios - only supported on iOS
    * Allow "independent" elements found only on one of the
    * pages to take part in the animation.
    */
-  sharedTransitionTags?: Record<string, SharedProperties>
+  sharedTransitionTags?: Record<string, SharedTransitionTagProperties>
   /**
    * Spring animation settings.
    * Defaults:
@@ -375,7 +420,7 @@ Used internally to finish the state after a transition has completed. Provided i
 
 ## Troubleshooting
 
-- It's easy to accidentally provide mismatching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
+- It's common to accidentally provide mismatching `sharedTransitionTag` values between two different pages. Always check for matching tags when encountering issues with Shared Element Transitions.
 - Try avoiding `sharedTransitionTag` on Labels since they usually won't exhibit expected behavior.
 
 ## Acknowledgements

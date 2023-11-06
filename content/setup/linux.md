@@ -2,13 +2,16 @@
 title: Setting up Linux for NativeScript
 prev: /setup
 next: /creating-a-new-project
+contributors:
+  - rigor789
+  - aryzing
 ---
 
 ## Setting up Linux for Android
 
 You will need Node, NativeScript CLI (command line interface), Android Studio and a JDK (java development kit).
 
-**Android Studio** is not strictly necessary &mdash; however it provides an easy to use interface for installing and managing the Android SDKs.
+**Android Studio** is not strictly necessary &mdash; however it provides an easy-to-use interface for installing and managing the Android SDKs.
 
 To install **Node** follow the [instructions specific to your Linux distribution](https://nodejs.org/en/download/package-manager/). We recommend using the latest version, however anything above **Node 12** should be fine.
 
@@ -59,6 +62,10 @@ OpenJDK 64-Bit Server VM (build 14.0.2+12-Ubuntu-120.04, mixed mode, sharing)
 
 javac 14.0.2
 ```
+
+:::tip Note
+NativeScript uses Gradle for Android builds. [Different versions of Gradle rely on certain versions of Java to work](https://docs.gradle.org/current/userguide/compatibility.html#java). If a build fails, check whether the version of Java installed on your system is compatible with the version of Gradle used by NativeScript. The version of Gradle used by NativeScript can be seen in the build logs or in the [source](https://github.com/NativeScript/android/blob/main/test-app/gradle/wrapper/gradle-wrapper.properties).
+:::
 
 Setting up the Android development environment can be daunting if you are new to Android development, however following the next steps carefully will get you up and running in no time.
 

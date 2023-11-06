@@ -1,0 +1,107 @@
+{
+  "title": "ImageAssetOptions",
+  "hierarchy": [
+    [
+      {
+        "text": "ImageAssetOptions"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        2189,
+        2187,
+        2188,
+        2186
+      ]
+    }
+  ],
+  "reflections": {
+    "2186": {
+      "name": "width",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#width",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">width</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 13,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#width"
+        }
+      ]
+    },
+    "2187": {
+      "name": "height",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#height",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">height</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> number</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 14,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#height"
+        }
+      ]
+    },
+    "2188": {
+      "name": "keepAspectRatio",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#keepaspectratio",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">keepAspectRatio</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 15,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#keepaspectratio"
+        }
+      ]
+    },
+    "2189": {
+      "name": "autoScaleFactor",
+      "type": "Property",
+      "url": "/api/interface/ImageAssetOptions#autoscalefactor",
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">autoScaleFactor</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> boolean</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/image-asset/index.d.ts",
+              "line": 16,
+              "character": 1
+            }
+          ],
+          "url": "/api/interface/ImageAssetOptions#autoscalefactor"
+        }
+      ]
+    }
+  }
+}

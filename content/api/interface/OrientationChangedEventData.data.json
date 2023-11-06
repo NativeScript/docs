@@ -1,0 +1,257 @@
+{
+  "title": "OrientationChangedEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "ApplicationEventData",
+        "link": "/api/interface/ApplicationEventData"
+      }
+    ],
+    [
+      {
+        "text": "OrientationChangedEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        4693,
+        4691,
+        4692,
+        4690,
+        4694
+      ]
+    }
+  ],
+  "reflections": {
+    "4690": {
+      "name": "newValue",
+      "type": "Property",
+      "url": "/api/interface/OrientationChangedEventData#newvalue",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "New orientation value."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">newValue</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;portrait&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;landscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">|</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;unknown&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 63,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "New orientation value."
+              }
+            ]
+          },
+          "url": "/api/interface/OrientationChangedEventData#newvalue"
+        }
+      ]
+    },
+    "4691": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/OrientationChangedEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/ApplicationEventData#eventname",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 28,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/ApplicationEventData#eventname",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/OrientationChangedEventData#eventname"
+        }
+      ]
+    },
+    "4692": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/OrientationChangedEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "ios",
+        "url": "/api/interface/ApplicationEventData#ios",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">ios</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 32,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "ios",
+            "url": "/api/interface/ApplicationEventData#ios",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+              }
+            ]
+          },
+          "url": "/api/interface/OrientationChangedEventData#ios"
+        }
+      ]
+    },
+    "4693": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/OrientationChangedEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native Android event arguments. Valid only when running on Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "inheritedFrom": {
+        "name": "android",
+        "url": "/api/interface/ApplicationEventData#android",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #E1E4E8\">android</span><span style=\"color: #F97583\">?:</span><span style=\"color: #E1E4E8\"> any</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 36,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "android",
+            "url": "/api/interface/ApplicationEventData#android",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native Android event arguments. Valid only when running on Android."
+              }
+            ]
+          },
+          "url": "/api/interface/OrientationChangedEventData#android"
+        }
+      ]
+    },
+    "4694": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/OrientationChangedEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/ApplicationEventData#object",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a> | <a href=\"/api/class/ApplicationCommon\">ApplicationCommon</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 40,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/ApplicationEventData#object",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/OrientationChangedEventData#object"
+        }
+      ]
+    }
+  }
+}

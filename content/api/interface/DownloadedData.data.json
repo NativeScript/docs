@@ -1,0 +1,193 @@
+{
+  "title": "DownloadedData",
+  "hierarchy": [
+    [
+      {
+        "text": "EventData",
+        "link": "/api/interface/EventData"
+      }
+    ],
+    [
+      {
+        "text": "DownloadedData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        15813,
+        15812,
+        15811,
+        15814
+      ]
+    }
+  ],
+  "reflections": {
+    "15811": {
+      "name": "key",
+      "type": "Property",
+      "url": "/api/interface/DownloadedData#key",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "A string indentifier of the cached image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">key</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 124,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "A string indentifier of the cached image."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadedData#key"
+        }
+      ]
+    },
+    "15812": {
+      "name": "image",
+      "type": "Property",
+      "url": "/api/interface/DownloadedData#image",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the cached image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "image: <a href=\"/api/class/ImageSource\">ImageSource</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/ui/image-cache/index.d.ts",
+              "line": 128,
+              "character": 1
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the cached image."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadedData#image"
+        }
+      ]
+    },
+    "15813": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/DownloadedData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/EventData#eventname",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 9,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/EventData#eventname",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadedData#eventname"
+        }
+      ]
+    },
+    "15814": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/DownloadedData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The Observable instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/EventData#object",
+        "fromName": "EventData",
+        "fromUrl": "/api/interface/EventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/data/observable/index.d.ts",
+              "line": 13,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/EventData#object",
+            "fromName": "EventData",
+            "fromUrl": "/api/interface/EventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The Observable instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/DownloadedData#object"
+        }
+      ]
+    }
+  }
+}

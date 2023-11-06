@@ -1,0 +1,194 @@
+{
+  "title": "AnimationCurve",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        5007,
+        5008,
+        5010,
+        5009,
+        5011,
+        5012
+      ]
+    },
+    {
+      "title": "Functions",
+      "items": [
+        5001
+      ]
+    }
+  ],
+  "reflections": {
+    "5001": {
+      "name": "cubicBezier",
+      "type": "Function",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#cubicbezier",
+      "flags": {},
+      "signatures": [
+        {
+          "type": "CallSignature",
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">cubicBezier</span><span style=\"color: #E1E4E8\">(</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  x1: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  y1: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  x2: number,</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">  y2: number</span></span>\n<span class=\"line\"><span style=\"color: #E1E4E8\">): animationModule.CubicBezierAnimationCurve</span></span></code>",
+          "url": "/api/namespace/CoreTypes-AnimationCurve#cubicbezier-cubicbezier-1",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 232,
+              "character": 8
+            }
+          ],
+          "parameters": [
+            {
+              "name": "x1",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "y1",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "x2",
+              "type": "number",
+              "flags": {}
+            },
+            {
+              "name": "y2",
+              "type": "number",
+              "flags": {}
+            }
+          ],
+          "returns": "animationModule.CubicBezierAnimationCurve"
+        }
+      ]
+    },
+    "5007": {
+      "name": "ease",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#ease",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ease</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;ease&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;ease&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 226,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AnimationCurve#ease"
+        }
+      ]
+    },
+    "5008": {
+      "name": "easeIn",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#easein",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">easeIn</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;easeIn&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;easeIn&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 227,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AnimationCurve#easein"
+        }
+      ]
+    },
+    "5009": {
+      "name": "easeOut",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#easeout",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">easeOut</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;easeOut&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;easeOut&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 228,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AnimationCurve#easeout"
+        }
+      ]
+    },
+    "5010": {
+      "name": "easeInOut",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#easeinout",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">easeInOut</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;easeInOut&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;easeInOut&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 229,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AnimationCurve#easeinout"
+        }
+      ]
+    },
+    "5011": {
+      "name": "linear",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#linear",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">linear</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;linear&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;linear&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 230,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AnimationCurve#linear"
+        }
+      ]
+    },
+    "5012": {
+      "name": "spring",
+      "type": "Variable",
+      "url": "/api/namespace/CoreTypes-AnimationCurve#spring",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">spring</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;spring&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #9ECBFF\">&quot;spring&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/core-types/index.d.ts",
+              "line": 231,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/CoreTypes-AnimationCurve#spring"
+        }
+      ]
+    }
+  }
+}

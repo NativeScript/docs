@@ -1,0 +1,217 @@
+{
+  "title": "UnhandledErrorEventData",
+  "hierarchy": [
+    [
+      {
+        "text": "ApplicationEventData",
+        "link": "/api/interface/ApplicationEventData"
+      }
+    ],
+    [
+      {
+        "text": "UnhandledErrorEventData"
+      }
+    ]
+  ],
+  "summary": [
+    {
+      "title": "Properties",
+      "items": [
+        4709,
+        4710,
+        4711,
+        4708,
+        4712
+      ]
+    }
+  ],
+  "reflections": {
+    "4708": {
+      "name": "ios",
+      "type": "Property",
+      "url": "/api/interface/UnhandledErrorEventData#ios",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "ios?: <a href=\"/api/interface/NativeScriptError\">NativeScriptError</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 87,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native iOS event arguments. Valid only when running on iOS."
+              }
+            ]
+          },
+          "url": "/api/interface/UnhandledErrorEventData#ios"
+        }
+      ]
+    },
+    "4709": {
+      "name": "android",
+      "type": "Property",
+      "url": "/api/interface/UnhandledErrorEventData#android",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "Gets the native Android event arguments. Valid only when running on Android."
+          }
+        ]
+      },
+      "flags": {
+        "isOptional": true
+      },
+      "signatures": [
+        {
+          "code": "android?: <a href=\"/api/interface/NativeScriptError\">NativeScriptError</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 88,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "Gets the native Android event arguments. Valid only when running on Android."
+              }
+            ]
+          },
+          "url": "/api/interface/UnhandledErrorEventData#android"
+        }
+      ]
+    },
+    "4710": {
+      "name": "error",
+      "type": "Property",
+      "url": "/api/interface/UnhandledErrorEventData#error",
+      "flags": {},
+      "signatures": [
+        {
+          "code": "error: <a href=\"/api/interface/NativeScriptError\">NativeScriptError</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 89,
+              "character": 4
+            }
+          ],
+          "url": "/api/interface/UnhandledErrorEventData#error"
+        }
+      ]
+    },
+    "4711": {
+      "name": "eventName",
+      "type": "Property",
+      "url": "/api/interface/UnhandledErrorEventData#eventname",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The name of the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "eventName",
+        "url": "/api/interface/ApplicationEventData#eventname",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">eventName</span><span style=\"color: #E1E4E8\">: string</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 28,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "eventName",
+            "url": "/api/interface/ApplicationEventData#eventname",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The name of the event."
+              }
+            ]
+          },
+          "url": "/api/interface/UnhandledErrorEventData#eventname"
+        }
+      ]
+    },
+    "4712": {
+      "name": "object",
+      "type": "Property",
+      "url": "/api/interface/UnhandledErrorEventData#object",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The instance that has raised the event."
+          }
+        ]
+      },
+      "flags": {},
+      "inheritedFrom": {
+        "name": "object",
+        "url": "/api/interface/ApplicationEventData#object",
+        "fromName": "ApplicationEventData",
+        "fromUrl": "/api/interface/ApplicationEventData"
+      },
+      "signatures": [
+        {
+          "code": "object: <a href=\"/api/class/Observable\">Observable</a> | <a href=\"/api/class/ApplicationCommon\">ApplicationCommon</a>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/application/application-interfaces.d.ts",
+              "line": 40,
+              "character": 4
+            }
+          ],
+          "inheritedFrom": {
+            "name": "object",
+            "url": "/api/interface/ApplicationEventData#object",
+            "fromName": "ApplicationEventData",
+            "fromUrl": "/api/interface/ApplicationEventData"
+          },
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The instance that has raised the event."
+              }
+            ]
+          },
+          "url": "/api/interface/UnhandledErrorEventData#object"
+        }
+      ]
+    }
+  }
+}

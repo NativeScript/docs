@@ -1,0 +1,101 @@
+{
+  "title": "AccessibilityEvents",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Variables",
+      "items": [
+        932,
+        934,
+        933,
+        935
+      ]
+    }
+  ],
+  "reflections": {
+    "932": {
+      "name": "accessibilityBlurEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityblurevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityBlurEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityBlur&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityBlurEvent</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 14,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityblurevent"
+        }
+      ]
+    },
+    "933": {
+      "name": "accessibilityFocusEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityfocusevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityFocusEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityFocus&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityFocusEvent</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 15,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityfocusevent"
+        }
+      ]
+    },
+    "934": {
+      "name": "accessibilityFocusChangedEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityfocuschangedevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityFocusChangedEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityFocusChanged&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityFocusChangedEvent</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 16,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityfocuschangedevent"
+        }
+      ]
+    },
+    "935": {
+      "name": "accessibilityPerformEscapeEvent",
+      "type": "Variable",
+      "url": "/api/namespace/AccessibilityEvents#accessibilityperformescapeevent",
+      "flags": {
+        "isConst": true
+      },
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">accessibilityPerformEscapeEvent</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;accessibilityPerformEscape&quot;</span><span style=\"color: #E1E4E8\"> </span><span style=\"color: #F97583\">=</span><span style=\"color: #E1E4E8\"> Accessibility.accessibilityPerformEscapeEvent</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/index.d.ts",
+              "line": 17,
+              "character": 14
+            }
+          ],
+          "url": "/api/namespace/AccessibilityEvents#accessibilityperformescapeevent"
+        }
+      ]
+    }
+  }
+}

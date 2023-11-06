@@ -1,0 +1,661 @@
+{
+  "title": "AccessibilityRole",
+  "hierarchy": [],
+  "summary": [
+    {
+      "title": "Enumeration Members",
+      "items": [
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958
+      ]
+    }
+  ],
+  "reflections": {
+    "941": {
+      "name": "Adjustable",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#adjustable",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element allows continuous adjustment through a range of values."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Adjustable</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;adjustable&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 29,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element allows continuous adjustment through a range of values."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#adjustable"
+        }
+      ]
+    },
+    "942": {
+      "name": "Button",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#button",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element should be treated as a button."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Button</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;button&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 33,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element should be treated as a button."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#button"
+        }
+      ]
+    },
+    "943": {
+      "name": "Checkbox",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#checkbox",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element behaves like a Checkbox"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Checkbox</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;checkbox&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 37,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element behaves like a Checkbox"
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#checkbox"
+        }
+      ]
+    },
+    "944": {
+      "name": "Header",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#header",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element is a header that divides content into sections, such as the title of a navigation bar."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Header</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;header&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 41,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element is a header that divides content into sections, such as the title of a navigation bar."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#header"
+        }
+      ]
+    },
+    "945": {
+      "name": "Image",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#image",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element should be treated as an image."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Image</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;image&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 45,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element should be treated as an image."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#image"
+        }
+      ]
+    },
+    "946": {
+      "name": "ImageButton",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#imagebutton",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element should be treated as a image button."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ImageButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;imageButton&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 49,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element should be treated as a image button."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#imagebutton"
+        }
+      ]
+    },
+    "947": {
+      "name": "KeyboardKey",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#keyboardkey",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element behaves as a keyboard key."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">KeyboardKey</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;keyboardKey&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 53,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element behaves as a keyboard key."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#keyboardkey"
+        }
+      ]
+    },
+    "948": {
+      "name": "Link",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#link",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element should be treated as a link."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Link</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;link&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 57,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element should be treated as a link."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#link"
+        }
+      ]
+    },
+    "949": {
+      "name": "None",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#none",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element has no traits."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">None</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;none&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 61,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element has no traits."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#none"
+        }
+      ]
+    },
+    "950": {
+      "name": "PlaysSound",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#playssound",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element plays its own sound when activated."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">PlaysSound</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;plays&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 65,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element plays its own sound when activated."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#playssound"
+        }
+      ]
+    },
+    "951": {
+      "name": "ProgressBar",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#progressbar",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element behaves like a ProgressBar"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">ProgressBar</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;progressBar&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 69,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element behaves like a ProgressBar"
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#progressbar"
+        }
+      ]
+    },
+    "952": {
+      "name": "RadioButton",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#radiobutton",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element behaves like a RadioButton"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">RadioButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;radioButton&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 73,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element behaves like a RadioButton"
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#radiobutton"
+        }
+      ]
+    },
+    "953": {
+      "name": "Search",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#search",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element should be treated as a search field."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Search</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;search&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 77,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element should be treated as a search field."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#search"
+        }
+      ]
+    },
+    "954": {
+      "name": "SpinButton",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#spinbutton",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element behaves like a SpinButton"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">SpinButton</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;spinButton&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 81,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element behaves like a SpinButton"
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#spinbutton"
+        }
+      ]
+    },
+    "955": {
+      "name": "StartsMediaSession",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#startsmediasession",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element starts a media session when it is activated."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StartsMediaSession</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;startsMedia&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 85,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element starts a media session when it is activated."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#startsmediasession"
+        }
+      ]
+    },
+    "956": {
+      "name": "StaticText",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#statictext",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element should be treated as static text that cannot change."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">StaticText</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;text&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 89,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element should be treated as static text that cannot change."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#statictext"
+        }
+      ]
+    },
+    "957": {
+      "name": "Summary",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#summary",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element provides summary information when the application starts."
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Summary</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;summary&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 93,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element provides summary information when the application starts."
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#summary"
+        }
+      ]
+    },
+    "958": {
+      "name": "Switch",
+      "type": "EnumMember",
+      "url": "/api/enum/AccessibilityRole#switch",
+      "comment": {
+        "summary": [
+          {
+            "kind": "text",
+            "text": "The element behaves like a switch"
+          }
+        ]
+      },
+      "flags": {},
+      "signatures": [
+        {
+          "code": "<code><span class=\"line\"><span style=\"color: #B392F0\">Switch</span><span style=\"color: #E1E4E8\">: </span><span style=\"color: #9ECBFF\">&quot;switch&quot;</span></span></code>",
+          "sources": [
+            {
+              "fileName": "@nativescript/core/accessibility/accessibility-types.d.ts",
+              "line": 97,
+              "character": 4
+            }
+          ],
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "The element behaves like a switch"
+              }
+            ]
+          },
+          "url": "/api/enum/AccessibilityRole#switch"
+        }
+      ]
+    }
+  }
+}

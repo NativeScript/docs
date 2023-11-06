@@ -2,13 +2,15 @@
 title: Setting up Windows for NativeScript
 prev: /setup
 next: /creating-a-new-project
+contributors:
+  - rigor789
 ---
 
 ## Setting up Windows for Android
 
 You will need Node, a JDK (java development kit), Android Studio and the NativeScript CLI (command line interface).
 
-**Android Studio** is not strictly necessary &mdash; however it provides an easy to use interface for installing and managing the Android SDKs.
+**Android Studio** is not strictly necessary &mdash; however it provides an easy-to-use interface for installing and managing the Android SDKs.
 
 We recommend using [Chocolatey](https://chocolatey.org/) to install the required dependencies &mdash; a popular package manager for Windows.
 
@@ -23,7 +25,7 @@ To install **Node** we recommend using a node version manager, such as [nvm-wind
 3. Once the installation is complete, open a new Command Prompt and verify you can run `nvm ls`.
 4. Install the latest Node release with:
    ```cli
-   nvm install latest
+   nvm install node
    ```
 5. Verify the installation was successful and run
    ```cli
