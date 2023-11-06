@@ -1,5 +1,5 @@
 ---
-title: Accessibility (aka a11y)
+title: Accessibility (a11y)
 ---
 
 In NativeScript, there are two primary ways to enable first class a11y support in your apps:
@@ -138,11 +138,11 @@ Current value of an element.
 
 Whether elements contained within this accessibility element are hidden.
 
+<!--
 ### Coming soon
 
 `onAccessibilityEscape`, `onMagicTap` (iOS only).
-
-::: details Additional Resources
+-->
 
 ## Debugging Accessibility
 
