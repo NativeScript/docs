@@ -224,6 +224,10 @@ export default [
         link: '/guide/shared-element-transitions',
       },
       {
+        text: 'Accessibility',
+        link: '/guide/accessibility',
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
