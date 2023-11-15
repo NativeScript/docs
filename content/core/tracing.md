@@ -2,60 +2,98 @@
 title: Tracing
 ---
 
-The Trace class allows you to:
+The Trace class is a useful alternative to console logging that provides the following benefits:
 
-- control the [categories of messages](#addcategories-and-setcategories) you log to the console
+- control the [categories of messages](#addcategories-and-setcategories) that you log to the console
 - [disable](#disable) multiple messages logging at once
-- [handle errors](/guide/error-handling)
+- define customised [error handling](/guide/error-handling)
 
 ## Using Trace
 
-The following 3 steps outline the basic usage of the Trace class.
+The following steps outline the basic usage of the Trace class. Steps 1 and 2 should be executed earlier in your application, usually in the [app.ts](/project-structure/src/main-js-ts) file.
 
-The first two step should be executed earlier in your applicaton, usually in the [app.ts](/project-structure/src/main-js-ts) file.
-
-1. Specify atleast one category to trace:
+1. Specify one or more categories to trace as a comma-separated list:
 
    ```ts
-   Trace.setCategories("category"))
-   // or
-   Trace.setCategories(Trace.categories.concat("category1","category2"));
-   //or
-   Trace.addCategories("categ1, categ2")
+   // Use a single category only.
+   Trace.setCategories('category')
+   // Or, add multiple categories.
+   Trace.addCategories('categ1, categ2')
+   // Or, combine the default Trace categories with your own additional categories.
+   Trace.setCategories(Trace.categories.concat("category1","category2"))
    ```
 
-If you don't set any category or the category you pass to `Trace.write()` is not one of the registered, `Trace.write`'s message won't be logged.
+   When writing a trace message, if you don't set a category, or if the category you pass to `Trace.write()` has not been previously added using the above commands, the message will not be written.
 
-2. Enable tracing
+2. Enable tracing in your app:
 
    ```ts
    Trace.enable()
    ```
 
-3. Instead of using console.log(), use Trace.write() to log your messages. Pass the message content, a category name, and optionally, a message type as arguments to Trace.write(). Make sure that the category you provide is one of the categories you have previously set using Trace.setCategories().
+3. Instead of using `console.log()` in your application to log messages, you may now use `Trace.write()` to log your messages. Pass the message content, a registered category name, and optionally, a message type as arguments to `Trace.write()`.
 
    ```ts
-   Trace.write('some message', 'category')
+   // Add a trace message
+   Trace.write('This is a simple message', 'category')
+   // Add a trace message with a given message type
+   Trace.write('This is an error message', 'category2'. Trace.messageType.error)
    ```
 
-### Creating custom Trace writer
+4. When your app is in production, you can now simply disable tracing and all `Trace.write()` calls will be ignored.
 
-For an example, see `app/trace/trace-writer.ts` in the editor below.
+   ```ts
+   if (!__DEV__) {
+      Trace.disable()
+   }
+   ```
+
+### Creating a custom Trace writer
+
+By default, Trace messages are written to the console log, similar to using `console.log()`. By writing a custom Trace writer, you can control the output of the console log, or route messages to another system.
+
+A Trace writer instance must specify a `write` method that accepts three arguments - a message, a category and, optionally, a message type.
+
+```ts
+const TimestampTraceWriter: TraceWriter = {
+  write(message, category, type) {
+    const now = new Date()
+    const timestamp = now.toTimeString().substr(0, 8)
+
+    switch (type) {
+      case Trace.messageType.error:
+        console.log(`${timestamp} [${category}] (error) ${message}`)
+        return
+      case Trace.messageType.warn:
+        console.log(`${timestamp} [${category}] (warn) ${message}`)
+        return
+      case Trace.messageType.info:
+        console.log(`${timestamp} [${category}] (info) ${message}`)
+        return
+      default:
+        console.log(`${timestamp} [${category}] ${message}`)
+        return
+    }
+  }
+}
+```
 
 <!-- TODO: Add the example in a Preview -->
 
-#### Registering custom trace writer
+#### Registering a custom Trace writer
 
-To utilize a custom TraceWriter instance, you need to register it with the Trace module by using the addWriter() method. This ensures that your custom writer is recognized and incorporated into the Trace functionality.
+To utilize a custom Trace writer instance, you need to register it with the Trace module by using the `Trace.addWriter()` method. This ensures that your custom writer is recognized and incorporated into the Trace functionality.
+
+If you wish to disable the default Trace writers included in NativeScript, you should also use the `Trace.clearWriters()` method first to deregister them.
 
 ```ts
 Trace.clearWriters()
-Trace.addWriter(new TimestampConsoleWriter())
+Trace.addWriter(TimestampTraceWriter)
 ```
 
 ### Error handling
 
-The Trace module allows to create a custom error handler, register(in the [app.ts](/project-structure/main-js-ts)) it with [setErrorHandler](#seterrorhandler), and pass the errors to it with [error](#error).
+The Trace module allows to create a custom error handler. You should register your error handler in the [app.ts](/project-structure/main-js-ts) file and set it with the [Trace.setErrorHandler()](#seterrorhandler), and pass the errors to it with [Trace.error()](#error).
 
 ```ts
 const errorHandler: TraceErrorHandler = {
@@ -80,11 +118,14 @@ Trace.setErrorHandler(errorHandler)
 ### addCategories and setCategories
 
 ```ts
+// Only allow the defined categories
+Trace.setCategories(categories: string)
+
+// Add the defined categories to the available existing categories
 Trace.addCategories(categories: string)
 ```
 
-Adds categories to existing categories the module will trace.
-`categories` is a comma-separated list of categories.
+Sets or adds to the categories that the Trace module will trace. `categories` is a comma-separated list of categories as a string.
 
 :::details Available categories
 
@@ -131,8 +172,6 @@ Clears all the writers from the trace module. Call this methods before adding a 
 ---
 
 ### disable
-
-If you've placed several `console.log`s in your code for debugging, you might want to comment them out before you send the app to production. That may mean tediously having to locate each `console.log`. By calling once `Trace.disable()`, you disable all the `Trace.write()`calls in your code.
 
 ```ts
 Trace.disable()
@@ -228,14 +267,16 @@ Removes a `TraceWriter` instance from the trace module.
 Trace.write(message: any, category: string, type?: number)
 ```
 
-Writes a message using the available writers.
+Writes a message using the available writers. You must specify a category that has been added to the Trace module for it to be written.
+
+You may optionally provide a type to indicate the severity.
 
 :::details Message types
 
-- `log = 0`
-- `info = 1`
-- `warn = 2`
-- `error = 3`
+- Trace.messageType.log = `0`
+- Trace.messageType.info = `1`
+- Trace.messageType.warn = `2`
+- Trace.messageType.error = `3`
 
 :::
 
