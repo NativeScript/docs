@@ -421,7 +421,7 @@ Returns whether the system appearance is `dark`, `light` or `null`(for iOS <= 11
 
 | Name                                                                                              | Type     |
 | ------------------------------------------------------------------------------------------------- | -------- |
-| [@nativescript/core/application](https://docs.nativescript.org/api-reference/modules#application) | `Module` |
+| [@nativescript/core/application](https://docs.nativescript.org/api/#application) | `Module` |
 
 ## Native Component
 

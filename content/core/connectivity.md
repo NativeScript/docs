@@ -134,8 +134,8 @@ This enumeration defines the different possible connection types.
 
 ## API Reference(s)
 
-- [@nativescript/core/connectivity](https://docs.nativescript.org/api-reference/modules.html#connectivity) module
-- [connectionType](https://docs.nativescript.org/api-reference/modules.html#connectivity) enum
+- [@nativescript/core/connectivity](https://docs.nativescript.org/api/namespace/Connectivity) module
+- [connectionType](https://docs.nativescript.org/api/enum/Connectivity-connectionType) enum
 
 ## Native Component
 

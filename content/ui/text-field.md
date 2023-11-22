@@ -174,7 +174,7 @@ on('textChange', (args: PropertyChangeData) => {
 
 Emitted when the input text changes.
 
-Event data type: [PropertyChangeData](https://docs.nativescript.org/api-reference/interfaces/propertychangedata)
+Event data type: [PropertyChangeData](https://docs.nativescript.org/api/interface/PropertyChangeData)
 
 ### returnPress
 

@@ -768,11 +768,11 @@ Gets the string used to separate file paths.
 
 ## API References
 
-- [File](https://docs.nativescript.org/api-reference/classes/file) class
-- [Folder](https://docs.nativescript.org/api-reference/classes/folder) class
-- [FileSystemEntity](https://docs.nativescript.org/api-reference/classes/folder) class
-- [knownFolders](https://docs.nativescript.org/api-reference/modules/knownfolders) module
-- [path](https://docs.nativescript.org/api-reference/modules/path) module
+- [File](https://docs.nativescript.org/api/class/File) class
+- [Folder](https://docs.nativescript.org/api/class/Folder) class
+- [FileSystemEntity](https://docs.nativescript.org/api/class/FileSystemEntity) class
+- [knownFolders](https://docs.nativescript.org/api/namespace/knownFolders) module
+- [path](https://docs.nativescript.org/api/namespace/path) module
 
 ## Native Component
 

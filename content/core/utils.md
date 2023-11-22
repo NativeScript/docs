@@ -531,7 +531,7 @@ Hides any keyboard on the screen.
 const app: android.app.Application = Utils.android.getApplication()
 ```
 
-(`Android-only`)Gets the native Android application instance. Also see [native app](/guide/core/application#nativeapp).
+(`Android-only`)Gets the native Android application instance. Also see [native app](/core/application#nativeapp).
 
 ---
 
@@ -666,7 +666,7 @@ Sets the window background color of base view of the app. Often this is shown wh
 const appPath: string = Utils.ios.getCurrentAppPath()
 ```
 
-Gets the root folder for the current application. Also see [currentApp()](/guide/core/file-system#currentapp)
+Gets the root folder for the current application. Also see [currentApp()](/core/file-system#currentapp)
 
 ---
 
@@ -730,4 +730,4 @@ const nsArrayToJSArray: Array<T> = nsArrayToJSArray<T>(a: NSArray<T>)
 
 ## API Reference(s)
 
-- [@nativescript/core/utils](https://docs.nativescript.org/api-reference/modules#utils) module
+- [@nativescript/core/utils](https://docs.nativescript.org/api/namespace/Utils) module

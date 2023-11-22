@@ -4,6 +4,9 @@ description: NativeScript ships with commonly used UI components, these are the 
 contributors: false
 prev: false
 next: false
+breadcrumbs:
+  - name: 'UI Components'
+    href: '/ui/'
 ---
 
 <script setup lang="ts">

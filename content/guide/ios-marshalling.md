@@ -115,7 +115,7 @@ This naming convention helps to create unique and descriptive function names bas
 
 It's important to note that this convention is specific to Objective-C and may differ from naming conventions in other programming languages.
 
-For an example of how to extend an Objective-C/Swift class, have a look at [Extending iOS classes in NativeScript](/guide/subclassing/extending-classes-and-conforming-protocols-ios#extending-ios-classes-in-nativescript)
+For an example of how to extend an Objective-C/Swift class, have a look at [Extending iOS classes in NativeScript](/guide/extending-classes-and-conforming-to-protocols-ios)
 
 ## Converting JavaScript array to CGFloat array
 
@@ -181,7 +181,7 @@ let isTrue = str.boolValue
 
 ## Objective-C Protocols
 
-Protocols in Objective-C serve a similar purpose as interfaces in other programming languages. They define a blueprint or contract that specifies the members (methods, properties, etc.) that a class should implement. Protocols are exposed as empty objects in JavaScript. Protocols are usually only referenced when [subclassing](/guide/subclassing/extending-classes-and-conforming-protocols-ios) an Objective-C class or when checking whether an object or class conforms to a protocol.
+Protocols in Objective-C serve a similar purpose as interfaces in other programming languages. They define a blueprint or contract that specifies the members (methods, properties, etc.) that a class should implement. Protocols are exposed as empty objects in JavaScript. Protocols are usually only referenced when [subclassing](/guide/extending-classes-and-conforming-to-protocols-ios#conforming-to-objective-c-swift-protocols) an Objective-C class or when checking whether an object or class conforms to a protocol.
 
 ```objc
 BOOL isCopying = [NSArray conformsToProtocol:@protocol(NSCopying)];
@@ -191,7 +191,7 @@ BOOL isCopying = [NSArray conformsToProtocol:@protocol(NSCopying)];
 const isCopying = NSArray.conformsToProtocol(NSCopying)
 ```
 
-To implement Objective-C/Swift protocols in NativeScript, hava look at [Conforming to Objective-C/Swift protocols in NativeScript](/guide/subclassing/extending-classes-and-conforming-protocols-ios#conforming-to-objective-c-swift-protocols-in-nativescript)
+To implement Objective-C/Swift protocols in NativeScript, hava look at [Conforming to Objective-C/Swift protocols in NativeScript](/guide/extending-classes-and-conforming-to-protocols-ios#conforming-to-objective-c-swift-protocols)
 
 ## Objective-C Selectors
 

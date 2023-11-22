@@ -45,7 +45,7 @@ To gain a comprehensive understanding of how the Property system is employed in 
 
 ### Adding a new CSS property
 
-To add a new CSS property, use the [CssProperty]() class. It extends the [Property]() class to accept the extra `cssName` option. CSS properties are registered with the [Style](https://docs.nativescript.org/api-reference/classes/style) class.
+To add a new CSS property, use the [CssProperty](/api/class/CssProperty) class. It extends the [Property](/api/class/Property) class to accept the extra `cssName` option. CSS properties are registered with the [Style](https://docs.nativescript.org/api/class/Style) class.
 
 ```ts
 import { CssProperty, Style } from '@nativescript-core'
@@ -66,7 +66,7 @@ export const myOpacityProperty = new CssProperty<Style, number>({
 myOpacityProperty.register(Style)
 ```
 
-Subsequently, any instance of the [Style](https://docs.nativescript.org/api-reference/classes/style) class will have `myOpacity` property and developers can set it in CSS as follows:
+Subsequently, any instance of the [Style](https://docs.nativescript.org/api/class/Style) class will have `myOpacity` property and developers can set it in CSS as follows:
 
 ```css
 .some-class {
@@ -76,7 +76,7 @@ Subsequently, any instance of the [Style](https://docs.nativescript.org/api-refe
 
 #### Inheritable property
 
-To create a CSS property that can be applied to a view and is inheritable by the children of that view, instanciate the [InheritedCssProperty](https://docs.nativescript.org/api-reference/classes/inheritedcssproperty) class passing it an [PropertyOptions](#property-options-interface) object. Then use the `setInheritedValue: (value: U)` method to set the inherited value.
+To create a CSS property that can be applied to a view and is inheritable by the children of that view, instanciate the [InheritedCssProperty](https://docs.nativescript.org/api/class/InheritedCssProperty) class passing it an [PropertyOptions](#property-options-interface) object. Then use the `setInheritedValue: (value: U)` method to set the inherited value.
 The examples of inherited properties are the`FontSize`, `FontWeight`, `Color`, etc.
 
 ```ts
@@ -96,7 +96,7 @@ selectedBackgroundColorProperty.register(Style)
 
 #### Shorthand property
 
-To create a CSS property that can be applied using the shorthand syntax rules, use the [ShorthandProperty](https://docs.nativescript.org/api-reference/classes/shorthandproperty) class, passing it the [ShorthandPropertyOptions](#shorthandpropertyoptions-interface) object. For example, instead of setting margin using seperate rules for each side,
+To create a CSS property that can be applied using the shorthand syntax rules, use the [ShorthandProperty](https://docs.nativescript.org/api/class/ShorthandProperty) class, passing it the [ShorthandPropertyOptions](#shorthandpropertyoptions-interface) object. For example, instead of setting margin using seperate rules for each side,
 
 ```css
 .title {
@@ -118,7 +118,7 @@ you can use one rule for all the sides.
 To create a shorthand property, use the `CssProperty` class to define all the properties individually as normal. Then return the shorthand with the `getter()` method of the `ShorthandProperty` class.
 Here's an example of how the margin shorthand is implemented:
 
-````ts
+```ts
 const marginProperty = new ShorthandProperty<Style, string | CoreTypes.PercentLengthType>({
 	name: 'margin',
 	cssName: 'margin',
@@ -132,8 +132,9 @@ const marginProperty = new ShorthandProperty<Style, string | CoreTypes.PercentLe
 	converter: convertToMargins,
 });
 marginProperty.register(Style);
+```
 ### Creating a coercible property
-To create a coercible property use the [CoercibleProperty](https://docs.nativescript.org/api-reference/classes/coercibleproperty) class passing it a [CoerciblePropertyOptions](#co) object.
+To create a coercible property use the [CoercibleProperty](https://docs.nativescript.org/api/class/CoercibleProperty) class passing it a [CoerciblePropertyOptions](#co) object.
 
 ```ts
 export const selectedIndexProperty = new CoercibleProperty<SegmentedBar, number>({

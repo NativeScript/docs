@@ -8,14 +8,14 @@ NativeScript plugins are npm packages that often include additional native funct
 
 #### Finding plugins
 
-The NativeScript team maintains a list of plugins [here](https://docs.nativescript.org/plugins/index.html).
+The NativeScript team maintains a list of plugins [here](https://v8.docs.nativescript.org/plugins/index.html).
 
 Plugins can also be found at the [NativeScript marketplace](https://market.nativescript.org/) or on the [npm’s site](https://www.npmjs.com/)
 
-Not finding the right plugin? You can try asking on our [Discord Community](https://nativescript.org/discord). Or perhaps [build a new plugin](/https://docs.nativescript.org/plugins/index.html#developing-your-own-plugins).
+Not finding the right plugin? You can try asking on our [Discord Community](https://nativescript.org/discord). Or perhaps [build a new plugin](https://v8.docs.nativescript.org/plugins/index.html#developing-your-own-plugins).
 <!-- TODO: fix links -->
 
-You can also explore [@nativescript/core](https://docs.nativescript.org/understanding-packages.html#nativescript-core), which is included as a dependency in every NativeScript app. It is possible that the required functionality is already available.
+You can also explore [@nativescript/core](/core/#nativescript-core), which is included as a dependency in every NativeScript app. It is possible that the required functionality is already available.
 
 #### Installing Plugins
 
@@ -25,7 +25,7 @@ Once the needed plugin is found, it can be installed in a NativeScript app using
 ns plugin add <plugin-name>
 ```
 
-For example, the following command installs the [NativeScript camera plugin](https://docs.nativescript.org/plugins/camera.html).
+For example, the following command installs the [NativeScript camera plugin](https://v8.docs.nativescript.org/plugins/camera.html).
 
 ```cli
 ns plugin add @nativescript/camera
@@ -53,7 +53,7 @@ Regarding package handling, **dependencies** are necessary for the application t
 
 #### Importing and Using Plugins
 
-Once the required plugin is installed, it can be utilized in the project. It's crucial to carefully review the plugin's documentation and README file as each plugin may have specific configuration requirements. The following code snippet demonstrates the basic usage of the [@nativescript/camera](https://docs.nativescript.org/plugins/camera.html) plugin:
+Once the required plugin is installed, it can be utilized in the project. It's crucial to carefully review the plugin's documentation and README file as each plugin may have specific configuration requirements. The following code snippet demonstrates the basic usage of the [@nativescript/camera](https://v8.docs.nativescript.org/plugins/camera.html) plugin:
 
 ```javascript
 import { requestPermissions } from '@nativescript/camera'
@@ -89,7 +89,7 @@ A package manager is software that enables management of external code necessary
 
 #### Supported package managers
 
-NativeScript CLI allows you to [configure the package manager](/project-structure/nativescript-config-ts#setting-project-package-manager) used when working with dependencies. When you change the defaultly used `npm` package manager, CLI will use the newly set package manager for all operations it executes related to project dependencies, for example, project creation, managing dependencies, etc.
+NativeScript CLI allows you to [configure the package manager](/project-structure/nativescript-config#setting-project-package-manager) used when working with dependencies. When you change the defaultly used `npm` package manager, CLI will use the newly set package manager for all operations it executes related to project dependencies, for example, project creation, managing dependencies, etc.
 
 NativeScript CLI supports three package managers:
 

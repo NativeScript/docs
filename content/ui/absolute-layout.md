@@ -103,7 +103,7 @@ If you need to build more complex UIs with overlapping elements, consider using 
 | Name           | Type        | Description                                                                                                                                 |
 | -------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | `N/A`          | `N/A`       | None.                                                                                                                                       |
-| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api-reference/classes/absolutelayout) |
+| `...Inherited` | `Inherited` | Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api/class/AbsoluteLayout) |
 
 ### Children props
 

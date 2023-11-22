@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
+    "preview": "vitepress preview",
     "lint": "npm-run-all lint:*",
     "fix": "npm-run-all fix:*",
     "fix:format": "prettier --write ./content/**/*.md",

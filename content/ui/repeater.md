@@ -72,4 +72,4 @@ When using `ObservableArray` the repeater will be automatically updated when ite
 
 | Name                                                                     | Type    |
 | ------------------------------------------------------------------------ | ------- |
-| [Repeater](https://docs.nativescript.org/api-reference/classes/repeater) | `Class` |
+| [Repeater](https://docs.nativescript.org/api/class/Repeater) | `Class` |

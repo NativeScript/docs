@@ -93,7 +93,7 @@ Trace.addWriter(TimestampTraceWriter)
 
 ### Error handling
 
-The Trace module allows to create a custom error handler. You should register your error handler in the [app.ts](/project-structure/main-js-ts) file and set it with the [Trace.setErrorHandler()](#seterrorhandler), and pass the errors to it with [Trace.error()](#error).
+The Trace module allows to create a custom error handler. You should register your error handler in the [main.ts](/project-structure/src/main-js-ts) file and set it with the [Trace.setErrorHandler()](#seterrorhandler), and pass the errors to it with [Trace.error()](#error).
 
 ```ts
 const errorHandler: TraceErrorHandler = {
@@ -286,4 +286,4 @@ You may optionally provide a type to indicate the severity.
 
 | Name                                                                                  | Type     |
 | ------------------------------------------------------------------------------------- | -------- |
-| [@nativescript/core/trace](https://docs.nativescript.org/api-reference/modules/trace) | `Module` |
+| [@nativescript/core/trace](https://docs.nativescript.org/api/namespace/Trace) | `Module` |

@@ -98,7 +98,7 @@ TODO: document or remove?
 webpackConfigPath: string = 'custom-webpack.config.js'
 ```
 
-Specifies the [webpack config](/webpack) location. The default is `webpack.config.js` in the root.
+Specifies the [webpack config](./webpack) location. The default is `webpack.config.js` in the root.
 
 ### profiling
 

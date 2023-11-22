@@ -8,7 +8,7 @@ contributos:
 
 ## Showing a modal
 
-To show a modal, call the [showModal](https://docs.nativescript.org/api-reference/classes/view#showmodal) method on a [View](https://docs.nativescript.org/api-reference/classes/view) instance and pass it the path to the modal view file:
+To show a modal, call the [showModal](https://docs.nativescript.org/api/class/ViewCommon#showmodal) method on a [View](https://docs.nativescript.org/api/class/View) instance and pass it the path to the modal view file:
 
 ```xml
 <Button text="View details" tap="onTap" />
