@@ -70,6 +70,6 @@ When using `ObservableArray` the repeater will be automatically updated when ite
 
 ### API References
 
-| Name                                                                     | Type    |
-| ------------------------------------------------------------------------ | ------- |
+| Name                                                         | Type    |
+| ------------------------------------------------------------ | ------- |
 | [Repeater](https://docs.nativescript.org/api/class/Repeater) | `Class` |

@@ -119,53 +119,77 @@ To create a shorthand property, use the `CssProperty` class to define all the pr
 Here's an example of how the margin shorthand is implemented:
 
 ```ts
-const marginProperty = new ShorthandProperty<Style, string | CoreTypes.PercentLengthType>({
-	name: 'margin',
-	cssName: 'margin',
-	getter: function (this: Style) {
-		if (PercentLength.equals(this.marginTop, this.marginRight) && PercentLength.equals(this.marginTop, this.marginBottom) && PercentLength.equals(this.marginTop, this.marginLeft)) {
-			return this.marginTop;
-		}
+const marginProperty = new ShorthandProperty<
+  Style,
+  string | CoreTypes.PercentLengthType
+>({
+  name: 'margin',
+  cssName: 'margin',
+  getter: function (this: Style) {
+    if (
+      PercentLength.equals(this.marginTop, this.marginRight) &&
+      PercentLength.equals(this.marginTop, this.marginBottom) &&
+      PercentLength.equals(this.marginTop, this.marginLeft)
+    ) {
+      return this.marginTop
+    }
 
-		return `${PercentLength.convertToString(this.marginTop)} ${PercentLength.convertToString(this.marginRight)} ${PercentLength.convertToString(this.marginBottom)} ${PercentLength.convertToString(this.marginLeft)}`;
-	},
-	converter: convertToMargins,
-});
-marginProperty.register(Style);
+    return `${PercentLength.convertToString(
+      this.marginTop
+    )} ${PercentLength.convertToString(
+      this.marginRight
+    )} ${PercentLength.convertToString(
+      this.marginBottom
+    )} ${PercentLength.convertToString(this.marginLeft)}`
+  },
+  converter: convertToMargins,
+})
+marginProperty.register(Style)
 ```
+
 ### Creating a coercible property
+
 To create a coercible property use the [CoercibleProperty](https://docs.nativescript.org/api/class/CoercibleProperty) class passing it a [CoerciblePropertyOptions](#co) object.
 
 ```ts
-export const selectedIndexProperty = new CoercibleProperty<SegmentedBar, number>({
-  name: "selectedIndex", defaultValue: -1,
+export const selectedIndexProperty = new CoercibleProperty<
+  SegmentedBar,
+  number
+>({
+  name: 'selectedIndex',
+  defaultValue: -1,
   valueChanged: (target, oldValue, newValue) => {
-      target.notify(<SelectedIndexChangedEventData>{ eventName: SegmentedBar.selectedIndexChangedEvent, object: target, oldIndex: oldValue, newIndex: newValue });
+    target.notify(<SelectedIndexChangedEventData>{
+      eventName: SegmentedBar.selectedIndexChangedEvent,
+      object: target,
+      oldIndex: oldValue,
+      newIndex: newValue,
+    })
   },
 
   // in this case the coerce value will change depending on whether the actual number of items
   // is more or less than the value we want to apply for selectedIndex
   coerceValue: (target, value) => {
-      let items = target.items;
-      if (items) {
-          let max = items.length - 1;
-          if (value < 0) {
-              value = 0;
-          }
-          if (value > max) {
-              value = max;
-          }
-      } else {
-          value = -1;
+    let items = target.items
+    if (items) {
+      let max = items.length - 1
+      if (value < 0) {
+        value = 0
       }
+      if (value > max) {
+        value = max
+      }
+    } else {
+      value = -1
+    }
 
-      return value;
+    return value
   },
 
-  valueConverter: (v) => parseInt(v)
-});
-selectedIndexProperty.register(SegmentedBar);
-````
+  valueConverter: (v) => parseInt(v),
+})
+selectedIndexProperty.register(SegmentedBar)
+```
 
 Subsequently, when assigning a value to the property, invoke the `coerce()` method.
 

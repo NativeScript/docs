@@ -20,7 +20,7 @@ The following steps outline the basic usage of the Trace class. Steps 1 and 2 sh
    // Or, add multiple categories.
    Trace.addCategories('categ1, categ2')
    // Or, combine the default Trace categories with your own additional categories.
-   Trace.setCategories(Trace.categories.concat("category1","category2"))
+   Trace.setCategories(Trace.categories.concat('category1', 'category2'))
    ```
 
    When writing a trace message, if you don't set a category, or if the category you pass to `Trace.write()` has not been previously added using the above commands, the message will not be written.
@@ -37,14 +37,14 @@ The following steps outline the basic usage of the Trace class. Steps 1 and 2 sh
    // Add a trace message
    Trace.write('This is a simple message', 'category')
    // Add a trace message with a given message type
-   Trace.write('This is an error message', 'category2'. Trace.messageType.error)
+   Trace.write('This is an error message', 'category2', Trace.messageType.error)
    ```
 
 4. When your app is in production, you can now simply disable tracing and all `Trace.write()` calls will be ignored.
 
    ```ts
    if (!__DEV__) {
-      Trace.disable()
+     Trace.disable()
    }
    ```
 
@@ -74,7 +74,7 @@ const TimestampTraceWriter: TraceWriter = {
         console.log(`${timestamp} [${category}] ${message}`)
         return
     }
-  }
+  },
 }
 ```
 
@@ -284,6 +284,6 @@ You may optionally provide a type to indicate the severity.
 
 ## API References
 
-| Name                                                                                  | Type     |
-| ------------------------------------------------------------------------------------- | -------- |
+| Name                                                                          | Type     |
+| ----------------------------------------------------------------------------- | -------- |
 | [@nativescript/core/trace](https://docs.nativescript.org/api/namespace/Trace) | `Module` |

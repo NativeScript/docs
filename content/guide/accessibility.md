@@ -150,6 +150,3 @@ The following are the platforms tools for debugging accessibility in your app:
 
 - iOS: [Accessibility Inspect](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html)
 - Android: [Test your app's accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing)
-
-
-
