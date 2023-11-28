@@ -31,7 +31,7 @@ These types of bindings completely destroy a view node when hiding and recreate 
 
 On the other hand, `hidden` and `visibility` both **do not destroy** the view node. They simply modify it's properties to hide it or show it. The key differences between the two are illustrated here in this sample:
 
-<img src="/assets/images/hidden-v-vis.gif">
+![Hidden and vif](../assets/images/best-practices/hidden-v-vis.gif)
 
 The difference in their usage is very subtle:
 
