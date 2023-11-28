@@ -7,7 +7,7 @@ contributors:
   - rigor789
 ---
 
-If the native API you need is not exposed through [@nativescript/core](https://docs.nativescript.org/understanding-packages#nativescript-core), [third party plugins](https://market.nativescript.org/) or [@nativescript/\* plugins](https://docs.nativescript.org/plugins/index.html)), you can add it to your project and access it right away in TypeScript.
+If the native API you need is not exposed through [@nativescript/core](/core/#nativescript-core), [third party plugins](https://market.nativescript.org/) or [@nativescript/\* plugins](https://v8.docs.nativescript.org/plugins/index.html)), you can add it to your project and access it right away in TypeScript.
 
 1. Add native code to [App_Resources](/project-structure/app-resources). For example, see
 
@@ -29,9 +29,9 @@ If the native API you need is not exposed through [@nativescript/core](https://d
    ns typings android --aar <path to an aar>
    ```
 
-3. Reference the generated types in [references.d.ts](/project-structure/references-d-ts-in-nativescript)
+3. Reference the generated types in [references.d.ts](/project-structure/references-d-ts)
 
-4. You can now code against the platform native APIs (_strongly typed_). For various examples on how to interact with native APIs in JavaScript/TypeScript, visit the [Subclassing](/guide/subclassing/), [iOS Marshalling](/guide/marshalling/nativescript-ios-marshalling) and [Android Marshalling](/guide/marshalling/nativescript-android-marshalling) pages.
+4. You can now code against the platform native APIs (_strongly typed_). For various examples on how to interact with native APIs in JavaScript/TypeScript, visit the [Subclassing](/guide/subclassing/), [iOS Marshalling](/guide/ios-marshalling) and [Android Marshalling](/guide/android-marshalling) pages.
 
 ## Additional Resources
 

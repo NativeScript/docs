@@ -8,7 +8,7 @@ contributors:
 
 `<Button>` is a UI component that displays a button which reacts to user gestures.
 
-For more information about the available gestures, see [Gestures](/guide/ui/gestures).
+For more information about the available gestures, see [Gestures](/guide/gestures).
 
 <DeviceFrame type="ios">
 <img src="../assets/images/screenshots/ios/Button.png"/>

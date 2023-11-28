@@ -2,6 +2,10 @@
 title: Publishing with Fastlane
 contributors:
   - rigor789
+breadcrumbs:
+  - name: 'Publishing'
+    href: '/guide/publishing/'
+  - name: 'Publishing with Fastlane'
 ---
 
 ::: info Work in progress

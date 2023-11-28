@@ -14,7 +14,7 @@ The following sections demonstrate how to create an ImageSource from different s
 
 ### Load an image using a resource name
 
-To load an image from the [App_Resources]() folder, use the [fromResource](#fromresource) or [fromResourceSync](#fromresourcesync) method:
+To load an image from the [App_Resources](/project-structure/app-resources) folder, use the [fromResource](#fromresource) or [fromResourceSync](#fromresourcesync) method:
 
 ```ts
 ImageSource.fromResource('logo')
@@ -398,7 +398,7 @@ Asynchronously converts the image to base64 encoded string, using the provided i
 
 ## API Reference(s)
 
-- [ImageSource](https://docs.nativescript.org/api-reference/classes/imagesource) class
+- [ImageSource](https://docs.nativescript.org/api/class/ImageSource) class
 
 ## Native Component
 

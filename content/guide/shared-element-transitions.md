@@ -425,4 +425,4 @@ Used internally to finish the state after a transition has completed. Provided i
 
 ## Acknowledgements
 
-The API for the Shared Element Transitions was inspired by [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/docs/api/sharedElementTransitions/).
+The API for the Shared Element Transitions was inspired by [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/docs/shared-element-transitions/overview/).

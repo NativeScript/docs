@@ -37,7 +37,7 @@ The following steps outline the basic usage of the Trace class. Steps 1 and 2 sh
    // Add a trace message
    Trace.write('This is a simple message', 'category')
    // Add a trace message with a given message type
-   Trace.write('This is an error message', 'category2'.Trace.messageType.error)
+   Trace.write('This is an error message', 'category2', Trace.messageType.error)
    ```
 
 4. When your app is in production, you can now simply disable tracing and all `Trace.write()` calls will be ignored.
@@ -93,7 +93,7 @@ Trace.addWriter(TimestampTraceWriter)
 
 ### Error handling
 
-The Trace module allows to create a custom error handler. You should register your error handler in the [app.ts](/project-structure/main-js-ts) file and set it with the [Trace.setErrorHandler()](#seterrorhandler), and pass the errors to it with [Trace.error()](#error).
+The Trace module allows to create a custom error handler. You should register your error handler in the [main.ts](/project-structure/src/main-js-ts) file and set it with the [Trace.setErrorHandler()](#seterrorhandler), and pass the errors to it with [Trace.error()](#error).
 
 ```ts
 const errorHandler: TraceErrorHandler = {
@@ -284,6 +284,6 @@ You may optionally provide a type to indicate the severity.
 
 ## API References
 
-| Name                                                                                  | Type     |
-| ------------------------------------------------------------------------------------- | -------- |
-| [@nativescript/core/trace](https://docs.nativescript.org/api-reference/modules/trace) | `Module` |
+| Name                                                                          | Type     |
+| ----------------------------------------------------------------------------- | -------- |
+| [@nativescript/core/trace](https://docs.nativescript.org/api/namespace/Trace) | `Module` |

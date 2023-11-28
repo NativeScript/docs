@@ -8,6 +8,10 @@ contributors:
   - williamjuan027
   - Leon0824
   - reneroboter
+breadcrumbs:
+  - name: 'Tutorials'
+    href: '/tutorials/'
+  - name: 'Build a master-detail app with Plain TypeScript'
 ---
 
 This tutorial introduces you to the fundamentals of NativeScript by walking you through building an example app with some basic functionalities.
@@ -286,7 +290,7 @@ The home page can be divided into two main parts, the ActionBar with the title a
 </Page>
 ```
 
-Since we have an array of flicks to display we can use NativeScript's [`ListView`](https://docs.nativescript.org/ui-and-styling.html#listview) component. `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list. Let's first create a variable called flick in our home component that we are going to use as our `ListView`'s data source. Open `home-view-model.ts` and add the following:
+Since we have an array of flicks to display we can use NativeScript's [`ListView`](/ui/list-view) component. `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list. Let's first create a variable called flick in our home component that we are going to use as our `ListView`'s data source. Open `home-view-model.ts` and add the following:
 
 ```typescript{9-23}
 // app/home/home-view-model.ts
@@ -644,4 +648,4 @@ Running the app on either platform should now result in an app that resembles th
 
 ## What's next
 
-Congratulations! You built your first NativeScript app that runs on both iOS and Android. You can continue adding more [NativeScript UI components](https://docs.nativescript.org/ui-and-styling.html) (or build your custom UI components), or you could add some [native functionalities](https://docs.nativescript.org/native-api-access.html). The possibilities are endless!
+Congratulations! You built your first NativeScript app that runs on both iOS and Android. You can continue adding more [NativeScript UI components](/ui/) (or build your custom UI components), or you could add some [native functionalities](https://docs.nativescript.org/native-api-access.html). The possibilities are endless!

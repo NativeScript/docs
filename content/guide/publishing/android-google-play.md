@@ -6,6 +6,10 @@ prev: /guide/publishing/
 next: false
 contributors:
   - rigor789
+breadcrumbs:
+  - name: 'Publishing'
+    href: '/guide/publishing/'
+  - name: 'Publishing to Google Play'
 ---
 
 Publishing a NativeScript is generally the same as publishing any other Android app, documented in the [Official Android Docs](https://developer.android.com/studio/publish)

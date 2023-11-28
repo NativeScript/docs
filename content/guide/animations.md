@@ -473,7 +473,7 @@ If you have a few "tappable" views that need to be ignored:
 <Button text="Global tap animations simply ignored" ignoreTouchAnimation="true" />
 ```
 
-In addition to expressing NativeScript [Animation APIs](https://docs.nativescript.org/interaction.html#animations) which are convenient, simple and easy you can also define purely native animations like [iOS UIView Animations](https://developer.apple.com/documentation/uikit/uiview/1622418-animate) or even [Android Dynamic Spring Physics Animations](https://developer.android.com/guide/topics/graphics/spring-animation), for example:
+In addition to expressing NativeScript [Animation APIs](#animating-with-code) which are convenient, simple and easy you can also define purely native animations like [iOS UIView Animations](https://developer.apple.com/documentation/uikit/uiview/1622418-animate) or even [Android Dynamic Spring Physics Animations](https://developer.android.com/guide/topics/graphics/spring-animation), for example:
 
 ```ts
 touchAnimation = {

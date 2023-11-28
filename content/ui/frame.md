@@ -102,7 +102,7 @@ currentPage: Page
 
 **Readonly**. The current Page the Frame is navigated to.
 
-See [Page](/ui/Page).
+See [Page](/ui/page).
 
 ### transition
 

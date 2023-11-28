@@ -131,7 +131,7 @@ Returns an array of all stored keys or an empty array if no keys exist in the de
 
 ## API Reference(s)
 
-- [ApplicationSettings](https://docs.nativescript.org/api-reference/modules#applicationsettings) module
+- [ApplicationSettings](https://docs.nativescript.org/api/namespace/ApplicationSettings) module
 
 ## Native Component
 

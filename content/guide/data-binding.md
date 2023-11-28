@@ -29,7 +29,7 @@ export class HelloWorldModel extends Observable {
 }
 ```
 
-- **One-way (to Model) data binding** - Binding which updates the model in relation to some action in the UI. The best example for this is a [tap](/guide/ui-components/gestures-in-nativescript#tap-gesture-in-nativescript) event.
+- **One-way (to Model) data binding** - Binding which updates the model in relation to some action in the UI. The best example for this is a [tap](/guide/gestures#tap-gesture) event.
 
 ```xml
 <Button text="Submit" tap="{{ onTap }}"/>
@@ -68,7 +68,7 @@ A parent and a child UI components can have different binding contexts and the c
 
 <!-- TODO: fix links -->
 
-Generally, the binding context is inheritable, but not when the components are created dynamically based on some data source. For example, [ListView]() creates its child items based on an `itemТemplate`, which describes what the ListView component will look like. When this component is added to the visual tree, for binding context it gets an element from a `ListView` items array (with the corresponding index).
+Generally, the binding context is inheritable, but not when the components are created dynamically based on some data source. For example, [ListView](/ui/list-view) creates its child items based on an `itemТemplate`, which describes what the ListView component will look like. When this component is added to the visual tree, for binding context it gets an element from a `ListView` items array (with the corresponding index).
 
 This process creates a new binding context chain for the child item and its inner UI components. So, the inner UI component cannot access the binding context of the `ListView`. In order to solve this problem, NativeScript binding infrastructure has two special keywords:
 

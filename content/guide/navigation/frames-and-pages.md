@@ -81,7 +81,7 @@ frame.navigate({
 })
 ```
 
-To access the passed data, handle the `navigatedTo` event for the `details/details-page` page and access the `context` property on the event's [NavigatedData](https://docs.nativescript.org/api-reference/interfaces/navigateddata) object.
+To access the passed data, handle the `navigatedTo` event for the `details/details-page` page and access the `context` property on the event's [NavigatedData](https://docs.nativescript.org/api/interface/NavigatedData) object.
 
 ```ts
 import { NavigatedData } from '@nativescript/core'
