@@ -13,9 +13,9 @@ Using "platform conditionals":
 
 ```ts
 if (isIOS) {
-    // handle ios
+  // handle ios
 } else if (isAndroid) {
-    // handle android
+  // handle android
 }
 ```
 
