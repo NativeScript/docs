@@ -31,6 +31,6 @@ A great resource at [tinypng.com](https://tinypng.com/) is available to optimize
 
 The website has the following example:
 
-![TinyPng Example](../assets/images/optimization/tinypng-example.png?raw=true 'TinyPng Example')
+![TinyPng Example](../assets/images/best-practices/optimization/tinypng-example.png?raw=true 'TinyPng Example')
 
 With one example you can see how easily you can reduce the file size significantly, which will improve your app's performance when it is displaying images. Another benefit of compressing your images is smaller installables for the end user to download for the Apple App Store and Google Play Store.
