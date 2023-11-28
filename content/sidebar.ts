@@ -228,6 +228,10 @@ export default [
         link: '/guide/accessibility',
       },
       {
+        text: 'Best Practices',
+        link: '/best-practices/',
+      },
+      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
