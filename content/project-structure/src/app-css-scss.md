@@ -2,6 +2,7 @@
 title: app.css (or app.scss)
 contributors:
   - rigor789
+  - NathanWalker
 ---
 
 The `app.css` (or `app.scss`) file contains the global styles for the app. The name of the file is important, since this file is automatically loaded when the app starts.
@@ -10,10 +11,8 @@ The `app.css` (or `app.scss`) file contains the global styles for the app. The n
 
 Platform specific styles can be defined in `app.<platform>.(css|scss)`
 
-## Using a different file name or location
+## Using other CSS plugins
 
-## Using CSS
+You can use any number of CSS plugins you'd like in your project.
 
-## Using Sass
-
-## Using other css preprocessors
+For example, you can use [Tailwind CSS](https://tailwindcss.com/) using [@nativescript/tailwind](https://github.com/NativeScript/tailwind#nativescripttailwind)
