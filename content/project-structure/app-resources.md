@@ -28,6 +28,18 @@ App_Resources/
 
 Values can be overriden on specific API levels by making the changes in the corresponding directories.
 
+### Android app display name
+
+- `App_Resources/Android/src/main/res/values/strings.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+  <string name="app_name">Your app name</string>
+  <string name="title_activity_kimera">Your app name</string>
+</resources>
+```
+
 ### Adding native code to an application
 
 There are different ways to add native code to an Android application. You can add Java JAR files or Java and/or Kotlin source files in `App_Resources/Android/libs` and `App_Resources/Android/src` respectively, e.g.:
@@ -238,6 +250,15 @@ Most things on iOS are controlled directly through the app's template code howev
 <string>UIStatusBarStyleDarkContent</string>
 <key>UIViewControllerBasedStatusBarAppearance</key>
 <false/>
+```
+
+### iOS app display name
+
+```xml
+<key>CFBundleDisplayName</key>
+<string>Your app name</string>
+<key>CFBundleName</key>
+<string>Your app name</string>
 ```
 
 ### Adding custom entitlements
