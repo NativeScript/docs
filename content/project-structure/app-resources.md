@@ -2,6 +2,7 @@
 title: App_Resources
 contributors:
   - rigor789
+  - NathanWalker
 ---
 
 The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform.
