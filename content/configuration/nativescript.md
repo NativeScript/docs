@@ -365,7 +365,7 @@ ios.SPMPackages: Array<{
 }>
 ```
 
-Allows defining Swift Package Manager dependencies that should be installed into the project. Any dependencies listed here, similar to Cocoapods depependencies will be built with the project. This means you can generate typings for them via `ns typings ios` for TypeScript usage.
+Allows defining Swift Package Manager dependencies that should be installed into the project. Any dependencies listed here, similar to Cocoapods dependencies will be built with the project. This means you can generate typings for them via `ns typings ios` for TypeScript usage.
 
 #### Example
 
