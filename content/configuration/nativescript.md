@@ -396,7 +396,7 @@ hooks: [
 
 Allows defining project-persistent hooks.
 
-Avaialable hooks (prefix with `before-` or `after-`):
+Available hooks (prefix with `before-` or `after-`):
 
 - `buildAndroidPlugin` - Builds aar file for Android plugin, runs during prepareNativeApp
 - `buildAndroid` - Builds Android app
