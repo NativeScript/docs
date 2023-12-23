@@ -4,6 +4,7 @@ contributors:
   - rigor789
   - Ombuweb
   - NathanWalker
+  - achou11
 ---
 
 The `nativescript.config.ts` is a central place to configure your project. It allows you to configure your project structure, application id, runtime related flags and more.
@@ -365,7 +366,7 @@ ios.SPMPackages: Array<{
 }>
 ```
 
-Allows defining Swift Package Manager dependencies that should be installed into the project. Any dependencies listed here, similar to Cocoapods depependencies will be built with the project. This means you can generate typings for them via `ns typings ios` for TypeScript usage.
+Allows defining Swift Package Manager dependencies that should be installed into the project. Any dependencies listed here, similar to Cocoapods dependencies will be built with the project. This means you can generate typings for them via `ns typings ios` for TypeScript usage.
 
 #### Example
 
@@ -396,18 +397,18 @@ hooks: [
 
 Allows defining project-persistent hooks.
 
-Avaialable hooks (prefix with `before-` or `after-`):
+Available hooks (prefix with `before-` or `after-`):
 
-- `buildAndroidPlugin` - Builds aar file for Android plugin, runs during prepareNativeApp
+- `buildAndroidPlugin` - Builds aar file for Android plugin, runs during `prepareNativeApp`
 - `buildAndroid` - Builds Android app
 - `buildIOS` - Builds iOS app
-- `checkEnvironment` - Validate project env, runs during `ns` doctor, clean, and most build commands
-- `checkForChanges` - Changes occurred during watch
+- `checkEnvironment` - Validate project env, runs during `ns doctor`, `ns clean`, and most build commands
+- `checkForChanges` - Changes occurred during `watch`
 - `install` - Application installed to device/emulator
 - `prepare` - Compiles webpack and prepares native app in platforms folder
-- `prepareNativeApp` - Preparing the actual native app, runs during prepare/watch hook
+- `prepareNativeApp` - Preparing the actual native app, runs during `prepare`/`watch` hook
 - `resolveCommand` - Resolves command and arguments, runs before all CLI commands
-- `watch` - Setup watchers for live sync, runs during prepare hook
-- `watchPatterns` - Setup watch patterns, runs during watch hook
+- `watch` - Set up watchers for live sync, runs during `prepare` hook
+- `watchPatterns` - Set up watch patterns, runs during `watch` hook
 
 <!-- TODO: check if we are missing some hooks here, ie. before-gradleArgs? -->
