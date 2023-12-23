@@ -3,6 +3,7 @@ title: CLI Basics
 contributors:
   - Ombuweb
   - rigor789
+  - achou11
 ---
 
 When working with NativeScript, you will often interact with the NativeScript CLI. The CLI is self-documented, so you can always run `ns --help` or `ns <command> --help` to view available commands, flags and descriptions.
@@ -28,7 +29,7 @@ To clean, run this command from your project's root directory:
 ns clean
 ```
 
-Running `ns clean` removes the `node_modules`, `hooks`, and `platforms` directories. You can customize what's cleaned in the [nativescript.config.ts](/project-structure/nativescript-config#cli-pathstoclean).
+Running `ns clean` removes the `node_modules`, `hooks`, and `platforms` directories and the `package-lock.json` file. You can customize what's cleaned in the [nativescript.config.ts](/configuration/nativescript#cli-pathstoclean).
 
 ### Cleaning multiple projects
 
