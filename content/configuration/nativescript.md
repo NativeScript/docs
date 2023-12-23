@@ -4,6 +4,7 @@ contributors:
   - rigor789
   - Ombuweb
   - NathanWalker
+  - achou11
 ---
 
 The `nativescript.config.ts` is a central place to configure your project. It allows you to configure your project structure, application id, runtime related flags and more.
