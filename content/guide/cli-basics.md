@@ -3,6 +3,7 @@ title: CLI Basics
 contributors:
   - Ombuweb
   - rigor789
+  - achou11
 ---
 
 When working with NativeScript, you will often interact with the NativeScript CLI. The CLI is self-documented, so you can always run `ns --help` or `ns <command> --help` to view available commands, flags and descriptions.
