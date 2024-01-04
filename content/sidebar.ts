@@ -52,6 +52,10 @@ export default [
         link: '/guide/development-workflow/using-packages',
       },
       {
+        text: 'Recommended Plugins',
+        link: '/recommended-plugins',
+      },
+      {
         text: 'Testing',
         link: '/guide/testing',
       },
