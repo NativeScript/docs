@@ -25,4 +25,4 @@
 /tutorial/*                 /tutorials/                                                     301
 
 # redirect webpack config
-/webpack/                   /configuration/webpack/                                         301
+/webpack                    /configuration/webpack/                                         301
