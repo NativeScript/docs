@@ -11,7 +11,7 @@ NativeScript provides platform APIs directly to the JavaScript runtime (_with st
 
 Some popular use cases:
 
-- Building iOS, Android and Vision Pro apps with a shared codebase (aka, cross platform apps)
+- Building Web, iOS, Android and Vision Pro apps with a shared codebase (aka, cross platform apps)
 - Building native platform apps with portable JavaScript skills
 - Augmenting JavaScript projects with platform API capabilities
 - AndroidTV and Watch development
