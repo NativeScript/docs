@@ -2,9 +2,10 @@
 title: ImageCache
 contributors:
   - Ombuweb
+  - NathanWalker
 ---
 
-ImageCache allows you to cache an image from an HTTP request.
+ImageCache allows you to cache an image from an HTTP request. You can alternatively use a plugin that auto handles image caching like [`@triniwiz/nativescript-image-cache-it`](https://www.npmjs.com/package/@triniwiz/nativescript-image-cache-it).
 
 ## Using ImageCache
 
@@ -13,13 +14,7 @@ For consistency, you should use a single ImageCache instance throughout your app
 ```ts
 import { ImageCache } from '@nativescript/core'
 
-export class HelloWorldModel extends Observable {
-  imageCache = new ImageCache()
-
-  constructor() {
-    super()
-  }
-}
+const imageCache = new ImageCache()
 ```
 
 ### Save an image to cache
@@ -27,7 +22,7 @@ export class HelloWorldModel extends Observable {
 To retrieve an image from a remote server and cache it, use either the [push](#push) or [enqueue](#enqueue) method. These methods cache the `android.graphics.Bitmap` (Android) or `UIImage` (iOS) instance.
 
 ```ts
-this.imageCache.enqueue({
+imageCache.enqueue({
   url: this.url,
   key: 'cat',
   completed(image: android.graphics.Bitmap | UIImage, key) {
@@ -48,7 +43,7 @@ To call the [push](#push) method instead, just replace `enqueue` with `push`
 To get an image from the cache, use the [get](#get) method.
 
 ```ts
-const cachedImage = this.imageCache.get('cat')
+const cachedImage = imageCache.get('cat')
 ```
 
 ## API
@@ -84,7 +79,7 @@ self.on(ImageCache.downloadErrorEvent, (args: DownloadError) => {
 ### placeholder
 
 ```ts
-this.imageCache.placeholder = imageSource
+imageCache.placeholder = imageSource
 ```
 
 The image to be used to notify for a pending download request - e.g. loading indicator.
@@ -94,7 +89,7 @@ The image to be used to notify for a pending download request - e.g. loading ind
 ### maxRequests
 
 ```ts
-this.imageCache.number = 2
+imageCache.number = 2
 ```
 
 The maximum number of simultaneous download requests. Defaults to 5
@@ -119,7 +114,7 @@ Temporary disables download requests.
 ### push
 
 ```ts
-this.imageCache.push(request)
+imageCache.push(request)
 ```
 
 Adds a new image to the **start** of the cache. `request` is an object with the following members:
@@ -134,7 +129,7 @@ Adds a new image to the **start** of the cache. `request` is an object with the 
 ### enqueue
 
 ```ts
-this.imageCache.enqueue(request)
+imageCache.enqueue(request)
 ```
 
 Adds a new image to the **end** of the cache. For more details about the `request` parameter, see the [push()](#push) method.
@@ -144,7 +139,7 @@ Adds a new image to the **end** of the cache. For more details about the `reques
 ### get
 
 ```ts
-this.imageCache.get(key)
+imageCache.get(key)
 ```
 
 Gets the image with a given `key` from the cache, or undefined if it's not in the cache.
@@ -152,7 +147,7 @@ Gets the image with a given `key` from the cache, or undefined if it's not in th
 ### remove
 
 ```ts
-this.imageCache.remove(imageKey)
+imageCache.remove(imageKey)
 ```
 
 Remove the specified image from the cache.
@@ -162,7 +157,7 @@ Remove the specified image from the cache.
 ### clear
 
 ```ts
-this.imageCache.clear()
+imageCache.clear()
 ```
 
 Clears all the images from the cache.
