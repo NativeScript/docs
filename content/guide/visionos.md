@@ -8,17 +8,17 @@ contributors:
 
 <img class="mx-auto" src="../assets/images/guide/vision-pro.png" alt="Vision Pro" />
 
-Apple provides [visionOS](https://developer.apple.com/visionos/) development through the latest [Xcode 15 beta](https://developer.apple.com/xcode/resources/).
+Apple provides [visionOS](https://developer.apple.com/visionos/) development through the latest [Xcode 15.2](https://developer.apple.com/xcode/resources/) release.
 
 ::: info Note
-You will need an [Apple developer account](https://developer.apple.com/programs/enroll/) to download beta tools and SDKs.
+You will need an [Apple developer account](https://developer.apple.com/programs/enroll/) to download developer tools and SDKs.
 :::
 
 <iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/1NGoY74-vZc" title="Developing for visionOS with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Create a visionOS project
 
-Given that Apple is distributing visionOS with _only_ [Xcode beta](https://developer.apple.com/xcode/resources) at the moment (_not the current Xcode release_), we are providing `vision` tagged npm packages to keep things distinct while you develop for visionOS.
+Vision Pro is [scheduled for release on February 2, 2024](https://twitter.com/tim_cook/status/1744362067786682797) however you can develop now using the Vision Pro Simulator. Since the hardware is not available for public use yet, we are providing `vision` tagged npm packages to keep things distinct while you develop for visionOS.
 
 **You will need the `vision` CLI**:
 
