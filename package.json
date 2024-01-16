@@ -12,7 +12,8 @@
     "fix:text": "textlint ./content/**/*.md --fix",
     "lint:format": "prettier --check ./content/**/*.md",
     "lint:text": "textlint ./content/**/*.md",
-    "update-theme": "node ./.vitepress/update-theme.mjs"
+    "scrape.plugins": "zx ./scripts/plugin-scraper.mjs && prettier --write \"./content/plugins/*.md\"",
+    "update-theme": "node ./.vitepress/update-theme.mjs"    
   },
   "devDependencies": {
     "@nativescript/vitepress-theme": "https://github.com/NativeScript/docs/releases/download/vitepress-theme/vitepress-theme.tgz?1696967568385",
@@ -23,7 +24,10 @@
     "textlint": "^13.3.3",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-terminology": "^3.0.5",
-    "vitepress": "1.0.0-rc.4"
+    "vitepress": "1.0.0-rc.4",
+    "puppeteer": "^14.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "zx": "^6.2.5"
   },
   "prettier": {
     "semi": false,
