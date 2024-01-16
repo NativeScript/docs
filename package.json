@@ -12,7 +12,7 @@
     "fix:text": "textlint ./content/**/*.md --fix",
     "lint:format": "prettier --check ./content/**/*.md",
     "lint:text": "textlint ./content/**/*.md",
-    "scrape.plugins": "zx ./scripts/plugin-scraper.mjs && prettier --write \"./content/plugins/*.md\"",
+    "scrape.plugins": "zx ./scripts/plugin-scraper.mjs && prettier --write ./content/plugins/*.md && prettier --write ./content/plugins/*.md",
     "update-theme": "node ./.vitepress/update-theme.mjs"    
   },
   "devDependencies": {

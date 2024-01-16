@@ -89,8 +89,7 @@ biometricAuth.available().then((result: BiometricIDAvailableResult) => {
 
 To verify user biometrics, call the `verifyBiometric()` method and pass it a [VerifyBiometricOptions](#verifybiometricoptions) object.
 
-> **Note: iOS**
-> `verifyBiometric()` will fail on IOS simulator unless the `pinfallBack` option is used.
+> **Note: iOS** > `verifyBiometric()` will fail on IOS simulator unless the `pinfallBack` option is used.
 
 ```typescript
 biometricAuth
