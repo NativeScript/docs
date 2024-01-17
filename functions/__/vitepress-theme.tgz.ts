@@ -1,4 +1,14 @@
 export async function onRequest(context) {
+  if (context.request.method === 'OPTIONS') {
+    // Send response to OPTIONS requests
+    return new Response(null, {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+      },
+    })
+  }
+
   let response = await fetch(
     'https://github.com/NativeScript/docs/releases/download/vitepress-theme/vitepress-theme.tgz'
   )
