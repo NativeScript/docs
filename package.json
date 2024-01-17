@@ -13,10 +13,10 @@
     "lint:format": "prettier --check ./content/**/*.md",
     "lint:text": "textlint ./content/**/*.md",
     "scrape.plugins": "zx ./scripts/plugin-scraper.mjs && prettier --write ./content/plugins/*.md && prettier --write ./content/plugins/*.md",
-    "update-theme": "node ./.vitepress/update-theme.mjs"    
+    "update-theme": "node ./.vitepress/update-theme.mjs"
   },
   "devDependencies": {
-    "@nativescript/vitepress-theme": "https://docs.nativescript.org/__/vitepress-theme.tgz?1696967568385",
+    "@nativescript/vitepress-theme": "https://docs.nativescript.org/__/vitepress-theme.tgz?1705506987892",
     "@types/node": "18.11.9",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
