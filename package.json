@@ -25,8 +25,6 @@
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-terminology": "^3.0.5",
     "vitepress": "1.0.0-rc.4",
-    "puppeteer": "^14.4.0",
-    "puppeteer-extra": "^3.2.3",
     "zx": "^6.2.5"
   },
   "prettier": {
