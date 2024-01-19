@@ -218,8 +218,8 @@ export default [
             link: '/guide/native-code/ios',
           },
           {
-            text: 'Generate TS types',
-            link: '/guide/native-code/generate-types',
+            text: 'Generating TypeScript types',
+            link: '/guide/native-code/generate-typings',
           }
         ]
       },

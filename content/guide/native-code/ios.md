@@ -7,7 +7,6 @@ contributors:
   - vallemar
 ---
 
-
 You can add Objective-C/Swift source files to `App_Resources/iOS/src`. For Objective-C files, create a `.modulemap` file. To add a [CocoaPod](https://guides.cocoapods.org/using/getting-started.html), edit `App_Resources/iOS/Podfile`:
 
 ```bash
@@ -22,11 +21,9 @@ App_Resources/
 └─ ... more
 ```
 
-
 ### Adding Swift code
 
-Define the swfit file within the path `App_Resources/iOS/src`.
-
+Define the swfit file in `App_Resources/iOS/src`.
 
 ```swift
 // HelloSwift.swift
@@ -41,12 +38,13 @@ class HelloSwift: NSObject {
 }
 ```
 
-Given the example above, your JavaScript or TypeScript code can reference the Swift code by using the full class names, e.g.
+Given the example above, your JavaScript or TypeScript code can reference the Swift code by using the full class name:
 
 ```ts
-const helloSwift = new HelloSwift();
-helloSwift.stringToReturn = "Custom hello from Swift!";
-console.log(helloSwift.getString()); // Custom hello from Swift!
+const helloSwift = new HelloSwift()
+helloSwift.stringToReturn = 'Custom hello from Swift!'
+console.log(helloSwift.getString()) 
+// prints: Custom hello from Swift!
 ```
 
 #### Using `@objc`
@@ -55,7 +53,7 @@ console.log(helloSwift.getString()); // Custom hello from Swift!
 
 #### Using `@objcMembers`
 
-A shortcut to the `@objc` notation is to use the `@objcMembers` notation at the class level to make the entire class accessible, e.g.
+A shortcut to the `@objc` notation is to use the `@objcMembers` notation at the class level to make the entire class accessible.
 
 ```swift
 // HelloSwift.swift
@@ -70,6 +68,7 @@ class HelloSwift: NSObject {
     }
 }
 ```
+
 <!---
 TODO: add Objective-C code
 ### Adding Objective-C code

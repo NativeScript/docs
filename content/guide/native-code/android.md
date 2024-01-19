@@ -9,7 +9,7 @@ contributors:
 
 ## Adding native code to an application
 
-There are different ways to add native code to an Android application. You can add Java JAR files or Java and/or Kotlin source files in `App_Resources/Android/libs` and `App_Resources/Android/src` respectively, e.g.:
+There are different ways to add native code to an Android application. You can add `.jar` and `.aar` files, or Java/Kotlin source files in `App_Resources/Android/libs` and `App_Resources/Android/src` respectively.
 
 ```bash
 App_Resources/
@@ -27,10 +27,9 @@ App_Resources/
 └─ ... more
 ```
 
-
 ## Adding Java code
 
-Define the java file within the path `App_Resources/Android/src/main/java`.
+Define the java file in `App_Resources/Android/src/main/java`.
 
 ```java
 // HelloJava.java
@@ -43,7 +42,7 @@ public class HelloJava {
 }
 ```
 
-Given the example above, your JavaScript or TypeScript code can reference the Java code by using the full class names, e.g.
+Given the example above, your JavaScript or TypeScript code can reference the Java code by using the full class name:
 
 ```typescript
 const helloJava = new com.example.HelloJava()
@@ -53,34 +52,33 @@ console.log('Java says: ' + helloJava.getString())
 
 :::tip Note
 
-If using TypeScript, you may need to [generate typings](/guide/native-code/generate-types), or alternatively declare the top level package name as `any`, e.g.
+When using TypeScript, you may need to [generate typings](/guide/native-code/generate-typings), or alternatively declare the top level package name as `any`.
 
 ```typescript
 declare const com: any
 ```
+
 :::
 
 ## Adding Kotlin code
 
-### Kotlin Setting
+### Configuring Kotlin
 
 #### Enable kotlin
 
-If using Kotlin source files, must be enabled.
+When using Kotlin, it must be enabled first.
 
-Set `useKotlin` in `gradle.properties`, the full path of this file is `App_Resources/Android/gradle.properties`, if it does not exist yet you must create it
+Set `useKotlin=true` in `App_Resources/Android/gradle.properties` (create the file if it doesn't exist).
 
-```properties
+```ini
 useKotlin=true
 ```
 
-#### Configure version
+#### Configure Kotlin version
 
-Configure the version of Kotlin to use in the application.
+Configure the version of Kotlin to use in the application in `App_Resources/Android/before-plugins.gradle` (create the file if it doesn't exist).
 
-This option is configured in `before-plugins.gradle`,  the full path of this file is `App_Resources/Android/before-plugins.gradle`
-
-```gradle
+```groovy
 project.ext {
   kotlinVersion = "1.9.10"
 }
@@ -88,7 +86,7 @@ project.ext {
 
 ### Using kotlin
 
-Define the kotlin file within the path `App_Resources/Android/src/main/java`.
+Define the kotlin file in `App_Resources/Android/src/main/java`.
 
 ```kotlin
 // HelloKotlin.kt
@@ -99,7 +97,7 @@ class HelloKotlin {
 }
 ```
 
-Given the example above, your JavaScript or TypeScript code can reference the Kotlin code by using the full class names, e.g.
+Given the example above, your JavaScript or TypeScript code can reference the Kotlin code by using the full class name:
 
 ```typescript
 const helloKotlin = new com.example.HelloKotlin()
@@ -109,9 +107,10 @@ console.log('Kotlin says: ' + helloKotlin.hello)
 
 :::tip Note
 
-If using TypeScript, you may need to [generate typings](/guide/native-code/generate-types), or alternatively declare the top level package name as `any`, e.g.
+When using TypeScript, you may need to [generate typings](/guide/native-code/generate-typings), or alternatively declare the top level package name as `any`.
 
 ```typescript
 declare const com: any
 ```
+
 :::
