@@ -67,7 +67,8 @@ class HelloSwift: NSObject {
     }
 }
 ```
-
+<!---
+TODO: add Objective-C code
 ### Adding Objective-C code
 
 Define the Objective-C code within the path `App_Resources/iOS/src`.
@@ -112,3 +113,5 @@ extension UIView {
 
 @end
 ```
+
+-->
