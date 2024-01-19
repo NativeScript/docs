@@ -42,68 +42,7 @@ Values can be overriden on specific API levels by making the changes in the corr
 ```
 
 ### Adding native code to an application
-
-There are different ways to add native code to an Android application. You can add Java JAR files or Java and/or Kotlin source files in `App_Resources/Android/libs` and `App_Resources/Android/src` respectively, e.g.:
-
-```bash
-App_Resources/
-├─ Android/
-│  ├─ app.gradle
-│  ├─ libs/
-│  │  ├─ HelloAndroidLib.aar  # Android Archive
-│  │  └─ HelloJavaLib.jar     # Java Archive
-│  └─ src/
-│     └─ main/
-│       ├─ java/
-│       │  ├─ com/example/HelloKotlin.kt  # Kotlin source code
-│       │  └─ com/example/HelloJava.java  # Java source code
-│       └─ res/
-└─ ... more
-```
-
-```kotlin
-// HelloKotlin.kt
-package com.example
-
-class HelloKotlin {
-  val hello = "Hello from Kotlin!"
-}
-```
-
-```java
-// HelloJava.java
-package com.example
-
-class HelloJava {
-  public String getString() {
-    return "Hello from Java!";
-  }
-}
-```
-
-Given the example above, your JavaScript or TypeScript code can reference the Kotlin or Java code by using the full class names, e.g.
-
-```typescript
-const helloKotlin = new com.example.HelloKotlin()
-console.log('Kotlin says: ' + helloKotlin.hello)
-// prints: Kotlin says: Hello from Kotlin!
-
-const helloJava = new com.example.HelloJava()
-console.log('Java says: ' + helloJava.getString())
-// prints: Java says: Hello from Java!
-```
-
-:::tip Note
-
-If using TypeScript, you may need to generate typings, or alternatively declare the top level package name as `any`, e.g.
-
-```typescript
-declare const com: any
-```
-
-:::
-
-If using Kotlin source files, `useKotlin` should be enabled in `before-plugins.gradle` or `app.gradle`
+See [Adding Java/Kotlin Code to an application](/guide/native-code/android)
 
 ### Setting the default color of the ActionBar
 
@@ -269,39 +208,4 @@ You can add custom entitlements to the `App_Resources/iOS/app.entitlements`
 For a list of available entitlements refer to [Apple's Entitlements documentation](https://developer.apple.com/documentation/bundleresources/entitlements?language=objc)
 
 ### Adding ObjectiveC/Swift Code to an application
-
-You can add Objective-C/Swift source files to `App_Resources/iOS/src`. For Objective-C files, create a `.modulemap` file. To add a [CocoaPod](https://guides.cocoapods.org/using/getting-started.html), edit `App_Resources/iOS/Podfile`:
-
-```bash
-App_Resources/
-├─ iOS/
-│  ├─ src/
-│  │  ├─ Shimmer.swift
-│  │  ├─ Shimmer.h
-│  │  ├─ Shimmer.m
-│  │  └─ module.modulemap
-│  └─ Podfile
-└─ ... more
-```
-
-```swift
-extension UIView {
-  @objc func startShimmering(
-    speed: Float = 1.4,
-    repeatCount: Float = MAXFLOAT
-  ) {
-    // ...
-  }
-}
-```
-
-```objc
-#import "Shimmer.h"
-
-@implementation UIView (Shimmer)
-- (void)startShimmering
-{
-  // ...
-}
-@end
-```
+See [Adding ObjectiveC/Swift Code to an application](/guide/native-code/ios).
