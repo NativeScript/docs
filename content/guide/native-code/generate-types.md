@@ -1,7 +1,9 @@
 ---
 title: Generate TS types
 contributors:
-  - vallemar
+  - Ombuweb
+  - NathanWalker
+  - rigor789
 ---
 
 

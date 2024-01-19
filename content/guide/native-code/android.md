@@ -1,6 +1,9 @@
 ---
 title: Adding Java/Kotlin Code to an application
 contributors:
+  - Ombuweb
+  - NathanWalker
+  - rigor789
   - vallemar
 ---
 

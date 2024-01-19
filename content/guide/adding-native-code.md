@@ -5,6 +5,7 @@ contributors:
   - Ombuweb
   - NathanWalker
   - rigor789
+  - vallemar
 ---
 
 If the native API you need is not exposed through [@nativescript/core](/core/#nativescript-core), [third party plugins](https://market.nativescript.org/) or [@nativescript/\* plugins](https://v8.docs.nativescript.org/plugins/index.html)), you can add it to your project and access it right away in TypeScript.

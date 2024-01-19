@@ -1,6 +1,9 @@
 ---
 title: Adding ObjectiveC/Swift Code to an application
 contributors:
+  - Ombuweb
+  - NathanWalker
+  - rigor789
   - vallemar
 ---
 
