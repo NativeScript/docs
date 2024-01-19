@@ -208,6 +208,20 @@ export default [
       {
         text: 'Adding Native Code',
         link: '/guide/adding-native-code',
+        items: [
+          {
+            text: 'Adding Java/Kotlin Code',
+            link: '/guide/native-code/android',
+          },
+          {
+            text: 'Adding ObjectiveC/Swift Code',
+            link: '/guide/native-code/ios',
+          },
+          {
+            text: 'Generating TypeScript types',
+            link: '/guide/native-code/generate-typings',
+          }
+        ]
       },
       {
         text: 'Extending Native Classes',
