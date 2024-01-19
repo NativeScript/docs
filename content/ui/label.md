@@ -25,7 +25,7 @@ The NativeScript `<Label>` is not the same as the HTML `<Label>`.
 
 ## Examples
 
-### Formatting text inside a button
+### Styling the label
 
 If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
