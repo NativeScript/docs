@@ -42,6 +42,7 @@ Values can be overriden on specific API levels by making the changes in the corr
 ```
 
 ### Adding native code to an application
+
 See [Adding Java/Kotlin Code to an application](/guide/native-code/android)
 
 ### Setting the default color of the ActionBar
@@ -208,4 +209,5 @@ You can add custom entitlements to the `App_Resources/iOS/app.entitlements`
 For a list of available entitlements refer to [Apple's Entitlements documentation](https://developer.apple.com/documentation/bundleresources/entitlements?language=objc)
 
 ### Adding ObjectiveC/Swift Code to an application
+
 See [Adding ObjectiveC/Swift Code to an application](/guide/native-code/ios).
