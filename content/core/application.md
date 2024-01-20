@@ -107,6 +107,7 @@ Application.on('orientationChanged', (args: ApplicationEventData) => {
 
 - `livesync`
 - `cssChanged`
+- `initRootView`
 - `launch`
 - `displayed`
 - `suspend`
