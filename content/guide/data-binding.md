@@ -29,23 +29,41 @@ export class HelloWorldModel extends Observable {
 }
 ```
 
-- **One-way (to Model) data binding** - Binding which updates the model in relation to some action in the UI. The best example for this is a [tap](/guide/gestures#tap-gesture) event.
+- **One-way (to Model) data binding** - Binding which updates the model in relation to some action in the UI. The best example for this is a [tap](/guide/gestures#tap-gesture) event. Static and data bound arguments can be passed using [function currying](https://javascript.info/currying-partials). Here's a [working example](https://stackblitz.com/edit/nativescript-stackblitz-templates-f6wmfx?file=app%2Fmain-view-model.ts).
 
 ```xml
 <Button text="Submit" tap="{{ onTap }}"/>
+<Button text="TAP1" tap="{{ onTap2('TAP1') }}" />
+<Button text="TAP2" tap="{{ onTap2('TAP2') }}" />
+<Button text="TAP3" tap="{{ onTap3('TAP3', counter) }}" />
 ```
 
 ```ts
 export class HelloWorldModel extends Observable {
-
+        public counter: number = 42;
+  
         onTap(args: EventData){
 
         }
-
+        onTap2(source: string) {
+          return function fnOnTap2 (args: EventData) {
+            console.log('onTap2.source =', source);
+            ...
+          }
+        }
+        onTap3(source: string, num: number) {
+          return (args: EventData) => {
+            console.log('onTap3.source =', source);
+            console.log('onTap3.num =', num);
+            this.counter--;
+            ...
+          }
+        }
         ...
 
 }
 ```
+
 
 - **Two-way data binding** - The data flows from the Model to the UI and vice versa. A typical example is a `TextField` that reads its value from a Model, and also changes the Model based on user input.
 
