@@ -1,5 +1,8 @@
 ---
 title: Data Binding in NativeScript
+contributors:
+  - Ombuweb
+  - flipperlite
 ---
 
 _Data Binding_ refers to a connection (_binding_) and data flow between _ViewModel_ (Model) and _User Interface_ (UI).
@@ -22,10 +25,7 @@ There are various ways to manage data flow, often referred to as data bindings:
 
 ```ts
 export class HelloWorldModel extends Observable {
-        name = "John Doe"
-
-        ...
-
+  name = 'John Doe'
 }
 ```
 
@@ -33,37 +33,36 @@ export class HelloWorldModel extends Observable {
 
 ```xml
 <Button text="Submit" tap="{{ onTap }}"/>
-<Button text="TAP1" tap="{{ onTap2('TAP1') }}" />
-<Button text="TAP2" tap="{{ onTap2('TAP2') }}" />
-<Button text="TAP3" tap="{{ onTap3('TAP3', counter) }}" />
+
+<Button text="Button 1" tap="{{ onTap2('Button 1') }}" />
+<Button text="Button 2" tap="{{ onTap2('Button 2') }}" />
+
+<Button text="Button 3" tap="{{ onTap3('Button 3', counter) }}" />
 ```
 
 ```ts
 export class HelloWorldModel extends Observable {
-        public counter: number = 42;
-  
-        onTap(args: EventData){
+  public counter: number = 42
 
-        }
-        onTap2(source: string) {
-          return function fnOnTap2 (args: EventData) {
-            console.log('onTap2.source =', source);
-            ...
-          }
-        }
-        onTap3(source: string, num: number) {
-          return (args: EventData) => {
-            console.log('onTap3.source =', source);
-            console.log('onTap3.num =', num);
-            this.counter--;
-            ...
-          }
-        }
-        ...
+  onTap(args: EventData) {
+    //
+  }
 
+  onTap2(source: string) {
+    return function fnOnTap2(args: EventData) {
+      console.log('onTap2.source =', source)
+    }
+  }
+
+  onTap3(source: string, num: number) {
+    return (args: EventData) => {
+      console.log('onTap3.source =', source)
+      console.log('onTap3.num =', num)
+      this.counter--
+    }
+  }
 }
 ```
-
 
 - **Two-way data binding** - The data flows from the Model to the UI and vice versa. A typical example is a `TextField` that reads its value from a Model, and also changes the Model based on user input.
 
@@ -73,10 +72,7 @@ export class HelloWorldModel extends Observable {
 
 ```ts
 export class HelloWorldModel extends Observable {
-        name = "John Doe"
-
-        ...
-
+  name = 'John Doe'
 }
 ```
 
@@ -110,129 +106,89 @@ NativeScript supports the following polymorphic binding expressions:
 To access a value stored in an object property of the bindingContext, use the propert access expression:
 
 ```ts
-...
 user = {
- names:{
-     first: "Sara"
- }
+  names: {
+    first: 'Sara',
+  },
 }
-...
 ```
 
 ```xml
-
 <Label text="{{  user.name.first  }}" textWrap="true" />
-
 ```
-
----
 
 ### array access
 
 ```xml
-
 <Label text="{{  fruits[0]  }}" textWrap="true" />
-
 ```
-
----
 
 ### logical operators
 
 You can use the not(`!`) operator to reverse the logical state of a binding context property.
 
 ```xml
-
 <Label text="{{  !isUserLoggedIn  }}" textWrap="true" />
-
 ```
 
 Supported operators: `&&`, `||` and `!`.
 
----
-
 ### unary operators
 
 ```xml
-
 <Label text="{{  +age  }}" textWrap="true" />
-
 ```
 
 ```ts
-
-...
-
-age = "33"
-
+age = '33'
 ```
 
 Converts a property value to a `number`. To convert a property to a `number` and negate it, use the `-` operator.
 
----
-
 ### comparison operators
 
 ```xml
-
 <Label text="{{  prop1 > prop2  }}" textWrap="true" />
-
 ```
 
 Supported operators: `>`,`<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 
----
-
 ### ternary operator
 
 ```xml
-
 <Label text="{{  prop1 ? prop2 : prop3  }}" textWrap="true" />
-
 ```
-
----
 
 ### grouping parenthesis
 
 ```xml
-
 <Label text="{{  prop1*(prop2 + prop3)  }}" textWrap="true" />
-
 ```
-
----
 
 ### function calls
 
 ```xml
-
 <Label text="{{  someMethod(p1,p2,...,pN)  }}" textWrap="true" />
-
 ```
-
----
 
 ### comparison operators
 
 ```xml
-
 <Label text="{{  property1 > property2  }}" textWrap="true" />
-
 ```
 
 Other supported operators are: `<`, `<=`, `>=`, `==`, `!=`, `===`, `!==`.
 
----
-
 :::tip Note
 Special characters need to be escaped as follows:
 
-- double quotes(`"`) => `&quot;`
-- single quote(`'`) => `&apos;`
-- less than(`<`) => `&lt;`
-- greater than(`>`) => `&gt;`
-- ampersand(`&`) => `&amp;`
+- double quotes: `"` &rightarrow; `&quot;`
+- single quote: `'` &rightarrow; `&apos;`
+- less than: `<` &rightarrow; `&lt;`
+- greater than: `>` &rightarrow; `&gt;`
+- ampersand: `&` &rightarrow; `&amp;`
+
+:::
 
 ## Using data converters
 
@@ -241,59 +197,53 @@ Often data within the Model is stored in a way that is optimized for best perfor
  <!-- TODO: Add SB+Preview -->
 
 ```xml
-
- <StackLayout class="p-20 bg">
-
- <Label text="{{ date | dateConverter('dd-mm-yyyy') }}" textWrap="true" />
- <Label text="{{ name | toUpperCaseConverter }}" textWrap="true" />
- <Label text="{{ title | toTitle }}" textWrap="true" />
-
- </StackLayout>
-
+<StackLayout class="p-20 bg">
+  <Label text="{{ date | dateConverter('dd-mm-yyyy') }}" textWrap="true" />
+  <Label text="{{ name | toUpperCaseConverter }}" textWrap="true" />
+  <Label text="{{ title | toTitle }}" textWrap="true" />
+</StackLayout>
 ```
 
 ```ts
 export class HelloWorldModel extends Observable {
-
-  name = "nandee"
-  title = "hello world!"
+  name = 'nandee'
+  title = 'hello world!'
   date = Date.now() // number
   dateConverter = this.formatDate()
   toUpperCaseConverter = this.toUpperCase()
   toTitle = this.convertToTitle()
 
-  ...
-
-formatDate() {
+  formatDate() {
     return {
       toView(value: number, format: string) {
-
         const date = new Date(value)
-        const day = date.getDate().toString().padStart(2, "0")
-        const month = (date.getMonth() + 1).toString().padStart(2, "0") // months are zero based in JS.
+        const day = date.getDate().toString().padStart(2, '0')
+        const month = (date.getMonth() + 1).toString().padStart(2, '0') // months are zero based in JS.
         const year = date.getFullYear().toString()
 
-        return format.replace("dd", day)
-          .replace("mm", month)
-          .replace("yyyy", year)
-      }
+        return format
+          .replace('dd', day)
+          .replace('mm', month)
+          .replace('yyyy', year)
+      },
     }
   }
 
-  toUpperCase(){
+  toUpperCase() {
     return {
-      toView(value:string){
+      toView(value: string) {
         return value.toUpperCase()
-      }
+      },
     }
   }
 
-  convertToTitle(){
+  convertToTitle() {
     return {
-      toView(str:string){
-        return str.replace(/(^|\s)\S/g, function(t) { return t.toUpperCase() });
-
-      }
+      toView(str: string) {
+        return str.replace(/(^|\s)\S/g, function (t) {
+          return t.toUpperCase()
+        })
+      },
     }
   }
 }
