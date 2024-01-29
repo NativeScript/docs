@@ -8,5 +8,5 @@ breadcrumbs:
 ---
 
 - [Publishing to Google Play](/guide/publishing/android-google-play)
-- Publishing to AppStore
+- Publishing to AppStore [WIP] [old v8 docs](https://v8.docs.nativescript.org/releasing.html#ios)
 - [Publishing with Fastlane](/guide/publishing/fastlane)
