@@ -23,7 +23,7 @@ const connectionType: number = Connectivity.getConnectionType()
 if (connectionType) {
   // `Connectivity.connectionType.none`` is `0` so truthiness can be used to determine if the device is connected to any type of network
   fetch('https://httpbin.org/get')
-    .then((response) => reponse.text())
+    .then((response) => response.text())
     .then((result) => console.log(`Fetched ${result} with ${connectionType}`))
 } else {
   console.log('Not connected to a network.')
