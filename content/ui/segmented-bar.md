@@ -47,6 +47,18 @@ To set the background color of the entire bar, use `backgroundColor`.
 
 See [Color](/api/class/Color).
 
+### selectedTextColor
+
+```ts
+selectedTextColor: Color
+```
+
+Gets or sets the text color of the selected item.
+
+To set the text color of the entire bar, use `selectedTextColor`.
+
+See [Color](/api/class/Color).
+
 ### ...Inherited
 
 For additional inherited properties, refer to the [API Reference](/api/class/SegmentedBar).
