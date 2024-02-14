@@ -8,7 +8,7 @@ contributors:
 
 <img class="mx-auto" src="../assets/images/guide/vision-pro.png" alt="Vision Pro" />
 
-Apple provides [visionOS](https://developer.apple.com/visionos/) development through the latest [Xcode 15.2](https://developer.apple.com/xcode/resources/) release.
+Apple provides [visionOS](https://developer.apple.com/visionos/) development starting with [Xcode 15.2](https://developer.apple.com/xcode/resources/) or higher.
 
 ::: info Note
 You will need an [Apple developer account](https://developer.apple.com/programs/enroll/) to download developer tools and SDKs.
@@ -18,7 +18,7 @@ You will need an [Apple developer account](https://developer.apple.com/programs/
 
 ## Create a visionOS project
 
-Vision Pro is [scheduled for release on February 2, 2024](https://twitter.com/tim_cook/status/1744362067786682797) however you can develop now using the Vision Pro Simulator. Since the hardware is not available for public use yet, we are providing `vision` tagged npm packages to keep things distinct while you develop for visionOS.
+You can develop with a physical Vision Pro plugged in or using the Vision Pro Simulator. 
 
 **You will need the `vision` CLI**:
 
@@ -62,13 +62,36 @@ The `vision` platform target is a shorthand alias for `visionos` so this can als
 ns run visionos --no-hmr
 ```
 
+#### Develop with physical Vision Pro
+
+You can use a [Developer Strap](https://developer.apple.com/visionos/developer-strap/purchase) to connect your Vision Pro to your Mac.
+
+> The Developer Strap is an optional accessory that provides a USB-C connection between Apple Vision Pro and Mac and is helpful for accelerating the development of graphics-intensive apps and games. The Developer Strap provides the same audio experience as the in-box Right Audio Strap, so developers can keep the Developer Strap attached for both development and testing.
+
+Once connected, you can run `ns device` and it will list all connected physical devices:
+
+```bash
+% ns device    
+Searching for devices...
+
+ Connected devices & emulators
+┌───┬──────────────────┬──────────┬───────────────────────────┬────────┬───────────┬─────────────────┐
+│ # │ Device Name      │ Platform │ Device Identifier         │ Type   │ Status    │ Connection Type │
+│ 1 │ Apple Vision Pro │ visionOS      │ 00008112-001A10812278A01E │ Device │ Connected │ USB             │
+```
+
+You can then run on that device as follows:
+
+```bash
+ns run visionos --no-hmr --device=00008112-001A10812278A01E
+```
+
 ### What makes a project work on visionOS?
 
-Primarily 3 key elements make up a NativeScript driven visionOS project:
+Primarily 2 key elements make up a NativeScript driven visionOS project:
 
 1. `App_Resources/visionOS/src/NativeScriptApp.swift`
-2. `App_Resources/visionOS/build.xcconfig` with a minimum target of `IPHONEOS_DEPLOYMENT_TARGET = 17.0`
-3. The following dependencies are used:
+2. The following dependencies are used:
 
 ```json
 {
@@ -81,10 +104,6 @@ Primarily 3 key elements make up a NativeScript driven visionOS project:
   }
 }
 ```
-
-::: info Note
-Once Apple releases visionOS in a final Xcode release these tags will no longer be necessary.
-:::
 
 ## Design Guidelines and Notes
 
@@ -222,7 +241,7 @@ You should not have to do a lot of this throughout apps in general but these opt
 
 ## NativeScript and the SwiftUI App Lifecycle
 
-NativeScript 8.6 brings support for the [SwiftUI App](https://developer.apple.com/documentation/swiftui/app) Lifecycle for the first time. For a better understanding of the SwiftUI App Lifecycle, we recommend the following articles:
+Starting with NativeScript 8.6 we support the [SwiftUI App](https://developer.apple.com/documentation/swiftui/app) Lifecycle for the first time. For a better understanding of the SwiftUI App Lifecycle, we recommend the following articles:
 
 - https://peterfriese.dev/posts/ultimate-guide-to-swiftui2-application-lifecycle/
 - https://dev.to/sam_programiz/swiftui-app-life-cycle-2n68
