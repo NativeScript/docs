@@ -68,7 +68,7 @@ You can use a [Developer Strap](https://developer.apple.com/visionos/developer-s
 
 > The Developer Strap is an optional accessory that provides a USB-C connection between Apple Vision Pro and Mac and is helpful for accelerating the development of graphics-intensive apps and games. The Developer Strap provides the same audio experience as the in-box Right Audio Strap, so developers can keep the Developer Strap attached for both development and testing.
 
-Once connected, you can run `ns device` and it will list all connected physical devices:
+Once connected, you can run `ns device` to list all connected physical devices:
 
 ```bash
 % ns device    
@@ -77,7 +77,7 @@ Searching for devices...
  Connected devices & emulators
 ┌───┬──────────────────┬──────────┬───────────────────────────┬────────┬───────────┬─────────────────┐
 │ # │ Device Name      │ Platform │ Device Identifier         │ Type   │ Status    │ Connection Type │
-│ 1 │ Apple Vision Pro │ visionOS      │ 00008112-001A10812278A01E │ Device │ Connected │ USB             │
+│ 1 │ Apple Vision Pro │ visionOS │ 00008112-001A10812278A01E │ Device │ Connected │ USB             │
 ```
 
 You can then run on that device as follows:
@@ -91,7 +91,7 @@ ns run visionos --no-hmr --device=00008112-001A10812278A01E
 Primarily 2 key elements make up a NativeScript driven visionOS project:
 
 1. `App_Resources/visionOS/src/NativeScriptApp.swift`
-2. The following dependencies are used:
+2. The following dependencies:
 
 ```json
 {
