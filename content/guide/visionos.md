@@ -18,7 +18,7 @@ You will need an [Apple developer account](https://developer.apple.com/programs/
 
 ## Create a visionOS project
 
-You can develop with a physical Vision Pro plugged in or using the Vision Pro Simulator. 
+You can develop with a physical Vision Pro plugged in or using the Vision Pro Simulator.
 
 **You will need the `vision` CLI**:
 
@@ -71,7 +71,7 @@ You can use a [Developer Strap](https://developer.apple.com/visionos/developer-s
 Once connected, you can run `ns device` to list all connected physical devices:
 
 ```bash
-% ns device    
+% ns device
 Searching for devices...
 
  Connected devices & emulators
