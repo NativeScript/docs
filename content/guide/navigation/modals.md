@@ -8,7 +8,7 @@ contributos:
 
 ## Showing a modal
 
-A working example application can be [found here](https://stackblitz.com/edit/nativescript-stackblitz-templates-3bvo1g?file=app%2Fdetails-page.ts,app%2Fdetails-page.xml,app%2Fmain-page.ts). To show a modal, call the [showModal](https://docs.nativescript.org/api/class/ViewCommon#showmodal) method on a [View](https://docs.nativescript.org/api/class/View) instance and pass it the path to the modal view file:
+A strongly typed, working Typescript application can be [found here](https://stackblitz.com/edit/nativescript-stackblitz-templates-3bvo1g?file=app%2Fdetails-page.ts,app%2Fdetails-page.xml,app%2Fmain-page.ts). To show a modal, call the [showModal](https://docs.nativescript.org/api/class/ViewCommon#showmodal) method on a [View](https://docs.nativescript.org/api/class/View) instance and pass it the path to the modal view file:
 
 ```xml
 <Button class="-primary -rounded-lg" text="Modal Example" tap="openModal" />
@@ -17,16 +17,20 @@ A working example application can be [found here](https://stackblitz.com/edit/na
 **WATCHOUT** - if your modal doesn't appear on button tap, confirm the path in `showModal` since no visual or console indicators exist to tell you an error has occurred unlike [Frame.topMost().navigate()](https://docs.nativescript.org/guide/navigation/frames-and-pages) when a bad path is passed to it. Here's an example with the file name `main-page.ts`.
 
 ```ts
-import { Button, EventData, Page, ShowModalOptions } from '@nativescript/core'
-import { DetailsPageContext } from './details-page'
+import { Button, EventData, Page } from '@nativescript/core'
+import { HelloWorldModel } from './main-view-model'
+import { IDetails, IDetailsOptions } from './details-page'
 
-// ...
+export function navigatingTo(args: EventData) {
+  const page = <Page>args.object
+  page.bindingContext = new HelloWorldModel()
+}
 
 export function openModal(args: EventData) {
   const button = args.object as Button
-  const options: ShowModalOptions = {
+  const options: IDetailsOptions = {
     context: { name: 'John Doe' },
-    closeCallback(args: DetailsPageContext | undefined) {
+    closeCallback(args: IDetails | undefined) {
       console.log('Modal returned the following data:', args)
     },
   }
@@ -54,7 +58,7 @@ export function onCancel(args: EventData) {
 However, just closing the modal isn't useful beyond cancelling the modal. Modals can be extremely helpful for getting user input. First, you need the full XML page for your new modal with file name `details-page.xml`:
 
 ```xml
-<Page shownModally="onShownModally">
+<Page shownModally="onShownModally" navigatingTo="onNavigatingTo">
   <StackLayout class="p-2">
     <Label class="p-2" text="Modify the field below to see it passed back to caller. Contains input validation too." textWrap="true" />
     <TextField class="p-2" id="name" text="{{ name }}" />
@@ -76,22 +80,40 @@ import {
   Observable,
   Dialogs,
   TextField,
+ShowModalOptions,
 } from '@nativescript/core'
 
+export interface IDetails {
+  name: string
+}
+
+export interface IDetailsOptions extends ShowModalOptions {
+  context: IDetails
+}
+
 // abstract class since there should be no constructor to create new instances
-export abstract class DetailsPageContext extends Observable {
+export abstract class DetailsContext extends Observable implements IDetails {
   name: string
 }
 
 let page: Page
-let context: DetailsPageContext
+let context: DetailsContext
+
+export function navigatingTo() {
+  const msg = 'You should not use this page outside of a modal window.'
+  Dialogs
+  .alert(msg)
+  .then(() => {
+      console.error(msg)
+  })
+}
 
 export function onShownModally(args: ShownModallyData) {
   console.log('Modal displayed')
   page = args.object as Page
   context = fromObject({
     ...args.context,
-  }) as DetailsPageContext
+  }) as DetailsContext
   page.bindingContext = context
 }
 
@@ -126,6 +148,6 @@ Here's an example console output from the [working application](https://stackbli
  iPhone  16:59:43 Modal displayed
  iPhone  16:59:44 Modal closed, sending data back to caller
  iPhone  16:59:45 Modal returned the following data: {
-  name: 'John Doe'
+  name: 'John Doe - EDITED'
 }
 ```
