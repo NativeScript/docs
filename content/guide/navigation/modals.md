@@ -92,7 +92,7 @@ export interface IDetailsOptions extends ShowModalOptions {
 }
 
 // abstract class since there should be no constructor to create new instances
-export abstract class DetailsContext extends Observable implements IDetails {
+abstract class DetailsContext extends Observable implements IDetails {
   name: string
 }
 
