@@ -80,7 +80,7 @@ import {
   Observable,
   Dialogs,
   TextField,
-ShowModalOptions,
+  ShowModalOptions,
 } from '@nativescript/core'
 
 export interface IDetails {
