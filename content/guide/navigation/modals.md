@@ -29,7 +29,7 @@ export function openModal(args: EventData) {
     closeCallback(args: DetailsPageContext | undefined) {
       console.log('Modal returned the following data:', args)
     },
-  };
+  }
   button.showModal('details-page', options) // WATCHOUT - no error if page doesn't exist and no modal will open
 }
 ```
@@ -89,25 +89,24 @@ let context: DetailsPageContext
 export function onShownModally(args: ShownModallyData) {
   console.log('Modal displayed')
   page = args.object as Page
-  context  = fromObject({
-    ...args.context
+  context = fromObject({
+    ...args.context,
   }) as DetailsPageContext
   page.bindingContext = context
 }
 
 export function onUpdate(args: EventData) {
-  if (!context.name) {
-    Dialogs
-      .alert('You must enter a value.')
-      .then(() => {
-        (page.getViewById('name') as TextField).focus()
-      })
+  const nameNew = context.name.trim() // Updated from the TextField data-bind
+  if (!nameNew) {
+    Dialogs.alert('You must enter a value.').then(() => {
+      (page.getViewById('name') as TextField).focus()
+    })
     return
   }
   console.log('Modal closed, sending data back to caller')
   const button = args.object as Button
   button.closeModal({
-    name: context.name, // Updated from the TextField data-bind
+    name: nameNew,
   })
 }
 
