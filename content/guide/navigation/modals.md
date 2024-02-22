@@ -51,7 +51,7 @@ export function onCancel(args: EventData) {
 
 ## Passing data to and from a modal
 
-However, just closing the modal isn't useful beyond cancelling the modal. First, you need the full XML page for your new modal with file name `details-page.xml`:
+However, just closing the modal isn't useful beyond cancelling the modal. Modals can be extremely helpful for getting user input. First, you need the full XML page for your new modal with file name `details-page.xml`:
 
 ```xml
 <Page shownModally="onShownModally">
