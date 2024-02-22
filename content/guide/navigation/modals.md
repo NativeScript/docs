@@ -30,8 +30,8 @@ export function openModal(args: EventData) {
   const button = args.object as Button
   const options: IDetailsOptions = {
     context: { name: 'John Doe' },
-    closeCallback(args: IDetails | undefined) {
-      console.log('Modal returned the following data:', args)
+    closeCallback(result: IDetails | undefined) {
+      console.log('Modal returned the following result:', result)
     },
   }
   button.showModal('details-page', options) // WATCHOUT - no error if page doesn't exist and no modal will open
@@ -144,10 +144,10 @@ Here's an example console output from the [working application](https://stackbli
 ```
  iPhone  16:59:38 Modal displayed
  iPhone  16:59:39 Modal cancelled, no data sent back to caller
- iPhone  16:59:40 Modal returned the following data: undefined
+ iPhone  16:59:40 Modal returned the following result: undefined
  iPhone  16:59:43 Modal displayed
  iPhone  16:59:44 Modal closed, sending data back to caller
- iPhone  16:59:45 Modal returned the following data: {
+ iPhone  16:59:45 Modal returned the following result: {
   name: 'John Doe - EDITED'
 }
 ```
