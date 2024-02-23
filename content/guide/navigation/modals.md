@@ -4,11 +4,12 @@ description: Navigation using modals - detached from the current backstack.
 contributos:
   - Ombuweb
   - rigor789
+  - flipperlite
 ---
 
 ## Showing a modal
 
-A strongly typed, working Typescript application can be [found here](https://stackblitz.com/edit/nativescript-stackblitz-templates-3bvo1g?file=app%2Fdetails-page.ts,app%2Fdetails-page.xml,app%2Fmain-page.ts). To show a modal, call the [showModal](https://docs.nativescript.org/api/class/ViewCommon#showmodal) method on a [View](https://docs.nativescript.org/api/class/View) instance and pass it the path to the modal view file:
+A strongly typed, working, Typescript application can be [found here](https://stackblitz.com/edit/nativescript-stackblitz-templates-3bvo1g?file=app%2Fdetails-page.ts,app%2Fdetails-page.xml,app%2Fmain-page.ts). To show a modal, call the [showModal](https://docs.nativescript.org/api/class/ViewCommon#showmodal) method on a [View](https://docs.nativescript.org/api/class/View) instance and pass it the path to the modal view file:
 
 ```xml
 <Button class="-primary -rounded-lg" text="Modal Example" tap="openModal" />
@@ -74,13 +75,13 @@ Next, your code needs to populate a [View Model](https://docs.nativescript.org/g
 import {
   fromObject,
   Page,
-  Button,
   ShownModallyData,
   EventData,
   Observable,
   Dialogs,
   TextField,
   ShowModalOptions,
+  View,
 } from '@nativescript/core'
 
 export interface IDetails {
@@ -126,16 +127,16 @@ export function onUpdate(args: EventData) {
     return
   }
   console.log('Modal closed, sending data back to caller')
-  const button = args.object as Button
-  button.closeModal({
+  const view = args.object as View
+  view.closeModal({
     name: nameNew,
   })
 }
 
 export function onCancel(args: EventData) {
   console.log('Modal cancelled, no data sent back to caller')
-  const button = args.object as Button
-  button.closeModal()
+  const view = args.object as View
+  view.closeModal()
 }
 ```
 
