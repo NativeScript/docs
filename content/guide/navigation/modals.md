@@ -18,7 +18,7 @@ A strongly typed, working, Typescript application can be [found here](https://st
 **WATCHOUT** - if your modal doesn't appear on button tap, confirm the path in `showModal` since no visual or console indicators exist to tell you an error has occurred unlike [Frame.topMost().navigate()](https://docs.nativescript.org/guide/navigation/frames-and-pages) when a bad path is passed to it. Here's an example with the file name `main-page.ts`.
 
 ```ts
-import { Button, EventData, Page } from '@nativescript/core'
+import { EventData, Page, View } from '@nativescript/core'
 import { HelloWorldModel } from './main-view-model'
 import { IDetails, IDetailsOptions } from './details-page'
 
@@ -28,14 +28,14 @@ export function navigatingTo(args: EventData) {
 }
 
 export function openModal(args: EventData) {
-  const button = args.object as Button
+  const view = args.object as View
   const options: IDetailsOptions = {
     context: { name: 'John Doe' },
     closeCallback(result: IDetails | undefined) {
       console.log('Modal returned the following result:', result)
     },
   }
-  button.showModal('details-page', options) // WATCHOUT - no error if page doesn't exist and no modal will open
+  view.showModal('details-page', options) // WATCHOUT - no error if page doesn't exist and no modal will open
 }
 ```
 
@@ -49,8 +49,8 @@ To close a modal, call the `closeModal` method of any `View` from the modal. See
 
 ```ts
 export function onCancel(args: EventData) {
-  const button = args.object as Button
-  button.closeModal()
+  const view = args.object as View
+  view.closeModal()
 }
 ```
 
