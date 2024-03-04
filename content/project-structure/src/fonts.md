@@ -25,12 +25,12 @@ Add a new css class (for example in [`app.css`](/project-structure/src/app-css-s
 
 ```css
 .font-albert-sans {
-  font-family: "Albert Sans", "albert-sans-700";
+  font-family: 'Albert Sans', 'albert-sans-700';
   font-weight: 700;
 }
 
 .far {
-  font-family: "Font Awesome 5 Free", "fa-regular-400";
+  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
   font-weight: 400;
 }
 ```
@@ -66,7 +66,7 @@ In Vue, when using html entities like the char codes above, use the `.decode` mo
 
 ::: details Sizing font images
 Images have specific stretch options (`none`, `aspectFit`, `aspectFill`). Font icons on the other hand usually use `font-size` to control the size of the icon.
-When using an `Image`, you can control the size with `font-size`, but you need to set `stretch="none"` for it to take effect. Setting `stretch` to anything other than `none` will cause the icon to be streched by measuring the image.
+When using an `Image`, you can control the size with `font-size`, but you need to set `stretch="none"` for it to take effect. Setting `stretch` to anything other than `none` will cause the icon to be stretched by measuring the image.
 :::
 
 If an icon doesn't appear, or renders unintended characters, make sure you are using the correct font family and weight.

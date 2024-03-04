@@ -7,7 +7,7 @@ contributors:
 
 The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform.
 
-This page serves as a quick reference to understand how most settings in App_Resources affect behavior and the the look of a NativeScript app.
+This page serves as a quick reference to understand how most settings in App_Resources affect the behavior and the look of a NativeScript app.
 
 ## Android specific resources
 
@@ -27,7 +27,7 @@ App_Resources/
 └─ ... more
 ```
 
-Values can be overriden on specific API levels by making the changes in the corresponding directories.
+Values can be overridden on specific API levels by making the changes in the corresponding directories.
 
 ### Android app display name
 
@@ -62,7 +62,7 @@ To change the default color of the status bar, edit the `ns_primaryDark` color i
 
 :::tip Note
 
-The color will be applied on API21+ since lower API leves do not support custom status bar colors\*.
+The color will be applied on API21+ since lower API levels do not support custom status bar colors\*.
 
 :::
 
@@ -79,7 +79,7 @@ Various native elements have an accent color, which can be changed by setting th
 
 :::tip Note
 
-The color will be applied on API21+ since lower API leves do not support custom accent colors.
+The color will be applied on API21+ since lower API levels do not support custom accent colors.
 
 :::
 
