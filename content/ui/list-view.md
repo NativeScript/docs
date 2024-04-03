@@ -164,10 +164,10 @@ Emitted when a user taps an item in the ListView.
 
 See [ItemEventData](/api/interface/ItemEventData).
 
-### itemsLoading
+### itemLoading
 
 ```ts
-on('itemsLoading', (args: ItemEventData) => {
+on('itemLoading', (args: ItemEventData) => {
   const listView = args.object as ListView
 })
 ```
