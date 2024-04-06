@@ -156,6 +156,16 @@ Not very often actually. Most plugin workspaces can maintain it's set of depende
 
 - Migrates to Nx 18.2.3, NativeScript 8.6, and TypeScript ~5.4.x.
 
+After running `yarn nx migrate @nativescript/plugin-tools` and then `yarn nx migrate --run-migrations ` with this migration you'll likely see this message:
+
+```
+[!] Some files can't be patched! You can run again with --verbose to get specific error detail. The following files are unable to be patched:
+  - /path/to/workspace/node_modules/typescript/lib/tsc.js
+  - /path/to/workspace/node_modules/typescript/lib/typescript.js
+  ```
+
+This is normal and will go away after running the migration.
+
 ### Migration 5.0.0 (Released Dec 26, 2022)
 
 - Migrates to Nx 15.4.1, NativeScript 8.4, and TypeScript ~4.8.x.
