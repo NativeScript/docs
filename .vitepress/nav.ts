@@ -29,6 +29,12 @@ export default [
     target: '_blank',
   },
   {
+    text: 'Snacks',
+    link: '/snacks/',
+    activeMatch: '^/snacks',
+    icon: 'CpuChipIcon',
+  },
+  {
     text: 'Plugins',
     link: '/plugins/',
     activeMatch: '^/plugins',
