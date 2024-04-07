@@ -162,7 +162,7 @@ After running `yarn nx migrate @nativescript/plugin-tools` and then `yarn nx mig
 [!] Some files can't be patched! You can run again with --verbose to get specific error detail. The following files are unable to be patched:
   - /path/to/workspace/node_modules/typescript/lib/tsc.js
   - /path/to/workspace/node_modules/typescript/lib/typescript.js
-  ```
+```
 
 This is normal and will go away after running the migration.
 
