@@ -11,6 +11,7 @@ breadcrumbs:
 
 - [Spaceman using just TypeScript](https://stackblitz.com/edit/nativescript-spaceman-transition-example?file=app%2Fspace-view.xml)
 - [Spaceman using Vue 3](https://stackblitz.com/edit/nativescript-vue3-spaceman-transition-example?file=app%2Fcomponents%2FSpaceView.vue)
+- [Music Player UI](https://stackblitz.com/edit/nativescript-music-player-transition-example?file=app%2Fmain-view.xml)
 - [Tetris Game](https://stackblitz.com/edit/ns-tetris?file=src%2Fcomponents%2FHome.vue)
 - [Image Text Capture](https://stackblitz.com/edit/nativescript-text-from-image)
 - [PDFKit](https://stackblitz.com/edit/nativescript-pdfview-via-ios-pdfkit)
