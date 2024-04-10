@@ -110,8 +110,8 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
   },
   {
     id: 7,
-    title: "iOS PDF with WKWebView",
-    href: "https://stackblitz.com/edit/nativescript-angular-pdf-with-wkwebview",
+    title: "PDF w/ WKWebView & AndroidPdfViewer",
+    href: "https://stackblitz.com/edit/nativescript-pdfviewer?file=src%2Fapp%2Fnative-pdfview%2Findex.ios.ts",
     description: "Rendering PDF with WKWebView on iOS.",
     categories: [
       {
@@ -121,6 +121,10 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
       {
         title: "iOS WKWebView",
         href: "https://developer.apple.com/documentation/webkit/wkwebview",
+      },
+      {
+        title: "Gradle AndroidPdfViewer",
+        href: "https://github.com/barteksc/AndroidPdfViewer",
       },
     ],
   },
