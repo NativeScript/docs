@@ -32,7 +32,7 @@ export default [
     text: 'Snacks',
     link: '/snacks/',
     activeMatch: '^/snacks',
-    icon: 'CpuChipIcon',
+    icon: 'CakeIcon',
   },
   {
     text: 'Plugins',
