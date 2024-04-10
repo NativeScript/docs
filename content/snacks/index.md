@@ -6,7 +6,7 @@ prev: false
 next: false
 ---
 
-Each Snack reveals NativeScript's power, from UI tricks to framework integrations, get a peek at what's possible.
+Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages to flavor implementations all through [StackBlitz](https://stackblitz.com/). Get a peek 👀 at what's possible.
 
 ## Explore Snacks
 
