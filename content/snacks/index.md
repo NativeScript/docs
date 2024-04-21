@@ -65,6 +65,15 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
   },
   {
     id: 4,
+    title: "Reflective UI",
+    href: "https://stackblitz.com/edit/nativescript-reflective-ui?file=src%2Fapp%2Fitem%2Fitems.component.ts",
+    description: "Using iOS AVCaptureSession to create live reflective UI mask. Try with your phone in Dark Mode, it's neat!",
+    categories: [{ title: "iOS AVCaptureSession", href: "https://developer.apple.com/documentation/avfoundation/avcapturesession?language=objc" }],
+    videoUrl: "https://youtube.com/embed/rbF6mYfwnck",
+    videoTitle: "NativeScript Reflective UI",
+  },
+  {
+    id: 5,
     title: "Tetris Game with Vue 3",
     href: "https://stackblitz.com/edit/ns-tetris?file=src%2Fcomponents%2FHome.vue",
     description: "Tetris Game with Vue 3.",
@@ -73,7 +82,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle: "A Tetris Game built with Vue 3",
   },
   {
-    id: 5,
+    id: 6,
     title: "iOS Recognize Text from an Image",
     href: "https://stackblitz.com/edit/nativescript-text-from-image?file=src%2Fapp%2Fhome%2Fhome.component.ts",
     description: "Recognizing text from an Image on iOS.",
@@ -91,7 +100,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle: "iOS Recognize Text from an Image",
   },
   {
-    id: 6,
+    id: 7,
     title: "iOS PDFKit",
     href: "https://stackblitz.com/edit/nativescript-pdfview-via-ios-pdfkit?file=src%2Fapp%2Fnative-pdfview%2Fnative-pdfview.ts",
     description: "Generating and previewing PDFs using iOS PDFKit.",
@@ -109,7 +118,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle: "iOS PDFKit",
   },
   {
-    id: 7,
+    id: 8,
     title: "PDF w/ WKWebView & AndroidPdfViewer",
     href: "https://stackblitz.com/edit/nativescript-pdfviewer?file=src%2Fapp%2Fnative-pdfview%2Findex.ios.ts",
     description: "Rendering PDF with WKWebView on iOS.",
@@ -129,7 +138,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Autogrow Textfield",
     href: "https://stackblitz.com/edit/nativescript-ng-textview-autogrow-vs-textfield?file=src%2Fapp%2Fitem%2Fitems.component.html",
     description: "Autogrowing Textfield as you type.",
@@ -142,7 +151,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Text to Speech",
     href: "https://stackblitz.com/edit/nativescript-text-to-speech?file=src%2Fapp%2Fspeech%2Findex.ios.ts",
     description: "Simple Text to Speech.",
@@ -158,7 +167,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Battery Level Check",
     href: "https://stackblitz.com/edit/nativescript-battery-level-check?file=app%2Fbattery%2Findex.ios.ts",
     description: "Getting the current battery level.",
@@ -174,7 +183,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Toggle Device Light",
     href: "https://stackblitz.com/edit/nativescript-torch?file=src%2Fapp%2Ftorch%2Findex.ios.ts",
     description: "Toggling the Device Light on and off.",
@@ -190,7 +199,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Using local image assets",
     href: "https://stackblitz.com/edit/nativescript-local-image-asset?file=package.json,src%2Fapp%2Fitem%2Fitems.component.html",
     description: "Using local image assets.",
@@ -199,7 +208,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Checkbox Example",
     href: "https://stackblitz.com/edit/nativescript-checkbox-example?file=src%2Fapp%2Fitem%2Fitems.component.html",
     description: "Using checkbox components.",
@@ -212,7 +221,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
   },
   // Not ready yet but will discuss with Dylan to update
   // {
-  //   id: 14,
+  //   id: 15,
   //   title: 'RxDB Angular Lokijs',
   //   href: 'https://stackblitz.com/edit/nativescript-angular-rxdb-lokijs-demo-9ha1fc?file=src%2Fapp%2Fcomponents%2Fhero.component.ts',
   //   description: 'Using RxDB Angular Lokijs.',
