@@ -12,7 +12,7 @@ There are various ways to hide and show view elements on the screen at any given
 - `visibility: 'hidden' | 'collapse' | 'visible'`
 - `hidden: boolean` (new in 8.x+)
 
-Both are very similar but have subtle differences that are worth noting.
+Both are very similar but have subtle differences that are worth nothing.
 
 ## From various frontend framework flavors
 
