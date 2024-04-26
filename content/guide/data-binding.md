@@ -11,7 +11,7 @@ It gets activated through three steps:
 
 1. Create a ViewModel(let's call it DataModel) class extending the `Observable` class
 2. Make DataModel available to the UI by setting `page.bindingContext` = `new DataModel()`
-3. Using the mustach syntax {{ }}, bind the UI components properties to the members of the `DataModel` instance.
+3. Using the mustach syntax `{{ }}`, bind the UI components properties to the members of the `DataModel` instance.
 
 When you look at a new project, you see an example of those steps applied.
 
