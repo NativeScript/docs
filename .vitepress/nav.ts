@@ -46,11 +46,12 @@ export default [
   //   activeMatch: '^/best-practices',
   //   icon: 'CheckIcon',
   // },
-  // {
-  //   text: 'Integrations',
-  //   link: '/soon',
-  //   icon: 'CpuChipIcon',
-  // },
+  {
+    text: 'Integrations',
+    link: '/integrations/',
+    activeMatch: '^/integrations',
+    icon: 'CpuChipIcon',
+  },
   {
     text: 'UI Components',
     link: '/ui/',
