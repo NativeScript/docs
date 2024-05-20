@@ -209,7 +209,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
   },
   {
     id: 14,
-    title: "Checkbox Example",
+    title: "Checkbox",
     href: "https://stackblitz.com/edit/nativescript-checkbox-example?file=src%2Fapp%2Fitem%2Fitems.component.html",
     description: "Using checkbox components.",
     categories: [
@@ -218,6 +218,24 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
         href: "https://github.com/nstudio/nativescript-plugins/blob/main/packages/nativescript-checkbox/README.md",
       },
     ],
+  },
+  {
+    id: 15,
+    title: "Dropdown Menus",
+    href: "https://stackblitz.com/edit/nativescript-dropdown-menus?file=src%2Fapp%2Fmenu-button%2Findex.ios.ts",
+    description: "Using dropdown menus.",
+    categories: [
+      {
+        title: "iOS UIMenu",
+        href: "https://developer.apple.com/documentation/uikit/uimenu",
+      },
+      {
+        title: "Android PopupMenu",
+        href: "https://developer.android.com/reference/android/widget/PopupMenu",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/0zE5OjiJTk8",
+    videoTitle: "Using dropdown menus with NativeScript",
   },
   // Not ready yet but will discuss with Dylan to update
   // {

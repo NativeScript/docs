@@ -23,7 +23,7 @@ You can develop with a physical Vision Pro plugged in or using the Vision Pro Si
 **You will need the `vision` CLI**:
 
 ```bash
-npm install -g nativescript@vision
+npm install -g nativescript@latest
 ```
 
 ::: info Note
@@ -96,11 +96,11 @@ Primarily 2 key elements make up a NativeScript driven visionOS project:
 ```json
 {
   "dependencies": {
-    "@nativescript/core": "vision"
+    "@nativescript/core": "~8.7.0"
   },
   "devDependencies": {
-    "@nativescript/visionos": "~8.6.0",
-    "@nativescript/webpack": "vision"
+    "@nativescript/visionos": "~8.7.0",
+    "@nativescript/webpack": "~5.0.21"
   }
 }
 ```
