@@ -44,7 +44,7 @@ To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https:
 
 ```cli
 brew tap homebrew/cask-versions
-brew install --cask temurin11
+brew install --cask temurin@17
 ```
 
 Once installed, open a new Terminal and verify that the default version is the one we installed:
@@ -52,15 +52,15 @@ Once installed, open a new Terminal and verify that the default version is the o
 ```cli
 javac --version
 # should print something like:
-# javac 11.x.x
+# javac 17.x.x
 ```
 
 If the version looks correct, you are ready to move on to [Installing Android Studio](#installing-android-studio), otherwise you will need to set the `JAVA_HOME` environment variable.
 
-Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zprofile` or `~/.zshrc` config file:
+Add the following lines to your shell profile, usually `~/.zshrc`, `~/.bash_profile` or `~/.bashrc` or `~/.zprofile` config file:
 
 ```shell
-export JAVA_HOME=$(/usr/libexec/java_home -v"11");
+export JAVA_HOME=$(/usr/libexec/java_home -v"17");
 ```
 
 Repeat the verification from above.
