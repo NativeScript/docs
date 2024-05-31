@@ -4,6 +4,7 @@ prev: /setup
 next: /creating-a-new-project
 contributors:
   - rigor789
+  - sjsadowski
 ---
 
 ## Setting up macOS for Android
@@ -46,6 +47,10 @@ To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https:
 brew tap homebrew/cask-versions
 brew install --cask temurin@17
 ```
+
+:::warning Note
+Using JDK 17 is highly recommended as the nativescript-bundled version of gradle is compatible. Using a newer version of the JDK may cause issues with your android build process.
+:::
 
 Once installed, open a new Terminal and verify that the default version is the one we installed:
 
@@ -149,6 +154,10 @@ Open the **AppStore**, search for **XCode** and and install it.
 Once the installation is complete (this may take a while &mdash; brew a coffee and enjoy a little break), open **XCode** and if it prompts you to install the Command-Line-Tools make sure to say **Yes**.
 
 Open `XCode › Preferences › Locations` and make sure **Command Line Tools** is set
+
+:::warning Note
+In newer versions of XCode, 'Preferences' may be 'Settings'
+:::
 
 ![XCode Preferences, Locations](../assets/images/environment-setup/xcode_command_line_tools.png)
 
