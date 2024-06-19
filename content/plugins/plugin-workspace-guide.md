@@ -149,7 +149,11 @@ After running migrations you can always _delete_ the `migrations.json` file as i
 
 ### How often do migrations need to be run?
 
-Not very often actually. Most plugin workspaces can maintain it's set of dependencies for often 1-2 years or longer but if a migration is available which mentions things you want/need feel free to run the migrations anytime.
+Not very often actually. Most plugin workspaces can maintain it's set of dependencies for often 1-2 years or longer but if a migration is available which mentions things you want or need, feel free to run the migrations anytime.
+
+### Migration 5.3.0 (Released June 18, 2024)
+
+- Migrates to Nx 19.3.0
 
 ### Migration 5.2.3 (Released April 6, 2024)
 
