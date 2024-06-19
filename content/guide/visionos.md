@@ -20,15 +20,11 @@ You will need an [Apple developer account](https://developer.apple.com/programs/
 
 You can develop with a physical Vision Pro plugged in or using the Vision Pro Simulator.
 
-**You will need the `vision` CLI**:
+**You will need at least the 8.7+ NativeScript CLI**:
 
 ```bash
 npm install -g nativescript@latest
 ```
-
-::: info Note
-This tagged CLI is backwards compatible so you can use it for standard iOS and Android projects as well.
-:::
 
 You can now use the `--vision` (or `--visionos`) flags when creating your app.
 
