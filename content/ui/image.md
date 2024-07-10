@@ -81,7 +81,7 @@ Font symbols can be rendered as an image by prefixing the source with `font://` 
 }
 ```
 
-### Using SF Symbols on iOS
+### Using SF Symbols on iOS (8.8+)
 
 Images can also be used to display [SF Symbols](https://developer.apple.com/sf-symbols/) on iOS by using the `sys://` prefix along with the symbol name. These also support `iosSymbolEffect` for animated effects as well as `iosSymbolScale` with a possible value of `small|medium|large`;
 
@@ -172,7 +172,7 @@ Gets or sets the way the image is resized to fill its allocated space.
 
 See [`ImageStretchType`](/api/namespace/CoreTypes#imagestretchtype)
 
-### iosSymbolEffect
+### iosSymbolEffect (8.8+)
 
 ```ts
 iosSymbolEffect: ImageSymbolEffect | ImageSymbolEffects
@@ -216,7 +216,7 @@ export enum ImageSymbolEffects {
 
 Keep in mind that some are only iOS 17 or 18 and above.
 
-### iosSymbolScale
+### iosSymbolScale (8.8+)
 
 ```ts
 iosSymbolScale: number

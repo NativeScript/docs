@@ -573,7 +573,7 @@ To allow for flexible styling and theming, NativeScript provides the following C
 In native modals in Angular, the classes are applied to the first layout view in your modal component's HTML. If you are targeting a class that is applied to the root layout in your modal, you would target it with `.ns-dark.your-class`.
 :::
 
-### Media Queries
+### Media Queries (8.8+)
 
 Media queries will allow you to apply CSS styles conditionally depending on a device's features or characteristics such as screen orientation, theme, or viewport width and height.  
  
