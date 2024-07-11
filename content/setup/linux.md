@@ -13,7 +13,7 @@ You will need Node, NativeScript CLI (command line interface), Android Studio an
 
 **Android Studio** is not strictly necessary &mdash; however it provides an easy-to-use interface for installing and managing the Android SDKs.
 
-To install **Node** follow the [instructions specific to your Linux distribution](https://nodejs.org/en/download/package-manager/). We recommend using the latest version, however anything above **Node 12** should be fine.
+To install **Node** follow the [instructions specific to your Linux distribution](https://nodejs.org/en/download/package-manager/). We recommend using the latest version, however anything above **Node 14** should be fine.
 
 :::warning Note
 We have gone through these steps on **Ubuntu 20.04** and noted the commands we used, however depending on your Linux distribution, the commands may be different. We cannot provide commands for all possible distributions, so please refer to the linked documentation to find the correct commands you need to run.
@@ -33,8 +33,8 @@ To confirm **Node** is installed correctly, run:
 $ node -v
 $ npm -v
 # Should print something like
-$:v15.x.x
-7.x.x
+$:v22.x.x
+10.x.x
 ```
 
 A **JDK version 8 or greater** is required, and you have a couple options:
@@ -46,8 +46,8 @@ A **JDK version 8 or greater** is required, and you have a couple options:
 <!-- tab:Ubuntu 20.04 -->
 
 ```cli
-# On Ubuntu 20.04, we used the following command to install OpenJDK 14
-sudo apt-get install -y openjdk-14-jdk
+# On Ubuntu 20.04, we used the following command to install OpenJDK 17
+sudo apt-get install -y openjdk-17-jdk
 ```
 
 To confirm **JDK** is installed correctly, run:
@@ -56,11 +56,11 @@ To confirm **JDK** is installed correctly, run:
 $ java --version
 $ javac --version
 # Should print something like
-$:openjdk 14.0.2 2020-07-14
-OpenJDK Runtime Environment (build 14.0.2+12-Ubuntu-120.04)
-OpenJDK 64-Bit Server VM (build 14.0.2+12-Ubuntu-120.04, mixed mode, sharing)
+$:openjdk 17.x.x 202x-xx-xx
+OpenJDK Runtime Environment (build xx.x.x+xx-Ubuntu-xxx.xx)
+OpenJDK 64-Bit Server VM (build xx.x.x+xx-Ubuntu-xxx.xx, mixed mode, sharing)
 
-javac 14.0.2
+javac 17.x.x
 ```
 
 :::tip Note
