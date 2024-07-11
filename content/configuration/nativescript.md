@@ -107,7 +107,7 @@ Specifies the [webpack config](./webpack) location. The default is `webpack.conf
 projectName: string = 'projectName'
 ```
 
-Specifies the name of the project.  The default is the basename of the project directory.
+Specifies the name of the project. The default is the basename of the project directory.
 
 ### profiling
 

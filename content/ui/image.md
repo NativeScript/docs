@@ -87,43 +87,71 @@ Images can also be used to display [SF Symbols](https://developer.apple.com/sf-s
 
 ```html
 <GridLayout rows="auto,auto" columns="*,*">
-  <Image src="sys://photo.on.rectangle.angled" tintColor="green" [iosSymbolEffect]="symbolBounceEffect" />
+  <image
+    src="sys://photo.on.rectangle.angled"
+    tintColor="green"
+    [iosSymbolEffect]="symbolBounceEffect"
+  />
 
-  <Image col="1" src="sys://photo.on.rectangle.angled" tintColor="green" [iosSymbolEffect]="symbolBounceEffect" iosSymbolScale="small" />
+  <image
+    col="1"
+    src="sys://photo.on.rectangle.angled"
+    tintColor="green"
+    [iosSymbolEffect]="symbolBounceEffect"
+    iosSymbolScale="small"
+  />
 
-  <Image row="1" src="sys://photo.on.rectangle.angled" tintColor="green" [iosSymbolEffect]="symbolBounceEffect" iosSymbolScale="medium" />
+  <image
+    row="1"
+    src="sys://photo.on.rectangle.angled"
+    tintColor="green"
+    [iosSymbolEffect]="symbolBounceEffect"
+    iosSymbolScale="medium"
+  />
 
-  <Image row="1" col="1" src="sys://photo.on.rectangle.angled" tintColor="green" [iosSymbolEffect]="symbolBounceEffect" iosSymbolScale="large" />
+  <image
+    row="1"
+    col="1"
+    src="sys://photo.on.rectangle.angled"
+    tintColor="green"
+    [iosSymbolEffect]="symbolBounceEffect"
+    iosSymbolScale="large"
+  />
 </GridLayout>
 ```
 
 ```ts
-import { ImageSymbolEffects } from '@nativescript/core';
+import { ImageSymbolEffects } from '@nativescript/core'
 
-const symbolBounceEffect = ImageSymbolEffects.Bounce;
+const symbolBounceEffect = ImageSymbolEffects.Bounce
 ```
 
 <iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/y_ULvYe5mTA" title="SF Symbol usage with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-This demonstrates using various built-in presets for effects and also using the `iosSymbolScale` property which is useful when you apply affects so the animation doesn't exceed the bounds of it's Image container (*as can be seen in the top left usage in the video*).
+This demonstrates using various built-in presets for effects and also using the `iosSymbolScale` property which is useful when you apply affects so the animation doesn't exceed the bounds of it's Image container (_as can be seen in the top left usage in the video_).
 
 #### Custom Symbol Effects
 
 You can also create custom effects using the full expansive iOS symbol API, for example:
 
 ```ts
-import { ImageSymbolEffect } from '@nativescript/core';
+import { ImageSymbolEffect } from '@nativescript/core'
 
-const effect = new ImageSymbolEffect(NSSymbolBounceEffect.effect());
-effect.options = NSSymbolEffectOptions.optionsWithSpeed(2).optionsWithRepeatCount(6)
+const effect = new ImageSymbolEffect(NSSymbolBounceEffect.effect())
+effect.options =
+  NSSymbolEffectOptions.optionsWithSpeed(2).optionsWithRepeatCount(6)
 effect.completion = (context) => {
-  console.log('effect completed!', context);
+  console.log('effect completed!', context)
 }
-const customSymbolEffect = effect;
+const customSymbolEffect = effect
 ```
 
 ```html
-<Image src="sys://heart.fill" tintColor="red" [iosSymbolEffect]="customSymbolEffect" />
+<image
+  src="sys://heart.fill"
+  tintColor="red"
+  [iosSymbolEffect]="customSymbolEffect"
+/>
 ```
 
 <iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/IuyGBoqJNKo" title="SF Symbol custom effects with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -182,35 +210,35 @@ Gets or sets the effect of the SF Symbol. You can create your own custom `ImageS
 
 ```ts
 export enum ImageSymbolEffects {
-	Appear = 'appear',
-	AppearUp = 'appearUp',
-	AppearDown = 'appearDown',
-	Bounce = 'bounce',
-	BounceUp = 'bounceUp',
-	BounceDown = 'bounceDown',
-	Disappear = 'disappear',
-	DisappearDown = 'disappearDown',
-	DisappearUp = 'disappearUp',
-	Pulse = 'pulse',
-	Scale = 'scale',
-	ScaleDown = 'scaleDown',
-	ScaleUp = 'scaleUp',
-	VariableColor = 'variableColor',
-	Breathe = 'breathe',
-	BreathePlain = 'breathePlain',
-	BreathePulse = 'breathePulse',
-	Rotate = 'rotate',
-	RotateClockwise = 'rotateClockwise',
-	RotateCounterClockwise = 'rotateCounterClockwise',
-	Wiggle = 'wiggle',
-	WiggleBackward = 'wiggleBackward',
-	WiggleClockwise = 'wiggleClockwise',
-	WiggleCounterClockwise = 'wiggleCounterClockwise',
-	WiggleDown = 'wiggleDown',
-	WiggleForward = 'wiggleForward',
-	WiggleUp = 'wiggleUp',
-	WiggleLeft = 'wiggleLeft',
-	WiggleRight = 'wiggleRight',
+  Appear = 'appear',
+  AppearUp = 'appearUp',
+  AppearDown = 'appearDown',
+  Bounce = 'bounce',
+  BounceUp = 'bounceUp',
+  BounceDown = 'bounceDown',
+  Disappear = 'disappear',
+  DisappearDown = 'disappearDown',
+  DisappearUp = 'disappearUp',
+  Pulse = 'pulse',
+  Scale = 'scale',
+  ScaleDown = 'scaleDown',
+  ScaleUp = 'scaleUp',
+  VariableColor = 'variableColor',
+  Breathe = 'breathe',
+  BreathePlain = 'breathePlain',
+  BreathePulse = 'breathePulse',
+  Rotate = 'rotate',
+  RotateClockwise = 'rotateClockwise',
+  RotateCounterClockwise = 'rotateCounterClockwise',
+  Wiggle = 'wiggle',
+  WiggleBackward = 'wiggleBackward',
+  WiggleClockwise = 'wiggleClockwise',
+  WiggleCounterClockwise = 'wiggleCounterClockwise',
+  WiggleDown = 'wiggleDown',
+  WiggleForward = 'wiggleForward',
+  WiggleUp = 'wiggleUp',
+  WiggleLeft = 'wiggleLeft',
+  WiggleRight = 'wiggleRight',
 }
 ```
 
