@@ -573,6 +573,141 @@ To allow for flexible styling and theming, NativeScript provides the following C
 In native modals in Angular, the classes are applied to the first layout view in your modal component's HTML. If you are targeting a class that is applied to the root layout in your modal, you would target it with `.ns-dark.your-class`.
 :::
 
+### Media Queries (8.8+)
+
+Media queries will allow you to apply CSS styles conditionally depending on a device's features or characteristics such as screen orientation, theme, or viewport width and height.
+
+NativeScript supports [Media Queries Level 3](https://www.w3.org/TR/mediaqueries-3) specification including the following features:
+
+- orientation
+- prefers-color-scheme (Even though this one is part of Media Queries Level 5, it was added along with current implementation to make theme styling possible)
+- width
+- height
+- device-width (same as width)
+- device-height (same as height)
+
+Viewport features like width and height support ranged values by using the `min-` or `max-` prefix.
+
+Here are few examples of how to declare media queries in NativeScript:
+
+```css
+@media only screen and (orientation: landscape) {
+  Label {
+    color: yellow;
+    font-size: 24;
+  }
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+  Label {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 400) {
+  Label {
+    font-size: 10;
+  }
+}
+
+@media only screen and (min-height: 800) {
+  Page {
+    background-color: red;
+  }
+}
+```
+
+Just like style properties, length feature values (e.g. width) can also accept DIP or device pixel (px) units.
+
+#### The not operator
+
+The `not` operator is used to negate a media query, returning true if the query would otherwise return false.
+
+```css
+@media screen and not (orientation: portrait) {
+  Label {
+    color: yellow;
+    font-size: 24;
+  }
+}
+```
+
+#### Nested Media Queries
+
+```css
+@media only screen and (orientation: landscape) {
+  Label {
+    color: yellow;
+    font-size: 24;
+  }
+
+  @media only screen and (max-width: 400) {
+    Label {
+      font-size: 10;
+    }
+  }
+}
+```
+
+#### Nesting Keyframes inside Media Queries
+
+Apart from CSS selectors, keyframes can also be conditional using Media Queries.
+
+```css
+@keyframes slidein {
+  from {
+    background-color: yellow;
+  }
+
+  to {
+    background-color: pink;
+  }
+}
+
+/** This one will apply if condition is truthy **/
+@media only screen and (orientation: landscape) {
+  @keyframes slidein {
+    from {
+      background-color: red;
+    }
+
+    to {
+      background-color: green;
+    }
+  }
+}
+```
+
+#### matchMedia and conditional Navigation with Media Queries
+
+Sometimes, there's the need for an application to navigate to a completely different `Page` based on device screen size or orientation.
+Right now, that's possible using NativeScript's [Screen Size Qualifiers](https://old.docs.nativescript.org/ui/supporting-multiple-screens) API however it's limited to plain JS/TS apps and not available to the rest of JavaScript flavors.
+
+For various flavors, you can instead use [matchMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) providing many possibilities.
+
+The example below demonstrates how to navigate to an alternate `Page` if screen width is larger than 600 DIP:
+
+```ts
+const mql = matchMedia('only screen and (max-width: 600)')
+
+Frame.topmost().navigate({
+  // Navigate to another page if screen is too big
+  moduleName: mql.matches ? './pages/phone' : './pages/tablet',
+})
+```
+
+#### Using listeners to track Media Query changes
+
+The [matchMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) method returns a NativeScript [Observable](/core/observable#observable-api) instance, giving you the chance to track Media Query changes using event listeners.
+
+```ts
+const mql = matchMedia('only screen and (orientation: portrait)')
+mql.addEventListener('change', (event) => {
+  console.log('Is screen orientation still portrait? ' + event.matches)
+})
+```
+
 ## Supported Measurement Units
 
 NativeScript supports `DIPs` (Device Independent Pixels), `pixels` (via postfix px) and `percentages` (partial support for width, height and margin) as measurement units.

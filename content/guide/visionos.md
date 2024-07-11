@@ -315,7 +315,7 @@ You can follow along in these "Vision Pro 🥽 Hello World" tutorials:
 - [Develop Vision Pro 🥽 apps with Svelte](https://blog.nativescript.org/develop-visionos-apps-with-svelte)
 - [Develop Vision Pro 🥽 apps with Vue](https://blog.nativescript.org/develop-visionos-apps-with-vue)
 
-### Vision Pro for Angular Developers 
+### Vision Pro for Angular Developers
 
 This tutorial was hosted by [This Dot Media](https://www.youtube.com/@ThisDotMedia)
 
