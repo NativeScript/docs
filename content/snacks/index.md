@@ -237,6 +237,20 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoUrl: "https://youtube.com/embed/0zE5OjiJTk8",
     videoTitle: "Using dropdown menus with NativeScript",
   },
+  {
+    id: 16,
+    title: "Large Title Display on iOS",
+    href: "https://stackblitz.com/edit/nativescript-ios-large-titles-angular?file=src%2Fapp%2Fitem%2Fitems.component.ts",
+    description: "How to enable large title displays for iOS navigation with NativeScript using prefersLargeTitles property of UINavigationBar, accessible from every Frame.",
+    categories: [
+      {
+        title: "iOS prefersLargeTitles",
+        href: "https://developer.apple.com/documentation/uikit/uinavigationbar/2908999-preferslargetitles?language=objc",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/bwgVIZSpZ00",
+    videoTitle: "Enable large title displays for iOS Navigation",
+  },
   // Not ready yet but will discuss with Dylan to update
   // {
   //   id: 15,
