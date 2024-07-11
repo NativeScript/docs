@@ -101,7 +101,7 @@ webpackConfigPath: string = 'custom-webpack.config.js'
 
 Specifies the [webpack config](./webpack) location. The default is `webpack.config.js` in the root.
 
-### projectName
+### projectName (8.8+)
 
 ```ts
 projectName: string = 'projectName'
