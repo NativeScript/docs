@@ -251,6 +251,25 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoUrl: "https://youtube.com/embed/bwgVIZSpZ00",
     videoTitle: "Enable large title displays for iOS Navigation",
   },
+  {
+    id: 17,
+    title: "Hardware device volume",
+    href: "https://stackblitz.com/edit/nativescript-device-volume?file=src%2Futils%2Fvolume.ts",
+    description: "How to get the current device volume using NativeScript on iOS and Android.",
+    categories: [
+      {
+        title: "iOS outputVolume",
+        href: "https://developer.apple.com/documentation/avfaudio/avaudiosession/1616533-outputvolume?language=objc",
+      },
+      {
+        title: "Android getStreamVolume",
+        href: "https://developer.android.com/reference/android/media/AudioManager#getStreamVolume(int)",
+      },
+      { title: "Vue", href: "https://nativescript-vue.org" },
+    ],
+    videoUrl: "https://youtube.com/embed/1DR_9AZrMe4",
+    videoTitle: "Adjusting hardware device volume with NativeScript",
+  },
   // Not ready yet but will discuss with Dylan to update
   // {
   //   id: 15,
