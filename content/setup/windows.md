@@ -63,7 +63,7 @@ If you see a version number printed, you are ready to move on to [Installing And
 4. Click **New** and add the **JDK binaries folder** path to the list.
    The default location is
    ```
-   %LOCALAPPDATA%\???
+   C:\Program Files\Eclipse Adoptium\jdk-17.X.X\bin
    ```
 
 ### Installing Android Studio
