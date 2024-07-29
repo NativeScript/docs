@@ -92,11 +92,11 @@ Primarily 2 key elements make up a NativeScript driven visionOS project:
 ```json
 {
   "dependencies": {
-    "@nativescript/core": "~8.7.0"
+    "@nativescript/core": "~8.8.0"
   },
   "devDependencies": {
-    "@nativescript/visionos": "~8.7.0",
-    "@nativescript/webpack": "~5.0.21"
+    "@nativescript/visionos": "~8.8.0",
+    "@nativescript/webpack": "~5.0.0"
   }
 }
 ```
