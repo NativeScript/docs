@@ -290,7 +290,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
       },
       { title: "Android bar height id", href: "https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/dimens_material.xml#39" },
     ],
-    videoUrl: "https://www.youtube.com/watch?v=bXSyBTGJIlc",
+    videoUrl: "https://youtube.com/embed/bXSyBTGJIlc",
     videoTitle: "Top Bar Height with NativeScript",
   },
   // Not ready yet but will discuss with Dylan to update
