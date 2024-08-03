@@ -21,7 +21,7 @@ The NativeScript `<Label>` is not the same as the HTML `<Label>`.
 <img src="../assets/images/screenshots/android/Label.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Label/template.xml#example
+<<< @/../examples/typescript/src/ui/Label/template.xml#example
 
 ## Examples
 

@@ -15,7 +15,7 @@ contributors:
 <img src="../assets/images/screenshots/android/TabView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/TabView/template.xml#example
+<<< @/../examples/typescript/src/ui/TabView/template.xml#example
 
 ## Props
 

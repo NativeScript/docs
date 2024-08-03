@@ -17,8 +17,13 @@ For single-line text input, see [TextField](/ui/text-field).
 <img src="../assets/images/screenshots/android/TextView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/TextView/template.xml#example
-<<< @/../examples/src/ui/TextView/template.ts#example
+::: code-group
+
+<<< @/../examples/typescript/src/ui/TextView/template.xml#example [XML View]
+
+<<< @/../examples/typescript/src/ui/TextView/template.ts#example [TypeScript]
+
+:::
 
 ## Examples
 

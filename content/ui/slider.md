@@ -15,7 +15,7 @@ contributors:
 <img src="../assets/images/screenshots/android/Slider.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Slider/template.xml#example
+<<< @/../examples/typescript/src/ui/Slider/template.xml#example
 
 ## Props
 

@@ -21,7 +21,7 @@ A ScrollView can only have a single child element.
 <img src="../assets/images/screenshots/android/ScrollView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ScrollView/template.xml#example
+<<< @/../examples/typescript/src/ui/ScrollView/template.xml#example
 
 ## Props
 

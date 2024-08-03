@@ -41,7 +41,7 @@ maestro --device emulator-5554 test flows/screenshots.yaml && maestro --device 6
 To reference an example in docs markdown files, use following syntax:
 
 ```md
-<<< @/../examples/src/ui/Label/template.xml#example
+<<< @/../examples/typescript/src/ui/Label/template.xml#example
 ```
 
 The `#example` is the name of a region to pull in, this is used because we don't necessarily want to render the whole file in the code block - we can define named regions using the `#region <name>` and `#regionend <name>` comments:

@@ -28,7 +28,7 @@ Working with many images can quickly become a memory hog, for improved image han
 <img src="../assets/images/screenshots/android/Image.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Image/template.xml#example
+<<< @/../examples/typescript/src/ui/Image/template.xml#example
 
 ## Examples
 

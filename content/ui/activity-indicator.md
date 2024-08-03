@@ -15,7 +15,7 @@ contributors:
 <img src="../assets/images/screenshots/android/ActivityIndicator.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ActivityIndicator/template.xml#example
+<<< @/../examples/typescript/src/ui/ActivityIndicator/template.xml#example
 
 ## Examples
 

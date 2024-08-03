@@ -45,7 +45,7 @@ See [DialogOptions](/api/interface/DialogOptions), [R.style](https://developer.a
 <img src="../assets/images/screenshots/android/Dialogs-Alert.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-alert
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-alert
 
 A dialog for alerting the user.
 
@@ -60,7 +60,7 @@ See [alert()](/api/#alert).
 <img src="../assets/images/screenshots/android/Dialogs-Action.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-action
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-action
 
 A dialog for prompting the user to choose.
 
@@ -77,7 +77,7 @@ See [action()](/api/#action).
 <img src="../assets/images/screenshots/android/Dialogs-Confirm.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-confirm
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-confirm
 
 A dialog for prompting the user to confirm.
 
@@ -92,7 +92,7 @@ See [confirm()](/api/#confirm).
 <img src="../assets/images/screenshots/android/Dialogs-Prompt.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-prompt
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-prompt
 
 A dialog for prompting the user for input.
 
@@ -111,7 +111,7 @@ See [prompt()](/api/#prompt), [CoreTypes.AutocapitalizationType](/api/namespace/
 <img src="../assets/images/screenshots/android/Dialogs-Login.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-login
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-login
 
 A dialog for prompting the user for credentials.
 

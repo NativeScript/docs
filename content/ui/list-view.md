@@ -22,8 +22,8 @@ For additional features and improved performance in certain scenarios, consider 
 <img src="../assets/images/screenshots/android/ListView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ListView/template.xml#example
-<<< @/../examples/src/ui/ListView/template.ts#example
+<<< @/../examples/typescript/src/ui/ListView/template.xml#example
+<<< @/../examples/typescript/src/ui/ListView/template.ts#example
 
 ## Examples
 
@@ -31,8 +31,8 @@ For additional features and improved performance in certain scenarios, consider 
 
 Individual items can be rendered using a different template. For example, let's say our items can either be headings or items. In that case, we can define a template for them, and pass in an `itemTemplateSelector` function that will get called before rendering an item.
 
-<<< @/../examples/src/ui/ListView/multiple-templates.xml#example
-<<< @/../examples/src/ui/ListView/template.ts#itemTemplateSelector
+<<< @/../examples/typescript/src/ui/ListView/multiple-templates.xml#example
+<<< @/../examples/typescript/src/ui/ListView/template.ts#itemTemplateSelector
 
 ## Props
 

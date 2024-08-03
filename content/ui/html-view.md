@@ -17,8 +17,8 @@ See also: [WebView](/ui/web-view).
 <img src="../assets/images/screenshots/android/HtmlView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/HtmlView/template.xml#example
-<<< @/../examples/src/ui/HtmlView/template.ts#example{xml}
+<<< @/../examples/typescript/src/ui/HtmlView/template.xml#example
+<<< @/../examples/typescript/src/ui/HtmlView/template.ts#example{xml}
 
 ## Props
 

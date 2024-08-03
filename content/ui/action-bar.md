@@ -20,7 +20,7 @@ Views also part of the ActionBar abstraction:
 <img src="../assets/images/screenshots/android/ActionBar.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ActionBar/page.xml#example
+<<< @/../examples/typescript/src/ui/ActionBar/page.xml#example
 
 ## Examples
 

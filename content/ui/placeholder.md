@@ -15,8 +15,8 @@ contributors:
 <img src="../assets/images/screenshots/android/Placeholder.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Placeholder/template.xml#example
-<<< @/../examples/src/ui/Placeholder/template.ts#example
+<<< @/../examples/typescript/src/ui/Placeholder/template.xml#example
+<<< @/../examples/typescript/src/ui/Placeholder/template.ts#example
 
 ## Props
 

@@ -15,7 +15,7 @@ contributors:
 <img src="../assets/images/screenshots/android/SegmentedBar.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/SegmentedBar/template.xml#example
+<<< @/../examples/typescript/src/ui/SegmentedBar/template.xml#example
 
 ## Props
 

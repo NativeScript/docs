@@ -17,7 +17,7 @@ For multi-line text input, see [TextView](/ui/text-view).
 <img src="../assets/images/screenshots/android/TextField.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/TextField/template.xml#example
+<<< @/../examples/typescript/src/ui/TextField/template.xml#example
 
 ## Examples
 

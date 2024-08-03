@@ -17,7 +17,7 @@ See also: [TimePicker](/ui/time-picker).
 <img src="../assets/images/screenshots/android/DatePicker.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/DatePicker/template.xml#example
+<<< @/../examples/typescript/src/ui/DatePicker/template.xml#example
 
 ```xml
 <DatePicker

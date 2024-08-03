@@ -15,7 +15,7 @@ contributors:
 <img src="../assets/images/screenshots/android/Switch.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Switch/template.xml#example
+<<< @/../examples/typescript/src/ui/Switch/template.xml#example
 
 ## Examples
 

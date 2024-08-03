@@ -15,8 +15,8 @@ contributors:
 <img src="../assets/images/screenshots/android/ListPicker.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ListPicker/template.xml#example
-<<< @/../examples/src/ui/ListPicker/template.ts#example
+<<< @/../examples/typescript/src/ui/ListPicker/template.xml#example
+<<< @/../examples/typescript/src/ui/ListPicker/template.ts#example
 
 ## Props
 

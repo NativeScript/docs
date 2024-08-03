@@ -15,7 +15,7 @@ contributors:
 <img src="../assets/images/screenshots/android/SearchBar.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/SearchBar/template.xml#example
+<<< @/../examples/typescript/src/ui/SearchBar/template.xml#example
 
 ## Props
 

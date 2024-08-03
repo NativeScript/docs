@@ -17,7 +17,7 @@ See also: [HtmlView](/ui/html-view).
 <img src="../assets/images/screenshots/android/WebView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/WebView/template.xml#example
+<<< @/../examples/typescript/src/ui/WebView/template.xml#example
 
 ::: info Tip
 To be able to use gestures inside a WebView on Android, [disable zoom controls](#disableZoom).
