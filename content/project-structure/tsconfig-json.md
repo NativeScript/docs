@@ -12,15 +12,15 @@ For more information see the official [TypeScript documentation](https://www.typ
 ```json
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "es2017",
+    "module": "ESNext",
+    "target": "ES2022",
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noEmitHelpers": true,
     "noEmitOnError": true,
     "skipLibCheck": true,
-    "lib": ["es2017", "dom"],
+    "lib": ["ESNext", "dom"],
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"],
