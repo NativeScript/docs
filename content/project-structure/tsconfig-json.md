@@ -13,7 +13,7 @@ For more information see the official [TypeScript documentation](https://www.typ
 {
   "compilerOptions": {
     "module": "ESNext",
-    "target": "ES2022",
+    "target": "ES2020",
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
