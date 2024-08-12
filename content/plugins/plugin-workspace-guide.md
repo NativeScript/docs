@@ -151,6 +151,11 @@ After running migrations you can always _delete_ the `migrations.json` file as i
 
 Not very often actually. Most plugin workspaces can maintain it's set of dependencies for often 1-2 years or longer but if a migration is available which mentions things you want or need, feel free to run the migrations anytime.
 
+### Migration 5.4.0 (Released August 10, 2024)
+
+- Migrates to Nx 19.5.7
+- Adjusts to NativeScript 8.8
+
 ### Migration 5.3.0 (Released June 18, 2024)
 
 - Migrates to Nx 19.3.0

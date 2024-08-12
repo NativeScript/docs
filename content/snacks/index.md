@@ -270,6 +270,29 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoUrl: "https://youtube.com/embed/1DR_9AZrMe4",
     videoTitle: "Adjusting hardware device volume with NativeScript",
   },
+  {
+    id: 18,
+    title: "Top Bar Height",
+    href: "https://stackblitz.com/edit/nativescript-topbar-height?file=src%2Fapp%2Futils%2Fdevice.ts",
+    description: "How to check the top bar height with NativeScript on iOS and Android.",
+    categories: [
+      {
+        title: "iOS statusBarManager",
+        href: "https://developer.apple.com/documentation/uikit/uiwindowscene/3213943-statusbarmanager?language=objc",
+      },
+      {
+        title: "iOS UINavigationBar",
+        href: "https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc",
+      },
+      {
+        title: "Android Resources",
+        href: "https://developer.android.com/guide/topics/resources/providing-resources",
+      },
+      { title: "Android bar height id", href: "https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/dimens_material.xml#39" },
+    ],
+    videoUrl: "https://youtube.com/embed/bXSyBTGJIlc",
+    videoTitle: "Top Bar Height with NativeScript",
+  },
   // Not ready yet but will discuss with Dylan to update
   // {
   //   id: 15,

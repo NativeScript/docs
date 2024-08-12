@@ -163,20 +163,22 @@ In newer versions of XCode, 'Preferences' may be 'Settings'
 
 ### Installing Ruby
 
-Install **ruby 2.7** and link it so it's available in your shell environment:
+Install **ruby 3.3+** and link it so it's available in your shell environment:
 
 ```cli
-brew install ruby@2.7
-brew link ruby@2.7
+brew install ruby@3.3
+brew link ruby@3.3
 ```
+
+You can now run `brew list ruby` to see which specific version was installed to reference next.
 
 Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zshrc` config file:
 
 ```shell
-# Add rubygems to the path
-export PATH=/opt/homebrew/lib/ruby/gems/2.7.0/bin:$PATH
+# Add ruby and rubygems to the path
+export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.3.4/bin:$PATH
 # or
-export PATH=/usr/local/lib/ruby/gems/2.7.0/bin:$PATH
+export PATH=/usr/local/lib/ruby/bin:/usr/local/lib/ruby/gems/3.3.4/bin:$PATH
 ```
 
 :::warning Important
@@ -192,8 +194,8 @@ In a new terminal window, install the **<abbr title="A package manager for manag
 <!-- gem install ... # requires root privileges on macOS. sudo works. -->
 
 ```cli
-sudo gem install cocoapods
-sudo gem install xcodeproj
+gem install cocoapods
+gem install xcodeproj
 ```
 
 Depending on installation methods, the location of ruby gems may vary. Make sure you have the right folder in your `$PATH` by running `which pod`.
