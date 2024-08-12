@@ -1,10 +1,10 @@
 <Page navigatingTo="navigatingTo">
   <!-- using transparent color, so we don't see these in the screenshots. -->
   <StackLayout>
-    <Label text="Alert" tap="showAlert" color="transparent" textAlignment="left" padding="8" />
-    <Label text="Action" tap="showAction" color="transparent" textAlignment="left" padding="8" />
-    <Label text="Confirm" tap="showConfirm" color="transparent" textAlignment="left" padding="8" />
-    <Label text="Prompt" tap="showPrompt" color="transparent" textAlignment="left" padding="8" />
-    <Label text="Login" tap="showLogin" color="transparent" textAlignment="left" padding="8" />
+    <Label text="Alert" tap="showAlert" textAlignment="left" padding="8" />
+    <Label text="Action" tap="showAction" textAlignment="left" padding="8" />
+    <Label text="Confirm" tap="showConfirm" textAlignment="left" padding="8" />
+    <Label text="Prompt" tap="showPrompt" textAlignment="left" padding="8" />
+    <Label text="Login" tap="showLogin" textAlignment="left" padding="8" />
   </StackLayout>
 </Page>
