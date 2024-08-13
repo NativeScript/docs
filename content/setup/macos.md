@@ -176,9 +176,9 @@ Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.
 
 ```shell
 # Add ruby and rubygems to the path
-export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.3.4/bin:$PATH
+export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH
 # or
-export PATH=/usr/local/lib/ruby/bin:/usr/local/lib/ruby/gems/3.3.4/bin:$PATH
+export PATH=/usr/local/lib/ruby/bin:/usr/local/lib/ruby/gems/3.3.0/bin:$PATH
 ```
 
 :::warning Important
