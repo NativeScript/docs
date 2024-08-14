@@ -1,0 +1,22 @@
+<script lang="ts" setup>
+  const // #region example
+      text = `TextView\nWith\nMultiple\nLines!`;
+  // #endregion example
+</script>
+
+<template>
+    <Page>
+      <GridLayout>
+        <!-- keeps the screen busy for Maestro to wait for the WebView... -->
+        <ActivityIndicator busy="true" />
+        <WebView src="https://nativescript.org/" backgroundColor="transparent" />
+
+        <!-- actual example - not rendered because the above WebView is used for the screenshot instead. -->
+        <ContentView visibility="collapse">
+          <!-- #region example -->
+          <WebView src="https://nativescript.org/" />
+          <!-- #endregion example -->
+        </ContentView>
+      </GridLayout>
+  </Page>
+</template>

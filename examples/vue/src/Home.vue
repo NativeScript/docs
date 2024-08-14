@@ -16,6 +16,14 @@ import Progress from './ui/Progress/component.vue'
 import ScrollView from './ui/ScrollView/component.vue'
 import SearchBar from './ui/SearchBar/component.vue'
 import SegmentedBar from './ui/SegmentedBar/component.vue'
+import Slider from './ui/Slider/component.vue'
+import Switch from './ui/Switch/component.vue'
+import TabView from './ui/TabView/component.vue'
+import TextField from './ui/TextField/component.vue'
+import TextView from './ui/TextView/component.vue'
+import TimePicker from './ui/TimePicker/component.vue'
+// import ViewOrigin from './ui/ViewOrigin/component.vue'
+import WebView from './ui/WebView/component.vue'
 const examples = ref<Array<{ name: string }>>(
   getComponentList(
     // @ts-expect-error
@@ -65,6 +73,30 @@ const goTo = (args: any) => {
       break
     case 'SegmentedBar':
       $navigateTo(SegmentedBar)
+      break
+    case 'Slider':
+      $navigateTo(Slider)
+      break
+    case 'Switch':
+      $navigateTo(Switch)
+      break
+    case 'TabView':
+      $navigateTo(TabView)
+      break
+    case 'TextField':
+      $navigateTo(TextField)
+      break
+    case 'TextView':
+      $navigateTo(TextView)
+      break
+    case 'TimePicker':
+      $navigateTo(TimePicker)
+      break
+    // case 'ViewOrigin':
+    //   $navigateTo(ViewOrigin)
+    //   break
+    case 'WebView':
+      $navigateTo(WebView)
       break
     default:
       console.log('No component found')
