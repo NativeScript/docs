@@ -5,7 +5,6 @@ import { NativeScriptRouterModule } from '@nativescript/angular'
 import { HomeComponent } from './home.component'
 
 import { ActionBarComponent } from './ui/ActionBar/component'
-import { ActionBarPageComponent } from './ui/ActionBar/page.component'
 import { ActivityIndicatorComponent } from './ui/ActivityIndicator/component'
 import { ButtonComponent } from './ui/Button/component'
 import { DatePickerComponent } from './ui/DatePicker/component'
@@ -33,7 +32,6 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'ui/ActionBar', component: ActionBarComponent },
-  { path: 'ui/ActionBar/page', component: ActionBarPageComponent },
   { path: 'ui/ActivityIndicator', component: ActivityIndicatorComponent },
   { path: 'ui/Button', component: ButtonComponent },
   { path: 'ui/DatePicker', component: DatePickerComponent },
