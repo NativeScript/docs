@@ -2,8 +2,11 @@
 import { ref, $navigateTo } from 'nativescript-vue'
 
 import { getComponentList } from '@example/utils'
+import Actionbar from './ui/Actionbar/component.vue'
+import ActivityIndicator from './ui/ActivityIndicator/component.vue'
 import Button from './ui/Button/component.vue'
 import DatePicker from './ui/DatePicker/component.vue'
+import Dialogs from './ui/Dialogs/component.vue'
 import HtmlView from './ui/HtmlView/component.vue'
 import Image from './ui/Image/component.vue'
 // todo not working label
@@ -22,7 +25,7 @@ import TabView from './ui/TabView/component.vue'
 import TextField from './ui/TextField/component.vue'
 import TextView from './ui/TextView/component.vue'
 import TimePicker from './ui/TimePicker/component.vue'
-// import ViewOrigin from './ui/ViewOrigin/component.vue'
+// import ViewOrigin from './ui/V iewOrigin/component.vue'
 import WebView from './ui/WebView/component.vue'
 const examples = ref<Array<{ name: string }>>(
   getComponentList(
@@ -38,11 +41,20 @@ const goTo = (args: any) => {
   const item = examples.value[index]
   console.log('item:', item)
   switch (item.name) {
+    case 'Actionbar':
+      $navigateTo(Actionbar)
+      break
+    case 'ActivityIndicator':
+      $navigateTo(ActivityIndicator)
+      break
     case 'Button':
       $navigateTo(Button)
       break
     case 'DatePicker':
       $navigateTo(DatePicker)
+      break
+    case 'Dialogs':
+      $navigateTo(Dialogs)
       break
     case 'HtmlView':
       $navigateTo(HtmlView)
