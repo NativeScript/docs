@@ -3,6 +3,9 @@ import { ref, $navigateTo } from 'nativescript-vue'
 
 import { getComponentList } from '@example/utils'
 import Button from './ui/Button/component.vue'
+import DatePicker from './ui/DatePicker/component.vue'
+import HtmlView from './ui/HtmlView/component.vue'
+import Image from './ui/Image/component.vue'
 import SearchBar from './ui/SearchBar/component.vue'
 
 const examples = ref<Array<{ name: string }>>(
@@ -15,12 +18,24 @@ const examples = ref<Array<{ name: string }>>(
 
 const goTo = (args: any) => {
   const { index } = args
+  console.log(examples);
   const item = examples.value[index]
   console.log('item:', item)
   switch (item.name) {
     case 'Button':
       $navigateTo(Button)
       break
+    case 'DatePicker':
+      $navigateTo(DatePicker)
+      break
+    case 'HtmlView':
+      $navigateTo(HtmlView)
+      break
+    case 'Image':
+      $navigateTo(Image)
+      break
+
+
     case 'SearchBar':
       $navigateTo(SearchBar)
       break
