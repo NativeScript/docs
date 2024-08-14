@@ -1,0 +1,15 @@
+<script lang="ts" setup>
+
+</script>
+
+<template>
+  <Page>
+    <GridLayout>
+      <ContentView verticalAlignment="center">
+        <!-- #region example -->
+        <Progress value="75"></Progress>
+        <!-- #endregion example -->
+      </ContentView>
+    </GridLayout>
+  </Page>
+</template>

@@ -6,8 +6,16 @@ import Button from './ui/Button/component.vue'
 import DatePicker from './ui/DatePicker/component.vue'
 import HtmlView from './ui/HtmlView/component.vue'
 import Image from './ui/Image/component.vue'
+// todo not working label
+// import Label from './ui/Label/component.vue'
+import ListPicker from './ui/ListPicker/component.vue'
+// todo notworking listview
+// import ListView  from './ui/ListView/component.vue'
+import Placeholder from './ui/Placeholder/component.vue'
+import Progress from './ui/Progress/component.vue'
+import ScrollView from './ui/ScrollView/component.vue'
 import SearchBar from './ui/SearchBar/component.vue'
-
+import SegmentedBar from './ui/SegmentedBar/component.vue'
 const examples = ref<Array<{ name: string }>>(
   getComponentList(
     // @ts-expect-error
@@ -34,10 +42,29 @@ const goTo = (args: any) => {
     case 'Image':
       $navigateTo(Image)
       break
-
-
+    case 'Label':
+      $navigateTo(Image)
+      break
+    case 'ListPicker':
+      $navigateTo(ListPicker)
+      break
+    case 'ListView':
+      $navigateTo(ListPicker)
+      break
+    case 'Placeholder':
+      $navigateTo(Placeholder)
+      break
+    case 'Progress':
+      $navigateTo(Progress)
+      break
+    case 'ScrollView':
+      $navigateTo(ScrollView)
+      break
     case 'SearchBar':
       $navigateTo(SearchBar)
+      break
+    case 'SegmentedBar':
+      $navigateTo(SegmentedBar)
       break
     default:
       console.log('No component found')
