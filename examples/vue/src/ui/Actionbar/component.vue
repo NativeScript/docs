@@ -1,12 +1,16 @@
 <script lang="ts" setup>
+import {Frame} from "@nativescript/core";
 
+function goBack() {
+  Frame.goBack();
+}
 </script>
 
 <template>
   <Page>
     <!-- #region example -->
     <ActionBar title="ActionBar Title">
-      <ActionItem >
+      <ActionItem @tap="goBack" >
         <Label text="<< Back      "></Label>
       </ActionItem>
     </ActionBar>

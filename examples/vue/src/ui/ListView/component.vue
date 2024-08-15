@@ -1,8 +1,11 @@
 <script lang="ts" setup>
   // #region example
-  const items = Array.from({ length: 100 }).map((_, i) => ({
-    title: `Item ${i}`,
-  }));
+  const items = [];
+  for(let index = 0; index < 100; index++) {
+    items.push({
+      title: `Item ${index+1}`
+    })
+  }
   // #endregion example
 </script>
 
@@ -10,15 +13,15 @@
   <Page>
     <ActionBar>
     </ActionBar>
-
     <GridLayout>
       <!-- #region example -->
-      <ListView for="item in items" >
-        <v-template>
-          <!-- Shows the list item label in the default color and style. -->
-          <Label :text="item.title" />
-        </v-template>
-      </ListView>
+        <ListView :items="items">
+          <template #default="{ item }">
+            <StackLayout orientation="horizontal" >
+              <Label :text="item.title" />
+            </StackLayout>
+          </template>
+        </ListView>
       <!-- #endregion example -->
     </GridLayout>
   </Page>

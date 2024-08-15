@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { Utils } from '@nativescript/core'
   const creatingView = (args) => {
     let nativeView
     if (global.isIOS) {

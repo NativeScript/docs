@@ -9,11 +9,9 @@ import DatePicker from './ui/DatePicker/component.vue'
 import Dialogs from './ui/Dialogs/component.vue'
 import HtmlView from './ui/HtmlView/component.vue'
 import Image from './ui/Image/component.vue'
-// todo not working label
-// import Label from './ui/Label/component.vue'
+import Label_  from './ui/Label_/component.vue'
 import ListPicker from './ui/ListPicker/component.vue'
-// todo notworking listview
-// import ListView  from './ui/ListView/component.vue'
+import Listview  from './ui/Listview/component.vue'
 import Placeholder from './ui/Placeholder/component.vue'
 import Progress from './ui/Progress/component.vue'
 import ScrollView from './ui/ScrollView/component.vue'
@@ -25,7 +23,6 @@ import TabView from './ui/TabView/component.vue'
 import TextField from './ui/TextField/component.vue'
 import TextView from './ui/TextView/component.vue'
 import TimePicker from './ui/TimePicker/component.vue'
-// import ViewOrigin from './ui/V iewOrigin/component.vue'
 import WebView from './ui/WebView/component.vue'
 const examples = ref<Array<{ name: string }>>(
   getComponentList(
@@ -62,14 +59,14 @@ const goTo = (args: any) => {
     case 'Image':
       $navigateTo(Image)
       break
-    case 'Label':
-      $navigateTo(Image)
+    case 'Label_':
+      $navigateTo(Label_)
       break
     case 'ListPicker':
       $navigateTo(ListPicker)
       break
-    case 'ListView':
-      $navigateTo(ListPicker)
+    case 'Listview':
+      $navigateTo(Listview)
       break
     case 'Placeholder':
       $navigateTo(Placeholder)
@@ -104,9 +101,6 @@ const goTo = (args: any) => {
     case 'TimePicker':
       $navigateTo(TimePicker)
       break
-    // case 'ViewOrigin':
-    //   $navigateTo(ViewOrigin)
-    //   break
     case 'WebView':
       $navigateTo(WebView)
       break
