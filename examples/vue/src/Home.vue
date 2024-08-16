@@ -2,7 +2,7 @@
 import { ref, $navigateTo } from 'nativescript-vue'
 
 import { getComponentList } from '@example/utils'
-import Actionbar from './ui/Actionbar/component.vue'
+import Actionbar from '~/ui/Actionbar/component.vue'
 import ActivityIndicator from './ui/ActivityIndicator/component.vue'
 import Button from './ui/Button/component.vue'
 import DatePicker from './ui/DatePicker/component.vue'

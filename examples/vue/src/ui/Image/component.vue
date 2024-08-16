@@ -1,10 +1,5 @@
 <script lang="ts" setup>
 
-  const htmlString = `
-    <h1 style="color: black; font-family: ui-sans-serif, system-ui;">
-      <span style="color: #65adf1;">Html</span>View
-    </h1>
-    `
 </script>
 
 <template>

@@ -12,7 +12,7 @@
     <GridLayout>
       <ContentView verticalAlignment="center" horizontalAlignment="center">
         <!-- #region example -->
-        <HtmlView v-bind:html="htmlString"/>
+        <HtmlView :html="htmlString"/>
         <!-- #endregion example -->
       </ContentView>
     </GridLayout>

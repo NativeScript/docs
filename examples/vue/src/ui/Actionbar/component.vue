@@ -1,9 +1,10 @@
 <script lang="ts" setup>
 import {Frame} from "@nativescript/core";
-
+// #region example
 function goBack() {
   Frame.goBack();
 }
+// #endregion example
 </script>
 
 <template>

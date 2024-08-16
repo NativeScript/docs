@@ -10,7 +10,7 @@
       <GridLayout>
         <ContentView verticalAlignment="center" horizontalAlignment="center">
           <!-- #region example -->
-          <ListPicker v-bind:items="items" />
+          <ListPicker :items="items" />
           <!-- #endregion example -->
         </ContentView>
       </GridLayout>
