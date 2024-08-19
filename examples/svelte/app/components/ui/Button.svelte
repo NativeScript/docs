@@ -1,6 +1,6 @@
 <page>
     <actionBar >
-      <label text="Home"
+      <label text="Button"
              class="font-bold text-lg" />
     </actionBar>
     <gridLayout>

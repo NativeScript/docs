@@ -18,11 +18,15 @@
   import { navigate } from 'svelte-native'
   import ActivityIndicator from '~/components/ui/ActivityIndicator.svelte'
   import ActionBar from '~/components/ui/ActionBar.svelte'
+  import DatePicker from '~/components/ui/DatePicker.svelte'
+  import Dialogs from '~/components/ui/Dialogs.svelte'
 
   const examples = [
     {name: 'ActionBar', component: ActionBar},
     {name: 'ActivityIndicator', component: ActivityIndicator},
     {name: 'Button', component: Button},
+    {name: 'DatePicker', component: DatePicker},
+    {name: 'Dialogs', component: Dialogs},
 
   ]
 
@@ -39,6 +43,12 @@
         break
       case 'Button':
         navigate({ page: Button })
+        break
+      case 'DatePicker':
+        navigate({ page: DatePicker })
+        break
+      case 'Dialogs':
+        navigate({ page: Dialogs })
         break
       default:
         break

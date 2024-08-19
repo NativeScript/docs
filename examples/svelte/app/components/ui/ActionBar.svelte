@@ -1,21 +1,21 @@
-
 <page>
   <!--        #region example-->
-    <actionBar >
-      <actionItem on:tap={goBack()}>
-        <label text="<< Back"></label>
+
+  <actionBar title="ActionBar" >
+      <actionItem on:tap={goBack}>
+        <label text="<< Back"
+               class="font-bold text-lg" />
       </actionItem>
-    </actionBar>
+  </actionBar>
   <!--        #endregion example-->
 
-    <gridLayout>
-      <contentView verticalAlignment="center">
-
-        <label text="Main Content"
-        verticalAlignment="center"
-        horizontalAlignment="center"></label>
-      </contentView>
-    </gridLayout>
+  <gridLayout>
+    <contentView
+      horizontalAlignment="center"
+      verticalAlignment="center">
+      <label>Main Content</label>
+    </contentView>
+  </gridLayout>
 </page>
 
 <script lang="ts">
@@ -23,7 +23,6 @@
 
   function goBack() {
     Frame.goBack();
-
   }
 </script>
 
