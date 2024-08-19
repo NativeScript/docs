@@ -66,7 +66,6 @@
 
   function goTo(args) {
     const {index} = args;
-    console.log(index);
     const item = examples[index];
     switch (item.name) {
       case 'ActionBar':

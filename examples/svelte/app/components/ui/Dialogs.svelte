@@ -33,7 +33,6 @@
       cancelable: true,
     })
     // #endregion example-alert
-    console.log('Show Alert');
   }
 
   function showAction() {
@@ -57,8 +56,6 @@
       okButtonText: 'Yes',
       cancelButtonText: 'No',
       neutralButtonText: 'Cancel',
-    }).then((result) => {
-      console.log(result)
     })
     // #endregion example-confirm
   }
