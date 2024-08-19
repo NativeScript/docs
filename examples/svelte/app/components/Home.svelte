@@ -29,6 +29,14 @@
   import Progress from '~/components/ui/Progress.svelte'
   import ScrollView from '~/components/ui/ScrollView.svelte'
   import Searchbar from '~/components/ui/SearchBar.svelte'
+  import SegmentedBar from '~/components/ui/SegmentedBar.svelte'
+  import Slider from '~/components/ui/Slider.svelte'
+  import Switch from '~/components/ui/Switch.svelte'
+  import TabView from '~/components/ui/TabView.svelte'
+  import TextField from '~/components/ui/TextField.svelte'
+  import TextView from '~/components/ui/TextView.svelte'
+  import TimePicker from '~/components/ui/TimePicker.svelte'
+  import WebView from '~/components/ui/WebView.svelte'
 
   const examples = [
     {name: 'ActionBar', component: ActionBar},
@@ -45,6 +53,15 @@
     {name: 'Progress', component: Progress},
     {name: 'ScrollView', component: ScrollView},
     {name: 'SearchBar', component: Searchbar},
+    {name: 'SegmentedBar', component: SegmentedBar},
+    {name: 'Slider', component: Slider},
+    {name: 'Switch', component: Switch},
+    {name: 'TabView', component: TabView},
+    {name: 'TextField', component: TextField},
+    {name: 'TextView', component: TextView},
+    {name: 'TimePicker', component: TimePicker},
+    {name: 'WebView', component: WebView},
+
   ]
 
   function goTo(args) {
@@ -93,6 +110,30 @@
         break
       case 'SearchBar':
         navigate({ page: Searchbar })
+        break
+      case 'SegmentedBar':
+        navigate({ page: SegmentedBar })
+        break
+      case 'Slider':
+        navigate({ page: Slider })
+        break
+      case 'Switch':
+        navigate({ page: Switch })
+        break
+      case 'TabView':
+        navigate({ page: TabView })
+        break
+      case 'TextField':
+        navigate({ page: TextField })
+        break
+      case 'TextView':
+        navigate({ page: TextView })
+        break
+      case 'TimePicker':
+        navigate({ page: TimePicker })
+        break
+      case 'WebView':
+        navigate({ page: WebView })
         break
       default:
         break

@@ -1,7 +1,7 @@
 
 <page>
     <actionBar >
-      <label>SearchBar </label>
+      <label>SegmentedBar</label>
     </actionBar>
 
   <gridLayout width="100%">
@@ -10,7 +10,11 @@
       horizontalAlignment="center"
       verticalAlignment="center">
       <!--      region example -->
-      <searchBar hint="SEARCH HERE"></searchBar>
+      <segmentedBar>
+        <segmentedBarItem title="First" />
+        <segmentedBarItem title="Second" />
+        <segmentedBarItem title="Third" />
+      </segmentedBar>
       <!--      endregion example-->
     </contentView>
   </gridLayout>

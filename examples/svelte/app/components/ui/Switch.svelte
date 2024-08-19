@@ -1,7 +1,7 @@
 
 <page>
     <actionBar >
-      <label>SearchBar </label>
+      <label>Switch</label>
     </actionBar>
 
   <gridLayout width="100%">
@@ -10,13 +10,17 @@
       horizontalAlignment="center"
       verticalAlignment="center">
       <!--      region example -->
-      <searchBar hint="SEARCH HERE"></searchBar>
+     <stackLayout>
+       <switch horizontalAlignment="center" bind:checked="{switchValue}"></switch>
+       <label textAlignment="center" width="100%">{switchValue}</label>
+     </stackLayout>
       <!--      endregion example-->
     </contentView>
   </gridLayout>
 </page>
 
 <script lang="ts">
+  let switchValue = true;
 </script>
 
 <style>

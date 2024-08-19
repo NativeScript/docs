@@ -1,7 +1,7 @@
 
 <page>
     <actionBar >
-      <label>SearchBar </label>
+      <label>TextView</label>
     </actionBar>
 
   <gridLayout width="100%">
@@ -9,14 +9,17 @@
       width="100%"
       horizontalAlignment="center"
       verticalAlignment="center">
-      <!--      region example -->
-      <searchBar hint="SEARCH HERE"></searchBar>
-      <!--      endregion example-->
+      <!-- #region example -->
+      <textView text="{text}" />
+      <!-- #endregion example -->
     </contentView>
   </gridLayout>
 </page>
 
 <script lang="ts">
+  // #region example
+  const text = `TextView\nWith\nMultiple\nLines!`;
+  // #endregion example
 </script>
 
 <style>
