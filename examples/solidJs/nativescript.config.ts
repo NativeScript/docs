@@ -1,11 +1,11 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.app',
+  id: 'com.solidjs.example',
   appPath: 'src',
   appResourcesPath: '../App_Resources',
   android: {
     v8Flags: '--expose_gc',
-    markingMode: 'none',
-  },
+    markingMode: 'none'
+  }
 } as NativeScriptConfig;
