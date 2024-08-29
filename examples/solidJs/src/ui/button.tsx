@@ -7,11 +7,19 @@ export const Button = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="Button">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>
-      {/* @ts-ignore */}
+      <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
+
+        {/*region example*/}
+        <button on:tap={() => alert("button clicked")}>
+          Click Me
+        </button>
+        {/*endregion example*/}
+
+      </gridlayout>
     </>
   );
 };

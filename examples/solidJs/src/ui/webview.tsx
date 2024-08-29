@@ -12,6 +12,12 @@ export const WebView = () => {
         </actionitem>
       </actionbar>
       {/* @ts-ignore */}
+      <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
+
+        {/*region example*/}
+        {/*endregion example*/}
+
+      </gridlayout>
     </>
   );
 };

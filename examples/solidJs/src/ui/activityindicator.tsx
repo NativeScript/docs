@@ -15,7 +15,10 @@ export const ActivityIndicator = () => {
       {/* @ts-ignore */}
         <gridlayout>
             <contentview verticalAlignment="center" horizontalAlignment="center" android:visibility="collapse">
+              {/*region example*/}
                 <activityindicator busy="true" />
+              {/*endregion example*/}
+
             </contentview>
 
             <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">

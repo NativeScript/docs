@@ -8,8 +8,10 @@ export const ActionBar = () => {
   }  return (
     <>
       <actionbar title="ActionBar">
+        {/*region example*/}
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
+        {/*endregion example*/}
       </actionbar>
       {/* @ts-ignore */}
     </>

@@ -12,6 +12,13 @@ export const Label = () => {
         </actionitem>
       </actionbar>
       {/* @ts-ignore */}
+      <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
+
+        {/*region example*/}
+        <label text='TextHere'/>
+        {/*endregion example*/}
+
+      </gridlayout>
     </>
   );
 };
