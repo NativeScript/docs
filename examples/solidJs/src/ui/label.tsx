@@ -7,7 +7,7 @@ export const Label = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="Label">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>

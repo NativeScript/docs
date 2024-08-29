@@ -7,7 +7,7 @@ export const SegmentedBar = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="SegmentedBar">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>
@@ -15,6 +15,11 @@ export const SegmentedBar = () => {
       <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
 
         {/*region example*/}
+        <segmentedbar>
+          <segmentedbaritem title="First" />
+          <segmentedbaritem title="Second" />
+          <segmentedbaritem title="Third" />
+        </segmentedbar>
         {/*endregion example*/}
 
       </gridlayout>

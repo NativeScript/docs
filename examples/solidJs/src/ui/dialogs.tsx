@@ -76,7 +76,7 @@ export const Dialogs = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="Dialogs">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>

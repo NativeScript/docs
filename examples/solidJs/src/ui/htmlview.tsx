@@ -11,7 +11,7 @@ export const HtmlView = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="HtmlView">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>

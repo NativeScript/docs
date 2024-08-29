@@ -6,7 +6,7 @@ export const Image = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="Image">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>

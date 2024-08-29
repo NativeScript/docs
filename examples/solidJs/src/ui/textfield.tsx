@@ -7,7 +7,7 @@ export const TextField = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="TextField">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>
@@ -15,6 +15,7 @@ export const TextField = () => {
       <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
 
         {/*region example*/}
+        <textfield hint="Placeholder..." />
         {/*endregion example*/}
 
       </gridlayout>

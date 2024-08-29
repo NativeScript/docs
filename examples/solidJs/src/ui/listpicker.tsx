@@ -12,7 +12,7 @@ export const ListPicker = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="ListPicker">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>

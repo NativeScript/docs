@@ -7,7 +7,7 @@ export const WebView = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="WebView">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>
@@ -15,6 +15,8 @@ export const WebView = () => {
       <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
 
         {/*region example*/}
+        <activityindicator busy="true" />
+        <webview src="https://nativescript.org/" />
         {/*endregion example*/}
 
       </gridlayout>

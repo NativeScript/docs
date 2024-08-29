@@ -13,7 +13,7 @@ export const ListView = () => {
 
   }  return (
     <>
-      <actionbar title="ActionBar">
+      <actionbar title="ListView">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>

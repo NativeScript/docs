@@ -8,7 +8,7 @@ export const DatePicker = () => {
 
   }  return (
     <>
-      <actionbar title="Button">
+      <actionbar title="DatePicker">
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
       </actionbar>
