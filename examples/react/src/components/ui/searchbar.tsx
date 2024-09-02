@@ -1,33 +1,38 @@
-import { Dialogs } from '@nativescript/core';
+import { Dialogs, Frame } from '@nativescript/core'
 import { RouteProp } from '@react-navigation/core';
 import * as React from "react";
 import { StyleSheet } from "react-nativescript";
 import { FrameNavigationProp } from "react-nativescript-navigation";
 
-import { MainStackParamList } from "~/NavigationParamList";
+import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
     route: RouteProp<MainStackParamList, "Searchbar">,
     navigation: FrameNavigationProp<MainStackParamList, "Searchbar">,
 };
 
-export function Searchbar({ navigation }: HomeProps) {
+export function SearchBar({ navigation }: HomeProps) {
     return (
       <>
         <frame>
           <page style={styles.container}>
-            {/*region example*/}
-            <actionBar title="ActionBar">
-            </actionBar>
-            {/*region example*/}
+            <actionBar
+              title="SearchBar"
+              onTap={() => Frame.goBack()}
+            ></actionBar>
 
-            <stackLayout verticalAlignment={'middle'} horizontalAlignment={'center'} >
-                <label>Content Here</label>
+            <stackLayout
+              verticalAlignment={'middle'}
+              horizontalAlignment={'center'}
+            >
+              {/*#region example*/}
+              <searchBar hint="SEARCH HERE"></searchBar>
+              {/*endregion example*/}
             </stackLayout>
           </page>
         </frame>
       </>
-    );
+    )
 }
 
 const styles = StyleSheet.create({

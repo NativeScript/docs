@@ -1,10 +1,10 @@
-import { Dialogs } from '@nativescript/core';
+import { Dialogs, Frame } from '@nativescript/core'
 import { RouteProp } from '@react-navigation/core';
 import * as React from "react";
 import { StyleSheet } from "react-nativescript";
 import { FrameNavigationProp } from "react-nativescript-navigation";
 
-import { MainStackParamList } from "~/NavigationParamList";
+import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
     route: RouteProp<MainStackParamList, "DatePicker">,
@@ -12,17 +12,20 @@ type HomeProps = {
 };
 
 export function DatePicker({ navigation }: HomeProps) {
+  const currentDate = new Date();
     return (
       <>
         <frame>
           <page style={styles.container}>
-            {/*region example*/}
-            <actionBar title="ActionBar">
-            </actionBar>
-            {/*region example*/}
+            <actionBar title="DatePicker" onTap={() => Frame.goBack()}></actionBar>
 
-            <stackLayout verticalAlignment={'middle'} horizontalAlignment={'center'} >
-                <label>Content Here</label>
+            <stackLayout
+              verticalAlignment={'middle'}
+              horizontalAlignment={'center'}
+            >
+              {/*#region example*/}
+              <datePicker date={currentDate}></datePicker>
+              {/*endregion example*/}
             </stackLayout>
           </page>
         </frame>

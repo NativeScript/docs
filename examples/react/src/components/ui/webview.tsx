@@ -1,10 +1,10 @@
-import { Dialogs } from '@nativescript/core';
+import { Dialogs, Frame } from '@nativescript/core'
 import { RouteProp } from '@react-navigation/core';
 import * as React from "react";
 import { StyleSheet } from "react-nativescript";
 import { FrameNavigationProp } from "react-nativescript-navigation";
 
-import { MainStackParamList } from "~/NavigationParamList";
+import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
     route: RouteProp<MainStackParamList, "WebView">,
@@ -12,22 +12,29 @@ type HomeProps = {
 };
 
 export function WebView({ navigation }: HomeProps) {
+  // todo this doesn't work well?
     return (
       <>
         <frame>
           <page style={styles.container}>
-            {/*region example*/}
-            <actionBar title="ActionBar">
-            </actionBar>
-            {/*region example*/}
+            <actionBar title="WebView" onTap={() => Frame.goBack()}></actionBar>
 
-            <stackLayout verticalAlignment={'middle'} horizontalAlignment={'center'} >
-                <label>Content Here</label>
+            <stackLayout
+              verticalAlignment={'middle'}
+              horizontalAlignment={'center'}
+            >
+              {/*actual example - not rendered because the above WebView is used for the screenshot instead.*/}
+                {/*#region example */}
+                <webView src="https://nativescript-vue.org/" />
+
+
+                <webView src="<div><h1>Some static HTML</h1></div>" />
+                {/*#endregion example */}
             </stackLayout>
           </page>
         </frame>
       </>
-    );
+    )
 }
 
 const styles = StyleSheet.create({

@@ -1,10 +1,10 @@
-import { Dialogs } from '@nativescript/core';
+import { Dialogs, Frame } from '@nativescript/core'
 import { RouteProp } from '@react-navigation/core';
 import * as React from "react";
 import { StyleSheet } from "react-nativescript";
 import { FrameNavigationProp } from "react-nativescript-navigation";
+import { MainStackParamList } from '../../NavigationParamList'
 
-import { MainStackParamList } from "~/NavigationParamList";
 
 type HomeProps = {
     route: RouteProp<MainStackParamList, "ActionBar">,
@@ -17,12 +17,15 @@ export function ActionBar({ navigation }: HomeProps) {
         <frame>
           <page style={styles.container}>
             {/*region example*/}
-            <actionBar title="ActionBar">
+            <actionBar title="ActionBar"
+                       onTap={() => Frame.goBack()}>
             </actionBar>
             {/*region example*/}
 
             <stackLayout verticalAlignment={'middle'} horizontalAlignment={'center'} >
-                <label>Content Here</label>
+                   {/*#region example*/}
+              <activityIndicator busy="true" />
+ {/*endregion example*/}
             </stackLayout>
           </page>
         </frame>
