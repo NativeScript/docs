@@ -147,7 +147,7 @@ Available values:
 
 - `automatic`
 - `alwaysTemplate`
-- `automatic`
+- `alwaysOriginal`
 
 Defaults to `alwaysOriginal`.
 

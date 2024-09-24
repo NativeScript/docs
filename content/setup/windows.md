@@ -46,7 +46,7 @@ If any of the above failed, we recommend checking out the [Microsoft Docs for Se
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) open an Administrator Command Prompt (right click and select "Run as Administrator") and run the following command:
 
 ```cli
-choco install -y temurin11
+choco install -y temurin17
 ```
 
 Once installed, you might need to add it to your `Path`. First, check if you need to add it to your `Path` by opening a new Command Prompt and running the following:
@@ -63,7 +63,7 @@ If you see a version number printed, you are ready to move on to [Installing And
 4. Click **New** and add the **JDK binaries folder** path to the list.
    The default location is
    ```
-   %LOCALAPPDATA%\???
+   C:\Program Files\Eclipse Adoptium\jdk-17.X.X\bin
    ```
 
 ### Installing Android Studio

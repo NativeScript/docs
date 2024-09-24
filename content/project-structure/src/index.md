@@ -5,7 +5,7 @@ contributors:
   - rigor789
 ---
 
-Most of the application logic lives in the `src` folder (sometimes named `app`). The general structure can vary, and will depended on the flavor you are using.
+Most of the application logic lives in the `src` folder (sometimes named `app`). The general structure can vary and will depend on the flavor you are using.
 
 ## Typical Folder Structure
 

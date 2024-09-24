@@ -203,6 +203,19 @@ export default [
     ],
   },
   {
+    text: 'Developing with Vision Pro',
+    items: [
+      {
+        text: 'Developing with visionOS',
+        link: '/guide/visionos',
+      },
+      {
+        text: 'Previewing visionOS from StackBlitz',
+        link: '/guide/visionos-preview',
+      },
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
@@ -261,10 +274,6 @@ export default [
       //   text: 'The Layout Process',
       //   link: '/guide/advanced/the-layout-process',
       // },
-      {
-        text: 'Developing with visionOS',
-        link: '/guide/visionos',
-      },
       {
         text: 'Metadata',
         link: '/guide/metadata',
