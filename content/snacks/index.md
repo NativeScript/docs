@@ -293,6 +293,20 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoUrl: "https://youtube.com/embed/bXSyBTGJIlc",
     videoTitle: "Top Bar Height with NativeScript",
   },
+  {
+    id: 19,
+    title: "iOS Spotlight Search",
+    href: "https://stackblitz.com/edit/nativescript-ios-spotlight-search?file=src%2Fapp%2Fitem%2Fitem.service.ts",
+    description: "How to allow app content to be searchable using iOS Core Spotlight.",
+    categories: [
+      {
+        title: "iOS Core Spotlight",
+        href: "https://developer.apple.com/documentation/corespotlight",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/uzzMskFL5g8",
+    videoTitle: "Use iOS Spotlight Search with NativeScript",
+  },
   // Not ready yet but will discuss with Dylan to update
   // {
   //   id: 15,

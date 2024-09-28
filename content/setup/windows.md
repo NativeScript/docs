@@ -128,7 +128,7 @@ ns doctor android
 
 If you see **No issues were detected** then you have successfully set up your system.
 
-Lastly, you will also want to [set up an android device or emulator](#setting-up-an-android-device-or-emulator).
+Lastly, you will also want to [set up an android device](/guide/running#enable-usb-debugging-on-android-devices) or [emulator](/guide/running#android-emulators).
 
 ::: warning Troubleshooting
 
