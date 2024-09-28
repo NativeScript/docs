@@ -18,6 +18,13 @@ contributors:
 <<< @/../examples/typescript/src/ui/ListPicker/template.xml#example
 <<< @/../examples/typescript/src/ui/ListPicker/template.ts#example
 
+<<< @/../examples/angular/src/ui/ListPicker/component.html#example
+<<< @/../examples/angular/src/ui/ListPicker/component.ts#example
+<<< @/../examples/react/src/components/ui/label.tsx#example
+<<< @/../examples/solid/src/ui/label.tsx#example
+<<< @/../examples/svelte/app/components/ui/ListPicker.svelte#example
+<<< @/../examples/vue/src/ui/ListPicker/component.vue#example
+
 ## Props
 
 ### items

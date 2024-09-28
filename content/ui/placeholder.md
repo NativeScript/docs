@@ -18,6 +18,13 @@ contributors:
 <<< @/../examples/typescript/src/ui/Placeholder/template.xml#example
 <<< @/../examples/typescript/src/ui/Placeholder/template.ts#example
 
+<<< @/../examples/angular/src/ui/Placeholder/component.html#example
+<<< @/../examples/angular/src/ui/Placeholder/component.ts#example
+<<< @/../examples/react/src/components/ui/placeholder.tsx#example
+<<< @/../examples/solid/src/ui/placeholder.tsx#example
+<<< @/../examples/svelte/app/components/ui/Placeholder.svelte#example
+<<< @/../examples/vue/src/ui/Placeholder/component.vue#example
+
 ## Props
 
 ### ...Inherited

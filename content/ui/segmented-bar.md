@@ -17,6 +17,12 @@ contributors:
 
 <<< @/../examples/typescript/src/ui/SegmentedBar/template.xml#example
 
+<<< @/../examples/angular/src/ui/SegmentedBar/component.html#example
+<<< @/../examples/react/src/components/ui/segmentedbar.tsx#example
+<<< @/../examples/solid/src/ui/segmentedbar.tsx#example
+<<< @/../examples/svelte/app/components/ui/SegmentedBar.svelte#example
+<<< @/../examples/vue/src/ui/SegmentedBar/component.vue#example
+
 ## Props
 
 ### items

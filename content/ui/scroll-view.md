@@ -23,6 +23,12 @@ A ScrollView can only have a single child element.
 
 <<< @/../examples/typescript/src/ui/ScrollView/template.xml#example
 
+<<< @/../examples/angular/src/ui/ScrollView/component.html#example
+<<< @/../examples/react/src/components/ui/scrollview.tsx#example
+<<< @/../examples/solid/src/ui/scrollview.tsx#example
+<<< @/../examples/svelte/app/components/ui/ScrollView.svelte#example
+<<< @/../examples/vue/src/ui/ScrollView/component.vue#example
+
 ## Props
 
 ### orientation

@@ -17,6 +17,12 @@ contributors:
 
 <<< @/../examples/typescript/src/ui/TabView/template.xml#example
 
+<<< @/../examples/angular/src/ui/TabView/component.html#example
+<<< @/../examples/react/src/components/ui/tabview.tsx#example
+<<< @/../examples/solid/src/ui/tabview.tsx#example
+<<< @/../examples/svelte/app/components/ui/TabView.svelte#example
+<<< @/../examples/vue/src/ui/TabView/component.vue#example
+
 ## Props
 
 ### selectedIndex

@@ -18,6 +18,11 @@ See also: [TimePicker](/ui/time-picker).
 </DeviceFrame>
 
 <<< @/../examples/typescript/src/ui/DatePicker/template.xml#example
+<<< @/../examples/angular/src/ui/DatePicker/component.html#example
+<<< @/../examples/react/src/components/ui/datepicker.tsx#example
+<<< @/../examples/solid/src/ui/datepicker.tsx#example
+<<< @/../examples/svelte/app/components/ui/DatePicker.svelte#example
+<<< @/../examples/vue/src/ui/DatePicker/component.vue#example
 
 ```xml
 <DatePicker

@@ -23,6 +23,13 @@ For single-line text input, see [TextField](/ui/text-field).
 
 <<< @/../examples/typescript/src/ui/TextView/template.ts#example [TypeScript]
 
+<<< @/../examples/angular/src/ui/TextView/component.html#example [XML View]
+<<< @/../examples/angular/src/ui/TextView/component.ts#example [TypeScript]
+<<< @/../examples/react/src/components/ui/textview.tsx#example
+<<< @/../examples/solid/src/ui/textview.tsx#example
+<<< @/../examples/svelte/app/components/ui/TextView.svelte#example
+<<< @/../examples/vue/src/ui/TextView/component.vue#example
+
 :::
 
 ## Examples

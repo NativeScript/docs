@@ -19,6 +19,12 @@ See also: [ActivityIndicator](/ui/activity-indicator).
 
 <<< @/../examples/typescript/src/ui/Progress/template.xml#example
 
+<<< @/../examples/angular/src/ui/Progress/component.html#example
+<<< @/../examples/react/src/components/ui/progress.tsx#example
+<<< @/../examples/solid/src/ui/progress.tsx#example
+<<< @/../examples/svelte/app/components/ui/Progress.svelte#example
+<<< @/../examples/vue/src/ui/Progress/component.vue#example
+
 ## Example
 
 ### Styling the Progress bar

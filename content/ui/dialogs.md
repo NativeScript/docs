@@ -46,6 +46,11 @@ See [DialogOptions](/api/interface/DialogOptions), [R.style](https://developer.a
 </DeviceFrame>
 
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-alert
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-alert
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-alert
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-alert
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-alert
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-alert
 
 A dialog for alerting the user.
 
@@ -61,6 +66,11 @@ See [alert()](/api/#alert).
 </DeviceFrame>
 
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-action
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-action
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-action
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-action
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-action
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-action
 
 A dialog for prompting the user to choose.
 
@@ -78,6 +88,11 @@ See [action()](/api/#action).
 </DeviceFrame>
 
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-confirm
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-confirm
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-confirm
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-confirm
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-confirm
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-confirm
 
 A dialog for prompting the user to confirm.
 
@@ -93,6 +108,11 @@ See [confirm()](/api/#confirm).
 </DeviceFrame>
 
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-prompt
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-prompt
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-prompt
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-prompt
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-prompt
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-prompt
 
 A dialog for prompting the user for input.
 
@@ -112,6 +132,11 @@ See [prompt()](/api/#prompt), [CoreTypes.AutocapitalizationType](/api/namespace/
 </DeviceFrame>
 
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-login
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-login
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-login
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-login
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-login
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-login
 
 A dialog for prompting the user for credentials.
 

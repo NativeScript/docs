@@ -23,9 +23,7 @@ export function ActionBar({ navigation }: HomeProps) {
             {/*region example*/}
 
             <stackLayout verticalAlignment={'middle'} horizontalAlignment={'center'} >
-                   {/*#region example*/}
-              <activityIndicator busy="true" />
- {/*endregion example*/}
+              <label text="ActionBar" />
             </stackLayout>
           </page>
         </frame>

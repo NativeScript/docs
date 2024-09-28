@@ -23,6 +23,12 @@ The NativeScript `<Label>` is not the same as the HTML `<Label>`.
 
 <<< @/../examples/typescript/src/ui/Label/template.xml#example
 
+<<< @/../examples/angular/src/ui/Label/component.html#example
+<<< @/../examples/react/src/components/ui/label.tsx#example
+<<< @/../examples/solid/src/ui/label.tsx#example
+<<< @/../examples/svelte/app/components/ui/Label.svelte#example
+<<< @/../examples/vue/src/ui/Label/component.vue#example
+
 ## Examples
 
 ### Styling the label

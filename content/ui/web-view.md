@@ -19,6 +19,12 @@ See also: [HtmlView](/ui/html-view).
 
 <<< @/../examples/typescript/src/ui/WebView/template.xml#example
 
+<<< @/../examples/angular/src/ui/WebView/component.html#example
+<<< @/../examples/react/src/components/ui/webview.tsx#example
+<<< @/../examples/solid/src/ui/webview.tsx#example
+<<< @/../examples/svelte/app/components/ui/WebView.svelte#example
+<<< @/../examples/vue/src/ui/WebView/component.vue#example
+
 ::: info Tip
 To be able to use gestures inside a WebView on Android, [disable zoom controls](#disableZoom).
 :::

@@ -17,6 +17,12 @@ contributors:
 
 <<< @/../examples/typescript/src/ui/Slider/template.xml#example
 
+<<< @/../examples/angular/src/ui/Slider/component.html#example
+<<< @/../examples/react/src/components/ui/slider.tsx#example
+<<< @/../examples/solid/src/ui/slider.tsx#example
+<<< @/../examples/svelte/app/components/ui/Slider.svelte#example
+<<< @/../examples/vue/src/ui/Slider/component.vue#example
+
 ## Props
 
 ### value

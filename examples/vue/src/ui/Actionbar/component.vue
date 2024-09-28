@@ -12,7 +12,7 @@ function goBack() {
     <!-- #region example -->
     <ActionBar title="ActionBar Title">
       <ActionItem @tap="goBack" >
-        <Label text="<< Back      "></Label>
+        <Label text="<< Back"></Label>
       </ActionItem>
     </ActionBar>
     <!-- #endregion example -->

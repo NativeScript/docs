@@ -16,6 +16,11 @@ contributors:
 </DeviceFrame>
 
 <<< @/../examples/typescript/src/ui/ActivityIndicator/template.xml#example
+<<< @/../examples/angular/src/ui/ActivityIndicator/component.html#example
+<<< @/../examples/react/src/components/ui/activityindicator.tsx#example
+<<< @/../examples/solid/src/ui/activityindicator.tsx#example
+<<< @/../examples/svelte/app/components/ui/ActivityIndicator.svelte#example
+<<< @/../examples/vue/src/ui/ActivityIndicator/component.vue#example
 
 ## Examples
 
