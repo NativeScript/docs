@@ -307,6 +307,20 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoUrl: "https://youtube.com/embed/uzzMskFL5g8",
     videoTitle: "Use iOS Spotlight Search with NativeScript",
   },
+  {
+    id: 20,
+    title: "Improve UX with NativeScript TouchManager",
+    href: "https://stackblitz.com/edit/nativescript-touchmanager?file=src%2Fapp%2Futils.ts",
+    description: "Instantly improve UX with NativeScript's TouchManager.",
+    categories: [
+      {
+        title: "TouchManager",
+        href: "https://docs.nativescript.org/guide/animations#touchmanager-8-2",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/vAyGyuNFCbk",
+    videoTitle: "Instantly improve UX with NativeScript's TouchManager",
+  },
   // Not ready yet but will discuss with Dylan to update
   // {
   //   id: 15,
