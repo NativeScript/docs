@@ -70,7 +70,7 @@ Additionally, some installations may require creating the `JAVA_HOME` environmen
 1. Search for "**Edit the system environment variables**" in Windows Search and select
 2. Click on "**Environment variables...**" in the bottom corner
 3. Click on **New...** under the "**User variables for...**" section
-4. Add the following variable. Ensure you're using the correct JDK path. Example:
+4. Add the following variable. Ensure you're using the correct JDK path, without the \bin suffix. Example:
    ```
    VARIABLE_NAME: JAVA_HOME
    VARIABLE_VALUE: C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot
