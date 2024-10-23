@@ -55,7 +55,7 @@ Once installed, you might need to add it to your `Path`. First, check if you nee
 javac --version
 ```
 
-If you see a version number printed, you are ready to move on to [Installing Android Studio](#installing-android-studio), otherwise you will need to add the JDK binaries to your system environment `Path`:
+If you see a version number printed, you may skip this step. Otherwise, you will need to add the JDK binaries to your system environment `Path`:
 
 1. Search for "**Edit the system environment variables**" in Windows Search and select
 2. Click on "**Environment variables...**" in the bottom corner
@@ -65,6 +65,18 @@ If you see a version number printed, you are ready to move on to [Installing And
    ```
    C:\Program Files\Eclipse Adoptium\jdk-17.X.X\bin
    ```
+   
+Additionally, some installations may require creating the `JAVA_HOME` environment variable manually:
+1. Search for "**Edit the system environment variables**" in Windows Search and select
+2. Click on "**Environment variables...**" in the bottom corner
+3. Click on **New...** under the "**User variables for...**" section
+4. Add the following variable. Ensure you're using the correct JDK path. Example:
+   ```
+   VARIABLE_NAME: JAVA_HOME
+   VARIABLE_VALUE: C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot
+   ```
+
+You may need to restart your terminal for changes to apply.
 
 ### Installing Android Studio
 
