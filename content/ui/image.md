@@ -16,7 +16,7 @@ When working with images, consider following [the best practices](/performance.h
 
 Working with many images can quickly become a memory hog, for improved image handling it's recommended to use an Image caching library. Here are a few plugins from our community:
 
-- [@triniwiz/image-cache-it](https://triniwiz.github.io/nativescript-plugins/api-reference/image-cache-it.html)
+- [@triniwiz/nativescript-image-cache-it](https://triniwiz.github.io/nativescript-plugins/api-reference/image-cache-it.html)
 - [@nativescript-community/ui-image](https://github.com/nativescript-community/ui-image)
 
 :::
@@ -28,7 +28,7 @@ Working with many images can quickly become a memory hog, for improved image han
 <img src="../assets/images/screenshots/android/Image.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Image/template.xml#example
+<<< @/../examples/typescript/src/ui/Image/template.xml#example
 
 ## Examples
 

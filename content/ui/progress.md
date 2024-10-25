@@ -17,7 +17,13 @@ See also: [ActivityIndicator](/ui/activity-indicator).
 <img src="../assets/images/screenshots/android/Progress.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Progress/template.xml#example
+<<< @/../examples/typescript/src/ui/Progress/template.xml#example
+
+<<< @/../examples/angular/src/ui/Progress/component.html#example
+<<< @/../examples/react/src/components/ui/progress.tsx#example
+<<< @/../examples/solid/src/ui/progress.tsx#example
+<<< @/../examples/svelte/app/components/ui/Progress.svelte#example
+<<< @/../examples/vue/src/ui/Progress/component.vue#example
 
 ## Example
 
