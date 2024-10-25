@@ -8,6 +8,13 @@ contributors:
 
 `<HtmlView>` is a UI component for rendering simple static HTML content.
 
+::: tip
+
+For additional features and improved performance, consider using an alternative implementation like the
+[ui-label](https://github.com/nativescript-community/ui-label) from the community.
+
+:::
+
 See also: [WebView](/ui/web-view).
 
 <DeviceFrame type="ios">
