@@ -165,6 +165,18 @@ The `BannerAd` requires the following attributes to be set:
 
 ```
 
+```javascript
+import { BannerAdSize } from "@nativescript/firebase-admob";
+
+// example function for layoutChanged
+export function bannerLoaded(args) {
+  const banner = args.object;
+  const adSize = new BannerAdSize(100, 100);
+  banner.size = adSize;
+  banner.load();
+}
+```
+
 #### Add Banner ad in NativeScript Angular
 
 Register the `BannerAd` view by adding its `AdmobModule` to the `imports` array of the `@NgModule` decorator of the component where you want to use the view.
