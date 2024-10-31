@@ -714,4 +714,4 @@ Running the app on either platform should now result in an app that resembles th
 
 ## What's next
 
-Congratulations! You built your first NativeScript app that runs on both iOS and Android. You can continue adding more [NativeScript UI components](/ui/) (or build your custom UI components), or you could add some [native functionalities](https://docs.nativescript.org/native-api-access.html). The possibilities are endless!
+Congratulations! You built your first NativeScript app that runs on both iOS and Android. You can continue adding more [NativeScript UI components](/ui/) (or build your custom UI components), or you could add some [native functionalities](https://docs.nativescript.org/guide/subclassing/). The possibilities are endless!
