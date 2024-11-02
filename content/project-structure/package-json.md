@@ -18,14 +18,14 @@ NativeScript plugins should always be installed as `dependencies`, because Nativ
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@nativescript/core": "~8.5.0"
+    "@nativescript/core": "~8.8.0"
   },
   "devDependencies": {
-    "@nativescript/android": "8.5.0",
-    "@nativescript/ios": "8.5.0",
-    "@nativescript/types": "~8.5.0",
-    "@nativescript/webpack": "~5.0.10",
-    "typescript": "~4.5.5"
+    "@nativescript/android": "~8.8.0",
+    "@nativescript/ios": "~8.8.0",
+    "@nativescript/types": "~8.8.0",
+    "@nativescript/webpack": "~5.0.0",
+    "typescript": "~5.5.0"
   }
 }
 ```

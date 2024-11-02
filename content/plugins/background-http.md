@@ -174,7 +174,7 @@ import { session } from '@nativescript/background-http';
 session: Session = session(id: string)
 ```
 
-Gets or creates a background download/upload session by id.
+Gets or creates a background http session by id.
 
 ---
 
@@ -295,7 +295,7 @@ import { session } from '@nativescript/background-http'
 session: Session = session(id)
 ```
 
-Gets or creates a background download/upload session by id.
+Gets or creates a background http session by id.
 
 ---
 

@@ -4,6 +4,7 @@ prev: /setup
 next: /creating-a-new-project
 contributors:
   - rigor789
+  - sjsadowski
 ---
 
 ## Setting up macOS for Android
@@ -44,23 +45,27 @@ To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https:
 
 ```cli
 brew tap homebrew/cask-versions
-brew install --cask temurin11
+brew install --cask temurin@17
 ```
+
+:::warning Note
+Using JDK 17 is highly recommended as the nativescript-bundled version of gradle is compatible. Using a newer version of the JDK may cause issues with your android build process.
+:::
 
 Once installed, open a new Terminal and verify that the default version is the one we installed:
 
 ```cli
 javac --version
 # should print something like:
-# javac 11.x.x
+# javac 17.x.x
 ```
 
 If the version looks correct, you are ready to move on to [Installing Android Studio](#installing-android-studio), otherwise you will need to set the `JAVA_HOME` environment variable.
 
-Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zprofile` or `~/.zshrc` config file:
+Add the following lines to your shell profile, usually `~/.zshrc`, `~/.bash_profile` or `~/.bashrc` or `~/.zprofile` config file:
 
 ```shell
-export JAVA_HOME=$(/usr/libexec/java_home -v"11");
+export JAVA_HOME=$(/usr/libexec/java_home -v"17");
 ```
 
 Repeat the verification from above.
@@ -150,24 +155,30 @@ Once the installation is complete (this may take a while &mdash; brew a coffee a
 
 Open `XCode › Preferences › Locations` and make sure **Command Line Tools** is set
 
+:::warning Note
+In newer versions of XCode, 'Preferences' may be 'Settings'
+:::
+
 ![XCode Preferences, Locations](../assets/images/environment-setup/xcode_command_line_tools.png)
 
 ### Installing Ruby
 
-Install **ruby 2.7** and link it so it's available in your shell environment:
+Install **ruby 3.3+** and link it so it's available in your shell environment:
 
 ```cli
-brew install ruby@2.7
-brew link ruby@2.7
+brew install ruby@3.3
+brew link ruby@3.3
 ```
+
+You can now run `brew list ruby` to see which specific version was installed to reference next.
 
 Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zshrc` config file:
 
 ```shell
-# Add rubygems to the path
-export PATH=/opt/homebrew/lib/ruby/gems/2.7.0/bin:$PATH
+# Add ruby and rubygems to the path
+export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH
 # or
-export PATH=/usr/local/lib/ruby/gems/2.7.0/bin:$PATH
+export PATH=/usr/local/lib/ruby/bin:/usr/local/lib/ruby/gems/3.3.0/bin:$PATH
 ```
 
 :::warning Important
@@ -183,8 +194,8 @@ In a new terminal window, install the **<abbr title="A package manager for manag
 <!-- gem install ... # requires root privileges on macOS. sudo works. -->
 
 ```cli
-sudo gem install cocoapods
-sudo gem install xcodeproj
+gem install cocoapods
+gem install xcodeproj
 ```
 
 Depending on installation methods, the location of ruby gems may vary. Make sure you have the right folder in your `$PATH` by running `which pod`.

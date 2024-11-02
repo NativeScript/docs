@@ -38,33 +38,32 @@ cd nativescript-ui-kit
 
 1. This first step will ensure all the dependencies are installed properly and only really needs to be run once after cloning the workspace. You can also use it anytime you simply want to clean/reset the workspace dependencies.
 
-```cli
-npm run setup
-```
+   ```cli
+   npm run setup
+   ```
 
 2. Now let's configure it to use the settings we prefer like which organization we want these plugins associated with.
+   This will also give us a chance to configure the default package.json repository url and author details we want each package to use.
 
-This will also give us a chance to configure the default package.json repository url and author details we want each package to use.
+   ```cli
+   npm run config
 
-```cli
-npm run config
+   ? What npm scope would you like to use for this workspace?
+   › nstudio
 
-? What npm scope would you like to use for this workspace?
-› nstudio
+   ? What is the git repository address?
+   › https://github.com/nstudio/nativescript-ui-kit
 
-? What is the git repository address?
-› https://github.com/nstudio/nativescript-ui-kit
+   ? What is the author display name?
+   › nstudio
 
-? What is the author display name?
-› nstudio
-
-? What is the author email?
-> oss@nstudio.io
-```
+   ? What is the author email?
+   > oss@nstudio.io
+   ```
 
 **Your workspace is now configured and ready to go!**
 
-## Add a package
+## Adding a package
 
 Let's add a package to develop a plugin, for example: `@nstudio/nativescript-label-marquee`
 
@@ -89,7 +88,7 @@ This created a `packages/nativescript-label-marquee` folder containing a plugin 
 - Updating the `npm start` interactive display
 - Updating the README here to list the new package
 
-## How to focus on just 1 package to develop in isolation
+## Focus on a single package to develop in isolation
 
 ```cli
 npm start
@@ -102,7 +101,7 @@ Note: _good to always clean the demo you plan to run after focusing. (You can cl
 
 You can reset anytime with `npm start` > `focus.reset` ENTER
 
-## How to publish packages?
+## Publishing packages
 
 ```cli
 npm run publish-packages
@@ -112,7 +111,7 @@ npm run publish-packages
 - You will then be prompted for the version to use. Leaving blank will auto bump the patch version (it also handles prerelease types like alpha, beta, rc, etc. - It even auto tags the corresponding prelease type on npm).
 - You will then be given a brief sanity check 🧠😊
 
-## If needed, add Angular compatibility to a package
+## Adding Angular compatibility to a package
 
 Not all packages need specific Angular compatibility. Only if you want to provide Angular specific behavior for example, custom directives, components or other extended behavior to expand on top of your NativeScript plugin will you need to do this.
 
@@ -124,7 +123,7 @@ npm run add-angular
 
 At the prompt, enter the name of the package to add an `angular` folder to it with the necessary boilerplate to provide Angular support to the package.
 
-## Migrating your plugin workspace
+## Migrating a plugin workspace
 
 One of the nice benefits of using our plugin workspaces is updating them is made simple and efficient through Nx tooling. The TSC maintains plugin workspace migrations so whenever one is available you can update your plugin workspace with just a few simple commands (which will often provide dependency version bumps of supporting packages to latest NativeScript versions, configuration improvements, as well as other welcome additions to help you create and maintain NativeScript plugins):
 
@@ -148,9 +147,40 @@ Your plugin workspace will now be up to date regarding various configurations, s
 
 After running migrations you can always _delete_ the `migrations.json` file as it will no longer be used. A `migrations.json` file is always generated if migrations are available to run. After applied, you no longer need the file.
 
-#### How often do migrations need to be run?
+### How often do migrations need to be run?
 
-Not very often actually. Most plugin workspaces can maintain it's set of dependencies for often 1-2 years or longer but if a migration is available which mentions things you want/need feel free to run the migrations anytime.
+Not very often actually. Most plugin workspaces can maintain it's set of dependencies for often 1-2 years or longer but if a migration is available which mentions things you want or need, feel free to run the migrations anytime.
+
+### Migration 5.4.0 (Released August 10, 2024)
+
+- Migrates to Nx 19.5.7
+- Adjusts to NativeScript 8.8
+
+### Migration 5.3.0 (Released June 18, 2024)
+
+- Migrates to Nx 19.3.0
+
+### Migration 5.2.3 (Released April 6, 2024)
+
+- Migrates to Nx 18.2.3, NativeScript 8.6, and TypeScript ~5.4.x.
+
+After running `yarn nx migrate @nativescript/plugin-tools` and then `yarn nx migrate --run-migrations ` with this migration you'll likely see this message:
+
+```bash
+[!] Some files can't be patched! You can run again with --verbose to get specific error detail. The following files are unable to be patched:
+  - /path/to/workspace/node_modules/typescript/lib/tsc.js
+  - /path/to/workspace/node_modules/typescript/lib/typescript.js
+```
+
+This is normal and will go away after running the migration.
+
+After running `npm run add` to add another plugin to the workspace, you may see this message:
+
+```bash
+ NX   Please run "npm run config" to confirm your workspace settings before continuing.
+```
+
+Go ahead and do that: `npm run config` which will ensure your default package settings are setup properly for all newly added packages going forward.
 
 ### Migration 5.0.0 (Released Dec 26, 2022)
 
@@ -169,7 +199,7 @@ packages/nativescript-loading-indicator/index.android.ts:122:19 - error TS2693: 
 
 This just means the `tsconfig.base.json` still needs this following adjustment:
 
-```ts
+```json
 "target": "ES2020",
 "module": "esnext",
 "lib": ["ESNext", "dom"],
@@ -183,7 +213,7 @@ This also updates transient dependencies to Angular 15. When migrating your plug
 
 For any angular specific behavior you may encounter the following if you are extending `ListViewComponent`:
 
-```
+```bash
 ✖ Compiling with Angular sources in Ivy partial compilation mode.
 Error: packages/picker/angular/picker.directive.ts:60:40 - error TS2345: Argument of type 'NgZone' is not assignable to parameter of type 'ChangeDetectorRef'.
   Type 'NgZone' is missing the following properties from type 'ChangeDetectorRef': markForCheck, detach, detectChanges, checkNoChanges, reattach
@@ -196,11 +226,20 @@ https://github.com/NativeScript/angular/blob/main/packages/angular/src/lib/cdk/l
 
 Can fix by modifying signature to the following:
 
-```
-export class PickerFieldComponent extends ListViewComponent implements AfterContentInit {
-	constructor(_elementRef: ElementRef, _iterableDiffers: IterableDiffers, _cdRef: ChangeDetectorRef) {
-		super(_elementRef, _iterableDiffers, _cdRef);
-	}
+```ts
+export class PickerFieldComponent
+  extends ListViewComponent
+  implements AfterContentInit
+{
+  constructor(
+    _elementRef: ElementRef,
+    _iterableDiffers: IterableDiffers,
+    _cdRef: ChangeDetectorRef
+  ) {
+    super(_elementRef, _iterableDiffers, _cdRef)
+  }
+  // ...
+}
 ```
 
 ### Migration 4.0.0 (Released July 3, 2022)
@@ -216,7 +255,7 @@ After migrating:
 
 - If using angular integrations you may run into issues like the following:
 
-```cli
+```bash
 ✖ Compiling with Angular sources in Ivy partial compilation mode.
 Error: packages/picker/angular/picker.accessors.ts:30:14 - error NG3001: Unsupported private class PickerValueAccessor. This class is visible to consumers via NativeScriptPickerModule -> PickerValueAccessor, but is not exported from the top-level library entrypoint.
 

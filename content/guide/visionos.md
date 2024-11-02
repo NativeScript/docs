@@ -20,15 +20,11 @@ You will need an [Apple developer account](https://developer.apple.com/programs/
 
 You can develop with a physical Vision Pro plugged in or using the Vision Pro Simulator.
 
-**You will need the `vision` CLI**:
+**You will need at least the 8.7+ NativeScript CLI**:
 
 ```bash
-npm install -g nativescript@vision
+npm install -g nativescript@latest
 ```
-
-::: info Note
-This tagged CLI is backwards compatible so you can use it for standard iOS and Android projects as well.
-:::
 
 You can now use the `--vision` (or `--visionos`) flags when creating your app.
 
@@ -96,11 +92,11 @@ Primarily 2 key elements make up a NativeScript driven visionOS project:
 ```json
 {
   "dependencies": {
-    "@nativescript/core": "vision"
+    "@nativescript/core": "~8.8.0"
   },
   "devDependencies": {
-    "@nativescript/visionos": "~8.6.0",
-    "@nativescript/webpack": "vision"
+    "@nativescript/visionos": "~8.8.0",
+    "@nativescript/webpack": "~5.0.0"
   }
 }
 ```
@@ -308,11 +304,7 @@ In order to add volumetric and immersize spaces, be sure you add the following s
 </dict>
 ```
 
-## What's Next?
-
-Beyond what is already possible, the innovative possibility is exciting and this is the beginning of an entirely new world. @nativescript/core along with 3rd party plugins could provide even more SwiftUI providers to enable new powerful development workflows.
-
-We will begin sharing more details over time about expanding your visionOS apps to support volumetric windows and immersive spaces while you explore what's already possible.
+## Vision Pro Tutorials in all Flavors
 
 You can follow along in these "Vision Pro 🥽 Hello World" tutorials:
 
@@ -322,3 +314,19 @@ You can follow along in these "Vision Pro 🥽 Hello World" tutorials:
 - [Develop Vision Pro 🥽 apps with Solid](https://blog.nativescript.org/develop-visionos-apps-with-solid)
 - [Develop Vision Pro 🥽 apps with Svelte](https://blog.nativescript.org/develop-visionos-apps-with-svelte)
 - [Develop Vision Pro 🥽 apps with Vue](https://blog.nativescript.org/develop-visionos-apps-with-vue)
+
+### Vision Pro for Angular Developers
+
+This tutorial was hosted by [This Dot Media](https://www.youtube.com/@ThisDotMedia)
+
+<iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/OXkUXRUOj5o" title="Vision Pro for Angular Developers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Blog Posts
+
+### Particle Systems via RealityKit and Multiple Scenes during Vision Pro development with NativeScript
+
+https://blog.nativescript.org/particles-and-multiple-scenes-vision-pro-development/
+
+### How to add visionOS to an existing app?
+
+https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/

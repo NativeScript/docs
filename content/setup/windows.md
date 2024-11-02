@@ -46,7 +46,7 @@ If any of the above failed, we recommend checking out the [Microsoft Docs for Se
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) open an Administrator Command Prompt (right click and select "Run as Administrator") and run the following command:
 
 ```cli
-choco install -y temurin11
+choco install -y temurin17
 ```
 
 Once installed, you might need to add it to your `Path`. First, check if you need to add it to your `Path` by opening a new Command Prompt and running the following:
@@ -55,7 +55,7 @@ Once installed, you might need to add it to your `Path`. First, check if you nee
 javac --version
 ```
 
-If you see a version number printed, you are ready to move on to [Installing Android Studio](#installing-android-studio), otherwise you will need to add the JDK binaries to your system environment `Path`:
+If you see a version number printed, you may skip this step. Otherwise, you will need to add the JDK binaries to your system environment `Path`:
 
 1. Search for "**Edit the system environment variables**" in Windows Search and select
 2. Click on "**Environment variables...**" in the bottom corner
@@ -63,8 +63,20 @@ If you see a version number printed, you are ready to move on to [Installing And
 4. Click **New** and add the **JDK binaries folder** path to the list.
    The default location is
    ```
-   %LOCALAPPDATA%\???
+   C:\Program Files\Eclipse Adoptium\jdk-17.X.X\bin
    ```
+   
+Additionally, some installations may require creating the `JAVA_HOME` environment variable manually:
+1. Search for "**Edit the system environment variables**" in Windows Search and select
+2. Click on "**Environment variables...**" in the bottom corner
+3. Click on **New...** under the "**User variables for...**" section
+4. Add the following variable. Ensure you're using the correct JDK path, without the \bin suffix. Example:
+   ```
+   VARIABLE_NAME: JAVA_HOME
+   VARIABLE_VALUE: C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot
+   ```
+
+You may need to restart your terminal for changes to apply.
 
 ### Installing Android Studio
 
@@ -128,7 +140,7 @@ ns doctor android
 
 If you see **No issues were detected** then you have successfully set up your system.
 
-Lastly, you will also want to [set up an android device or emulator](#setting-up-an-android-device-or-emulator).
+Lastly, you will also want to [set up an android device](/guide/running#enable-usb-debugging-on-android-devices) or [emulator](/guide/running#android-emulators).
 
 ::: warning Troubleshooting
 

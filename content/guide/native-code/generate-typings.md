@@ -24,6 +24,18 @@ ns typings android --jar <path to a jar>
 ns typings android --aar <path to an aar>
 ```
 
+You can also generate typings for an Android package (Maven):
+
+```cli
+ns typings android <package-name>
+```
+
+For instance:
+
+```cli
+ns typings android "com.google.android.gms:play-services-tasks"
+```
+
 ### Custom code
 
 1. Reference the generated types in [references.d.ts](/project-structure/references-d-ts)

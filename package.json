@@ -16,7 +16,7 @@
     "update-theme": "node ./.vitepress/update-theme.mjs"
   },
   "devDependencies": {
-    "@nativescript/vitepress-theme": "https://docs.nativescript.org/__/vitepress-theme.tgz?1707768207419",
+    "@nativescript/vitepress-theme": "https://docs.nativescript.org/__/vitepress-theme.tgz?1730546314972",
     "@types/node": "18.11.9",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
@@ -31,5 +31,6 @@
     "semi": false,
     "printWidth": 80,
     "singleQuote": true
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha256.732620bac8b1690d507274f025f3c6cfdc3627a84d9642e38a07452cc00e0f2e"
 }
