@@ -9,146 +9,179 @@ contributos:
 
 ## Showing a modal
 
-A strongly typed, working, Typescript application can be [found here](https://stackblitz.com/edit/nativescript-stackblitz-templates-3bvo1g?file=app%2Fdetails-page.ts,app%2Fdetails-page.xml,app%2Fmain-page.ts). To show a modal, call the [showModal](https://docs.nativescript.org/api/class/ViewCommon#showmodal) method on a [View](https://docs.nativescript.org/api/class/View) instance and pass it the path to the modal view file:
+To show a modal, call the [showModal](https://docs.nativescript.org/api/class/ViewCommon#showmodal) method on a [View](https://docs.nativescript.org/api/class/View) instance and pass it the path to the modal view file:
+
+<!-- note: we need a "Open In StackBlitz" button, and also put these in an official NativeScript collection to link on the docs. -->
+<!-- A strongly typed, working, Typescript application can be [found here](https://stackblitz.com/edit/nativescript-stackblitz-templates-3bvo1g?file=app%2Fdetails-page.ts,app%2Fdetails-page.xml,app%2Fmain-page.ts).  -->
 
 ```xml
-<Button class="-primary -rounded-lg" text="Modal Example" tap="openModal" />
+<Button text="Show a Modal" tap="onShowModal" />
 ```
-
-**WATCHOUT** - if your modal doesn't appear on button tap, confirm the path in `showModal` since no visual or console indicators exist to tell you an error has occurred unlike [Frame.topMost().navigate()](https://docs.nativescript.org/guide/navigation/frames-and-pages) when a bad path is passed to it. Here's an example with the file name `main-page.ts`.
 
 ```ts
-import { EventData, Page, View } from '@nativescript/core'
-import { HelloWorldModel } from './main-view-model'
-import { IDetails, IDetailsOptions } from './details-page'
+import { EventData, View, ShowModalOptions } from '@nativescript/core'
 
-export function navigatingTo(args: EventData) {
-  const page = <Page>args.object
-  page.bindingContext = new HelloWorldModel()
-}
-
-export function openModal(args: EventData) {
+export function onShowModal(args: EventData) {
   const view = args.object as View
-  const options: IDetailsOptions = {
-    context: { name: 'John Doe' },
-    closeCallback(result: IDetails | undefined) {
-      console.log('Modal returned the following result:', result)
-    },
+  const options: ShowModalOptions = {
+    // ...
   }
-  view.showModal('details-page', options) // WATCHOUT - no error if page doesn't exist and no modal will open
+  view.showModal('details-page', options)
 }
 ```
+
+:::warning Note
+If your modal does not appear when tapping the button, confirm you set the correct path and the modal page exists. `showModal` does not throw an error when the provided path doesn't exist.
+:::
 
 ## Closing a modal
 
-To close a modal, call the `closeModal` method of any `View` from the modal. See the section below on passing data to and from the modal.
+To close a modal, call the `closeModal` method of any `View` from the modal.
+
+For passing data back to the parent, see [Passing Data](#passing-data).
 
 ```xml
-<Button class="-outline -rounded-lg" text="Cancel" tap="onCancel"/>
+<Button text="Close a Modal" tap="onCloseModal"/>
 ```
 
 ```ts
-export function onCancel(args: EventData) {
+export function onCloseModal(args: EventData) {
   const view = args.object as View
   view.closeModal()
 }
 ```
 
-## Passing data to and from a modal
+## Passing data {#passing-data}
 
-However, just closing the modal isn't useful beyond cancelling the modal. Modals can be extremely helpful for getting user input. First, you need the full XML page for your new modal with file name `details-page.xml`:
+Modals are often used for prompting the user for input, this requires passing data between the parent and the modal.
+
+### From parent to modal
+
+To pass data to the modal, provide it in the `context` field of the ShowModalOptions:
+
+```ts
+// main-page.ts
+import { ShowModalOptions } from '@nativescript/core'
+
+// optionally use strong types
+import { ExampleModalContext } from './details-page'
+
+const options: ShowModalOptions = {
+  context: {
+    name: 'John Doe',
+  } as ExampleModalContext,
+}
+
+button.showModal('details-page', options)
+```
+
+In the modal page, listen to the `shownModally` event to access the `context`:
 
 ```xml
-<Page shownModally="onShownModally" navigatingTo="onNavigatingTo">
-  <StackLayout class="p-2">
-    <Label class="p-2" text="Modify the field below to see it passed back to caller. Contains input validation too." textWrap="true" />
-    <TextField class="p-2" id="name" text="{{ name }}" />
-    <Button class="-primary -rounded-lg" text="Update" tap="onUpdate"/>
-    <Button class="-outline -rounded-lg" text="Cancel" tap="onCancel"/>
+<!-- details-page.xml -->
+<Page shownModally="onShownModally"/>
+```
+
+```ts
+// details-page.ts
+import { ShownModallyData } from '@nativescript/core'
+
+// optional strong type for the context
+export type ExampleModalContext = {
+  name: string
+}
+
+export function onShownModally(args: ShownModallyData) {
+  const context = args.context as ExampleModalContext
+  console.log(context.name) // 'John Doe'
+}
+```
+
+### From modal to parent
+
+When closing a modal, you can optionally pass data back to the parent. To do so, provide a `closeCallback` option in the ShowModalOptions:
+
+```ts
+// main-page.ts
+
+import { ShowModalOptions } from '@nativescript/core'
+
+// optionally use strong types
+import { ExampleModalContext, ExampleModalResult } from './details-page'
+
+const options: ShowModalOptions = {
+  context: {
+    name: 'John Doe',
+  } as ExampleModalContext,
+  closeCallback(result?: ExampleModalResult) {
+    if (result) {
+      console.log(`Modal returned: ${result.newName}`) // 'Modal returned: Jane Doe'
+      return
+    }
+    console.log('Modal was cancelled.')
+  },
+}
+
+button.showModal('details-page', options)
+```
+
+In the modal page, listen to the `shownModally` event to access the `context`.
+
+::: code-group
+
+```xml [details-page.xml]
+<Page shownModally="onShownModally">
+  <StackLayout>
+    <!-- ... -->
+    <TextField text="{{ name }}" />
+    <Button text="Change Name" tap="onChangeName"></Button>
+    <Button text="Cancel" tap="onCancel"></Button>
   </StackLayout>
 </Page>
 ```
 
-Next, your code needs to populate a [View Model](https://docs.nativescript.org/guide/data-binding) allowing you to data-bind elements in the XML page. Data-binding means that UI updates in app from the user are magically "bound" in the observable view model without extra code. Functions `onShownModally`, `onUpdate`, and `onCancel` need to be exported so they are accessible as events in the XML page. Here's an example with file name `details-page.ts`. The example also includes input validation using the simple [Dialogs.alert](https://docs.nativescript.org/ui/dialogs#alert) and focus back to the bad field.
-
-```ts
+```ts [details-page.ts]
 import {
   fromObject,
   Page,
+  Button,
   ShownModallyData,
   EventData,
-  Observable,
-  Dialogs,
-  TextField,
-  ShowModalOptions,
-  View,
 } from '@nativescript/core'
 
-export interface IDetails {
+// optional strong type for the context
+export type ExampleModalContext = {
   name: string
 }
 
-export interface IDetailsOptions extends ShowModalOptions {
-  context: IDetails
-}
-
-// abstract class since there should be no constructor to create new instances
-abstract class DetailsContext extends Observable implements IDetails {
-  name: string
-}
-
-let page: Page
-let context: DetailsContext
-
-export function navigatingTo() {
-  const msg = 'You should not use this page outside of a modal window.'
-  Dialogs
-  .alert(msg)
-  .then(() => {
-      console.error(msg)
-  })
+export type ExampleModalResult = {
+  newName: string
 }
 
 export function onShownModally(args: ShownModallyData) {
-  console.log('Modal displayed')
-  page = args.object as Page
-  context = fromObject({
-    ...args.context,
-  }) as DetailsContext
-  page.bindingContext = context
-}
+  const page = args.object as Page
+  const incomingContext = args.context as ExampleModalContext
 
-export function onUpdate(args: EventData) {
-  const nameNew = context.name.trim() // Updated from the TextField data-bind
-  if (!nameNew) {
-    Dialogs.alert('You must enter a value.').then(() => {
-      (page.getViewById('name') as TextField).focus()
-    })
-    return
-  }
-  console.log('Modal closed, sending data back to caller')
-  const view = args.object as View
-  view.closeModal({
-    name: nameNew,
+  const bindingContext = fromObject({
+    ...incomingContext,
+    onChangeName(args: EventData) {
+      const button = args.object as Button
+      button.closeModal({
+        newName: bindingContext.name, // 'Jane Doe'
+      } as ExampleModalResult)
+    },
+    onCancel(args: EventData) {
+      const view = args.object as View
+      view.closeModal()
+    },
   })
-}
-
-export function onCancel(args: EventData) {
-  console.log('Modal cancelled, no data sent back to caller')
-  const view = args.object as View
-  view.closeModal()
+  page.bindingContext = bindingContext
 }
 ```
 
-Here's an example console output from the [working application](https://stackblitz.com/edit/nativescript-stackblitz-templates-3bvo1g?file=app%2Fdetails-page.ts,app%2Fdetails-page.xml,app%2Fmain-page.ts):
+:::
 
-```
- iPhone  16:59:38 Modal displayed
- iPhone  16:59:39 Modal cancelled, no data sent back to caller
- iPhone  16:59:40 Modal returned the following result: undefined
- iPhone  16:59:43 Modal displayed
- iPhone  16:59:44 Modal closed, sending data back to caller
- iPhone  16:59:45 Modal returned the following result: {
-  name: 'John Doe - EDITED'
-}
-```
+## Additional Resources
+
+- [NativeScript XML Data Binding](/guide/data-binding)
+- [TextField](/ui/text-field)
