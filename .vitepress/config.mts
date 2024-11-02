@@ -30,11 +30,10 @@ export default defineConfig({
   head: [
     [
       'script',
-      {},
-      `const script = document.createElement('script');
-      script.async = true;
-      script.src = 'https://vueschool.io/banner.js?affiliate=NSCRIPT&type=top';
-      document.head.appendChild(script);`,
+      {
+        async: 'true',
+        src: 'https://vueschool.io/banner.js?affiliate=NSCRIPT&type=top',
+      }  
     ],
   ],
   ignoreDeadLinks: true,
