@@ -65,8 +65,9 @@ If you see a version number printed, you may skip this step. Otherwise, you will
    ```
    C:\Program Files\Eclipse Adoptium\jdk-17.X.X\bin
    ```
-   
+
 Additionally, some installations may require creating the `JAVA_HOME` environment variable manually:
+
 1. Search for "**Edit the system environment variables**" in Windows Search and select
 2. Click on "**Environment variables...**" in the bottom corner
 3. Click on **New...** under the "**User variables for...**" section
