@@ -359,9 +359,9 @@ Discard any uncaught JS exceptions. This can be useful in production environment
 
 ### ios.SPMPackages
 
-::: tip Experimental
+::: tip
 
-SPM packages are available in `nativescript@8.5.0` or newer and are experimental.
+SPM packages are available in `nativescript@8.5.0` or newer.
 
 :::
 
