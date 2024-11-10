@@ -321,6 +321,20 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoUrl: "https://youtube.com/embed/vAyGyuNFCbk",
     videoTitle: "Instantly improve UX with NativeScript's TouchManager",
   },
+  {
+    id: 21,
+    title: "Tab Navigation with iOS and Android",
+    href: "https://stackblitz.com/edit/nativescript-tab-nav-ng?file=src%2Fapp%2Ffeatures%2Fhome%2Fcomponents%2Fhome.component.html",
+    description: "Example of how to configure tab navigation with lots of options.",
+    categories: [
+      {
+        title: "Angular",
+        href: "https://angular.dev",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/-FPEdFE1XeM",
+    videoTitle: "Example of how to configure tab navigation with lots of options.",
+  },
   // Not ready yet but will discuss with Dylan to update
   // {
   //   id: 15,
