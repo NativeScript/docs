@@ -139,18 +139,18 @@ You can use new @nativescript/core APIs to easily enable visionOS [hover styles]
 
 Apple discusses some of the important spatial considerations with these effects in [this session](https://developer.apple.com/videos/play/wwdc2023/111215/).
 
-Each view can specify it's own custom `hoverStyle` as follows:
+Each view can specify it's own custom `visionHoverStyle` as follows:
 
 ```xml
-<GridLayout hoverStyle="{{customHoverStyle}}" tap="{{tapAction}}"/>
+<GridLayout visionHoverStyle="{{visionHoverStyle}}" tap="{{tapAction}}"/>
 ```
 
-The `hoverStyle` property can be defined as a `string` or `VisionHoverOptions`.
+The `visionHoverStyle` property can be defined as a `string` or `VisionHoverOptions`.
 
 ```ts
 import { VisionHoverOptions } from '@nativescript/core'
 
-const hoverStyle: VisionHoverOptions = {
+const visionHoverStyle: VisionHoverOptions = {
   effect: 'highlight',
   shape: 'rect',
   shapeCornerRadius: 16,
@@ -171,7 +171,7 @@ export type VisionHoverOptions = {
 }
 ```
 
-When a `string` is provided, it will look for predefined `hoverStyle`'s within the `TouchManager.visionHoverOptions` that match the string name. This allows you to predefine and share custom hoverStyle's across your entire app.
+When a `string` is provided, it will look for predefined `visionHoverStyle`'s within the `TouchManager.visionHoverOptions` that match the string name. This allows you to predefine and share custom visionHoverStyle's across your entire app.
 
 You can enable these effects globally throughout your app for any view which has a `tap` binding by enabling:
 
@@ -179,7 +179,7 @@ You can enable these effects globally throughout your app for any view which has
 TouchManager.enableGlobalHoverWhereTap = true
 ```
 
-This allows you to predefine any number of custom `hoverStyle`'s you'd like to use throughout your app. You could do so in the `app.ts` or `main.ts` (aka, bootstrap file), for example:
+This allows you to predefine any number of custom `visionHoverStyle`'s you'd like to use throughout your app. You could do so in the `app.ts` or `main.ts` (aka, bootstrap file), for example:
 
 ```ts
 TouchManager.enableGlobalHoverWhereTap = true
@@ -201,18 +201,18 @@ TouchManager.visionHoverOptions = {
 }
 ```
 
-You could then apply custom `hoverStyle`'s by their name anywhere in your app:
+You could then apply custom `visionHoverStyle`'s by their name anywhere in your app:
 
 ```xml
-<GridLayout hoverStyle="default" tap="tapAction"/>
-<GridLayout hoverStyle="slimBox" tap="tapAction"/>
-<GridLayout hoverStyle="round" tap="tapAction"/>
+<GridLayout visionHoverStyle="default" tap="tapAction"/>
+<GridLayout visionHoverStyle="slimBox" tap="tapAction"/>
+<GridLayout visionHoverStyle="round" tap="tapAction"/>
 ```
 
 You can also disable a hoverStyle on any view by adding the `visionIgnoreHoverStyle` property if desired.
 
 ::: info Note
-When no `hoverStyle` is defined and not using `TouchManager.enableGlobalHoverWhereTap`, visionOS will use default behavior by enabling hoverStyle's on standard controls as mentioned. Other views would have no hoverStyle as expected.
+When no `visionHoverStyle` is defined and not using `TouchManager.enableGlobalHoverWhereTap`, visionOS will use default behavior by enabling hoverStyle's on standard controls as mentioned. Other views would have no hoverStyle as expected.
 :::
 
 ### View template visionOS scoping
