@@ -1,0 +1,21 @@
+{
+  "name": "svelte",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.8.0",
+    "@nativescript/theme": "^3.1.0",
+    "svelte-native": "~1.0.9"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.8.2",
+    "@nativescript/types": "~8.8.0",
+    "@nativescript/webpack": "~5.0.0",
+    "svelte": "~4.2.2",
+    "svelte-loader": "^3.1.9",
+    "svelte-native-preprocessor": "^1.0.0",
+    "svelte-preprocess": "^5.0.4",
+    "typescript": "~5.4.0"
+  }
+}
