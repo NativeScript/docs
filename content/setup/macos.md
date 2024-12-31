@@ -44,7 +44,6 @@ To install **Node** we recommend using a node version manager, such as [nvm](htt
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) run the following command:
 
 ```cli
-brew tap homebrew/cask-versions
 brew install --cask temurin@17
 ```
 
