@@ -177,8 +177,14 @@ Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.
 # Add ruby and rubygems to the path
 export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH
 # or
+export PATH=/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH
+# or
 export PATH=/usr/local/lib/ruby/bin:/usr/local/lib/ruby/gems/3.3.0/bin:$PATH
 ```
+
+:::tip Tip
+You can always `ls -al /opt/homebrew/opt` to see how it's listed on your own system. Or `ls -al /usr/local/lib` depending on your setup.
+:::
 
 :::warning Important
 Make sure to open a new terminal window for the changes to take effect!
