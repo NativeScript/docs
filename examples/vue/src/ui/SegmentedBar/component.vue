@@ -1,0 +1,19 @@
+<script lang="ts" setup>
+
+</script>
+
+<template>
+  <Page>
+    <GridLayout padding="8">
+      <ContentView verticalAlignment="center">
+        <!-- #region example -->
+        <SegmentedBar>
+          <SegmentedBarItem title="First" />
+          <SegmentedBarItem title="Second" />
+          <SegmentedBarItem title="Third" />
+        </SegmentedBar>
+        <!-- #endregion example -->
+      </ContentView>
+    </GridLayout>
+  </Page>
+</template>
