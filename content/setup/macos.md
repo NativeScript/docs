@@ -281,9 +281,9 @@ If you see **No issues were detected** then you have successfully set up your sy
 Did you see this warning?
 
 ```
-✖ WARNING: Xcode is not installed or is not configured properly. 
+✖ WARNING: Xcode is not installed or is not configured properly.
  You will not be able to build your projects for iOS or run them in the iOS Simulator.
-To be able to build for iOS and run apps in the native emulator, verify that you have installed Xcode. 
+To be able to build for iOS and run apps in the native emulator, verify that you have installed Xcode.
 
 Your environment is not configured properly and you will not be able to execute local builds.
 Verify that your environment is configured according to the system requirements described at
