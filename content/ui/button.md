@@ -17,7 +17,12 @@ For more information about the available gestures, see [Gestures](/guide/gesture
 <img src="../assets/images/screenshots/android/Button.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Button/template.xml#example
+<<< @/../examples/typescript/src/ui/Button/template.xml#example
+<<< @/../examples/angular/src/ui/Button/component.html#example
+<<< @/../examples/react/src/components/ui/button.tsx#example
+<<< @/../examples/solid/src/ui/button.tsx#example
+<<< @/../examples/svelte/app/components/ui/Button.svelte#example
+<<< @/../examples/vue/src/ui/Button/component.vue#example
 
 ## Examples
 
