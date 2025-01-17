@@ -282,7 +282,7 @@ This approach will not work if `application.android.ts` requires external module
 
 @nativescript/core ships with a default `androidx.appcompat.app.AppCompatActivity` implementation, that bootstraps the NativeScript application, without forcing users to declare their custom Activity in every project. In some cases you may need to implement a custom Android Activity.
 
-Create a new `activity.android.ts` or `activity.android.js` when using plain JS.
+Create a new `./src/activity.android.ts` or `./src/activity.android.js` when using plain JS.
 
 ::: info Note
 Note the `.android` suffix - we only want this file on Android.
@@ -493,9 +493,9 @@ To include the new Activity in the build, make sure it's added to the `webpack.c
 const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
-  env.appComponents = (env.appComponents || []).concat(['./activity.android'])
-
   webpack.init(env)
+  env.appComponents = (env.appComponents || []).concat(['./src/activity.android'])
+
 
   return webpack.resolveConfig()
 }
