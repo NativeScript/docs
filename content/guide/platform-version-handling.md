@@ -12,7 +12,9 @@ This document however focuses on a topic beyond the JavaScript ecosystem.
 
 ## Android
 
-There are 2 key Android files in your project to keep an eye on with platform versioning over time:
+The [@nativescript/android](https://github.com/NativeScript/android) dependency is good to keep your project up to date with as it often contains system level updates and requirements.
+
+Beyond that, there are 2 key Android files in your project to keep an eye on with platform versioning over time:
 
 1. `app.gradle`: [Gradle](https://gradle.org/) build configuration for Android which contains minimum, maximum and build-tools SDK targets.
 
@@ -84,7 +86,9 @@ This is often a misspelled plugin name or invalid version. In this particular er
 
 ## iOS
 
-There are 2 key iOS files in your project to keep an eye on with platform versioning over time:
+The [@nativescript/ios](https://github.com/NativeScript/ios) dependency is good to keep your project up to date with as it often contains system level updates and requirements.
+
+Beyond that, there are 2 key iOS files in your project to keep an eye on with platform versioning over time:
 
 - `App_Resources/iOS/build.xcconfig`: Sets minimum iOS deployment version 
 
@@ -120,7 +124,7 @@ It's generally a good practice to have these match.
 
 ### iOS Version Errors with Solutions
 
-#### iOS Version Error Sample A
+#### Error Sample A
 
 ```
 node_modules/@nativescript/swift-ui/platforms/ios/src/Common/View+Modifiers.swift:874:49: error: 'accessibilitySortPriority' is only available in iOS 14.0 or newer
@@ -133,7 +137,7 @@ RichTextKit/Sources/RichTextKit/Colors/RichTextColor+Picker.swift:175:22: error:
                     .foregroundStyle(foregroundColor)
 ```
 
-### iOS Version Error Solution A
+### Error Solution A
 
 This is related to 2 causes:
 
@@ -165,4 +169,4 @@ var body: some View {
 
 ## Other Considerations
 
-It's common for NativeScript plugins to include a `platforms/{ios|android}` folder which merge various platform dependencies in with your project. These will often include Cocoapods, gradle plugins, or just platform specific code. It's possible these plugins may specify SDK's which need an update from time to time to match the store requirements mentioned above. You can contact plugin authors or become involved in open source yourself by helping keep your plugins up to date.
+It's common for [NativeScript plugins](https://docs.nativescript.org/plugins/) that your project may depend on to include a `platforms/{ios|android}` folder which merge various platform dependencies in with your project. These will often include Cocoapods, gradle plugins, or just platform specific code. It's possible these plugins may specify SDK's which need an update from time to time to match the store requirements mentioned above. You can contact plugin authors or become involved in open source yourself by helping keep your plugins up to date.
