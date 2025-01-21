@@ -6,11 +6,9 @@ There are several key things to understand about platform version handling withi
 
 In general, maintaining `package.json` dependency versions is often a familiar topic with JavaScript developers. We recommend [this article](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management) as well as [our overview here](https://docs.nativescript.org/guide/development-workflow/using-packages#package-managers) if not familiar with JavaScript package managers.
 
-This document however focuses on a topic beyond the JavaScript ecosystem.
+This document however focuses on a topic beyond the JavaScript ecosystem -- **How to manage platform versions**?
 
-# How to manage platform versions
-
-## Android
+# Android
 
 The [@nativescript/android](https://github.com/NativeScript/android) dependency is good to keep your project up to date with as it often contains system level updates and requirements.
 
@@ -53,9 +51,9 @@ ext {
 }
 ```
 
-### Android Version Errors with Solutions
+## Android Version Errors with Solutions
 
-#### Error Sample A
+### Error Sample A
 
 ```bash
 1.  Dependency 'androidx.appcompat:appcompat-resources:1.6.1' requires libraries and applications that
@@ -68,11 +66,11 @@ ext {
       of at least 33, for example 34.
 ```
 
-#### Error Solution A
+### Error Solution A
 
 This one is a bit more self explanatory since the error includes a recommended action. Just targeting higher sdk version would resolve this one.
 
-#### Error Sample B
+### Error Sample B
 
 ```bash
 platforms/android/app/build.gradle' line: 574
@@ -80,11 +78,11 @@ A problem occurred configuring project ':app'.
 Could not find androidx.dynamicanimation:dynamicanimation:1.1.2
 ```
 
-#### Error Solution B
+### Error Solution B
 
 This is often a misspelled plugin name or invalid version. In this particular error, it's that 1.1.2 of that library does not exist; it's actually `1.1.0-alpha03` for example.
 
-## iOS
+# iOS
 
 The [@nativescript/ios](https://github.com/NativeScript/ios) dependency is good to keep your project up to date with as it often contains system level updates and requirements.
 
@@ -122,9 +120,9 @@ end
 
 It's generally a good practice to have these match.
 
-### iOS Version Errors with Solutions
+## iOS Version Errors with Solutions
 
-#### Error Sample A
+### Error Sample A
 
 ```
 node_modules/@nativescript/swift-ui/platforms/ios/src/Common/View+Modifiers.swift:874:49: error: 'accessibilitySortPriority' is only available in iOS 14.0 or newer
@@ -167,6 +165,6 @@ var body: some View {
 }
 ```
 
-## Other Considerations
+# Other Considerations
 
 It's common for [NativeScript plugins](https://docs.nativescript.org/plugins/) that your project may depend on to include a `platforms/{ios|android}` folder which merge various platform dependencies in with your project. These will often include Cocoapods, gradle plugins, or just platform specific code. It's possible these plugins may specify SDK's which need an update from time to time to match the store requirements mentioned above. You can contact plugin authors or become involved in open source yourself by helping keep your plugins up to date.
