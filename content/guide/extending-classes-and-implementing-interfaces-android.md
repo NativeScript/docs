@@ -494,8 +494,9 @@ const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
   webpack.init(env)
-  env.appComponents = (env.appComponents || []).concat(['./src/activity.android'])
-
+  env.appComponents = (env.appComponents || []).concat([
+    './src/activity.android',
+  ])
 
   return webpack.resolveConfig()
 }

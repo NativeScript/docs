@@ -36,11 +36,11 @@ android {
 Every year, platforms often bump minimum requirements for public store deployments to be accepted which can often be seen [here for Google](https://developer.android.com/google/play/requirements/target-sdk). For example, it may be stated like this:
 
 > New apps and app updates must target Android 14 (API level 34) or higher to be submitted to Google Play; except for Wear OS and Android TV apps, which must target Android 13 (API level 33) or higher.
-Existing apps must target Android 13 (API level 33) or higher to remain available to new users on devices running Android OS higher than your app's target API level.
+> Existing apps must target Android 13 (API level 33) or higher to remain available to new users on devices running Android OS higher than your app's target API level.
 
-It's good to refer to these platform docs from time to time (*email notifications are also often sent to Play Store accounts on these evolving requirements*) to ensure your app's targets keep up with store requirements.
+It's good to refer to these platform docs from time to time (_email notifications are also often sent to Play Store accounts on these evolving requirements_) to ensure your app's targets keep up with store requirements.
 
-2. `before-plugins.gradle`: (*optional*) Some plugins may fallback to gradle configured versions which you can define here to also help align with app build configuration targets.
+2. `before-plugins.gradle`: (_optional_) Some plugins may fallback to gradle configured versions which you can define here to also help align with app build configuration targets.
 
 We can specify additional gradle versions as follows:
 
@@ -90,7 +90,7 @@ The [@nativescript/ios](https://github.com/NativeScript/ios) dependency is good 
 
 Beyond that, there are 2 key iOS files in your project to keep an eye on with platform versioning over time:
 
-- `App_Resources/iOS/build.xcconfig`: Sets minimum iOS deployment version 
+- `App_Resources/iOS/build.xcconfig`: Sets minimum iOS deployment version
 
 We can specify the minimum target as follows:
 
@@ -102,9 +102,9 @@ Every year, platforms often bump minimum requirements for public store deploymen
 
 > All iOS and iPadOS apps uploaded to App Store Connect must be built with a minimum of Xcode 15 and the iOS 17 SDK. Starting April 2025, all iOS and iPadOS apps uploaded to App Store Connect must be built with the iOS 18 SDK.
 
-It's good to refer to these platform docs from time to time (*email notifications are also often sent to App Store accounts on these evolving requirements*) to ensure your app's targets keep up with store requirements.
+It's good to refer to these platform docs from time to time (_email notifications are also often sent to App Store accounts on these evolving requirements_) to ensure your app's targets keep up with store requirements.
 
-- `App_Resources/iOS/Podfile`: (*optional*) If your project brings in plugins that involve [Cocoapods](https://cocoapods.org/) it's a good idea to have one of these. It can help align platform version minimums to match your build.xcconfig.
+- `App_Resources/iOS/Podfile`: (_optional_) If your project brings in plugins that involve [Cocoapods](https://cocoapods.org/) it's a good idea to have one of these. It can help align platform version minimums to match your build.xcconfig.
 
 We can make our `Podfile` match our build.xcconfig target versions as follows:
 
@@ -116,7 +116,7 @@ post_install do |installer|
       target.build_configurations.each do |config|
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '17.0'
       end
-    end 
+    end
 end
 ```
 
@@ -152,7 +152,7 @@ A. Set an `IPHONEOS_DEPLOYMENT_TARGET` in your `App_Resource/iOS/build.xcconfig`
 IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 ```
 
-B. Make a change to source code to properly wrap the implementations with [availability](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/statements/#Availability-Condition) decorators to ensure that platform version specific code does not cause an issue if your app is run on an older devicie. You can use [patch-package](https://www.npmjs.com/package/patch-package) to create the diff to manage custom source code changes made to plugins. 
+B. Make a change to source code to properly wrap the implementations with [availability](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/statements/#Availability-Condition) decorators to ensure that platform version specific code does not cause an issue if your app is run on an older devicie. You can use [patch-package](https://www.npmjs.com/package/patch-package) to create the diff to manage custom source code changes made to plugins.
 
 ```
 var body: some View {
@@ -161,7 +161,7 @@ var body: some View {
             // ... something only available on iOS 17 or newer
         }
     } else {
-        // fallback 
+        // fallback
         EmptyView()
     }
 }
