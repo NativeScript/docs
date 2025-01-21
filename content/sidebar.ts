@@ -162,8 +162,16 @@ export default [
     text: 'Fundamental Concepts',
     items: [
       {
+        text: 'Accessibility',
+        link: '/guide/accessibility',
+      },
+      {
         text: 'Animations',
         link: '/guide/animations',
+      },
+      {
+        text: 'Best Practices',
+        link: '/best-practices/',
       },
       ...coreSidebarItems,
       {
@@ -199,7 +207,7 @@ export default [
       {
         text: 'Styling',
         link: '/guide/styling',
-      },
+      }
     ],
   },
   {
@@ -255,14 +263,6 @@ export default [
         link: '/guide/shared-element-transitions',
       },
       {
-        text: 'Accessibility',
-        link: '/guide/accessibility',
-      },
-      {
-        text: 'Best Practices',
-        link: '/best-practices/',
-      },
-      {
         text: 'Multithreading',
         link: '/guide/multithreading',
       },
@@ -296,6 +296,10 @@ export default [
           },
         ],
       },
+      {
+        text: 'Platform Version Handling',
+        link: '/guide/platform-version-handling',
+      }
     ],
   },
 ] as NSSidebarGroup[]
