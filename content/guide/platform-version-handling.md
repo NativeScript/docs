@@ -14,7 +14,7 @@ The [@nativescript/android](https://github.com/NativeScript/android) dependency 
 
 Beyond that, there are 2 key Android files in your project to keep an eye on with platform versioning over time:
 
-1. `app.gradle`: [Gradle](https://gradle.org/) build configuration for Android which contains minimum, maximum and build-tools SDK targets.
+1. `App_Resources/Android/app.gradle`: [Gradle](https://gradle.org/) build configuration for Android which contains minimum, maximum and build-tools SDK targets.
 
 We can specify target SDKs as follows:
 
@@ -38,7 +38,7 @@ Every year, platforms often bump minimum requirements for public store deploymen
 
 It's good to refer to these platform docs from time to time (_email notifications are also often sent to Play Store accounts on these evolving requirements_) to ensure your app's targets keep up with store requirements.
 
-2. `before-plugins.gradle`: (_optional_) Some plugins may fallback to gradle configured versions which you can define here to also help align with app build configuration targets.
+2. `App_Resources/Android/before-plugins.gradle`: (_optional_) Some plugins may fallback to gradle configured versions which you can define here to also help align with app build configuration targets.
 
 We can specify additional gradle versions as follows:
 
