@@ -2,7 +2,7 @@
 title: Platform Version Handling
 ---
 
-There are several key things to understand about platform version handling within the scope of your NativeScript project. Platform versioning pertains to specific SDKs shipped with Android, iOS, visionOS, macOS, Meta Quest, etc.
+There are several key things to understand about platform version handling within the scope of your NativeScript project. When talking about platform versions, we are referring to specific platform level SDKs shipped with Android, iOS, visionOS, macOS, Meta Quest, etc.
 
 In general, maintaining `package.json` dependency versions is often a familiar topic with JavaScript developers. We recommend [this article](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management) as well as [our overview here](https://docs.nativescript.org/guide/development-workflow/using-packages#package-managers) if not familiar with JavaScript package managers.
 
