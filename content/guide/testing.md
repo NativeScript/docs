@@ -147,12 +147,12 @@ QUnit.test('Hello World Sample Test:', function (assert) {
   assert.equal(
     mainViewModel.createViewModel().counter,
     42,
-    'Counter, 42; equal succeeds.'
+    'Counter, 42; equal succeeds.',
   ) //Assert that the counter equals 42.
   assert.equal(
     mainViewModel.createViewModel().message,
     '42 taps left',
-    'Message, 42 taps left; equal succeeds.'
+    'Message, 42 taps left; equal succeeds.',
   ) //Assert that the message is "42 taps left".
 })
 ```

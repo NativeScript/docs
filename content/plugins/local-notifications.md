@@ -122,7 +122,7 @@ LocalNotifications.schedule([
   },
   (error) => {
     console.log('scheduling error: ' + error)
-  }
+  },
 )
 ```
 
@@ -173,9 +173,8 @@ LocalNotifications.addOnMessageReceivedCallback((notification) => {
 ### schedule()
 
 ```ts
-scheduledNotificationsIDs: Array<number> = await LocalNotifications.schedule(
-  scheduleOptions
-)
+scheduledNotificationsIDs: Array<number> =
+  await LocalNotifications.schedule(scheduleOptions)
 ```
 
 Schedules the specified [scheduleOptions](#scheduleoptions) notification(s), if the user has granted the permission. If the user has not been prompted for permission, it prompts the user for permission and schedules the notification(s) if permission is granted. For a manual permission request, use the [requestPermission](#requestpermission) method.

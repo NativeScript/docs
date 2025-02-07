@@ -65,21 +65,21 @@ interface DelegateObserver {
     center: UNUserNotificationCenter,
     response: UNNotificationResponse,
     completionHandler: () => void,
-    next: () => void
+    next: () => void,
   ): void
 
   userNotificationCenterOpenSettingsForNotification?(
     center: UNUserNotificationCenter,
     notification: UNNotification,
     stop: () => void,
-    next: () => void
+    next: () => void,
   ): void
 
   userNotificationCenterWillPresentNotificationWithCompletionHandler?(
     center: UNUserNotificationCenter,
     notification: UNNotification,
     completionHandler: (p1: UNNotificationPresentationOptions) => void,
-    next: () => void
+    next: () => void,
   ): void
 
   /**

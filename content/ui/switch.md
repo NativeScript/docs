@@ -15,7 +15,13 @@ contributors:
 <img src="../assets/images/screenshots/android/Switch.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Switch/template.xml#example
+<<< @/../examples/typescript/src/ui/Switch/template.xml#example
+
+<<< @/../examples/angular/src/ui/Switch/component.html#example
+<<< @/../examples/react/src/components/ui/switch.tsx#example
+<<< @/../examples/solid/src/ui/switch.tsx#example
+<<< @/../examples/svelte/app/components/ui/Switch.svelte#example
+<<< @/../examples/vue/src/ui/Switch/component.vue#example
 
 ## Examples
 

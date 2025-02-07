@@ -181,7 +181,7 @@ const task = reference.putFile(pathToFile)
 
 task.on('state_changed', (taskSnapshot) => {
   console.log(
-    `${taskSnapshot.bytesTransferred} transferred out of ${taskSnapshot.totalBytes}`
+    `${taskSnapshot.bytesTransferred} transferred out of ${taskSnapshot.totalBytes}`,
   )
 })
 

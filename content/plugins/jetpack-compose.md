@@ -122,7 +122,7 @@ import {
 declare var com
 registerJetpackCompose(
   'flyingHearts',
-  (view) => new ComposeDataDriver(new com.example.FlyingHearts(), view)
+  (view) => new ComposeDataDriver(new com.example.FlyingHearts(), view),
 )
 ```
 

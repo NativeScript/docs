@@ -233,7 +233,7 @@ admin.messaging().sendToDevice(
     contentAvailable: true,
     // Required for background/quit data-only messages on Android
     priority: 'high',
-  }
+  },
 )
 ```
 
@@ -368,7 +368,7 @@ async function onUserPictureLiked(ownerId, userId, picture) {
       contentAvailable: true,
       // Required for background/quit data-only messages on Android
       priority: 'high',
-    }
+    },
   )
 }
 ```

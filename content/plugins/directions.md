@@ -74,7 +74,7 @@ directions
     },
     (error) => {
       console.log(error)
-    }
+    },
   )
 ```
 

@@ -75,7 +75,7 @@ import { shareUrl } from '@nativescript/social-share'
 shareUrl(
   'https://www.nativescript.org/',
   'Home of NativeScript',
-  'How would you like to share this url?'
+  'How would you like to share this url?',
 )
 ```
 

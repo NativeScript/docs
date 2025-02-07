@@ -227,7 +227,7 @@ NSURLConnection.sendAsynchronousRequestQueueCompletionHandler(
   null,
   (response, data, connectionError) => {
     console.log('request complete')
-  }
+  },
 )
 ```
 

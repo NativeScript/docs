@@ -250,7 +250,7 @@ export class PickerFieldComponent
   constructor(
     _elementRef: ElementRef,
     _iterableDiffers: IterableDiffers,
-    _cdRef: ChangeDetectorRef
+    _cdRef: ChangeDetectorRef,
   ) {
     super(_elementRef, _iterableDiffers, _cdRef)
   }

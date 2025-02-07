@@ -108,9 +108,9 @@ fingerprintAuth
         'Fingerprint NOT OK. Error code: ' +
           error.code +
           '. Error message: ' +
-          error.message
+          error.message,
       )
-    }
+    },
   )
 ```
 

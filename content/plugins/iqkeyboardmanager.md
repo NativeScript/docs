@@ -123,7 +123,7 @@ registerElement('PreviousNextView', () => PreviousNextView)
 ```ts
 registerElement(
   'PreviousNextView',
-  () => require('@nativescript/iqkeyboardmanager').PreviousNextView
+  () => require('@nativescript/iqkeyboardmanager').PreviousNextView,
 )
 ```
 
@@ -148,7 +148,7 @@ registerElement(
 ```ts
 registerNativeViewElement(
   'previousNextView',
-  () => require('@nativescript/iqkeyboardmanager').PreviousNextView
+  () => require('@nativescript/iqkeyboardmanager').PreviousNextView,
 )
 ```
 
@@ -251,11 +251,11 @@ declare global {
 }
 registerElement(
   'previousNextView',
-  () => require('@nativescript/iqkeyboardmanager').PreviousNextView
+  () => require('@nativescript/iqkeyboardmanager').PreviousNextView,
 )
 registerElement(
   'textViewWithHint',
-  () => require('@nativescript/iqkeyboardmanager').TextViewWithHint
+  () => require('@nativescript/iqkeyboardmanager').TextViewWithHint,
 )
 ```
 

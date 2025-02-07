@@ -398,7 +398,7 @@ async function massDeleteUsers() {
 }
 
 massDeleteUsers().then(() =>
-  console.log('All users deleted in a single batch operation.')
+  console.log('All users deleted in a single batch operation.'),
 )
 ```
 
@@ -440,7 +440,7 @@ users
     console.log(
       `Full Name: ${snapshot.data()['full_name']} ${
         snapshot.data()['last_name']
-      }`
+      }`,
     )
   })
   .catch((error) => console.error('Failed to add user:', error))
@@ -462,7 +462,7 @@ firebase()
     },
     (error) => {
       console.error(error)
-    }
+    },
   )
 ```
 
@@ -1523,9 +1523,8 @@ Returns the Transaction object for iOS.
 ```ts
 firestore().runTransaction(async (transaction) => {
   // 3. Read the document's data
-  const documentSnapshot: DocumentSnapshot = await transaction.get(
-    documentReference
-  )
+  const documentSnapshot: DocumentSnapshot =
+    await transaction.get(documentReference)
 })
 ```
 
@@ -1565,7 +1564,7 @@ firestore().runTransaction(async (transaction) => {
     documentReference,
     field,
     value,
-    moreFieldsAndValues
+    moreFieldsAndValues,
   )
   //OR
   transactionAfterUpdate = transaction.update(documentReference, data)

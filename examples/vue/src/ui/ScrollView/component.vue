@@ -1,0 +1,41 @@
+<script lang="ts" setup>
+
+</script>
+
+<template>
+  <Page>
+    <GridLayout rows="*, 50, 300, *">
+      <ScrollView orientation="horizontal" row="1">
+        <StackLayout orientation="horizontal" padding="12">
+          <Label text="h1" width="50"></Label>
+          <Label text="h2" width="50"></Label>
+          <Label text="h3" width="50"></Label>
+          <Label text="h4" width="50"></Label>
+          <Label text="h5" width="50"></Label>
+          <Label text="h6" width="50"></Label>
+          <Label text="h7" width="50"></Label>
+          <Label text="h8" width="50"></Label>
+          <Label text="h9" width="50"></Label>
+        </StackLayout>
+      </ScrollView>
+
+      <ContentView row="2">
+        <!-- #region example -->
+        <ScrollView>
+          <StackLayout padding="12">
+            <Label text="v1" height="50"></Label>
+            <Label text="v2" height="50"></Label>
+            <Label text="v3" height="50"></Label>
+            <Label text="v4" height="50"></Label>
+            <Label text="v5" height="50"></Label>
+            <Label text="v6" height="50"></Label>
+            <Label text="v7" height="50"></Label>
+            <Label text="v8" height="50"></Label>
+            <Label text="v9" height="50"></Label>
+          </StackLayout>
+        </ScrollView>
+        <!-- #endregion example -->
+      </ContentView>
+    </GridLayout>
+  </Page>
+</template>
