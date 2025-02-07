@@ -26,7 +26,7 @@ export const TabView = () => {
             <label text="Third Tab Content" textAlignment="center" verticalAlignment="center"></label>
           </tabviewitem>
         </tabview>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

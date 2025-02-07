@@ -29,7 +29,7 @@ export function Button({ navigation }: HomeProps) {
               }}
               >Click Me</button>
 
-              {/*endregion example*/}
+              {/*#endregion example*/}
             </stackLayout>
           </page>
         </frame>

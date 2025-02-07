@@ -16,7 +16,7 @@ export const Label = () => {
 
         {/*region example*/}
         <label text='TextHere'/>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

@@ -25,7 +25,7 @@ export const Switch = () => {
         <stacklayout>
           <switch horizontalAlignment="center" on:checkedChange={handleChange} checked={switchValue()}></switch>
         </stacklayout>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

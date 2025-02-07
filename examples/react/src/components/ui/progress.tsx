@@ -35,7 +35,7 @@ export function Progress({ navigation }: HomeProps) {
             {/*#region example*/}
             <progress value={currentValue}/>
             <label>{currentValue}</label>
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

@@ -35,7 +35,7 @@ export function HtmlView({ navigation }: HomeProps) {
               {/*#region example*/}
 
               <htmlView html={htmlString}></htmlView>
-              {/*endregion example*/}
+              {/*#endregion example*/}
             </stackLayout>
           </page>
         </frame>

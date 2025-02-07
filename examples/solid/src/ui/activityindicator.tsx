@@ -17,7 +17,7 @@ export const ActivityIndicator = () => {
             <contentview verticalAlignment="center" horizontalAlignment="center" android:visibility="collapse">
               {/*region example*/}
                 <activityindicator busy="true" />
-              {/*endregion example*/}
+              {/*#endregion example*/}
 
             </contentview>
 

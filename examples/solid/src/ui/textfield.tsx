@@ -16,7 +16,7 @@ export const TextField = () => {
 
         {/*region example*/}
         <textfield hint="Placeholder..." />
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

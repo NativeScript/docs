@@ -21,7 +21,7 @@ export const ListPicker = () => {
 
         {/*region example*/}
         <listpicker items={choices}></listpicker>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

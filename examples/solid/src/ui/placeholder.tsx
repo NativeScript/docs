@@ -34,7 +34,7 @@ export const Placeholder = () => {
         {/*region example*/}
         <placeholder on:creatingView={creatingView}></placeholder>
 
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

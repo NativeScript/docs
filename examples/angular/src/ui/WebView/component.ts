@@ -4,7 +4,6 @@ import { NativeScriptCommonModule } from '@nativescript/angular';
 @Component({
   selector: 'ns-web-view',
   templateUrl: './component.html',
-  standalone: true,
   imports: [NativeScriptCommonModule],
   schemas: [NO_ERRORS_SCHEMA]
 })

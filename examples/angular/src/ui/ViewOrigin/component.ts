@@ -5,7 +5,6 @@ import { Button, ContentView, CoreTypes, EventData, GridLayout, Label, Page } fr
 @Component({
   selector: 'ns-view-origin',
   templateUrl: './component.html',
-  standalone: true,
   imports: [NativeScriptCommonModule],
   schemas: [NO_ERRORS_SCHEMA]
 })

@@ -42,7 +42,7 @@ export function ListView({ navigation }: HomeProps) {
             {/*#region example*/}
             <LV items={items}  cellFactory={cellFactory} onItemTap={testItemTap}>
             </LV>
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

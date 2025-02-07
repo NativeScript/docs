@@ -17,7 +17,7 @@ export const WebView = () => {
         {/*region example*/}
         <activityindicator busy="true" />
         <webview src="https://nativescript.org/" />
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

@@ -20,7 +20,7 @@ export const SegmentedBar = () => {
           <segmentedbaritem title="Second" />
           <segmentedbaritem title="Third" />
         </segmentedbar>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

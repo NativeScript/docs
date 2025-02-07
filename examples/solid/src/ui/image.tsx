@@ -15,7 +15,7 @@ export const Image = () => {
 
         {/*region example todo not working*/}
         <image src='~/assets/solid.png' height={60}/>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

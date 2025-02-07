@@ -17,7 +17,7 @@ export const Button = () => {
         <button on:tap={() => alert("button clicked")}>
           Click Me
         </button>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

@@ -7,7 +7,6 @@ import { NativeScriptCommonModule } from '@nativescript/angular';
 @Component({
   selector: 'ns-placeholder',
   templateUrl: './component.html',
-  standalone: true,
   imports: [NativeScriptCommonModule],
   schemas: [NO_ERRORS_SCHEMA]
 })

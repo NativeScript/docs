@@ -16,7 +16,7 @@ export const DatePicker = () => {
 
         {/*region example*/}
         <datepicker date={date}  ></datepicker>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

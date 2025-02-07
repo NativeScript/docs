@@ -106,7 +106,7 @@ export function Dialogs({ navigation }: HomeProps) {
             <button onTap={showLogin} padding="8" style={styles.button}>
               Login
             </button>
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

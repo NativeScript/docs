@@ -57,7 +57,7 @@ export function ScrollView({ navigation }: HomeProps) {
                 {/*#endregion example*/}
               </contentView>
             </gridLayout>
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

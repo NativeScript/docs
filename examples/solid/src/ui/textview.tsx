@@ -19,7 +19,7 @@ export const TextView = () => {
 
         {/*region example*/}
         <textview text={text} />
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

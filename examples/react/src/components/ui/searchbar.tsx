@@ -27,7 +27,7 @@ export function SearchBar({ navigation }: HomeProps) {
             >
               {/*#region example*/}
               <searchBar hint="SEARCH HERE"></searchBar>
-              {/*endregion example*/}
+              {/*#endregion example*/}
             </stackLayout>
           </page>
         </frame>

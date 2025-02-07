@@ -20,7 +20,7 @@ export const HtmlView = () => {
 
         {/*region example*/}
         <htmlview html={htmlString}></htmlview>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

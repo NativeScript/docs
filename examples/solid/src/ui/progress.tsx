@@ -30,7 +30,7 @@ export const Progress = () => {
           <label textAlignment="center">{count()}</label>
 
         </stacklayout>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

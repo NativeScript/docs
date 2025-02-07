@@ -24,7 +24,7 @@ export function ListPicker({ navigation }: HomeProps) {
           >
             {/*#region example*/}
             <listPicker items={items} />
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

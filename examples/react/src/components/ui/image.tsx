@@ -24,7 +24,7 @@ export function Image({ navigation }: HomeProps) {
           >
             {/*#region example*/}
               <image src="~/assets/logo.png" />
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

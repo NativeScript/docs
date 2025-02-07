@@ -1,10 +1,12 @@
-import { Component, inject } from '@angular/core'
-import { RouterExtensions } from '@nativescript/angular'
+import { Component, inject, NO_ERRORS_SCHEMA, signal } from '@angular/core'
+import { NativeScriptCommonModule, RouterExtensions } from '@nativescript/angular'
 import { getComponentList } from '@example/utils';
 
 @Component({
   selector: 'ns-home',
   templateUrl: './home.component.html',
+  imports: [NativeScriptCommonModule],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class HomeComponent {
   router = inject(RouterExtensions)

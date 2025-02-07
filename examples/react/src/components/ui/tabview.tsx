@@ -34,7 +34,7 @@ export function TabView({ navigation }: HomeProps) {
                   <label text="Third Tab Content" textAlignment="center" verticalAlignment="middle"></label>
                 </tabViewItem>
               </tabView>
-              {/*endregion example*/}
+              {/*#endregion example*/}
             </stackLayout>
           </page>
         </frame>

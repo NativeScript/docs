@@ -11,7 +11,7 @@ export const ActionBar = () => {
         {/*region example*/}
         <actionitem on:tap={goBack} text='<<Back'>
         </actionitem>
-        {/*endregion example*/}
+        {/*#endregion example*/}
       </actionbar>
       {/* @ts-ignore */}
     </>

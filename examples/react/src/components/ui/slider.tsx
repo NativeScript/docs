@@ -30,7 +30,7 @@ export function Slider({ navigation }: HomeProps) {
           >
             {/*#region example*/}
             <slider value="{sliderValue}" onValueChange={sliderValueChanged} />
-            {/*endregion example*/}
+            {/*#endregion example*/}
             <label width="100%" textAlignment="center">
               {sliderValue}
             </label>

@@ -28,7 +28,7 @@ export const Slider = () => {
 
           {/*region example*/}
           <slider width={300} value={sliderValue()} on:valueChange={handleChange} />
-          {/*endregion example*/}
+          {/*#endregion example*/}
           <label>{sliderValue()}</label>
 
         </stacklayout>

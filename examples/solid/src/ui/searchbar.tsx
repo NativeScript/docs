@@ -16,7 +16,7 @@ export const SearchBar = () => {
 
         {/*region example*/}
         <searchbar hint="SEARCH HERE"></searchbar>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

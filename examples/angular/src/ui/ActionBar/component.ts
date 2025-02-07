@@ -4,7 +4,6 @@ import { NativeScriptCommonModule, RouterExtensions } from '@nativescript/angula
 @Component({
   selector: 'ns-action-bar',
   templateUrl: './component.html',
-  standalone: true,
   imports: [NativeScriptCommonModule],
   schemas: [NO_ERRORS_SCHEMA]
 })

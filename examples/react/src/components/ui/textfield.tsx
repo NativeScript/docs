@@ -24,7 +24,7 @@ export function TextField({ navigation }: HomeProps) {
           >
             {/*#region example*/}
             <textField hint="Type here" />
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

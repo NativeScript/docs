@@ -30,7 +30,7 @@ export function TextView({ navigation }: HomeProps) {
             >
               {/*#region example*/}
               <textView text={text} />
-              {/*endregion example*/}
+              {/*#endregion example*/}
             </stackLayout>
           </page>
         </frame>

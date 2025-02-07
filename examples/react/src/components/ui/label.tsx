@@ -24,7 +24,7 @@ export function Label({ navigation }: HomeProps) {
           >
             {/*#region example*/}
               <label>Text Here</label>
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

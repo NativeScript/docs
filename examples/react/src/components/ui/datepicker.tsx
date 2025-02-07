@@ -25,7 +25,7 @@ export function DatePicker({ navigation }: HomeProps) {
             >
               {/*#region example*/}
               <datePicker date={currentDate}></datePicker>
-              {/*endregion example*/}
+              {/*#endregion example*/}
             </stackLayout>
           </page>
         </frame>

@@ -25,7 +25,7 @@ export function ActivityIndicator({ navigation }: HomeProps) {
               {/*#region example*/}
               <activityIndicator busy="true" />
 
-              {/*endregion example*/}
+              {/*#endregion example*/}
 
           </stackLayout>
         </page>

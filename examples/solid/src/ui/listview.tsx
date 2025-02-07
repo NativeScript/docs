@@ -23,7 +23,7 @@ export const ListView = () => {
         {/*region example todo not working, no direct translation of listview?*/}
         <list-view items={items}>
         </list-view>
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

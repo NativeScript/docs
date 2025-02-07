@@ -16,7 +16,7 @@ export const TimePicker = () => {
 
         {/*region example*/}
         <timepicker hour="9" minute="41" />
-        {/*endregion example*/}
+        {/*#endregion example*/}
 
       </gridlayout>
     </>

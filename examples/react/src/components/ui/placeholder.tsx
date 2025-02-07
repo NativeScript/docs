@@ -41,7 +41,7 @@ export function Placeholder({ navigation }: HomeProps) {
           >
             {/*#region example*/}
             <placeholder onCreatingView={creatingView} />
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

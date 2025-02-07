@@ -31,7 +31,7 @@ export function SegmentedBar({ navigation }: HomeProps) {
               <segmentedBarItem title="Second" />
               <segmentedBarItem title="Third" />
             </segmentedBar>
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>

@@ -1,7 +1,4 @@
-import { NgModule } from '@angular/core'
 import { Routes } from '@angular/router'
-import { NativeScriptRouterModule } from '@nativescript/angular'
-
 import { HomeComponent } from './home.component'
 
 import { ActionBarComponent } from './ui/ActionBar/component'
@@ -28,7 +25,7 @@ import { TimePickerComponent } from './ui/TimePicker/component'
 import { ViewOriginComponent } from './ui/ViewOrigin/component'
 import { WebViewComponent } from './ui/WebView/component'
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'ui/ActionBar', component: ActionBarComponent },
@@ -55,9 +52,3 @@ const routes: Routes = [
   { path: 'ui/ViewOrigin', component: ViewOriginComponent },
   { path: 'ui/WebView', component: WebViewComponent },
 ]
-
-@NgModule({
-  imports: [NativeScriptRouterModule.forRoot(routes)],
-  exports: [NativeScriptRouterModule],
-})
-export class AppRoutingModule {}

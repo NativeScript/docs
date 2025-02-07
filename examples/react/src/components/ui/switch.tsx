@@ -38,7 +38,7 @@ export function Switch({ navigation }: HomeProps) {
             <label textAlignment="center" width="100%">
               {JSON.stringify(switchValue, null, 2)}
             </label>
-            {/*endregion example*/}
+            {/*#endregion example*/}
           </stackLayout>
         </page>
       </frame>
