@@ -20,12 +20,11 @@ export function ListView({ navigation }: HomeProps) {
       title: `Item ${index + 1}`,
     })
   }
-  const cellFactory = (item: {title}) => {
-    return <label text={item.title}/>
+  const cellFactory = (item: { title }) => {
+    return <label text={item.title} />
   }
-  const testItemTap = (args:ItemEventData) => {
-
-    alert(args.index  + " - " + items[args.index].title)
+  const testItemTap = (args: ItemEventData) => {
+    alert(args.index + ' - ' + items[args.index].title)
   }
   // #endregion example
 
@@ -39,10 +38,13 @@ export function ListView({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
-            <LV items={items}  cellFactory={cellFactory} onItemTap={testItemTap}>
-            </LV>
-            {/*#endregion example*/}
+            {/* #region example */}
+            <LV
+              items={items}
+              cellFactory={cellFactory}
+              onItemTap={testItemTap}
+            ></LV>
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

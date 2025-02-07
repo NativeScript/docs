@@ -1,6 +1,8 @@
+<script lang="ts">
+</script>
 
 <page>
-  <actionBar >
+  <actionBar>
     <label>WebView</label>
   </actionBar>
 
@@ -17,9 +19,6 @@
     </contentView>
   </gridLayout>
 </page>
-
-<script lang="ts">
-</script>
 
 <style>
 </style>

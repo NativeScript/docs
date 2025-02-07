@@ -193,7 +193,7 @@ const subscriptionId = IonicPortalManager.subscribeToTopic(
   'useful-web-event',
   (result) => {
     console.log('received web portal useful-web-event with data:', result.data)
-  }
+  },
 )
 ```
 

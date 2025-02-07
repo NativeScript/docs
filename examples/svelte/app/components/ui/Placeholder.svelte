@@ -1,20 +1,3 @@
-
-<page>
-    <actionBar >
-      <label>Placeholder</label>
-    </actionBar>
-
-    <gridLayout>
-      <contentView
-        horizontalAlignment="center"
-        verticalAlignment="center">
-        <!--      region example -->
-        <placeholder on:creatingView="{creatingView}"></placeholder>
-        <!--      endregion example-->
-      </contentView>
-    </gridLayout>
-</page>
-
 <script lang="ts">
   import { Utils } from '@nativescript/core'
   const creatingView = (args) => {
@@ -26,7 +9,7 @@
     } else if (global.isAndroid) {
       // Example with TextView on Android
       nativeView = new android.widget.TextView(
-        Utils.android.getApplicationContext()
+        Utils.android.getApplicationContext(),
       )
       nativeView.setText('Native View (Android)')
     }
@@ -35,6 +18,20 @@
     args.view = nativeView
   }
 </script>
+
+<page>
+  <actionBar>
+    <label>Placeholder</label>
+  </actionBar>
+
+  <gridLayout>
+    <contentView horizontalAlignment="center" verticalAlignment="center">
+      <!-- #region example -->
+      <placeholder on:creatingView={creatingView}></placeholder>
+      <!-- #endregion example -->
+    </contentView>
+  </gridLayout>
+</page>
 
 <style>
 </style>

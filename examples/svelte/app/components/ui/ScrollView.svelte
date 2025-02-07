@@ -1,8 +1,10 @@
+<script lang="ts">
+</script>
 
 <page>
-    <actionBar >
-      <label>ScrollView </label>
-    </actionBar>
+  <actionBar>
+    <label>ScrollView </label>
+  </actionBar>
 
   <gridLayout rows="*, 50, 300, *">
     <scrollView orientation="horizontal" row="1">
@@ -38,9 +40,6 @@
     </contentView>
   </gridLayout>
 </page>
-
-<script lang="ts">
-</script>
 
 <style>
 </style>

@@ -114,7 +114,7 @@ googlePayBtn.once(
 
     // send the user payments data to your payments services provider here
     const result = await someHttpCallToPaymentServiceProvider(payloadToBackend)
-  }
+  },
 )
 ```
 

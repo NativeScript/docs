@@ -142,7 +142,7 @@ Register the button as follows:
 import { registerElement } from '@nativescript/angular'
 registerElement(
   'GoogleSignInButton',
-  () => require('@nativescript/google-signin').GoogleSignInButton
+  () => require('@nativescript/google-signin').GoogleSignInButton,
 )
 ```
 
@@ -159,7 +159,7 @@ To register the button, add the following code to the `main.ts` file.
 ```ts
 registerElement(
   'GoogleSignInButton',
-  () => require('@nativescript/google-signin').GoogleSignInButton
+  () => require('@nativescript/google-signin').GoogleSignInButton,
 )
 ```
 

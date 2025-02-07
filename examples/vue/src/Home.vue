@@ -9,9 +9,9 @@ import DatePicker from './ui/DatePicker/component.vue'
 import Dialogs from './ui/Dialogs/component.vue'
 import HtmlView from './ui/HtmlView/component.vue'
 import Image from './ui/Image/component.vue'
-import Label_  from './ui/Label_/component.vue'
+import Label$  from './ui/Label/component.vue'
 import ListPicker from './ui/ListPicker/component.vue'
-import Listview  from './ui/Listview/component.vue'
+import ListView$  from './ui/Listview/component.vue'
 import Placeholder from './ui/Placeholder/component.vue'
 import Progress from './ui/Progress/component.vue'
 import ScrollView from './ui/ScrollView/component.vue'
@@ -60,13 +60,13 @@ const goTo = (args: any) => {
       $navigateTo(Image)
       break
     case 'Label_':
-      $navigateTo(Label_)
+      $navigateTo(Label$)
       break
     case 'ListPicker':
       $navigateTo(ListPicker)
       break
     case 'Listview':
-      $navigateTo(Listview)
+      $navigateTo(ListView$)
       break
     case 'Placeholder':
       $navigateTo(Placeholder)

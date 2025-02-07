@@ -1,8 +1,6 @@
 import { action, login, confirm, prompt, Frame } from '@nativescript/core'
 
 export const Dialogs = () => {
-
-
   function showAlert() {
     // #region example-alert
     alert({
@@ -51,7 +49,7 @@ export const Dialogs = () => {
       // cancelButtonText: 'Cancel',
       // capitalizationType: 'none',
       // inputType: 'email',
-    });
+    })
     // #endregion example-prompt
   }
 
@@ -68,31 +66,41 @@ export const Dialogs = () => {
       // cancelable: true,
       // passwordHint: 'Your password',
       // userNameHint: 'Your username',
-    });
+    })
   }
   // #endregion example-login
   function goBack() {
-    Frame.goBack();
-
-  }  return (
+    Frame.goBack()
+  }
+  return (
     <>
       <actionbar title="Dialogs">
-        <actionitem on:tap={goBack} text='<<Back'>
-        </actionitem>
+        <actionitem on:tap={goBack} text="<<Back"></actionitem>
       </actionbar>
       {/* @ts-ignore */}
-      <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
+      <gridlayout
+        ios:visibility="collapse"
+        verticalAlignment="center"
+        horizontalAlignment="center"
+      >
         <stacklayout>
-
-          <button on:tap={showAlert} padding="8">Alert</button>
-          <button on:tap={showAction} padding="8">Action</button>
-          <button on:tap={showConfirm} padding="8">Confirm</button>
-          <button on:tap={showPrompt} padding="8">Prompt</button>
-          <button on:tap={showLogin} padding="8">Login</button>
-
+          <button on:tap={showAlert} padding="8">
+            Alert
+          </button>
+          <button on:tap={showAction} padding="8">
+            Action
+          </button>
+          <button on:tap={showConfirm} padding="8">
+            Confirm
+          </button>
+          <button on:tap={showPrompt} padding="8">
+            Prompt
+          </button>
+          <button on:tap={showLogin} padding="8">
+            Login
+          </button>
         </stacklayout>
-
       </gridlayout>
     </>
-  );
-};
+  )
+}

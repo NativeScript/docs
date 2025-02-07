@@ -98,7 +98,7 @@ compose({
   },
   function (err) {
     console.log('Error: ' + err)
-  }
+  },
 )
 ```
 

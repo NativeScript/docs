@@ -1,15 +1,15 @@
 import { Dialogs, Frame } from '@nativescript/core'
-import { RouteProp } from '@react-navigation/core';
-import * as React from "react";
-import { StyleSheet } from "react-nativescript";
-import { FrameNavigationProp } from "react-nativescript-navigation";
+import { RouteProp } from '@react-navigation/core'
+import * as React from 'react'
+import { StyleSheet } from 'react-nativescript'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
 
 import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
-    route: RouteProp<MainStackParamList, "Segmentedbar">,
-    navigation: FrameNavigationProp<MainStackParamList, "Segmentedbar">,
-};
+  route: RouteProp<MainStackParamList, 'Segmentedbar'>
+  navigation: FrameNavigationProp<MainStackParamList, 'Segmentedbar'>
+}
 
 export function SegmentedBar({ navigation }: HomeProps) {
   return (
@@ -25,13 +25,13 @@ export function SegmentedBar({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
+            {/* #region example */}
             <segmentedBar>
               <segmentedBarItem title="First" />
               <segmentedBarItem title="Second" />
               <segmentedBarItem title="Third" />
             </segmentedBar>
-            {/*#endregion example*/}
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

@@ -1,20 +1,3 @@
-
-<page>
-    <actionBar >
-      <label>HTML View</label>
-    </actionBar>
-
-    <gridLayout>
-      <contentView
-        horizontalAlignment="center"
-        verticalAlignment="center">
-<!--        region example-->
-        <htmlView html="{htmlString}"></htmlView>
-<!--        endregion example-->
-      </contentView>
-    </gridLayout>
-</page>
-
 <script lang="ts">
   const htmlString = `
     <h1 style="color: black; font-family: ui-sans-serif, system-ui;">
@@ -22,6 +5,20 @@
     </h1>
     `
 </script>
+
+<page>
+  <actionBar>
+    <label>HTML View</label>
+  </actionBar>
+
+  <gridLayout>
+    <contentView horizontalAlignment="center" verticalAlignment="center">
+      <!-- #region example -->
+      <htmlView html={htmlString}></htmlView>
+      <!-- #endregion example -->
+    </contentView>
+  </gridLayout>
+</page>
 
 <style>
 </style>

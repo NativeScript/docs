@@ -275,8 +275,8 @@ googleMap.animateCamera(
       lat: -32.1234,
       lng: 125.1234,
     },
-    googleMap.cameraPosition.zoom
-  )
+    googleMap.cameraPosition.zoom,
+  ),
 )
 ```
 
@@ -644,7 +644,7 @@ You can create Polylines using the [GoogleMap](#googlemap-object)'s object `addP
 ```ts
 function addPolyline(
   map: GoogleMap,
-  polylineOptions: PolylineOptions
+  polylineOptions: PolylineOptions,
 ): Polyline {
   return map.addPolyline(polylineOptions)
 }
@@ -686,7 +686,7 @@ You can create Ground Overlays using the [GoogleMap](#googlemap-object)'s object
 ```ts
 function addGroundOverlay(
   map: GoogleMap,
-  groundOverlayOptions: GroundOverlayOptions
+  groundOverlayOptions: GroundOverlayOptions,
 ): GroundOverlay {
   return map.addGroundOverlay(groundOverlayOptions)
 }
@@ -729,7 +729,7 @@ You can create Tile Overlays using the [GoogleMap](#googlemap-object)'s object `
 ```ts
 function addTileOverlay(
   map: GoogleMap,
-  tileOverlayOptions: TileOverlayOptions
+  tileOverlayOptions: TileOverlayOptions,
 ): TileOverlay {
   return map.addTileOverlay(tileOverlayOptions)
 }

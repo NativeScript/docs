@@ -168,7 +168,7 @@ biometricAuth
     // For IOS the secret is stored in the keycain
   })
   .catch((err) =>
-    this.set('status', `Biometric ID NOT OK: " + ${JSON.stringify(err)}`)
+    this.set('status', `Biometric ID NOT OK: " + ${JSON.stringify(err)}`),
   )
 ```
 
@@ -194,7 +194,7 @@ biometricAuth
     verifyMySecret(decryptedText) // verify the secret by some means, e.g. a call to a back end server.
   })
   .catch((err) =>
-    this.set('status', `Biometric ID NOT OK: " + ${JSON.stringify(err)}`)
+    this.set('status', `Biometric ID NOT OK: " + ${JSON.stringify(err)}`),
   )
 ```
 
@@ -215,7 +215,7 @@ biometricAuth
     console.log('Fingerprint/ PIN was OK')
   })
   .catch((err) =>
-    this.set('status', `Biometric ID NOT OK: " + ${JSON.stringify(err)}`)
+    this.set('status', `Biometric ID NOT OK: " + ${JSON.stringify(err)}`),
   )
 ```
 

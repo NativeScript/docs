@@ -1,17 +1,3 @@
-<page>
-    <actionBar >
-      <label text="Home"
-             class="font-bold text-lg" />
-    </actionBar>
-    <gridLayout>
-      <listView items="{examples}" on:itemTap="{goTo}">
-          <Template let:item>
-            <label class="item-label" text="{item.name}" padding="16" color="black" borderBottomColor="black"></label>
-          </Template>
-      </listView>
-    </gridLayout>
-</page>
-
 <script lang="ts">
   import { Template } from 'svelte-native/components'
   import Button from '~/components/ui/Button.svelte'
@@ -39,34 +25,33 @@
   import WebView from '~/components/ui/WebView.svelte'
 
   const examples = [
-    {name: 'ActionBar', component: ActionBar},
-    {name: 'ActivityIndicator', component: ActivityIndicator},
-    {name: 'Button', component: Button},
-    {name: 'DatePicker', component: DatePicker},
-    {name: 'Dialogs', component: Dialogs},
-    {name: 'HtmlView', component: HtmlView},
-    {name: 'Image', component: Image},
-    {name: 'Label', component: Label},
-    {name: 'ListPicker', component: ListPicker},
-    {name: 'ListView', component: ListView},
-    {name: 'Placeholder', component: Placeholder},
-    {name: 'Progress', component: Progress},
-    {name: 'ScrollView', component: ScrollView},
-    {name: 'SearchBar', component: Searchbar},
-    {name: 'SegmentedBar', component: SegmentedBar},
-    {name: 'Slider', component: Slider},
-    {name: 'Switch', component: Switch},
-    {name: 'TabView', component: TabView},
-    {name: 'TextField', component: TextField},
-    {name: 'TextView', component: TextView},
-    {name: 'TimePicker', component: TimePicker},
-    {name: 'WebView', component: WebView},
-
+    { name: 'ActionBar', component: ActionBar },
+    { name: 'ActivityIndicator', component: ActivityIndicator },
+    { name: 'Button', component: Button },
+    { name: 'DatePicker', component: DatePicker },
+    { name: 'Dialogs', component: Dialogs },
+    { name: 'HtmlView', component: HtmlView },
+    { name: 'Image', component: Image },
+    { name: 'Label', component: Label },
+    { name: 'ListPicker', component: ListPicker },
+    { name: 'ListView', component: ListView },
+    { name: 'Placeholder', component: Placeholder },
+    { name: 'Progress', component: Progress },
+    { name: 'ScrollView', component: ScrollView },
+    { name: 'SearchBar', component: Searchbar },
+    { name: 'SegmentedBar', component: SegmentedBar },
+    { name: 'Slider', component: Slider },
+    { name: 'Switch', component: Switch },
+    { name: 'TabView', component: TabView },
+    { name: 'TextField', component: TextField },
+    { name: 'TextView', component: TextView },
+    { name: 'TimePicker', component: TimePicker },
+    { name: 'WebView', component: WebView },
   ]
 
   function goTo(args) {
-    const {index} = args;
-    const item = examples[index];
+    const { index } = args
+    const item = examples[index]
     switch (item.name) {
       case 'ActionBar':
         navigate({ page: ActionBar })
@@ -140,7 +125,26 @@
   }
 </script>
 
+<page>
+  <actionBar>
+    <label text="Home" class="font-bold text-lg" />
+  </actionBar>
+  <gridLayout>
+    <listView items={examples} on:itemTap={goTo}>
+      <Template let:item>
+        <label
+          class="item-label"
+          text={item.name}
+          padding="16"
+          color="black"
+          borderBottomColor="black"
+        ></label>
+      </Template>
+    </listView>
+  </gridLayout>
+</page>
+
 <style>
-  .item-label{
+  .item-label {
   }
 </style>

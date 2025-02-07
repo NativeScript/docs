@@ -79,7 +79,7 @@ Application.on(
     console.log(error.stack)
     console.log(error.nativeError)
     // for example, report the exception to an analytics solution here
-  }
+  },
 )
 ```
 

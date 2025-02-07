@@ -1,15 +1,15 @@
-import { RouteProp } from '@react-navigation/core';
-import * as React from "react";
-import { StyleSheet } from "react-nativescript";
-import { FrameNavigationProp } from "react-nativescript-navigation";
+import { RouteProp } from '@react-navigation/core'
+import * as React from 'react'
+import { StyleSheet } from 'react-nativescript'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
 import { action, Frame, confirm, login, prompt } from '@nativescript/core'
 
 import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
-    route: RouteProp<MainStackParamList, "Dialogs">,
-    navigation: FrameNavigationProp<MainStackParamList, "Dialogs">,
-};
+  route: RouteProp<MainStackParamList, 'Dialogs'>
+  navigation: FrameNavigationProp<MainStackParamList, 'Dialogs'>
+}
 
 export function Dialogs({ navigation }: HomeProps) {
   function showAlert() {
@@ -60,7 +60,7 @@ export function Dialogs({ navigation }: HomeProps) {
       // cancelButtonText: 'Cancel',
       // capitalizationType: 'none',
       // inputType: 'email',
-    });
+    })
     // #endregion example-prompt
   }
 
@@ -77,7 +77,7 @@ export function Dialogs({ navigation }: HomeProps) {
       // cancelable: true,
       // passwordHint: 'Your password',
       // userNameHint: 'Your username',
-    });
+    })
   }
   // #endregion example-login
   return (
@@ -90,7 +90,7 @@ export function Dialogs({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
+            {/* #region example */}
             <button onTap={showAlert} padding="8" style={styles.button}>
               Alert
             </button>
@@ -106,7 +106,7 @@ export function Dialogs({ navigation }: HomeProps) {
             <button onTap={showLogin} padding="8" style={styles.button}>
               Login
             </button>
-            {/*#endregion example*/}
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   button: {
     fontSize: 24,
     color: '#2e6ddf',
-    borderColor: "black",
+    borderColor: 'black',
     borderWidth: 1,
     borderRadius: 10,
     marginBottom: 15,

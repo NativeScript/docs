@@ -16,14 +16,16 @@ export function ScrollView({ navigation }: HomeProps) {
     <>
       <frame>
         <page style={styles.container}>
-          <actionBar title="ScrollView" onTap={() => Frame.goBack()}></actionBar>
+          <actionBar
+            title="ScrollView"
+            onTap={() => Frame.goBack()}
+          ></actionBar>
 
           <stackLayout
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
-
+            {/* #region example */}
             <gridLayout rows="*, 50, 300, *">
               <scrollView orientation="horizontal" row="1">
                 <stackLayout orientation="horizontal" padding="12">
@@ -40,7 +42,7 @@ export function ScrollView({ navigation }: HomeProps) {
               </scrollView>
 
               <contentView row="2">
-                {/*//  #region example */}
+                {/* #region example */}
                 <scrollView>
                   <stackLayout padding="12">
                     <label text="v1" height="50"></label>
@@ -54,10 +56,10 @@ export function ScrollView({ navigation }: HomeProps) {
                     <label text="v9" height="50"></label>
                   </stackLayout>
                 </scrollView>
-                {/*#endregion example*/}
+                {/* #endregion example */}
               </contentView>
             </gridLayout>
-            {/*#endregion example*/}
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

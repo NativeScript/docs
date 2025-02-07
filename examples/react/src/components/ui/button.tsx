@@ -1,55 +1,57 @@
 import { Dialogs, Frame } from '@nativescript/core'
-import { RouteProp } from '@react-navigation/core';
-import * as React from "react";
-import { StyleSheet } from "react-nativescript";
-import { FrameNavigationProp } from "react-nativescript-navigation";
+import { RouteProp } from '@react-navigation/core'
+import * as React from 'react'
+import { StyleSheet } from 'react-nativescript'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
 
-import { MainStackParamList } from '../../NavigationParamList';
+import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
-    route: RouteProp<MainStackParamList, "Button">,
-    navigation: FrameNavigationProp<MainStackParamList, "Button">,
-};
+  route: RouteProp<MainStackParamList, 'Button'>
+  navigation: FrameNavigationProp<MainStackParamList, 'Button'>
+}
 
 export function Button({ navigation }: HomeProps) {
-    return (
-      <>
-        <frame>
-          <page style={styles.container}>
-            <actionBar title="Button" onTap={() => Frame.goBack()}></actionBar>
+  return (
+    <>
+      <frame>
+        <page style={styles.container}>
+          <actionBar title="Button" onTap={() => Frame.goBack()}></actionBar>
 
-            <stackLayout
-              verticalAlignment={'middle'}
-              horizontalAlignment={'center'}
-            >
-              {/*#region example*/}
-              <button
+          <stackLayout
+            verticalAlignment={'middle'}
+            horizontalAlignment={'center'}
+          >
+            {/* #region example */}
+            <button
               onTap={() => {
-                alert("Button Clicked")
+                alert('Button Clicked')
               }}
-              >Click Me</button>
+            >
+              Click Me
+            </button>
 
-              {/*#endregion example*/}
-            </stackLayout>
-          </page>
-        </frame>
-      </>
-    );
+            {/* #endregion example */}
+          </stackLayout>
+        </page>
+      </frame>
+    </>
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    height: "100%",
-    flexDirection: "column",
-    justifyContent: "center",
+    height: '100%',
+    flexDirection: 'column',
+    justifyContent: 'center',
   },
   text: {
-    textAlignment: "center",
+    textAlignment: 'center',
     fontSize: 24,
-    color: "black",
+    color: 'black',
   },
   button: {
     fontSize: 24,
-    color: "#2e6ddf",
+    color: '#2e6ddf',
   },
-});
+})

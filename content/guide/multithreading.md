@@ -117,7 +117,7 @@ Runtime errors inside the worker are reported back to the main thread through th
 ```ts
 myWorker.onerror = (e) => {
   console.log(
-    `Error occured in the worker thread in file ${e.filename} on line ${e.lineno}`
+    `Error occured in the worker thread in file ${e.filename} on line ${e.lineno}`,
   )
   console.log(e.message, e.stackTrace)
 }
@@ -305,7 +305,7 @@ worker.onmessage = function (message) {
 worker.onerror = function (err) {
   console.log(
     `An unhandled error occurred in worker: ${err.filename}, line: ${err.lineno} :`,
-    err.message
+    err.message,
   )
 }
 ```

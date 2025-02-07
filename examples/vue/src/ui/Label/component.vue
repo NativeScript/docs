@@ -10,7 +10,5 @@
         <!-- #endregion example -->
       </ContentView>
     </GridLayout>
-
-
   </Page>
 </template>

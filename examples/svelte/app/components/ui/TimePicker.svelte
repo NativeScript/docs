@@ -1,8 +1,10 @@
+<script lang="ts">
+</script>
 
 <page>
-    <actionBar >
-      <label>TimePicker</label>
-    </actionBar>
+  <actionBar>
+    <label>TimePicker</label>
+  </actionBar>
 
   <gridLayout width="100%">
     <contentView verticalAlignment="center" horizontalAlignment="center">
@@ -16,9 +18,6 @@
     </contentView>
   </gridLayout>
 </page>
-
-<script lang="ts">
-</script>
 
 <style>
 </style>

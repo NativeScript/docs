@@ -1,4 +1,4 @@
-import { NativeScriptConfig } from '@nativescript/core';
+import { NativeScriptConfig } from '@nativescript/core'
 
 export default {
   id: 'org.nativescript.examplesApp',
@@ -6,22 +6,23 @@ export default {
   appResourcesPath: '../App_Resources',
   android: {
     v8Flags: '--expose_gc',
-    markingMode: 'none'
+    markingMode: 'none',
   },
   ios: {
     SPMPackages: [
       {
         name: 'SimulatorStatusMagic',
-        repositoryURL: 'https://github.com/shinydevelopment/SimulatorStatusMagic.git',
+        repositoryURL:
+          'https://github.com/shinydevelopment/SimulatorStatusMagic.git',
         libs: ['SimulatorStatusMagic'],
-        version: '2.7.0'
-      }
-    ]
+        version: '2.7.0',
+      },
+    ],
   },
   hooks: [
     {
       type: 'after-install',
-      script: './scripts/grant-demo-permissions.js'
-    }
-  ]
-} as NativeScriptConfig;
+      script: './scripts/grant-demo-permissions.js',
+    },
+  ],
+} as NativeScriptConfig

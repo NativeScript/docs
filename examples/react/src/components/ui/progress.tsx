@@ -15,12 +15,10 @@ type HomeProps = {
 export function Progress({ navigation }: HomeProps) {
   // #region example
   const [currentValue, setCurrentValue] = React.useState(0)
-  setInterval( () =>{
-    setCurrentValue( currentValue + 10 )
-    if(currentValue > 101)
-      setCurrentValue(0);
-
-  }, 1000);
+  setInterval(() => {
+    setCurrentValue(currentValue + 10)
+    if (currentValue > 101) setCurrentValue(0)
+  }, 1000)
   // #endregion example
   return (
     <>
@@ -32,10 +30,10 @@ export function Progress({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
-            <progress value={currentValue}/>
+            {/* #region example */}
+            <progress value={currentValue} />
             <label>{currentValue}</label>
-            {/*#endregion example*/}
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

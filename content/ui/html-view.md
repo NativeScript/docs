@@ -32,7 +32,6 @@ See also: [WebView](/ui/web-view).
 <<< @/../examples/svelte/app/components/ui/HtmlView.svelte#example
 <<< @/../examples/vue/src/ui/HtmlView/component.vue#example
 
-
 ## Props
 
 ### html

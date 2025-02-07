@@ -21,7 +21,7 @@ export function Placeholder({ navigation }: HomeProps) {
     } else if (global.isAndroid) {
       // Example with TextView on Android
       nativeView = new android.widget.TextView(
-        Utils.android.getApplicationContext()
+        Utils.android.getApplicationContext(),
       )
       nativeView.setText('Native View (Android)')
     }
@@ -33,15 +33,18 @@ export function Placeholder({ navigation }: HomeProps) {
     <>
       <frame>
         <page style={styles.container}>
-          <actionBar title="Placeholder" onTap={() => Frame.goBack()}></actionBar>
+          <actionBar
+            title="Placeholder"
+            onTap={() => Frame.goBack()}
+          ></actionBar>
 
           <stackLayout
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
+            {/* #region example */}
             <placeholder onCreatingView={creatingView} />
-            {/*#endregion example*/}
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

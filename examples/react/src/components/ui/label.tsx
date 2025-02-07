@@ -22,9 +22,9 @@ export function Label({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
-              <label>Text Here</label>
-            {/*#endregion example*/}
+            {/* #region example */}
+            <label>Text Here</label>
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

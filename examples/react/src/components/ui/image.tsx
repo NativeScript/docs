@@ -22,9 +22,9 @@ export function Image({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
-              <image src="~/assets/logo.png" />
-            {/*#endregion example*/}
+            {/* #region example */}
+            <image src="~/assets/logo.png" />
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

@@ -1,5 +1,5 @@
 const webpack = require('@nativescript/webpack')
-const { resolve } = require('path');
+const { resolve } = require('path')
 
 module.exports = (env) => {
   webpack.init(env)
@@ -10,7 +10,7 @@ module.exports = (env) => {
     // shared demo code
     config.resolve.alias.set(
       '@example/utils',
-      resolve(__dirname, '..', 'utils', 'index.ts')
+      resolve(__dirname, '..', 'utils', 'index.ts'),
     )
   })
 

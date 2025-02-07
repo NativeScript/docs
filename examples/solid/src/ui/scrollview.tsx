@@ -1,19 +1,20 @@
 import { Frame } from '@nativescript/core'
 
 export const ScrollView = () => {
-
   function goBack() {
-    Frame.goBack();
-
-  }  return (
+    Frame.goBack()
+  }
+  return (
     <>
       <actionbar title="ScrollViiew">
-        <actionitem on:tap={goBack} text='<<Back'>
-        </actionitem>
+        <actionitem on:tap={goBack} text="<<Back"></actionitem>
       </actionbar>
       {/* @ts-ignore */}
-      <gridlayout ios:visibility="collapse" verticalAlignment="center" horizontalAlignment="center">
-
+      <gridlayout
+        ios:visibility="collapse"
+        verticalAlignment="center"
+        horizontalAlignment="center"
+      >
         <gridlayout rows="*, 50, 300, *">
           <scrollview orientation="horizontal" row="1">
             <stacklayout orientation="horizontal" padding="12">
@@ -30,7 +31,7 @@ export const ScrollView = () => {
           </scrollview>
 
           <contentview row="2">
-            {/*#region example */}
+            {/* #region example */}
             <scrollview>
               <stacklayout padding="12">
                 <label text="v1" height="50"></label>
@@ -44,11 +45,10 @@ export const ScrollView = () => {
                 <label text="v9" height="50"></label>
               </stacklayout>
             </scrollview>
-            {/*#endregion example */}
+            {/* #endregion example */}
           </contentview>
         </gridlayout>
-
       </gridlayout>
     </>
-  );
-};
+  )
+}

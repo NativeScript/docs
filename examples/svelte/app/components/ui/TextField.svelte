@@ -1,8 +1,10 @@
+<script lang="ts">
+</script>
 
 <page>
-    <actionBar >
-      <label>TextField</label>
-    </actionBar>
+  <actionBar>
+    <label>TextField</label>
+  </actionBar>
 
   <gridLayout width="100%">
     <contentView verticalAlignment="center">
@@ -12,9 +14,6 @@
     </contentView>
   </gridLayout>
 </page>
-
-<script lang="ts">
-</script>
 
 <style>
 </style>

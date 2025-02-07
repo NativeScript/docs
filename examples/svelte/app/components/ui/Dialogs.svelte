@@ -1,26 +1,3 @@
-
-<page>
-    <actionBar >
-      <label>Dialogs</label>
-    </actionBar>
-
-    <gridLayout>
-      <contentView
-        horizontalAlignment="center"
-        verticalAlignment="center">
-        <stackLayout>
-
-          <button on:tap={showAlert} padding="8" >Alert</button>
-          <button on:tap={showAction} padding="8" >Action</button>
-          <button on:tap={showConfirm} padding="8" >Confirm</button>
-          <button on:tap={showPrompt} padding="8" >Prompt</button>
-          <button on:tap={showLogin} padding="8" >Login</button>
-
-        </stackLayout>
-      </contentView>
-    </gridLayout>
-</page>
-
 <script lang="ts">
   import { action, login, confirm, prompt } from '@nativescript/core'
 
@@ -72,7 +49,7 @@
       // cancelButtonText: 'Cancel',
       // capitalizationType: 'none',
       // inputType: 'email',
-    });
+    })
     // #endregion example-prompt
   }
 
@@ -89,10 +66,28 @@
       // cancelable: true,
       // passwordHint: 'Your password',
       // userNameHint: 'Your username',
-    });
+    })
   }
   // #endregion example-login
 </script>
+
+<page>
+  <actionBar>
+    <label>Dialogs</label>
+  </actionBar>
+
+  <gridLayout>
+    <contentView horizontalAlignment="center" verticalAlignment="center">
+      <stackLayout>
+        <button on:tap={showAlert} padding="8">Alert</button>
+        <button on:tap={showAction} padding="8">Action</button>
+        <button on:tap={showConfirm} padding="8">Confirm</button>
+        <button on:tap={showPrompt} padding="8">Prompt</button>
+        <button on:tap={showLogin} padding="8">Login</button>
+      </stackLayout>
+    </contentView>
+  </gridLayout>
+</page>
 
 <style>
 </style>

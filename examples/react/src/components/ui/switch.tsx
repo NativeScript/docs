@@ -1,18 +1,18 @@
 import { Dialogs, Frame } from '@nativescript/core'
-import { RouteProp } from '@react-navigation/core';
-import * as React from "react";
-import { StyleSheet } from "react-nativescript";
-import { FrameNavigationProp } from "react-nativescript-navigation";
+import { RouteProp } from '@react-navigation/core'
+import * as React from 'react'
+import { StyleSheet } from 'react-nativescript'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
 
 import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
-    route: RouteProp<MainStackParamList, "Switch">,
-    navigation: FrameNavigationProp<MainStackParamList, "Switch">,
-};
+  route: RouteProp<MainStackParamList, 'Switch'>
+  navigation: FrameNavigationProp<MainStackParamList, 'Switch'>
+}
 
 export function Switch({ navigation }: HomeProps) {
-  const [switchValue, setSwitchValue] = React.useState<boolean>(false);
+  const [switchValue, setSwitchValue] = React.useState<boolean>(false)
   return (
     <>
       <frame>
@@ -23,22 +23,19 @@ export function Switch({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
+            {/* #region example */}
             <switch
               horizontalAlignment="center"
               checked={switchValue}
-              onCheckedChange={
-              (args) => {
-                setSwitchValue(args.value);
+              onCheckedChange={(args) => {
+                setSwitchValue(args.value)
                 console.log(args.value)
-
-              }
-            }
+              }}
             ></switch>
             <label textAlignment="center" width="100%">
               {JSON.stringify(switchValue, null, 2)}
             </label>
-            {/*#endregion example*/}
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

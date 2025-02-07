@@ -47,7 +47,7 @@ if (isAndroid) {
   const androidApp: AndroidApplication = Application.android
 
   androidApp.unregisterBroadcastReceiver(
-    android.content.Intent.ACTION_BATTERY_CHANGED
+    android.content.Intent.ACTION_BATTERY_CHANGED,
   )
 }
 ```
@@ -76,7 +76,7 @@ To add an iOS notification observer, follow the steps below:
      UIDeviceOrientationDidChangeNotification,
      (notification: NSNotification) => {
        //Handle the notification
-     }
+     },
    )
    ```
 
@@ -89,7 +89,7 @@ To remove a notification observer, use the `removeNotificationObserver` method o
 ```ts
 iOSApp.removeNotificationObserver(
   observer,
-  UIDeviceBatteryStateDidChangeNotification
+  UIDeviceBatteryStateDidChangeNotification,
 )
 ```
 
@@ -350,7 +350,7 @@ const MyDelegate = (function (_super) {
   }
   MyDelegate.prototype.applicationDidFinishLaunchingWithOptions = function (
     application,
-    launchOptions
+    launchOptions,
   ) {
     console.log('applicationWillFinishLaunchingWithOptions: ' + launchOptions)
     return true
@@ -372,7 +372,7 @@ class MyDelegate extends UIResponder implements UIApplicationDelegate {
 
   applicationDidFinishLaunchingWithOptions(
     application: UIApplication,
-    launchOptions: NSDictionary<string, any>
+    launchOptions: NSDictionary<string, any>,
   ): boolean {
     console.log('applicationWillFinishLaunchingWithOptions: ' + launchOptions)
 

@@ -12,19 +12,22 @@ type HomeProps = {
 }
 
 export function ListPicker({ navigation }: HomeProps) {
-  const items = ["First", "Second", "Third"];
+  const items = ['First', 'Second', 'Third']
   return (
     <>
       <frame>
         <page style={styles.container}>
-          <actionBar title="ListPicker" onTap={() => Frame.goBack()}></actionBar>
+          <actionBar
+            title="ListPicker"
+            onTap={() => Frame.goBack()}
+          ></actionBar>
           <stackLayout
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
+            {/* #region example */}
             <listPicker items={items} />
-            {/*#endregion example*/}
+            {/* #endregion example */}
           </stackLayout>
         </page>
       </frame>

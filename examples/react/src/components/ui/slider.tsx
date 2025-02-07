@@ -1,22 +1,21 @@
 import { Dialogs, Frame } from '@nativescript/core'
-import { RouteProp } from '@react-navigation/core';
-import * as React from "react";
-import { StyleSheet } from "react-nativescript";
-import { FrameNavigationProp } from "react-nativescript-navigation";
+import { RouteProp } from '@react-navigation/core'
+import * as React from 'react'
+import { StyleSheet } from 'react-nativescript'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
 
 import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
-    route: RouteProp<MainStackParamList, "Slider">,
-    navigation: FrameNavigationProp<MainStackParamList, "Slider">,
-};
+  route: RouteProp<MainStackParamList, 'Slider'>
+  navigation: FrameNavigationProp<MainStackParamList, 'Slider'>
+}
 
 export function Slider({ navigation }: HomeProps) {
-  const [sliderValue, setSliderValue] = React.useState<number>(0);
+  const [sliderValue, setSliderValue] = React.useState<number>(0)
 
   const sliderValueChanged = (args) => {
-
-   setSliderValue(args.value);
+    setSliderValue(args.value)
   }
   return (
     <>
@@ -28,9 +27,9 @@ export function Slider({ navigation }: HomeProps) {
             verticalAlignment={'middle'}
             horizontalAlignment={'center'}
           >
-            {/*#region example*/}
+            {/* #region example */}
             <slider value="{sliderValue}" onValueChange={sliderValueChanged} />
-            {/*#endregion example*/}
+            {/* #endregion example */}
             <label width="100%" textAlignment="center">
               {sliderValue}
             </label>
