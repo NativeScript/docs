@@ -40,6 +40,18 @@ busy: boolean
 
 Gets or sets whether the indicator is busy.
 
+### iosIndicatorViewStyle
+
+```ts
+iosIndicatorViewStyle: IOSIndicatorViewStyle = 'medium' | 'large'
+```
+
+Specifies the style of the indicator. This property is iOS specific.
+
+Valid values: `medium` and `large`.
+
+Default value: `medium`.
+
 ---
 
 ### ...Inherited

@@ -40,7 +40,10 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
         title: "Shared Elements",
         href: "https://docs.nativescript.org/guide/shared-element-transitions",
       },
-      { title: "Vue", href: "https://nativescript-vue.org" },
+      {
+        title: "Vue",
+        href: "https://nativescript-vue.org",
+      },
     ],
     videoUrl: "https://youtube.com/embed/hHqlEbU8o2o?si=7SgSCaNuqtRB9-ej",
     videoTitle: "Spaceman using just Vue 3",
@@ -67,22 +70,84 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     id: 4,
     title: "Reflective UI",
     href: "https://stackblitz.com/edit/nativescript-reflective-ui?file=src%2Fapp%2Fitem%2Fitems.component.ts",
-    description: "Using iOS AVCaptureSession to create live reflective UI mask. Try with your phone in Dark Mode, it's neat!",
-    categories: [{ title: "iOS AVCaptureSession", href: "https://developer.apple.com/documentation/avfoundation/avcapturesession?language=objc" }],
+    description:
+      "Using iOS AVCaptureSession to create live reflective UI mask. Try with your phone in Dark Mode, it's neat!",
+    categories: [
+      {
+        title: "iOS AVCaptureSession",
+        href: "https://developer.apple.com/documentation/avfoundation/avcapturesession?language=objc",
+      },
+    ],
     videoUrl: "https://youtube.com/embed/rbF6mYfwnck",
     videoTitle: "NativeScript Reflective UI",
   },
   {
     id: 5,
+    title: "Day Night Switch",
+    hrefs: [
+      {
+        title: "Angular",
+        href: "https://stackblitz.com/edit/nativescript-daynightswitch-angular?file=src%2Fapp%2Fexample.component.html",
+      },
+      {
+        title: "React",
+        href: "https://stackblitz.com/edit/nativescript-daynightswitch-react?file=src%2Fcomponents%2FHome.tsx",
+      },
+      {
+        title: "Solid",
+        href: "https://stackblitz.com/edit/nativescript-daynightswitch-solid?file=src%2Fcomponents%2Fhome.tsx",
+      },
+      {
+        title: "Svelte",
+        href: "https://stackblitz.com/edit/nativescript-daynightswitch-svelte?file=src%2Fcomponents%2FHome.svelte",
+      },
+      {
+        title: "Vue",
+        href: "https://stackblitz.com/edit/nativescript-daynightswitch-vue?file=src%2Fcomponents%2FHome.vue",
+      },
+    ],
+    description: "Custom NativeScript Day/Night Switch.",
+    categories: [
+      {
+        title: "Angular",
+        href: "https://angular.dev",
+      },
+      {
+        title: "React",
+        href: "https://react.dev",
+      },
+      {
+        title: "Solid",
+        href: "https://www.solidjs.com",
+      },
+      {
+        title: "Svelte",
+        href: "https://svelte.dev",
+      },
+      {
+        title: "Vue",
+        href: "https://vuejs.org",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/8kb7ObVOJIg?feature=share",
+    videoTitle: "Day Night Switch",
+  },
+  {
+    id: 6,
     title: "Tetris Game with Vue 3",
     href: "https://stackblitz.com/edit/ns-tetris?file=src%2Fcomponents%2FHome.vue",
     description: "Tetris Game with Vue 3.",
-    categories: [{ title: "Vue", href: "https://nativescript-vue.org" }],
+    categories: [
+      {
+        title: "Vue",
+        href: "https://nativescript-vue.org",
+      },
+    ],
     videoUrl: "https://youtube.com/embed/To_bycK6BGY",
     videoTitle: "A Tetris Game built with Vue 3",
   },
   {
-    id: 6,
+    id: 7,
     title: "iOS Recognize Text from an Image",
     href: "https://stackblitz.com/edit/nativescript-text-from-image?file=src%2Fapp%2Fhome%2Fhome.component.ts",
     description: "Recognizing text from an Image on iOS.",
@@ -100,7 +165,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle: "iOS Recognize Text from an Image",
   },
   {
-    id: 7,
+    id: 8,
     title: "iOS PDFKit",
     href: "https://stackblitz.com/edit/nativescript-pdfview-via-ios-pdfkit?file=src%2Fapp%2Fnative-pdfview%2Fnative-pdfview.ts",
     description: "Generating and previewing PDFs using iOS PDFKit.",
@@ -118,7 +183,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle: "iOS PDFKit",
   },
   {
-    id: 8,
+    id: 9,
     title: "PDF w/ WKWebView & AndroidPdfViewer",
     href: "https://stackblitz.com/edit/nativescript-pdfviewer?file=src%2Fapp%2Fnative-pdfview%2Findex.ios.ts",
     description: "Rendering PDF with WKWebView on iOS.",
@@ -138,7 +203,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Autogrow Textfield",
     href: "https://stackblitz.com/edit/nativescript-ng-textview-autogrow-vs-textfield?file=src%2Fapp%2Fitem%2Fitems.component.html",
     description: "Autogrowing Textfield as you type.",
@@ -147,11 +212,14 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
         title: "Angular",
         href: "https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular",
       },
-      { title: "TextView", href: "https://docs.nativescript.org/ui/text-view" },
+      {
+        title: "TextView",
+        href: "https://docs.nativescript.org/ui/text-view",
+      },
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Text to Speech",
     href: "https://stackblitz.com/edit/nativescript-text-to-speech?file=src%2Fapp%2Fspeech%2Findex.ios.ts",
     description: "Simple Text to Speech.",
@@ -167,7 +235,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Battery Level Check",
     href: "https://stackblitz.com/edit/nativescript-battery-level-check?file=app%2Fbattery%2Findex.ios.ts",
     description: "Getting the current battery level.",
@@ -183,7 +251,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Toggle Device Light",
     href: "https://stackblitz.com/edit/nativescript-torch?file=src%2Fapp%2Ftorch%2Findex.ios.ts",
     description: "Toggling the Device Light on and off.",
@@ -199,16 +267,19 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Using local image assets",
     href: "https://stackblitz.com/edit/nativescript-local-image-asset?file=package.json,src%2Fapp%2Fitem%2Fitems.component.html",
     description: "Using local image assets.",
     categories: [
-      { title: "Image", href: "https://docs.nativescript.org/ui/image" },
+      {
+        title: "Image",
+        href: "https://docs.nativescript.org/ui/image",
+      },
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "Checkbox",
     href: "https://stackblitz.com/edit/nativescript-checkbox-example?file=src%2Fapp%2Fitem%2Fitems.component.html",
     description: "Using checkbox components.",
@@ -220,7 +291,7 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "Dropdown Menus",
     href: "https://stackblitz.com/edit/nativescript-dropdown-menus?file=src%2Fapp%2Fmenu-button%2Findex.ios.ts",
     description: "Using dropdown menus.",
@@ -238,10 +309,11 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle: "Using dropdown menus with NativeScript",
   },
   {
-    id: 16,
+    id: 17,
     title: "Large Title Display on iOS",
     href: "https://stackblitz.com/edit/nativescript-ios-large-titles-angular?file=src%2Fapp%2Fitem%2Fitems.component.ts",
-    description: "How to enable large title displays for iOS navigation with NativeScript using prefersLargeTitles property of UINavigationBar, accessible from every Frame.",
+    description:
+      "How to enable large title displays for iOS navigation with NativeScript using prefersLargeTitles property of UINavigationBar, accessible from every Frame.",
     categories: [
       {
         title: "iOS prefersLargeTitles",
@@ -252,10 +324,11 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle: "Enable large title displays for iOS Navigation",
   },
   {
-    id: 17,
+    id: 18,
     title: "Hardware device volume",
     href: "https://stackblitz.com/edit/nativescript-device-volume?file=src%2Futils%2Fvolume.ts",
-    description: "How to get the current device volume using NativeScript on iOS and Android.",
+    description:
+      "How to get the current device volume using NativeScript on iOS and Android.",
     categories: [
       {
         title: "iOS outputVolume",
@@ -265,16 +338,20 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
         title: "Android getStreamVolume",
         href: "https://developer.android.com/reference/android/media/AudioManager#getStreamVolume(int)",
       },
-      { title: "Vue", href: "https://nativescript-vue.org" },
+      {
+        title: "Vue",
+        href: "https://nativescript-vue.org",
+      },
     ],
     videoUrl: "https://youtube.com/embed/1DR_9AZrMe4",
     videoTitle: "Adjusting hardware device volume with NativeScript",
   },
   {
-    id: 18,
+    id: 19,
     title: "Top Bar Height",
     href: "https://stackblitz.com/edit/nativescript-topbar-height?file=src%2Fapp%2Futils%2Fdevice.ts",
-    description: "How to check the top bar height with NativeScript on iOS and Android.",
+    description:
+      "How to check the top bar height with NativeScript on iOS and Android.",
     categories: [
       {
         title: "iOS statusBarManager",
@@ -288,16 +365,20 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
         title: "Android Resources",
         href: "https://developer.android.com/guide/topics/resources/providing-resources",
       },
-      { title: "Android bar height id", href: "https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/dimens_material.xml#39" },
+      {
+        title: "Android bar height id",
+        href: "https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/dimens_material.xml#39",
+      },
     ],
     videoUrl: "https://youtube.com/embed/bXSyBTGJIlc",
     videoTitle: "Top Bar Height with NativeScript",
   },
   {
-    id: 19,
+    id: 20,
     title: "iOS Spotlight Search",
     href: "https://stackblitz.com/edit/nativescript-ios-spotlight-search?file=src%2Fapp%2Fitem%2Fitem.service.ts",
-    description: "How to allow app content to be searchable using iOS Core Spotlight.",
+    description:
+      "How to allow app content to be searchable using iOS Core Spotlight.",
     categories: [
       {
         title: "iOS Core Spotlight",
@@ -307,27 +388,36 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoUrl: "https://youtube.com/embed/uzzMskFL5g8",
     videoTitle: "Use iOS Spotlight Search with NativeScript",
   },
-  // Not ready yet but will discuss with Dylan to update
-  // {
-  //   id: 15,
-  //   title: 'RxDB Angular Lokijs',
-  //   href: 'https://stackblitz.com/edit/nativescript-angular-rxdb-lokijs-demo-9ha1fc?file=src%2Fapp%2Fcomponents%2Fhero.component.ts',
-  //   description: 'Using RxDB Angular Lokijs.',
-  //   categories: [
-  //     { 
-  //       title: 'Angular',
-  //       href: 'https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular'
-  //     }, 
-  //     { 
-  //       title: 'RxDB',
-  //       href: 'https://rxdb.info/'
-  //     }, 
-  //     { 
-  //       title: 'LokiJS', 
-  //       href: 'https://github.com/techfort/LokiJS'
-  //     }
-  //   ],
-  // },
+  {
+    id: 21,
+    title: "Improve UX with NativeScript TouchManager",
+    href: "https://stackblitz.com/edit/nativescript-touchmanager?file=src%2Fapp%2Futils.ts",
+    description: "Instantly improve UX with NativeScript's TouchManager.",
+    categories: [
+      {
+        title: "TouchManager",
+        href: "https://docs.nativescript.org/guide/animations#touchmanager-8-2",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/vAyGyuNFCbk",
+    videoTitle: "Instantly improve UX with NativeScript's TouchManager",
+  },
+  {
+    id: 22,
+    title: "Tab Navigation with iOS and Android",
+    href: "https://stackblitz.com/edit/nativescript-tab-nav-ng?file=src%2Fapp%2Ffeatures%2Fhome%2Fcomponents%2Fhome.component.html",
+    description:
+      "Example of how to configure tab navigation with lots of options.",
+    categories: [
+      {
+        title: "Angular",
+        href: "https://angular.dev",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/-FPEdFE1XeM",
+    videoTitle:
+      "Example of how to configure tab navigation with lots of options.",
+  },
 ];
 
 </script>

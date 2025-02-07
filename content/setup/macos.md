@@ -44,7 +44,6 @@ To install **Node** we recommend using a node version manager, such as [nvm](htt
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) run the following command:
 
 ```cli
-brew tap homebrew/cask-versions
 brew install --cask temurin@17
 ```
 
@@ -178,8 +177,14 @@ Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.
 # Add ruby and rubygems to the path
 export PATH=/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH
 # or
+export PATH=/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH
+# or
 export PATH=/usr/local/lib/ruby/bin:/usr/local/lib/ruby/gems/3.3.0/bin:$PATH
 ```
+
+:::tip Tip
+You can always `ls -al /opt/homebrew/opt` to see how it's listed on your own system. Or `ls -al /usr/local/lib` depending on your setup.
+:::
 
 :::warning Important
 Make sure to open a new terminal window for the changes to take effect!
@@ -273,6 +278,22 @@ If you see **No issues were detected** then you have successfully set up your sy
 
 ::: warning Troubleshooting
 
-If any of the above failed, we recommend asking in [our Community Discord](https://nativescript.org/discord) for assistance.
+Did you see this warning?
+
+```
+✖ WARNING: Xcode is not installed or is not configured properly.
+ You will not be able to build your projects for iOS or run them in the iOS Simulator.
+To be able to build for iOS and run apps in the native emulator, verify that you have installed Xcode.
+
+Your environment is not configured properly and you will not be able to execute local builds.
+Verify that your environment is configured according to the system requirements described at
+https://docs.nativescript.org/setup/macos#setting-up-macos-for-ios.
+```
+
+If so, you can likely just run: `sudo xcode-select --reset`
+
+Now try `ns doctor ios` again.
+
+If any others failed, we recommend asking in [our Community Discord](https://nativescript.org/discord) for assistance.
 
 :::

@@ -71,7 +71,7 @@ this.notifyPropertyChange('fruits', this.fruits)
 
 ### Avoiding Event Handler Memory Leak
 
-To ensure that your app doesn't have memory leak caused by handlers that are no longer needed, use the [addWeakEventListener](#addweakeventlistener) function:
+To ensure that your app doesn't have memory leak caused by handlers that are no longer needed, use the [addWeakEventListener](#addweakeventlistener) function.
 
 <!-- TODO: Add a working example -->
 
@@ -144,21 +144,28 @@ Adds a one-time listener for the specified event.
 
 ### addWeakEventListener()
 
+```ts
+observable.addWeakEventListener(source, eventName, callback, target)
+```
+
+Attaches a Weak Event Listener.
+
+- `source`: Observable class which emits the event.
+- `eventName`: The event name the specified listener listens to.
+- `callback`: The function which should be called when event occurs.
+- `target`: Subscriber (target) of the event listener. It will be used as a thisArg in the handler function.
+
 ### removeEventListener()
 
 ```ts
-Observable.removeEventListener(eventNames, callback, thisArg)
-
-//or
-observable.removeEventListener(eventNames, callback, thisArg)
+observable.removeEventListener(eventNames, callback, target)
 ```
 
 Removes listener(s) for the specified event name(s).
 
-- `eventNames` is a comma delimited string containing the names of the events the specified listener listens to.
-- _Optional_: The `callback` parameter points to a specific listener to be removed. If not defined, all listeners for the event names will be removed.
-<!-- Is the following definition correct -->
-- _Optional_: `thisArg` is a parameter used as `this` context in which the listener to be removed will be searched.
+- `eventNames`: Comma delimited string containing the names of the events the specified listener listens to.
+- `callback`: A specific listener to be removed. If not defined, all listeners for the event names will be removed.
+- `target`: Subscriber (target) of the event listener. It will be used as a thisArg in the handler function.
 
 ---
 

@@ -151,6 +151,22 @@ After running migrations you can always _delete_ the `migrations.json` file as i
 
 Not very often actually. Most plugin workspaces can maintain it's set of dependencies for often 1-2 years or longer but if a migration is available which mentions things you want or need, feel free to run the migrations anytime.
 
+### Migration 5.5.0 (Released January 25, 2025)
+
+- Migrates to Nx 20.3.0+
+- TypeScript 5.6+
+- Angular 19+
+
+If you have any angular specific parts to your plugin, after running `yarn nx migrate @nativescript/plugin-tools` and then `yarn nx migrate --run-migrations ` with this migration you may see TypeScript errors like this:
+
+```bash
+nativescript-checkbox/angular/index.ts:75:18 - error NG6008: Directive CheckedValueAccessor is standalone, and cannot be declared in an NgModule. Did you mean to import it instead?
+
+75   declarations: [CheckedValueAccessor],
+```
+
+This is expected with Angular 19. To resolve you can just add an explicit `standalone: false` to the decorator for the referenced file. If you are using the `apps/demo-angular`, you may also want to add that to any components in use.
+
 ### Migration 5.4.0 (Released August 10, 2024)
 
 - Migrates to Nx 19.5.7

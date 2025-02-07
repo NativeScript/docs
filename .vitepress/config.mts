@@ -27,6 +27,15 @@ export default defineConfig({
   lang: 'en-US',
   title: 'NativeScript',
   description: 'NativeScript docs',
+  head: [
+    [
+      'script',
+      {
+        async: 'true',
+        src: 'https://vueschool.io/banner.js?affiliate=NSCRIPT&type=top',
+      }  
+    ],
+  ],
   ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
