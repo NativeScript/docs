@@ -29,6 +29,10 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/camera/READM
 
 A plugin that allows you to take a picture and optionally save it on the device storage.
 
+**Note: Version 7 contains breaking changes:**
+
+- New behavior on requesting permissions, detailed in [Request for user permissions](#request-for-user-permissions).
+
 ## Installation
 
 To install the plugin, run the following command in the root directory of your project:
@@ -66,16 +70,36 @@ To prompt the user to grant or deny your app access to their camera and photo ga
 ```TypeScript
 import { requestPermissions } from '@nativescript/camera';
 
-requestPermissions().then(
-    function success() {
-        // permission request accepted or already granted
-        // ... call camera.takePicture here ...
-    },
-    function failure() {
-        // permission request rejected
-        // ... tell the user ...
-    }
-);
+const perms = await camera.requestPermissions();
+
+if (perms.Success) {
+     // permission request accepted or already granted
+     // ... call camera.takePicture here ...
+} else {
+     // permission request rejected
+     // ... tell the user ...
+     const cameraPermissionSuccess = perms.Details.Camera.Success;
+     const photoPermissionSuccess = perms.Details.Photo.Success
+}
+
+```
+
+If specifying the `saveToGallery = false` option, you can call the `requestCameraPermissions` method.
+
+```TypeScript
+import { requestPermissions } from '@nativescript/camera';
+
+const perms = await camera.requestCameraPermissions();
+
+if (perms.Success) {
+     // permission request accepted or already granted
+     // ... call camera.takePicture here ...
+} else {
+     // permission request rejected
+     // ... tell the user ...
+
+}
+
 ```
 
 :::tip Note
