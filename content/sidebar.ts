@@ -299,6 +299,10 @@ export default [
       {
         text: 'Platform Version Handling',
         link: '/guide/platform-version-handling',
+      },
+      {
+        text: 'Widgets for iOS',
+        link: '/guide/widgets-ios',
       }
     ],
   },
