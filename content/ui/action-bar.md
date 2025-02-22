@@ -87,7 +87,6 @@ By default, a border is drawn at the bottom of the ActionBar. In addition to the
 You can alternatively use `iosShadow="false"` in the event you want to keep the translucency but remove the border.
 :::
 
-
 ```xml
 <ActionBar title="MyApp" iosShadow="false" />
 ```

@@ -123,7 +123,7 @@ Enables or disables autocorrect.
 (iOS Only) Are Apple Intelligence writing tools active.
 
 ```ts
-isWritingToolsActive: boolean;
+isWritingToolsActive: boolean
 ```
 
 ### enableWritingToolsEvents 8.9+
@@ -131,7 +131,7 @@ isWritingToolsActive: boolean;
 (iOS Only) Allow Apple Intelligence writing tools to emit text changes on each alteration instead of after the final change (default).
 
 ```ts
-enableWritingToolsEvents: boolean;
+enableWritingToolsEvents: boolean
 ```
 
 ### iosWritingToolsBehavior 8.9+
@@ -139,7 +139,7 @@ enableWritingToolsEvents: boolean;
 (iOS Only) Behavior for Apple Intelligence Writing Tools.
 
 ```ts
-iosWritingToolsBehavior: WritingToolsBehavior;
+iosWritingToolsBehavior: WritingToolsBehavior
 ```
 
 Can be `Default`, `Complete`, `Limited` or `None`.
@@ -149,7 +149,7 @@ Can be `Default`, `Complete`, `Limited` or `None`.
 (iOS Only) Allowed input for Apple Intelligence Writing Tools.
 
 ```ts
-iosWritingToolsAllowedInput: Array<WritingToolsAllowedInput>;
+iosWritingToolsAllowedInput: Array<WritingToolsAllowedInput>
 ```
 
 Can be `Default`, `List`, `PlainText`, `RichText` or `Table`.
