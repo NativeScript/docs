@@ -418,6 +418,26 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle:
       "Example of how to configure tab navigation with lots of options.",
   },
+  {
+    id: 23,
+    title: "Screen Snapshot",
+    href: "https://stackblitz.com/edit/nativescript-screen-snapshot?file=src%2Fhome.component.html",
+    description:
+      "Example of how to take a snapshot of any view on screen.",
+    categories: [
+      {
+        title: "iOS CALayer render",
+        href: "https://developer.apple.com/documentation/quartzcore/calayer/render(in:)",
+      },
+      {
+        title: "Android createBitmap",
+        href: "https://developer.android.com/reference/android/graphics/Bitmap#createBitmap(android.graphics.Bitmap,%20int,%20int,%20int,%20int)",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/ORp4y2tbJUA",
+    videoTitle:
+      "Screen Snapshot",
+  },
 ];
 
 </script>
