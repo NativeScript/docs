@@ -83,6 +83,15 @@ By default, a border is drawn at the bottom of the ActionBar. In addition to the
 <ActionBar title="MyApp" flat="true" />
 ```
 
+:::tip 8.9+
+You can alternatively use `iosShadow="false"` in the event you want to keep the translucency but remove the border.
+:::
+
+
+```xml
+<ActionBar title="MyApp" iosShadow="false" />
+```
+
 ## Props
 
 ### title
@@ -92,6 +101,14 @@ title: string
 ```
 
 Gets or sets the ActionBar title.
+
+::: tip 8.9+
+On iOS, you can also enable prefersLargeTitles by setting `iosLargeTitle="true"`
+:::
+
+```xml
+<ActionBar title="MyApp" iosLargeTitle="true" />
+```
 
 ### titleView
 

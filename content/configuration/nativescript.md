@@ -371,6 +371,11 @@ ios.SPMPackages: Array<{
   libs: Array<string>;
   repositoryURL: string;
   version: string;
+  /**
+	 * (8.9+) If you have more targets (like widgets for example),
+	 * you can list their names here to include the Swift Package with them.
+	 */
+  targets?: string[];
 }>
 ```
 
