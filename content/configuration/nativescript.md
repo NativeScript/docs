@@ -371,6 +371,11 @@ ios.SPMPackages: Array<{
   libs: Array<string>;
   repositoryURL: string;
   version: string;
+  /**
+   * (8.9+) If you have more targets (like widgets for example),
+   * you can list their names here to include the Swift Package with them.
+   */
+  targets?: string[];
 }>
 ```
 
@@ -389,6 +394,63 @@ ios: {
       version: '1.0.0',
     },
   ]
+}
+```
+
+### ios.NativeSource
+
+::: tip
+
+NativeSource config option is available in `nativescript@8.9.0` or newer.
+
+:::
+
+```ts
+ios.NativeSource: Array<{
+  name: string;
+  path: string;
+}>
+```
+
+Include any native source code from anywhere in the project (or workspace). Glob patterns are fully supported.
+
+#### Example
+
+- Include any `.swift` files anywhere within the project `src` directory:
+
+```ts
+// ...
+ios: {
+  NativeSource: [
+    {
+      name: 'ProjectPlatformSrc',
+      path: './src/**/*.swift'
+    }
+  ],
+}
+```
+
+This will create a file reference folder named `ProjectPlatformSrc` within the generated Xcode project containing any .swift files found anywhere within the project `src` directory.
+
+- Include any `.swift` files anywhere within the project `src` directory, including any (Swift, Obj-C impl/headers, as well as any module.modulemap files) within a workspace `packages` or `libs` dir:
+
+```ts
+// ...
+ios: {
+  NativeSource: [
+    {
+      name: 'ProjectPlatformSrc',
+      path: './src/**/*.swift'
+    },
+    {
+      name: 'Auth',
+      path: '../../packages/**/*.{swift,m,h,modulemap}'
+    },
+    {
+      name: 'Purchasing',
+      path: '../../libs/**/*.{swift,m,h,modulemap}'
+    }
+  ],
 }
 ```
 

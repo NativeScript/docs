@@ -71,7 +71,7 @@ busy: boolean
 
 Gets or sets whether the indicator is busy.
 
-### iosIndicatorViewStyle
+### iosIndicatorViewStyle 8.9+
 
 ```ts
 iosIndicatorViewStyle: IOSIndicatorViewStyle = 'medium' | 'large'
