@@ -45,7 +45,12 @@ See [DialogOptions](/api/interface/DialogOptions), [R.style](https://developer.a
 <img src="../assets/images/screenshots/android/Dialogs-Alert.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-alert
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-alert
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-alert
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-alert
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-alert
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-alert
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-alert
 
 A dialog for alerting the user.
 
@@ -60,7 +65,12 @@ See [alert()](/api/#alert).
 <img src="../assets/images/screenshots/android/Dialogs-Action.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-action
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-action
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-action
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-action
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-action
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-action
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-action
 
 A dialog for prompting the user to choose.
 
@@ -77,7 +87,12 @@ See [action()](/api/#action).
 <img src="../assets/images/screenshots/android/Dialogs-Confirm.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-confirm
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-confirm
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-confirm
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-confirm
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-confirm
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-confirm
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-confirm
 
 A dialog for prompting the user to confirm.
 
@@ -92,7 +107,12 @@ See [confirm()](/api/#confirm).
 <img src="../assets/images/screenshots/android/Dialogs-Prompt.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-prompt
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-prompt
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-prompt
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-prompt
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-prompt
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-prompt
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-prompt
 
 A dialog for prompting the user for input.
 
@@ -111,7 +131,12 @@ See [prompt()](/api/#prompt), [CoreTypes.AutocapitalizationType](/api/namespace/
 <img src="../assets/images/screenshots/android/Dialogs-Login.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Dialogs/template.ts#example-login
+<<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-login
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-login
+<<< @/../examples/react/src/components/ui/dialogs.tsx#example-login
+<<< @/../examples/solid/src/ui/dialogs.tsx#example-login
+<<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-login
+<<< @/../examples/vue/src/ui/Dialogs/component.vue#example-login
 
 A dialog for prompting the user for credentials.
 

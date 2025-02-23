@@ -1,0 +1,11 @@
+<ActionBar title="My App"> </ActionBar>
+
+<GridLayout>
+  <ListView [items]="examples" (itemTap)="itemTap($event)">
+    <ng-template let-item="item">
+      <StackLayout>
+        <Label [text]="item.name" padding="16" color="black"></Label>
+      </StackLayout>
+    </ng-template>
+  </ListView>
+</GridLayout>

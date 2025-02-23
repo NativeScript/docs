@@ -22,8 +22,15 @@ See also: [WebView](/ui/web-view).
 <img src="../assets/images/screenshots/android/HtmlView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/HtmlView/template.xml#example
-<<< @/../examples/src/ui/HtmlView/template.ts#example{xml}
+<<< @/../examples/typescript/src/ui/HtmlView/template.xml#example
+<<< @/../examples/typescript/src/ui/HtmlView/template.ts#example{xml}
+
+<<< @/../examples/angular/src/ui/HtmlView/component.html#example
+<<< @/../examples/angular/src/ui/HtmlView/component.ts#example{html}
+<<< @/../examples/react/src/components/ui/htmlview.tsx#example
+<<< @/../examples/solid/src/ui/htmlview.tsx#example
+<<< @/../examples/svelte/app/components/ui/HtmlView.svelte#example
+<<< @/../examples/vue/src/ui/HtmlView/component.vue#example
 
 ## Props
 

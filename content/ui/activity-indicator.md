@@ -15,7 +15,43 @@ contributors:
 <img src="../assets/images/screenshots/android/ActivityIndicator.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ActivityIndicator/template.xml#example
+<Tabs>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/ActivityIndicator/component.vue#example
+
+</Tab>
+<Tab flavor="typescript">
+
+<<< @/../examples/typescript/src/ui/ActivityIndicator/template.xml#example
+
+</Tab>
+<Tab flavor="javascript">
+
+<<< @/../examples/typescript/src/ui/ActivityIndicator/template.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
+<<< @/../examples/angular/src/ui/ActivityIndicator/component.html#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/ActivityIndicator.svelte#example
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/activityindicator.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/activityindicator.tsx#example
+
+</Tab>
+</Tabs>
 
 ## Examples
 

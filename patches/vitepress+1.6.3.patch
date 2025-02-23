@@ -1,0 +1,16 @@
+diff --git a/node_modules/vitepress/dist/node/chunk-Zsoi3j4v.js b/node_modules/vitepress/dist/node/chunk-Zsoi3j4v.js
+index 8cfe39e..307ef09 100644
+--- a/node_modules/vitepress/dist/node/chunk-Zsoi3j4v.js
++++ b/node_modules/vitepress/dist/node/chunk-Zsoi3j4v.js
+@@ -35624,8 +35624,10 @@ function findRegion(lines, regionName) {
+     // Visual Basic
+     /^::#((?:end)region) ([\w*-]+)$/,
+     // Bat
+-    /^# ?((?:end)?region) ([\w*-]+)$/
++    /^# ?((?:end)?region) ([\w*-]+)$/,
+     // C#, PHP, Powershell, Python, perl & misc
++    /^\s*\{\/\* #?((?:end)?region) ([\w*-]+) \*\/\}/,
++    // react tsx
+   ];
+   let regexp = null;
+   let start = -1;
