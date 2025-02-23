@@ -6,7 +6,7 @@ title: Developing Widgets for iOS
 
 > A widget elevates and displays a small amount of timely, relevant information from your app or game so people can see it at a glance in additional contexts.
 
-With NativeScript 8.9 CLI (`npm install -g nativescript`), you can create an iOS Widget with a single command:
+Starting with NativeScript 8.9 CLI (`npm install -g nativescript`), you can create an iOS Widget with a single command:
 
 ```bash
 $ ns widget ios
