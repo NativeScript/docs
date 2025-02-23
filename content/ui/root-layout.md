@@ -73,7 +73,7 @@ getRootLayout()
 export function createPopupView(
   color: string,
   size: number,
-  offset: number
+  offset: number,
 ): View {
   const layout = new StackLayout()
   layout.height = size

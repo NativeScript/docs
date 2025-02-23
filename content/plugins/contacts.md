@@ -178,7 +178,7 @@ Contacts.getContact().then(function (args) {
     contact.name.family = 'Doe'
 
     ImageSource.fromUrl(
-      'http://www.google.com/images/errors/logo_sm_2.png'
+      'http://www.google.com/images/errors/logo_sm_2.png',
     ).then(function (src) {
       contact.photo = src
       contact.save()
@@ -219,7 +219,7 @@ Contacts.getContact().then(function (args) {
   if (args.response === 'selected') {
     const contact = args.data //See data structure below
     console.log(
-      contact.isUnified() ? 'Contact IS unified' : 'Contact is NOT unified'
+      contact.isUnified() ? 'Contact IS unified' : 'Contact is NOT unified',
     )
   }
 })
@@ -247,7 +247,7 @@ Contacts.getContactsByName('Hicks', contactFields).then(
   },
   function (err) {
     console.log('Error: ' + err)
-  }
+  },
 )
 ```
 
@@ -275,7 +275,7 @@ Contacts.getAllContacts(contactFields).then(
   },
   function (err) {
     console.log('Error: ' + err)
-  }
+  },
 )
 ```
 
@@ -297,7 +297,7 @@ Contacts.getContactById(contactId).then(
   },
   function (err) {
     console.log('Error: ' + err)
-  }
+  },
 )
 ```
 
@@ -324,7 +324,7 @@ Contacts.getGroups('Test Group') //[name] optional. If defined will look for gro
     },
     function (err) {
       console.log('Error: ' + err)
-    }
+    },
   )
 ```
 
@@ -365,7 +365,7 @@ Contacts.getGroups('Test Group').then(
   },
   function (err) {
     console.log('Error: ' + err)
-  }
+  },
 )
 ```
 
@@ -390,7 +390,7 @@ Contacts.getContact().then(function (args) {
       },
       function (err) {
         console.log('Error: ' + err)
-      }
+      },
     )
   }
 })
@@ -421,13 +421,13 @@ Contacts.getGroups('Test Group').then(
         },
         function (err) {
           console.log('Error: ' + err)
-        }
+        },
       )
     }
   },
   function (err) {
     console.log('Error: ' + err)
-  }
+  },
 )
 ```
 
@@ -453,13 +453,13 @@ Contacts.getGroups('Test Group') //[name] optional. If defined will look for gro
           },
           function (err) {
             console.log('Error: ' + err)
-          }
+          },
         )
       }
     },
     function (err) {
       console.log('Error: ' + err)
-    }
+    },
   )
 ```
 

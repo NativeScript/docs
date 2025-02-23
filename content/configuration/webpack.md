@@ -324,7 +324,7 @@ module.exports = (env) => {
       config.get('externals').concat([
         // add your own externals
         'some-external-dependency',
-      ])
+      ]),
     )
   })
 
@@ -518,7 +518,7 @@ module.exports = (env) => {
       'ignoreWarnings',
       (config.get('ignoreWarnings') || []).concat([
         /a regex that matches the warning to suppress/,
-      ])
+      ]),
     )
   })
 
@@ -577,7 +577,7 @@ module.exports = (webpack) => {
         .test(/\.something$/)
         .use('something-loader')
         .loader('something-loader')
-    } /*, options */
+    } /*, options */,
   )
 }
 ```
@@ -641,7 +641,7 @@ webpack.chainWebpack(
   (config, env) => {
     config.set('somethingThatShouldBeSetLast', true)
   },
-  { order: 10 }
+  { order: 10 },
 )
 ```
 

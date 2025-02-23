@@ -12,7 +12,7 @@ To verify if a path is valid resource or local file path, use the [isFileOrResou
 
 ```ts
 const isPathValid: boolean = Utils.isFileOrResourcePath(
-  'https://nativescript.org/'
+  'https://nativescript.org/',
 ) //  false
 
 // or
@@ -612,7 +612,7 @@ Gets the string id from a given resource name.
 ```ts
 const paletteColor: number = Utils.android.resources.getPaletteColor(
   resourceName,
-  Utils.android.getApplicationContext()
+  Utils.android.getApplicationContext(),
 )
 ```
 

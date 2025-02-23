@@ -173,7 +173,7 @@ export class SomeViewModel {
           case PaymentEvent.Context.PROCESSING_ORDER:
             if (event.result === PaymentEvent.Result.FAILURE) {
               console.log(
-                `🛑 Payment Failure - ${event.payload.description} 🛑`
+                `🛑 Payment Failure - ${event.payload.description} 🛑`,
               )
               // handle the failure of the purchase
             } else if (event.result === PaymentEvent.Result.SUCCESS) {

@@ -135,11 +135,11 @@ const marginProperty = new ShorthandProperty<
     }
 
     return `${PercentLength.convertToString(
-      this.marginTop
+      this.marginTop,
     )} ${PercentLength.convertToString(
-      this.marginRight
+      this.marginRight,
     )} ${PercentLength.convertToString(
-      this.marginBottom
+      this.marginBottom,
     )} ${PercentLength.convertToString(this.marginLeft)}`
   },
   converter: convertToMargins,

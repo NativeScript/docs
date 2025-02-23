@@ -144,7 +144,7 @@ firebase()
       console.log('Configs were retrieved from the backend and activated.')
     } else {
       console.log(
-        'No configs were fetched from the backend, and the local configs were already activated'
+        'No configs were fetched from the backend, and the local configs were already activated',
       )
     }
   })

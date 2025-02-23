@@ -199,8 +199,9 @@ You can combine two animations in the `animation` property by using commas:
 
 ```css
 .view {
-  animation: example 4s ease-in-out 2s infinite reverse, second-animation-example
-      5s ease-out;
+  animation:
+    example 4s ease-in-out 2s infinite reverse,
+    second-animation-example 5s ease-out;
 }
 ```
 
@@ -490,14 +491,14 @@ touchAnimation = {
       let animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_X,
-        float(0.95)
+        float(0.95),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(1.0)
       animation.start()
       animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_Y,
-        float(0.95)
+        float(0.95),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(1.0)
       animation.start()
@@ -516,14 +517,14 @@ touchAnimation = {
       let animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_X,
-        float(1)
+        float(1),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(0.95)
       animation.start()
       animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_Y,
-        float(1)
+        float(1),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(0.95)
       animation.start()

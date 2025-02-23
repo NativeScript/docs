@@ -82,7 +82,7 @@ declare interface AppleWidgetModelData {
 declare class AppleWidgetUtils extends NSObject {
   static startActivity(data: AppleWidgetModelData): void
   static updateActivity(
-    data: Pick<AppleWidgetModelData, 'message' | 'deliveryTime'>
+    data: Pick<AppleWidgetModelData, 'message' | 'deliveryTime'>,
   ): void
   static cancelActivity(data: Pick<AppleWidgetModelData, 'message'>): void
   static updateWidget(): void
@@ -103,7 +103,7 @@ AppleWidgetUtils.updateDataWithKey(
     pizzas: ['Pepperoni', 'Supreme', 'Hawaiian', 'Meat Lovers', 'Margherita'],
     orderTime: this.orderTime(),
     delivered: false,
-  })
+  }),
 )
 ```
 

@@ -54,7 +54,7 @@ See [ObservableArray](/api/class/ObservableArray).
 itemTemplateSelector: (
   item: T,
   index: number,
-  items: Array | ObservableArray
+  items: Array | ObservableArray,
 ) => string
 ```
 
