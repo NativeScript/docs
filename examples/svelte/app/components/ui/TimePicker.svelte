@@ -13,7 +13,7 @@
 
     <contentView visibility="collapsed">
       <!-- #region example -->
-      <timePicker />
+      <timePicker hour="9" minute="41" />
       <!-- #endregion example -->
     </contentView>
   </gridLayout>

@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-   // #region example
-   const text = `TextView\nWith\nMultiple\nLines!`;
-  // #endregion example
+
 </script>
 
 <template>

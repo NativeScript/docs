@@ -25,14 +25,18 @@ For additional features and improved performance in certain scenarios, consider 
 <Tabs>
 <Tab flavor="typescript">
 
-<<< @/../examples/typescript/src/ui/ListView/template.xml#example
-<<< @/../examples/typescript/src/ui/ListView/template.ts#example
+::: code-group
+<<< @/../examples/typescript/src/ui/ListView/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/ListView/template.ts#example [TypeScript]
+:::
 
 </Tab>
 <Tab flavor="angular">
 
-<<< @/../examples/angular/src/ui/ListView/component.html#example
-<<< @/../examples/angular/src/ui/ListView/component.ts#example
+::: code-group
+<<< @/../examples/angular/src/ui/ListView/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/ListView/component.ts#example [TypeScript]
+:::
 
 </Tab>
 <Tab flavor="react">

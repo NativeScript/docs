@@ -2,20 +2,8 @@
   <!-- #region example -->
   <ListView [items]="items">
     <ng-template let-item="item" let-i="index">
-      <!-- The item template can only have a single root element -->
-      <GridLayout padding="16" columns="20, *">
-        <ContentView
-          width="20"
-          height="20"
-          borderRadius="20"
-          backgroundColor="#65adf1"
-        />
-        <label
-          text="{{ item.title }}"
-          col="1"
-          textWrap="true"
-          marginLeft="8"
-        ></label>
+      <GridLayout>
+        <label [text]="item.title"></label>
       </GridLayout>
     </ng-template>
   </ListView>

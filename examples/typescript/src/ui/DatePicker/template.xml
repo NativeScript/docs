@@ -7,7 +7,14 @@
 
     <ContentView visibility="collapse">
       <!-- #region example -->
-      <DatePicker />
+      <DatePicker
+        year="2023"
+        month="8"
+        day="28"
+        date="{{ date }}"
+        minDate="{{ minDate }}"
+        maxDate="{{ maxDate }}"
+      />
       <!-- #endregion example -->
     </ContentView>
   </GridLayout>

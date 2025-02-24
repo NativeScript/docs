@@ -1,8 +1,7 @@
 // #region example
-import { Utils } from '@nativescript/core'
-
 import { Component, NO_ERRORS_SCHEMA } from '@angular/core'
 import { NativeScriptCommonModule } from '@nativescript/angular';
+import { Utils } from '@nativescript/core'
 
 @Component({
   selector: 'ns-placeholder',
@@ -14,11 +13,11 @@ export class PlaceholderComponent {
 
   creatingView(args) {
     let nativeView
-    if (global.isIOS) {
+    if (__IOS__) {
       // Example with UITextView on iOS
       nativeView = UITextView.new()
       nativeView.text = 'Native View (iOS)'
-    } else if (global.isAndroid) {
+    } else if (__ANDROID__) {
       // Example with TextView on Android
       nativeView = new android.widget.TextView(
         Utils.android.getApplicationContext()

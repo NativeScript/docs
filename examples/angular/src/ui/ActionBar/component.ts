@@ -1,4 +1,4 @@
-import { Component, NO_ERRORS_SCHEMA } from '@angular/core'
+import { Component, inject, NO_ERRORS_SCHEMA } from '@angular/core'
 import { NativeScriptCommonModule, RouterExtensions } from '@nativescript/angular';
 
 @Component({
@@ -9,9 +9,11 @@ import { NativeScriptCommonModule, RouterExtensions } from '@nativescript/angula
 })
 export class ActionBarComponent { 
 
-  constructor(private routerExtensions: RouterExtensions) { }
+  // #region example
+  router = inject(RouterExtensions);
 
   goBack() {
-    this.routerExtensions.backToPreviousPage();
+    this.router.back();
   }
+  // #endregion example
 }

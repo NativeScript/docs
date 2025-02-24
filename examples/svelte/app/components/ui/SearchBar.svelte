@@ -13,7 +13,7 @@
       verticalAlignment="center"
     >
       <!-- #region example -->
-      <searchBar hint="SEARCH HERE"></searchBar>
+      <searchBar hint="Search..."></searchBar>
       <!-- #endregion example -->
     </contentView>
   </gridLayout>

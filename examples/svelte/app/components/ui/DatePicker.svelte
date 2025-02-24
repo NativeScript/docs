@@ -17,7 +17,7 @@
       <stackLayout>
         <!-- #region example -->
         <datepicker bind:date={value}></datepicker>
-        <!--  #endregion example -->
+        <!-- #endregion example -->
         <label>{value}</label>
       </stackLayout>
     </contentView>

@@ -12,7 +12,7 @@ import { HtmlView } from './ui/htmlview'
 import { Image } from './ui/image'
 import { Label } from './ui/label'
 import { ListPicker } from './ui/listpicker'
-import { ListView } from './ui/listview'
+import { ListViewCmp } from './ui/listview'
 import { Placeholder } from './ui/placeholder'
 import { Progress } from './ui/progress'
 import { ScrollView } from './ui/scrollview'
@@ -65,7 +65,7 @@ export const MainStack = () => (
 
       <StackNavigator.Screen name="ListPicker" component={ListPicker} />
 
-      <StackNavigator.Screen name="ListView" component={ListView} />
+      <StackNavigator.Screen name="ListView" component={ListViewCmp} />
 
       <StackNavigator.Screen name="Placeholder" component={Placeholder} />
 

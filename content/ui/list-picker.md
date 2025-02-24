@@ -18,25 +18,29 @@ contributors:
 <Tabs>
 <Tab flavor="typescript">
 
-<<< @/../examples/typescript/src/ui/ListPicker/template.xml#example
-<<< @/../examples/typescript/src/ui/ListPicker/template.ts#example
+::: code-group
+<<< @/../examples/typescript/src/ui/ListPicker/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/ListPicker/template.ts#example [TypeScript]
+:::
 
 </Tab>
 
 <Tab flavor="angular">
 
-<<< @/../examples/angular/src/ui/ListPicker/component.html#example
-<<< @/../examples/angular/src/ui/ListPicker/component.ts#example
+::: code-group
+<<< @/../examples/angular/src/ui/ListPicker/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/ListPicker/component.ts#example [TypeScript]
+:::
 
 </Tab>
 <Tab flavor="react">
 
-<<< @/../examples/react/src/components/ui/label.tsx#example
+<<< @/../examples/react/src/components/ui/listpicker.tsx#example
 
 </Tab>
 <Tab flavor="solid">
 
-<<< @/../examples/solid/src/ui/label.tsx#example
+<<< @/../examples/solid/src/ui/listpicker.tsx#example
 
 </Tab>
 <Tab flavor="svelte">

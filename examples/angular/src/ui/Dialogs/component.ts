@@ -19,7 +19,6 @@ export class DialogsComponent {
       okButtonText: 'OK',
       cancelable: true,
     })
-    console.log('Show Alert');
   }
   // #endregion example-alert
 

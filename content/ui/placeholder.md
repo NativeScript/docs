@@ -18,14 +18,18 @@ contributors:
 <Tabs>
 <Tab flavor="typescript">
 
-<<< @/../examples/typescript/src/ui/Placeholder/template.xml#example
-<<< @/../examples/typescript/src/ui/Placeholder/template.ts#example
+::: code-group
+<<< @/../examples/typescript/src/ui/Placeholder/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/Placeholder/template.ts#example [TypeScript]
+:::
 
 </Tab>
 <Tab flavor="angular">
 
-<<< @/../examples/angular/src/ui/Placeholder/component.html#example
-<<< @/../examples/angular/src/ui/Placeholder/component.ts#example
+::: code-group
+<<< @/../examples/angular/src/ui/Placeholder/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/Placeholder/component.ts#example [TypeScript]
+:::
 
 </Tab>
 <Tab flavor="react">

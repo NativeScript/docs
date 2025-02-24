@@ -25,16 +25,11 @@ export function Switch({ navigation }: HomeProps) {
           >
             {/* #region example */}
             <switch
-              horizontalAlignment="center"
               checked={switchValue}
               onCheckedChange={(args) => {
                 setSwitchValue(args.value)
-                console.log(args.value)
               }}
             ></switch>
-            <label textAlignment="center" width="100%">
-              {JSON.stringify(switchValue, null, 2)}
-            </label>
             {/* #endregion example */}
           </stackLayout>
         </page>

@@ -50,17 +50,6 @@ See also: [TimePicker](/ui/time-picker).
 </Tab>
 </Tabs>
 
-```xml
-<DatePicker
-  year="2023"
-  month="8"
-  day="28"
-  date="{{ date }}"
-  minDate="{{ minDate }}"
-  maxDate="{{ maxDate }}"
-/>
-```
-
 ## Props
 
 ### date

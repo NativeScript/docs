@@ -45,8 +45,6 @@ contributors:
 <<< @/../examples/react/src/components/ui/activityindicator.tsx#example
 
 </Tab>
-
-</Tab>
 <Tab flavor="solid">
 
 <<< @/../examples/solid/src/ui/activityindicator.tsx#example

@@ -25,15 +25,19 @@ See also: [WebView](/ui/web-view).
 <Tabs>
 <Tab flavor="typescript">
 
-<<< @/../examples/typescript/src/ui/HtmlView/template.xml#example
-<<< @/../examples/typescript/src/ui/HtmlView/template.ts#example{xml}
+::: code-group
+<<< @/../examples/typescript/src/ui/HtmlView/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/HtmlView/template.ts#example [TypeScript]
+:::
 
 </Tab>
 
 <Tab flavor="angular">
 
-<<< @/../examples/angular/src/ui/HtmlView/component.html#example
-<<< @/../examples/angular/src/ui/HtmlView/component.ts#example{html}
+::: code-group
+<<< @/../examples/angular/src/ui/HtmlView/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/HtmlView/component.ts#example [TypeScript]
+:::
 
 </Tab>
 <Tab flavor="react">

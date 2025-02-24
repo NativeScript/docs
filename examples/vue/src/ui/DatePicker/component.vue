@@ -1,7 +1,7 @@
 <script lang="ts" setup>
   import { ref } from 'vue'
 
-  const selectedDate = ref(new Date());
+  const date = ref(new Date());
 </script>
 
 <template>
@@ -10,14 +10,14 @@
         <ContentView verticalAlignment="center" horizontalAlignment="center">
           <!-- using a fixed date to simplify screenshot diffs -->
           <StackLayout>
-            <DatePicker v-model="selectedDate" />
-            <TextField>{{selectedDate}}</TextField>
+            <DatePicker v-model="date" />
+            <TextField>{{date}}</TextField>
           </StackLayout>
         </ContentView>
 
         <ContentView visibility="collapse">
           <!-- #region example -->
-          <DatePicker />
+          <DatePicker :date="date" />
           <!-- #endregion example -->
         </ContentView>
       </GridLayout>

@@ -1,27 +1,19 @@
-import { Frame } from '@nativescript/core'
+// #region example
 export const ListView = () => {
-  // #region example
   const items = []
-  for (let index = 0; index < 100; index++) {
+  for (let i = 0; i < 100; i++) {
     items.push({
-      text: `Item ${index + 1}`,
+      text: `Item ${i + 1}`,
     })
-  }
-  // #endregion example
-  function goBack() {
-    Frame.goBack()
   }
   return (
     <>
       <actionbar title="ListView">
-        <actionitem on:tap={goBack} text="<<Back"></actionitem>
       </actionbar>
-      {/* @ts-ignore */}
       <gridlayout>
-        {/*region example todo not working, no direct translation of listview?*/}
         <list-view items={items}></list-view>
-        {/* #endregion example */}
       </gridlayout>
     </>
   )
 }
+// #endregion example

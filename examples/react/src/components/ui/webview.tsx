@@ -25,8 +25,7 @@ export function WebView({ navigation }: HomeProps) {
           >
             {/*actual example - not rendered because the above WebView is used for the screenshot instead.*/}
             {/* #region example */}
-            <webView src="https://nativescript-vue.org/" />
-            <webView src="<div><h1>Some static HTML</h1></div>" />
+            <webView src="https://nativescript.org/" />
             {/* #endregion example */}
           </stackLayout>
         </page>

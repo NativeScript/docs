@@ -23,7 +23,7 @@ export function SearchBar({ navigation }: HomeProps) {
             horizontalAlignment={'center'}
           >
             {/* #region example */}
-            <searchBar hint="SEARCH HERE"></searchBar>
+            <searchBar hint="Search..."></searchBar>
             {/* #endregion example */}
           </stackLayout>
         </page>

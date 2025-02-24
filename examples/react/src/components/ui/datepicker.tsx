@@ -12,7 +12,7 @@ type HomeProps = {
 }
 
 export function DatePicker({ navigation }: HomeProps) {
-  const currentDate = new Date()
+  const date = new Date()
   return (
     <>
       <frame>
@@ -27,7 +27,7 @@ export function DatePicker({ navigation }: HomeProps) {
             horizontalAlignment={'center'}
           >
             {/* #region example */}
-            <datePicker date={currentDate}></datePicker>
+            <datePicker date={date}></datePicker>
             {/* #endregion example */}
           </stackLayout>
         </page>

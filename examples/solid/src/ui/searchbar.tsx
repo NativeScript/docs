@@ -16,7 +16,7 @@ export const SearchBar = () => {
         horizontalAlignment="center"
       >
         {/* #region example */}
-        <searchbar hint="SEARCH HERE"></searchbar>
+        <searchbar hint="Search..."></searchbar>
         {/* #endregion example */}
       </gridlayout>
     </>

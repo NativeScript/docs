@@ -11,4 +11,7 @@ import { NativeScriptCommonModule } from '@nativescript/angular';
 export class ButtonComponent {
   activeRoute = inject(ActivatedRoute);
   
+  tapMe() {
+
+  }
 }

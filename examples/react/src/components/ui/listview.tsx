@@ -3,7 +3,7 @@ import { RouteProp } from '@react-navigation/core'
 import * as React from 'react'
 import { StyleSheet } from 'react-nativescript'
 import { FrameNavigationProp } from 'react-nativescript-navigation'
-import { ListView as LV } from 'react-nativescript'
+import { ListView } from 'react-nativescript'
 import { MainStackParamList } from '../../NavigationParamList'
 
 type HomeProps = {
@@ -11,13 +11,13 @@ type HomeProps = {
   navigation: FrameNavigationProp<MainStackParamList, 'ListView'>
 }
 
-export function ListView({ navigation }: HomeProps) {
-  // #region example
+{/* #region example */}
+export function ListViewCmp({ navigation }: HomeProps) {
 
-  const items = []
-  for (let index = 0; index < 100; index++) {
+  const items: Array<{ title: string }> = []
+  for (let i = 0; i < 100; i++) {
     items.push({
-      title: `Item ${index + 1}`,
+      title: `Item ${i + 1}`,
     })
   }
   const cellFactory = (item: { title }) => {
@@ -26,31 +26,24 @@ export function ListView({ navigation }: HomeProps) {
   const testItemTap = (args: ItemEventData) => {
     alert(args.index + ' - ' + items[args.index].title)
   }
-  // #endregion example
 
   return (
-    <>
-      <frame>
-        <page style={styles.container}>
-          <actionBar title="ListView" onTap={() => Frame.goBack()}></actionBar>
+    <frame>
+      <page style={styles.container}>
+        <actionBar title="ListView" onTap={() => Frame.goBack()}></actionBar>
 
-          <stackLayout
-            verticalAlignment={'middle'}
-            horizontalAlignment={'center'}
-          >
-            {/* #region example */}
-            <LV
-              items={items}
-              cellFactory={cellFactory}
-              onItemTap={testItemTap}
-            ></LV>
-            {/* #endregion example */}
-          </stackLayout>
-        </page>
-      </frame>
-    </>
+        <gridLayout>
+          <ListView
+            items={items}
+            cellFactory={cellFactory}
+            onItemTap={testItemTap}
+          ></ListView>
+        </gridLayout>
+      </page>
+    </frame>
   )
 }
+{/* #endregion example */}
 
 const styles = StyleSheet.create({
   container: {

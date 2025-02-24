@@ -1,28 +1,26 @@
+<!-- #region example -->
 <script lang="ts" setup>
-  // #region example
   const items = [];
-  for(let index = 0; index < 100; index++) {
+  for(let i = 0; i < 100; i++) {
     items.push({
-      title: `Item ${index+1}`
+      title: `Item ${i+1}`
     })
   }
-  // #endregion example
 </script>
 
 <template>
   <Page>
-    <ActionBar>
+    <ActionBar title="ListView Example">
     </ActionBar>
     <GridLayout>
-      <!-- #region example -->
-        <ListView :items="items">
-          <template #default="{ item }">
-            <StackLayout orientation="horizontal" >
-              <Label :text="item.title" />
-            </StackLayout>
-          </template>
-        </ListView>
-      <!-- #endregion example -->
+      <ListView :items="items">
+        <template #default="{ item }">
+          <StackLayout>
+            <Label :text="item.title" />
+          </StackLayout>
+        </template>
+      </ListView>
     </GridLayout>
   </Page>
 </template>
+<!-- #endregion example -->

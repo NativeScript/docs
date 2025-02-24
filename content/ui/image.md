@@ -34,6 +34,32 @@ Working with many images can quickly become a memory hog, for improved image han
 <<< @/../examples/typescript/src/ui/Image/template.xml#example
 
 </Tab>
+<Tab flavor="angular">
+
+<<< @/../examples/angular/src/ui/Image/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/image.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/image.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/Image.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/image/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Examples
 

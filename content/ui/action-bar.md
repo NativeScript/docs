@@ -28,7 +28,10 @@ Views also part of the ActionBar abstraction:
 </Tab>
 <Tab flavor="angular">
 
-<<< @/../examples/angular/src/ui/ActionBar/component.html#example
+::: code-group
+<<< @/../examples/angular/src/ui/ActionBar/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/ActionBar/component.ts#example [TypeScript]
+:::
 
 </Tab>
 <Tab flavor="react">
