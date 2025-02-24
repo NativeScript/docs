@@ -193,7 +193,7 @@ Note the `*.android` suffix - we want this file packaged for Android only.
 
 A minimal example of the custom Application class:
 
-:::code-group
+::: code-group
 
 ```ts [TypeScript]
 // the `JavaProxy` decorator specifies the package and the name for the native *.JAVA file generated.

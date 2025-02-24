@@ -56,7 +56,7 @@ Working with many images can quickly become a memory hog, for improved image han
 </Tab>
 <Tab flavor="vue">
 
-<<< @/../examples/vue/src/ui/image/component.vue#example
+<<< @/../examples/vue/src/ui/Image/component.vue#example
 
 </Tab>
 </Tabs>

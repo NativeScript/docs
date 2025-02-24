@@ -70,8 +70,10 @@ Individual items can be rendered using a different template. For example, let's 
 <Tabs>
 <Tab flavor="typescript">
 
-<<< @/../examples/typescript/src/ui/ListView/multiple-templates.xml#example
-<<< @/../examples/typescript/src/ui/ListView/template.ts#itemTemplateSelector
+::: code-group
+<<< @/../examples/typescript/src/ui/ListView/multiple-templates.xml#example [XML]
+<<< @/../examples/typescript/src/ui/ListView/template.ts#itemTemplateSelector [TypeScript]
+:::
 
 </Tab>
 </Tabs>
