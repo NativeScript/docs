@@ -17,8 +17,6 @@ For single-line text input, see [TextField](/ui/text-field).
 <img src="../assets/images/screenshots/android/TextView.png"/>
 </DeviceFrame>
 
-
-
 <Tabs>
 <Tab flavor="typescript">
 
