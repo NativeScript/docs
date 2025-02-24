@@ -49,7 +49,7 @@ Add file replacement rules. For source files (`.js` and `.ts`) this will add a n
 
 Example:
 
-```cli
+```bash
 --env.replace=./src/environments/environment.ts:./src/environments/environment.prod.ts
 ```
 
@@ -380,7 +380,7 @@ module.exports = (env) => {
 
 To change an existing rule, it's useful to know how it has been set up first:
 
-```cli
+```bash
 ns prepare android|ios --env.verbose
 # Note: we plan to add a separate command to just print the internal config
 ```

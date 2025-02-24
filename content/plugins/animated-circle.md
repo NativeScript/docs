@@ -31,7 +31,7 @@ A plugin that creates a circular progress bar on iOS and Android.
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/animated-circle
 ```
 

@@ -69,7 +69,7 @@ The `@nativescript/firebase-admob` plugin currently supports loading and display
 
 To install `@nativescript/firebase-admob`, run the following command in the root directory of the project:
 
-```cli
+```bash
 npm install @nativescript/firebase-admob
 ```
 

@@ -43,7 +43,7 @@ A NativeScript wrapper for the popular [IQKeyboardManager](https://cocoapods.org
 
 To install the plugin, run the following command from the root folder of your project:
 
-```cli
+```bash
 npm install @nativescript/iqkeyboardmanager
 ```
 

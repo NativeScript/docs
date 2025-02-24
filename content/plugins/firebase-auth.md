@@ -57,7 +57,7 @@ Use this plugin with the [@nativescript/firebase-core](../firebase-core/) plugin
 
 Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-auth
 ```
 

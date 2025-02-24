@@ -8,7 +8,7 @@ contributors:
 
 ## Generate types for iOS
 
-```cli
+```bash
 ns typings ios
 ```
 
@@ -18,7 +18,7 @@ This will generate the following folder structure `typings/ios/arm64`
 
 For Android run:
 
-```cli
+```bash
 ns typings android --jar <path to a jar>
 # or
 ns typings android --aar <path to an aar>
@@ -26,13 +26,13 @@ ns typings android --aar <path to an aar>
 
 You can also generate typings for an Android package (Maven):
 
-```cli
+```bash
 ns typings android <package-name>
 ```
 
 For instance:
 
-```cli
+```bash
 ns typings android "com.google.android.gms:play-services-tasks"
 ```
 

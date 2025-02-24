@@ -68,7 +68,7 @@ This plugin allows you to add the [Firebase Dynamic Links SDK](https://firebase.
 
   1.  Install the plugin by running the following command in the root directory of your project.
 
-      ```cli
+      ```bash
       npm install @nativescript/firebase-dynamic-links
       ```
 

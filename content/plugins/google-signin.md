@@ -42,7 +42,7 @@ A plugin that allows you to authenticate users with Google Sign-In.
 
 Install the plugin by running the following command at the root of the project.
 
-```cli
+```bash
 npm install @nativescript/google-signin
 ```
 
@@ -64,14 +64,14 @@ To generate the SHA-1 fingerprint for the debug keystore with the following comm
 
 - **macOS/Linux**
 
-```cli
+```bash
 keytool -list -v \
 -alias androiddebugkey -keystore ~/.android/debug.keystore
 ```
 
 - **Windows**
 
-```cli
+```bash
 keytool -list -v \
 -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
 ```

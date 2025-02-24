@@ -15,7 +15,7 @@ A plugin that allows you to authenticate users with [Sign In with Apple](https:/
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/apple-sign-in
 ```
 

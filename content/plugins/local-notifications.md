@@ -50,7 +50,7 @@ Just like remote push notifications, but a few orders of magnitude easier to set
 
 Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/local-notifications
 ```
 

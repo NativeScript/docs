@@ -88,7 +88,7 @@ To add the Cloud Storage SDK to your app, install and import the `@nativescript/
 
 1. Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-storage
 ```
 

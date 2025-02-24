@@ -45,7 +45,7 @@ Crashlytics helps you to collect analytics and details about crashes and errors 
 
 Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-crashlytics
 ```
 

@@ -44,7 +44,7 @@ This plugin depends on the default mail app. If you want a fallback to a third p
 
 To install the plugin, run the following command in the root directory of your project:
 
-```cli
+```bash
 npm install @nativescript/email
 ```
 

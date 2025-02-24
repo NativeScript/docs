@@ -99,7 +99,7 @@ To add the Cloud Firestore SDK to your app, install and import the `@nativescrip
 
 1. Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-firestore
 ```
 

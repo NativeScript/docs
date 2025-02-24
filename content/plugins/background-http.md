@@ -31,7 +31,7 @@ A plugin that allows you to make background HTTP uploads.
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/background-http
 ```
 
@@ -417,7 +417,7 @@ All the following task events extend the preceding EventData interface.
 
 To test the plugin , you must have a server instance to accept the uploads. There are online services that can be used for small file uploads - e.g. `http://httpbin.org/post` However, these cannot be used for large files. The plugin repository comes with a simple server you can run locally. Here is how to start it:
 
-```cli
+```bash
 cd demo-server
 npm i
 node server 8080

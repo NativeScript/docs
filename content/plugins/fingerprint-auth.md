@@ -15,7 +15,7 @@ This plugin is replaced by [@nativescript/biometrics](../biometrics)
 
 # @nativescript/fingerprint-auth
 
-```cli
+```bash
 npm install @nativescript/fingerprint-auth
 ```
 
