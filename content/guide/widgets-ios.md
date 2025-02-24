@@ -14,6 +14,8 @@ $ ns widget ios
 
 This will allow you to create a Home Screen Widget, a Live Activity on the lock screen or a combination of both.
 
+<iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/PJ-GgvUcao4" title="Developing Widgets for iOS with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## ns widget ios
 
 The widget command generates all the necessary files for your NativeScript project to develop iOS widgets. The setup includes a fully functioning hypothetical pizza delivery widget which you can learn from and customize for your own needs.
