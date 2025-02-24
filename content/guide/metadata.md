@@ -72,7 +72,7 @@ Sample filtering specifications can be found in `@nativescript/core` plugin's re
 Missing metadata entities could result in bugs at runtime. For example, if a native class has been accidentally filtered out, its constructor function will be `undefined` and this will lead to an exception when its attempted to be called. Figuring out what is the reason for something being `undefined` could be quite difficult because the reasons can vary. To check whether metadata filtering is to blame or not you should examine metadata generator's verbose logs after a successful build:
 
 - On iOS they are located in `platforms/ios/build/<configuration>-<platform>/metadata-generation-stderr-<arch>.txt` (e.g. `platforms/ios/build/Debug-iphonesimulator/metadata-generation-stderr-x86_64.txt`);
-- On Android they are located in `platforms/android/build-tools/buildMetadata.log`
+- On Android they are located in `platforms/android/build-tools/mdg-java-out.txt`
 
 For each global symbol that is discovered by the generator, there should be a line providing information whether it was included in the metadata or not, and which rules or what exception caused this. Examples:
 
