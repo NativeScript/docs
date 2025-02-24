@@ -17,20 +17,46 @@ For single-line text input, see [TextField](/ui/text-field).
 <img src="../assets/images/screenshots/android/TextView.png"/>
 </DeviceFrame>
 
+
+
+<Tabs>
+<Tab flavor="typescript">
+
 ::: code-group
-
-<<< @/../examples/typescript/src/ui/TextView/template.xml#example [XML View]
-
+<<< @/../examples/typescript/src/ui/TextView/template.xml#example [XML]
 <<< @/../examples/typescript/src/ui/TextView/template.ts#example [TypeScript]
+:::
 
-<<< @/../examples/angular/src/ui/TextView/component.html#example [XML View]
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/TextView/component.html#example [HTML]
 <<< @/../examples/angular/src/ui/TextView/component.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/textview.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/textview.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/TextView.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/TextView/component.vue#example
 
-:::
+</Tab>
+</Tabs>
 
 ## Examples
 

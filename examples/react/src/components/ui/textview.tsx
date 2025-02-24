@@ -12,9 +12,7 @@ type HomeProps = {
 }
 
 export function TextView({ navigation }: HomeProps) {
-  // #region example
   const text = `TextView\nWith\nMultiple\nLines!`
-  // #endregion example
   return (
     <>
       <frame>

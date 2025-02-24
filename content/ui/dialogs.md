@@ -45,12 +45,41 @@ See [DialogOptions](/api/interface/DialogOptions), [R.style](https://developer.a
 <img src="../assets/images/screenshots/android/Dialogs-Alert.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-alert
-<<< @/../examples/angular/src/ui/Dialogs/component.html#example-alert
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-alert [HTML]
+<<< @/../examples/angular/src/ui/Dialogs/component.ts#example-alert [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/dialogs.tsx#example-alert
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/dialogs.tsx#example-alert
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-alert
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/Dialogs/component.vue#example-alert
+
+</Tab>
+</Tabs>
 
 A dialog for alerting the user.
 
@@ -65,12 +94,41 @@ See [alert()](/api/#alert).
 <img src="../assets/images/screenshots/android/Dialogs-Action.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-action
-<<< @/../examples/angular/src/ui/Dialogs/component.html#example-action
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-action [HTML]
+<<< @/../examples/angular/src/ui/Dialogs/component.ts#example-action [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/dialogs.tsx#example-action
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/dialogs.tsx#example-action
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-action
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/Dialogs/component.vue#example-action
+
+</Tab>
+</Tabs>
 
 A dialog for prompting the user to choose.
 
@@ -87,12 +145,41 @@ See [action()](/api/#action).
 <img src="../assets/images/screenshots/android/Dialogs-Confirm.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-confirm
-<<< @/../examples/angular/src/ui/Dialogs/component.html#example-confirm
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-confirm [HTML]
+<<< @/../examples/angular/src/ui/Dialogs/component.ts#example-confirm [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/dialogs.tsx#example-confirm
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/dialogs.tsx#example-confirm
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-confirm
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/Dialogs/component.vue#example-confirm
+
+</Tab>
+</Tabs>
 
 A dialog for prompting the user to confirm.
 
@@ -107,12 +194,41 @@ See [confirm()](/api/#confirm).
 <img src="../assets/images/screenshots/android/Dialogs-Prompt.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-prompt
-<<< @/../examples/angular/src/ui/Dialogs/component.html#example-prompt
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-prompt [HTML]
+<<< @/../examples/angular/src/ui/Dialogs/component.ts#example-prompt [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/dialogs.tsx#example-prompt
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/dialogs.tsx#example-prompt
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-prompt
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/Dialogs/component.vue#example-prompt
+
+</Tab>
+</Tabs>
 
 A dialog for prompting the user for input.
 
@@ -131,12 +247,41 @@ See [prompt()](/api/#prompt), [CoreTypes.AutocapitalizationType](/api/namespace/
 <img src="../assets/images/screenshots/android/Dialogs-Login.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/Dialogs/template.ts#example-login
-<<< @/../examples/angular/src/ui/Dialogs/component.html#example-login
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/Dialogs/component.html#example-login [HTML]
+<<< @/../examples/angular/src/ui/Dialogs/component.ts#example-login [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/dialogs.tsx#example-login
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/dialogs.tsx#example-login
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/Dialogs.svelte#example-login
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/Dialogs/component.vue#example-login
+
+</Tab>
+</Tabs>
 
 A dialog for prompting the user for credentials.
 

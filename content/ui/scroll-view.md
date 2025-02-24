@@ -21,13 +21,38 @@ A ScrollView can only have a single child element.
 <img src="../assets/images/screenshots/android/ScrollView.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/ScrollView/template.xml#example
 
+</Tab>
+<Tab flavor="angular">
+
 <<< @/../examples/angular/src/ui/ScrollView/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/scrollview.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/scrollview.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/ScrollView.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/ScrollView/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

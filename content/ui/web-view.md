@@ -17,13 +17,38 @@ See also: [HtmlView](/ui/html-view).
 <img src="../assets/images/screenshots/android/WebView.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/WebView/template.xml#example
 
+</Tab>
+<Tab flavor="angular">
+
 <<< @/../examples/angular/src/ui/WebView/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/webview.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/webview.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/WebView.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/WebView/component.vue#example
+
+</Tab>
+</Tabs>
 
 ::: info Tip
 To be able to use gestures inside a WebView on Android, [disable zoom controls](#disableZoom).

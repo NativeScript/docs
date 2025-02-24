@@ -15,6 +15,10 @@ contributors:
 <img src="../assets/images/screenshots/android/ActivityIndicator.png"/>
 </DeviceFrame>
 
+## Examples
+
+### Always busy ActivityIndicator
+
 <Tabs>
 <Tab flavor="vue">
 
@@ -22,11 +26,6 @@ contributors:
 
 </Tab>
 <Tab flavor="typescript">
-
-<<< @/../examples/typescript/src/ui/ActivityIndicator/template.xml#example
-
-</Tab>
-<Tab flavor="javascript">
 
 <<< @/../examples/typescript/src/ui/ActivityIndicator/template.xml#example
 
@@ -46,20 +45,14 @@ contributors:
 <<< @/../examples/react/src/components/ui/activityindicator.tsx#example
 
 </Tab>
+
+</Tab>
 <Tab flavor="solid">
 
 <<< @/../examples/solid/src/ui/activityindicator.tsx#example
 
 </Tab>
 </Tabs>
-
-## Examples
-
-### Always busy ActivityIndicator
-
-```xml
-<ActivityIndicator busy="true" />
-```
 
 ## Props
 

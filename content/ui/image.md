@@ -28,7 +28,12 @@ Working with many images can quickly become a memory hog, for improved image han
 <img src="../assets/images/screenshots/android/Image.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/Image/template.xml#example
+
+</Tab>
 
 ## Examples
 

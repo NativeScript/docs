@@ -1,9 +1,9 @@
-import { action, login, confirm, prompt, Frame } from '@nativescript/core'
+import { Dialogs } from '@nativescript/core'
 
-export const Dialogs = () => {
+export const DialogsCmp = () => {
   function showAlert() {
     // #region example-alert
-    alert({
+    Dialogs.alert({
       title: 'Alert!',
       message: 'Please try again later.',
       okButtonText: 'OK',
@@ -14,7 +14,7 @@ export const Dialogs = () => {
 
   function showAction() {
     // #region example-action
-    action({
+    Dialogs.action({
       title: 'Action!',
       message: 'Choose your language:',
       cancelButtonText: 'Cancel',
@@ -27,7 +27,7 @@ export const Dialogs = () => {
 
   function showConfirm() {
     // #region example-confirm
-    confirm({
+    Dialogs.confirm({
       title: 'Confirm!',
       message: 'Are you sure you want to do this?',
       okButtonText: 'Yes',
@@ -39,7 +39,7 @@ export const Dialogs = () => {
 
   function showPrompt() {
     // #region example-prompt
-    prompt({
+    Dialogs.prompt({
       title: 'Prompt!',
       message: 'Enter the name of this framework:',
       defaultText: 'NativeScript',
@@ -55,7 +55,7 @@ export const Dialogs = () => {
 
   function showLogin() {
     // #region example-login
-    login({
+    Dialogs.login({
       title: 'Login!',
       message: 'Enter your credentials',
       okButtonText: 'Login',

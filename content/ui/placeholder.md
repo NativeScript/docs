@@ -15,15 +15,40 @@ contributors:
 <img src="../assets/images/screenshots/android/Placeholder.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/Placeholder/template.xml#example
 <<< @/../examples/typescript/src/ui/Placeholder/template.ts#example
 
+</Tab>
+<Tab flavor="angular">
+
 <<< @/../examples/angular/src/ui/Placeholder/component.html#example
 <<< @/../examples/angular/src/ui/Placeholder/component.ts#example
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/placeholder.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/placeholder.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/Placeholder.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/Placeholder/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

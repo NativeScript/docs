@@ -7,7 +7,7 @@ import { ActionBar } from './ui/actionbar'
 import { ActivityIndicator } from './ui/activityindicator'
 import { Button } from './ui/button'
 import { DatePicker } from './ui/datepicker'
-import { Dialogs } from './ui/dialogs'
+import { DialogsCmp } from './ui/dialogs'
 import { HtmlView } from './ui/htmlview'
 import { Image } from './ui/image'
 import { Label } from './ui/label'
@@ -55,7 +55,7 @@ export const MainStack = () => (
 
       <StackNavigator.Screen name="DatePicker" component={DatePicker} />
 
-      <StackNavigator.Screen name="Dialogs" component={Dialogs} />
+      <StackNavigator.Screen name="Dialogs" component={DialogsCmp} />
 
       <StackNavigator.Screen name="HtmlView" component={HtmlView} />
 

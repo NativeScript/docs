@@ -7,7 +7,7 @@ export type MainStackParamList = {
   ActivityIndicator: { Title: string; };
   Button: { Title: string; };
   DatePicker: { Title: string; };
-  Dialogs: { Title: string; };
+  DialogsCmp: { Title: string; };
   HtmlView: { Title: string; };
   Image: { Title: string; };
   Label: { Title: string; };

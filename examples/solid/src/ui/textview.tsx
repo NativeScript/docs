@@ -1,9 +1,7 @@
 import { Frame } from '@nativescript/core'
 
 export const TextView = () => {
-  // #region example
   const text = `TextView\nWith\nMultiple\nLines!`
-  // #endregion example
   function goBack() {
     Frame.goBack()
   }

@@ -20,12 +20,38 @@ Views also part of the ActionBar abstraction:
 <img src="../assets/images/screenshots/android/ActionBar.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/ActionBar/page.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
 <<< @/../examples/angular/src/ui/ActionBar/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/actionbar.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/actionbar.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/ActionBar.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/Actionbar/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Examples
 

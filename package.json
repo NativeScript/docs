@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "prepare": "patch-package",
+    "postinstall": "patch-package",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",

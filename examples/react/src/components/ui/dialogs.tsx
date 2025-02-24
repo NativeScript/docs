@@ -2,7 +2,7 @@ import { RouteProp } from '@react-navigation/core'
 import * as React from 'react'
 import { StyleSheet } from 'react-nativescript'
 import { FrameNavigationProp } from 'react-nativescript-navigation'
-import { action, Frame, confirm, login, prompt } from '@nativescript/core'
+import { Dialogs, Frame } from '@nativescript/core'
 
 import { MainStackParamList } from '../../NavigationParamList'
 
@@ -11,10 +11,10 @@ type HomeProps = {
   navigation: FrameNavigationProp<MainStackParamList, 'Dialogs'>
 }
 
-export function Dialogs({ navigation }: HomeProps) {
+export function DialogsCmp({ navigation }: HomeProps) {
   function showAlert() {
     // #region example-alert
-    alert({
+    Dialogs.alert({
       title: 'Alert!',
       message: 'Please try again later.',
       okButtonText: 'OK',
@@ -25,7 +25,7 @@ export function Dialogs({ navigation }: HomeProps) {
 
   function showAction() {
     // #region example-action
-    action({
+    Dialogs.action({
       title: 'Action!',
       message: 'Choose your language:',
       cancelButtonText: 'Cancel',
@@ -38,7 +38,7 @@ export function Dialogs({ navigation }: HomeProps) {
 
   function showConfirm() {
     // #region example-confirm
-    confirm({
+    Dialogs.confirm({
       title: 'Confirm!',
       message: 'Are you sure you want to do this?',
       okButtonText: 'Yes',
@@ -50,7 +50,7 @@ export function Dialogs({ navigation }: HomeProps) {
 
   function showPrompt() {
     // #region example-prompt
-    prompt({
+    Dialogs.prompt({
       title: 'Prompt!',
       message: 'Enter the name of this framework:',
       defaultText: 'NativeScript',
@@ -66,7 +66,7 @@ export function Dialogs({ navigation }: HomeProps) {
 
   function showLogin() {
     // #region example-login
-    login({
+    Dialogs.login({
       title: 'Login!',
       message: 'Enter your credentials',
       okButtonText: 'Login',

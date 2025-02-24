@@ -3,7 +3,7 @@ import { Home } from '~/home'
 import { ActionBar } from '~/ui/actionbar'
 import { Button } from './ui/button'
 import { DatePicker } from './ui/datepicker'
-import { Dialogs } from './ui/dialogs'
+import { DialogsCmp } from './ui/dialogs'
 import { HtmlView } from './ui/htmlview'
 import { Image } from './ui/image'
 import { ListPicker } from './ui/listpicker'
@@ -32,7 +32,7 @@ const App = () => {
       <Route name="ActivityIndicator" component={ActivityIndicator} />
       <Route name="Button" component={Button} />
       <Route name="DatePicker" component={DatePicker} />
-      <Route name="Dialogs" component={Dialogs} />
+      <Route name="Dialogs" component={DialogsCmp} />
       <Route name="HtmlView" component={HtmlView} />
       <Route name="Image" component={Image} />
       <Route name="Label" component={Label} />

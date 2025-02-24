@@ -11,20 +11,20 @@ import { NativeScriptCommonModule } from '@nativescript/angular';
 })
 export class DialogsComponent {
   
+  // #region example-alert
   showAlert() {
-    // #region example-alert
     Dialogs.alert({
       title: 'Alert!',
       message: 'Please try again later.',
       okButtonText: 'OK',
       cancelable: true,
     })
-    // #endregion example-alert
     console.log('Show Alert');
   }
+  // #endregion example-alert
 
+  // #region example-action
   showAction() {
-    // #region example-action
     Dialogs.action({
       title: 'Action!',
       message: 'Choose your language:',
@@ -35,11 +35,11 @@ export class DialogsComponent {
     }).then((result) => {
       console.log(result)
     })
-    // #endregion example-action
   }
+  // #endregion example-action
   
+  // #region example-confirm
   showConfirm() {
-    // #region example-confirm
     Dialogs.confirm({
       title: 'Confirm!',
       message: 'Are you sure you want to do this?',
@@ -49,11 +49,11 @@ export class DialogsComponent {
     }).then((result) => {
       console.log(result)
     })
-    // #endregion example-confirm
   }
+  // #endregion example-confirm
 
+  // #region example-prompt
   showPrompt() {
-    // #region example-prompt
     Dialogs.prompt({
       title: 'Prompt!',
       message: 'Enter the name of this framework:',
@@ -67,11 +67,11 @@ export class DialogsComponent {
     }).then((result) => {
       console.log(result)
     })
-    // #endregion example-prompt
   }
+  // #endregion example-prompt
 
+  // #region example-login
   showLogin() {
-    // #region example-login
     Dialogs.login({
       title: 'Login!',
       message: 'Enter your credentials',
@@ -86,6 +86,6 @@ export class DialogsComponent {
     }).then((result) => {
       console.log(result)
     })
-    // #endregion example-login
   }
+  // #endregion example-login
 }

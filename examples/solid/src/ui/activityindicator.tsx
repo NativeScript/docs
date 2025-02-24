@@ -9,7 +9,7 @@ export const ActivityIndicator = () => {
       <actionbar title="ActionBar">
         <actionitem on:tap={goBack} text="<<Back"></actionitem>
       </actionbar>
-      v{/* @ts-ignore */}
+      {/* @ts-ignore */}
       <gridlayout>
         <contentview
           verticalAlignment="center"

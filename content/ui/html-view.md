@@ -22,15 +22,41 @@ See also: [WebView](/ui/web-view).
 <img src="../assets/images/screenshots/android/HtmlView.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/HtmlView/template.xml#example
 <<< @/../examples/typescript/src/ui/HtmlView/template.ts#example{xml}
 
+</Tab>
+
+<Tab flavor="angular">
+
 <<< @/../examples/angular/src/ui/HtmlView/component.html#example
 <<< @/../examples/angular/src/ui/HtmlView/component.ts#example{html}
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/htmlview.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/htmlview.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/HtmlView.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/HtmlView/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

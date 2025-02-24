@@ -29,7 +29,6 @@ export function HtmlView({ navigation }: HomeProps) {
             horizontalAlignment={'center'}
           >
             {/* #region example */}
-
             <htmlView html={htmlString}></htmlView>
             {/* #endregion example */}
           </stackLayout>

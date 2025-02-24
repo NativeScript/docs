@@ -1,7 +1,8 @@
 <script lang="ts" setup>
+  import { Dialogs } from '@nativescript/core'
   function showAlert() {
     // #region example-alert
-    alert({
+    Dialogs.alert({
       title: 'Alert!',
       message: 'Please try again later.',
       okButtonText: 'OK',
@@ -13,7 +14,7 @@
 
   function showAction() {
     // #region example-action
-    action({
+    Dialogs.action({
       title: 'Action!',
       message: 'Choose your language:',
       cancelButtonText: 'Cancel',
@@ -28,7 +29,7 @@
 
   function showConfirm() {
     // #region example-confirm
-    confirm({
+    Dialogs.confirm({
       title: 'Confirm!',
       message: 'Are you sure you want to do this?',
       okButtonText: 'Yes',
@@ -42,7 +43,7 @@
 
   function showPrompt() {
     // #region example-prompt
-    prompt({
+    Dialogs.prompt({
       title: 'Prompt!',
       message: 'Enter the name of this framework:',
       defaultText: 'NativeScript',
@@ -60,7 +61,7 @@
 
   function showLogin() {
     // #region example-login
-    login({
+    Dialogs.login({
       title: 'Login!',
       message: 'Enter your credentials',
       okButtonText: 'Login',
@@ -81,7 +82,7 @@
 <template>
   <Page>
     <StackLayout>
-      <Button @tap="showAlert" textAlignment="left" padding="8">Alert</Button>
+      <Button text="Alert" @tap="showAlert" textAlignment="left" padding="8"></Button>
       <Button text="Action" @tap="showAction" textAlignment="left" padding="8"></Button>
       <Button text="Confirm" @tap="showConfirm" textAlignment="left" padding="8"></Button>
       <Button text="Prompt" @tap="showPrompt" textAlignment="left" padding="8"></Button>

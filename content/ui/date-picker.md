@@ -17,12 +17,38 @@ See also: [TimePicker](/ui/time-picker).
 <img src="../assets/images/screenshots/android/DatePicker.png"/>
 </DeviceFrame>
 
+<Tabs>
+<Tab flavor="typescript">
+
 <<< @/../examples/typescript/src/ui/DatePicker/template.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
 <<< @/../examples/angular/src/ui/DatePicker/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
 <<< @/../examples/react/src/components/ui/datepicker.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
 <<< @/../examples/solid/src/ui/datepicker.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
 <<< @/../examples/svelte/app/components/ui/DatePicker.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
 <<< @/../examples/vue/src/ui/DatePicker/component.vue#example
+
+</Tab>
+</Tabs>
 
 ```xml
 <DatePicker
