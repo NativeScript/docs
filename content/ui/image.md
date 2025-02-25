@@ -16,7 +16,7 @@ When working with images, consider following [the best practices](/performance.h
 
 Working with many images can quickly become a memory hog, for improved image handling it's recommended to use an Image caching library. Here are a few plugins from our community:
 
-- [@triniwiz/image-cache-it](https://triniwiz.github.io/nativescript-plugins/api-reference/image-cache-it.html)
+- [@triniwiz/nativescript-image-cache-it](https://triniwiz.github.io/nativescript-plugins/api-reference/image-cache-it.html)
 - [@nativescript-community/ui-image](https://github.com/nativescript-community/ui-image)
 
 :::
@@ -28,7 +28,38 @@ Working with many images can quickly become a memory hog, for improved image han
 <img src="../assets/images/screenshots/android/Image.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Image/template.xml#example
+<Tabs>
+<Tab flavor="typescript">
+
+<<< @/../examples/typescript/src/ui/Image/template.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
+<<< @/../examples/angular/src/ui/Image/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/image.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/image.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/Image.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/Image/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Examples
 

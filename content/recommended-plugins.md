@@ -15,11 +15,11 @@ For web-compatible WebSockets, we recommend installing the [`@valor/nativescript
 
 ::: code-group
 
-```cli [NPM]
+```bash [NPM]
 npm i --save @valor/nativescript-websockets
 ```
 
-```cli [Yarn]
+```bash [Yarn]
 yarn add @valor/nativescript-websockets
 ```
 
@@ -35,11 +35,11 @@ One of the go-to plugins is [`@triniwiz/nativescript-image-cache-it`](https://ww
 
 ::: code-group
 
-```cli [NPM]
+```bash [NPM]
 npm i --save @triniwiz/nativescript-image-cache-it
 ```
 
-```cli [Yarn]
+```bash [Yarn]
 yarn add @triniwiz/nativescript-image-cache-it
 ```
 
@@ -51,11 +51,11 @@ Another great plugin is from the NativeScript-Community ['@nativescript-communit
 
 ::: code-group
 
-```cli [NPM]
+```bash [NPM]
 npm i --save @nativescript-community/ui-image
 ```
 
-```cli [Yarn]
+```bash [Yarn]
 yarn add @nativescript-community/ui-image
 ```
 
@@ -69,11 +69,11 @@ As an alternative to the core [Label](/ui/label), check out [`@nativescript-comm
 
 ::: code-group
 
-```cli [NPM]
+```bash [NPM]
 npm i --save @nativescript-community/ui-label
 ```
 
-```cli [Yarn]
+```bash [Yarn]
 yarn add @nativescript-community/ui-label
 ```
 
@@ -87,11 +87,11 @@ A drop-in replacement for the core HTTP with improvements and additions like con
 
 ::: code-group
 
-```cli [NPM]
+```bash [NPM]
 npm i --save @nativescript-community/https
 ```
 
-```cli [Yarn]
+```bash [Yarn]
 yarn add @nativescript-community/https
 ```
 
@@ -103,11 +103,11 @@ A drop-in replacement for the core HTTP with improvements and additions like con
 
 ::: code-group
 
-```cli [NPM]
+```bash [NPM]
 npm i --save @klippa/nativescript-http
 ```
 
-```cli [Yarn]
+```bash [Yarn]
 yarn add @klippa/nativescript-http
 ```
 

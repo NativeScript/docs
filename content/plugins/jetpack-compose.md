@@ -26,7 +26,7 @@ A plugin that allows you to use Jetpack Compose in NativeScript.
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/jetpack-compose
 ```
 
@@ -122,7 +122,7 @@ import {
 declare var com
 registerJetpackCompose(
   'flyingHearts',
-  (view) => new ComposeDataDriver(new com.example.FlyingHearts(), view)
+  (view) => new ComposeDataDriver(new com.example.FlyingHearts(), view),
 )
 ```
 

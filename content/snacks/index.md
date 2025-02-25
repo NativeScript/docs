@@ -438,6 +438,30 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle:
       "Screen Snapshot",
   },
+  {
+    id: 24,
+    title: "Solid NativeScript Vibes",
+    href: "https://stackblitz.com/edit/nativescript-solid-vibes?file=src%2Fcomponents%2Fhome.tsx",
+    description:
+      "Example of using audio player with metering.",
+    categories: [
+      {
+        title: "iOS AVAudioPlayer",
+        href: "https://developer.apple.com/documentation/avfaudio/avaudioplayer/averagepower(forchannel:)?language=objc",
+      },
+      {
+        title: "Android Visualizer",
+        href: "https://developer.android.com/reference/android/media/audiofx/Visualizer",
+      },
+      {
+        title: "Solid",
+        href: "https://www.solidjs.com/",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/FLxZ_T5yN_A",
+    videoTitle:
+      "Solid NativeScript Vibes",
+  },
 ];
 
 </script>

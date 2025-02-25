@@ -21,7 +21,7 @@ We have gone through these steps on **Ubuntu 20.04** and noted the commands we u
 
 <!-- tab:Ubuntu 20.04 -->
 
-```cli
+```bash
 # On Ubuntu 20.04, we used the following command to install latest node
 $ curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
@@ -29,7 +29,7 @@ $ sudo apt-get install -y nodejs
 
 To confirm **Node** is installed correctly, run:
 
-```cli
+```bash
 $ node -v
 $ npm -v
 # Should print something like
@@ -45,14 +45,14 @@ A **JDK version 8 or greater** is required, and you have a couple options:
 
 <!-- tab:Ubuntu 20.04 -->
 
-```cli
+```bash
 # On Ubuntu 20.04, we used the following command to install OpenJDK 17
 sudo apt-get install -y openjdk-17-jdk
 ```
 
 To confirm **JDK** is installed correctly, run:
 
-```cli
+```bash
 $ java --version
 $ javac --version
 # Should print something like
@@ -90,7 +90,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 Install the NativeScript CLI globally:
 
-```cli
+```bash
 npm install -g nativescript
 ```
 
@@ -104,7 +104,7 @@ Depending on how you installed **Node**, you may get an `EACCESS: permission den
 
 To verify that the installation was successful, open a new Command Prompt window (to ensure the new environment variables are loaded) and run
 
-```cli
+```bash
 ns doctor android
 ```
 

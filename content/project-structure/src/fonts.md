@@ -10,7 +10,7 @@ A folder for storing custom fonts. Any `.ttf` files placed here are automaticall
 
 Place the `.ttf` files in the `src/fonts` folder, then run
 
-```cli
+```bash
 ns fonts
 ```
 

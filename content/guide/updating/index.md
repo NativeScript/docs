@@ -16,7 +16,7 @@ Updating a NativeScript app is usually a quick process if done regularly. The fo
 
 To try upcoming features that have not been release yet, you can install the `next` tag of the CLI (built from the latest commit in the [NativeScript CLI repository](https://github.com/NativeScript/nativescript-cli/commits/main)) via:
 
-```cli
+```bash
 npm install -g nativescript@next
 ```
 
@@ -24,6 +24,6 @@ You can also pass a tag to the `ns update` command.
 
 For example, to try all the latest features that have not made it into a stable release yet, you can run:
 
-```cli
+```bash
 ns update next
 ```

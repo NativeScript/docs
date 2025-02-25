@@ -33,7 +33,7 @@ The following commands will build your app in release mode, and copy the result 
 
 <!-- tab: .aab -->
 
-```cli
+```bash
 ns build android --release \
   --key-store-path <path-to-your-keystore> \
   --key-store-password <your-key-store-password> \
@@ -45,7 +45,7 @@ ns build android --release \
 
 <!-- tab: .apk -->
 
-```cli
+```bash
 ns build android --release \
   --key-store-path <path-to-your-keystore> \
   --key-store-password <your-key-store-password> \
@@ -58,7 +58,7 @@ ns build android --release \
 
 <!-- tab: Example Windows -->
 
-```cli
+```bash
 ns build android --release \
   --key-store-path C:\projects\app\upload.keystore \
   --key-store-password example_password \
@@ -70,7 +70,7 @@ ns build android --release \
 
 <!-- tab: Example macOS/Linux -->
 
-```cli
+```bash
 ns build android --release \
   --key-store-path ~/projects/app/upload.keystore \
   --key-store-password example_password \

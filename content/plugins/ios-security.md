@@ -44,7 +44,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/ios-security
 
 To install the plugin, run the following command in your app's root folder:
 
-```cli
+```bash
 npm install @nativescript/ios-security
 ```
 

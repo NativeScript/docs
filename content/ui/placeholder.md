@@ -15,8 +15,44 @@ contributors:
 <img src="../assets/images/screenshots/android/Placeholder.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/Placeholder/template.xml#example
-<<< @/../examples/src/ui/Placeholder/template.ts#example
+<Tabs>
+<Tab flavor="typescript">
+
+::: code-group
+<<< @/../examples/typescript/src/ui/Placeholder/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/Placeholder/template.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/Placeholder/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/Placeholder/component.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/placeholder.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/placeholder.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/Placeholder.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/Placeholder/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

@@ -26,7 +26,7 @@ A plugin that extends the Nativescript [Label](https://docs.nativescript.org/ui/
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/auto-fit-text
 ```
 
@@ -99,7 +99,7 @@ import { registerElement } from 'nativescript-vue'
 
 registerElement(
   'AutoFitText',
-  () => require('@nativescript/auto-fit-text').AutoFitText
+  () => require('@nativescript/auto-fit-text').AutoFitText,
 )
 ```
 
@@ -121,14 +121,17 @@ import { registerNativeViewElement } from 'svelte-native/dom'
 
 registerNativeViewElement(
   'autoFitText',
-  () => require('@nativescript/auto-fit-text').AutoFitText
+  () => require('@nativescript/auto-fit-text').AutoFitText,
 )
 ```
 
 2. Use the view in a markup of any component.
 
 ```svelte
-<autoFitText fontSize="48" text="Lorem Ipsum this line of text with fontSize ignored because the text is so long." />
+<autoFitText
+  fontSize="48"
+  text="Lorem Ipsum this line of text with fontSize ignored because the text is so long."
+/>
 ```
 
 ## Credits

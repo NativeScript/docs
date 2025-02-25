@@ -15,7 +15,7 @@ A NativeScript plugin that provides a UI element for picking an object/value fro
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/picker
 ```
 

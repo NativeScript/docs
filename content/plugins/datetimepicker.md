@@ -47,7 +47,7 @@ A plugin that provides the UI elements `DatePickerField`, `TimePickerField` and 
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/datetimepicker
 ```
 
@@ -137,7 +137,7 @@ Once you have installed the plugin, register the `DateTimePickerFields` with you
 ```ts
 registerNativeViewElement(
   'dateTimePickerFields',
-  () => require('@nativescript/datetimepicker').DateTimePickerFields
+  () => require('@nativescript/datetimepicker').DateTimePickerFields,
 )
 ```
 
@@ -361,7 +361,7 @@ function createPicker(args: EventData) {
       cancelButtonText: 'Cancel',
       locale: 'es',
     },
-    dateTimePickerStyle
+    dateTimePickerStyle,
   ).then((result) => {
     // handle the result
   })
@@ -378,12 +378,12 @@ function onPickDateTap(args: EventData) {
   const dateTomorrow = new Date(
     dateToday.getFullYear(),
     dateToday.getMonth(),
-    dateToday.getDate() + 1
+    dateToday.getDate() + 1,
   )
   const dateNextWeek = new Date(
     dateToday.getFullYear(),
     dateToday.getMonth(),
-    dateToday.getDate() + 7
+    dateToday.getDate() + 7,
   )
 
   DateTimePicker.pickDate({
@@ -409,7 +409,7 @@ function onPickTimeTap(args: EventData) {
   const dateTomorrow = new Date(
     dateToday.getFullYear(),
     dateToday.getMonth(),
-    dateToday.getDate() + 1
+    dateToday.getDate() + 1,
   )
   dateTomorrow.setHours(8)
   dateTomorrow.setMinutes(0)

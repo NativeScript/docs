@@ -68,7 +68,7 @@ This plugin allows you to add the [Firebase Dynamic Links SDK](https://firebase.
 
   1.  Install the plugin by running the following command in the root directory of your project.
 
-      ```cli
+      ```bash
       npm install @nativescript/firebase-dynamic-links
       ```
 
@@ -141,7 +141,7 @@ Allows you to add a callback function that gets called when your app's screen is
 ```ts
 type OnLinkListener = (
   link: DynamicLink | null,
-  error: FirebaseError | null
+  error: FirebaseError | null,
 ) => void
 ```
 
@@ -164,7 +164,7 @@ const dynamicLinks = firebase().dynamicLinks()
 
 const link = dynamicLinks.createShortLink(
   'https://docs.nativescript.org',
-  'https://triniwiz.page.link'
+  'https://triniwiz.page.link',
 )
 
 link.social = new DynamicLinkSocialParameters()
@@ -248,7 +248,7 @@ dynamicLinks = firebase().dynamicLinks()
 
 dynamicLinkParameters: DynamicLinkParameters = dynamicLinks.createLink(
   link,
-  domainUri
+  domainUri,
 )
 ```
 
@@ -269,7 +269,7 @@ dynamicLinks = firebase().dynamicLinks()
 dynamicLinkParameters: DynamicLinkParameters = dynamicLinks.createShortLink(
   link,
   domainUri,
-  shortLinkType
+  shortLinkType,
 )
 ```
 
@@ -328,7 +328,7 @@ Allows you to add a callback function that gets called when your app's screen is
 ```ts
 type OnLinkListener = (
   link: DynamicLink | null,
-  error: FirebaseError | null
+  error: FirebaseError | null,
 ) => void
 ```
 

@@ -37,7 +37,7 @@ Use this plugin with any of the following plugins:
 
 Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-core
 ```
 
