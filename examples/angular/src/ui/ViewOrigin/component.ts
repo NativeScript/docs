@@ -29,7 +29,7 @@ export class ViewOriginComponent {
     
     // allow custom origin to be visible outside of the box
     this.box.on('loaded', (args) => {
-      if (global.isAndroid) {
+      if (__ANDROID__) {
         ;(args.object as GridLayout).android.getParent().setClipChildren(false)
       }
     })
@@ -70,7 +70,7 @@ export class ViewOriginComponent {
     this.box.originY = +y
 
     // iOS shifts the view when origin is set??
-    if (global.isIOS) {
+    if (__IOS__) {
       this.box.translateX = this.box.originX * 200
       this.box.translateY = this.box.originY * 200
     }

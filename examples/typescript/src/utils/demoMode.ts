@@ -11,10 +11,10 @@ function setDemoFlag(command: string, ...args: [string, string][]) {
 }
 
 export function enableDemoMode() {
-  if (global.isIOS) {
+  if (__IOS__) {
     // set the status bar  time to 9:41, full battery and full wifi/cellular
     SDStatusBarManager.sharedInstance().enableOverrides()
-  } else if (global.isAndroid) {
+  } else if (__ANDROID__) {
     setDemoFlag('enter')
     setDemoFlag('clock', ['hhmm', '0941'])
     setDemoFlag('battery', ['level', '100'])
@@ -31,9 +31,9 @@ export function enableDemoMode() {
 }
 
 export function disableDemoMode() {
-  if (global.isIOS) {
+  if (__IOS__) {
     SDStatusBarManager.sharedInstance().disableOverrides()
-  } else if (global.isAndroid) {
+  } else if (__ANDROID__) {
     setDemoFlag('exit')
   }
 }

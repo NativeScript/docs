@@ -26,7 +26,7 @@ export function navigatingTo(args: EventData) {
 
   // allow custom origin to be visible outside of the box
   box.on('loaded', (args) => {
-    if (global.isAndroid) {
+    if (__ANDROID__) {
       ;(args.object as GridLayout).android.getParent().setClipChildren(false)
     }
   })
@@ -51,7 +51,7 @@ export function navigatingTo(args: EventData) {
     box.originY = +y
 
     // iOS shifts the view when origin is set??
-    if (global.isIOS) {
+    if (__IOS__) {
       box.translateX = box.originX * 200
       box.translateY = box.originY * 200
     }

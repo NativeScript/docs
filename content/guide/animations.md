@@ -479,11 +479,11 @@ In addition to expressing NativeScript [Animation APIs](#animating-with-code) wh
 ```ts
 touchAnimation = {
   down(view: View) {
-    if (global.isIOS) {
+    if (__IOS__) {
       UIView.animateWithDurationAnimations(0.25, () => {
         view.ios.transform = CGAffineTransformMakeScale(0.95, 0.95)
       })
-    } else if (global.isAndroid) {
+    } else if (__ANDROID__) {
       const lib = androidx.dynamicanimation.animation
       const spring = new lib.SpringForce(0.95)
         .setDampingRatio(lib.SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY)
@@ -505,11 +505,11 @@ touchAnimation = {
     }
   },
   up(view: View) {
-    if (global.isIOS) {
+    if (__IOS__) {
       UIView.animateWithDurationAnimations(0.25, () => {
         view.ios.transform = CGAffineTransformIdentity
       })
-    } else if (global.isAndroid) {
+    } else if (__ANDROID__) {
       const lib = androidx.dynamicanimation.animation
       const spring = new lib.SpringForce(1)
         .setDampingRatio(lib.SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY)

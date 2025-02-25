@@ -143,12 +143,12 @@ The widget generator expects iOS 17 minimum.
 
 If you encounter errors similar to the following:
 
-```
+```bash
 App_Resources/iOS/extensions/widget/WidgetBundle.swift:7:3: error: 'WidgetHomeScreen' is only available in application extensions for iOS 17.0 or newer
 ```
 
 Add the following line to your `App_Resources/iOS/build.xcconfig`:
 
-```
+```bash
 IPHONEOS_DEPLOYMENT_TARGET = 17;
 ```

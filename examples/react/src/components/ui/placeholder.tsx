@@ -14,11 +14,11 @@ type HomeProps = {
 export function Placeholder({ navigation }: HomeProps) {
   const creatingView = (args) => {
     let nativeView
-    if (global.isIOS) {
+    if (__IOS__) {
       // Example with UITextView on iOS
       nativeView = UITextView.new()
       nativeView.text = 'Native View (iOS)'
-    } else if (global.isAndroid) {
+    } else if (__ANDROID__) {
       // Example with TextView on Android
       nativeView = new android.widget.TextView(
         Utils.android.getApplicationContext(),

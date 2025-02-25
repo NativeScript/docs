@@ -4,7 +4,8 @@ import mainSidebar from '../content/sidebar'
 import uiSidebar from '../content/ui/sidebar'
 import pluginsSidebar from '../content/plugins/sidebar'
 import nav from './nav'
-import './theme/cliLanguage'
+import './clientAppEnhance';
+// import './theme/cliLanguage'
 import path from 'node:path'
 import { SiteMap } from './genSitemap.mjs'
 
@@ -71,6 +72,7 @@ export default defineConfig({
   },
   markdown: {
     headers: true,
+    theme: "github-dark"
   },
   async transformPageData(pageData, { siteConfig }) {
     // const contributors = await githubAuthors.getAuthorsForFilePath(
