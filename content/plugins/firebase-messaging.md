@@ -92,7 +92,7 @@ To add the Firebase Cloud Messaging SDK to your app follow these steps:
 
 1. Install the `@nativescript/firebase-messaging` plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-messaging
 ```
 
@@ -233,7 +233,7 @@ admin.messaging().sendToDevice(
     contentAvailable: true,
     // Required for background/quit data-only messages on Android
     priority: 'high',
-  }
+  },
 )
 ```
 
@@ -368,7 +368,7 @@ async function onUserPictureLiked(ownerId, userId, picture) {
       contentAvailable: true,
       // Required for background/quit data-only messages on Android
       priority: 'high',
-    }
+    },
   )
 }
 ```

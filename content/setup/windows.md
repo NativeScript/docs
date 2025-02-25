@@ -24,11 +24,11 @@ To install **Node** we recommend using a node version manager, such as [nvm-wind
 2. Run and follow the `nvm-setup.exe` instructions.
 3. Once the installation is complete, open a new Command Prompt and verify you can run `nvm ls`.
 4. Install the latest Node release with:
-   ```cli
+   ```bash
    nvm install node
    ```
 5. Verify the installation was successful and run
-   ```cli
+   ```bash
    node -v
    npm -v
    ```
@@ -45,13 +45,13 @@ If any of the above failed, we recommend checking out the [Microsoft Docs for Se
 
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) open an Administrator Command Prompt (right click and select "Run as Administrator") and run the following command:
 
-```cli
+```bash
 choco install -y temurin17
 ```
 
 Once installed, you might need to add it to your `Path`. First, check if you need to add it to your `Path` by opening a new Command Prompt and running the following:
 
-```cli
+```bash
 javac --version
 ```
 
@@ -125,7 +125,7 @@ Next, add Android **platform-tools** to path:
 
 Install the NativeScript CLI globally:
 
-```cli
+```bash
 npm install -g nativescript
 ```
 
@@ -135,7 +135,7 @@ npm install -g nativescript
 
 To verify that the installation was successful, open a new Command Prompt window (to ensure the new environment variables are loaded) and run:
 
-```cli
+```bash
 ns doctor android
 ```
 

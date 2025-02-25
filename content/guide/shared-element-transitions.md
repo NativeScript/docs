@@ -346,7 +346,7 @@ SharedTransition.events().on(
   SharedTransition.finishedEvent,
   (data: SharedTransitionEventData) => {
     //
-  }
+  },
 )
 ```
 

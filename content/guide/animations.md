@@ -199,8 +199,9 @@ You can combine two animations in the `animation` property by using commas:
 
 ```css
 .view {
-  animation: example 4s ease-in-out 2s infinite reverse, second-animation-example
-      5s ease-out;
+  animation:
+    example 4s ease-in-out 2s infinite reverse,
+    second-animation-example 5s ease-out;
 }
 ```
 
@@ -478,11 +479,11 @@ In addition to expressing NativeScript [Animation APIs](#animating-with-code) wh
 ```ts
 touchAnimation = {
   down(view: View) {
-    if (global.isIOS) {
+    if (__IOS__) {
       UIView.animateWithDurationAnimations(0.25, () => {
         view.ios.transform = CGAffineTransformMakeScale(0.95, 0.95)
       })
-    } else if (global.isAndroid) {
+    } else if (__ANDROID__) {
       const lib = androidx.dynamicanimation.animation
       const spring = new lib.SpringForce(0.95)
         .setDampingRatio(lib.SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY)
@@ -490,25 +491,25 @@ touchAnimation = {
       let animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_X,
-        float(0.95)
+        float(0.95),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(1.0)
       animation.start()
       animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_Y,
-        float(0.95)
+        float(0.95),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(1.0)
       animation.start()
     }
   },
   up(view: View) {
-    if (global.isIOS) {
+    if (__IOS__) {
       UIView.animateWithDurationAnimations(0.25, () => {
         view.ios.transform = CGAffineTransformIdentity
       })
-    } else if (global.isAndroid) {
+    } else if (__ANDROID__) {
       const lib = androidx.dynamicanimation.animation
       const spring = new lib.SpringForce(1)
         .setDampingRatio(lib.SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY)
@@ -516,14 +517,14 @@ touchAnimation = {
       let animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_X,
-        float(1)
+        float(1),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(0.95)
       animation.start()
       animation = new lib.SpringAnimation(
         view.android,
         lib.DynamicAnimation().SCALE_Y,
-        float(1)
+        float(1),
       )
       animation.setSpring(spring).setStartVelocity(0.7).setStartValue(0.95)
       animation.start()

@@ -15,7 +15,38 @@ contributors:
 <img src="../assets/images/screenshots/android/SegmentedBar.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/SegmentedBar/template.xml#example
+<Tabs>
+<Tab flavor="typescript">
+
+<<< @/../examples/typescript/src/ui/SegmentedBar/template.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
+<<< @/../examples/angular/src/ui/SegmentedBar/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/segmentedbar.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/segmentedbar.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/SegmentedBar.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/SegmentedBar/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

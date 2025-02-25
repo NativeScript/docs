@@ -811,8 +811,7 @@ Used with CSS variables:
 
 ```css
 element {
-    --my-variable: 10:
-    width: calc(100% * var(--my-variable)); /* width: 125% */
+  --my-variable: 10: width: calc(100% * var(--my-variable)); /* width: 125% */
 }
 ```
 

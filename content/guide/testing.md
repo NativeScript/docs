@@ -17,14 +17,14 @@ Before writing and running unit tests, the completion of the following steps mus
 1. [Install and configure the NativeScript CLI on your system.](/setup/)
 1. If you don't have any projects, create a new project and navigate to the directory of the newly created directory.
 
-   ```cli
+   ```bash
    ns create projectName
    cd projectName
    ```
 
 1. If you want to create tests for an existing directory, navigate to the directory of the project.
 
-   ```cli
+   ```bash
    cd existingProjectDirectory
    ```
 
@@ -40,7 +40,7 @@ The NativeScript CLI lets you choose between three widely popular unit testing f
 
 To initialize your project for unit testing, run the following command and, when prompted, use the keyboard arrows to select the framework that you want to use.
 
-```cli
+```bash
 ns test init
 ```
 
@@ -59,19 +59,19 @@ To enable and write unit tests for TypeScript or Angular project install the Typ
 
 <!-- tab:Jasmine -->
 
-```cli
+```bash
 npm i @types/jasmine --save-dev
 ```
 
 <!-- tab:Mocha -->
 
-```cli
+```bash
 npm i @types/mocha --save-dev
 ```
 
 <!-- tab:QUnit -->
 
-```cli
+```bash
 npm i @types/qunit --save-dev
 ```
 
@@ -147,12 +147,12 @@ QUnit.test('Hello World Sample Test:', function (assert) {
   assert.equal(
     mainViewModel.createViewModel().counter,
     42,
-    'Counter, 42; equal succeeds.'
+    'Counter, 42; equal succeeds.',
   ) //Assert that the counter equals 42.
   assert.equal(
     mainViewModel.createViewModel().message,
     '42 taps left',
-    'Message, 42 taps left; equal succeeds.'
+    'Message, 42 taps left; equal succeeds.',
   ) //Assert that the message is "42 taps left".
 })
 ```
@@ -248,13 +248,13 @@ Before running your tests, verify that your development machine and your testing
 
 - The Android native emulators on which you want to run your tests must be running on your development machine. To verify that your machine recognizes the devices, run the following command.
 
-  ```cli
+  ```bash
   ns device
   ```
 
 - The physical devices on which you want to run your tests must be connected to your development machine. To verify that your machine recognizes the devices, run the following command.
 
-  ```cli
+  ```bash
   ns device
   ```
 
@@ -269,25 +269,25 @@ To execute your test suite on any connected Android devices or running Android e
 Be sure you have prepared the app at least once before starting the unit test runner.
 :::
 
-```cli
+```bash
 ns test android
 ```
 
 To execute your test suite on connected iOS devices, run the following command.
 
-```cli
+```bash
 ns test ios
 ```
 
 To execute your test suite in the iOS Simulator, run the following command.
 
-```cli
+```bash
 ns test ios --emulator
 ```
 
 To execute your test suite in CI make sure to add `--justlaunch`. This parameter will exit the simulator.
 
-```cli
+```bash
 ns test ios --emulator --justlaunch
 ```
 
@@ -308,7 +308,7 @@ The NativeScript can continuously monitor your code for changes and when such ch
 
 To enable this behavior, run your `ns test` command with the `--watch` flag. For example:
 
-```cli
+```bash
 ns test android --watch
 ns test ios --watch
 ns test ios --emulator --watch

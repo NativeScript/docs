@@ -42,7 +42,7 @@ A plugin that allows you to offer [Google Pay](https://developers.google.com/pay
 
 ## Installation
 
-```cli
+```bash
 ns plugin add @nativescript/google-pay
 ```
 
@@ -114,7 +114,7 @@ googlePayBtn.once(
 
     // send the user payments data to your payments services provider here
     const result = await someHttpCallToPaymentServiceProvider(payloadToBackend)
-  }
+  },
 )
 ```
 

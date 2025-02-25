@@ -18,7 +18,7 @@ let applePayController: PKPaymentAuthorizationViewController
 
 applePayController =
   PKPaymentAuthorizationViewController.alloc().initWithPaymentRequest(
-    paymentRequest
+    paymentRequest,
   )
 applePayController.delegate =
   PKPaymentAuthorizationViewControllerDelegateImpl.initWithOwner(this)
@@ -32,7 +32,7 @@ let applePayControllerDelegate: PKPaymentAuthorizationViewControllerDelegateImpl
 
 applePayController =
   PKPaymentAuthorizationViewController.alloc().initWithPaymentRequest(
-    paymentRequest
+    paymentRequest,
   )
 applePayControllerDelegate =
   PKPaymentAuthorizationViewControllerDelegateImpl.initWithOwner(this)

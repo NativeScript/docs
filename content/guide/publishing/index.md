@@ -7,6 +7,7 @@ breadcrumbs:
   - name: 'Publishing'
 ---
 
-- [Publishing to Google Play](/guide/publishing/android-google-play)
-- Publishing to AppStore [WIP] [old v8 docs](https://v8.docs.nativescript.org/releasing.html#ios)
-- [Publishing with Fastlane](/guide/publishing/fastlane)
+## [Publishing to Google Play](/guide/publishing/android-google-play)
+## [Publishing to Apple App Store](/guide/publishing/apple-app-store)
+## [Publishing iOS updated using ns publish ios](/guide/publishing/ns-publish)
+## [Publishing with Fastlane](https://blog.nativescript.org/automatic-nativescript-app-deployments-with-fastlane/)

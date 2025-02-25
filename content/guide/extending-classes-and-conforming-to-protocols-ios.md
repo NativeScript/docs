@@ -43,7 +43,7 @@ const MyViewController = UIViewController.extend(
   },
   {
     name: 'MyViewController',
-  }
+  },
 )
 ```
 
@@ -125,13 +125,13 @@ const MyViewController = UIViewController.extend(
     viewDidLoad: function () {
       // ...
       const aboutButton = UIButton.buttonWithType(
-        UIButtonType.UIButtonTypeRoundedRect
+        UIButtonType.UIButtonTypeRoundedRect,
       )
       // Pass this target and the aboutTap selector for touch up callback.
       aboutButton.addTargetActionForControlEvents(
         this,
         'aboutTap',
-        UIControlEvents.UIControlEventTouchUpInside
+        UIControlEvents.UIControlEventTouchUpInside,
       )
       // ...
     },
@@ -149,7 +149,7 @@ const MyViewController = UIViewController.extend(
       // Declare the signature of the aboutTap. We can not infer it, since it is not inherited from base class or protocol.
       aboutTap: { returns: interop.types.void, params: [UIControl] },
     },
-  }
+  },
 )
 ```
 
@@ -181,7 +181,7 @@ const MyAppDelegate = UIResponder.extend(
     // We will obtain the method signature from the protocol.
     applicationDidFinishLaunchingWithOptions: function (
       application,
-      launchOptions
+      launchOptions,
     ) {
       this._window = new UIWindow(UIScreen.mainScreen.bounds)
       this._window.rootViewController = MyViewController.alloc().init()
@@ -194,7 +194,7 @@ const MyAppDelegate = UIResponder.extend(
     name: 'MyAppDelegate',
     // Declare that the native Objective-C class will implement the UIApplicationDelegate Objective-C protocol.
     protocols: [UIApplicationDelegate],
-  }
+  },
 )
 ```
 
@@ -204,7 +204,7 @@ Let's look how to declare a delegate in Typescript by setting one for the [Tesse
 interface G8TesseractDelegate extends NSObjectProtocol {
   preprocessedImageForTesseractSourceImage?(
     tesseract: G8Tesseract,
-    sourceImage: UIImage
+    sourceImage: UIImage,
   ): UIImage
   progressImageRecognitionForTesseract?(tesseract: G8Tesseract): void
   shouldCancelImageRecognitionForTesseract?(tesseract: G8Tesseract): boolean
@@ -226,7 +226,7 @@ class G8TesseractDelegateImpl extends NSObject implements G8TesseractDelegate {
 
   preprocessedImageForTesseractSourceImage(
     tesseract: G8Tesseract,
-    sourceImage: UIImage
+    sourceImage: UIImage,
   ): UIImage {
     console.info('preprocessedImageForTesseractSourceImage')
     return sourceImage

@@ -48,6 +48,10 @@ export default [
         link: '/guide/debugging',
       },
       {
+        text: 'Publishing',
+        link: '/guide/publishing',
+      },
+      {
         text: 'Plugins',
         link: '/guide/development-workflow/using-packages',
       },
@@ -59,11 +63,6 @@ export default [
         text: 'Testing',
         link: '/guide/testing',
       },
-      // TODO: finish app store and fastlane
-      // {
-      //   text: 'Publishing',
-      //   link: '/guide/publishing/',
-      // },
       {
         text: 'Updating',
         link: '/guide/updating/',
@@ -299,6 +298,10 @@ export default [
       {
         text: 'Platform Version Handling',
         link: '/guide/platform-version-handling',
+      },
+      {
+        text: 'Widgets for iOS',
+        link: '/guide/widgets-ios',
       }
     ],
   },

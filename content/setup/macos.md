@@ -30,11 +30,11 @@ To install **Node** we recommend using a node version manager, such as [nvm](htt
 1. Follow the [install instructions in the nvm repository](https://github.com/nvm-sh/nvm#installing-and-updating).
 2. Once the installation is complete, open a new Terminal and verify you can run `nvm ls`.
 3. Install the latest Node release with:
-   ```cli
+   ```bash
    nvm install node
    ```
 4. Verify the installation was successful and run
-   ```cli
+   ```bash
    node -v
    npm -v
    ```
@@ -43,7 +43,7 @@ To install **Node** we recommend using a node version manager, such as [nvm](htt
 
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) run the following command:
 
-```cli
+```bash
 brew install --cask temurin@17
 ```
 
@@ -53,7 +53,7 @@ Using JDK 17 is highly recommended as the nativescript-bundled version of gradle
 
 Once installed, open a new Terminal and verify that the default version is the one we installed:
 
-```cli
+```bash
 javac --version
 # should print something like:
 # javac 17.x.x
@@ -97,7 +97,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 Install the **NativeScript CLI** globally:
 
-```cli
+```bash
 npm install -g nativescript
 ```
 
@@ -107,7 +107,7 @@ npm install -g nativescript
 
 To verify that the installation was successful, open a new Command Prompt window (to ensure the new environment variables are loaded) and run:
 
-```cli
+```bash
 ns doctor android
 ```
 
@@ -136,11 +136,11 @@ To install **Node** we recommend using a node version manager, such as [nvm](htt
 1. Follow the [install instructions in the nvm repository](https://github.com/nvm-sh/nvm#installing-and-updating).
 2. Once the installation is complete, open a new Terminal and verify you can run `nvm ls`.
 3. Install the latest Node release with:
-   ```cli
+   ```bash
    nvm install node
    ```
 4. Verify the installation was successful and run
-   ```cli
+   ```bash
    node -v
    npm -v
    ```
@@ -164,7 +164,7 @@ In newer versions of XCode, 'Preferences' may be 'Settings'
 
 Install **ruby 3.3+** and link it so it's available in your shell environment:
 
-```cli
+```bash
 brew install ruby@3.3
 brew link ruby@3.3
 ```
@@ -198,7 +198,7 @@ In a new terminal window, install the **<abbr title="A package manager for manag
 <!-- brew install cocoapods # this will install both cocoapods and xcodeproj -->
 <!-- gem install ... # requires root privileges on macOS. sudo works. -->
 
-```cli
+```bash
 gem install cocoapods
 gem install xcodeproj
 ```
@@ -210,7 +210,7 @@ If the binary is not found run `gem env` to examine your folders, and update you
 
 Install python3 from Homebrew:
 
-```cli
+```bash
 brew install python
 
 # verify installation
@@ -219,7 +219,7 @@ python3 --version
 
 Next, update **<abbr title="Python package manager">pip</abbr>** and install **<abbr title="Python 2 & 3 compatibility package used by NativeScript">six</abbr>** by running the following:
 
-```cli
+```bash
 python3 -m pip install --upgrade pip
 python3 -m pip install six
 ```
@@ -233,7 +233,7 @@ macOS ships with Python pre-installed, however starting with **macos 12.3** ther
 
 Install python3 from Homebrew, then alias it as `python`:
 
-```cli
+```bash
 brew install python
 
 # create /usr/local/bin directory if it doesn’t exist
@@ -250,7 +250,7 @@ python --version
 
 Next, update **<abbr title="Python package manager">pip</abbr>** and install **<abbr title="Python 2 & 3 compatibility package used by NativeScript">six</abbr>** by running the following:
 
-```cli
+```bash
 python -m pip install --upgrade pip
 python -m pip install six
 ```
@@ -260,7 +260,7 @@ python -m pip install six
 
 Install the **NativeScript CLI** globally:
 
-```cli
+```bash
 npm install -g nativescript
 ```
 
@@ -270,7 +270,7 @@ npm install -g nativescript
 
 To verify that the installation was successful, open a new Terminal window (to ensure the new environment variables are loaded) and run:
 
-```cli
+```bash
 ns doctor ios
 ```
 

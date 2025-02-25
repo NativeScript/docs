@@ -69,7 +69,7 @@ The `@nativescript/firebase-admob` plugin currently supports loading and display
 
 To install `@nativescript/firebase-admob`, run the following command in the root directory of the project:
 
-```cli
+```bash
 npm install @nativescript/firebase-admob
 ```
 
@@ -341,7 +341,7 @@ Create an Interstitial ad instance by calling the static `createForAdRequest` on
 ```ts
 import { InterstitialAd } from '@nativescript/firebase-admob'
 const ad = InterstitialAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 ```
 
@@ -353,7 +353,7 @@ To listen for the ad lifecycle events, such as when the ad is display or dismiss
 import { InterstitialAd } from '@nativescript/firebase-admob'
 
 const ad = InterstitialAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 
 ad.onAdEvent((event, error, data) => {
@@ -379,7 +379,7 @@ ad.onAdEvent((event, error, data) => {
 import { InterstitialAd } from '@nativescript/firebase-admob'
 
 const ad = InterstitialAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 
 ad.onAdEvent((event, error, data) => {
@@ -408,7 +408,7 @@ To display the ad, call the `show` method on the ad instance. This method is cal
 import { InterstitialAd } from '@nativescript/firebase-admob'
 
 const ad = InterstitialAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 
 ad.onAdEvent((event, error, data) => {
@@ -493,7 +493,7 @@ const loader = new NativeAdLoader(
     nativeAdOptions: {
       adChoicesPlacement: AdChoicesPlacement.TOP_RIGHT,
     },
-  }
+  },
 )
 ```
 
@@ -631,7 +631,7 @@ Create a Rewarded ad instance by calling the `createForAdRequest` static method 
 import { RewardedAd } from '@nativescript/firebase-admob'
 
 const ad = RewardedAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 ```
 
@@ -642,7 +642,7 @@ const ad = RewardedAd.createForAdRequest(
 import { RewardedAd } from '@nativescript/firebase-admob'
 
 const ad = RewardedAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 
 ad.onAdEvent((event, error, data) => {
@@ -661,7 +661,7 @@ ad.onAdEvent((event, error, data) => {
 import { RewardedAd } from '@nativescript/firebase-admob'
 
 const ad = RewardedAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 
 ad.onAdEvent((event, error, data) => {
@@ -682,7 +682,7 @@ To show the ad on the screen, call the `show()` method on the ad instance.
 import { RewardedAd } from '@nativescript/firebase-admob'
 
 const ad = RewardedAd.createForAdRequest(
-  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy'
+  'ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy',
 )
 
 ad.onAdEvent((event, error, data) => {

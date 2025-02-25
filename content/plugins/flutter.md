@@ -188,7 +188,7 @@ Common troubleshooting tips:
 
 Before running Android, you will want to build the flutter module first. Otherwise you may see this error:
 
-```cli
+```bash
 Transform's input file does not exist: flutter_views/.android/Flutter/build/intermediates/flutter/debug/libs.jar
 ```
 

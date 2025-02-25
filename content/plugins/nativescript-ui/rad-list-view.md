@@ -20,7 +20,7 @@ The **NativeScript UI ListView** plugin is a virtualizing list component that pr
 
 In Command prompt / Terminal navigate to your application root folder and run:
 
-```cli
+```bash
 npm install nativescript-ui-listview
 ```
 

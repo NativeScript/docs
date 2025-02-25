@@ -72,7 +72,7 @@ To add the Firebase Remote Config to your app, follow these steps:
 
 1. Install the `@nativescript/firebase-remote-config` plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-remote-config
 ```
 
@@ -144,7 +144,7 @@ firebase()
       console.log('Configs were retrieved from the backend and activated.')
     } else {
       console.log(
-        'No configs were fetched from the backend, and the local configs were already activated'
+        'No configs were fetched from the backend, and the local configs were already activated',
       )
     }
   })

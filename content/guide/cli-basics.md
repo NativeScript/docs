@@ -25,7 +25,7 @@ This helps ensure everything fits together correctly. If you're dealing with mys
 
 To clean, run this command from your project's root directory:
 
-```cli
+```bash
 ns clean
 ```
 
@@ -43,7 +43,7 @@ If you have multiple projects in a directory, you can run `ns clean` in it, and 
 
 To list all connected devices (both physical and virtual), run:
 
-```cli
+```bash
 ns devices
 ```
 
@@ -61,7 +61,7 @@ Example output:
 
 To set the default package manager that the CLI uses (unless overridden in [nativescript.config.ts](/project-structure/nativescript-config#cli-packagemanager)):
 
-```cli
+```bash
 ns package-manager set npm
 ns package-manager set yarn
 ns package-manager set yarn2 # experimental

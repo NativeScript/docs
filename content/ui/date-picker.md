@@ -17,18 +17,38 @@ See also: [TimePicker](/ui/time-picker).
 <img src="../assets/images/screenshots/android/DatePicker.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/DatePicker/template.xml#example
+<Tabs>
+<Tab flavor="typescript">
 
-```xml
-<DatePicker
-  year="2023"
-  month="8"
-  day="28"
-  date="{{ date }}"
-  minDate="{{ minDate }}"
-  maxDate="{{ maxDate }}"
-/>
-```
+<<< @/../examples/typescript/src/ui/DatePicker/template.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
+<<< @/../examples/angular/src/ui/DatePicker/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/datepicker.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/datepicker.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/DatePicker.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/DatePicker/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

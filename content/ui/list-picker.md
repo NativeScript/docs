@@ -15,8 +15,45 @@ contributors:
 <img src="../assets/images/screenshots/android/ListPicker.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ListPicker/template.xml#example
-<<< @/../examples/src/ui/ListPicker/template.ts#example
+<Tabs>
+<Tab flavor="typescript">
+
+::: code-group
+<<< @/../examples/typescript/src/ui/ListPicker/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/ListPicker/template.ts#example [TypeScript]
+:::
+
+</Tab>
+
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/ListPicker/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/ListPicker/component.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/listpicker.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/listpicker.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/ListPicker.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/ListPicker/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

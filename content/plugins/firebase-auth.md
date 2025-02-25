@@ -57,7 +57,7 @@ Use this plugin with the [@nativescript/firebase-core](../firebase-core/) plugin
 
 Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-auth
 ```
 
@@ -211,7 +211,7 @@ signIn({
   .then((result: User) => {
     const oauthCredential = AppleAuthProvider.credential(
       result.identityToken,
-      result.nonce
+      result.nonce,
     )
 
     firebase().auth().signInWithCredential(oauthCredential)
@@ -250,7 +250,7 @@ LoginManager.logInWithPermissions(['public_profile', 'email']).then(
 
     // Sign-in the user with the credential
     return firebase().auth().signInWithCredential(facebookCredential)
-  }
+  },
 )
 ```
 
@@ -277,7 +277,7 @@ Twitter.init('TWITTER_CONSUMER_KEY', 'TWITTER_CONSUMER_SECRET') // called earlie
 TwitterSignIn.logIn().then((data) => {
   const twitterAuthCredential = TwitterAuthProvider.credential(
     data.authToken,
-    data.authTokenSecret
+    data.authTokenSecret,
   )
 
   firebase().auth().signInWithCredential(twitterAuthCredential)
@@ -315,7 +315,7 @@ GoogleSignin.configure() // called earlier in the app
 GoogleSignin.signIn().then((user) => {
   const credential = GoogleAuthProvider.credential(
     user.idToken,
-    user.accessToken
+    user.accessToken,
   )
 
   firebase().auth().signInWithCredential(credential)
@@ -357,7 +357,7 @@ PhoneAuthProvider.provider()
     // use the verificationCode entered by the user to create PhoneAuthCredentials
     const credential = PhoneAuthProvider.provider().credential(
       verificationId,
-      verificationCode
+      verificationCode,
     )
     firebase().auth().signInWithCredential(credential)
   })

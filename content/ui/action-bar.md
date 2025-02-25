@@ -20,7 +20,41 @@ Views also part of the ActionBar abstraction:
 <img src="../assets/images/screenshots/android/ActionBar.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ActionBar/page.xml#example
+<Tabs>
+<Tab flavor="typescript">
+
+<<< @/../examples/typescript/src/ui/ActionBar/page.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/ActionBar/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/ActionBar/component.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/actionbar.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/actionbar.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/ActionBar.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/Actionbar/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Examples
 
@@ -83,6 +117,14 @@ By default, a border is drawn at the bottom of the ActionBar. In addition to the
 <ActionBar title="MyApp" flat="true" />
 ```
 
+:::tip 8.9+
+You can alternatively use `iosShadow="false"` in the event you want to keep the translucency but remove the border.
+:::
+
+```xml
+<ActionBar title="MyApp" iosShadow="false" />
+```
+
 ## Props
 
 ### title
@@ -92,6 +134,14 @@ title: string
 ```
 
 Gets or sets the ActionBar title.
+
+::: tip 8.9+
+On iOS, you can also enable prefersLargeTitles by setting `iosLargeTitle="true"`
+:::
+
+```xml
+<ActionBar title="MyApp" iosLargeTitle="true" />
+```
 
 ### titleView
 

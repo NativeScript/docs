@@ -15,7 +15,38 @@ contributors:
 <img src="../assets/images/screenshots/android/SearchBar.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/SearchBar/template.xml#example
+<Tabs>
+<Tab flavor="typescript">
+
+<<< @/../examples/typescript/src/ui/SearchBar/template.xml#example
+
+</Tab>
+<Tab flavor="angular">
+
+<<< @/../examples/angular/src/ui/SearchBar/component.html#example
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/searchbar.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/searchbar.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/SearchBar.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/SearchBar/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Props
 

@@ -25,7 +25,7 @@ A plugin that is used with [@nativescript/mlkit-core](../mlkit-core/) to enable 
 
 Install `@nativescript/mlkit-face-detection` by running the following command:
 
-```cli
+```bash
 npm install @nativescript/mlkit-face-detection
 ```
 

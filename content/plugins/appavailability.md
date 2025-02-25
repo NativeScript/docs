@@ -15,7 +15,7 @@ A plugin that checks if an app is installed on a device.
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/appavailability
 ```
 
@@ -47,7 +47,7 @@ available(twitterScheme).then((available) => {
     Utils.openUrl(
       twitterScheme +
         (isIOS ? '/user?screen_name=' : 'user?user_id=') +
-        'eddyverbruggen'
+        'eddyverbruggen',
     )
   } else {
     // open in the default browser
@@ -66,7 +66,7 @@ if (availableSync('twitter://')) {
   Utils.openUrl(
     'twitter://' +
       (isIOS ? '/user?screen_name=' : 'user?user_id=') +
-      'eddyverbruggen'
+      'eddyverbruggen',
   )
 } else {
   Utils.openUrl('https://twitter.com/eddyverbruggen')

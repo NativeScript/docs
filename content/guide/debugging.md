@@ -40,7 +40,7 @@ console.timeEnd('myLabel')
 
 To start a Chrome debugging session, run your app in debug mode:
 
-```cli
+```bash
 ns debug android|ios
 ```
 
@@ -48,7 +48,7 @@ The `ns debug` command builds and deploys the app on a connected device or emula
 
 Once the app starts, a URL is printed to the console
 
-```cli{5-6}
+```bash{5-6}
 Setting up debugger proxy...
 Press Ctrl + C to terminate, or disconnect.
 
@@ -99,7 +99,7 @@ If you need to debug parts of the native stack instead of the JavaScript part of
 
 To start, prepare the iOS app:
 
-```cli
+```bash
 ns prepare ios
 ```
 
@@ -107,7 +107,7 @@ This compiles your app source, creates the `platforms/ios` folder (if it doesn't
 
 Next, open the `platforms/ios/<project-name>.xcworkspace` in XCode, either through the XCode browse menu, or from the command line:
 
-```cli
+```bash
 open platforms/ios/<project-name>.xcworkspace
 ```
 
@@ -134,7 +134,7 @@ If you need to debug parts of the native stack instead of the JavaScript part of
 
 To start, prepare the Android app:
 
-```cli
+```bash
 ns prepare android
 ```
 
@@ -145,7 +145,7 @@ Next, open the `platforms/android` folder in Android Studio, through the Android
 :::tip Tip
 If you [set up the `studio` command line launcher](https://stackoverflow.com/a/48266060/2270725), you can quickly open the NativeScript project from the command line with
 
-```cli
+```bash
 studio platforms/android
 ```
 

@@ -153,7 +153,7 @@ Register the plugin in `app.js` (or depending on your app's setup: `app.ts`, or 
 import Vue from 'nativescript-vue'
 Vue.registerElement(
   'KeyboardToolbar',
-  () => require('nativescript-keyboard-toolbar').Toolbar
+  () => require('nativescript-keyboard-toolbar').Toolbar,
 )
 ```
 

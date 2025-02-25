@@ -100,18 +100,116 @@ For example:
 ![some image](../assets/images/setup/windows/<some_image>.png)
 ```
 
-<!-- <Tabs>
-<Tab name="Vue">
+## Tabs
 
-SOMETHING SOMETHING
+:::warning
 
-```ts
-asd
+In order to render Markdown inside a tab, you **must** have one line break above and below the markdown content.
+
+For example:
+
+```xml
+<Tab>
+  # Test
+</Tab>
 ```
 
+Will render `# Test` literally, while
+
+```xml
+<Tab>
+
+  # Test
+
+</Tab>
+```
+
+Will render a `h1` Test title.
+
+:::
+
+<Tabs>
+  <Tab title="Simple Tab">
+  This is the most basic tab there is. Pure html content or whatever.
+  </Tab>
+
+  <Tab title="With Code Block">
+  
+  ```ts
+  console.log('Hello World!')
+  ```
+  
+  </Tab>
+
+  <Tab title="With External Code Block">
+
+<<< @/../examples/typescript/src/ui/ActionBar/page.xml#example
+
+  </Tab>
+
+  <Tab title="With Two Ext-Code Blocks">
+
+<<< @/../examples/typescript/src/ui/ActionBar/page.xml#example
+
+And another one:
+
+<<< @/../examples/typescript/src/ui/ActionBar/page.xml#example
+
+  </Tab>
+</Tabs>
+
+### Flavor Tabs
+
+<Tabs>
+<Tab flavor="vue">
+This is the vue tab
+</Tab>
+<Tab flavor="typescript">
+This is the typescript tab
+</Tab>
+<Tab flavor="javascript">
+This is the javascript tab
+</Tab>
+<Tab flavor="angular">
+This is the angular tab
+</Tab>
+<Tab flavor="svelte">
+This is the svelte tab
+</Tab>
+<Tab flavor="react">
+This is the react tab
+</Tab>
+<Tab flavor="solid">
+This is the solid tab
 </Tab>
 
-</Tabs> -->
+</Tabs>
+
+All Flavor tabs will be synchronized and ordered consistently:
+
+<Tabs>
+<Tab flavor="typescript">
+This is the typescript tab
+</Tab>
+<Tab flavor="javascript">
+This is the javascript tab
+</Tab>
+<Tab flavor="angular">
+This is the angular tab
+</Tab>
+<Tab flavor="svelte">
+This is the svelte tab
+</Tab>
+<Tab flavor="react">
+This is the react tab
+</Tab>
+<Tab flavor="vue">
+This is the vue tab
+</Tab>
+<Tab flavor="solid">
+This is the solid tab
+</Tab>
+</Tabs>
 
 ## StepList
 

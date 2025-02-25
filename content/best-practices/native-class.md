@@ -29,7 +29,7 @@ You can use setup methods in this case to mitigate any cross compilation issue, 
 ```ts
 let customClass
 function setupCustomClass() {
-  if (global.isAndroid) {
+  if (__ANDROID__) {
     @NativeClass()
     class CustomClass extends android.view.View {}
     customClass = CustomClass
@@ -44,7 +44,7 @@ setupCustomClass()
 const customClassInstance = new customClass() // can handle different platform args with ternary if needed
 ```
 
-The `global.isAndroid` conditional will get removed when building the app for iOS so your compiled code is clean and isolated while allowing you to handle in a single file.
+The `__ANDROID__` macro will get removed when building the app for iOS so your compiled code is clean and isolated while allowing you to handle in a single file.
 
 ## When exported from a file and used elsewhere
 

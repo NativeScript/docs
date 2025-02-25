@@ -21,19 +21,19 @@ You can also explore [@nativescript/core](/core/#nativescript-core), which is in
 
 Once the needed plugin is found, it can be installed in a NativeScript app using the `ns plugin add` command which behaves just like `npm install` while also modifying any existing platform projects (linking, etc.).
 
-```cli
+```bash
 ns plugin add <plugin-name>
 ```
 
 For example, the following command installs the [NativeScript camera plugin](https://v8.docs.nativescript.org/plugins/camera.html).
 
-```cli
+```bash
 ns plugin add @nativescript/camera
 ```
 
 Instead of using plugin add, package managers like npm, yarn, or pnpm can also be used:
 
-```cli
+```bash
 npm install --save @nativescript/camera
 ```
 
@@ -43,7 +43,7 @@ The installation of a NativeScript plugin is similar to installing a npm package
 
 As demonstrated above, the command `ns plugin add @nativescript/camera` is equivalent to `npm i @nativescript/camera --save` internally.  However, when installing a developer dependency, such as @nativescript/types or @nativescript/webpack, you need to explicitly save it as a devDependency.  To do so, use the npm install command with the --save-dev flag. For instance:
 
-```cli
+```bash
 npm i @nativescript/types --save-dev
 ```
 
@@ -69,13 +69,13 @@ requestPermissions()
 
 To remove a NativeScript plugin, you can use the following command.
 
-```cli
+```bash
 ns plugin remove <plugin-name>
 ```
 
 For example, the following command removes the NativeScript camera plugin.
 
-```cli
+```bash
 ns plugin remove @nativescript/camera
 ```
 
@@ -99,6 +99,6 @@ NativeScript CLI supports three package managers:
 
 In case you want to check what is the currently used package manager, you can use:
 
-```cli
+```bash
 ns package-manager get
 ```

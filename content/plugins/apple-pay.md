@@ -113,7 +113,7 @@ applePayBtn.once(
     // 1. Send the user payment data to your payments services provider(PSP)
     // 2. Use the response from the PSP to further process your transation, or
     // close the payment sheet
-  }
+  },
 )
 ```
 

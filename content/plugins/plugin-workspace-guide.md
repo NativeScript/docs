@@ -27,7 +27,7 @@ With our new workspace now in GitHub we can now clone it to begin developing plu
 
 <img src="https://nativescript.org/images/create-view-component-images/create-workspace3.png" width="600" alt="create-workspace3" />
 
-```cli
+```bash
 git clone https://github.com/nstudio/nativescript-ui-kit.git
 Cloning into 'nativescript-ui-kit'...
 
@@ -38,14 +38,14 @@ cd nativescript-ui-kit
 
 1. This first step will ensure all the dependencies are installed properly and only really needs to be run once after cloning the workspace. You can also use it anytime you simply want to clean/reset the workspace dependencies.
 
-   ```cli
+   ```bash
    npm run setup
    ```
 
 2. Now let's configure it to use the settings we prefer like which organization we want these plugins associated with.
    This will also give us a chance to configure the default package.json repository url and author details we want each package to use.
 
-   ```cli
+   ```bash
    npm run config
 
    ? What npm scope would you like to use for this workspace?
@@ -67,7 +67,7 @@ cd nativescript-ui-kit
 
 Let's add a package to develop a plugin, for example: `@nstudio/nativescript-label-marquee`
 
-```cli
+```bash
 npm run add
 
 ? What should the new package be named?
@@ -90,7 +90,7 @@ This created a `packages/nativescript-label-marquee` folder containing a plugin 
 
 ## Focus on a single package to develop in isolation
 
-```cli
+```bash
 npm start
 ```
 
@@ -103,7 +103,7 @@ You can reset anytime with `npm start` > `focus.reset` ENTER
 
 ## Publishing packages
 
-```cli
+```bash
 npm run publish-packages
 ```
 
@@ -117,7 +117,7 @@ Not all packages need specific Angular compatibility. Only if you want to provid
 
 You can [see an example of Angular specific behavior in a plugin here](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker/angular/nativescript-datetimepicker.accessors.ts).
 
-```cli
+```bash
 npm run add-angular
 ```
 
@@ -127,7 +127,7 @@ At the prompt, enter the name of the package to add an `angular` folder to it wi
 
 One of the nice benefits of using our plugin workspaces is updating them is made simple and efficient through Nx tooling. The TSC maintains plugin workspace migrations so whenever one is available you can update your plugin workspace with just a few simple commands (which will often provide dependency version bumps of supporting packages to latest NativeScript versions, configuration improvements, as well as other welcome additions to help you create and maintain NativeScript plugins):
 
-```cli
+```bash
 yarn nx migrate @nativescript/plugin-tools
 ```
 
@@ -135,7 +135,7 @@ That will fetch `latest` version of `plugin-tools`, analyze the package to see i
 
 Sometimes `@nativescript/plugin-tools` updates won't need any migrations so you won't always see migrations available but if it states they are available you can run them as the message states:
 
-```cli
+```bash
 // install latest updates
 yarn
 
@@ -250,7 +250,7 @@ export class PickerFieldComponent
   constructor(
     _elementRef: ElementRef,
     _iterableDiffers: IterableDiffers,
-    _cdRef: ChangeDetectorRef
+    _cdRef: ChangeDetectorRef,
   ) {
     super(_elementRef, _iterableDiffers, _cdRef)
   }
