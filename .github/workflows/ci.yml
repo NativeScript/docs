@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 22.14.0
           cache: 'npm'
       - run: yarn
       - run: npm run lint --if-present
