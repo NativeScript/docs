@@ -195,7 +195,7 @@ In your **app/App_Resources/iOS/Assets.xcassets** you will find the following su
 Open **AppIcon.appiconset** and change the default icons images with your own using the proper resolution for each image (e.g., icon-29.png should be 29px x 29px; icon-29@2x should be 58px x 58px; icon-29@3x should be 87px x 87px).
 If your images have different file names then open Contents.json and change the key `filename` for each image.
 
-<img alt="App icons config.json" src="../assets/publishing/launch-screen-howto-002.png" />
+<img alt="App icons config.json" src="../../assets/publishing/launch-screen-howto-002.png" />
 
 - Changing AppIcons: Xcode WYSIWYG approach
 
@@ -203,7 +203,7 @@ Drag and drop your **Assets.xcassets** into Xcode (7.1 or newer version).
 In the opened window choose **AppIcon** and add a proper image for each iOS version and device.
 Close Xcode and rebuild your NativeScript app to use the new AppIcons.
 
-<img alt="AppIcon setup in Xcode" src="../assets/publishing/launch-screen-howto-003.png" />
+<img alt="AppIcon setup in Xcode" src="../../assets/publishing/launch-screen-howto-003.png" />
 
 #### Customizing launch images
 
@@ -252,7 +252,7 @@ Your own storyboard can be customized to use your own logic with different image
 However, keep in mind that according to iOS Human Interface Guidelines, the LaunchScreen should be as light as possible
 with minimal or no moving elements and text labels. It is meant to provide immediate UX rather than artistic presentation.
 
-<img alt="LaunchScreen setup in Xcode" src="../assets/publishing/launch-screen-howto-010.png" />
+<img alt="LaunchScreen setup in Xcode" src="../../assets/publishing/launch-screen-howto-010.png" />
 
 ##### Customizing LaunchScreen.AspectFill
 
@@ -275,7 +275,7 @@ Drag and drop your **Assets.xcassets** into Xcode (7.1 or newer version).
 In the opened window choose **LaunchScreen.AspectFill** and add the properly scaled image for each entry (1x, 2x and 3x).
 Close Xcode and rebuild your NativeScript app to use the new LaunchScreen.AspectFill.
 
-<img alt="LaunchScreen.AspectFill setup in Xcode" src="../assets/publishing/launch-screen-howto-008.png" />
+<img alt="LaunchScreen.AspectFill setup in Xcode" src="../../assets/publishing/launch-screen-howto-008.png" />
 
 ##### Customizing LaunchScreen.Center
 
@@ -298,7 +298,7 @@ Drag and drop your **Assets.xcassets** into Xcode (7.1 or newer version).
 In the opened window choose **LaunchScreen.Center** and add the properly scaled image for each entry (1x, 2x and 3x).
 Close Xcode and rebuild your NativeScript app to use the new LaunchScreen.Center.
 
-<img alt="LaunchScreen.Center setup in Xcode" src="../assets/publishing/launch-screen-howto-009.png" />
+<img alt="LaunchScreen.Center setup in Xcode" src="../../assets/publishing/launch-screen-howto-009.png" />
 
 ### Certificates, identifiers & profiles
 
