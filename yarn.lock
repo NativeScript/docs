@@ -372,9 +372,9 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@nativescript/vitepress-theme@https://docs.nativescript.org/__/vitepress-theme.tgz?1740521792240":
+"@nativescript/vitepress-theme@https://docs.nativescript.org/__/vitepress-theme.tgz?1740610644642":
   version "1.0.0"
-  resolved "https://docs.nativescript.org/__/vitepress-theme.tgz?1740521792240#8b1955ac5a405c45d6e2e03eb3580f20dacf62d1"
+  resolved "https://docs.nativescript.org/__/vitepress-theme.tgz?1740610644642#a0443b1146e32fe2a37fe95a2f72eed22d29af41"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
