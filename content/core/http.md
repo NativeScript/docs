@@ -17,7 +17,7 @@ Http.getString('https://httpbin.org/get').then(
   (result: string) => {
     // do something with the string response
   },
-  (e) => {}
+  (e) => {},
 )
 ```
 
@@ -30,7 +30,7 @@ Http.getJSON('https://httpbin.org/get').then(
   (result) => {
     console.log(result)
   },
-  (e) => {}
+  (e) => {},
 )
 ```
 
@@ -40,12 +40,12 @@ Use the [getFile()](#getfile) method for a GET request with a response as a [Fil
 
 ```ts
 Http.getFile(
-  'https://art.nativescript.org/logo/export/NativeScript_Logo_Wide_White_Blue_Rounded_Blue.png'
+  'https://art.nativescript.org/logo/export/NativeScript_Logo_Wide_White_Blue_Rounded_Blue.png',
 ).then(
   (resultFile: File) => {
     // The returned result will be File object
   },
-  (e) => {}
+  (e) => {},
 )
 ```
 
@@ -56,7 +56,7 @@ Use the [getImage()](#getimage) method for a GET request with a response as an i
 ```ts
 Http.getImage('https://httpbin.org/image/jpeg').then(
   (res: ImageSource) => {},
-  (e) => {}
+  (e) => {},
 )
 ```
 
@@ -83,7 +83,7 @@ Http.request({
   },
   (e) => {
     // error
-  }
+  },
 )
 ```
 

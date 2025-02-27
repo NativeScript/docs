@@ -13,7 +13,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/debug-ios/RE
 
 Advanced iOS debugging made possible via [Flex](https://github.com/FLEXTool/FLEX).
 
-```cli
+```bash
 npm install @nativescript/debug-ios -D
 ```
 

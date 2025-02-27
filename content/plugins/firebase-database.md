@@ -65,7 +65,7 @@ NativeScript Firebase provides integration with the Android & iOS Firebase SDKs,
 
 Install the plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-database
 ```
 

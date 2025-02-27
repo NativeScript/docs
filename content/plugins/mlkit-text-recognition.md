@@ -23,7 +23,7 @@ A plugin used with [@nativescript/mlkit-core](../mlkit-core) to enable Text Reco
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/mlkit-text-recognition
 ```
 

@@ -17,9 +17,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 19
+          node-version: 22.14.0
           cache: 'npm'
-      - run: npm ci
+      - run: yarn
       - run: npm run lint --if-present
       - run: npm run build --if-present
         env:

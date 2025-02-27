@@ -19,7 +19,7 @@ XCode caches build data inside a folder called `DerivedData` - occasionally it c
 
 <abbr title="Android Debug Bridge">adb</abbr> can sometimes get stuck in an unresponsive state. In these cases, you can force restart the adb server by running:
 
-```cli
+```bash
 adb kill-server
 ```
 
@@ -27,7 +27,7 @@ adb kill-server
 
 ### Cocoapods Environment setup: CocoaPods is not installed or is not configured properly
 
-```cli
+```bash
 WARNING: CocoaPods is not installed or is not configured properly. 
  You will not be able to build your projects for iOS if they contain plugin with CocoaPod file.
 To be able to build such projects, verify that you have installed CocoaPods (sudo gem install cocoapods).
@@ -37,7 +37,7 @@ Cocoapods can be installed in system directories or via [homebrew](https://brew.
 
 You can try running the following safely:
 
-```cli
+```bash
 pod cache clean -all
 pod deintegrate
 rm -rf "${HOME}/Library/Caches/CocoaPods"
@@ -47,7 +47,7 @@ brew install cocoapods
 
 You can then confirm your Cocoapods installed properly and have the version you expect by running:
 
-```cli
+```bash
 pod --version
 ```
 
@@ -55,7 +55,7 @@ You could then try running `ns doctor` again.
 
 ### XCode 14: xcodebuild failed with exit code 65
 
-```cli
+```bash
 error: Signing for "XXX-YYY" requires a development team.
 Select a development team in the Signing & Capabilities editor. (in target 'XXX-YYY' from project 'Pods')
 
@@ -103,7 +103,7 @@ CocoaPods could not find compatible versions for pod "SDWebImage":
 
 CocoaPods are like npm packages but for iOS libraries (it’s their own npm registry if you will). Your local Cocoapods cache (usually located in `~/.cocoapods`) keeps a Spec list reference that can become outdated and needs to be manually updated with the following command:
 
-```cli
+```bash
 pod repo update
 ```
 

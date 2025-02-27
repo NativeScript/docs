@@ -49,7 +49,7 @@ To create your Firestore database, follow the instructions at [Create a Cloud Fi
 
 To add the Cloud Firebase Functions SDK to your app, install the `@nativescript/firebase-functions` plugin by running the following command in the root directory of your project.
 
-```cli
+```bash
 npm install @nativescript/firebase-functions
 ```
 

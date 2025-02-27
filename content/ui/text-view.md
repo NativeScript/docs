@@ -17,8 +17,44 @@ For single-line text input, see [TextField](/ui/text-field).
 <img src="../assets/images/screenshots/android/TextView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/TextView/template.xml#example
-<<< @/../examples/src/ui/TextView/template.ts#example
+<Tabs>
+<Tab flavor="typescript">
+
+::: code-group
+<<< @/../examples/typescript/src/ui/TextView/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/TextView/template.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/TextView/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/TextView/component.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/textview.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/textview.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/TextView.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/TextView/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Examples
 
@@ -117,6 +153,42 @@ autocorrect: boolean
 ```
 
 Enables or disables autocorrect.
+
+### isWritingToolsActive 8.9+
+
+(iOS Only) Are Apple Intelligence writing tools active.
+
+```ts
+isWritingToolsActive: boolean
+```
+
+### enableWritingToolsEvents 8.9+
+
+(iOS Only) Allow Apple Intelligence writing tools to emit text changes on each alteration instead of after the final change (default).
+
+```ts
+enableWritingToolsEvents: boolean
+```
+
+### iosWritingToolsBehavior 8.9+
+
+(iOS Only) Behavior for Apple Intelligence Writing Tools.
+
+```ts
+iosWritingToolsBehavior: WritingToolsBehavior
+```
+
+Can be `Default`, `Complete`, `Limited` or `None`.
+
+### iosWritingToolsAllowedInput 8.9+
+
+(iOS Only) Allowed input for Apple Intelligence Writing Tools.
+
+```ts
+iosWritingToolsAllowedInput: Array<WritingToolsAllowedInput>
+```
+
+Can be `Default`, `List`, `PlainText`, `RichText` or `Table`.
 
 ### ...Inherited
 

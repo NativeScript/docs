@@ -31,7 +31,7 @@ A plugin that creates a circular progress bar on iOS and Android.
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/animated-circle
 ```
 
@@ -103,7 +103,7 @@ import { registerElement } from 'nativescript-vue'
 
 registerElement(
   'AnimatedCircle',
-  () => require('@nativescript/animated-circle').AnimatedCircle
+  () => require('@nativescript/animated-circle').AnimatedCircle,
 )
 ```
 
@@ -138,7 +138,7 @@ import { registerNativeViewElement } from 'svelte-native/dom'
 
 registerNativeViewElement(
   'animatedCircle',
-  () => require('@nativescript/animated-circle').AnimatedCircle
+  () => require('@nativescript/animated-circle').AnimatedCircle,
 )
 ```
 
@@ -195,7 +195,7 @@ declare global {
 
 registerElement(
   'animatedCircle',
-  () => require('@nativescript/animated-circle').AnimatedCircle
+  () => require('@nativescript/animated-circle').AnimatedCircle,
 )
 ```
 

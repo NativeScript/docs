@@ -36,7 +36,7 @@ Use SwiftUI with NativeScript.
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/swift-ui
 ```
 
@@ -133,12 +133,12 @@ declare const SampleViewProvider: any
 
 registerSwiftUI(
   'sampleView',
-  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view)
+  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view),
 )
 
 registerSwiftUI(
   'barChart',
-  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view)
+  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view),
 )
 ```
 
@@ -170,11 +170,11 @@ registerElement('SwiftUI', () => SwiftUI)
 
 registerSwiftUI(
   'sampleView',
-  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view)
+  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view),
 )
 registerSwiftUI(
   'barChart',
-  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view)
+  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view),
 )
 ```
 
@@ -195,11 +195,11 @@ registerElement('SwiftUIView', () => require('@nativescript/swift-ui').SwiftUI)
 
 registerSwiftUI(
   'sampleView',
-  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view)
+  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view),
 )
 registerSwiftUI(
   'barChart',
-  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view)
+  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view),
 )
 ```
 
@@ -221,12 +221,12 @@ Register SwiftUI follows:
 ```ts
 registerSwiftUI(
   'sampleView',
-  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view)
+  (view) => new UIDataDriver(SampleViewProvider.alloc().init(), view),
 )
 
 registerSwiftUI(
   'barChart',
-  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view)
+  (view) => new UIDataDriver(BarChartProvider.alloc().init(), view),
 )
 
 interface SwiftUIViewAttributes extends ViewAttributes {

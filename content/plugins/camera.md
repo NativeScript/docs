@@ -37,7 +37,7 @@ A plugin that allows you to take a picture and optionally save it on the device 
 
 To install the plugin, run the following command in the root directory of your project:
 
-```cli
+```bash
 npm install @nativescript/camera --save
 ```
 

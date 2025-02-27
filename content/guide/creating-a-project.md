@@ -16,13 +16,13 @@ Official templates can be found in the [Templates GitHub repository](https://git
 
 Some of the templates are listed in the NativeScript CLI when creating a new project with `ns create`, others may be used by passing the `--template` flag with the template name (NPM package name).
 
-```cli
+```bash
 ns create myCoolApp
 ```
 
 If you would like to try one of the other templates not listed by `ns create` run:
 
-```cli
+```bash
 ns create myCoolApp --template <template-package-name or path-to-template>
 ```
 
@@ -30,7 +30,7 @@ ns create myCoolApp --template <template-package-name or path-to-template>
 
 If you want to skip the interactive prompts, you can pass the following flags:
 
-```cli
+```bash
 ns create myCoolApp --angular // or --ng for short
 ns create myCoolApp --vue
 ns create myCoolApp --vue --ts // for vue with typescript
@@ -56,7 +56,7 @@ A basic template with a single page and no custom styles.
 
 To use, run:
 
-```cli
+```bash
 ns create myCoolApp --template @nativescript/template-blank
 ```
 
@@ -75,7 +75,7 @@ A template with a side drawer.
 
 To use, run:
 
-```cli
+```bash
 ns create myCoolApp --template @nativescript/template-drawer-navigation
 ```
 
@@ -94,7 +94,7 @@ A template with multiple tabs.
 
 To use, run:
 
-```cli
+```bash
 ns create myCoolApp --template @nativescript/template-tab-navigation
 ```
 
@@ -111,7 +111,7 @@ A template with a ListView and a details screen.
 
 To use, run:
 
-```cli
+```bash
 ns create myCoolApp --template @nativescript/template-master-detail
 ```
 

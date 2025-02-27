@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/firebase/tree/main/packages/firebase-ap
 
 # @nativescript/firebase-app-check
 
-```cli
+```bash
 npm install @nativescript/firebase-app-check
 ```
 

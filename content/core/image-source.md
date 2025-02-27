@@ -58,7 +58,7 @@ const color = new Color('black')
 const imageSource: ImageSource = ImageSource.fromFontIconCodeSync(
   '\uf004',
   font,
-  color
+  color,
 )
 ```
 
@@ -206,7 +206,7 @@ Create an ImageSource from the specified local file or resource (if specified wi
 const imageSource: ImageSource = ImageSource.fromFontIconCodeSync(
   source,
   font,
-  color
+  color,
 )
 ```
 

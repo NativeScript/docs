@@ -11,7 +11,7 @@ To run a NativeScript app, you need a device &mdash; either a physical or virtu
 
 To run a project, use the `ns run` command. There's also a `ns debug` command covered in the [debugging documentation](/guide/debugging#debugging-with-chrome-devtools).
 
-```cli
+```bash
 ns run android
 ns run ios
 ```
@@ -52,13 +52,13 @@ Next, go to `Settings › System › Developer options` and enable `USB debuggin
 
 Plug in your device via USB and check that it is correctly being detected by <abbr title="Android Debug Bridge">ADB</abbr>:
 
-```cli
+```bash
 adb devices
 ```
 
 To verify NativeScript can also detect the device, run:
 
-```cli
+```bash
 ns devices android
 ```
 
@@ -99,7 +99,7 @@ If there's no `.xcworkspace` file, you can open the `.xcodeproj` file instead.
 
 Once the app successfully runs from Xcode, you can close it and continue using the NativeScript cli:
 
-```cli
+```bash
 ns run ios
 ```
 
@@ -111,7 +111,7 @@ Once the device has been [prepared for development](#preparing-an-ios-device-for
 
 After disconnecting the cable, the device should remain visible in `ns devices` and running the app should work as normal:
 
-```cli
+```bash
 ns run ios
 ```
 

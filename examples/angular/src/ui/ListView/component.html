@@ -1,0 +1,11 @@
+<GridLayout>
+  <!-- #region example -->
+  <ListView [items]="items">
+    <ng-template let-item="item" let-i="index">
+      <GridLayout>
+        <label [text]="item.title"></label>
+      </GridLayout>
+    </ng-template>
+  </ListView>
+  <!-- #endregion example -->
+</GridLayout>

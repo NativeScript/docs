@@ -22,8 +22,44 @@ For additional features and improved performance in certain scenarios, consider 
 <img src="../assets/images/screenshots/android/ListView.png"/>
 </DeviceFrame>
 
-<<< @/../examples/src/ui/ListView/template.xml#example
-<<< @/../examples/src/ui/ListView/template.ts#example
+<Tabs>
+<Tab flavor="typescript">
+
+::: code-group
+<<< @/../examples/typescript/src/ui/ListView/template.xml#example [XML]
+<<< @/../examples/typescript/src/ui/ListView/template.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="angular">
+
+::: code-group
+<<< @/../examples/angular/src/ui/ListView/component.html#example [HTML]
+<<< @/../examples/angular/src/ui/ListView/component.ts#example [TypeScript]
+:::
+
+</Tab>
+<Tab flavor="react">
+
+<<< @/../examples/react/src/components/ui/listview.tsx#example
+
+</Tab>
+<Tab flavor="solid">
+
+<<< @/../examples/solid/src/ui/listview.tsx#example
+
+</Tab>
+<Tab flavor="svelte">
+
+<<< @/../examples/svelte/app/components/ui/ListView.svelte#example
+
+</Tab>
+<Tab flavor="vue">
+
+<<< @/../examples/vue/src/ui/ListView/component.vue#example
+
+</Tab>
+</Tabs>
 
 ## Examples
 
@@ -31,8 +67,16 @@ For additional features and improved performance in certain scenarios, consider 
 
 Individual items can be rendered using a different template. For example, let's say our items can either be headings or items. In that case, we can define a template for them, and pass in an `itemTemplateSelector` function that will get called before rendering an item.
 
-<<< @/../examples/src/ui/ListView/multiple-templates.xml#example
-<<< @/../examples/src/ui/ListView/template.ts#itemTemplateSelector
+<Tabs>
+<Tab flavor="typescript">
+
+::: code-group
+<<< @/../examples/typescript/src/ui/ListView/multiple-templates.xml#example [XML]
+<<< @/../examples/typescript/src/ui/ListView/template.ts#itemTemplateSelector [TypeScript]
+:::
+
+</Tab>
+</Tabs>
 
 ## Props
 
@@ -54,7 +98,7 @@ See [ObservableArray](/api/class/ObservableArray).
 itemTemplateSelector: (
   item: T,
   index: number,
-  items: Array | ObservableArray
+  items: Array | ObservableArray,
 ) => string
 ```
 

@@ -193,7 +193,7 @@ Note the `*.android` suffix - we want this file packaged for Android only.
 
 A minimal example of the custom Application class:
 
-:::code-group
+::: code-group
 
 ```ts [TypeScript]
 // the `JavaProxy` decorator specifies the package and the name for the native *.JAVA file generated.
@@ -320,7 +320,7 @@ class CustomActivity extends androidx.appcompat.app.AppCompatActivity {
       this,
       savedInstanceState,
       this.getIntent(),
-      super.onCreate
+      super.onCreate,
     )
   }
 
@@ -329,7 +329,7 @@ class CustomActivity extends androidx.appcompat.app.AppCompatActivity {
       this,
       intent,
       super.setIntent,
-      super.onNewIntent
+      super.onNewIntent,
     )
   }
 
@@ -337,7 +337,7 @@ class CustomActivity extends androidx.appcompat.app.AppCompatActivity {
     this._callbacks.onSaveInstanceState(
       this,
       outState,
-      super.onSaveInstanceState
+      super.onSaveInstanceState,
     )
   }
 
@@ -364,28 +364,28 @@ class CustomActivity extends androidx.appcompat.app.AppCompatActivity {
   public onRequestPermissionsResult(
     requestCode: number,
     permissions: Array<string>,
-    grantResults: Array<number>
+    grantResults: Array<number>,
   ): void {
     this._callbacks.onRequestPermissionsResult(
       this,
       requestCode,
       permissions,
       grantResults,
-      undefined /*TODO: Enable if needed*/
+      undefined /*TODO: Enable if needed*/,
     )
   }
 
   public onActivityResult(
     requestCode: number,
     resultCode: number,
-    data: android.content.Intent
+    data: android.content.Intent,
   ): void {
     this._callbacks.onActivityResult(
       this,
       requestCode,
       resultCode,
       data,
-      super.onActivityResult
+      super.onActivityResult,
     )
   }
 }
@@ -414,7 +414,7 @@ androidx.appcompat.app.AppCompatActivity.extend(
         this,
         savedInstanceState,
         this.getIntent(),
-        superProto.onCreate
+        superProto.onCreate,
       )
 
       // Add custom initialization logic here
@@ -424,14 +424,14 @@ androidx.appcompat.app.AppCompatActivity.extend(
         this,
         intent,
         superProto.setIntent,
-        superProto.onNewIntent
+        superProto.onNewIntent,
       )
     },
     onSaveInstanceState(outState) {
       this._callbacks.onSaveInstanceState(
         this,
         outState,
-        superProto.onSaveInstanceState
+        superProto.onSaveInstanceState,
       )
     },
     onStart() {
@@ -455,7 +455,7 @@ androidx.appcompat.app.AppCompatActivity.extend(
         requestCode,
         permissions,
         grantResults,
-        undefined
+        undefined,
       )
     },
     onActivityResult(requestCode, resultCode, data) {
@@ -464,11 +464,11 @@ androidx.appcompat.app.AppCompatActivity.extend(
         requestCode,
         resultCode,
         data,
-        superProto.onActivityResult
+        superProto.onActivityResult,
       )
     },
     /* Add any other events you need to capture */
-  }
+  },
 )
 ```
 
@@ -532,7 +532,7 @@ button.setOnClickListener(
     onClick() {
       // Perform action on click
     },
-  })
+  }),
 )
 ```
 

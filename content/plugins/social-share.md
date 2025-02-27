@@ -32,7 +32,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/social-share
 
 ## Installation
 
-```cli
+```bash
 npm install @nativescript/social-share
 ```
 
@@ -75,7 +75,7 @@ import { shareUrl } from '@nativescript/social-share'
 shareUrl(
   'https://www.nativescript.org/',
   'Home of NativeScript',
-  'How would you like to share this url?'
+  'How would you like to share this url?',
 )
 ```
 

@@ -3,12 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "prepare": "patch-package",
+    "postinstall": "patch-package",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "lint": "npm-run-all lint:*",
     "fix": "npm-run-all fix:*",
     "fix:format": "prettier --write ./content/**/*.md",
+    "fix:examples": "prettier --write ./examples/**/*.{html,css,js,ts,tsx,jsx,svelte}",
     "fix:text": "textlint ./content/**/*.md --fix",
     "lint:format": "prettier --check ./content/**/*.md",
     "lint:text": "textlint ./content/**/*.md",
@@ -16,21 +19,35 @@
     "update-theme": "node ./.vitepress/update-theme.mjs"
   },
   "devDependencies": {
-    "@nativescript/vitepress-theme": "https://docs.nativescript.org/__/vitepress-theme.tgz?1730546314975",
+    "@nativescript/vitepress-theme": "https://docs.nativescript.org/__/vitepress-theme.tgz?1740610644642",
     "@types/node": "18.11.9",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.7.1",
+    "patch-package": "^8.0.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-svelte": "^3.3.3",
     "sitemap": "^7.1.1",
+    "svelte": "4",
     "textlint": "^13.3.3",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-terminology": "^3.0.5",
-    "vitepress": "1.0.0-rc.4",
+    "vitepress": "1.6.3",
     "zx": "^6.2.5"
   },
   "prettier": {
+    "plugins": [
+      "prettier-plugin-svelte"
+    ],
     "semi": false,
     "printWidth": 80,
-    "singleQuote": true
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.svelte",
+        "options": {
+          "parser": "svelte"
+        }
+      }
+    ]
   },
   "packageManager": "yarn@1.22.19+sha256.732620bac8b1690d507274f025f3c6cfdc3627a84d9642e38a07452cc00e0f2e"
 }

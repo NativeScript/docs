@@ -6,7 +6,7 @@ Before starting an update, it's recommended to have a clean git branch. Having a
 
 Every update starts with updating the NativeScript CLI to the latest version.
 
-```cli
+```bash
 npm install -g nativescript@latest
 ```
 
@@ -23,7 +23,7 @@ v8.x.x
 
 For a quick update of the essential dependencies, run:
 
-```cli
+```bash
 ns update
 ```
 
@@ -47,6 +47,6 @@ If you prefer to update dependencies manually, you can do that as well, for exam
 
 To make sure all dependencies are updated correctly, it's recommended to clean the project with:
 
-```cli
+```bash
 ns clean
 ```
