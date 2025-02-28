@@ -55,7 +55,7 @@ Let's discuss each note by outlining everything that was generated:
 - `App_Resources/iOS/extensions/pizza/PizzaBundle.swift`: This allows different widget features to be bundled together. For example, when choosing a Live Activity with a Home Screen Widget, both will be listed as part of the widget bundle here.
 - `App_Resources/iOS/extensions/pizza/PizzaHomeScreenWidget.swift`: The Home Screen Widget itself. This is where the view is defined as well as the [Timeline](https://developer.apple.com/documentation/widgetkit/timeline) which determines how data should be provided to the view. It comes already setup to use data from shared app/widget data which you can customize further.
 - `App_Resources/iOS/extensions/pizza/PizzaLiveActivity.swift`: The Live Activity to show on the lock screen. The view is defined via `LockScreenView` and also provides example customizations to the iPhone [Dynamic Island](https://support.apple.com/guide/iphone/use-the-dynamic-island-iph28f50d10d/ios).
-- `App_Resources/iOS/extensions/pizza/PrivacyInfo.xcprivacy`: The privacy policy for the widget. Refence documentation can be found [here](https://developer.apple.com/documentation/bundleresources/privacy-manifest-files).
+- `App_Resources/iOS/extensions/pizza/PrivacyInfo.xcprivacy`: The privacy policy for the widget. Reference documentation can be found [here](https://developer.apple.com/documentation/bundleresources/privacy-manifest-files).
 - `App_Resources/iOS/extensions/provisioning.json`: The provisioning profile configured to use with the widget id. On first generation, a placeholder is inserted however you can update this value to the provision profile needed.
 
 ::: tip Provisioning Profiles
