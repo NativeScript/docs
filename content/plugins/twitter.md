@@ -29,7 +29,7 @@ A plugin that allows you to authenticate a user with their Twitter account.
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/twitter
 ```
 

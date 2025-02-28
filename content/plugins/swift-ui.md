@@ -36,7 +36,7 @@ Use SwiftUI with NativeScript.
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/swift-ui
 ```
 

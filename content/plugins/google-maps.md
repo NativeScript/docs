@@ -109,7 +109,7 @@ at `App_Resources/iOS`.
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/google-maps
 ```
 

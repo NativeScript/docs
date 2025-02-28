@@ -35,7 +35,7 @@ A plugin that allows you to integrate Facebook Login with your app using the Fac
 
 Install the plugin to add the Facebook SDK by running the following command:
 
-```bash
+```cli
 npm install @nativescript/facebook
 ```
 

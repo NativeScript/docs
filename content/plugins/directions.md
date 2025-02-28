@@ -29,7 +29,7 @@ A plugin that allows you to launch the Google Maps app, if it's installed on the
 
 To install the plugin, run the following command in the root directory of your app.
 
-```bash
+```cli
 npm install @nativescript/directions
 ```
 

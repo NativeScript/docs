@@ -42,7 +42,7 @@ A plugin that allows you to offer [Google Pay](https://developers.google.com/pay
 
 ## Installation
 
-```bash
+```cli
 ns plugin add @nativescript/google-pay
 ```
 

@@ -27,7 +27,7 @@ A plugin that get and set the device's brightness level.
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/brightness
 ```
 

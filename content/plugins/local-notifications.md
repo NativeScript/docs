@@ -50,7 +50,7 @@ Just like remote push notifications, but a few orders of magnitude easier to set
 
 Install the plugin by running the following command in the root directory of your project.
 
-```bash
+```cli
 npm install @nativescript/local-notifications
 ```
 
@@ -244,13 +244,11 @@ and [here's a great guide on how to easily create these icons on Android](https:
 ### addOnMessageReceivedCallback()
 
 ```js
-LocalNotifications.addOnMessageReceivedCallback(
-  (notification: ReceivedNotification) => {
-    //Handle the received notification
-  }
-).then(() => {
-  console.log('Listener added')
-})
+LocalNotifications.addOnMessageReceivedCallback((notification: ReceivedNotification) => {
+	//Handle the received notification
+}).then(() => {
+	console.log('Listener added');
+});
 ```
 
 Responds to a notification tap event.
@@ -272,13 +270,11 @@ Responds to a notification tap event.
 ### addOnMessageClearedCallback()
 
 ```js
-LocalNotifications.addOnMessageClearedCallback(
-  (notification: ReceivedNotification) => {
-    //Handle the received notification
-  }
-).then(() => {
-  console.log('Listener added')
-})
+LocalNotifications.addOnMessageClearedCallback((notification: ReceivedNotification) => {
+	//Handle the received notification
+}).then(() => {
+	console.log('Listener added');
+});
 ```
 
 Responds to a notification clear event.
@@ -290,8 +286,8 @@ See [ReceivedNotification](#receivednotification) for more info.
 
 ```js
 LocalNotifications.getScheduledIds().then((ids: number[]) => {
-  console.log("ID's: " + ids)
-})
+	console.log("ID's: " + ids);
+});
 ```
 
 Returns the ids of all the scheduled notifications.
@@ -302,12 +298,12 @@ Returns the ids of all the scheduled notifications.
 
 ```js
 LocalNotifications.cancel(id).then((foundAndCanceled: boolean) => {
-  if (foundAndCanceled) {
-    //
-  } else {
-    //
-  }
-})
+	if (foundAndCanceled) {
+		//
+	} else {
+		//
+	}
+});
 ```
 
 Cancels the scheduled notification with the specified id.

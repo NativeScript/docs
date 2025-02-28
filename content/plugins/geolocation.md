@@ -35,7 +35,7 @@ A geolocation plugin to use for getting current location, monitor movement, etc.
 
 To install the plugin, run the following command in the root of your project.
 
-```bash
+```cli
 npm install @nativescript/geolocation
 ```
 

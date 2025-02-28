@@ -26,7 +26,7 @@ A plugin that allows you to use Jetpack Compose in NativeScript.
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/jetpack-compose
 ```
 

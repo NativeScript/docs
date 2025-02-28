@@ -55,7 +55,7 @@ A plugin that allows you to use [Ionic Portals](https://ionic.io/docs/portals) i
 
 To install the plugin, run the following command from the root of your project:
 
-```bash
+```cli
 npm install @nativescript/ionic-portals
 ```
 

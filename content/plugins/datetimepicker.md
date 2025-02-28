@@ -47,7 +47,7 @@ A plugin that provides the UI elements `DatePickerField`, `TimePickerField` and 
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/datetimepicker
 ```
 

@@ -35,7 +35,7 @@ A plugin to zip and unzip files.
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/zip
 ```
 

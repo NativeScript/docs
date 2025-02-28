@@ -36,7 +36,7 @@ Imagepicker plugin supporting both single and multiple selection.
 
 Install the plugin by running the following command in the root directory of your app.
 
-```bash
+```cli
 npm install @nativescript/imagepicker
 ```
 

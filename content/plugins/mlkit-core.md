@@ -44,7 +44,7 @@ A plugin that provides a UI component to access the different functionalities of
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/mlkit-core
 ```
 
@@ -149,7 +149,7 @@ Detection works only for optional modules installed
 
 #### Barcode Scanning
 
-```bash
+```cli
 npm i @nativescript/mlkit-barcode-scanning
 ```
 
@@ -167,7 +167,7 @@ For more details, see [@nativescript/mlkit-barcode-scanning](../mlkit-barcode-sc
 
 #### Face Detection
 
-```bash
+```cli
 npm install @nativescript/mlkit-face-detection
 ```
 
@@ -186,7 +186,7 @@ For more details, see [@nativescript/mlkit-face-detection](../mlkit-face-detecti
 
 #### Image Labeling
 
-```bash
+```cli
 npm install @nativescript/mlkit-image-labeling
 ```
 
@@ -204,7 +204,7 @@ For more details, see [nativescript/mlkit-image-labeling](../mlkit-image-labelin
 
 #### Object Detection
 
-```bash
+```cli
 npm install @nativescript/mlkit-object-detection
 ```
 
@@ -222,7 +222,7 @@ For more details, see [@nativescript/mlkit-object-detection](../mlkit-object-det
 
 #### Pose Detection
 
-```bash
+```cli
 npm install @nativescript/mlkit-pose-detection
 ```
 
@@ -240,7 +240,7 @@ For more details, see [@nativescript/mlkit-pose-detection](../mlkit-pose-detecti
 
 #### Text Recognition
 
-```bash
+```cli
 npm install @nativescript/mlkit-text-recognition
 ```
 

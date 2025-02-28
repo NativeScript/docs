@@ -30,7 +30,7 @@ Easily add [Detox](https://github.com/wix/Detox) end-to-end testing to your Nati
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/detox
 ```
 
@@ -40,13 +40,13 @@ The full setup requirements can be found [here](https://github.com/wix/Detox/blo
 
 ### Install Detox command line tools (`detox-cli`)
 
-```bash
+```cli
 npm install -g detox-cli
 ```
 
 ### Install [applesimutils](https://github.com/wix/AppleSimulatorUtils) (iOS)
 
-```bash
+```cli
 brew tap wix/brew
 brew install applesimutils
 ```
@@ -55,19 +55,19 @@ brew install applesimutils
 
 ### Install the Detox package to your NativeScript project
 
-```bash
+```cli
 npm install detox --save-dev
 ```
 
 ### Install Jest
 
-```bash
+```cli
 npm install jest jest-cli jest-circus --save-dev --no-package-lock
 ```
 
 ### Initialize Detox
 
-```bash
+```cli
 detox init -r jest
 ```
 
@@ -257,7 +257,7 @@ You should now be able to write tests to simulate user behavior and test for exp
 
 Build your app for testing using the following command with the value for the `-c` flag being any of the properties of `configuration` object' in `.detoxrc.js`:
 
-```bash
+```cli
 detox build -c ios.sim.debug|android.emu.debug
 ```
 
@@ -265,7 +265,7 @@ detox build -c ios.sim.debug|android.emu.debug
 
 Run your tests with the folling command:
 
-```bash
+```cli
 detox test -c ios.sim.debug|android.emu.debug
 ```
 
@@ -289,14 +289,14 @@ Now to build and run tests you would run:
 
 Android:
 
-```bash
+```cli
 npm run e2e:android:build:debug
 npm run e2e:android:test:debug
 ```
 
 iOS:
 
-```bash
+```cli
 npm run e2e:ios:build:debug
 npm run e2e:ios:test
 ```

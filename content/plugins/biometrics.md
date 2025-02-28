@@ -38,7 +38,7 @@ A plugin that allows you to authenticate users with biometrics, such as fingerpr
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/biometrics
 ```
 

@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/firebase/tree/main/packages/firebase-in
 
 # @nativescript/firebase-installations
 
-```bash
+```cli
 npm install @nativescript/firebase-installations
 ```
 

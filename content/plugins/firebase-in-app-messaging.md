@@ -44,7 +44,7 @@ To add the Firebase In-App Messaging SDK to your app follow these steps:
 
 1. Install the `@nativescript/firebase-in-app-messaging` plugin by running the following command in the root directory of your project.
 
-```bash
+```cli
 npm install @nativescript/firebase-in-app-messaging
 ```
 

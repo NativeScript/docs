@@ -15,7 +15,7 @@ A plugin that checks if an app is installed on a device.
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/appavailability
 ```
 

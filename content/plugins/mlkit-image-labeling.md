@@ -23,7 +23,7 @@ A plugin that is used with [@nativescript/mlkit-core](../mlkit-core/) to enable 
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/mlkit-image-labeling
 ```
 

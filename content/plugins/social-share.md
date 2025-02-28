@@ -32,7 +32,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/social-share
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/social-share
 ```
 

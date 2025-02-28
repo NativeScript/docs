@@ -26,7 +26,7 @@ A plugin that extends the Nativescript [Label](https://docs.nativescript.org/ui/
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/auto-fit-text
 ```
 

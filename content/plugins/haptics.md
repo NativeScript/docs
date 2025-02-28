@@ -34,7 +34,7 @@ Thanks to [Eddy Verbruggen](EddyVerbruggen) for providing [nativescript-taptic-e
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/haptics
 ```
 

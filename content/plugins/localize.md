@@ -50,7 +50,7 @@ A plugin that implements internationalization (i18n) using the native capabiliti
 
 To install the plugin, run the following command in the root directory of your project.
 
-```bash
+```cli
 npm install @nativescript/localize
 ```
 

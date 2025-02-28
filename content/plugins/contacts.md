@@ -51,7 +51,7 @@ A plugin that allows you to access Contacts directory on iOS and Android. You ca
 
 Run the following command to install the plugin:
 
-```bash
+```cli
 npm install @nativescript/contacts
 ```
 

@@ -48,7 +48,7 @@ Analytics collects usage and behavior data for your app. Its two primary concern
 
 Install the plugin by running the following command in the root directory of your project.
 
-```bash
+```cli
 npm install @nativescript/firebase-analytics
 ```
 

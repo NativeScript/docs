@@ -99,7 +99,7 @@ To add the Cloud Firestore SDK to your app, install and import the `@nativescrip
 
 1. Install the plugin by running the following command in the root directory of your project.
 
-```bash
+```cli
 npm install @nativescript/firebase-firestore
 ```
 
@@ -438,9 +438,7 @@ users
       return
     }
     console.log(
-      `Full Name: ${snapshot.data()['full_name']} ${
-        snapshot.data()['last_name']
-      }`,
+      `Full Name: ${snapshot.data()['full_name']} ${snapshot.data()['last_name']}`,
     )
   })
   .catch((error) => console.error('Failed to add user:', error))

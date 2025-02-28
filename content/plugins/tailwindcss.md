@@ -38,13 +38,13 @@ This guide assumes you are using `@nativescript/webpack@5.x` as some configurati
 
 Install `@nativescript/tailwind` and `tailwindcss`
 
-```bash
+```cli
 npm install --save @nativescript/tailwind tailwindcss
 ```
 
 Generate a `tailwind.config.js` with
 
-```bash
+```cli
 npx tailwindcss init
 ```
 
@@ -113,7 +113,7 @@ module.exports = {
 
 if you want to apply customizations to `tailwindcss` or `@nativescript/tailwind`, you will need to disable autoloading:
 
-```bash
+```cli
 ns config set tailwind.autoload false
 ```
 
@@ -129,7 +129,7 @@ This usage is considered legacy and will not be supported - however we are docum
 
   <summary>See instructions</summary>
 
-```bash
+```cli
 npm install --save-dev @nativescript/tailwind tailwindcss postcss postcss-loader
 ```
 
@@ -143,7 +143,7 @@ module.exports = {
 
 Generate a `tailwind.config.js` with
 
-```bash
+```cli
 npx tailwindcss init
 ```
 

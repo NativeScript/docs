@@ -67,7 +67,7 @@ To add the Firebase Performance Monitoring to your app, follow these steps:
 
 1. Install the `@nativescript/firebase-performance` plugin by running the following command in the root directory of your project.
 
-```bash
+```cli
 npm install @nativescript/firebase-performance
 ```
 

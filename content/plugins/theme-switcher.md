@@ -27,7 +27,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/theme-switch
 
 ## Installation
 
-```bash
+```cli
 npm install @nativescript/theme-switcher
 ```
 
