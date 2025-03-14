@@ -73,6 +73,16 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 </Label>
 ```
 
+#### Span linkTap event
+
+Tap event for Span.
+
+```ts
+on('linkTap', (data: EventData) => {
+  console.log('Span tapped')
+})
+```
+
 ## Props
 
 ### letterSpacing
