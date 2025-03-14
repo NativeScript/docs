@@ -9,7 +9,7 @@ contributors:
   - herefishyfish
 ---
 
-If you need additional native functionality beyond what's available through [@nativescript/core](/core/#nativescript-core), [third party plugins](https://market.nativescript.org/) or [@nativescript/\* plugins](https://v8.docs.nativescript.org/plugins/index.html), you can add your own native code files to your project and access them right away in TypeScript.
+NativeScript provides direct access to all native APIs as well as cross-platform capabilities through [@nativescript/core](/core/#nativescript-core), [third party plugins](https://market.nativescript.org/) or [@nativescript/\* plugins](https://docs.nativescript.org/plugins). Additionally, you can easily add custom native files directly to your project and use them immediately from TypeScript.
 
 Ever since [NativeScript 8.8](https://blog.nativescript.org/nativescript-8-8-announcement/#ns-native), you can use a single command to add platform language files and have them auto configured ready to use with:
 
