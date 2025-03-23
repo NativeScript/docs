@@ -41,13 +41,13 @@ Many popular JavaScript frameworks can be used; often referred to as _flavors_, 
 - Angular&mdash;published under `@nativescript/angular`
 - Vue&mdash;published under `nativescript-vue`
 - React&mdash;published under `react-nativescript`
-- Svelte&mdash;published under `svelte-native`
+- Solid&mdash;published under `@nativescript-community/solid-js`
+- Svelte&mdash;published under `@nativescript-community/svelte-native`
 
 ::: tip There's more!
 
-Given how NativeScript is built, new flavors can be implemented on top of it anytime. A few great examples from the community:
+Given how NativeScript is built, new flavors can be implemented on top of it anytime. A few more great examples from the community:
 
-- [SolidJS](https://github.com/nativescript-community/solid-js)
 - [rEFui](https://github.com/SudoMaker/rEFui#native)
 - and [more with DOMiNATIVE](https://github.com/SudoMaker/dominative)
 
