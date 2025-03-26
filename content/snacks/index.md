@@ -462,6 +462,22 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
     videoTitle:
       "Solid NativeScript Vibes",
   },
+  {
+    id: 25,
+    title: "CollectionView Layout Playground",
+    href: "https://stackblitz.com/edit/nativescript-collectionview-layout-playground?file=src%2Fapp%2Fitem%2Fitem-columns.component.html",
+    description:
+      "Example of using CollectionView with different layout options.",
+    categories: [
+      {
+        title: "@nativescript-community/ui-collectionview",
+        href: "https://github.com/nativescript-community/ui-collectionview",
+      },
+    ],
+    videoUrl: "https://youtube.com/embed/SfYRtBiTXiM",
+    videoTitle:
+      "CollectionView Layout Playground",
+  },
 ];
 
 </script>
