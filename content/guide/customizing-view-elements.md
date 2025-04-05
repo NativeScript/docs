@@ -1,6 +1,6 @@
 ---
 title: Customizing View Elements
-description: If a @nativescript/core element offers common behavior but your app needs something extra from them, you can extend them.
+description: If a @nativescript/core element offers behavior that generally works but your app needs something extra from them, you can extend them.
 contributors:
   - NathanWalker
 ---

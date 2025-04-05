@@ -1,15 +1,15 @@
 ---
 title: Creating Custom Native Elements
-description: What to do when built-in elements don't meet your needs? You can create new custom native elements or extend existing ones to enhance behavior for all sorts of cases.
+description: What to do when built-in elements don't meet your needs?
 contributors:
   - NathanWalker
 ---
 
 When working on view markup with NativeScript, a collection of elements you interact with are registered for you like [GridLayout](https://docs.nativescript.org/ui/grid-layout), [Button](https://docs.nativescript.org/ui/button), [Label](https://docs.nativescript.org/ui/label), etc. These are just commonly used elements.
 
-At anytime, you can create your own, extend others and fully customize views for your needs.
+You can create new custom native elements or extend existing ones to enhance behavior for all sorts of cases.
 
-Let's first look at how you would register new elements across all flavors and then we'll discuss how to build one, starting with a simple example of a custom View class:
+Let's first look at how you would register new elements across all flavors and then we'll discuss how to build one, starting with a simple example of a custom View class.
 
 ```ts
 import { View } from '@nativescript/core'
