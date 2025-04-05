@@ -5,7 +5,7 @@ contributors:
   - NathanWalker
 ---
 
-When working on view markup with NativeScript, a collection of elements you interact with are registered for you like [GridLayout](https://docs.nativescript.org/ui/grid-layout), [Button](https://docs.nativescript.org/ui/button), [Label](https://docs.nativescript.org/ui/label), etc. These are just commonly used elements. 
+When working on view markup with NativeScript, a collection of elements you interact with are registered for you like [GridLayout](https://docs.nativescript.org/ui/grid-layout), [Button](https://docs.nativescript.org/ui/button), [Label](https://docs.nativescript.org/ui/label), etc. These are just commonly used elements.
 
 At anytime, you can create your own, extend others and fully customize views for your needs.
 
@@ -81,7 +81,7 @@ You can now use it like anything else:
 The registration can be done in the bootsrap file, commonly `app.ts`. With React, we use camelCase on elements where applicable.
 
 ```ts
-import { registerElement } from 'react-nativescript';
+import { registerElement } from 'react-nativescript'
 import { Checkbox } from './checkbox'
 
 registerElement('checkbox', () => Checkbox)
@@ -101,10 +101,10 @@ You can now use it like anything else:
 The registration can be done in the bootsrap file, commonly `app.tsx`.
 
 ```ts
-import { registerElement } from 'dominative';
+import { registerElement } from 'dominative'
 import { Checkbox } from './checkbox'
 
-registerElement('checkbox', Checkbox);
+registerElement('checkbox', Checkbox)
 ```
 
 You can now use it like anything else:
@@ -121,10 +121,10 @@ You can now use it like anything else:
 The registration can be done in the bootsrap file, commonly `app.ts`.
 
 ```ts
-import { registerElement } from 'nativescript-vue';
+import { registerElement } from 'nativescript-vue'
 import { Checkbox } from './checkbox'
 
-registerElement('Checkbox', () => Checkbox);
+registerElement('Checkbox', () => Checkbox)
 ```
 
 You can now use it like anything else:
@@ -148,29 +148,24 @@ There's only 2 **fundamental** required aspects to any custom NativeScript view 
 
 1. Extend any NativeScript View.
 2. (**required**) `createNativeView`: Construct and return any platform native view.
-3. (*optional*) `initNativeView`: Initialize anything.
-4. (*optional*) `disposeNativeView`: Cleanup anything.
+3. (_optional_) `initNativeView`: Initialize anything.
+4. (_optional_) `disposeNativeView`: Cleanup anything.
 
 Let's look at those within the context of an example:
 
 ```ts
 // 1. (required) Extend any NativeScript View
-export class CustomView extends View { 
-
+export class CustomView extends View {
   // 2. (required) Construct and return any platform native view
   createNativeView() {
-      // return instance of UIView or android.view.View;
+    // return instance of UIView or android.view.View;
   }
 
   // 3. (optional) initialize anything
-  initNativeView() {
-
-  }
+  initNativeView() {}
 
   // 4. (optional) cleanup anything
-  disposeNativeView() { 
-
-  }
+  disposeNativeView() {}
 }
 ```
 
@@ -182,7 +177,7 @@ Let's explain each point respectively.
 import { ContentView, Label, Button } from '@nativescript/core'
 
 export class CustomView1 extends ContentView {
- // impl
+  // impl
 }
 
 export class CustomView2 extends Label {

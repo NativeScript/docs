@@ -34,97 +34,97 @@ For instance, even this [Stack Overflow answer](https://stackoverflow.com/a/4874
 In our `index.ios.ts` we can extend the existing ListPicker to add our own [iOS delegate](https://developer.apple.com/documentation/uikit/uipickerviewdelegate?language=objc) which implements the method suggested to support making the font size bigger. We can even start with an exact replica of the [ListPicker](https://github.com/NativeScript/NativeScript/blob/main/packages/core/ui/list-picker/index.ios.ts) in core and distill it down to just what we need.
 
 ```ts
-import { ListPicker } from "@nativescript/core";
-import { selectedIndexProperty } from "@nativescript/core/ui/list-picker/list-picker-common";
+import { ListPicker } from '@nativescript/core'
+import { selectedIndexProperty } from '@nativescript/core/ui/list-picker/list-picker-common'
 
 export class CustomListPicker extends ListPicker {
-  private _delegate: ListPickerDelegateImpl;
-  private _dataSource: ListPickerDataSource;
+  private _delegate: ListPickerDelegateImpl
+  private _dataSource: ListPickerDataSource
 
   initNativeView() {
-    this._delegate = ListPickerDelegateImpl.initWithOwner(new WeakRef(this));
-    this.nativeViewProtected.delegate = this._delegate;
+    this._delegate = ListPickerDelegateImpl.initWithOwner(new WeakRef(this))
+    this.nativeViewProtected.delegate = this._delegate
     this.nativeViewProtected.dataSource = this._dataSource =
-      ListPickerDataSource.initWithOwner(new WeakRef(this));
+      ListPickerDataSource.initWithOwner(new WeakRef(this))
   }
 }
 
 @NativeClass
 class ListPickerDelegateImpl extends NSObject implements UIPickerViewDelegate {
-  static ObjCProtocols = [UIPickerViewDelegate];
-  private _owner: WeakRef<any>;
+  static ObjCProtocols = [UIPickerViewDelegate]
+  private _owner: WeakRef<any>
 
   static initWithOwner(owner: WeakRef<ListPicker>): ListPickerDelegateImpl {
-    const delegate = <ListPickerDelegateImpl>ListPickerDelegateImpl.new();
-    delegate._owner = owner;
+    const delegate = <ListPickerDelegateImpl>ListPickerDelegateImpl.new()
+    delegate._owner = owner
 
-    return delegate;
+    return delegate
   }
 
   pickerViewViewForRowForComponentReusingView(
     pickerView: UIPickerView,
     row: number,
     component: number,
-    view: UIView
+    view: UIView,
   ): UIView {
-    const owner = this._owner?.deref();
+    const owner = this._owner?.deref()
     if (owner) {
-      var label = UILabel.new();
+      var label = UILabel.new()
 
       // Change font size here!
-      label.font = UIFont.systemFontOfSize(26);
-      label.text = owner.items[row];
-      label.textAlignment = NSTextAlignment.Center;
-      return label;
+      label.font = UIFont.systemFontOfSize(26)
+      label.text = owner.items[row]
+      label.textAlignment = NSTextAlignment.Center
+      return label
     }
-    return UILabel.new();
+    return UILabel.new()
   }
 
   pickerViewDidSelectRowInComponent(
     pickerView: UIPickerView,
     row: number,
-    component: number
+    component: number,
   ): void {
-    const owner = this._owner?.deref();
+    const owner = this._owner?.deref()
     if (owner) {
-      selectedIndexProperty.nativeValueChange(owner, row);
-      owner.updateSelectedValue(row);
+      selectedIndexProperty.nativeValueChange(owner, row)
+      owner.updateSelectedValue(row)
     }
   }
 }
 
 @NativeClass
 class ListPickerDataSource extends NSObject implements UIPickerViewDataSource {
-  static ObjCProtocols = [UIPickerViewDataSource];
+  static ObjCProtocols = [UIPickerViewDataSource]
 
-  private _owner: WeakRef<ListPicker>;
+  private _owner: WeakRef<ListPicker>
 
   static initWithOwner(owner: WeakRef<ListPicker>): ListPickerDataSource {
-    const dataSource = <ListPickerDataSource>ListPickerDataSource.new();
-    dataSource._owner = owner;
+    const dataSource = <ListPickerDataSource>ListPickerDataSource.new()
+    dataSource._owner = owner
 
-    return dataSource;
+    return dataSource
   }
 
   numberOfComponentsInPickerView(pickerView: UIPickerView) {
-    return 1;
+    return 1
   }
 
   pickerViewNumberOfRowsInComponent(
     pickerView: UIPickerView,
-    component: number
+    component: number,
   ) {
-    const owner = this._owner?.deref();
+    const owner = this._owner?.deref()
 
-    return owner && owner.items ? owner.items.length : 0;
+    return owner && owner.items ? owner.items.length : 0
   }
 }
 ```
 
-This custom element now implements the `UIPickerViewDelegate`'s [pickerViewViewForRowForComponentReusingView](https://developer.apple.com/documentation/uikit/uipickerviewdelegate/pickerview(_:viewforrow:forcomponent:reusing:)?language=objc) allowing us to customize the font size with this line:
+This custom element now implements the `UIPickerViewDelegate`'s [pickerViewViewForRowForComponentReusingView](<https://developer.apple.com/documentation/uikit/uipickerviewdelegate/pickerview(_:viewforrow:forcomponent:reusing:)?language=objc>) allowing us to customize the font size with this line:
 
 ```ts
-label.font = UIFont.systemFontOfSize(26);
+label.font = UIFont.systemFontOfSize(26)
 ```
 
 #### Customize Highlight Color
@@ -138,21 +138,21 @@ export class CustomListPicker extends ListPicker {
   // ...
 
   onLoaded() {
-    super.onLoaded();
+    super.onLoaded()
     // Optional: customize selection highlight bar
     for (let i = 0; i < this.nativeViewProtected.subviews.count; i++) {
       const subview = this.nativeViewProtected.subviews.objectAtIndex(
-        i
-      ) as UIView;
+        i,
+      ) as UIView
       if (subview.frame.size.height <= 34) {
         // Use any desired color
         // Tip: https://www.uicolor.io
         subview.backgroundColor = UIColor.colorWithRedGreenBlueAlpha(
           0,
-          .66,
+          0.66,
           1,
-          0.4
-        );
+          0.4,
+        )
       }
     }
   }
@@ -169,6 +169,3 @@ You can try this example yourself on StackBlitz here:
 https://stackblitz.com/edit/nativescript-customize-listpicker?file=src%2Fapp%2Fitem%2Flist-picker-custom%2Findex.ios.ts
 
 Try changing the font size or highlight color live on StackBlitz to see the changes to behavior yourself.
-
-
-
