@@ -258,6 +258,14 @@ export default [
         ],
       },
       {
+        text: 'Create Custom Native Elements',
+        link: '/guide/create-custom-native-elements',
+      },
+      {
+        text: 'Customizing View Elements',
+        link: '/guide/customizing-view-elements',
+      },
+      {
         text: 'Shared Element Transitions',
         link: '/guide/shared-element-transitions',
       },
