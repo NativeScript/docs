@@ -210,6 +210,15 @@ export default [
     ],
   },
   {
+    text: 'Security',
+    items: [
+      {
+        text: 'Overview',
+        link: '/guide/security-overview',
+      },
+    ]
+  },
+  {
     text: 'Developing with Vision Pro',
     items: [
       {
