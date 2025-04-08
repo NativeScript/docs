@@ -240,8 +240,14 @@ Let's create a `<Checkbox>` component that behaves consistently on iOS and Andro
 
 <iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/08uip43irOM" title="Creating custom elements with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-See the full working example on StackBlitz: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox?file=src%2Fapp%2Fcheckbox%2Fcommon.ts
-
+See the full working example on StackBlitz: 
+- Angular: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox?file=src%2Fapp%2Fcheckbox%2Fcommon.ts
+- React: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-react?file=src%2Fcomponents%2FScreenOne.tsx
+- Solid: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-solid?file=src%2Fcomponents%2Fhome.tsx
+- Svelte: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-svelte?file=app%2Fcomponents%2FHome.svelte
+- TypeScript: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-ts?file=app%2Fmain-page.xml
+- Vue: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-vue?file=src%2Fcomponents%2FHome.vue
+  
 In NativeScript, creating custom UI components can be straightforward and powerful. In this guide, you'll learn how to build a simple, reusable Checkbox component using only built-in modules from `@nativescript/core`. We'll leverage a combination of `GridLayout`, `Label`, and Material Design icons.
 
 ### Step-by-Step Guide
@@ -421,10 +427,14 @@ selectionColorProperty.register(CheckboxCommon)
 
 ### Complete Example and Testing
 
-Explore and interact with the complete example directly:
+Explore and interact with the complete example directly in the flavor you love:
 
-- **Full Implementation:** [Common Checkbox Component](https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox?file=src%2Fapp%2Fcheckbox%2Fcommon.ts)
-- **Element Registration:** [Checkbox Registration](https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox?file=src%2Fapp%2Fapp.component.ts%3AL5)
+- Angular: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox?file=src%2Fapp%2Fcheckbox%2Fcommon.ts
+- React: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-react?file=src%2Fcomponents%2FScreenOne.tsx
+- Solid: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-solid?file=src%2Fcomponents%2Fhome.tsx
+- Svelte: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-svelte?file=app%2Fcomponents%2FHome.svelte
+- TypeScript: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-ts?file=app%2Fmain-page.xml
+- Vue: https://stackblitz.com/edit/nativescript-create-custom-elements-checkbox-vue?file=src%2Fcomponents%2FHome.vue
 
 ---
 
