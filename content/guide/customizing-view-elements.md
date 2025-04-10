@@ -145,3 +145,5 @@ Register your new `CustomListPicker` element following the steps outlined in [Cr
 ### Interactive StackBlitz Example
 
 Experiment live with this custom ListPicker in [this StackBlitz demo](https://stackblitz.com/edit/nativescript-customize-listpicker?file=src%2Fapp%2Fitem%2Flist-picker-custom%2Findex.ios.ts). Modify the font size or highlight color directly and observe the immediate changes.
+
+<iframe style="width: 100%; min-height: 200px; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/IxH4hl-T_4s" title="Customizing View Elements with NativeScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
