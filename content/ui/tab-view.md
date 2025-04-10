@@ -194,7 +194,7 @@ iconSource: string
 
 Gets or sets the icon source of the tab strip entry.
 
-Supported paths are `res://`, `font://` or an absolute path (eg. `~/assets/image.png`).
+Supported paths are `res://` or an absolute path (eg. `~/assets/image.png`).
 
 See [`Image`](/ui/image) for details on the different paths.
 
