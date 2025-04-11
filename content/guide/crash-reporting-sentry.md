@@ -56,91 +56,91 @@ npm install plist @sentry/webpack-plugin dotenv -D
 Update your `webpack.config.js` to configure Sentry integration:
 
 ```js
-const webpack = require("@nativescript/webpack");
-const { resolve, join, relative } = require("path");
-const { readFileSync } = require("fs");
-const { parse } = require("plist");
+const webpack = require('@nativescript/webpack')
+const { resolve, join, relative } = require('path')
+const { readFileSync } = require('fs')
+const { parse } = require('plist')
 // load .env without having to specify cli env flags
-require("dotenv").config();
+require('dotenv').config()
 
-const SentryCliPlugin = require("@sentry/webpack-plugin").sentryWebpackPlugin;
-const SourceMapDevToolPlugin = require("webpack").SourceMapDevToolPlugin;
+const SentryCliPlugin = require('@sentry/webpack-plugin').sentryWebpackPlugin
+const SourceMapDevToolPlugin = require('webpack').SourceMapDevToolPlugin
 
-const SENTRY_PREFIX = process.env.SENTRY_PREFIX || "app:///";
-const SENTRY_SOURCE_MAP_PATH = join(__dirname, "dist", "sourcemaps");
+const SENTRY_PREFIX = process.env.SENTRY_PREFIX || 'app:///'
+const SENTRY_SOURCE_MAP_PATH = join(__dirname, 'dist', 'sourcemaps')
 
 module.exports = (env) => {
-  webpack.init(env);
+  webpack.init(env)
 
   webpack.chainWebpack((config) => {
-    const isStoreBuild = !!env.production;
-    const sentryDev = !isStoreBuild && !!env["sentryDev"];
+    const isStoreBuild = !!env.production
+    const sentryDev = !isStoreBuild && !!env['sentryDev']
 
-    const platform = webpack.Utils.platform.getPlatformName();
+    const platform = webpack.Utils.platform.getPlatformName()
     const projectSlug =
-      platform === "android"
+      platform === 'android'
         ? process.env.SENTRY_PROJECT_SLUG_ANDROID
-        : process.env.SENTRY_PROJECT_SLUG_IOS;
+        : process.env.SENTRY_PROJECT_SLUG_IOS
     const versionString =
-      platform === "android"
+      platform === 'android'
         ? readFileSync(
-            resolve(__dirname, "App_Resources/Android/app.gradle"),
-            "utf8"
+            resolve(__dirname, 'App_Resources/Android/app.gradle'),
+            'utf8',
           ).match(/versionName\s+"([^"]+)"/)[1]
         : parse(
             readFileSync(
-              resolve(__dirname, "App_Resources/iOS/Info.plist"),
-              "utf8"
-            )
-          )["CFBundleShortVersionString"];
+              resolve(__dirname, 'App_Resources/iOS/Info.plist'),
+              'utf8',
+            ),
+          )['CFBundleShortVersionString']
 
-    const SENTRY_DIST = sentryDev ? `dev-${Date.now()}` : `${Date.now()}`;
-    const SENTRY_RELEASE = sentryDev ? SENTRY_DIST : versionString;
+    const SENTRY_DIST = sentryDev ? `dev-${Date.now()}` : `${Date.now()}`
+    const SENTRY_RELEASE = sentryDev ? SENTRY_DIST : versionString
 
-    config.plugin("DefinePlugin").tap((args) => {
+    config.plugin('DefinePlugin').tap((args) => {
       Object.assign(args[0], {
         __SENTRY_DIST__: `'${SENTRY_DIST}'`,
         __SENTRY_RELEASE__: `'${SENTRY_RELEASE}'`,
         __SENTRY_ENVIRONMENT__: `'${
-          isStoreBuild ? "production" : "development"
+          isStoreBuild ? 'production' : 'development'
         }'`,
         __ENABLE_SENTRY__: isStoreBuild || sentryDev,
         __SENTRY_PREFIX__: `'${SENTRY_PREFIX}'`,
         __SENTRY_DSN_IOS__: JSON.stringify(process.env.SENTRY_DSN_IOS),
         __SENTRY_DSN_ANDROID__: JSON.stringify(process.env.SENTRY_DSN_ANDROID),
-      });
-      return args;
-    });
+      })
+      return args
+    })
 
     if (isStoreBuild || sentryDev) {
-      config.devtool(false);
+      config.devtool(false)
 
       config
-        .plugin("SourceMapDevToolPlugin|sentry")
+        .plugin('SourceMapDevToolPlugin|sentry')
         .use(SourceMapDevToolPlugin, [
           {
             append: `\n//# sourceMappingURL=${SENTRY_PREFIX}[name].js.map`,
             filename: relative(
               webpack.Utils.platform.getAbsoluteDistPath(),
-              join(SENTRY_SOURCE_MAP_PATH, "[name].js.map")
+              join(SENTRY_SOURCE_MAP_PATH, '[name].js.map'),
             ),
           },
-        ]);
+        ])
 
       config
-        .plugin("SentryCliPlugin")
+        .plugin('SentryCliPlugin')
         .init(() =>
           SentryCliPlugin({
             org: process.env.SENTRY_ORG_SLUG,
             project: projectSlug,
             // force ignore non-legacy sourcemaps
             sourcemaps: {
-              assets: "/dev/null",
+              assets: '/dev/null',
             },
             release: {
               uploadLegacySourcemaps: {
                 paths: [
-                  join(__dirname, "dist", "sourcemaps"),
+                  join(__dirname, 'dist', 'sourcemaps'),
                   webpack.Utils.platform.getAbsoluteDistPath(),
                 ],
                 urlPrefix: SENTRY_PREFIX,
@@ -148,7 +148,7 @@ module.exports = (env) => {
               dist: SENTRY_DIST,
               cleanArtifacts: true,
               deploy: {
-                env: sentryDev ? "development" : "production",
+                env: sentryDev ? 'development' : 'production',
               },
               setCommits: {
                 auto: true,
@@ -157,24 +157,24 @@ module.exports = (env) => {
               ...(SENTRY_RELEASE ? { name: SENTRY_RELEASE } : {}),
             },
             authToken: process.env.SENTRY_AUTH_TOKEN,
-          })
+          }),
         )
-        .use(SentryCliPlugin);
+        .use(SentryCliPlugin)
 
-      config.optimization.minimizer("TerserPlugin").tap((args) => {
+      config.optimization.minimizer('TerserPlugin').tap((args) => {
         // we format here otherwise the sourcemaps will be broken
         args[0].terserOptions.format = {
           ...args[0].terserOptions.format,
           max_line_len: 1000,
           indent_level: 1,
-        };
-        return args;
-      });
+        }
+        return args
+      })
     }
-  });
+  })
 
-  return webpack.resolveConfig();
-};
+  return webpack.resolveConfig()
+}
 ```
 
 ## Step 5: Initialize Sentry in Your App
@@ -182,21 +182,21 @@ module.exports = (env) => {
 Create `sentry.ts` to initialize Sentry:
 
 ```ts
-import { Application, Trace, TraceErrorHandler } from "@nativescript/core";
-import * as Sentry from "@nativescript-community/sentry";
+import { Application, Trace, TraceErrorHandler } from '@nativescript/core'
+import * as Sentry from '@nativescript-community/sentry'
 
-declare const __SENTRY_DIST__: string;
-declare const __SENTRY_RELEASE__: string;
-declare const __SENTRY_ENVIRONMENT__: string;
-declare const __ENABLE_SENTRY__: boolean;
-declare const __SENTRY_PREFIX__: string;
-declare const __SENTRY_DSN_IOS__: string;
-declare const __SENTRY_DSN_ANDROID__: string;
+declare const __SENTRY_DIST__: string
+declare const __SENTRY_RELEASE__: string
+declare const __SENTRY_ENVIRONMENT__: string
+declare const __ENABLE_SENTRY__: boolean
+declare const __SENTRY_PREFIX__: string
+declare const __SENTRY_DSN_IOS__: string
+declare const __SENTRY_DSN_ANDROID__: string
 
-let initialized = false;
+let initialized = false
 export function initSentry() {
-  if (initialized || !__ENABLE_SENTRY__) return;
-  initialized = true;
+  if (initialized || !__ENABLE_SENTRY__) return
+  initialized = true
 
   Sentry.init({
     dsn: __APPLE__ ? __SENTRY_DSN_IOS__ : __SENTRY_DSN_ANDROID__,
@@ -211,42 +211,42 @@ export function initSentry() {
     environment: __SENTRY_ENVIRONMENT__,
     appPrefix: __SENTRY_PREFIX__,
     appHangsTimeoutInterval: 5,
-  });
+  })
 
-  Application.on("uncaughtError", (event) =>
-    Sentry.captureException(event.error)
-  );
-  Application.on("discardedError", (event) =>
-    Sentry.captureException(event.error)
-  );
-  Trace.setErrorHandler(errorHandler);
+  Application.on('uncaughtError', (event) =>
+    Sentry.captureException(event.error),
+  )
+  Application.on('discardedError', (event) =>
+    Sentry.captureException(event.error),
+  )
+  Trace.setErrorHandler(errorHandler)
 }
 
 const errorHandler: TraceErrorHandler = {
   handlerError(error: Error) {
     if (__DEV__) {
       // (development) - log it
-      console.error(error);
+      console.error(error)
       // (development) - or use Trace writing (categorical logging)
-      Trace.write(error, Trace.categories.Error);
+      Trace.write(error, Trace.categories.Error)
       // (development) - throw it
-      throw error;
+      throw error
     }
 
     // (production) - send it to sentry
-    Sentry.captureException(error);
+    Sentry.captureException(error)
   },
-};
+}
 ```
 
 In your main bootstrap file (`app.ts` or `main.ts`), initialize on launch:
 
 ```ts
-import { initSentry } from "./sentry";
+import { initSentry } from './sentry'
 
-Application.on("launch", () => {
-  initSentry();
-});
+Application.on('launch', () => {
+  initSentry()
+})
 ```
 
 ## Step 6: Test Your Setup
@@ -254,7 +254,7 @@ Application.on("launch", () => {
 Trigger a test crash to verify setup:
 
 ```ts
-throw new Error("Sentry test crash");
+throw new Error('Sentry test crash')
 ```
 
 For native crashes:
@@ -262,13 +262,13 @@ For native crashes:
 - iOS:
 
 ```ts
-NSString.stringWithString(null);
+NSString.stringWithString(null)
 ```
 
 - Android:
 
 ```ts
-new java.lang.String(null);
+new java.lang.String(null)
 ```
 
 Your crashes should appear in your Sentry dashboard shortly after triggering.
@@ -282,4 +282,3 @@ Your crashes should appear in your Sentry dashboard shortly after triggering.
 ---
 
 You're now successfully integrated with Sentry, gaining powerful insights into your app's performance and stability.
-
