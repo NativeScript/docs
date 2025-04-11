@@ -210,6 +210,15 @@ export default [
     ],
   },
   {
+    text: 'Crash Reporting',
+    items: [
+      {
+        text: 'Using Sentry',
+        link: '/guide/crash-reporting-sentry',
+      },
+    ]
+  },
+  {
     text: 'Developing with Vision Pro',
     items: [
       {
