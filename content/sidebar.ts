@@ -49,7 +49,7 @@ export default [
       },
       {
         text: 'Publishing',
-        link: '/guide/publishing',
+        link: '/guide/publishing/',
       },
       {
         text: 'Plugins',
