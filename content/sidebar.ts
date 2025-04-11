@@ -215,6 +215,15 @@ export default [
       {
         text: 'Overview',
         link: '/guide/security-overview',
+      }
+    ]
+  },
+  {
+    text: 'Crash Reporting',
+    items: [
+      {
+        text: 'Using Sentry',
+        link: '/guide/crash-reporting-sentry',
       },
     ]
   },
