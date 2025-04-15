@@ -282,3 +282,72 @@ Your crashes should appear in your Sentry dashboard shortly after triggering.
 ---
 
 You're now successfully integrated with Sentry, gaining powerful insights into your app's performance and stability.
+
+## Config Considerations
+
+Within `nativescript.config.ts`, be mindful of the following.
+
+```ts
+export default {
+  discardUncaughtJsExceptions: true,
+  android: {
+    v8Flags: '--expose_gc',
+    markingMode: 'none',
+    codeCache: true,
+    suppressCallJSMethodExceptions: true,
+  },
+}
+```
+
+The options to `discardUncaughtJsExceptions` and `suppressCallJSMethodExceptions` will suppress JavaScript exceptions like those using `throw` which can prevent them from showing up in Sentry so just keep that in mind.
+
+## Flavor Notes
+
+Various flavors may need some extra considerations.
+
+### Angular
+
+You can setup a custom error handler.
+
+Define a `SentryErrorHandler` within `sentry.ts`.
+
+```ts
+import { ErrorHandler } from '@angular/core'
+
+export class SentryErrorHandler implements ErrorHandler {
+  handleError(error: unknown) {
+    if (__ENABLE_SENTRY__ && initialized) {
+      Sentry.captureException(error)
+    }
+  }
+}
+```
+
+You can use it within your custom Angular error handler.
+
+```ts
+import { ErrorHandler, Injectable } from '@angular/core'
+import { SentryErrorHandler } from './sentry'
+
+@Injectable()
+export class GlobalErrorHandler extends ErrorHandler {
+  sentryErrorHandler = new SentryErrorHandler()
+
+  handleError(error: Error) {
+    console.error('GlobalErrorHandler', error)
+    console.error(error.stack)
+    this.sentryErrorHandler.handleError(error)
+  }
+}
+```
+
+Then in your `app.component.ts` or `app.module.ts`, depending on if using standalone, use the provider.
+
+```ts
+providers: [
+  {
+    provide: ErrorHandler,
+    useClass: GlobalErrorHandler,
+  },
+]
+```
