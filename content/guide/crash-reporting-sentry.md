@@ -283,6 +283,12 @@ Your crashes should appear in your Sentry dashboard shortly after triggering.
 
 You're now successfully integrated with Sentry, gaining powerful insights into your app's performance and stability.
 
+## Example Repo
+
+You can compare your setup against this example repo which follows this documentation.
+
+https://github.com/NativeScript/example-sentry
+
 ## Config Considerations
 
 Within `nativescript.config.ts`, be mindful of the following.
