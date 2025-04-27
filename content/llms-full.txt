@@ -404,10 +404,6 @@ A note about iOS on unsupported systems
 
 A Mac is required to build projects that use native iOS code. Simpler apps can be tested using [NativeScript Preview](https://preview.nativescript.org/).
 
-Previous [←Introduction](https://docs.nativescript.org/)
-
-Next [Creating a Project→](https://docs.nativescript.org/guide/creating-a-project)
-
 2. [Try it online](https://docs.nativescript.org/setup/#try-it-online)
 3. [Local setup](https://docs.nativescript.org/setup/#local-setup)≈
 
@@ -798,10 +794,6 @@ Emitted after the app has navigated away from the current page.
 
 - Android: [`org.nativescript.widgets.GridLayout`](https://github.com/NativeScript/NativeScript/blob/master/packages/ui-mobile-base/android/widgets/src/main/java/org/nativescript/widgets/GridLayout.java)
 - iOS: [`UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller)
-
-Previous [←Frame](https://docs.nativescript.org/ui/frame)
-
-Next [ActionBar→](https://docs.nativescript.org/ui/action-bar)
 
 2. [Page Lifecycle](https://docs.nativescript.org/ui/page#page-lifecycle)
 1. [Lifecycle event examples](https://docs.nativescript.org/ui/page#lifecycle-event-examples)
@@ -1542,10 +1534,6 @@ Resolve a "final" configuration that has all chain functions and merges applied.
 
 This returns a config that webpack can process.
 
-Previous [←Config Reference](https://docs.nativescript.org/configuration/nativescript)
-
-Next [Accessibility→](https://docs.nativescript.org/guide/accessibility)
-
 2. [CLI Flags](https://docs.nativescript.org/configuration/webpack#cli-flags)
 01. [--no-hmr](https://docs.nativescript.org/configuration/webpack#no-hmr)
 02. [--env.verbose](https://docs.nativescript.org/configuration/webpack#env-verbose)
@@ -1595,10 +1583,6 @@ When it comes to navigation, there are two primary types of navigation, regular 
 For example, let's assume we have a **Home Page**, from which the user can navigate to a **List Page**. On the **List Page** the user is able to tweak some filters, we can show these in a modal to not disrupt the backstack/back button flow. When the user taps on a list item, we navigate to a **Details Page**. On the **Details Page** the user can view an additional **Info Page** in the **Info Modal** and navigate around further without disrupting the main backstack, once the **Info Modal** is closed, the user can continue navigating forwards and back in the **Main Frame**.
 
 ![](https://docs.nativescript.org/assets/Frame_Page_Modal_Timeline.drawio.5e028c34.svg)
-
-Previous [←Gestures](https://docs.nativescript.org/guide/gestures)
-
-Next [Using Frames and Pages→](https://docs.nativescript.org/guide/navigation/frames-and-pages)
 
 2. [Example user flow](https://docs.nativescript.org/guide/navigation/#example-user-flow)
 
@@ -1740,10 +1724,6 @@ More connection types
 - `Android`: [CONNECTIVITY\_SERVICE (android.content.Context)](https://developer.android.com/reference/android/content/Context)
 - `iOS`: [SCNetworkReachability](https://developer.apple.com/documentation/systemconfiguration/scnetworkreachability-g7d)
 
-Previous [←Color](https://docs.nativescript.org/core/color)
-
-Next [Device→](https://docs.nativescript.org/core/device)
-
 2. [Using Connectivity](https://docs.nativescript.org/core/connectivity#using-connectivity)
 1. [Getting the current connection type](https://docs.nativescript.org/core/connectivity#getting-the-current-connection-type)
 2. [Monitor changes to the connection type](https://docs.nativescript.org/core/connectivity#monitor-changes-to-the-connection-type)
@@ -1866,10 +1846,6 @@ See [TapGestureEventData](https://docs.nativescript.org/api/interface/TapGesture
 
 - Android: [`android.widget.Button`](https://developer.android.com/reference/android/widget/Button.html)
 - iOS: [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton)
-
-Previous [←ActivityIndicator](https://docs.nativescript.org/ui/activity-indicator)
-
-Next [DatePicker→](https://docs.nativescript.org/ui/date-picker)
 
 2. [Examples](https://docs.nativescript.org/ui/button#examples)
 1. [Formatting text inside a Button](https://docs.nativescript.org/ui/button#formatting-text-inside-a-button)
@@ -2411,10 +2387,6 @@ See [login()](https://docs.nativescript.org/api/#login).
 - Android: [android.app.AlertDialog.Builder](https://developer.android.com/reference/android/app/AlertDialog.Builder)
 - iOS: [UIAlertController](https://developer.apple.com/documentation/uikit/uialertcontroller)
 
-Previous [←NavigationButton](https://docs.nativescript.org/ui/action-bar#navigation-button)
-
-Next [Alert→](https://docs.nativescript.org/ui/dialogs#alert)
-
 2. [Avialable Dialogs](https://docs.nativescript.org/ui/dialogs#avialable-dialogs)
 1. [Alert](https://docs.nativescript.org/ui/dialogs#alert)
 2. [Action](https://docs.nativescript.org/ui/dialogs#action)
@@ -2754,10 +2726,6 @@ You can follow along in these "Vision Pro 🥽 Hello World" tutorials:
 
 [https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/](https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/)
 
-Previous [←Using Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
-
-Next [Previewing visionOS from StackBlitz→](https://docs.nativescript.org/guide/visionos-preview)
-
 2. [Create a visionOS project](https://docs.nativescript.org/guide/visionos#create-a-visionos-project)
 1. [Run your visionOS project](https://docs.nativescript.org/guide/visionos#run-your-visionos-project)
 2. [What makes a project work on visionOS?](https://docs.nativescript.org/guide/visionos#what-makes-a-project-work-on-visionos)
@@ -2933,10 +2901,6 @@ For additional inherited properties, refer to the [API Reference](https://docs.n
 - Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
 - iOS: [`UILabel`](https://developer.apple.com/documentation/uikit/uilabel)
 
-Previous [←Image](https://docs.nativescript.org/ui/image)
-
-Next [ListPicker→](https://docs.nativescript.org/ui/list-picker)
-
 2. [Examples](https://docs.nativescript.org/ui/label#examples)
 1. [Styling the label](https://docs.nativescript.org/ui/label#styling-the-label)
 3. [Props](https://docs.nativescript.org/ui/label#props)
@@ -3049,10 +3013,6 @@ npm i --save @klippa/nativescript-http
 yarn add @klippa/nativescript-http
 ```
 
-Previous [←Plugins](https://docs.nativescript.org/guide/development-workflow/using-packages)
-
-Next [Testing→](https://docs.nativescript.org/guide/testing)
-
 2. [WebSockets](https://docs.nativescript.org/recommended-plugins#websockets)
 1. [@valor/nativescript-websockets](https://docs.nativescript.org/recommended-plugins#valor-nativescript-websockets)
 3. [Image Caching](https://docs.nativescript.org/recommended-plugins#image-caching)
@@ -3152,10 +3112,6 @@ See [PropertyChangeData](https://docs.nativescript.org/api/interface/PropertyCha
 
 - Android: [`android.widget.SeekBar`](https://developer.android.com/reference/android/widget/SeekBar.html)
 - iOS: [`UISlider`](https://developer.apple.com/documentation/uikit/uislider)
-
-Previous [←SegmentedBar](https://docs.nativescript.org/ui/segmented-bar)
-
-Next [Switch→](https://docs.nativescript.org/ui/switch)
 
 2. [Props](https://docs.nativescript.org/ui/slider#props)
 1. [value](https://docs.nativescript.org/ui/slider#value)
@@ -3565,10 +3521,6 @@ Returns a Color instance that is the complement of the current color.
 - `Android`: [android.graphics.Color](https://developer.android.com/reference/android/graphics/Color)
 - `iOS`: [UIColor](https://developer.apple.com/documentation/uikit/uicolor?language=objc)
 
-Previous [←ApplicationSettings](https://docs.nativescript.org/core/application-settings)
-
-Next [Connectivity→](https://docs.nativescript.org/core/connectivity)
-
 2. [How to use the Color class](https://docs.nativescript.org/core/color#how-to-use-the-color-class)
 1. [Create a color object from a hex value](https://docs.nativescript.org/core/color#create-a-color-object-from-a-hex-value)
 2. [Create a color object from an alpha value](https://docs.nativescript.org/core/color#create-a-color-object-from-an-alpha-value)
@@ -3931,10 +3883,6 @@ There are certain limitations to keep in mind when working with workers:
 - **Debugging workers is not currently possible.**
 - **No nested workers support**. We want to hear from the community if this is something we need to support.
 
-Previous [←Shared Element Transitions](https://docs.nativescript.org/guide/shared-element-transitions)
-
-Next [Code Sharing→](https://docs.nativescript.org/guide/code-sharing)
-
 2. [Using Workers](https://docs.nativescript.org/guide/multithreading#using-workers)
 1. [Spawning a worker](https://docs.nativescript.org/guide/multithreading#spawning-a-worker)
 2. [Sending messages to a worker](https://docs.nativescript.org/guide/multithreading#sending-messages-to-a-worker)
@@ -4071,10 +4019,6 @@ Emitted when building the UI, the event args allow passing a native view instanc
 
 See [CreateViewEventData](https://docs.nativescript.org/api/interface/CreateViewEventData)
 
-Previous [←ListView](https://docs.nativescript.org/ui/list-view)
-
-Next [Progress→](https://docs.nativescript.org/ui/progress)
-
 2. [Props](https://docs.nativescript.org/ui/placeholder#props)
 1. [...Inherited](https://docs.nativescript.org/ui/placeholder#inherited)
 3. [Events](https://docs.nativescript.org/ui/placeholder#events)
@@ -4124,10 +4068,7 @@ Clone and see for yourself: [https://github.com/NativeScript/examples-best-pract
 
 ### [Optimizing Images](https://docs.nativescript.org/best-practices/optimizing-images) [​](https://docs.nativescript.org/best-practices/\#optimizing-images)
 
-Previous [←Animations](https://docs.nativescript.org/guide/animations)
 
-Next [Commonly Used APIs→](https://docs.nativescript.org/core/)
-0
 02. [The story of 😢 or 😊](https://docs.nativescript.org/best-practices/#the-story-of-%F0%9F%98%A2-or-%F0%9F%98%8A)
 03. [View bindings](https://docs.nativescript.org/best-practices/#view-bindings)
 04. [ListViews](https://docs.nativescript.org/best-practices/#listviews)
@@ -4235,10 +4176,6 @@ See [PropertyChangeData](https://docs.nativescript.org/api/interface/PropertyCha
 
 - Android: [`android.widget.Switch`](https://developer.android.com/reference/android/widget/Switch.html)
 - iOS: [`UISwitch`](https://developer.apple.com/documentation/uikit/uiswitch)
-
-Previous [←Slider](https://docs.nativescript.org/ui/slider)
-
-Next [TabView→](https://docs.nativescript.org/ui/tab-view)
 
 2. [Examples](https://docs.nativescript.org/ui/switch#examples)
 1. [Styling a Switch](https://docs.nativescript.org/ui/switch#styling-a-switch)
@@ -4402,10 +4339,6 @@ For additional inherited properties, refer to the [API Reference](https://docs.n
 - Android: [`android.widget.ProgressBar` (indeterminate = false)](https://developer.android.com/reference/android/widget/ProgressBar.html)
 - iOS: [`UIProgressView`](https://developer.apple.com/documentation/uikit/uiprogressview)
 
-Previous [←Placeholder](https://docs.nativescript.org/ui/placeholder)
-
-Next [ScrollView→](https://docs.nativescript.org/ui/scroll-view)
-
 2. [Example](https://docs.nativescript.org/ui/progress#example)
 1. [Styling the Progress bar](https://docs.nativescript.org/ui/progress#styling-the-progress-bar)
 3. [Props](https://docs.nativescript.org/ui/progress#props)
@@ -4437,10 +4370,6 @@ For example, to try all the latest features that have not made it into a stable 
 ```bash
 ns update next
 ```
-
-Previous [←Testing](https://docs.nativescript.org/guide/testing)
-
-Next [To Latest→](https://docs.nativescript.org/guide/updating/to-latest)
 
 2. [Update guides](https://docs.nativescript.org/guide/updating/#update-guides)
 3. [Updating to a tagged version](https://docs.nativescript.org/guide/updating/#updating-to-a-tagged-version)
@@ -4579,10 +4508,6 @@ Returns an array of all stored keys or an empty array if no keys exist in the de
 
 - `Android`: [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences)
 - `iOS`: [NSUserDefaults](https://developer.apple.com/documentation/foundation/nsuserdefaults)
-
-Previous [←Application](https://docs.nativescript.org/core/application)
-
-Next [Color→](https://docs.nativescript.org/core/color)
 
 2. [How to use ApplicationSettings](https://docs.nativescript.org/core/application-settings#how-to-use-applicationsettings)
 1. [Store a string value](https://docs.nativescript.org/core/application-settings#store-a-string-value)
@@ -4845,10 +4770,6 @@ json
 "skipLibCheck": true,
 ```
 
-Previous [←Choosing an editor](https://docs.nativescript.org/guide/choosing-an-editor)
-
-Next [CLI Basics→](https://docs.nativescript.org/guide/cli-basics)
-
 2. [Useful tips](https://docs.nativescript.org/troubleshooting#useful-tips)
 1. [Deleting XCode DerivedData](https://docs.nativescript.org/troubleshooting#deleting-xcode-deriveddata)
 2. [Stopping the ADB server](https://docs.nativescript.org/troubleshooting#stopping-the-adb-server)
@@ -5013,10 +4934,6 @@ colSpan: number
 
 The number of columns for the element to span across.
 
-Previous [←StackLayout](https://docs.nativescript.org/ui/stack-layout)
-
-Next [RootLayout→](https://docs.nativescript.org/ui/root-layout)
-
 2. [Examples](https://docs.nativescript.org/ui/grid-layout#examples)
 1. [GridLayout with fixed sizing](https://docs.nativescript.org/ui/grid-layout#gridlayout-with-fixed-sizing)
 2. [GridLayout with star sizing](https://docs.nativescript.org/ui/grid-layout#gridlayout-with-star-sizing)
@@ -5166,10 +5083,6 @@ Default value: `vertical`.
 
 Additional inherited properties not shown. Refer to the [API Reference](https://docs.nativescript.org/api/class/StackLayout)
 
-Previous [←Layout Containers](https://docs.nativescript.org/ui/#layout-containers)
-
-Next [GridLayout→](https://docs.nativescript.org/ui/grid-layout)
-
 2. [Examples](https://docs.nativescript.org/ui/stack-layout#examples)
 1. [Vertical StackLayout](https://docs.nativescript.org/ui/stack-layout#vertical-stacklayout)
 2. [Aligning children horizontally in a veritcal StackLayout](https://docs.nativescript.org/ui/stack-layout#aligning-children-horizontally-in-a-veritcal-stacklayout)
@@ -5296,10 +5209,6 @@ Emitted when the search input is cleared through the **✗** button in the input
 - Android: [`android.widget.SearchView`](https://developer.android.com/reference/android/widget/SearchView.html)
 - iOS: [`UISearchBar`](https://developer.apple.com/documentation/uikit/uisearchbar)
 
-Previous [←ScrollView](https://docs.nativescript.org/ui/scroll-view)
-
-Next [SegmentedBar→](https://docs.nativescript.org/ui/segmented-bar)
-
 2. [Props](https://docs.nativescript.org/ui/search-bar#props)
 1. [hint](https://docs.nativescript.org/ui/search-bar#hint)
 2. [text](https://docs.nativescript.org/ui/search-bar#text)
@@ -5333,10 +5242,6 @@ _This is useful if you have a physical Vision Pro device._
 3. Back on your Vision Pro
 1. Tapping on the shared link will open NativeScript Preview and begin building in the StackBlitz terminal.
 2. Once the build is complete, Vision Pro Safari will launch with a prompt to open 'Preview' on the Vision Pro to begin a live development session with your Vision Pro app.
-
-Previous [←Developing with visionOS](https://docs.nativescript.org/guide/visionos)
-
-Next [Adding Native Code→](https://docs.nativescript.org/guide/adding-native-code)
 
 2. [Using NativeScript Preview with Vision Pro](https://docs.nativescript.org/guide/visionos-preview#using-nativescript-preview-with-vision-pro)
 
@@ -7961,10 +7866,6 @@ Emitted when the selected tab changes.
 - Android: [`androidx.viewpager.widget.ViewPager`](https://developer.android.com/reference/androidx/viewpager/widget/ViewPager)
 - iOS: [`UITabBarController`](https://developer.apple.com/documentation/uikit/uitabbarcontroller)
 
-Previous [←Switch](https://docs.nativescript.org/ui/switch)
-
-Next [TextField→](https://docs.nativescript.org/ui/text-field)
-
 2. [Props](https://docs.nativescript.org/ui/tab-view#props)
 1. [selectedIndex](https://docs.nativescript.org/ui/tab-view#selectedindex)
 2. [tabTextColor](https://docs.nativescript.org/ui/tab-view#tabtextcolor)
@@ -8087,10 +7988,6 @@ When an element is a direct child of `<AbsoluteLayout>`, you can set the followi
 | --- | --- | --- |
 | `top` | `Number` | Gets or sets the distance, in pixels, between the top edge of the child and the top edge of its parent. |
 | `left` | `Number` | Gets or sets the distance, in pixels, between the left edge of the child and the left edge of its parent. |
-
-Previous [←DockLayout](https://docs.nativescript.org/ui/dock-layout)
-
-Next [Navigation Components→](https://docs.nativescript.org/ui/#navigation-containers)
 
 2. [Creating a simple grid-like layout](https://docs.nativescript.org/ui/absolute-layout#creating-a-simple-grid-like-layout)
 3. [Overlapping elements](https://docs.nativescript.org/ui/absolute-layout#overlapping-elements)
@@ -8324,10 +8221,6 @@ Emitted when the TextField loses focus.
 - Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
 - iOS: [`UITextField`](https://developer.apple.com/documentation/uikit/uitextfield)
 
-Previous [←TabView](https://docs.nativescript.org/ui/tab-view)
-
-Next [TextView→](https://docs.nativescript.org/ui/text-view)
-
 2. [Examples](https://docs.nativescript.org/ui/text-field#examples)
 1. [Formatting text inside a TextField](https://docs.nativescript.org/ui/text-field#formatting-text-inside-a-textfield)
 3. [Props](https://docs.nativescript.org/ui/text-field#props)
@@ -8436,10 +8329,6 @@ Emitted when the currently selected item (index) changes.
 
 - Android: [`android.widget.NumberPicker`](https://developer.android.com/reference/android/widget/NumberPicker.html)
 - iOS: [`UIPickerView`](https://developer.apple.com/documentation/uikit/uipickerview)
-
-Previous [←Label](https://docs.nativescript.org/ui/label)
-
-Next [ListView→](https://docs.nativescript.org/ui/list-view)
 
 2. [Props](https://docs.nativescript.org/ui/list-picker#props)
 1. [items](https://docs.nativescript.org/ui/list-picker#items)
@@ -9087,10 +8976,6 @@ See [PropertyChangeData](https://docs.nativescript.org/api/interface/PropertyCha
 - Android: [`android.widget.DatePicker`](https://developer.android.com/reference/android/widget/DatePicker.html)
 - iOS: [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker)
 
-Previous [←Button](https://docs.nativescript.org/ui/button)
-
-Next [HtmlView→](https://docs.nativescript.org/ui/html-view)
-
 2. [Props](https://docs.nativescript.org/ui/date-picker#props)
 1. [date](https://docs.nativescript.org/ui/date-picker#date)
 2. [minDate](https://docs.nativescript.org/ui/date-picker#mindate)
@@ -9274,8 +9159,6 @@ See [LoadEventData](https://docs.nativescript.org/api/interface/LoadEventData).
 - Android: [`android.webkit.WebView`](https://developer.android.com/reference/android/webkit/WebView)
 - iOS: [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview)
 
-Previous [←TimePicker](https://docs.nativescript.org/ui/time-picker)
-
 2. [Props](https://docs.nativescript.org/ui/web-view#props)
 1. [src](https://docs.nativescript.org/ui/web-view#src)
 2. [canGoBack](https://docs.nativescript.org/ui/web-view#cangoback)
@@ -9377,10 +9260,6 @@ See [EventData](https://docs.nativescript.org/api/interface/EventData).
 - Android: [`android.widget.ProgressBar` (indeterminate = true)](https://developer.android.com/reference/android/widget/ProgressBar.html)
 - iOS: [`UIActivityIndicatorView`](https://developer.apple.com/documentation/uikit/uiactivityindicatorview)
 
-Previous [←Components](https://docs.nativescript.org/ui/#components)
-
-Next [Button→](https://docs.nativescript.org/ui/button)
-
 2. [Examples](https://docs.nativescript.org/ui/activity-indicator#examples)
 1. [Always busy ActivityIndicator](https://docs.nativescript.org/ui/activity-indicator#always-busy-activityindicator)
 3. [Props](https://docs.nativescript.org/ui/activity-indicator#props)
@@ -9461,10 +9340,6 @@ Sets the height used to measure and layout each child. When not set, the item he
 ### ...Inherited [​](https://docs.nativescript.org/ui/wrap-layout\#inherited)
 
 For additional inherited properties not shown, refer to the [API Reference](https://docs.nativescript.org/api/class/WrapLayout).
-
-Previous [←FlexboxLayout](https://docs.nativescript.org/ui/flexbox-layout)
-
-Next [DockLayout→](https://docs.nativescript.org/ui/dock-layout)
 
 2. [Examples](https://docs.nativescript.org/ui/wrap-layout#examples)
 1. [Horizontal WrapLayout](https://docs.nativescript.org/ui/wrap-layout#horizontal-wraplayout)
@@ -9708,10 +9583,6 @@ interface TransitionAnimation {
 
 See [CoreTypes.AnimationCurve](https://docs.nativescript.org/api/namespace/CoreTypes-AnimationCurve).
 
-Previous [←GridLayout](https://docs.nativescript.org/ui/grid-layout)
-
-Next [FlexboxLayout→](https://docs.nativescript.org/ui/flexbox-layout)
-
 2. [Examples](https://docs.nativescript.org/ui/root-layout#examples)
 1. [Using RootLayout to open dynamic popups](https://docs.nativescript.org/ui/root-layout#using-rootlayout-to-open-dynamic-popups)
 3. [API](https://docs.nativescript.org/ui/root-layout#api)
@@ -9834,10 +9705,6 @@ dock: 'top' | 'right' | 'bottom' | 'left'
 ```
 
 Specifies which side to dock the element to.
-
-Previous [←WrapLayout](https://docs.nativescript.org/ui/wrap-layout)
-
-Next [AbsoluteLayout→](https://docs.nativescript.org/ui/absolute-layout)
 
 2. [Examples](https://docs.nativescript.org/ui/dock-layout#examples)
 1. [Dock to every side without stretching the last child](https://docs.nativescript.org/ui/dock-layout#dock-to-every-side-without-stretching-the-last-child)
@@ -10081,10 +9948,6 @@ See [ScrollEventData](https://docs.nativescript.org/api/interface/ScrollEventDat
 
 - Android: [`android.view`](https://developer.android.com/reference/android/view/View.html)
 - iOS: [`UIScrollView`](https://developer.apple.com/documentation/uikit/uiscrollview)
-
-Previous [←Progress](https://docs.nativescript.org/ui/progress)
-
-Next [SearchBar→](https://docs.nativescript.org/ui/search-bar)
 
 2. [Props](https://docs.nativescript.org/ui/scroll-view#props)
 1. [orientation](https://docs.nativescript.org/ui/scroll-view#orientation)
@@ -10400,10 +10263,6 @@ Note
 This property is not part of the CSS Flexbox specification.
 
 Default value: `false`.
-
-Previous [←RootLayout](https://docs.nativescript.org/ui/root-layout)
-
-Next [WrapLayout→](https://docs.nativescript.org/ui/wrap-layout)
 
 2. [Examples](https://docs.nativescript.org/ui/flexbox-layout#examples)
 1. [Default FlexboxLayout](https://docs.nativescript.org/ui/flexbox-layout#default-flexboxlayout)
@@ -11199,11 +11058,6 @@ Gets the string used to separate file paths.
 
 - iOS: [NSFileManager](https://developer.apple.com/documentation/foundation/nsfilemanager)
 
-
-Previous [←Device](https://docs.nativescript.org/core/device)
-
-Next [FPS Meter→](https://docs.nativescript.org/core/fps-meter)
-
 2. [How to work with files and folders](https://docs.nativescript.org/core/file-system#how-to-work-with-files-and-folders)
 01. [Accessing the Documents folder](https://docs.nativescript.org/core/file-system#accessing-the-documents-folder)
 02. [Accessing the temporary(Caches) folder](https://docs.nativescript.org/core/file-system#accessing-the-temporary-caches-folder)
@@ -11392,10 +11246,6 @@ Emitted when an item in the SegmentedBar is tapped.
 - Android: [`android.widget.TabHost`](https://developer.android.com/reference/android/widget/TabHost.html)
 - iOS: [`UISegmentedControl`](https://developer.apple.com/documentation/uikit/uisegmentedcontrol)
 
-Previous [←SearchBar](https://docs.nativescript.org/ui/search-bar)
-
-Next [Slider→](https://docs.nativescript.org/ui/slider)
-
 2. [Props](https://docs.nativescript.org/ui/segmented-bar#props)
 1. [items](https://docs.nativescript.org/ui/segmented-bar#items)
 2. [selectedIndex](https://docs.nativescript.org/ui/segmented-bar#selectedindex)
@@ -11492,10 +11342,6 @@ For additional inherited properties, refer to the [API Reference](https://docs.n
 
 - Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
 - iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)
-
-Previous [←DatePicker](https://docs.nativescript.org/ui/date-picker)
-
-Next [Image→](https://docs.nativescript.org/ui/image)
 
 2. [Props](https://docs.nativescript.org/ui/html-view#props)
 1. [html](https://docs.nativescript.org/ui/html-view#html)
@@ -11753,10 +11599,6 @@ Emitted when the TextView loses focus.
 
 - Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
 - iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)
-
-Previous [←TextField](https://docs.nativescript.org/ui/text-field)
-
-Next [TimePicker→](https://docs.nativescript.org/ui/time-picker)
 
 2. [Examples](https://docs.nativescript.org/ui/text-view#examples)
 1. [Formatting text inside a TextView](https://docs.nativescript.org/ui/text-view#formatting-text-inside-a-textview)
@@ -12181,10 +12023,6 @@ See [R.drawable](https://developer.android.com/reference/android/R.drawable.html
 - Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
 - iOS: [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca)
 
-Previous [←Page](https://docs.nativescript.org/ui/page)
-
-Next [ActionItem→](https://docs.nativescript.org/ui/action-bar#action-item)
-
 2. [Examples](https://docs.nativescript.org/ui/action-bar#examples)
 1. [ActionBar with a custom title view](https://docs.nativescript.org/ui/action-bar#actionbar-with-a-custom-title-view)
 2. [ActionBar with an always visible Android icon](https://docs.nativescript.org/ui/action-bar#actionbar-with-an-always-visible-android-icon)
@@ -12571,10 +12409,6 @@ Emitted when the user reaches the end of the ListView. Useful for loading additi
 - Android: [`android.widget.ListView`](https://developer.android.com/reference/android/widget/ListView.html)
 - iOS: [`UITableView`](https://developer.apple.com/documentation/uikit/uitableview)
 
-Previous [←ListPicker](https://docs.nativescript.org/ui/list-picker)
-
-Next [Placeholder→](https://docs.nativescript.org/ui/placeholder)
-
 2. [Examples](https://docs.nativescript.org/ui/list-view#examples)
 1. [ListView with multiple itemTemplates](https://docs.nativescript.org/ui/list-view#listview-with-multiple-itemtemplates)
 3. [Props](https://docs.nativescript.org/ui/list-view#props)
@@ -12773,10 +12607,6 @@ export function onShownModally(args: ShownModallyData) {
 - [NativeScript XML Data Binding](https://docs.nativescript.org/guide/data-binding)
 - [TextField](https://docs.nativescript.org/ui/text-field)
 
-Previous [←Using Frames and Pages](https://docs.nativescript.org/guide/navigation/frames-and-pages)
-
-Next [Property System→](https://docs.nativescript.org/guide/property-system)
-
 2. [Showing a modal](https://docs.nativescript.org/guide/navigation/modals#showing-a-modal)
 3. [Closing a modal](https://docs.nativescript.org/guide/navigation/modals#closing-a-modal)
 4. [Passing data](https://docs.nativescript.org/guide/navigation/modals#passing-data)
@@ -12817,10 +12647,6 @@ Additionally, NativeScript also supports Jetpack Compose and SwiftUI through plu
    - [Jetpack Compose Introduction and example](https://dev.to/valorsoftware/introduction-to-jetpack-compose-for-nativescript-54d7)
 2. [SwiftUI Plugin](https://docs.nativescript.org/plugins/swift-ui)
    - [SwiftUI Introduction and example](https://dev.to/valorsoftware/introduction-to-swiftui-for-nativescript-4m1b)
-
-Previous [←Previewing visionOS from StackBlitz](https://docs.nativescript.org/guide/visionos-preview)
-
-Next [Adding Java/Kotlin Code→](https://docs.nativescript.org/guide/native-code/android)
 
 
 ## Progress Component
@@ -12892,10 +12718,6 @@ value: number
 defined in [@nativescript/core/ui/progress/index.d.ts:21:1](https://unpkg.com/browse/@nativescript/core//ui/progress/index.d.ts#L21)
 
 Gets or sets a progress current value.
-
-Previous [←Placeholder](https://docs.nativescript.org/api/class/Placeholder)
-
-Next [Property→](https://docs.nativescript.org/api/class/Property)
 
 2. [Summary](https://docs.nativescript.org/api/class/Progress#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/Progress#constructors)
@@ -13259,10 +13081,6 @@ defined in [@nativescript/core/ui/page/page-common.d.ts:40:4](https://unpkg.com/
 
 Returns _void_
 
-Previous [←Page](https://docs.nativescript.org/api/class/Page)
-
-Next [PageTransition→](https://docs.nativescript.org/api/class/PageTransition)
-
 2. [Summary](https://docs.nativescript.org/api/class/PageBase#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/PageBase#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/PageBase#constructor)
@@ -13586,10 +13404,6 @@ Removes all views in this layout.
 
 Returns _void_
 
-Previous [←Label](https://docs.nativescript.org/api/class/Label)
-
-Next [ListPicker→](https://docs.nativescript.org/api/class/ListPicker)
-
 2. [Summary](https://docs.nativescript.org/api/class/LayoutBase#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/LayoutBase#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/LayoutBase#constructor)
@@ -13665,10 +13479,6 @@ setInheritedValue: (value: U) => void
 ```
 
 defined in [@nativescript/core/ui/core/properties/index.d.ts:118:4](https://unpkg.com/browse/@nativescript/core//ui/core/properties/index.d.ts#L118)
-
-Previous [←ImageSource](https://docs.nativescript.org/api/class/ImageSource)
-
-Next [InheritedProperty→](https://docs.nativescript.org/api/class/InheritedProperty)
 
 2. [Summary](https://docs.nativescript.org/api/class/InheritedCssProperty#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/InheritedCssProperty#constructors)
@@ -13764,10 +13574,6 @@ layoutView(): View
 defined in [@nativescript/core/ui/content-view/index.d.ts:5:1](https://unpkg.com/browse/@nativescript/core//ui/content-view/index.d.ts#L5)
 
 Returns _[View](https://docs.nativescript.org/api/class/View)_
-
-Previous [←ContainerView](https://docs.nativescript.org/api/class/ContainerView)
-
-Next [ControlStateChangeListener→](https://docs.nativescript.org/api/class/ControlStateChangeListener)
 
 2. [Summary](https://docs.nativescript.org/api/class/ContentView#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ContentView#constructors)
@@ -13978,10 +13784,6 @@ defined in [@nativescript/core/ui/core/properties/index.d.ts:89:4](https://unpkg
 | `cls` | `` | `{}` |
 
 Returns _void_
-
-Previous [←CssAnimationProperty](https://docs.nativescript.org/api/class/CssAnimationProperty)
-
-Next [CustomLayoutView→](https://docs.nativescript.org/api/class/CustomLayoutView)
 
 2. [Summary](https://docs.nativescript.org/api/class/CssProperty#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/CssProperty#constructors)
@@ -14649,10 +14451,6 @@ For more information, please visit 'http://developer.android.com/reference/andro
 
 Returns _void_
 
-Previous [←ActivityIndicator](https://docs.nativescript.org/api/class/ActivityIndicator)
-
-Next [Animation→](https://docs.nativescript.org/api/class/Animation)
-
 2. [Summary](https://docs.nativescript.org/api/class/AndroidApplication#summary)
 3. [Properties](https://docs.nativescript.org/api/class/AndroidApplication#properties)
 01. [activityBackPressedEvent](https://docs.nativescript.org/api/class/AndroidApplication#activitybackpressedevent)
@@ -14799,10 +14597,6 @@ defined in [@nativescript/core/image-asset/index.d.ts:5:1](https://unpkg.com/bro
 | `callback` | `` | `(image: any, error: any) => void` |
 
 Returns _any_
-
-Previous [←Image](https://docs.nativescript.org/api/class/Image)
-
-Next [ImageCache→](https://docs.nativescript.org/api/class/ImageCache)
 
 2. [Summary](https://docs.nativescript.org/api/class/ImageAsset#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ImageAsset#constructors)
@@ -15066,10 +14860,6 @@ Update transition state.
 
 Returns _void_
 
-Previous [←SegmentedBarItem](https://docs.nativescript.org/api/class/SegmentedBarItem)
-
-Next [SharedTransitionHelper→](https://docs.nativescript.org/api/class/SharedTransitionHelper)
-
 2. [Summary](https://docs.nativescript.org/api/class/SharedTransition#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/SharedTransition#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/SharedTransition#constructor)
@@ -15203,10 +14993,6 @@ name?: string
 defined in [@nativescript/core/ui/animation/keyframe-animation.d.ts:54:1](https://unpkg.com/browse/@nativescript/core//ui/animation/keyframe-animation.d.ts#L54)
 
 The animation name.
-
-Previous [←KeyframeAnimation](https://docs.nativescript.org/api/class/KeyframeAnimation)
-
-Next [Label→](https://docs.nativescript.org/api/class/Label)
 
 2. [Summary](https://docs.nativescript.org/api/class/KeyframeAnimationInfo#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/KeyframeAnimationInfo#constructors)
@@ -15549,8 +15335,6 @@ async onPullToRefreshInitiated(args: ListViewEventData) {
 ## API Reference [​](https://docs.nativescript.org/plugins/nativescript-ui/rad-list-view\#api-reference)
 
 [Here](https://v7.docs.nativescript.org/ns-ui-api-reference/classes/radlistview) is the API Reference section.
-
-Previous [←Storage](https://docs.nativescript.org/plugins/firebase-storage)
 
 2. [Overview](https://docs.nativescript.org/plugins/nativescript-ui/rad-list-view#overview)
 3. [Installation](https://docs.nativescript.org/plugins/nativescript-ui/rad-list-view#installation)
@@ -15945,10 +15729,6 @@ defined in [@nativescript/core/data/observable/index.d.ts:128:4](https://unpkg.c
 
 Returns _void_
 
-Previous [←NavigationButton](https://docs.nativescript.org/api/class/NavigationButton)
-
-Next [ObservableArray→](https://docs.nativescript.org/api/class/ObservableArray)
-
 2. [Summary](https://docs.nativescript.org/api/class/Observable#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/Observable#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/Observable#constructor)
@@ -16065,10 +15845,6 @@ Text: string
 defined in [@nativescript/core/xml/index.d.ts:22:8](https://unpkg.com/browse/@nativescript/core//xml/index.d.ts#L22)
 
 Specifies the Text event type.
-
-Previous [←PageTransition](https://docs.nativescript.org/api/class/PageTransition)
-
-Next [Placeholder→](https://docs.nativescript.org/api/class/Placeholder)
 
 2. [Summary](https://docs.nativescript.org/api/class/ParserEventType#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ParserEventType#constructors)
@@ -16191,10 +15967,6 @@ navigationType: NavigationType
 
 defined in [@nativescript/core/ui/frame/index.d.ts:339:1](https://unpkg.com/browse/@nativescript/core//ui/frame/index.d.ts#L339)
 
-Previous [←NavigatedData](https://docs.nativescript.org/api/interface/NavigatedData)
-
-Next [NavigationEntry→](https://docs.nativescript.org/api/interface/NavigationEntry)
-
 2. [Summary](https://docs.nativescript.org/api/interface/NavigationContext#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/NavigationContext#properties)
 1. [entry](https://docs.nativescript.org/api/interface/NavigationContext#entry)
@@ -16254,10 +16026,6 @@ defined in [@nativescript/core/ui/image-cache/index.d.ts:124:1](https://unpkg.co
 
 A string indentifier of the cached image.
 
-Previous [←DownloadRequest](https://docs.nativescript.org/api/interface/DownloadRequest)
-
-Next [EventData→](https://docs.nativescript.org/api/interface/EventData)
-
 2. [Summary](https://docs.nativescript.org/api/interface/DownloadedData#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/DownloadedData#properties)
 1. [image](https://docs.nativescript.org/api/interface/DownloadedData#image)
@@ -16294,10 +16062,6 @@ inherited from
 defined in [@nativescript/core/ui/core/view-base/index.d.ts:263:4](https://unpkg.com/browse/@nativescript/core//ui/core/view-base/index.d.ts#L263)
 
 Returns _[NavigationButton](https://docs.nativescript.org/api/class/NavigationButton)_
-
-Previous [←ModuleNameResolver](https://docs.nativescript.org/api/class/ModuleNameResolver)
-
-Next [Observable→](https://docs.nativescript.org/api/class/Observable)
 
 2. [Summary](https://docs.nativescript.org/api/class/NavigationButton#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/NavigationButton#constructors)
@@ -16358,10 +16122,6 @@ iosOverflowSafeArea: boolean
 defined in [@nativescript/core/ui/core/view/index.d.ts:910:8](https://unpkg.com/browse/@nativescript/core//ui/core/view/index.d.ts#L910)
 
 Instruct container view to expand beyond the safe area. This property is iOS specific. Default value: true
-
-Previous [←Color](https://docs.nativescript.org/api/class/Color)
-
-Next [ContentView→](https://docs.nativescript.org/api/class/ContentView)
 
 2. [Summary](https://docs.nativescript.org/api/class/ContainerView#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ContainerView#constructors)
@@ -16633,10 +16393,6 @@ Forces the Repeater to reload all its items.
 
 Returns _void_
 
-Previous [←ProxyViewContainer](https://docs.nativescript.org/api/class/ProxyViewContainer)
-
-Next [RootLayout→](https://docs.nativescript.org/api/class/RootLayout)
-
 2. [Summary](https://docs.nativescript.org/api/class/Repeater#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/Repeater#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/Repeater#constructor)
@@ -16833,10 +16589,6 @@ Raised when the selected index changes.
 
 Returns _void_
 
-Previous [←SearchBar](https://docs.nativescript.org/api/class/SearchBar)
-
-Next [SegmentedBarItem→](https://docs.nativescript.org/api/class/SegmentedBarItem)
-
 2. [Summary](https://docs.nativescript.org/api/class/SegmentedBar#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/SegmentedBar#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/SegmentedBar#constructor)
@@ -16884,10 +16636,6 @@ json
   "exclude": ["node_modules", "platforms"]
 }
 ```
-
-Previous [←references.d.ts](https://docs.nativescript.org/project-structure/references-d-ts)
-
-Next [webpack.config.js→](https://docs.nativescript.org/project-structure/webpack-config)
 
 ## WebView Load Event Data
 
@@ -16948,10 +16696,6 @@ url: string
 defined in [@nativescript/core/ui/web-view/index.d.ts:115:1](https://unpkg.com/browse/@nativescript/core//ui/web-view/index.d.ts#L115)
 
 Gets the url of the web-view.
-
-Previous [←LoadAppCSSEventData](https://docs.nativescript.org/api/interface/LoadAppCSSEventData)
-
-Next [LoadOptions→](https://docs.nativescript.org/api/interface/LoadOptions)
 
 2. [Summary](https://docs.nativescript.org/api/interface/LoadEventData#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/LoadEventData#properties)
@@ -17282,10 +17026,6 @@ Scrolls the specified item with index into view with animation.
 
 Returns _any_
 
-Previous [←ListPicker](https://docs.nativescript.org/api/class/ListPicker)
-
-Next [ModalTransition→](https://docs.nativescript.org/api/class/ModalTransition)
-
 2. [Summary](https://docs.nativescript.org/api/class/ListView#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ListView#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/ListView#constructor)
@@ -17344,10 +17084,6 @@ defined in [@nativescript/core/ui/transition/slide-transition.d.ts:4:1](https://
 | `nativeCurve` | `` | `any` |
 
 Returns _[SlideTransition](https://docs.nativescript.org/api/class/SlideTransition)_
-
-Previous [←ShorthandProperty](https://docs.nativescript.org/api/class/ShorthandProperty)
-
-Next [Slider→](https://docs.nativescript.org/api/class/Slider)
 
 2. [Summary](https://docs.nativescript.org/api/class/SlideTransition#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/SlideTransition#constructors)
@@ -17416,10 +17152,6 @@ stackTrace?: string
 defined in [@nativescript/core/application/application-interfaces.d.ts:15:4](https://unpkg.com/browse/@nativescript/core//application/application-interfaces.d.ts#L15)
 
 The native stack trace.
-
-Previous [←NativeScriptConfig](https://docs.nativescript.org/api/interface/NativeScriptConfig)
-
-Next [NavigatedData→](https://docs.nativescript.org/api/interface/NavigatedData)
 
 2. [Summary](https://docs.nativescript.org/api/interface/NativeScriptError#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/NativeScriptError#properties)
@@ -17643,10 +17375,6 @@ Set the selection anchor to start and the selection edge to stop
 
 Returns _any_
 
-Previous [←DockLayout](https://docs.nativescript.org/api/class/DockLayout)
-
-Next [FadeTransition→](https://docs.nativescript.org/api/class/FadeTransition)
-
 2. [Summary](https://docs.nativescript.org/api/class/EditableTextBase#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/EditableTextBase#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/EditableTextBase#constructor)
@@ -17856,10 +17584,6 @@ defined in [@nativescript/core/config/config.interface.d.ts:157:4](https://unpkg
 Custom webpack config path
 The default is `` `webpack.config.js` `` in the root however you can use a custom name and place elsewhere.
 
-Previous [←LoginResult](https://docs.nativescript.org/api/interface/LoginResult)
-
-Next [NativeScriptError→](https://docs.nativescript.org/api/interface/NativeScriptError)
-
 2. [Summary](https://docs.nativescript.org/api/interface/NativeScriptConfig#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/NativeScriptConfig#properties)
 01. [android](https://docs.nativescript.org/api/interface/NativeScriptConfig#android)
@@ -18016,10 +17740,6 @@ defined in [@nativescript/core/ui/core/properties/index.d.ts:132:4](https://unpk
 
 Returns _void_
 
-Previous [←SharedTransitionHelper](https://docs.nativescript.org/api/class/SharedTransitionHelper)
-
-Next [SlideTransition→](https://docs.nativescript.org/api/class/SlideTransition)
-
 2. [Summary](https://docs.nativescript.org/api/class/ShorthandProperty#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ShorthandProperty#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/ShorthandProperty#constructor)
@@ -18149,10 +17869,6 @@ toString: (encoding?: HttpResponseEncoding) => string
 ```
 
 defined in [@nativescript/core/http/index.d.ts:150:1](https://unpkg.com/browse/@nativescript/core//http/index.d.ts#L150)
-
-Previous [←GestureEventDataWithState](https://docs.nativescript.org/api/interface/GestureEventDataWithState)
-
-Next [HttpRequestOptions→](https://docs.nativescript.org/api/interface/HttpRequestOptions)
 
 2. [Summary](https://docs.nativescript.org/api/interface/HttpContent#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/HttpContent#properties)
@@ -18409,10 +18125,6 @@ defined in [@nativescript/core/ui/proxy-view-container/index.d.ts:13:4](https://
 
 Returns _any_
 
-Previous [←Property](https://docs.nativescript.org/api/class/Property)
-
-Next [Repeater→](https://docs.nativescript.org/api/class/Repeater)
-
 2. [Summary](https://docs.nativescript.org/api/class/ProxyViewContainer#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ProxyViewContainer#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/ProxyViewContainer#constructor)
@@ -18512,10 +18224,6 @@ defined in [@nativescript/core/ui/list-picker/index.d.ts:22:1](https://unpkg.com
 
 Gets or sets the selected index.
 
-Previous [←LayoutBase](https://docs.nativescript.org/api/class/LayoutBase)
-
-Next [ListView→](https://docs.nativescript.org/api/class/ListView)
-
 2. [Summary](https://docs.nativescript.org/api/class/ListPicker#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ListPicker#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/ListPicker#constructor)
@@ -18589,10 +18297,6 @@ sourceKey: symbol
 ```
 
 defined in [@nativescript/core/ui/core/properties/index.d.ts:69:13](https://unpkg.com/browse/@nativescript/core//ui/core/properties/index.d.ts#L69)
-
-Previous [←InheritedCssProperty](https://docs.nativescript.org/api/class/InheritedCssProperty)
-
-Next [ItemSpec→](https://docs.nativescript.org/api/class/ItemSpec)
 
 2. [Summary](https://docs.nativescript.org/api/class/InheritedProperty#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/InheritedProperty#constructors)
@@ -18790,10 +18494,6 @@ defined in [@nativescript/core/accessibility/accessibility-types.d.ts:97:4](http
 
 The element behaves like a switch
 
-Previous [←AccessibilityLiveRegion](https://docs.nativescript.org/api/enum/AccessibilityLiveRegion)
-
-Next [AccessibilityState→](https://docs.nativescript.org/api/enum/AccessibilityState)
-
 2. [Summary](https://docs.nativescript.org/api/enum/AccessibilityRole#summary)
 3. [Enumeration Members](https://docs.nativescript.org/api/enum/AccessibilityRole#enumeration-members)
 01. [Adjustable](https://docs.nativescript.org/api/enum/AccessibilityRole#adjustable)
@@ -18869,10 +18569,6 @@ defined in [@nativescript/core/ui/segmented-bar/index.d.ts:15:8](https://unpkg.c
 
 Gets or sets the title of the SegmentedBarItem.
 
-Previous [←SegmentedBar](https://docs.nativescript.org/api/class/SegmentedBar)
-
-Next [SharedTransition→](https://docs.nativescript.org/api/class/SharedTransition)
-
 2. [Summary](https://docs.nativescript.org/api/class/SegmentedBarItem#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/SegmentedBarItem#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/SegmentedBarItem#constructor)
@@ -18938,10 +18634,6 @@ deltaY: number
 ```
 
 defined in [@nativescript/core/ui/gestures/index.d.ts:270:1](https://unpkg.com/browse/@nativescript/core//ui/gestures/index.d.ts#L270)
-
-Previous [←OrientationChangedEventData](https://docs.nativescript.org/api/interface/OrientationChangedEventData)
-
-Next [ParserEvent→](https://docs.nativescript.org/api/interface/ParserEvent)
 
 2. [Summary](https://docs.nativescript.org/api/interface/PanGestureEventData#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/PanGestureEventData#properties)
@@ -19058,10 +18750,6 @@ SCREENSHOTS: number
 
 defined in [@nativescript/core/file-system/index.d.ts:15:1](https://unpkg.com/browse/@nativescript/core//file-system/index.d.ts#L15)
 
-Previous [←AccessibilityTrait](https://docs.nativescript.org/api/enum/AccessibilityTrait)
-
-Next [CacheMode→](https://docs.nativescript.org/api/enum/CacheMode)
-
 2. [Summary](https://docs.nativescript.org/api/enum/AndroidDirectory#summary)
 3. [Enumeration Members](https://docs.nativescript.org/api/enum/AndroidDirectory#enumeration-members)
 01. [ALARMS](https://docs.nativescript.org/api/enum/AndroidDirectory#alarms)
@@ -19119,10 +18807,6 @@ defined in [@nativescript/core/application/application-interfaces.d.ts:180:4](ht
 
 In the event handler, set this value to true if you want to cancel the back navigation and do something else instead.
 
-Previous [←AlertOptions](https://docs.nativescript.org/api/interface/AlertOptions)
-
-Next [AndroidActivityBundleEventData→](https://docs.nativescript.org/api/interface/AndroidActivityBundleEventData)
-
 2. [Summary](https://docs.nativescript.org/api/interface/AndroidActivityBackPressedEventData#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/AndroidActivityBackPressedEventData#properties)
 1. [cancel](https://docs.nativescript.org/api/interface/AndroidActivityBackPressedEventData#cancel)
@@ -19162,10 +18846,6 @@ defined in [@nativescript/core/ui/transition/index.d.ts:39:1](https://unpkg.com/
 | `nativeCurve` | `` | `any` |
 
 Returns _[PageTransition](https://docs.nativescript.org/api/class/PageTransition)_
-
-Previous [←PageBase](https://docs.nativescript.org/api/class/PageBase)
-
-Next [ParserEventType→](https://docs.nativescript.org/api/class/ParserEventType)
 
 2. [Summary](https://docs.nativescript.org/api/class/PageTransition#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/PageTransition#constructors)
@@ -19209,10 +18889,6 @@ Medium: "medium"
 
 defined in [@nativescript/core/accessibility/font-scale.d.ts:5:1](https://unpkg.com/browse/@nativescript/core//accessibility/font-scale.d.ts#L5)
 
-Previous [←CacheMode](https://docs.nativescript.org/api/enum/CacheMode)
-
-Next [GestureEvents→](https://docs.nativescript.org/api/enum/GestureEvents)
-
 2. [Summary](https://docs.nativescript.org/api/enum/FontScaleCategory#summary)
 3. [Enumeration Members](https://docs.nativescript.org/api/enum/FontScaleCategory#enumeration-members)
 1. [ExtraLarge](https://docs.nativescript.org/api/enum/FontScaleCategory#extralarge)
@@ -19221,9 +18897,6 @@ Next [GestureEvents→](https://docs.nativescript.org/api/enum/GestureEvents)
 
 
 ## File System Entity
-
-
-
 
 FileSystemEntity
 
@@ -19365,10 +19038,6 @@ Renames the current entity synchronously, using the specified name.
 
 Returns _void_
 
-Previous [←File](https://docs.nativescript.org/api/class/File)
-
-Next [FlexboxLayout→](https://docs.nativescript.org/api/class/FlexboxLayout)
-
 2. [Summary](https://docs.nativescript.org/api/class/FileSystemEntity#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/FileSystemEntity#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/FileSystemEntity#constructor)
@@ -19429,10 +19098,6 @@ touchUp: "touchUp"
 defined in [@nativescript/core/ui/gestures/index.d.ts:22:1](https://unpkg.com/browse/@nativescript/core//ui/gestures/index.d.ts#L22)
 
 When a touch up was detected
-
-Previous [←FontScaleCategory](https://docs.nativescript.org/api/enum/FontScaleCategory)
-
-Next [GestureStateTypes→](https://docs.nativescript.org/api/enum/GestureStateTypes)
 
 2. [Summary](https://docs.nativescript.org/api/enum/GestureEvents#summary)
 3. [Enumeration Members](https://docs.nativescript.org/api/enum/GestureEvents#enumeration-members)
@@ -19519,10 +19184,6 @@ Update: string
 ```
 
 defined in [@nativescript/core/data/observable-array/index.d.ts:5:11](https://unpkg.com/browse/@nativescript/core//data/observable-array/index.d.ts#L5)
-
-Previous [←Button](https://docs.nativescript.org/api/class/Button)
-
-Next [CoercibleProperty→](https://docs.nativescript.org/api/class/CoercibleProperty)
 
 2. [Summary](https://docs.nativescript.org/api/class/ChangeType#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/ChangeType#constructors)
@@ -19681,10 +19342,6 @@ defined in [@nativescript/core/ui/transition/shared-transition-helper.d.ts:11:1]
 
 Returns _void_
 
-Previous [←SharedTransition](https://docs.nativescript.org/api/class/SharedTransition)
-
-Next [ShorthandProperty→](https://docs.nativescript.org/api/class/ShorthandProperty)
-
 2. [Summary](https://docs.nativescript.org/api/class/SharedTransitionHelper#summary)
 3. [Constructors](https://docs.nativescript.org/api/class/SharedTransitionHelper#constructors)
 1. [constructor](https://docs.nativescript.org/api/class/SharedTransitionHelper#constructor)
@@ -19745,10 +19402,6 @@ key: string
 defined in [@nativescript/core/ui/image-cache/index.d.ts:138:1](https://unpkg.com/browse/@nativescript/core//ui/image-cache/index.d.ts#L138)
 
 A string indentifier of the cached image.
-
-Previous [←DiscardedErrorEventData](https://docs.nativescript.org/api/interface/DiscardedErrorEventData)
-
-Next [DownloadRequest→](https://docs.nativescript.org/api/interface/DownloadRequest)
 
 2. [Summary](https://docs.nativescript.org/api/interface/DownloadError#summary)
 3. [Properties](https://docs.nativescript.org/api/interface/DownloadError#properties)

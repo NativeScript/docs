@@ -70,6 +70,45 @@
 - [TimePicker](https://docs.nativescript.org/ui/time-picker)
 - [WebView](https://docs.nativescript.org/ui/web-view)
 
+## Custom Components
+
+- [Creating Custom Native Elements](https://docs.nativescript.org/guide/create-custom-native-elements)
+- [Customizing View Elements](https://docs.nativescript.org/guide/customizing-view-elements)
+
+## Building Plugins
+
+- [Plugin Overview](https://docs.nativescript.org/plugins/)
+- [Developing Plugins](https://docs.nativescript.org/plugins/plugin-workspace-guide)
+- [How to create a NativeScript plugin that uses native iOS & Android views Part 1](https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label/)
+- [How to create a NativeScript plugin that uses native iOS & Android views Part 2](https://blog.nativescript.org/create-a-custom-view-plugin-shimmer/)
+- [Should this be a plugin, or part of core? Part 3 Holy Interactivity Batman!](https://blog.nativescript.org/create-a-custom-view-plugin-touch-effects/)
+
+## Crash Reporting
+
+- [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
+
+## Adding Native Code
+
+- [Adding custom native code to a project](https://docs.nativescript.org/guide/adding-native-code)
+- [Adding Java/Kotlin Code to an application](https://docs.nativescript.org/guide/native-code/android)
+- [Adding ObjectiveC/Swift Code to an application](https://docs.nativescript.org/guide/native-code/ios)
+- [Generating TypeScript types](https://docs.nativescript.org/guide/native-code/generate-typings)
+
+## Extending Native Code
+
+- [Android Subclassing and Implementing interfaces](https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
+- [iOS Subclassing and conforming to protocols](https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
+- [iOS Marshalling](https://docs.nativescript.org/guide/ios-marshalling)
+- [Android Marshalling](https://docs.nativescript.org/guide/android-marshalling)
+
+## Multithreading
+
+- [Multithreading and Workers](https://docs.nativescript.org/guide/multithreading)
+
+## Widgets for iOS
+
+- [Widgets for iOS](https://docs.nativescript.org/guide/widgets-ios)
+
 ## @nativescript/core API
 
 - [ActionItems | API - NativeScript](https://docs.nativescript.org/api/class/ActionItems): NativeScript docs
@@ -567,5 +606,3 @@
 - [Build a master-detail app with Vue | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue): NativeScript docs
 - [Build a master-detail app with React | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-react): NativeScript docs
 - [Build a master-detail app with Plain JavaScript | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript): NativeScript docs
-
-
