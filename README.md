@@ -4,7 +4,7 @@ Live version: https://docs.nativescript.org/
 
 ---
 
-This repository holds the source for the **latest** version of our docs. The theme and general functionality is being built in a different repo, this repo is purely focused on the content.
+This repository holds the source for the **latest** version of our docs.
 
 ## Goals
 
@@ -29,9 +29,7 @@ This repository holds the source for the **latest** version of our docs. The the
 Pick a topic/page that nobody is working on yet, create a new branch, add the necessary markdown file and an entry to `content/sidebar.ts`.
 Open a draft PR and start working on the page. Once you are ready for feedback, mark the PR as ready for review. During the review process, address any feedback until the content is approved.
 
-If you have any questions, feel free to ask them in your PR and ping [@rigor789](https://github.com/rigor789).
-
-> **Note**: in the current stage of the beta docs, please try to only include a single page + the sidebar config change in a PR to make the review process easier, and reduce possible conflicts. Once we have the majority of the pages complete, we can focus on adding cross-links and references where necessary, and do any additional cleanup passes - at which point this requirement will be dropped.
+If you have any questions, feel free to ask them in your PR.
 
 ### Reviewing PRs
 
