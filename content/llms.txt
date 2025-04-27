@@ -1,8 +1,76 @@
-# Introduction | NativeScript
+# NativeScript Documentation
 
-> NativeScript docs
+> NativeScript provides platform APIs directly to the JavaScript runtime ( _with strong types_) for a rich TypeScript development experience.
 
-## Api
+## @nativescript/core Fundamentals
+
+- [Application](https://docs.nativescript.org/core/application)
+- [ApplicationSettings](https://docs.nativescript.org/core/application-settings)
+- [Color](https://docs.nativescript.org/core/color)
+- [Connectivity](https://docs.nativescript.org/core/connectivity)
+- [Device](https://docs.nativescript.org/core/device)
+- [FileSystem](https://docs.nativescript.org/core/file-system)
+- [FPS Meter](https://docs.nativescript.org/core/fps-meter)
+- [Http](https://docs.nativescript.org/core/http)
+- [ImageCache](https://docs.nativescript.org/core/image-cache)
+- [Observable](https://docs.nativescript.org/core/observable)
+- [Screen](https://docs.nativescript.org/core/screen)
+- [Trace](https://docs.nativescript.org/core/tracing)
+- [Utils](https://docs.nativescript.org/core/utils)
+- [XmlParser](https://docs.nativescript.org/core/xml-parser)
+
+## @nativescript/core UI Components
+
+### Layout Containers [​](https://docs.nativescript.org/ui/\#layout-containers)
+
+- [StackLayout](https://docs.nativescript.org/ui/stack-layout)
+- [GridLayout](https://docs.nativescript.org/ui/grid-layout)
+- [RootLayout](https://docs.nativescript.org/ui/root-layout)
+- [FlexboxLayout](https://docs.nativescript.org/ui/flexbox-layout)
+- [WrapLayout](https://docs.nativescript.org/ui/wrap-layout)
+- [DockLayout](https://docs.nativescript.org/ui/dock-layout)
+- [AbsoluteLayout](https://docs.nativescript.org/ui/absolute-layout)
+
+### Navigation Components [​](https://docs.nativescript.org/ui/\#navigation-components)
+
+- [Frame](https://docs.nativescript.org/ui/frame)
+- [Page](https://docs.nativescript.org/ui/page)
+- [ActionBar](https://docs.nativescript.org/ui/action-bar)
+- [ActionItem](https://docs.nativescript.org/ui/action-bar#action-item)
+- [NavigationButton](https://docs.nativescript.org/ui/action-bar#navigation-button)
+
+### Dialogs [​](https://docs.nativescript.org/ui/\#dialogs)
+
+- [Alert](https://docs.nativescript.org/ui/dialogs#alert)
+- [Action](https://docs.nativescript.org/ui/dialogs#action)
+- [Confirm](https://docs.nativescript.org/ui/dialogs#confirm)
+- [Prompt](https://docs.nativescript.org/ui/dialogs#prompt)
+- [Login](https://docs.nativescript.org/ui/dialogs#login)
+
+### Components [​](https://docs.nativescript.org/ui/\#components)
+
+- [ActivityIndicator](https://docs.nativescript.org/ui/activity-indicator)
+- [Button](https://docs.nativescript.org/ui/button)
+- [DatePicker](https://docs.nativescript.org/ui/date-picker)
+- [HtmlView](https://docs.nativescript.org/ui/html-view)
+- [Image](https://docs.nativescript.org/ui/image)
+- [Label](https://docs.nativescript.org/ui/label)
+- [ListPicker](https://docs.nativescript.org/ui/list-picker)
+- [ListView](https://docs.nativescript.org/ui/list-view)
+- [Placeholder](https://docs.nativescript.org/ui/placeholder)
+- [Progress](https://docs.nativescript.org/ui/progress)
+- [ScrollView](https://docs.nativescript.org/ui/scroll-view)
+- [SearchBar](https://docs.nativescript.org/ui/search-bar)
+- [SegmentedBar](https://docs.nativescript.org/ui/segmented-bar)
+- [Slider](https://docs.nativescript.org/ui/slider)
+- [Switch](https://docs.nativescript.org/ui/switch)
+- [TabView](https://docs.nativescript.org/ui/tab-view)
+- [TextField](https://docs.nativescript.org/ui/text-field)
+- [TextView](https://docs.nativescript.org/ui/text-view)
+- [TimePicker](https://docs.nativescript.org/ui/time-picker)
+- [WebView](https://docs.nativescript.org/ui/web-view)
+
+## @nativescript/core API
 
 - [ActionItems | API - NativeScript](https://docs.nativescript.org/api/class/ActionItems): NativeScript docs
 - [AccessibilityState | API - NativeScript](https://docs.nativescript.org/api/enum/AccessibilityState): NativeScript docs
@@ -483,10 +551,6 @@
 - [ActionBar | NativeScript](https://docs.nativescript.org/ui/action-bar): UI component abstracting the Android ActionBar, and the iOS NavigationBar.
 - [Page | NativeScript](https://docs.nativescript.org/ui/page): UI component for representing application screens the users can navigate to.
 
-## Soon
-
-- [Soon! | NativeScript](https://docs.nativescript.org/soon): NativeScript docs
-
 ## Troubleshooting
 
 - [Troubleshooting | NativeScript](https://docs.nativescript.org/troubleshooting): Common issues and solutions
@@ -494,10 +558,6 @@
 ## Recommended-plugins
 
 - [Recommended Plugins | NativeScript](https://docs.nativescript.org/recommended-plugins): Recommended plugins for when core doesn't support it...
-
-## Dev-reference
-
-- [[DEV] Reference | NativeScript](https://docs.nativescript.org/dev-reference): NativeScript docs
 
 ## Tutorials
 
