@@ -45,6 +45,10 @@ SENTRY_AUTH_TOKEN=your-auth-token
 
 Replace the above placeholders with your actual Sentry details.
 
+::: tip
+If you are also doing XR development with Vision Pro or Meta Quest, you may want to additionally setup `SENTRY_PROJECT_SLUG_VISIONOS`, `SENTRY_DSN_VISIONOS`, `SENTRY_PROJECT_SLUG_QUEST`, and `SENTRY_DSN_QUEST`. The bundling config below demonstrates using a visionOS version string as an example. Meta Quest would use the standard Android versioning location of app.gradle.
+:::
+
 ## Step 4: Configure Webpack
 
 We will use Webpack to manage environment variables and source maps with plugins:
@@ -89,7 +93,10 @@ module.exports = (env) => {
           ).match(/versionName\s+"([^"]+)"/)[1]
         : parse(
             readFileSync(
-              resolve(__dirname, 'App_Resources/iOS/Info.plist'),
+              resolve(
+                __dirname,
+                `App_Resources/${platform === 'visionos' ? 'visionOS' : 'iOS'}/Info.plist`,
+              ),
               'utf8',
             ),
           )['CFBundleShortVersionString']
