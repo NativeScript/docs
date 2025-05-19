@@ -8,3 +8,5 @@ editUrl: https://github.com/NativeScript/firebase/tree/main/packages/firebase-ad
 <p>
 <ViewOnGitHubButton href="undefined"/>
 </p>
+
+404: Not Found
