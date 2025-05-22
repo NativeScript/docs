@@ -154,7 +154,7 @@ Not very often actually. Most plugin workspaces can maintain it's set of depende
 ### Migration 5.5.3 (Released May 21, 2025)
 
 - NativeScript 8.9
-  
+
 ### Migration 5.5.0 (Released January 25, 2025)
 
 - Migrates to Nx 20.3.0+
