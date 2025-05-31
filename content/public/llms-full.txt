@@ -61,11 +61,11 @@ Each Snack reveals NativeScript's power, from UI tricks to platform SDK usages t
 
 ## Explore Snacks [​](https://docs.nativescript.org/snacks/\#explore-snacks)
 
+### Spaceman using just TypeScript
+
 [Spaceman using just TypeScript](https://www.youtube.com/watch?v=hHqlEbU8o2o)
 
 [Shared Elements](https://docs.nativescript.org/guide/shared-element-transitions) [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript)
-
-### Spaceman using just TypeScript
 
 Shared Element Transitions using TypeScript.
 
@@ -81,41 +81,45 @@ Shared Element Transitions using Vue 3.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-vue3-spaceman-transition-example?file=app%2Fcomponents%2FSpaceView.vue)
 
+
+### Music Player UI
+
 [Music Player UI](https://www.youtube.com/watch?v=KatL9m7E2XI)
 
 [Shared Elements](https://docs.nativescript.org/guide/shared-element-transitions) [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript)
-
-### Music Player UI
 
 Music Player UI with Shared Element Transitions.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-music-player-transition-example?file=app%2Fmain-view.xml)
 
+
+### Reflective UI
+
 [NativeScript Reflective UI](https://www.youtube.com/watch?v=rbF6mYfwnck)
 
 [iOS AVCaptureSession](https://developer.apple.com/documentation/avfoundation/avcapturesession?language=objc)
-
-### Reflective UI
 
 Using iOS AVCaptureSession to create live reflective UI mask. Try with your phone in Dark Mode, it's neat!
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-reflective-ui?file=src%2Fapp%2Fitem%2Fitems.component.ts)
 
+
+### Day Night Switch
+
 [Custom NativeScript Day/Night Switch](https://www.youtube.com/watch?v=8kb7ObVOJIg)
 
 [Angular](https://angular.dev/) [React](https://react.dev/) [Solid](https://www.solidjs.com/) [Svelte](https://svelte.dev/) [Vue](https://vuejs.org/)
-
-### Day Night Switch
 
 Custom NativeScript Day/Night Switch.
 
 [Angular on StackBlitz](https://stackblitz.com/edit/nativescript-daynightswitch-angular?file=src%2Fapp%2Fexample.component.html) [React on StackBlitz](https://stackblitz.com/edit/nativescript-daynightswitch-react?file=src%2Fcomponents%2FHome.tsx) [Solid on StackBlitz](https://stackblitz.com/edit/nativescript-daynightswitch-solid?file=src%2Fcomponents%2Fhome.tsx) [Svelte on StackBlitz](https://stackblitz.com/edit/nativescript-daynightswitch-svelte?file=src%2Fcomponents%2FHome.svelte) [Vue on StackBlitz](https://stackblitz.com/edit/nativescript-daynightswitch-vue?file=src%2Fcomponents%2FHome.vue)
 
+
+### Tetris Game with Vue 3
+
 [Tetris Game with Vue 3](https://www.youtube.com/watch?v=To_bycK6BGY)
 
 [Vue](https://nativescript-vue.org/)
-
-### Tetris Game with Vue 3
 
 Tetris Game with Vue 3.
 
@@ -131,19 +135,20 @@ Recognizing text from an Image on iOS.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-text-from-image?file=src%2Fapp%2Fhome%2Fhome.component.ts)
 
+### iOS PDFKit
+
 [iOS PDFKit](https://www.youtube.com/watch?v=ucmAXFaFbY0)
 
 [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) [iOS PDFKit](https://developer.apple.com/documentation/pdfkit?language=objc)
-
-### iOS PDFKit
 
 Generating and previewing PDFs using iOS PDFKit.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-pdfview-via-ios-pdfkit?file=src%2Fapp%2Fnative-pdfview%2Fnative-pdfview.ts)
 
-[Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) [iOS WKWebView](https://developer.apple.com/documentation/webkit/wkwebview) [Gradle AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)
 
 ### PDF w/ WKWebView & AndroidPdfViewer
+
+[Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) [iOS WKWebView](https://developer.apple.com/documentation/webkit/wkwebview) [Gradle AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)
 
 Rendering PDF with WKWebView on iOS.
 
@@ -157,141 +162,143 @@ Autogrowing Textfield as you type.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-ng-textview-autogrow-vs-textfield?file=src%2Fapp%2Fitem%2Fitems.component.html)
 
-[Android TextToSpeech](https://developer.android.com/reference/android/speech/tts/TextToSpeech) [iOS AVSpeechUtterance](https://developer.apple.com/documentation/avfaudio/avspeechutterance?language=objc)
 
 ### Text to Speech
+
+[Android TextToSpeech](https://developer.android.com/reference/android/speech/tts/TextToSpeech) [iOS AVSpeechUtterance](https://developer.apple.com/documentation/avfaudio/avspeechutterance?language=objc)
 
 Simple Text to Speech.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-text-to-speech?file=src%2Fapp%2Fspeech%2Findex.ios.ts)
 
-[Android Battery Monitoring](https://developer.android.com/training/monitoring-device-state/battery-monitoring) [iOS UIDevice](https://developer.apple.com/documentation/uikit/uidevice?language=objc)
-
 ### Battery Level Check
+
+[Android Battery Monitoring](https://developer.android.com/training/monitoring-device-state/battery-monitoring) [iOS UIDevice](https://developer.apple.com/documentation/uikit/uidevice?language=objc)
 
 Getting the current battery level.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-battery-level-check?file=app%2Fbattery%2Findex.ios.ts)
 
-[Android CameraManager](https://developer.android.com/reference/android/hardware/camera2/CameraManager) [iOS AVCaptureDevice](https://developer.apple.com/documentation/avfoundation/avcapturedevice?language=objc)
-
 ### Toggle Device Light
+
+[Android CameraManager](https://developer.android.com/reference/android/hardware/camera2/CameraManager) [iOS AVCaptureDevice](https://developer.apple.com/documentation/avfoundation/avcapturedevice?language=objc)
 
 Toggling the Device Light on and off.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-torch?file=src%2Fapp%2Ftorch%2Findex.ios.ts)
 
-[Image](https://docs.nativescript.org/ui/image)
 
 ### Using local image assets
+
+[Image](https://docs.nativescript.org/ui/image)
 
 Using local image assets.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-local-image-asset?file=package.json,src%2Fapp%2Fitem%2Fitems.component.html)
 
-[CheckBox](https://github.com/nstudio/nativescript-plugins/blob/main/packages/nativescript-checkbox/README.md)
-
 ### Checkbox
+
+[CheckBox](https://github.com/nstudio/nativescript-plugins/blob/main/packages/nativescript-checkbox/README.md)
 
 Using checkbox components.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-checkbox-example?file=src%2Fapp%2Fitem%2Fitems.component.html)
 
+### Dropdown Menus
+
 [NativeScript Dropdown Menus](https://www.youtube.com/watch?v=0zE5OjiJTk8)
 
 [iOS UIMenu](https://developer.apple.com/documentation/uikit/uimenu) [Android PopupMenu](https://developer.android.com/reference/android/widget/PopupMenu)
-
-### Dropdown Menus
 
 Using dropdown menus.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-dropdown-menus?file=src%2Fapp%2Fmenu-button%2Findex.ios.ts)
 
+### Large Title Display on iOS
+
 [Enable large title displays for iOS Navigation from NativeScript's Frame.](https://www.youtube.com/watch?v=bwgVIZSpZ00)
 
 [iOS prefersLargeTitles](https://developer.apple.com/documentation/uikit/uinavigationbar/2908999-preferslargetitles?language=objc)
-
-### Large Title Display on iOS
 
 How to enable large title displays for iOS navigation with NativeScript using prefersLargeTitles property of UINavigationBar, accessible from every Frame.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-ios-large-titles-angular?file=src%2Fapp%2Fitem%2Fitems.component.ts)
 
+### Hardware device volume
+
 [Adjusting hardware device volume with NativeScript](https://www.youtube.com/watch?v=1DR_9AZrMe4)
 
 [iOS outputVolume](https://developer.apple.com/documentation/avfaudio/avaudiosession/1616533-outputvolume?language=objc) [Android getStreamVolume](https://developer.android.com/reference/android/media/AudioManager#getStreamVolume(int)) [Vue](https://nativescript-vue.org/)
-
-### Hardware device volume
 
 How to get the current device volume using NativeScript on iOS and Android.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-device-volume?file=src%2Futils%2Fvolume.ts)
 
+### Top Bar Height
+
 [Top Bar Height with NativeScript](https://www.youtube.com/watch?v=bXSyBTGJIlc)
 
 [iOS statusBarManager](https://developer.apple.com/documentation/uikit/uiwindowscene/3213943-statusbarmanager?language=objc) [iOS UINavigationBar](https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc) [Android Resources](https://developer.android.com/guide/topics/resources/providing-resources) [Android bar height id](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/dimens_material.xml#39)
-
-### Top Bar Height
 
 How to check the top bar height with NativeScript on iOS and Android.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-topbar-height?file=src%2Fapp%2Futils%2Fdevice.ts)
 
+### iOS Spotlight Search
+
 [Use iOS Spotlight Search with NativeScript](https://www.youtube.com/watch?v=uzzMskFL5g8)
 
 [iOS Core Spotlight](https://developer.apple.com/documentation/corespotlight)
-
-### iOS Spotlight Search
 
 How to allow app content to be searchable using iOS Core Spotlight.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-ios-spotlight-search?file=src%2Fapp%2Fitem%2Fitem.service.ts)
 
+### Improve UX with NativeScript TouchManager
+
 [Instantly improve UX with NativeScript's TouchManager](https://www.youtube.com/watch?v=vAyGyuNFCbk)
 
 [TouchManager](https://docs.nativescript.org/guide/animations#touchmanager-8-2)
-
-### Improve UX with NativeScript TouchManager
 
 Instantly improve UX with NativeScript's TouchManager.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-touchmanager?file=src%2Fapp%2Futils.ts)
 
+### Tab Navigation with iOS and Android
+
 [NativeScript Tab Navigation with Juicy Choices](https://www.youtube.com/watch?v=-FPEdFE1XeM)
 
 [Angular](https://angular.dev/)
-
-### Tab Navigation with iOS and Android
 
 Example of how to configure tab navigation with lots of options.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-tab-nav-ng?file=src%2Fapp%2Ffeatures%2Fhome%2Fcomponents%2Fhome.component.html)
 
+### Screen Snapshot
+
 [Screen Snapshot](https://www.youtube.com/watch?v=ORp4y2tbJUA)
 
 [iOS CALayer render](https://developer.apple.com/documentation/quartzcore/calayer/render(in:)) [Android createBitmap](https://developer.android.com/reference/android/graphics/Bitmap#createBitmap(android.graphics.Bitmap,%20int,%20int,%20int,%20int))
-
-### Screen Snapshot
 
 Example of how to take a snapshot of any view on screen.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-screen-snapshot?file=src%2Fhome.component.html)
 
+### Solid NativeScript Vibes
+
 [Solid NativeScript Vibes](https://www.youtube.com/watch?v=FLxZ_T5yN_A)
 
 [iOS AVAudioPlayer](https://developer.apple.com/documentation/avfaudio/avaudioplayer/averagepower(forchannel:)?language=objc) [Android Visualizer](https://developer.android.com/reference/android/media/audiofx/Visualizer) [Solid](https://www.solidjs.com/)
-
-### Solid NativeScript Vibes
 
 Example of using audio player with metering.
 
 [View on StackBlitz](https://stackblitz.com/edit/nativescript-solid-vibes?file=src%2Fcomponents%2Fhome.tsx)
 
+### CollectionView Layout Playground
+
 [CollectionView Layout Playground](https://www.youtube.com/watch?v=SfYRtBiTXiM)
 
 [@nativescript-community/ui-collectionview](https://github.com/nativescript-community/ui-collectionview)
-
-### CollectionView Layout Playground
 
 Example of using CollectionView with different layout options.
 
