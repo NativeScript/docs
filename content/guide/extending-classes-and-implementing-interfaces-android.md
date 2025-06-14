@@ -258,7 +258,7 @@ module.exports = (env) => {
 
   webpack.chainWebpack((config) => {
     if (webpack.Utils.platform.getPlatformName() === 'android') {
-      // make sure the path to the applicatioon.android.(js|ts)
+      // make sure the path to the application.android.(js|ts)
       // is relative to the webpack.config.js
       config.entry('application').add('./application.android')
     }
