@@ -34,7 +34,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/biometrics/R
 A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.
 
 > **Note**
-> This plugin replaces [@nativescript/fingerprint-auth](../fingerprint-auth).
+> This plugin replaces [@nativescript/fingerprint-auth](../plugins/fingerprint-auth).
 
 ### Prerequisites:
 
