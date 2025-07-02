@@ -1,7 +1,7 @@
 ---
 title: Setting up Windows for NativeScript
 prev: /setup
-next: /creating-a-new-project
+next: /guide/creating-a-project
 contributors:
   - rigor789
 ---
