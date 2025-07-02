@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/fingerprint-
 
 ## Replacement notice
 
-This plugin is replaced by [@nativescript/biometrics](../biometrics)
+This plugin is replaced by [@nativescript/biometrics](../plugins/biometrics)
 
 # @nativescript/fingerprint-auth
 

@@ -10,7 +10,6 @@ Updating a NativeScript app is usually a quick process if done regularly. The fo
 ## Update guides
 
 - [Updating to latest](/guide/updating/to-latest)
-- More soon...
 
 ## Updating to a tagged version
 

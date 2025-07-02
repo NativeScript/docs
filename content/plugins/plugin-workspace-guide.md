@@ -128,7 +128,7 @@ At the prompt, enter the name of the package to add an `angular` folder to it wi
 One of the nice benefits of using our plugin workspaces is updating them is made simple and efficient through Nx tooling. The TSC maintains plugin workspace migrations so whenever one is available you can update your plugin workspace with just a few simple commands (which will often provide dependency version bumps of supporting packages to latest NativeScript versions, configuration improvements, as well as other welcome additions to help you create and maintain NativeScript plugins):
 
 ```bash
-yarn nx migrate @nativescript/plugin-tools
+npx nx migrate @nativescript/plugin-tools
 ```
 
 That will fetch `latest` version of `plugin-tools`, analyze the package to see if any migrations are available and then print a message if there are migrations to run.
@@ -137,10 +137,10 @@ Sometimes `@nativescript/plugin-tools` updates won't need any migrations so you 
 
 ```bash
 // install latest updates
-yarn
+npm install
 
 // now run the migrations
-yarn nx migrate --run-migrations=migrations.json
+npx nx migrate --run-migrations=migrations.json
 ```
 
 Your plugin workspace will now be up to date regarding various configurations, settings and core dependencies. Depending on other customizations you made there may be other things to adjust on your own.
@@ -151,13 +151,17 @@ After running migrations you can always _delete_ the `migrations.json` file as i
 
 Not very often actually. Most plugin workspaces can maintain it's set of dependencies for often 1-2 years or longer but if a migration is available which mentions things you want or need, feel free to run the migrations anytime.
 
+### Migration 5.5.3 (Released May 21, 2025)
+
+- NativeScript 8.9
+
 ### Migration 5.5.0 (Released January 25, 2025)
 
 - Migrates to Nx 20.3.0+
 - TypeScript 5.6+
 - Angular 19+
 
-If you have any angular specific parts to your plugin, after running `yarn nx migrate @nativescript/plugin-tools` and then `yarn nx migrate --run-migrations ` with this migration you may see TypeScript errors like this:
+If you have any angular specific parts to your plugin, after running `npx nx migrate @nativescript/plugin-tools` and then `npx nx migrate --run-migrations ` with this migration you may see TypeScript errors like this:
 
 ```bash
 nativescript-checkbox/angular/index.ts:75:18 - error NG6008: Directive CheckedValueAccessor is standalone, and cannot be declared in an NgModule. Did you mean to import it instead?
@@ -180,7 +184,7 @@ This is expected with Angular 19. To resolve you can just add an explicit `stand
 
 - Migrates to Nx 18.2.3, NativeScript 8.6, and TypeScript ~5.4.x.
 
-After running `yarn nx migrate @nativescript/plugin-tools` and then `yarn nx migrate --run-migrations ` with this migration you'll likely see this message:
+After running `npx nx migrate @nativescript/plugin-tools` and then `npx nx migrate --run-migrations ` with this migration you'll likely see this message:
 
 ```bash
 [!] Some files can't be patched! You can run again with --verbose to get specific error detail. The following files are unable to be patched:
