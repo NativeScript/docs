@@ -25,9 +25,9 @@ If a "code sharing solution" is maintained by a framework that can often mean th
 
 ## Code Sharing Solutions
 
-Here are a few solitions to **code-sharing**, each having their pros and cons.
+Here are a few solutions to **code-sharing**, each having their pros and cons.
 
-### Nrwl Nx DevTools with @nativescript/nx
+### Nx with @nativescript/nx
 
 [Learn More about @nativescript/nx](https://github.com/NativeScript/nx)
 
@@ -42,28 +42,10 @@ Here are a few solitions to **code-sharing**, each having their pros and cons.
 
 - Learning curve if not used to Nx practices in general
 
-### Nrwl Nx DevTools with @nstudio/xplat
+### npm or yarn workspaces
 
-[Learn more about @nstudio/xplat](https://nstudio.io/xplat)
-
-**Pros:**
-
-- It's centered around JavaScript/TypeScript (lesson 1 and 5 above)
-- Uses standard build tooling like TypeScript or webpack to build code (lesson 2 above)
-- No custom file extensions to deal with (lesson 3 above)
-- Nx splits up "apps" and "libs" clearly identifying deployment/distribution targets "apps" that consume shared code "libs" (lesson 4 above)
-- It builds upon @nativescript/nx to further scale it across more paradigms so it's a natural extension when needed if already working in Nx with @nativescript/nx
-- Opinionated architecture is provided via xplat which helps to avoid common pitfalls from hard lessons learned in real world developments with cross platform mixtures
-
-**Cons:**
-
-- Learning curve if not used to Nx practices in general
-- Learning curve if you have not developed applications in large codebases before
-- Understanding the [basic fundamentals](https://nstudio.io/xplat/fundamentals/architecture) of the provided architecture
-
-### Yarn workspaces
-
-[Learn more about Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+- [Learn more about npm workspaces](https://docs.npmjs.com/cli/using-npm/workspaces/)
+- [Learn more about Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
 
 **Pros:**
 
