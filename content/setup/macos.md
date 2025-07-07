@@ -61,7 +61,7 @@ javac --version
 
 If the version looks correct, you are ready to move on to [Installing Android Studio](#installing-android-studio), otherwise you will need to set the `JAVA_HOME` environment variable.
 
-Add the following lines to your shell profile, usually `~/.zshrc`, `~/.bash_profile` or `~/.bashrc` or `~/.zprofile` config file:
+Add the following lines to your shell profile, usually `~/.zshrc`, `~/.bash_profile` or `~/.bashrc` or `~/.zprofile`:
 
 ```shell
 export JAVA_HOME=$(/usr/libexec/java_home -v"17");
@@ -86,7 +86,7 @@ Android Studio installs the latest Android SDK by default, which in most cases s
 
 Configure the `ANDROID_HOME` environment variable for NativeScript to be able to find the Android SDK, and add the required tools to path.
 
-Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zprofile` or `~/.zshrc` config file:
+Add the following lines to your shell profile, usually `~/.zshrc`, `~/.bash_profile` or `~/.bashrc` or `~/.zprofile`:
 
 ```shell
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -171,7 +171,7 @@ brew link ruby@3.3
 
 You can now run `brew list ruby` to see which specific version was installed to reference next.
 
-Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zshrc` config file:
+Add the following lines to your shell profile, usually `~/.zshrc`, `~/.bash_profile` or `~/.bashrc` or `~/.zprofile`:
 
 ```shell
 # Add ruby and rubygems to the path
