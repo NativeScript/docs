@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-image-la
 
 # @nativescript/mlkit-image-labeling
 
-A plugin that is used with [@nativescript/mlkit-core](../mlkit-core/) to enable Image Labeling and provide the [ImageLabelingResult](#imagelabelingresult) type for the image labeling event data.
+A plugin that is used with [@nativescript/mlkit-core](../plugins/mlkit-core/) to enable Image Labeling and provide the [ImageLabelingResult](#imagelabelingresult) type for the image labeling event data.
 
 ## Contents
 

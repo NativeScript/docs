@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-rec
 
 # @nativescript/mlkit-text-recognition
 
-A plugin used with [@nativescript/mlkit-core](../mlkit-core) to enable Text Recognition in your app and provide [TextResult](#textresult) type for the text recognition event data.
+A plugin used with [@nativescript/mlkit-core](../plugins/mlkit-core) to enable Text Recognition in your app and provide [TextResult](#textresult) type for the text recognition event data.
 
 ## Contents
 
