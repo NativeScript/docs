@@ -232,7 +232,7 @@ Gets or sets the text of the ActionItem.
 icon: string
 ```
 
-Gets or sets the icon of the action item. Supports local images (`~/`), resources (`res://`) and fonts icons (`fonts://`)
+Gets or sets the icon of the action item. Supports local images (`~/`), resources (`res://`) and fonts icons (`font://`)
 
 ### ios.position
 
