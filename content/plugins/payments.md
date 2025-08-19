@@ -32,16 +32,18 @@ This plugin uses a [RxJS Observable](https://rxjs.dev/guide/observable) to emit 
 
 ## Contents
 
-- [Installation](#installation)
-- [Prerequisites](#prerequisites)
-  - [iOS prerequisites](#ios-prerequisites)
-  - [Android prerequisites](#android-prerequisites)
-    - [Important note about Google items](#important-note-about-google-items)
-- [Use @nativescript/payments](#use-nativescriptpayments)
-  - [Standard usage flow](#standard-usage-flow)
-  - [In-App Purchase example](#in-app-purchase-example)
-- [API](#api)
-- [License](#license)
+- [@nativescript/payments](#nativescriptpayments)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+    - [iOS prerequisites](#ios-prerequisites)
+    - [Android prerequisites](#android-prerequisites)
+      - [Important note about Google items](#important-note-about-google-items)
+  - [Use @nativescript/payments](#use-nativescriptpayments)
+    - [Standard usage flow](#standard-usage-flow)
+    - [In-App Purchase example](#in-app-purchase-example)
+  - [API](#api)
+  - [License](#license)
 
 ## Installation
 
@@ -115,7 +117,9 @@ buyItem('item.id');
 
 // finalizeOrder(payload) will complete the purchase flow.
 // The payload argument here is provided in the PaymentEvent.Context.PROCESSING_ORDER - SUCCESS event (see below example for detailed usage).
-finalizeOrder(payload)
+// Pass true to consume the order, or false to leave it as is.
+// Example: don't consume the order if you want to restore it later, like if the user buys a one time item to remove ads from the app permanently. Consuming allows him to buy it again
+finalizeOrder(payload, true)
 
 // at this point you would process the order with your backend given the receiptToken from the purchase flow
 ```
@@ -181,7 +185,7 @@ export class SomeViewModel {
               console.log('🟢 Payment Success 🟢')
               console.log(`Order Date: ${event.payload.orderDate}`)
               console.log(`Receipt Token: ${event.payload.receiptToken}`)
-              finalizeOrder(event.payload)
+              finalizeOrder(event.payload, true) // Pass true to consume the order
             }
             break
           case PaymentEvent.Context.FINALIZING_ORDER:
