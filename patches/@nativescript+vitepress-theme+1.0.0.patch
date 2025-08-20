@@ -1,0 +1,83 @@
+diff --git a/node_modules/@nativescript/vitepress-theme/theme/vitepress-theme.mjs b/node_modules/@nativescript/vitepress-theme/theme/vitepress-theme.mjs
+index c4952ca..e58259b 100644
+--- a/node_modules/@nativescript/vitepress-theme/theme/vitepress-theme.mjs
++++ b/node_modules/@nativescript/vitepress-theme/theme/vitepress-theme.mjs
+@@ -4101,8 +4101,9 @@ function pd(e, t) {
+   const n = e.endsWith("/"), r = t.startsWith("/");
+   return n && r ? e.slice(0, -1) + t : !n && !r ? `${e}/${t}` : e + t;
+ }
+-function Jn() {
+-  const { theme: e, page: t } = ze(), n = e.value;
++function Jn(e, t) {
++  // const { theme: e, page: t } = ze(), 
++  const n = e.value;
+   return P(() => {
+     const o = Object.keys(n.sidebar).find((i) => Lt(t.value.relativePath, i, !0)) ?? "/";
+     return n.sidebar[o] ?? [];
+@@ -4176,7 +4177,8 @@ const hd = {
+         t.value = !1;
+       }
+     );
+-    const r = Jn();
++    const { theme: e2, page: t2 } = ze(); 
++    const r = Jn(e2, t2);
+     return (o, i) => (y(), b(z, null, [
+       h("div", _d, [
+         h("button", {
+@@ -4412,7 +4414,8 @@ const _r = /* @__PURE__ */ It(Wd, [["render", Jd]]), Yd = {
+ }, o0 = /* @__PURE__ */ D({
+   __name: "SideBar",
+   setup(e) {
+-    const t = Jn();
++    const { theme: e2, page: t2 } = ze();
++    const t = Jn(e2, t2);
+     return (n, r) => M(t).length > 0 ? (y(), b("ul", r0, [
+       (y(!0), b(z, null, ee(M(t), (o) => (y(), ye(n0, {
+         key: o.text,
+@@ -6709,7 +6712,6 @@ function Cf(e) {
+     function c(d) {
+       !r.getState().isOpen && r.pendingRequests.isEmpty() || d.target === s || [l, u].some(function(p) {
+         return f = p, m = d.target, f === m || f.contains(m);
+-        var f, m;
+       }) === !1 && (r.dispatch("blur", null), t.debug || r.pendingRequests.cancelAll());
+     }
+     return Oe({ onTouchStart: c, onMouseDown: c, onTouchMove: function(d) {
+@@ -7763,7 +7765,6 @@ function kp(e, t, n) {
+ function Vl(e) {
+   return Object.keys(e).map(function(t) {
+     return Gr("%s=%s", t, (n = e[t], Object.prototype.toString.call(n) === "[object Object]" || Object.prototype.toString.call(n) === "[object Array]" ? JSON.stringify(e[t]) : e[t]));
+-    var n;
+   }).join("&");
+ }
+ function za(e) {
+@@ -8651,7 +8652,8 @@ const z2 = /* @__PURE__ */ It(M2, [["render", B2]]), F2 = {
+ }, q2 = /* @__PURE__ */ h("span", { class: "sr-only" }, "Home", -1), W2 = { class: "flex items-center" }, K2 = /* @__PURE__ */ D({
+   __name: "Breadcrumbs",
+   setup(e) {
+-    const t = Jn(), { page: n, frontmatter: r } = ze(), o = P(() => oi(t.value)), i = P(() => {
++    // const { theme: e, page: t } = ze(), 
++    const { theme: e2, page: n, frontmatter: r } = ze(), t = Jn(e2, n), o = P(() => oi(t.value)), i = P(() => {
+       if (r.value.breadcrumbs)
+         return r.value.breadcrumbs.map(
+           ({ name: l, href: u }, c) => {
+@@ -9124,9 +9126,9 @@ const Gl = /* @__PURE__ */ oh(ih), ah = /* @__PURE__ */ h("div", { class: "text-
+   }
+ });
+ function mh() {
+-  const { frontmatter: e, page: t } = ze();
++  const { theme: e2, frontmatter: e, page: t } = ze();
+   return P(() => {
+-    const n = Jn(), r = oi(n.value).filter(
++    const n = Jn(e2, t), r = oi(n.value).filter(
+       (s) => !!s.link
+     ), o = r.findIndex((s) => Lt(t.value.relativePath, s.link)), i = e.value.prev ? r.find((s) => s.link === e.value.prev) : r[o - 1], a = e.value.next ? r.find((s) => s.link === e.value.next) : r[o + 1];
+     return {
+@@ -9193,7 +9195,7 @@ const Th = {
+ }, Rh = { class: "text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-200 sm:text-4xl" }, Hh = { class: "mt-2 text-lg text-slate-700 dark:text-slate-400" }, Bh = { class: "hidden w-72 flex-none xl:block" }, zh = { class: "h-sidebar sticky top-[72px] overflow-y-auto overflow-x-hidden" }, Fh = { class: "pt-16 pb-10 pr-3" }, Vh = ["href", "target"], Uh = /* @__PURE__ */ D({
+   __name: "default",
+   setup(e) {
+-    const { page: t } = ze(), n = jh(), r = Jn(), o = P(() => oi(r.value)), i = P(() => o.value.find(
++    const { theme: e2, page: t } = ze(), n = jh(), r = Jn(e2, t), o = P(() => oi(r.value)), i = P(() => o.value.find(
+       (l) => Lt(t.value.relativePath, l.link)
+     )), a = P(() => {
+       var l;
