@@ -33,7 +33,7 @@ To get the most out of this tutorial you should already have a basic understandi
 
 Components form the basic building blocks of an Angular application. Components represent the pages and views that the user interacts with. NativeScript Angular follows the same concept with the difference being primarily within the component's HTML template layer and its styling.
 
-You'll build a master-detail app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical. 
+You'll build a master-detail app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.
 
 ![Example app preview](/assets/images/tutorial/tutorial-example-app-preview.png)
 
@@ -108,11 +108,14 @@ Let's start with creating the files for our home feature with the following cont
 // src/features/home/home.ts
 
 import { Component } from '@angular/core'
-import { NativeScriptCommonModule, NativeScriptRouterModule } from '@nativescript/angular'
+import {
+  NativeScriptCommonModule,
+  NativeScriptRouterModule,
+} from '@nativescript/angular'
 
 @Component({
-  selector: "ns-home",
-  templateUrl: "home.html",
+  selector: 'ns-home',
+  templateUrl: 'home.html',
   imports: [NativeScriptCommonModule, NativeScriptRouterModule],
   schemas: [NO_ERRORS_SCHEMA],
 })
@@ -445,8 +448,8 @@ import { Component } from '@angular/core'
 import { NativeScriptCommonModule } from '@nativescript/angular'
 
 @Component({
-  selector: "ns-details",
-  templateUrl: "details.html",
+  selector: 'ns-details',
+  templateUrl: 'details.html',
   imports: [NativeScriptCommonModule],
   schemas: [NO_ERRORS_SCHEMA],
 })
