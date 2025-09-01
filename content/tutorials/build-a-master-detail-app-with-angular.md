@@ -9,6 +9,7 @@ contributors:
   - Leon0824
   - winescout
   - DmitrySharabin
+  - NathanWalker
 breadcrumbs:
   - name: 'Tutorials'
     href: '/tutorials/'
@@ -32,7 +33,7 @@ To get the most out of this tutorial you should already have a basic understandi
 
 Components form the basic building blocks of an Angular application. Components represent the pages and views that the user interacts with. NativeScript Angular follows the same concept with the difference being primarily within the component's HTML template layer and its styling.
 
-You'll build a master-details app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.
+You'll build a master-detail app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical. 
 
 ![Example app preview](/assets/images/tutorial/tutorial-example-app-preview.png)
 
@@ -73,7 +74,7 @@ The `ns run` command builds the app and launches the app on a connected Android 
 Based on the Angular starter app, we will be creating the following file/folder structure for our application.
 
 ```
-src/app
+src
   |- assets
     |- anastasia.png
     |- beetlejuicemusical.png
@@ -85,13 +86,9 @@ src/app
       |- flick.service.ts
   |- features
     |- home
-      |- home.component.ts | html
-      |- home.module.ts
-      |- home-routing.module.ts
+      |- home.ts | html
     |- details
-      |- details.component.ts | html
-      |- details.module.ts
-      |- details-routing.module.ts
+      |- details.ts | html
   ...
 ```
 
@@ -99,99 +96,50 @@ src/app
 
 Let's start with creating the files for our home feature with the following contents:
 
-<!-- tab:home.component.html -->
+<!-- tab:home.html -->
 
 ```xml
-<!-- src/app/features/home/home.component.html -->
+<!-- src/features/home/home.html -->
 ```
 
-<!-- tab:home.component.ts -->
+<!-- tab:home.ts -->
 
 ```typescript
-// src/app/features/home/home.component.ts
+// src/features/home/home.ts
 
 import { Component } from '@angular/core'
+import { NativeScriptCommonModule, NativeScriptRouterModule } from '@nativescript/angular'
 
 @Component({
-  moduleId: module.id,
-  selector: 'ns-home',
-  templateUrl: 'home.component.html',
-})
-export class HomeComponent {}
-```
-
-<!-- tab:home-routing.module.ts -->
-
-```typescript
-// src/app/features/home/home-routing.module.ts
-
-import { NgModule } from '@angular/core'
-import { Routes } from '@angular/router'
-import { NativeScriptRouterModule } from '@nativescript/angular'
-import { HomeComponent } from './home.component'
-
-export const routes: Routes = [
-  {
-    path: '',
-    component: HomeComponent,
-  },
-]
-
-@NgModule({
-  imports: [NativeScriptRouterModule.forChild(routes)],
-})
-export class HomeRoutingModule {}
-```
-
-<!-- tab:home.module.ts -->
-
-```typescript
-// src/app/features/home/home.module.ts
-
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core'
-import { NativeScriptCommonModule } from '@nativescript/angular'
-import { HomeRoutingModule } from './home-routing.module'
-import { HomeComponent } from './home.component'
-
-@NgModule({
-  imports: [NativeScriptCommonModule, HomeRoutingModule],
-  declarations: [HomeComponent],
+  selector: "ns-home",
+  templateUrl: "home.html",
+  imports: [NativeScriptCommonModule, NativeScriptRouterModule],
   schemas: [NO_ERRORS_SCHEMA],
 })
-export class HomeModule {}
+export class Home {}
 ```
 
 ### Routing setup
 
-We will be setting up our `HomeModule` as a lazy-loaded module and as the default route. Open `app-routing.module.ts` and add the following code:
+We will be setting up our `Home` component to be lazy-loaded and as the default route. Open `routes.ts` and add the following code:
 
 ```typescript{9,12-15}
-// src/app/app-routing.module.ts
+// src/routes.ts
 
-import { NgModule } from '@angular/core'
-import { Routes } from '@angular/router'
-import { NativeScriptRouterModule } from '@nativescript/angular'
+import { Routes } from "@angular/router";
 
-const routes: Routes = [
-  // Update this 👇
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-
-  // Add this 👇
+export const routes: Routes = [
+  { path: "", redirectTo: "/home", pathMatch: "full" },
   {
-    path: 'home',
-    loadChildren: () => import('./features/home/home.module').then(m => m.HomeModule)
-  }
-]
+    path: "home",
+    loadComponent: () => import("./features/home/home").then((m) => m.Home),
+  },
+];
 
-@NgModule({
-  imports: [NativeScriptRouterModule.forRoot(routes)],
-  exports: [NativeScriptRouterModule]
-})
-export class AppRoutingModule {}
 ```
 
 :::tip Note
-By default, `NgModules` are eagerly loaded, which means that they get loaded as soon as the application loads. Lazy-loaded modules on the other hand loads `NgModules` as needed. Lazy-loaded modules in NativeScript are handled the same way as a web Angular Application. You can read more about lazy loading modules [here](https://angular.io/guide/lazy-loading-ngmodules).
+By default, components are eagerly loaded, which means that they get loaded as soon as the application loads. Lazy-loaded components on the other hand load into the engine only as needed. Lazy-loaded components in NativeScript are handled the same way as an Angular Web Application. You can read more about routing [here](https://angular.dev/guide/routing).
 :::
 
 ### Home UI
@@ -201,7 +149,7 @@ Before we create the UI of our home page, let's create our `FlickModel` and `Fli
 `FlickModel` will contain the shape of each flick object. Create a `models` directory inside `core` and create a new file called `flick.model.ts`. Open the new `flick.model.ts` and add the following `interface`:
 
 ```typescript
-// src/app/core/models/flick.model.ts
+// src/core/models/flick.model.ts
 
 export interface FlickModel {
   id: number
@@ -223,7 +171,7 @@ We will then use the `FlickModel` in our `FlickService` to return our flick data
 // src/app/core/services/flick.service.ts
 
 import { Injectable } from '@angular/core'
-import { FlickModel } from '~/app/core/models'
+import { FlickModel } from '~/core/models/flick.model'
 
 @Injectable({
   providedIn: 'root',
@@ -234,7 +182,7 @@ export class FlickService {
       id: 1,
       genre: 'Musical',
       title: 'Book of Mormon',
-      image: '~/app/assets/bookofmormon.png',
+      image: '~/assets/bookofmormon.png',
       url: 'https://nativescript.org/images/ngconf/book-of-mormon.mov',
       description: `A satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day Saints.`,
       details: [
@@ -264,7 +212,7 @@ export class FlickService {
       id: 2,
       genre: 'Musical',
       title: 'Beetlejuice',
-      image: '~/app/assets/beetlejuicemusical.png',
+      image: '~/assets/beetlejuicemusical.png',
       url: 'https://nativescript.org/images/ngconf/beetlejuice.mov',
       description: `A deceased couple looks for help from a devious bio-exorcist to handle their haunted house.`,
       details: [
@@ -294,7 +242,7 @@ export class FlickService {
       id: 3,
       genre: 'Musical',
       title: 'Anastasia',
-      image: '~/app/assets/anastasia.png',
+      image: '~/assets/anastasia.png',
       url: 'https://nativescript.org/images/ngconf/anastasia.mov',
       description: `The legend of Grand Duchess Anastasia Nikolaevna of Russia.`,
       details: [
@@ -328,59 +276,56 @@ export class FlickService {
 }
 ```
 
-Add a `/src/app/assets/` directory to your project, and copy the 3 static images over from the sample project [here](https://github.com/NativeScript/tutorials/tree/main/angular-tutorial/src/assets).
-
-:::tip Note
-You can create barrel exports for your models and services to give you more flexibility in organizing your files and folders. To do this, create an `index.ts` in your `services` and `models` directory and export `flick.service.ts` and `flick.model.ts` respectively. You can also add another `index.ts` in your `core` folder and export your `services` and `models` directory.
-:::
+Add a `/src/assets/` directory to your project, and copy the 3 static images over from the sample project [here](https://github.com/NativeScript/tutorials/tree/main/angular-tutorial/src/assets).
 
 Next, let's break down the layout and UI elements of the home page.
 
 ![Home page layout breakdown](/assets/images/tutorial/tutorial-example-app-master-breakdown.png)
 
-The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `home.component.html` and add the following code:
+The home page can be divided into two main parts, the ActionBar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the ActionBar with the title. Open `home.html` and add the following code:
 
 ```xml
-<!-- src/app/features/home/home.component.html -->
+<!-- src/features/home/home.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
 ```
 
-Since we have an array of flicks to display we can use NativeScript's [`ListView`](/ui/list-view) component. `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list. Let's first create a variable in our `HomeComponent` that we are going to use as our `ListView`'s data source. Open `home.component.ts` and add the following:
+Since we have an array of flicks to display we can use NativeScript's [`ListView`](/ui/list-view) component. `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list. Let's first create a variable in `Home` that we are going to use as our `ListView`'s data source. Open `home.ts` and add the following:
 
 ```typescript{6,15,19}
-// src/app/features/home/home.component.ts
+// src/features/home/home.ts
 
-import { Component } from '@angular/core'
-
-// Add this 👇
-import { FlickService } from '~/app/core'
+import { Component, NO_ERRORS_SCHEMA, inject } from "@angular/core";
+import {
+  NativeScriptCommonModule,
+} from "@nativescript/angular";
+import { FlickService } from "~/core/services/flick.service";
 
 @Component({
-  moduleId: module.id,
-  selector: 'ns-home',
-  templateUrl: 'home.component.html'
+  selector: "ns-home",
+  templateUrl: "home.html",
+  imports: [NativeScriptCommonModule],
+  schemas: [NO_ERRORS_SCHEMA],
 })
-export class HomeComponent {
-  // Add this 👇
-  flicks = this.flickService.getFlicks()
+export class Home {
+  flickService = inject(FlickService);
 
-  constructor(
-    // Add this 👇
-    private flickService: FlickService
-  ) {}
 }
 ```
 
-Next, open your `home.component.html` and add the `ListView` component:
+Next, open `home.html` and add the `ListView` component:
 
 ```xml{6-12}
-<!-- src/app/features/home/home.component.html -->
+<!-- src/features/home/home.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
 
 <!-- Add this 👇 -->
-<ListView height="100%" separatorColor="transparent" [items]="flicks">
+<ListView
+  height="100%"
+  separatorColor="transparent"
+  [items]="flickService.getFlicks()"
+>
   <ng-template let-item="item">
     <StackLayout>
       <Label [text]="item.title"></Label>
@@ -389,7 +334,7 @@ Next, open your `home.component.html` and add the `ListView` component:
 </ListView>
 ```
 
-`ListView` uses the `items` property as its data source. In the snippet above, we bind the `items` property to the `flicks` property which contains an array of flicks. If you run the app now, you should see a list of flick titles.
+`ListView` uses the `items` property as its data source. In the snippet above, we bind the `items` property our service which contains an array of flicks. If you run the app now, you should see a list of flick titles.
 
 ### Create flick cards
 
@@ -404,6 +349,8 @@ Before we dive into creating the card below, let's create some classes for our b
 }
 .ns-light .bg-secondary {
   background-color: #ffffff;
+  border-width: 1;
+  border-color: #eee;
 }
 .ns-light .text-primary {
   color: #444;
@@ -417,7 +364,9 @@ Before we dive into creating the card below, let's create some classes for our b
   background-color: #212121;
 }
 .ns-dark .bg-secondary {
-  background-color: #383838;
+  background-color: #444444;
+  border-width: 1;
+  border-color: #616161;
 }
 .ns-dark .text-primary {
   color: #eee;
@@ -429,43 +378,43 @@ Before we dive into creating the card below, let's create some classes for our b
 
 ![Home page cards breakdown](/assets/images/tutorial/tutorial-example-app-master-card-breakdown.png)
 
-As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts. Open your `home.component.html` and add the following:
+As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts. Open your `home.html` and add the following:
 
 ```xml{8-35}
-<!-- src/app/features/home/home.component.html -->
+<!-- src/features/home/home.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
 
-<ListView height="100%" separatorColor="transparent" [items]="flicks">
+<ListView height="100%" separatorColor="transparent" [items]="flickService.getFlicks()">
   <ng-template let-item="item">
     <!-- Add this 👇 -->
     <!-- The item template can only have a single root view container (e.g. GridLayout, StackLayout, etc.)-->
     <GridLayout
       height="280"
+      borderRadius="10"
+      class="bg-secondary"
       rows="*, auto, auto"
       columns="*"
-      class="bg-secondary"
-      borderRadius="10"
-      margin="5 10"
+      margin="12 10 0 10"
       padding="0"
     >
-      <Image row="0" margin="0" stretch="aspectFill" [src]="item.image"></Image>
-      <Label
+      <image row="0" margin="0" stretch="aspectFill" [src]="item.image"></image>
+      <label
         row="1"
         margin="10 10 0 10"
         fontWeight="700"
         class="text-primary"
         fontSize="18"
         [text]="item.title"
-      ></Label>
-      <Label
+      ></label>
+      <label
         row="2"
         margin="0 10 10 10"
         class="text-secondary"
         fontSize="14"
         textWrap="true"
         [text]="item.description"
-      ></Label>
+      ></label>
     </GridLayout>
   </ng-template>
 </ListView>
@@ -481,141 +430,93 @@ If you've followed along this far, running the app on either platform should res
 
 Let's start with creating the files for our details feature with the following contents:
 
-<!-- tab:details.component.html -->
+<!-- tab:details.html -->
 
 ```xml
-<!-- src/app/features/details/details.component.html -->
+<!-- src/features/details/details.html -->
 ```
 
-<!-- tab:details.component.ts -->
+<!-- tab:details.ts -->
 
 ```typescript
-// src/app/features/details/details.component.ts
+// src/features/details/details.ts
 
 import { Component } from '@angular/core'
+import { NativeScriptCommonModule } from '@nativescript/angular'
 
 @Component({
-  moduleId: module.id,
-  selector: 'ns-details',
-  templateUrl: 'details.component.html',
-})
-export class DetailsComponent {}
-```
-
-<!-- tab:details-routing.module.ts -->
-
-```typescript
-// src/app/features/details/details-routing.module.ts
-
-import { NgModule } from '@angular/core'
-import { Routes } from '@angular/router'
-import { NativeScriptRouterModule } from '@nativescript/angular'
-import { DetailsComponent } from './details.component'
-
-export const routes: Routes = [
-  {
-    path: '',
-    component: DetailsComponent,
-  },
-]
-
-@NgModule({
-  imports: [NativeScriptRouterModule.forChild(routes)],
-})
-export class DetailsRoutingModule {}
-```
-
-<!-- tab:details.module.ts -->
-
-```typescript
-// src/app/features/details/details.module.ts
-
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core'
-import { NativeScriptCommonModule } from '@nativescript/angular'
-import { DetailsRoutingModule } from './details-routing.module'
-import { DetailsComponent } from './details.component'
-
-@NgModule({
-  imports: [NativeScriptCommonModule, DetailsRoutingModule],
-  declarations: [DetailsComponent],
+  selector: "ns-details",
+  templateUrl: "details.html",
+  imports: [NativeScriptCommonModule],
   schemas: [NO_ERRORS_SCHEMA],
 })
-export class DetailsModule {}
+export class Details {}
 ```
 
 ### Routing setup
 
-We will be setting up our `DetailsModule` as a lazy-loaded module similar to our `HomeModule` in the previous section. In addition to the route name, we will also pass in the flick's `id` as a route parameter. The route parameter is the variable following the colon in the `path` property. Open `app-routing.module.ts` and add the following code:
+We will be setting up `Details` as a lazy-loaded component similar to `Home` in the previous section. In addition to the route name, we will also pass in the flick's `id` as a route parameter. The route parameter is the variable following the colon in the `path` property. Open `routes.ts` and add the following code:
 
 ```typescript{15-19}
-// src/app/app-routing.module.ts
+// src/routes.ts
 
-import { NgModule } from '@angular/core'
-import { Routes } from '@angular/router'
-import { NativeScriptRouterModule } from '@nativescript/angular'
+import { Routes } from "@angular/router";
 
-const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+export const routes: Routes = [
+  { path: "", redirectTo: "/home", pathMatch: "full" },
   {
-    path: 'home',
-    loadChildren: () => import('./features/home/home.module').then(m => m.HomeModule)
+    path: "home",
+    loadComponent: () => import("./features/home/home").then((m) => m.Home),
   },
-
-  // Add this 👇
   {
-    path: 'details/:id',
-    loadChildren: () =>
-      import('./features/details/details.module').then(m => m.DetailsModule)
-  }
-]
-
-@NgModule({
-  imports: [NativeScriptRouterModule.forRoot(routes)],
-  exports: [NativeScriptRouterModule]
-})
-export class AppRoutingModule {}
+    path: "details/:id",
+    loadComponent: () =>
+      import("./features/details/details").then((m) => m.Details),
+  },
+];
 ```
 
 ### Setup navigation
 
-Now that we have the routes already set up, we can use NativeScript Angular's `RouterExtensions` to perform the navigation. The `RouterExtensions` class provides methods for imperative navigation, similar to how you would navigate with the Angular `Router` and `Location` classes. To use the class, inject it in your component constructor and call it's `navigate` function. Open `home.component.ts` and add the following:
+Now that we have the routes already set up, we can use NativeScript Angular's `RouterExtensions` to perform the navigation. The `RouterExtensions` class provides methods for imperative navigation, similar to how you would navigate with the Angular `Router` and `Location` classes. You can inject it and call it's `navigate` API. Open `home.ts` and add the following:
 
 ```typescript{7-8,22,26-28}
 // src/app/features/home/home.component.ts
 
 import { Component } from '@angular/core'
-import { FlickService } from '~/app/core'
+import { FlickService } from '~/core/services/flick.service'
 
 // Add this 👇
 import { ItemEventData } from '@nativescript/core'
-import { RouterExtensions } from '@nativescript/angular'
+import {
+  NativeScriptCommonModule,
+  NativeScriptRouterModule,
+  RouterExtensions,
+} from "@nativescript/angular";
 
 @Component({
-  moduleId: module.id,
-  selector: 'ns-home',
-  templateUrl: 'home.component.html'
+  selector: "ns-home",
+  templateUrl: "home.html",
+  imports: [NativeScriptCommonModule, NativeScriptRouterModule],
+  schemas: [NO_ERRORS_SCHEMA],
 })
 export class HomeComponent {
-  flicks = this.flickService.getFlicks()
+  flickService = inject(FlickService);
+  router = inject(RouterExtensions);
 
-  constructor(
-    private flickService: FlickService,
-
-    // Add this 👇
-    private routerExtensions: RouterExtensions
-  ) {}
-
-  // Add this 👇
   onFlickTap(args: ItemEventData): void {
-    this.routerExtensions.navigate(['details', this.flicks[args.index].id])
+    this.router.navigate([
+      "details",
+      this.flickService.getFlicks()[args.index].id,
+    ]);
   }
 }
 ```
 
-Next, let's add the tap event to the ListView items. Open `home.component.html` and add the following:
+Next, let's add the tap event to the ListView items. Open `home.html` and add the following:
 
 ```xml{10}
-<!-- src/app/features/home/home.component.html -->
+<!-- src/features/home/home.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
 
@@ -623,7 +524,7 @@ Next, let's add the tap event to the ListView items. Open `home.component.html` 
 <ListView
   height="100%"
   separatorColor="transparent"
-  [items]="flicks"
+  [items]="flickService.getFlicks()"
   (itemTap)="onFlickTap($event)"
 >
   <ng-template let-item="item">
@@ -634,26 +535,26 @@ Next, let's add the tap event to the ListView items. Open `home.component.html` 
       class="bg-secondary"
       rows="*, auto, auto"
       columns="*"
-      margin="5 10"
+      margin="12 10 0 10"
       padding="0"
     >
-      <Image row="0" margin="0" stretch="aspectFill" [src]="item.image"></Image>
-      <Label
+      <image row="0" margin="0" stretch="aspectFill" [src]="item.image"></image>
+      <label
         row="1"
         margin="10 10 0 10"
         fontWeight="700"
         class="text-primary"
         fontSize="18"
         [text]="item.title"
-      ></Label>
-      <Label
+      ></label>
+      <label
         row="2"
         margin="0 10 10 10"
         class="text-secondary"
         fontSize="14"
         textWrap="true"
         [text]="item.description"
-      ></Label>
+      ></label>
     </GridLayout>
   </ng-template>
 </ListView>
@@ -661,37 +562,32 @@ Next, let's add the tap event to the ListView items. Open `home.component.html` 
 
 ### Access route parameters
 
-We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details component. We can use Angular router's `ActivatedRoute` to get a static image of the route information shortly after the component was created. The snapshot returns a `params` property that contains an object with the route parameters we defined in our navigation. We can then use the `id` to get the selected flick information to be displayed in our details component's template. Open `details.component.ts` and add the following:
+We passed in the `id` of the flick card the user tapped on in the previous section as we navigate to the details component. We can use Angular router's `ActivatedRoute` to get a static image of the route information shortly after the component was created. The snapshot returns a `params` property that contains an object with the route parameters we defined in our navigation. We then use the `id` to get the selected flick information to be displayed on our details screen. Open `details.ts` and add the following:
 
 ```typescript{6,16,19-22,25-30}
-// src/app/features/details/details.component.ts
+// src/features/details/details.ts
 
-import { Component } from '@angular/core'
-
-// Add this 👇
-import { ActivatedRoute } from '@angular/router'
-import { FlickService, FlickModel } from '~/app/core'
+import { Component, OnInit, inject, NO_ERRORS_SCHEMA } from "@angular/core";
+import { ActivatedRoute } from '@angular/router';
+import { NativeScriptCommonModule, NativeScriptRouterModule } from '@nativescript/angular'
+import { FlickService } from "~/core/services/flick.service";
+import { FlickModel } from "~/core/models/flick.model";
 
 @Component({
-  moduleId: module.id,
-  selector: 'ns-details',
-  templateUrl: 'details.component.html'
+  selector: "ns-details",
+  templateUrl: "details.html",
+  imports: [NativeScriptCommonModule, NativeScriptRouterModule],
+  schemas: [NO_ERRORS_SCHEMA],
 })
-export class DetailsComponent {
-  // Add this 👇
-  flick: FlickModel | undefined = undefined
+export class Details implements OnInit {
+  flickService = inject(FlickService);
+  activatedRoute = inject(ActivatedRoute);
+  flick: FlickModel | undefined = undefined;
 
-  // Add this 👇
-  constructor(
-    private activatedRoute: ActivatedRoute,
-    private flickService: FlickService
-  ) {}
-
-  // Add this 👇
   ngOnInit(): void {
-    const id = +this.activatedRoute.snapshot.params.id
+    const id = +this.activatedRoute.snapshot.params.id;
     if (id) {
-      this.flick = this.flickService.getFlickById(id)
+      this.flick = this.flickService.getFlickById(id);
     }
   }
 }
@@ -703,38 +599,34 @@ Let's break down the layout and UI elements of the details page.
 
 ![Details page layout breakdown](/assets/images/tutorial/tutorial-example-app-details-breakdown.png)
 
-The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Angular's `*ngFor` directive to loop through the array and create a UI element or set of elements for each entry in the array. Open `details.component.html` and add the following code:
+The details page can be divided into three main parts, the ActionBar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Angular's `@for` to loop through the array and create a section for each entry in the array. Open `details.html` and add the following code:
 
 ```xml
-<!-- src/app/features/details/details.component.html -->
+<!-- src/features/details/details.html -->
 
-<!-- actionbar -->
 <ActionBar [title]="flick?.title"></ActionBar>
 
 <ScrollView height="100%">
   <StackLayout>
-    <!-- hero image -->
-    <Image margin="0" stretch="aspectFill" [src]="flick?.image"></Image>
-
-    <!-- main content -->
+    <image margin="0" stretch="aspectFill" [src]="flick?.image"></image>
+    @for (detail of flick?.details; track $index) {
     <StackLayout padding="10 20">
-      <ng-container *ngFor="let detail of flick?.details">
-        <Label
-          marginTop="15"
-          fontSize="16"
-          fontWeight="700"
-          class="text-primary"
-          textWrap="true"
-          [text]="detail.title"
-        ></Label>
-        <Label
-          fontSize="14"
-          class="text-secondary"
-          textWrap="true"
-          [text]="detail.body"
-        ></Label>
-      </ng-container>
+      <label
+        marginTop="15"
+        fontSize="16"
+        fontWeight="700"
+        class="text-primary"
+        textWrap="true"
+        [text]="detail.title"
+      ></label>
+      <label
+        fontSize="14"
+        class="text-secondary"
+        textWrap="true"
+        [text]="detail.body"
+      ></label>
     </StackLayout>
+    }
   </StackLayout>
 </ScrollView>
 ```
@@ -747,4 +639,4 @@ Running the app on either platform should now result in an app that resembles th
 
 ## What's next
 
-Congratulations! You built your first NativeScript app that runs on both iOS and Android. You can continue adding more [NativeScript UI components](/ui/) (or build your custom UI components), or you could add some [native functionalities](https://docs.nativescript.org/guide/subclassing/). The possibilities are endless!
+Congratulations! You built your first NativeScript app that runs on both iOS and Android with Angular. You can continue adding more [NativeScript UI components](/ui/) (or build your custom UI components), or you could add some [native functionalities](https://docs.nativescript.org/guide/subclassing/). The possibilities are endless!
