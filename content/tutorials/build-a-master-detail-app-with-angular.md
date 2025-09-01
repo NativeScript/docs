@@ -27,7 +27,7 @@ This tutorial will teach you the following:
 
 ## Prerequisites
 
-To get the most out of this tutorial you should already have a basic understanding of the Angular framework. If you're completely new to Angular, you might want to try the official [Angular tutorial](https://angular.io/tutorial) first.
+To get the most out of this tutorial you should already have a basic understanding of the Angular framework. If you're completely new to Angular, you might want to try the official [Angular tutorial](https://angular.dev/tutorials) first.
 
 ## Overview of the example application
 
