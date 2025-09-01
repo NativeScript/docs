@@ -96,13 +96,15 @@ src
 
 Let's start with creating the files for our home feature with the following contents:
 
-<!-- tab:home.html -->
-
 ```xml
 <!-- src/features/home/home.html -->
-```
 
-<!-- tab:home.ts -->
+<ActionBar title="NativeFlix"></ActionBar>
+
+<GridLayout>
+  <Label text="Hello"></Label>
+</GridLayout>
+```
 
 ```typescript
 // src/features/home/home.ts
@@ -433,13 +435,16 @@ If you've followed along this far, running the app on either platform should res
 
 Let's start with creating the files for our details feature with the following contents:
 
-<!-- tab:details.html -->
-
 ```xml
 <!-- src/features/details/details.html -->
-```
+<ActionBar [title]="flick?.title"></ActionBar>
 
-<!-- tab:details.ts -->
+<ScrollView height="100%">
+  <StackLayout>
+    <Label text="Hello"></Label>
+  </StackLayout>
+</ScrollView>
+```
 
 ```typescript
 // src/features/details/details.ts
@@ -484,7 +489,7 @@ export const routes: Routes = [
 Now that we have the routes already set up, we can use NativeScript Angular's `RouterExtensions` to perform the navigation. The `RouterExtensions` class provides methods for imperative navigation, similar to how you would navigate with the Angular `Router` and `Location` classes. You can inject it and call it's `navigate` API. Open `home.ts` and add the following:
 
 ```typescript{7-8,22,26-28}
-// src/app/features/home/home.component.ts
+// src/features/home/home.ts
 
 import { Component } from '@angular/core'
 import { FlickService } from '~/core/services/flick.service'
