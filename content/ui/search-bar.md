@@ -127,7 +127,7 @@ Emitted when the search text is submitted.
 ### clear
 
 ```ts
-on('submit', (args: EventData) => {
+on('clear', (args: EventData) => {
   const searchBar = args.object as SearchBar
   console.log('SearchBar cleared')
 })
