@@ -314,7 +314,7 @@ export default [
       },
       {
         text: 'Hooks',
-        link: '/guide/nativescript-hooks-guide',
+        link: '/guide/hooks',
       },
       {
         text: 'Platform Version Handling',

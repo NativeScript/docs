@@ -175,12 +175,6 @@ To add hooks to your plugin, follow these steps:
 **1. Install the Hook Module**
 
 ```bash
-npm install nativescript-hook --save
-```
-
-For NativeScript 7+, use:
-
-```bash
 npm install @nativescript/hook --save
 ```
 
@@ -189,11 +183,7 @@ npm install @nativescript/hook --save
 Create `postinstall.js` at the root folder of your plugin:
 
 ```javascript
-var hook = require('nativescript-hook')(__dirname)
-hook.postinstall()
-
-// For NativeScript 7+:
-// require('@nativescript/hook')(__dirname).postinstall();
+require('@nativescript/hook')(__dirname).postinstall();
 ```
 
 **3. Create preuninstall.js**
@@ -201,11 +191,7 @@ hook.postinstall()
 Create `preuninstall.js` at the root folder of your plugin:
 
 ```javascript
-var hook = require('nativescript-hook')(__dirname)
-hook.preuninstall()
-
-// For NativeScript 7+:
-// require('@nativescript/hook')(__dirname).preuninstall();
+require('@nativescript/hook')(__dirname).preuninstall();
 ```
 
 **4. Update package.json Scripts**
@@ -235,8 +221,7 @@ Define your hooks under the `nativescript` property:
       },
       {
         "type": "after-prepare",
-        "script": "lib/after-prepare.js",
-        "inject": true
+        "script": "lib/after-prepare.js"
       }
     ]
   }
@@ -252,10 +237,6 @@ Specifies when the hook should execute. Format: `before-<hookName>` or `after-<h
 #### script (Required)
 
 The relative path from the plugin root to the hook implementation file.
-
-#### inject (Optional)
-
-Boolean property indicating whether the hook should be executed in-process (`true`) or spawned (`false`). When `inject: true`, the hook can access NativeScript CLI services.
 
 #### name (Optional)
 
