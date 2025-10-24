@@ -183,7 +183,7 @@ npm install @nativescript/hook --save
 Create `postinstall.js` at the root folder of your plugin:
 
 ```javascript
-require('@nativescript/hook')(__dirname).postinstall();
+require('@nativescript/hook')(__dirname).postinstall()
 ```
 
 **3. Create preuninstall.js**
@@ -191,7 +191,7 @@ require('@nativescript/hook')(__dirname).postinstall();
 Create `preuninstall.js` at the root folder of your plugin:
 
 ```javascript
-require('@nativescript/hook')(__dirname).preuninstall();
+require('@nativescript/hook')(__dirname).preuninstall()
 ```
 
 **4. Update package.json Scripts**
