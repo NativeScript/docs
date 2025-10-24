@@ -313,6 +313,10 @@ export default [
         ],
       },
       {
+        text: 'Hooks',
+        link: '/guide/nativescript-hooks-guide',
+      },
+      {
         text: 'Platform Version Handling',
         link: '/guide/platform-version-handling',
       },
