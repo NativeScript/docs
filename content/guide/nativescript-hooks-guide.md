@@ -4,11 +4,12 @@ description: A Guide to using CLI hooks.
 contributors:
   - jcassidyav
 ---
+
 ## Overview
 
 NativeScript hooks are executable pieces of code or Node.js scripts that can be added by application or plugin developers to customize the execution of particular NativeScript commands. They provide the power to perform special activities by plugging into different parts of the build process of your application.
 
-Hooks are added to the `hooks/` folder of a project by plugins, or are specified in the `nativescript.config.ts` by an application. 
+Hooks are added to the `hooks/` folder of a project by plugins, or are specified in the `nativescript.config.ts` by an application.
 
 For example, when `ns prepare ...` is executed, all script files in the `hooks/before-prepare/` and `hooks/after-prepare/` folders are executed as well.
 
@@ -21,6 +22,7 @@ For versions of the NativeScript CLI < 9.0 hooks must be written in CommonJS wit
 The NativeScript CLI supports two different ways of executing hooks:
 
 **1. In-Process Execution**
+
 - Available only for JavaScript hooks
 - Executes within the CLI process
 - Provides access to NativeScript CLI services via dependency injection
@@ -28,6 +30,7 @@ The NativeScript CLI supports two different ways of executing hooks:
 - **Recommended approach** for writing hooks
 
 **2. Spawned Execution**
+
 - Executed via Node.js's `child_process.spawn` function
 - Run from the project's root directory
 - Cannot access NativeScript CLI services
@@ -40,7 +43,7 @@ The NativeScript CLI supports two different ways of executing hooks:
 To write an in-process hook, use the following module definition:
 
 ```javascript
-module.exports = function() { 
+module.exports = function () {
   // Hook implementation
 }
 ```
@@ -70,8 +73,8 @@ Then `hookArgs` will have the following structure:
 **Using hookArgs in your hook:**
 
 ```javascript
-module.exports = function(hookArgs) {
-  console.log(hookArgs.projectData);
+module.exports = function (hookArgs) {
+  console.log(hookArgs.projectData)
 }
 ```
 
@@ -79,27 +82,28 @@ module.exports = function(hookArgs) {
 
 NativeScript CLI is built with Dependency Injection and executes in-process hooks in a way that allows you to use any registered service from the injector.
 
-***Approach 1: Direct Service Injection***
+**_Approach 1: Direct Service Injection_**
 
 ```javascript
-module.exports = function($logger, $fs, $projectDataService, hookArgs) {
-  $logger.info("Executing hook");
+module.exports = function ($logger, $fs, $projectDataService, hookArgs) {
+  $logger.info('Executing hook')
   // Use $fs, $projectDataService, etc.
 }
 ```
 
-***Approach 2: Injector Resolution***
+**_Approach 2: Injector Resolution_**
 
 ```javascript
-module.exports = function($injector, hookArgs) {
-  const $logger = $injector.resolve("$logger");
-  const $fs = $injector.resolve("$fs");
-  
-  $logger.info("Executing hook");
+module.exports = function ($injector, hookArgs) {
+  const $logger = $injector.resolve('$logger')
+  const $fs = $injector.resolve('$fs')
+
+  $logger.info('Executing hook')
 }
 ```
 
 **Important Notes:**
+
 - Injected dependencies are resolved by name
 - If you inject a non-existent service (e.g., `$logger1`), the CLI won't execute the hook and will show a warning
 - When using `$injector` directly, no warning is shown for incorrect service names, and an error will be thrown during execution
@@ -109,18 +113,18 @@ module.exports = function($injector, hookArgs) {
 NativeScript CLI supports asynchronous code in hooks. If executing async code, you must return a Promise:
 
 ```javascript
-var mkdirp = require('mkdirp');
+var mkdirp = require('mkdirp')
 
-module.exports = function($logger) {
-  return new Promise(function(resolve, reject) {
-    mkdirp('somedir', function(err) {
+module.exports = function ($logger) {
+  return new Promise(function (resolve, reject) {
+    mkdirp('somedir', function (err) {
       if (err) {
-        reject(err);
+        reject(err)
       } else {
-        resolve();
+        resolve()
       }
-    });
-  });
+    })
+  })
 }
 ```
 
@@ -128,11 +132,11 @@ module.exports = function($logger) {
 
 Spawned hooks are executed via Node's `child_process.spawn` from the project's root directory. All options are passed to the script using environment variables:
 
-| Environment Variable | Description |
-|---------------------|-------------|
-| `TNS-VERSION` | The version of the NativeScript CLI |
-| `TNS-HOOK_FULL_PATH` | The full path to the executed hook |
-| `TNS-COMMANDLINE` | The exact command-line arguments passed to NativeScript CLI (e.g., `tns run ios --emulator`) |
+| Environment Variable | Description                                                                                  |
+| -------------------- | -------------------------------------------------------------------------------------------- |
+| `TNS-VERSION`        | The version of the NativeScript CLI                                                          |
+| `TNS-HOOK_FULL_PATH` | The full path to the executed hook                                                           |
+| `TNS-COMMANDLINE`    | The exact command-line arguments passed to NativeScript CLI (e.g., `tns run ios --emulator`) |
 
 If a spawned hook returns a non-zero exit code, NativeScript CLI will throw an error and abort the command's execution.
 
@@ -143,9 +147,9 @@ If a spawned hook returns a non-zero exit code, NativeScript CLI will throw an e
 Hooks can execute code before or after a specific action:
 
 ```javascript
-module.exports = function(hookArgs) {
+module.exports = function (hookArgs) {
   if (hookArgs.prepareData.release) {
-    console.log("Before executing release build.");
+    console.log('Before executing release build.')
   }
 }
 ```
@@ -155,9 +159,9 @@ module.exports = function(hookArgs) {
 Hooks can replace the original CLI function (use sparingly):
 
 ```javascript
-module.exports = function(hookArgs, $logger) {
+module.exports = function (hookArgs, $logger) {
   return () => {
-    $logger.info("Replaced the original CLI function.");
+    $logger.info('Replaced the original CLI function.')
   }
 }
 ```
@@ -175,6 +179,7 @@ npm install nativescript-hook --save
 ```
 
 For NativeScript 7+, use:
+
 ```bash
 npm install @nativescript/hook --save
 ```
@@ -184,8 +189,8 @@ npm install @nativescript/hook --save
 Create `postinstall.js` at the root folder of your plugin:
 
 ```javascript
-var hook = require("nativescript-hook")(__dirname);
-hook.postinstall();
+var hook = require('nativescript-hook')(__dirname)
+hook.postinstall()
 
 // For NativeScript 7+:
 // require('@nativescript/hook')(__dirname).postinstall();
@@ -196,8 +201,8 @@ hook.postinstall();
 Create `preuninstall.js` at the root folder of your plugin:
 
 ```javascript
-var hook = require("nativescript-hook")(__dirname);
-hook.preuninstall();
+var hook = require('nativescript-hook')(__dirname)
+hook.preuninstall()
 
 // For NativeScript 7+:
 // require('@nativescript/hook')(__dirname).preuninstall();
@@ -241,15 +246,19 @@ Define your hooks under the `nativescript` property:
 ### Hook Configuration Properties
 
 #### type (Required)
+
 Specifies when the hook should execute. Format: `before-<hookName>` or `after-<hookName>`
 
 #### script (Required)
+
 The relative path from the plugin root to the hook implementation file.
 
 #### inject (Optional)
+
 Boolean property indicating whether the hook should be executed in-process (`true`) or spawned (`false`). When `inject: true`, the hook can access NativeScript CLI services.
 
 #### name (Optional)
+
 Custom name for the hook. Defaults to the plugin package name.
 
 **Example with custom name:**
@@ -282,13 +291,13 @@ export default {
   hooks: [
     {
       type: 'before-prepare',
-      script: './scripts/hooks/before-prepare.js'
+      script: './scripts/hooks/before-prepare.js',
     },
     {
       type: 'after-prepare',
-      script: './scripts/hooks/after-prepare.js'
-    }
-  ]
+      script: './scripts/hooks/after-prepare.js',
+    },
+  ],
 } as NativeScriptConfig
 ```
 
@@ -309,28 +318,28 @@ hooks: [
 
 The following hook types are available (prefix with `before-` or `after-`):
 
-| Hook Name | Description | Execution Context |
-|-----------|-------------|-------------------|
-| `buildAndroidPlugin` | Builds aar file for Android plugin | Runs during `prepareNativeApp` |
-| `buildAndroid` | Builds Android app | During Android build process |
-| `buildIOS` | Builds iOS app | During iOS build process |
-| `checkEnvironment` | Validates project environment | Runs during `ns doctor`, `ns clean`, and most build commands |
-| `checkForChanges` | Detects changes during watch | NativeScript CLI checks application state to decide if rebuild/reinstall/restart is needed |
-| `install` | Application installed to device/emulator | After app installation |
-| `prepare` | Compiles webpack and prepares native app | Prepares the application in platforms folder |
-| `prepareNativeApp` | Prepares the actual native app | Runs during `prepare`/`watch` hook |
-| `resolveCommand` | Resolves command and arguments | Runs before all CLI commands |
-| `watch` | Sets up watchers for live sync | During `prepare` hook for live development |
-| `watchPatterns` | Sets up watch patterns | During `watch` hook |
+| Hook Name            | Description                              | Execution Context                                                                          |
+| -------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `buildAndroidPlugin` | Builds aar file for Android plugin       | Runs during `prepareNativeApp`                                                             |
+| `buildAndroid`       | Builds Android app                       | During Android build process                                                               |
+| `buildIOS`           | Builds iOS app                           | During iOS build process                                                                   |
+| `checkEnvironment`   | Validates project environment            | Runs during `ns doctor`, `ns clean`, and most build commands                               |
+| `checkForChanges`    | Detects changes during watch             | NativeScript CLI checks application state to decide if rebuild/reinstall/restart is needed |
+| `install`            | Application installed to device/emulator | After app installation                                                                     |
+| `prepare`            | Compiles webpack and prepares native app | Prepares the application in platforms folder                                               |
+| `prepareNativeApp`   | Prepares the actual native app           | Runs during `prepare`/`watch` hook                                                         |
+| `resolveCommand`     | Resolves command and arguments           | Runs before all CLI commands                                                               |
+| `watch`              | Sets up watchers for live sync           | During `prepare` hook for live development                                                 |
+| `watchPatterns`      | Sets up watch patterns                   | During `watch` hook                                                                        |
 
 ### Hook Execution Examples
 
 **Example: Release Build Check**
 
 ```javascript
-module.exports = function(hookArgs) {
+module.exports = function (hookArgs) {
   if (hookArgs.prepareData.release) {
-    console.log("Executing release build");
+    console.log('Executing release build')
     // Modify API keys, enable production features, etc.
   }
 }
@@ -339,53 +348,77 @@ module.exports = function(hookArgs) {
 **Example: Using NativeScript Services**
 
 ```javascript
-module.exports = function($logger, $fs, hookArgs) {
-  $logger.info("Starting custom hook");
-  
-  const configPath = hookArgs.projectData.projectDir + '/config.json';
+module.exports = function ($logger, $fs, hookArgs) {
+  $logger.info('Starting custom hook')
+
+  const configPath = hookArgs.projectData.projectDir + '/config.json'
   if ($fs.exists(configPath)) {
-    const config = $fs.readJson(configPath);
-    $logger.info(`Loaded config: ${JSON.stringify(config)}`);
+    const config = $fs.readJson(configPath)
+    $logger.info(`Loaded config: ${JSON.stringify(config)}`)
   }
 }
 ```
 
 **Example: ESM Hook**
 In a file named `<name>.mjs`
+
 ```javascript
 export default function (hookArgs) {
   console.log(
-    "MJS executing release build.",
-    JSON.stringify(hookArgs.prepareData)
-  );
+    'MJS executing release build.',
+    JSON.stringify(hookArgs.prepareData),
+  )
 }
-
 ```
 
 ## Hooks CLI Command
 
-Starting with NativeScript 9.0 CLI (`npm install -g nativescript`), a new commmand `ns hooks` is available.
+As described above these hooks are installed automatically through npm postinstall scripts included in the plugin package.
 
-As described above `postinstall` scripts are used by plugins to install hooks to the correct location for execution, this is not compatible with users
- using `npm install --ignore-scripts` ( or other settings which prevent script execution ) given that plugin that requires hooks utilises post install events to install the hooks.
+However, if you (or your CI environment) install dependencies with:
 
-The new `ns hooks` command resolves this by providing a mechanism to install plugin hooks after a `npm install`.
+```
+npm install --ignore-scripts
+```
 
-**Commands**
+then those postinstall scripts don’t run, which means:
 
-| Command | Description |
-| ---------- | ------------ |
-| `ns hooks`  | Lists the hooks that are in the installed plugins ( also `ns hooks list` ). |
-| `ns hooks install` | Installs the hooks. |
-| `ns hooks lock` | Creates a `nativescript-lock.json` file, this is a list of hooks per plugin and a hash of the script for each hook. |
-| `ns hooks verify` | Compares the hooks in the plugins with what is specified in the `nativescript-lock.json` file, failing if a hook is not listed or the hash is not the same. |
+- Plugin hooks aren’t copied to the correct location (`hooks/` folder).
+- Builds may fail or certain plugin functionality won’t work.
 
-**Example usage**
+Starting with NativeScript 9.0 CLI (`npm install -g nativescript`), a new command was introduced:
 
-* Modify/Create `.npmrc` in the project root adding `ignore-scripts=true`
-* After `npm i` run `ns hooks install`
+```
+ns hooks
+```
 
-For extra peace of mind:
+This command installs all plugin hooks after dependencies have been installed.
 
-Run `ns hooks lock` and `ns hooks install` will fail if any of the hooks have changed.
+So if your environment blocks postinstall scripts, you can now safely do:
 
+```
+npm install --ignore-scripts
+ns hooks
+```
+
+The new `ns hooks` command will install the hooks into the proper project locations (as postinstall would have done).
+
+**Available Commands**
+
+| Command            | Description                                                                                                                                                 |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ns hooks`         | Lists the hooks that are in the installed plugins ( also `ns hooks list` ).                                                                                 |
+| `ns hooks install` | Installs the hooks.                                                                                                                                         |
+| `ns hooks lock`    | Creates a `nativescript-lock.json` file, this is a list of hooks per plugin and a hash of the script for each hook.                                         |
+| `ns hooks verify`  | Compares the hooks in the plugins with what is specified in the `nativescript-lock.json` file, failing if a hook is not listed or the hash is not the same. |
+
+**For extra peace of mind**
+
+Typically the contents of the hook scripts do not change in plugins from version to version, to prevent unexpecected changes to hooks you can utilize the `lock` command.
+
+This will:
+
+- Create a `nativescript-lock.json` file containing details of the current plugin hooks.
+- Ensure that any future `ns hooks install` or `ns hooks verify` invocations will fail if any new hooks are introduced by dependencies or if these hook scripts differ from what was previously installed.
+
+i.e. run `ns hooks lock` and `ns hooks install` will fail if any of the hooks have changed since the last time `ns hooks lock` has been executed.
