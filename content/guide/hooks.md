@@ -284,8 +284,8 @@ Add the postinstall and preuninstall scripts:
 ```json
 {
   "scripts": {
-    "postinstall": "node postinstall.js",
-    "preuninstall": "node preuninstall.js"
+    "postinstall": "node postinstall.mjs",
+    "preuninstall": "node preuninstall.mjs"
   }
 }
 ```
