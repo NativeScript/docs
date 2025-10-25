@@ -41,13 +41,21 @@ The NativeScript CLI supports two different ways of executing hooks:
 **Basic Module Definition**
 
 To write an in-process hook, use the following module definition:
+::: code-group
 
-```javascript
-module.exports = function () {
-  // Hook implementation
+```javascript [thehook.mjs (ESM)]
+export default function (hookArgs) {
+  // Hook implementation ESM
 }
 ```
 
+```javascript [thehook.js (CommonJS)]
+module.exports = function () {
+  // Hook implementation CommonJs
+}
+```
+
+:::
 **Using hookArgs**
 
 The hook function can accept a special argument named `hookArgs`, which is an object containing all arguments passed to the hooked method.
@@ -71,29 +79,58 @@ Then `hookArgs` will have the following structure:
 ```
 
 **Using hookArgs in your hook:**
+::: code-group
 
-```javascript
+```javascript [thehook.mjs (ESM)]
+export default function (hookArgs) {
+  console.log(JSON.stringify(hookArgs.prepareData))
+}
+```
+
+```javascript [thehook.js (CommonJS)]
 module.exports = function (hookArgs) {
   console.log(hookArgs.projectData)
 }
 ```
 
+:::
 **Dependency Injection**
 
 NativeScript CLI is built with Dependency Injection and executes in-process hooks in a way that allows you to use any registered service from the injector.
 
 **_Approach 1: Direct Service Injection_**
 
-```javascript
+::: code-group
+
+```javascript [thehook.mjs (ESM)]
+export default function ($logger, $fs, $projectDataService, hookArgs) {
+  $logger.info('Executing hook')
+  // Use $fs, $projectDataService, etc.
+}
+```
+
+```javascript [thehook.js (CommonJS)]
 module.exports = function ($logger, $fs, $projectDataService, hookArgs) {
   $logger.info('Executing hook')
   // Use $fs, $projectDataService, etc.
 }
 ```
 
+:::
 **_Approach 2: Injector Resolution_**
 
-```javascript
+::: code-group
+
+```javascript [thehook.mjs (ESM)]
+export default function ($injector, hookArgs) {
+  const $logger = $injector.resolve('$logger')
+  const $fs = $injector.resolve('$fs')
+
+  $logger.info('Executing hook')
+}
+```
+
+```javascript [thehook.js (CommonJS)]
 module.exports = function ($injector, hookArgs) {
   const $logger = $injector.resolve('$logger')
   const $fs = $injector.resolve('$fs')
@@ -101,6 +138,8 @@ module.exports = function ($injector, hookArgs) {
   $logger.info('Executing hook')
 }
 ```
+
+:::
 
 **Important Notes:**
 
@@ -112,7 +151,25 @@ module.exports = function ($injector, hookArgs) {
 
 NativeScript CLI supports asynchronous code in hooks. If executing async code, you must return a Promise:
 
-```javascript
+::: code-group
+
+```javascript [thehook.mjs (ESM)]
+import { mkdirp } from 'mkdirp'
+
+export default function ($logger) {
+  return new Promise(function (resolve, reject) {
+    mkdirp('somedir', function (err) {
+      if (err) {
+        reject(err)
+      } else {
+        resolve()
+      }
+    })
+  })
+}
+```
+
+```javascript [thehook.js (CommonJS)]
 var mkdirp = require('mkdirp')
 
 module.exports = function ($logger) {
@@ -127,6 +184,8 @@ module.exports = function ($logger) {
   })
 }
 ```
+
+:::
 
 ## Spawned Hooks
 
@@ -146,7 +205,17 @@ If a spawned hook returns a non-zero exit code, NativeScript CLI will throw an e
 
 Hooks can execute code before or after a specific action:
 
-```javascript
+::: code-group
+
+```javascript [thehook.mjs (ESM)]
+export default function (hookArgs) {
+  if (hookArgs.prepareData.release) {
+    console.log('Before executing release build.')
+  }
+}
+```
+
+```javascript [thehook.js (CommonJS)]
 module.exports = function (hookArgs) {
   if (hookArgs.prepareData.release) {
     console.log('Before executing release build.')
@@ -154,19 +223,7 @@ module.exports = function (hookArgs) {
 }
 ```
 
-**Replacement Hooks**
-
-Hooks can replace the original CLI function (use sparingly):
-
-```javascript
-module.exports = function (hookArgs, $logger) {
-  return () => {
-    $logger.info('Replaced the original CLI function.')
-  }
-}
-```
-
-**Note:** Replacement hooks should only be used in specific, rare cases. Before/after hooks are strongly recommended.
+:::
 
 ## Adding Hooks to Plugins
 
@@ -180,20 +237,46 @@ npm install @nativescript/hook --save
 
 **2. Create postinstall.js**
 
-Create `postinstall.js` at the root folder of your plugin:
+Create a postinstall script at the root folder of your plugin:
+::: code-group
 
-```javascript
+```javascript [postinstall.mjs (ESM)]
+import path from 'path'
+import hook from '@nativescript/hook'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+hook(path.join(__dirname, '..')).postinstall()
+```
+
+```javascript [postinstall.js(CommonJS)]
 require('@nativescript/hook')(__dirname).postinstall()
 ```
 
+:::
+
 **3. Create preuninstall.js**
 
-Create `preuninstall.js` at the root folder of your plugin:
+Create preuninstall script at the root folder of your plugin:
 
-```javascript
-require('@nativescript/hook')(__dirname).preuninstall()
+::: code-group
+
+```javascript [postinstall.mjs (ESM)]
+import path from 'path'
+import hook from '@nativescript/hook'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+hook(path.join(__dirname, '..')).preuninstall()
 ```
 
+```javascript [postinstall.js(CommonJS)]
+require('@nativescript/hook')(__dirname).postinstall()
+```
+
+:::
 **4. Update package.json Scripts**
 
 Add the postinstall and preuninstall scripts:
@@ -217,11 +300,11 @@ Define your hooks under the `nativescript` property:
     "hooks": [
       {
         "type": "before-prepare",
-        "script": "lib/before-prepare.js"
+        "script": "lib/before-prepare.mjs"
       },
       {
         "type": "after-prepare",
-        "script": "lib/after-prepare.js"
+        "script": "lib/after-prepare.mjs"
       }
     ]
   }
@@ -250,7 +333,7 @@ Custom name for the hook. Defaults to the plugin package name.
     "hooks": [
       {
         "type": "after-prepare",
-        "script": "lib/after-prepare.js",
+        "script": "lib/after-prepare.mjs",
         "name": "my-custom-hook"
       }
     ]
@@ -272,11 +355,11 @@ export default {
   hooks: [
     {
       type: 'before-prepare',
-      script: './scripts/hooks/before-prepare.js',
+      script: './scripts/hooks/before-prepare.mjs',
     },
     {
       type: 'after-prepare',
-      script: './scripts/hooks/after-prepare.js',
+      script: './scripts/hooks/after-prepare.mjs',
     },
   ],
 } as NativeScriptConfig
@@ -290,7 +373,7 @@ export default {
 hooks: [
   {
     type: 'before-<hookName>' | 'after-<hookName>',
-    script: './path/to/script.js',
+    script: './path/to/script.mjs',
   },
 ]
 ```
@@ -317,7 +400,18 @@ The following hook types are available (prefix with `before-` or `after-`):
 
 **Example: Release Build Check**
 
-```javascript
+::: code-group
+
+```javascript [thehook.mjs (ESM)]
+export default function (hookArgs) {
+  if (hookArgs.prepareData.release) {
+    console.log('Executing release build')
+    // Modify API keys, enable production features, etc.
+  }
+}
+```
+
+```javascript [thehook.js (CommonJS)]
 module.exports = function (hookArgs) {
   if (hookArgs.prepareData.release) {
     console.log('Executing release build')
@@ -326,9 +420,24 @@ module.exports = function (hookArgs) {
 }
 ```
 
+:::
 **Example: Using NativeScript Services**
 
-```javascript
+::: code-group
+
+```javascript [thehook.mjs (ESM)]
+export default function ($logger, $fs, hookArgs) {
+  $logger.info('Starting custom hook')
+
+  const configPath = hookArgs.projectData.projectDir + '/config.json'
+  if ($fs.exists(configPath)) {
+    const config = $fs.readJson(configPath)
+    $logger.info(`Loaded config: ${JSON.stringify(config)}`)
+  }
+}
+```
+
+```javascript [thehook.js (CommonJS)]
 module.exports = function ($logger, $fs, hookArgs) {
   $logger.info('Starting custom hook')
 
@@ -340,17 +449,7 @@ module.exports = function ($logger, $fs, hookArgs) {
 }
 ```
 
-**Example: ESM Hook**
-In a file named `<name>.mjs`
-
-```javascript
-export default function (hookArgs) {
-  console.log(
-    'MJS executing release build.',
-    JSON.stringify(hookArgs.prepareData),
-  )
-}
-```
+:::
 
 ## Hooks CLI Command
 
@@ -358,7 +457,7 @@ As described above these hooks are installed automatically through npm postinsta
 
 However, if you (or your CI environment) install dependencies with:
 
-```
+```bash
 npm install --ignore-scripts
 ```
 
@@ -369,7 +468,7 @@ then those postinstall scripts don’t run, which means:
 
 Starting with NativeScript 9.0 CLI (`npm install -g nativescript`), a new command was introduced:
 
-```
+```bash
 ns hooks
 ```
 
@@ -377,7 +476,7 @@ This command installs all plugin hooks after dependencies have been installed.
 
 So if your environment blocks postinstall scripts, you can now safely do:
 
-```
+```bash
 npm install --ignore-scripts
 ns hooks
 ```
