@@ -545,6 +545,59 @@ Utils.android.getApplicationContext()
 
 ---
 
+### enableEdgeToEdge()
+
+```ts
+function enableEdgeToEdge(
+  activity: androidx.appcompat.app.AppCompatActivity,
+  options?: {
+    statusBarLightColor?: Color
+    statusBarDarkColor?: Color
+    navigationBarLightColor?: Color
+    navigationBarDarkColor?: Color
+    handleDarkMode?: (
+      bar: 'status' | 'navigation',
+      resources: android.content.res.Resources,
+    ) => boolean
+  },
+): void
+```
+
+Enables full edge-to-edge rendering on Android and lets you customize system UI overlay colors and behavior.
+
+- `activity` The current `AppCompatActivity` instance.
+- _Optional_ `options` may include:
+  - `statusBarLightColor` Color to use for light appearance of the status bar (icons dark on light background).
+  - `statusBarDarkColor` Color to use for dark appearance of the status bar (icons light on dark background).
+  - `navigationBarLightColor` Color to use for light appearance of the navigation bar.
+  - `navigationBarDarkColor` Color to use for dark appearance of the navigation bar.
+  - `handleDarkMode` Decide whether light or dark system UI should be used for the given bar based on your own logic. Return `true` to use light appearance, `false` for dark.
+
+Notes:
+- Works together with Page `androidOverflowEdge` and `androidOverflowInset` to control inset application/consumption.
+- When insets are applied, they are added to the view's padding.
+
+Example:
+
+```ts
+import { Application, Utils, Color } from '@nativescript/core'
+
+const activity = Utils.android.getCurrentActivity()
+
+Utils.android.enableEdgeToEdge(activity, {
+  statusBarLightColor: new Color('#FFFFFF'),
+  statusBarDarkColor: new Color('#000000'),
+  navigationBarLightColor: new Color('#FFFFFF'),
+  navigationBarDarkColor: new Color('#000000'),
+  handleDarkMode: (bar, resources) => {
+    // Decide per your theme; return true for light appearance
+    return true
+  },
+})
+```
+
+---
+
 ### getInputMethodManager()
 
 ```ts
