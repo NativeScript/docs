@@ -87,7 +87,6 @@ const labelHierarchy: Array<string> = Utils.getBaseClasses(new Label())
 ] */
 ```
 
-### Hiding a keyboard
 
 To hide a soft keyboard on the screen, use the [dismissKeyboard()](#dismisskeyboard) method.
 
@@ -101,7 +100,6 @@ Utils.dismissKeyboard()
 
 ```ts
 const majorVersion: number = Utils.ios
-```
 
 (`iOS only`) Gets the iOS device major version. For example, for `16.0` ,it returns `16`.
 
@@ -115,7 +113,6 @@ const isFileOrResourcePath: boolean = Utils.isFileOrResourcePath(path)
 
 Returns `true` if the specified path points to a resource or local file.
 
----
 
 ### isDataURI()
 
@@ -142,7 +139,6 @@ const escapedString: string = Utils.escapeRegexSymbols(string)
 ```
 
 Escapes special regex characters (`.`, `*`, `^`, `$` and so on) in a string and returns a valid regex.
-
 ---
 
 ### convertString()
@@ -171,14 +167,10 @@ A utility function that invokes garbage collection on the JavaScript side.
 Utils.queueMacrotask(task: () => void)
 ```
 
-Queues the passed function to be ran as a macroTask.
-
----
 
 ### queueGC()
 
 ```ts
-Utils.queueGC(delay, useThrottle)
 ```
 
 - _Optional_: `delay` time, in milliseconds, to wait before garbage collection starts.
@@ -186,7 +178,6 @@ Utils.queueGC(delay, useThrottle)
 
 A utility function that queues a garbage collection. Multiple calls in quick succession are debounced by default and only one gc will be executed after 900ms.
 
----
 
 ### debounce()
 
@@ -194,7 +185,6 @@ A utility function that queues a garbage collection. Multiple calls in quick suc
 const debouncedFn = Utils.debounce(fn, delay)
 
 debouncedFn()
-```
 
 A simple debounce utility.
 
@@ -202,7 +192,6 @@ A simple debounce utility.
 - _Optional_:`delay` delays the bouncing, in milliseconds. Defaults to 300ms.
 
 ---
-
 ### throttle()
 
 ```ts
@@ -215,7 +204,6 @@ A simple throttle utility.
 
 - `fn` The function to throttle.
 - _Optional_:`delay` delays the throttling, in milliseconds. Defaults to 300ms.
-
 ---
 
 ### isFontIconURI()
@@ -223,7 +211,6 @@ A simple throttle utility.
 ```ts
 const isFontIconURI: boolean = Utils.isFontIconURI('font://&#xf51e;')
 ```
-
 Returns true if the specified URI is a font icon URI.
 
 ---
@@ -235,7 +222,6 @@ Utils.executeOnMainThread(fn: Function)
 
 ```
 
-Checks if the current thread is the main thread. If it is, calls the passed function. Otherwise, it dispatches it to the main thread.
 
 :::warning Important!
 
@@ -252,7 +238,6 @@ Utils.executeOnUIThread(fn: Function)
 ```
 
 Runs the passed function on the UI Thread.
-
 :::warning Important!
 
 Always dispatches asynchronously to the UI thread.
@@ -525,6 +510,8 @@ Hides any keyboard on the screen.
 
 ---
 
+## Utils.android
+
 ### getApplication()
 
 ```ts
@@ -535,6 +522,19 @@ const app: android.app.Application = Utils.android.getApplication()
 
 ---
 
+### getCurrentActivity()
+
+```ts
+const activity:
+  | androidx.appcompat.app.AppCompatActivity
+  | android.app.Activity
+  | null = Utils.android.getCurrentActivity()
+```
+
+(`Android-only`) Gets the current foreground Android Activity if available, otherwise `null`.
+
+---
+
 ### getApplicationContext()
 
 ```ts
@@ -542,6 +542,26 @@ Utils.android.getApplicationContext()
 ```
 
 (`Android-only`) Gets the Android application [context](https://developer.android.com/reference/android/content/Context).
+
+---
+
+### getResources()
+
+```ts
+const resources: android.content.res.Resources = Utils.android.getResources()
+```
+
+(`Android-only`) Gets the native Android [Resources](https://developer.android.com/reference/android/content/res/Resources) for the application.
+
+---
+
+### getPackageName()
+
+```ts
+const pkg: string = Utils.android.getPackageName()
+```
+
+(`Android-only`) Gets the application package name.
 
 ---
 
@@ -598,6 +618,50 @@ Utils.android.enableEdgeToEdge(activity, {
 
 ---
 
+### setDarkModeHandler()
+
+```ts
+Utils.android.setDarkModeHandler(options?: {
+  activity?: androidx.appcompat.app.AppCompatActivity
+  handler: (
+    bar: 'status' | 'navigation',
+    resources: android.content.res.Resources,
+  ) => boolean
+})
+```
+
+(`Android-only`) Sets a handler to decide whether the specified system bar should use light or dark appearance based on your logic.
+
+---
+
+### setNavigationBarColor()
+
+```ts
+Utils.android.setNavigationBarColor(options?: {
+  activity?: androidx.appcompat.app.AppCompatActivity
+  lightColor?: Color
+  darkColor?: Color
+})
+```
+
+(`Android-only`) Sets the navigation bar color for the application for light/dark appearances.
+
+---
+
+### setStatusBarColor()
+
+```ts
+Utils.android.setStatusBarColor(options?: {
+  activity?: androidx.appcompat.app.AppCompatActivity
+  lightColor?: Color
+  darkColor?: Color
+})
+```
+
+(`Android-only`) Sets the status bar color for the application for light/dark appearances.
+
+---
+
 ### getInputMethodManager()
 
 ```ts
@@ -616,6 +680,16 @@ Utils.android.showSoftInput(nativeView)
 ```
 
 (`Android-only`)Shows a soft keyboard. `nativeView` is an `android.view.View` instance to disable the soft input for.
+
+---
+
+### dismissSoftInput()
+
+```ts
+Utils.android.dismissSoftInput(nativeView?)
+```
+
+(`Android-only`) Hides the soft input method (soft keyboard). Optionally provide a specific `android.view.View`.
 
 ---
 
@@ -660,6 +734,27 @@ Gets the string id from a given resource name.
 
 ---
 
+### getId()
+
+```ts
+const viewId: number = Utils.android.resources.getId(resourceName)
+```
+
+Gets an `id` resource by name.
+
+---
+
+### getResource()
+
+```ts
+const resId: number = Utils.android.resources.getResource(name, type?)
+```
+
+Gets a resource identifier by name with an optional type. This sets an explicit package name under the hood.
+See Android's [`Resources.getIdentifier`](https://developer.android.com/reference/android/content/res/Resources#getIdentifier(java.lang.String,%20java.lang.String,%20java.lang.String)).
+
+---
+
 ### getPaletteColor()
 
 ```ts
@@ -671,27 +766,17 @@ const paletteColor: number = Utils.android.resources.getPaletteColor(
 
 Gets a color from the current theme.
 
----
-
-### joinPaths()
-
-```ts
-const joinedPath: string = Utils.ios.joinPaths('photos', 'cat.png')
-```
-
-Joins the passed strings into a path.
-
----
-
 ### getWindow()
 
 ```ts
-const window: UIWindow = Utils.ios.getWindow()
+const window: android.view.Window = Utils.android.getWindow()
 ```
 
-Gets the UIWindow of the app.
+*Deprecated*. Use the generic `Utils.getWindow<android.view.Window>()` instead.
 
 ---
+
+## Utils.ios
 
 ### copyToClipboard()
 
@@ -761,6 +846,94 @@ Create a [UIDocumentInteractionControllerDelegate](https://developer.apple.com/d
 
 ---
 
+### getMainScreen()
+
+```ts
+const screen: UIScreen = Utils.ios.getMainScreen()
+```
+
+(`iOS only`) Returns the main UIScreen.
+
+---
+
+### isLandscape() (deprecated)
+
+```ts
+const landscape: boolean = Utils.ios.isLandscape()
+```
+
+(`iOS only`) Deprecated. Use `Application.orientation` instead.
+
+---
+
+### snapshotView()
+
+```ts
+const image: UIImage = Utils.ios.snapshotView(view: UIView, scale: number)
+```
+
+(`iOS only`) Takes a snapshot image of the provided `UIView` at the desired screen `scale`.
+
+---
+
+### applyRotateTransform()
+
+```ts
+const result: CATransform3D = Utils.ios.applyRotateTransform(
+  transform: CATransform3D,
+  x: number,
+  y: number,
+  z: number,
+)
+```
+
+(`iOS only`) Returns a transform rotated by the specified degrees around the X, Y and Z axes.
+
+---
+
+### printCGRect()
+
+```ts
+Utils.ios.printCGRect(rect: CGRect)
+```
+
+(`iOS only`) Debug utility to print `CGRect` values in logs (printing `CGRect` directly may appear blank otherwise).
+
+---
+
+### copyLayerProperties()
+
+```ts
+Utils.ios.copyLayerProperties(
+  view: UIView,
+  toView: UIView,
+  customProperties?: { view?: Array<keyof UIView>; layer?: Array<keyof CALayer> },
+)
+```
+
+(`iOS only`) Copies layer-related properties from one view to another. You can provide custom property lists for `view` and `layer`.
+
+---
+
+### animateWithSpring()
+
+```ts
+Utils.ios.animateWithSpring(options?: {
+  tension?: number
+  friction?: number
+  mass?: number
+  delay?: number
+  velocity?: number
+  animateOptions?: UIViewAnimationOptions
+  animations?: () => void
+  completion?: (finished?: boolean) => void
+})
+```
+
+(`iOS only`) Animates property changes with a configurable spring effect.
+
+---
+
 ### jsArrayToNSArray()
 
 ```ts
@@ -778,6 +951,18 @@ const nsArrayToJSArray: Array<T> = nsArrayToJSArray<T>(a: NSArray<T>)
 ```
 
 (`iOS only`)Converts NSArray of elements of a type `T` to an equivalent JavaScript array.
+
+---
+
+### getWindow()
+
+```ts
+const window: UIWindow = Utils.ios.getWindow()
+```
+
+Gets the UIWindow of the app.
+
+*Deprecated*. Use the generic `Utils.getWindow<UIWindow>()` instead.
 
 ---
 
