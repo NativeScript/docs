@@ -1,12 +1,17 @@
 ---
 title: TabView
-description: UI component for grouping content into tabs and let users switch between them.
+description: UI component for grouping content into tabs and letting users switch between them.
 contributors:
   - rigor789
   - Ombuweb
+  - NathanWalker
 ---
 
 `<TabView>` is a UI component that shows content grouped into tabs and lets users switch between them.
+
+As of NativeScript 9, on **iOS 26+**, TabView now supports:
+- an **optional bottom accessory view** (`iosBottomAccessory`) that sits just above the tab bar and participates in layout, and
+- a **configurable tab bar minimize behavior** (`iosTabBarMinimizeBehavior`) so you can control how/when the tab bar hides when scrolling.
 
 <DeviceFrame type="ios">
 <img src="../assets/images/screenshots/ios/TabView.png"/>
@@ -130,7 +135,7 @@ Sets the underline color of the tabs. **Android only.**
 
 ```css
 .tab-view {
-   android-selected-tab-highlight-color:: #3d5a80;
+   android-selected-tab-highlight-color: #3d5a80;
 }
 ```
 
@@ -159,6 +164,38 @@ Gets or sets the icon rendering mode on iOS. **iOS only.**
 Defaults to `automatic`.
 
 See [UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiimage/renderingmode).
+
+### iosBottomAccessory
+
+```ts
+iosBottomAccessory: View // iOS 26+ only
+```
+
+Assigns a bottom accessory view that is rendered *above* the iOS tab bar, inside the TabView's layout. This is useful for mini players, status bars, or context-sensitive actions that should stay attached to the tab bar. On platforms below iOS 26 this property is ignored.
+
+Notes:
+- Give it an explicit `height` or style it with CSS so the TabView can measure it.
+- It participates in layout pass fixes added in this release so it will resize alongside safe areas.
+- On Android this is ignored.
+
+### iosTabBarMinimizeBehavior
+
+```ts
+iosTabBarMinimizeBehavior:
+  | 'automatic'
+  | 'never'
+  | 'onScrollDown'
+  | 'onScrollUp'
+```
+
+Controls how the iOS tab bar minimizes/hides in response to scrolling. This mirrors the iOS 26 tab bar behavior on `UITabBarController`.
+
+- `automatic` – system chooses; good default.
+- `never` – keep the tab bar always visible.
+- `onScrollDown` – hide the tab bar when scrolling down.
+- `onScrollUp` – show the tab bar when scrolling up.
+
+Ignored on iOS < 26 and on Android.
 
 ### ...Inherited
 
@@ -210,6 +247,45 @@ on('selectedIndexChanged', (args: EventData) => {
 ```
 
 Emitted when the selected tab changes.
+
+## Platform specific notes
+
+### iOS 26+ bottom accessory
+
+On iOS 26+ you can attach any NativeScript view as a bottom accessory, such as a mini player, quick actions, or a context bar. On earlier iOS versions and on Android this is ignored safely.
+
+```xml
+<TabView
+  id="mainTabs"
+  selectedIndex="0"
+  iosTabBarMinimizeBehavior="automatic"
+  iosBottomAccessory="
+    <StackLayout
+      height='44'
+      backgroundColor='#1c1c1e'
+      orientation='horizontal'
+      horizontalAlignment='stretch'>
+      <Label text='Now playing…' color='white' verticalAlignment='center' marginLeft='12' />
+    </StackLayout>
+    ">
+  <TabViewItem title="Library">
+    <Label text="Your library" />
+  </TabViewItem>
+  <TabViewItem title="Search">
+    <Label text="Search" />
+  </TabViewItem>
+</TabView>
+```
+
+You can also set the accessory from code if you need to build it dynamically:
+
+```ts
+const tabView = page.getViewById('mainTabs') as TabView
+const accessory = new StackLayout()
+accessory.height = 44
+accessory.backgroundColor = '#1c1c1e'
+tabView.iosBottomAccessory = accessory
+```
 
 ## Native component
 
