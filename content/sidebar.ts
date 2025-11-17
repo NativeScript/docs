@@ -317,6 +317,10 @@ export default [
         ],
       },
       {
+        text: 'Hooks',
+        link: '/guide/hooks',
+      },
+      {
         text: 'Platform Version Handling',
         link: '/guide/platform-version-handling',
       },
