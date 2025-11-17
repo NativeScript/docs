@@ -152,6 +152,10 @@ export default [
         link: '/configuration/nativescript',
       },
       {
+        text: 'Vite Reference',
+        link: '/configuration/vite',
+      },
+      {
         text: 'Webpack Reference',
         link: '/configuration/webpack',
       },
@@ -311,6 +315,10 @@ export default [
             link: '/guide/android-marshalling',
           },
         ],
+      },
+      {
+        text: 'Hooks',
+        link: '/guide/hooks',
       },
       {
         text: 'Platform Version Handling',

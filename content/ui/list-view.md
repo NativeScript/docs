@@ -1,18 +1,19 @@
 ---
 title: ListView
-description: UI component for rendering large lists using view recycling.
+description: UI component for rendering large lists using view recycling, with optional sticky headers, sectioned data, and an integrated search bar.
 contributors:
   - rigor789
   - Ombuweb
+  - NathanWalker
 ---
 
-`<ListView>` is a UI component that renders items in a vertically scrolling list, the template for the items can be defined via `itemTemplate` (or multiple templates via `itemTemplates` - more on that below). The ListView only renders the visible items, as the user scrolls, new items render by reusing a no-longer-visible item's view&mdash;this is usually referred to as view-recycling.
+`<ListView>` is a UI component that renders items in a vertically scrolling list. The template for the items can be defined via `itemTemplate` (or multiple templates via `itemTemplates` — more on that below). The ListView only renders the visible items; as the user scrolls, new items render by reusing a no-longer-visible item's view — this is usually referred to as view-recycling.
+
+Newer versions of `ListView` (v9+) can also render **sectioned data** (for example, A–Z lists) with **sticky headers** and an **optional search bar** that can auto-hide on iOS.
 
 ::: tip
-
-For additional features and improved performance in certain scenarios, consider using an alternative implementation like the
+You can also explore 
 [CollectionView](https://github.com/nativescript-community/ui-collectionview) from the community.
-
 :::
 
 <DeviceFrame type="ios">
@@ -78,6 +79,72 @@ Individual items can be rendered using a different template. For example, let's 
 </Tab>
 </Tabs>
 
+### Sectioned ListView with sticky headers and search
+
+Starting with v9, ListView can render sectioned data with sticky headers and an optional search bar. This is useful for contact lists, country lists, or any data grouped by a key.
+
+A supported data shape looks like this:
+
+```ts
+const countries: { title: string; items: { name: string; code?: string; flag?: string }[] }[] = [
+  {
+    title: 'A',
+    items: [
+      { name: 'Albania', code: 'AL' },
+    ],
+  },
+  {
+    title: 'B',
+    items: [
+      { name: 'Bahamas', code: 'BS' },
+    ],
+  },
+]
+```
+
+You can then bind this data to the ListView and enable the new props:
+
+```xml
+<ListView
+  items="{{ countries }}"
+  sectioned="true"
+  stickyHeader="true"
+  stickyHeaderHeight="45"
+  stickyHeaderTopPadding="false"
+  showSearch="true"
+  searchAutoHide="true"
+  itemTemplateSelector="{{ itemTemplateSelector }}"
+  stickyHeaderTemplate="
+    <GridLayout>
+      <Label text='{{ title }}'
+             fontSize='18'
+             fontWeight='bold'
+             color='#009bff'
+             padding='8 0 8 12'
+             borderBottomWidth='1'
+             borderBottomColor='#ccc'
+             borderTopWidth='1'
+             borderTopColor='#ccc'
+             backgroundColor='#fff' />
+    </GridLayout>
+  " />
+```
+
+In code you can listen for search changes:
+
+```ts
+listView.on('searchChange', (args: SearchEventData) => {
+  console.log('search text:', args.text)
+  // apply filtering to your backing data if desired
+})
+```
+
+Notes:
+
+- `searchAutoHide` is currently iOS-only (it will auto-hide the search on scroll).
+- `stickyHeaderTemplate` accepts the same binding context as the section (`title`, etc.).
+- Make sure each section’s `items` array is present; empty / null sections may not render as expected.
+
 ## Props
 
 ### items
@@ -128,6 +195,71 @@ Gets or sets the available itemTemplates.
 
 See [KeyedTemplate](/api/interface/KeyedTemplate).
 
+### sectioned
+
+```ts
+sectioned: boolean
+```
+
+Enables sectioned data rendering on the `ListView`. When `true`, the ListView expects the `items` source to be an **array of sections** where each section has a `title` (or similar field) and an `items` array:
+
+```ts
+{
+  title: string;
+  items: any[];
+}
+```
+
+This allows the ListView to render grouped lists with headers.
+
+### stickyHeader
+
+```ts
+stickyHeader: boolean
+```
+
+Enables sticky (pinned) headers while scrolling sectioned data. When enabled, the current section header stays at the top of the list until the next section header pushes it away.
+
+### stickyHeaderTemplate
+
+```ts
+stickyHeaderTemplate: string | KeyedTemplate
+```
+
+Gets or sets the template used to render a section header when sticky headers are enabled. This accepts bindings from the current section (for example: `{{ title }}`).
+
+### stickyHeaderHeight
+
+```ts
+stickyHeaderHeight: number
+```
+
+Explicit height for the sticky header. Providing this can improve measurement and scrolling performance, especially on iOS where headers update as you scroll.
+
+### stickyHeaderTopPadding
+
+```ts
+stickyHeaderTopPadding: boolean | number
+```
+
+Controls the padding applied to the sticky header at the top. Set to `false` to disable the extra top padding; set to a number to supply an explicit padding value.
+
+### showSearch
+
+```ts
+showSearch: boolean
+```
+
+Shows a built-in search bar above the ListView. This is useful when you want a declarative, per-list search input without adding a separate `SearchBar` component.
+
+### searchAutoHide
+
+```ts
+searchAutoHide: boolean
+```
+
+(iOS only) When `true`, the built-in search bar will auto-hide when the user scrolls. This mirrors common iOS list behaviors.
+
 ### separatorColor
 
 ```ts
@@ -149,6 +281,8 @@ rowHeight: number
 ```
 
 Gets or sets the row height of the ListView. Useful when your items have a fixed height, as the required calculations are greatly simplified and the rendering can be faster.
+
+> Android: with the latest ListView improvements, row items will now react properly to spacing (padding and margin), so setting `rowHeight` alongside your layout spacing should behave more predictably across platforms.
 
 ### iosEstimatedRowHeight
 
@@ -234,6 +368,18 @@ on('loadMoreItems', (args: EventData) => {
 ```
 
 Emitted when the user reaches the end of the ListView. Useful for loading additional items (ie. infinite scroll).
+
+### searchChange
+
+```ts
+on('searchChange', (args: SearchEventData) => {
+  console.log('Search text changed:', args.text)
+})
+```
+
+Emitted when the built-in search bar text changes. You can use this to filter the underlying list data, or to drive remote searches.
+
+See `SearchEventData` in the API reference for the shape of the event.
 
 ## Native component
 
