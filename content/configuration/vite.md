@@ -12,7 +12,7 @@ All NativeScript apps can be bundled using [Vite](https://vite.dev/). To manage 
 Install the plugin.
 
 ```bash
-npm install @nativescript/vite
+npm install -d @nativescript/vite
 ```
 
 ## Quick start (`init`)
@@ -154,7 +154,7 @@ Additional env flags that are usually passed by the CLI automatically
 
 We define a few useful globally available variables that you can use to alter logic in your applications.
 
-- `__DEV__` - `true` when webpack is building in development mode
+- `__DEV__` - `true` when vite is building in development mode
   ```ts
   if (__DEV__) {
     // we are running a dev build
