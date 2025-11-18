@@ -84,7 +84,7 @@ The underlying controller can operate in *double* or *triple* column styles. Spl
 - `SplitView.SplitStyle.double`
 - `SplitView.SplitStyle.triple`
 
-iOS chooses the right `UISplitViewControllerStyle` for you. On iOS 17+ an inspector column can also be shown. citeturn2view0
+iOS chooses the right `UISplitViewControllerStyle` for you. On iOS 17+ an inspector column can also be shown.
 
 ## Props
 
@@ -101,7 +101,7 @@ displayMode:
   | 'twoDisplaceSecondary'
 ```
 
-Maps to [UISplitViewController.preferredDisplayMode]. Determines how the primary/supplementary columns relate to the secondary column (beside vs over vs displaced).
+Maps to [UISplitViewController.preferredDisplayMode](https://developer.apple.com/documentation/uikit/uisplitviewcontroller/preferreddisplaymode). Determines how the primary/supplementary columns relate to the secondary column (beside vs over vs displaced).
 
 ### splitBehavior (iOS 14+)
 
@@ -109,7 +109,7 @@ Maps to [UISplitViewController.preferredDisplayMode]. Determines how the primary
 splitBehavior: 'automatic' | 'tile' | 'overlay' | 'displace'
 ```
 
-Maps to [UISplitViewController.preferredSplitBehavior](https://developer.apple.com/documentation/uikit/uisplitviewcontroller/preferreddisplaymode). Controls how columns behave when the size class changes (for example overlaying instead of resizing). iOS 14 or newer is required.
+Maps to [UISplitViewController.preferredSplitBehavior](https://developer.apple.com/documentation/uikit/uisplitviewcontroller/preferredsplitbehavior). Controls how columns behave when the size class changes (for example overlaying instead of resizing). iOS 14 or newer is required.
 
 ### preferredPrimaryColumnWidthFraction
 
@@ -181,10 +181,11 @@ splitView.hideSecondary()
 
 Controls the visibility of the secondary column.
 
-### showSupplementary()
+### showSupplementary() / hideSupplementary()
 
 ```ts
 splitView.showSupplementary()
+splitView.hideSupplementary()
 ```
 
 Ensures the supplementary column is visible when the display mode allows it. Hiding is typically handled automatically by the display mode.
