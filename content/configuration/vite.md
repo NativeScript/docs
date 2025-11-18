@@ -239,3 +239,38 @@ export default () => {
   };
 };
 ```
+
+## Android Notes
+
+Be sure to have a proper security policy in place using something as follows:
+
+
+1. `App_Resources/Android/src/main/res/xml/network_security.xml`
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>
+```
+
+2. Then make sure to reference it in your `AndroidManifest.xml`:
+
+```xml
+<application
+    ...
+    android:networkSecurityConfig="@xml/network_security"
+    ... >
+    ...
+</application>
+```
