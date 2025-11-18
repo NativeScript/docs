@@ -17,7 +17,24 @@ npm install @nativescript/vite
 
 ## Quick start (`init`)
 
-To bootstrap an existing NativeScript app for Vite, run from your app root:
+To bootstrap an existing NativeScript app with Vite, you can first adjust your config.
+
+### 1. Adjust nativescript.config.ts to use Vite
+
+Make sure your `nativescript.config.ts` includes the following to use Vite as the bundler:
+
+```ts
+export default {
+  // ...
+  bundler: "vite",
+  bundlerConfigPath: "vite.config.ts",
+  // ...
+};
+```
+
+### 2. Init the config
+
+Now run from your app root:
 
 ```bash
 npx nativescript-vite init
@@ -273,4 +290,19 @@ Be sure to have a proper security policy in place using something as follows:
     ... >
     ...
 </application>
+```
+
+## Troubleshooting
+
+If you run into issues or have questions, please visit the [NativeScript Community Discord](https://nativescript.org/discord).
+
+If you see your app is not building with Vite, ensure that your `nativescript.config.ts` has the correct bundler set:
+
+```ts
+export default {
+  // ...
+  bundler: "vite",    
+  bundlerConfigPath: "vite.config.ts",
+  // ...
+};
 ```
