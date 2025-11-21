@@ -179,7 +179,7 @@ We define a few useful globally available variables that you can use to alter lo
   ```
 - `__ANDROID__`, `true` when the platform is Android
   ```ts
-  if (global.isAndroid) {
+  if (__ANDROID__) {
     // we are running on android
   }
   ```
@@ -187,6 +187,12 @@ We define a few useful globally available variables that you can use to alter lo
   ```ts
   if (__IOS__) {
     // we are running on iOS
+  }
+  ```
+- `__VISIONOS__`, `true` when the platform is visionOS
+  ```ts
+  if (__VISIONOS__) {
+    // we are running on visionOS
   }
   ```
 
