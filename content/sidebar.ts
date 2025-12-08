@@ -287,6 +287,10 @@ export default [
         link: '/guide/multithreading',
       },
       {
+        text: 'Multi-Window Development',
+        link: '/guide/multi-window',
+      },
+      {
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
