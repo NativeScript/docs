@@ -167,6 +167,8 @@ See [UIImage.RenderingMode](https://developer.apple.com/documentation/uikit/uiim
 
 ### iosBottomAccessory
 
+Adds a [bottom accessory view](https://developer.apple.com/documentation/uikit/uitabbarcontroller/bottomaccessory) above the tab bar on iOS 26+.
+
 ```ts
 iosBottomAccessory: View // iOS 26+ only
 ```

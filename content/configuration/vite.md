@@ -143,6 +143,79 @@ The above config configures most things required to bundle a NativeScript applic
 
 This page contains examples of common things you might want to change in the [Examples of configurations section](#configuration-examples) - for anything else not mentioned here, refer to the [Vite documentation](https://vite.dev/config/).
 
+## Advanced: HMR update hooks
+
+When using the HMR workflow (for example `npm run dev:ios` / `npm run dev:android` / `npm run dev:visionos`, etc.), you may want to run some custom logic after each HMR batch is applied on device.
+
+`@nativescript/vite` exposes a low-level hook for this:
+
+```ts
+import {
+  onHmrUpdate,
+  offHmrUpdate,
+} from '@nativescript/vite/hmr/shared/runtime/hooks';
+
+// Use a stable id so the handler is replaced across hmr updates
+const id = 'my-app:name-of-module-or-feature';
+
+onHmrUpdate(({ type, version, changedIds, raw }) => {
+  // type: "full-graph" | "delta"
+  // version: monotonically increasing batch id
+  // changedIds: module ids affected in this batch
+  // raw: original websocket message payload
+  console.log('[HMR]', { type, version, changedIds });
+}, id);
+
+// Optional: unregister when you no longer need it
+// offHmrUpdate(id);
+```
+
+Why you might use this:
+
+- Debug or observe HMR behavior (what changed, and when) without modifying the bundler.
+- Trigger specific app-level actions after an update is applied (for example, refresh caches, re-run a health check, emit telemetry in dev builds).
+
+Notes:
+
+- The `id` is required and prevents duplicate handlers across module reloads; re-registering with the same `id` replaces the previous handler.
+
+### Example: Persisting data across hmr updates
+
+If you need a stable runtime reference across HMR (for example, a singleton that other modules hold onto), a common pattern is to store the data or instance on [import.meta.hot.data](https://vite.dev/guide/api-hmr#hot-data). 
+
+You could also store it on `global` and update it on module re-evaluation by swapping its prototype. Let's explore this global approach with an example of a hypothetical `TabCustomizer` singleton that needs to reset some state on each HMR update.
+
+```ts
+import { onHmrUpdate } from '@nativescript/vite/hmr/shared/runtime/hooks';
+
+class TabCustomizer {
+  resetAccessory(payload?: any) {
+    console.log('payload.changedIds:', payload?.changedIds);
+    // ...your reset logic
+  }
+}
+
+// Keep a stable singleton for runtime references, but make it HMR-updatable by
+// swapping its prototype on module re-evaluation.
+const g = global as any;
+const existing = g.tabCustomizer as TabCustomizer | undefined;
+
+if (existing) {
+  Object.setPrototypeOf(existing as any, TabCustomizer.prototype);
+} else {
+  g.tabCustomizer = new TabCustomizer();
+}
+
+export const tabCustomizer = g.tabCustomizer as TabCustomizer;
+
+onHmrUpdate((payload) => {
+  // Prefer calling into the stable singleton so the handler remains valid.
+  tabCustomizer.resetAccessory(payload);
+}, 'tab-customize');
+```
+
+Tip: if you only care about specific updates, you can inspect `payload.changedIds` and return early when the batch doesn’t include the modules you care about.
+
 ## CLI Flags
 
 When running a NativeScript app the following flags have an effect on the final vite config
@@ -171,7 +244,7 @@ Additional env flags that are usually passed by the CLI automatically
 
 We define a few useful globally available variables that you can use to alter logic in your applications.
 
-- `__DEV__` - `true` when webpack is building in development mode
+- `__DEV__` - `true` when vite is building in development mode
   ```ts
   if (__DEV__) {
     // we are running a dev build
