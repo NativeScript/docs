@@ -1,6 +1,6 @@
 ---
 title: vite.config.ts
-description: NativeScript apps can be bundled with Vite, giving you flexibility to configure it any way you need it.
+description: NativeScript apps can be bundled with Vite, giving you flexibility to configure any way you need.
 contributors:
   - NathanWalker
 ---
