@@ -26,10 +26,10 @@ Make sure your `nativescript.config.ts` includes the following to use Vite as th
 ```ts
 export default {
   // ...
-  bundler: "vite",
-  bundlerConfigPath: "vite.config.ts",
+  bundler: 'vite',
+  bundlerConfigPath: 'vite.config.ts',
   // ...
-};
+}
 ```
 
 ### 2. Init the config
@@ -44,12 +44,12 @@ This will:
 
 - Generate a `vite.config.ts` using the detected project flavor (Angular, Vue, React, Solid, TypeScript, or JavaScript) and the corresponding helper from `@nativescript/vite`.
 - Add (or update) the following npm scripts in your app `package.json`:
-	- `dev:ios`
-	- `dev:android`
-	- `dev:server:ios`
-	- `dev:server:android`
-	- `ios`
-	- `android`
+  - `dev:ios`
+  - `dev:android`
+  - `dev:server:ios`
+  - `dev:server:android`
+  - `ios`
+  - `android`
 - Add the devDependencies `concurrently` and `wait-on`.
 - Add the dependency `@valor/nativescript-websockets`.
 - Append `.ns-vite-build` to `.gitignore` if it is not already present.
@@ -76,70 +76,70 @@ The plugin comes with several framework integrations.
 ### Vue
 
 ```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite';
-import { vueConfig } from '@nativescript/vite';
+import { defineConfig, mergeConfig, UserConfig } from 'vite'
+import { vueConfig } from '@nativescript/vite'
 
 export default defineConfig(({ mode }): UserConfig => {
-	return mergeConfig(vueConfig({ mode }), {});
-});
+  return mergeConfig(vueConfig({ mode }), {})
+})
 ```
 
 ### Angular
 
 ```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite';
-import { angularConfig } from '@nativescript/vite';
+import { defineConfig, mergeConfig, UserConfig } from 'vite'
+import { angularConfig } from '@nativescript/vite'
 
 export default defineConfig(({ mode }): UserConfig => {
-	return mergeConfig(angularConfig({ mode }), {});
-});
+  return mergeConfig(angularConfig({ mode }), {})
+})
 ```
 
 ### Solid
 
 ```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite';
-import { solidConfig } from '@nativescript/vite';
+import { defineConfig, mergeConfig, UserConfig } from 'vite'
+import { solidConfig } from '@nativescript/vite'
 
 export default defineConfig(({ mode }): UserConfig => {
-	return mergeConfig(solidConfig({ mode }), {});
-});
+  return mergeConfig(solidConfig({ mode }), {})
+})
 ```
 
 ### Svelte
 
 ```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite';
-import { solidConfig } from '@nativescript/vite';
+import { defineConfig, mergeConfig, UserConfig } from 'vite'
+import { solidConfig } from '@nativescript/vite'
 
 export default defineConfig(({ mode }): UserConfig => {
-	return mergeConfig(solidConfig({ mode }), {});
-});
+  return mergeConfig(solidConfig({ mode }), {})
+})
 ```
 
 ### React
 
 ```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite';
-import { reactConfig } from '@nativescript/vite';
+import { defineConfig, mergeConfig, UserConfig } from 'vite'
+import { reactConfig } from '@nativescript/vite'
 
 export default defineConfig(({ mode }): UserConfig => {
-	return mergeConfig(reactConfig({ mode }), {});
-});
+  return mergeConfig(reactConfig({ mode }), {})
+})
 ```
 
 ### TypeScript (XML view)
 
 ```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite';
-import { typescriptConfig } from '@nativescript/vite';
+import { defineConfig, mergeConfig, UserConfig } from 'vite'
+import { typescriptConfig } from '@nativescript/vite'
 
 export default defineConfig(({ mode }): UserConfig => {
-	return mergeConfig(typescriptConfig({ mode }), {});
-});
+  return mergeConfig(typescriptConfig({ mode }), {})
+})
 ```
 
-The above config configures most things required to bundle a NativeScript application. 
+The above config configures most things required to bundle a NativeScript application.
 
 This page contains examples of common things you might want to change in the [Examples of configurations section](#configuration-examples) - for anything else not mentioned here, refer to the [Vite documentation](https://vite.dev/config/).
 
@@ -153,18 +153,18 @@ When using the HMR workflow (for example `npm run dev:ios` / `npm run dev:androi
 import {
   onHmrUpdate,
   offHmrUpdate,
-} from '@nativescript/vite/hmr/shared/runtime/hooks';
+} from '@nativescript/vite/hmr/shared/runtime/hooks'
 
 // Use a stable id so the handler is replaced across hmr updates
-const id = 'my-app:name-of-module-or-feature';
+const id = 'my-app:name-of-module-or-feature'
 
 onHmrUpdate(({ type, version, changedIds, raw }) => {
   // type: "full-graph" | "delta"
   // version: monotonically increasing batch id
   // changedIds: module ids affected in this batch
   // raw: original websocket message payload
-  console.log('[HMR]', { type, version, changedIds });
-}, id);
+  console.log('[HMR]', { type, version, changedIds })
+}, id)
 
 // Optional: unregister when you no longer need it
 // offHmrUpdate(id);
@@ -181,37 +181,37 @@ Notes:
 
 ### Example: Persisting data across hmr updates
 
-If you need a stable runtime reference across HMR (for example, a singleton that other modules hold onto), a common pattern is to store the data or instance on [import.meta.hot.data](https://vite.dev/guide/api-hmr#hot-data). 
+If you need a stable runtime reference across HMR (for example, a singleton that other modules hold onto), a common pattern is to store the data or instance on [import.meta.hot.data](https://vite.dev/guide/api-hmr#hot-data).
 
 You could also store it on `global` and update it on module re-evaluation by swapping its prototype. Let's explore this global approach with an example of a hypothetical `TabCustomizer` singleton that needs to reset some state on each HMR update.
 
 ```ts
-import { onHmrUpdate } from '@nativescript/vite/hmr/shared/runtime/hooks';
+import { onHmrUpdate } from '@nativescript/vite/hmr/shared/runtime/hooks'
 
 class TabCustomizer {
   resetAccessory(payload?: any) {
-    console.log('payload.changedIds:', payload?.changedIds);
+    console.log('payload.changedIds:', payload?.changedIds)
     // ...your reset logic
   }
 }
 
 // Keep a stable singleton for runtime references, but make it HMR-updatable by
 // swapping its prototype on module re-evaluation.
-const g = global as any;
-const existing = g.tabCustomizer as TabCustomizer | undefined;
+const g = global as any
+const existing = g.tabCustomizer as TabCustomizer | undefined
 
 if (existing) {
-  Object.setPrototypeOf(existing as any, TabCustomizer.prototype);
+  Object.setPrototypeOf(existing as any, TabCustomizer.prototype)
 } else {
-  g.tabCustomizer = new TabCustomizer();
+  g.tabCustomizer = new TabCustomizer()
 }
 
-export const tabCustomizer = g.tabCustomizer as TabCustomizer;
+export const tabCustomizer = g.tabCustomizer as TabCustomizer
 
 onHmrUpdate((payload) => {
   // Prefer calling into the stable singleton so the handler remains valid.
-  tabCustomizer.resetAccessory(payload);
-}, 'tab-customize');
+  tabCustomizer.resetAccessory(payload)
+}, 'tab-customize')
 ```
 
 Tip: if you only care about specific updates, you can inspect `payload.changedIds` and return early when the batch doesn’t include the modules you care about.
@@ -285,24 +285,23 @@ Here are some common examples of things you may want to do in your `vite.config.
 ### Adding a copy rule
 
 ```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite';
-import { typescriptConfig } from '@nativescript/vite';
-import path from 'path';
-import { viteStaticCopy } from 'vite-plugin-static-copy';
+import { defineConfig, mergeConfig, UserConfig } from 'vite'
+import { typescriptConfig } from '@nativescript/vite'
+import path from 'path'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig(({ mode }): UserConfig => {
-	const base = typescriptConfig({ mode });
-	const projectRoot = path.resolve(__dirname);
-	const testImagePath = path.resolve(projectRoot, 'src/ui/image/700x50.png');
-	return mergeConfig(base, {
-		plugins: [
+  const base = typescriptConfig({ mode })
+  const projectRoot = path.resolve(__dirname)
+  const testImagePath = path.resolve(projectRoot, 'src/ui/image/700x50.png')
+  return mergeConfig(base, {
+    plugins: [
       viteStaticCopy({
-				targets: [{ src: testImagePath, dest: 'ui/image' }],
-			})
+        targets: [{ src: testImagePath, dest: 'ui/image' }],
+      }),
     ],
-	});
-});
-
+  })
+})
 ```
 
 ## Plugin API
@@ -312,19 +311,19 @@ NativeScript plugins can provide a `nativescript.vite.mjs` file in their root fo
 For example, a plugin could return custom processing:
 
 ```js
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
 
-let postcssConfig = "./postcss.config.js";
+let postcssConfig = './postcss.config.js'
 
 try {
-  const twV4 = require("@tailwindcss/postcss");
-  const nsTailwind = require("@nativescript/tailwind");
-  postcssConfig = { plugins: [twV4, nsTailwind] };
+  const twV4 = require('@tailwindcss/postcss')
+  const nsTailwind = require('@nativescript/tailwind')
+  postcssConfig = { plugins: [twV4, nsTailwind] }
 } catch (e2) {
   console.warn(
-    "Inline PostCSS unavailable, falling back to ./postcss.config.js"
-  );
+    'Inline PostCSS unavailable, falling back to ./postcss.config.js',
+  )
 }
 
 export default () => {
@@ -332,14 +331,13 @@ export default () => {
     css: {
       postcss: postcssConfig,
     },
-  };
-};
+  }
+}
 ```
 
 ## Android Notes
 
 Be sure to have a proper security policy in place using something as follows:
-
 
 1. `App_Resources/Android/src/main/res/xml/network_security.xml`
 
@@ -380,8 +378,8 @@ If you see your app is not building with Vite, ensure that your `nativescript.co
 ```ts
 export default {
   // ...
-  bundler: "vite",    
-  bundlerConfigPath: "vite.config.ts",
+  bundler: 'vite',
+  bundlerConfigPath: 'vite.config.ts',
   // ...
-};
+}
 ```
