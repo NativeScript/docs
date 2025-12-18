@@ -124,6 +124,11 @@ export default [
         icon: 'file',
       },
       {
+        text: 'vite.config.ts',
+        link: '/project-structure/vite-config',
+        icon: 'file',
+      },
+      {
         text: 'webpack.config.js',
         link: '/project-structure/webpack-config',
         icon: 'file',
