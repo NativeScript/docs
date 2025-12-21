@@ -17,6 +17,7 @@ import { ScrollViewComponent } from './ui/ScrollView/component'
 import { SearchBarComponent } from './ui/SearchBar/component'
 import { SegmentedBarComponent } from './ui/SegmentedBar/component'
 import { SliderComponent } from './ui/Slider/component'
+import { SplitViewComponent } from './ui/SplitView/component'
 import { SwitchComponent } from './ui/Switch/component'
 import { TabViewComponent } from './ui/TabView/component'
 import { TextFieldComponent } from './ui/TextField/component'
@@ -44,6 +45,9 @@ export const routes: Routes = [
   { path: 'ui/SearchBar', component: SearchBarComponent },
   { path: 'ui/SegmentedBar', component: SegmentedBarComponent },
   { path: 'ui/Slider', component: SliderComponent },
+  // must be root route to function properly
+  // here for docs template examples only
+  // { path: 'ui/SplitView', component: SplitViewComponent },
   { path: 'ui/Switch', component: SwitchComponent },
   { path: 'ui/TabView', component: TabViewComponent },
   { path: 'ui/TextField', component: TextFieldComponent },

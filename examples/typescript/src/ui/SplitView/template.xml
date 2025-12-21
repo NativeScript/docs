@@ -1,0 +1,8 @@
+<!-- #region example -->
+<SplitView displayMode="twoBesideSecondary" splitBehavior="tile" preferredPrimaryColumnWidthFraction="0.25" preferredSupplementaryColumnWidthFraction="0.33" preferredInspectorColumnWidthFraction="0.20">
+  <Frame splitRole="primary" defaultPage="pages/master" />
+  <Frame splitRole="secondary" defaultPage="pages/detail" />
+  <Frame splitRole="supplementary" defaultPage="pages/context" />
+  <Frame splitRole="inspector" defaultPage="pages/inspector" />
+</SplitView>
+<!-- #endregion example -->

@@ -20,24 +20,19 @@ It is intended to be used as the singular starting root view for the entire app.
 This component is ideal for iPadOS-style apps, admin-style layouts, or any experience where you need a master-detail flow plus an extra contextual pane or inspector.
 :::
 
-## Example
+<Tabs>
+<Tab flavor="typescript">
 
-### Declarative XML
+<<< @/../examples/typescript/src/ui/SplitView/template.xml#example
 
-```xml
-<SplitView
-  displayMode="twoBesideSecondary"
-  splitBehavior="tile"
-  preferredPrimaryColumnWidthFraction="0.25"
-  preferredSupplementaryColumnWidthFraction="0.33"
-  preferredInspectorColumnWidthFraction="0.20">
+</Tab>
+<Tab flavor="angular">
 
-  <Frame splitRole="primary" defaultPage="pages/master" />
-  <Frame splitRole="secondary" defaultPage="pages/detail" />
-  <Frame splitRole="supplementary" defaultPage="pages/context" />
-  <Frame splitRole="inspector" defaultPage="pages/inspector" />
-</SplitView>
-```
+<<< @/../examples/angular/src/ui/SplitView/component.html#example
+
+</Tab>
+</Tabs>
+
 This configures a 3–4 column layout (depending on OS support) and assigns each role to its own frame.
 
 ### Programmatic
