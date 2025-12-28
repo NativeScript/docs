@@ -1,3 +1,4 @@
+The connectivity module provides information about the device network connection.
 ---
 title: Connectivity
 description: Get the current device network connection type and monitor changes in the connection type.
