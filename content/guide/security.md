@@ -62,7 +62,7 @@ import { NativeScriptConfig } from '@nativescript/core'
 
 export default {
   id: 'com.example.myapp',
-  main: 'bundle.mjs',
+  appPath: 'src',
   // ... other config
   
   security: {
