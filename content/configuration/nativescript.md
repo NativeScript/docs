@@ -171,6 +171,60 @@ hooks: Array = []
 
 See [Hooks Configuration Reference](#hooks-configuration-reference)
 
+### security
+
+NativeScript supports dynamic `import()` from remote URLs. This is useful during development but carries security implications in production since NativeScript code has **direct access to native platform APIs** (file system, keychain, network, camera, etc.).
+
+| Mode | Remote Modules |
+|------|----------------|
+| **Debug** | ✅ Always allowed |
+| **Production** | ❌ Blocked by default |
+
+#### Enabling Remote Modules in Production
+
+If you need remote ES modules in production, explicitly opt-in:
+
+```typescript
+import { NativeScriptConfig } from '@nativescript/core'
+
+export default {
+  id: 'org.nativescript.myapp',
+  appPath: 'src',
+  
+  security: {
+    allowRemoteModules: true
+  }
+} as NativeScriptConfig
+```
+
+#### Using an Allowlist (Recommended)
+
+Restrict to specific trusted origins:
+
+```typescript
+export default {
+  // ...
+  security: {
+    allowRemoteModules: true,
+    remoteModuleAllowlist: [
+      'https://cdn.yourcompany.com/modules/',
+      'https://esm.sh/@yourorg/'
+    ]
+  }
+} as NativeScriptConfig
+```
+
+The allowlist uses **prefix matching** — a URL is allowed if it starts with any entry.
+
+#### Security Best Practices
+
+- **Keep production secure by default** - Don't enable unless necessary
+- **Use narrow allowlists** - Specific paths, not broad domains
+- **Pin versions in URLs** - Use immutable, versioned URLs
+- **Never use user-controlled URLs** - Injection vulnerability risk
+
+For comprehensive security guidance, see the [Security Guide](/guide/security).
+
 ## CLI Configuration Reference
 
 ### cli.packageManager
@@ -482,3 +536,94 @@ Available hooks (prefix with `before-` or `after-`):
 - `watchPatterns` - Set up watch patterns, runs during `watch` hook
 
 <!-- TODO: check if we are missing some hooks here, ie. before-gradleArgs? -->
+
+## Security Configuration Reference
+
+NativeScript provides security configuration options to control sensitive runtime behaviors, particularly around remote code execution via ES module imports.
+
+::: tip
+For comprehensive security guidance and best practices, see the [Security Guide](/guide/security).
+:::
+
+### security.allowRemoteModules
+
+```ts
+security.allowRemoteModules: boolean = false;
+```
+
+Enable remote ES module loading in production builds.
+
+| Mode | Remote Modules |
+|------|----------------|
+| **Debug** (local development) | ✅ Always allowed |
+| **Production** (Release builds) | ❌ Blocked by default |
+
+When `false` (the default), any attempt to `import("https://...")` in production will throw an error. This is a security measure because NativeScript code has **direct access to native platform APIs** (file system, keychain, network, camera, etc.).
+
+```ts
+export default {
+  // ...
+  security: {
+    allowRemoteModules: true
+  }
+} as NativeScriptConfig
+```
+
+::: warning Security Implications
+Remote modules bypass App Store/Play Store code review and can access any native API your app has access to. Only enable this if you have a specific, justified need and understand the implications.
+:::
+
+### security.remoteModuleAllowlist
+
+```ts
+security.remoteModuleAllowlist: string[] = [];
+```
+
+Restrict remote modules to specific URL prefixes. Only used when `allowRemoteModules` is `true`.
+
+The allowlist uses **prefix matching** — a URL is allowed if it starts with any entry in the list.
+
+```ts
+export default {
+  // ...
+  security: {
+    allowRemoteModules: true,
+    remoteModuleAllowlist: [
+      'https://cdn.yourcompany.com/modules/',
+      'https://esm.sh/@yourorg/'
+    ]
+  }
+} as NativeScriptConfig
+```
+
+#### Allowlist Examples
+
+| Allowlist Entry | Allowed URLs | Blocked URLs |
+|-----------------|--------------|--------------|
+| `https://cdn.example.com/` | `https://cdn.example.com/mod.js` | `https://other.com/mod.js` |
+| `https://esm.sh/@myorg/` | `https://esm.sh/@myorg/pkg` | `https://esm.sh/@other/pkg` |
+| `https://unpkg.com/` | `https://unpkg.com/lodash` | `http://unpkg.com/lodash` (http blocked) |
+
+If the allowlist is empty or not provided (and `allowRemoteModules` is `true`), all HTTPS URLs are allowed — this is **not recommended** for production.
+
+### Error Messages
+
+When remote module loading is blocked, you'll see clear error messages:
+
+```
+// Remote modules disabled
+Remote ES modules are not allowed in production. URL: https://example.com/mod.js. 
+Enable via security.allowRemoteModules in nativescript.config.ts
+
+// URL not in allowlist
+Remote URL not in security.remoteModuleAllowlist: https://untrusted.com/mod.js
+```
+
+### Best Practices
+
+1. **Keep production secure by default** — Don't enable `allowRemoteModules` unless necessary
+2. **Use narrow allowlists** — Specific paths, not broad domains
+3. **Pin versions in URLs** — Use immutable, versioned URLs over mutable endpoints
+4. **Never use user-controlled URLs** — Avoid injection vulnerabilities
+
+For more details on security implications and additional best practices, see the [Security Guide](/guide/security).
