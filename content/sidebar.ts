@@ -241,6 +241,15 @@ export default [
     ]
   },
   {
+    text: 'Agentic Coding',
+    items: [
+      {
+        text: 'Leverage AI assistants',
+        link: '/guide/agentic-coding',
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
