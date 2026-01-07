@@ -63,7 +63,7 @@ To set the default package manager that the CLI uses (unless overridden in [nati
 
 ```bash
 ns package-manager set npm
+ns package-manager set bun
 ns package-manager set yarn
-ns package-manager set yarn2 # experimental
 ns package-manager set pnpm
 ```
