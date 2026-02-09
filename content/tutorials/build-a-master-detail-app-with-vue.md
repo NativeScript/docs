@@ -25,11 +25,11 @@ This tutorial will teach you the following:
 
 ## Prerequisites
 
-To get the most out of this tutorial you should already have a basic understanding of the Vue framework. If you're completely new to Vue, you might want to check out their [official guide](https://vuejs.org/v2/guide/) first.
+To get the most out of this tutorial you should already have a basic understanding of the Vue framework. If you're completely new to Vue, you might want to check out their [official guide](https://vuejs.org/guide/introduction.html) first.
 
 ## Overview of the example application
 
-Components form the basic building blocks of an Vue application. Components represent the pages and views that the user interacts with. NativeScript Vue follows the same concept with the difference being primarily within the templates and their styling.
+Components form the basic building blocks of a Vue application. Components represent the pages and views that the user interacts with. NativeScript Vue follows the same concept with the difference being primarily within the templates and their styling.
 
 You'll build a master-details app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.
 
@@ -43,10 +43,10 @@ To set up your development environment, follow the instructions in the [Environm
 
 ## Create a new NativeScript Vue application
 
-To create a new NativeScript Vue application, run the CLI command `ns create` with the name of the application followed by `--vue` and `--ts`.
+To create a new NativeScript Vue application, run the CLI command `ns create` with the name of the application followed by `--vue`.
 
 ```bash
-ns create example-app --vue --ts
+ns create example-app --vue
 ```
 
 The NativeScript CLI creates a new directory with the root folder named `example-app` with an initial skeleton app project and installs the necessary packages and dependencies. This can take a few minutes and should be ready to run once it's done installing.
@@ -99,9 +99,9 @@ Let's start with creating the file for our home feature with the following conte
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 
-export default Vue.extend({})
+export default defineComponent({})
 </script>
 ```
 
@@ -112,18 +112,13 @@ We will be setting up the home component as our default route when the app start
 ```typescript{13}
 // app/app.ts
 
-import Vue from 'nativescript-vue'
+import { createApp, h } from 'nativescript-vue'
 import Home from './components/Home.vue'
 
-declare let __DEV__: boolean
-
-// Prints Vue logs when --env.production is *NOT* set while building
-Vue.config.silent = !__DEV__
-
-new Vue({
+createApp({
   // Add this (this might be added already by the template) 👇
-  render: h => h('frame', [h(Home)])
-}).$start()
+  render: () => h('frame', [h(Home)])
+}).start()
 ```
 
 ### Home UI
@@ -275,9 +270,9 @@ The home page can be divided into two main parts, the ActionBar with the title a
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 
-export default Vue.extend({})
+export default defineComponent({})
 </script>
 ```
 
@@ -293,12 +288,12 @@ Since we have an array of flicks to display we can use NativeScript's [`ListView
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   // Add this 👇
   data() {
     return {
@@ -318,21 +313,21 @@ Next, add the `ListView` component:
   <Page>
     <ActionBar title="NativeFlix" />
     <!-- Add this 👇 -->
-    <ListView height="100%" for="item in flicks">
-      <v-template>
+    <ListView height="100%" :items="flicks">
+      <template #default="{ item }">
         <Label :text="item.title" />
-      </v-template>
+      </template>
     </ListView>
   </Page>
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   data() {
     return {
       flicks: flickService.getFlicks()
@@ -342,7 +337,7 @@ export default Vue.extend({
 </script>
 ```
 
-`ListView` in Vue uses the `for` property as its data source. In the snippet above, we set the `for` property to `item in flicks`. This loops through the `flicks` array and renders the contents within the `v-template` for each entry. If you run the app now, you should see a list of flick titles.
+`ListView` in Vue 3 uses the `items` property as its data source and a scoped slot for item rendering. In the snippet above, we bind `:items="flicks"` and render each row via the `#default` slot. If you run the app now, you should see a list of flick titles.
 
 ### Create flick cards
 
@@ -395,8 +390,8 @@ As you can see in the image above, each card is made up of 3 components, the pre
   <Page>
     <ActionBar title="NativeFlix" />
     <!-- Update this 👇 -->
-    <ListView height="100%" separatorColor="transparent" for="item in flicks">
-      <v-template>
+    <ListView height="100%" separatorColor="transparent" :items="flicks">
+      <template #default="{ item }">
         <GridLayout
           height="280"
           borderRadius="10"
@@ -424,18 +419,18 @@ As you can see in the image above, each card is made up of 3 components, the pre
             :text="item.description"
           />
         </GridLayout>
-      </v-template>
+      </template>
     </ListView>
   </Page>
 </template>
 
 <script lang="ts">
-  import Vue from 'nativescript-vue'
+  import { defineComponent } from 'nativescript-vue'
   import FlickService from '../services/FlickService'
 
   const flickService = new FlickService()
 
-  export default Vue.extend({
+  export default defineComponent({
     data() {
       return {
         flicks: flickService.getFlicks()
@@ -463,9 +458,9 @@ Let's start with creating the file for our details feature with the following co
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 
-export default Vue.extend({})
+export default defineComponent({})
 </script>
 ```
 
@@ -479,8 +474,8 @@ We will be using the `$navigateTo` function from `nativescript-vue` to navigate 
 <template>
   <Page>
     <ActionBar title="NativeFlix" />
-    <ListView height="100%" separatorColor="transparent" for="item in flicks">
-      <v-template>
+    <ListView height="100%" separatorColor="transparent" :items="flicks" @itemTap="onFlickTap">
+      <template #default="{ item }">
         <GridLayout
           height="280"
           borderRadius="10"
@@ -508,19 +503,19 @@ We will be using the `$navigateTo` function from `nativescript-vue` to navigate 
             :text="item.description"
           />
         </GridLayout>
-      </v-template>
+      </template>
     </ListView>
   </Page>
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 import Details from './Details.vue'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   data() {
     return {
       flicks: flickService.getFlicks()
@@ -529,7 +524,7 @@ export default Vue.extend({
   methods: {
     // Add this 👇
     onFlickTap(args) {
-      const id = args.item.id
+      const id = args.item?.id ?? flickService.getFlicks()[args.index]?.id
       this.$navigateTo(Details, {
         props: { id }
       })
@@ -551,11 +546,11 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
       <ListView
         height="100%"
         separatorColor="transparent"
-        for="item in flicks"
+        :items="flicks"
         @itemTap="onFlickTap"
       >
         <!-- 👈  Add this -->
-        <v-template>
+        <template #default="{ item }">
           <GridLayout
             height="280"
             borderRadius="10"
@@ -583,20 +578,20 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
               :text="item.description"
             />
           </GridLayout>
-        </v-template>
+        </template>
       </ListView>
     </StackLayout>
   </Page>
 </template>
 
 <script lang="ts">
-  import Vue from 'nativescript-vue'
+  import { defineComponent } from 'nativescript-vue'
   import FlickService from '../services/FlickService'
   import Details from './Details.vue'
 
   const flickService = new FlickService()
 
-  export default Vue.extend({
+  export default defineComponent({
     data() {
       return {
         flicks: flickService.getFlicks()
@@ -604,7 +599,7 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
     },
     methods: {
       onFlickTap(args) {
-        const id = args.item.id
+        const id = args.item?.id ?? flickService.getFlicks()[args.index]?.id
         this.$navigateTo(Details, {
           props: { id }
         })
@@ -626,14 +621,14 @@ We passed in the `id` of the flick card the user tapped on in the previous secti
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 // Add this 👇
 import FlickService from '../services/FlickService'
 
 // Add this 👇
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   // Add this 👇
   props: ['id'],
   data() {
@@ -690,12 +685,12 @@ The details page can be divided into three main parts, the ActionBar with the fl
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   props: ['id'],
   data() {
     return {
