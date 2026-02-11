@@ -487,9 +487,11 @@ Next, modify the activity in `App_Resources/Android/src/main/AndroidManifest.xml
   android:configChanges="keyboardHidden|orientation|screenSize">
 ```
 
-To include the new Activity in the build, make sure it's added to the `webpack.config.js` with the following:
+To include the new Activity in the build, make sure it's configured with the bundler you're using (webpack or vite):
 
-```js
+::: code-group
+
+```js [webpack]
 const webpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
@@ -501,6 +503,31 @@ module.exports = (env) => {
   return webpack.resolveConfig()
 }
 ```
+
+```ts [vite]
+import { defineConfig } from 'vite';
+import { typescriptConfig, appComponentsPlugin } from '@nativescript/vite';
+
+export default defineConfig(({ mode }) => {
+  const config = typescriptConfig({ mode });
+  
+  // Register custom Android Activity and Application classes
+  config.plugins!.push(
+    appComponentsPlugin({
+      appComponents: [
+        // include any your app needs
+        './src/custom-activity.android.ts',
+        './src/custom-application.android.ts'
+      ],
+      platform: 'android'
+    })
+  );
+  
+  return config;
+});
+```
+
+:::
 
 ## Implementing Kotlin and Java interfaces
 
