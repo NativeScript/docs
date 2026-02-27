@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-
 
 # @nativescript/mlkit-barcode-scanning
 
-This plugin is used with [@nativescript/mlkit-core](../mlkit-core/). It enables barcode scanning and provides the [BarcodeResult](#barcoderesult) type for the barcode-scanned data.
+This plugin is used with [@nativescript/mlkit-core](../plugins/mlkit-core/). It enables barcode scanning and provides the [BarcodeResult](#barcoderesult) type for the barcode-scanned data.
 
 ## Contents
 

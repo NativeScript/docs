@@ -34,7 +34,7 @@ All dialogs take a `DialogOptions` object with the properties:
 
 See [DialogOptions](/api/interface/DialogOptions), [R.style](https://developer.android.com/reference/android/R.style).
 
-## Avialable Dialogs
+## Available Dialogs
 
 ### Alert {#alert}
 

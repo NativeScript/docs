@@ -267,6 +267,44 @@ Gets or sets the color of the status bar on Android devices. **Android only.**
 
 See [Color](/api/class/Color).
 
+### androidOverflowEdge
+
+```ts
+androidOverflowEdge:
+  | 'none'
+  | 'left'
+  | 'top'
+  | 'right'
+  | 'bottom'
+  | 'dont-apply'
+  | 'left-dont-consume'
+  | 'top-dont-consume'
+  | 'right-dont-consume'
+  | 'bottom-dont-consume'
+  | 'all-but-left'
+  | 'all-but-top'
+  | 'all-but-right'
+  | 'all-but-bottom'
+```
+
+Controls how Android system insets (status bar, navigation bar, cutouts) are applied and/or consumed by the Page. When insets are applied, they are added to the Page's padding. Insets propagate down the view hierarchy until consumed. Defaults to `'dont-apply'` for Pages. **Android only.**
+
+Options:
+
+| Value | Behavior |
+|---|---|
+| `none` | Apply and consume all inset edges |
+| `left` / `top` / `right` / `bottom` | Apply and consume only the specified edge |
+| `dont-apply` | Do not apply or consume any insets — triggers `androidOverflowInset` |
+| `left-dont-consume` | Apply the left inset but do not consume it; all other insets are ignored |
+| `top-dont-consume` | Apply the top inset but do not consume it; all other insets are ignored |
+| `right-dont-consume` | Apply the right inset but do not consume it; all other insets are ignored |
+| `bottom-dont-consume` | Apply the bottom inset but do not consume it; all other insets are ignored |
+| `all-but-left` | Apply and consume all insets except left |
+| `all-but-top` | Apply and consume all insets except top |
+| `all-but-right` | Apply and consume all insets except right |
+| `all-but-bottom` | Apply and consume all insets except bottom |
+
 ### enableSwipeBackNavigation
 
 ```ts
@@ -345,6 +383,72 @@ on('navigatedFrom', (args: NavigatedData) => {
 ```
 
 Emitted after the app has navigated away from the current page.
+
+### androidOverflowInset
+
+```ts
+on('androidOverflowInset', (args) => {
+  // args.inset: { top, bottom, left, right, topConsumed?, bottomConsumed?, leftConsumed?, rightConsumed? }
+})
+```
+
+Emitted when `androidOverflowEdge` is set to `'dont-apply'`, allowing manual handling of system insets. You can inspect and modify inset values and explicitly consume individual sides by setting the corresponding `*Consumed` flags. **Android only.**
+
+Example:
+
+```ts
+page.on('androidOverflowInset', (args) => {
+  // Modify inset values if needed
+  args.inset.top += 10
+  args.inset.bottom += 10
+  args.inset.left += 10
+  args.inset.right += 10
+
+  // Explicitly consume each side
+  args.inset.topConsumed = true
+  args.inset.bottomConsumed = true
+  args.inset.leftConsumed = true
+  args.inset.rightConsumed = true
+})
+```
+
+## Android: Edge-to-Edge tip
+
+::: tip Edge-to-Edge on Android
+You can opt into full edge-to-edge and precisely control how system insets are handled on a per-Page basis.
+
+- Set `androidOverflowEdge` to choose which inset edges to apply and/or consume. Pages default to `'dont-apply'`.
+- When using `'dont-apply'`, handle `androidOverflowInset` to adjust and explicitly consume sides.
+- Call `Utils.android.enableEdgeToEdge(...)` to enable edge-to-edge and configure light/dark system UI overlays.
+
+Example:
+
+```ts
+import { Utils } from '@nativescript/core'
+
+// Let the page handle insets manually
+page.androidOverflowEdge = 'dont-apply'
+
+// Enable edge-to-edge (Android) with light/dark colors
+import { Application, Color } from '@nativescript/core'
+const activity =
+  Application.android.foregroundActivity || Application.android.startActivity
+Utils.android.enableEdgeToEdge(activity, {
+  statusBarLightColor: new Color('#FFFFFF'),
+  statusBarDarkColor: new Color('#000000'),
+})
+
+// Optionally handle and consume insets yourself
+page.on('androidOverflowInset', (args) => {
+  args.inset.top += 8
+  args.inset.bottom += 8
+  args.inset.topConsumed = true
+  args.inset.bottomConsumed = true
+})
+```
+
+See also: [enableEdgeToEdge](/core/utils#enableedgetoedge).
+:::
 
 ## Native component
 

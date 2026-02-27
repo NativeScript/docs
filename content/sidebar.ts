@@ -49,7 +49,7 @@ export default [
       },
       {
         text: 'Publishing',
-        link: '/guide/publishing',
+        link: '/guide/publishing/',
       },
       {
         text: 'Plugins',
@@ -124,6 +124,11 @@ export default [
         icon: 'file',
       },
       {
+        text: 'vite.config.ts',
+        link: '/project-structure/vite-config',
+        icon: 'file',
+      },
+      {
         text: 'webpack.config.js',
         link: '/project-structure/webpack-config',
         icon: 'file',
@@ -150,6 +155,10 @@ export default [
       {
         text: 'Config Reference',
         link: '/configuration/nativescript',
+      },
+      {
+        text: 'Vite Reference',
+        link: '/configuration/vite',
       },
       {
         text: 'Webpack Reference',
@@ -210,6 +219,15 @@ export default [
     ],
   },
   {
+    text: 'Crash Reporting',
+    items: [
+      {
+        text: 'Using Sentry',
+        link: '/guide/crash-reporting-sentry',
+      },
+    ]
+  },
+  {
     text: 'Developing with Vision Pro',
     items: [
       {
@@ -220,6 +238,15 @@ export default [
         text: 'Previewing visionOS from StackBlitz',
         link: '/guide/visionos-preview',
       },
+    ]
+  },
+  {
+    text: 'Agentic Coding',
+    items: [
+      {
+        text: 'Leverage AI assistants',
+        link: '/guide/agentic-coding',
+      }
     ]
   },
   {
@@ -258,12 +285,24 @@ export default [
         ],
       },
       {
+        text: 'Create Custom Native Elements',
+        link: '/guide/create-custom-native-elements',
+      },
+      {
+        text: 'Customizing View Elements',
+        link: '/guide/customizing-view-elements',
+      },
+      {
         text: 'Shared Element Transitions',
         link: '/guide/shared-element-transitions',
       },
       {
         text: 'Multithreading',
         link: '/guide/multithreading',
+      },
+      {
+        text: 'Multi-Window Development',
+        link: '/guide/multi-window',
       },
       {
         text: 'Code Sharing',
@@ -294,6 +333,10 @@ export default [
             link: '/guide/android-marshalling',
           },
         ],
+      },
+      {
+        text: 'Hooks',
+        link: '/guide/hooks',
       },
       {
         text: 'Platform Version Handling',

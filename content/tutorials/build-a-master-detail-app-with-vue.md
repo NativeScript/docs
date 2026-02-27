@@ -25,11 +25,11 @@ This tutorial will teach you the following:
 
 ## Prerequisites
 
-To get the most out of this tutorial you should already have a basic understanding of the Vue framework. If you're completely new to Vue, you might want to check out their [official guide](https://vuejs.org/v2/guide/) first.
+To get the most out of this tutorial you should already have a basic understanding of the Vue framework. If you're completely new to Vue, you might want to check out their [official guide](https://vuejs.org/guide/introduction.html) first.
 
 ## Overview of the example application
 
-Components form the basic building blocks of an Vue application. Components represent the pages and views that the user interacts with. NativeScript Vue follows the same concept with the difference being primarily within the templates and their styling.
+Components form the basic building blocks of a Vue application. Components represent the pages and views that the user interacts with. NativeScript Vue follows the same concept with the difference being primarily within the templates and their styling.
 
 You'll build a master-details app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.
 
@@ -43,10 +43,10 @@ To set up your development environment, follow the instructions in the [Environm
 
 ## Create a new NativeScript Vue application
 
-To create a new NativeScript Vue application, run the CLI command `ns create` with the name of the application followed by `--vue` and `--ts`.
+To create a new NativeScript Vue application, run the CLI command `ns create` with the name of the application followed by `--vue`.
 
 ```bash
-ns create example-app --vue --ts
+ns create example-app --vue
 ```
 
 The NativeScript CLI creates a new directory with the root folder named `example-app` with an initial skeleton app project and installs the necessary packages and dependencies. This can take a few minutes and should be ready to run once it's done installing.
@@ -99,9 +99,9 @@ Let's start with creating the file for our home feature with the following conte
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 
-export default Vue.extend({})
+export default defineComponent({})
 </script>
 ```
 
@@ -112,18 +112,13 @@ We will be setting up the home component as our default route when the app start
 ```typescript{13}
 // app/app.ts
 
-import Vue from 'nativescript-vue'
+import { createApp, h } from 'nativescript-vue'
 import Home from './components/Home.vue'
 
-declare let __DEV__: boolean
-
-// Prints Vue logs when --env.production is *NOT* set while building
-Vue.config.silent = !__DEV__
-
-new Vue({
+createApp({
   // Add this (this might be added already by the template) 👇
-  render: h => h('frame', [h(Home)])
-}).$start()
+  render: () => h('frame', [h(Home)])
+}).start()
 ```
 
 ### Home UI
@@ -167,22 +162,27 @@ export default class FlickService {
       description: `A satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day Saints.`,
       details: [
         {
+          id: 1,
           title: 'Music, Lyrics and Book by',
           body: 'Trey Parker, Robert Lopez, and Matt Stone',
         },
         {
+          id: 2,
           title: 'First showing on Broadway',
           body: 'March 2011 after nearly seven years of development.',
         },
         {
+          id: 3,
           title: 'Revenue',
           body: 'Grossed over $500 million, making it one of the most successful musicals of all time.',
         },
         {
+          id: 4,
           title: 'History',
           body: 'The Book of Mormon was conceived by Trey Parker, Matt Stone and Robert Lopez. Parker and Stone grew up in Colorado, and were familiar with The Church of Jesus Christ of Latter-day Saints and its members. They became friends at the University of Colorado Boulder and collaborated on a musical film, Cannibal! The Musical (1993), their first experience with movie musicals. In 1997, they created the TV series South Park for Comedy Central and in 1999, the musical film South Park: Bigger, Longer & Uncut. The two had first thought of a fictionalized Joseph Smith, religious leader and founder of the Latter Day Saint movement, while working on an aborted Fox series about historical characters. Their 1997 film, Orgazmo, and a 2003 episode of South Park, "All About Mormons", both gave comic treatment to Mormonism. Smith was also included as one of South Park\'s "Super Best Friends", a Justice League parody team of religious figures like Jesus and Buddha.',
         },
         {
+          id: 5,
           title: 'Development',
           body: `During the summer of 2003, Parker and Stone flew to New York City to discuss the script of their new film, Team America: World Police, with friend and producer Scott Rudin (who also produced South Park: Bigger, Longer & Uncut). Rudin advised the duo to see the musical Avenue Q on Broadway, finding the cast of marionettes in Team America similar to the puppets of Avenue Q. Parker and Stone went to see the production during that summer and the writer-composers of Avenue Q, Lopez and Jeff Marx, noticed them in the audience and introduced themselves. Lopez revealed that South Park: Bigger, Longer & Uncut was highly influential in the creation of Avenue Q. The quartet went for drinks afterwards, and soon found that each camp wanted to write something involving Joseph Smith. The four began working out details nearly immediately, with the idea to create a modern story formulated early on. For research purposes, the quartet took a road trip to Salt Lake City where they "interviewed a bunch of missionaries—or ex-missionaries." They had to work around Parker and Stone\'s South Park schedule. In 2006, Parker and Stone flew to London where they spent three weeks with Lopez, who was working on the West End production of Avenue Q. There, the three wrote "four or five songs" and came up with the basic idea of the story. After an argument between Parker and Marx, who felt he was not getting enough creative control, Marx was separated from the project.[10] For the next few years, the remaining trio met frequently to develop what they initially called The Book of Mormon: The Musical of the Church of Jesus Christ of Latter-day Saints. "There was a lot of hopping back and forth between L.A. and New York," Parker recalled.`,
         },
@@ -197,22 +197,27 @@ export default class FlickService {
       description: `A deceased couple looks for help from a devious bio-exorcist to handle their haunted house.`,
       details: [
         {
+          id: 1,
           title: 'Music and Lyrics',
           body: 'Eddie Perfect',
         },
         {
+          id: 2,
           title: 'Book by',
           body: 'Scott Brown and Anthony King',
         },
         {
+          id: 3,
           title: 'Based on',
           body: 'A 1988 film of the same name.',
         },
         {
+          id: 4,
           title: 'First showing on Broadway',
           body: 'April 25, 2019',
         },
         {
+          id: 5,
           title: 'Background',
           body: `In 2016, a musical adaptation of the 1988 film Beetlejuice (directed by Tim Burton and starring Geena Davis as Barbara Maitland, Alec Baldwin as Adam Maitland, Winona Ryder as Lydia Deetz and Michael Keaton as Betelgeuse) was reported to be in the works, directed by Alex Timbers and produced by Warner Bros., following a reading with Christopher Fitzgerald in the title role. In March 2017, it was reported that Australian musical comedian Eddie Perfect would be writing the music and lyrics and Scott Brown and Anthony King would be writing the book of the musical, and that another reading would take place in May, featuring Kris Kukul as musical director. The musical has had three readings and two laboratory workshops with Alex Brightman in the title role, Sophia Anne Caruso as Lydia Deetz, Kerry Butler and Rob McClure as Barbara and Adam Maitland.`,
         },
@@ -226,16 +231,23 @@ export default class FlickService {
       url: 'https://nativescript.org/images/ngconf/anastasia.mov',
       description: `The legend of Grand Duchess Anastasia Nikolaevna of Russia.`,
       details: [
-        { title: 'Music and Lyrics', body: 'Lynn Ahrens and Stephen Flaherty' },
         {
+          id: 1,
+          title: 'Music and Lyrics',
+          body: 'Lynn Ahrens and Stephen Flaherty',
+        },
+        {
+          id: 2,
           title: 'Book by',
           body: 'Terrence McNally',
         },
         {
+          id: 3,
           title: 'Based on',
           body: 'A 1997 film of the same name.',
         },
         {
+          id: 4,
           title: 'Background',
           body: `A reading was held in 2012, featuring Kelli Barret as Anya (Anastasia), Aaron Tveit as Dmitry, Patrick Page as Vladimir, and Angela Lansbury as the Empress Maria. A workshop was held on June 12, 2015, in New York City, and included Elena Shaddow as Anya, Ramin Karimloo as Gleb Vaganov, a new role, and Douglas Sills as Vlad.
         The original stage production of Anastasia premiered at the Hartford Stage in Hartford, Connecticut on May 13, 2016 (previews). The show was directed by Darko Tresnjak and choreography by Peggy Hickey, with Christy Altomare and Derek Klena starring as Anya and Dmitry, respectively.
@@ -275,9 +287,9 @@ The home page can be divided into two main parts, the ActionBar with the title a
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 
-export default Vue.extend({})
+export default defineComponent({})
 </script>
 ```
 
@@ -293,12 +305,12 @@ Since we have an array of flicks to display we can use NativeScript's [`ListView
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   // Add this 👇
   data() {
     return {
@@ -318,21 +330,21 @@ Next, add the `ListView` component:
   <Page>
     <ActionBar title="NativeFlix" />
     <!-- Add this 👇 -->
-    <ListView height="100%" for="item in flicks">
-      <v-template>
+    <ListView height="100%" :items="flicks">
+      <template #default="{ item }">
         <Label :text="item.title" />
-      </v-template>
+      </template>
     </ListView>
   </Page>
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   data() {
     return {
       flicks: flickService.getFlicks()
@@ -342,7 +354,7 @@ export default Vue.extend({
 </script>
 ```
 
-`ListView` in Vue uses the `for` property as its data source. In the snippet above, we set the `for` property to `item in flicks`. This loops through the `flicks` array and renders the contents within the `v-template` for each entry. If you run the app now, you should see a list of flick titles.
+`ListView` in Vue 3 uses the `items` property as its data source and a scoped slot for item rendering. In the snippet above, we bind `:items="flicks"` and render each row via the `#default` slot. If you run the app now, you should see a list of flick titles.
 
 ### Create flick cards
 
@@ -395,8 +407,8 @@ As you can see in the image above, each card is made up of 3 components, the pre
   <Page>
     <ActionBar title="NativeFlix" />
     <!-- Update this 👇 -->
-    <ListView height="100%" separatorColor="transparent" for="item in flicks">
-      <v-template>
+    <ListView height="100%" separatorColor="transparent" :items="flicks">
+      <template #default="{ item }">
         <GridLayout
           height="280"
           borderRadius="10"
@@ -424,18 +436,18 @@ As you can see in the image above, each card is made up of 3 components, the pre
             :text="item.description"
           />
         </GridLayout>
-      </v-template>
+      </template>
     </ListView>
   </Page>
 </template>
 
 <script lang="ts">
-  import Vue from 'nativescript-vue'
+  import { defineComponent } from 'nativescript-vue'
   import FlickService from '../services/FlickService'
 
   const flickService = new FlickService()
 
-  export default Vue.extend({
+  export default defineComponent({
     data() {
       return {
         flicks: flickService.getFlicks()
@@ -463,9 +475,9 @@ Let's start with creating the file for our details feature with the following co
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 
-export default Vue.extend({})
+export default defineComponent({})
 </script>
 ```
 
@@ -479,8 +491,8 @@ We will be using the `$navigateTo` function from `nativescript-vue` to navigate 
 <template>
   <Page>
     <ActionBar title="NativeFlix" />
-    <ListView height="100%" separatorColor="transparent" for="item in flicks">
-      <v-template>
+    <ListView height="100%" separatorColor="transparent" :items="flicks" @itemTap="onFlickTap">
+      <template #default="{ item }">
         <GridLayout
           height="280"
           borderRadius="10"
@@ -508,19 +520,19 @@ We will be using the `$navigateTo` function from `nativescript-vue` to navigate 
             :text="item.description"
           />
         </GridLayout>
-      </v-template>
+      </template>
     </ListView>
   </Page>
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 import Details from './Details.vue'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   data() {
     return {
       flicks: flickService.getFlicks()
@@ -529,7 +541,7 @@ export default Vue.extend({
   methods: {
     // Add this 👇
     onFlickTap(args) {
-      const id = args.item.id
+      const id = args.item?.id ?? flickService.getFlicks()[args.index]?.id
       this.$navigateTo(Details, {
         props: { id }
       })
@@ -551,11 +563,11 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
       <ListView
         height="100%"
         separatorColor="transparent"
-        for="item in flicks"
+        :items="flicks"
         @itemTap="onFlickTap"
       >
         <!-- 👈  Add this -->
-        <v-template>
+        <template #default="{ item }">
           <GridLayout
             height="280"
             borderRadius="10"
@@ -583,20 +595,20 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
               :text="item.description"
             />
           </GridLayout>
-        </v-template>
+        </template>
       </ListView>
     </StackLayout>
   </Page>
 </template>
 
 <script lang="ts">
-  import Vue from 'nativescript-vue'
+  import { defineComponent } from 'nativescript-vue'
   import FlickService from '../services/FlickService'
   import Details from './Details.vue'
 
   const flickService = new FlickService()
 
-  export default Vue.extend({
+  export default defineComponent({
     data() {
       return {
         flicks: flickService.getFlicks()
@@ -604,7 +616,7 @@ Next, let's add the tap event to the ListView items. Open `Home.vue` and add the
     },
     methods: {
       onFlickTap(args) {
-        const id = args.item.id
+        const id = args.item?.id ?? flickService.getFlicks()[args.index]?.id
         this.$navigateTo(Details, {
           props: { id }
         })
@@ -626,14 +638,14 @@ We passed in the `id` of the flick card the user tapped on in the previous secti
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 // Add this 👇
 import FlickService from '../services/FlickService'
 
 // Add this 👇
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   // Add this 👇
   props: ['id'],
   data() {
@@ -690,12 +702,12 @@ The details page can be divided into three main parts, the ActionBar with the fl
 </template>
 
 <script lang="ts">
-import Vue from 'nativescript-vue'
+import { defineComponent } from 'nativescript-vue'
 import FlickService from '../services/FlickService'
 
 const flickService = new FlickService()
 
-export default Vue.extend({
+export default defineComponent({
   props: ['id'],
   data() {
     return {

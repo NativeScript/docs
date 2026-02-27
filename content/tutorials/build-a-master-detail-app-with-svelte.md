@@ -303,7 +303,7 @@ Next, add the `ListView` component:
 
 <script>
   // Add this 👇
-  import { Template } from 'svelte-native/components'
+  import { Template } from '@nativescript-community/svelte-native/components'
   import { FlickService } from '../services/FlickService'
 
   let flicks = FlickService.getInstance().getFlicks()
@@ -394,7 +394,7 @@ As you can see in the image above, each card is made up of 3 components, the pre
 </page>
 
 <script>
-  import { Template } from 'svelte-native/components'
+  import { Template } from '@nativescript-community/svelte-native/components'
   import { FlickService } from '../services/FlickService'
 
   let flicks = FlickService.getInstance().getFlicks()
@@ -421,7 +421,7 @@ Let's start with creating the file for our details page with the following conte
 
 ### Setup navigation from home to details component
 
-We will be using the `navigate` function from `svelte-native` class to navigate from our home component to the details component. In addition to the page name, we will also pass in the flick's `id` as part of the `props` object of the `navigate` function. We will use this `id` in our details component to access more information about the flick. Open `Home.svelte` and add the following:
+We will be using the `navigate` function from `@nativescript-community/svelte-native` to navigate from our home component to the details component. In addition to the page name, we will also pass in the flick's `id` as part of the `props` object of the `navigate` function. We will use this `id` in our details component to access more information about the flick. Open `Home.svelte` and add the following:
 
 ```xml{42,46,51-56}
 <!-- app/pages/Home.svelte -->
@@ -465,8 +465,8 @@ We will be using the `navigate` function from `svelte-native` class to navigate 
 
 <script>
   // Add this 👇
-  import { navigate } from 'svelte-native'
-  import { Template } from 'svelte-native/components'
+  import { navigate } from '@nativescript-community/svelte-native'
+  import { Template } from '@nativescript-community/svelte-native/components'
   import { FlickService } from '../services/FlickService'
   // Add this 👇
   import Details from './Details.svelte'
@@ -532,8 +532,8 @@ Next, let's add the tap event to the ListView items. Open `Home.svelte` and add 
 </page>
 
 <script>
-  import { navigate } from 'svelte-native'
-  import { Template } from 'svelte-native/components'
+  import { navigate } from '@nativescript-community/svelte-native'
+  import { Template } from '@nativescript-community/svelte-native/components'
   import { FlickService } from '../services/FlickService'
   import Details from './Details.svelte'
 

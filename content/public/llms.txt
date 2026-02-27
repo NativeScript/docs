@@ -1,0 +1,608 @@
+# NativeScript Documentation
+
+> NativeScript provides platform APIs directly to the JavaScript runtime ( _with strong types_) for a rich TypeScript development experience.
+
+## @nativescript/core Fundamentals
+
+- [Application](https://docs.nativescript.org/core/application)
+- [ApplicationSettings](https://docs.nativescript.org/core/application-settings)
+- [Color](https://docs.nativescript.org/core/color)
+- [Connectivity](https://docs.nativescript.org/core/connectivity)
+- [Device](https://docs.nativescript.org/core/device)
+- [FileSystem](https://docs.nativescript.org/core/file-system)
+- [FPS Meter](https://docs.nativescript.org/core/fps-meter)
+- [Http](https://docs.nativescript.org/core/http)
+- [ImageCache](https://docs.nativescript.org/core/image-cache)
+- [Observable](https://docs.nativescript.org/core/observable)
+- [Screen](https://docs.nativescript.org/core/screen)
+- [Trace](https://docs.nativescript.org/core/tracing)
+- [Utils](https://docs.nativescript.org/core/utils)
+- [XmlParser](https://docs.nativescript.org/core/xml-parser)
+
+## @nativescript/core UI Components
+
+### Layout Containers [​](https://docs.nativescript.org/ui/\#layout-containers)
+
+- [StackLayout](https://docs.nativescript.org/ui/stack-layout)
+- [GridLayout](https://docs.nativescript.org/ui/grid-layout)
+- [RootLayout](https://docs.nativescript.org/ui/root-layout)
+- [FlexboxLayout](https://docs.nativescript.org/ui/flexbox-layout)
+- [WrapLayout](https://docs.nativescript.org/ui/wrap-layout)
+- [DockLayout](https://docs.nativescript.org/ui/dock-layout)
+- [AbsoluteLayout](https://docs.nativescript.org/ui/absolute-layout)
+
+### Navigation Components [​](https://docs.nativescript.org/ui/\#navigation-components)
+
+- [Frame](https://docs.nativescript.org/ui/frame)
+- [Page](https://docs.nativescript.org/ui/page)
+- [ActionBar](https://docs.nativescript.org/ui/action-bar)
+- [ActionItem](https://docs.nativescript.org/ui/action-bar#action-item)
+- [NavigationButton](https://docs.nativescript.org/ui/action-bar#navigation-button)
+
+### Dialogs [​](https://docs.nativescript.org/ui/\#dialogs)
+
+- [Alert](https://docs.nativescript.org/ui/dialogs#alert)
+- [Action](https://docs.nativescript.org/ui/dialogs#action)
+- [Confirm](https://docs.nativescript.org/ui/dialogs#confirm)
+- [Prompt](https://docs.nativescript.org/ui/dialogs#prompt)
+- [Login](https://docs.nativescript.org/ui/dialogs#login)
+
+### Components [​](https://docs.nativescript.org/ui/\#components)
+
+- [ActivityIndicator](https://docs.nativescript.org/ui/activity-indicator)
+- [Button](https://docs.nativescript.org/ui/button)
+- [DatePicker](https://docs.nativescript.org/ui/date-picker)
+- [HtmlView](https://docs.nativescript.org/ui/html-view)
+- [Image](https://docs.nativescript.org/ui/image)
+- [Label](https://docs.nativescript.org/ui/label)
+- [ListPicker](https://docs.nativescript.org/ui/list-picker)
+- [ListView](https://docs.nativescript.org/ui/list-view)
+- [Placeholder](https://docs.nativescript.org/ui/placeholder)
+- [Progress](https://docs.nativescript.org/ui/progress)
+- [ScrollView](https://docs.nativescript.org/ui/scroll-view)
+- [SearchBar](https://docs.nativescript.org/ui/search-bar)
+- [SegmentedBar](https://docs.nativescript.org/ui/segmented-bar)
+- [Slider](https://docs.nativescript.org/ui/slider)
+- [Switch](https://docs.nativescript.org/ui/switch)
+- [TabView](https://docs.nativescript.org/ui/tab-view)
+- [TextField](https://docs.nativescript.org/ui/text-field)
+- [TextView](https://docs.nativescript.org/ui/text-view)
+- [TimePicker](https://docs.nativescript.org/ui/time-picker)
+- [WebView](https://docs.nativescript.org/ui/web-view)
+
+## Custom Components
+
+- [Creating Custom Native Elements](https://docs.nativescript.org/guide/create-custom-native-elements)
+- [Customizing View Elements](https://docs.nativescript.org/guide/customizing-view-elements)
+
+## Building Plugins
+
+- [Plugin Overview](https://docs.nativescript.org/plugins/)
+- [Developing Plugins](https://docs.nativescript.org/plugins/plugin-workspace-guide)
+- [How to create a NativeScript plugin that uses native iOS & Android views Part 1](https://blog.nativescript.org/create-a-custom-view-plugin-marquee-label/)
+- [How to create a NativeScript plugin that uses native iOS & Android views Part 2](https://blog.nativescript.org/create-a-custom-view-plugin-shimmer/)
+- [Should this be a plugin, or part of core? Part 3 Holy Interactivity Batman!](https://blog.nativescript.org/create-a-custom-view-plugin-touch-effects/)
+
+## Crash Reporting
+
+- [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
+
+## Adding Native Code
+
+- [Adding custom native code to a project](https://docs.nativescript.org/guide/adding-native-code)
+- [Adding Java/Kotlin Code to an application](https://docs.nativescript.org/guide/native-code/android)
+- [Adding ObjectiveC/Swift Code to an application](https://docs.nativescript.org/guide/native-code/ios)
+- [Generating TypeScript types](https://docs.nativescript.org/guide/native-code/generate-typings)
+
+## Extending Native Code
+
+- [Android Subclassing and Implementing interfaces](https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
+- [iOS Subclassing and conforming to protocols](https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
+- [iOS Marshalling](https://docs.nativescript.org/guide/ios-marshalling)
+- [Android Marshalling](https://docs.nativescript.org/guide/android-marshalling)
+
+## Multithreading
+
+- [Multithreading and Workers](https://docs.nativescript.org/guide/multithreading)
+
+## Widgets for iOS
+
+- [Widgets for iOS](https://docs.nativescript.org/guide/widgets-ios)
+
+## @nativescript/core API
+
+- [ActionItems | API - NativeScript](https://docs.nativescript.org/api/class/ActionItems): NativeScript docs
+- [AccessibilityState | API - NativeScript](https://docs.nativescript.org/api/enum/AccessibilityState): NativeScript docs
+- [AddArrayFromBuilder | API - NativeScript](https://docs.nativescript.org/api/interface/AddArrayFromBuilder): NativeScript docs
+- [ApplicationSettings | API - NativeScript](https://docs.nativescript.org/api/namespace/ApplicationSettings): NativeScript docs
+- [AbsoluteLayout | API - NativeScript](https://docs.nativescript.org/api/class/AbsoluteLayout): NativeScript docs
+- [ActivityIndicator | API - NativeScript](https://docs.nativescript.org/api/class/ActivityIndicator): NativeScript docs
+- [AndroidApplication | API - NativeScript](https://docs.nativescript.org/api/class/AndroidApplication): NativeScript docs
+- [ActionItem | API - NativeScript](https://docs.nativescript.org/api/class/ActionItem): NativeScript docs
+- [Background | API - NativeScript](https://docs.nativescript.org/api/class/Background): NativeScript docs
+- [ActionBar | API - NativeScript](https://docs.nativescript.org/api/class/ActionBar): NativeScript docs
+- [Builder | API - NativeScript](https://docs.nativescript.org/api/class/Builder): NativeScript docs
+- [ApplicationCommon | API - NativeScript](https://docs.nativescript.org/api/class/ApplicationCommon): NativeScript docs
+- [CoercibleProperty | API - NativeScript](https://docs.nativescript.org/api/class/CoercibleProperty): NativeScript docs
+- [Button | API - NativeScript](https://docs.nativescript.org/api/class/Button): NativeScript docs
+- [ContentView | API - NativeScript](https://docs.nativescript.org/api/class/ContentView): NativeScript docs
+- [Binding | API - NativeScript](https://docs.nativescript.org/api/class/Binding): NativeScript docs
+- [ContainerView | API - NativeScript](https://docs.nativescript.org/api/class/ContainerView): NativeScript docs
+- [ControlStateChangeListener | API - NativeScript](https://docs.nativescript.org/api/class/ControlStateChangeListener): NativeScript docs
+- [CssAnimationParser | API - NativeScript](https://docs.nativescript.org/api/class/CssAnimationParser): NativeScript docs
+- [CssAnimationProperty | API - NativeScript](https://docs.nativescript.org/api/class/CssAnimationProperty): NativeScript docs
+- [CustomLayoutView | API - NativeScript](https://docs.nativescript.org/api/class/CustomLayoutView): NativeScript docs
+- [File | API - NativeScript](https://docs.nativescript.org/api/class/File): NativeScript docs
+- [CssProperty | API - NativeScript](https://docs.nativescript.org/api/class/CssProperty): NativeScript docs
+- [DockLayout | API - NativeScript](https://docs.nativescript.org/api/class/DockLayout): NativeScript docs
+- [FadeTransition | API - NativeScript](https://docs.nativescript.org/api/class/FadeTransition): NativeScript docs
+- [DatePicker | API - NativeScript](https://docs.nativescript.org/api/class/DatePicker): NativeScript docs
+- [Animation | API - NativeScript](https://docs.nativescript.org/api/class/Animation): NativeScript docs
+- [FileSystemEntity | API - NativeScript](https://docs.nativescript.org/api/class/FileSystemEntity): NativeScript docs
+- [ChangeType | API - NativeScript](https://docs.nativescript.org/api/class/ChangeType): NativeScript docs
+- [GesturesObserver | API - NativeScript](https://docs.nativescript.org/api/class/GesturesObserver): NativeScript docs
+- [Font | API - NativeScript](https://docs.nativescript.org/api/class/Font): NativeScript docs
+- [Folder | API - NativeScript](https://docs.nativescript.org/api/class/Folder): NativeScript docs
+- [FlexboxLayout | API - NativeScript](https://docs.nativescript.org/api/class/FlexboxLayout): NativeScript docs
+- [FormattedString | API - NativeScript](https://docs.nativescript.org/api/class/FormattedString): NativeScript docs
+- [IOSHelper.UIAdaptivePresentationControllerDelegateImp | API - NativeScript](https://docs.nativescript.org/api/class/IOSHelper-UIAdaptivePresentationControllerDelegateImp): NativeScript docs
+- [EditableTextBase | API - NativeScript](https://docs.nativescript.org/api/class/EditableTextBase): NativeScript docs
+- [InheritedCssProperty | API - NativeScript](https://docs.nativescript.org/api/class/InheritedCssProperty): NativeScript docs
+- [Color | API - NativeScript](https://docs.nativescript.org/api/class/Color): NativeScript docs
+- [IOSHelper.UIPopoverPresentationControllerDelegateImp | API - NativeScript](https://docs.nativescript.org/api/class/IOSHelper-UIPopoverPresentationControllerDelegateImp): NativeScript docs
+- [ImageAsset | API - NativeScript](https://docs.nativescript.org/api/class/ImageAsset): NativeScript docs
+- [ImageCache | API - NativeScript](https://docs.nativescript.org/api/class/ImageCache): NativeScript docs
+- [IOSHelper.UILayoutViewController | API - NativeScript](https://docs.nativescript.org/api/class/IOSHelper-UILayoutViewController): NativeScript docs
+- [ImageSource | API - NativeScript](https://docs.nativescript.org/api/class/ImageSource): NativeScript docs
+- [GridLayout | API - NativeScript](https://docs.nativescript.org/api/class/GridLayout): NativeScript docs
+- [HtmlView | API - NativeScript](https://docs.nativescript.org/api/class/HtmlView): NativeScript docs
+- [Frame | API - NativeScript](https://docs.nativescript.org/api/class/Frame): NativeScript docs
+- [Image | API - NativeScript](https://docs.nativescript.org/api/class/Image): NativeScript docs
+- [Label | API - NativeScript](https://docs.nativescript.org/api/class/Label): NativeScript docs
+- [KeyframeAnimationInfo | API - NativeScript](https://docs.nativescript.org/api/class/KeyframeAnimationInfo): NativeScript docs
+- [ListView | API - NativeScript](https://docs.nativescript.org/api/class/ListView): NativeScript docs
+- [NavigationButton | API - NativeScript](https://docs.nativescript.org/api/class/NavigationButton): NativeScript docs
+- [ObservableArray | API - NativeScript](https://docs.nativescript.org/api/class/ObservableArray): NativeScript docs
+- [ModuleNameResolver | API - NativeScript](https://docs.nativescript.org/api/class/ModuleNameResolver): NativeScript docs
+- [ModalTransition | API - NativeScript](https://docs.nativescript.org/api/class/ModalTransition): NativeScript docs
+- [ParserEventType | API - NativeScript](https://docs.nativescript.org/api/class/ParserEventType): NativeScript docs
+- [ListPicker | API - NativeScript](https://docs.nativescript.org/api/class/ListPicker): NativeScript docs
+- [PageTransition | API - NativeScript](https://docs.nativescript.org/api/class/PageTransition): NativeScript docs
+- [Property | API - NativeScript](https://docs.nativescript.org/api/class/Property): NativeScript docs
+- [PageBase | API - NativeScript](https://docs.nativescript.org/api/class/PageBase): NativeScript docs
+- [LayoutBase | API - NativeScript](https://docs.nativescript.org/api/class/LayoutBase): NativeScript docs
+- [Screen | API - NativeScript](https://docs.nativescript.org/api/class/Screen): NativeScript docs
+- [Observable | API - NativeScript](https://docs.nativescript.org/api/class/Observable): NativeScript docs
+- [Repeater | API - NativeScript](https://docs.nativescript.org/api/class/Repeater): NativeScript docs
+- [ProxyViewContainer | API - NativeScript](https://docs.nativescript.org/api/class/ProxyViewContainer): NativeScript docs
+- [SearchBar | API - NativeScript](https://docs.nativescript.org/api/class/SearchBar): NativeScript docs
+- [SegmentedBarItem | API - NativeScript](https://docs.nativescript.org/api/class/SegmentedBarItem): NativeScript docs
+- [ScrollView | API - NativeScript](https://docs.nativescript.org/api/class/ScrollView): NativeScript docs
+- [SharedTransition | API - NativeScript](https://docs.nativescript.org/api/class/SharedTransition): NativeScript docs
+- [Progress | API - NativeScript](https://docs.nativescript.org/api/class/Progress): NativeScript docs
+- [RootLayout | API - NativeScript](https://docs.nativescript.org/api/class/RootLayout): NativeScript docs
+- [ShorthandProperty | API - NativeScript](https://docs.nativescript.org/api/class/ShorthandProperty): NativeScript docs
+- [SlideTransition | API - NativeScript](https://docs.nativescript.org/api/class/SlideTransition): NativeScript docs
+- [SharedTransitionHelper | API - NativeScript](https://docs.nativescript.org/api/class/SharedTransitionHelper): NativeScript docs
+- [Span | API - NativeScript](https://docs.nativescript.org/api/class/Span): NativeScript docs
+- [SegmentedBar | API - NativeScript](https://docs.nativescript.org/api/class/SegmentedBar): NativeScript docs
+- [Page | API - NativeScript](https://docs.nativescript.org/api/class/Page): NativeScript docs
+- [Placeholder | API - NativeScript](https://docs.nativescript.org/api/class/Placeholder): NativeScript docs
+- [StackLayout | API - NativeScript](https://docs.nativescript.org/api/class/StackLayout): NativeScript docs
+- [Style | API - NativeScript](https://docs.nativescript.org/api/class/Style): NativeScript docs
+- [TabView | API - NativeScript](https://docs.nativescript.org/api/class/TabView): NativeScript docs
+- [Slider | API - NativeScript](https://docs.nativescript.org/api/class/Slider): NativeScript docs
+- [TouchManager | API - NativeScript](https://docs.nativescript.org/api/class/TouchManager): NativeScript docs
+- [Trace.ConsoleWriter | API - NativeScript](https://docs.nativescript.org/api/class/Trace-ConsoleWriter): NativeScript docs
+- [TabViewItem | API - NativeScript](https://docs.nativescript.org/api/class/TabViewItem): NativeScript docs
+- [TextBase | API - NativeScript](https://docs.nativescript.org/api/class/TextBase): NativeScript docs
+- [Utils.ClassInfo | API - NativeScript](https://docs.nativescript.org/api/class/Utils-ClassInfo): NativeScript docs
+- [Trace.DefaultErrorHandler | API - NativeScript](https://docs.nativescript.org/api/class/Trace-DefaultErrorHandler): NativeScript docs
+- [Switch | API - NativeScript](https://docs.nativescript.org/api/class/Switch): NativeScript docs
+- [Utils.Source | API - NativeScript](https://docs.nativescript.org/api/class/Utils-Source): NativeScript docs
+- [Transition | API - NativeScript](https://docs.nativescript.org/api/class/Transition): NativeScript docs
+- [TimePicker | API - NativeScript](https://docs.nativescript.org/api/class/TimePicker): NativeScript docs
+- [VirtualArray | API - NativeScript](https://docs.nativescript.org/api/class/VirtualArray): NativeScript docs
+- [TextView | API - NativeScript](https://docs.nativescript.org/api/class/TextView): NativeScript docs
+- [ViewCommon | API - NativeScript](https://docs.nativescript.org/api/class/ViewCommon): NativeScript docs
+- [Utils.SourceError | API - NativeScript](https://docs.nativescript.org/api/class/Utils-SourceError): NativeScript docs
+- [TextField | API - NativeScript](https://docs.nativescript.org/api/class/TextField): NativeScript docs
+- [ViewHelper | API - NativeScript](https://docs.nativescript.org/api/class/ViewHelper): NativeScript docs
+- [WrappedValue | API - NativeScript](https://docs.nativescript.org/api/class/WrappedValue): NativeScript docs
+- [ViewBase | API - NativeScript](https://docs.nativescript.org/api/class/ViewBase): NativeScript docs
+- [View | API - NativeScript](https://docs.nativescript.org/api/class/View): NativeScript docs
+- [iOSApplication | API - NativeScript](https://docs.nativescript.org/api/class/iOSApplication): NativeScript docs
+- [AndroidDirectory | API - NativeScript](https://docs.nativescript.org/api/enum/AndroidDirectory): NativeScript docs
+- [Utils.ScopeError | API - NativeScript](https://docs.nativescript.org/api/class/Utils-ScopeError): NativeScript docs
+- [Connectivity.connectionType | API - NativeScript](https://docs.nativescript.org/api/enum/Connectivity-connectionType): NativeScript docs
+- [XmlParser | API - NativeScript](https://docs.nativescript.org/api/class/XmlParser): NativeScript docs
+- [AccessibilityLiveRegion | API - NativeScript](https://docs.nativescript.org/api/enum/AccessibilityLiveRegion): NativeScript docs
+- [GestureStateTypes | API - NativeScript](https://docs.nativescript.org/api/enum/GestureStateTypes): NativeScript docs
+- [WebView | API - NativeScript](https://docs.nativescript.org/api/class/WebView): NativeScript docs
+- [HttpResponseEncoding | API - NativeScript](https://docs.nativescript.org/api/enum/HttpResponseEncoding): NativeScript docs
+- [SharedTransitionAnimationType | API - NativeScript](https://docs.nativescript.org/api/enum/SharedTransitionAnimationType): NativeScript docs
+- [AccessibilityTrait | API - NativeScript](https://docs.nativescript.org/api/enum/AccessibilityTrait): NativeScript docs
+- [WrapLayout | API - NativeScript](https://docs.nativescript.org/api/class/WrapLayout): NativeScript docs
+- [GestureTypes | API - NativeScript](https://docs.nativescript.org/api/enum/GestureTypes): NativeScript docs
+- [SwipeDirection | API - NativeScript](https://docs.nativescript.org/api/enum/SwipeDirection): NativeScript docs
+- [AddChildFromBuilder | API - NativeScript](https://docs.nativescript.org/api/interface/AddChildFromBuilder): NativeScript docs
+- [AndroidActivityBundleEventData | API - NativeScript](https://docs.nativescript.org/api/interface/AndroidActivityBundleEventData): NativeScript docs
+- [AlertOptions | API - NativeScript](https://docs.nativescript.org/api/interface/AlertOptions): NativeScript docs
+- [AndroidActivityBackPressedEventData | API - NativeScript](https://docs.nativescript.org/api/interface/AndroidActivityBackPressedEventData): NativeScript docs
+- [CacheMode | API - NativeScript](https://docs.nativescript.org/api/enum/CacheMode): NativeScript docs
+- [FontScaleCategory | API - NativeScript](https://docs.nativescript.org/api/enum/FontScaleCategory): NativeScript docs
+- [AndroidActivityRequestPermissionsEventData | API - NativeScript](https://docs.nativescript.org/api/interface/AndroidActivityRequestPermissionsEventData): NativeScript docs
+- [ActionOptions | API - NativeScript](https://docs.nativescript.org/api/interface/ActionOptions): NativeScript docs
+- [AndroidActivityNewIntentEventData | API - NativeScript](https://docs.nativescript.org/api/interface/AndroidActivityNewIntentEventData): NativeScript docs
+- [AndroidActivityCallbacks | API - NativeScript](https://docs.nativescript.org/api/interface/AndroidActivityCallbacks): NativeScript docs
+- [KeyframeAnimation | API - NativeScript](https://docs.nativescript.org/api/class/KeyframeAnimation): NativeScript docs
+- [ApplicationEventData | API - NativeScript](https://docs.nativescript.org/api/interface/ApplicationEventData): NativeScript docs
+- [BackstackEntry | API - NativeScript](https://docs.nativescript.org/api/interface/BackstackEntry): NativeScript docs
+- [AndroidActivityResultEventData | API - NativeScript](https://docs.nativescript.org/api/interface/AndroidActivityResultEventData): NativeScript docs
+- [AnimationDefinition | API - NativeScript](https://docs.nativescript.org/api/interface/AnimationDefinition): NativeScript docs
+- [BindingOptions | API - NativeScript](https://docs.nativescript.org/api/interface/BindingOptions): NativeScript docs
+- [GestureEvents | API - NativeScript](https://docs.nativescript.org/api/enum/GestureEvents): NativeScript docs
+- [ChangedData | API - NativeScript](https://docs.nativescript.org/api/interface/ChangedData): NativeScript docs
+- [ItemSpec | API - NativeScript](https://docs.nativescript.org/api/class/ItemSpec): NativeScript docs
+- [AndroidActivityEventData | API - NativeScript](https://docs.nativescript.org/api/interface/AndroidActivityEventData): NativeScript docs
+- [CancelableOptions | API - NativeScript](https://docs.nativescript.org/api/interface/CancelableOptions): NativeScript docs
+- [CreateViewEventData | API - NativeScript](https://docs.nativescript.org/api/interface/CreateViewEventData): NativeScript docs
+- [CommonLayoutParams | API - NativeScript](https://docs.nativescript.org/api/interface/CommonLayoutParams): NativeScript docs
+- [AccessibilityRole | API - NativeScript](https://docs.nativescript.org/api/enum/AccessibilityRole): NativeScript docs
+- [CssChangedEventData | API - NativeScript](https://docs.nativescript.org/api/interface/CssChangedEventData): NativeScript docs
+- [DiscardedErrorEventData | API - NativeScript](https://docs.nativescript.org/api/interface/DiscardedErrorEventData): NativeScript docs
+- [ComponentModule | API - NativeScript](https://docs.nativescript.org/api/interface/ComponentModule): NativeScript docs
+- [EventData | API - NativeScript](https://docs.nativescript.org/api/interface/EventData): NativeScript docs
+- [DialogOptions | API - NativeScript](https://docs.nativescript.org/api/interface/DialogOptions): NativeScript docs
+- [DownloadError | API - NativeScript](https://docs.nativescript.org/api/interface/DownloadError): NativeScript docs
+- [DownloadedData | API - NativeScript](https://docs.nativescript.org/api/interface/DownloadedData): NativeScript docs
+- [ConfirmOptions | API - NativeScript](https://docs.nativescript.org/api/interface/ConfirmOptions): NativeScript docs
+- [GestureEventDataWithState | API - NativeScript](https://docs.nativescript.org/api/interface/GestureEventDataWithState): NativeScript docs
+- [HttpRequestOptions | API - NativeScript](https://docs.nativescript.org/api/interface/HttpRequestOptions): NativeScript docs
+- [DownloadRequest | API - NativeScript](https://docs.nativescript.org/api/interface/DownloadRequest): NativeScript docs
+- [FontScaleChangedEventData | API - NativeScript](https://docs.nativescript.org/api/interface/FontScaleChangedEventData): NativeScript docs
+- [ImageAssetOptions | API - NativeScript](https://docs.nativescript.org/api/interface/ImageAssetOptions): NativeScript docs
+- [HttpContent | API - NativeScript](https://docs.nativescript.org/api/interface/HttpContent): NativeScript docs
+- [HttpResponse | API - NativeScript](https://docs.nativescript.org/api/interface/HttpResponse): NativeScript docs
+- [GestureEventData | API - NativeScript](https://docs.nativescript.org/api/interface/GestureEventData): NativeScript docs
+- [KeyframeInfo | API - NativeScript](https://docs.nativescript.org/api/interface/KeyframeInfo): NativeScript docs
+- [ItemsLoading | API - NativeScript](https://docs.nativescript.org/api/interface/ItemsLoading): NativeScript docs
+- [ItemEventData | API - NativeScript](https://docs.nativescript.org/api/interface/ItemEventData): NativeScript docs
+- [KeyedTemplate | API - NativeScript](https://docs.nativescript.org/api/interface/KeyedTemplate): NativeScript docs
+- [KeyframeDeclaration | API - NativeScript](https://docs.nativescript.org/api/interface/KeyframeDeclaration): NativeScript docs
+- [LoadAppCSSEventData | API - NativeScript](https://docs.nativescript.org/api/interface/LoadAppCSSEventData): NativeScript docs
+- [LoginResult | API - NativeScript](https://docs.nativescript.org/api/interface/LoginResult): NativeScript docs
+- [LoadOptions | API - NativeScript](https://docs.nativescript.org/api/interface/LoadOptions): NativeScript docs
+- [LoadEventData | API - NativeScript](https://docs.nativescript.org/api/interface/LoadEventData): NativeScript docs
+- [InheritedProperty | API - NativeScript](https://docs.nativescript.org/api/class/InheritedProperty): NativeScript docs
+- [NativeScriptConfig | API - NativeScript](https://docs.nativescript.org/api/interface/NativeScriptConfig): NativeScript docs
+- [NativeScriptError | API - NativeScript](https://docs.nativescript.org/api/interface/NativeScriptError): NativeScript docs
+- [LoginOptions | API - NativeScript](https://docs.nativescript.org/api/interface/LoginOptions): NativeScript docs
+- [NavigationContext | API - NativeScript](https://docs.nativescript.org/api/interface/NavigationContext): NativeScript docs
+- [OrientationChangedEventData | API - NativeScript](https://docs.nativescript.org/api/interface/OrientationChangedEventData): NativeScript docs
+- [NavigatedData | API - NativeScript](https://docs.nativescript.org/api/interface/NavigatedData): NativeScript docs
+- [NavigationTransition | API - NativeScript](https://docs.nativescript.org/api/interface/NavigationTransition): NativeScript docs
+- [ParserEvent | API - NativeScript](https://docs.nativescript.org/api/interface/ParserEvent): NativeScript docs
+- [IDevice | API - NativeScript](https://docs.nativescript.org/api/interface/IDevice): NativeScript docs
+- [NavigationEntry | API - NativeScript](https://docs.nativescript.org/api/interface/NavigationEntry): NativeScript docs
+- [LaunchEventData | API - NativeScript](https://docs.nativescript.org/api/interface/LaunchEventData): NativeScript docs
+- [PanGestureEventData | API - NativeScript](https://docs.nativescript.org/api/interface/PanGestureEventData): NativeScript docs
+- [ItemsSource | API - NativeScript](https://docs.nativescript.org/api/interface/ItemsSource): NativeScript docs
+- [PromptOptions | API - NativeScript](https://docs.nativescript.org/api/interface/PromptOptions): NativeScript docs
+- [PromptResult | API - NativeScript](https://docs.nativescript.org/api/interface/PromptResult): NativeScript docs
+- [PropertyChangeData | API - NativeScript](https://docs.nativescript.org/api/interface/PropertyChangeData): NativeScript docs
+- [RootLayoutOptions | API - NativeScript](https://docs.nativescript.org/api/interface/RootLayoutOptions): NativeScript docs
+- [PlatformContext | API - NativeScript](https://docs.nativescript.org/api/interface/PlatformContext): NativeScript docs
+- [RootViewControllerImpl | API - NativeScript](https://docs.nativescript.org/api/interface/RootViewControllerImpl): NativeScript docs
+- [PinchGestureEventData | API - NativeScript](https://docs.nativescript.org/api/interface/PinchGestureEventData): NativeScript docs
+- [ShadeCoverOptions | API - NativeScript](https://docs.nativescript.org/api/interface/ShadeCoverOptions): NativeScript docs
+- [ShownModallyData | API - NativeScript](https://docs.nativescript.org/api/interface/ShownModallyData): NativeScript docs
+- [RotationGestureEventData | API - NativeScript](https://docs.nativescript.org/api/interface/RotationGestureEventData): NativeScript docs
+- [Size | API - NativeScript](https://docs.nativescript.org/api/interface/Size): NativeScript docs
+- [ScrollEventData | API - NativeScript](https://docs.nativescript.org/api/interface/ScrollEventData): NativeScript docs
+- [ShowModalOptions | API - NativeScript](https://docs.nativescript.org/api/interface/ShowModalOptions): NativeScript docs
+- [Template | API - NativeScript](https://docs.nativescript.org/api/interface/Template): NativeScript docs
+- [SystemAppearanceChangedEventData | API - NativeScript](https://docs.nativescript.org/api/interface/SystemAppearanceChangedEventData): NativeScript docs
+- [TraceErrorHandler | API - NativeScript](https://docs.nativescript.org/api/interface/TraceErrorHandler): NativeScript docs
+- [SharedTransitionConfig | API - NativeScript](https://docs.nativescript.org/api/interface/SharedTransitionConfig): NativeScript docs
+- [TraceWriter | API - NativeScript](https://docs.nativescript.org/api/interface/TraceWriter): NativeScript docs
+- [TimerInfo | API - NativeScript](https://docs.nativescript.org/api/interface/TimerInfo): NativeScript docs
+- [SwipeGestureEventData | API - NativeScript](https://docs.nativescript.org/api/interface/SwipeGestureEventData): NativeScript docs
+- [TouchGestureEventData | API - NativeScript](https://docs.nativescript.org/api/interface/TouchGestureEventData): NativeScript docs
+- [UnhandledErrorEventData | API - NativeScript](https://docs.nativescript.org/api/interface/UnhandledErrorEventData): NativeScript docs
+- [ViewEntry | API - NativeScript](https://docs.nativescript.org/api/interface/ViewEntry): NativeScript docs
+- [CoreTypes.Accuracy | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-Accuracy): NativeScript docs
+- [CoreTypes.AndroidActionBarIconVisibility | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-AndroidActionBarIconVisibility): NativeScript docs
+- [TemplatedItemsView | API - NativeScript](https://docs.nativescript.org/api/interface/TemplatedItemsView): NativeScript docs
+- [AccessibilityEvents | API - NativeScript](https://docs.nativescript.org/api/namespace/AccessibilityEvents): NativeScript docs
+- [TraceEventListener | API - NativeScript](https://docs.nativescript.org/api/interface/TraceEventListener): NativeScript docs
+- [CSSUtils | API - NativeScript](https://docs.nativescript.org/api/namespace/CSSUtils): NativeScript docs
+- [CoreTypes.AutofillType | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-AutofillType): NativeScript docs
+- [Connectivity | API - NativeScript](https://docs.nativescript.org/api/namespace/Connectivity): NativeScript docs
+- [CoreTypes.DeviceType | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-DeviceType): NativeScript docs
+- [CoreTypes.AndroidActionItemPosition | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-AndroidActionItemPosition): NativeScript docs
+- [CoreTypes.FontStyle | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-FontStyle): NativeScript docs
+- [CoreTypes.Dock | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-Dock): NativeScript docs
+- [CoreTypes.BackgroundRepeat | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-BackgroundRepeat): NativeScript docs
+- [CoreTypes.FontAttributes | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-FontAttributes): NativeScript docs
+- [CoreTypes.AutocapitalizationType | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-AutocapitalizationType): NativeScript docs
+- [CoreTypes.IOSActionItemPosition | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-IOSActionItemPosition): NativeScript docs
+- [CoreTypes.DeviceOrientation | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-DeviceOrientation): NativeScript docs
+- [CoreTypes.FontWeight | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-FontWeight): NativeScript docs
+- [CoreTypes.ImageStretch | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-ImageStretch): NativeScript docs
+- [CoreTypes.ImageFormat | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-ImageFormat): NativeScript docs
+- [CoreTypes.NavigationBarVisibility | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-NavigationBarVisibility): NativeScript docs
+- [CoreTypes.KeyboardType | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-KeyboardType): NativeScript docs
+- [CoreTypes.ReturnKeyType | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-ReturnKeyType): NativeScript docs
+- [CoreTypes.Orientation | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-Orientation): NativeScript docs
+- [CoreTypes.TextAlignment | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-TextAlignment): NativeScript docs
+- [CoreTypes.VerticalAlignment | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-VerticalAlignment): NativeScript docs
+- [CoreTypes.StatusBarStyle | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-StatusBarStyle): NativeScript docs
+- [CoreTypes.TextTransform | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-TextTransform): NativeScript docs
+- [CoreTypes.VerticalAlignmentText | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-VerticalAlignmentText): NativeScript docs
+- [CoreTypes.SystemAppearance | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-SystemAppearance): NativeScript docs
+- [CoreTypes.TextDecoration | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-TextDecoration): NativeScript docs
+- [CoreTypes.UpdateTextTrigger | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-UpdateTextTrigger): NativeScript docs
+- [FontStyle | API - NativeScript](https://docs.nativescript.org/api/namespace/FontStyle): NativeScript docs
+- [CoreTypes.AnimationCurve | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-AnimationCurve): NativeScript docs
+- [DialogStrings | API - NativeScript](https://docs.nativescript.org/api/namespace/DialogStrings): NativeScript docs
+- [FontVariationSettings | API - NativeScript](https://docs.nativescript.org/api/namespace/FontVariationSettings): NativeScript docs
+- [CoreTypes | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes): NativeScript docs
+- [CoreTypes.Visibility | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-Visibility): NativeScript docs
+- [GridUnitType | API - NativeScript](https://docs.nativescript.org/api/namespace/GridUnitType): NativeScript docs
+- [FontWeight | API - NativeScript](https://docs.nativescript.org/api/namespace/FontWeight): NativeScript docs
+- [Length | API - NativeScript](https://docs.nativescript.org/api/namespace/Length): NativeScript docs
+- [PercentLength | API - NativeScript](https://docs.nativescript.org/api/namespace/PercentLength): NativeScript docs
+- [Trace | API - NativeScript](https://docs.nativescript.org/api/namespace/Trace): NativeScript docs
+- [TouchAction | API - NativeScript](https://docs.nativescript.org/api/namespace/TouchAction): NativeScript docs
+- [CoreTypes.WhiteSpace | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-WhiteSpace): NativeScript docs
+- [Utils.android | API - NativeScript](https://docs.nativescript.org/api/namespace/Utils-android): NativeScript docs
+- [Trace.messageType | API - NativeScript](https://docs.nativescript.org/api/namespace/Trace-messageType): NativeScript docs
+- [capitalizationType | API - NativeScript](https://docs.nativescript.org/api/namespace/capitalizationType): NativeScript docs
+- [Utils.android.collections | API - NativeScript](https://docs.nativescript.org/api/namespace/Utils-android-collections): NativeScript docs
+- [Trace.categories | API - NativeScript](https://docs.nativescript.org/api/namespace/Trace-categories): NativeScript docs
+- [Utils.layout | API - NativeScript](https://docs.nativescript.org/api/namespace/Utils-layout): NativeScript docs
+- [Utils.android.resources | API - NativeScript](https://docs.nativescript.org/api/namespace/Utils-android-resources): NativeScript docs
+- [Utils.ios | API - NativeScript](https://docs.nativescript.org/api/namespace/Utils-ios): NativeScript docs
+- [encoding | API - NativeScript](https://docs.nativescript.org/api/namespace/encoding): NativeScript docs
+- [Http | API - NativeScript](https://docs.nativescript.org/api/namespace/Http): NativeScript docs
+- [inputType | API - NativeScript](https://docs.nativescript.org/api/namespace/inputType): NativeScript docs
+- [knownFolders | API - NativeScript](https://docs.nativescript.org/api/namespace/knownFolders): NativeScript docs
+- [Utils | API - NativeScript](https://docs.nativescript.org/api/namespace/Utils): NativeScript docs
+- [knownFolders.ios | API - NativeScript](https://docs.nativescript.org/api/namespace/knownFolders-ios): NativeScript docs
+- [Utils.ios.collections | API - NativeScript](https://docs.nativescript.org/api/namespace/Utils-ios-collections): NativeScript docs
+- [TapGestureEventData | API - NativeScript](https://docs.nativescript.org/api/interface/TapGestureEventData): NativeScript docs
+- [path | API - NativeScript](https://docs.nativescript.org/api/namespace/path): NativeScript docs
+- [CoreTypes.HorizontalAlignment | API - NativeScript](https://docs.nativescript.org/api/namespace/CoreTypes-HorizontalAlignment): NativeScript docs
+- [IOSHelper | API - NativeScript](https://docs.nativescript.org/api/namespace/IOSHelper): NativeScript docs
+
+## Best-practices
+
+- [Best Practices with Android and NativeScript | NativeScript](https://docs.nativescript.org/best-practices/android-tips): NativeScript docs
+- [Best Practices with Timers and Intervals | NativeScript](https://docs.nativescript.org/best-practices/rogue-timers): NativeScript docs
+- [Optimizing Images | NativeScript](https://docs.nativescript.org/best-practices/optimizing-images): NativeScript docs
+- [Best Practices around hidden, visibility, v-if, ngIf and all those "if" things | NativeScript](https://docs.nativescript.org/best-practices/if-things): NativeScript docs
+- [Best Practices with iOS and NativeScript | NativeScript](https://docs.nativescript.org/best-practices/ios-tips): NativeScript docs
+- [Best Practices with View Bindings | NativeScript](https://docs.nativescript.org/best-practices/view-bindings): NativeScript docs
+- [Best Practices with usages of the @NativeClass() decorator | NativeScript](https://docs.nativescript.org/best-practices/native-class): NativeScript docs
+- [Best Practices with ListViews, RadListView, etc. | NativeScript](https://docs.nativescript.org/best-practices/listviews): NativeScript docs
+- [Best Practices with when to split up .ios and .android files vs. using platform conditionals | NativeScript](https://docs.nativescript.org/best-practices/platform-file-split-or-not): NativeScript docs
+
+## Guide
+
+- [CLI Basics | NativeScript](https://docs.nativescript.org/guide/cli-basics): NativeScript docs
+- [Navigation using Modals | NativeScript](https://docs.nativescript.org/guide/navigation/modals): Navigation using modals - detached from the current backstack.
+- [The Layout Process | NativeScript](https://docs.nativescript.org/guide/advanced/the-layout-process): For all views to render with the right dimensions and positions requires a run of the layout process.
+- [NativeScript | NativeScript](https://docs.nativescript.org/guide/updating/common-steps): NativeScript docs
+- [Using packages (aka, plugins) in NativeScript | NativeScript](https://docs.nativescript.org/guide/development-workflow/using-packages): NativeScript docs
+- [Adding Java/Kotlin Code to an application | NativeScript](https://docs.nativescript.org/guide/native-code/android): NativeScript docs
+- [Platform Version Handling | NativeScript](https://docs.nativescript.org/guide/platform-version-handling): NativeScript docs
+- [Developing Widgets for iOS | NativeScript](https://docs.nativescript.org/guide/widgets-ios): NativeScript docs
+- [Running a Project | NativeScript](https://docs.nativescript.org/guide/running): NativeScript docs
+- [iOS Subclassing and conforming to protocols | NativeScript](https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios): NativeScript docs
+- [Creating a New Project | NativeScript](https://docs.nativescript.org/guide/creating-a-project): NativeScript docs
+- [Crash Reporting with Sentry | NativeScript](https://docs.nativescript.org/guide/crash-reporting-sentry): When your app breaks, fix it faster with Sentry.
+- [Code Sharing | NativeScript](https://docs.nativescript.org/guide/code-sharing): Scaling a codebase beyond a single app...
+- [Previewing visionOS from StackBlitz | NativeScript](https://docs.nativescript.org/guide/visionos-preview): You can develop and live preview Vision Pro apps using StackBlitz with NativeScript Preview.
+- [Navigation using Frames and Pages | NativeScript](https://docs.nativescript.org/guide/navigation/frames-and-pages): Navigate between Pages in your app.
+- [Error handling | NativeScript](https://docs.nativescript.org/guide/error-handling): NativeScript docs
+- [Unit Testing | NativeScript](https://docs.nativescript.org/guide/testing): NativeScript docs
+- [Publishing to Apple App Store | NativeScript](https://docs.nativescript.org/guide/publishing/apple-app-store): NativeScript docs
+- [Adding custom native code to a project | NativeScript](https://docs.nativescript.org/guide/adding-native-code): NativeScript allows you to access any native API anytime in your app.
+- [Gestures | NativeScript](https://docs.nativescript.org/guide/gestures): NativeScript docs
+- [Shared Element Transitions | NativeScript](https://docs.nativescript.org/guide/shared-element-transitions): Shared Element Transitions allow you to auto animate shared elements from one page to the next allowing you to deliver smooth navigational experiences.
+- [Publishing with Fastlane | NativeScript](https://docs.nativescript.org/guide/publishing/fastlane): NativeScript docs
+- [Customizing View Elements | NativeScript](https://docs.nativescript.org/guide/customizing-view-elements): If a @nativescript/core element offers behavior that generally works but your app needs something extra from them, you can extend them.
+- [Choosing An Editor | NativeScript](https://docs.nativescript.org/guide/choosing-an-editor): NativeScript docs
+- [Styling | NativeScript](https://docs.nativescript.org/guide/styling): NativeScript docs
+- [Developing with visionOS | NativeScript](https://docs.nativescript.org/guide/visionos): New exciting realities await you when developing apps for Vision Pro.
+- [Android Marshalling | NativeScript](https://docs.nativescript.org/guide/android-marshalling): NativeScript docs
+- [Multithreading and Workers | NativeScript](https://docs.nativescript.org/guide/multithreading): Heavy tasks on the main thread are a no-go, luckily NativeScript can be multi-threaded!
+- [Creating Custom Native Elements | NativeScript](https://docs.nativescript.org/guide/create-custom-native-elements): What to do when built-in elements don't meet your needs?
+- [Updating to latest | NativeScript](https://docs.nativescript.org/guide/updating/to-latest): Updating to the latest version of NativeScript.
+- [iOS Marshalling | NativeScript](https://docs.nativescript.org/guide/ios-marshalling): NativeScript docs
+- [Debugging | NativeScript](https://docs.nativescript.org/guide/debugging): NativeScript docs
+- [Metadata | NativeScript](https://docs.nativescript.org/guide/metadata): NativeScript docs
+- [Accessibility (a11y) | NativeScript](https://docs.nativescript.org/guide/accessibility): NativeScript docs
+- [iOS Runtime Types | NativeScript](https://docs.nativescript.org/guide/ios-runtime-types): NativeScript docs
+- [Updating from 6.x to 7.x | NativeScript](https://docs.nativescript.org/guide/updating/from-60-to-70): Example.
+- [Data Binding in NativeScript | NativeScript](https://docs.nativescript.org/guide/data-binding): NativeScript docs
+- [Android Subclassing and Implementing interfaces | NativeScript](https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android): NativeScript gives you full access to the native platform, you can subclass native classes in your JavaScript/TypeScript code, implement native interfaces and more.
+- [Adding ObjectiveC/Swift Code to an application | NativeScript](https://docs.nativescript.org/guide/native-code/ios): NativeScript docs
+- [Property | NativeScript](https://docs.nativescript.org/guide/property-system): NativeScript docs
+- [Publishing with ns publish | NativeScript](https://docs.nativescript.org/guide/publishing/ns-publish): NativeScript docs
+- [Generating TypeScript types | NativeScript](https://docs.nativescript.org/guide/native-code/generate-typings): NativeScript docs
+- [Publishing to Google Play | NativeScript](https://docs.nativescript.org/guide/publishing/android-google-play): NativeScript docs
+- [Animations | NativeScript](https://docs.nativescript.org/guide/animations): NativeScript docs
+
+## Parts
+
+- [NativeScript | NativeScript](https://docs.nativescript.org/parts/online-playground): NativeScript docs
+- [NativeScript | NativeScript](https://docs.nativescript.org/parts/nativescript-cli-deprecation-warnings): NativeScript docs
+- [NativeScript | NativeScript](https://docs.nativescript.org/parts/troubleshooting-increase-deployment-target): NativeScript docs
+
+## Configuration
+
+- [Configuring Webpack | NativeScript](https://docs.nativescript.org/configuration/webpack): NativeScript apps are bundled with webpack, giving you flexibility to configure it any way you need it.
+- [Configuring your Project | NativeScript](https://docs.nativescript.org/configuration/nativescript): NativeScript docs
+
+## Project-structure
+
+- [App_Resources | NativeScript](https://docs.nativescript.org/project-structure/app-resources): NativeScript docs
+- [main.js (or main.ts) | NativeScript](https://docs.nativescript.org/project-structure/src/main-js-ts): NativeScript docs
+- [references.d.ts | NativeScript](https://docs.nativescript.org/project-structure/references-d-ts): NativeScript docs
+- [package.json | NativeScript](https://docs.nativescript.org/project-structure/package-json): NativeScript docs
+- [The Fonts folder | NativeScript](https://docs.nativescript.org/project-structure/src/fonts): NativeScript docs
+- [webpack.config.js | NativeScript](https://docs.nativescript.org/project-structure/webpack-config): NativeScript apps are bundled with webpack, giving you flexibility to configure it any way you need it.
+- [app.css (or app.scss) | NativeScript](https://docs.nativescript.org/project-structure/src/app-css-scss): NativeScript docs
+- [tsconfig.json | NativeScript](https://docs.nativescript.org/project-structure/tsconfig-json): NativeScript docs
+- [nativescript.config.ts | NativeScript](https://docs.nativescript.org/project-structure/nativescript-config): NativeScript docs
+
+## Setup
+
+- [Setting up macOS for NativeScript | NativeScript](https://docs.nativescript.org/setup/macos): NativeScript docs
+- [Setting up Windows for NativeScript | NativeScript](https://docs.nativescript.org/setup/windows): NativeScript docs
+- [Setting up Linux for NativeScript | NativeScript](https://docs.nativescript.org/setup/linux): NativeScript docs
+
+## Plugins
+
+- [NativeScript UI ListView | NativeScript](https://docs.nativescript.org/plugins/nativescript-ui/rad-list-view): NativeScript docs
+- [Apple Pay | NativeScript](https://docs.nativescript.org/plugins/apple-pay): NativeScript docs
+- [Apple Signin | NativeScript](https://docs.nativescript.org/plugins/apple-sign-in): NativeScript docs
+- [Auto Fit Text | NativeScript](https://docs.nativescript.org/plugins/auto-fit-text): NativeScript docs
+- [App Availability | NativeScript](https://docs.nativescript.org/plugins/appavailability): NativeScript docs
+- [Animated Circle | NativeScript](https://docs.nativescript.org/plugins/animated-circle): NativeScript docs
+- [DateTimePicker | NativeScript](https://docs.nativescript.org/plugins/datetimepicker): NativeScript docs
+- [Camera | NativeScript](https://docs.nativescript.org/plugins/camera): NativeScript docs
+- [Brightness | NativeScript](https://docs.nativescript.org/plugins/brightness): NativeScript docs
+- [Biometrics | NativeScript](https://docs.nativescript.org/plugins/biometrics): NativeScript docs
+- [Contacts | NativeScript](https://docs.nativescript.org/plugins/contacts): NativeScript docs
+- [Background HTTP | NativeScript](https://docs.nativescript.org/plugins/background-http): NativeScript docs
+- [Developing Plugins | NativeScript](https://docs.nativescript.org/plugins/developing-plugins): NativeScript docs
+- [Detox | NativeScript](https://docs.nativescript.org/plugins/detox): NativeScript docs
+- [Email | NativeScript](https://docs.nativescript.org/plugins/email): NativeScript docs
+- [App Check | NativeScript](https://docs.nativescript.org/plugins/firebase-app-check): NativeScript docs
+- [Directions | NativeScript](https://docs.nativescript.org/plugins/directions): NativeScript docs
+- [Core | NativeScript](https://docs.nativescript.org/plugins/firebase-core): NativeScript docs
+- [Debug iOS | NativeScript](https://docs.nativescript.org/plugins/debug-ios): NativeScript docs
+- [Auth | NativeScript](https://docs.nativescript.org/plugins/firebase-auth): NativeScript docs
+- [Fingerprint-Auth | NativeScript](https://docs.nativescript.org/plugins/fingerprint-auth): NativeScript docs
+- [Analytics | NativeScript](https://docs.nativescript.org/plugins/firebase-analytics): NativeScript docs
+- [Installations | NativeScript](https://docs.nativescript.org/plugins/firebase-installations): NativeScript docs
+- [Database | NativeScript](https://docs.nativescript.org/plugins/firebase-database): NativeScript docs
+- [Admob | NativeScript](https://docs.nativescript.org/plugins/firebase-admob): NativeScript docs
+- [Barcode Scanning | NativeScript](https://docs.nativescript.org/plugins/mlkit-barcode-scanning): NativeScript docs
+- [Local Notifications | NativeScript](https://docs.nativescript.org/plugins/local-notifications): NativeScript docs
+- [Geolocation | NativeScript](https://docs.nativescript.org/plugins/geolocation): NativeScript docs
+- [Performance | NativeScript](https://docs.nativescript.org/plugins/firebase-performance): NativeScript docs
+- [Ionic Portals | NativeScript](https://docs.nativescript.org/plugins/ionic-portals): NativeScript docs
+- [Crashlytics | NativeScript](https://docs.nativescript.org/plugins/firebase-crashlytics): NativeScript docs
+- [Facebook | NativeScript](https://docs.nativescript.org/plugins/facebook): NativeScript docs
+- [Haptics | NativeScript](https://docs.nativescript.org/plugins/haptics): NativeScript docs
+- [Selfie Segmentation | NativeScript](https://docs.nativescript.org/plugins/mlkit-selfie-segmentation): NativeScript docs
+- [Image Picker | NativeScript](https://docs.nativescript.org/plugins/imagepicker): NativeScript docs
+- [Face Detection | NativeScript](https://docs.nativescript.org/plugins/mlkit-face-detection): NativeScript docs
+- [Google Pay | NativeScript](https://docs.nativescript.org/plugins/google-pay): NativeScript docs
+- [IQ Keyboard Manager | NativeScript](https://docs.nativescript.org/plugins/iqkeyboardmanager): NativeScript docs
+- [Localize | NativeScript](https://docs.nativescript.org/plugins/localize): NativeScript docs
+- [Object Detection | NativeScript](https://docs.nativescript.org/plugins/mlkit-object-detection): NativeScript docs
+- [Payments: IAP & Subscriptions | NativeScript](https://docs.nativescript.org/plugins/payments): NativeScript docs
+- [Twitter | NativeScript](https://docs.nativescript.org/plugins/twitter): NativeScript docs
+- [SwiftUI | NativeScript](https://docs.nativescript.org/plugins/swift-ui): NativeScript docs
+- [Text Recognition | NativeScript](https://docs.nativescript.org/plugins/mlkit-text-recognition): NativeScript docs
+- [iOS Security | NativeScript](https://docs.nativescript.org/plugins/ios-security): NativeScript docs
+- [Google Signin | NativeScript](https://docs.nativescript.org/plugins/google-signin): NativeScript docs
+- [Image Labeling | NativeScript](https://docs.nativescript.org/plugins/mlkit-image-labeling): NativeScript docs
+- [Flutter | NativeScript](https://docs.nativescript.org/plugins/flutter): NativeScript docs
+- [Core | NativeScript](https://docs.nativescript.org/plugins/mlkit-core): NativeScript docs
+- [Tailwind CSS | NativeScript](https://docs.nativescript.org/plugins/tailwindcss): NativeScript docs
+- [Dynamic Links | NativeScript](https://docs.nativescript.org/plugins/firebase-dynamic-links): NativeScript docs
+- [Jetpack Compose | NativeScript](https://docs.nativescript.org/plugins/jetpack-compose): NativeScript docs
+- [Remote Config | NativeScript](https://docs.nativescript.org/plugins/firebase-remote-config): NativeScript docs
+- [Zip | NativeScript](https://docs.nativescript.org/plugins/zip): NativeScript docs
+- [Social Share | NativeScript](https://docs.nativescript.org/plugins/social-share): NativeScript docs
+- [Storage | NativeScript](https://docs.nativescript.org/plugins/firebase-storage): NativeScript docs
+- [Firestore | NativeScript](https://docs.nativescript.org/plugins/firebase-firestore): NativeScript docs
+- [Google Maps | NativeScript](https://docs.nativescript.org/plugins/google-maps): NativeScript docs
+- [In App Messaging | NativeScript](https://docs.nativescript.org/plugins/firebase-in-app-messaging): NativeScript docs
+- [Keyboard Toolbar | NativeScript](https://docs.nativescript.org/plugins/keyboard-toolbar): NativeScript docs
+- [Pose Detection | NativeScript](https://docs.nativescript.org/plugins/mlkit-pose-detection): NativeScript docs
+- [Digital Ink Recognition | NativeScript](https://docs.nativescript.org/plugins/mlkit-digital-ink-recognition): NativeScript docs
+- [Plugin Workspace Guide | NativeScript](https://docs.nativescript.org/plugins/plugin-workspace-guide): NativeScript docs
+- [PDF | NativeScript](https://docs.nativescript.org/plugins/pdf): NativeScript docs
+- [Picker | NativeScript](https://docs.nativescript.org/plugins/picker): NativeScript docs
+- [Rive | NativeScript](https://docs.nativescript.org/plugins/rive): NativeScript docs
+- [Shared Notification Delegate | NativeScript](https://docs.nativescript.org/plugins/shared-notification-delegate): NativeScript docs
+- [Messaging | NativeScript](https://docs.nativescript.org/plugins/firebase-messaging): NativeScript docs
+- [Theme Switcher | NativeScript](https://docs.nativescript.org/plugins/theme-switcher): NativeScript docs
+- [Functions | NativeScript](https://docs.nativescript.org/plugins/firebase-functions): NativeScript docs
+
+## Core
+
+- [ImageCache | NativeScript](https://docs.nativescript.org/core/image-cache): NativeScript docs
+- [XmlParser | NativeScript](https://docs.nativescript.org/core/xml-parser): NativeScript docs
+- [Utils | NativeScript](https://docs.nativescript.org/core/utils): NativeScript docs
+- [Connectivity | NativeScript](https://docs.nativescript.org/core/connectivity): Get the current device network connection type and monitor changes in the connection type.
+- [FileSystem | NativeScript](https://docs.nativescript.org/core/file-system): Work with the device file system
+- [Color | NativeScript](https://docs.nativescript.org/core/color): Create a color object with any color representation and use it in your NativeScript apps.
+- [ApplicationSettings | NativeScript](https://docs.nativescript.org/core/application-settings): Persist data locally on the device storage
+- [Screen | NativeScript](https://docs.nativescript.org/core/screen): NativeScript docs
+- [Http | NativeScript](https://docs.nativescript.org/core/http): NativeScript docs
+- [Application | NativeScript](https://docs.nativescript.org/core/application): Handling application global state
+- [Tracing | NativeScript](https://docs.nativescript.org/core/tracing): NativeScript docs
+- [Observable | NativeScript](https://docs.nativescript.org/core/observable): NativeScript docs
+- [Device | NativeScript](https://docs.nativescript.org/core/device): NativeScript docs
+- [FPS Meter | NativeScript](https://docs.nativescript.org/core/fps-meter): NativeScript docs
+- [ImageSource | NativeScript](https://docs.nativescript.org/core/image-source): Create an instance from different sources.
+
+## Ui
+
+- [Repeater | NativeScript](https://docs.nativescript.org/ui/repeater): NativeScript docs
+- [TabView | NativeScript](https://docs.nativescript.org/ui/tab-view): UI component for grouping content into tabs and let users switch between them.
+- [TextField | NativeScript](https://docs.nativescript.org/ui/text-field): UI component for single-line text entry.
+- [DockLayout | NativeScript](https://docs.nativescript.org/ui/dock-layout): Layout container for docking views to the sides or the middle.
+- [Progress | NativeScript](https://docs.nativescript.org/ui/progress): UI component to indicate the progress of a task.
+- [Label | NativeScript](https://docs.nativescript.org/ui/label): UI component for displaying text.
+- [AbsoluteLayout | NativeScript](https://docs.nativescript.org/ui/absolute-layout): A simple layout container for positioning elements at top/left coordinates.
+- [SearchBar | NativeScript](https://docs.nativescript.org/ui/search-bar): UI component for entering search queries.
+- [TextView | NativeScript](https://docs.nativescript.org/ui/text-view): UI component for multi-line text entry.
+- [Dialogs | NativeScript](https://docs.nativescript.org/ui/dialogs): UI for grabbing the users attention, prompting for confirmation, choice, input, or credentials.
+- [Placeholder | NativeScript](https://docs.nativescript.org/ui/placeholder): Helper UI component for rendering native views.
+- [DatePicker | NativeScript](https://docs.nativescript.org/ui/date-picker): UI component for selecting a date.
+- [GridLayout | NativeScript](https://docs.nativescript.org/ui/grid-layout): A layout container that lets you arrange its child elements in a table-like manner.
+- [ListPicker | NativeScript](https://docs.nativescript.org/ui/list-picker): UI component for selecting a value from a list.
+- [ListView | NativeScript](https://docs.nativescript.org/ui/list-view): UI component for rendering large lists using view recycling.
+- [SegmentedBar | NativeScript](https://docs.nativescript.org/ui/segmented-bar): UI component for discrete slection.
+- [HtmlView | NativeScript](https://docs.nativescript.org/ui/html-view): UI component for rendering simple HTML content.
+- [Frame | NativeScript](https://docs.nativescript.org/ui/frame): UI component for displaying and navigating between Pages.
+- [Button | NativeScript](https://docs.nativescript.org/ui/button): A basic native button that reacts to user gestures.
+- [Switch | NativeScript](https://docs.nativescript.org/ui/switch): UI component for toggling state on or off.
+- [FlexboxLayout | NativeScript](https://docs.nativescript.org/ui/flexbox-layout): A layout container that implements (close-to-spec) CSS Flexbox.
+- [RootLayout | NativeScript](https://docs.nativescript.org/ui/root-layout): Layout container for dynamically layering views with a programmatic API.
+- [StackLayout | NativeScript](https://docs.nativescript.org/ui/stack-layout): A layout container that arranges child views in a horizontal or vertical stack.
+- [Image | NativeScript](https://docs.nativescript.org/ui/image): UI component for rendering images
+- [ScrollView | NativeScript](https://docs.nativescript.org/ui/scroll-view): UI component for rendering scrollable content (horizontal or vertical).
+- [WebView | NativeScript](https://docs.nativescript.org/ui/web-view): UI component for rendering web content.
+- [Slider | NativeScript](https://docs.nativescript.org/ui/slider): UI component for picking numeric values from a range.
+- [ActivityIndicator | NativeScript](https://docs.nativescript.org/ui/activity-indicator): UI component for signaling activity.
+- [WrapLayout | NativeScript](https://docs.nativescript.org/ui/wrap-layout): Layout Container that wraps it's items once there's no more space to fit them.
+- [TimePicker | NativeScript](https://docs.nativescript.org/ui/time-picker): NativeScript docs
+- [ActionBar | NativeScript](https://docs.nativescript.org/ui/action-bar): UI component abstracting the Android ActionBar, and the iOS NavigationBar.
+- [Page | NativeScript](https://docs.nativescript.org/ui/page): UI component for representing application screens the users can navigate to.
+
+## Troubleshooting
+
+- [Troubleshooting | NativeScript](https://docs.nativescript.org/troubleshooting): Common issues and solutions
+
+## Recommended-plugins
+
+- [Recommended Plugins | NativeScript](https://docs.nativescript.org/recommended-plugins): Recommended plugins for when core doesn't support it...
+
+## Tutorials
+
+- [Build a master-detail app with Svelte | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-svelte): NativeScript docs
+- [Build a master-detail app with Angular | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular): NativeScript docs
+- [Build a master-detail app with Plain TypeScript | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript): NativeScript docs
+- [Build a master-detail app with Vue | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue): NativeScript docs
+- [Build a master-detail app with React | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-react): NativeScript docs
+- [Build a master-detail app with Plain JavaScript | NativeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript): NativeScript docs

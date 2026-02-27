@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-face-det
 
 # @nativescript/mlkit-face-detection
 
-A plugin that is used with [@nativescript/mlkit-core](../mlkit-core/) to enable face detection and provide the [FaceResult](#faceresult) type for the data of the face detection event.
+A plugin that is used with [@nativescript/mlkit-core](../plugins/mlkit-core/) to enable face detection and provide the [FaceResult](#faceresult) type for the data of the face detection event.
 
 ## Contents
 

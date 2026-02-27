@@ -29,7 +29,7 @@ To clean, run this command from your project's root directory:
 ns clean
 ```
 
-Running `ns clean` removes the `node_modules`, `hooks`, and `platforms` directories and the `package-lock.json` file. You can customize what's cleaned in the [nativescript.config.ts](/configuration/nativescript#cli-pathstoclean).
+Running `ns clean` removes the `node_modules`, `hooks`, and `platforms`. You can customize what's cleaned in the [nativescript.config.ts](/configuration/nativescript#cli-pathstoclean).
 
 ### Cleaning multiple projects
 
@@ -63,7 +63,7 @@ To set the default package manager that the CLI uses (unless overridden in [nati
 
 ```bash
 ns package-manager set npm
+ns package-manager set bun
 ns package-manager set yarn
-ns package-manager set yarn2 # experimental
 ns package-manager set pnpm
 ```

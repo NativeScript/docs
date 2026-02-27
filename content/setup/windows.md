@@ -1,7 +1,7 @@
 ---
 title: Setting up Windows for NativeScript
 prev: /setup
-next: /creating-a-new-project
+next: /guide/creating-a-project
 contributors:
   - rigor789
 ---
@@ -108,7 +108,7 @@ The SDK is by default located at:
 %LOCALAPPDATA%\Android\Sdk
 ```
 
-To find the actual location in the Android Studio **Settings**, navigate to **Appearance & Behavior › System Settings › Android SDK** and copy the Android SDK Location.
+To find the actual location in the Android Studio **Settings**, navigate to **Languages & Frameworks › Android SDK** and copy the Android SDK Location.
 
 Next, add Android **platform-tools** to path:
 
