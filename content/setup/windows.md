@@ -4,6 +4,7 @@ prev: /setup
 next: /guide/creating-a-project
 contributors:
   - rigor789
+  - herefishyfish
 ---
 
 ## Setting up Windows for Android
@@ -18,10 +19,24 @@ Setting up the Android development environment can be daunting if you are new to
 
 ### Installing Node
 
-To install **Node** we recommend using a node version manager, such as [nvm-windows](https://github.com/coreybutler/nvm-windows), [nvs](https://github.com/jasongin/nvs) or any other node version manager you prefer. In these docs we will be using **nvm-windows**, but feel free to use a different node version manager.
+To install **Node** we recommend using a node version manager, such as [nvm-windows](https://github.com/coreybutler/nvm-windows), [nvs](https://github.com/jasongin/nvs) or any other node version manager you prefer. In these docs we will be using [nvm-windows](https://github.com/coreybutler/nvm-windows), but feel free to use a different node version manager.
 
-1. Follow the [install instructions in the nvm-windows repository](https://github.com/coreybutler/nvm-windows#installation--upgrades). We recommend using the installer, however if you have a more advanced understanding of your needs you may also go for the manual installation instead.
-2. Run and follow the `nvm-setup.exe` instructions.
+1. Install [nvm-windows](https://github.com/coreybutler/nvm-windows) using one of the following methods:
+   ::: code-group
+   
+   ```bash [Chocolatey]
+   choco install -y nvm
+   ```
+   
+   ```text [Installer Instructions]
+   https://github.com/coreybutler/nvm-windows#installation--upgrades
+   ```
+   
+   :::
+2. After installation, open a new Command Prompt and verify:
+   ```bash
+   nvm version
+   ```
 3. Once the installation is complete, open a new Command Prompt and verify you can run `nvm ls`.
 4. Install the latest Node release with:
    ```bash
@@ -46,7 +61,7 @@ If any of the above failed, we recommend checking out the [Microsoft Docs for Se
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) open an Administrator Command Prompt (right click and select "Run as Administrator") and run the following command:
 
 ```bash
-choco install -y temurin17
+choco install -y temurin21
 ```
 
 Once installed, you might need to add it to your `Path`. First, check if you need to add it to your `Path` by opening a new Command Prompt and running the following:
@@ -60,10 +75,10 @@ If you see a version number printed, you may skip this step. Otherwise, you will
 1. Search for "**Edit the system environment variables**" in Windows Search and select
 2. Click on "**Environment variables...**" in the bottom corner
 3. Under the "**User variables for...**" select the **Path** variable and click **Edit...**
-4. Click **New** and add the **JDK binaries folder** path to the list.
-   The default location is
+4. Click **New** and add the **JDK `bin` folder path** to the list.
+   The **JDK** location may vary depending on the version you have installed.
    ```
-   C:\Program Files\Eclipse Adoptium\jdk-17.X.X\bin
+   C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10\bin
    ```
 
 Additionally, some installations may require creating the `JAVA_HOME` environment variable manually:
@@ -74,7 +89,7 @@ Additionally, some installations may require creating the `JAVA_HOME` environmen
 4. Add the following variable. Ensure you're using the correct JDK path, without the \bin suffix. Example:
    ```
    VARIABLE_NAME: JAVA_HOME
-   VARIABLE_VALUE: C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot
+   VARIABLE_VALUE: C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot
    ```
 
 You may need to restart your terminal for changes to apply.
@@ -140,6 +155,16 @@ ns doctor android
 ```
 
 If you see **No issues were detected** then you have successfully set up your system.
+
+If you're using Chocolatey and prefer not to open a new terminal, you can refresh your environment variables in the current PowerShell session by running:
+
+```bash
+Import-Module "$env:ChocolateyInstall/helpers/chocolateyInstaller.psm1"
+Update-SessionEnvironment
+```
+
+After refreshing, run the `ns doctor` command again to confirm everything is working as expected.
+
 
 Lastly, you will also want to [set up an android device](/guide/running#enable-usb-debugging-on-android-devices) or [emulator](/guide/running#android-emulators).
 
