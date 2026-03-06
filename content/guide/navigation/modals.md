@@ -112,7 +112,7 @@ See the full Vue modal guide: https://nativescript-vue.org/docs/essentials/routi
 
 ```ts
 import ModalPage from './ModalPage.svelte'
-import { showModal, closeModal } from 'svelte-native'
+import { showModal, closeModal } from '@nativescript-community/svelte-native'
 
 async function openModal() {
   const result = await showModal({
@@ -273,7 +273,7 @@ export class ModalComponent {
 <Tab flavor="svelte">
 
 ```ts
-import { closeModal } from 'svelte-native'
+import { closeModal } from '@nativescript-community/svelte-native'
 
 function close() {
   closeModal()
@@ -379,7 +379,7 @@ $showModal(Detail, {
 
 ```ts
 import ModalPage from './ModalPage.svelte'
-import { showModal } from 'svelte-native'
+import { showModal } from '@nativescript-community/svelte-native'
 
 showModal({
   page: ModalPage,
@@ -526,7 +526,7 @@ $showModal(Detail, {
 
 ```ts
 import ModalPage from './ModalPage.svelte'
-import { showModal } from 'svelte-native'
+import { showModal } from '@nativescript-community/svelte-native'
 
 const result = await showModal({
   page: ModalPage,
@@ -537,7 +537,7 @@ console.log(result) // Hello!
 ```
 
 ```ts
-import { closeModal } from 'svelte-native'
+import { closeModal } from '@nativescript-community/svelte-native'
 
 closeModal('Hello!')
 ```

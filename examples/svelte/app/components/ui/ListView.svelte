@@ -1,6 +1,6 @@
 <!-- #region example -->
 <script lang="ts">
-  import { Template } from 'svelte-native/components'
+  import { Template } from '@nativescript-community/svelte-native/components'
 
   const items = []
   for (let i = 0; i < 100; i++) {
