@@ -12,7 +12,7 @@ All NativeScript apps can be bundled using [Vite](https://vite.dev/). To manage 
 Install the plugin.
 
 ```bash
-npm install @nativescript/vite
+npm install -d @nativescript/vite
 ```
 
 ## Quick start (`init`)
