@@ -12,8 +12,14 @@ All NativeScript apps can be bundled using [Vite](https://vite.dev/). To manage 
 Install the plugin.
 
 ```bash
-npm install @nativescript/vite
+npm install @nativescript/vite --save-dev
 ```
+
+::: tip Note
+
+Ensure it's installed in `devDependencies` since it's only needed for bundling and not at runtime.
+
+:::
 
 ## Quick start (`init`)
 
