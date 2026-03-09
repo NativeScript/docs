@@ -93,7 +93,7 @@ For additional inherited properties, refer to the [API Reference](/api/class/Swi
 ```ts
 on('checkedChange', (args: PropertyChangeData) => {
   const switch = args.object as Switch
-  console.log('Switch checked:', args.value)
+  console.log('Switch checked:', switch.checked)
 })
 ```
 
