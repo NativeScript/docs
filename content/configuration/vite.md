@@ -83,7 +83,7 @@ The plugin comes with several framework integrations.
 
 ```ts
 import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { vueConfig } from '@nativescript/vite'
+import { vueConfig } from '@nativescript/vite/vue'
 
 export default defineConfig(({ mode }): UserConfig => {
   return mergeConfig(vueConfig({ mode }), {})
@@ -94,7 +94,7 @@ export default defineConfig(({ mode }): UserConfig => {
 
 ```ts
 import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { angularConfig } from '@nativescript/vite'
+import { angularConfig } from '@nativescript/vite/angular'
 
 export default defineConfig(({ mode }): UserConfig => {
   return mergeConfig(angularConfig({ mode }), {})
@@ -105,7 +105,7 @@ export default defineConfig(({ mode }): UserConfig => {
 
 ```ts
 import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { solidConfig } from '@nativescript/vite'
+import { solidConfig } from '@nativescript/vite/solid'
 
 export default defineConfig(({ mode }): UserConfig => {
   return mergeConfig(solidConfig({ mode }), {})
@@ -116,10 +116,10 @@ export default defineConfig(({ mode }): UserConfig => {
 
 ```ts
 import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { solidConfig } from '@nativescript/vite'
+import { svelteConfig } from '@nativescript/vite/svelte'
 
 export default defineConfig(({ mode }): UserConfig => {
-  return mergeConfig(solidConfig({ mode }), {})
+  return mergeConfig(svelteConfig({ mode }), {})
 })
 ```
 
@@ -127,7 +127,7 @@ export default defineConfig(({ mode }): UserConfig => {
 
 ```ts
 import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { reactConfig } from '@nativescript/vite'
+import { reactConfig } from '@nativescript/vite/react'
 
 export default defineConfig(({ mode }): UserConfig => {
   return mergeConfig(reactConfig({ mode }), {})
@@ -148,6 +148,24 @@ export default defineConfig(({ mode }): UserConfig => {
 The above config configures most things required to bundle a NativeScript application.
 
 This page contains examples of common things you might want to change in the [Examples of configurations section](#configuration-examples) - for anything else not mentioned here, refer to the [Vite documentation](https://vite.dev/config/).
+
+## Type checking
+
+Type checking diagnostics come from the project's `tsconfig.json`. By default, the build follows `compilerOptions.noEmitOnError` to decide whether type errors should fail the build. If you want to override that behavior for Vite, pass a `typeCheck` option to the framework helper:
+
+```ts
+import { defineConfig } from 'vite';
+import { vueConfig } from '@nativescript/vite/vue';
+
+export default defineConfig(({ mode }) =>
+	vueConfig({ mode }, { typeCheck: 'warn' })
+);
+```
+
+Supported values are `typeCheck: 'error' | 'warn' | 'off'`.
+You can also use an object form such as `typeCheck: { failOnError: false }`.
+For temporary overrides, `NS_VITE_TYPECHECK=warn` or `--env.typecheck=warn` will force warn mode for a run.
+If you want type errors to stay non-fatal without any Vite override, set `"noEmitOnError": false` in your project's `tsconfig.json`.
 
 ## Advanced: HMR update hooks
 
