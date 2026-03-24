@@ -99,6 +99,7 @@ You may need to restart your terminal for changes to apply.
 [Download and install Android Studio](https://developer.android.com/studio). In the installation wizard make sure you have the following components selected (the list should appear if you select **custom** options):
 
 - Android SDK
+- Android SDK Build-Tools
 - Android SDK Platform
 - Android Virtual Device
 - Performance (Intel ® HAXM) &mdash; optional, learn more about [AMD Processor & Hyper-V support](https://android-developers.googleblog.com/2018/07/android-emulator-amd-processor-hyper-v.html)
@@ -106,6 +107,15 @@ You may need to restart your terminal for changes to apply.
 The setup may take a while, but once it has finished a welcome screen should appear.
 
 Android Studio installs the latest Android SDK by default, which in most cases should be all that's needed to build a NativeScript app.
+
+After Android Studio finishes installing, open **Settings > Languages & Frameworks > Android SDK** and confirm the SDK path shown there matches the path you will use for `ANDROID_HOME`.
+
+Then verify the following components are installed:
+
+- Under **SDK Platforms**: at least one recent Android SDK Platform
+- Under **SDK Tools**: **Android SDK Build-Tools** and **Android SDK Platform-Tools**
+
+If `ns doctor android` later reports that no compatible Android SDK Build-Tools are installed, return to this screen and install a recent Build-Tools version.
 
 ### Configuring `ANDROID_HOME` and `PATH`
 
@@ -156,6 +166,25 @@ ns doctor android
 
 If you see **No issues were detected** then you have successfully set up your system.
 
+If not, verify the values NativeScript will resolve from your shell:
+
+```bat
+echo %JAVA_HOME%
+javac --version
+where javac
+echo %ANDROID_HOME%
+where adb
+dir "%ANDROID_HOME%\build-tools"
+```
+
+Expected results:
+
+- `javac --version` prints a Java version
+- `where javac` points to your JDK `bin` folder
+- `echo %ANDROID_HOME%` prints the Android SDK path configured in Android Studio
+- `where adb` points to `%ANDROID_HOME%\platform-tools\adb.exe`
+- `dir "%ANDROID_HOME%\build-tools"` shows one or more installed Build-Tools versions
+
 If you're using Chocolatey and prefer not to open a new terminal, you can refresh your environment variables in the current PowerShell session by running:
 
 ```bash
@@ -166,9 +195,23 @@ Update-SessionEnvironment
 After refreshing, run the `ns doctor` command again to confirm everything is working as expected.
 
 
+::: tip Common issues on Windows
+
+If you installed Chocolatey, the JDK, or Android Studio after opening your terminal or VS Code, close all existing terminal windows and open a new one before running `ns doctor android` again. In some cases you may also need to fully restart VS Code.
+
+If Android Studio uses a custom SDK location, make sure `ANDROID_HOME` points to that exact location instead of the default `%LOCALAPPDATA%\Android\Sdk` path.
+
+:::
+
 Lastly, you will also want to [set up an android device](/guide/running#enable-usb-debugging-on-android-devices) or [emulator](/guide/running#android-emulators).
 
 ::: warning Troubleshooting
+
+If `ns doctor android` reports **No compatible version of the Android SDK Build-tools are installed on your system**, open Android Studio and go to **Settings > Languages & Frameworks > Android SDK > SDK Tools**, then install or update **Android SDK Build-Tools**.
+
+If `ns doctor android` reports **Error executing command `javac`**, verify both `JAVA_HOME` and your `Path` are configured correctly, then confirm `javac --version` works in a new terminal window.
+
+If `ANDROID_HOME` seems correct but NativeScript still cannot find the SDK, verify the path from `echo %ANDROID_HOME%` matches the Android Studio SDK location exactly and that `platform-tools` and `build-tools` exist inside that folder.
 
 If any of the above failed, we recommend asking in [our Community Discord](https://nativescript.org/discord) for assistance.
 
