@@ -51,7 +51,7 @@ NativeScript will automatically switch to UIScene lifecycle when a scene manifes
 
 When this configuration is detected, NativeScript adopts UIScene; on devices that don’t support scenes, your app continues to behave as a single-window app.
 
-:::note iPhone and UIScene
+:::tip iPhone and UIScene
 Even on iPhone, adding the manifest switches your app to UIScene lifecycle. Xcode may show warnings like “UIScene lifecycle will soon be required” — using the manifest addresses this.
 :::
 
