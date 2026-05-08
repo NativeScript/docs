@@ -109,12 +109,12 @@ Defaults to `true`.
 ### keyboardType
 
 ```ts
-keyboardType: CoreTypes.KeyboardType | number // "datetime" | "email" | "integer" | "number" | "phone" | "url"
+keyboardType: CoreTypes.KeyboardType | number // "datetime" | "email" | "integer" | "number" | "decimal" | "phone" | "url"
 ```
 
 Gets or sets the keyboard type shown when editing this TextView.
 
-On iOS, any valid `UIKeyboardType` number works, for example:
+On iOS, any valid `UIKeyboardType` number also works, for example:
 
 ```ts
 keyboardType = 8 // UIKeyboardType.DecimalPad

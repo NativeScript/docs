@@ -173,6 +173,12 @@ function getPlugins() {
 					repo: `${officialGithubUrl}/imagepicker`,
 				},
 				{
+					name: 'Input Accessory',
+					link: '/plugins/input-accessory',
+					readme: `${officialPlugins_baseUrl}/input-accessory/README.md`,
+					repo: `${officialGithubUrl}/input-accessory`,
+				},
+				{
 					name: 'Ionic Portals',
 					link: '/plugins/ionic-portals',
 					readme: `${officialUIKitPlugins_baseUrl}/ionic-portals/README.md`,

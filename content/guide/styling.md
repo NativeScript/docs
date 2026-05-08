@@ -226,7 +226,8 @@ This list of properties can be set in CSS or through the style property of each 
 | `border-radius`       | `borderRadius`       | Sets a border radius to the matched view’s.                                                                                                                                                                                               |
 | `box-shadow`          | `boxShadow`          | Sets a box shadow to the matched view's.                                                                                                                                                                                                  |
 | `clip-path`           | `clipPath`           | Sets the clip-path. Supported shapes are circle, ellipse, rect and polygon. You can define your own shape using [clippy](http://bennettfeely.com/clippy/)                                                                                 |
-| `color`               | `color`              | Sets a solid-color value to the matched view’s foreground.                                                                                                                                                                                |
+| `color`               | `color`              | Sets a solid-color value to the matched view’s foreground. 
+| `direction`               | `direction`              | Sets the direction of text, table and grid columns, and horizontal overflow. Use rtl for languages written from right to left (like Hebrew or Arabic), and ltr for those written from left to right (like English and most other languages).                                                                                                                                                                     |
 | `font`                | `font`               | Sets the font properties (this includes `font-family`, `font-size`, `font-style` and `font-weight`) of the matched view.                                                                                                                  |
 | `font-family`         | `fontFamily`         | Sets the font family of the matched view.                                                                                                                                                                                                 |
 | `font-size`           | `fontSize`           | Sets the font size of the matched view (only supports device-independent units).                                                                                                                                                          |
@@ -258,6 +259,39 @@ This list of properties can be set in CSS or through the style property of each 
 | `white-space`         | `whiteSpace`         | Sets how white space inside an element is handled.                                                                                                                                                                                        |
 | `width`               | `width`              | Sets the view width.                                                                                                                                                                                                                      |
 | `z-index`             | `zIndex`             | Sets the z-index. (On Android API Level 21 and above.)                                                                                                                                                                                    |
+
+## Layout direction (LTR / RTL)
+
+NativeScript now supports an **inherited CSS `direction` property** to force the layout direction of views to either left-to-right (`ltr`) or right-to-left (`rtl`).
+
+```css
+/* Apply RTL to the entire app */
+.ns-root {
+  direction: rtl;
+}
+```
+
+What this does:
+
+- tells NativeScript to use the **platform’s native direction APIs** so you get the OS-level behavior for RTL,
+- makes navigation transitions direction-aware (slide, flip, etc.),
+- makes default label/text alignment respect the direction,
+- enables direction-aware layout for FlexboxLayout on iOS,
+- aligns horizontal scroll views to the end in RTL,
+- and allows using `start` / `end` values for `horizontalAlignment` to align relative to the current direction.
+
+Android note:
+
+```xml
+<!-- App_Resources/Android/src/main/AndroidManifest.xml -->
+<application
+    android:name="com.tns.NativeScriptApplication"
+    android:supportsRtl="true"
+    ...>
+</application>
+```
+
+You **must** enable `android:supportsRtl="true"` in the manifest for Android to actually honor RTL. On iOS this is always available.
 
 ### Accessing NativeScript View properties with CSS
 

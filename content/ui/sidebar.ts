@@ -70,6 +70,7 @@ export default [
           { text: 'SearchBar', link: '/ui/search-bar' },
           { text: 'SegmentedBar', link: '/ui/segmented-bar' },
           { text: 'Slider', link: '/ui/slider' },
+          { text: 'SplitView', link: '/ui/split-view' },
           { text: 'Switch', link: '/ui/switch' },
           { text: 'TabView', link: '/ui/tab-view' },
           { text: 'TextField', link: '/ui/text-field' },

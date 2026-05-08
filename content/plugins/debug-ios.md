@@ -11,7 +11,7 @@ editUrl: https://github.com/NativeScript/plugins/tree/main/packages/debug-ios/RE
 
 # @nativescript/debug-ios
 
-Advanced iOS debugging made possible via [Flex](https://github.com/FLEXTool/FLEX).
+Advanced iOS debugging made possible via [DebugSwift](https://github.com/DebugSwift/DebugSwift).
 
 ```cli
 npm install @nativescript/debug-ios -D
@@ -24,6 +24,16 @@ import { NativeScriptDebugIOS } from '@nativescript/debug-ios'
 
 NativeScriptDebugIOS.show()
 ```
+
+## API
+
+### `NativeScriptDebugIOS.show()`
+
+Shows the DebugSwift debugging UI.
+
+### `NativeScriptDebugIOS.toggle()`
+
+Toggles the visibility of the DebugSwift debugging UI.
 
 ## License
 

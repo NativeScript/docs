@@ -1,0 +1,31 @@
+<!-- #region example -->
+<SplitView
+  displayMode="twoBesideSecondary"
+  splitBehavior="tile"
+  preferredPrimaryColumnWidthFraction="0.22"
+  preferredSupplementaryColumnWidthFraction="0.34"
+  preferredInspectorColumnWidthFraction="0.19"
+  (inspectorChange)="onInspectorChange($event)"
+  navigationBarTintColor="blue"
+>
+  <page-router-outlet 
+    name="primary" 
+    splitRole="primary"
+  ></page-router-outlet>
+
+  <page-router-outlet
+    name="secondary"
+    splitRole="secondary"
+  ></page-router-outlet>
+
+  <page-router-outlet
+    name="supplementary"
+    splitRole="supplementary"
+  ></page-router-outlet>
+
+  <page-router-outlet
+    name="inspector"
+    splitRole="inspector"
+  ></page-router-outlet>
+</SplitView>
+<!-- #endregion example -->

@@ -124,6 +124,11 @@ export default [
         icon: 'file',
       },
       {
+        text: 'vite.config.ts',
+        link: '/project-structure/vite-config',
+        icon: 'file',
+      },
+      {
         text: 'webpack.config.js',
         link: '/project-structure/webpack-config',
         icon: 'file',
@@ -150,6 +155,10 @@ export default [
       {
         text: 'Config Reference',
         link: '/configuration/nativescript',
+      },
+      {
+        text: 'Vite Reference',
+        link: '/configuration/vite',
       },
       {
         text: 'Webpack Reference',
@@ -232,6 +241,15 @@ export default [
     ]
   },
   {
+    text: 'Agentic Coding',
+    items: [
+      {
+        text: 'Leverage AI assistants',
+        link: '/guide/agentic-coding',
+      }
+    ]
+  },
+  {
     text: 'Advanced Concepts',
     items: [
       {
@@ -283,6 +301,10 @@ export default [
         link: '/guide/multithreading',
       },
       {
+        text: 'Multi-Window Development',
+        link: '/guide/multi-window',
+      },
+      {
         text: 'Code Sharing',
         link: '/guide/code-sharing',
       },
@@ -311,6 +333,10 @@ export default [
             link: '/guide/android-marshalling',
           },
         ],
+      },
+      {
+        text: 'Hooks',
+        link: '/guide/hooks',
       },
       {
         text: 'Platform Version Handling',

@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { Template } from 'svelte-native/components'
+  import { Template } from '@nativescript-community/svelte-native/components'
   import Button from '~/components/ui/Button.svelte'
-  import { navigate } from 'svelte-native'
+  import { navigate } from '@nativescript-community/svelte-native'
   import ActivityIndicator from '~/components/ui/ActivityIndicator.svelte'
   import ActionBar from '~/components/ui/ActionBar.svelte'
   import DatePicker from '~/components/ui/DatePicker.svelte'
