@@ -9,5 +9,23 @@ editUrl: https://github.com/NativeScript/firebase/tree/main/packages/firebase-in
 <ViewOnGitHubButton href="https://github.com/NativeScript/firebase/tree/main/packages/firebase-installations"/>
 </p>
 
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+# @nativescript/firebase-installations
+
+```cli
+npm install @nativescript/firebase-installations
+```
+
+## What does it do
+
+The Firebase installations service:
+
+- provides a unique identifier for a Firebase installation
+- provides an auth token for a Firebase installation
+- provides an API to perform GDPR-compliant deletion of a Firebase installation.
+  Each configured FirebaseApp has a corresponding single instance of Installations. An instance of the class provides access to the installation info for the FirebaseApp as well as the ability to delete it. A Firebase Installation is unique by FirebaseApp.name and FirebaseApp.options.googleAppID
+
+## Usage
+
+## License
+
+Apache License Version 2.0
