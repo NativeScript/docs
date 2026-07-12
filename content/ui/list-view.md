@@ -12,7 +12,7 @@ contributors:
 Newer versions of `ListView` (v9+) can also render **sectioned data** (for example, A–Z lists) with **sticky headers** and an **optional search bar** that can auto-hide on iOS.
 
 ::: tip
-You can also explore 
+You can also explore
 [CollectionView](https://github.com/nativescript-community/ui-collectionview) from the community.
 :::
 
@@ -86,18 +86,17 @@ Starting with v9, ListView can render sectioned data with sticky headers and an 
 A supported data shape looks like this:
 
 ```ts
-const countries: { title: string; items: { name: string; code?: string; flag?: string }[] }[] = [
+const countries: {
+  title: string
+  items: { name: string; code?: string; flag?: string }[]
+}[] = [
   {
     title: 'A',
-    items: [
-      { name: 'Albania', code: 'AL' },
-    ],
+    items: [{ name: 'Albania', code: 'AL' }],
   },
   {
     title: 'B',
-    items: [
-      { name: 'Bahamas', code: 'BS' },
-    ],
+    items: [{ name: 'Bahamas', code: 'BS' }],
   },
 ]
 ```

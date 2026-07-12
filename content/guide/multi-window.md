@@ -76,7 +76,7 @@ export const SceneEvents = {
   sceneDidEnterBackground: 'sceneDidEnterBackground',
   sceneDidDisconnect: 'sceneDidDisconnect',
   sceneContentSetup: 'sceneContentSetup',
-};
+}
 ```
 
 Event payloads include scene and window references:
@@ -85,13 +85,13 @@ Event payloads include scene and window references:
 /** iOS event data for UIScene lifecycle (iOS 13+). */
 export interface SceneEventData extends ApplicationEventData {
   /** The UIWindowScene instance associated with this event. */
-  scene?: UIWindowScene;
+  scene?: UIWindowScene
   /** The UIWindow for this scene (if applicable). */
-  window?: UIWindow;
+  window?: UIWindow
   /** Scene connection options (for sceneWillConnect). */
-  connectionOptions?: UISceneConnectionOptions;
+  connectionOptions?: UISceneConnectionOptions
   /** Additional user info from the notification. */
-  userInfo?: NSDictionary<any, any>;
+  userInfo?: NSDictionary<any, any>
 }
 ```
 
@@ -114,97 +114,100 @@ When UIScene is active, `Application.ios` exposes helpers for inspecting and con
 ### Listen to scene events
 
 ```ts
-import { Application, SceneEvents } from '@nativescript/core';
+import { Application, SceneEvents } from '@nativescript/core'
 
 Application.on(SceneEvents.sceneWillConnect, (args) => {
-  console.log('Scene connecting:', args.scene);
-  console.log('Window:', args.window);
-  console.log('Connection options:', args.connectionOptions);
-});
+  console.log('Scene connecting:', args.scene)
+  console.log('Window:', args.window)
+  console.log('Connection options:', args.connectionOptions)
+})
 
 Application.on(SceneEvents.sceneDidActivate, (args) => {
-  console.log('Scene active:', args.scene);
-});
+  console.log('Scene active:', args.scene)
+})
 
 Application.on(SceneEvents.sceneWillResignActive, (args) => {
-  console.log('Scene will resign active:', args.scene);
-});
+  console.log('Scene will resign active:', args.scene)
+})
 
 Application.on(SceneEvents.sceneWillEnterForeground, (args) => {
-  console.log('Scene will enter foreground:', args.scene);
-});
+  console.log('Scene will enter foreground:', args.scene)
+})
 
 Application.on(SceneEvents.sceneDidEnterBackground, (args) => {
-  console.log('Scene entered background:', args.scene);
-});
+  console.log('Scene entered background:', args.scene)
+})
 
 Application.on(SceneEvents.sceneDidDisconnect, (args) => {
-  console.log('Scene disconnected:', args.scene);
-});
+  console.log('Scene disconnected:', args.scene)
+})
 
 Application.on(SceneEvents.sceneContentSetup, (args) => {
   // Create and attach NativeScript View content for the new scene here
   // See "Provide scene-specific UI" section below
-  setupSceneContent(args);
-});
+  setupSceneContent(args)
+})
 ```
 
 ### Inspect and manage windows
 
 ```ts
-import { Application } from '@nativescript/core';
+import { Application } from '@nativescript/core'
 
 if (Application.ios.supportsScenes()) {
-  const windows = Application.ios.getAllWindows();
-  const scenes = Application.ios.getWindowScenes();
-  const primaryWindow = Application.ios.getPrimaryWindow();
+  const windows = Application.ios.getAllWindows()
+  const scenes = Application.ios.getWindowScenes()
+  const primaryWindow = Application.ios.getPrimaryWindow()
 
-  console.log(`App has ${windows.length} windows`);
-  console.log(`App has ${scenes.length} scenes`);
-  console.log('Primary window:', primaryWindow);
+  console.log(`App has ${windows.length} windows`)
+  console.log(`App has ${scenes.length} scenes`)
+  console.log('Primary window:', primaryWindow)
 
   if (Application.ios.isUsingSceneLifecycle()) {
-    console.log('Using UIScene lifecycle');
+    console.log('Using UIScene lifecycle')
   }
 } else {
-  console.log('Single-window app lifecycle in effect');
+  console.log('Single-window app lifecycle in effect')
 }
 ```
 
 ### Provide scene-specific UI
 
 ```ts
-import { Application, Page, Utils } from '@nativescript/core';
+import { Application, Page, Utils } from '@nativescript/core'
 
 function createPageForScene(scene: UIWindowScene, window: UIWindow): Page {
   // Construct any NativeScript view hierarchy here
-  const page = new Page();
+  const page = new Page()
   // ... add content
-  return page;
+  return page
 }
 
 export function setupSceneContent(args: SceneEventData) {
   // Optionally distinguish scenes by an id when opening a new window
   // (e.g., via NSUserActivity userInfo)
-  let nsViewId: string | undefined;
+  let nsViewId: string | undefined
   if (args.connectionOptions?.userActivities?.count > 0) {
-    const activity = args.connectionOptions.userActivities.allObjects.objectAtIndex(0) as NSUserActivity;
-    nsViewId = Utils.dataDeserialize(activity.userInfo).id;
+    const activity =
+      args.connectionOptions.userActivities.allObjects.objectAtIndex(
+        0,
+      ) as NSUserActivity
+    nsViewId = Utils.dataDeserialize(activity.userInfo).id
   }
 
-  let page: Page;
+  let page: Page
   switch (nsViewId) {
     case 'newSceneBasic':
-      page = createPageForScene(args.scene, args.window);
-      break;
+      page = createPageForScene(args.scene, args.window)
+      break
     case 'newSceneAlt':
-      page = createPageForScene(args.scene, args.window); // replace with alt page
-      break;
+      page = createPageForScene(args.scene, args.window) // replace with alt page
+      break
     default:
-      page = createPageForScene(args.scene, args.window);
+      page = createPageForScene(args.scene, args.window)
   }
 
-  Application.ios.setWindowRootView(args.window, page);
+  Application.ios.setWindowRootView(args.window, page)
 }
 ```
 
@@ -224,7 +227,7 @@ Existing apps do not need to change code to adopt UIScene. To enable multi-windo
 
 1. Add the scene manifest to `Info.plist` (see above).
 2. Listen to `SceneEvents` to tailor behavior per window.
-1. If you open additional windows, set their root views with `Application.ios.setWindowRootView` during `sceneContentSetup`.
+3. If you open additional windows, set their root views with `Application.ios.setWindowRootView` during `sceneContentSetup`.
 
 ## Troubleshooting
 
@@ -241,4 +244,3 @@ With UIScene enabled, NativeScript gives you:
 - Backwards-compatible behavior for apps that haven’t yet adopted scenes
 
 Use the examples above as a starting point to build multi-window workflows on iPadOS and visionOS while keeping your app ready for the future UIScene requirement on iOS.
-

@@ -291,19 +291,19 @@ Controls how Android system insets (status bar, navigation bar, cutouts) are app
 
 Options:
 
-| Value | Behavior |
-|---|---|
-| `none` | Apply and consume all inset edges |
-| `left` / `top` / `right` / `bottom` | Apply and consume only the specified edge |
-| `dont-apply` | Do not apply or consume any insets — triggers `androidOverflowInset` |
-| `left-dont-consume` | Apply the left inset but do not consume it; all other insets are ignored |
-| `top-dont-consume` | Apply the top inset but do not consume it; all other insets are ignored |
-| `right-dont-consume` | Apply the right inset but do not consume it; all other insets are ignored |
-| `bottom-dont-consume` | Apply the bottom inset but do not consume it; all other insets are ignored |
-| `all-but-left` | Apply and consume all insets except left |
-| `all-but-top` | Apply and consume all insets except top |
-| `all-but-right` | Apply and consume all insets except right |
-| `all-but-bottom` | Apply and consume all insets except bottom |
+| Value                               | Behavior                                                                   |
+| ----------------------------------- | -------------------------------------------------------------------------- |
+| `none`                              | Apply and consume all inset edges                                          |
+| `left` / `top` / `right` / `bottom` | Apply and consume only the specified edge                                  |
+| `dont-apply`                        | Do not apply or consume any insets — triggers `androidOverflowInset`       |
+| `left-dont-consume`                 | Apply the left inset but do not consume it; all other insets are ignored   |
+| `top-dont-consume`                  | Apply the top inset but do not consume it; all other insets are ignored    |
+| `right-dont-consume`                | Apply the right inset but do not consume it; all other insets are ignored  |
+| `bottom-dont-consume`               | Apply the bottom inset but do not consume it; all other insets are ignored |
+| `all-but-left`                      | Apply and consume all insets except left                                   |
+| `all-but-top`                       | Apply and consume all insets except top                                    |
+| `all-but-right`                     | Apply and consume all insets except right                                  |
+| `all-but-bottom`                    | Apply and consume all insets except bottom                                 |
 
 ### enableSwipeBackNavigation
 

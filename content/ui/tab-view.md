@@ -10,6 +10,7 @@ contributors:
 `<TabView>` is a UI component that shows content grouped into tabs and lets users switch between them.
 
 As of NativeScript 9, on **iOS 26+**, TabView now supports:
+
 - an **optional bottom accessory view** (`iosBottomAccessory`) that sits just above the tab bar and participates in layout, and
 - a **configurable tab bar minimize behavior** (`iosTabBarMinimizeBehavior`) so you can control how/when the tab bar hides when scrolling.
 
@@ -135,7 +136,7 @@ Sets the underline color of the tabs. **Android only.**
 
 ```css
 .tab-view {
-   android-selected-tab-highlight-color: #3d5a80;
+  android-selected-tab-highlight-color: #3d5a80;
 }
 ```
 
@@ -173,9 +174,10 @@ Adds a [bottom accessory view](https://developer.apple.com/documentation/uikit/u
 iosBottomAccessory: View // iOS 26+ only
 ```
 
-Assigns a bottom accessory view that is rendered *above* the iOS tab bar, inside the TabView's layout. This is useful for mini players, status bars, or context-sensitive actions that should stay attached to the tab bar. On platforms below iOS 26 this property is ignored.
+Assigns a bottom accessory view that is rendered _above_ the iOS tab bar, inside the TabView's layout. This is useful for mini players, status bars, or context-sensitive actions that should stay attached to the tab bar. On platforms below iOS 26 this property is ignored.
 
 Notes:
+
 - Give it an explicit `height` or style it with CSS so the TabView can measure it.
 - It participates in layout pass fixes added in this release so it will resize alongside safe areas.
 - On Android this is ignored.

@@ -55,6 +55,7 @@ splitView.on('inspectorChange', ({ data }) => {
   console.log('Inspector visible?', data.showing)
 })
 ```
+
 Fired whenever the inspector column is shown or hidden.
 
 ## Concepts
@@ -74,7 +75,7 @@ If a role is omitted, SplitView falls back to the order in which children were a
 
 ### Column styles
 
-The underlying controller can operate in *double* or *triple* column styles. SplitView exposes this through a common enum:
+The underlying controller can operate in _double_ or _triple_ column styles. SplitView exposes this through a common enum:
 
 - `SplitView.SplitStyle.double`
 - `SplitView.SplitStyle.triple`

@@ -62,6 +62,7 @@ curl -o CLAUDE.md https://docs.nativescript.org/assets/agentic/NATIVESCRIPT.md
 This is a NativeScript Vue 3 application for managing recipes.
 
 ## Project-Specific Patterns
+
 - We use Pinia for state management
 - API calls go through `src/services/api.ts`
 - All components are in `src/components/`
@@ -69,6 +70,7 @@ This is a NativeScript Vue 3 application for managing recipes.
 ---
 
 # NativeScript AI Agent Context
+
 ... (rest of NATIVESCRIPT.md content)
 ```
 
@@ -86,12 +88,12 @@ Claude will automatically read the `CLAUDE.md` file and use it to inform all cod
 With the context file in place, you can give high-level instructions:
 
 ```
-Create a settings page with switches for notifications, dark mode, and location tracking. 
+Create a settings page with switches for notifications, dark mode, and location tracking.
 Save preferences using ApplicationSettings.
 ```
 
 ```
-Build a ListView that shows products with images, names, and prices. 
+Build a ListView that shows products with images, names, and prices.
 Use template selectors for featured vs regular items.
 ```
 
@@ -201,16 +203,19 @@ For team projects, consider extending the base context file with project-specifi
 # Project: Recipe Manager App
 
 ## Architecture
+
 - Feature-based folder structure (`src/features/recipes/`, `src/features/auth/`)
 - Shared components in `src/shared/components/`
 - All API calls through `src/core/api/client.ts`
 
 ## Conventions
+
 - Use `const` for all variables unless reassignment is needed
 - Prefer composition over inheritance
 - All async operations use async/await (no raw promises)
 
 ## State Management
+
 - Pinia stores in `src/stores/`
 - Each feature has its own store
 
