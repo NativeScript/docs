@@ -4,6 +4,8 @@ node_modules
 # content/api/**/*
 .vitepress/dist
 .vitepress/cache
+tmp/
+.wrangler/
 
 explore/
 

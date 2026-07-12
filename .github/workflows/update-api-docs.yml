@@ -1,0 +1,49 @@
+name: update-api-docs
+
+# Regenerates content/api when a new @nativescript/core version is released.
+#
+# Triggered by a repository_dispatch sent from NativeScript/NativeScript when
+# a core release tag (e.g. "9.0.21-core") is pushed — see the
+# notify_docs_core_release.yml workflow in that repo. Can also be run
+# manually for any published version.
+
+on:
+  repository_dispatch:
+    types: [core-release]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '@nativescript/core version to generate docs for'
+        required: false
+        default: 'latest'
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.14.0
+      - name: Resolve target version
+        run: |
+          VERSION="${{ github.event.client_payload.version || inputs.version || 'latest' }}"
+          echo "CORE_VERSION=$VERSION" >> "$GITHUB_ENV"
+      - name: Install dependencies
+        run: yarn
+      - name: Update @nativescript/core
+        run: yarn add -D @nativescript/core@$CORE_VERSION
+      - name: Regenerate API reference
+        run: yarn generate:api-docs
+      - name: Open PR if the API changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore(api): regenerate API reference for @nativescript/core@${{ env.CORE_VERSION }}'
+          title: 'chore(api): regenerate API reference (@nativescript/core@${{ env.CORE_VERSION }})'
+          body: |
+            Automated regeneration of `content/api` for `@nativescript/core@${{ env.CORE_VERSION }}`.
+
+            Generated with `yarn generate:api-docs`.
+          branch: chore/update-api-docs
+          delete-branch: true

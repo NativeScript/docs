@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
-import apiSidebar from '../content/api/sidebar.json'
+import llmstxt from 'vitepress-plugin-llms'
+import typedocSidebar from '../content/api/typedoc-sidebar.json'
 import mainSidebar from '../content/sidebar'
 import uiSidebar from '../content/ui/sidebar'
 import pluginsSidebar from '../content/plugins/sidebar'
@@ -11,6 +12,14 @@ import { SiteMap } from './genSitemap.mjs'
 
 const isDev = process.env.NODE_ENV !== 'production'
 const branch = process.env.CF_PAGES_BRANCH ?? 'main'
+
+const apiSidebar = [
+  {
+    text: 'API Reference',
+    link: '/api/',
+  },
+  ...typedocSidebar,
+]
 
 const sitemap = new SiteMap()
 const baseUrl = 'https://docs.nativescript.org'
@@ -45,6 +54,14 @@ export default defineConfig({
     ssr: {
       noExternal: ['@nativescript/vitepress-theme'],
     },
+    plugins: [
+      llmstxt({
+        domain: 'https://docs.nativescript.org',
+        title: 'NativeScript',
+        description:
+          'NativeScript empowers you to access native platform APIs from JavaScript directly. Develop iOS, Android and visionOS apps with TypeScript, Angular, Vue, React, Svelte or Solid.',
+      }),
+    ],
   },
   themeConfig: {
     editLink: {
@@ -72,7 +89,21 @@ export default defineConfig({
   },
   markdown: {
     headers: true,
-    theme: "github-dark"
+    theme: "github-dark",
+    config(md) {
+      // Inject the "Copy page" button (markdown/LLM/MCP actions) at the top
+      // of every page body, right below the theme-rendered title.
+      md.core.ruler.push('copy-page-button', (state) => {
+        // only inject into full page renders (not inline snippets like
+        // custom container titles), and only for actual doc pages
+        if (state.inlineMode) return
+        if (!state.env?.relativePath) return
+        if (state.env?.frontmatter?.copyPage === false) return
+        const token = new state.Token('html_block', '', 0)
+        token.content = '<CopyPageButton />\n'
+        state.tokens.unshift(token)
+      })
+    },
   },
   async transformPageData(pageData, { siteConfig }) {
     // const contributors = await githubAuthors.getAuthorsForFilePath(

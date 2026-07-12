@@ -266,6 +266,7 @@ If the AI generates DOM-based code instead of NativeScript:
 ## Resources
 
 - [Download NATIVESCRIPT.md](https://docs.nativescript.org/assets/agentic/NATIVESCRIPT.md)
+- [Using the Docs with AI](/guide/ai) - markdown pages, llms.txt and the docs MCP server
 - [Claude Code Documentation](https://code.claude.com/docs)
 - [NativeScript Best Practices](/best-practices/)
 - [Creating Custom Elements](/guide/create-custom-native-elements)

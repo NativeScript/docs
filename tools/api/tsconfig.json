@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"lib": ["ESNext", "DOM"],
+		"types": [],
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"experimentalDecorators": true,
+		"noEmit": true
+	},
+	"include": ["../../node_modules/@nativescript/core/**/*.d.ts"],
+	"exclude": [
+		"../../node_modules/@nativescript/core/platforms",
+		"../../node_modules/@nativescript/core/ui/frame/transition-definitions.android.d.ts"
+	]
+}

@@ -246,7 +246,11 @@ export default [
       {
         text: 'Leverage AI assistants',
         link: '/guide/agentic-coding',
-      }
+      },
+      {
+        text: 'Using the Docs with AI',
+        link: '/guide/ai',
+      },
     ]
   },
   {

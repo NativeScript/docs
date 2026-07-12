@@ -1,0 +1,31 @@
+{
+	"$schema": "https://typedoc-plugin-markdown.org/schema.json",
+	"plugin": [
+		"typedoc-plugin-markdown",
+		"typedoc-plugin-frontmatter",
+		"typedoc-vitepress-theme",
+		"./typedoc-ns-theme.mjs"
+	],
+	"entryPoints": ["../../node_modules/@nativescript/core/index.d.ts"],
+	"tsconfig": "./tsconfig.json",
+	"out": "../../content/api",
+	"name": "NativeScript",
+	"readme": "none",
+	"excludeExternals": true,
+	"externalPattern": ["**/node_modules/!(@nativescript)/**"],
+	"excludeInternal": true,
+	"excludePrivate": true,
+	"excludeProtected": false,
+	"docsRoot": "../../content",
+	"sanitizeComments": true,
+	"hidePageTitle": true,
+	"hideBreadcrumbs": true,
+	"useCodeBlocks": true,
+	"parametersFormat": "table",
+	"enumMembersFormat": "table",
+	"indexFormat": "table",
+	"expandObjects": true,
+	"expandParameters": true,
+	"json": "../../tmp/api-full.json",
+	"pretty": false
+}
