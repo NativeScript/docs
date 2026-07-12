@@ -53,7 +53,22 @@ if (fs.existsSync(path.join(moduleDir, 'namespaces'))) {
   walk(apiDir)
 }
 
-// 4. Build the compact symbol index from the full TypeDoc JSON
+// 4. Use clean URLs in the sidebar (".md" URLs serve the raw markdown twins,
+// the rendered pages live at the extension-less path)
+const sidebarPath = path.join(apiDir, 'typedoc-sidebar.json')
+const sidebar = JSON.parse(fs.readFileSync(sidebarPath, 'utf8'))
+const stripMd = (items) => {
+  for (const item of items) {
+    if (item.link?.endsWith('.md')) {
+      item.link = item.link.slice(0, -'.md'.length)
+    }
+    if (item.items) stripMd(item.items)
+  }
+}
+stripMd(sidebar)
+fs.writeFileSync(sidebarPath, JSON.stringify(sidebar, null, 2))
+
+// 5. Build the compact symbol index from the full TypeDoc JSON
 const project = JSON.parse(fs.readFileSync(fullJsonPath, 'utf8'))
 
 const KIND = {

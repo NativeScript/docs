@@ -83,8 +83,15 @@ console.log(`Smoke testing ${BASE}\n`)
 await checkPage('/', ['NativeScript'])
 await checkPage('/guide/ai', ['MCP', 'llms.txt'])
 await checkPage('/api/', ['Namespaces', 'Classes'])
-await checkPage('/api/classes/Button', ['tapEvent'])
+const buttonHtml = await checkPage('/api/classes/Button', ['tapEvent'])
+report(
+  !/href="\/api\/[^"]*\.md"/.test(buttonHtml),
+  'API sidebar uses clean URLs (no .md hrefs)'
+)
 await checkPage('/api/namespaces/Utils/', ['Namespaces'])
+await checkPage('/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/datetime', [
+  'core-types/index.d.ts',
+])
 
 // ---- markdown twins ----
 const buttonMd = await checkPage('/api/classes/Button.md', [
@@ -97,6 +104,10 @@ report(
 await checkPage('/guide/ai.md', ['MCP'])
 await checkPage('/index.md', ['NativeScript'])
 await checkPage('/guide/publishing.md', ['Publishing'])
+await checkPage(
+  '/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/datetime.md',
+  ['const datetime']
+)
 
 // ---- llms.txt + API index ----
 await checkPage('/llms.txt', ['# NativeScript', 'Table of Contents'])
