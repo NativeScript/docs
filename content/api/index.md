@@ -1,2608 +1,550 @@
 ---
-title: API Index
-titleTemplate: 'API - NativeScript'
-breadcrumbs:
-  - name: 'API Index'
-    href: '/api/'
-layout: api
-seo:
-  description: API Index
+title: API Reference
+titleTemplate: :title - API / NativeScript
+description: Complete API reference for @nativescript/core.
+contributors: false
 ---
 
-<!-- This page is auto generated, do not edit manually. -->
-<!-- Run "yarn generate:api-docs" to regenerate -->
+## Namespaces
 
-<script setup lang="ts">
-  import { provide } from "vue";
-  import API_DATA from "./index.data.json";
-  
-  provide('API_DATA', API_DATA);
-</script>
+| Namespace | Description |
+| ------ | ------ |
+| [AccessibilityEvents](namespaces/AccessibilityEvents/index.md) | - |
+| [AndroidHelper](namespaces/AndroidHelper/index.md) | Various Android view helper methods |
+| [ApplicationSettings](namespaces/ApplicationSettings/index.md) | - |
+| [capitalizationType](namespaces/capitalizationType/index.md) | Defines the capitalization type for prompt dialog. |
+| [Connectivity](namespaces/Connectivity/index.md) | - |
+| [CoreTypes](namespaces/CoreTypes/index.md) | - |
+| [CSSUtils](namespaces/CSSUtils/index.md) | - |
+| [DialogStrings](namespaces/DialogStrings/index.md) | - |
+| [encoding](namespaces/encoding/index.md) | Defines the supported character encodings. |
+| [FixedLength](namespaces/FixedLength/index.md) | - |
+| [FontStyle](namespaces/FontStyle/index.md) | - |
+| [FontVariationSettings](namespaces/FontVariationSettings/index.md) | - |
+| [FontWeight](namespaces/FontWeight/index.md) | - |
+| [GridUnitType](namespaces/GridUnitType/index.md) | - |
+| [Http](namespaces/Http/index.md) | - |
+| [inputType](namespaces/inputType/index.md) | Defines the input type for prompt dialog. |
+| [IOSHelper](namespaces/IOSHelper/index.md) | Various iOS view helper methods |
+| [knownFolders](namespaces/knownFolders/index.md) | Provides access to the top-level Folders instances that are accessible from the application. Use these as entry points to access the FileSystem. |
+| [Length](namespaces/Length/index.md) | - |
+| [path](namespaces/path/index.md) | Enables path-specific operations like join, extension, etc. |
+| [PercentLength](namespaces/PercentLength/index.md) | - |
+| [Trace](namespaces/Trace/index.md) | - |
+| [Utils](namespaces/Utils/index.md) | - |
 
-## <Heading ignore>Summary</Heading>
+## Enumerations
 
-<APIRefSummary v-once />
+| Enumeration | Description |
+| ------ | ------ |
+| [AccessibilityLiveRegion](enumerations/AccessibilityLiveRegion.md) | - |
+| [AccessibilityRole](enumerations/AccessibilityRole.md) | - |
+| [AccessibilityState](enumerations/AccessibilityState.md) | - |
+| [AccessibilityTrait](enumerations/AccessibilityTrait.md) | - |
+| [AndroidDirectory](enumerations/AndroidDirectory.md) | - |
+| [CacheMode](enumerations/CacheMode.md) | - |
+| [FontScaleCategory](enumerations/FontScaleCategory.md) | - |
+| [GestureEvents](enumerations/GestureEvents.md) | - |
+| [GestureStateTypes](enumerations/GestureStateTypes.md) | - |
+| [GestureTypes](enumerations/GestureTypes.md) | - |
+| [HttpResponseEncoding](enumerations/HttpResponseEncoding.md) | - |
+| [ImageSymbolEffects](enumerations/ImageSymbolEffects.md) | - |
+| [NavigationType](enumerations/NavigationType.md) | - |
+| [SharedTransitionAnimationType](enumerations/SharedTransitionAnimationType.md) | - |
+| [SwipeDirection](enumerations/SwipeDirection.md) | - |
+| [TouchAction](enumerations/TouchAction.md) | - |
+| [WritingToolsAllowedInput](enumerations/WritingToolsAllowedInput.md) | (iOS Only) Allowed input for Apple Intelligence Writing Tools |
+| [WritingToolsBehavior](enumerations/WritingToolsBehavior.md) | (iOS Only) Behavior for Apple Intelligence Writing Tools |
 
-## References
+## Classes
+
+| Class | Description |
+| ------ | ------ |
+| [AbsoluteLayout](classes/AbsoluteLayout.md) | A layout that lets you specify exact locations (left/top coordinates) of its children. |
+| [ActionBar](classes/ActionBar.md) | Provides an abstraction over the ActionBar (android) and NavigationBar (iOS). |
+| [ActionItem](classes/ActionItem.md) | Represents an action item in the action bar. |
+| [ActionItems](classes/ActionItems.md) | Represents a collection of ActionItems. |
+| [ActivityIndicator](classes/ActivityIndicator.md) | Represents a UI widget which displays a progress indicator hinting the user for some background operation running. |
+| [AndroidApplication](classes/AndroidApplication.md) | - |
+| [Animation](classes/Animation.md) | Defines a animation set. |
+| [ApplicationCommon](classes/ApplicationCommon.md) | - |
+| [Background](classes/Background.md) | - |
+| [Binding](classes/Binding.md) | - |
+| [Builder](classes/Builder.md) | - |
+| [Button](classes/Button.md) | Represents a standard Button widget. |
+| [ChangeType](classes/ChangeType.md) | - |
+| [CoercibleProperty](classes/CoercibleProperty.md) | - |
+| [Color](classes/Color.md) | Represents a color object. Stores all color components (alpha (opacity), red, green, blue) in a [0..255] range. |
+| [ContainerView](classes/ContainerView.md) | Base class for all UI components that are containers. |
+| [ContentView](classes/ContentView.md) | - |
+| [ControlStateChangeListener](classes/ControlStateChangeListener.md) | An utility class used for supporting styling infrastructure. WARNING: This class is intended for IOS only. |
+| [CssAnimationParser](classes/CssAnimationParser.md) | - |
+| [CssAnimationProperty](classes/CssAnimationProperty.md) | - |
+| [CssProperty](classes/CssProperty.md) | - |
+| [CustomLayoutView](classes/CustomLayoutView.md) | Base class for all UI components that implement custom layouts. |
+| [DatePicker](classes/DatePicker.md) | Represents an date picker. |
+| [DockLayout](classes/DockLayout.md) | A Layout that arranges its children at its outer edges, and allows its last child to take up the remaining space. |
+| [EditableTextBase](classes/EditableTextBase.md) | Represents the base class for all editable text views. |
+| [FadeTransition](classes/FadeTransition.md) | - |
+| [File](classes/File.md) | Represents a File entity on the file system. |
+| [FileSystemEntity](classes/FileSystemEntity.md) | Represents a single entity on the file system. |
+| [FlexboxLayout](classes/FlexboxLayout.md) | - |
+| [Folder](classes/Folder.md) | Represents a Folder (directory) entity on the file system. |
+| [Font](classes/Font.md) | - |
+| [FormattedString](classes/FormattedString.md) | A class used to create a formatted (rich text) string. |
+| [Frame](classes/Frame.md) | Represents the logical View unit that is responsible for navigation within an application. Nested frames are supported, enabling hierarchical navigation scenarios. |
+| [GesturesObserver](classes/GesturesObserver.md) | Provides options for the GesturesObserver. |
+| [GridLayout](classes/GridLayout.md) | Defines a rectangular layout area that consists of columns and rows. |
+| [HtmlView](classes/HtmlView.md) | Represents a view with html content. Use this component instead WebView when you want to show just static HTML content. [iOS support](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-initwithdata) [android support](http://developer.android.com/reference/android/text/Html.html) |
+| [Image](classes/Image.md) | Represents a class that provides functionality for loading and streching image(s). |
+| [ImageAsset](classes/ImageAsset.md) | Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener. Please note that should you be using the `new Observable({})` constructor, it is **obsolete** since v3.0, and you have to migrate to the "data/observable" `fromObject({})` or the `fromObjectRecursive({})` functions. |
+| [ImageCache](classes/ImageCache.md) | Represents a class that stores handles image download requests and caches the already downloaded images. |
+| [ImageSource](classes/ImageSource.md) | Encapsulates the common abstraction behind a platform specific object (typically a Bitmap) that is used as a source for images. |
+| [ImageSymbolEffect](classes/ImageSymbolEffect.md) | iOS only Symbol effects: https://developer.apple.com/documentation/symbols?language=objc |
+| [InheritedCssProperty](classes/InheritedCssProperty.md) | - |
+| [InheritedProperty](classes/InheritedProperty.md) | - |
+| [iOSApplication](classes/iOSApplication.md) | - |
+| [ItemSpec](classes/ItemSpec.md) | Defines row/column specific properties that apply to GridLayout elements. |
+| [KeyframeAnimation](classes/KeyframeAnimation.md) | - |
+| [KeyframeAnimationInfo](classes/KeyframeAnimationInfo.md) | - |
+| [KeyframeDeclaration](classes/KeyframeDeclaration.md) | - |
+| [KeyframeInfo](classes/KeyframeInfo.md) | - |
+| [Label](classes/Label.md) | Represents a text label. |
+| [LayoutBase](classes/LayoutBase.md) | Base class for all views that supports children positioning. |
+| [LinearGradient](classes/LinearGradient.md) | - |
+| [LiquidGlass](classes/LiquidGlass.md) | - |
+| [LiquidGlassContainer](classes/LiquidGlassContainer.md) | - |
+| [ListPicker](classes/ListPicker.md) | Represents an list picker. |
+| [ListView](classes/ListView.md) | Represents a view that shows items in a vertically scrolling list. |
+| [ModalTransition](classes/ModalTransition.md) | - |
+| [ModuleNameResolver](classes/ModuleNameResolver.md) | - |
+| [NavigationButton](classes/NavigationButton.md) | Represents the navigation (a.k.a. "back") button. |
+| [Observable](classes/Observable.md) | Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener. Please note that should you be using the `new Observable({})` constructor, it is **obsolete** since v3.0, and you have to migrate to the "data/observable" `fromObject({})` or the `fromObjectRecursive({})` functions. |
+| [ObservableArray](classes/ObservableArray.md) | Advanced array like class used when you want to be notified when a change occurs. |
+| [Page](classes/Page.md) | Represents a logical unit for navigation (inside Frame). |
+| [PageBase](classes/PageBase.md) | - |
+| [PageTransition](classes/PageTransition.md) | - |
+| [ParserEvent](classes/ParserEvent.md) | Provides information for a parser event. |
+| [ParserEventType](classes/ParserEventType.md) | Specifies the type of parser event. |
+| [Placeholder](classes/Placeholder.md) | Represents a Placeholder, which is used to add a native view to the visual tree. |
+| [Progress](classes/Progress.md) | Represents a progress component. |
+| [Property](classes/Property.md) | - |
+| [ProxyViewContainer](classes/ProxyViewContainer.md) | Proxy view container that adds all its native children directly to the parent. To be used as a logical grouping container of views. |
+| [Repeater](classes/Repeater.md) | Represents a UI Repeater component. |
+| [RootLayout](classes/RootLayout.md) | - |
+| [Screen](classes/Screen.md) | An object describing general information about a display. |
+| [ScrollView](classes/ScrollView.md) | Represents a scrollable area that can have content that is larger than its bounds. |
+| [SearchBar](classes/SearchBar.md) | Represents a search bar component. |
+| [SegmentedBar](classes/SegmentedBar.md) | Represents a UI SegmentedBar component. |
+| [SegmentedBarItem](classes/SegmentedBarItem.md) | Represents a SegmentedBar item. |
+| [SharedTransition](classes/SharedTransition.md) | Shared Element Transitions (preview) Allows you to auto animate between shared elements on two different screesn to create smooth navigational experiences. View components can define sharedTransitionTag="name" alone with a transition through this API. |
+| [SharedTransitionHelper](classes/SharedTransitionHelper.md) | Platform helper to aid in creating your own custom Shared Element Transition classes. (iOS Only) |
+| [ShorthandProperty](classes/ShorthandProperty.md) | - |
+| [Slider](classes/Slider.md) | Represents a slider component. |
+| [SlideTransition](classes/SlideTransition.md) | - |
+| [Span](classes/Span.md) | A class used to create a single part of formatted string with a common text properties. |
+| [SplitView](classes/SplitView.md) | iOS UISplitViewController-backed container. On Android, acts as a simple container. |
+| [StackLayout](classes/StackLayout.md) | A Layout that arranges its children horizontally or vertically. The direction can be set by orientation property. |
+| [Style](classes/Style.md) | Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener. Please note that should you be using the `new Observable({})` constructor, it is **obsolete** since v3.0, and you have to migrate to the "data/observable" `fromObject({})` or the `fromObjectRecursive({})` functions. |
+| [Switch](classes/Switch.md) | Represents a switch component. |
+| [TabView](classes/TabView.md) | Represents a tab view. |
+| [TabViewItem](classes/TabViewItem.md) | Represents a tab view entry. |
+| [TextBase](classes/TextBase.md) | - |
+| [TextField](classes/TextField.md) | Represents an editable text field. |
+| [TextView](classes/TextView.md) | Represents an editable multiline text view. |
+| [TimePicker](classes/TimePicker.md) | Represents an time picker. |
+| [TouchManager](classes/TouchManager.md) | Manage interactivity in your apps easily with TouchManager. Store reusable down/up animation settings for touches as well as optionally enable automatic tap (down/up) animations for your app. |
+| [Transition](classes/Transition.md) | - |
+| [View](classes/View.md) | This class is the base class for all UI components. A View occupies a rectangular area on the screen and is responsible for drawing and layouting of all UI components within. |
+| [ViewBase](classes/ViewBase.md) | - |
+| [ViewHelper](classes/ViewHelper.md) | - |
+| [VirtualArray](classes/VirtualArray.md) | Advanced array like class that helps loading items on demand. |
+| [WebView](classes/WebView.md) | Represents a standard WebView widget. |
+| [WrapLayout](classes/WrapLayout.md) | WrapLayout position children in rows or columns depending on orientation property until space is filled and then wraps them on new row or column. |
+| [WrappedValue](classes/WrappedValue.md) | Helper class that is used to fire property change even when real object is the same. By default property change will not be fired for a same object. By wrapping object into a WrappedValue instance `same object restriction` will be passed. |
+| [XmlParser](classes/XmlParser.md) | A simple non-validating SAX parser based on https://github.com/vflash/easysax version 0.1.14 |
+
+## Interfaces
+
+| Interface | Description |
+| ------ | ------ |
+| [AccessibilityDecrementEventData](interfaces/AccessibilityDecrementEventData.md) | Base event data. |
+| [AccessibilityIncrementEventData](interfaces/AccessibilityIncrementEventData.md) | Base event data. |
+| [ActionOptions](interfaces/ActionOptions.md) | Provides options for the dialog. |
+| [AddArrayFromBuilder](interfaces/AddArrayFromBuilder.md) | Defines an interface for adding arrays declared in xml. |
+| [AddChildFromBuilder](interfaces/AddChildFromBuilder.md) | Defines an interface for adding a child element declared in xml. |
+| [AlertOptions](interfaces/AlertOptions.md) | Provides options for the alert. |
+| [AndroidActivityBackPressedEventData](interfaces/AndroidActivityBackPressedEventData.md) | Data for the Android activity back pressed event. |
+| [AndroidActivityBundleEventData](interfaces/AndroidActivityBundleEventData.md) | Data for the Android activity events with bundle. |
+| [AndroidActivityCallbacks](interfaces/AndroidActivityCallbacks.md) | - |
+| [AndroidActivityEventData](interfaces/AndroidActivityEventData.md) | Data for the Android activity events. |
+| [AndroidActivityNewIntentEventData](interfaces/AndroidActivityNewIntentEventData.md) | Data for the Android activity newIntent event. |
+| [AndroidActivityRequestPermissionsEventData](interfaces/AndroidActivityRequestPermissionsEventData.md) | Data for the Android activity onRequestPermissions callback |
+| [AndroidActivityResultEventData](interfaces/AndroidActivityResultEventData.md) | Data for the Android activity result event. |
+| [AndroidOverflowInsetData](interfaces/AndroidOverflowInsetData.md) | Defines the data for the androidOverflowInset event. |
+| [AnimationDefinition](interfaces/AnimationDefinition.md) | - |
+| [AnimationDefinitionInternal](interfaces/AnimationDefinitionInternal.md) | - |
+| [ApplicationEventData](interfaces/ApplicationEventData.md) | Event data containing information for the application events. |
+| [BackstackEntry](interfaces/BackstackEntry.md) | Represents an entry in the back stack of a Frame object. |
+| [BindingOptions](interfaces/BindingOptions.md) | The options object used in the Bindable.bind method. |
+| [Cancelable](interfaces/Cancelable.md) | - |
+| [CancelableOptions](interfaces/CancelableOptions.md) | Provides options for the dialog. |
+| [ChangedData](interfaces/ChangedData.md) | Event args for "changed" event. |
+| [CommonLayoutParams](interfaces/CommonLayoutParams.md) | - |
+| [ComponentModule](interfaces/ComponentModule.md) | - |
+| [ConfirmOptions](interfaces/ConfirmOptions.md) | Provides options for the confirm dialog. |
+| [CreateViewEventData](interfaces/CreateViewEventData.md) | Event data containing information for creating a native view that will be added to the visual tree. |
+| [CssChangedEventData](interfaces/CssChangedEventData.md) | Event data containing information about application css change. |
+| [DialogOptions](interfaces/DialogOptions.md) | Provides options for the dialog. |
+| [DiscardedErrorEventData](interfaces/DiscardedErrorEventData.md) | Event data containing information about discarded application errors. |
+| [DownloadedData](interfaces/DownloadedData.md) | Provides data for downloaded event. |
+| [DownloadError](interfaces/DownloadError.md) | Provides data for download error. |
+| [DownloadRequest](interfaces/DownloadRequest.md) | Represents a single download request. |
+| [EventData](interfaces/EventData.md) | Base event data. |
+| [EventDataValue](interfaces/EventDataValue.md) | Base event data. |
+| [FontScaleChangedEventData](interfaces/FontScaleChangedEventData.md) | Event data containing information for font scale changed event. |
+| [GestureEventData](interfaces/GestureEventData.md) | Base event data. |
+| [GestureEventDataWithState](interfaces/GestureEventDataWithState.md) | Base event data. |
+| [HttpContent](interfaces/HttpContent.md) | Encapsulates the content of an HttpResponse. |
+| [HttpRequestOptions](interfaces/HttpRequestOptions.md) | Provides options for the http requests. |
+| [HttpResponse](interfaces/HttpResponse.md) | Encapsulates HTTP-response information from an HTTP-request. |
+| [IDevice](interfaces/IDevice.md) | - |
+| [ImageAssetOptions](interfaces/ImageAssetOptions.md) | - |
+| [InitRootViewEventData](interfaces/InitRootViewEventData.md) | Event data containing information about root view application. |
+| [IOSView](interfaces/IOSView.md) | This class is the base class for all UI components. A View occupies a rectangular area on the screen and is responsible for drawing and layouting of all UI components within. |
+| [ItemEventData](interfaces/ItemEventData.md) | Event data containing information for the index and the view associated to a list view item. |
+| [ItemsLoading](interfaces/ItemsLoading.md) | Event args for "itemsLoading" event. |
+| [ItemsSource](interfaces/ItemsSource.md) | - |
+| [KeyedTemplate](interfaces/KeyedTemplate.md) | Defines an interface for Template with a key. |
+| [LaunchEventData](interfaces/LaunchEventData.md) | Event data containing information for launch event. |
+| [LayoutDirectionChangedEventData](interfaces/LayoutDirectionChangedEventData.md) | Event data containing information for system layout direction changed event. |
+| [LoadAppCSSEventData](interfaces/LoadAppCSSEventData.md) | Event data containing information for the application events. |
+| [LoadEventData](interfaces/LoadEventData.md) | Event data containing information for the loading events of a WebView. |
+| [LoadOptions](interfaces/LoadOptions.md) | - |
+| [LoginOptions](interfaces/LoginOptions.md) | Provides options for the login dialog. |
+| [LoginResult](interfaces/LoginResult.md) | Provides result data from the login dialog. |
+| [NativeScriptConfig](interfaces/NativeScriptConfig.md) | IMPORTANT: this is not generated automatically due to this issue: https://github.com/microsoft/TypeScript/issues/36763 the reference path above will get rewritten and break on compilation unless kept here Once issue is resolve we can remove this index.d.ts from repo and go back to auto generation on tsc |
+| [NativeScriptError](interfaces/NativeScriptError.md) | An extended JavaScript Error which will have the nativeError property initialized in case the error is caused by executing platform-specific code. |
+| [NavigatedData](interfaces/NavigatedData.md) | Defines the data for the page navigation events. |
+| [NavigationContext](interfaces/NavigationContext.md) | Represents a context passed to navigation methods. |
+| [NavigationData](interfaces/NavigationData.md) | Base event data. |
+| [NavigationEntry](interfaces/NavigationEntry.md) | Represents an entry in passed to navigate method. |
+| [NavigationTransition](interfaces/NavigationTransition.md) | Represents an object specifying a page navigation transition. |
+| [OrientationChangedEventData](interfaces/OrientationChangedEventData.md) | Event data containing information for orientation changed event. |
+| [Pair](interfaces/Pair.md) | - |
+| [PanGestureEventData](interfaces/PanGestureEventData.md) | Base event data. |
+| [PinchGestureEventData](interfaces/PinchGestureEventData.md) | Base event data. |
+| [PlatformContext](interfaces/PlatformContext.md) | Used with qualifier matchers and module resolution |
+| [Point3D](interfaces/Point3D.md) | - |
+| [PromptOptions](interfaces/PromptOptions.md) | Provides options for the prompt dialog. |
+| [PromptResult](interfaces/PromptResult.md) | Provides result data from the prompt dialog. |
+| [PropertyAnimation](interfaces/PropertyAnimation.md) | - |
+| [PropertyAnimationInfo](interfaces/PropertyAnimationInfo.md) | - |
+| [PropertyChangeData](interfaces/PropertyChangeData.md) | Data for the "propertyChange" event. |
+| [RootLayoutOptions](interfaces/RootLayoutOptions.md) | - |
+| [RotationGestureEventData](interfaces/RotationGestureEventData.md) | Base event data. |
+| [SceneEventData](interfaces/SceneEventData.md) | iOS Event data containing information for scene lifecycle events (iOS 13+). |
+| [ScrollEventData](interfaces/ScrollEventData.md) | Base event data. |
+| [SearchEventData](interfaces/SearchEventData.md) | Event data containing information for the search text change event. |
+| [SelectedIndexChangedEventData](interfaces/SelectedIndexChangedEventData.md) | Defines the data for the SegmentedBar.selectedIndexChanged event. |
+| [ShadeCoverOptions](interfaces/ShadeCoverOptions.md) | - |
+| [ShadowCSSValues](interfaces/ShadowCSSValues.md) | - |
+| [SharedTransitionConfig](interfaces/SharedTransitionConfig.md) | - |
+| [ShowModalOptions](interfaces/ShowModalOptions.md) | - |
+| [ShownModallyData](interfaces/ShownModallyData.md) | Defines the data for the shownModally event. |
+| [Size](interfaces/Size.md) | The Size interface describes abstract dimensions in two dimensional space. It has two properties width and height, representing the width and height values of the size. |
+| [StrokeCSSValues](interfaces/StrokeCSSValues.md) | - |
+| [SwipeGestureEventData](interfaces/SwipeGestureEventData.md) | Base event data. |
+| [SystemAppearanceChangedEventData](interfaces/SystemAppearanceChangedEventData.md) | Event data containing information for system appearance changed event. |
+| [TapGestureEventData](interfaces/TapGestureEventData.md) | Base event data. |
+| [Template](interfaces/Template.md) | Defines an interface for a View factory function. Commonly used to specify the visualization of data objects. |
+| [TemplatedItemsView](interfaces/TemplatedItemsView.md) | - |
+| [TimerInfo](interfaces/TimerInfo.md) | Contains contains utility methods for profiling. All methods in this module are experimental and may be changed in a non-major version. |
+| [TouchGestureEventData](interfaces/TouchGestureEventData.md) | - |
+| [TraceErrorHandler](interfaces/TraceErrorHandler.md) | An interface used to for handling trace error |
+| [TraceEventListener](interfaces/TraceEventListener.md) | An interface used to trace information about specific event. |
+| [TraceWriter](interfaces/TraceWriter.md) | An interface used to define a writer used by trace to print (log). |
+| [UnhandledErrorEventData](interfaces/UnhandledErrorEventData.md) | Event data containing information about unhandled application errors. |
+| [ViewEntry](interfaces/ViewEntry.md) | Represents an entry to be used to create a view or load it form file |
 
 ## Type Aliases
 
-<div class="">
-
-<APIRef for="37614" v-once>
-
-<template #title>
-
-### GridUnitType
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="1992" v-once>
-
-<template #title>
-
-### Headers
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5028" v-once>
-
-<template #title>
-
-### HorizontalAlignment
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2385" v-once>
-
-<template #title>
-
-### InstrumentationMode
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5022" v-once>
-
-<template #title>
-
-### LengthDipUnit
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5024" v-once>
-
-<template #title>
-
-### LengthPercentUnit
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5023" v-once>
-
-<template #title>
-
-### LengthPxUnit
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5025" v-once>
-
-<template #title>
-
-### LengthType
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2312" v-once>
-
-<template #title>
-
-### ModuleListProvider
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5026" v-once>
-
-<template #title>
-
-### PercentLengthType
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="32760" v-once>
-
-<template #title>
-
-### SharedTransitionTagProperties
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="14137" v-once>
-
-<template #title>
-
-### TouchAnimationOptions
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5029" v-once>
-
-<template #title>
-
-### VerticalAlignment
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="33510" v-once>
-
-<template #title>
-
-### WebViewNavigationType
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5019" v-once>
-
-<template #title>
-
-### dip
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5021" v-once>
-
-<template #title>
-
-### percent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="5020" v-once>
-
-<template #title>
-
-### px
-
-</template>
-
-</APIRef>
-
-</div>
+| Type Alias | Description |
+| ------ | ------ |
+| [AlignContent](type-aliases/AlignContent.md) | - |
+| [AlignItems](type-aliases/AlignItems.md) | - |
+| [AlignSelf](type-aliases/AlignSelf.md) | - |
+| [AnimationPromise](type-aliases/AnimationPromise.md) | - |
+| [~~dip~~](type-aliases/dip.md) | - |
+| [Flex](type-aliases/Flex.md) | - |
+| [FlexDirection](type-aliases/FlexDirection.md) | - |
+| [FlexFlow](type-aliases/FlexFlow.md) | - |
+| [FlexWrap](type-aliases/FlexWrap.md) | - |
+| [FontStyleType](type-aliases/FontStyleType.md) | - |
+| [FontVariationSettingsType](type-aliases/FontVariationSettingsType.md) | - |
+| [FontWeightType](type-aliases/FontWeightType.md) | - |
+| [GlassEffectConfig](type-aliases/GlassEffectConfig.md) | - |
+| [GlassEffectType](type-aliases/GlassEffectType.md) | - |
+| [GlassEffectVariant](type-aliases/GlassEffectVariant.md) | Glass effects |
+| [GridUnitType](type-aliases/GridUnitType.md) | - |
+| [Headers](type-aliases/Headers.md) | - |
+| [~~HorizontalAlignment~~](type-aliases/HorizontalAlignment.md) | - |
+| [InstrumentationMode](type-aliases/InstrumentationMode.md) | Profiling mode to use. - `counters` Accumulates method call counts and times until dumpProfiles is called and then prints aggregated statistic in the console. This is the default. - `timeline` Outputs method names along start/end timestamps in the console on the go. - `lifecycle` Outputs basic non-verbose times for startup, navigation, etc. |
+| [iosSymbolScaleType](type-aliases/iosSymbolScaleType.md) | iOS only SF Symbol scale |
+| [JustifyContent](type-aliases/JustifyContent.md) | - |
+| [~~LengthDipUnit~~](type-aliases/LengthDipUnit.md) | - |
+| [~~LengthPercentUnit~~](type-aliases/LengthPercentUnit.md) | - |
+| [~~LengthPxUnit~~](type-aliases/LengthPxUnit.md) | - |
+| [~~LengthType~~](type-aliases/LengthType.md) | - |
+| [ModuleListProvider](type-aliases/ModuleListProvider.md) | - |
+| [~~percent~~](type-aliases/percent.md) | - |
+| [~~PercentLengthType~~](type-aliases/PercentLengthType.md) | - |
+| [~~px~~](type-aliases/px.md) | - |
+| [SceneEventName](type-aliases/SceneEventName.md) | - |
+| [SharedTransitionTagProperties](type-aliases/SharedTransitionTagProperties.md) | Properties which can be set on individual Shared Elements |
+| [SplitBehavior](type-aliases/SplitBehavior.md) | - |
+| [SplitDisplayMode](type-aliases/SplitDisplayMode.md) | - |
+| [SplitRole](type-aliases/SplitRole.md) | - |
+| [SplitStyle](type-aliases/SplitStyle.md) | - |
+| [TouchAnimationOptions](type-aliases/TouchAnimationOptions.md) | - |
+| [Transformation](type-aliases/Transformation.md) | - |
+| [TransformationType](type-aliases/TransformationType.md) | - |
+| [TransformationValue](type-aliases/TransformationValue.md) | - |
+| [TransformFunctionsInfo](type-aliases/TransformFunctionsInfo.md) | - |
+| [~~VerticalAlignment~~](type-aliases/VerticalAlignment.md) | - |
+| [VisionHoverOptions](type-aliases/VisionHoverOptions.md) | - |
+| [WebViewNavigationType](type-aliases/WebViewNavigationType.md) | Represents navigation type |
 
 ## Variables
 
-<div class="isConst">
-
-<APIRef for="5027" v-once>
-
-<template #title>
-
-### AnimationCurve
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="2870" v-once>
-
-<template #title>
-
-### Application
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="26599" v-once>
-
-<template #title>
-
-### CSSHelper
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="2326" v-once>
-
-<template #title>
-
-### Device
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="12959" v-once>
-
-<template #title>
-
-### Dialogs
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="5030" v-once>
-
-<template #title>
-
-### Enums
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4779" v-once>
-
-<template #title>
-
-### \_resetRootView
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4765" v-once>
-
-<template #title>
-
-### addCss
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4802" v-once>
-
-<template #title>
-
-### android
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41009" v-once>
-
-<template #title>
-
-### androidDynamicElevationOffsetProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41008" v-once>
-
-<template #title>
-
-### androidElevationProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34310" v-once>
-
-<template #title>
-
-### autocapitalizationTypeProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34311" v-once>
-
-<template #title>
-
-### autocorrectProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40962" v-once>
-
-<template #title>
-
-### backgroundColorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4798" v-once>
-
-<template #title>
-
-### backgroundEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40963" v-once>
-
-<template #title>
-
-### backgroundImageProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41005" v-once>
-
-<template #title>
-
-### backgroundInternalProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40966" v-once>
-
-<template #title>
-
-### backgroundPositionProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40961" v-once>
-
-<template #title>
-
-### backgroundProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40964" v-once>
-
-<template #title>
-
-### backgroundRepeatProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40965" v-once>
-
-<template #title>
-
-### backgroundSizeProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40970" v-once>
-
-<template #title>
-
-### borderBottomColorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40981" v-once>
-
-<template #title>
-
-### borderBottomLeftRadiusProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40980" v-once>
-
-<template #title>
-
-### borderBottomRightRadiusProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40975" v-once>
-
-<template #title>
-
-### borderBottomWidthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40967" v-once>
-
-<template #title>
-
-### borderColorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40971" v-once>
-
-<template #title>
-
-### borderLeftColorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40976" v-once>
-
-<template #title>
-
-### borderLeftWidthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40977" v-once>
-
-<template #title>
-
-### borderRadiusProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40969" v-once>
-
-<template #title>
-
-### borderRightColorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40974" v-once>
-
-<template #title>
-
-### borderRightWidthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40968" v-once>
-
-<template #title>
-
-### borderTopColorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40978" v-once>
-
-<template #title>
-
-### borderTopLeftRadiusProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40979" v-once>
-
-<template #title>
-
-### borderTopRightRadiusProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40973" v-once>
-
-<template #title>
-
-### borderTopWidthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40972" v-once>
-
-<template #title>
-
-### borderWidthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40959" v-once>
-
-<template #title>
-
-### clipPathProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40960" v-once>
-
-<template #title>
-
-### colorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4787" v-once>
-
-<template #title>
-
-### discardedErrorEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4789" v-once>
-
-<template #title>
-
-### displayedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34308" v-once>
-
-<template #title>
-
-### editableProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4790" v-once>
-
-<template #title>
-
-### exitEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41002" v-once>
-
-<template #title>
-
-### fontFamilyProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41006" v-once>
-
-<template #title>
-
-### fontInternalProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4791" v-once>
-
-<template #title>
-
-### fontScaleChangedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41007" v-once>
-
-<template #title>
-
-### fontScaleInternalProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41001" v-once>
-
-<template #title>
-
-### fontSizeProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41003" v-once>
-
-<template #title>
-
-### fontStyleProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41004" v-once>
-
-<template #title>
-
-### fontWeightProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4799" v-once>
-
-<template #title>
-
-### foregroundEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4766" v-once>
-
-<template #title>
-
-### getCssFileName
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4767" v-once>
-
-<template #title>
-
-### getMainEntry
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4768" v-once>
-
-<template #title>
-
-### getNativeApplication
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4769" v-once>
-
-<template #title>
-
-### getResources
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4770" v-once>
-
-<template #title>
-
-### getRootView
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4771" v-once>
-
-<template #title>
-
-### hasLaunched
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4772" v-once>
-
-<template #title>
-
-### hasListeners
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40988" v-once>
-
-<template #title>
-
-### heightProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34312" v-once>
-
-<template #title>
-
-### hintProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40999" v-once>
-
-<template #title>
-
-### horizontalAlignmentProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4800" v-once>
-
-<template #title>
-
-### inBackground
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4803" v-once>
-
-<template #title>
-
-### ios
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="2320" v-once>
-
-<template #title>
-
-### isAndroid
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="2321" v-once>
-
-<template #title>
-
-### isIOS
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="11086" v-once>
-
-<template #title>
-
-### isUserInteractionEnabledProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34306" v-once>
-
-<template #title>
-
-### keyboardTypeProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4792" v-once>
-
-<template #title>
-
-### launchEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="29220" v-once>
-
-<template #title>
-
-### letterSpacingProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="29226" v-once>
-
-<template #title>
-
-### lineHeightProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4773" v-once>
-
-<template #title>
-
-### loadAppCss
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4793" v-once>
-
-<template #title>
-
-### lowMemoryEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40993" v-once>
-
-<template #title>
-
-### marginBottomProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40990" v-once>
-
-<template #title>
-
-### marginLeftProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40989" v-once>
-
-<template #title>
-
-### marginProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40991" v-once>
-
-<template #title>
-
-### marginRightProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40992" v-once>
-
-<template #title>
-
-### marginTopProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34314" v-once>
-
-<template #title>
-
-### maxLengthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40986" v-once>
-
-<template #title>
-
-### minHeightProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40985" v-once>
-
-<template #title>
-
-### minWidthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4774" v-once>
-
-<template #title>
-
-### notify
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4775" v-once>
-
-<template #title>
-
-### off
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4776" v-once>
-
-<template #title>
-
-### on
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40984" v-once>
-
-<template #title>
-
-### opacityProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4777" v-once>
-
-<template #title>
-
-### orientation
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4795" v-once>
-
-<template #title>
-
-### orientationChangedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40998" v-once>
-
-<template #title>
-
-### paddingBottomProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40995" v-once>
-
-<template #title>
-
-### paddingLeftProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40994" v-once>
-
-<template #title>
-
-### paddingProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40996" v-once>
-
-<template #title>
-
-### paddingRightProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40997" v-once>
-
-<template #title>
-
-### paddingTopProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34313" v-once>
-
-<template #title>
-
-### placeholderColorProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="2327" v-once>
-
-<template #title>
-
-### platformNames
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4778" v-once>
-
-<template #title>
-
-### resetRootView
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4794" v-once>
-
-<template #title>
-
-### resumeEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34307" v-once>
-
-<template #title>
-
-### returnKeyTypeProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40954" v-once>
-
-<template #title>
-
-### rotateProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4780" v-once>
-
-<template #title>
-
-### run
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40955" v-once>
-
-<template #title>
-
-### scaleXProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40956" v-once>
-
-<template #title>
-
-### scaleYProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4781" v-once>
-
-<template #title>
-
-### setAutoSystemAppearanceChanged
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4782" v-once>
-
-<template #title>
-
-### setCssFileName
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4783" v-once>
-
-<template #title>
-
-### setMaxRefreshRate
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4784" v-once>
-
-<template #title>
-
-### setResources
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4796" v-once>
-
-<template #title>
-
-### suspendEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4801" v-once>
-
-<template #title>
-
-### suspended
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4785" v-once>
-
-<template #title>
-
-### systemAppearance
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4786" v-once>
-
-<template #title>
-
-### systemAppearanceChanged
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4797" v-once>
-
-<template #title>
-
-### systemAppearanceChangedEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="29221" v-once>
-
-<template #title>
-
-### textAlignmentProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="29222" v-once>
-
-<template #title>
-
-### textDecorationProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="29224" v-once>
-
-<template #title>
-
-### textShadowProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="29223" v-once>
-
-<template #title>
-
-### textTransformProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40957" v-once>
-
-<template #title>
-
-### translateXProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40958" v-once>
-
-<template #title>
-
-### translateYProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="4788" v-once>
-
-<template #title>
-
-### uncaughtErrorEvent
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="12128" v-once>
-
-<template #title>
-
-### unsetValue
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="34309" v-once>
-
-<template #title>
-
-### updateTextTriggerProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="41000" v-once>
-
-<template #title>
-
-### verticalAlignmentProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40983" v-once>
-
-<template #title>
-
-### visibilityProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="29225" v-once>
-
-<template #title>
-
-### whiteSpaceProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40987" v-once>
-
-<template #title>
-
-### widthProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40982" v-once>
-
-<template #title>
-
-### zIndexProperty
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="isConst">
-
-<APIRef for="40953" v-once>
-
-<template #title>
-
-### zeroLength
-
-</template>
-
-</APIRef>
-
-</div>
+| Variable | Description |
+| ------ | ------ |
+| [~~\_resetRootView~~](variables/resetRootView.md) | - |
+| [~~addCss~~](variables/addCss.md) | - |
+| [~~android~~](variables/android.md) | - |
+| [androidDynamicElevationOffsetProperty](variables/androidDynamicElevationOffsetProperty.md) | - |
+| [androidElevationProperty](variables/androidElevationProperty.md) | - |
+| [androidRegisterBroadcastReceiver](variables/androidRegisterBroadcastReceiver.md) | - |
+| [~~AnimationCurve~~](variables/AnimationCurve.md) | - |
+| [Application](variables/Application.md) | - |
+| [autocapitalizationTypeProperty](variables/autocapitalizationTypeProperty.md) | - |
+| [autocorrectProperty](variables/autocorrectProperty.md) | - |
+| [backgroundColorProperty](variables/backgroundColorProperty.md) | - |
+| [~~backgroundEvent~~](variables/backgroundEvent.md) | - |
+| [backgroundImageProperty](variables/backgroundImageProperty.md) | - |
+| [backgroundInternalProperty](variables/backgroundInternalProperty.md) | - |
+| [backgroundPositionProperty](variables/backgroundPositionProperty.md) | - |
+| [backgroundRepeatProperty](variables/backgroundRepeatProperty.md) | - |
+| [backgroundSizeProperty](variables/backgroundSizeProperty.md) | - |
+| [borderBottomColorProperty](variables/borderBottomColorProperty.md) | - |
+| [borderBottomLeftRadiusProperty](variables/borderBottomLeftRadiusProperty.md) | - |
+| [borderBottomRightRadiusProperty](variables/borderBottomRightRadiusProperty.md) | - |
+| [borderBottomWidthProperty](variables/borderBottomWidthProperty.md) | - |
+| [borderLeftColorProperty](variables/borderLeftColorProperty.md) | - |
+| [borderLeftWidthProperty](variables/borderLeftWidthProperty.md) | - |
+| [borderRightColorProperty](variables/borderRightColorProperty.md) | - |
+| [borderRightWidthProperty](variables/borderRightWidthProperty.md) | - |
+| [borderTopColorProperty](variables/borderTopColorProperty.md) | - |
+| [borderTopLeftRadiusProperty](variables/borderTopLeftRadiusProperty.md) | - |
+| [borderTopRightRadiusProperty](variables/borderTopRightRadiusProperty.md) | - |
+| [borderTopWidthProperty](variables/borderTopWidthProperty.md) | - |
+| [clipPathProperty](variables/clipPathProperty.md) | - |
+| [colorProperty](variables/colorProperty.md) | - |
+| [CSSHelper](variables/CSSHelper.md) | - |
+| [Device](variables/Device.md) | Gets the current device information. |
+| [Dialogs](variables/Dialogs.md) | Singular rollup for convenience of all dialog methods |
+| [directionProperty](variables/directionProperty.md) | - |
+| [~~discardedErrorEvent~~](variables/discardedErrorEvent.md) | - |
+| [~~displayedEvent~~](variables/displayedEvent.md) | - |
+| [editableProperty](variables/editableProperty.md) | - |
+| [~~Enums~~](variables/Enums.md) | - |
+| [~~exitEvent~~](variables/exitEvent.md) | - |
+| [fontFamilyProperty](variables/fontFamilyProperty.md) | - |
+| [fontInternalProperty](variables/fontInternalProperty.md) | - |
+| [~~fontScaleChangedEvent~~](variables/fontScaleChangedEvent.md) | - |
+| [fontScaleInternalProperty](variables/fontScaleInternalProperty.md) | - |
+| [fontSizeProperty](variables/fontSizeProperty.md) | - |
+| [fontStyleProperty](variables/fontStyleProperty.md) | - |
+| [fontVariationSettingsProperty](variables/fontVariationSettingsProperty.md) | - |
+| [fontWeightProperty](variables/fontWeightProperty.md) | - |
+| [~~foregroundEvent~~](variables/foregroundEvent.md) | - |
+| [~~getCssFileName~~](variables/getCssFileName.md) | - |
+| [~~getMainEntry~~](variables/getMainEntry.md) | - |
+| [~~getNativeApplication~~](variables/getNativeApplication.md) | - |
+| [~~getResources~~](variables/getResources.md) | - |
+| [~~getRootView~~](variables/getRootView.md) | - |
+| [~~hasLaunched~~](variables/hasLaunched.md) | - |
+| [~~hasListeners~~](variables/hasListeners.md) | - |
+| [heightProperty](variables/heightProperty.md) | - |
+| [hintProperty](variables/hintProperty.md) | - |
+| [horizontalAlignmentProperty](variables/horizontalAlignmentProperty.md) | - |
+| [~~inBackground~~](variables/inBackground.md) | - |
+| [~~ios~~](variables/ios.md) | - |
+| [isAndroid](variables/isAndroid.md) | Gets a value indicating if the app is running on the Android platform. |
+| [isApple](variables/isApple.md) | Gets a value indicating if the app is running on an Apple platform. |
+| [isIOS](variables/isIOS.md) | Gets a value indicating if the app is running on the iOS platform. |
+| [isUserInteractionEnabledProperty](variables/isUserInteractionEnabledProperty.md) | - |
+| [isVisionOS](variables/isVisionOS.md) | Gets a value indicating if the app is running on the iOS platform. |
+| [keyboardTypeProperty](variables/keyboardTypeProperty.md) | - |
+| [~~launchEvent~~](variables/launchEvent.md) | - |
+| [~~layoutDirection~~](variables/layoutDirection.md) | - |
+| [~~layoutDirectionChanged~~](variables/layoutDirectionChanged.md) | - |
+| [~~layoutDirectionChangedEvent~~](variables/layoutDirectionChangedEvent.md) | - |
+| [letterSpacingProperty](variables/letterSpacingProperty.md) | - |
+| [lineHeightProperty](variables/lineHeightProperty.md) | - |
+| [~~loadAppCss~~](variables/loadAppCss.md) | - |
+| [~~lowMemoryEvent~~](variables/lowMemoryEvent.md) | - |
+| [marginBottomProperty](variables/marginBottomProperty.md) | - |
+| [marginLeftProperty](variables/marginLeftProperty.md) | - |
+| [marginRightProperty](variables/marginRightProperty.md) | - |
+| [marginTopProperty](variables/marginTopProperty.md) | - |
+| [maxLengthProperty](variables/maxLengthProperty.md) | - |
+| [minHeightProperty](variables/minHeightProperty.md) | - |
+| [minWidthProperty](variables/minWidthProperty.md) | - |
+| [~~notify~~](variables/notify.md) | - |
+| [~~off~~](variables/off.md) | - |
+| [~~on~~](variables/on.md) | - |
+| [opacityProperty](variables/opacityProperty.md) | - |
+| [~~orientation~~](variables/orientation.md) | - |
+| [~~orientationChangedEvent~~](variables/orientationChangedEvent.md) | - |
+| [paddingBottomProperty](variables/paddingBottomProperty.md) | - |
+| [paddingInternalProperty](variables/paddingInternalProperty.md) | - |
+| [paddingLeftProperty](variables/paddingLeftProperty.md) | - |
+| [paddingRightProperty](variables/paddingRightProperty.md) | - |
+| [paddingTopProperty](variables/paddingTopProperty.md) | - |
+| [perspectiveProperty](variables/perspectiveProperty.md) | - |
+| [placeholderColorProperty](variables/placeholderColorProperty.md) | - |
+| [platformNames](variables/platformNames.md) | - |
+| [~~resetRootView~~](variables/resetRootView-1.md) | - |
+| [~~resumeEvent~~](variables/resumeEvent.md) | - |
+| [returnKeyTypeProperty](variables/returnKeyTypeProperty.md) | - |
+| [rotateProperty](variables/rotateProperty.md) | - |
+| [rotateXProperty](variables/rotateXProperty.md) | - |
+| [rotateYProperty](variables/rotateYProperty.md) | - |
+| [~~run~~](variables/run.md) | - |
+| [scaleXProperty](variables/scaleXProperty.md) | - |
+| [scaleYProperty](variables/scaleYProperty.md) | - |
+| [SceneEvents](variables/SceneEvents.md) | - |
+| [~~setAutoSystemAppearanceChanged~~](variables/setAutoSystemAppearanceChanged.md) | - |
+| [~~setCssFileName~~](variables/setCssFileName.md) | - |
+| [~~setMaxRefreshRate~~](variables/setMaxRefreshRate.md) | - |
+| [~~setResources~~](variables/setResources.md) | - |
+| [~~suspended~~](variables/suspended.md) | - |
+| [~~suspendEvent~~](variables/suspendEvent.md) | - |
+| [~~systemAppearance~~](variables/systemAppearance.md) | - |
+| [~~systemAppearanceChanged~~](variables/systemAppearanceChanged.md) | - |
+| [~~systemAppearanceChangedEvent~~](variables/systemAppearanceChangedEvent.md) | - |
+| [textAlignmentProperty](variables/textAlignmentProperty.md) | - |
+| [textDecorationProperty](variables/textDecorationProperty.md) | - |
+| [textOverflowProperty](variables/textOverflowProperty.md) | - |
+| [textShadowProperty](variables/textShadowProperty.md) | - |
+| [textStrokeProperty](variables/textStrokeProperty.md) | - |
+| [textTransformProperty](variables/textTransformProperty.md) | - |
+| [translateXProperty](variables/translateXProperty.md) | - |
+| [translateYProperty](variables/translateYProperty.md) | - |
+| [~~uncaughtErrorEvent~~](variables/uncaughtErrorEvent.md) | - |
+| [unsetValue](variables/unsetValue.md) | Value specifying that Property should be set to its initial value. |
+| [updateTextTriggerProperty](variables/updateTextTriggerProperty.md) | - |
+| [VALID\_FONT\_SCALES](variables/VALID_FONT_SCALES.md) | - |
+| [verticalAlignmentProperty](variables/verticalAlignmentProperty.md) | - |
+| [visibilityProperty](variables/visibilityProperty.md) | - |
+| [whiteSpaceProperty](variables/whiteSpaceProperty.md) | - |
+| [widthProperty](variables/widthProperty.md) | - |
+| [zIndexProperty](variables/zIndexProperty.md) | - |
 
 ## Functions
 
-<div class="">
-
-<APIRef for="10245" v-once>
-
-<template #title>
-
-### CSSType
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="11087" v-once>
-
-<template #title>
-
-### PseudoClassHandler
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2309" v-once>
-
-<template #title>
-
-### \_setResolver
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12921" v-once>
-
-<template #title>
-
-### action
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="26093" v-once>
-
-<template #title>
-
-### addTaggedAdditionalCSS
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12147" v-once>
-
-<template #title>
-
-### addWeakEventListener
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12928" v-once>
-
-<template #title>
-
-### alert
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="26230" v-once>
-
-<template #title>
-
-### animationTimingFunctionConverter
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="9477" v-once>
-
-<template #title>
-
-### booleanConverter
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12933" v-once>
-
-<template #title>
-
-### confirm
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="9460" v-once>
-
-<template #title>
-
-### eachDescendant
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="1555" v-once>
-
-<template #title>
-
-### fromObject
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="1558" v-once>
-
-<template #title>
-
-### fromObjectRecursive
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="9467" v-once>
-
-<template #title>
-
-### getAncestor
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12957" v-once>
-
-<template #title>
-
-### getCurrentPage
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="1966" v-once>
-
-<template #title>
-
-### getFileAccess
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="38522" v-once>
-
-<template #title>
-
-### getRootLayout
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="29216" v-once>
-
-<template #title>
-
-### getTransformedText
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="9473" v-once>
-
-<template #title>
-
-### getViewById
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12938" v-once>
-
-<template #title>
-
-### login
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12129" v-once>
-
-<template #title>
-
-### makeParser
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12140" v-once>
-
-<template #title>
-
-### makeValidator
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="26227" v-once>
-
-<template #title>
-
-### parseCSSShadow
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="26596" v-once>
-
-<template #title>
-
-### parseKeyframeDeclarations
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2341" v-once>
-
-<template #title>
-
-### profile
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2360" v-once>
-
-<template #title>
-
-### profilingDisable
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2375" v-once>
-
-<template #title>
-
-### profilingDumpProfiles
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2357" v-once>
-
-<template #title>
-
-### profilingEnable
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2372" v-once>
-
-<template #title>
-
-### profilingIsRunning
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2377" v-once>
-
-<template #title>
-
-### profilingResetProfiles
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2366" v-once>
-
-<template #title>
-
-### profilingStart
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2379" v-once>
-
-<template #title>
-
-### profilingStartCPU
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2369" v-once>
-
-<template #title>
-
-### profilingStop
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2382" v-once>
-
-<template #title>
-
-### profilingStopCPU
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2362" v-once>
-
-<template #title>
-
-### profilingTime
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="2364" v-once>
-
-<template #title>
-
-### profilingUptime
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12951" v-once>
-
-<template #title>
-
-### prompt
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="9480" v-once>
-
-<template #title>
-
-### querySelectorAll
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="26097" v-once>
-
-<template #title>
-
-### removeTaggedAdditionalCSS
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="12156" v-once>
-
-<template #title>
-
-### removeWeakEventListener
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="26100" v-once>
-
-<template #title>
-
-### resolveFileNameFromUrl
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="13882" v-once>
-
-<template #title>
-
-### setActivityCallbacks
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="26233" v-once>
-
-<template #title>
-
-### timeConverter
-
-</template>
-
-</APIRef>
-
-</div>
-
-<div class="">
-
-<APIRef for="40919" v-once>
-
-<template #title>
-
-### transformConverter
-
-</template>
-
-</APIRef>
-
-</div>
+| Function | Description |
+| ------ | ------ |
+| [\_resolveAnimationCurve](functions/resolveAnimationCurve.md) | - |
+| [\_setResolver](functions/setResolver.md) | Used to set a global singular instance of ModuleNameResolver |
+| [action](functions/action.md) | The action() method displays a action box that prompts the visitor to choose some action. |
+| [addTaggedAdditionalCSS](functions/addTaggedAdditionalCSS.md) | - |
+| [addWeakEventListener](functions/addWeakEventListener.md) | Attaches a WeakEventListener. |
+| [alert](functions/alert.md) | The alert() method displays an alert box with a specified message. |
+| [animationTimingFunctionConverter](functions/animationTimingFunctionConverter.md) | - |
+| [booleanConverter](functions/booleanConverter.md) | - |
+| [confirm](functions/confirm.md) | The confirm() method displays a dialog box with a specified message. |
+| [CSSType](functions/CSSType.md) | Specifies the type name for the instances of this View class, that is used when matching CSS type selectors. |
+| [eachDescendant](functions/eachDescendant.md) | Iterates through all child views (via visual tree) and executes a function. |
+| [fromObject](functions/fromObject.md) | Creates an Observable instance and sets its properties according to the supplied JavaScript object. param obj - A JavaScript object used to initialize nativescript Observable instance. |
+| [fromObjectRecursive](functions/fromObjectRecursive.md) | Creates an Observable instance and sets its properties according to the supplied JavaScript object. This function will create new Observable for each nested object (expect arrays and functions) from supplied JavaScript object. param obj - A JavaScript object used to initialize nativescript Observable instance. |
+| [getAncestor](functions/getAncestor.md) | Gets an ancestor from a given type. |
+| [getAndroidAccessibilityManager](functions/getAndroidAccessibilityManager.md) | - |
+| [getCurrentFontScale](functions/getCurrentFontScale.md) | - |
+| [getCurrentPage](functions/getCurrentPage.md) | - |
+| [getFileAccess](functions/getFileAccess.md) | Returns FileSystemAccess, a shared singleton utility class to provide methods to access and work with the file system. This is used under the hood of all the file system apis in @nativescript/core and provided as a lower level convenience if needed. |
+| [getLastFocusedViewOnPage](functions/getLastFocusedViewOnPage.md) | Find the last view focused on a page. |
+| [getNativeApp](functions/getNativeApp.md) | Get the current application instance. |
+| [getRootLayout](functions/getRootLayout.md) | - |
+| [getRootLayoutById](functions/getRootLayoutById.md) | - |
+| [getTransformedText](functions/getTransformedText.md) | - |
+| [getViewById](functions/getViewById.md) | Gets a child view by id. |
+| [initializeSdkVersionClass](functions/initializeSdkVersionClass.md) | - |
+| [isAccessibilityServiceEnabled](functions/isAccessibilityServiceEnabled.md) | Is Android TalkBack or iOS VoiceOver enabled? |
+| [isEmbedded](functions/isEmbedded.md) | Whether the app is embedded into a host project or standalone project |
+| [login](functions/login.md) | The login() method displays a login dialog box that prompts the visitor for user name and password. |
+| [makeParser](functions/makeParser.md) | - |
+| [makeValidator](functions/makeValidator.md) | - |
+| [parseCSSShadow](functions/parseCSSShadow.md) | Parse a string into ShadowCSSValues Supports any valid css box/text shadow combination. |
+| [parseCSSStroke](functions/parseCSSStroke.md) | Parse a string into StrokeCSSValues https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke |
+| [parseKeyframeDeclarations](functions/parseKeyframeDeclarations.md) | - |
+| [profile](functions/profile.md) | Method decorator factory. It will intercept the method call and start and pause a timer before and after the method call. Works only if profiling is enabled. |
+| [profilingDisable](functions/profilingDisable.md) | Disables profiling. |
+| [profilingDumpProfiles](functions/profilingDumpProfiles.md) | Prints the timer for all methods instrumented with profile decorator. |
+| [profilingEnable](functions/profilingEnable.md) | Enables profiling. |
+| [profilingIsRunning](functions/profilingIsRunning.md) | Returns true if a timer is currently running. |
+| [profilingResetProfiles](functions/profilingResetProfiles.md) | Resets the timers for all methods instrumented with profile decorator. |
+| [profilingStart](functions/profilingStart.md) | Starts a timer with a specific name. Works only if profiling is enabled. |
+| [profilingStartCPU](functions/profilingStartCPU.md) | Starts android cpu profiling. |
+| [profilingStop](functions/profilingStop.md) | Pauses a timer with a specific name. This will increase call count and accumulate time. Works only if profiling is enabled. |
+| [profilingStopCPU](functions/profilingStopCPU.md) | Stops android cpu profiling. |
+| [profilingTime](functions/profilingTime.md) | Gets accurate system timestamp in ms. |
+| [profilingUptime](functions/profilingUptime.md) | Gets the uptime of the current process in milliseconds. |
+| [prompt](functions/prompt.md) | The prompt() method displays a dialog box that prompts the visitor for input. |
+| [PseudoClassHandler](functions/PseudoClassHandler.md) | - |
+| [querySelectorAll](functions/querySelectorAll.md) | Gets a child view by selector. |
+| [removeTaggedAdditionalCSS](functions/removeTaggedAdditionalCSS.md) | - |
+| [removeWeakEventListener](functions/removeWeakEventListener.md) | Removes a WeakEventListener. |
+| [resolveFileNameFromUrl](functions/resolveFileNameFromUrl.md) | - |
+| [sendAccessibilityEvent](functions/sendAccessibilityEvent.md) | Android: helper function for triggering accessibility events |
+| [setActivityCallbacks](functions/setActivityCallbacks.md) | - |
+| [setNativeApp](functions/setNativeApp.md) | This is called internally to set the native application instance. You typically do not need to call this directly. However, it's exposed for special case purposes, such as custom application initialization. |
+| [timeConverter](functions/timeConverter.md) | - |
+| [updateAccessibilityProperties](functions/updateAccessibilityProperties.md) | Update accessibility properties on nativeView |
+
+## References
+
+### androidRegisteredReceivers
+
+Renames and re-exports [androidRegisterBroadcastReceiver](variables/androidRegisterBroadcastReceiver.md)
+
+***
+
+### androidUnregisterBroadcastReceiver
+
+Renames and re-exports [androidRegisterBroadcastReceiver](variables/androidRegisterBroadcastReceiver.md)
+
+***
+
+### iosAddNotificationObserver
+
+Renames and re-exports [androidRegisterBroadcastReceiver](variables/androidRegisterBroadcastReceiver.md)
+
+***
+
+### iosNotificationObservers
+
+Renames and re-exports [androidRegisterBroadcastReceiver](variables/androidRegisterBroadcastReceiver.md)
+
+***
+
+### iosRemoveNotificationObserver
+
+Renames and re-exports [androidRegisterBroadcastReceiver](variables/androidRegisterBroadcastReceiver.md)
+
+***
+
+### sanitizeModuleName
+
+Re-exports [sanitizeModuleName](namespaces/Utils/functions/sanitizeModuleName.md)
