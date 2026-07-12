@@ -11,7 +11,15 @@ const open = ref(false)
 const copied = ref(false)
 const root = ref<HTMLElement | null>(null)
 
-const mdPath = computed(() => '/' + page.value.relativePath)
+// mirrors the vitepress-plugin-llms output layout: "dir/index.md" twins are
+// written to "/dir.md"; the root "index.md" keeps its name
+const mdPath = computed(() => {
+  const rel = '/' + page.value.relativePath
+  if (rel !== '/index.md' && rel.endsWith('/index.md')) {
+    return rel.slice(0, -'/index.md'.length) + '.md'
+  }
+  return rel
+})
 const mdUrl = computed(() => SITE_ORIGIN + mdPath.value)
 
 const chatGptUrl = computed(

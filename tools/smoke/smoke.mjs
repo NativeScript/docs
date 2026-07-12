@@ -95,6 +95,8 @@ report(
   '/api/classes/Button.md is raw markdown'
 )
 await checkPage('/guide/ai.md', ['MCP'])
+await checkPage('/index.md', ['NativeScript'])
+await checkPage('/guide/publishing.md', ['Publishing'])
 
 // ---- llms.txt + API index ----
 await checkPage('/llms.txt', ['# NativeScript', 'Table of Contents'])

@@ -171,14 +171,13 @@ async function getPage(context: any, path: string) {
     clean = clean.replace(/\/$/, '') || '/index'
     clean += '.md'
   }
-  // root index special case
-  if (clean === '/.md') clean = '/index.md'
-
-  let res = await fetchAsset(context, clean)
-  if (!res.ok && clean.endsWith('.md')) {
-    // pages like /api/namespaces/Utils/ map to index.md in their directory
-    res = await fetchAsset(context, clean.replace(/\.md$/, '/index.md'))
+  // markdown twins follow the vitepress-plugin-llms layout:
+  // "dir/index.md" is written to "/dir.md"; the root "index.md" keeps its name
+  if (clean !== '/index.md' && clean.endsWith('/index.md')) {
+    clean = clean.slice(0, -'/index.md'.length) + '.md'
   }
+
+  const res = await fetchAsset(context, clean)
   if (!res.ok) {
     return textContent(
       `Page not found: ${clean}. Use search_docs or get_sitemap to find valid paths.`,

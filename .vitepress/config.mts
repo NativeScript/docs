@@ -60,6 +60,8 @@ export default defineConfig({
         title: 'NativeScript',
         description:
           'NativeScript empowers you to access native platform APIs from JavaScript directly. Develop iOS, Android and visionOS apps with TypeScript, Angular, Vue, React, Svelte or Solid.',
+        // also emit /index.md for the home page (default skips it)
+        excludeIndexPage: false,
       }),
     ],
   },
