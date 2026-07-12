@@ -8,7 +8,7 @@ contributors: false
 function makeParser<T>(isValid: (value: any) => boolean, allowNumbers?: boolean): (value: any) => T;
 ```
 
-Defined in: core-types/validators.d.ts:2
+Defined in: [core-types/validators.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/validators.ts)
 
 ## Type Parameters
 

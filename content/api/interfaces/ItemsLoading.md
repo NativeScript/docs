@@ -5,7 +5,7 @@ description: Event args for "itemsLoading" event.
 contributors: false
 ---
 
-Defined in: data/virtual-array/index.d.ts:6
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Event args for "itemsLoading" event.
 
@@ -21,7 +21,7 @@ Event args for "itemsLoading" event.
 count: number;
 ```
 
-Defined in: data/virtual-array/index.d.ts:14
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Number of items to load.
 
@@ -33,7 +33,7 @@ Number of items to load.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -49,7 +49,7 @@ The name of the event.
 index: number;
 ```
 
-Defined in: data/virtual-array/index.d.ts:10
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Start index.
 
@@ -61,7 +61,7 @@ Start index.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 

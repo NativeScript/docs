@@ -5,7 +5,7 @@ description: Represents an entry in the back stack of a Frame object.
 contributors: false
 ---
 
-Defined in: ui/frame/frame-interfaces.d.ts:24
+Defined in: [ui/frame/frame-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/frame-interfaces.ts)
 
 Represents an entry in the back stack of a Frame object.
 
@@ -17,7 +17,7 @@ Represents an entry in the back stack of a Frame object.
 entry: NavigationEntry;
 ```
 
-Defined in: ui/frame/frame-interfaces.d.ts:25
+Defined in: [ui/frame/frame-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/frame-interfaces.ts)
 
 ***
 
@@ -27,4 +27,4 @@ Defined in: ui/frame/frame-interfaces.d.ts:25
 resolvedPage: Page;
 ```
 
-Defined in: ui/frame/frame-interfaces.d.ts:26
+Defined in: [ui/frame/frame-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/frame-interfaces.ts)

@@ -5,7 +5,7 @@ description: Provides options for the GesturesObserver.
 contributors: false
 ---
 
-Defined in: ui/gestures/index.d.ts:11
+Defined in: [ui/gestures/index.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L11)
 
 Provides options for the GesturesObserver.
 
@@ -20,7 +20,7 @@ new GesturesObserver(
    context: any): GesturesObserver;
 ```
 
-Defined in: ui/gestures/index.d.ts:18
+Defined in: [ui/gestures/index.d.ts:18](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L18)
 
 Creates an instance of GesturesObserver class.
 
@@ -44,7 +44,7 @@ Creates an instance of GesturesObserver class.
 androidOnTouchEvent: (motionEvent: any) => void;
 ```
 
-Defined in: ui/gestures/index.d.ts:51
+Defined in: [ui/gestures/index.d.ts:51](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L51)
 
 An internal Android specific method used to pass the motion event to the correct gesture observer.
 
@@ -66,7 +66,7 @@ An internal Android specific method used to pass the motion event to the correct
 callback: (args: GestureEventData) => void;
 ```
 
-Defined in: ui/gestures/index.d.ts:41
+Defined in: [ui/gestures/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L41)
 
 A function that will be executed when a gesture is received.
 
@@ -88,7 +88,7 @@ A function that will be executed when a gesture is received.
 context: any;
 ```
 
-Defined in: ui/gestures/index.d.ts:46
+Defined in: [ui/gestures/index.d.ts:46](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L46)
 
 A context which will be used as `this` in callback execution.
 
@@ -100,7 +100,7 @@ A context which will be used as `this` in callback execution.
 type: GestureTypes;
 ```
 
-Defined in: ui/gestures/index.d.ts:36
+Defined in: [ui/gestures/index.d.ts:36](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L36)
 
 Singular gesture type (e.g. GestureTypes.tap) attached to the observer.
 Does not support plural gesture types (e.g.
@@ -114,7 +114,7 @@ GestureTypes.tap & GestureTypes.doubleTap).
 disconnect(): any;
 ```
 
-Defined in: ui/gestures/index.d.ts:29
+Defined in: [ui/gestures/index.d.ts:29](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L29)
 
 Disconnects the gesture observer.
 
@@ -130,7 +130,7 @@ Disconnects the gesture observer.
 observe(type: GestureTypes): any;
 ```
 
-Defined in: ui/gestures/index.d.ts:24
+Defined in: [ui/gestures/index.d.ts:24](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L24)
 
 Registers a gesture observer to a view and gesture.
 

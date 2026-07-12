@@ -11,7 +11,7 @@ type Transformation = {
 };
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:4
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ## Properties
 
@@ -21,7 +21,7 @@ Defined in: ui/animation/animation-shared.d.ts:4
 property: TransformationType;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:5
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -31,4 +31,4 @@ Defined in: ui/animation/animation-shared.d.ts:5
 value: TransformationValue;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:6
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)

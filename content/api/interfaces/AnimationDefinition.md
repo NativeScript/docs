@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/animation/animation-shared.d.ts:28
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: ui/animation/animation-shared.d.ts:28
 optional backgroundColor?: any;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:31
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: ui/animation/animation-shared.d.ts:31
 optional curve?: any;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:50
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: ui/animation/animation-shared.d.ts:50
 optional delay?: number;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:48
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: ui/animation/animation-shared.d.ts:48
 optional duration?: number;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:47
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: ui/animation/animation-shared.d.ts:47
 optional height?: any;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:40
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: ui/animation/animation-shared.d.ts:40
 optional iterations?: number;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:49
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: ui/animation/animation-shared.d.ts:49
 optional opacity?: number;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:30
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -95,7 +95,7 @@ optional rotate?:
 };
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:42
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -110,7 +110,7 @@ optional scale?:
 };
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:36
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: ui/animation/animation-shared.d.ts:36
 optional target?: View;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:29
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -135,7 +135,7 @@ optional translate?:
 };
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:32
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -145,4 +145,4 @@ Defined in: ui/animation/animation-shared.d.ts:32
 optional width?: any;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:41
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)

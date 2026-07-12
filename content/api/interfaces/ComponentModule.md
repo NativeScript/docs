@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/builder/component-builder/index.d.ts:2
+Defined in: [ui/builder/component-builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/component-builder/index.ts)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ui/builder/component-builder/index.d.ts:2
 component: View;
 ```
 
-Defined in: ui/builder/component-builder/index.d.ts:3
+Defined in: [ui/builder/component-builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/component-builder/index.ts)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: ui/builder/component-builder/index.d.ts:3
 exports: any;
 ```
 
-Defined in: ui/builder/component-builder/index.d.ts:4
+Defined in: [ui/builder/component-builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/component-builder/index.ts)

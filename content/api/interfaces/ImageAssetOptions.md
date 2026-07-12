@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: image-asset/index.d.ts:12
+Defined in: [image-asset/index.d.ts:12](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L12)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: image-asset/index.d.ts:12
 optional autoScaleFactor?: boolean;
 ```
 
-Defined in: image-asset/index.d.ts:16
+Defined in: [image-asset/index.d.ts:16](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L16)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: image-asset/index.d.ts:16
 optional height?: number;
 ```
 
-Defined in: image-asset/index.d.ts:14
+Defined in: [image-asset/index.d.ts:14](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L14)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: image-asset/index.d.ts:14
 optional keepAspectRatio?: boolean;
 ```
 
-Defined in: image-asset/index.d.ts:15
+Defined in: [image-asset/index.d.ts:15](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L15)
 
 ***
 
@@ -44,4 +44,4 @@ Defined in: image-asset/index.d.ts:15
 optional width?: number;
 ```
 
-Defined in: image-asset/index.d.ts:13
+Defined in: [image-asset/index.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L13)

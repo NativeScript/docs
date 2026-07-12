@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/layouts/root-layout/index.d.ts:21
+Defined in: [ui/layouts/root-layout/index.d.ts:21](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/root-layout/index.d.ts#L21)
 
 ## Properties
 
@@ -17,7 +17,7 @@ optional animation?: {
 };
 ```
 
-Defined in: ui/layouts/root-layout/index.d.ts:23
+Defined in: [ui/layouts/root-layout/index.d.ts:23](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/root-layout/index.d.ts#L23)
 
 #### enterFrom?
 
@@ -39,4 +39,4 @@ optional exitTo?: TransitionAnimation;
 optional shadeCover?: ShadeCoverOptions;
 ```
 
-Defined in: ui/layouts/root-layout/index.d.ts:22
+Defined in: [ui/layouts/root-layout/index.d.ts:22](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/root-layout/index.d.ts#L22)

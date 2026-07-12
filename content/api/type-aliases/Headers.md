@@ -10,7 +10,7 @@ type Headers = {
 };
 ```
 
-Defined in: http/http-interfaces.d.ts:50
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 ## Index Signature
 

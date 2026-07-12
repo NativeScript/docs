@@ -9,6 +9,6 @@ contributors: false
 debug: boolean;
 ```
 
-Defined in: utils/debug.d.ts:4
+Defined in: [utils/debug.d.ts:4](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/debug.d.ts#L4)
 
 A runtime option indicating whether the build has debugging enabled.

@@ -8,7 +8,7 @@ contributors: false
 function getViewById(view: ViewBase, id: string): ViewBase;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:96
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets a child view by id.
 

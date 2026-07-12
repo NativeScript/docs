@@ -8,7 +8,7 @@ contributors: false
 function profilingStop(name: string): TimerInfo;
 ```
 
-Defined in: profiling/index.d.ts:78
+Defined in: [profiling/index.d.ts:78](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L78)
 
 Pauses a timer with a specific name. This will increase call count and accumulate time.
 Works only if profiling is enabled.

@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/styling/font.d.ts:6
+Defined in: [ui/styling/font.d.ts:6](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L6)
 
 ## Extends
 
@@ -24,7 +24,7 @@ new Font(
    fontVariationSettings?: FontVariationSettings[]): Font;
 ```
 
-Defined in: ui/styling/font.d.ts:19
+Defined in: [ui/styling/font.d.ts:19](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L19)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ FontBase.constructor
 fontFamily: string;
 ```
 
-Defined in: ui/styling/font.d.ts:9
+Defined in: [ui/styling/font.d.ts:9](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L9)
 
 #### Overrides
 
@@ -71,7 +71,7 @@ FontBase.fontFamily
 fontScale: number;
 ```
 
-Defined in: ui/styling/font.d.ts:13
+Defined in: [ui/styling/font.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L13)
 
 #### Overrides
 
@@ -87,7 +87,7 @@ FontBase.fontScale
 fontSize: number;
 ```
 
-Defined in: ui/styling/font.d.ts:12
+Defined in: [ui/styling/font.d.ts:12](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L12)
 
 #### Overrides
 
@@ -103,7 +103,7 @@ FontBase.fontSize
 fontStyle: FontStyleType;
 ```
 
-Defined in: ui/styling/font.d.ts:10
+Defined in: [ui/styling/font.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L10)
 
 #### Overrides
 
@@ -119,7 +119,7 @@ FontBase.fontStyle
 optional fontVariationSettings?: FontVariationSettingsType[];
 ```
 
-Defined in: ui/styling/font.d.ts:14
+Defined in: [ui/styling/font.d.ts:14](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L14)
 
 #### Overrides
 
@@ -135,7 +135,7 @@ FontBase.fontVariationSettings
 fontWeight: FontWeightType;
 ```
 
-Defined in: ui/styling/font.d.ts:11
+Defined in: [ui/styling/font.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L11)
 
 #### Overrides
 
@@ -151,7 +151,7 @@ FontBase.fontWeight
 isBold: boolean;
 ```
 
-Defined in: ui/styling/font.d.ts:16
+Defined in: [ui/styling/font.d.ts:16](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L16)
 
 #### Overrides
 
@@ -167,7 +167,7 @@ FontBase.isBold
 isItalic: boolean;
 ```
 
-Defined in: ui/styling/font.d.ts:17
+Defined in: [ui/styling/font.d.ts:17](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L17)
 
 #### Overrides
 
@@ -183,7 +183,7 @@ FontBase.isItalic
 static default: Font;
 ```
 
-Defined in: ui/styling/font.d.ts:7
+Defined in: [ui/styling/font.d.ts:7](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L7)
 
 #### Overrides
 
@@ -199,7 +199,7 @@ FontBase.default
 getAndroidTypeface(): any;
 ```
 
-Defined in: ui/styling/font.d.ts:21
+Defined in: [ui/styling/font.d.ts:21](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L21)
 
 #### Returns
 
@@ -219,7 +219,7 @@ FontBase.getAndroidTypeface
 getUIFont(defaultFont: any): any;
 ```
 
-Defined in: ui/styling/font.d.ts:22
+Defined in: [ui/styling/font.d.ts:22](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L22)
 
 #### Parameters
 
@@ -245,7 +245,7 @@ FontBase.getUIFont
 withFontFamily(family: string): Font;
 ```
 
-Defined in: ui/styling/font.d.ts:24
+Defined in: [ui/styling/font.d.ts:24](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L24)
 
 #### Parameters
 
@@ -271,7 +271,7 @@ FontBase.withFontFamily
 withFontScale(scale: number): Font;
 ```
 
-Defined in: ui/styling/font.d.ts:28
+Defined in: [ui/styling/font.d.ts:28](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L28)
 
 #### Parameters
 
@@ -297,7 +297,7 @@ FontBase.withFontScale
 withFontSize(size: number): Font;
 ```
 
-Defined in: ui/styling/font.d.ts:27
+Defined in: [ui/styling/font.d.ts:27](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L27)
 
 #### Parameters
 
@@ -323,7 +323,7 @@ FontBase.withFontSize
 withFontStyle(style: FontStyleType): Font;
 ```
 
-Defined in: ui/styling/font.d.ts:25
+Defined in: [ui/styling/font.d.ts:25](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L25)
 
 #### Parameters
 
@@ -349,7 +349,7 @@ FontBase.withFontStyle
 withFontVariationSettings(variationSettings: FontVariationSettings[]): Font;
 ```
 
-Defined in: ui/styling/font.d.ts:29
+Defined in: [ui/styling/font.d.ts:29](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L29)
 
 #### Parameters
 
@@ -375,7 +375,7 @@ FontBase.withFontVariationSettings
 withFontWeight(weight: FontWeightType): Font;
 ```
 
-Defined in: ui/styling/font.d.ts:26
+Defined in: [ui/styling/font.d.ts:26](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L26)
 
 #### Parameters
 
@@ -401,7 +401,7 @@ FontBase.withFontWeight
 static equals(value1: Font, value2: Font): boolean;
 ```
 
-Defined in: ui/styling/font.d.ts:31
+Defined in: [ui/styling/font.d.ts:31](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font.d.ts#L31)
 
 #### Parameters
 

@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/styling/css-animation-parser.d.ts:2
+Defined in: [ui/styling/css-animation-parser.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-animation-parser.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new CssAnimationParser(): CssAnimationParser;
 static keyframeAnimationsFromCSSDeclarations(declarations: KeyframeDeclaration[]): KeyframeAnimationInfo[];
 ```
 
-Defined in: ui/styling/css-animation-parser.d.ts:3
+Defined in: [ui/styling/css-animation-parser.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-animation-parser.ts)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: ui/styling/css-animation-parser.d.ts:3
 static keyframesArrayFromCSS(keyframes: UnparsedKeyframe[]): KeyframeInfo[];
 ```
 
-Defined in: ui/styling/css-animation-parser.d.ts:4
+Defined in: [ui/styling/css-animation-parser.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-animation-parser.ts)
 
 #### Parameters
 

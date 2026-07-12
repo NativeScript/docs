@@ -5,7 +5,7 @@ description: Provides options for the prompt dialog.
 contributors: false
 ---
 
-Defined in: ui/dialogs/index.d.ts:225
+Defined in: [ui/dialogs/index.d.ts:225](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L225)
 
 Provides options for the prompt dialog.
 
@@ -21,7 +21,7 @@ Provides options for the prompt dialog.
 optional cancelable?: boolean;
 ```
 
-Defined in: ui/dialogs/index.d.ts:144
+Defined in: [ui/dialogs/index.d.ts:144](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L144)
 
 [Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog.
 
@@ -37,7 +37,7 @@ Defined in: ui/dialogs/index.d.ts:144
 optional cancelButtonText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:214
+Defined in: [ui/dialogs/index.d.ts:214](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L214)
 
 Gets or sets the Cancel button text.
 
@@ -53,7 +53,7 @@ Gets or sets the Cancel button text.
 optional capitalizationType?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:239
+Defined in: [ui/dialogs/index.d.ts:239](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L239)
 
 Gets or sets the prompt capitalizationType (none, all, sentences, or words).
 
@@ -65,7 +65,7 @@ Gets or sets the prompt capitalizationType (none, all, sentences, or words).
 optional defaultText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:229
+Defined in: [ui/dialogs/index.d.ts:229](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L229)
 
 Gets or sets the default text to display in the input box.
 
@@ -77,7 +77,7 @@ Gets or sets the default text to display in the input box.
 optional inputType?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:234
+Defined in: [ui/dialogs/index.d.ts:234](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L234)
 
 Gets or sets the prompt input type (plain text, password, or email).
 
@@ -89,7 +89,7 @@ Gets or sets the prompt input type (plain text, password, or email).
 optional message?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:194
+Defined in: [ui/dialogs/index.d.ts:194](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L194)
 
 Gets or sets the dialog message.
 
@@ -105,7 +105,7 @@ Gets or sets the dialog message.
 optional neutralButtonText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:219
+Defined in: [ui/dialogs/index.d.ts:219](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L219)
 
 Gets or sets the neutral button text.
 
@@ -121,7 +121,7 @@ Gets or sets the neutral button text.
 optional okButtonText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:204
+Defined in: [ui/dialogs/index.d.ts:204](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L204)
 
 Gets or sets the OK button text.
 
@@ -137,7 +137,7 @@ Gets or sets the OK button text.
 optional theme?: number;
 ```
 
-Defined in: ui/dialogs/index.d.ts:149
+Defined in: [ui/dialogs/index.d.ts:149](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L149)
 
 [Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style
 
@@ -153,7 +153,7 @@ Defined in: ui/dialogs/index.d.ts:149
 optional title?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:189
+Defined in: [ui/dialogs/index.d.ts:189](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L189)
 
 Gets or sets the dialog title.
 

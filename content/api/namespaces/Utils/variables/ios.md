@@ -41,7 +41,7 @@ const ios: {
 };
 ```
 
-Defined in: utils/native-helper.d.ts:177
+Defined in: [utils/native-helper.d.ts:177](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/native-helper.d.ts#L177)
 
 Utilities related to iOS.
 

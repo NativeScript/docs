@@ -8,7 +8,7 @@ contributors: false
 function getAncestor<T>(view: T, criterion: string | (() => any)): T;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:87
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets an ancestor from a given type.
 

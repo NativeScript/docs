@@ -8,7 +8,7 @@ contributors: false
 function profilingEnable(type?: InstrumentationMode): void;
 ```
 
-Defined in: profiling/index.d.ts:53
+Defined in: [profiling/index.d.ts:53](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L53)
 
 Enables profiling.
 

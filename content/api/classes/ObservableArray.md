@@ -5,7 +5,7 @@ description: Advanced array like class used when you want to be notified when a 
 contributors: false
 ---
 
-Defined in: data/observable-array/index.d.ts:33
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Advanced array like class used when you want to be notified when a change occurs.
 
@@ -27,7 +27,7 @@ Advanced array like class used when you want to be notified when a change occurs
 new ObservableArray<T>(arrayLength?: number): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:44
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Create ObservableArray\<T\> with specified length.
 
@@ -51,7 +51,7 @@ Create ObservableArray\<T\> with specified length.
 new ObservableArray<T>(items: T[]): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:48
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Create ObservableArray\<T\> from source Array\<T\>.
 
@@ -77,7 +77,7 @@ Observable.constructor
 new ObservableArray<T>(...items: T[]): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:52
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Create ObservableArray\<T\> from T items.
 
@@ -105,7 +105,7 @@ Observable.constructor
 static changeEvent: string;
 ```
 
-Defined in: data/observable-array/index.d.ts:37
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 String value used when hooking to change event.
 
@@ -117,7 +117,7 @@ String value used when hooking to change event.
 static propertyChangeEvent: string;
 ```
 
-Defined in: data/observable/index.d.ts:75
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 String value used when hooking to propertyChange event.
 
@@ -139,7 +139,7 @@ propertyChange
 get length(): number;
 ```
 
-Defined in: data/observable-array/index.d.ts:67
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.
 
@@ -153,7 +153,7 @@ Gets or sets the length of the array. This is a number one higher than the highe
 set length(value: number): void;
 ```
 
-Defined in: data/observable-array/index.d.ts:68
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 ##### Parameters
 
@@ -176,7 +176,7 @@ _createPropertyChangeData(
    oldValue?: any): PropertyChangeData;
 ```
 
-Defined in: data/observable/index.d.ts:198
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 This method is intended to be overriden by inheritors to provide additional implementation.
 
@@ -204,7 +204,7 @@ This method is intended to be overriden by inheritors to provide additional impl
 _emit(eventName: string): void;
 ```
 
-Defined in: data/observable/index.d.ts:199
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: data/observable/index.d.ts:199
 _notifyLengthChange(): void;
 ```
 
-Defined in: data/observable-array/index.d.ts:94
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 #### Returns
 
@@ -242,7 +242,7 @@ Defined in: data/observable-array/index.d.ts:94
 iterator: Generator<T, void, unknown>;
 ```
 
-Defined in: data/observable-array/index.d.ts:53
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 #### Returns
 
@@ -260,7 +260,7 @@ addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:134
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -289,7 +289,7 @@ Adds a listener for the specified event name.
 concat(...args: any[]): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:79
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Combines two or more arrays.
 
@@ -311,7 +311,7 @@ Combines two or more arrays.
 every(callbackfn: (value: T, index: number, array: ObservableArray<T>) => boolean, thisArg?: any): boolean;
 ```
 
-Defined in: data/observable-array/index.d.ts:164
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -334,7 +334,7 @@ Determines whether all the members of an array satisfy the specified test.
 filter(callbackfn: (value: T, index: number, array: ObservableArray<T>) => boolean, thisArg?: any): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:188
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -357,7 +357,7 @@ Returns the elements of an array that meet the condition specified in a callback
 find(callbackfn: (value: T, index: number, array: ObservableArray<T>) => any, thisArg?: any): T;
 ```
 
-Defined in: data/observable-array/index.d.ts:134
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns the first element in the array where predicate is true, and null otherwise.
 
@@ -380,7 +380,7 @@ Returns the first element in the array where predicate is true, and null otherwi
 findIndex(callbackfn: (value: T, index: number, array: ObservableArray<T>) => any, thisArg?: any): number;
 ```
 
-Defined in: data/observable-array/index.d.ts:140
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns the index of the first element in the array where predicate is true, and -1 otherwise.
 
@@ -403,7 +403,7 @@ Returns the index of the first element in the array where predicate is true, and
 forEach(callbackfn: (value: T, index: number, array: ObservableArray<T>) => void, thisArg?: any): void;
 ```
 
-Defined in: data/observable-array/index.d.ts:176
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Performs the specified action for each element in an array.
 
@@ -426,7 +426,7 @@ Performs the specified action for each element in an array.
 get(name: string): any;
 ```
 
-Defined in: data/observable/index.d.ts:85
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Gets the value of the specified property.
 
@@ -452,7 +452,7 @@ Gets the value of the specified property.
 getItem(pos: number): T;
 ```
 
-Defined in: data/observable-array/index.d.ts:58
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns item at specified position.
 Supports relative indexing from the end of the array when passed a negative index.
@@ -475,7 +475,7 @@ Supports relative indexing from the end of the array when passed a negative inde
 hasListeners(eventName: string): boolean;
 ```
 
-Defined in: data/observable/index.d.ts:194
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Checks whether a listener is registered for the specified event name.
 
@@ -501,7 +501,7 @@ Checks whether a listener is registered for the specified event name.
 includes(searchElement: T, fromIndex?: number): boolean;
 ```
 
-Defined in: data/observable-array/index.d.ts:146
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Determines whether the specified element exists inside the array.
 
@@ -524,7 +524,7 @@ Determines whether the specified element exists inside the array.
 indexOf(searchElement: T, fromIndex?: number): number;
 ```
 
-Defined in: data/observable-array/index.d.ts:152
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -547,7 +547,7 @@ Returns the index of the first occurrence of a value in an array.
 join(separator?: string): string;
 ```
 
-Defined in: data/observable-array/index.d.ts:84
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -569,7 +569,7 @@ Adds all the elements of an array separated by the specified separator string.
 lastIndexOf(searchElement: T, fromIndex?: number): number;
 ```
 
-Defined in: data/observable-array/index.d.ts:158
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns the index of the last occurrence of a specified value in an array.
 
@@ -592,7 +592,7 @@ Returns the index of the last occurrence of a specified value in an array.
 map<U>(callbackfn: (value: T, index: number, array: ObservableArray<T>) => U, thisArg?: any): ObservableArray<U>;
 ```
 
-Defined in: data/observable-array/index.d.ts:182
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
@@ -621,7 +621,7 @@ Calls a defined callback function on each element of an array, and returns an ar
 notify<T>(data: T): void;
 ```
 
-Defined in: data/observable/index.d.ts:183
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notify this Observable instance with some data. This causes all event
 handlers on the Observable instance to be called, as well as any 'global'
@@ -658,7 +658,7 @@ notifyPropertyChange(
    oldValue?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:189
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notifies all the registered listeners for the property change event.
 
@@ -689,7 +689,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:126
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes the listener(s) for the specified event name.
 
@@ -722,7 +722,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable-array/index.d.ts:213
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -751,7 +751,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable-array/index.d.ts:214
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 ##### Parameters
 
@@ -782,7 +782,7 @@ once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:116
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name, which, once fired, will
 remove itself.
@@ -811,7 +811,7 @@ remove itself.
 pop(): T;
 ```
 
-Defined in: data/observable-array/index.d.ts:88
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Removes the last element from an array and returns it.
 
@@ -827,7 +827,7 @@ Removes the last element from an array and returns it.
 push(...args: T[]): number;
 ```
 
-Defined in: data/observable-array/index.d.ts:93
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Appends new elements to an array, and returns the new length of the array.
 
@@ -849,7 +849,7 @@ Appends new elements to an array, and returns the new length of the array.
 reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: ObservableArray<T>) => T, initialValue?: T): T;
 ```
 
-Defined in: data/observable-array/index.d.ts:194
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -872,7 +872,7 @@ Calls the specified callback function for all the elements in an array. The retu
 reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: ObservableArray<T>) => T, initialValue?: T): T;
 ```
 
-Defined in: data/observable-array/index.d.ts:200
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -898,7 +898,7 @@ removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:141
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes listener(s) for the specified event name.
 
@@ -926,7 +926,7 @@ Removes listener(s) for the specified event name.
 reverse(): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:99
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Reverses the elements in an Array.
 This method uses 'in place' algorithm.
@@ -943,7 +943,7 @@ This method uses 'in place' algorithm.
 set(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:89
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value.
 
@@ -970,7 +970,7 @@ Updates the specified property with the provided value.
 setItem(pos: number, value: T): void;
 ```
 
-Defined in: data/observable-array/index.d.ts:63
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Sets item at specified position.
 Supports relative indexing from the end of the array when passed a negative index.
@@ -994,7 +994,7 @@ Supports relative indexing from the end of the array when passed a negative inde
 setProperty(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:93
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name.
 
@@ -1021,7 +1021,7 @@ Updates the specified property with the provided value and raises a property cha
 shift(): T;
 ```
 
-Defined in: data/observable-array/index.d.ts:103
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Removes the first element from an array and returns it.
 
@@ -1037,7 +1037,7 @@ Removes the first element from an array and returns it.
 slice(start?: number, end?: number): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:109
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns a section of an array.
 
@@ -1060,7 +1060,7 @@ Returns a section of an array.
 some(callbackfn: (value: T, index: number, array: ObservableArray<T>) => boolean, thisArg?: any): boolean;
 ```
 
-Defined in: data/observable-array/index.d.ts:170
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Determines whether the specified callback function returns true for any element of an array.
 
@@ -1083,7 +1083,7 @@ Determines whether the specified callback function returns true for any element 
 sort(compareFn?: (a: T, b: T) => number): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:115
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Sorts an array.
 This method uses 'in place' algorithm.
@@ -1109,7 +1109,7 @@ splice(
 items: T[]): ObservableArray<T>;
 ```
 
-Defined in: data/observable-array/index.d.ts:123
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 This method uses 'in place' algorithm.
@@ -1134,7 +1134,7 @@ This method uses 'in place' algorithm.
 toJSON(): any[];
 ```
 
-Defined in: data/observable-array/index.d.ts:69
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 #### Returns
 
@@ -1148,7 +1148,7 @@ Defined in: data/observable-array/index.d.ts:69
 toLocaleString(): string;
 ```
 
-Defined in: data/observable-array/index.d.ts:74
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns a date converted to a string using the current locale.
 
@@ -1164,7 +1164,7 @@ Returns a date converted to a string using the current locale.
 toString(): string;
 ```
 
-Defined in: data/observable-array/index.d.ts:73
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Returns a string representation of an array.
 
@@ -1180,7 +1180,7 @@ Returns a string representation of an array.
 unshift(...args: T[]): number;
 ```
 
-Defined in: data/observable-array/index.d.ts:128
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Inserts new elements at the start of an array.
 
@@ -1206,7 +1206,7 @@ static addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:172
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1241,7 +1241,7 @@ static off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:159
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1276,7 +1276,7 @@ static on(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:147
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1311,7 +1311,7 @@ static once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:153
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1345,7 +1345,7 @@ static removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:166
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.

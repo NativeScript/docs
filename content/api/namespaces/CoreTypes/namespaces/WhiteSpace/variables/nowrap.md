@@ -8,4 +8,4 @@ contributors: false
 const nowrap: "nowrap" = "nowrap";
 ```
 
-Defined in: core-types/index.d.ts:92
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)

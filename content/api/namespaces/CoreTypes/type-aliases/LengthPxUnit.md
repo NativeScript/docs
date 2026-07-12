@@ -11,7 +11,7 @@ type LengthPxUnit = {
 };
 ```
 
-Defined in: core-types/index.d.ts:30
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
 
 ## Properties
 
@@ -21,7 +21,7 @@ Defined in: core-types/index.d.ts:30
 readonly unit: "px";
 ```
 
-Defined in: core-types/index.d.ts:31
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
 
 ***
 
@@ -31,4 +31,4 @@ Defined in: core-types/index.d.ts:31
 readonly value: px;
 ```
 
-Defined in: core-types/index.d.ts:32
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)

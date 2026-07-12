@@ -8,7 +8,7 @@ contributors: false
 function numberHasDecimals(value: number): boolean;
 ```
 
-Defined in: utils/types.d.ts:68
+Defined in: [utils/types.d.ts:68](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/types.d.ts#L68)
 
 Checks if the number has decimals
 

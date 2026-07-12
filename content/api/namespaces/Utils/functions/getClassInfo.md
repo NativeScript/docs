@@ -8,7 +8,7 @@ contributors: false
 function getClassInfo(object: Object): ClassInfo;
 ```
 
-Defined in: utils/types.d.ts:95
+Defined in: [utils/types.d.ts:95](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/types.d.ts#L95)
 
 A function that gets the ClassInfo for an object.
 

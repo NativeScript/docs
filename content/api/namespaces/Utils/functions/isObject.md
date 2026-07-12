@@ -8,7 +8,7 @@ contributors: false
 function isObject(value: any): boolean;
 ```
 
-Defined in: utils/types.d.ts:34
+Defined in: [utils/types.d.ts:34](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/types.d.ts#L34)
 
 A function that checks if something is an object.
 

@@ -13,7 +13,7 @@ function action(
 actions: string[]): Promise<string>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:129
+Defined in: [ui/dialogs/index.d.ts:129](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L129)
 
 The action() method displays a action box that prompts the visitor to choose some action.
 
@@ -35,7 +35,7 @@ The action() method displays a action box that prompts the visitor to choose som
 function action(options: ActionOptions): Promise<string>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:135
+Defined in: [ui/dialogs/index.d.ts:135](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L135)
 
 The action() method displays a action box that prompts the visitor to choose some action.
 

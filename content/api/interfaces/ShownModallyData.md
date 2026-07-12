@@ -5,7 +5,7 @@ description: Defines the data for the shownModally event.
 contributors: false
 ---
 
-Defined in: ui/core/view/view-interfaces.d.ts:5
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 Defines the data for the shownModally event.
 
@@ -21,7 +21,7 @@ Defines the data for the shownModally event.
 optional closeCallback?: Function;
 ```
 
-Defined in: ui/core/view/view-interfaces.d.ts:15
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 A callback to call when you want to close the modally shown view.
 Pass in any kind of arguments and you will receive when the callback parameter
@@ -35,7 +35,7 @@ of View.showModal is executed.
 optional context?: any;
 ```
 
-Defined in: ui/core/view/view-interfaces.d.ts:9
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 The context (optional, may be undefined) passed to the view when shown modally.
 
@@ -47,7 +47,7 @@ The context (optional, may be undefined) passed to the view when shown modally.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -63,7 +63,7 @@ The name of the event.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 

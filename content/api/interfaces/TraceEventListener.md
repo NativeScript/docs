@@ -5,7 +5,7 @@ description: An interface used to trace information about specific event.
 contributors: false
 ---
 
-Defined in: trace/index.d.ts:11
+Defined in: [trace/index.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L11)
 
 An interface used to trace information about specific event.
 
@@ -17,7 +17,7 @@ An interface used to trace information about specific event.
 filter: string;
 ```
 
-Defined in: trace/index.d.ts:12
+Defined in: [trace/index.d.ts:12](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L12)
 
 ## Methods
 
@@ -30,7 +30,7 @@ on(
    data?: any): void;
 ```
 
-Defined in: trace/index.d.ts:13
+Defined in: [trace/index.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L13)
 
 #### Parameters
 

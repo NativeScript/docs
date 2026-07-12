@@ -5,7 +5,7 @@ description: Manage interactivity in your apps easily with TouchManager. Store r
 contributors: false
 ---
 
-Defined in: ui/gestures/touch-manager.d.ts:24
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 Manage interactivity in your apps easily with TouchManager.
 Store reusable down/up animation settings for touches as well as optionally enable automatic tap (down/up) animations for your app.
@@ -30,7 +30,7 @@ new TouchManager(): TouchManager;
 static animations: TouchAnimationOptions;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:48
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 Define reusable touch animations to use on views with touchAnimation defined or with enableGlobalTapAnimations on.
 
@@ -42,7 +42,7 @@ Define reusable touch animations to use on views with touchAnimation defined or 
 static enableGlobalHoverWhereTap: boolean;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:32
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 (visionOS Only) Enable hoverStyle for all tap bindings in the UI.
 
@@ -54,7 +54,7 @@ Defined in: ui/gestures/touch-manager.d.ts:32
 static enableGlobalTapAnimations: boolean;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:28
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 Enable animations for all tap bindings in the UI.
 
@@ -70,7 +70,7 @@ static touchAnimationDefinitions: {
 }[];
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:61
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 When using NativeScript AnimationDefinition's for touch animations this will contain any instances for finer grain control of starting/stopping under various circumstances.
 The TouchManager uses this internally but makes public for other versatility if needed.
@@ -104,7 +104,7 @@ static touchHandlers: {
 }[];
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:53
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 Native Touch handlers (iOS only) registered with the view through the TouchManager.
 The TouchManager uses this internally but makes public for other versatility if needed.
@@ -131,7 +131,7 @@ static visionHoverOptions: {
 };
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:36
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 Define reusable hover styles keyed by name to use throughout your UI.
 
@@ -151,7 +151,7 @@ static visionHoverStyleCache: {
 };
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:42
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 Used internally - defines reusable UIHoverStyle's
 
@@ -169,7 +169,7 @@ Used internally - defines reusable UIHoverStyle's
 static addAnimations(view: View): void;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:71
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 The TouchManager uses this internally.
 Adds touch animations to view based upon it's touchAnimation property or TouchManager.animations.
@@ -192,7 +192,7 @@ Adds touch animations to view based upon it's touchAnimation property or TouchMa
 static addHoverStyle(view: View): void;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:78
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 The TouchManager uses this internally.
 Adds visionOS hover styles to views based upon it's visionHoverStyle property
@@ -215,7 +215,7 @@ Adds visionOS hover styles to views based upon it's visionHoverStyle property
 static startAnimationForType(view: View, type: TouchAnimationTypes): void;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:72
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 #### Parameters
 

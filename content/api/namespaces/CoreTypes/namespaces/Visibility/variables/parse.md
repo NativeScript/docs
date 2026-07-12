@@ -8,7 +8,7 @@ contributors: false
 const parse: (value: string) => VisibilityType;
 ```
 
-Defined in: core-types/index.d.ts:158
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
 
 ## Parameters
 

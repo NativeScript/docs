@@ -35,7 +35,7 @@ const ad: {
 } = android;
 ```
 
-Defined in: utils/native-helper.d.ts:172
+Defined in: [utils/native-helper.d.ts:172](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/native-helper.d.ts#L172)
 
 ## Type Declaration
 

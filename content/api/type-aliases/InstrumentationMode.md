@@ -9,7 +9,7 @@ contributors: false
 type InstrumentationMode = "counters" | "timeline" | "lifecycle";
 ```
 
-Defined in: profiling/index.d.ts:17
+Defined in: [profiling/index.d.ts:17](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L17)
 
 Profiling mode to use.
  - `counters` Accumulates method call counts and times until dumpProfiles is called and then prints aggregated statistic in the console. This is the default.

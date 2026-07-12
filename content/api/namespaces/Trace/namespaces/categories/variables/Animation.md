@@ -8,4 +8,4 @@ contributors: false
 const Animation: "Animation" = 'Animation';
 ```
 
-Defined in: trace/index.d.ts:118
+Defined in: [trace/index.d.ts:118](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L118)

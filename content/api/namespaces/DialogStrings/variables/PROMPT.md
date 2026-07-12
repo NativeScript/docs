@@ -8,4 +8,4 @@ contributors: false
 const PROMPT: "Prompt" = "Prompt";
 ```
 
-Defined in: ui/dialogs/dialogs-common.d.ts:5
+Defined in: [ui/dialogs/dialogs-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/dialogs-common.ts)

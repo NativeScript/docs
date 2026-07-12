@@ -8,7 +8,7 @@ contributors: false
 function parseKeyframeDeclarations(unparsedKeyframeDeclarations: KeyframeDeclaration[]): KeyframeDeclaration[];
 ```
 
-Defined in: ui/styling/css-animation-parser.d.ts:14
+Defined in: [ui/styling/css-animation-parser.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-animation-parser.ts)
 
 ## Parameters
 

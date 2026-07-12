@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/animation/keyframe-animation.d.ts:15
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new KeyframeDeclaration(): KeyframeDeclaration;
 property: string;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:16
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: ui/animation/keyframe-animation.d.ts:16
 value: any;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:17
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)

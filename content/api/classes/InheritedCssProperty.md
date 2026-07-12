@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/core/properties/index.d.ts:87
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 ## Extends
 
@@ -29,7 +29,7 @@ Defined in: ui/core/properties/index.d.ts:87
 new InheritedCssProperty<T, U>(options: CssPropertyOptions<T, U>): InheritedCssProperty<T, U>;
 ```
 
-Defined in: ui/core/properties/index.d.ts:89
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ CssProperty<T, U>.constructor
 readonly cssLocalName: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:47
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -77,7 +77,7 @@ CssProperty.cssLocalName
 readonly cssName: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:46
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -99,7 +99,7 @@ CssProperty.cssName
 protected readonly cssValueDescriptor: PropertyDescriptor;
 ```
 
-Defined in: ui/core/properties/index.d.ts:48
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -121,7 +121,7 @@ CssProperty.cssValueDescriptor
 readonly defaultValue: U;
 ```
 
-Defined in: ui/core/properties/index.d.ts:56
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -143,7 +143,7 @@ CssProperty.defaultValue
 readonly defaultValueKey: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:55
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -165,7 +165,7 @@ CssProperty.defaultValueKey
 readonly getDefault: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:52
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -187,7 +187,7 @@ CssProperty.getDefault
 isStyleProperty: boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:50
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -209,7 +209,7 @@ CssProperty.isStyleProperty
 readonly key: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:51
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -231,7 +231,7 @@ CssProperty.key
 protected readonly localValueDescriptor: PropertyDescriptor;
 ```
 
-Defined in: ui/core/properties/index.d.ts:49
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -253,7 +253,7 @@ CssProperty.localValueDescriptor
 readonly name: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:45
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -275,7 +275,7 @@ CssProperty.name
 overrideHandlers: (options: CssPropertyOptions<T, U>) => void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:57
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -307,7 +307,7 @@ CssProperty.overrideHandlers
 setInheritedValue: (value: U) => void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:88
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -333,7 +333,7 @@ InheritedCssProperty.setInheritedValue
 readonly setNative: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:53
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -355,7 +355,7 @@ CssProperty.setNative
 readonly sourceKey: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:54
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -377,7 +377,7 @@ CssProperty.sourceKey
 isSet(instance: T): boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:62
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -411,7 +411,7 @@ register(cls: {
 }): void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:59
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 

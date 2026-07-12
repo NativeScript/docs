@@ -5,7 +5,7 @@ description: Provides options for the http requests.
 contributors: false
 ---
 
-Defined in: http/http-interfaces.d.ts:7
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Provides options for the http requests.
 
@@ -17,7 +17,7 @@ Provides options for the http requests.
 optional content?: string | FormData | ArrayBuffer | Uint8Array<ArrayBufferLike>;
 ```
 
-Defined in: http/http-interfaces.d.ts:23
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets or sets the request body.
 
@@ -29,7 +29,7 @@ Gets or sets the request body.
 optional dontFollowRedirects?: boolean;
 ```
 
-Defined in: http/http-interfaces.d.ts:31
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets or sets whether to *not* follow server's redirection responses.
 
@@ -41,7 +41,7 @@ Gets or sets whether to *not* follow server's redirection responses.
 optional headers?: any;
 ```
 
-Defined in: http/http-interfaces.d.ts:19
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets or sets the request headers in JSON format.
 
@@ -53,7 +53,7 @@ Gets or sets the request headers in JSON format.
 method: string;
 ```
 
-Defined in: http/http-interfaces.d.ts:15
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets or sets the request method.
 
@@ -65,7 +65,7 @@ Gets or sets the request method.
 optional timeout?: number;
 ```
 
-Defined in: http/http-interfaces.d.ts:27
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets or sets the request timeout in milliseconds.
 
@@ -77,6 +77,6 @@ Gets or sets the request timeout in milliseconds.
 url: string;
 ```
 
-Defined in: http/http-interfaces.d.ts:11
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets or sets the request url.

@@ -10,7 +10,7 @@ contributors: false
 function getImage(url: string): Promise<ImageSource>;
 ```
 
-Defined in: http/index.d.ts:35
+Defined in: [http/index.d.ts:35](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/index.d.ts#L35)
 
 Downloads the content from the specified URL and attempts to decode it as an image.
 
@@ -30,7 +30,7 @@ Downloads the content from the specified URL and attempts to decode it as an ima
 function getImage(options: HttpRequestOptions): Promise<ImageSource>;
 ```
 
-Defined in: http/index.d.ts:41
+Defined in: [http/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/index.d.ts#L41)
 
 Downloads the content from the specified URL and attempts to decode it as an image.
 

@@ -8,7 +8,7 @@ contributors: false
 function getMeasureSpecMode(spec: number): number;
 ```
 
-Defined in: utils/layout-helper/index.d.ts:30
+Defined in: [utils/layout-helper/index.d.ts:30](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/layout-helper/index.d.ts#L30)
 
 Gets measure specification mode from a given specification.
 

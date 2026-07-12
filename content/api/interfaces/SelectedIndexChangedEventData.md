@@ -5,7 +5,7 @@ description: Defines the data for the SegmentedBar.selectedIndexChanged event.
 contributors: false
 ---
 
-Defined in: ui/segmented-bar/index.d.ts:25
+Defined in: [ui/segmented-bar/index.d.ts:25](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/segmented-bar/index.d.ts#L25)
 
 Defines the data for the SegmentedBar.selectedIndexChanged event.
 
@@ -21,7 +21,7 @@ Defines the data for the SegmentedBar.selectedIndexChanged event.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -37,7 +37,7 @@ The name of the event.
 newIndex: number;
 ```
 
-Defined in: ui/segmented-bar/index.d.ts:34
+Defined in: [ui/segmented-bar/index.d.ts:34](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/segmented-bar/index.d.ts#L34)
 
 The new selected index.
 
@@ -49,7 +49,7 @@ The new selected index.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -65,6 +65,6 @@ The Observable instance that has raised the event.
 oldIndex: number;
 ```
 
-Defined in: ui/segmented-bar/index.d.ts:29
+Defined in: [ui/segmented-bar/index.d.ts:29](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/segmented-bar/index.d.ts#L29)
 
 The old selected index.

@@ -5,7 +5,7 @@ description: Encapsulates the content of an HttpResponse.
 contributors: false
 ---
 
-Defined in: http/http-interfaces.d.ts:82
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Encapsulates the content of an HttpResponse.
 
@@ -21,7 +21,7 @@ Encapsulates the content of an HttpResponse.
 raw: any;
 ```
 
-Defined in: http/http-request-internal/index.d.ts:7
+Defined in: [http/http-request-internal/index.d.ts:7](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-request-internal/index.d.ts#L7)
 
 Gets the response body as raw data.
 
@@ -39,7 +39,7 @@ BaseHttpContent.raw
 requestURL: string;
 ```
 
-Defined in: http/http-request-internal/index.d.ts:11
+Defined in: [http/http-request-internal/index.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-request-internal/index.d.ts#L11)
 
 Gets the request options URL.
 
@@ -57,7 +57,7 @@ BaseHttpContent.requestURL
 toArrayBuffer: () => ArrayBuffer;
 ```
 
-Defined in: http/http-interfaces.d.ts:61
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as ArrayBuffer
 
@@ -77,7 +77,7 @@ Gets the response body as ArrayBuffer
 toFile: (destinationFilePath?: string) => File;
 ```
 
-Defined in: http/http-interfaces.d.ts:77
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as file.
 
@@ -103,7 +103,7 @@ Gets the response body as file.
 toImage: () => Promise<ImageSource>;
 ```
 
-Defined in: http/http-interfaces.d.ts:73
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as ImageSource.
 
@@ -123,7 +123,7 @@ Gets the response body as ImageSource.
 toJSON: (encoding?: HttpResponseEncoding) => any;
 ```
 
-Defined in: http/http-interfaces.d.ts:69
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as JSON object.
 
@@ -149,7 +149,7 @@ Gets the response body as JSON object.
 toNativeImage: () => Promise<any>;
 ```
 
-Defined in: http/http-request-internal/index.d.ts:15
+Defined in: [http/http-request-internal/index.d.ts:15](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-request-internal/index.d.ts#L15)
 
 Gets the response native image.
 
@@ -171,7 +171,7 @@ BaseHttpContent.toNativeImage
 toNativeString: (encoding?: HttpResponseEncoding) => any;
 ```
 
-Defined in: http/http-request-internal/index.d.ts:19
+Defined in: [http/http-request-internal/index.d.ts:19](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-request-internal/index.d.ts#L19)
 
 Gets the response as native string.
 
@@ -199,7 +199,7 @@ BaseHttpContent.toNativeString
 toString: (encoding?: HttpResponseEncoding) => string;
 ```
 
-Defined in: http/http-interfaces.d.ts:65
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as string.
 

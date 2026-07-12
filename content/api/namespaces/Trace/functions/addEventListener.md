@@ -8,7 +8,7 @@ contributors: false
 function addEventListener(listener: TraceEventListener): void;
 ```
 
-Defined in: trace/index.d.ts:92
+Defined in: [trace/index.d.ts:92](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L92)
 
 ## Parameters
 

@@ -36,7 +36,7 @@ const android: {
 };
 ```
 
-Defined in: utils/native-helper.d.ts:26
+Defined in: [utils/native-helper.d.ts:26](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/native-helper.d.ts#L26)
 
 Utilities related to Android.
 

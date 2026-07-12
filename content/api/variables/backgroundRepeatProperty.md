@@ -8,4 +8,4 @@ contributors: false
 const backgroundRepeatProperty: CssProperty<Style, BackgroundRepeatType>;
 ```
 
-Defined in: ui/styling/style-properties.d.ts:35
+Defined in: [ui/styling/style-properties.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style-properties.ts)

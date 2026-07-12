@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/styling/css-shadow.d.ts:3
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ui/styling/css-shadow.d.ts:3
 optional blurRadius?: LengthType;
 ```
 
-Defined in: ui/styling/css-shadow.d.ts:7
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: ui/styling/css-shadow.d.ts:7
 color: Color;
 ```
 
-Defined in: ui/styling/css-shadow.d.ts:9
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: ui/styling/css-shadow.d.ts:9
 inset: boolean;
 ```
 
-Defined in: ui/styling/css-shadow.d.ts:4
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: ui/styling/css-shadow.d.ts:4
 offsetX: LengthType;
 ```
 
-Defined in: ui/styling/css-shadow.d.ts:5
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: ui/styling/css-shadow.d.ts:5
 offsetY: LengthType;
 ```
 
-Defined in: ui/styling/css-shadow.d.ts:6
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: ui/styling/css-shadow.d.ts:6
 optional spreadRadius?: LengthType;
 ```
 
-Defined in: ui/styling/css-shadow.d.ts:8
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)

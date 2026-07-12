@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/animation/keyframe-animation.d.ts:24
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new KeyframeAnimationInfo(): KeyframeAnimationInfo;
 optional curve?: any;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:30
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ui/animation/keyframe-animation.d.ts:30
 optional delay?: number;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:28
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ui/animation/keyframe-animation.d.ts:28
 optional duration?: number;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:27
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: ui/animation/keyframe-animation.d.ts:27
 optional isForwards?: boolean;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:31
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: ui/animation/keyframe-animation.d.ts:31
 optional isReverse?: boolean;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:32
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -76,7 +76,7 @@ Defined in: ui/animation/keyframe-animation.d.ts:32
 optional iterations?: number;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:29
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: ui/animation/keyframe-animation.d.ts:29
 keyframes: KeyframeInfo[];
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:25
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -96,4 +96,4 @@ Defined in: ui/animation/keyframe-animation.d.ts:25
 optional name?: string;
 ```
 
-Defined in: ui/animation/keyframe-animation.d.ts:26
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)

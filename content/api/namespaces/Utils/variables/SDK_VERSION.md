@@ -8,4 +8,4 @@ contributors: false
 const SDK_VERSION: number;
 ```
 
-Defined in: utils/constants.d.ts:1
+Defined in: [utils/constants.d.ts:1](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/constants.d.ts#L1)

@@ -20,4 +20,4 @@ type TransformationType =
   | "scaleY";
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:8
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)

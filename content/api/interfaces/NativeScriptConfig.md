@@ -5,7 +5,7 @@ description: "IMPORTANT: this is not generated automatically due to this issue: 
 contributors: false
 ---
 
-Defined in: config/config.interface.d.ts:197
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 IMPORTANT: this is not generated automatically due to this issue:
 https://github.com/microsoft/TypeScript/issues/36763
@@ -20,7 +20,7 @@ Once issue is resolve we can remove this index.d.ts from repo and go back to aut
 optional android?: IConfigAndroid;
 ```
 
-Defined in: config/config.interface.d.ts:269
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Android specific configurations
 Various Android specific configurations including Android runtime flags.
@@ -33,7 +33,7 @@ Various Android specific configurations including Android runtime flags.
 optional appPath?: string;
 ```
 
-Defined in: config/config.interface.d.ts:211
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Path to the app source directory
 This is often the `src` or `app` directory however can be changed.
@@ -46,7 +46,7 @@ This is often the `src` or `app` directory however can be changed.
 optional appResourcesPath?: string;
 ```
 
-Defined in: config/config.interface.d.ts:216
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 App_Resources path
 This is often at the root or inside `src` or `app` directory however can be anywhere.
@@ -59,7 +59,7 @@ This is often at the root or inside `src` or `app` directory however can be anyw
 optional bundler?: BundlerType;
 ```
 
-Defined in: config/config.interface.d.ts:246
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Bundler to use for this project.
 Default is 'webpack'.
@@ -72,7 +72,7 @@ Default is 'webpack'.
 optional bundlerConfigPath?: string;
 ```
 
-Defined in: config/config.interface.d.ts:241
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Custom bundler config path
 For example, `vite.config.ts`, `webpack.config.js`, etc.
@@ -86,7 +86,7 @@ The default is `webpack.config.js` however you can use a custom name and place e
 optional cli?: IConfigCLI;
 ```
 
-Defined in: config/config.interface.d.ts:287
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Set cli options
 
@@ -98,7 +98,7 @@ Set cli options
 optional cssParser?: "rework" | "nativescript" | "css-tree";
 ```
 
-Defined in: config/config.interface.d.ts:279
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Set the default CSS parser that NativeScript will use.
 Default: css-tree
@@ -111,7 +111,7 @@ Default: css-tree
 optional embed?: IConfigEmbed;
 ```
 
-Defined in: config/config.interface.d.ts:229
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 For embedding into existing platform host projects.
 
@@ -123,7 +123,7 @@ For embedding into existing platform host projects.
 optional hooks?: IConfigHook[];
 ```
 
-Defined in: config/config.interface.d.ts:291
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Set project persistent hooks to run
 
@@ -135,7 +135,7 @@ Set project persistent hooks to run
 optional id?: string;
 ```
 
-Defined in: config/config.interface.d.ts:202
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 App's bundle id
 Used for both iOS and Android if they use the same bundle id. You can override per platform in the respective platform specific configurations.
@@ -148,7 +148,7 @@ Used for both iOS and Android if they use the same bundle id. You can override p
 optional ignoredNativeDependencies?: string[];
 ```
 
-Defined in: config/config.interface.d.ts:283
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Optionally specify a list of npm package names for which you would like the NativeScript CLI to ignore when attaching native dependencies to the build
 
@@ -160,7 +160,7 @@ Optionally specify a list of npm package names for which you would like the Nati
 optional ios?: IConfigIOS;
 ```
 
-Defined in: config/config.interface.d.ts:259
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 iOS specific configurations
 Various iOS specific configurations including iOS runtime flags.
@@ -173,7 +173,7 @@ Various iOS specific configurations including iOS runtime flags.
 optional logScriptLoading?: boolean;
 ```
 
-Defined in: config/config.interface.d.ts:250
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Enable runtime logging of script loading.
 
@@ -185,7 +185,7 @@ Enable runtime logging of script loading.
 optional main?: string;
 ```
 
-Defined in: config/config.interface.d.ts:206
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 App's main entry file - this setting overrides the value set in package.json
 
@@ -197,7 +197,7 @@ App's main entry file - this setting overrides the value set in package.json
 optional overridePods?: string;
 ```
 
-Defined in: config/config.interface.d.ts:219
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 ***
 
@@ -207,7 +207,7 @@ Defined in: config/config.interface.d.ts:219
 optional previewAppSchema?: string;
 ```
 
-Defined in: config/config.interface.d.ts:218
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 ***
 
@@ -217,7 +217,7 @@ Defined in: config/config.interface.d.ts:218
 optional profiling?: InstrumentationMode;
 ```
 
-Defined in: config/config.interface.d.ts:274
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Enable profiling for the application. Default: no profiling
 In most cases when profiling, you will want to use "timeline"
@@ -230,7 +230,7 @@ In most cases when profiling, you will want to use "timeline"
 optional projectName?: string;
 ```
 
-Defined in: config/config.interface.d.ts:225
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Custom platform project name.
 By default, the platforms/\{platform\}/\{name\} is based on the basename of the project directory.
@@ -244,7 +244,7 @@ You can override that to use a name of your choice by setting this.
 optional security?: ISecurityConfig;
 ```
 
-Defined in: config/config.interface.d.ts:295
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Security configurations
 
@@ -256,7 +256,7 @@ Security configurations
 optional shared?: boolean;
 ```
 
-Defined in: config/config.interface.d.ts:217
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 ***
 
@@ -266,7 +266,7 @@ Defined in: config/config.interface.d.ts:217
 optional showErrorDisplay?: boolean;
 ```
 
-Defined in: config/config.interface.d.ts:254
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Show visual error display when an uncaught JS exception occurs.
 
@@ -278,7 +278,7 @@ Show visual error display when an uncaught JS exception occurs.
 optional visionos?: IConfigVisionOS;
 ```
 
-Defined in: config/config.interface.d.ts:264
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 Vision Pro specific configurations
 Various VisionOS specific configurations including iOS runtime flags.
@@ -291,7 +291,7 @@ Various VisionOS specific configurations including iOS runtime flags.
 optional webpackConfigPath?: string;
 ```
 
-Defined in: config/config.interface.d.ts:235
+Defined in: [config/config.interface.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/config/config.interface.ts)
 
 #### Deprecated
 

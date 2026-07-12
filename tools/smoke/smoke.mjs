@@ -22,6 +22,22 @@ const BASE = (baseIdx !== -1 && args[baseIdx + 1]
 let passed = 0
 let failed = 0
 
+// Hostname-aware URL check (a plain substring test would match the domain
+// anywhere in a URL, e.g. https://evil.com/docs.nativescript.org)
+function hasUrlWithAllowedHost(text, allowedHosts) {
+  if (typeof text !== 'string') return false
+  const urlMatches = text.match(/https?:\/\/[^\s)"'<>]+/g) ?? []
+  for (const raw of urlMatches) {
+    try {
+      const { hostname } = new URL(raw)
+      if (allowedHosts.includes(hostname)) return true
+    } catch {
+      // not a parseable URL, keep scanning
+    }
+  }
+  return false
+}
+
 function report(ok, name, detail = '') {
   if (ok) {
     passed++
@@ -88,9 +104,15 @@ report(
   !/href="\/api\/[^"]*\.md"/.test(buttonHtml),
   'API sidebar uses clean URLs (no .md hrefs)'
 )
+report(
+  /href="https:\/\/github\.com\/NativeScript\/NativeScript\/blob\/[^"]+\/packages\/core\/ui\/button\/index\.d\.ts#L\d+"/.test(
+    buttonHtml
+  ),
+  'API "Defined in" links to GitHub source'
+)
 await checkPage('/api/namespaces/Utils/', ['Namespaces'])
 await checkPage('/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/datetime', [
-  'core-types/index.d.ts',
+  'core-types/index',
 ])
 
 // ---- markdown twins ----
@@ -181,7 +203,9 @@ try {
     5
   )
   report(
-    search.result?.content?.[0]?.text?.includes('docs.nativescript.org'),
+    hasUrlWithAllowedHost(search.result?.content?.[0]?.text, [
+      'docs.nativescript.org',
+    ]),
     'MCP search_docs(ListView templates)'
   )
 } catch (err) {

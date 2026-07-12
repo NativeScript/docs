@@ -8,7 +8,7 @@ contributors: false
 function pushToRootViewCssClasses(value: string): number;
 ```
 
-Defined in: css/system-classes.d.ts:10
+Defined in: [css/system-classes.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/css/system-classes.ts)
 
 ## Parameters
 

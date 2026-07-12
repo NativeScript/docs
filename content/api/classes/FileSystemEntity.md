@@ -5,7 +5,7 @@ description: Represents a single entity on the file system.
 contributors: false
 ---
 
-Defined in: file-system/index.d.ts:27
+Defined in: [file-system/index.d.ts:27](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L27)
 
 Represents a single entity on the file system.
 
@@ -34,7 +34,7 @@ new FileSystemEntity(): FileSystemEntity;
 lastModified: Date;
 ```
 
-Defined in: file-system/index.d.ts:31
+Defined in: [file-system/index.d.ts:31](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L31)
 
 Gets the Date object specifying the last time this entity was modified.
 
@@ -46,7 +46,7 @@ Gets the Date object specifying the last time this entity was modified.
 name: string;
 ```
 
-Defined in: file-system/index.d.ts:36
+Defined in: [file-system/index.d.ts:36](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L36)
 
 Gets the name of the entity.
 
@@ -58,7 +58,7 @@ Gets the name of the entity.
 parent: Folder;
 ```
 
-Defined in: file-system/index.d.ts:48
+Defined in: [file-system/index.d.ts:48](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L48)
 
 Gets the Folder object representing the parent of this entity.
 Will be null for a root folder like Documents or Temporary.
@@ -72,7 +72,7 @@ This property is readonly.
 path: string;
 ```
 
-Defined in: file-system/index.d.ts:41
+Defined in: [file-system/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L41)
 
 Gets the fully-qualified path (including the extension for a File) of the entity.
 
@@ -84,7 +84,7 @@ Gets the fully-qualified path (including the extension for a File) of the entity
 remove(): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:53
+Defined in: [file-system/index.d.ts:53](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L53)
 
 Removes (deletes) the current Entity from the file system.
 
@@ -100,7 +100,7 @@ Removes (deletes) the current Entity from the file system.
 removeSync(onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:58
+Defined in: [file-system/index.d.ts:58](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L58)
 
 Removes (deletes) the current Entity from the file system synchronously.
 
@@ -122,7 +122,7 @@ Removes (deletes) the current Entity from the file system synchronously.
 rename(newName: string): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:64
+Defined in: [file-system/index.d.ts:64](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L64)
 
 Renames the current entity using the specified name.
 
@@ -144,7 +144,7 @@ Renames the current entity using the specified name.
 renameSync(newName: string, onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:70
+Defined in: [file-system/index.d.ts:70](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L70)
 
 Renames the current entity synchronously, using the specified name.
 

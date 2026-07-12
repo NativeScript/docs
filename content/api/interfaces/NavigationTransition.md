@@ -5,7 +5,7 @@ description: Represents an object specifying a page navigation transition.
 contributors: false
 ---
 
-Defined in: ui/frame/index.d.ts:420
+Defined in: [ui/frame/index.d.ts:420](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L420)
 
 Represents an object specifying a page navigation transition.
 
@@ -17,7 +17,7 @@ Represents an object specifying a page navigation transition.
 optional curve?: any;
 ```
 
-Defined in: ui/frame/index.d.ts:453
+Defined in: [ui/frame/index.d.ts:453](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L453)
 
 An optional transition animation curve. Possible values are contained in the [AnimationCurve enumeration](https://docs.nativescript.org/api-reference/modules/_ui_enums_.animationcurve.html).
 Alternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android.
@@ -30,7 +30,7 @@ Alternatively, you can pass an instance of type UIViewAnimationCurve for iOS or 
 optional duration?: number;
 ```
 
-Defined in: ui/frame/index.d.ts:447
+Defined in: [ui/frame/index.d.ts:447](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L447)
 
 The length of the transition in milliseconds. If you do not specify this, the default platform transition duration will be used.
 
@@ -42,7 +42,7 @@ The length of the transition in milliseconds. If you do not specify this, the de
 optional instance?: Transition;
 ```
 
-Defined in: ui/frame/index.d.ts:442
+Defined in: [ui/frame/index.d.ts:442](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L442)
 
 An user-defined instance of the "ui/transition".Transition class.
 
@@ -54,7 +54,7 @@ An user-defined instance of the "ui/transition".Transition class.
 optional name?: string;
 ```
 
-Defined in: ui/frame/index.d.ts:437
+Defined in: [ui/frame/index.d.ts:437](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L437)
 
 Can be one of the built-in transitions:
 - curl (same as curlUp) (iOS only)

@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/core/properties/index.d.ts:34
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 ## Extends
 
@@ -29,7 +29,7 @@ Defined in: ui/core/properties/index.d.ts:34
 new CoercibleProperty<T, U>(options: CoerciblePropertyOptions<T, U>): CoercibleProperty<T, U>;
 ```
 
-Defined in: ui/core/properties/index.d.ts:36
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ Property<T, U>.constructor
 readonly coerce: (target: T) => void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:35
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -81,7 +81,7 @@ CoercibleProperty.coerce
 configurable: boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:27
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -103,7 +103,7 @@ Property.configurable
 readonly defaultValue: U;
 ```
 
-Defined in: ui/core/properties/index.d.ts:20
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -125,7 +125,7 @@ Property.defaultValue
 readonly defaultValueKey: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:19
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -147,7 +147,7 @@ Property.defaultValueKey
 enumerable: boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:26
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -169,7 +169,7 @@ Property.enumerable
 get: () => U;
 ```
 
-Defined in: ui/core/properties/index.d.ts:23
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Returns
 
@@ -195,7 +195,7 @@ Property.get
 readonly getDefault: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:17
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -217,7 +217,7 @@ Property.getDefault
 isStyleProperty: boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:22
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -239,7 +239,7 @@ Property.isStyleProperty
 readonly key: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:16
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -261,7 +261,7 @@ Property.key
 readonly name: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:15
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -283,7 +283,7 @@ Property.name
 readonly nativeValueChange: (owner: T, value: U) => void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:21
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Property.nativeValueChange
 overrideHandlers: (options: PropertyOptions<T, U>) => void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:25
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Property.overrideHandlers
 set: (value: U) => void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:24
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -380,7 +380,7 @@ Property.set
 readonly setNative: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:18
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -402,7 +402,7 @@ Property.setNative
 isSet(instance: T): boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:32
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -436,7 +436,7 @@ register(cls: {
 }): void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:29
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 

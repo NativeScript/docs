@@ -8,7 +8,7 @@ contributors: false
 function getNumber(key: string, defaultValue?: number): number;
 ```
 
-Defined in: application-settings/index.d.ts:26
+Defined in: [application-settings/index.d.ts:26](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application-settings/index.d.ts#L26)
 
 Gets a value (if existing) for a key as a Number Object. A default value can be provided in case there is no existing value.
 

@@ -5,7 +5,7 @@ description: Defines the data for the androidOverflowInset event.
 contributors: false
 ---
 
-Defined in: ui/core/view/view-interfaces.d.ts:81
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 Defines the data for the androidOverflowInset event.
 
@@ -21,7 +21,7 @@ Defines the data for the androidOverflowInset event.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -37,7 +37,7 @@ The name of the event.
 optional inset?: Inset;
 ```
 
-Defined in: ui/core/view/view-interfaces.d.ts:85
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 The inset values passed to the view to consume or update.
 
@@ -49,7 +49,7 @@ The inset values passed to the view to consume or update.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 

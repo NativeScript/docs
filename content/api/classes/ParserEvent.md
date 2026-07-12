@@ -5,7 +5,7 @@ description: Provides information for a parser event.
 contributors: false
 ---
 
-Defined in: xml/index.d.ts:42
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Provides information for a parser event.
 
@@ -24,7 +24,7 @@ new ParserEvent(
    data?: string): ParserEvent;
 ```
 
-Defined in: xml/index.d.ts:50
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: xml/index.d.ts:50
 get attributes(): Object;
 ```
 
-Defined in: xml/index.d.ts:78
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Returns a JSON object with the attributes of an element in case the eventType is ParserEventType.StartElement.
 
@@ -70,7 +70,7 @@ Returns a JSON object with the attributes of an element in case the eventType is
 get data(): string;
 ```
 
-Defined in: xml/index.d.ts:82
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Returns the relevant data in case the eventType is ParserEventType.Text, ParserEventType.CDATA or ParserEventType.Comment.
 
@@ -88,7 +88,7 @@ Returns the relevant data in case the eventType is ParserEventType.Text, ParserE
 get elementName(): string;
 ```
 
-Defined in: xml/index.d.ts:74
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Returns the name of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement.
 
@@ -106,7 +106,7 @@ Returns the name of the element in case the eventType is ParserEventType.StartEl
 get eventType(): string;
 ```
 
-Defined in: xml/index.d.ts:58
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Returns the type of the parser event. This is one of the ParserEventType static members.
 
@@ -124,7 +124,7 @@ Returns the type of the parser event. This is one of the ParserEventType static 
 get namespace(): string;
 ```
 
-Defined in: xml/index.d.ts:70
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 If namespace processing is enabled, returns the namespace of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement.
 
@@ -142,7 +142,7 @@ If namespace processing is enabled, returns the namespace of the element in case
 get position(): Position;
 ```
 
-Defined in: xml/index.d.ts:62
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Get the position in the xml string where the event was generated.
 
@@ -160,7 +160,7 @@ Get the position in the xml string where the event was generated.
 get prefix(): string;
 ```
 
-Defined in: xml/index.d.ts:66
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 If namespace processing is enabled, returns the prefix of the element in case the eventType is ParserEventType.StartElement or ParserEventType.EndElement.
 
@@ -176,7 +176,7 @@ If namespace processing is enabled, returns the prefix of the element in case th
 toString(): string;
 ```
 
-Defined in: xml/index.d.ts:54
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Returns a JSON string representation of this instance.
 

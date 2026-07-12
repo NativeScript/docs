@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/list-view/index.d.ts:282
+Defined in: [ui/list-view/index.d.ts:282](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L282)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ui/list-view/index.d.ts:282
 items: any[] | ItemsSource;
 ```
 
-Defined in: ui/list-view/index.d.ts:283
+Defined in: [ui/list-view/index.d.ts:283](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L283)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: ui/list-view/index.d.ts:283
 itemTemplate: string | Template;
 ```
 
-Defined in: ui/list-view/index.d.ts:284
+Defined in: [ui/list-view/index.d.ts:284](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L284)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: ui/list-view/index.d.ts:284
 optional itemTemplates?: string | KeyedTemplate[];
 ```
 
-Defined in: ui/list-view/index.d.ts:285
+Defined in: [ui/list-view/index.d.ts:285](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L285)
 
 ## Methods
 
@@ -47,7 +47,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: ui/list-view/index.d.ts:288
+Defined in: [ui/list-view/index.d.ts:288](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L288)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: ui/list-view/index.d.ts:287
+Defined in: [ui/list-view/index.d.ts:287](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L287)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: ui/list-view/index.d.ts:287
 refresh(): void;
 ```
 
-Defined in: ui/list-view/index.d.ts:286
+Defined in: [ui/list-view/index.d.ts:286](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L286)
 
 #### Returns
 

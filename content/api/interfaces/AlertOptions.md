@@ -5,7 +5,7 @@ description: Provides options for the alert.
 contributors: false
 ---
 
-Defined in: ui/dialogs/index.d.ts:200
+Defined in: [ui/dialogs/index.d.ts:200](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L200)
 
 Provides options for the alert.
 
@@ -25,7 +25,7 @@ Provides options for the alert.
 optional cancelable?: boolean;
 ```
 
-Defined in: ui/dialogs/index.d.ts:144
+Defined in: [ui/dialogs/index.d.ts:144](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L144)
 
 [Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog.
 
@@ -41,7 +41,7 @@ Defined in: ui/dialogs/index.d.ts:144
 optional message?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:194
+Defined in: [ui/dialogs/index.d.ts:194](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L194)
 
 Gets or sets the dialog message.
 
@@ -57,7 +57,7 @@ Gets or sets the dialog message.
 optional okButtonText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:204
+Defined in: [ui/dialogs/index.d.ts:204](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L204)
 
 Gets or sets the OK button text.
 
@@ -69,7 +69,7 @@ Gets or sets the OK button text.
 optional theme?: number;
 ```
 
-Defined in: ui/dialogs/index.d.ts:149
+Defined in: [ui/dialogs/index.d.ts:149](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L149)
 
 [Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style
 
@@ -85,7 +85,7 @@ Defined in: ui/dialogs/index.d.ts:149
 optional title?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:189
+Defined in: [ui/dialogs/index.d.ts:189](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L189)
 
 Gets or sets the dialog title.
 

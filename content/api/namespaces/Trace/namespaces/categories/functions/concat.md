@@ -8,7 +8,7 @@ contributors: false
 function concat(...args: any): string;
 ```
 
-Defined in: trace/index.d.ts:127
+Defined in: [trace/index.d.ts:127](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L127)
 
 ## Parameters
 

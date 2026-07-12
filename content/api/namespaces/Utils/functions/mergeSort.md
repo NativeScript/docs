@@ -8,7 +8,7 @@ contributors: false
 function mergeSort(arr: any[], compareFunc: (a: any, b: any) => number): any[];
 ```
 
-Defined in: utils/index.d.ts:145
+Defined in: [utils/index.d.ts:145](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L145)
 
 Sorts an array by using merge sort algorithm (which ensures stable sort since the built-in Array.sort() does not promise a stable sort).
 

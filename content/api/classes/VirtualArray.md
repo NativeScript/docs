@@ -5,7 +5,7 @@ description: Advanced array like class that helps loading items on demand.
 contributors: false
 ---
 
-Defined in: data/virtual-array/index.d.ts:19
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Advanced array like class that helps loading items on demand.
 
@@ -27,7 +27,7 @@ Advanced array like class that helps loading items on demand.
 new VirtualArray<T>(length?: number): VirtualArray<T>;
 ```
 
-Defined in: data/virtual-array/index.d.ts:32
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Defined in: data/virtual-array/index.d.ts:32
 static changeEvent: string;
 ```
 
-Defined in: data/virtual-array/index.d.ts:23
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 String value used when hooking to change event.
 
@@ -63,7 +63,7 @@ String value used when hooking to change event.
 static itemsLoadingEvent: string;
 ```
 
-Defined in: data/virtual-array/index.d.ts:27
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 String value used when hooking to itemsLoading event.
 
@@ -75,7 +75,7 @@ String value used when hooking to itemsLoading event.
 static propertyChangeEvent: string;
 ```
 
-Defined in: data/observable/index.d.ts:75
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 String value used when hooking to propertyChange event.
 
@@ -97,7 +97,7 @@ propertyChange
 get length(): number;
 ```
 
-Defined in: data/virtual-array/index.d.ts:36
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Gets or sets length for the virtual array.
 
@@ -111,7 +111,7 @@ Gets or sets length for the virtual array.
 set length(value: number): void;
 ```
 
-Defined in: data/virtual-array/index.d.ts:37
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 ##### Parameters
 
@@ -133,7 +133,7 @@ Defined in: data/virtual-array/index.d.ts:37
 get loadSize(): number;
 ```
 
-Defined in: data/virtual-array/index.d.ts:42
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 ##### Returns
 
@@ -145,7 +145,7 @@ Defined in: data/virtual-array/index.d.ts:42
 set loadSize(value: number): void;
 ```
 
-Defined in: data/virtual-array/index.d.ts:43
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 ##### Parameters
 
@@ -168,7 +168,7 @@ _createPropertyChangeData(
    oldValue?: any): PropertyChangeData;
 ```
 
-Defined in: data/observable/index.d.ts:198
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 This method is intended to be overriden by inheritors to provide additional implementation.
 
@@ -196,7 +196,7 @@ This method is intended to be overriden by inheritors to provide additional impl
 _emit(eventName: string): void;
 ```
 
-Defined in: data/observable/index.d.ts:199
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 #### Parameters
 
@@ -224,7 +224,7 @@ addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:134
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -253,7 +253,7 @@ Adds a listener for the specified event name.
 get(name: string): any;
 ```
 
-Defined in: data/observable/index.d.ts:85
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Gets the value of the specified property.
 
@@ -279,7 +279,7 @@ Gets the value of the specified property.
 getItem(index: number): T;
 ```
 
-Defined in: data/virtual-array/index.d.ts:44
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 #### Parameters
 
@@ -299,7 +299,7 @@ Defined in: data/virtual-array/index.d.ts:44
 hasListeners(eventName: string): boolean;
 ```
 
-Defined in: data/observable/index.d.ts:194
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Checks whether a listener is registered for the specified event name.
 
@@ -325,7 +325,7 @@ Checks whether a listener is registered for the specified event name.
 load(index: number, items: T[]): void;
 ```
 
-Defined in: data/virtual-array/index.d.ts:49
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Loads items from an array starting at index.
 
@@ -348,7 +348,7 @@ Loads items from an array starting at index.
 notify<T>(data: T): void;
 ```
 
-Defined in: data/observable/index.d.ts:183
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notify this Observable instance with some data. This causes all event
 handlers on the Observable instance to be called, as well as any 'global'
@@ -385,7 +385,7 @@ notifyPropertyChange(
    oldValue?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:189
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notifies all the registered listeners for the property change event.
 
@@ -416,7 +416,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:126
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes the listener(s) for the specified event name.
 
@@ -449,7 +449,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: data/virtual-array/index.d.ts:63
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -478,7 +478,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: data/virtual-array/index.d.ts:67
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Raised when still not loaded items are requested.
 
@@ -509,7 +509,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: data/virtual-array/index.d.ts:71
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 Raised when a change occurs.
 
@@ -542,7 +542,7 @@ once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:116
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name, which, once fired, will
 remove itself.
@@ -574,7 +574,7 @@ removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:141
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes listener(s) for the specified event name.
 
@@ -602,7 +602,7 @@ Removes listener(s) for the specified event name.
 set(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:89
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value.
 
@@ -629,7 +629,7 @@ Updates the specified property with the provided value.
 setItem(index: number, value: T): void;
 ```
 
-Defined in: data/virtual-array/index.d.ts:45
+Defined in: [data/virtual-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/virtual-array/index.ts)
 
 #### Parameters
 
@@ -650,7 +650,7 @@ Defined in: data/virtual-array/index.d.ts:45
 setProperty(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:93
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name.
 
@@ -681,7 +681,7 @@ static addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:172
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -716,7 +716,7 @@ static off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:159
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -751,7 +751,7 @@ static on(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:147
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -786,7 +786,7 @@ static once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:153
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -820,7 +820,7 @@ static removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:166
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.

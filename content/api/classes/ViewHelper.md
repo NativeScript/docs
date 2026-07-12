@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/core/view/view-helper/index.d.ts:3
+Defined in: [ui/core/view/view-helper/index.d.ts:3](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L3)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new ViewHelper(): ViewHelper;
 static combineMeasuredStates(curState: number, newState: any): number;
 ```
 
-Defined in: ui/core/view/view-helper/index.d.ts:33
+Defined in: [ui/core/view/view-helper/index.d.ts:33](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L33)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ static layoutChild(
    bottom: number): void;
 ```
 
-Defined in: ui/core/view/view-helper/index.d.ts:21
+Defined in: [ui/core/view/view-helper/index.d.ts:21](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L21)
 
 Layout a child by taking into account its margins, horizontal and vertical alignments and a given bounds.
 
@@ -87,7 +87,7 @@ static measureChild(
 };
 ```
 
-Defined in: ui/core/view/view-helper/index.d.ts:11
+Defined in: [ui/core/view/view-helper/index.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L11)
 
 Measure a child by taking into account its margins and a given measureSpecs.
 
@@ -133,7 +133,7 @@ static resolveSizeAndState(
    childMeasuredState: number): number;
 ```
 
-Defined in: ui/core/view/view-helper/index.d.ts:31
+Defined in: [ui/core/view/view-helper/index.d.ts:31](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L31)
 
 Utility to reconcile a desired size and state, with constraints imposed
 by a MeasureSpec.  Will take the desired size, unless a different size

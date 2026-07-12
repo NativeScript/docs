@@ -8,4 +8,4 @@ contributors: false
 const borderLeftWidthProperty: CssProperty<Style, LengthType>;
 ```
 
-Defined in: ui/styling/style-properties.d.ts:45
+Defined in: [ui/styling/style-properties.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style-properties.ts)

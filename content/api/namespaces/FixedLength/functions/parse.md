@@ -12,7 +12,7 @@ function parse(fromValue:
   | LengthPxUnit): FixedLengthType;
 ```
 
-Defined in: ui/styling/length-shared.d.ts:21
+Defined in: [ui/styling/length-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/length-shared.ts)
 
 ## Parameters
 

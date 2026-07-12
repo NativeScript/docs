@@ -8,7 +8,7 @@ contributors: false
 function throttle(fn: Function, delay?: number): (...args: any[]) => void;
 ```
 
-Defined in: utils/shared.d.ts:17
+Defined in: [utils/shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/shared.ts)
 
 Creates a throttled function that only invokes the provided function at most once per specified delay
 

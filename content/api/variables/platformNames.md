@@ -13,7 +13,7 @@ const platformNames: {
 };
 ```
 
-Defined in: platform/common.d.ts:1
+Defined in: [platform/common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/platform/common.ts)
 
 ## Type Declaration
 

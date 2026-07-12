@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: http/http-interfaces.d.ts:57
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: http/http-interfaces.d.ts:57
 toArrayBuffer: () => ArrayBuffer;
 ```
 
-Defined in: http/http-interfaces.d.ts:61
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as ArrayBuffer
 
@@ -34,7 +34,7 @@ Gets the response body as ArrayBuffer
 toFile: (destinationFilePath?: string) => File;
 ```
 
-Defined in: http/http-interfaces.d.ts:77
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as file.
 
@@ -56,7 +56,7 @@ Gets the response body as file.
 toImage: () => Promise<ImageSource>;
 ```
 
-Defined in: http/http-interfaces.d.ts:73
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as ImageSource.
 
@@ -72,7 +72,7 @@ Gets the response body as ImageSource.
 toJSON: (encoding?: HttpResponseEncoding) => any;
 ```
 
-Defined in: http/http-interfaces.d.ts:69
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as JSON object.
 
@@ -94,7 +94,7 @@ Gets the response body as JSON object.
 toString: (encoding?: HttpResponseEncoding) => string;
 ```
 
-Defined in: http/http-interfaces.d.ts:65
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response body as string.
 

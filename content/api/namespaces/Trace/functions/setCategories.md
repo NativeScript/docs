@@ -8,7 +8,7 @@ contributors: false
 function setCategories(categories: string): void;
 ```
 
-Defined in: trace/index.d.ts:62
+Defined in: [trace/index.d.ts:62](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L62)
 
 Sets the categories the module will trace.
 

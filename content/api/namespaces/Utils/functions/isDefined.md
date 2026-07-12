@@ -8,7 +8,7 @@ contributors: false
 function isDefined(value: any): boolean;
 ```
 
-Defined in: utils/types.d.ts:48
+Defined in: [utils/types.d.ts:48](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/types.d.ts#L48)
 
 A function that checks if something is defined (not undefined).
 

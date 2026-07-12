@@ -8,7 +8,7 @@ contributors: false
 const equals: (a: PercentLengthType, b: PercentLengthType) => boolean;
 ```
 
-Defined in: ui/styling/length-shared.d.ts:4
+Defined in: [ui/styling/length-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/length-shared.ts)
 
 ## Parameters
 

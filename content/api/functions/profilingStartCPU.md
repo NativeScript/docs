@@ -8,7 +8,7 @@ contributors: false
 function profilingStartCPU(name: string): void;
 ```
 
-Defined in: profiling/index.d.ts:134
+Defined in: [profiling/index.d.ts:134](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L134)
 
 Starts android cpu profiling.
 

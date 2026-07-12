@@ -8,7 +8,7 @@ contributors: false
 const convertToString: (length: PercentLengthType) => string;
 ```
 
-Defined in: ui/styling/length-shared.d.ts:16
+Defined in: [ui/styling/length-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/length-shared.ts)
 
 ## Parameters
 

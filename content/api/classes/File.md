@@ -5,7 +5,7 @@ description: Represents a File entity on the file system.
 contributors: false
 ---
 
-Defined in: file-system/index.d.ts:89
+Defined in: [file-system/index.d.ts:89](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L89)
 
 Represents a File entity on the file system.
 
@@ -37,7 +37,7 @@ new File(): File;
 extension: string;
 ```
 
-Defined in: file-system/index.d.ts:103
+Defined in: [file-system/index.d.ts:103](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L103)
 
 Gets the extension of the file.
 
@@ -49,7 +49,7 @@ Gets the extension of the file.
 isLocked: boolean;
 ```
 
-Defined in: file-system/index.d.ts:113
+Defined in: [file-system/index.d.ts:113](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L113)
 
 Gets a value indicating whether the file is currently locked, meaning a background operation associated with this file is running.
 
@@ -61,7 +61,7 @@ Gets a value indicating whether the file is currently locked, meaning a backgrou
 lastModified: Date;
 ```
 
-Defined in: file-system/index.d.ts:31
+Defined in: [file-system/index.d.ts:31](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L31)
 
 Gets the Date object specifying the last time this entity was modified.
 
@@ -77,7 +77,7 @@ Gets the Date object specifying the last time this entity was modified.
 name: string;
 ```
 
-Defined in: file-system/index.d.ts:36
+Defined in: [file-system/index.d.ts:36](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L36)
 
 Gets the name of the entity.
 
@@ -93,7 +93,7 @@ Gets the name of the entity.
 parent: Folder;
 ```
 
-Defined in: file-system/index.d.ts:48
+Defined in: [file-system/index.d.ts:48](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L48)
 
 Gets the Folder object representing the parent of this entity.
 Will be null for a root folder like Documents or Temporary.
@@ -111,7 +111,7 @@ This property is readonly.
 path: string;
 ```
 
-Defined in: file-system/index.d.ts:41
+Defined in: [file-system/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L41)
 
 Gets the fully-qualified path (including the extension for a File) of the entity.
 
@@ -127,7 +127,7 @@ Gets the fully-qualified path (including the extension for a File) of the entity
 size: number;
 ```
 
-Defined in: file-system/index.d.ts:108
+Defined in: [file-system/index.d.ts:108](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L108)
 
 Gets the size in bytes of the file.
 
@@ -139,7 +139,7 @@ Gets the size in bytes of the file.
 readonly static android: Android;
 ```
 
-Defined in: file-system/index.d.ts:90
+Defined in: [file-system/index.d.ts:90](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L90)
 
 ***
 
@@ -149,7 +149,7 @@ Defined in: file-system/index.d.ts:90
 readonly static ios: iOS;
 ```
 
-Defined in: file-system/index.d.ts:92
+Defined in: [file-system/index.d.ts:92](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L92)
 
 ## Methods
 
@@ -159,7 +159,7 @@ Defined in: file-system/index.d.ts:92
 append(content: any): Promise<void>;
 ```
 
-Defined in: file-system/index.d.ts:134
+Defined in: [file-system/index.d.ts:134](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L134)
 
 Appends the provided binary content to the file.
 
@@ -181,7 +181,7 @@ Appends the provided binary content to the file.
 appendSync(content: any, onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:141
+Defined in: [file-system/index.d.ts:141](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L141)
 
 Appends the provided binary content to the file synchronously.
 
@@ -204,7 +204,7 @@ Appends the provided binary content to the file synchronously.
 appendText(content: string, encoding?: string): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:120
+Defined in: [file-system/index.d.ts:120](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L120)
 
 Appends the provided string to the file, using the specified encoding (defaults to UTF-8).
 
@@ -230,7 +230,7 @@ appendTextSync(
    encoding?: string): void;
 ```
 
-Defined in: file-system/index.d.ts:128
+Defined in: [file-system/index.d.ts:128](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L128)
 
 Appends the provided string to the file synchronously, using the specified encoding (defaults to UTF-8).
 
@@ -254,7 +254,7 @@ Appends the provided string to the file synchronously, using the specified encod
 copy(dest: string): Promise<boolean>;
 ```
 
-Defined in: file-system/index.d.ts:148
+Defined in: [file-system/index.d.ts:148](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L148)
 
 Copies a file to a given path.
 
@@ -276,7 +276,7 @@ Copies a file to a given path.
 copySync(dest: string, onError?: (error: any) => any): any;
 ```
 
-Defined in: file-system/index.d.ts:156
+Defined in: [file-system/index.d.ts:156](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L156)
 
 Copies a file to a given path.
 
@@ -299,7 +299,7 @@ Copies a file to a given path.
 read(): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:181
+Defined in: [file-system/index.d.ts:181](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L181)
 
 Reads the binary content of the file asynchronously.
 
@@ -315,7 +315,7 @@ Reads the binary content of the file asynchronously.
 readSync(onError?: (error: any) => any): any;
 ```
 
-Defined in: file-system/index.d.ts:187
+Defined in: [file-system/index.d.ts:187](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L187)
 
 Reads the binary content of the file synchronously.
 
@@ -337,7 +337,7 @@ Reads the binary content of the file synchronously.
 readText(encoding?: string): Promise<string>;
 ```
 
-Defined in: file-system/index.d.ts:169
+Defined in: [file-system/index.d.ts:169](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L169)
 
 Reads the content of the file as a string using the specified encoding (defaults to UTF-8).
 
@@ -359,7 +359,7 @@ Reads the content of the file as a string using the specified encoding (defaults
 readTextSync(onError?: (error: any) => any, encoding?: string): string;
 ```
 
-Defined in: file-system/index.d.ts:176
+Defined in: [file-system/index.d.ts:176](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L176)
 
 Reads the content of the file as a string synchronously, using the specified encoding (defaults to UTF-8).
 
@@ -382,7 +382,7 @@ Reads the content of the file as a string synchronously, using the specified enc
 remove(): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:53
+Defined in: [file-system/index.d.ts:53](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L53)
 
 Removes (deletes) the current Entity from the file system.
 
@@ -402,7 +402,7 @@ Removes (deletes) the current Entity from the file system.
 removeSync(onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:58
+Defined in: [file-system/index.d.ts:58](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L58)
 
 Removes (deletes) the current Entity from the file system synchronously.
 
@@ -428,7 +428,7 @@ Removes (deletes) the current Entity from the file system synchronously.
 rename(newName: string): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:64
+Defined in: [file-system/index.d.ts:64](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L64)
 
 Renames the current entity using the specified name.
 
@@ -454,7 +454,7 @@ Renames the current entity using the specified name.
 renameSync(newName: string, onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:70
+Defined in: [file-system/index.d.ts:70](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L70)
 
 Renames the current entity synchronously, using the specified name.
 
@@ -481,7 +481,7 @@ Renames the current entity synchronously, using the specified name.
 write(content: any): Promise<void>;
 ```
 
-Defined in: file-system/index.d.ts:208
+Defined in: [file-system/index.d.ts:208](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L208)
 
 Writes the provided binary content to the file.
 
@@ -503,7 +503,7 @@ Writes the provided binary content to the file.
 writeSync(content: any, onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:215
+Defined in: [file-system/index.d.ts:215](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L215)
 
 Writes the provided binary content to the file synchronously.
 
@@ -526,7 +526,7 @@ Writes the provided binary content to the file synchronously.
 writeText(content: string, encoding?: string): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:194
+Defined in: [file-system/index.d.ts:194](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L194)
 
 Writes the provided string to the file, using the specified encoding (defaults to UTF-8).
 
@@ -552,7 +552,7 @@ writeTextSync(
    encoding?: string): void;
 ```
 
-Defined in: file-system/index.d.ts:202
+Defined in: [file-system/index.d.ts:202](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L202)
 
 Writes the provided string to the file synchronously, using the specified encoding (defaults to UTF-8).
 
@@ -576,7 +576,7 @@ Writes the provided string to the file synchronously, using the specified encodi
 static exists(path: string): boolean;
 ```
 
-Defined in: file-system/index.d.ts:98
+Defined in: [file-system/index.d.ts:98](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L98)
 
 Checks whether a File with the specified path already exists.
 
@@ -598,7 +598,7 @@ Checks whether a File with the specified path already exists.
 static fromPath(path: string, copy?: boolean): File;
 ```
 
-Defined in: file-system/index.d.ts:163
+Defined in: [file-system/index.d.ts:163](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L163)
 
 Gets or creates a File entity at the specified path.
 

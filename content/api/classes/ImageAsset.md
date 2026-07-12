@@ -5,7 +5,7 @@ description: Observable is used when you want to be notified when a change occur
 contributors: false
 ---
 
-Defined in: image-asset/index.d.ts:3
+Defined in: [image-asset/index.d.ts:3](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L3)
 
 Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener.
 Please note that should you be using the `new Observable({})` constructor, it is **obsolete** since v3.0,
@@ -23,7 +23,7 @@ and you have to migrate to the "data/observable" `fromObject({})` or the `fromOb
 new ImageAsset(asset: any): ImageAsset;
 ```
 
-Defined in: image-asset/index.d.ts:4
+Defined in: [image-asset/index.d.ts:4](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L4)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: image-asset/index.d.ts:4
 android: any;
 ```
 
-Defined in: image-asset/index.d.ts:8
+Defined in: [image-asset/index.d.ts:8](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L8)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: image-asset/index.d.ts:8
 ios: any;
 ```
 
-Defined in: image-asset/index.d.ts:6
+Defined in: [image-asset/index.d.ts:6](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L6)
 
 ***
 
@@ -67,7 +67,7 @@ Defined in: image-asset/index.d.ts:6
 nativeImage: any;
 ```
 
-Defined in: image-asset/index.d.ts:7
+Defined in: [image-asset/index.d.ts:7](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L7)
 
 ***
 
@@ -77,7 +77,7 @@ Defined in: image-asset/index.d.ts:7
 options: ImageAssetOptions;
 ```
 
-Defined in: image-asset/index.d.ts:9
+Defined in: [image-asset/index.d.ts:9](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L9)
 
 ***
 
@@ -87,7 +87,7 @@ Defined in: image-asset/index.d.ts:9
 static propertyChangeEvent: string;
 ```
 
-Defined in: data/observable/index.d.ts:75
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 String value used when hooking to propertyChange event.
 
@@ -110,7 +110,7 @@ _createPropertyChangeData(
    oldValue?: any): PropertyChangeData;
 ```
 
-Defined in: data/observable/index.d.ts:198
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 This method is intended to be overriden by inheritors to provide additional implementation.
 
@@ -138,7 +138,7 @@ This method is intended to be overriden by inheritors to provide additional impl
 _emit(eventName: string): void;
 ```
 
-Defined in: data/observable/index.d.ts:199
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 #### Parameters
 
@@ -166,7 +166,7 @@ addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:134
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -195,7 +195,7 @@ Adds a listener for the specified event name.
 get(name: string): any;
 ```
 
-Defined in: data/observable/index.d.ts:85
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Gets the value of the specified property.
 
@@ -221,7 +221,7 @@ Gets the value of the specified property.
 getImageAsync(callback: (image: any, error: any) => void): any;
 ```
 
-Defined in: image-asset/index.d.ts:5
+Defined in: [image-asset/index.d.ts:5](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-asset/index.d.ts#L5)
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: image-asset/index.d.ts:5
 hasListeners(eventName: string): boolean;
 ```
 
-Defined in: data/observable/index.d.ts:194
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Checks whether a listener is registered for the specified event name.
 
@@ -267,7 +267,7 @@ Checks whether a listener is registered for the specified event name.
 notify<T>(data: T): void;
 ```
 
-Defined in: data/observable/index.d.ts:183
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notify this Observable instance with some data. This causes all event
 handlers on the Observable instance to be called, as well as any 'global'
@@ -304,7 +304,7 @@ notifyPropertyChange(
    oldValue?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:189
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notifies all the registered listeners for the property change event.
 
@@ -335,7 +335,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:126
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes the listener(s) for the specified event name.
 
@@ -366,7 +366,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:104
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -397,7 +397,7 @@ once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:116
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name, which, once fired, will
 remove itself.
@@ -429,7 +429,7 @@ removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:141
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes listener(s) for the specified event name.
 
@@ -457,7 +457,7 @@ Removes listener(s) for the specified event name.
 set(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:89
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value.
 
@@ -484,7 +484,7 @@ Updates the specified property with the provided value.
 setProperty(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:93
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name.
 
@@ -515,7 +515,7 @@ static addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:172
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -550,7 +550,7 @@ static off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:159
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -585,7 +585,7 @@ static on(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:147
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -620,7 +620,7 @@ static once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:153
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -654,7 +654,7 @@ static removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:166
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.

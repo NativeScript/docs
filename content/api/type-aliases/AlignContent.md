@@ -14,4 +14,4 @@ type AlignContent =
   | "stretch";
 ```
 
-Defined in: ui/layouts/flexbox-layout/index.d.ts:11
+Defined in: [ui/layouts/flexbox-layout/index.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/flexbox-layout/index.d.ts#L11)

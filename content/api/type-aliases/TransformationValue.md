@@ -11,4 +11,4 @@ type TransformationValue =
   | number;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:9
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)

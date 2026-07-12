@@ -5,7 +5,7 @@ description: An extended JavaScript Error which will have the nativeError proper
 contributors: false
 ---
 
-Defined in: application/application-interfaces.d.ts:7
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 An extended JavaScript Error which will have the nativeError property initialized in case the error is caused by executing platform-specific code.
 
@@ -21,7 +21,7 @@ An extended JavaScript Error which will have the nativeError property initialize
 optional nativeException?: any;
 ```
 
-Defined in: application/application-interfaces.d.ts:11
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Represents the native error object.
 
@@ -33,7 +33,7 @@ Represents the native error object.
 optional stack?: string;
 ```
 
-Defined in: application/application-interfaces.d.ts:19
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Javascript portion of stack trace.
 
@@ -51,6 +51,6 @@ Error.stack
 optional stackTrace?: string;
 ```
 
-Defined in: application/application-interfaces.d.ts:15
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The native stack trace.

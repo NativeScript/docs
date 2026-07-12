@@ -26,7 +26,7 @@ const CSSHelper: {
 };
 ```
 
-Defined in: ui/styling/css-selector.d.ts:251
+Defined in: [ui/styling/css-selector.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-selector.ts)
 
 ## Type Declaration
 

@@ -8,7 +8,7 @@ contributors: false
 function addWriter(writer: TraceWriter): void;
 ```
 
-Defined in: trace/index.d.ts:45
+Defined in: [trace/index.d.ts:45](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L45)
 
 Adds a TraceWriter instance to the trace module.
 

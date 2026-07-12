@@ -8,7 +8,7 @@ contributors: false
 function profilingIsRunning(name: string): boolean;
 ```
 
-Defined in: profiling/index.d.ts:91
+Defined in: [profiling/index.d.ts:91](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L91)
 
 Returns true if a timer is currently running.
 

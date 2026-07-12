@@ -8,7 +8,7 @@ contributors: false
 function openUrlAsync(url: string): Promise<boolean>;
 ```
 
-Defined in: utils/index.d.ts:113
+Defined in: [utils/index.d.ts:113](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L113)
 
 Opens url asynchronously.
 

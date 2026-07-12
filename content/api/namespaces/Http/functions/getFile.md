@@ -10,7 +10,7 @@ contributors: false
 function getFile(url: string, destinationFilePath?: string): Promise<any>;
 ```
 
-Defined in: http/index.d.ts:48
+Defined in: [http/index.d.ts:48](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/index.d.ts#L48)
 
 Downloads the content from the specified URL and attempts to save it as file.
 
@@ -31,7 +31,7 @@ Downloads the content from the specified URL and attempts to save it as file.
 function getFile(options: HttpRequestOptions, destinationFilePath?: string): Promise<File>;
 ```
 
-Defined in: http/index.d.ts:55
+Defined in: [http/index.d.ts:55](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/index.d.ts#L55)
 
 Downloads the content from the specified URL and attempts to save it as file.
 

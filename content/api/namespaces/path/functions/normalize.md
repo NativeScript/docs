@@ -8,7 +8,7 @@ contributors: false
 function normalize(path: string): string;
 ```
 
-Defined in: file-system/index.d.ts:368
+Defined in: [file-system/index.d.ts:368](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L368)
 
 Normalizes a path, taking care of occurrances like ".." and "//".
 

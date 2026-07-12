@@ -8,4 +8,4 @@ contributors: false
 const right: DockType;
 ```
 
-Defined in: core-types/index.d.ts:182
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)

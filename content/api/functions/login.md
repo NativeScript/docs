@@ -15,7 +15,7 @@ function login(
 password?: string): Promise<LoginResult>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:107
+Defined in: [ui/dialogs/index.d.ts:107](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L107)
 
 The login() method displays a login dialog box that prompts the visitor for user name and password.
 
@@ -42,7 +42,7 @@ function login(
 passwordHint?: string): Promise<LoginResult>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:115
+Defined in: [ui/dialogs/index.d.ts:115](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L115)
 
 The login() method displays a login dialog box that prompts the visitor for user name and password.
 
@@ -64,7 +64,7 @@ The login() method displays a login dialog box that prompts the visitor for user
 function login(options: LoginOptions): Promise<LoginResult>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:121
+Defined in: [ui/dialogs/index.d.ts:121](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L121)
 
 The login() method displays a login dialog box that prompts the visitor for user name and password.
 

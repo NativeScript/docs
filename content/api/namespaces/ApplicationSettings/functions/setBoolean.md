@@ -8,7 +8,7 @@ contributors: false
 function setBoolean(key: string, value: boolean): void;
 ```
 
-Defined in: application-settings/index.d.ts:33
+Defined in: [application-settings/index.d.ts:33](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application-settings/index.d.ts#L33)
 
 Sets a Boolean Object for a key.
 

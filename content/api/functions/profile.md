@@ -10,7 +10,7 @@ contributors: false
 function profile(name?: string): MethodDecorator;
 ```
 
-Defined in: profiling/index.d.ts:98
+Defined in: [profiling/index.d.ts:98](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L98)
 
 Method decorator factory. It will intercept the method call and start and pause a timer before and after the method call.
 Works only if profiling is enabled.
@@ -31,7 +31,7 @@ Works only if profiling is enabled.
 function profile<F>(fn: F): F;
 ```
 
-Defined in: profiling/index.d.ts:105
+Defined in: [profiling/index.d.ts:105](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L105)
 
 Function factory. It will intercept the function call and start and pause a timer before and after the function call. Works only if profiling is enabled.
 Works only if profiling is enabled.
@@ -58,7 +58,7 @@ Works only if profiling is enabled.
 function profile<F>(name: string, fn: F): F;
 ```
 
-Defined in: profiling/index.d.ts:112
+Defined in: [profiling/index.d.ts:112](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L112)
 
 Function factory. It will intercept the function call and start and pause a timer before and after the function call. Works only if profiling is enabled.
 
@@ -88,7 +88,7 @@ function profile<T>(
 descriptor: TypedPropertyDescriptor<T>): void | TypedPropertyDescriptor<T>;
 ```
 
-Defined in: profiling/index.d.ts:117
+Defined in: [profiling/index.d.ts:117](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L117)
 
 Method decorator. It will intercept the method calls and start and pause a timer before and after the method call. Works only if profiling is enabled.
 
@@ -116,7 +116,7 @@ Method decorator. It will intercept the method calls and start and pause a timer
 function profile(): any;
 ```
 
-Defined in: profiling/index.d.ts:118
+Defined in: [profiling/index.d.ts:118](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L118)
 
 Method decorator factory. It will intercept the method call and start and pause a timer before and after the method call.
 Works only if profiling is enabled.

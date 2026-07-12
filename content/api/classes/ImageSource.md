@@ -5,7 +5,7 @@ description: Encapsulates the common abstraction behind a platform specific obje
 contributors: false
 ---
 
-Defined in: image-source/index.d.ts:8
+Defined in: [image-source/index.d.ts:8](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L8)
 
 Encapsulates the common abstraction behind a platform specific object (typically a Bitmap) that is used as a source for images.
 
@@ -17,7 +17,7 @@ Encapsulates the common abstraction behind a platform specific object (typically
 new ImageSource(nativeSource?: any): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:131
+Defined in: [image-source/index.d.ts:131](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L131)
 
 Creates a new ImageSource instance and sets the provided native source object (typically a Bitmap).
 The native source object will update either the android or ios properties, depending on the target os.
@@ -40,7 +40,7 @@ The native source object will update either the android or ios properties, depen
 android: any;
 ```
 
-Defined in: image-source/index.d.ts:32
+Defined in: [image-source/index.d.ts:32](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L32)
 
 The Android-specific [image](http://developer.android.com/reference/android/graphics/Bitmap.html) instance. Will be undefined when running on iOS.
 
@@ -52,7 +52,7 @@ The Android-specific [image](http://developer.android.com/reference/android/grap
 height: number;
 ```
 
-Defined in: image-source/index.d.ts:12
+Defined in: [image-source/index.d.ts:12](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L12)
 
 Gets the height of this instance. This is a read-only property.
 
@@ -64,7 +64,7 @@ Gets the height of this instance. This is a read-only property.
 ios: any;
 ```
 
-Defined in: image-source/index.d.ts:27
+Defined in: [image-source/index.d.ts:27](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L27)
 
 The iOS-specific [UIImage](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class/) instance. Will be undefined when running on Android.
 
@@ -76,7 +76,7 @@ The iOS-specific [UIImage](https://developer.apple.com/library/ios/documentation
 rotationAngle: number;
 ```
 
-Defined in: image-source/index.d.ts:22
+Defined in: [image-source/index.d.ts:22](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L22)
 
 Gets or sets the rotation angle that should be applied to the image. (Used in android)
 
@@ -88,7 +88,7 @@ Gets or sets the rotation angle that should be applied to the image. (Used in an
 width: number;
 ```
 
-Defined in: image-source/index.d.ts:17
+Defined in: [image-source/index.d.ts:17](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L17)
 
 Gets the width of this instance. This is a read-only property.
 
@@ -100,7 +100,7 @@ Gets the width of this instance. This is a read-only property.
 fromAsset(asset: ImageAsset): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:138
+Defined in: [image-source/index.d.ts:138](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L138)
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Loads this instance from the specified asset asynchronously.
 fromBase64(source: string): Promise<boolean>;
 ```
 
-Defined in: image-source/index.d.ts:194
+Defined in: [image-source/index.d.ts:194](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L194)
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Loads this instance from the specified base64 encoded string asynchronously.
 fromData(data: any): Promise<boolean>;
 ```
 
-Defined in: image-source/index.d.ts:180
+Defined in: [image-source/index.d.ts:180](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L180)
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Loads this instance from the specified native image data asynchronously.
 fromFile(path: string): Promise<boolean>;
 ```
 
-Defined in: image-source/index.d.ts:166
+Defined in: [image-source/index.d.ts:166](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L166)
 
 #### Parameters
 
@@ -200,7 +200,7 @@ Loads this instance from the specified file asynchronously.
 fromResource(name: string): Promise<boolean>;
 ```
 
-Defined in: image-source/index.d.ts:152
+Defined in: [image-source/index.d.ts:152](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L152)
 
 #### Parameters
 
@@ -225,7 +225,7 @@ Loads this instance from the specified resource name asynchronously.
 getNativeSource(): any;
 ```
 
-Defined in: image-source/index.d.ts:208
+Defined in: [image-source/index.d.ts:208](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L208)
 
 Gets the native source object (typically a Bitmap or a UIImage).
 
@@ -241,7 +241,7 @@ Gets the native source object (typically a Bitmap or a UIImage).
 loadFromBase64(source: string): boolean;
 ```
 
-Defined in: image-source/index.d.ts:187
+Defined in: [image-source/index.d.ts:187](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L187)
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Loads this instance from the specified base64 encoded string.
 loadFromData(data: any): boolean;
 ```
 
-Defined in: image-source/index.d.ts:173
+Defined in: [image-source/index.d.ts:173](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L173)
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Loads this instance from the specified native image data.
 loadFromFile(path: string): boolean;
 ```
 
-Defined in: image-source/index.d.ts:159
+Defined in: [image-source/index.d.ts:159](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L159)
 
 #### Parameters
 
@@ -319,7 +319,7 @@ loadFromFontIconCode(
    color: Color): boolean;
 ```
 
-Defined in: image-source/index.d.ts:203
+Defined in: [image-source/index.d.ts:203](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L203)
 
 #### Parameters
 
@@ -346,7 +346,7 @@ Loads this instance from the specified font icon code.
 loadFromResource(name: string): boolean;
 ```
 
-Defined in: image-source/index.d.ts:145
+Defined in: [image-source/index.d.ts:145](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L145)
 
 #### Parameters
 
@@ -371,7 +371,7 @@ Loads this instance from the specified resource name.
 resize(maxSize: number, options?: any): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:258
+Defined in: [image-source/index.d.ts:258](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L258)
 
 Returns a new ImageSource that is a resized version of this image with the same aspect ratio, but the max dimension set to the provided maxSize.
 
@@ -394,7 +394,7 @@ Returns a new ImageSource that is a resized version of this image with the same 
 resizeAsync(maxSize: number, options?: any): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:271
+Defined in: [image-source/index.d.ts:271](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L271)
 
 Returns a new ImageSource that is a resized version of this image with the same aspect ratio, but the max dimension set to the provided maxSize asynchronously.
 
@@ -420,7 +420,7 @@ saveToFile(
    quality?: number): boolean;
 ```
 
-Defined in: image-source/index.d.ts:223
+Defined in: [image-source/index.d.ts:223](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L223)
 
 Saves this instance to the specified file, using the provided image format and quality.
 
@@ -447,7 +447,7 @@ saveToFileAsync(
 quality?: number): Promise<boolean>;
 ```
 
-Defined in: image-source/index.d.ts:231
+Defined in: [image-source/index.d.ts:231](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L231)
 
 Saves this instance to the specified file, using the provided image format and quality asynchronously.
 
@@ -471,7 +471,7 @@ Saves this instance to the specified file, using the provided image format and q
 setNativeSource(nativeSource: any): void;
 ```
 
-Defined in: image-source/index.d.ts:215
+Defined in: [image-source/index.d.ts:215](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L215)
 
 Sets the provided native source object (typically a Bitmap or a UIImage).
 This will update either the android or ios properties, depending on the target os.
@@ -494,7 +494,7 @@ This will update either the android or ios properties, depending on the target o
 toBase64String(format: "png" | "jpeg" | "jpg", quality?: number): string;
 ```
 
-Defined in: image-source/index.d.ts:238
+Defined in: [image-source/index.d.ts:238](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L238)
 
 Converts the image to base64 encoded string, using the provided image format and quality.
 
@@ -517,7 +517,7 @@ Converts the image to base64 encoded string, using the provided image format and
 toBase64StringAsync(format: "png" | "jpeg" | "jpg", quality?: number): Promise<string>;
 ```
 
-Defined in: image-source/index.d.ts:245
+Defined in: [image-source/index.d.ts:245](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L245)
 
 Converts the image to base64 encoded string, using the provided image format and quality asynchronously.
 
@@ -540,7 +540,7 @@ Converts the image to base64 encoded string, using the provided image format and
 static fromAsset(asset: ImageAsset): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:38
+Defined in: [image-source/index.d.ts:38](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L38)
 
 Loads this instance from the specified asset asynchronously.
 
@@ -562,7 +562,7 @@ Loads this instance from the specified asset asynchronously.
 static fromBase64(source: string): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:116
+Defined in: [image-source/index.d.ts:116](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L116)
 
 Loads this instance from the specified base64 encoded string asynchronously.
 
@@ -584,7 +584,7 @@ Loads this instance from the specified base64 encoded string asynchronously.
 static fromBase64Sync(source: string): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:110
+Defined in: [image-source/index.d.ts:110](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L110)
 
 Loads this instance from the specified base64 encoded string.
 
@@ -606,7 +606,7 @@ Loads this instance from the specified base64 encoded string.
 static fromData(data: any): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:104
+Defined in: [image-source/index.d.ts:104](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L104)
 
 Loads this instance from the specified native image data asynchronously.
 
@@ -628,7 +628,7 @@ Loads this instance from the specified native image data asynchronously.
 static fromDataSync(data: any): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:98
+Defined in: [image-source/index.d.ts:98](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L98)
 
 Loads this instance from the specified native image data.
 
@@ -650,7 +650,7 @@ Loads this instance from the specified native image data.
 static fromFile(path: string): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:86
+Defined in: [image-source/index.d.ts:86](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L86)
 
 Loads this instance from the specified file asynchronously.
 
@@ -672,7 +672,7 @@ Loads this instance from the specified file asynchronously.
 static fromFileOrResourceSync(path: string): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:92
+Defined in: [image-source/index.d.ts:92](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L92)
 
 Creates a new ImageSource instance and loads it from the specified local file or resource (if specified with the "res://" prefix).
 
@@ -694,7 +694,7 @@ Creates a new ImageSource instance and loads it from the specified local file or
 static fromFileSync(path: string): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:80
+Defined in: [image-source/index.d.ts:80](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L80)
 
 Loads this instance from the specified file.
 
@@ -719,7 +719,7 @@ static fromFontIconCodeSync(
    color: Color): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:124
+Defined in: [image-source/index.d.ts:124](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L124)
 
 Creates a new ImageSource instance and loads it from the specified font icon code.
 
@@ -743,7 +743,7 @@ Creates a new ImageSource instance and loads it from the specified font icon cod
 static fromResource(name: string): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:56
+Defined in: [image-source/index.d.ts:56](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L56)
 
 Loads this instance from the specified resource name asynchronously.
 
@@ -765,7 +765,7 @@ Loads this instance from the specified resource name asynchronously.
 static fromResourceSync(name: string): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:50
+Defined in: [image-source/index.d.ts:50](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L50)
 
 Loads this instance from the specified resource name.
 
@@ -787,7 +787,7 @@ Loads this instance from the specified resource name.
 static fromSystemImage(name: string, instance?: ImageBase): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:74
+Defined in: [image-source/index.d.ts:74](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L74)
 
 Loads this instance from the specified system image name asynchronously.
 
@@ -810,7 +810,7 @@ Loads this instance from the specified system image name asynchronously.
 static fromSystemImageSync(name: string, instance?: ImageBase): ImageSource;
 ```
 
-Defined in: image-source/index.d.ts:68
+Defined in: [image-source/index.d.ts:68](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L68)
 
 Loads this instance from the specified system image name.
 
@@ -833,7 +833,7 @@ Loads this instance from the specified system image name.
 static fromUrl(url: string): Promise<ImageSource>;
 ```
 
-Defined in: image-source/index.d.ts:44
+Defined in: [image-source/index.d.ts:44](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L44)
 
 Downloads the image from the provided Url and creates a new ImageSource instance from it.
 
@@ -855,7 +855,7 @@ Downloads the image from the provided Url and creates a new ImageSource instance
 static iosSymbolScaleFor(scale: iosSymbolScaleType): number;
 ```
 
-Defined in: image-source/index.d.ts:62
+Defined in: [image-source/index.d.ts:62](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/image-source/index.d.ts#L62)
 
 (iOS only) Get system symbol scale
 

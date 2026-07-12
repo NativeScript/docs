@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/core/properties/index.d.ts:64
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 ## Type Parameters
 
@@ -25,7 +25,7 @@ Defined in: ui/core/properties/index.d.ts:64
 new CssAnimationProperty<T, U>(options: CssAnimationPropertyOptions<T, U>): CssAnimationProperty<T, U>;
 ```
 
-Defined in: ui/core/properties/index.d.ts:81
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -45,7 +45,7 @@ Defined in: ui/core/properties/index.d.ts:81
 optional _valueConverter?: (value: string) => any;
 ```
 
-Defined in: ui/core/properties/index.d.ts:80
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -71,7 +71,7 @@ CssAnimationProperty._valueConverter
 readonly cssLocalName: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:67
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -87,7 +87,7 @@ CssAnimationProperty.cssLocalName
 readonly cssName: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:66
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -103,7 +103,7 @@ CssAnimationProperty.cssName
 readonly defaultValue: U;
 ```
 
-Defined in: ui/core/properties/index.d.ts:77
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -119,7 +119,7 @@ CssAnimationProperty.defaultValue
 readonly defaultValueKey: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:74
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -135,7 +135,7 @@ CssAnimationProperty.defaultValueKey
 readonly getDefault: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:68
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -151,7 +151,7 @@ CssAnimationProperty.getDefault
 isStyleProperty: boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:78
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -167,7 +167,7 @@ CssAnimationProperty.isStyleProperty
 readonly key: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:75
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -183,7 +183,7 @@ CssAnimationProperty.key
 readonly keyframe: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:73
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -199,7 +199,7 @@ CssAnimationProperty.keyframe
 readonly name: string;
 ```
 
-Defined in: ui/core/properties/index.d.ts:65
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -217,7 +217,7 @@ readonly register: (cls: {
 }) => void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:70
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -244,7 +244,7 @@ CssAnimationProperty.register
 readonly setNative: symbol;
 ```
 
-Defined in: ui/core/properties/index.d.ts:69
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -260,7 +260,7 @@ CssAnimationProperty.setNative
 _initDefaultNativeValue(target: T): void;
 ```
 
-Defined in: ui/core/properties/index.d.ts:82
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -286,7 +286,7 @@ CssAnimationProperty._initDefaultNativeValue
 isSet(instance: T): boolean;
 ```
 
-Defined in: ui/core/properties/index.d.ts:85
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -312,7 +312,7 @@ CssAnimationProperty.isSet
 static _getByCssName(name: string): CssAnimationProperty<any, any>;
 ```
 
-Defined in: ui/core/properties/index.d.ts:83
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -332,7 +332,7 @@ Defined in: ui/core/properties/index.d.ts:83
 static _getPropertyNames(): string[];
 ```
 
-Defined in: ui/core/properties/index.d.ts:84
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
 
 #### Returns
 

@@ -12,7 +12,7 @@ function removeWeakEventListener(
    target: any): void;
 ```
 
-Defined in: ui/core/weak-event-listener/index.d.ts:19
+Defined in: [ui/core/weak-event-listener/index.d.ts:19](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/weak-event-listener/index.d.ts#L19)
 
 Removes a WeakEventListener.
 

@@ -8,7 +8,7 @@ contributors: false
 function getFileExtension(path: string): string;
 ```
 
-Defined in: utils/index.d.ts:95
+Defined in: [utils/index.d.ts:95](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L95)
 
 Get file extension from file path
 

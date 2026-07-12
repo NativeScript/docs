@@ -5,7 +5,7 @@ description: Represents a scope error providing addiot
 contributors: false
 ---
 
-Defined in: utils/debug.d.ts:56
+Defined in: [utils/debug.d.ts:56](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/debug.d.ts#L56)
 
 Represents a scope error providing addiot
 
@@ -24,7 +24,7 @@ new SourceError(
    message?: string): SourceError;
 ```
 
-Defined in: utils/debug.d.ts:63
+Defined in: [utils/debug.d.ts:63](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/debug.d.ts#L63)
 
 Creates a new SourceError by child error, source and optional message.
 

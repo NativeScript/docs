@@ -5,7 +5,7 @@ description: The options object used in the Bindable.bind method.
 contributors: false
 ---
 
-Defined in: ui/core/bindable/bindable-types.d.ts:4
+Defined in: [ui/core/bindable/bindable-types.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/bindable-types.ts)
 
 The options object used in the Bindable.bind method.
 
@@ -17,7 +17,7 @@ The options object used in the Bindable.bind method.
 optional expression?: string;
 ```
 
-Defined in: ui/core/bindable/bindable-types.d.ts:20
+Defined in: [ui/core/bindable/bindable-types.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/bindable-types.ts)
 
 An expression used for calculations (convertions) based on the value of the property.
 
@@ -29,7 +29,7 @@ An expression used for calculations (convertions) based on the value of the prop
 sourceProperty: string;
 ```
 
-Defined in: ui/core/bindable/bindable-types.d.ts:8
+Defined in: [ui/core/bindable/bindable-types.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/bindable-types.ts)
 
 The property name of the source object (typically the ViewModel) to bind to.
 
@@ -41,7 +41,7 @@ The property name of the source object (typically the ViewModel) to bind to.
 targetProperty: string;
 ```
 
-Defined in: ui/core/bindable/bindable-types.d.ts:12
+Defined in: [ui/core/bindable/bindable-types.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/bindable-types.ts)
 
 The property name of the target object (that is the Bindable instance) to bind the source property to.
 
@@ -53,6 +53,6 @@ The property name of the target object (that is the Bindable instance) to bind t
 optional twoWay?: boolean;
 ```
 
-Defined in: ui/core/bindable/bindable-types.d.ts:16
+Defined in: [ui/core/bindable/bindable-types.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/bindable-types.ts)
 
 True to establish a two-way binding, false otherwise. A two-way binding will synchronize both the source and the target property values regardless of which one initiated the change.

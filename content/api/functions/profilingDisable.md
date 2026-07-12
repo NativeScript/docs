@@ -8,7 +8,7 @@ contributors: false
 function profilingDisable(): void;
 ```
 
-Defined in: profiling/index.d.ts:58
+Defined in: [profiling/index.d.ts:58](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/profiling/index.d.ts#L58)
 
 Disables profiling.
 

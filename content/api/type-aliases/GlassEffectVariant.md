@@ -9,6 +9,6 @@ contributors: false
 type GlassEffectVariant = "regular" | "clear" | "identity" | "none";
 ```
 
-Defined in: ui/core/view/view-common.d.ts:330
+Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-common.ts)
 
 Glass effects

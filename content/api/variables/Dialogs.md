@@ -15,7 +15,7 @@ const Dialogs: {
 };
 ```
 
-Defined in: ui/dialogs/index.d.ts:305
+Defined in: [ui/dialogs/index.d.ts:305](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L305)
 
 Singular rollup for convenience of all dialog methods
 

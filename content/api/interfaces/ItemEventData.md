@@ -5,7 +5,7 @@ description: Event data containing information for the index and the view associ
 contributors: false
 ---
 
-Defined in: ui/list-view/index.d.ts:230
+Defined in: [ui/list-view/index.d.ts:230](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L230)
 
 Event data containing information for the index and the view associated to a list view item.
 
@@ -21,7 +21,7 @@ Event data containing information for the index and the view associated to a lis
 android: any;
 ```
 
-Defined in: ui/list-view/index.d.ts:254
+Defined in: [ui/list-view/index.d.ts:254](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L254)
 
 Gets the native [android widget](http://developer.android.com/reference/android/view/ViewGroup.html) that represents the user interface where the view is hosted. Valid only when running on Android OS.
 
@@ -33,7 +33,7 @@ Gets the native [android widget](http://developer.android.com/reference/android/
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -49,7 +49,7 @@ The name of the event.
 index: number;
 ```
 
-Defined in: ui/list-view/index.d.ts:234
+Defined in: [ui/list-view/index.d.ts:234](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L234)
 
 The index of the item, for which the event is raised.
 
@@ -61,7 +61,7 @@ The index of the item, for which the event is raised.
 ios: any;
 ```
 
-Defined in: ui/list-view/index.d.ts:249
+Defined in: [ui/list-view/index.d.ts:249](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L249)
 
 Gets the native [iOS view](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/) that represents the user interface where the view is hosted. Valid only when running on iOS.
 
@@ -73,7 +73,7 @@ Gets the native [iOS view](https://developer.apple.com/library/ios/documentation
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -89,7 +89,7 @@ The Observable instance that has raised the event.
 optional section?: number;
 ```
 
-Defined in: ui/list-view/index.d.ts:239
+Defined in: [ui/list-view/index.d.ts:239](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L239)
 
 When data is sectioned (any platform that supports sections), this is the section index for the item.
 
@@ -101,6 +101,6 @@ When data is sectioned (any platform that supports sections), this is the sectio
 view: View;
 ```
 
-Defined in: ui/list-view/index.d.ts:244
+Defined in: [ui/list-view/index.d.ts:244](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L244)
 
 The view that is associated to the item, for which the event is raised.

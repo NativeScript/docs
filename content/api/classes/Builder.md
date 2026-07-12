@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/builder/index.d.ts:19
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new Builder(): Builder;
 static knownCollections: Set<string>;
 ```
 
-Defined in: ui/builder/index.d.ts:25
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ui/builder/index.d.ts:25
 static knownMultiTemplates: Set<string>;
 ```
 
-Defined in: ui/builder/index.d.ts:24
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ui/builder/index.d.ts:24
 static knownTemplates: Set<string>;
 ```
 
-Defined in: ui/builder/index.d.ts:23
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 UI plugin developers can add to these to define their own custom types if needed
 
@@ -58,7 +58,7 @@ UI plugin developers can add to these to define their own custom types if needed
 static createViewFromEntry(entry: ViewEntry): View;
 ```
 
-Defined in: ui/builder/index.d.ts:30
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 Creates view from navigation entry
 
@@ -80,7 +80,7 @@ Creates view from navigation entry
 static load(pathOrOptions: string | LoadOptions, context?: any): View;
 ```
 
-Defined in: ui/builder/index.d.ts:37
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 Loads component from module with context
 
@@ -103,7 +103,7 @@ Loads component from module with context
 static parse(value: string | Template, context?: any): View;
 ```
 
-Defined in: ui/builder/index.d.ts:31
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: ui/builder/index.d.ts:31
 static parseMultipleTemplates(value: string, context: any): KeyedTemplate[];
 ```
 
-Defined in: ui/builder/index.d.ts:43
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 Creates an array of KeyedTemplates from string
 

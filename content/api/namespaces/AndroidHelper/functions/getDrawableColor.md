@@ -8,7 +8,7 @@ contributors: false
 function getDrawableColor(drawable: any): Color;
 ```
 
-Defined in: ui/core/view/view-helper/index.d.ts:40
+Defined in: [ui/core/view/view-helper/index.d.ts:40](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L40)
 
 ## Parameters
 

@@ -5,7 +5,7 @@ description: Defines a animation set.
 contributors: false
 ---
 
-Defined in: ui/animation/index.d.ts:8
+Defined in: [ui/animation/index.d.ts:8](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/index.d.ts#L8)
 
 Defines a animation set.
 
@@ -17,7 +17,7 @@ Defines a animation set.
 new Animation(animationDefinitions: AnimationDefinition[], playSequentially?: boolean): Animation;
 ```
 
-Defined in: ui/animation/index.d.ts:9
+Defined in: [ui/animation/index.d.ts:9](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/index.d.ts#L9)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: ui/animation/index.d.ts:9
 cancel: () => void;
 ```
 
-Defined in: ui/animation/index.d.ts:11
+Defined in: [ui/animation/index.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/index.d.ts#L11)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Defined in: ui/animation/index.d.ts:11
 isPlaying: boolean;
 ```
 
-Defined in: ui/animation/index.d.ts:12
+Defined in: [ui/animation/index.d.ts:12](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/index.d.ts#L12)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: ui/animation/index.d.ts:12
 play: (resetOnFinish?: boolean) => AnimationPromise;
 ```
 
-Defined in: ui/animation/index.d.ts:10
+Defined in: [ui/animation/index.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/index.d.ts#L10)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: ui/animation/index.d.ts:10
 _resolveAnimationCurve(curve: any): any;
 ```
 
-Defined in: ui/animation/index.d.ts:13
+Defined in: [ui/animation/index.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/index.d.ts#L13)
 
 #### Parameters
 

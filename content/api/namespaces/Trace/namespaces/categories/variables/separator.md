@@ -8,4 +8,4 @@ contributors: false
 const separator: "," = ',';
 ```
 
-Defined in: trace/index.d.ts:124
+Defined in: [trace/index.d.ts:124](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L124)

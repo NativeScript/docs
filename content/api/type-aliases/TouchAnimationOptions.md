@@ -13,7 +13,7 @@ type TouchAnimationOptions = {
 };
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:5
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 ## Properties
 
@@ -25,7 +25,7 @@ optional down?:
   | AnimationDefinition;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:7
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 ***
 
@@ -37,4 +37,4 @@ optional up?:
   | AnimationDefinition;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:6
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)

@@ -5,7 +5,7 @@ description: Specifies the type of parser event.
 contributors: false
 ---
 
-Defined in: xml/index.d.ts:17
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Specifies the type of parser event.
 
@@ -29,7 +29,7 @@ new ParserEventType(): ParserEventType;
 static CDATA: string;
 ```
 
-Defined in: xml/index.d.ts:33
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Specifies the CDATA event type.
 
@@ -41,7 +41,7 @@ Specifies the CDATA event type.
 static Comment: string;
 ```
 
-Defined in: xml/index.d.ts:37
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Specifies the Comment event type.
 
@@ -53,7 +53,7 @@ Specifies the Comment event type.
 static EndElement: string;
 ```
 
-Defined in: xml/index.d.ts:25
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Specifies the EndElement event type.
 
@@ -65,7 +65,7 @@ Specifies the EndElement event type.
 static StartElement: string;
 ```
 
-Defined in: xml/index.d.ts:21
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Specifies the StartElement event type.
 
@@ -77,6 +77,6 @@ Specifies the StartElement event type.
 static Text: string;
 ```
 
-Defined in: xml/index.d.ts:29
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Specifies the Text event type.

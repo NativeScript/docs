@@ -13,7 +13,7 @@ type SharedTransitionTagProperties = SharedProperties & {
 };
 ```
 
-Defined in: ui/transition/shared-transition.d.ts:37
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
 
 Properties which can be set on individual Shared Elements
 

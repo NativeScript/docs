@@ -40,7 +40,7 @@ const iOSNativeHelper: {
 } = ios;
 ```
 
-Defined in: utils/native-helper.d.ts:285
+Defined in: [utils/native-helper.d.ts:285](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/native-helper.d.ts#L285)
 
 ## Type Declaration
 

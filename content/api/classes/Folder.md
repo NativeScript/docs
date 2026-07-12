@@ -5,7 +5,7 @@ description: Represents a Folder (directory) entity on the file system.
 contributors: false
 ---
 
-Defined in: file-system/index.d.ts:221
+Defined in: [file-system/index.d.ts:221](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L221)
 
 Represents a Folder (directory) entity on the file system.
 
@@ -37,7 +37,7 @@ new Folder(): Folder;
 isKnown: boolean;
 ```
 
-Defined in: file-system/index.d.ts:225
+Defined in: [file-system/index.d.ts:225](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L225)
 
 Determines whether this instance is a KnownFolder (accessed through the KnownFolders object).
 
@@ -49,7 +49,7 @@ Determines whether this instance is a KnownFolder (accessed through the KnownFol
 lastModified: Date;
 ```
 
-Defined in: file-system/index.d.ts:31
+Defined in: [file-system/index.d.ts:31](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L31)
 
 Gets the Date object specifying the last time this entity was modified.
 
@@ -65,7 +65,7 @@ Gets the Date object specifying the last time this entity was modified.
 name: string;
 ```
 
-Defined in: file-system/index.d.ts:36
+Defined in: [file-system/index.d.ts:36](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L36)
 
 Gets the name of the entity.
 
@@ -81,7 +81,7 @@ Gets the name of the entity.
 parent: Folder;
 ```
 
-Defined in: file-system/index.d.ts:48
+Defined in: [file-system/index.d.ts:48](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L48)
 
 Gets the Folder object representing the parent of this entity.
 Will be null for a root folder like Documents or Temporary.
@@ -99,7 +99,7 @@ This property is readonly.
 path: string;
 ```
 
-Defined in: file-system/index.d.ts:41
+Defined in: [file-system/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L41)
 
 Gets the fully-qualified path (including the extension for a File) of the entity.
 
@@ -115,7 +115,7 @@ Gets the fully-qualified path (including the extension for a File) of the entity
 clear(): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:249
+Defined in: [file-system/index.d.ts:249](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L249)
 
 Deletes all the files and folders (recursively), contained within this Folder.
 
@@ -131,7 +131,7 @@ Deletes all the files and folders (recursively), contained within this Folder.
 clearSync(onError?: (error: any) => void): void;
 ```
 
-Defined in: file-system/index.d.ts:255
+Defined in: [file-system/index.d.ts:255](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L255)
 
 Deletes all the files and folders (recursively), contained within this Folder synchronously.
 
@@ -153,7 +153,7 @@ Deletes all the files and folders (recursively), contained within this Folder sy
 contains(name: string): boolean;
 ```
 
-Defined in: file-system/index.d.ts:244
+Defined in: [file-system/index.d.ts:244](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L244)
 
 Checks whether this Folder contains an Entity with the specified name.
 The path of the folder is added to the name to resolve the complete path to check for.
@@ -176,7 +176,7 @@ The path of the folder is added to the name to resolve the complete path to chec
 eachEntity(onEntity: (entity: FileSystemEntity) => boolean): any;
 ```
 
-Defined in: file-system/index.d.ts:284
+Defined in: [file-system/index.d.ts:284](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L284)
 
 Enumerates all the top-level FileSystem entities residing within this folder.
 
@@ -198,7 +198,7 @@ Enumerates all the top-level FileSystem entities residing within this folder.
 getEntities(): Promise<FileSystemEntity[]>;
 ```
 
-Defined in: file-system/index.d.ts:272
+Defined in: [file-system/index.d.ts:272](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L272)
 
 Gets all the top-level entities residing within this folder.
 
@@ -214,7 +214,7 @@ Gets all the top-level entities residing within this folder.
 getEntitiesSync(onError?: (error: any) => any): FileSystemEntity[];
 ```
 
-Defined in: file-system/index.d.ts:278
+Defined in: [file-system/index.d.ts:278](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L278)
 
 Gets all the top-level entities residing within this folder synchronously.
 
@@ -236,7 +236,7 @@ Gets all the top-level entities residing within this folder synchronously.
 getFile(name: string): File;
 ```
 
-Defined in: file-system/index.d.ts:261
+Defined in: [file-system/index.d.ts:261](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L261)
 
 Gets or creates a File entity with the specified name within this Folder.
 
@@ -258,7 +258,7 @@ Gets or creates a File entity with the specified name within this Folder.
 getFolder(name: string): Folder;
 ```
 
-Defined in: file-system/index.d.ts:267
+Defined in: [file-system/index.d.ts:267](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L267)
 
 Gets or creates a Folder entity with the specified name within this Folder.
 
@@ -280,7 +280,7 @@ Gets or creates a Folder entity with the specified name within this Folder.
 remove(): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:53
+Defined in: [file-system/index.d.ts:53](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L53)
 
 Removes (deletes) the current Entity from the file system.
 
@@ -300,7 +300,7 @@ Removes (deletes) the current Entity from the file system.
 removeSync(onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:58
+Defined in: [file-system/index.d.ts:58](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L58)
 
 Removes (deletes) the current Entity from the file system synchronously.
 
@@ -326,7 +326,7 @@ Removes (deletes) the current Entity from the file system synchronously.
 rename(newName: string): Promise<any>;
 ```
 
-Defined in: file-system/index.d.ts:64
+Defined in: [file-system/index.d.ts:64](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L64)
 
 Renames the current entity using the specified name.
 
@@ -352,7 +352,7 @@ Renames the current entity using the specified name.
 renameSync(newName: string, onError?: (error: any) => any): void;
 ```
 
-Defined in: file-system/index.d.ts:70
+Defined in: [file-system/index.d.ts:70](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L70)
 
 Renames the current entity synchronously, using the specified name.
 
@@ -379,7 +379,7 @@ Renames the current entity synchronously, using the specified name.
 static exists(path: string): boolean;
 ```
 
-Defined in: file-system/index.d.ts:237
+Defined in: [file-system/index.d.ts:237](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L237)
 
 Checks whether a Folder with the specified path already exists.
 
@@ -401,7 +401,7 @@ Checks whether a Folder with the specified path already exists.
 static fromPath(path: string): Folder;
 ```
 
-Defined in: file-system/index.d.ts:231
+Defined in: [file-system/index.d.ts:231](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/file-system/index.d.ts#L231)
 
 Gets or creates a Folder entity at the specified path.
 

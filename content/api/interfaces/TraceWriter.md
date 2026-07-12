@@ -5,7 +5,7 @@ description: An interface used to define a writer used by trace to print (log).
 contributors: false
 ---
 
-Defined in: trace/index.d.ts:4
+Defined in: [trace/index.d.ts:4](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L4)
 
 An interface used to define a writer used by trace to print (log).
 
@@ -20,7 +20,7 @@ write(
    type?: number): void;
 ```
 
-Defined in: trace/index.d.ts:5
+Defined in: [trace/index.d.ts:5](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L5)
 
 #### Parameters
 

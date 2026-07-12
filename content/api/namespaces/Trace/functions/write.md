@@ -11,7 +11,7 @@ function write(
    type?: number): void;
 ```
 
-Defined in: trace/index.d.ts:82
+Defined in: [trace/index.d.ts:82](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L82)
 
 Writes a message using the available writers.
 

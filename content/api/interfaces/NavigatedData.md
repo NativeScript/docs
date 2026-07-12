@@ -5,7 +5,7 @@ description: Defines the data for the page navigation events.
 contributors: false
 ---
 
-Defined in: ui/page/index.d.ts:15
+Defined in: [ui/page/index.d.ts:15](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/page/index.d.ts#L15)
 
 Defines the data for the page navigation events.
 
@@ -21,7 +21,7 @@ Defines the data for the page navigation events.
 context: any;
 ```
 
-Defined in: ui/page/index.d.ts:19
+Defined in: [ui/page/index.d.ts:19](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/page/index.d.ts#L19)
 
 The navigation context (optional, may be undefined) passed to the page navigation events method.
 
@@ -33,7 +33,7 @@ The navigation context (optional, may be undefined) passed to the page navigatio
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -49,7 +49,7 @@ The name of the event.
 isBackNavigation: boolean;
 ```
 
-Defined in: ui/page/index.d.ts:24
+Defined in: [ui/page/index.d.ts:24](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/page/index.d.ts#L24)
 
 Represents if a navigation is forward or backward.
 
@@ -61,7 +61,7 @@ Represents if a navigation is forward or backward.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 

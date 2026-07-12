@@ -8,7 +8,7 @@ contributors: false
 function releaseNativeObject(object: any): any;
 ```
 
-Defined in: utils/index.d.ts:42
+Defined in: [utils/index.d.ts:42](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L42)
 
 Releases the reference to the wrapped native object
 

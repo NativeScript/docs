@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/core/view-base/index.d.ts:18
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ## Properties
 
@@ -17,7 +17,7 @@ optional android?: {
 };
 ```
 
-Defined in: ui/core/view-base/index.d.ts:64
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### ~~cancelable?~~
 
@@ -47,7 +47,7 @@ For possible values see https://developer.android.com/reference/android/view/Win
 optional animated?: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:34
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 An optional parameter specifying whether to show the modal view with animation.
 
@@ -59,7 +59,7 @@ An optional parameter specifying whether to show the modal view with animation.
 optional cancelable?: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:79
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode.
 
@@ -71,7 +71,7 @@ An optional parameter specifying whether the modal view can be dismissed when no
 closeCallback: (...args: any[]) => void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:26
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 A function that will be called when the view is closed. Any arguments provided when calling ShownModallyData.closeCallback will be available here.
 
@@ -93,7 +93,7 @@ A function that will be called when the view is closed. Any arguments provided w
 context: any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:22
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Any context you want to pass to the modally shown view. This same context will be available in the arguments of the shownModally event handler.
 
@@ -105,7 +105,7 @@ Any context you want to pass to the modally shown view. This same context will b
 optional fullscreen?: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:30
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 An optional parameter specifying whether to show the modal view in full-screen mode.
 
@@ -122,7 +122,7 @@ optional ios?: {
 };
 ```
 
-Defined in: ui/core/view-base/index.d.ts:46
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 An optional parameter that specify options specific to iOS as an object.
 
@@ -166,7 +166,7 @@ width of the popup dialog
 optional stretched?: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:38
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 An optional parameter specifying whether to stretch the modal view when not in full-screen mode.
 
@@ -178,6 +178,6 @@ An optional parameter specifying whether to stretch the modal view when not in f
 optional transition?: ModalTransitionType;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:42
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 An optional custom transition effect

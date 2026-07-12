@@ -5,7 +5,7 @@ description: Platform helper to aid in creating your own custom Shared Element T
 contributors: false
 ---
 
-Defined in: ui/transition/shared-transition-helper.d.ts:8
+Defined in: [ui/transition/shared-transition-helper.d.ts:8](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition-helper.d.ts#L8)
 
 Platform helper to aid in creating your own custom Shared Element Transition classes.
 (iOS Only)
@@ -33,7 +33,7 @@ static animate(
    type: TransitionNavigationType): void;
 ```
 
-Defined in: ui/transition/shared-transition-helper.d.ts:9
+Defined in: [ui/transition/shared-transition-helper.d.ts:9](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition-helper.d.ts#L9)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ static interactiveCancel(
    type: TransitionNavigationType): void;
 ```
 
-Defined in: ui/transition/shared-transition-helper.d.ts:12
+Defined in: [ui/transition/shared-transition-helper.d.ts:12](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition-helper.d.ts#L12)
 
 #### Parameters
 
@@ -83,7 +83,7 @@ static interactiveFinish(
    type: TransitionNavigationType): void;
 ```
 
-Defined in: ui/transition/shared-transition-helper.d.ts:13
+Defined in: [ui/transition/shared-transition-helper.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition-helper.d.ts#L13)
 
 #### Parameters
 
@@ -108,7 +108,7 @@ static interactiveStart(
    type: TransitionNavigationType): void;
 ```
 
-Defined in: ui/transition/shared-transition-helper.d.ts:10
+Defined in: [ui/transition/shared-transition-helper.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition-helper.d.ts#L10)
 
 #### Parameters
 
@@ -134,7 +134,7 @@ static interactiveUpdate(
    percent: number): void;
 ```
 
-Defined in: ui/transition/shared-transition-helper.d.ts:11
+Defined in: [ui/transition/shared-transition-helper.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition-helper.d.ts#L11)
 
 #### Parameters
 

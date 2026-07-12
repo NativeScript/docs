@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/builder/index.d.ts:12
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ui/builder/index.d.ts:12
 optional attributes?: any;
 ```
 
-Defined in: ui/builder/index.d.ts:15
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: ui/builder/index.d.ts:15
 optional exports?: any;
 ```
 
-Defined in: ui/builder/index.d.ts:16
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: ui/builder/index.d.ts:16
 name: string;
 ```
 
-Defined in: ui/builder/index.d.ts:14
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: ui/builder/index.d.ts:14
 optional page?: Page;
 ```
 
-Defined in: ui/builder/index.d.ts:17
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: ui/builder/index.d.ts:17
 path: string;
 ```
 
-Defined in: ui/builder/index.d.ts:13
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)

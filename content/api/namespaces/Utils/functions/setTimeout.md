@@ -11,7 +11,7 @@ function setTimeout(
    args: any[]): number;
 ```
 
-Defined in: timer/index.d.ts:7
+Defined in: [timer/index.d.ts:7](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/timer/index.d.ts#L7)
 
 Calls a function after a specified delay.
 

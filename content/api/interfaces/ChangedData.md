@@ -5,7 +5,7 @@ description: Event args for "changed" event.
 contributors: false
 ---
 
-Defined in: data/observable-array/index.d.ts:12
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Event args for "changed" event.
 
@@ -27,7 +27,7 @@ Event args for "changed" event.
 action: string;
 ```
 
-Defined in: data/observable-array/index.d.ts:16
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Change type.
 
@@ -39,7 +39,7 @@ Change type.
 addedCount: number;
 ```
 
-Defined in: data/observable-array/index.d.ts:28
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Number of added items.
 
@@ -51,7 +51,7 @@ Number of added items.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -67,7 +67,7 @@ The name of the event.
 index: number;
 ```
 
-Defined in: data/observable-array/index.d.ts:20
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Start index.
 
@@ -79,7 +79,7 @@ Start index.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -95,6 +95,6 @@ The Observable instance that has raised the event.
 removed: T[];
 ```
 
-Defined in: data/observable-array/index.d.ts:24
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
 
 Removed items.

@@ -5,7 +5,7 @@ description: Data for the "propertyChange" event.
 contributors: false
 ---
 
-Defined in: data/observable/index.d.ts:21
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Data for the "propertyChange" event.
 
@@ -21,7 +21,7 @@ Data for the "propertyChange" event.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -37,7 +37,7 @@ The name of the event.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -53,7 +53,7 @@ The Observable instance that has raised the event.
 optional oldValue?: any;
 ```
 
-Defined in: data/observable/index.d.ts:33
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The previous value of the property.
 
@@ -65,7 +65,7 @@ The previous value of the property.
 propertyName: string;
 ```
 
-Defined in: data/observable/index.d.ts:25
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the property that has changed.
 
@@ -77,6 +77,6 @@ The name of the property that has changed.
 value: any;
 ```
 
-Defined in: data/observable/index.d.ts:29
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The new value of the property.

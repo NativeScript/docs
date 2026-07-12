@@ -5,7 +5,7 @@ description: The Size interface describes abstract dimensions in two dimensional
 contributors: false
 ---
 
-Defined in: ui/core/view/view-interfaces.d.ts:45
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 The Size interface describes abstract dimensions in two dimensional space.
 It has two properties width and height, representing the width and height values of the size.
@@ -18,7 +18,7 @@ It has two properties width and height, representing the width and height values
 height: number;
 ```
 
-Defined in: ui/core/view/view-interfaces.d.ts:53
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 Represents the height of the size.
 
@@ -30,6 +30,6 @@ Represents the height of the size.
 width: number;
 ```
 
-Defined in: ui/core/view/view-interfaces.d.ts:49
+Defined in: [ui/core/view/view-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-interfaces.ts)
 
 Represents the width of the size.

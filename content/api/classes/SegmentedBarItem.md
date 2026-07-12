@@ -5,7 +5,7 @@ description: Represents a SegmentedBar item.
 contributors: false
 ---
 
-Defined in: ui/segmented-bar/index.d.ts:13
+Defined in: [ui/segmented-bar/index.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/segmented-bar/index.d.ts#L13)
 
 Represents a SegmentedBar item.
 
@@ -25,7 +25,7 @@ SegmentedBarItem
 new SegmentedBarItem(): SegmentedBarItem;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:363
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -43,7 +43,7 @@ Defined in: ui/core/view-base/index.d.ts:363
 _automaticallyAdjustsScrollViewInsets: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:260
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -57,7 +57,7 @@ Defined in: ui/core/view-base/index.d.ts:260
 _context: any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:237
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -71,7 +71,7 @@ Defined in: ui/core/view-base/index.d.ts:237
 _cssState: CssState;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:239
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -85,7 +85,7 @@ Defined in: ui/core/view-base/index.d.ts:239
 protected _defaultPaddingBottom: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:168
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -99,7 +99,7 @@ Defined in: ui/core/view-base/index.d.ts:168
 protected _defaultPaddingLeft: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:169
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -113,7 +113,7 @@ Defined in: ui/core/view-base/index.d.ts:169
 protected _defaultPaddingRight: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:167
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -127,7 +127,7 @@ Defined in: ui/core/view-base/index.d.ts:167
 protected _defaultPaddingTop: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:166
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -141,7 +141,7 @@ Defined in: ui/core/view-base/index.d.ts:166
 _domId: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:236
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -155,7 +155,7 @@ Defined in: ui/core/view-base/index.d.ts:236
 _ignoreFlexMinWidthHeightReset: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:337
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -169,7 +169,7 @@ Defined in: ui/core/view-base/index.d.ts:337
 _isAddedToNativeVisualTree: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:238
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -183,7 +183,7 @@ Defined in: ui/core/view-base/index.d.ts:238
 protected _isPaddingRelative: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:170
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -197,7 +197,7 @@ Defined in: ui/core/view-base/index.d.ts:170
 _isStyleScopeHost: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:259
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -211,7 +211,7 @@ Defined in: ui/core/view-base/index.d.ts:259
 _oldBottom: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:336
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -225,7 +225,7 @@ Defined in: ui/core/view-base/index.d.ts:336
 _oldLeft: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:333
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -239,7 +239,7 @@ Defined in: ui/core/view-base/index.d.ts:333
 _oldRight: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:335
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -253,7 +253,7 @@ Defined in: ui/core/view-base/index.d.ts:335
 _oldTop: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:334
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -267,7 +267,7 @@ Defined in: ui/core/view-base/index.d.ts:334
 _styleScope: StyleScope;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:240
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -281,7 +281,7 @@ Defined in: ui/core/view-base/index.d.ts:240
 _suspendNativeUpdatesCount: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:258
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Determines the depth of suspended updates.
 When the value is 0 the current property updates are not batched nor scoped and must be immediately applied.
@@ -301,7 +301,7 @@ as well as adding/rmoving the view to/from the visual tree.
 alignSelf: AlignSelf;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:332
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 (Android-only) Overrides the alignItems value for the child.
 
@@ -319,7 +319,7 @@ Defined in: ui/core/view-base/index.d.ts:332
 bindingContext: any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:186
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Ns Property
 
@@ -335,7 +335,7 @@ Defined in: ui/core/view-base/index.d.ts:186
 className: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:212
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets or sets the CSS class name for this view.
 
@@ -353,7 +353,7 @@ Gets or sets the CSS class name for this view.
 col: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:288
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 The column for the element. The columns are 0-indexed, so the first column is indicated by 0.
 
@@ -371,7 +371,7 @@ The column for the element. The columns are 0-indexed, so the first column is in
 colSpan: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:303
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 The number of columns for the element to span across.
 
@@ -389,7 +389,7 @@ The number of columns for the element to span across.
 column: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:293
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 The column for the element. The columns are 0-indexed, so the first column is indicated by 0.
 
@@ -407,7 +407,7 @@ The column for the element. The columns are 0-indexed, so the first column is in
 columnSpan: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:307
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Ns Property
 
@@ -423,7 +423,7 @@ Defined in: ui/core/view-base/index.d.ts:307
 readonly cssClasses: Set<string>;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:361
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -437,7 +437,7 @@ Defined in: ui/core/view-base/index.d.ts:361
 readonly cssPseudoClasses: Set<string>;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:362
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -451,7 +451,7 @@ Defined in: ui/core/view-base/index.d.ts:362
 defaultVisualState: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:235
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Default visual state, defaults to 'normal'
 
@@ -469,7 +469,7 @@ Default visual state, defaults to 'normal'
 dock: "left" | "right" | "top" | "bottom";
 ```
 
-Defined in: ui/core/view-base/index.d.ts:277
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Dock position of the view within its parent.
 
@@ -487,7 +487,7 @@ Dock position of the view within its parent.
 domNode: DOMNode;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:177
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -501,7 +501,7 @@ Defined in: ui/core/view-base/index.d.ts:177
 effectiveBorderBottomWidth: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:348
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -515,7 +515,7 @@ Defined in: ui/core/view-base/index.d.ts:348
 effectiveBorderLeftWidth: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:349
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -529,7 +529,7 @@ Defined in: ui/core/view-base/index.d.ts:349
 effectiveBorderRightWidth: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:347
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -543,7 +543,7 @@ Defined in: ui/core/view-base/index.d.ts:347
 effectiveBorderTopWidth: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:346
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -557,7 +557,7 @@ Defined in: ui/core/view-base/index.d.ts:346
 effectiveHeight: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:341
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -571,7 +571,7 @@ Defined in: ui/core/view-base/index.d.ts:341
 effectiveLeft: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:271
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -585,7 +585,7 @@ Defined in: ui/core/view-base/index.d.ts:271
 effectiveMarginBottom: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:344
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -599,7 +599,7 @@ Defined in: ui/core/view-base/index.d.ts:344
 effectiveMarginLeft: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:345
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -613,7 +613,7 @@ Defined in: ui/core/view-base/index.d.ts:345
 effectiveMarginRight: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:343
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -627,7 +627,7 @@ Defined in: ui/core/view-base/index.d.ts:343
 effectiveMarginTop: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:342
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -641,7 +641,7 @@ Defined in: ui/core/view-base/index.d.ts:342
 effectiveMinHeight: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:339
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -655,7 +655,7 @@ Defined in: ui/core/view-base/index.d.ts:339
 effectiveMinWidth: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:338
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -669,7 +669,7 @@ Defined in: ui/core/view-base/index.d.ts:338
 effectiveTop: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:272
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -683,7 +683,7 @@ Defined in: ui/core/view-base/index.d.ts:272
 effectiveWidth: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:340
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -697,7 +697,7 @@ Defined in: ui/core/view-base/index.d.ts:340
 flexGrow: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:317
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Indicates that the child should grow in size, if necessary. Sets how much the child will grow in proportion to the rest of the child elements in the flex container.
 
@@ -715,7 +715,7 @@ Indicates that the child should grow in size, if necessary. Sets how much the ch
 flexShrink: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:322
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Indicates that the child should shrink when the row runs out of space. Sets how much the flex item will shrink in proportion to the rest of the child elements in the flex container. When not specified, its value is set to 1.
 
@@ -733,7 +733,7 @@ Indicates that the child should shrink when the row runs out of space. Sets how 
 flexWrapBefore: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:327
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 When true, forces the item to wrap onto a new line.
 
@@ -751,7 +751,7 @@ When true, forces the item to wrap onto a new line.
 hidden: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:217
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets or sets the visual state of the view.
 
@@ -769,7 +769,7 @@ Gets or sets the visual state of the view.
 id: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:206
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets or sets the id for this view.
 
@@ -787,7 +787,7 @@ Gets or sets the id for this view.
 isCollapsed: any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:200
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Returns true if visibility is set to 'collapse'.
 Default(false) set in prototype
@@ -805,7 +805,7 @@ Readonly property
 left: LengthType;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:265
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets or sets the distance, in pixels, between the left edge of the child and the left edge of its parent.
 
@@ -823,7 +823,7 @@ Gets or sets the distance, in pixels, between the left edge of the child and the
 mIsRootView: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:515
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 if _setupAsRootView is called it means it is not supposed to be
 added to a parent. However parent can be set before for the purpose
@@ -842,7 +842,7 @@ is not called in _setupAsRootView
 nativeViewProtected: any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:190
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 read-only. If you want to set out-of-band the nativeView use the setNativeView method.
 
@@ -858,7 +858,7 @@ read-only. If you want to set out-of-band the nativeView use the setNativeView m
 order: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:312
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Sets the order in which child elements inside a Flex appear in relation to one another.
 
@@ -876,7 +876,7 @@ Sets the order in which child elements inside a Flex appear in relation to one a
 parent: ViewBase;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:194
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets the parent view. This property is read-only.
 
@@ -892,7 +892,7 @@ Gets the parent view. This property is read-only.
 recycleNativeView: "auto" | "always" | "never";
 ```
 
-Defined in: ui/core/view-base/index.d.ts:178
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Inherited from
 
@@ -906,7 +906,7 @@ Defined in: ui/core/view-base/index.d.ts:178
 reusable: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:360
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets or sets if the view is reusable. Reusable views are not automatically destroyed when removed from the View tree.
 
@@ -924,7 +924,7 @@ Gets or sets if the view is reusable. Reusable views are not automatically destr
 row: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:283
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 The row for the element. The rows are 0-indexed, so the first row is indicated by 0.
 
@@ -942,7 +942,7 @@ The row for the element. The rows are 0-indexed, so the first row is indicated b
 rowSpan: number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:298
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 The number of rows for the element to span across.
 
@@ -960,7 +960,7 @@ The number of rows for the element to span across.
 sharedTransitionIgnore: boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:229
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Opt out of shared transition under different binding conditions
 
@@ -978,7 +978,7 @@ Opt out of shared transition under different binding conditions
 sharedTransitionTag: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:223
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets or sets the shared transition tag for animated view transitions
 
@@ -996,7 +996,7 @@ Gets or sets the shared transition tag for animated view transitions
 title: string;
 ```
 
-Defined in: ui/segmented-bar/index.d.ts:19
+Defined in: [ui/segmented-bar/index.d.ts:19](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/segmented-bar/index.d.ts#L19)
 
 Gets or sets the title of the SegmentedBarItem.
 
@@ -1010,7 +1010,7 @@ Gets or sets the title of the SegmentedBarItem.
 top: LengthType;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:270
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets or sets the distance, in pixels, between the top edge of the child and the top edge of its parent.
 
@@ -1028,7 +1028,7 @@ Gets or sets the distance, in pixels, between the top edge of the child and the 
 viewController: any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:182
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 returns the native UIViewController.
 
@@ -1044,7 +1044,7 @@ returns the native UIViewController.
 static createdEvent: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:149
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 String value used when hooking to creation event
 
@@ -1064,7 +1064,7 @@ created
 static disposeNativeViewEvent: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:155
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 String value used when hooking to disposeNativeView event
 
@@ -1084,7 +1084,7 @@ disposeNativeView
 static loadedEvent: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:137
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 String value used when hooking to loaded event.
 
@@ -1104,7 +1104,7 @@ loaded
 static propertyChangeEvent: string;
 ```
 
-Defined in: data/observable/index.d.ts:75
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 String value used when hooking to propertyChange event.
 
@@ -1124,7 +1124,7 @@ propertyChange
 static unloadedEvent: string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:143
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 String value used when hooking to unloaded event.
 
@@ -1146,7 +1146,7 @@ unloaded
 get android(): any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:384
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1166,7 +1166,7 @@ Defined in: ui/core/view-base/index.d.ts:384
 get class(): string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:387
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1178,7 +1178,7 @@ Defined in: ui/core/view-base/index.d.ts:387
 set class(v: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:388
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Parameters
 
@@ -1204,7 +1204,7 @@ Defined in: ui/core/view-base/index.d.ts:388
 get effectivePaddingBottom(): number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:393
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1216,7 +1216,7 @@ Defined in: ui/core/view-base/index.d.ts:393
 set effectivePaddingBottom(v: number): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:394
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Parameters
 
@@ -1242,7 +1242,7 @@ Defined in: ui/core/view-base/index.d.ts:394
 get effectivePaddingLeft(): number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:395
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1254,7 +1254,7 @@ Defined in: ui/core/view-base/index.d.ts:395
 set effectivePaddingLeft(v: number): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:396
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Parameters
 
@@ -1280,7 +1280,7 @@ Defined in: ui/core/view-base/index.d.ts:396
 get effectivePaddingRight(): number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:391
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1292,7 +1292,7 @@ Defined in: ui/core/view-base/index.d.ts:391
 set effectivePaddingRight(v: number): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:392
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Parameters
 
@@ -1318,7 +1318,7 @@ Defined in: ui/core/view-base/index.d.ts:392
 get effectivePaddingTop(): number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:389
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1330,7 +1330,7 @@ Defined in: ui/core/view-base/index.d.ts:389
 set effectivePaddingTop(v: number): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:390
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Parameters
 
@@ -1356,7 +1356,7 @@ Defined in: ui/core/view-base/index.d.ts:390
 get ios(): any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:385
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1376,7 +1376,7 @@ Defined in: ui/core/view-base/index.d.ts:385
 get isLoaded(): boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:386
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1396,7 +1396,7 @@ Defined in: ui/core/view-base/index.d.ts:386
 get nativeView(): any;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:369
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Returns
 
@@ -1408,7 +1408,7 @@ Defined in: ui/core/view-base/index.d.ts:369
 set nativeView(value: any): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:370
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Parameters
 
@@ -1434,7 +1434,7 @@ Defined in: ui/core/view-base/index.d.ts:370
 get page(): Page;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:409
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets owner page. This is a read-only property.
 
@@ -1456,7 +1456,7 @@ Gets owner page. This is a read-only property.
 get parentNode(): ViewBase;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:367
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets the template parent or the native parent. Sets the template parent.
 
@@ -1470,7 +1470,7 @@ Gets the template parent or the native parent. Sets the template parent.
 set parentNode(node: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:368
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Parameters
 
@@ -1496,7 +1496,7 @@ Defined in: ui/core/view-base/index.d.ts:368
 get style(): Style;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:378
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets the style object associated to this view.
 
@@ -1510,7 +1510,7 @@ Gets the style object associated to this view.
 set style(inlineStyle: Style): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:383
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Ns Property
 
@@ -1538,7 +1538,7 @@ Defined in: ui/core/view-base/index.d.ts:383
 get typeName(): string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:374
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Gets the name of the constructor function for this instance. E.g. for a Button class this will return "Button".
 
@@ -1560,7 +1560,7 @@ Gets the name of the constructor function for this instance. E.g. for a Button c
 get visualState(): string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:552
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 ##### Deprecated
 
@@ -1580,7 +1580,7 @@ Defined in: ui/core/view-base/index.d.ts:552
 _addView(view: ViewBase, atIndex?: number): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:463
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1605,7 +1605,7 @@ Defined in: ui/core/view-base/index.d.ts:463
 _addViewCore(view: ViewBase, atIndex?: number): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:467
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Method is intended to be overridden by inheritors and used as "protected"
 
@@ -1632,7 +1632,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 _addViewToNativeVisualTree(view: ViewBase, atIndex?: number): boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:544
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Performs the core logic of adding a child view to the native visual tree. Returns true if the view's native representation has been successfully added, false otherwise.
 Method is intended to be overridden by inheritors and used as "protected".
@@ -1660,7 +1660,7 @@ Method is intended to be overridden by inheritors and used as "protected".
 _addVisualState(state: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:553
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1684,7 +1684,7 @@ Defined in: ui/core/view-base/index.d.ts:553
 _applyXmlAttribute(attribute: string, value: string): boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:565
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1714,7 +1714,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 _batchUpdate<T>(callback: () => T): T;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:425
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Allow multiple updates to be performed on the instance at once.
 
@@ -1746,7 +1746,7 @@ Allow multiple updates to be performed on the instance at once.
 _childIndexToNativeChildIndex(index?: number): number;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:539
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1773,7 +1773,7 @@ _createPropertyChangeData(
    oldValue?: any): PropertyChangeData;
 ```
 
-Defined in: data/observable/index.d.ts:198
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 This method is intended to be overriden by inheritors to provide additional implementation.
 
@@ -1801,7 +1801,7 @@ This method is intended to be overriden by inheritors to provide additional impl
 _dialogClosed(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:597
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Method is intended to be overridden by inheritors and used as "protected"
 
@@ -1821,7 +1821,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 _emit(eventName: string): void;
 ```
 
-Defined in: data/observable/index.d.ts:199
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 #### Parameters
 
@@ -1845,7 +1845,7 @@ Defined in: data/observable/index.d.ts:199
 _goToVisualState(state: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:558
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1873,7 +1873,7 @@ Use View._addVisualState() and View._removeVisualState() instead.
 _inheritStyles(view: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:462
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1897,7 +1897,7 @@ Defined in: ui/core/view-base/index.d.ts:462
 _inheritStyleScope(styleScope: StyleScope): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:576
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1921,7 +1921,7 @@ Defined in: ui/core/view-base/index.d.ts:576
 _layoutParent(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:418
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -1939,7 +1939,7 @@ Defined in: ui/core/view-base/index.d.ts:418
 _onRootViewReset(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:601
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Method is intended to be overridden by inheritors and used as "protected"
 
@@ -1959,7 +1959,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 _parentChanged(oldParent: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:567
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -1983,7 +1983,7 @@ Defined in: ui/core/view-base/index.d.ts:567
 _removeView(view: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:486
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Core logic for removing a child view from this instance. Used by the framework to handle lifecycle events more centralized. Do not use outside the UI Stack implementation.
 
@@ -2009,7 +2009,7 @@ Core logic for removing a child view from this instance. Used by the framework t
 _removeViewCore(view: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:490
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Method is intended to be overridden by inheritors and used as "protected"
 
@@ -2035,7 +2035,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 _removeViewFromNativeVisualTree(view: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:548
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Method is intended to be overridden by inheritors and used as "protected"
 
@@ -2061,7 +2061,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 _removeVisualState(state: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:554
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2085,7 +2085,7 @@ Defined in: ui/core/view-base/index.d.ts:554
 _resumeNativeUpdates(type: SuspendType): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:421
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2109,7 +2109,7 @@ Defined in: ui/core/view-base/index.d.ts:421
 _setDefaultPaddings(insets: any): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:419
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2133,7 +2133,7 @@ Defined in: ui/core/view-base/index.d.ts:419
 _setupAsRootView(context: any): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:516
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2160,7 +2160,7 @@ _setupUI(
    parentIsLoaded?: boolean): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:521
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Setups the UI for ViewBase and all its children recursively.
 This method should *not* be overridden by derived views.
@@ -2189,7 +2189,7 @@ This method should *not* be overridden by derived views.
 _shouldDelayLayout(): boolean;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:477
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 When returning true the callLoaded method will be run in setTimeout
 Method is intended to be overridden by inheritors and used as "protected"
@@ -2210,7 +2210,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 _suspendNativeUpdates(type: SuspendType): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:420
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2234,7 +2234,7 @@ Defined in: ui/core/view-base/index.d.ts:420
 _tearDownUI(force?: boolean): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:538
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Tears down the UI for ViewBase and all its children recursively.
 This method should *not* be overridden by derived views.
@@ -2265,7 +2265,7 @@ addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:134
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -2294,7 +2294,7 @@ Adds a listener for the specified event name.
 protected addPseudoClass(name: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:439
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2322,7 +2322,7 @@ A widget can call this method to add a matching css pseudo class.
 bind(options: BindingOptions, source?: Object): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:450
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2347,7 +2347,7 @@ Defined in: ui/core/view-base/index.d.ts:450
 callLoaded(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:429
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -2365,7 +2365,7 @@ Defined in: ui/core/view-base/index.d.ts:429
 callUnloaded(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:430
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -2383,7 +2383,7 @@ Defined in: ui/core/view-base/index.d.ts:430
 closeModal(...args: any[]): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:593
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Closes the current modal view that this page is showing.
 
@@ -2409,7 +2409,7 @@ Closes the current modal view that this page is showing.
 createNativeView(): Object;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:495
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Creates a native view.
 Returns either android.view.View or UIView.
@@ -2430,7 +2430,7 @@ Returns either android.view.View or UIView.
 protected deletePseudoClass(name: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:445
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -2458,7 +2458,7 @@ A widget can call this method to discard matching css pseudo class.
 destroyNode(forceDestroyChildren?: boolean): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:533
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Tears down the UI of a reusable node by making it no longer reusable.
 
@@ -2488,7 +2488,7 @@ _tearDownUI
 disposeNativeView(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:499
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Clean up references to the native view.
 
@@ -2508,7 +2508,7 @@ Clean up references to the native view.
 eachChild(callback: (child: ViewBase) => boolean): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:461
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Iterates over children of type ViewBase.
 
@@ -2534,7 +2534,7 @@ Iterates over children of type ViewBase.
 ensureDomNode(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:414
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -2556,7 +2556,7 @@ Ensures a dom-node for this view.
 get(name: string): any;
 ```
 
-Defined in: data/observable/index.d.ts:85
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Gets the value of the specified property.
 
@@ -2582,7 +2582,7 @@ Gets the value of the specified property.
 getEffectivePaddingShorthand(): string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:397
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -2600,7 +2600,7 @@ Defined in: ui/core/view-base/index.d.ts:397
 getViewByDomId<T>(domId: number): T;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:405
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Returns the child view with the specified domId.
 
@@ -2632,7 +2632,7 @@ Returns the child view with the specified domId.
 getViewById<T>(id: string): T;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:401
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Returns the child view with the specified id.
 
@@ -2664,7 +2664,7 @@ Returns the child view with the specified id.
 hasListeners(eventName: string): boolean;
 ```
 
-Defined in: data/observable/index.d.ts:194
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Checks whether a listener is registered for the specified event name.
 
@@ -2690,7 +2690,7 @@ Checks whether a listener is registered for the specified event name.
 initNativeView(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:503
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Initializes properties/listeners of the native view.
 
@@ -2710,7 +2710,7 @@ Initializes properties/listeners of the native view.
 loadView(view: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:472
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Load view.
 
@@ -2736,7 +2736,7 @@ Load view.
 notify<T>(data: T): void;
 ```
 
-Defined in: data/observable/index.d.ts:183
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notify this Observable instance with some data. This causes all event
 handlers on the Observable instance to be called, as well as any 'global'
@@ -2773,7 +2773,7 @@ notifyPropertyChange(
    oldValue?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:189
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notifies all the registered listeners for the property change event.
 
@@ -2804,7 +2804,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:126
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes the listener(s) for the specified event name.
 
@@ -2835,7 +2835,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:104
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -2866,7 +2866,7 @@ once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:116
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name, which, once fired, will
 remove itself.
@@ -2895,7 +2895,7 @@ remove itself.
 onLoaded(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:416
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -2913,7 +2913,7 @@ Defined in: ui/core/view-base/index.d.ts:416
 onResumeNativeUpdates(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:568
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -2931,7 +2931,7 @@ Defined in: ui/core/view-base/index.d.ts:568
 onUnloaded(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:417
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Returns
 
@@ -2952,7 +2952,7 @@ removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:141
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes listener(s) for the specified event name.
 
@@ -2980,7 +2980,7 @@ Removes listener(s) for the specified event name.
 requestLayout(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:456
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Invalidates the layout of the view and triggers a new layout pass.
 
@@ -3000,7 +3000,7 @@ Invalidates the layout of the view and triggers a new layout pass.
 resetNativeView(): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:507
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Resets properties/listeners set to the native view.
 
@@ -3020,7 +3020,7 @@ Resets properties/listeners set to the native view.
 set(name: string, value: any): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:415
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Updates the specified property with the provided value.
 
@@ -3047,7 +3047,7 @@ Updates the specified property with the provided value.
 setInlineStyle(style: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:566
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -3071,7 +3071,7 @@ Defined in: ui/core/view-base/index.d.ts:566
 setNativeView(value: any): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:527
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Set the nativeView field performing extra checks and updates to the native properties on the new view.
 Use in cases where the createNativeView is not suitable.
@@ -3099,7 +3099,7 @@ As an example use in item controls where the native parent view will create the 
 setProperty(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:93
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name.
 
@@ -3128,7 +3128,7 @@ Updates the specified property with the provided value and raises a property cha
 showModal(view: ViewBase, modalOptions?: ShowModalOptions): ViewBase;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:582
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Shows the view passed as parameter as a modal view.
 
@@ -3153,7 +3153,7 @@ Shows the view passed as parameter as a modal view.
 showModal(moduleName: string, modalOptions?: ShowModalOptions): ViewBase;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:588
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Shows the View contained in moduleName as a modal view.
 
@@ -3180,7 +3180,7 @@ Shows the View contained in moduleName as a modal view.
 toString(): string;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:569
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Returns a string representation of an object.
 
@@ -3200,7 +3200,7 @@ Returns a string representation of an object.
 unbind(property: string): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:451
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 #### Parameters
 
@@ -3224,7 +3224,7 @@ Defined in: ui/core/view-base/index.d.ts:451
 unloadView(view: ViewBase): void;
 ```
 
-Defined in: ui/core/view-base/index.d.ts:482
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
 
 Unload view.
 
@@ -3254,7 +3254,7 @@ static addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:172
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -3289,7 +3289,7 @@ static off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:159
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -3324,7 +3324,7 @@ static on(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:147
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -3359,7 +3359,7 @@ static once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:153
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -3393,7 +3393,7 @@ static removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:166
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.

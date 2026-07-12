@@ -11,7 +11,7 @@ type LengthDipUnit = {
 };
 ```
 
-Defined in: core-types/index.d.ts:26
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
 
 ## Properties
 
@@ -21,7 +21,7 @@ Defined in: core-types/index.d.ts:26
 readonly unit: "dip";
 ```
 
-Defined in: core-types/index.d.ts:27
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
 
 ***
 
@@ -31,4 +31,4 @@ Defined in: core-types/index.d.ts:27
 readonly value: dip;
 ```
 
-Defined in: core-types/index.d.ts:28
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)

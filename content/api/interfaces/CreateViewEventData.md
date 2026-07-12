@@ -5,7 +5,7 @@ description: Event data containing information for creating a native view that w
 contributors: false
 ---
 
-Defined in: ui/placeholder/index.d.ts:40
+Defined in: [ui/placeholder/index.d.ts:40](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/placeholder/index.d.ts#L40)
 
 Event data containing information for creating a native view that will be added to the visual tree.
 
@@ -21,7 +21,7 @@ Event data containing information for creating a native view that will be added 
 optional context?: any;
 ```
 
-Defined in: ui/placeholder/index.d.ts:49
+Defined in: [ui/placeholder/index.d.ts:49](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/placeholder/index.d.ts#L49)
 
 An optional context for creating the view.
 
@@ -33,7 +33,7 @@ An optional context for creating the view.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -49,7 +49,7 @@ The name of the event.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -65,6 +65,6 @@ The Observable instance that has raised the event.
 view: any;
 ```
 
-Defined in: ui/placeholder/index.d.ts:44
+Defined in: [ui/placeholder/index.d.ts:44](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/placeholder/index.d.ts#L44)
 
 The native view that should be added to the visual tree.

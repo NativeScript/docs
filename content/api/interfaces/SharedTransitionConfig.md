@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/transition/shared-transition.d.ts:101
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
 
 ## Properties
 
@@ -16,7 +16,7 @@ optional interactive?: {
 };
 ```
 
-Defined in: ui/transition/shared-transition.d.ts:105
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
 
 Interactive transition settings. (iOS only at the moment)
 
@@ -37,7 +37,7 @@ Defaults to using 'pan' gesture for dismissal however you can customize your own
 optional pageEnd?: SharedTransitionPageWithDurationProperties;
 ```
 
-Defined in: ui/transition/shared-transition.d.ts:119
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings applied to the incoming page to end your transition with.
 
@@ -49,7 +49,7 @@ View settings applied to the incoming page to end your transition with.
 optional pageOut?: SharedTransitionPageWithDurationProperties;
 ```
 
-Defined in: ui/transition/shared-transition.d.ts:123
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings applied to the outgoing page in your transition.
 
@@ -76,7 +76,7 @@ optional pageReturn?: SharedRect & {
 };
 ```
 
-Defined in: ui/transition/shared-transition.d.ts:127
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings to return to the original page with.
 
@@ -168,6 +168,6 @@ Note: you can try enabling this property in cases where your return animation do
 optional pageStart?: SharedTransitionPageProperties;
 ```
 
-Defined in: ui/transition/shared-transition.d.ts:115
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings applied to the incoming page to start your transition with.

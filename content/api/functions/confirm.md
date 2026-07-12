@@ -10,7 +10,7 @@ contributors: false
 function confirm(message: string): Promise<boolean>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:78
+Defined in: [ui/dialogs/index.d.ts:78](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L78)
 
 The confirm() method displays a dialog box with a specified message.
 
@@ -30,7 +30,7 @@ The confirm() method displays a dialog box with a specified message.
 function confirm(options: ConfirmOptions): Promise<boolean>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:84
+Defined in: [ui/dialogs/index.d.ts:84](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L84)
 
 The confirm() method displays a dialog box with a specified message.
 

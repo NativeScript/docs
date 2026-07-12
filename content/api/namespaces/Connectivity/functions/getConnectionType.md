@@ -8,7 +8,7 @@ contributors: false
 function getConnectionType(): number;
 ```
 
-Defined in: connectivity/index.d.ts:6
+Defined in: [connectivity/index.d.ts:6](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/connectivity/index.d.ts#L6)
 
 Gets the type of connection.
 Returns a value from the connectivity.connectionType enumeration.

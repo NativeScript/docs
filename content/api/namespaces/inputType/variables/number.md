@@ -9,6 +9,6 @@ contributors: false
 const number: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:24
+Defined in: [ui/dialogs/index.d.ts:24](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L24)
 
 Number input type.

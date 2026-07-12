@@ -16,7 +16,7 @@ function measureNativeView(
 };
 ```
 
-Defined in: utils/layout-helper/index.d.ts:82
+Defined in: [utils/layout-helper/index.d.ts:82](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/layout-helper/index.d.ts#L82)
 
 Converts device pixels to device independent pixes and measure the nativeView.
 Returns the desired size of the nativeView in device pixels.

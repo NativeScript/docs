@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/core/view/view-helper/index.d.ts:76
+Defined in: [ui/core/view/view-helper/index.d.ts:76](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L76)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new UIAdaptivePresentationControllerDelegateImp(): UIAdaptivePresentationControl
 static initWithOwnerAndCallback(owner: WeakRef<View>, whenClosedCallback: Function): UIAdaptivePresentationControllerDelegateImp;
 ```
 
-Defined in: ui/core/view/view-helper/index.d.ts:77
+Defined in: [ui/core/view/view-helper/index.d.ts:77](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-helper/index.d.ts#L77)
 
 #### Parameters
 

@@ -8,7 +8,7 @@ contributors: false
 function setNativeApp(app: any): void;
 ```
 
-Defined in: application/helpers-common.d.ts:23
+Defined in: [application/helpers-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/helpers-common.ts)
 
 This is called internally to set the native application instance.
 You typically do not need to call this directly.

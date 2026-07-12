@@ -8,7 +8,7 @@ contributors: false
 function hasDuplicates(arr: any[]): boolean;
 ```
 
-Defined in: utils/index.d.ts:151
+Defined in: [utils/index.d.ts:151](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L151)
 
 Checks if array has any duplicate elements.
 

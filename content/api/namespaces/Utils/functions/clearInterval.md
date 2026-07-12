@@ -8,7 +8,7 @@ contributors: false
 function clearInterval(id: number): void;
 ```
 
-Defined in: timer/index.d.ts:27
+Defined in: [timer/index.d.ts:27](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/timer/index.d.ts#L27)
 
 Clears repeated function which was set up by calling setInterval().
 

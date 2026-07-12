@@ -11,7 +11,7 @@ type LengthPercentUnit = {
 };
 ```
 
-Defined in: core-types/index.d.ts:34
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
 
 ## Properties
 
@@ -21,7 +21,7 @@ Defined in: core-types/index.d.ts:34
 readonly unit: "%";
 ```
 
-Defined in: core-types/index.d.ts:35
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
 
 ***
 
@@ -31,4 +31,4 @@ Defined in: core-types/index.d.ts:35
 readonly value: percent;
 ```
 
-Defined in: core-types/index.d.ts:36
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)

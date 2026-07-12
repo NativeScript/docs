@@ -8,7 +8,7 @@ contributors: false
 function dataSerialize(data?: any, wrapPrimitives?: boolean): any;
 ```
 
-Defined in: utils/native-helper.d.ts:5
+Defined in: [utils/native-helper.d.ts:5](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/native-helper.d.ts#L5)
 
 Data serialization from JS \> Native
 

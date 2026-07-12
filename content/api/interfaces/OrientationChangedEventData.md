@@ -5,7 +5,7 @@ description: Event data containing information for orientation changed event.
 contributors: false
 ---
 
-Defined in: application/application-interfaces.d.ts:59
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Event data containing information for orientation changed event.
 
@@ -21,7 +21,7 @@ Event data containing information for orientation changed event.
 optional android?: any;
 ```
 
-Defined in: application/application-interfaces.d.ts:36
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Gets the native Android event arguments. Valid only when running on Android.
 
@@ -37,7 +37,7 @@ Gets the native Android event arguments. Valid only when running on Android.
 eventName: string;
 ```
 
-Defined in: application/application-interfaces.d.ts:28
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The name of the event.
 
@@ -53,7 +53,7 @@ The name of the event.
 optional ios?: any;
 ```
 
-Defined in: application/application-interfaces.d.ts:32
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Gets the native iOS event arguments. Valid only when running on iOS.
 
@@ -69,7 +69,7 @@ Gets the native iOS event arguments. Valid only when running on iOS.
 newValue: "portrait" | "landscape" | "unknown";
 ```
 
-Defined in: application/application-interfaces.d.ts:63
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 New orientation value.
 
@@ -81,7 +81,7 @@ New orientation value.
 object: any;
 ```
 
-Defined in: application/application-interfaces.d.ts:40
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The instance that has raised the event.
 

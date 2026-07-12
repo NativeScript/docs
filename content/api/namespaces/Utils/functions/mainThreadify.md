@@ -8,7 +8,7 @@ contributors: false
 function mainThreadify(func: Function): (...args: any[]) => void;
 ```
 
-Defined in: utils/index.d.ts:70
+Defined in: [utils/index.d.ts:70](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L70)
 
 Returns a function wrapper which executes the supplied function on the main thread.
 The wrapper behaves like the original function and passes all of its arguments BUT

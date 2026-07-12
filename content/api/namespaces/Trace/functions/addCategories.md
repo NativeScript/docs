@@ -8,7 +8,7 @@ contributors: false
 function addCategories(categories: string): void;
 ```
 
-Defined in: trace/index.d.ts:68
+Defined in: [trace/index.d.ts:68](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L68)
 
 Adds categories to existing categories the module will trace.
 

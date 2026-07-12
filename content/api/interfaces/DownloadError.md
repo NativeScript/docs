@@ -5,7 +5,7 @@ description: Provides data for download error.
 contributors: false
 ---
 
-Defined in: ui/image-cache/index.d.ts:138
+Defined in: [ui/image-cache/index.d.ts:138](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L138)
 
 Provides data for download error.
 
@@ -21,7 +21,7 @@ Provides data for download error.
 error: Error;
 ```
 
-Defined in: ui/image-cache/index.d.ts:146
+Defined in: [ui/image-cache/index.d.ts:146](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L146)
 
 Gets the error.
 
@@ -33,7 +33,7 @@ Gets the error.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -49,7 +49,7 @@ The name of the event.
 key: string;
 ```
 
-Defined in: ui/image-cache/index.d.ts:142
+Defined in: [ui/image-cache/index.d.ts:142](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L142)
 
 A string indentifier of the cached image.
 
@@ -61,7 +61,7 @@ A string indentifier of the cached image.
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 

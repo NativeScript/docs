@@ -17,6 +17,11 @@ on:
         required: false
         default: 'latest'
 
+# Needed by peter-evans/create-pull-request (push branch + open PR)
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   regenerate:
     runs-on: ubuntu-latest
@@ -36,6 +41,9 @@ jobs:
         run: yarn add -D @nativescript/core@$CORE_VERSION
       - name: Regenerate API reference
         run: yarn generate:api-docs
+        env:
+          # Used for the GitHub tree lookup that validates "Defined in" source links
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Open PR if the API changed
         uses: peter-evans/create-pull-request@v6
         with:

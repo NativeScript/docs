@@ -5,7 +5,7 @@ description: Event data containing information about unhandled application error
 contributors: false
 ---
 
-Defined in: application/application-interfaces.d.ts:95
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Event data containing information about unhandled application errors.
 
@@ -21,7 +21,7 @@ Event data containing information about unhandled application errors.
 optional android?: NativeScriptError;
 ```
 
-Defined in: application/application-interfaces.d.ts:97
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Gets the native Android event arguments. Valid only when running on Android.
 
@@ -37,7 +37,7 @@ Gets the native Android event arguments. Valid only when running on Android.
 error: NativeScriptError;
 ```
 
-Defined in: application/application-interfaces.d.ts:98
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 ***
 
@@ -47,7 +47,7 @@ Defined in: application/application-interfaces.d.ts:98
 eventName: string;
 ```
 
-Defined in: application/application-interfaces.d.ts:28
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The name of the event.
 
@@ -63,7 +63,7 @@ The name of the event.
 optional ios?: NativeScriptError;
 ```
 
-Defined in: application/application-interfaces.d.ts:96
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Gets the native iOS event arguments. Valid only when running on iOS.
 
@@ -79,7 +79,7 @@ Gets the native iOS event arguments. Valid only when running on iOS.
 object: any;
 ```
 
-Defined in: application/application-interfaces.d.ts:40
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The instance that has raised the event.
 

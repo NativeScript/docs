@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/animation/animation-shared.d.ts:24
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ## Methods
 
@@ -16,7 +16,7 @@ Defined in: ui/animation/animation-shared.d.ts:24
 cancel(): void;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:25
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ##### Returns
 
@@ -28,7 +28,7 @@ Defined in: ui/animation/animation-shared.d.ts:25
 cancel(): void;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:62
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ##### Returns
 

@@ -11,7 +11,7 @@ type FontVariationSettingsType = {
 };
 ```
 
-Defined in: ui/styling/font-interfaces.d.ts:13
+Defined in: [ui/styling/font-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font-interfaces.ts)
 
 ## Properties
 
@@ -21,7 +21,7 @@ Defined in: ui/styling/font-interfaces.d.ts:13
 axis: string;
 ```
 
-Defined in: ui/styling/font-interfaces.d.ts:14
+Defined in: [ui/styling/font-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font-interfaces.ts)
 
 ***
 
@@ -31,4 +31,4 @@ Defined in: ui/styling/font-interfaces.d.ts:14
 value: number;
 ```
 
-Defined in: ui/styling/font-interfaces.d.ts:15
+Defined in: [ui/styling/font-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/font-interfaces.ts)

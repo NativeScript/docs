@@ -5,7 +5,7 @@ description: "An utility class used for supporting styling infrastructure. WARNI
 contributors: false
 ---
 
-Defined in: ui/core/control-state-change/index.d.ts:7
+Defined in: [ui/core/control-state-change/index.d.ts:7](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/control-state-change/index.d.ts#L7)
 
 An utility class used for supporting styling infrastructure.
 WARNING: This class is intended for IOS only.
@@ -21,7 +21,7 @@ new ControlStateChangeListener(
    callback: ControlStateChangeListenerCallback): ControlStateChangeListener;
 ```
 
-Defined in: ui/core/control-state-change/index.d.ts:13
+Defined in: [ui/core/control-state-change/index.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/control-state-change/index.d.ts#L13)
 
 Initializes an instance of ControlStateChangeListener class.
 
@@ -45,7 +45,7 @@ Initializes an instance of ControlStateChangeListener class.
 start(): any;
 ```
 
-Defined in: ui/core/control-state-change/index.d.ts:15
+Defined in: [ui/core/control-state-change/index.d.ts:15](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/control-state-change/index.d.ts#L15)
 
 #### Returns
 
@@ -59,7 +59,7 @@ Defined in: ui/core/control-state-change/index.d.ts:15
 stop(): any;
 ```
 
-Defined in: ui/core/control-state-change/index.d.ts:16
+Defined in: [ui/core/control-state-change/index.d.ts:16](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/control-state-change/index.d.ts#L16)
 
 #### Returns
 

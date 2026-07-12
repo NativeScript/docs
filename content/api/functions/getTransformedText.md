@@ -8,7 +8,7 @@ contributors: false
 function getTransformedText(text: string, textTransform: TextTransformType): string;
 ```
 
-Defined in: ui/text-base/index.d.ts:233
+Defined in: [ui/text-base/index.d.ts:233](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/text-base/index.d.ts#L233)
 
 ## Parameters
 

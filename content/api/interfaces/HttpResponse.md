@@ -5,7 +5,7 @@ description: Encapsulates HTTP-response information from an HTTP-request.
 contributors: false
 ---
 
-Defined in: http/http-interfaces.d.ts:36
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Encapsulates HTTP-response information from an HTTP-request.
 
@@ -23,7 +23,7 @@ Encapsulates HTTP-response information from an HTTP-request.
 optional content?: T;
 ```
 
-Defined in: http/http-interfaces.d.ts:48
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response content.
 
@@ -35,7 +35,7 @@ Gets the response content.
 headers: Headers;
 ```
 
-Defined in: http/http-interfaces.d.ts:44
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response headers.
 
@@ -47,6 +47,6 @@ Gets the response headers.
 statusCode: number;
 ```
 
-Defined in: http/http-interfaces.d.ts:40
+Defined in: [http/http-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/http-interfaces.ts)
 
 Gets the response status code.

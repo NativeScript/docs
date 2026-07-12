@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: module-name-resolver/index.d.ts:4
+Defined in: [module-name-resolver/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/index.ts)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: module-name-resolver/index.d.ts:4
 new ModuleNameResolver(context: PlatformContext, moduleListProvider?: ModuleListProvider): ModuleNameResolver;
 ```
 
-Defined in: module-name-resolver/index.d.ts:8
+Defined in: [module-name-resolver/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/index.ts)
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: module-name-resolver/index.d.ts:8
 clearCache(): void;
 ```
 
-Defined in: module-name-resolver/index.d.ts:10
+Defined in: [module-name-resolver/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/index.ts)
 
 #### Returns
 
@@ -59,7 +59,7 @@ ModuleNameResolverType.clearCache
 resolveModuleName(path: string, ext: string): string;
 ```
 
-Defined in: module-name-resolver/index.d.ts:9
+Defined in: [module-name-resolver/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/index.ts)
 
 #### Parameters
 

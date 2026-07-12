@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/styling/linear-gradient.d.ts:8
+Defined in: [ui/styling/linear-gradient.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/linear-gradient.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new LinearGradient(): LinearGradient;
 angle: number;
 ```
 
-Defined in: ui/styling/linear-gradient.d.ts:9
+Defined in: [ui/styling/linear-gradient.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/linear-gradient.ts)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ui/styling/linear-gradient.d.ts:9
 colorStops: ColorStop[];
 ```
 
-Defined in: ui/styling/linear-gradient.d.ts:10
+Defined in: [ui/styling/linear-gradient.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/linear-gradient.ts)
 
 ## Methods
 
@@ -46,7 +46,7 @@ Defined in: ui/styling/linear-gradient.d.ts:10
 static equals(first: LinearGradient, second: LinearGradient): boolean;
 ```
 
-Defined in: ui/styling/linear-gradient.d.ts:12
+Defined in: [ui/styling/linear-gradient.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/linear-gradient.ts)
 
 #### Parameters
 
@@ -67,7 +67,7 @@ Defined in: ui/styling/linear-gradient.d.ts:12
 static parse(value: LinearGradient): LinearGradient;
 ```
 
-Defined in: ui/styling/linear-gradient.d.ts:11
+Defined in: [ui/styling/linear-gradient.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/linear-gradient.ts)
 
 #### Parameters
 

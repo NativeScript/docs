@@ -11,7 +11,7 @@ function notifyEvent(
    data?: any): void;
 ```
 
-Defined in: trace/index.d.ts:90
+Defined in: [trace/index.d.ts:90](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L90)
 
 Notifies all the attached listeners for an event that has occurred in the sender object.
 

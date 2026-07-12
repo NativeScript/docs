@@ -5,7 +5,7 @@ description: A simple non-validating SAX parser based on https://github.com/vfla
 contributors: false
 ---
 
-Defined in: xml/index.d.ts:87
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 A simple non-validating SAX parser based on https://github.com/vflash/easysax version 0.1.14
 
@@ -20,7 +20,7 @@ new XmlParser(
    processNamespaces?: boolean): XmlParser;
 ```
 
-Defined in: xml/index.d.ts:97
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Creates a new instance of the XmlParser class.
 
@@ -46,7 +46,7 @@ Creates a new instance of the XmlParser class.
 get angularSyntax(): boolean;
 ```
 
-Defined in: xml/index.d.ts:98
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 ##### Returns
 
@@ -58,7 +58,7 @@ Defined in: xml/index.d.ts:98
 set angularSyntax(value: boolean): void;
 ```
 
-Defined in: xml/index.d.ts:99
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 ##### Parameters
 
@@ -78,7 +78,7 @@ Defined in: xml/index.d.ts:99
 parse(xmlString: string): void;
 ```
 
-Defined in: xml/index.d.ts:104
+Defined in: [xml/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/xml/index.ts)
 
 Parses the supplied xml string.
 

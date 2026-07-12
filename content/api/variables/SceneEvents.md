@@ -16,7 +16,7 @@ const SceneEvents: {
 };
 ```
 
-Defined in: application/application-common.d.ts:7
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 ## Type Declaration
 

@@ -5,7 +5,7 @@ description: Provides options for the login dialog.
 contributors: false
 ---
 
-Defined in: ui/dialogs/index.d.ts:245
+Defined in: [ui/dialogs/index.d.ts:245](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L245)
 
 Provides options for the login dialog.
 
@@ -21,7 +21,7 @@ Provides options for the login dialog.
 optional cancelable?: boolean;
 ```
 
-Defined in: ui/dialogs/index.d.ts:144
+Defined in: [ui/dialogs/index.d.ts:144](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L144)
 
 [Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog.
 
@@ -37,7 +37,7 @@ Defined in: ui/dialogs/index.d.ts:144
 optional cancelButtonText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:214
+Defined in: [ui/dialogs/index.d.ts:214](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L214)
 
 Gets or sets the Cancel button text.
 
@@ -53,7 +53,7 @@ Gets or sets the Cancel button text.
 optional message?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:194
+Defined in: [ui/dialogs/index.d.ts:194](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L194)
 
 Gets or sets the dialog message.
 
@@ -69,7 +69,7 @@ Gets or sets the dialog message.
 optional neutralButtonText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:219
+Defined in: [ui/dialogs/index.d.ts:219](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L219)
 
 Gets or sets the neutral button text.
 
@@ -85,7 +85,7 @@ Gets or sets the neutral button text.
 optional okButtonText?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:204
+Defined in: [ui/dialogs/index.d.ts:204](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L204)
 
 Gets or sets the OK button text.
 
@@ -101,7 +101,7 @@ Gets or sets the OK button text.
 optional password?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:264
+Defined in: [ui/dialogs/index.d.ts:264](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L264)
 
 Gets or sets the default text to display in the password input box.
 
@@ -113,7 +113,7 @@ Gets or sets the default text to display in the password input box.
 optional passwordHint?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:254
+Defined in: [ui/dialogs/index.d.ts:254](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L254)
 
 Gets or sets the default text to display as hint in the password input box.
 
@@ -125,7 +125,7 @@ Gets or sets the default text to display as hint in the password input box.
 optional theme?: number;
 ```
 
-Defined in: ui/dialogs/index.d.ts:149
+Defined in: [ui/dialogs/index.d.ts:149](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L149)
 
 [Android only] Sets the theme of the Dialog. Usable themes can be found: https://developer.android.com/reference/android/R.style
 
@@ -141,7 +141,7 @@ Defined in: ui/dialogs/index.d.ts:149
 optional title?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:189
+Defined in: [ui/dialogs/index.d.ts:189](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L189)
 
 Gets or sets the dialog title.
 
@@ -157,7 +157,7 @@ Gets or sets the dialog title.
 optional userName?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:259
+Defined in: [ui/dialogs/index.d.ts:259](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L259)
 
 Gets or sets the default text to display in the user name input box.
 
@@ -169,6 +169,6 @@ Gets or sets the default text to display in the user name input box.
 optional userNameHint?: string;
 ```
 
-Defined in: ui/dialogs/index.d.ts:249
+Defined in: [ui/dialogs/index.d.ts:249](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L249)
 
 Gets or sets the default text to display as hint in the user name input box.

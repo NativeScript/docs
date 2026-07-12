@@ -16,7 +16,7 @@ function getDurationWithDampingFromSpring(springSettings?: {
 };
 ```
 
-Defined in: utils/animation-helpers.d.ts:19
+Defined in: [utils/animation-helpers.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/animation-helpers.ts)
 
 Get a duration with damping value from various spring related settings.
 Helpful when needing to convert spring settings to isolated duration value.

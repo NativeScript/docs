@@ -12,7 +12,7 @@ function addWeakEventListener(
    target: any): void;
 ```
 
-Defined in: ui/core/weak-event-listener/index.d.ts:10
+Defined in: [ui/core/weak-event-listener/index.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/weak-event-listener/index.d.ts#L10)
 
 Attaches a WeakEventListener.
 

@@ -9,7 +9,7 @@ contributors: false
 const toDevicePixels: (length: FixedLengthType) => number;
 ```
 
-Defined in: ui/styling/length-shared.d.ts:29
+Defined in: [ui/styling/length-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/length-shared.ts)
 
 Converts FixedLengthType unit to device pixels.
 

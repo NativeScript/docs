@@ -8,4 +8,4 @@ contributors: false
 const justify: "justify" = "justify";
 ```
 
-Defined in: core-types/index.d.ts:74
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)

@@ -5,7 +5,7 @@ description: Represents a context passed to navigation methods.
 contributors: false
 ---
 
-Defined in: ui/frame/index.d.ts:408
+Defined in: [ui/frame/index.d.ts:408](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L408)
 
 Represents a context passed to navigation methods.
 
@@ -17,7 +17,7 @@ Represents a context passed to navigation methods.
 optional entry?: BackstackEntry;
 ```
 
-Defined in: ui/frame/index.d.ts:409
+Defined in: [ui/frame/index.d.ts:409](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L409)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: ui/frame/index.d.ts:409
 isBackNavigation: boolean;
 ```
 
-Defined in: ui/frame/index.d.ts:413
+Defined in: [ui/frame/index.d.ts:413](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L413)
 
 #### Deprecated
 
@@ -41,4 +41,4 @@ Use navigationType instead.
 navigationType: NavigationType;
 ```
 
-Defined in: ui/frame/index.d.ts:414
+Defined in: [ui/frame/index.d.ts:414](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L414)

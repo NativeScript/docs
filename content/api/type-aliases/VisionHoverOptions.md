@@ -12,7 +12,7 @@ type VisionHoverOptions = {
 };
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:15
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 ## Properties
 
@@ -22,7 +22,7 @@ Defined in: ui/gestures/touch-manager.d.ts:15
 effect: VisionHoverEffect;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:16
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: ui/gestures/touch-manager.d.ts:16
 optional shape?: VisionHoverShape;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:17
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: ui/gestures/touch-manager.d.ts:17
 optional shapeCornerRadius?: number;
 ```
 
-Defined in: ui/gestures/touch-manager.d.ts:18
+Defined in: [ui/gestures/touch-manager.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/touch-manager.ts)

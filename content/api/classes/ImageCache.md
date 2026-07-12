@@ -5,7 +5,7 @@ description: Represents a class that stores handles image download requests and 
 contributors: false
 ---
 
-Defined in: ui/image-cache/index.d.ts:29
+Defined in: [ui/image-cache/index.d.ts:29](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L29)
 
 Represents a class that stores handles image download requests and caches the already downloaded images.
 
@@ -37,7 +37,7 @@ new ImageCache(): Cache;
 maxRequests: number;
 ```
 
-Defined in: ui/image-cache/index.d.ts:45
+Defined in: [ui/image-cache/index.d.ts:45](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L45)
 
 The maximum number of simultaneous download requests. Defaults to 5.
 
@@ -49,7 +49,7 @@ The maximum number of simultaneous download requests. Defaults to 5.
 placeholder: ImageSource;
 ```
 
-Defined in: ui/image-cache/index.d.ts:41
+Defined in: [ui/image-cache/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L41)
 
 The image to be used to notify for a pending download request - e.g. loading indicator.
 
@@ -61,7 +61,7 @@ The image to be used to notify for a pending download request - e.g. loading ind
 static downloadedEvent: string;
 ```
 
-Defined in: ui/image-cache/index.d.ts:33
+Defined in: [ui/image-cache/index.d.ts:33](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L33)
 
 String value used when hooking to downloaded event.
 
@@ -73,7 +73,7 @@ String value used when hooking to downloaded event.
 static downloadErrorEvent: string;
 ```
 
-Defined in: ui/image-cache/index.d.ts:37
+Defined in: [ui/image-cache/index.d.ts:37](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L37)
 
 String value used when hooking to download error event.
 
@@ -85,7 +85,7 @@ String value used when hooking to download error event.
 static propertyChangeEvent: string;
 ```
 
-Defined in: data/observable/index.d.ts:75
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 String value used when hooking to propertyChange event.
 
@@ -108,7 +108,7 @@ _createPropertyChangeData(
    oldValue?: any): PropertyChangeData;
 ```
 
-Defined in: data/observable/index.d.ts:198
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 This method is intended to be overriden by inheritors to provide additional implementation.
 
@@ -136,7 +136,7 @@ This method is intended to be overriden by inheritors to provide additional impl
 _emit(eventName: string): void;
 ```
 
-Defined in: data/observable/index.d.ts:199
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 #### Parameters
 
@@ -164,7 +164,7 @@ addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:134
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -193,7 +193,7 @@ Adds a listener for the specified event name.
 clear(): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:80
+Defined in: [ui/image-cache/index.d.ts:80](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L80)
 
 Removes all the previously cached images.
 
@@ -209,7 +209,7 @@ Removes all the previously cached images.
 disableDownload(): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:54
+Defined in: [ui/image-cache/index.d.ts:54](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L54)
 
 Temporary disables download requests.
 
@@ -225,7 +225,7 @@ Temporary disables download requests.
 enableDownload(): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:50
+Defined in: [ui/image-cache/index.d.ts:50](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L50)
 
 Enables previously suspended download requests.
 
@@ -241,7 +241,7 @@ Enables previously suspended download requests.
 enqueue(request: DownloadRequest): any;
 ```
 
-Defined in: ui/image-cache/index.d.ts:63
+Defined in: [ui/image-cache/index.d.ts:63](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L63)
 
 Adds a new download request at the end of the download queue. This will be the last download to start.
 
@@ -263,7 +263,7 @@ Adds a new download request at the end of the download queue. This will be the l
 get(key: string): any;
 ```
 
-Defined in: ui/image-cache/index.d.ts:68
+Defined in: [ui/image-cache/index.d.ts:68](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L68)
 
 Gets the image for the specified key. May be undefined if the key is not present in the cache.
 
@@ -289,7 +289,7 @@ Gets the image for the specified key. May be undefined if the key is not present
 hasListeners(eventName: string): boolean;
 ```
 
-Defined in: data/observable/index.d.ts:194
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Checks whether a listener is registered for the specified event name.
 
@@ -315,7 +315,7 @@ Checks whether a listener is registered for the specified event name.
 notify<T>(data: T): void;
 ```
 
-Defined in: data/observable/index.d.ts:183
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notify this Observable instance with some data. This causes all event
 handlers on the Observable instance to be called, as well as any 'global'
@@ -352,7 +352,7 @@ notifyPropertyChange(
    oldValue?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:189
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Notifies all the registered listeners for the property change event.
 
@@ -383,7 +383,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:126
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes the listener(s) for the specified event name.
 
@@ -416,7 +416,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:92
+Defined in: [ui/image-cache/index.d.ts:92](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L92)
 
 Adds a listener for the specified event name.
 
@@ -445,7 +445,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:97
+Defined in: [ui/image-cache/index.d.ts:97](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L97)
 
 Raised when the image has been downloaded.
 
@@ -476,7 +476,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:102
+Defined in: [ui/image-cache/index.d.ts:102](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L102)
 
 Raised if the image download errors.
 
@@ -509,7 +509,7 @@ once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:116
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name, which, once fired, will
 remove itself.
@@ -538,7 +538,7 @@ remove itself.
 push(request: DownloadRequest): any;
 ```
 
-Defined in: ui/image-cache/index.d.ts:59
+Defined in: [ui/image-cache/index.d.ts:59](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L59)
 
 Adds a new download request at the top of the download queue. This will be the next immediate download to start.
 
@@ -560,7 +560,7 @@ Adds a new download request at the top of the download queue. This will be the n
 remove(key: string): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:76
+Defined in: [ui/image-cache/index.d.ts:76](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L76)
 
 Removes the cache for the specified key.
 
@@ -585,7 +585,7 @@ removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:141
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Removes listener(s) for the specified event name.
 
@@ -613,7 +613,7 @@ Removes listener(s) for the specified event name.
 set(key: string, image: any): void;
 ```
 
-Defined in: ui/image-cache/index.d.ts:72
+Defined in: [ui/image-cache/index.d.ts:72](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/image-cache/index.d.ts#L72)
 
 Sets the image for the specified key.
 
@@ -640,7 +640,7 @@ Sets the image for the specified key.
 setProperty(name: string, value: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:93
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name.
 
@@ -671,7 +671,7 @@ static addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:172
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -706,7 +706,7 @@ static off(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:159
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -741,7 +741,7 @@ static on(
    once?: boolean): void;
 ```
 
-Defined in: data/observable/index.d.ts:147
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -776,7 +776,7 @@ static once(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:153
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -810,7 +810,7 @@ static removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: data/observable/index.d.ts:166
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.

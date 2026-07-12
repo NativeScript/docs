@@ -8,4 +8,4 @@ contributors: false
 const marginBottomProperty: CssProperty<Style, PercentLengthType>;
 ```
 
-Defined in: ui/styling/style-properties.d.ts:16
+Defined in: [ui/styling/style-properties.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style-properties.ts)

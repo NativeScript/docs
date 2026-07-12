@@ -10,7 +10,7 @@ contributors: false
 function prompt(message: string, defaultText?: string): Promise<PromptResult>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:91
+Defined in: [ui/dialogs/index.d.ts:91](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L91)
 
 The prompt() method displays a dialog box that prompts the visitor for input.
 
@@ -31,7 +31,7 @@ The prompt() method displays a dialog box that prompts the visitor for input.
 function prompt(options: PromptOptions): Promise<PromptResult>;
 ```
 
-Defined in: ui/dialogs/index.d.ts:97
+Defined in: [ui/dialogs/index.d.ts:97](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/dialogs/index.d.ts#L97)
 
 The prompt() method displays a dialog box that prompts the visitor for input.
 

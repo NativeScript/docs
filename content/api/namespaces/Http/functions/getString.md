@@ -10,7 +10,7 @@ contributors: false
 function getString(url: string): Promise<string>;
 ```
 
-Defined in: http/index.d.ts:11
+Defined in: [http/index.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/index.d.ts#L11)
 
 Downloads the content from the specified URL as a string.
 
@@ -30,7 +30,7 @@ Downloads the content from the specified URL as a string.
 function getString(options: HttpRequestOptions): Promise<string>;
 ```
 
-Defined in: http/index.d.ts:17
+Defined in: [http/index.d.ts:17](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/http/index.d.ts#L17)
 
 Downloads the content from the specified URL as a string.
 

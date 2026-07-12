@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: application/application.d.ts:9
+Defined in: [application/application.d.ts:9](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L9)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: application/application.d.ts:9
 readonly activityBackPressedEvent: "activityBackPressed" = AndroidApplication.activityBackPressedEvent;
 ```
 
-Defined in: application/application.d.ts:63
+Defined in: [application/application.d.ts:63](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L63)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: application/application.d.ts:63
 readonly activityCreatedEvent: "activityCreated" = AndroidApplication.activityCreatedEvent;
 ```
 
-Defined in: application/application.d.ts:55
+Defined in: [application/application.d.ts:55](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L55)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: application/application.d.ts:55
 readonly activityDestroyedEvent: "activityDestroyed" = AndroidApplication.activityDestroyedEvent;
 ```
 
-Defined in: application/application.d.ts:56
+Defined in: [application/application.d.ts:56](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L56)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: application/application.d.ts:56
 readonly activityNewIntentEvent: "activityNewIntent" = AndroidApplication.activityNewIntentEvent;
 ```
 
-Defined in: application/application.d.ts:64
+Defined in: [application/application.d.ts:64](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L64)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: application/application.d.ts:64
 readonly activityPausedEvent: "activityPaused" = AndroidApplication.activityPausedEvent;
 ```
 
-Defined in: application/application.d.ts:58
+Defined in: [application/application.d.ts:58](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L58)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: application/application.d.ts:58
 readonly activityRequestPermissionsEvent: "activityRequestPermissions" = AndroidApplication.activityRequestPermissionsEvent;
 ```
 
-Defined in: application/application.d.ts:65
+Defined in: [application/application.d.ts:65](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L65)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: application/application.d.ts:65
 readonly activityResultEvent: "activityResult" = AndroidApplication.activityResultEvent;
 ```
 
-Defined in: application/application.d.ts:62
+Defined in: [application/application.d.ts:62](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L62)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: application/application.d.ts:62
 readonly activityResumedEvent: "activityResumed" = AndroidApplication.activityResumedEvent;
 ```
 
-Defined in: application/application.d.ts:59
+Defined in: [application/application.d.ts:59](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L59)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: application/application.d.ts:59
 readonly activityStartedEvent: "activityStarted" = AndroidApplication.activityStartedEvent;
 ```
 
-Defined in: application/application.d.ts:57
+Defined in: [application/application.d.ts:57](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L57)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: application/application.d.ts:57
 readonly activityStoppedEvent: "activityStopped" = AndroidApplication.activityStoppedEvent;
 ```
 
-Defined in: application/application.d.ts:60
+Defined in: [application/application.d.ts:60](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L60)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: application/application.d.ts:60
 autoSystemAppearanceChanged: boolean;
 ```
 
-Defined in: application/application-common.d.ts:136
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Boolean to enable/disable systemAppearanceChanged
 
@@ -134,7 +134,7 @@ Boolean to enable/disable systemAppearanceChanged
 readonly backgroundEvent: "background" = "background";
 ```
 
-Defined in: application/application-common.d.ts:85
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -148,7 +148,7 @@ Defined in: application/application-common.d.ts:85
 readonly cssChangedEvent: "cssChanged" = "cssChanged";
 ```
 
-Defined in: application/application-common.d.ts:98
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -162,7 +162,7 @@ Defined in: application/application-common.d.ts:98
 readonly discardedErrorEvent: "discardedError" = "discardedError";
 ```
 
-Defined in: application/application-common.d.ts:91
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -176,7 +176,7 @@ Defined in: application/application-common.d.ts:91
 readonly displayedEvent: "displayed" = "displayed";
 ```
 
-Defined in: application/application-common.d.ts:84
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -190,7 +190,7 @@ Defined in: application/application-common.d.ts:84
 readonly exitEvent: "exit" = "exit";
 ```
 
-Defined in: application/application-common.d.ts:88
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -204,7 +204,7 @@ Defined in: application/application-common.d.ts:88
 readonly fontScaleChangedEvent: "fontScaleChanged" = "fontScaleChanged";
 ```
 
-Defined in: application/application-common.d.ts:95
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -218,7 +218,7 @@ Defined in: application/application-common.d.ts:95
 readonly foregroundEvent: "foreground" = "foreground";
 ```
 
-Defined in: application/application-common.d.ts:86
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -232,7 +232,7 @@ Defined in: application/application-common.d.ts:86
 hasListeners: (eventName: string) => boolean;
 ```
 
-Defined in: application/application-common.d.ts:124
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: application/application-common.d.ts:124
 readonly initRootViewEvent: "initRootView" = "initRootView";
 ```
 
-Defined in: application/application-common.d.ts:99
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -270,7 +270,7 @@ Defined in: application/application-common.d.ts:99
 readonly launchEvent: "launch" = "launch";
 ```
 
-Defined in: application/application-common.d.ts:82
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -284,7 +284,7 @@ Defined in: application/application-common.d.ts:82
 readonly layoutDirectionChangedEvent: "layoutDirectionChanged" = "layoutDirectionChanged";
 ```
 
-Defined in: application/application-common.d.ts:94
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -298,7 +298,7 @@ Defined in: application/application-common.d.ts:94
 readonly livesyncEvent: "livesync" = "livesync";
 ```
 
-Defined in: application/application-common.d.ts:96
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -312,7 +312,7 @@ Defined in: application/application-common.d.ts:96
 readonly loadAppCssEvent: "loadAppCss" = "loadAppCss";
 ```
 
-Defined in: application/application-common.d.ts:97
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -326,7 +326,7 @@ Defined in: application/application-common.d.ts:97
 readonly lowMemoryEvent: "lowMemory" = "lowMemory";
 ```
 
-Defined in: application/application-common.d.ts:89
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -340,7 +340,7 @@ Defined in: application/application-common.d.ts:89
 protected mainEntry: NavigationEntry;
 ```
 
-Defined in: application/application-common.d.ts:131
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -354,7 +354,7 @@ Defined in: application/application-common.d.ts:131
 notify: <T>(eventData: T) => void;
 ```
 
-Defined in: application/application-common.d.ts:123
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Type Parameters
 
@@ -384,7 +384,7 @@ Defined in: application/application-common.d.ts:123
 off: (eventNames: string, callback?: any, thisArg?: any) => void;
 ```
 
-Defined in: application/application-common.d.ts:122
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -426,7 +426,7 @@ once: {
 };
 ```
 
-Defined in: application/application-common.d.ts:121
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Call Signature
 
@@ -787,7 +787,7 @@ between ltr and rtl.
 readonly orientationChangedEvent: "orientationChanged" = "orientationChanged";
 ```
 
-Defined in: application/application-common.d.ts:92
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -801,7 +801,7 @@ Defined in: application/application-common.d.ts:92
 readonly resumeEvent: "resume" = "resume";
 ```
 
-Defined in: application/application-common.d.ts:87
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -815,7 +815,7 @@ Defined in: application/application-common.d.ts:87
 readonly saveActivityStateEvent: "saveActivityState" = AndroidApplication.saveActivityStateEvent;
 ```
 
-Defined in: application/application.d.ts:61
+Defined in: [application/application.d.ts:61](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L61)
 
 ***
 
@@ -825,7 +825,7 @@ Defined in: application/application.d.ts:61
 started: boolean;
 ```
 
-Defined in: application/application-common.d.ts:132
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -839,7 +839,7 @@ Defined in: application/application-common.d.ts:132
 readonly suspendEvent: "suspend" = "suspend";
 ```
 
-Defined in: application/application-common.d.ts:83
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -853,7 +853,7 @@ Defined in: application/application-common.d.ts:83
 readonly systemAppearanceChangedEvent: "systemAppearanceChanged" = "systemAppearanceChanged";
 ```
 
-Defined in: application/application-common.d.ts:93
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -867,7 +867,7 @@ Defined in: application/application-common.d.ts:93
 readonly uncaughtErrorEvent: "uncaughtError" = "uncaughtError";
 ```
 
-Defined in: application/application-common.d.ts:90
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -881,7 +881,7 @@ Defined in: application/application-common.d.ts:90
 readonly static activityBackPressedEvent: "activityBackPressed" = 'activityBackPressed';
 ```
 
-Defined in: application/application.d.ts:45
+Defined in: [application/application.d.ts:45](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L45)
 
 #### Deprecated
 
@@ -895,7 +895,7 @@ Use `Application.android.activityBackPressedEvent` instead.
 readonly static activityCreatedEvent: "activityCreated" = 'activityCreated';
 ```
 
-Defined in: application/application.d.ts:13
+Defined in: [application/application.d.ts:13](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L13)
 
 #### Deprecated
 
@@ -909,7 +909,7 @@ Use `Application.android.activityCreatedEvent` instead.
 readonly static activityDestroyedEvent: "activityDestroyed" = 'activityDestroyed';
 ```
 
-Defined in: application/application.d.ts:17
+Defined in: [application/application.d.ts:17](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L17)
 
 #### Deprecated
 
@@ -923,7 +923,7 @@ Use `Application.android.activityDestroyedEvent` instead.
 readonly static activityNewIntentEvent: "activityNewIntent" = 'activityNewIntent';
 ```
 
-Defined in: application/application.d.ts:49
+Defined in: [application/application.d.ts:49](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L49)
 
 #### Deprecated
 
@@ -937,7 +937,7 @@ Use `Application.android.activityNewIntentEvent` instead.
 readonly static activityPausedEvent: "activityPaused" = 'activityPaused';
 ```
 
-Defined in: application/application.d.ts:25
+Defined in: [application/application.d.ts:25](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L25)
 
 #### Deprecated
 
@@ -951,7 +951,7 @@ Use `Application.android.activityPausedEvent` instead.
 readonly static activityRequestPermissionsEvent: "activityRequestPermissions" = 'activityRequestPermissions';
 ```
 
-Defined in: application/application.d.ts:53
+Defined in: [application/application.d.ts:53](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L53)
 
 #### Deprecated
 
@@ -965,7 +965,7 @@ Use `Application.android.activityRequestPermissionsEvent` instead.
 readonly static activityResultEvent: "activityResult" = 'activityResult';
 ```
 
-Defined in: application/application.d.ts:41
+Defined in: [application/application.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L41)
 
 #### Deprecated
 
@@ -979,7 +979,7 @@ Use `Application.android.activityResultEvent` instead.
 readonly static activityResumedEvent: "activityResumed" = 'activityResumed';
 ```
 
-Defined in: application/application.d.ts:29
+Defined in: [application/application.d.ts:29](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L29)
 
 #### Deprecated
 
@@ -993,7 +993,7 @@ Use `Application.android.activityResumedEvent` instead.
 readonly static activityStartedEvent: "activityStarted" = 'activityStarted';
 ```
 
-Defined in: application/application.d.ts:21
+Defined in: [application/application.d.ts:21](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L21)
 
 #### Deprecated
 
@@ -1007,7 +1007,7 @@ Use `Application.android.activityStartedEvent` instead.
 readonly static activityStoppedEvent: "activityStopped" = 'activityStopped';
 ```
 
-Defined in: application/application.d.ts:33
+Defined in: [application/application.d.ts:33](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L33)
 
 #### Deprecated
 
@@ -1021,7 +1021,7 @@ Use `Application.android.activityStoppedEvent` instead.
 static hasListeners: (eventName: string) => boolean;
 ```
 
-Defined in: application/application-common.d.ts:119
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -1049,7 +1049,7 @@ Use `Application.android.hasListeners()` instead.
 static notify: <T>(eventData: T) => void;
 ```
 
-Defined in: application/application-common.d.ts:115
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Type Parameters
 
@@ -1083,7 +1083,7 @@ Use `Application.android.notify()` instead.
 static off: (eventNames: string, callback?: any, thisArg?: any) => void;
 ```
 
-Defined in: application/application-common.d.ts:111
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -1129,7 +1129,7 @@ static on: {
 };
 ```
 
-Defined in: application/application-common.d.ts:103
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Call Signature
 
@@ -1510,7 +1510,7 @@ static once: {
 };
 ```
 
-Defined in: application/application-common.d.ts:107
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Call Signature
 
@@ -1875,7 +1875,7 @@ Use `Application.android.once()` instead.
 readonly static saveActivityStateEvent: "saveActivityState" = 'saveActivityState';
 ```
 
-Defined in: application/application.d.ts:37
+Defined in: [application/application.d.ts:37](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L37)
 
 #### Deprecated
 
@@ -1891,7 +1891,7 @@ Use `Application.android.saveActivityStateEvent` instead.
 get android(): AndroidApplication;
 ```
 
-Defined in: application/application-common.d.ts:242
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -1911,7 +1911,7 @@ Defined in: application/application-common.d.ts:242
 get AndroidApplication(): AndroidApplication;
 ```
 
-Defined in: application/application-common.d.ts:244
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -1931,7 +1931,7 @@ Defined in: application/application-common.d.ts:244
 get backgrounded(): boolean;
 ```
 
-Defined in: application/application.d.ts:104
+Defined in: [application/application.d.ts:104](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L104)
 
 ##### Deprecated
 
@@ -1951,7 +1951,7 @@ Use `Application.inBackground` instead.
 get context(): Context;
 ```
 
-Defined in: application/application.d.ts:99
+Defined in: [application/application.d.ts:99](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L99)
 
 ##### Deprecated
 
@@ -1971,7 +1971,7 @@ Use `Utils.android.getApplicationContext()` instead.
 get foregroundActivity(): AppCompatActivity;
 ```
 
-Defined in: application/application.d.ts:94
+Defined in: [application/application.d.ts:94](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L94)
 
 The currently active (loaded) [android Activity](http://developer.android.com/reference/android/app/Activity.html).
 
@@ -1991,7 +1991,7 @@ This property is automatically updated upon Activity events.
 get inBackground(): boolean;
 ```
 
-Defined in: application/application-common.d.ts:238
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2011,7 +2011,7 @@ Defined in: application/application-common.d.ts:238
 get ios(): iOSApplication;
 ```
 
-Defined in: application/application-common.d.ts:243
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2031,7 +2031,7 @@ Defined in: application/application-common.d.ts:243
 get iOSApplication(): iOSApplication;
 ```
 
-Defined in: application/application-common.d.ts:245
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2051,7 +2051,7 @@ Defined in: application/application-common.d.ts:245
 get nativeApp(): Application;
 ```
 
-Defined in: application/application.d.ts:77
+Defined in: [application/application.d.ts:77](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L77)
 
 The [android Application](http://developer.android.com/reference/android/app/Application.html) object instance provided to the init of the module.
 
@@ -2069,7 +2069,7 @@ The [android Application](http://developer.android.com/reference/android/app/App
 get packageName(): string;
 ```
 
-Defined in: application/application.d.ts:82
+Defined in: [application/application.d.ts:82](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L82)
 
 ##### Deprecated
 
@@ -2089,7 +2089,7 @@ Use `Utils.android.getPackageName()` instead.
 get paused(): boolean;
 ```
 
-Defined in: application/application.d.ts:109
+Defined in: [application/application.d.ts:109](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L109)
 
 ##### Deprecated
 
@@ -2109,7 +2109,7 @@ Use `Application.suspended` instead.
 get startActivity(): AppCompatActivity;
 ```
 
-Defined in: application/application.d.ts:87
+Defined in: [application/application.d.ts:87](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L87)
 
 The main (start) Activity for the application.
 
@@ -2127,7 +2127,7 @@ The main (start) Activity for the application.
 get suspended(): boolean;
 ```
 
-Defined in: application/application-common.d.ts:240
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2145,7 +2145,7 @@ Defined in: application/application-common.d.ts:240
 addCss(cssText: string, attributeScoped?: boolean): void;
 ```
 
-Defined in: application/application-common.d.ts:208
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2174,7 +2174,7 @@ applyCssClass(
    skipCssUpdate?: boolean): void;
 ```
 
-Defined in: application/application-common.d.ts:153
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Applies the the `newCssClass` to the `rootView` and removes all other css classes from `cssClasses`
 previously applied to the `rootView`.
@@ -2207,7 +2207,7 @@ createRootView(
    additionalLanchEventData?: any): View;
 ```
 
-Defined in: application/application-common.d.ts:181
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2233,7 +2233,7 @@ Defined in: application/application-common.d.ts:181
 getCssFileName(): string;
 ```
 
-Defined in: application/application-common.d.ts:200
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Gets css file name for the application.
 
@@ -2253,7 +2253,7 @@ Gets css file name for the application.
 protected getLayoutDirection(): LayoutDirectionType;
 ```
 
-Defined in: application/application-common.d.ts:229
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2271,7 +2271,7 @@ Defined in: application/application-common.d.ts:229
 getMainEntry(): any;
 ```
 
-Defined in: application/application-common.d.ts:179
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2291,7 +2291,7 @@ The main entry of the application
 getNativeApplication(): Application;
 ```
 
-Defined in: application/application.d.ts:67
+Defined in: [application/application.d.ts:67](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L67)
 
 #### Returns
 
@@ -2309,7 +2309,7 @@ Defined in: application/application.d.ts:67
 protected getOrientation(): "portrait" | "landscape" | "unknown";
 ```
 
-Defined in: application/application-common.d.ts:210
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2327,7 +2327,7 @@ Defined in: application/application-common.d.ts:210
 getRegisteredBroadcastReceiver(intentFilter: string): BroadcastReceiver;
 ```
 
-Defined in: application/application.d.ts:132
+Defined in: [application/application.d.ts:132](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L132)
 
 Get a registered BroadcastReceiver, then you can get the result code of BroadcastReceiver in onReceiveCallback method.
 
@@ -2353,7 +2353,7 @@ Use `getRegisteredBroadcastReceivers` instead.
 getRegisteredBroadcastReceivers(intentFilter: string): BroadcastReceiver[];
 ```
 
-Defined in: application/application.d.ts:137
+Defined in: [application/application.d.ts:137](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L137)
 
 Get all registered BroadcastReceivers for a specific intent filter.
 
@@ -2375,7 +2375,7 @@ Get all registered BroadcastReceivers for a specific intent filter.
 getResources(): any;
 ```
 
-Defined in: application/application-common.d.ts:188
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Get application level static resources.
 
@@ -2395,7 +2395,7 @@ Get application level static resources.
 getRootView(): View;
 ```
 
-Defined in: application/application-common.d.ts:182
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2413,7 +2413,7 @@ Defined in: application/application-common.d.ts:182
 protected getSystemAppearance(): "dark" | "light";
 ```
 
-Defined in: application/application-common.d.ts:216
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2431,7 +2431,7 @@ Defined in: application/application-common.d.ts:216
 hasLaunched(): boolean;
 ```
 
-Defined in: application/application-common.d.ts:215
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2449,7 +2449,7 @@ Defined in: application/application-common.d.ts:215
 initRootView(rootView: View): void;
 ```
 
-Defined in: application/application-common.d.ts:184
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2473,7 +2473,7 @@ Defined in: application/application-common.d.ts:184
 layoutDirection(): LayoutDirectionType;
 ```
 
-Defined in: application/application-common.d.ts:231
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2491,7 +2491,7 @@ Defined in: application/application-common.d.ts:231
 layoutDirectionChanged(rootView: View, newLayoutDirection: LayoutDirectionType): void;
 ```
 
-Defined in: application/application-common.d.ts:237
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Updates root view classes including those of modals
 
@@ -2518,7 +2518,7 @@ Updates root view classes including those of modals
 loadAppCss(): void;
 ```
 
-Defined in: application/application-common.d.ts:207
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Loads immediately the app.css.
 By default the app.css file is loaded shortly after "loaded".
@@ -2541,7 +2541,7 @@ as the CSS does not depend on runtime APIs, and loadAppCss will be called explic
 protected notifyLaunch(additionalLanchEventData?: any): View;
 ```
 
-Defined in: application/application-common.d.ts:180
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2570,7 +2570,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:139
+Defined in: [application/application.d.ts:139](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L139)
 
 ##### Parameters
 
@@ -2599,7 +2599,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:140
+Defined in: [application/application.d.ts:140](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L140)
 
 This event is raised when application css is changed.
 
@@ -2630,7 +2630,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:141
+Defined in: [application/application.d.ts:141](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L141)
 
 Event raised then livesync operation is performed.
 
@@ -2661,7 +2661,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:142
+Defined in: [application/application.d.ts:142](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L142)
 
 This event is raised on application launchEvent.
 
@@ -2692,7 +2692,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:143
+Defined in: [application/application.d.ts:143](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L143)
 
 **`Experimental`**
 
@@ -2726,7 +2726,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:144
+Defined in: [application/application.d.ts:144](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L144)
 
 This event is raised when the Application is suspended.
 
@@ -2757,7 +2757,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:145
+Defined in: [application/application.d.ts:145](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L145)
 
 This event is raised when the Application is resumed after it has been suspended.
 
@@ -2788,7 +2788,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:146
+Defined in: [application/application.d.ts:146](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L146)
 
 This event is raised when the Application is about to exit.
 
@@ -2819,7 +2819,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:147
+Defined in: [application/application.d.ts:147](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L147)
 
 This event is raised when there is low memory on the target device.
 
@@ -2850,7 +2850,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:148
+Defined in: [application/application.d.ts:148](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L148)
 
 This event is raised when an uncaught error occurs while the application is running.
 
@@ -2881,7 +2881,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: application/application.d.ts:149
+Defined in: [application/application.d.ts:149](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L149)
 
 This event is raised when an discarded error occurs while the application is running.
 
@@ -2911,7 +2911,7 @@ ApplicationCommon.on
 orientation(): "portrait" | "landscape" | "unknown";
 ```
 
-Defined in: application/application-common.d.ts:212
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2929,7 +2929,7 @@ Defined in: application/application-common.d.ts:212
 orientationChanged(rootView: View, newOrientation: "portrait" | "landscape" | "unknown"): void;
 ```
 
-Defined in: application/application-common.d.ts:213
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2954,7 +2954,7 @@ Defined in: application/application-common.d.ts:213
 registerBroadcastReceiver(intentFilter: string, onReceiveCallback: (context: Context, intent: Intent) => void): () => void;
 ```
 
-Defined in: application/application.d.ts:118
+Defined in: [application/application.d.ts:118](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L118)
 
 Register a BroadcastReceiver to be run in the main activity thread. The receiver will be called with any broadcast Intent that matches filter, in the main application thread.
 For more information, please visit 'http://developer.android.com/reference/android/content/Context.html#registerReceiver%28android.content.BroadcastReceiver,%20android.content.IntentFilter%29'
@@ -2980,7 +2980,7 @@ A function that can be called to unregister the receiver.
 resetRootView(entry?: string | NavigationEntry): void;
 ```
 
-Defined in: application/application-common.d.ts:183
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3004,7 +3004,7 @@ Defined in: application/application-common.d.ts:183
 run(entry?: string | NavigationEntry): void;
 ```
 
-Defined in: application/application-common.d.ts:209
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3028,7 +3028,7 @@ Defined in: application/application-common.d.ts:209
 setAutoSystemAppearanceChanged(value: boolean): void;
 ```
 
-Defined in: application/application-common.d.ts:222
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 enable/disable systemAppearanceChanged
 
@@ -3054,7 +3054,7 @@ enable/disable systemAppearanceChanged
 setCssFileName(cssFileName: string): void;
 ```
 
-Defined in: application/application-common.d.ts:196
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Sets css file name for the application.
 
@@ -3080,7 +3080,7 @@ Sets css file name for the application.
 setInBackground(value: boolean, additonalData?: any): void;
 ```
 
-Defined in: application/application-common.d.ts:239
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3105,7 +3105,7 @@ Defined in: application/application-common.d.ts:239
 protected setLayoutDirection(value: LayoutDirectionType): void;
 ```
 
-Defined in: application/application-common.d.ts:230
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3133,7 +3133,7 @@ setMaxRefreshRate(options?: {
 }): void;
 ```
 
-Defined in: application/application-common.d.ts:171
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 iOS Only
 Dynamically change the preferred frame rate
@@ -3171,7 +3171,7 @@ To use, ensure your Info.plist has:
 protected setOrientation(value: "portrait" | "landscape" | "unknown"): void;
 ```
 
-Defined in: application/application-common.d.ts:211
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3195,7 +3195,7 @@ Defined in: application/application-common.d.ts:211
 setResources(res: any): void;
 ```
 
-Defined in: application/application-common.d.ts:192
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Set application level static resources.
 
@@ -3221,7 +3221,7 @@ Set application level static resources.
 setSuspended(value: boolean, additonalData?: any): void;
 ```
 
-Defined in: application/application-common.d.ts:241
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3246,7 +3246,7 @@ Defined in: application/application-common.d.ts:241
 protected setSystemAppearance(value: "dark" | "light"): void;
 ```
 
-Defined in: application/application-common.d.ts:217
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3270,7 +3270,7 @@ Defined in: application/application-common.d.ts:217
 systemAppearance(): "dark" | "light";
 ```
 
-Defined in: application/application-common.d.ts:218
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -3288,7 +3288,7 @@ Defined in: application/application-common.d.ts:218
 systemAppearanceChanged(rootView: View, newSystemAppearance: "dark" | "light"): void;
 ```
 
-Defined in: application/application-common.d.ts:228
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
 
 Updates root view classes including those of modals
 
@@ -3315,7 +3315,7 @@ Updates root view classes including those of modals
 unregisterBroadcastReceiver(intentFilter: string): void;
 ```
 
-Defined in: application/application.d.ts:125
+Defined in: [application/application.d.ts:125](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L125)
 
 Unregister a previously registered BroadcastReceiver.
 For more information, please visit 'http://developer.android.com/reference/android/content/Context.html#unregisterReceiver(android.content.BroadcastReceiver)'

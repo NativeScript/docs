@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/gestures/index.d.ts:65
+Defined in: [ui/gestures/index.d.ts:65](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L65)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ui/gestures/index.d.ts:65
 action: string;
 ```
 
-Defined in: ui/gestures/index.d.ts:69
+Defined in: [ui/gestures/index.d.ts:69](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L69)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: ui/gestures/index.d.ts:69
 android: MotionEvent;
 ```
 
-Defined in: ui/gestures/index.d.ts:71
+Defined in: [ui/gestures/index.d.ts:71](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L71)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: ui/gestures/index.d.ts:71
 eventName: string;
 ```
 
-Defined in: ui/gestures/index.d.ts:66
+Defined in: [ui/gestures/index.d.ts:66](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L66)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: ui/gestures/index.d.ts:66
 ios: any;
 ```
 
-Defined in: ui/gestures/index.d.ts:68
+Defined in: [ui/gestures/index.d.ts:68](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L68)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: ui/gestures/index.d.ts:68
 object: any;
 ```
 
-Defined in: ui/gestures/index.d.ts:72
+Defined in: [ui/gestures/index.d.ts:72](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L72)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: ui/gestures/index.d.ts:72
 type: GestureTypes;
 ```
 
-Defined in: ui/gestures/index.d.ts:67
+Defined in: [ui/gestures/index.d.ts:67](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L67)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: ui/gestures/index.d.ts:67
 view: View;
 ```
 
-Defined in: ui/gestures/index.d.ts:70
+Defined in: [ui/gestures/index.d.ts:70](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L70)
 
 ## Methods
 
@@ -84,7 +84,7 @@ Defined in: ui/gestures/index.d.ts:70
 getActivePointers(): Pointer[];
 ```
 
-Defined in: ui/gestures/index.d.ts:78
+Defined in: [ui/gestures/index.d.ts:78](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L78)
 
 #### Returns
 
@@ -98,7 +98,7 @@ Defined in: ui/gestures/index.d.ts:78
 getAllPointers(): Pointer[];
 ```
 
-Defined in: ui/gestures/index.d.ts:80
+Defined in: [ui/gestures/index.d.ts:80](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L80)
 
 #### Returns
 
@@ -112,7 +112,7 @@ Defined in: ui/gestures/index.d.ts:80
 getPointerCount(): number;
 ```
 
-Defined in: ui/gestures/index.d.ts:76
+Defined in: [ui/gestures/index.d.ts:76](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L76)
 
 #### Returns
 
@@ -126,7 +126,7 @@ Defined in: ui/gestures/index.d.ts:76
 getX(): number;
 ```
 
-Defined in: ui/gestures/index.d.ts:82
+Defined in: [ui/gestures/index.d.ts:82](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L82)
 
 #### Returns
 
@@ -140,7 +140,7 @@ Defined in: ui/gestures/index.d.ts:82
 getY(): number;
 ```
 
-Defined in: ui/gestures/index.d.ts:84
+Defined in: [ui/gestures/index.d.ts:84](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L84)
 
 #### Returns
 
@@ -154,7 +154,7 @@ Defined in: ui/gestures/index.d.ts:84
 prepare(view: View, e: any): void;
 ```
 
-Defined in: ui/gestures/index.d.ts:74
+Defined in: [ui/gestures/index.d.ts:74](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/gestures/index.d.ts#L74)
 
 #### Parameters
 

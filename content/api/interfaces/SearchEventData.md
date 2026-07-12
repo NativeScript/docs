@@ -5,7 +5,7 @@ description: Event data containing information for the search text change event.
 contributors: false
 ---
 
-Defined in: ui/list-view/index.d.ts:260
+Defined in: [ui/list-view/index.d.ts:260](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L260)
 
 Event data containing information for the search text change event.
 
@@ -21,7 +21,7 @@ Event data containing information for the search text change event.
 optional android?: any;
 ```
 
-Defined in: ui/list-view/index.d.ts:274
+Defined in: [ui/list-view/index.d.ts:274](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L274)
 
 Gets the native Android search view. Valid only when running on Android OS.
 
@@ -33,7 +33,7 @@ Gets the native Android search view. Valid only when running on Android OS.
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -49,7 +49,7 @@ The name of the event.
 optional ios?: any;
 ```
 
-Defined in: ui/list-view/index.d.ts:269
+Defined in: [ui/list-view/index.d.ts:269](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L269)
 
 Gets the native [iOS UISearchController](https://developer.apple.com/documentation/uikit/uisearchcontroller) that represents the search controller. Valid only when running on iOS.
 
@@ -61,7 +61,7 @@ Gets the native [iOS UISearchController](https://developer.apple.com/documentati
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -77,6 +77,6 @@ The Observable instance that has raised the event.
 text: string;
 ```
 
-Defined in: ui/list-view/index.d.ts:264
+Defined in: [ui/list-view/index.d.ts:264](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L264)
 
 The current search text value.

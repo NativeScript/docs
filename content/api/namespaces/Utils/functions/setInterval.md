@@ -11,7 +11,7 @@ function setInterval(
    args: any[]): number;
 ```
 
-Defined in: timer/index.d.ts:21
+Defined in: [timer/index.d.ts:21](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/timer/index.d.ts#L21)
 
 Calls a function repeatedly with a delay between each call.
 

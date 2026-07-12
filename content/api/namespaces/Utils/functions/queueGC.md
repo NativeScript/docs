@@ -8,7 +8,7 @@ contributors: false
 function queueGC(delay?: number, useThrottle?: boolean): any;
 ```
 
-Defined in: utils/index.d.ts:36
+Defined in: [utils/index.d.ts:36](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L36)
 
 An utility function that queues a garbage collection, multiple calls in quick succession are debounced by default and only one gc will be executed after 900ms.
 

@@ -12,7 +12,7 @@ type TransformFunctionsInfo = {
 };
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:15
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ## Properties
 
@@ -22,7 +22,7 @@ Defined in: ui/animation/animation-shared.d.ts:15
 rotate: Point3D;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:17
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: ui/animation/animation-shared.d.ts:17
 scale: Pair;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:18
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: ui/animation/animation-shared.d.ts:18
 translate: Pair;
 ```
 
-Defined in: ui/animation/animation-shared.d.ts:16
+Defined in: [ui/animation/animation-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/animation-shared.ts)

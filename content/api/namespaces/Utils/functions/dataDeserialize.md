@@ -8,7 +8,7 @@ contributors: false
 function dataDeserialize(nativeData?: any): any;
 ```
 
-Defined in: utils/native-helper.d.ts:10
+Defined in: [utils/native-helper.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/native-helper.d.ts#L10)
 
 Data deserialization from Native \> JS
 

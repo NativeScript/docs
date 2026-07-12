@@ -5,7 +5,7 @@ description: Base event data.
 contributors: false
 ---
 
-Defined in: ui/frame/frame-interfaces.d.ts:79
+Defined in: [ui/frame/frame-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/frame-interfaces.ts)
 
 Base event data.
 
@@ -21,7 +21,7 @@ Base event data.
 optional entry?: BackstackEntry;
 ```
 
-Defined in: ui/frame/frame-interfaces.d.ts:80
+Defined in: [ui/frame/frame-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/frame-interfaces.ts)
 
 ***
 
@@ -31,7 +31,7 @@ Defined in: ui/frame/frame-interfaces.d.ts:80
 eventName: string;
 ```
 
-Defined in: data/observable/index.d.ts:9
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -47,7 +47,7 @@ The name of the event.
 optional fromEntry?: BackstackEntry;
 ```
 
-Defined in: ui/frame/frame-interfaces.d.ts:81
+Defined in: [ui/frame/frame-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/frame-interfaces.ts)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: ui/frame/frame-interfaces.d.ts:81
 optional isBack?: boolean;
 ```
 
-Defined in: ui/frame/frame-interfaces.d.ts:82
+Defined in: [ui/frame/frame-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/frame-interfaces.ts)
 
 ***
 
@@ -67,7 +67,7 @@ Defined in: ui/frame/frame-interfaces.d.ts:82
 object: Observable;
 ```
 
-Defined in: data/observable/index.d.ts:13
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 

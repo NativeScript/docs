@@ -5,7 +5,7 @@ description: Represents a collection of ActionItems.
 contributors: false
 ---
 
-Defined in: ui/action-bar/index.d.ts:93
+Defined in: [ui/action-bar/index.d.ts:93](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/action-bar/index.d.ts#L93)
 
 Represents a collection of ActionItems.
 
@@ -29,7 +29,7 @@ new ActionItems(): ActionItems;
 addItem(item: ActionItem): void;
 ```
 
-Defined in: ui/action-bar/index.d.ts:98
+Defined in: [ui/action-bar/index.d.ts:98](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/action-bar/index.d.ts#L98)
 
 Adds an item to the collection.
 
@@ -51,7 +51,7 @@ Adds an item to the collection.
 getItemAt(index: number): ActionItem;
 ```
 
-Defined in: ui/action-bar/index.d.ts:115
+Defined in: [ui/action-bar/index.d.ts:115](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/action-bar/index.d.ts#L115)
 
 Gets an item at a specified index.
 
@@ -73,7 +73,7 @@ Gets an item at a specified index.
 getItems(): ActionItem[];
 ```
 
-Defined in: ui/action-bar/index.d.ts:109
+Defined in: [ui/action-bar/index.d.ts:109](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/action-bar/index.d.ts#L109)
 
 Gets an array of the current action items in the collection.
 
@@ -89,7 +89,7 @@ Gets an array of the current action items in the collection.
 removeItem(item: ActionItem): void;
 ```
 
-Defined in: ui/action-bar/index.d.ts:104
+Defined in: [ui/action-bar/index.d.ts:104](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/action-bar/index.d.ts#L104)
 
 Removes an item to the collection.
 

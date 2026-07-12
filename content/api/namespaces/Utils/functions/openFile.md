@@ -8,7 +8,7 @@ contributors: false
 function openFile(filePath: string, title?: string): boolean;
 ```
 
-Defined in: utils/index.d.ts:120
+Defined in: [utils/index.d.ts:120](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L120)
 
 Opens file.
 

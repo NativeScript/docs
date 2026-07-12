@@ -5,7 +5,7 @@ description: Data for the Android activity onRequestPermissions callback
 contributors: false
 ---
 
-Defined in: application/application-interfaces.d.ts:148
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 Data for the Android activity onRequestPermissions callback
 
@@ -21,7 +21,7 @@ Data for the Android activity onRequestPermissions callback
 activity: AppCompatActivity;
 ```
 
-Defined in: application/application-interfaces.d.ts:126
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The activity.
 
@@ -37,7 +37,7 @@ The activity.
 eventName: string;
 ```
 
-Defined in: application/application-interfaces.d.ts:130
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The name of the event.
 
@@ -53,7 +53,7 @@ The name of the event.
 grantResults: number[];
 ```
 
-Defined in: application/application-interfaces.d.ts:160
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The Granted.
 
@@ -65,7 +65,7 @@ The Granted.
 object: any;
 ```
 
-Defined in: application/application-interfaces.d.ts:134
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The instance that has raised the event.
 
@@ -81,7 +81,7 @@ The instance that has raised the event.
 permissions: string[];
 ```
 
-Defined in: application/application-interfaces.d.ts:156
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The Permissions.
 
@@ -93,6 +93,6 @@ The Permissions.
 requestCode: number;
 ```
 
-Defined in: application/application-interfaces.d.ts:152
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
 
 The request code.

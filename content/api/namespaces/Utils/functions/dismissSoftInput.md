@@ -8,7 +8,7 @@ contributors: false
 function dismissSoftInput(nativeView?: any): void;
 ```
 
-Defined in: utils/index.d.ts:167
+Defined in: [utils/index.d.ts:167](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/index.d.ts#L167)
 
 Hides the soft input method, usually a soft keyboard.
 

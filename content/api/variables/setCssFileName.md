@@ -8,7 +8,7 @@ contributors: false
 const setCssFileName: any;
 ```
 
-Defined in: application/application-shims.d.ts:162
+Defined in: [application/application-shims.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-shims.ts)
 
 ## Deprecated
 

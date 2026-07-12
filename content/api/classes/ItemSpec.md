@@ -5,7 +5,7 @@ description: Defines row/column specific properties that apply to GridLayout ele
 contributors: false
 ---
 
-Defined in: ui/layouts/grid-layout/index.d.ts:8
+Defined in: [ui/layouts/grid-layout/index.d.ts:8](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L8)
 
 Defines row/column specific properties that apply to GridLayout elements.
 
@@ -17,7 +17,7 @@ Defines row/column specific properties that apply to GridLayout elements.
 new ItemSpec(): ItemSpec;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:9
+Defined in: [ui/layouts/grid-layout/index.d.ts:9](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L9)
 
 #### Returns
 
@@ -29,7 +29,7 @@ Defined in: ui/layouts/grid-layout/index.d.ts:9
 new ItemSpec(value: number, type: GridUnitType): ItemSpec;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:10
+Defined in: [ui/layouts/grid-layout/index.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L10)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: ui/layouts/grid-layout/index.d.ts:10
 actualLength: number;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:15
+Defined in: [ui/layouts/grid-layout/index.d.ts:15](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L15)
 
 Gets the actual length of an ItemSpec.
 
@@ -62,7 +62,7 @@ Gets the actual length of an ItemSpec.
 gridUnitType: GridUnitType;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:20
+Defined in: [ui/layouts/grid-layout/index.d.ts:20](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L20)
 
 Returns unit type of this ItemSpec instance.
 
@@ -74,7 +74,7 @@ Returns unit type of this ItemSpec instance.
 isAbsolute: boolean;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:26
+Defined in: [ui/layouts/grid-layout/index.d.ts:26](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L26)
 
 Returns true if this ItemSpec instance holds
 an absolute (pixel) value.
@@ -87,7 +87,7 @@ an absolute (pixel) value.
 isAuto: boolean;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:32
+Defined in: [ui/layouts/grid-layout/index.d.ts:32](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L32)
 
 Returns true if this GridLength instance is
 automatic (not specified).
@@ -100,7 +100,7 @@ automatic (not specified).
 isStar: boolean;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:38
+Defined in: [ui/layouts/grid-layout/index.d.ts:38](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L38)
 
 Returns true if this ItemSpec instance holds weighted proportion
 of available space.
@@ -113,6 +113,6 @@ of available space.
 value: number;
 ```
 
-Defined in: ui/layouts/grid-layout/index.d.ts:43
+Defined in: [ui/layouts/grid-layout/index.d.ts:43](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/layouts/grid-layout/index.d.ts#L43)
 
 Returns value part of this ItemSpec instance.

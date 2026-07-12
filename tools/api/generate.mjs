@@ -19,11 +19,30 @@ const repoRoot = path.resolve(__dirname, '../..')
 const apiDir = path.join(repoRoot, 'content/api')
 const fullJsonPath = path.join(repoRoot, 'tmp/api-full.json')
 
+const corePkg = JSON.parse(
+  fs.readFileSync(
+    path.join(repoRoot, 'node_modules/@nativescript/core/package.json'),
+    'utf8'
+  )
+)
+
+const walkMarkdown = (dir, fn) => {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, entry.name)
+    if (entry.isDirectory()) walkMarkdown(p, fn)
+    else if (p.endsWith('.md')) fn(p)
+  }
+}
+
+// Core releases are tagged "<version>-core" in the NativeScript repo;
+// "Defined in" source links point at that tag so line numbers stay accurate.
+const coreTag = `${corePkg.version}-core`
+
 // 1. Clean previous output
 fs.rmSync(apiDir, { recursive: true, force: true })
 
 // 2. Run TypeDoc
-execSync('npx typedoc --options tools/api/typedoc.json', {
+execSync(`npx typedoc --options tools/api/typedoc.json --gitRevision ${coreTag}`, {
   cwd: repoRoot,
   stdio: 'inherit',
 })
@@ -53,7 +72,52 @@ if (fs.existsSync(path.join(moduleDir, 'namespaces'))) {
   walk(apiDir)
 }
 
-// 4. Use clean URLs in the sidebar (".md" URLs serve the raw markdown twins,
+// 4. Fix source links whose .d.ts file only exists in the published package.
+// Handwritten .d.ts files are committed verbatim, so tag + line anchors are
+// exact. Compiled ones (built from .ts at publish time) aren't in the repo:
+// point those at the .ts source instead, without a line anchor.
+try {
+  const treeRes = await fetch(
+    `https://api.github.com/repos/NativeScript/NativeScript/git/trees/${coreTag}?recursive=1`,
+    process.env.GITHUB_TOKEN
+      ? { headers: { authorization: `Bearer ${process.env.GITHUB_TOKEN}` } }
+      : {}
+  )
+  if (!treeRes.ok) throw new Error(`GitHub tree API: HTTP ${treeRes.status}`)
+  const tree = await treeRes.json()
+  if (tree.truncated) throw new Error('GitHub tree API response truncated')
+  const repoFiles = new Set(tree.tree.map((t) => t.path))
+
+  const linkRe = new RegExp(
+    `\\[([^\\]]+)\\]\\(https://github\\.com/NativeScript/NativeScript/blob/${coreTag.replaceAll('.', '\\.')}/packages/core/([^)#]+)#L\\d+\\)`,
+    'g'
+  )
+  const blobBase = `https://github.com/NativeScript/NativeScript/blob/${coreTag}/packages/core/`
+  let rewritten = 0
+  let unlinked = 0
+  walkMarkdown(apiDir, (file) => {
+    const src = fs.readFileSync(file, 'utf8')
+    const out = src.replace(linkRe, (match, text, dtsPath) => {
+      if (repoFiles.has(`packages/core/${dtsPath}`)) return match
+      const tsPath = dtsPath.replace(/\.d\.ts$/, '.ts')
+      if (repoFiles.has(`packages/core/${tsPath}`)) {
+        rewritten++
+        // The .d.ts line number is meaningless in the .ts source, so drop it
+        return `[${tsPath}](${blobBase}${tsPath})`
+      }
+      unlinked++
+      return text
+    })
+    if (out !== src) fs.writeFileSync(file, out)
+  })
+  console.log(
+    `source links: ${rewritten} redirected to .ts sources, ${unlinked} unlinked (no repo file)`
+  )
+} catch (err) {
+  console.warn(`source links: skipped repo-tree validation (${err.message})`)
+}
+
+// 5. Use clean URLs in the sidebar (".md" URLs serve the raw markdown twins,
 // the rendered pages live at the extension-less path)
 const sidebarPath = path.join(apiDir, 'typedoc-sidebar.json')
 const sidebar = JSON.parse(fs.readFileSync(sidebarPath, 'utf8'))
@@ -68,7 +132,7 @@ const stripMd = (items) => {
 stripMd(sidebar)
 fs.writeFileSync(sidebarPath, JSON.stringify(sidebar, null, 2))
 
-// 5. Build the compact symbol index from the full TypeDoc JSON
+// 6. Build the compact symbol index from the full TypeDoc JSON
 const project = JSON.parse(fs.readFileSync(fullJsonPath, 'utf8'))
 
 const KIND = {
@@ -140,13 +204,6 @@ function visit(refl, parents) {
 for (const child of project.children ?? []) {
   visit(child, [])
 }
-
-const corePkg = JSON.parse(
-  fs.readFileSync(
-    path.join(repoRoot, 'node_modules/@nativescript/core/package.json'),
-    'utf8'
-  )
-)
 
 const apiIndex = {
   package: '@nativescript/core',

@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: ui/core/bindable/index.d.ts:20
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: ui/core/bindable/index.d.ts:20
 new Binding(target: ViewBase, options: BindingOptions): Binding;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:30
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: ui/core/bindable/index.d.ts:30
 options: BindingOptions;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:29
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 ***
 
@@ -45,7 +45,7 @@ Defined in: ui/core/bindable/index.d.ts:29
 sourceIsBindingContext: boolean;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:28
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 ***
 
@@ -55,7 +55,7 @@ Defined in: ui/core/bindable/index.d.ts:28
 target: WeakRef<ViewBase>;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:22
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 ***
 
@@ -65,7 +65,7 @@ Defined in: ui/core/bindable/index.d.ts:22
 updating: boolean;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:27
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 ## Methods
 
@@ -75,7 +75,7 @@ Defined in: ui/core/bindable/index.d.ts:27
 bind(source: any): void;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:36
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: ui/core/bindable/index.d.ts:36
 clearBinding(): void;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:47
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 #### Returns
 
@@ -109,7 +109,7 @@ Defined in: ui/core/bindable/index.d.ts:47
 clearSource(): void;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:33
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 #### Returns
 
@@ -123,7 +123,7 @@ Defined in: ui/core/bindable/index.d.ts:33
 loadedHandlerVisualTreeBinding(args: any): void;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:32
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: ui/core/bindable/index.d.ts:32
 onSourcePropertyChanged(data: PropertyChangeData): void;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:44
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: ui/core/bindable/index.d.ts:44
 unbind(): void;
 ```
 
-Defined in: ui/core/bindable/index.d.ts:38
+Defined in: [ui/core/bindable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/bindable/index.ts)
 
 #### Returns
 

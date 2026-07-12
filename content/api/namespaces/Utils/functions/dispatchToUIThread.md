@@ -8,7 +8,7 @@ contributors: false
 function dispatchToUIThread(func: Function): any;
 ```
 
-Defined in: utils/mainthread-helper.d.ts:16
+Defined in: [utils/mainthread-helper.d.ts:16](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/mainthread-helper.d.ts#L16)
 
 Dispatches the passed function for execution on the UI thread
 

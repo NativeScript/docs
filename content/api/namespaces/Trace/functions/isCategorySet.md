@@ -8,7 +8,7 @@ contributors: false
 function isCategorySet(category: string): boolean;
 ```
 
-Defined in: trace/index.d.ts:74
+Defined in: [trace/index.d.ts:74](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L74)
 
 Check if category is already set in trace module.
 

@@ -8,7 +8,7 @@ contributors: false
 function isEmoji(value: string): boolean;
 ```
 
-Defined in: utils/common.d.ts:28
+Defined in: [utils/common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/common.ts)
 
 ## Parameters
 

@@ -8,7 +8,7 @@ contributors: false
 const equals: (a: FixedLengthType, b: FixedLengthType) => boolean;
 ```
 
-Defined in: ui/styling/length-shared.d.ts:22
+Defined in: [ui/styling/length-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/length-shared.ts)
 
 ## Parameters
 
