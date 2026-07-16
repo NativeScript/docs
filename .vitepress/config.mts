@@ -70,11 +70,9 @@ export default defineConfig({
       ...(isDev && {
         text: 'Edit in VS Code',
       }),
-      // pattern:
-      //   'https://github.com/NativeScript/docs/blob/main/content/:filePath',
       pattern: isDev
         ? `vscode://file/${path.resolve(__dirname, '../content/:filePath')}`
-        : `https://pr.new/github.com/NativeScript/docs/edit/${branch}/content/:filePath?initialPath=:path`,
+        : `https://github.com/NativeScript/docs/edit/${branch}/content/:filePath`,
     },
     algolia: {
       appId: '110JARHFDU',
