@@ -44,11 +44,11 @@ To install **Node** we recommend using a node version manager, such as [nvm](htt
 To install a **JDK** (using the prebuilt OpenJDK binaries from [Adoptium](https://adoptium.net/)) run the following command:
 
 ```bash
-brew install --cask temurin@17
+brew install --cask temurin@21
 ```
 
 :::warning Note
-Using JDK 17 is highly recommended as the nativescript-bundled version of gradle is compatible. Using a newer version of the JDK may cause issues with your android build process.
+Using JDK 21 is highly recommended as the nativescript-bundled version of gradle is compatible. Using a newer version of the JDK may cause issues with your android build process.
 :::
 
 Once installed, open a new Terminal and verify that the default version is the one we installed:
@@ -56,7 +56,7 @@ Once installed, open a new Terminal and verify that the default version is the o
 ```bash
 javac --version
 # should print something like:
-# javac 17.x.x
+# javac 21.x.x
 ```
 
 If the version looks correct, you are ready to move on to [Installing Android Studio](#installing-android-studio), otherwise you will need to set the `JAVA_HOME` environment variable.
@@ -64,7 +64,7 @@ If the version looks correct, you are ready to move on to [Installing Android St
 Add the following lines to your shell profile, usually `~/.zshrc`, `~/.bash_profile` or `~/.bashrc` or `~/.zprofile`:
 
 ```shell
-export JAVA_HOME=$(/usr/libexec/java_home -v"17");
+export JAVA_HOME=$(/usr/libexec/java_home -v"21");
 ```
 
 Repeat the verification from above.
