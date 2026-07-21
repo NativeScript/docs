@@ -23,16 +23,17 @@ To install **Node** we recommend using a node version manager, such as [nvm-wind
 
 1. Install [nvm-windows](https://github.com/coreybutler/nvm-windows) using one of the following methods:
    ::: code-group
-   
+
    ```bash [Chocolatey]
    choco install -y nvm
    ```
-   
+
    ```text [Installer Instructions]
    https://github.com/coreybutler/nvm-windows#installation--upgrades
    ```
-   
+
    :::
+
 2. After installation, open a new Command Prompt and verify:
    ```bash
    nvm version
@@ -193,7 +194,6 @@ Update-SessionEnvironment
 ```
 
 After refreshing, run the `ns doctor` command again to confirm everything is working as expected.
-
 
 ::: tip Common issues on Windows
 

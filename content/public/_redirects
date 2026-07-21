@@ -26,3 +26,9 @@
 
 # redirect webpack config
 /webpack                    /configuration/webpack/                                         301
+
+# redirect old API reference URLs (pre TypeDoc-markdown regeneration)
+/api/class/:name            /api/classes/:name                                              301
+/api/interface/:name        /api/interfaces/:name                                           301
+/api/enum/:name             /api/enumerations/:name                                         301
+/api/namespace/:name        /api/namespaces/:name/                                          301

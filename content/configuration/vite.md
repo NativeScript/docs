@@ -154,12 +154,12 @@ This page contains examples of common things you might want to change in the [Ex
 Type checking diagnostics come from the project's `tsconfig.json`. By default, the build follows `compilerOptions.noEmitOnError` to decide whether type errors should fail the build. If you want to override that behavior for Vite, pass a `typeCheck` option to the framework helper:
 
 ```ts
-import { defineConfig } from 'vite';
-import { vueConfig } from '@nativescript/vite/vue';
+import { defineConfig } from 'vite'
+import { vueConfig } from '@nativescript/vite/vue'
 
 export default defineConfig(({ mode }) =>
-	vueConfig({ mode }, { typeCheck: 'warn' })
-);
+  vueConfig({ mode }, { typeCheck: 'warn' }),
+)
 ```
 
 Supported values are `typeCheck: 'error' | 'warn' | 'off'`.

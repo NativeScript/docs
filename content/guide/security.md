@@ -46,9 +46,9 @@ App Store and Play Store reviews examine your bundled code. Remote modules bypas
 
 ### Default Behavior
 
-| Mode | Remote Modules |
-|------|----------------|
-| **Debug** (local development) | ✅ Always allowed |
+| Mode                            | Remote Modules        |
+| ------------------------------- | --------------------- |
+| **Debug** (local development)   | ✅ Always allowed     |
 | **Production** (Release builds) | ❌ Blocked by default |
 
 This design ensures development workflows (like HMR with a dev server) work seamlessly while production apps are secure by default.
@@ -64,10 +64,10 @@ export default {
   id: 'com.example.myapp',
   appPath: 'src',
   // ... other config
-  
+
   security: {
-    allowRemoteModules: true
-  }
+    allowRemoteModules: true,
+  },
 } as NativeScriptConfig
 ```
 
@@ -81,15 +81,15 @@ import { NativeScriptConfig } from '@nativescript/core'
 export default {
   id: 'com.example.myapp',
   main: 'bundle.mjs',
-  
+
   security: {
     allowRemoteModules: true,
     remoteModuleAllowlist: [
       'https://cdn.yourcompany.com/modules/',
       'https://esm.sh/',
-      'https://unpkg.com/@yourorg/'
-    ]
-  }
+      'https://unpkg.com/@yourorg/',
+    ],
+  },
 } as NativeScriptConfig
 ```
 
@@ -97,11 +97,11 @@ The allowlist uses **prefix matching** — a URL is allowed if it starts with an
 
 #### Allowlist Examples
 
-| Allowlist Entry | Allowed URLs | Blocked URLs |
-|-----------------|--------------|--------------|
-| `https://cdn.example.com/` | `https://cdn.example.com/mod.js` | `https://other.com/mod.js` |
-| `https://esm.sh/@myorg/` | `https://esm.sh/@myorg/pkg` | `https://esm.sh/@other/pkg` |
-| `https://unpkg.com/` | `https://unpkg.com/lodash` | `http://unpkg.com/lodash` (http blocked) |
+| Allowlist Entry            | Allowed URLs                     | Blocked URLs                             |
+| -------------------------- | -------------------------------- | ---------------------------------------- |
+| `https://cdn.example.com/` | `https://cdn.example.com/mod.js` | `https://other.com/mod.js`               |
+| `https://esm.sh/@myorg/`   | `https://esm.sh/@myorg/pkg`      | `https://esm.sh/@other/pkg`              |
+| `https://unpkg.com/`       | `https://unpkg.com/lodash`       | `http://unpkg.com/lodash` (http blocked) |
 
 ### Configuration Reference
 
@@ -110,16 +110,16 @@ interface SecurityConfig {
   /**
    * Enable remote ES module loading in production.
    * Default: false
-   * 
+   *
    * When false, any attempt to import("https://...") in production
    * will throw an error.
    */
   allowRemoteModules?: boolean
-  
+
   /**
    * Restrict remote modules to specific URL prefixes.
    * Only used when allowRemoteModules is true.
-   * 
+   *
    * If empty or not provided, all HTTPS URLs are allowed
    * (not recommended for production).
    */
@@ -133,7 +133,7 @@ When remote module loading is blocked, you'll see clear error messages:
 
 ```
 // Remote modules disabled
-Remote ES modules are not allowed in production. URL: https://example.com/mod.js. 
+Remote ES modules are not allowed in production. URL: https://example.com/mod.js.
 Enable via security.allowRemoteModules in nativescript.config.ts
 
 // URL not in allowlist
@@ -223,13 +223,13 @@ async function loadVerifiedModule(url: string, expectedHash: string) {
   // Fetch as text first
   const response = await fetch(url)
   const code = await response.text()
-  
+
   // Verify integrity
   const actualHash = await computeHash(code)
   if (actualHash !== expectedHash) {
     throw new Error('Module integrity check failed')
   }
-  
+
   // Safe to execute (you'd need a mechanism to evaluate the verified code)
   // This is illustrative - actual implementation depends on your setup
 }
@@ -237,11 +237,11 @@ async function loadVerifiedModule(url: string, expectedHash: string) {
 
 ## Summary
 
-| Scenario | Configuration | Security Level |
-|----------|---------------|----------------|
-| Development | Automatic | Open - for dev convenience |
-| Production | No config needed | Secure - remote blocked |
-| Production with remote | `allowRemoteModules: true` | ⚠️ Use with caution |
-| Production with allowlist | Both options set | Recommended if remote needed |
+| Scenario                  | Configuration              | Security Level               |
+| ------------------------- | -------------------------- | ---------------------------- |
+| Development               | Automatic                  | Open - for dev convenience   |
+| Production                | No config needed           | Secure - remote blocked      |
+| Production with remote    | `allowRemoteModules: true` | ⚠️ Use with caution          |
+| Production with allowlist | Both options set           | Recommended if remote needed |
 
 The security configuration gives you control over the trade-off between flexibility and security. Default to the most secure option and only relax restrictions when you understand the implications and have implemented appropriate safeguards.

@@ -87,7 +87,6 @@ const labelHierarchy: Array<string> = Utils.getBaseClasses(new Label())
 ] */
 ```
 
-
 To hide a soft keyboard on the screen, use the [dismissKeyboard()](#dismisskeyboard) method.
 
 ```ts
@@ -98,7 +97,7 @@ Utils.dismissKeyboard()
 
 ### MajorVersion
 
-```ts
+````ts
 const majorVersion: number = Utils.ios
 
 (`iOS only`) Gets the iOS device major version. For example, for `16.0` ,it returns `16`.
@@ -109,10 +108,9 @@ const majorVersion: number = Utils.ios
 
 ```ts
 const isFileOrResourcePath: boolean = Utils.isFileOrResourcePath(path)
-```
+````
 
 Returns `true` if the specified path points to a resource or local file.
-
 
 ### isDataURI()
 
@@ -138,8 +136,7 @@ Opens the passed url using the default application.
 const escapedString: string = Utils.escapeRegexSymbols(string)
 ```
 
-Escapes special regex characters (`.`, `*`, `^`, `$` and so on) in a string and returns a valid regex.
----
+## Escapes special regex characters (`.`, `*`, `^`, `$` and so on) in a string and returns a valid regex.
 
 ### convertString()
 
@@ -167,10 +164,10 @@ A utility function that invokes garbage collection on the JavaScript side.
 Utils.queueMacrotask(task: () => void)
 ```
 
-
 ### queueGC()
 
 ```ts
+
 ```
 
 - _Optional_: `delay` time, in milliseconds, to wait before garbage collection starts.
@@ -178,10 +175,9 @@ Utils.queueMacrotask(task: () => void)
 
 A utility function that queues a garbage collection. Multiple calls in quick succession are debounced by default and only one gc will be executed after 900ms.
 
-
 ### debounce()
 
-```ts
+````ts
 const debouncedFn = Utils.debounce(fn, delay)
 
 debouncedFn()
@@ -198,12 +194,13 @@ A simple debounce utility.
 const throttledFn = Utils.throttle(fn, delay)
 
 throttledFn()
-```
+````
 
 A simple throttle utility.
 
 - `fn` The function to throttle.
 - _Optional_:`delay` delays the throttling, in milliseconds. Defaults to 300ms.
+
 ---
 
 ### isFontIconURI()
@@ -211,6 +208,7 @@ A simple throttle utility.
 ```ts
 const isFontIconURI: boolean = Utils.isFontIconURI('font://&#xf51e;')
 ```
+
 Returns true if the specified URI is a font icon URI.
 
 ---
@@ -221,7 +219,6 @@ Returns true if the specified URI is a font icon URI.
 Utils.executeOnMainThread(fn: Function)
 
 ```
-
 
 :::warning Important!
 
@@ -594,6 +591,7 @@ Enables full edge-to-edge rendering on Android and lets you customize system UI 
   - `handleDarkMode` Decide whether light or dark system UI should be used for the given bar based on your own logic. Return `true` to use light appearance, `false` for dark.
 
 Notes:
+
 - Works together with Page `androidOverflowEdge` and `androidOverflowInset` to control inset application/consumption.
 - When insets are applied, they are added to the view's padding.
 
@@ -751,7 +749,7 @@ const resId: number = Utils.android.resources.getResource(name, type?)
 ```
 
 Gets a resource identifier by name with an optional type. This sets an explicit package name under the hood.
-See Android's [`Resources.getIdentifier`](https://developer.android.com/reference/android/content/res/Resources#getIdentifier(java.lang.String,%20java.lang.String,%20java.lang.String)).
+See Android's [`Resources.getIdentifier`](<https://developer.android.com/reference/android/content/res/Resources#getIdentifier(java.lang.String,%20java.lang.String,%20java.lang.String)>).
 
 ---
 
@@ -772,7 +770,7 @@ Gets a color from the current theme.
 const window: android.view.Window = Utils.android.getWindow()
 ```
 
-*Deprecated*. Use the generic `Utils.getWindow<android.view.Window>()` instead.
+_Deprecated_. Use the generic `Utils.getWindow<android.view.Window>()` instead.
 
 ---
 
@@ -962,7 +960,7 @@ const window: UIWindow = Utils.ios.getWindow()
 
 Gets the UIWindow of the app.
 
-*Deprecated*. Use the generic `Utils.getWindow<UIWindow>()` instead.
+_Deprecated_. Use the generic `Utils.getWindow<UIWindow>()` instead.
 
 ---
 

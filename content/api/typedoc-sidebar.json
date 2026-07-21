@@ -1,0 +1,4478 @@
+[
+  {
+    "text": "Namespaces",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "AccessibilityEvents",
+        "link": "/api/namespaces/AccessibilityEvents/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "accessibilityBlurEvent",
+                "link": "/api/namespaces/AccessibilityEvents/variables/accessibilityBlurEvent"
+              },
+              {
+                "text": "accessibilityFocusChangedEvent",
+                "link": "/api/namespaces/AccessibilityEvents/variables/accessibilityFocusChangedEvent"
+              },
+              {
+                "text": "accessibilityFocusEvent",
+                "link": "/api/namespaces/AccessibilityEvents/variables/accessibilityFocusEvent"
+              },
+              {
+                "text": "accessibilityPerformEscapeEvent",
+                "link": "/api/namespaces/AccessibilityEvents/variables/accessibilityPerformEscapeEvent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "AndroidHelper",
+        "link": "/api/namespaces/AndroidHelper/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "clearDrawableColor",
+                "link": "/api/namespaces/AndroidHelper/functions/clearDrawableColor"
+              },
+              {
+                "text": "getCopyOrDrawable",
+                "link": "/api/namespaces/AndroidHelper/functions/getCopyOrDrawable"
+              },
+              {
+                "text": "getDrawableColor",
+                "link": "/api/namespaces/AndroidHelper/functions/getDrawableColor"
+              },
+              {
+                "text": "setDrawableColor",
+                "link": "/api/namespaces/AndroidHelper/functions/setDrawableColor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "ApplicationSettings",
+        "link": "/api/namespaces/ApplicationSettings/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "clear",
+                "link": "/api/namespaces/ApplicationSettings/functions/clear"
+              },
+              {
+                "text": "flush",
+                "link": "/api/namespaces/ApplicationSettings/functions/flush"
+              },
+              {
+                "text": "getAllKeys",
+                "link": "/api/namespaces/ApplicationSettings/functions/getAllKeys"
+              },
+              {
+                "text": "getBoolean",
+                "link": "/api/namespaces/ApplicationSettings/functions/getBoolean"
+              },
+              {
+                "text": "getNumber",
+                "link": "/api/namespaces/ApplicationSettings/functions/getNumber"
+              },
+              {
+                "text": "getString",
+                "link": "/api/namespaces/ApplicationSettings/functions/getString"
+              },
+              {
+                "text": "hasKey",
+                "link": "/api/namespaces/ApplicationSettings/functions/hasKey"
+              },
+              {
+                "text": "remove",
+                "link": "/api/namespaces/ApplicationSettings/functions/remove"
+              },
+              {
+                "text": "setBoolean",
+                "link": "/api/namespaces/ApplicationSettings/functions/setBoolean"
+              },
+              {
+                "text": "setNumber",
+                "link": "/api/namespaces/ApplicationSettings/functions/setNumber"
+              },
+              {
+                "text": "setString",
+                "link": "/api/namespaces/ApplicationSettings/functions/setString"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "capitalizationType",
+        "link": "/api/namespaces/capitalizationType/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "all",
+                "link": "/api/namespaces/capitalizationType/variables/all"
+              },
+              {
+                "text": "none",
+                "link": "/api/namespaces/capitalizationType/variables/none"
+              },
+              {
+                "text": "sentences",
+                "link": "/api/namespaces/capitalizationType/variables/sentences"
+              },
+              {
+                "text": "words",
+                "link": "/api/namespaces/capitalizationType/variables/words"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Connectivity",
+        "link": "/api/namespaces/Connectivity/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Enumerations",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "connectionType",
+                "link": "/api/namespaces/Connectivity/enumerations/connectionType"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "getConnectionType",
+                "link": "/api/namespaces/Connectivity/functions/getConnectionType"
+              },
+              {
+                "text": "startMonitoring",
+                "link": "/api/namespaces/Connectivity/functions/startMonitoring"
+              },
+              {
+                "text": "stopMonitoring",
+                "link": "/api/namespaces/Connectivity/functions/stopMonitoring"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "CoreTypes",
+        "link": "/api/namespaces/CoreTypes/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Namespaces",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Accuracy",
+                "link": "/api/namespaces/CoreTypes/namespaces/Accuracy/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "any",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Accuracy/variables/any"
+                      },
+                      {
+                        "text": "high",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Accuracy/variables/high"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "AndroidActionBarIconVisibility",
+                "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionBarIconVisibility/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "always",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionBarIconVisibility/variables/always"
+                      },
+                      {
+                        "text": "auto",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionBarIconVisibility/variables/auto"
+                      },
+                      {
+                        "text": "never",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionBarIconVisibility/variables/never"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "AndroidActionItemPosition",
+                "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionItemPosition/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "actionBar",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionItemPosition/variables/actionBar"
+                      },
+                      {
+                        "text": "actionBarIfRoom",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionItemPosition/variables/actionBarIfRoom"
+                      },
+                      {
+                        "text": "popup",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AndroidActionItemPosition/variables/popup"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "AnimationCurve",
+                "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "ease",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/variables/ease"
+                      },
+                      {
+                        "text": "easeIn",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/variables/easeIn"
+                      },
+                      {
+                        "text": "easeInOut",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/variables/easeInOut"
+                      },
+                      {
+                        "text": "easeOut",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/variables/easeOut"
+                      },
+                      {
+                        "text": "linear",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/variables/linear"
+                      },
+                      {
+                        "text": "spring",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/variables/spring"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Functions",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "cubicBezier",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AnimationCurve/functions/cubicBezier"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "AutocapitalizationType",
+                "link": "/api/namespaces/CoreTypes/namespaces/AutocapitalizationType/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "allCharacters",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutocapitalizationType/variables/allCharacters"
+                      },
+                      {
+                        "text": "none",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutocapitalizationType/variables/none"
+                      },
+                      {
+                        "text": "sentences",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutocapitalizationType/variables/sentences"
+                      },
+                      {
+                        "text": "words",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutocapitalizationType/variables/words"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "AutofillType",
+                "link": "/api/namespaces/CoreTypes/namespaces/AutofillType/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "newPassword",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutofillType/variables/newPassword"
+                      },
+                      {
+                        "text": "newUsername",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutofillType/variables/newUsername"
+                      },
+                      {
+                        "text": "none",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutofillType/variables/none"
+                      },
+                      {
+                        "text": "oneTimeCode",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutofillType/variables/oneTimeCode"
+                      },
+                      {
+                        "text": "password",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutofillType/variables/password"
+                      },
+                      {
+                        "text": "username",
+                        "link": "/api/namespaces/CoreTypes/namespaces/AutofillType/variables/username"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "BackgroundRepeat",
+                "link": "/api/namespaces/CoreTypes/namespaces/BackgroundRepeat/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "isValid",
+                        "link": "/api/namespaces/CoreTypes/namespaces/BackgroundRepeat/variables/isValid"
+                      },
+                      {
+                        "text": "noRepeat",
+                        "link": "/api/namespaces/CoreTypes/namespaces/BackgroundRepeat/variables/noRepeat"
+                      },
+                      {
+                        "text": "parse",
+                        "link": "/api/namespaces/CoreTypes/namespaces/BackgroundRepeat/variables/parse"
+                      },
+                      {
+                        "text": "repeat",
+                        "link": "/api/namespaces/CoreTypes/namespaces/BackgroundRepeat/variables/repeat"
+                      },
+                      {
+                        "text": "repeatX",
+                        "link": "/api/namespaces/CoreTypes/namespaces/BackgroundRepeat/variables/repeatX"
+                      },
+                      {
+                        "text": "repeatY",
+                        "link": "/api/namespaces/CoreTypes/namespaces/BackgroundRepeat/variables/repeatY"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "DeviceOrientation",
+                "link": "/api/namespaces/CoreTypes/namespaces/DeviceOrientation/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "landscape",
+                        "link": "/api/namespaces/CoreTypes/namespaces/DeviceOrientation/variables/landscape"
+                      },
+                      {
+                        "text": "portrait",
+                        "link": "/api/namespaces/CoreTypes/namespaces/DeviceOrientation/variables/portrait"
+                      },
+                      {
+                        "text": "unknown",
+                        "link": "/api/namespaces/CoreTypes/namespaces/DeviceOrientation/variables/unknown"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "DeviceType",
+                "link": "/api/namespaces/CoreTypes/namespaces/DeviceType/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Phone",
+                        "link": "/api/namespaces/CoreTypes/namespaces/DeviceType/variables/Phone"
+                      },
+                      {
+                        "text": "Tablet",
+                        "link": "/api/namespaces/CoreTypes/namespaces/DeviceType/variables/Tablet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Dock",
+                "link": "/api/namespaces/CoreTypes/namespaces/Dock/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "bottom",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Dock/variables/bottom"
+                      },
+                      {
+                        "text": "left",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Dock/variables/left"
+                      },
+                      {
+                        "text": "right",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Dock/variables/right"
+                      },
+                      {
+                        "text": "top",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Dock/variables/top"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "FontAttributes",
+                "link": "/api/namespaces/CoreTypes/namespaces/FontAttributes/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "Bold",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontAttributes/variables/Bold"
+                      },
+                      {
+                        "text": "Italic",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontAttributes/variables/Italic"
+                      },
+                      {
+                        "text": "Normal",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontAttributes/variables/Normal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "FontStyle",
+                "link": "/api/namespaces/CoreTypes/namespaces/FontStyle/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "italic",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontStyle/variables/italic"
+                      },
+                      {
+                        "text": "normal",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontStyle/variables/normal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "FontWeight",
+                "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "black",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/black"
+                      },
+                      {
+                        "text": "bold",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/bold"
+                      },
+                      {
+                        "text": "extraBold",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/extraBold"
+                      },
+                      {
+                        "text": "extraLight",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/extraLight"
+                      },
+                      {
+                        "text": "light",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/light"
+                      },
+                      {
+                        "text": "medium",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/medium"
+                      },
+                      {
+                        "text": "normal",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/normal"
+                      },
+                      {
+                        "text": "semiBold",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/semiBold"
+                      },
+                      {
+                        "text": "thin",
+                        "link": "/api/namespaces/CoreTypes/namespaces/FontWeight/variables/thin"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "HorizontalAlignment",
+                "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "center",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/center"
+                      },
+                      {
+                        "text": "end",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/end"
+                      },
+                      {
+                        "text": "isValid",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/isValid"
+                      },
+                      {
+                        "text": "left",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/left"
+                      },
+                      {
+                        "text": "parse",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/parse"
+                      },
+                      {
+                        "text": "right",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/right"
+                      },
+                      {
+                        "text": "start",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/start"
+                      },
+                      {
+                        "text": "stretch",
+                        "link": "/api/namespaces/CoreTypes/namespaces/HorizontalAlignment/variables/stretch"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "ImageFormat",
+                "link": "/api/namespaces/CoreTypes/namespaces/ImageFormat/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "jpeg",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ImageFormat/variables/jpeg"
+                      },
+                      {
+                        "text": "jpg",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ImageFormat/variables/jpg"
+                      },
+                      {
+                        "text": "png",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ImageFormat/variables/png"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "ImageStretch",
+                "link": "/api/namespaces/CoreTypes/namespaces/ImageStretch/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "aspectFill",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ImageStretch/variables/aspectFill"
+                      },
+                      {
+                        "text": "aspectFit",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ImageStretch/variables/aspectFit"
+                      },
+                      {
+                        "text": "fill",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ImageStretch/variables/fill"
+                      },
+                      {
+                        "text": "none",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ImageStretch/variables/none"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "IOSActionItemPosition",
+                "link": "/api/namespaces/CoreTypes/namespaces/IOSActionItemPosition/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "left",
+                        "link": "/api/namespaces/CoreTypes/namespaces/IOSActionItemPosition/variables/left"
+                      },
+                      {
+                        "text": "right",
+                        "link": "/api/namespaces/CoreTypes/namespaces/IOSActionItemPosition/variables/right"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "KeyboardType",
+                "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "datetime",
+                        "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/datetime"
+                      },
+                      {
+                        "text": "decimal",
+                        "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/decimal"
+                      },
+                      {
+                        "text": "email",
+                        "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/email"
+                      },
+                      {
+                        "text": "integer",
+                        "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/integer"
+                      },
+                      {
+                        "text": "number",
+                        "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/number"
+                      },
+                      {
+                        "text": "phone",
+                        "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/phone"
+                      },
+                      {
+                        "text": "url",
+                        "link": "/api/namespaces/CoreTypes/namespaces/KeyboardType/variables/url"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "LayoutDirection",
+                "link": "/api/namespaces/CoreTypes/namespaces/LayoutDirection/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "ltr",
+                        "link": "/api/namespaces/CoreTypes/namespaces/LayoutDirection/variables/ltr"
+                      },
+                      {
+                        "text": "rtl",
+                        "link": "/api/namespaces/CoreTypes/namespaces/LayoutDirection/variables/rtl"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "NavigationBarVisibility",
+                "link": "/api/namespaces/CoreTypes/namespaces/NavigationBarVisibility/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "always",
+                        "link": "/api/namespaces/CoreTypes/namespaces/NavigationBarVisibility/variables/always"
+                      },
+                      {
+                        "text": "auto",
+                        "link": "/api/namespaces/CoreTypes/namespaces/NavigationBarVisibility/variables/auto"
+                      },
+                      {
+                        "text": "never",
+                        "link": "/api/namespaces/CoreTypes/namespaces/NavigationBarVisibility/variables/never"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Orientation",
+                "link": "/api/namespaces/CoreTypes/namespaces/Orientation/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "horizontal",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Orientation/variables/horizontal"
+                      },
+                      {
+                        "text": "vertical",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Orientation/variables/vertical"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "ReturnKeyType",
+                "link": "/api/namespaces/CoreTypes/namespaces/ReturnKeyType/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "done",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ReturnKeyType/variables/done"
+                      },
+                      {
+                        "text": "go",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ReturnKeyType/variables/go"
+                      },
+                      {
+                        "text": "next",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ReturnKeyType/variables/next"
+                      },
+                      {
+                        "text": "search",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ReturnKeyType/variables/search"
+                      },
+                      {
+                        "text": "send",
+                        "link": "/api/namespaces/CoreTypes/namespaces/ReturnKeyType/variables/send"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "StatusBarStyle",
+                "link": "/api/namespaces/CoreTypes/namespaces/StatusBarStyle/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "dark",
+                        "link": "/api/namespaces/CoreTypes/namespaces/StatusBarStyle/variables/dark"
+                      },
+                      {
+                        "text": "light",
+                        "link": "/api/namespaces/CoreTypes/namespaces/StatusBarStyle/variables/light"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "SystemAppearance",
+                "link": "/api/namespaces/CoreTypes/namespaces/SystemAppearance/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "dark",
+                        "link": "/api/namespaces/CoreTypes/namespaces/SystemAppearance/variables/dark"
+                      },
+                      {
+                        "text": "light",
+                        "link": "/api/namespaces/CoreTypes/namespaces/SystemAppearance/variables/light"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TextAlignment",
+                "link": "/api/namespaces/CoreTypes/namespaces/TextAlignment/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "center",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextAlignment/variables/center"
+                      },
+                      {
+                        "text": "justify",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextAlignment/variables/justify"
+                      },
+                      {
+                        "text": "left",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextAlignment/variables/left"
+                      },
+                      {
+                        "text": "right",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextAlignment/variables/right"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TextDecoration",
+                "link": "/api/namespaces/CoreTypes/namespaces/TextDecoration/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "lineThrough",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextDecoration/variables/lineThrough"
+                      },
+                      {
+                        "text": "none",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextDecoration/variables/none"
+                      },
+                      {
+                        "text": "underline",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextDecoration/variables/underline"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TextOverflow",
+                "link": "/api/namespaces/CoreTypes/namespaces/TextOverflow/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "clip",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextOverflow/variables/clip"
+                      },
+                      {
+                        "text": "ellipsis",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextOverflow/variables/ellipsis"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "TextTransform",
+                "link": "/api/namespaces/CoreTypes/namespaces/TextTransform/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "capitalize",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextTransform/variables/capitalize"
+                      },
+                      {
+                        "text": "lowercase",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextTransform/variables/lowercase"
+                      },
+                      {
+                        "text": "none",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextTransform/variables/none"
+                      },
+                      {
+                        "text": "uppercase",
+                        "link": "/api/namespaces/CoreTypes/namespaces/TextTransform/variables/uppercase"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "UpdateTextTrigger",
+                "link": "/api/namespaces/CoreTypes/namespaces/UpdateTextTrigger/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "focusLost",
+                        "link": "/api/namespaces/CoreTypes/namespaces/UpdateTextTrigger/variables/focusLost"
+                      },
+                      {
+                        "text": "textChanged",
+                        "link": "/api/namespaces/CoreTypes/namespaces/UpdateTextTrigger/variables/textChanged"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "VerticalAlignment",
+                "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignment/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "bottom",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignment/variables/bottom"
+                      },
+                      {
+                        "text": "middle",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignment/variables/middle"
+                      },
+                      {
+                        "text": "stretch",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignment/variables/stretch"
+                      },
+                      {
+                        "text": "top",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignment/variables/top"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "VerticalAlignmentText",
+                "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "baseline",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/baseline"
+                      },
+                      {
+                        "text": "bottom",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/bottom"
+                      },
+                      {
+                        "text": "isValid",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/isValid"
+                      },
+                      {
+                        "text": "middle",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/middle"
+                      },
+                      {
+                        "text": "parse",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/parse"
+                      },
+                      {
+                        "text": "stretch",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/stretch"
+                      },
+                      {
+                        "text": "sub",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/sub"
+                      },
+                      {
+                        "text": "sup",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/sup"
+                      },
+                      {
+                        "text": "textbottom",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/textbottom"
+                      },
+                      {
+                        "text": "texttop",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/texttop"
+                      },
+                      {
+                        "text": "top",
+                        "link": "/api/namespaces/CoreTypes/namespaces/VerticalAlignmentText/variables/top"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Visibility",
+                "link": "/api/namespaces/CoreTypes/namespaces/Visibility/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "collapse",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Visibility/variables/collapse"
+                      },
+                      {
+                        "text": "collapsed",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Visibility/variables/collapsed"
+                      },
+                      {
+                        "text": "hidden",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Visibility/variables/hidden"
+                      },
+                      {
+                        "text": "isValid",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Visibility/variables/isValid"
+                      },
+                      {
+                        "text": "parse",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Visibility/variables/parse"
+                      },
+                      {
+                        "text": "visible",
+                        "link": "/api/namespaces/CoreTypes/namespaces/Visibility/variables/visible"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "WhiteSpace",
+                "link": "/api/namespaces/CoreTypes/namespaces/WhiteSpace/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "normal",
+                        "link": "/api/namespaces/CoreTypes/namespaces/WhiteSpace/variables/normal"
+                      },
+                      {
+                        "text": "nowrap",
+                        "link": "/api/namespaces/CoreTypes/namespaces/WhiteSpace/variables/nowrap"
+                      },
+                      {
+                        "text": "wrap",
+                        "link": "/api/namespaces/CoreTypes/namespaces/WhiteSpace/variables/wrap"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Type Aliases",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "AndroidOverflow",
+                "link": "/api/namespaces/CoreTypes/type-aliases/AndroidOverflow"
+              },
+              {
+                "text": "AutocapitalizationInputType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/AutocapitalizationInputType"
+              },
+              {
+                "text": "AutofillType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/AutofillType"
+              },
+              {
+                "text": "BackgroundRepeatType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/BackgroundRepeatType"
+              },
+              {
+                "text": "CSSWideKeywords",
+                "link": "/api/namespaces/CoreTypes/type-aliases/CSSWideKeywords"
+              },
+              {
+                "text": "DeviceOrientationType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/DeviceOrientationType"
+              },
+              {
+                "text": "dip",
+                "link": "/api/namespaces/CoreTypes/type-aliases/dip"
+              },
+              {
+                "text": "DockType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/DockType"
+              },
+              {
+                "text": "FixedLengthType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/FixedLengthType"
+              },
+              {
+                "text": "HorizontalAlignmentType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/HorizontalAlignmentType"
+              },
+              {
+                "text": "ImageStretchType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/ImageStretchType"
+              },
+              {
+                "text": "KeyboardInputType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/KeyboardInputType"
+              },
+              {
+                "text": "LayoutDirectionType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/LayoutDirectionType"
+              },
+              {
+                "text": "LengthDipUnit",
+                "link": "/api/namespaces/CoreTypes/type-aliases/LengthDipUnit"
+              },
+              {
+                "text": "LengthPercentUnit",
+                "link": "/api/namespaces/CoreTypes/type-aliases/LengthPercentUnit"
+              },
+              {
+                "text": "LengthPxUnit",
+                "link": "/api/namespaces/CoreTypes/type-aliases/LengthPxUnit"
+              },
+              {
+                "text": "LengthType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/LengthType"
+              },
+              {
+                "text": "MaxLinesType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/MaxLinesType"
+              },
+              {
+                "text": "OrientationType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/OrientationType"
+              },
+              {
+                "text": "percent",
+                "link": "/api/namespaces/CoreTypes/type-aliases/percent"
+              },
+              {
+                "text": "PercentLengthType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/PercentLengthType"
+              },
+              {
+                "text": "px",
+                "link": "/api/namespaces/CoreTypes/type-aliases/px"
+              },
+              {
+                "text": "ReturnKeyButtonType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/ReturnKeyButtonType"
+              },
+              {
+                "text": "TextAlignmentType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/TextAlignmentType"
+              },
+              {
+                "text": "TextDecorationType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/TextDecorationType"
+              },
+              {
+                "text": "TextOverflowType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/TextOverflowType"
+              },
+              {
+                "text": "TextTransformType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/TextTransformType"
+              },
+              {
+                "text": "UpdateTextTriggerType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/UpdateTextTriggerType"
+              },
+              {
+                "text": "VerticalAlignmentTextType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/VerticalAlignmentTextType"
+              },
+              {
+                "text": "VerticalAlignmentType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/VerticalAlignmentType"
+              },
+              {
+                "text": "VisibilityType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/VisibilityType"
+              },
+              {
+                "text": "WhiteSpaceType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/WhiteSpaceType"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "zeroLength",
+                "link": "/api/namespaces/CoreTypes/variables/zeroLength"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "CSSUtils",
+        "link": "/api/namespaces/CSSUtils/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "CLASS_PREFIX",
+                "link": "/api/namespaces/CSSUtils/variables/CLASS_PREFIX"
+              },
+              {
+                "text": "MODAL_ROOT_VIEW_CSS_CLASS",
+                "link": "/api/namespaces/CSSUtils/variables/MODAL_ROOT_VIEW_CSS_CLASS"
+              },
+              {
+                "text": "ROOT_VIEW_CSS_CLASS",
+                "link": "/api/namespaces/CSSUtils/variables/ROOT_VIEW_CSS_CLASS"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "getModalRootViewCssClass",
+                "link": "/api/namespaces/CSSUtils/functions/getModalRootViewCssClass"
+              },
+              {
+                "text": "getRootViewCssClasses",
+                "link": "/api/namespaces/CSSUtils/functions/getRootViewCssClasses"
+              },
+              {
+                "text": "getSystemCssClasses",
+                "link": "/api/namespaces/CSSUtils/functions/getSystemCssClasses"
+              },
+              {
+                "text": "pushToRootViewCssClasses",
+                "link": "/api/namespaces/CSSUtils/functions/pushToRootViewCssClasses"
+              },
+              {
+                "text": "pushToSystemCssClasses",
+                "link": "/api/namespaces/CSSUtils/functions/pushToSystemCssClasses"
+              },
+              {
+                "text": "removeFromRootViewCssClasses",
+                "link": "/api/namespaces/CSSUtils/functions/removeFromRootViewCssClasses"
+              },
+              {
+                "text": "removeSystemCssClass",
+                "link": "/api/namespaces/CSSUtils/functions/removeSystemCssClass"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "DialogStrings",
+        "link": "/api/namespaces/DialogStrings/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ALERT",
+                "link": "/api/namespaces/DialogStrings/variables/ALERT"
+              },
+              {
+                "text": "CANCEL",
+                "link": "/api/namespaces/DialogStrings/variables/CANCEL"
+              },
+              {
+                "text": "CONFIRM",
+                "link": "/api/namespaces/DialogStrings/variables/CONFIRM"
+              },
+              {
+                "text": "LOGIN",
+                "link": "/api/namespaces/DialogStrings/variables/LOGIN"
+              },
+              {
+                "text": "OK",
+                "link": "/api/namespaces/DialogStrings/variables/OK"
+              },
+              {
+                "text": "PROMPT",
+                "link": "/api/namespaces/DialogStrings/variables/PROMPT"
+              },
+              {
+                "text": "STRING",
+                "link": "/api/namespaces/DialogStrings/variables/STRING"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "encoding",
+        "link": "/api/namespaces/encoding/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ISO_8859_1",
+                "link": "/api/namespaces/encoding/variables/ISO_8859_1"
+              },
+              {
+                "text": "US_ASCII",
+                "link": "/api/namespaces/encoding/variables/US_ASCII"
+              },
+              {
+                "text": "UTF_16",
+                "link": "/api/namespaces/encoding/variables/UTF_16"
+              },
+              {
+                "text": "UTF_16BE",
+                "link": "/api/namespaces/encoding/variables/UTF_16BE"
+              },
+              {
+                "text": "UTF_16LE",
+                "link": "/api/namespaces/encoding/variables/UTF_16LE"
+              },
+              {
+                "text": "UTF_8",
+                "link": "/api/namespaces/encoding/variables/UTF_8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "FixedLength",
+        "link": "/api/namespaces/FixedLength/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "convertToString",
+                "link": "/api/namespaces/FixedLength/variables/convertToString"
+              },
+              {
+                "text": "equals",
+                "link": "/api/namespaces/FixedLength/variables/equals"
+              },
+              {
+                "text": "toDevicePixels",
+                "link": "/api/namespaces/FixedLength/variables/toDevicePixels"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "parse",
+                "link": "/api/namespaces/FixedLength/functions/parse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "FontStyle",
+        "link": "/api/namespaces/FontStyle/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ITALIC",
+                "link": "/api/namespaces/FontStyle/variables/ITALIC"
+              },
+              {
+                "text": "NORMAL",
+                "link": "/api/namespaces/FontStyle/variables/NORMAL"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "isValid",
+                "link": "/api/namespaces/FontStyle/functions/isValid"
+              },
+              {
+                "text": "parse",
+                "link": "/api/namespaces/FontStyle/functions/parse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "FontVariationSettings",
+        "link": "/api/namespaces/FontVariationSettings/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "parse",
+                "link": "/api/namespaces/FontVariationSettings/functions/parse"
+              },
+              {
+                "text": "toString",
+                "link": "/api/namespaces/FontVariationSettings/functions/toString"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "FontWeight",
+        "link": "/api/namespaces/FontWeight/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "BLACK",
+                "link": "/api/namespaces/FontWeight/variables/BLACK"
+              },
+              {
+                "text": "BOLD",
+                "link": "/api/namespaces/FontWeight/variables/BOLD"
+              },
+              {
+                "text": "EXTRA_BOLD",
+                "link": "/api/namespaces/FontWeight/variables/EXTRA_BOLD"
+              },
+              {
+                "text": "EXTRA_LIGHT",
+                "link": "/api/namespaces/FontWeight/variables/EXTRA_LIGHT"
+              },
+              {
+                "text": "LIGHT",
+                "link": "/api/namespaces/FontWeight/variables/LIGHT"
+              },
+              {
+                "text": "MEDIUM",
+                "link": "/api/namespaces/FontWeight/variables/MEDIUM"
+              },
+              {
+                "text": "NORMAL",
+                "link": "/api/namespaces/FontWeight/variables/NORMAL"
+              },
+              {
+                "text": "SEMI_BOLD",
+                "link": "/api/namespaces/FontWeight/variables/SEMI_BOLD"
+              },
+              {
+                "text": "THIN",
+                "link": "/api/namespaces/FontWeight/variables/THIN"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "isValid",
+                "link": "/api/namespaces/FontWeight/functions/isValid"
+              },
+              {
+                "text": "parse",
+                "link": "/api/namespaces/FontWeight/functions/parse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "GridUnitType",
+        "link": "/api/namespaces/GridUnitType/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "AUTO",
+                "link": "/api/namespaces/GridUnitType/variables/AUTO"
+              },
+              {
+                "text": "PIXEL",
+                "link": "/api/namespaces/GridUnitType/variables/PIXEL"
+              },
+              {
+                "text": "STAR",
+                "link": "/api/namespaces/GridUnitType/variables/STAR"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "isValid",
+                "link": "/api/namespaces/GridUnitType/functions/isValid"
+              },
+              {
+                "text": "parse",
+                "link": "/api/namespaces/GridUnitType/functions/parse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Http",
+        "link": "/api/namespaces/Http/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Interfaces",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "HttpContentHandler",
+                "link": "/api/namespaces/Http/interfaces/HttpContentHandler"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "request",
+                "link": "/api/namespaces/Http/variables/request"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "getBinary",
+                "link": "/api/namespaces/Http/functions/getBinary"
+              },
+              {
+                "text": "getFile",
+                "link": "/api/namespaces/Http/functions/getFile"
+              },
+              {
+                "text": "getImage",
+                "link": "/api/namespaces/Http/functions/getImage"
+              },
+              {
+                "text": "getJSON",
+                "link": "/api/namespaces/Http/functions/getJSON"
+              },
+              {
+                "text": "getString",
+                "link": "/api/namespaces/Http/functions/getString"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "inputType",
+        "link": "/api/namespaces/inputType/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "decimal",
+                "link": "/api/namespaces/inputType/variables/decimal"
+              },
+              {
+                "text": "email",
+                "link": "/api/namespaces/inputType/variables/email"
+              },
+              {
+                "text": "number",
+                "link": "/api/namespaces/inputType/variables/number"
+              },
+              {
+                "text": "password",
+                "link": "/api/namespaces/inputType/variables/password"
+              },
+              {
+                "text": "phone",
+                "link": "/api/namespaces/inputType/variables/phone"
+              },
+              {
+                "text": "text",
+                "link": "/api/namespaces/inputType/variables/text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "IOSHelper",
+        "link": "/api/namespaces/IOSHelper/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "UIAdaptivePresentationControllerDelegateImp",
+                "link": "/api/namespaces/IOSHelper/classes/UIAdaptivePresentationControllerDelegateImp"
+              },
+              {
+                "text": "UILayoutViewController",
+                "link": "/api/namespaces/IOSHelper/classes/UILayoutViewController"
+              },
+              {
+                "text": "UIPopoverPresentationControllerDelegateImp",
+                "link": "/api/namespaces/IOSHelper/classes/UIPopoverPresentationControllerDelegateImp"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "traitCollectionColorAppearanceChangedEvent",
+                "link": "/api/namespaces/IOSHelper/variables/traitCollectionColorAppearanceChangedEvent"
+              },
+              {
+                "text": "traitCollectionLayoutDirectionChangedEvent",
+                "link": "/api/namespaces/IOSHelper/variables/traitCollectionLayoutDirectionChangedEvent"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "expandBeyondSafeArea",
+                "link": "/api/namespaces/IOSHelper/functions/expandBeyondSafeArea"
+              },
+              {
+                "text": "getFrameFromPosition",
+                "link": "/api/namespaces/IOSHelper/functions/getFrameFromPosition"
+              },
+              {
+                "text": "getParentWithViewController",
+                "link": "/api/namespaces/IOSHelper/functions/getParentWithViewController"
+              },
+              {
+                "text": "getPositionFromFrame",
+                "link": "/api/namespaces/IOSHelper/functions/getPositionFromFrame"
+              },
+              {
+                "text": "invalidateStatusBarAppearance",
+                "link": "/api/namespaces/IOSHelper/functions/invalidateStatusBarAppearance"
+              },
+              {
+                "text": "layoutView",
+                "link": "/api/namespaces/IOSHelper/functions/layoutView"
+              },
+              {
+                "text": "shrinkToSafeArea",
+                "link": "/api/namespaces/IOSHelper/functions/shrinkToSafeArea"
+              },
+              {
+                "text": "updateAutoAdjustScrollInsets",
+                "link": "/api/namespaces/IOSHelper/functions/updateAutoAdjustScrollInsets"
+              },
+              {
+                "text": "updateConstraints",
+                "link": "/api/namespaces/IOSHelper/functions/updateConstraints"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "knownFolders",
+        "link": "/api/namespaces/knownFolders/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Namespaces",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ios",
+                "link": "/api/namespaces/knownFolders/namespaces/ios/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Functions",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "desktop",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/desktop"
+                      },
+                      {
+                        "text": "developer",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/developer"
+                      },
+                      {
+                        "text": "downloads",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/downloads"
+                      },
+                      {
+                        "text": "library",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/library"
+                      },
+                      {
+                        "text": "movies",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/movies"
+                      },
+                      {
+                        "text": "music",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/music"
+                      },
+                      {
+                        "text": "pictures",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/pictures"
+                      },
+                      {
+                        "text": "sharedPublic",
+                        "link": "/api/namespaces/knownFolders/namespaces/ios/functions/sharedPublic"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "currentApp",
+                "link": "/api/namespaces/knownFolders/functions/currentApp"
+              },
+              {
+                "text": "documents",
+                "link": "/api/namespaces/knownFolders/functions/documents"
+              },
+              {
+                "text": "externalDocuments",
+                "link": "/api/namespaces/knownFolders/functions/externalDocuments"
+              },
+              {
+                "text": "temp",
+                "link": "/api/namespaces/knownFolders/functions/temp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Length",
+        "link": "/api/namespaces/Length/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "convertToString",
+                "link": "/api/namespaces/Length/variables/convertToString"
+              },
+              {
+                "text": "equals",
+                "link": "/api/namespaces/Length/variables/equals"
+              },
+              {
+                "text": "toDevicePixels",
+                "link": "/api/namespaces/Length/variables/toDevicePixels"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "parse",
+                "link": "/api/namespaces/Length/functions/parse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "path",
+        "link": "/api/namespaces/path/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "separator",
+                "link": "/api/namespaces/path/variables/separator"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "join",
+                "link": "/api/namespaces/path/functions/join"
+              },
+              {
+                "text": "normalize",
+                "link": "/api/namespaces/path/functions/normalize"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "PercentLength",
+        "link": "/api/namespaces/PercentLength/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "convertToString",
+                "link": "/api/namespaces/PercentLength/variables/convertToString"
+              },
+              {
+                "text": "equals",
+                "link": "/api/namespaces/PercentLength/variables/equals"
+              },
+              {
+                "text": "toDevicePixels",
+                "link": "/api/namespaces/PercentLength/variables/toDevicePixels"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "parse",
+                "link": "/api/namespaces/PercentLength/functions/parse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Trace",
+        "link": "/api/namespaces/Trace/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Namespaces",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "categories",
+                "link": "/api/namespaces/Trace/namespaces/categories/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "All",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/All"
+                      },
+                      {
+                        "text": "Animation",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Animation"
+                      },
+                      {
+                        "text": "Binding",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Binding"
+                      },
+                      {
+                        "text": "BindingError",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/BindingError"
+                      },
+                      {
+                        "text": "Debug",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Debug"
+                      },
+                      {
+                        "text": "Error",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Error"
+                      },
+                      {
+                        "text": "Layout",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Layout"
+                      },
+                      {
+                        "text": "Livesync",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Livesync"
+                      },
+                      {
+                        "text": "MediaQuery",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/MediaQuery"
+                      },
+                      {
+                        "text": "ModuleNameResolver",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/ModuleNameResolver"
+                      },
+                      {
+                        "text": "NativeLifecycle",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/NativeLifecycle"
+                      },
+                      {
+                        "text": "Navigation",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Navigation"
+                      },
+                      {
+                        "text": "separator",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/separator"
+                      },
+                      {
+                        "text": "Style",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Style"
+                      },
+                      {
+                        "text": "Test",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Test"
+                      },
+                      {
+                        "text": "Transition",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/Transition"
+                      },
+                      {
+                        "text": "ViewHierarchy",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/ViewHierarchy"
+                      },
+                      {
+                        "text": "VisualTreeEvents",
+                        "link": "/api/namespaces/Trace/namespaces/categories/variables/VisualTreeEvents"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Functions",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "concat",
+                        "link": "/api/namespaces/Trace/namespaces/categories/functions/concat"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "messageType",
+                "link": "/api/namespaces/Trace/namespaces/messageType/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "error",
+                        "link": "/api/namespaces/Trace/namespaces/messageType/variables/error"
+                      },
+                      {
+                        "text": "info",
+                        "link": "/api/namespaces/Trace/namespaces/messageType/variables/info"
+                      },
+                      {
+                        "text": "log",
+                        "link": "/api/namespaces/Trace/namespaces/messageType/variables/log"
+                      },
+                      {
+                        "text": "warn",
+                        "link": "/api/namespaces/Trace/namespaces/messageType/variables/warn"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ConsoleWriter",
+                "link": "/api/namespaces/Trace/classes/ConsoleWriter"
+              },
+              {
+                "text": "DefaultErrorHandler",
+                "link": "/api/namespaces/Trace/classes/DefaultErrorHandler"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "addCategories",
+                "link": "/api/namespaces/Trace/functions/addCategories"
+              },
+              {
+                "text": "addEventListener",
+                "link": "/api/namespaces/Trace/functions/addEventListener"
+              },
+              {
+                "text": "addWriter",
+                "link": "/api/namespaces/Trace/functions/addWriter"
+              },
+              {
+                "text": "clearWriters",
+                "link": "/api/namespaces/Trace/functions/clearWriters"
+              },
+              {
+                "text": "disable",
+                "link": "/api/namespaces/Trace/functions/disable"
+              },
+              {
+                "text": "enable",
+                "link": "/api/namespaces/Trace/functions/enable"
+              },
+              {
+                "text": "error",
+                "link": "/api/namespaces/Trace/functions/error"
+              },
+              {
+                "text": "getErrorHandler",
+                "link": "/api/namespaces/Trace/functions/getErrorHandler"
+              },
+              {
+                "text": "isCategorySet",
+                "link": "/api/namespaces/Trace/functions/isCategorySet"
+              },
+              {
+                "text": "isEnabled",
+                "link": "/api/namespaces/Trace/functions/isEnabled"
+              },
+              {
+                "text": "notifyEvent",
+                "link": "/api/namespaces/Trace/functions/notifyEvent"
+              },
+              {
+                "text": "removeEventListener",
+                "link": "/api/namespaces/Trace/functions/removeEventListener"
+              },
+              {
+                "text": "removeWriter",
+                "link": "/api/namespaces/Trace/functions/removeWriter"
+              },
+              {
+                "text": "setCategories",
+                "link": "/api/namespaces/Trace/functions/setCategories"
+              },
+              {
+                "text": "setErrorHandler",
+                "link": "/api/namespaces/Trace/functions/setErrorHandler"
+              },
+              {
+                "text": "write",
+                "link": "/api/namespaces/Trace/functions/write"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Utils",
+        "link": "/api/namespaces/Utils/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Namespaces",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "layout",
+                "link": "/api/namespaces/Utils/namespaces/layout/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "AT_MOST",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/AT_MOST"
+                      },
+                      {
+                        "text": "EXACTLY",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/EXACTLY"
+                      },
+                      {
+                        "text": "MEASURED_HEIGHT_STATE_SHIFT",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/MEASURED_HEIGHT_STATE_SHIFT"
+                      },
+                      {
+                        "text": "MEASURED_SIZE_MASK",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/MEASURED_SIZE_MASK"
+                      },
+                      {
+                        "text": "MEASURED_STATE_MASK",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/MEASURED_STATE_MASK"
+                      },
+                      {
+                        "text": "MEASURED_STATE_TOO_SMALL",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/MEASURED_STATE_TOO_SMALL"
+                      },
+                      {
+                        "text": "MODE_MASK",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/MODE_MASK"
+                      },
+                      {
+                        "text": "MODE_SHIFT",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/MODE_SHIFT"
+                      },
+                      {
+                        "text": "UNSPECIFIED",
+                        "link": "/api/namespaces/Utils/namespaces/layout/variables/UNSPECIFIED"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Functions",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "getDisplayDensity",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/getDisplayDensity"
+                      },
+                      {
+                        "text": "getMeasureSpecMode",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/getMeasureSpecMode"
+                      },
+                      {
+                        "text": "getMeasureSpecSize",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/getMeasureSpecSize"
+                      },
+                      {
+                        "text": "getMode",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/getMode"
+                      },
+                      {
+                        "text": "hasRtlSupport",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/hasRtlSupport"
+                      },
+                      {
+                        "text": "makeMeasureSpec",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/makeMeasureSpec"
+                      },
+                      {
+                        "text": "measureNativeView",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/measureNativeView"
+                      },
+                      {
+                        "text": "measureSpecToString",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/measureSpecToString"
+                      },
+                      {
+                        "text": "round",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/round"
+                      },
+                      {
+                        "text": "toDeviceIndependentPixels",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/toDeviceIndependentPixels"
+                      },
+                      {
+                        "text": "toDevicePixels",
+                        "link": "/api/namespaces/Utils/namespaces/layout/functions/toDevicePixels"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Classes",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ClassInfo",
+                "link": "/api/namespaces/Utils/classes/ClassInfo"
+              },
+              {
+                "text": "ScopeError",
+                "link": "/api/namespaces/Utils/classes/ScopeError"
+              },
+              {
+                "text": "Source",
+                "link": "/api/namespaces/Utils/classes/Source"
+              },
+              {
+                "text": "SourceError",
+                "link": "/api/namespaces/Utils/classes/SourceError"
+              }
+            ]
+          },
+          {
+            "text": "Type Aliases",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "NativeWindow",
+                "link": "/api/namespaces/Utils/type-aliases/NativeWindow"
+              }
+            ]
+          },
+          {
+            "text": "Variables",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "ad",
+                "link": "/api/namespaces/Utils/variables/ad"
+              },
+              {
+                "text": "android",
+                "link": "/api/namespaces/Utils/variables/android"
+              },
+              {
+                "text": "CORE_ANIMATION_DEFAULTS",
+                "link": "/api/namespaces/Utils/variables/CORE_ANIMATION_DEFAULTS"
+              },
+              {
+                "text": "debug",
+                "link": "/api/namespaces/Utils/variables/debug"
+              },
+              {
+                "text": "FILE_PREFIX",
+                "link": "/api/namespaces/Utils/variables/FILE_PREFIX"
+              },
+              {
+                "text": "FONT_PREFIX",
+                "link": "/api/namespaces/Utils/variables/FONT_PREFIX"
+              },
+              {
+                "text": "ios",
+                "link": "/api/namespaces/Utils/variables/ios"
+              },
+              {
+                "text": "iOSNativeHelper",
+                "link": "/api/namespaces/Utils/variables/iOSNativeHelper"
+              },
+              {
+                "text": "RESOURCE_PREFIX",
+                "link": "/api/namespaces/Utils/variables/RESOURCE_PREFIX"
+              },
+              {
+                "text": "SDK_VERSION",
+                "link": "/api/namespaces/Utils/variables/SDK_VERSION"
+              },
+              {
+                "text": "SYSTEM_PREFIX",
+                "link": "/api/namespaces/Utils/variables/SYSTEM_PREFIX"
+              }
+            ]
+          },
+          {
+            "text": "Functions",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "clearInterval",
+                "link": "/api/namespaces/Utils/functions/clearInterval"
+              },
+              {
+                "text": "clearTimeout",
+                "link": "/api/namespaces/Utils/functions/clearTimeout"
+              },
+              {
+                "text": "convertString",
+                "link": "/api/namespaces/Utils/functions/convertString"
+              },
+              {
+                "text": "copyToClipboard",
+                "link": "/api/namespaces/Utils/functions/copyToClipboard"
+              },
+              {
+                "text": "dataDeserialize",
+                "link": "/api/namespaces/Utils/functions/dataDeserialize"
+              },
+              {
+                "text": "dataSerialize",
+                "link": "/api/namespaces/Utils/functions/dataSerialize"
+              },
+              {
+                "text": "debounce",
+                "link": "/api/namespaces/Utils/functions/debounce"
+              },
+              {
+                "text": "dismissKeyboard",
+                "link": "/api/namespaces/Utils/functions/dismissKeyboard"
+              },
+              {
+                "text": "dismissSoftInput",
+                "link": "/api/namespaces/Utils/functions/dismissSoftInput"
+              },
+              {
+                "text": "dispatchToMainThread",
+                "link": "/api/namespaces/Utils/functions/dispatchToMainThread"
+              },
+              {
+                "text": "dispatchToUIThread",
+                "link": "/api/namespaces/Utils/functions/dispatchToUIThread"
+              },
+              {
+                "text": "eliminateDuplicates",
+                "link": "/api/namespaces/Utils/functions/eliminateDuplicates"
+              },
+              {
+                "text": "escapeRegexSymbols",
+                "link": "/api/namespaces/Utils/functions/escapeRegexSymbols"
+              },
+              {
+                "text": "executeOnMainThread",
+                "link": "/api/namespaces/Utils/functions/executeOnMainThread"
+              },
+              {
+                "text": "executeOnUIThread",
+                "link": "/api/namespaces/Utils/functions/executeOnUIThread"
+              },
+              {
+                "text": "GC",
+                "link": "/api/namespaces/Utils/functions/GC"
+              },
+              {
+                "text": "getBaseClasses",
+                "link": "/api/namespaces/Utils/functions/getBaseClasses"
+              },
+              {
+                "text": "getClass",
+                "link": "/api/namespaces/Utils/functions/getClass"
+              },
+              {
+                "text": "getClassInfo",
+                "link": "/api/namespaces/Utils/functions/getClassInfo"
+              },
+              {
+                "text": "getDurationWithDampingFromSpring",
+                "link": "/api/namespaces/Utils/functions/getDurationWithDampingFromSpring"
+              },
+              {
+                "text": "getFileExtension",
+                "link": "/api/namespaces/Utils/functions/getFileExtension"
+              },
+              {
+                "text": "getModuleName",
+                "link": "/api/namespaces/Utils/functions/getModuleName"
+              },
+              {
+                "text": "getWindow",
+                "link": "/api/namespaces/Utils/functions/getWindow"
+              },
+              {
+                "text": "hasDuplicates",
+                "link": "/api/namespaces/Utils/functions/hasDuplicates"
+              },
+              {
+                "text": "isBoolean",
+                "link": "/api/namespaces/Utils/functions/isBoolean"
+              },
+              {
+                "text": "isDataURI",
+                "link": "/api/namespaces/Utils/functions/isDataURI"
+              },
+              {
+                "text": "isDefined",
+                "link": "/api/namespaces/Utils/functions/isDefined"
+              },
+              {
+                "text": "isEmoji",
+                "link": "/api/namespaces/Utils/functions/isEmoji"
+              },
+              {
+                "text": "isFileOrResourcePath",
+                "link": "/api/namespaces/Utils/functions/isFileOrResourcePath"
+              },
+              {
+                "text": "isFontIconURI",
+                "link": "/api/namespaces/Utils/functions/isFontIconURI"
+              },
+              {
+                "text": "isFunction",
+                "link": "/api/namespaces/Utils/functions/isFunction"
+              },
+              {
+                "text": "isMainThread",
+                "link": "/api/namespaces/Utils/functions/isMainThread"
+              },
+              {
+                "text": "isNullOrUndefined",
+                "link": "/api/namespaces/Utils/functions/isNullOrUndefined"
+              },
+              {
+                "text": "isNumber",
+                "link": "/api/namespaces/Utils/functions/isNumber"
+              },
+              {
+                "text": "isObject",
+                "link": "/api/namespaces/Utils/functions/isObject"
+              },
+              {
+                "text": "isRealDevice",
+                "link": "/api/namespaces/Utils/functions/isRealDevice"
+              },
+              {
+                "text": "isString",
+                "link": "/api/namespaces/Utils/functions/isString"
+              },
+              {
+                "text": "isSystemURI",
+                "link": "/api/namespaces/Utils/functions/isSystemURI"
+              },
+              {
+                "text": "isUndefined",
+                "link": "/api/namespaces/Utils/functions/isUndefined"
+              },
+              {
+                "text": "mainThreadify",
+                "link": "/api/namespaces/Utils/functions/mainThreadify"
+              },
+              {
+                "text": "merge",
+                "link": "/api/namespaces/Utils/functions/merge"
+              },
+              {
+                "text": "mergeSort",
+                "link": "/api/namespaces/Utils/functions/mergeSort"
+              },
+              {
+                "text": "numberHasDecimals",
+                "link": "/api/namespaces/Utils/functions/numberHasDecimals"
+              },
+              {
+                "text": "numberIs64Bit",
+                "link": "/api/namespaces/Utils/functions/numberIs64Bit"
+              },
+              {
+                "text": "openFile",
+                "link": "/api/namespaces/Utils/functions/openFile"
+              },
+              {
+                "text": "openUrl",
+                "link": "/api/namespaces/Utils/functions/openUrl"
+              },
+              {
+                "text": "openUrlAsync",
+                "link": "/api/namespaces/Utils/functions/openUrlAsync"
+              },
+              {
+                "text": "queueGC",
+                "link": "/api/namespaces/Utils/functions/queueGC"
+              },
+              {
+                "text": "queueMacrotask",
+                "link": "/api/namespaces/Utils/functions/queueMacrotask"
+              },
+              {
+                "text": "releaseNativeObject",
+                "link": "/api/namespaces/Utils/functions/releaseNativeObject"
+              },
+              {
+                "text": "sanitizeModuleName",
+                "link": "/api/namespaces/Utils/functions/sanitizeModuleName"
+              },
+              {
+                "text": "setInterval",
+                "link": "/api/namespaces/Utils/functions/setInterval"
+              },
+              {
+                "text": "setTimeout",
+                "link": "/api/namespaces/Utils/functions/setTimeout"
+              },
+              {
+                "text": "supportsGlass",
+                "link": "/api/namespaces/Utils/functions/supportsGlass"
+              },
+              {
+                "text": "throttle",
+                "link": "/api/namespaces/Utils/functions/throttle"
+              },
+              {
+                "text": "toUIString",
+                "link": "/api/namespaces/Utils/functions/toUIString"
+              },
+              {
+                "text": "verifyCallback",
+                "link": "/api/namespaces/Utils/functions/verifyCallback"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Enumerations",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "AccessibilityLiveRegion",
+        "link": "/api/enumerations/AccessibilityLiveRegion"
+      },
+      {
+        "text": "AccessibilityRole",
+        "link": "/api/enumerations/AccessibilityRole"
+      },
+      {
+        "text": "AccessibilityState",
+        "link": "/api/enumerations/AccessibilityState"
+      },
+      {
+        "text": "AccessibilityTrait",
+        "link": "/api/enumerations/AccessibilityTrait"
+      },
+      {
+        "text": "AndroidDirectory",
+        "link": "/api/enumerations/AndroidDirectory"
+      },
+      {
+        "text": "CacheMode",
+        "link": "/api/enumerations/CacheMode"
+      },
+      {
+        "text": "FontScaleCategory",
+        "link": "/api/enumerations/FontScaleCategory"
+      },
+      {
+        "text": "GestureEvents",
+        "link": "/api/enumerations/GestureEvents"
+      },
+      {
+        "text": "GestureStateTypes",
+        "link": "/api/enumerations/GestureStateTypes"
+      },
+      {
+        "text": "GestureTypes",
+        "link": "/api/enumerations/GestureTypes"
+      },
+      {
+        "text": "HttpResponseEncoding",
+        "link": "/api/enumerations/HttpResponseEncoding"
+      },
+      {
+        "text": "ImageSymbolEffects",
+        "link": "/api/enumerations/ImageSymbolEffects"
+      },
+      {
+        "text": "NavigationType",
+        "link": "/api/enumerations/NavigationType"
+      },
+      {
+        "text": "SharedTransitionAnimationType",
+        "link": "/api/enumerations/SharedTransitionAnimationType"
+      },
+      {
+        "text": "SwipeDirection",
+        "link": "/api/enumerations/SwipeDirection"
+      },
+      {
+        "text": "TouchAction",
+        "link": "/api/enumerations/TouchAction"
+      },
+      {
+        "text": "WritingToolsAllowedInput",
+        "link": "/api/enumerations/WritingToolsAllowedInput"
+      },
+      {
+        "text": "WritingToolsBehavior",
+        "link": "/api/enumerations/WritingToolsBehavior"
+      }
+    ]
+  },
+  {
+    "text": "Classes",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "AbsoluteLayout",
+        "link": "/api/classes/AbsoluteLayout"
+      },
+      {
+        "text": "ActionBar",
+        "link": "/api/classes/ActionBar"
+      },
+      {
+        "text": "ActionItem",
+        "link": "/api/classes/ActionItem"
+      },
+      {
+        "text": "ActionItems",
+        "link": "/api/classes/ActionItems"
+      },
+      {
+        "text": "ActivityIndicator",
+        "link": "/api/classes/ActivityIndicator"
+      },
+      {
+        "text": "AndroidApplication",
+        "link": "/api/classes/AndroidApplication"
+      },
+      {
+        "text": "Animation",
+        "link": "/api/classes/Animation"
+      },
+      {
+        "text": "ApplicationCommon",
+        "link": "/api/classes/ApplicationCommon"
+      },
+      {
+        "text": "Background",
+        "link": "/api/classes/Background"
+      },
+      {
+        "text": "Binding",
+        "link": "/api/classes/Binding"
+      },
+      {
+        "text": "Builder",
+        "link": "/api/classes/Builder"
+      },
+      {
+        "text": "Button",
+        "link": "/api/classes/Button"
+      },
+      {
+        "text": "ChangeType",
+        "link": "/api/classes/ChangeType"
+      },
+      {
+        "text": "CoercibleProperty",
+        "link": "/api/classes/CoercibleProperty"
+      },
+      {
+        "text": "Color",
+        "link": "/api/classes/Color"
+      },
+      {
+        "text": "ContainerView",
+        "link": "/api/classes/ContainerView"
+      },
+      {
+        "text": "ContentView",
+        "link": "/api/classes/ContentView"
+      },
+      {
+        "text": "ControlStateChangeListener",
+        "link": "/api/classes/ControlStateChangeListener"
+      },
+      {
+        "text": "CssAnimationParser",
+        "link": "/api/classes/CssAnimationParser"
+      },
+      {
+        "text": "CssAnimationProperty",
+        "link": "/api/classes/CssAnimationProperty"
+      },
+      {
+        "text": "CssProperty",
+        "link": "/api/classes/CssProperty"
+      },
+      {
+        "text": "CustomLayoutView",
+        "link": "/api/classes/CustomLayoutView"
+      },
+      {
+        "text": "DatePicker",
+        "link": "/api/classes/DatePicker"
+      },
+      {
+        "text": "DockLayout",
+        "link": "/api/classes/DockLayout"
+      },
+      {
+        "text": "EditableTextBase",
+        "link": "/api/classes/EditableTextBase"
+      },
+      {
+        "text": "FadeTransition",
+        "link": "/api/classes/FadeTransition"
+      },
+      {
+        "text": "File",
+        "link": "/api/classes/File"
+      },
+      {
+        "text": "FileSystemEntity",
+        "link": "/api/classes/FileSystemEntity"
+      },
+      {
+        "text": "FlexboxLayout",
+        "link": "/api/classes/FlexboxLayout"
+      },
+      {
+        "text": "Folder",
+        "link": "/api/classes/Folder"
+      },
+      {
+        "text": "Font",
+        "link": "/api/classes/Font"
+      },
+      {
+        "text": "FormattedString",
+        "link": "/api/classes/FormattedString"
+      },
+      {
+        "text": "Frame",
+        "link": "/api/classes/Frame"
+      },
+      {
+        "text": "GesturesObserver",
+        "link": "/api/classes/GesturesObserver"
+      },
+      {
+        "text": "GridLayout",
+        "link": "/api/classes/GridLayout"
+      },
+      {
+        "text": "HtmlView",
+        "link": "/api/classes/HtmlView"
+      },
+      {
+        "text": "Image",
+        "link": "/api/classes/Image"
+      },
+      {
+        "text": "ImageAsset",
+        "link": "/api/classes/ImageAsset"
+      },
+      {
+        "text": "ImageCache",
+        "link": "/api/classes/ImageCache"
+      },
+      {
+        "text": "ImageSource",
+        "link": "/api/classes/ImageSource"
+      },
+      {
+        "text": "ImageSymbolEffect",
+        "link": "/api/classes/ImageSymbolEffect"
+      },
+      {
+        "text": "InheritedCssProperty",
+        "link": "/api/classes/InheritedCssProperty"
+      },
+      {
+        "text": "InheritedProperty",
+        "link": "/api/classes/InheritedProperty"
+      },
+      {
+        "text": "iOSApplication",
+        "link": "/api/classes/iOSApplication"
+      },
+      {
+        "text": "ItemSpec",
+        "link": "/api/classes/ItemSpec"
+      },
+      {
+        "text": "KeyframeAnimation",
+        "link": "/api/classes/KeyframeAnimation"
+      },
+      {
+        "text": "KeyframeAnimationInfo",
+        "link": "/api/classes/KeyframeAnimationInfo"
+      },
+      {
+        "text": "KeyframeDeclaration",
+        "link": "/api/classes/KeyframeDeclaration"
+      },
+      {
+        "text": "KeyframeInfo",
+        "link": "/api/classes/KeyframeInfo"
+      },
+      {
+        "text": "Label",
+        "link": "/api/classes/Label"
+      },
+      {
+        "text": "LayoutBase",
+        "link": "/api/classes/LayoutBase"
+      },
+      {
+        "text": "LinearGradient",
+        "link": "/api/classes/LinearGradient"
+      },
+      {
+        "text": "LiquidGlass",
+        "link": "/api/classes/LiquidGlass"
+      },
+      {
+        "text": "LiquidGlassContainer",
+        "link": "/api/classes/LiquidGlassContainer"
+      },
+      {
+        "text": "ListPicker",
+        "link": "/api/classes/ListPicker"
+      },
+      {
+        "text": "ListView",
+        "link": "/api/classes/ListView"
+      },
+      {
+        "text": "ModalTransition",
+        "link": "/api/classes/ModalTransition"
+      },
+      {
+        "text": "ModuleNameResolver",
+        "link": "/api/classes/ModuleNameResolver"
+      },
+      {
+        "text": "NavigationButton",
+        "link": "/api/classes/NavigationButton"
+      },
+      {
+        "text": "Observable",
+        "link": "/api/classes/Observable"
+      },
+      {
+        "text": "ObservableArray",
+        "link": "/api/classes/ObservableArray"
+      },
+      {
+        "text": "Page",
+        "link": "/api/classes/Page"
+      },
+      {
+        "text": "PageBase",
+        "link": "/api/classes/PageBase"
+      },
+      {
+        "text": "PageTransition",
+        "link": "/api/classes/PageTransition"
+      },
+      {
+        "text": "ParserEvent",
+        "link": "/api/classes/ParserEvent"
+      },
+      {
+        "text": "ParserEventType",
+        "link": "/api/classes/ParserEventType"
+      },
+      {
+        "text": "Placeholder",
+        "link": "/api/classes/Placeholder"
+      },
+      {
+        "text": "Progress",
+        "link": "/api/classes/Progress"
+      },
+      {
+        "text": "Property",
+        "link": "/api/classes/Property"
+      },
+      {
+        "text": "ProxyViewContainer",
+        "link": "/api/classes/ProxyViewContainer"
+      },
+      {
+        "text": "Repeater",
+        "link": "/api/classes/Repeater"
+      },
+      {
+        "text": "RootLayout",
+        "link": "/api/classes/RootLayout"
+      },
+      {
+        "text": "Screen",
+        "link": "/api/classes/Screen"
+      },
+      {
+        "text": "ScrollView",
+        "link": "/api/classes/ScrollView"
+      },
+      {
+        "text": "SearchBar",
+        "link": "/api/classes/SearchBar"
+      },
+      {
+        "text": "SegmentedBar",
+        "link": "/api/classes/SegmentedBar"
+      },
+      {
+        "text": "SegmentedBarItem",
+        "link": "/api/classes/SegmentedBarItem"
+      },
+      {
+        "text": "SharedTransition",
+        "link": "/api/classes/SharedTransition"
+      },
+      {
+        "text": "SharedTransitionHelper",
+        "link": "/api/classes/SharedTransitionHelper"
+      },
+      {
+        "text": "ShorthandProperty",
+        "link": "/api/classes/ShorthandProperty"
+      },
+      {
+        "text": "Slider",
+        "link": "/api/classes/Slider"
+      },
+      {
+        "text": "SlideTransition",
+        "link": "/api/classes/SlideTransition"
+      },
+      {
+        "text": "Span",
+        "link": "/api/classes/Span"
+      },
+      {
+        "text": "SplitView",
+        "link": "/api/classes/SplitView"
+      },
+      {
+        "text": "StackLayout",
+        "link": "/api/classes/StackLayout"
+      },
+      {
+        "text": "Style",
+        "link": "/api/classes/Style"
+      },
+      {
+        "text": "Switch",
+        "link": "/api/classes/Switch"
+      },
+      {
+        "text": "TabView",
+        "link": "/api/classes/TabView"
+      },
+      {
+        "text": "TabViewItem",
+        "link": "/api/classes/TabViewItem"
+      },
+      {
+        "text": "TextBase",
+        "link": "/api/classes/TextBase"
+      },
+      {
+        "text": "TextField",
+        "link": "/api/classes/TextField"
+      },
+      {
+        "text": "TextView",
+        "link": "/api/classes/TextView"
+      },
+      {
+        "text": "TimePicker",
+        "link": "/api/classes/TimePicker"
+      },
+      {
+        "text": "TouchManager",
+        "link": "/api/classes/TouchManager"
+      },
+      {
+        "text": "Transition",
+        "link": "/api/classes/Transition"
+      },
+      {
+        "text": "View",
+        "link": "/api/classes/View"
+      },
+      {
+        "text": "ViewBase",
+        "link": "/api/classes/ViewBase"
+      },
+      {
+        "text": "ViewHelper",
+        "link": "/api/classes/ViewHelper"
+      },
+      {
+        "text": "VirtualArray",
+        "link": "/api/classes/VirtualArray"
+      },
+      {
+        "text": "WebView",
+        "link": "/api/classes/WebView"
+      },
+      {
+        "text": "WrapLayout",
+        "link": "/api/classes/WrapLayout"
+      },
+      {
+        "text": "WrappedValue",
+        "link": "/api/classes/WrappedValue"
+      },
+      {
+        "text": "XmlParser",
+        "link": "/api/classes/XmlParser"
+      }
+    ]
+  },
+  {
+    "text": "Interfaces",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "AccessibilityDecrementEventData",
+        "link": "/api/interfaces/AccessibilityDecrementEventData"
+      },
+      {
+        "text": "AccessibilityIncrementEventData",
+        "link": "/api/interfaces/AccessibilityIncrementEventData"
+      },
+      {
+        "text": "ActionOptions",
+        "link": "/api/interfaces/ActionOptions"
+      },
+      {
+        "text": "AddArrayFromBuilder",
+        "link": "/api/interfaces/AddArrayFromBuilder"
+      },
+      {
+        "text": "AddChildFromBuilder",
+        "link": "/api/interfaces/AddChildFromBuilder"
+      },
+      {
+        "text": "AlertOptions",
+        "link": "/api/interfaces/AlertOptions"
+      },
+      {
+        "text": "AndroidActivityBackPressedEventData",
+        "link": "/api/interfaces/AndroidActivityBackPressedEventData"
+      },
+      {
+        "text": "AndroidActivityBundleEventData",
+        "link": "/api/interfaces/AndroidActivityBundleEventData"
+      },
+      {
+        "text": "AndroidActivityCallbacks",
+        "link": "/api/interfaces/AndroidActivityCallbacks"
+      },
+      {
+        "text": "AndroidActivityEventData",
+        "link": "/api/interfaces/AndroidActivityEventData"
+      },
+      {
+        "text": "AndroidActivityNewIntentEventData",
+        "link": "/api/interfaces/AndroidActivityNewIntentEventData"
+      },
+      {
+        "text": "AndroidActivityRequestPermissionsEventData",
+        "link": "/api/interfaces/AndroidActivityRequestPermissionsEventData"
+      },
+      {
+        "text": "AndroidActivityResultEventData",
+        "link": "/api/interfaces/AndroidActivityResultEventData"
+      },
+      {
+        "text": "AndroidOverflowInsetData",
+        "link": "/api/interfaces/AndroidOverflowInsetData"
+      },
+      {
+        "text": "AnimationDefinition",
+        "link": "/api/interfaces/AnimationDefinition"
+      },
+      {
+        "text": "AnimationDefinitionInternal",
+        "link": "/api/interfaces/AnimationDefinitionInternal"
+      },
+      {
+        "text": "ApplicationEventData",
+        "link": "/api/interfaces/ApplicationEventData"
+      },
+      {
+        "text": "BackstackEntry",
+        "link": "/api/interfaces/BackstackEntry"
+      },
+      {
+        "text": "BindingOptions",
+        "link": "/api/interfaces/BindingOptions"
+      },
+      {
+        "text": "Cancelable",
+        "link": "/api/interfaces/Cancelable"
+      },
+      {
+        "text": "CancelableOptions",
+        "link": "/api/interfaces/CancelableOptions"
+      },
+      {
+        "text": "ChangedData",
+        "link": "/api/interfaces/ChangedData"
+      },
+      {
+        "text": "CommonLayoutParams",
+        "link": "/api/interfaces/CommonLayoutParams"
+      },
+      {
+        "text": "ComponentModule",
+        "link": "/api/interfaces/ComponentModule"
+      },
+      {
+        "text": "ConfirmOptions",
+        "link": "/api/interfaces/ConfirmOptions"
+      },
+      {
+        "text": "CreateViewEventData",
+        "link": "/api/interfaces/CreateViewEventData"
+      },
+      {
+        "text": "CssChangedEventData",
+        "link": "/api/interfaces/CssChangedEventData"
+      },
+      {
+        "text": "DialogOptions",
+        "link": "/api/interfaces/DialogOptions"
+      },
+      {
+        "text": "DiscardedErrorEventData",
+        "link": "/api/interfaces/DiscardedErrorEventData"
+      },
+      {
+        "text": "DownloadedData",
+        "link": "/api/interfaces/DownloadedData"
+      },
+      {
+        "text": "DownloadError",
+        "link": "/api/interfaces/DownloadError"
+      },
+      {
+        "text": "DownloadRequest",
+        "link": "/api/interfaces/DownloadRequest"
+      },
+      {
+        "text": "EventData",
+        "link": "/api/interfaces/EventData"
+      },
+      {
+        "text": "EventDataValue",
+        "link": "/api/interfaces/EventDataValue"
+      },
+      {
+        "text": "FontScaleChangedEventData",
+        "link": "/api/interfaces/FontScaleChangedEventData"
+      },
+      {
+        "text": "GestureEventData",
+        "link": "/api/interfaces/GestureEventData"
+      },
+      {
+        "text": "GestureEventDataWithState",
+        "link": "/api/interfaces/GestureEventDataWithState"
+      },
+      {
+        "text": "HttpContent",
+        "link": "/api/interfaces/HttpContent"
+      },
+      {
+        "text": "HttpRequestOptions",
+        "link": "/api/interfaces/HttpRequestOptions"
+      },
+      {
+        "text": "HttpResponse",
+        "link": "/api/interfaces/HttpResponse"
+      },
+      {
+        "text": "IDevice",
+        "link": "/api/interfaces/IDevice"
+      },
+      {
+        "text": "ImageAssetOptions",
+        "link": "/api/interfaces/ImageAssetOptions"
+      },
+      {
+        "text": "InitRootViewEventData",
+        "link": "/api/interfaces/InitRootViewEventData"
+      },
+      {
+        "text": "IOSView",
+        "link": "/api/interfaces/IOSView"
+      },
+      {
+        "text": "ItemEventData",
+        "link": "/api/interfaces/ItemEventData"
+      },
+      {
+        "text": "ItemsLoading",
+        "link": "/api/interfaces/ItemsLoading"
+      },
+      {
+        "text": "ItemsSource",
+        "link": "/api/interfaces/ItemsSource"
+      },
+      {
+        "text": "KeyedTemplate",
+        "link": "/api/interfaces/KeyedTemplate"
+      },
+      {
+        "text": "LaunchEventData",
+        "link": "/api/interfaces/LaunchEventData"
+      },
+      {
+        "text": "LayoutDirectionChangedEventData",
+        "link": "/api/interfaces/LayoutDirectionChangedEventData"
+      },
+      {
+        "text": "LoadAppCSSEventData",
+        "link": "/api/interfaces/LoadAppCSSEventData"
+      },
+      {
+        "text": "LoadEventData",
+        "link": "/api/interfaces/LoadEventData"
+      },
+      {
+        "text": "LoadOptions",
+        "link": "/api/interfaces/LoadOptions"
+      },
+      {
+        "text": "LoginOptions",
+        "link": "/api/interfaces/LoginOptions"
+      },
+      {
+        "text": "LoginResult",
+        "link": "/api/interfaces/LoginResult"
+      },
+      {
+        "text": "NativeScriptConfig",
+        "link": "/api/interfaces/NativeScriptConfig"
+      },
+      {
+        "text": "NativeScriptError",
+        "link": "/api/interfaces/NativeScriptError"
+      },
+      {
+        "text": "NavigatedData",
+        "link": "/api/interfaces/NavigatedData"
+      },
+      {
+        "text": "NavigationContext",
+        "link": "/api/interfaces/NavigationContext"
+      },
+      {
+        "text": "NavigationData",
+        "link": "/api/interfaces/NavigationData"
+      },
+      {
+        "text": "NavigationEntry",
+        "link": "/api/interfaces/NavigationEntry"
+      },
+      {
+        "text": "NavigationTransition",
+        "link": "/api/interfaces/NavigationTransition"
+      },
+      {
+        "text": "OrientationChangedEventData",
+        "link": "/api/interfaces/OrientationChangedEventData"
+      },
+      {
+        "text": "Pair",
+        "link": "/api/interfaces/Pair"
+      },
+      {
+        "text": "PanGestureEventData",
+        "link": "/api/interfaces/PanGestureEventData"
+      },
+      {
+        "text": "PinchGestureEventData",
+        "link": "/api/interfaces/PinchGestureEventData"
+      },
+      {
+        "text": "PlatformContext",
+        "link": "/api/interfaces/PlatformContext"
+      },
+      {
+        "text": "Point3D",
+        "link": "/api/interfaces/Point3D"
+      },
+      {
+        "text": "PromptOptions",
+        "link": "/api/interfaces/PromptOptions"
+      },
+      {
+        "text": "PromptResult",
+        "link": "/api/interfaces/PromptResult"
+      },
+      {
+        "text": "PropertyAnimation",
+        "link": "/api/interfaces/PropertyAnimation"
+      },
+      {
+        "text": "PropertyAnimationInfo",
+        "link": "/api/interfaces/PropertyAnimationInfo"
+      },
+      {
+        "text": "PropertyChangeData",
+        "link": "/api/interfaces/PropertyChangeData"
+      },
+      {
+        "text": "RootLayoutOptions",
+        "link": "/api/interfaces/RootLayoutOptions"
+      },
+      {
+        "text": "RotationGestureEventData",
+        "link": "/api/interfaces/RotationGestureEventData"
+      },
+      {
+        "text": "SceneEventData",
+        "link": "/api/interfaces/SceneEventData"
+      },
+      {
+        "text": "ScrollEventData",
+        "link": "/api/interfaces/ScrollEventData"
+      },
+      {
+        "text": "SearchEventData",
+        "link": "/api/interfaces/SearchEventData"
+      },
+      {
+        "text": "SelectedIndexChangedEventData",
+        "link": "/api/interfaces/SelectedIndexChangedEventData"
+      },
+      {
+        "text": "ShadeCoverOptions",
+        "link": "/api/interfaces/ShadeCoverOptions"
+      },
+      {
+        "text": "ShadowCSSValues",
+        "link": "/api/interfaces/ShadowCSSValues"
+      },
+      {
+        "text": "SharedTransitionConfig",
+        "link": "/api/interfaces/SharedTransitionConfig"
+      },
+      {
+        "text": "ShowModalOptions",
+        "link": "/api/interfaces/ShowModalOptions"
+      },
+      {
+        "text": "ShownModallyData",
+        "link": "/api/interfaces/ShownModallyData"
+      },
+      {
+        "text": "Size",
+        "link": "/api/interfaces/Size"
+      },
+      {
+        "text": "StrokeCSSValues",
+        "link": "/api/interfaces/StrokeCSSValues"
+      },
+      {
+        "text": "SwipeGestureEventData",
+        "link": "/api/interfaces/SwipeGestureEventData"
+      },
+      {
+        "text": "SystemAppearanceChangedEventData",
+        "link": "/api/interfaces/SystemAppearanceChangedEventData"
+      },
+      {
+        "text": "TapGestureEventData",
+        "link": "/api/interfaces/TapGestureEventData"
+      },
+      {
+        "text": "Template",
+        "link": "/api/interfaces/Template"
+      },
+      {
+        "text": "TemplatedItemsView",
+        "link": "/api/interfaces/TemplatedItemsView"
+      },
+      {
+        "text": "TimerInfo",
+        "link": "/api/interfaces/TimerInfo"
+      },
+      {
+        "text": "TouchGestureEventData",
+        "link": "/api/interfaces/TouchGestureEventData"
+      },
+      {
+        "text": "TraceErrorHandler",
+        "link": "/api/interfaces/TraceErrorHandler"
+      },
+      {
+        "text": "TraceEventListener",
+        "link": "/api/interfaces/TraceEventListener"
+      },
+      {
+        "text": "TraceWriter",
+        "link": "/api/interfaces/TraceWriter"
+      },
+      {
+        "text": "UnhandledErrorEventData",
+        "link": "/api/interfaces/UnhandledErrorEventData"
+      },
+      {
+        "text": "ViewEntry",
+        "link": "/api/interfaces/ViewEntry"
+      }
+    ]
+  },
+  {
+    "text": "Type Aliases",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "AlignContent",
+        "link": "/api/type-aliases/AlignContent"
+      },
+      {
+        "text": "AlignItems",
+        "link": "/api/type-aliases/AlignItems"
+      },
+      {
+        "text": "AlignSelf",
+        "link": "/api/type-aliases/AlignSelf"
+      },
+      {
+        "text": "AnimationPromise",
+        "link": "/api/type-aliases/AnimationPromise"
+      },
+      {
+        "text": "dip",
+        "link": "/api/type-aliases/dip"
+      },
+      {
+        "text": "Flex",
+        "link": "/api/type-aliases/Flex"
+      },
+      {
+        "text": "FlexDirection",
+        "link": "/api/type-aliases/FlexDirection"
+      },
+      {
+        "text": "FlexFlow",
+        "link": "/api/type-aliases/FlexFlow"
+      },
+      {
+        "text": "FlexWrap",
+        "link": "/api/type-aliases/FlexWrap"
+      },
+      {
+        "text": "FontStyleType",
+        "link": "/api/type-aliases/FontStyleType"
+      },
+      {
+        "text": "FontVariationSettingsType",
+        "link": "/api/type-aliases/FontVariationSettingsType"
+      },
+      {
+        "text": "FontWeightType",
+        "link": "/api/type-aliases/FontWeightType"
+      },
+      {
+        "text": "GlassEffectConfig",
+        "link": "/api/type-aliases/GlassEffectConfig"
+      },
+      {
+        "text": "GlassEffectType",
+        "link": "/api/type-aliases/GlassEffectType"
+      },
+      {
+        "text": "GlassEffectVariant",
+        "link": "/api/type-aliases/GlassEffectVariant"
+      },
+      {
+        "text": "GridUnitType",
+        "link": "/api/type-aliases/GridUnitType"
+      },
+      {
+        "text": "Headers",
+        "link": "/api/type-aliases/Headers"
+      },
+      {
+        "text": "HorizontalAlignment",
+        "link": "/api/type-aliases/HorizontalAlignment"
+      },
+      {
+        "text": "InstrumentationMode",
+        "link": "/api/type-aliases/InstrumentationMode"
+      },
+      {
+        "text": "iosSymbolScaleType",
+        "link": "/api/type-aliases/iosSymbolScaleType"
+      },
+      {
+        "text": "JustifyContent",
+        "link": "/api/type-aliases/JustifyContent"
+      },
+      {
+        "text": "LengthDipUnit",
+        "link": "/api/type-aliases/LengthDipUnit"
+      },
+      {
+        "text": "LengthPercentUnit",
+        "link": "/api/type-aliases/LengthPercentUnit"
+      },
+      {
+        "text": "LengthPxUnit",
+        "link": "/api/type-aliases/LengthPxUnit"
+      },
+      {
+        "text": "LengthType",
+        "link": "/api/type-aliases/LengthType"
+      },
+      {
+        "text": "ModuleListProvider",
+        "link": "/api/type-aliases/ModuleListProvider"
+      },
+      {
+        "text": "percent",
+        "link": "/api/type-aliases/percent"
+      },
+      {
+        "text": "PercentLengthType",
+        "link": "/api/type-aliases/PercentLengthType"
+      },
+      {
+        "text": "px",
+        "link": "/api/type-aliases/px"
+      },
+      {
+        "text": "SceneEventName",
+        "link": "/api/type-aliases/SceneEventName"
+      },
+      {
+        "text": "SharedTransitionTagProperties",
+        "link": "/api/type-aliases/SharedTransitionTagProperties"
+      },
+      {
+        "text": "SplitBehavior",
+        "link": "/api/type-aliases/SplitBehavior"
+      },
+      {
+        "text": "SplitDisplayMode",
+        "link": "/api/type-aliases/SplitDisplayMode"
+      },
+      {
+        "text": "SplitRole",
+        "link": "/api/type-aliases/SplitRole"
+      },
+      {
+        "text": "SplitStyle",
+        "link": "/api/type-aliases/SplitStyle"
+      },
+      {
+        "text": "TouchAnimationOptions",
+        "link": "/api/type-aliases/TouchAnimationOptions"
+      },
+      {
+        "text": "Transformation",
+        "link": "/api/type-aliases/Transformation"
+      },
+      {
+        "text": "TransformationType",
+        "link": "/api/type-aliases/TransformationType"
+      },
+      {
+        "text": "TransformationValue",
+        "link": "/api/type-aliases/TransformationValue"
+      },
+      {
+        "text": "TransformFunctionsInfo",
+        "link": "/api/type-aliases/TransformFunctionsInfo"
+      },
+      {
+        "text": "VerticalAlignment",
+        "link": "/api/type-aliases/VerticalAlignment"
+      },
+      {
+        "text": "VisionHoverOptions",
+        "link": "/api/type-aliases/VisionHoverOptions"
+      },
+      {
+        "text": "WebViewNavigationType",
+        "link": "/api/type-aliases/WebViewNavigationType"
+      }
+    ]
+  },
+  {
+    "text": "Variables",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "_resetRootView",
+        "link": "/api/variables/resetRootView"
+      },
+      {
+        "text": "addCss",
+        "link": "/api/variables/addCss"
+      },
+      {
+        "text": "android",
+        "link": "/api/variables/android"
+      },
+      {
+        "text": "androidDynamicElevationOffsetProperty",
+        "link": "/api/variables/androidDynamicElevationOffsetProperty"
+      },
+      {
+        "text": "androidElevationProperty",
+        "link": "/api/variables/androidElevationProperty"
+      },
+      {
+        "text": "androidRegisterBroadcastReceiver",
+        "link": "/api/variables/androidRegisterBroadcastReceiver"
+      },
+      {
+        "text": "AnimationCurve",
+        "link": "/api/variables/AnimationCurve"
+      },
+      {
+        "text": "Application",
+        "link": "/api/variables/Application"
+      },
+      {
+        "text": "autocapitalizationTypeProperty",
+        "link": "/api/variables/autocapitalizationTypeProperty"
+      },
+      {
+        "text": "autocorrectProperty",
+        "link": "/api/variables/autocorrectProperty"
+      },
+      {
+        "text": "backgroundColorProperty",
+        "link": "/api/variables/backgroundColorProperty"
+      },
+      {
+        "text": "backgroundEvent",
+        "link": "/api/variables/backgroundEvent"
+      },
+      {
+        "text": "backgroundImageProperty",
+        "link": "/api/variables/backgroundImageProperty"
+      },
+      {
+        "text": "backgroundInternalProperty",
+        "link": "/api/variables/backgroundInternalProperty"
+      },
+      {
+        "text": "backgroundPositionProperty",
+        "link": "/api/variables/backgroundPositionProperty"
+      },
+      {
+        "text": "backgroundRepeatProperty",
+        "link": "/api/variables/backgroundRepeatProperty"
+      },
+      {
+        "text": "backgroundSizeProperty",
+        "link": "/api/variables/backgroundSizeProperty"
+      },
+      {
+        "text": "borderBottomColorProperty",
+        "link": "/api/variables/borderBottomColorProperty"
+      },
+      {
+        "text": "borderBottomLeftRadiusProperty",
+        "link": "/api/variables/borderBottomLeftRadiusProperty"
+      },
+      {
+        "text": "borderBottomRightRadiusProperty",
+        "link": "/api/variables/borderBottomRightRadiusProperty"
+      },
+      {
+        "text": "borderBottomWidthProperty",
+        "link": "/api/variables/borderBottomWidthProperty"
+      },
+      {
+        "text": "borderLeftColorProperty",
+        "link": "/api/variables/borderLeftColorProperty"
+      },
+      {
+        "text": "borderLeftWidthProperty",
+        "link": "/api/variables/borderLeftWidthProperty"
+      },
+      {
+        "text": "borderRightColorProperty",
+        "link": "/api/variables/borderRightColorProperty"
+      },
+      {
+        "text": "borderRightWidthProperty",
+        "link": "/api/variables/borderRightWidthProperty"
+      },
+      {
+        "text": "borderTopColorProperty",
+        "link": "/api/variables/borderTopColorProperty"
+      },
+      {
+        "text": "borderTopLeftRadiusProperty",
+        "link": "/api/variables/borderTopLeftRadiusProperty"
+      },
+      {
+        "text": "borderTopRightRadiusProperty",
+        "link": "/api/variables/borderTopRightRadiusProperty"
+      },
+      {
+        "text": "borderTopWidthProperty",
+        "link": "/api/variables/borderTopWidthProperty"
+      },
+      {
+        "text": "clipPathProperty",
+        "link": "/api/variables/clipPathProperty"
+      },
+      {
+        "text": "colorProperty",
+        "link": "/api/variables/colorProperty"
+      },
+      {
+        "text": "CSSHelper",
+        "link": "/api/variables/CSSHelper"
+      },
+      {
+        "text": "Device",
+        "link": "/api/variables/Device"
+      },
+      {
+        "text": "Dialogs",
+        "link": "/api/variables/Dialogs"
+      },
+      {
+        "text": "directionProperty",
+        "link": "/api/variables/directionProperty"
+      },
+      {
+        "text": "discardedErrorEvent",
+        "link": "/api/variables/discardedErrorEvent"
+      },
+      {
+        "text": "displayedEvent",
+        "link": "/api/variables/displayedEvent"
+      },
+      {
+        "text": "editableProperty",
+        "link": "/api/variables/editableProperty"
+      },
+      {
+        "text": "Enums",
+        "link": "/api/variables/Enums"
+      },
+      {
+        "text": "exitEvent",
+        "link": "/api/variables/exitEvent"
+      },
+      {
+        "text": "fontFamilyProperty",
+        "link": "/api/variables/fontFamilyProperty"
+      },
+      {
+        "text": "fontInternalProperty",
+        "link": "/api/variables/fontInternalProperty"
+      },
+      {
+        "text": "fontScaleChangedEvent",
+        "link": "/api/variables/fontScaleChangedEvent"
+      },
+      {
+        "text": "fontScaleInternalProperty",
+        "link": "/api/variables/fontScaleInternalProperty"
+      },
+      {
+        "text": "fontSizeProperty",
+        "link": "/api/variables/fontSizeProperty"
+      },
+      {
+        "text": "fontStyleProperty",
+        "link": "/api/variables/fontStyleProperty"
+      },
+      {
+        "text": "fontVariationSettingsProperty",
+        "link": "/api/variables/fontVariationSettingsProperty"
+      },
+      {
+        "text": "fontWeightProperty",
+        "link": "/api/variables/fontWeightProperty"
+      },
+      {
+        "text": "foregroundEvent",
+        "link": "/api/variables/foregroundEvent"
+      },
+      {
+        "text": "getCssFileName",
+        "link": "/api/variables/getCssFileName"
+      },
+      {
+        "text": "getMainEntry",
+        "link": "/api/variables/getMainEntry"
+      },
+      {
+        "text": "getNativeApplication",
+        "link": "/api/variables/getNativeApplication"
+      },
+      {
+        "text": "getResources",
+        "link": "/api/variables/getResources"
+      },
+      {
+        "text": "getRootView",
+        "link": "/api/variables/getRootView"
+      },
+      {
+        "text": "hasLaunched",
+        "link": "/api/variables/hasLaunched"
+      },
+      {
+        "text": "hasListeners",
+        "link": "/api/variables/hasListeners"
+      },
+      {
+        "text": "heightProperty",
+        "link": "/api/variables/heightProperty"
+      },
+      {
+        "text": "hintProperty",
+        "link": "/api/variables/hintProperty"
+      },
+      {
+        "text": "horizontalAlignmentProperty",
+        "link": "/api/variables/horizontalAlignmentProperty"
+      },
+      {
+        "text": "inBackground",
+        "link": "/api/variables/inBackground"
+      },
+      {
+        "text": "ios",
+        "link": "/api/variables/ios"
+      },
+      {
+        "text": "isAndroid",
+        "link": "/api/variables/isAndroid"
+      },
+      {
+        "text": "isApple",
+        "link": "/api/variables/isApple"
+      },
+      {
+        "text": "isIOS",
+        "link": "/api/variables/isIOS"
+      },
+      {
+        "text": "isUserInteractionEnabledProperty",
+        "link": "/api/variables/isUserInteractionEnabledProperty"
+      },
+      {
+        "text": "isVisionOS",
+        "link": "/api/variables/isVisionOS"
+      },
+      {
+        "text": "keyboardTypeProperty",
+        "link": "/api/variables/keyboardTypeProperty"
+      },
+      {
+        "text": "launchEvent",
+        "link": "/api/variables/launchEvent"
+      },
+      {
+        "text": "layoutDirection",
+        "link": "/api/variables/layoutDirection"
+      },
+      {
+        "text": "layoutDirectionChanged",
+        "link": "/api/variables/layoutDirectionChanged"
+      },
+      {
+        "text": "layoutDirectionChangedEvent",
+        "link": "/api/variables/layoutDirectionChangedEvent"
+      },
+      {
+        "text": "letterSpacingProperty",
+        "link": "/api/variables/letterSpacingProperty"
+      },
+      {
+        "text": "lineHeightProperty",
+        "link": "/api/variables/lineHeightProperty"
+      },
+      {
+        "text": "loadAppCss",
+        "link": "/api/variables/loadAppCss"
+      },
+      {
+        "text": "lowMemoryEvent",
+        "link": "/api/variables/lowMemoryEvent"
+      },
+      {
+        "text": "marginBottomProperty",
+        "link": "/api/variables/marginBottomProperty"
+      },
+      {
+        "text": "marginLeftProperty",
+        "link": "/api/variables/marginLeftProperty"
+      },
+      {
+        "text": "marginRightProperty",
+        "link": "/api/variables/marginRightProperty"
+      },
+      {
+        "text": "marginTopProperty",
+        "link": "/api/variables/marginTopProperty"
+      },
+      {
+        "text": "maxLengthProperty",
+        "link": "/api/variables/maxLengthProperty"
+      },
+      {
+        "text": "minHeightProperty",
+        "link": "/api/variables/minHeightProperty"
+      },
+      {
+        "text": "minWidthProperty",
+        "link": "/api/variables/minWidthProperty"
+      },
+      {
+        "text": "notify",
+        "link": "/api/variables/notify"
+      },
+      {
+        "text": "off",
+        "link": "/api/variables/off"
+      },
+      {
+        "text": "on",
+        "link": "/api/variables/on"
+      },
+      {
+        "text": "opacityProperty",
+        "link": "/api/variables/opacityProperty"
+      },
+      {
+        "text": "orientation",
+        "link": "/api/variables/orientation"
+      },
+      {
+        "text": "orientationChangedEvent",
+        "link": "/api/variables/orientationChangedEvent"
+      },
+      {
+        "text": "paddingBottomProperty",
+        "link": "/api/variables/paddingBottomProperty"
+      },
+      {
+        "text": "paddingInternalProperty",
+        "link": "/api/variables/paddingInternalProperty"
+      },
+      {
+        "text": "paddingLeftProperty",
+        "link": "/api/variables/paddingLeftProperty"
+      },
+      {
+        "text": "paddingRightProperty",
+        "link": "/api/variables/paddingRightProperty"
+      },
+      {
+        "text": "paddingTopProperty",
+        "link": "/api/variables/paddingTopProperty"
+      },
+      {
+        "text": "perspectiveProperty",
+        "link": "/api/variables/perspectiveProperty"
+      },
+      {
+        "text": "placeholderColorProperty",
+        "link": "/api/variables/placeholderColorProperty"
+      },
+      {
+        "text": "platformNames",
+        "link": "/api/variables/platformNames"
+      },
+      {
+        "text": "resetRootView",
+        "link": "/api/variables/resetRootView-1"
+      },
+      {
+        "text": "resumeEvent",
+        "link": "/api/variables/resumeEvent"
+      },
+      {
+        "text": "returnKeyTypeProperty",
+        "link": "/api/variables/returnKeyTypeProperty"
+      },
+      {
+        "text": "rotateProperty",
+        "link": "/api/variables/rotateProperty"
+      },
+      {
+        "text": "rotateXProperty",
+        "link": "/api/variables/rotateXProperty"
+      },
+      {
+        "text": "rotateYProperty",
+        "link": "/api/variables/rotateYProperty"
+      },
+      {
+        "text": "run",
+        "link": "/api/variables/run"
+      },
+      {
+        "text": "scaleXProperty",
+        "link": "/api/variables/scaleXProperty"
+      },
+      {
+        "text": "scaleYProperty",
+        "link": "/api/variables/scaleYProperty"
+      },
+      {
+        "text": "SceneEvents",
+        "link": "/api/variables/SceneEvents"
+      },
+      {
+        "text": "setAutoSystemAppearanceChanged",
+        "link": "/api/variables/setAutoSystemAppearanceChanged"
+      },
+      {
+        "text": "setCssFileName",
+        "link": "/api/variables/setCssFileName"
+      },
+      {
+        "text": "setMaxRefreshRate",
+        "link": "/api/variables/setMaxRefreshRate"
+      },
+      {
+        "text": "setResources",
+        "link": "/api/variables/setResources"
+      },
+      {
+        "text": "suspended",
+        "link": "/api/variables/suspended"
+      },
+      {
+        "text": "suspendEvent",
+        "link": "/api/variables/suspendEvent"
+      },
+      {
+        "text": "systemAppearance",
+        "link": "/api/variables/systemAppearance"
+      },
+      {
+        "text": "systemAppearanceChanged",
+        "link": "/api/variables/systemAppearanceChanged"
+      },
+      {
+        "text": "systemAppearanceChangedEvent",
+        "link": "/api/variables/systemAppearanceChangedEvent"
+      },
+      {
+        "text": "textAlignmentProperty",
+        "link": "/api/variables/textAlignmentProperty"
+      },
+      {
+        "text": "textDecorationProperty",
+        "link": "/api/variables/textDecorationProperty"
+      },
+      {
+        "text": "textOverflowProperty",
+        "link": "/api/variables/textOverflowProperty"
+      },
+      {
+        "text": "textShadowProperty",
+        "link": "/api/variables/textShadowProperty"
+      },
+      {
+        "text": "textStrokeProperty",
+        "link": "/api/variables/textStrokeProperty"
+      },
+      {
+        "text": "textTransformProperty",
+        "link": "/api/variables/textTransformProperty"
+      },
+      {
+        "text": "translateXProperty",
+        "link": "/api/variables/translateXProperty"
+      },
+      {
+        "text": "translateYProperty",
+        "link": "/api/variables/translateYProperty"
+      },
+      {
+        "text": "uncaughtErrorEvent",
+        "link": "/api/variables/uncaughtErrorEvent"
+      },
+      {
+        "text": "unsetValue",
+        "link": "/api/variables/unsetValue"
+      },
+      {
+        "text": "updateTextTriggerProperty",
+        "link": "/api/variables/updateTextTriggerProperty"
+      },
+      {
+        "text": "VALID_FONT_SCALES",
+        "link": "/api/variables/VALID_FONT_SCALES"
+      },
+      {
+        "text": "verticalAlignmentProperty",
+        "link": "/api/variables/verticalAlignmentProperty"
+      },
+      {
+        "text": "visibilityProperty",
+        "link": "/api/variables/visibilityProperty"
+      },
+      {
+        "text": "whiteSpaceProperty",
+        "link": "/api/variables/whiteSpaceProperty"
+      },
+      {
+        "text": "widthProperty",
+        "link": "/api/variables/widthProperty"
+      },
+      {
+        "text": "zIndexProperty",
+        "link": "/api/variables/zIndexProperty"
+      }
+    ]
+  },
+  {
+    "text": "Functions",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "_resolveAnimationCurve",
+        "link": "/api/functions/resolveAnimationCurve"
+      },
+      {
+        "text": "_setResolver",
+        "link": "/api/functions/setResolver"
+      },
+      {
+        "text": "action",
+        "link": "/api/functions/action"
+      },
+      {
+        "text": "addTaggedAdditionalCSS",
+        "link": "/api/functions/addTaggedAdditionalCSS"
+      },
+      {
+        "text": "addWeakEventListener",
+        "link": "/api/functions/addWeakEventListener"
+      },
+      {
+        "text": "alert",
+        "link": "/api/functions/alert"
+      },
+      {
+        "text": "animationTimingFunctionConverter",
+        "link": "/api/functions/animationTimingFunctionConverter"
+      },
+      {
+        "text": "booleanConverter",
+        "link": "/api/functions/booleanConverter"
+      },
+      {
+        "text": "confirm",
+        "link": "/api/functions/confirm"
+      },
+      {
+        "text": "CSSType",
+        "link": "/api/functions/CSSType"
+      },
+      {
+        "text": "eachDescendant",
+        "link": "/api/functions/eachDescendant"
+      },
+      {
+        "text": "fromObject",
+        "link": "/api/functions/fromObject"
+      },
+      {
+        "text": "fromObjectRecursive",
+        "link": "/api/functions/fromObjectRecursive"
+      },
+      {
+        "text": "getAncestor",
+        "link": "/api/functions/getAncestor"
+      },
+      {
+        "text": "getAndroidAccessibilityManager",
+        "link": "/api/functions/getAndroidAccessibilityManager"
+      },
+      {
+        "text": "getCurrentFontScale",
+        "link": "/api/functions/getCurrentFontScale"
+      },
+      {
+        "text": "getCurrentPage",
+        "link": "/api/functions/getCurrentPage"
+      },
+      {
+        "text": "getFileAccess",
+        "link": "/api/functions/getFileAccess"
+      },
+      {
+        "text": "getLastFocusedViewOnPage",
+        "link": "/api/functions/getLastFocusedViewOnPage"
+      },
+      {
+        "text": "getNativeApp",
+        "link": "/api/functions/getNativeApp"
+      },
+      {
+        "text": "getRootLayout",
+        "link": "/api/functions/getRootLayout"
+      },
+      {
+        "text": "getRootLayoutById",
+        "link": "/api/functions/getRootLayoutById"
+      },
+      {
+        "text": "getTransformedText",
+        "link": "/api/functions/getTransformedText"
+      },
+      {
+        "text": "getViewById",
+        "link": "/api/functions/getViewById"
+      },
+      {
+        "text": "initializeSdkVersionClass",
+        "link": "/api/functions/initializeSdkVersionClass"
+      },
+      {
+        "text": "isAccessibilityServiceEnabled",
+        "link": "/api/functions/isAccessibilityServiceEnabled"
+      },
+      {
+        "text": "isEmbedded",
+        "link": "/api/functions/isEmbedded"
+      },
+      {
+        "text": "login",
+        "link": "/api/functions/login"
+      },
+      {
+        "text": "makeParser",
+        "link": "/api/functions/makeParser"
+      },
+      {
+        "text": "makeValidator",
+        "link": "/api/functions/makeValidator"
+      },
+      {
+        "text": "parseCSSShadow",
+        "link": "/api/functions/parseCSSShadow"
+      },
+      {
+        "text": "parseCSSStroke",
+        "link": "/api/functions/parseCSSStroke"
+      },
+      {
+        "text": "parseKeyframeDeclarations",
+        "link": "/api/functions/parseKeyframeDeclarations"
+      },
+      {
+        "text": "profile",
+        "link": "/api/functions/profile"
+      },
+      {
+        "text": "profilingDisable",
+        "link": "/api/functions/profilingDisable"
+      },
+      {
+        "text": "profilingDumpProfiles",
+        "link": "/api/functions/profilingDumpProfiles"
+      },
+      {
+        "text": "profilingEnable",
+        "link": "/api/functions/profilingEnable"
+      },
+      {
+        "text": "profilingIsRunning",
+        "link": "/api/functions/profilingIsRunning"
+      },
+      {
+        "text": "profilingResetProfiles",
+        "link": "/api/functions/profilingResetProfiles"
+      },
+      {
+        "text": "profilingStart",
+        "link": "/api/functions/profilingStart"
+      },
+      {
+        "text": "profilingStartCPU",
+        "link": "/api/functions/profilingStartCPU"
+      },
+      {
+        "text": "profilingStop",
+        "link": "/api/functions/profilingStop"
+      },
+      {
+        "text": "profilingStopCPU",
+        "link": "/api/functions/profilingStopCPU"
+      },
+      {
+        "text": "profilingTime",
+        "link": "/api/functions/profilingTime"
+      },
+      {
+        "text": "profilingUptime",
+        "link": "/api/functions/profilingUptime"
+      },
+      {
+        "text": "prompt",
+        "link": "/api/functions/prompt"
+      },
+      {
+        "text": "PseudoClassHandler",
+        "link": "/api/functions/PseudoClassHandler"
+      },
+      {
+        "text": "querySelectorAll",
+        "link": "/api/functions/querySelectorAll"
+      },
+      {
+        "text": "removeTaggedAdditionalCSS",
+        "link": "/api/functions/removeTaggedAdditionalCSS"
+      },
+      {
+        "text": "removeWeakEventListener",
+        "link": "/api/functions/removeWeakEventListener"
+      },
+      {
+        "text": "resolveFileNameFromUrl",
+        "link": "/api/functions/resolveFileNameFromUrl"
+      },
+      {
+        "text": "sendAccessibilityEvent",
+        "link": "/api/functions/sendAccessibilityEvent"
+      },
+      {
+        "text": "setActivityCallbacks",
+        "link": "/api/functions/setActivityCallbacks"
+      },
+      {
+        "text": "setNativeApp",
+        "link": "/api/functions/setNativeApp"
+      },
+      {
+        "text": "timeConverter",
+        "link": "/api/functions/timeConverter"
+      },
+      {
+        "text": "updateAccessibilityProperties",
+        "link": "/api/functions/updateAccessibilityProperties"
+      }
+    ]
+  }
+]

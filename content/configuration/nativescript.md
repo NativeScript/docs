@@ -175,9 +175,9 @@ See [Hooks Configuration Reference](#hooks-configuration-reference)
 
 NativeScript supports dynamic `import()` from remote URLs. This is useful during development but carries security implications in production since NativeScript code has **direct access to native platform APIs** (file system, keychain, network, camera, etc.).
 
-| Mode | Remote Modules |
-|------|----------------|
-| **Debug** | ✅ Always allowed |
+| Mode           | Remote Modules        |
+| -------------- | --------------------- |
+| **Debug**      | ✅ Always allowed     |
 | **Production** | ❌ Blocked by default |
 
 #### Enabling Remote Modules in Production
@@ -190,10 +190,10 @@ import { NativeScriptConfig } from '@nativescript/core'
 export default {
   id: 'org.nativescript.myapp',
   appPath: 'src',
-  
+
   security: {
-    allowRemoteModules: true
-  }
+    allowRemoteModules: true,
+  },
 } as NativeScriptConfig
 ```
 
@@ -208,9 +208,9 @@ export default {
     allowRemoteModules: true,
     remoteModuleAllowlist: [
       'https://cdn.yourcompany.com/modules/',
-      'https://esm.sh/@yourorg/'
-    ]
-  }
+      'https://esm.sh/@yourorg/',
+    ],
+  },
 } as NativeScriptConfig
 ```
 
@@ -553,9 +553,9 @@ security.allowRemoteModules: boolean = false;
 
 Enable remote ES module loading in production builds.
 
-| Mode | Remote Modules |
-|------|----------------|
-| **Debug** (local development) | ✅ Always allowed |
+| Mode                            | Remote Modules        |
+| ------------------------------- | --------------------- |
+| **Debug** (local development)   | ✅ Always allowed     |
 | **Production** (Release builds) | ❌ Blocked by default |
 
 When `false` (the default), any attempt to `import("https://...")` in production will throw an error. This is a security measure because NativeScript code has **direct access to native platform APIs** (file system, keychain, network, camera, etc.).
@@ -564,8 +564,8 @@ When `false` (the default), any attempt to `import("https://...")` in production
 export default {
   // ...
   security: {
-    allowRemoteModules: true
-  }
+    allowRemoteModules: true,
+  },
 } as NativeScriptConfig
 ```
 
@@ -590,19 +590,19 @@ export default {
     allowRemoteModules: true,
     remoteModuleAllowlist: [
       'https://cdn.yourcompany.com/modules/',
-      'https://esm.sh/@yourorg/'
-    ]
-  }
+      'https://esm.sh/@yourorg/',
+    ],
+  },
 } as NativeScriptConfig
 ```
 
 #### Allowlist Examples
 
-| Allowlist Entry | Allowed URLs | Blocked URLs |
-|-----------------|--------------|--------------|
-| `https://cdn.example.com/` | `https://cdn.example.com/mod.js` | `https://other.com/mod.js` |
-| `https://esm.sh/@myorg/` | `https://esm.sh/@myorg/pkg` | `https://esm.sh/@other/pkg` |
-| `https://unpkg.com/` | `https://unpkg.com/lodash` | `http://unpkg.com/lodash` (http blocked) |
+| Allowlist Entry            | Allowed URLs                     | Blocked URLs                             |
+| -------------------------- | -------------------------------- | ---------------------------------------- |
+| `https://cdn.example.com/` | `https://cdn.example.com/mod.js` | `https://other.com/mod.js`               |
+| `https://esm.sh/@myorg/`   | `https://esm.sh/@myorg/pkg`      | `https://esm.sh/@other/pkg`              |
+| `https://unpkg.com/`       | `https://unpkg.com/lodash`       | `http://unpkg.com/lodash` (http blocked) |
 
 If the allowlist is empty or not provided (and `allowRemoteModules` is `true`), all HTTPS URLs are allowed — this is **not recommended** for production.
 
@@ -612,7 +612,7 @@ When remote module loading is blocked, you'll see clear error messages:
 
 ```
 // Remote modules disabled
-Remote ES modules are not allowed in production. URL: https://example.com/mod.js. 
+Remote ES modules are not allowed in production. URL: https://example.com/mod.js.
 Enable via security.allowRemoteModules in nativescript.config.ts
 
 // URL not in allowlist
