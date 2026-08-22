@@ -145,6 +145,27 @@ export default defineConfig(({ mode }): UserConfig => {
 })
 ```
 
+### Octane
+
+[Octane](https://octanejs.dev) support ships as a community package, [`@nativescript-community/vite-octane`](https://github.com/nativescript-community/octane), rather than inside `@nativescript/vite`:
+
+```ts
+import { defineConfig, UserConfig } from 'vite'
+import { octaneConfig } from '@nativescript-community/vite-octane'
+import { nativeScriptRenderers } from './src/octane/config'
+
+export default defineConfig(
+  ({ mode }): UserConfig =>
+    octaneConfig({ mode }, { octane: { renderers: nativeScriptRenderers } }),
+)
+```
+
+`octane.renderers` is the renderer config `@octanejs/vite-plugin` would otherwise read from `octane.config.ts`; a NativeScript renderer is not one of Octane's built-ins, so the app supplies its own. See [ns-octane](https://github.com/NathanWalker/ns-octane) for a complete app.
+
+### Other frameworks
+
+Any framework can provide its own flavor — a config helper, a server strategy and a device-side HMR strategy — from its own package, using the public flavor API. The Octane package above is built entirely on it. See [Framework Flavors](/configuration/vite-framework-flavors).
+
 The above config configures most things required to bundle a NativeScript application.
 
 This page contains examples of common things you might want to change in the [Examples of configurations section](#configuration-examples) - for anything else not mentioned here, refer to the [Vite documentation](https://vite.dev/config/).
