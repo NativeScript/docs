@@ -5,7 +5,7 @@ description: Used with qualifier matchers and module resolution
 contributors: false
 ---
 
-Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
+Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
 
 Used with qualifier matchers and module resolution
 
@@ -17,7 +17,7 @@ Used with qualifier matchers and module resolution
 deviceType: string;
 ```
 
-Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
+Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com
 height: number;
 ```
 
-Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
+Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
 
 ***
 
@@ -37,7 +37,7 @@ Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com
 os: string;
 ```
 
-Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
+Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
 
 ***
 
@@ -47,4 +47,4 @@ Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com
 width: number;
 ```
 
-Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)
+Defined in: [module-name-resolver/qualifier-matcher/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/module-name-resolver/qualifier-matcher/index.ts)

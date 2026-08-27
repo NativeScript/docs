@@ -5,7 +5,7 @@ description: Observable is used when you want to be notified when a change occur
 contributors: false
 ---
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener.
 Please note that should you be using the `new Observable({})` constructor, it is **obsolete** since v3.0,
@@ -23,7 +23,7 @@ and you have to migrate to the "data/observable" `fromObject({})` or the `fromOb
 new Style(ownerView: ViewBase | WeakRef<ViewBase>): Style;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessibilityHidden: boolean;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessibilityLanguage: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -67,7 +67,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessibilityLiveRegion: AccessibilityLiveRegion;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -77,7 +77,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessibilityMediaSession: boolean;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -87,7 +87,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessibilityRole: AccessibilityRole;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -97,7 +97,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessibilityState: AccessibilityState;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -107,7 +107,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessibilityStep: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -117,7 +117,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 accessible: boolean;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -127,7 +127,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 alignContent: AlignContent;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -137,7 +137,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 alignItems: AlignItems;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -147,7 +147,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 alignSelf: AlignSelf;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -161,7 +161,7 @@ androidContentInset:
   | LengthPxUnit;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -171,7 +171,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 androidContentInsetLeft: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -181,7 +181,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 androidContentInsetRight: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -191,7 +191,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 androidDynamicElevationOffset: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -201,7 +201,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 androidElevation: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -211,7 +211,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 androidSelectedTabHighlightColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -221,7 +221,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 androidStatusBarBackground: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -231,7 +231,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 background: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -241,7 +241,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 backgroundColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -251,7 +251,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 backgroundImage: string | LinearGradient;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -261,7 +261,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 backgroundInternal: Background;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -271,7 +271,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 backgroundPosition: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -281,7 +281,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 backgroundRepeat: BackgroundRepeatType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -291,7 +291,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 backgroundSize: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -301,7 +301,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderBottomColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -311,7 +311,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderBottomLeftRadius: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -321,7 +321,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderBottomRightRadius: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -331,7 +331,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderBottomWidth: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -341,7 +341,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderColor: string | Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -351,7 +351,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderLeftColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -361,7 +361,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderLeftWidth: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -375,7 +375,7 @@ borderRadius:
   | LengthPxUnit;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -385,7 +385,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderRightColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -395,7 +395,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderRightWidth: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -405,7 +405,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderTopColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -415,7 +415,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderTopLeftRadius: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -425,7 +425,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderTopRightRadius: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -435,7 +435,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 borderTopWidth: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -449,7 +449,7 @@ borderWidth:
   | LengthPxUnit;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -459,7 +459,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 boxShadow: string | ShadowCSSValues[];
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -469,7 +469,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 clipPath: string | ClipPathFunction;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -479,7 +479,31 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 color: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
+
+***
+
+### columnGap
+
+```ts
+columnGap: LengthType;
+```
+
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
+
+***
+
+### cornerShape
+
+```ts
+cornerShape: CornerShapeType;
+```
+
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
+
+The curve used to round the corners: 'round' (circular arcs, the default)
+or 'squircle' (Apple's continuous corner curve). iOS only; Android always
+renders circular corners.
 
 ***
 
@@ -489,7 +513,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 direction: LayoutDirectionType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -499,7 +523,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 flex: Flex;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -509,7 +533,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 flexDirection: FlexDirection;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -531,7 +555,7 @@ flexFlow:
   | "column-reverse wrap-reverse";
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -541,7 +565,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 flexGrow: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -551,7 +575,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 flexShrink: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -561,7 +585,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 flexWrap: FlexWrap;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -571,7 +595,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 flexWrapBefore: boolean;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -581,7 +605,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 font: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -591,7 +615,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 fontFamily: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -601,7 +625,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 fontInternal: Font;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -611,7 +635,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 fontScaleInternal: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 This property ensures inheritance of a11y scale among views.
 
@@ -623,7 +647,7 @@ This property ensures inheritance of a11y scale among views.
 fontSize: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -633,7 +657,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 fontStyle: FontStyleType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -643,7 +667,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 fontVariationSettings: FontVariationSettingsType[];
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -653,7 +677,21 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 fontWeight: FontWeightType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
+
+***
+
+### gap
+
+```ts
+gap: 
+  | string
+  | number
+  | LengthDipUnit
+  | LengthPxUnit;
+```
+
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -663,7 +701,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 height: PercentLengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -673,7 +711,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 horizontalAlignment: HorizontalAlignmentType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -683,7 +721,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 iconFontFamily: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -693,7 +731,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 iosAccessibilityAdjustsFontSize: boolean;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -703,7 +741,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 iosAccessibilityMaxFontScale: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -713,7 +751,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 iosAccessibilityMinFontScale: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -723,7 +761,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 justifyContent: JustifyContent;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -733,7 +771,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 letterSpacing: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -743,7 +781,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 lineHeight: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -758,7 +796,7 @@ margin:
   | LengthPercentUnit;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -768,7 +806,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 marginBottom: PercentLengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -778,7 +816,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 marginLeft: PercentLengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -788,7 +826,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 marginRight: PercentLengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -798,7 +836,17 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 marginTop: PercentLengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
+
+***
+
+### maxHeight
+
+```ts
+maxHeight: PercentLengthType;
+```
+
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -808,7 +856,17 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 maxLines: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
+
+***
+
+### maxWidth
+
+```ts
+maxWidth: PercentLengthType;
+```
+
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -818,7 +876,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 minHeight: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -828,7 +886,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 minWidth: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -838,7 +896,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 opacity: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -848,7 +906,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 order: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -862,7 +920,7 @@ padding:
   | LengthPxUnit;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -872,7 +930,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 paddingBottom: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -882,7 +940,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 paddingInternal: string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -892,7 +950,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 paddingLeft: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -902,7 +960,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 paddingRight: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -912,7 +970,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 paddingTop: LengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -922,7 +980,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 perspective: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -932,7 +990,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 placeholderColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -949,7 +1007,7 @@ PropertyBag: {
 };
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Returns
 
@@ -981,7 +1039,7 @@ prototype: {
 rotate: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -991,7 +1049,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 rotateX: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1001,7 +1059,17 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 rotateY: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
+
+***
+
+### rowGap
+
+```ts
+rowGap: LengthType;
+```
+
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1011,7 +1079,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 scaleX: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1021,7 +1089,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 scaleY: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1031,7 +1099,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 selectedBackgroundColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1041,7 +1109,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 selectedTabTextColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1051,7 +1119,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 selectedTextColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1061,7 +1129,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 separatorColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1071,7 +1139,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 statusBarStyle: "dark" | "light";
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1081,7 +1149,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 tabBackgroundColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1091,7 +1159,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 tabTextColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1101,7 +1169,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 tabTextFontSize: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1111,7 +1179,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 textAlignment: TextAlignmentType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1121,7 +1189,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 textDecoration: TextDecorationType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1131,7 +1199,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 textOverflow: TextOverflowType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1141,7 +1209,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 textShadow: ShadowCSSValues;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1151,7 +1219,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 textStroke: StrokeCSSValues;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1161,7 +1229,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 textTransform: TextTransformType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1171,7 +1239,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 tintColor: Color;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1181,7 +1249,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 translateX: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1191,7 +1259,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 translateY: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1201,7 +1269,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 verticalAlignment: VerticalAlignmentType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1211,7 +1279,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 viewRef: WeakRef<ViewBase>;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1221,7 +1289,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 visibility: VisibilityType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1231,7 +1299,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 whiteSpace: WhiteSpaceType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1241,7 +1309,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 width: PercentLengthType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1251,7 +1319,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 zIndex: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -1261,7 +1329,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 static propertyChangeEvent: string;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 String value used when hooking to propertyChange event.
 
@@ -1283,7 +1351,7 @@ propertyChange
 get view(): ViewBase;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ##### Returns
 
@@ -1300,7 +1368,7 @@ _createPropertyChangeData(
    oldValue?: any): PropertyChangeData;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 This method is intended to be overriden by inheritors to provide additional implementation.
 
@@ -1328,7 +1396,7 @@ This method is intended to be overriden by inheritors to provide additional impl
 _emit(eventName: string): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 #### Parameters
 
@@ -1356,7 +1424,7 @@ addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -1385,7 +1453,7 @@ Adds a listener for the specified event name.
 get(name: string): any;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Gets the value of the specified property.
 
@@ -1411,7 +1479,7 @@ Gets the value of the specified property.
 getCssVariable(varName: string): string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Parameters
 
@@ -1431,7 +1499,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 hasListeners(eventName: string): boolean;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Checks whether a listener is registered for the specified event name.
 
@@ -1457,7 +1525,7 @@ Checks whether a listener is registered for the specified event name.
 notify<T>(data: T): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Notify this Observable instance with some data. This causes all event
 handlers on the Observable instance to be called, as well as any 'global'
@@ -1494,7 +1562,7 @@ notifyPropertyChange(
    oldValue?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Notifies all the registered listeners for the property change event.
 
@@ -1525,7 +1593,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Removes the listener(s) for the specified event name.
 
@@ -1556,7 +1624,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name.
 
@@ -1587,7 +1655,7 @@ once(
    thisArg?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Adds a listener for the specified event name, which, once fired, will
 remove itself.
@@ -1619,7 +1687,7 @@ removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Removes listener(s) for the specified event name.
 
@@ -1647,7 +1715,7 @@ Removes listener(s) for the specified event name.
 removeScopedCssVariable(varName: string): void;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Parameters
 
@@ -1667,7 +1735,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 removeUnscopedCssVariable(varName: string): void;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Parameters
 
@@ -1687,7 +1755,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 resetScopedCssVariables(): void;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Returns
 
@@ -1701,7 +1769,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 resetUnscopedCssVariables(): void;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Returns
 
@@ -1715,7 +1783,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 set(name: string, value: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value.
 
@@ -1742,7 +1810,7 @@ Updates the specified property with the provided value.
 setProperty(name: string, value: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Updates the specified property with the provided value and raises a property change event and a specific change event based on the property name.
 
@@ -1769,7 +1837,7 @@ Updates the specified property with the provided value and raises a property cha
 setScopedCssVariable(varName: string, value: string): void;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Parameters
 
@@ -1790,7 +1858,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 setUnscopedCssVariable(varName: string, value: string): void;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 #### Parameters
 
@@ -1811,7 +1879,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 toString(): string;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 Returns a string representation of an object.
 
@@ -1831,7 +1899,7 @@ static addEventListener(
    once?: boolean): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1866,7 +1934,7 @@ static off(
    thisArg?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1901,7 +1969,7 @@ static on(
    once?: boolean): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1936,7 +2004,7 @@ static once(
    thisArg?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.
@@ -1970,7 +2038,7 @@ static removeEventListener(
    thisArg?: any): void;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Please avoid using the static event-handling APIs as they will be removed
 in future.

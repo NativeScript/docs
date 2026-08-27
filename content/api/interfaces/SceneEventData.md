@@ -5,13 +5,19 @@ description: iOS Event data containing information for scene lifecycle events (i
 contributors: false
 ---
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 iOS Event data containing information for scene lifecycle events (iOS 13+).
 
 ## Extends
 
 - [`ApplicationEventData`](ApplicationEventData.md)
+
+## Extended by
+
+- [`SceneOpenURLContextsEventData`](SceneOpenURLContextsEventData.md)
+- [`SceneContinueUserActivityEventData`](SceneContinueUserActivityEventData.md)
+- [`ScenePerformActionForShortcutItemEventData`](ScenePerformActionForShortcutItemEventData.md)
 
 ## Properties
 
@@ -21,7 +27,7 @@ iOS Event data containing information for scene lifecycle events (iOS 13+).
 optional android?: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Gets the native Android event arguments. Valid only when running on Android.
 
@@ -37,7 +43,7 @@ Gets the native Android event arguments. Valid only when running on Android.
 optional connectionOptions?: UISceneConnectionOptions;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Scene connection options (for sceneWillConnect event).
 
@@ -49,7 +55,7 @@ Scene connection options (for sceneWillConnect event).
 eventName: string;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The name of the event.
 
@@ -65,7 +71,7 @@ The name of the event.
 optional ios?: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Gets the native iOS event arguments. Valid only when running on iOS.
 
@@ -81,7 +87,7 @@ Gets the native iOS event arguments. Valid only when running on iOS.
 object: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The instance that has raised the event.
 
@@ -97,9 +103,21 @@ The instance that has raised the event.
 optional scene?: UIWindowScene;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The UIWindowScene instance associated with this event.
+
+***
+
+### uiWindow?
+
+```ts
+optional uiWindow?: UIWindow;
+```
+
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
+
+The UIWindow associated with this scene (if applicable).
 
 ***
 
@@ -109,7 +127,7 @@ The UIWindowScene instance associated with this event.
 optional userInfo?: NSDictionary<any, any>;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Additional user info from the notification.
 
@@ -118,9 +136,9 @@ Additional user info from the notification.
 ### window?
 
 ```ts
-optional window?: UIWindow;
+optional window?: NativeWindow;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
-The UIWindow associated with this scene (if applicable).
+The NativeWindow the scene belongs to, when one is registered for it.

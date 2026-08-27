@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-stroke.ts)
+Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-stroke.ts)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScr
 color: Color;
 ```
 
-Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-stroke.ts)
+Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-stroke.ts)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScr
 width: LengthType;
 ```
 
-Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-stroke.ts)
+Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-stroke.ts)

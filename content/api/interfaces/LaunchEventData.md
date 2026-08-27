@@ -5,7 +5,7 @@ description: Event data containing information for launch event.
 contributors: false
 ---
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Event data containing information for launch event.
 
@@ -21,7 +21,7 @@ Event data containing information for launch event.
 optional android?: Intent;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 ***
 
@@ -31,7 +31,7 @@ Defined in: [application/application-interfaces.ts](https://github.com/NativeScr
 eventName: string;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -47,7 +47,7 @@ The name of the event.
 optional ios?: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [application/application-interfaces.ts](https://github.com/NativeScr
 object: Observable;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -73,7 +73,7 @@ The Observable instance that has raised the event.
 optional root?: View;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The root view for this Window on iOS or Activity for Android.
 If not set a new Frame will be created as a root view in order to maintain backwards compatibility.
@@ -87,4 +87,4 @@ If explicitly set to null, there will be no root view.
 optional savedInstanceState?: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)

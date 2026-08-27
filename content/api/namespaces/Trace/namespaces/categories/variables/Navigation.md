@@ -8,4 +8,4 @@ contributors: false
 const Navigation: "Navigation" = 'Navigation';
 ```
 
-Defined in: [trace/index.d.ts:113](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/trace/index.d.ts#L113)
+Defined in: [trace/index.d.ts:113](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/trace/index.d.ts#L113)

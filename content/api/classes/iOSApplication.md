@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [application/application.d.ts:152](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L152)
+Defined in: [application/application.d.ts:175](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L175)
 
 ## Extends
 
@@ -12,19 +12,17 @@ Defined in: [application/application.d.ts:152](https://github.com/NativeScript/N
 
 ## Properties
 
-### autoSystemAppearanceChanged
+### \_windows
 
 ```ts
-autoSystemAppearanceChanged: boolean;
+protected _windows: NativeWindow[];
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
-
-Boolean to enable/disable systemAppearanceChanged
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
-[`ApplicationCommon`](ApplicationCommon.md).[`autoSystemAppearanceChanged`](ApplicationCommon.md#autosystemappearancechanged)
+[`ApplicationCommon`](ApplicationCommon.md).[`_windows`](ApplicationCommon.md#windows)
 
 ***
 
@@ -34,7 +32,7 @@ Boolean to enable/disable systemAppearanceChanged
 readonly backgroundEvent: "background" = "background";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -48,7 +46,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly cssChangedEvent: "cssChanged" = "cssChanged";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -62,7 +60,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly discardedErrorEvent: "discardedError" = "discardedError";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -76,7 +74,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly displayedEvent: "displayed" = "displayed";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -90,7 +88,10 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly exitEvent: "exit" = "exit";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+On Android, raised when the last window closes; the process may stay alive.
+On iOS, raised when the process itself terminates.
 
 #### Inherited from
 
@@ -104,7 +105,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly fontScaleChangedEvent: "fontScaleChanged" = "fontScaleChanged";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -118,7 +119,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly foregroundEvent: "foreground" = "foreground";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -132,7 +133,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 hasListeners: (eventName: string) => boolean;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -156,7 +157,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly initRootViewEvent: "initRootView" = "initRootView";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -164,13 +165,17 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 
 ***
 
-### launchEvent
+### ~~launchEvent~~
 
 ```ts
 readonly launchEvent: "launch" = "launch";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+#### Deprecated
+
+Use the 'ready' event for application initialization and Application.setWindowContentResolver() to provide window UI. 'launch' continues to fire before the first window's content is created, and its 'root' property is still honored, for backwards compatibility. It never fires for additional windows. In a scene-based app it fires with the first window's content, so a background launch that connects no scene does not raise it.
 
 #### Inherited from
 
@@ -184,7 +189,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly layoutDirectionChangedEvent: "layoutDirectionChanged" = "layoutDirectionChanged";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -198,7 +203,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly livesyncEvent: "livesync" = "livesync";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -212,7 +217,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly loadAppCssEvent: "loadAppCss" = "loadAppCss";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -226,7 +231,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly lowMemoryEvent: "lowMemory" = "lowMemory";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -240,7 +245,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 protected mainEntry: NavigationEntry;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -254,7 +259,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 notify: <T>(eventData: T) => void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Type Parameters
 
@@ -284,7 +289,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 off: (eventNames: string, callback?: any, thisArg?: any) => void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -307,375 +312,12 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 ### on
 
 ```ts
-on: {
-  (eventNames: string, callback: (args: ApplicationEventData) => void, thisArg?: any): void;
-  (event: "cssChanged", callback: (args: CssChangedEventData) => void, thisArg?: any): void;
-  (event: "livesync", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
-  (event: "launch", callback: (args: LaunchEventData) => void, thisArg?: any): void;
-  (event: "displayed", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
-  (event: "suspend", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
-  (event: "resume", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
-  (event: "exit", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
-  (event: "lowMemory", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
-  (event: "uncaughtError", callback: (args: UnhandledErrorEventData) => void, thisArg?: any): void;
-  (event: "discardedError", callback: (args: DiscardedErrorEventData) => void, thisArg?: any): void;
-  (event: "orientationChanged", callback: (args: OrientationChangedEventData) => void, thisArg?: any): void;
-  (event: "systemAppearanceChanged", callback: (args: SystemAppearanceChangedEventData) => void, thisArg?: any): void;
-  (event: "layoutDirectionChanged", callback: (args: LayoutDirectionChangedEventData) => void, thisArg?: any): void;
-  (event: "fontScaleChanged", callback: (args: FontScaleChangedEventData) => void, thisArg?: any): void;
-};
+on: IOSApplicationOn;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application.d.ts:176](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L176)
 
-#### Call Signature
-
-```ts
-(
-   eventNames: string, 
-   callback: (args: ApplicationEventData) => void, 
-   thisArg?: any): void;
-```
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `eventNames` | `string` |
-| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "cssChanged", 
-   callback: (args: CssChangedEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when application css is changed.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"cssChanged"` |
-| `callback` | (`args`: [`CssChangedEventData`](../interfaces/CssChangedEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "livesync", 
-   callback: (args: ApplicationEventData) => void, 
-   thisArg?: any): void;
-```
-
-Event raised then livesync operation is performed.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"livesync"` |
-| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "launch", 
-   callback: (args: LaunchEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised on application launchEvent.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"launch"` |
-| `callback` | (`args`: [`LaunchEventData`](../interfaces/LaunchEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "displayed", 
-   callback: (args: ApplicationEventData) => void, 
-   thisArg?: any): void;
-```
-
-**`Experimental`**
-
-This event is raised after the application has performed most of its startup actions.
-Its intent is to be suitable for measuring app startup times.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"displayed"` |
-| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "suspend", 
-   callback: (args: ApplicationEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when the Application is suspended.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"suspend"` |
-| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "resume", 
-   callback: (args: ApplicationEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when the Application is resumed after it has been suspended.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"resume"` |
-| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "exit", 
-   callback: (args: ApplicationEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when the Application is about to exit.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"exit"` |
-| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "lowMemory", 
-   callback: (args: ApplicationEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when there is low memory on the target device.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"lowMemory"` |
-| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "uncaughtError", 
-   callback: (args: UnhandledErrorEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when an uncaught error occurs while the application is running.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"uncaughtError"` |
-| `callback` | (`args`: [`UnhandledErrorEventData`](../interfaces/UnhandledErrorEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "discardedError", 
-   callback: (args: DiscardedErrorEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when an discarded error occurs while the application is running.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"discardedError"` |
-| `callback` | (`args`: [`DiscardedErrorEventData`](../interfaces/DiscardedErrorEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "orientationChanged", 
-   callback: (args: OrientationChangedEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when the orientation of the application changes.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"orientationChanged"` |
-| `callback` | (`args`: [`OrientationChangedEventData`](../interfaces/OrientationChangedEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "systemAppearanceChanged", 
-   callback: (args: SystemAppearanceChangedEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when the operating system appearance changes
-between light and dark theme (for Android);
-between light and dark mode (for iOS) and vice versa.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"systemAppearanceChanged"` |
-| `callback` | (`args`: [`SystemAppearanceChangedEventData`](../interfaces/SystemAppearanceChangedEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "layoutDirectionChanged", 
-   callback: (args: LayoutDirectionChangedEventData) => void, 
-   thisArg?: any): void;
-```
-
-This event is raised when the operating system layout direction changes
-between ltr and rtl.
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"layoutDirectionChanged"` |
-| `callback` | (`args`: [`LayoutDirectionChangedEventData`](../interfaces/LayoutDirectionChangedEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Call Signature
-
-```ts
-(
-   event: "fontScaleChanged", 
-   callback: (args: FontScaleChangedEventData) => void, 
-   thisArg?: any): void;
-```
-
-##### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `event` | `"fontScaleChanged"` |
-| `callback` | (`args`: [`FontScaleChangedEventData`](../interfaces/FontScaleChangedEventData.md)) => `void` |
-| `thisArg?` | `any` |
-
-##### Returns
-
-`void`
-
-#### Inherited from
+#### Overrides
 
 [`ApplicationCommon`](ApplicationCommon.md).[`on`](ApplicationCommon.md#on)
 
@@ -689,6 +331,7 @@ once: {
   (event: "cssChanged", callback: (args: CssChangedEventData) => void, thisArg?: any): void;
   (event: "livesync", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "launch", callback: (args: LaunchEventData) => void, thisArg?: any): void;
+  (event: "ready", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "displayed", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "suspend", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "resume", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
@@ -700,10 +343,16 @@ once: {
   (event: "systemAppearanceChanged", callback: (args: SystemAppearanceChangedEventData) => void, thisArg?: any): void;
   (event: "layoutDirectionChanged", callback: (args: LayoutDirectionChangedEventData) => void, thisArg?: any): void;
   (event: "fontScaleChanged", callback: (args: FontScaleChangedEventData) => void, thisArg?: any): void;
+  (event: "windowOpen", callback: (args: WindowOpenEventData) => void, thisArg?: any): void;
+  (event: "windowClose", callback: (args: WindowCloseEventData) => void, thisArg?: any): void;
+  (event: "primaryWindowChanged", callback: (args: PrimaryWindowChangedEventData) => void, thisArg?: any): void;
+  (event: "sceneOpenURLContexts", callback: (args: SceneOpenURLContextsEventData) => void, thisArg?: any): void;
+  (event: "sceneContinueUserActivity", callback: (args: SceneContinueUserActivityEventData) => void, thisArg?: any): void;
+  (event: "scenePerformActionForShortcutItem", callback: (args: ScenePerformActionForShortcutItemEventData) => void, thisArg?: any): void;
 };
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Call Signature
 
@@ -799,6 +448,29 @@ This event is raised on application launchEvent.
 
 ```ts
 (
+   event: "ready", 
+   callback: (args: ApplicationEventData) => void, 
+   thisArg?: any): void;
+```
+
+This event is raised once the JS context is initialized.
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"ready"` |
+| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
    event: "displayed", 
    callback: (args: ApplicationEventData) => void, 
    thisArg?: any): void;
@@ -877,6 +549,9 @@ This event is raised when the Application is resumed after it has been suspended
 ```
 
 This event is raised when the Application is about to exit.
+
+On Android it is raised when the last window closes; the process may stay alive.
+On iOS it is raised when the process itself terminates.
 
 ##### Parameters
 
@@ -1052,9 +727,179 @@ between ltr and rtl.
 
 `void`
 
+#### Call Signature
+
+```ts
+(
+   event: "windowOpen", 
+   callback: (args: WindowOpenEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"windowOpen"` |
+| `callback` | (`args`: [`WindowOpenEventData`](../interfaces/WindowOpenEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "windowClose", 
+   callback: (args: WindowCloseEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"windowClose"` |
+| `callback` | (`args`: [`WindowCloseEventData`](../interfaces/WindowCloseEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "primaryWindowChanged", 
+   callback: (args: PrimaryWindowChangedEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"primaryWindowChanged"` |
+| `callback` | (`args`: [`PrimaryWindowChangedEventData`](../interfaces/PrimaryWindowChangedEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "sceneOpenURLContexts", 
+   callback: (args: SceneOpenURLContextsEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"sceneOpenURLContexts"` |
+| `callback` | (`args`: [`SceneOpenURLContextsEventData`](../interfaces/SceneOpenURLContextsEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "sceneContinueUserActivity", 
+   callback: (args: SceneContinueUserActivityEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"sceneContinueUserActivity"` |
+| `callback` | (`args`: [`SceneContinueUserActivityEventData`](../interfaces/SceneContinueUserActivityEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "scenePerformActionForShortcutItem", 
+   callback: (args: ScenePerformActionForShortcutItemEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"scenePerformActionForShortcutItem"` |
+| `callback` | (`args`: [`ScenePerformActionForShortcutItemEventData`](../interfaces/ScenePerformActionForShortcutItemEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
 #### Inherited from
 
 [`ApplicationCommon`](ApplicationCommon.md).[`once`](ApplicationCommon.md#once)
+
+***
+
+### onSceneConfiguration
+
+```ts
+onSceneConfiguration: (application: UIApplication, connectingSceneSession: UISceneSession, options: UISceneConnectionOptions) => any;
+```
+
+Defined in: [application/application.d.ts:358](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L358)
+
+Register a callback to intercept scene configuration.
+
+Called for every new scene session. Return a `UISceneConfiguration` to handle
+the scene yourself (e.g. CarPlay, external display), or return `null`/`undefined`
+to let NativeScript handle it with the default SceneDelegate.
+
+NativeScript only auto-manages `UIWindowSceneSessionRoleApplication` scenes.
+All other scene roles are ignored unless you provide a configuration here.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `application` | `UIApplication` |
+| `connectingSceneSession` | `UISceneSession` |
+| `options` | `UISceneConnectionOptions` |
+
+#### Returns
+
+`any`
+
+#### Example
+
+```ts
+Application.ios.onSceneConfiguration = (app, session, options) => {
+  if (session.role === CPTemplateApplicationSceneSessionRoleApplication) {
+    const config = UISceneConfiguration.configurationWithNameSessionRole('CarPlay', session.role);
+    config.delegateClass = MyCarPlaySceneDelegate;
+    return config;
+  }
+  return null;
+};
+```
 
 ***
 
@@ -1064,11 +909,46 @@ between ltr and rtl.
 readonly orientationChangedEvent: "orientationChanged" = "orientationChanged";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
 [`ApplicationCommon`](ApplicationCommon.md).[`orientationChangedEvent`](ApplicationCommon.md#orientationchangedevent)
+
+***
+
+### primaryWindowChangedEvent
+
+```ts
+readonly primaryWindowChangedEvent: "primaryWindowChanged";
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`primaryWindowChangedEvent`](ApplicationCommon.md#primarywindowchangedevent)
+
+***
+
+### readyEvent
+
+```ts
+readonly readyEvent: "ready" = "ready";
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Raised once per JS context, as soon as the context is initialized. It is never deferred,
+so it also fires on a background launch where no window is created.
+
+Guaranteed ordering: `ready` -\> `windowOpen` -\> raw connect/create events -\> content
+resolution (the legacy `launch` bridge runs here, for the first window only) -\>
+`contentLoaded` -\> `activate`/`displayed`.
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`readyEvent`](ApplicationCommon.md#readyevent)
 
 ***
 
@@ -1078,7 +958,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly resumeEvent: "resume" = "resume";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -1092,23 +972,31 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 sceneDelegate: UIWindowSceneDelegate;
 ```
 
-Defined in: [application/application.d.ts:267](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L267)
+Defined in: [application/application.d.ts:334](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L334)
 
 The scene delegate for the application.
 Get the current one or set a custom one.
 
 ***
 
-### shouldDelayLaunchEvent
+### ~~shouldDelayLaunchEvent~~
 
 ```ts
 shouldDelayLaunchEvent: boolean;
 ```
 
-Defined in: [application/application.d.ts:273](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L273)
+Defined in: [application/application.d.ts:370](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L370)
 
-Flag to be set when the launch event should be delayed until the application has become active.
-This is useful when you want to process notifications or data in the background without creating the UI.
+Delays the 'launch' event, and with it the creation of the first window's content, until the
+app first becomes active, instead of raising it while the app finishes launching.
+
+Applies to non-scene apps only. It has no effect in a scene-based app, where each window's
+content is resolved as its scene connects.
+
+#### Deprecated
+
+Use the 'ready' event for application initialization, and
+Application.setWindowContentResolver() to provide window UI.
 
 ***
 
@@ -1118,7 +1006,7 @@ This is useful when you want to process notifications or data in the background 
 started: boolean;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -1132,7 +1020,11 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly suspendEvent: "suspend" = "suspend";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Reflects whole-app state: with multiple windows it is raised once the app itself is
+no longer in the foreground, not when an individual window backgrounds. Listen on a
+NativeWindow for per-window state.
 
 #### Inherited from
 
@@ -1146,7 +1038,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly systemAppearanceChangedEvent: "systemAppearanceChanged" = "systemAppearanceChanged";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
@@ -1160,11 +1052,39 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 readonly uncaughtErrorEvent: "uncaughtError" = "uncaughtError";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Inherited from
 
 [`ApplicationCommon`](ApplicationCommon.md).[`uncaughtErrorEvent`](ApplicationCommon.md#uncaughterrorevent)
+
+***
+
+### windowCloseEvent
+
+```ts
+readonly windowCloseEvent: "windowClose";
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`windowCloseEvent`](ApplicationCommon.md#windowcloseevent)
+
+***
+
+### windowOpenEvent
+
+```ts
+readonly windowOpenEvent: "windowOpen";
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`windowOpenEvent`](ApplicationCommon.md#windowopenevent)
 
 ***
 
@@ -1174,7 +1094,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 static hasListeners: (eventName: string) => boolean;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -1202,7 +1122,7 @@ Use `Application.android.hasListeners()` instead.
 static notify: <T>(eventData: T) => void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Type Parameters
 
@@ -1236,7 +1156,7 @@ Use `Application.android.notify()` instead.
 static off: (eventNames: string, callback?: any, thisArg?: any) => void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -1268,6 +1188,7 @@ static on: {
   (event: "cssChanged", callback: (args: CssChangedEventData) => void, thisArg?: any): void;
   (event: "livesync", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "launch", callback: (args: LaunchEventData) => void, thisArg?: any): void;
+  (event: "ready", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "displayed", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "suspend", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "resume", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
@@ -1279,10 +1200,16 @@ static on: {
   (event: "systemAppearanceChanged", callback: (args: SystemAppearanceChangedEventData) => void, thisArg?: any): void;
   (event: "layoutDirectionChanged", callback: (args: LayoutDirectionChangedEventData) => void, thisArg?: any): void;
   (event: "fontScaleChanged", callback: (args: FontScaleChangedEventData) => void, thisArg?: any): void;
+  (event: "windowOpen", callback: (args: WindowOpenEventData) => void, thisArg?: any): void;
+  (event: "windowClose", callback: (args: WindowCloseEventData) => void, thisArg?: any): void;
+  (event: "primaryWindowChanged", callback: (args: PrimaryWindowChangedEventData) => void, thisArg?: any): void;
+  (event: "sceneOpenURLContexts", callback: (args: SceneOpenURLContextsEventData) => void, thisArg?: any): void;
+  (event: "sceneContinueUserActivity", callback: (args: SceneContinueUserActivityEventData) => void, thisArg?: any): void;
+  (event: "scenePerformActionForShortcutItem", callback: (args: ScenePerformActionForShortcutItemEventData) => void, thisArg?: any): void;
 };
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Call Signature
 
@@ -1378,6 +1305,29 @@ This event is raised on application launchEvent.
 
 ```ts
 (
+   event: "ready", 
+   callback: (args: ApplicationEventData) => void, 
+   thisArg?: any): void;
+```
+
+This event is raised once the JS context is initialized.
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"ready"` |
+| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
    event: "displayed", 
    callback: (args: ApplicationEventData) => void, 
    thisArg?: any): void;
@@ -1456,6 +1406,9 @@ This event is raised when the Application is resumed after it has been suspended
 ```
 
 This event is raised when the Application is about to exit.
+
+On Android it is raised when the last window closes; the process may stay alive.
+On iOS it is raised when the process itself terminates.
 
 ##### Parameters
 
@@ -1625,6 +1578,132 @@ between ltr and rtl.
 | ------ | ------ |
 | `event` | `"fontScaleChanged"` |
 | `callback` | (`args`: [`FontScaleChangedEventData`](../interfaces/FontScaleChangedEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "windowOpen", 
+   callback: (args: WindowOpenEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"windowOpen"` |
+| `callback` | (`args`: [`WindowOpenEventData`](../interfaces/WindowOpenEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "windowClose", 
+   callback: (args: WindowCloseEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"windowClose"` |
+| `callback` | (`args`: [`WindowCloseEventData`](../interfaces/WindowCloseEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "primaryWindowChanged", 
+   callback: (args: PrimaryWindowChangedEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"primaryWindowChanged"` |
+| `callback` | (`args`: [`PrimaryWindowChangedEventData`](../interfaces/PrimaryWindowChangedEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "sceneOpenURLContexts", 
+   callback: (args: SceneOpenURLContextsEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"sceneOpenURLContexts"` |
+| `callback` | (`args`: [`SceneOpenURLContextsEventData`](../interfaces/SceneOpenURLContextsEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "sceneContinueUserActivity", 
+   callback: (args: SceneContinueUserActivityEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"sceneContinueUserActivity"` |
+| `callback` | (`args`: [`SceneContinueUserActivityEventData`](../interfaces/SceneContinueUserActivityEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "scenePerformActionForShortcutItem", 
+   callback: (args: ScenePerformActionForShortcutItemEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"scenePerformActionForShortcutItem"` |
+| `callback` | (`args`: [`ScenePerformActionForShortcutItemEventData`](../interfaces/ScenePerformActionForShortcutItemEventData.md)) => `void` |
 | `thisArg?` | `any` |
 
 ##### Returns
@@ -1649,6 +1728,7 @@ static once: {
   (event: "cssChanged", callback: (args: CssChangedEventData) => void, thisArg?: any): void;
   (event: "livesync", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "launch", callback: (args: LaunchEventData) => void, thisArg?: any): void;
+  (event: "ready", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "displayed", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "suspend", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
   (event: "resume", callback: (args: ApplicationEventData) => void, thisArg?: any): void;
@@ -1660,10 +1740,16 @@ static once: {
   (event: "systemAppearanceChanged", callback: (args: SystemAppearanceChangedEventData) => void, thisArg?: any): void;
   (event: "layoutDirectionChanged", callback: (args: LayoutDirectionChangedEventData) => void, thisArg?: any): void;
   (event: "fontScaleChanged", callback: (args: FontScaleChangedEventData) => void, thisArg?: any): void;
+  (event: "windowOpen", callback: (args: WindowOpenEventData) => void, thisArg?: any): void;
+  (event: "windowClose", callback: (args: WindowCloseEventData) => void, thisArg?: any): void;
+  (event: "primaryWindowChanged", callback: (args: PrimaryWindowChangedEventData) => void, thisArg?: any): void;
+  (event: "sceneOpenURLContexts", callback: (args: SceneOpenURLContextsEventData) => void, thisArg?: any): void;
+  (event: "sceneContinueUserActivity", callback: (args: SceneContinueUserActivityEventData) => void, thisArg?: any): void;
+  (event: "scenePerformActionForShortcutItem", callback: (args: ScenePerformActionForShortcutItemEventData) => void, thisArg?: any): void;
 };
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Call Signature
 
@@ -1759,6 +1845,29 @@ This event is raised on application launchEvent.
 
 ```ts
 (
+   event: "ready", 
+   callback: (args: ApplicationEventData) => void, 
+   thisArg?: any): void;
+```
+
+This event is raised once the JS context is initialized.
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"ready"` |
+| `callback` | (`args`: [`ApplicationEventData`](../interfaces/ApplicationEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
    event: "displayed", 
    callback: (args: ApplicationEventData) => void, 
    thisArg?: any): void;
@@ -1837,6 +1946,9 @@ This event is raised when the Application is resumed after it has been suspended
 ```
 
 This event is raised when the Application is about to exit.
+
+On Android it is raised when the last window closes; the process may stay alive.
+On iOS it is raised when the process itself terminates.
 
 ##### Parameters
 
@@ -2012,6 +2124,132 @@ between ltr and rtl.
 
 `void`
 
+#### Call Signature
+
+```ts
+(
+   event: "windowOpen", 
+   callback: (args: WindowOpenEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"windowOpen"` |
+| `callback` | (`args`: [`WindowOpenEventData`](../interfaces/WindowOpenEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "windowClose", 
+   callback: (args: WindowCloseEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"windowClose"` |
+| `callback` | (`args`: [`WindowCloseEventData`](../interfaces/WindowCloseEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "primaryWindowChanged", 
+   callback: (args: PrimaryWindowChangedEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"primaryWindowChanged"` |
+| `callback` | (`args`: [`PrimaryWindowChangedEventData`](../interfaces/PrimaryWindowChangedEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "sceneOpenURLContexts", 
+   callback: (args: SceneOpenURLContextsEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"sceneOpenURLContexts"` |
+| `callback` | (`args`: [`SceneOpenURLContextsEventData`](../interfaces/SceneOpenURLContextsEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "sceneContinueUserActivity", 
+   callback: (args: SceneContinueUserActivityEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"sceneContinueUserActivity"` |
+| `callback` | (`args`: [`SceneContinueUserActivityEventData`](../interfaces/SceneContinueUserActivityEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
+#### Call Signature
+
+```ts
+(
+   event: "scenePerformActionForShortcutItem", 
+   callback: (args: ScenePerformActionForShortcutItemEventData) => void, 
+   thisArg?: any): void;
+```
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | `"scenePerformActionForShortcutItem"` |
+| `callback` | (`args`: [`ScenePerformActionForShortcutItemEventData`](../interfaces/ScenePerformActionForShortcutItemEventData.md)) => `void` |
+| `thisArg?` | `any` |
+
+##### Returns
+
+`void`
+
 #### Deprecated
 
 Use `Application.android.once()` instead.
@@ -2022,6 +2260,31 @@ Use `Application.android.once()` instead.
 
 ## Accessors
 
+### activeWindow
+
+#### Get Signature
+
+```ts
+get activeWindow(): NativeWindow;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Get the NativeWindow the user is currently interacting with - the one that activated most
+recently and is still attached. Falls back to the primary window while no window holds
+activation, which is the case before the first window activates and on a platform that
+never raises `activate`.
+
+##### Returns
+
+[`NativeWindow`](NativeWindow.md)
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`activeWindow`](ApplicationCommon.md#activewindow)
+
+***
+
 ### android
 
 #### Get Signature
@@ -2030,7 +2293,7 @@ Use `Application.android.once()` instead.
 get android(): AndroidApplication;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2050,7 +2313,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 get AndroidApplication(): AndroidApplication;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2062,6 +2325,46 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 
 ***
 
+### autoSystemAppearanceChanged
+
+#### Get Signature
+
+```ts
+get autoSystemAppearanceChanged(): boolean;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Boolean to enable/disable systemAppearanceChanged
+
+##### Returns
+
+`boolean`
+
+#### Set Signature
+
+```ts
+set autoSystemAppearanceChanged(value: boolean): void;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `boolean` |
+
+##### Returns
+
+`void`
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`autoSystemAppearanceChanged`](ApplicationCommon.md#autosystemappearancechanged)
+
+***
+
 ### delegate
 
 #### Get Signature
@@ -2070,7 +2373,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 get delegate(): any;
 ```
 
-Defined in: [application/application.d.ts:171](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L171)
+Defined in: [application/application.d.ts:196](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L196)
 
 The [UIApplicationDelegate](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html) class.
 
@@ -2084,7 +2387,7 @@ The [UIApplicationDelegate](https://developer.apple.com/library/ios/documentatio
 set delegate(value: any): void;
 ```
 
-Defined in: [application/application.d.ts:176](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L176)
+Defined in: [application/application.d.ts:201](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L201)
 
 Sets a custom [UIApplicationDelegate](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html) class.
 
@@ -2108,7 +2411,7 @@ Sets a custom [UIApplicationDelegate](https://developer.apple.com/library/ios/do
 get inBackground(): boolean;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2128,7 +2431,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 get ios(): iOSApplication;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2148,7 +2451,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 get iOSApplication(): iOSApplication;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2168,13 +2471,35 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 get nativeApp(): UIApplication;
 ```
 
-Defined in: [application/application.d.ts:161](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L161)
+Defined in: [application/application.d.ts:186](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L186)
 
 The [UIApplication](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html).
 
 ##### Returns
 
 `UIApplication`
+
+***
+
+### primaryWindow
+
+#### Get Signature
+
+```ts
+get primaryWindow(): NativeWindow;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Get the primary NativeWindow.
+
+##### Returns
+
+[`NativeWindow`](NativeWindow.md)
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`primaryWindow`](ApplicationCommon.md#primarywindow)
 
 ***
 
@@ -2186,7 +2511,7 @@ The [UIApplication](https://developer.apple.com/library/ios/documentation/UIKit/
 get rootController(): UIViewController;
 ```
 
-Defined in: [application/application.d.ts:156](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L156)
+Defined in: [application/application.d.ts:181](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L181)
 
 The root view controller for the application.
 
@@ -2204,7 +2529,7 @@ The root view controller for the application.
 get suspended(): boolean;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 ##### Returns
 
@@ -2224,7 +2549,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 get window(): UIWindow;
 ```
 
-Defined in: [application/application.d.ts:166](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L166)
+Defined in: [application/application.d.ts:191](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L191)
 
 The key window.
 
@@ -2234,13 +2559,67 @@ The key window.
 
 ## Methods
 
+### \_onPrimaryWindowPromoted()
+
+```ts
+protected _onPrimaryWindowPromoted(nativeWindow: NativeWindow): void;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Hook for platform-specific bookkeeping right after a window takes over the primary
+role, before `primaryWindowChanged` is raised.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `nativeWindow` | [`NativeWindow`](NativeWindow.md) |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`_onPrimaryWindowPromoted`](ApplicationCommon.md#onprimarywindowpromoted)
+
+***
+
+### \_onWindowRegistered()
+
+```ts
+protected _onWindowRegistered(nativeWindow: NativeWindow): void;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Hook for platform-specific bookkeeping right after a window joins the registry,
+before `windowOpen` is raised.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `nativeWindow` | [`NativeWindow`](NativeWindow.md) |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`_onWindowRegistered`](ApplicationCommon.md#onwindowregistered)
+
+***
+
 ### addCss()
 
 ```ts
 addCss(cssText: string, attributeScoped?: boolean): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2265,7 +2644,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 addDelegateHandler<T>(methodName: T, handler: any): void;
 ```
 
-Defined in: [application/application.d.ts:184](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L184)
+Defined in: [application/application.d.ts:244](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L244)
 
 Adds a delegate handler for the specified delegate method name. This method does not replace an existing handler,
 but rather adds the new handler to the existing chain of handlers.
@@ -2295,7 +2674,7 @@ but rather adds the new handler to the existing chain of handlers.
 addNotificationObserver(notificationName: string, onReceiveCallback: (notification: NSNotification) => void): NotificationObserver;
 ```
 
-Defined in: [application/application.d.ts:192](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L192)
+Defined in: [application/application.d.ts:252](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L252)
 
 Adds an observer to the default notification center for the specified notification.
 For more information, please visit 'https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/#//apple_ref/occ/instm/NSNotificationCenter/addObserver:selector:name:object:'
@@ -2323,7 +2702,7 @@ applyCssClass(
    skipCssUpdate?: boolean): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Applies the the `newCssClass` to the `rootView` and removes all other css classes from `cssClasses`
 previously applied to the `rootView`.
@@ -2353,7 +2732,7 @@ previously applied to the `rootView`.
 closeWindow(target?: any): void;
 ```
 
-Defined in: [application/application.d.ts:229](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L229)
+Defined in: [application/application.d.ts:291](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L291)
 
 Closes a secondary window/scene.
 If no target is provided, attempts to close a non-primary active scene.
@@ -2362,7 +2741,7 @@ If no target is provided, attempts to close a non-primary active scene.
 
 | Parameter | Type | Description |
 | ------ | ------ | ------ |
-| `target?` | `any` | Optional target to resolve the scene to close. Can be a View, UIWindow, UIWindowScene, or a string scene identifier. |
+| `target?` | `any` | Optional target to resolve the window to close. Can be a NativeWindow, a View, a UIWindow, a UIWindowScene, or a string scene identifier. |
 
 #### Returns
 
@@ -2379,7 +2758,7 @@ createRootView(
    additionalLanchEventData?: any): View;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2399,13 +2778,88 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 
 ***
 
-### getAllScenes()
+### defaultDiscardSceneSessions()
+
+```ts
+defaultDiscardSceneSessions(application: UIApplication, sceneSessions: NSSet<UISceneSession>): void;
+```
+
+Defined in: [application/application.d.ts:236](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L236)
+
+NativeScript's default implementation of the `UIApplicationDelegate`
+`applicationDidDiscardSceneSessions` method, which retires the windows belonging
+to the discarded sessions.
+
+It is installed automatically on the application delegate class unless that class
+already implements the method, in which case forward to it from there so window
+bookkeeping stays correct.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `application` | `UIApplication` |
+| `sceneSessions` | `NSSet`\<`UISceneSession`\> |
+
+#### Returns
+
+`void`
+
+***
+
+### defaultSceneConfiguration()
+
+```ts
+defaultSceneConfiguration(
+   application: UIApplication, 
+   connectingSceneSession: UISceneSession, 
+   options: UISceneConnectionOptions): UISceneConfiguration;
+```
+
+Defined in: [application/application.d.ts:225](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L225)
+
+NativeScript's default implementation of the `UIApplicationDelegate`
+`applicationConfigurationForConnectingSceneSessionOptions` method.
+
+It is installed automatically on the application delegate class unless that class
+already implements the method. A delegate that does implement it can handle the
+scenes it cares about and forward the rest here:
+
+```ts
+applicationConfigurationForConnectingSceneSessionOptions(app, session, options) {
+  if (session.role === myCustomRole) {
+    return myConfig;
+  }
+  return Application.ios.defaultSceneConfiguration(app, session, options);
+}
+```
+
+`onSceneConfiguration` is consulted first. Scenes with the
+`UIWindowSceneSessionRoleApplication` role then get a configuration backed by
+NativeScript's SceneDelegate; every other role gets a bare configuration that
+NativeScript does not manage.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `application` | `UIApplication` |
+| `connectingSceneSession` | `UISceneSession` |
+| `options` | `UISceneConnectionOptions` |
+
+#### Returns
+
+`UISceneConfiguration`
+
+***
+
+### ~~getAllScenes()~~
 
 ```ts
 getAllScenes(): UIScene[];
 ```
 
-Defined in: [application/application.d.ts:239](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L239)
+Defined in: [application/application.d.ts:303](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L303)
 
 Gets all scenes for the application.
 
@@ -2413,21 +2867,29 @@ Gets all scenes for the application.
 
 `UIScene`[]
 
+#### Deprecated
+
+Use `getWindows()` instead.
+
 ***
 
-### getAllWindows()
+### ~~getAllWindows()~~
 
 ```ts
 getAllWindows(): UIWindow[];
 ```
 
-Defined in: [application/application.d.ts:234](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L234)
+Defined in: [application/application.d.ts:297](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L297)
 
 Gets all windows for the application.
 
 #### Returns
 
 `UIWindow`[]
+
+#### Deprecated
+
+Use `getWindows()` instead.
 
 ***
 
@@ -2437,7 +2899,7 @@ Gets all windows for the application.
 getCssFileName(): string;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Gets css file name for the application.
 
@@ -2457,7 +2919,7 @@ Gets css file name for the application.
 protected getLayoutDirection(): LayoutDirectionType;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2475,7 +2937,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 getMainEntry(): any;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2495,7 +2957,7 @@ The main entry of the application
 getNativeApplication(): any;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2513,7 +2975,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 protected getOrientation(): "portrait" | "landscape" | "unknown";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2525,35 +2987,43 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 
 ***
 
-### getPrimaryScene()
+### ~~getPrimaryScene()~~
 
 ```ts
-getPrimaryScene(): UIWindowScene;
+getPrimaryScene(): any;
 ```
 
-Defined in: [application/application.d.ts:254](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L254)
+Defined in: [application/application.d.ts:321](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L321)
 
 Gets the primary scene for the application.
 
 #### Returns
 
-`UIWindowScene`
+`any`
+
+#### Deprecated
+
+Use `primaryWindow?.ios?.scene` instead.
 
 ***
 
-### getPrimaryWindow()
+### ~~getPrimaryWindow()~~
 
 ```ts
 getPrimaryWindow(): UIWindow;
 ```
 
-Defined in: [application/application.d.ts:249](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L249)
+Defined in: [application/application.d.ts:315](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L315)
 
 Gets the primary window for the application.
 
 #### Returns
 
 `UIWindow`
+
+#### Deprecated
+
+Use `primaryWindow?.ios?.uiWindow` instead.
 
 ***
 
@@ -2563,7 +3033,7 @@ Gets the primary window for the application.
 getResources(): any;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Get application level static resources.
 
@@ -2583,7 +3053,7 @@ Get application level static resources.
 getRootView(): View;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2601,7 +3071,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 protected getSystemAppearance(): "dark" | "light";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2613,19 +3083,159 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 
 ***
 
-### getWindowScenes()
+### getWindowById()
+
+```ts
+getWindowById(id: string): NativeWindow;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Get a registered NativeWindow by its id.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `id` | `string` |
+
+#### Returns
+
+[`NativeWindow`](NativeWindow.md)
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`getWindowById`](ApplicationCommon.md#getwindowbyid)
+
+***
+
+### getWindowContentResolver()
+
+```ts
+getWindowContentResolver(): WindowContentResolver;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+#### Returns
+
+[`WindowContentResolver`](../type-aliases/WindowContentResolver.md)
+
+The callback currently supplying window content, if any.
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`getWindowContentResolver`](ApplicationCommon.md#getwindowcontentresolver)
+
+***
+
+### getWindows()
+
+#### Call Signature
+
+```ts
+getWindows(role: "all"): WindowBase[];
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Get the active windows, filtered by role.
+
+Defaults to the view-carrying app windows (`application` and `embedded`).
+Pass `'all'` to include every registered surface, including ones that carry no view tree.
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `role` | `"all"` |
+
+##### Returns
+
+[`WindowBase`](WindowBase.md)[]
+
+##### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`getWindows`](ApplicationCommon.md#getwindows)
+
+#### Call Signature
+
+```ts
+getWindows(role?: 
+  | WindowRole
+  | WindowRole[]): NativeWindow[];
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Get the active windows, filtered by role.
+
+Defaults to the view-carrying app windows (`application` and `embedded`).
+Pass `'all'` to include every registered surface, including ones that carry no view tree.
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `role?` | \| [`WindowRole`](../type-aliases/WindowRole.md) \| [`WindowRole`](../type-aliases/WindowRole.md)[] |
+
+##### Returns
+
+[`NativeWindow`](NativeWindow.md)[]
+
+##### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`getWindows`](ApplicationCommon.md#getwindows)
+
+#### Call Signature
+
+```ts
+getWindows(role?: 
+  | "all"
+  | WindowRole
+  | WindowRole[]): WindowBase[];
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Get the active windows, filtered by role.
+
+Defaults to the view-carrying app windows (`application` and `embedded`).
+Pass `'all'` to include every registered surface, including ones that carry no view tree.
+
+##### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `role?` | \| `"all"` \| [`WindowRole`](../type-aliases/WindowRole.md) \| [`WindowRole`](../type-aliases/WindowRole.md)[] |
+
+##### Returns
+
+[`WindowBase`](WindowBase.md)[]
+
+##### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`getWindows`](ApplicationCommon.md#getwindows)
+
+***
+
+### ~~getWindowScenes()~~
 
 ```ts
 getWindowScenes(): UIWindowScene[];
 ```
 
-Defined in: [application/application.d.ts:244](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L244)
+Defined in: [application/application.d.ts:309](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L309)
 
 Gets all window scenes for the application.
 
 #### Returns
 
 `UIWindowScene`[]
+
+#### Deprecated
+
+Use `getWindows()` instead.
 
 ***
 
@@ -2635,7 +3245,7 @@ Gets all window scenes for the application.
 hasLaunched(): boolean;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
@@ -2650,16 +3260,17 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 ### initRootView()
 
 ```ts
-initRootView(rootView: View): void;
+initRootView(rootView: View, window?: NativeWindow): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
-| Parameter | Type |
-| ------ | ------ |
-| `rootView` | [`View`](View.md) |
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `rootView` | [`View`](View.md) | - |
+| `window?` | [`NativeWindow`](NativeWindow.md) | the window the root view belongs to. Supplies the window-scoped CSS classes; without it they come from the primary window. |
 
 #### Returns
 
@@ -2677,7 +3288,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 isUsingSceneLifecycle(): boolean;
 ```
 
-Defined in: [application/application.d.ts:216](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L216)
+Defined in: [application/application.d.ts:276](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L276)
 
 Checks if the application is using the scene lifecycle.
 
@@ -2687,17 +3298,21 @@ Checks if the application is using the scene lifecycle.
 
 ***
 
-### layoutDirection()
+### ~~layoutDirection()~~
 
 ```ts
 layoutDirection(): LayoutDirectionType;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
 [`LayoutDirectionType`](../namespaces/CoreTypes/type-aliases/LayoutDirectionType.md)
+
+#### Deprecated
+
+Use Application.primaryWindow?.layoutDirection() - or the NativeWindow of the relevant view - instead. Continues to reflect the primary window.
 
 #### Inherited from
 
@@ -2711,7 +3326,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 layoutDirectionChanged(rootView: View, newLayoutDirection: LayoutDirectionType): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Updates root view classes including those of modals
 
@@ -2738,7 +3353,7 @@ Updates root view classes including those of modals
 loadAppCss(): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Loads immediately the app.css.
 By default the app.css file is loaded shortly after "loaded".
@@ -2761,7 +3376,7 @@ as the CSS does not depend on runtime APIs, and loadAppCss will be called explic
 protected notifyLaunch(additionalLanchEventData?: any): View;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2782,36 +3397,44 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 ### openWindow()
 
 ```ts
-openWindow(data: Record<any, any>): void;
+openWindow(options?: WindowOpenOptions): void;
 ```
 
-Defined in: [application/application.d.ts:222](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L222)
+Defined in: [application/application.d.ts:284](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L284)
 
-Opens a new window with the specified data.
+Opens a new window (scene).
 
 #### Parameters
 
 | Parameter | Type | Description |
 | ------ | ------ | ------ |
-| `data` | `Record`\<`any`, `any`\> | The data to pass to the new window. |
+| `options?` | [`WindowOpenOptions`](../interfaces/WindowOpenOptions.md) | Options for the new window. `options.data` is serialized into the activating scene's `NSUserActivity.userInfo`. |
 
 #### Returns
 
 `void`
 
+#### Overrides
+
+[`ApplicationCommon`](ApplicationCommon.md).[`openWindow`](ApplicationCommon.md#openwindow)
+
 ***
 
-### orientation()
+### ~~orientation()~~
 
 ```ts
 orientation(): "portrait" | "landscape" | "unknown";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
 `"portrait"` \| `"landscape"` \| `"unknown"`
+
+#### Deprecated
+
+Use Application.primaryWindow?.orientation() - or the NativeWindow of the relevant view - instead. Continues to reflect the primary window.
 
 #### Inherited from
 
@@ -2825,7 +3448,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 orientationChanged(rootView: View, newOrientation: "portrait" | "landscape" | "unknown"): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2850,7 +3473,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 removeNotificationObserver(observer: any, notificationName: string): any;
 ```
 
-Defined in: [application/application.d.ts:201](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L201)
+Defined in: [application/application.d.ts:261](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L261)
 
 Removes the observer for the specified notification from the default notification center.
 For more information, please visit 'https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/#//apple_ref/occ/instm/NSNotificationCenter/addObserver:selector:name:object:'
@@ -2874,7 +3497,7 @@ For more information, please visit 'https://developer.apple.com/library/mac/docu
 resetRootView(entry?: string | NavigationEntry): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2898,7 +3521,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 run(entry?: string | NavigationEntry): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2922,7 +3545,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 setAutoSystemAppearanceChanged(value: boolean): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 enable/disable systemAppearanceChanged
 
@@ -2948,7 +3571,7 @@ enable/disable systemAppearanceChanged
 setCssFileName(cssFileName: string): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Sets css file name for the application.
 
@@ -2974,7 +3597,7 @@ Sets css file name for the application.
 setInBackground(value: boolean, additonalData?: any): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -2999,7 +3622,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 protected setLayoutDirection(value: LayoutDirectionType): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3027,7 +3650,7 @@ setMaxRefreshRate(options?: {
 }): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 iOS Only
 Dynamically change the preferred frame rate
@@ -3065,7 +3688,7 @@ To use, ensure your Info.plist has:
 protected setOrientation(value: "portrait" | "landscape" | "unknown"): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3089,7 +3712,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 setResources(res: any): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Set application level static resources.
 
@@ -3115,7 +3738,7 @@ Set application level static resources.
 setSuspended(value: boolean, additonalData?: any): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3140,7 +3763,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 protected setSystemAppearance(value: "dark" | "light"): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Parameters
 
@@ -3158,13 +3781,40 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 
 ***
 
+### setWindowContentResolver()
+
+```ts
+setWindowContentResolver(resolver: WindowContentResolver): void;
+```
+
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
+
+Sets the callback that supplies the UI for windows that need content.
+Pass `null` to remove a previously set resolver.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `resolver` | [`WindowContentResolver`](../type-aliases/WindowContentResolver.md) |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`ApplicationCommon`](ApplicationCommon.md).[`setWindowContentResolver`](ApplicationCommon.md#setwindowcontentresolver)
+
+***
+
 ### setWindowRootView()
 
 ```ts
 setWindowRootView(window: UIWindow, view: View): void;
 ```
 
-Defined in: [application/application.d.ts:261](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L261)
+Defined in: [application/application.d.ts:328](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L328)
 
 Sets the root view for a specific window.
 
@@ -3173,7 +3823,7 @@ Sets the root view for a specific window.
 | Parameter | Type | Description |
 | ------ | ------ | ------ |
 | `window` | `UIWindow` | The window to set the root view for. |
-| `view` | `View` | The view to set as the root view. |
+| `view` | [`View`](View.md) | The view to set as the root view. |
 
 #### Returns
 
@@ -3187,7 +3837,7 @@ Sets the root view for a specific window.
 supportsMultipleScenes(): boolean;
 ```
 
-Defined in: [application/application.d.ts:211](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L211)
+Defined in: [application/application.d.ts:271](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L271)
 
 Checks if the application supports multiple scenes.
 
@@ -3203,7 +3853,7 @@ Checks if the application supports multiple scenes.
 supportsScenes(): boolean;
 ```
 
-Defined in: [application/application.d.ts:206](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L206)
+Defined in: [application/application.d.ts:266](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L266)
 
 Checks if the application supports scenes.
 
@@ -3213,17 +3863,21 @@ Checks if the application supports scenes.
 
 ***
 
-### systemAppearance()
+### ~~systemAppearance()~~
 
 ```ts
 systemAppearance(): "dark" | "light";
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 #### Returns
 
 `"dark"` \| `"light"`
+
+#### Deprecated
+
+Use Application.primaryWindow?.systemAppearance() - or the NativeWindow of the relevant view - instead. Continues to reflect the primary window.
 
 #### Inherited from
 
@@ -3237,7 +3891,7 @@ Defined in: [application/application-common.ts](https://github.com/NativeScript/
 systemAppearanceChanged(rootView: View, newSystemAppearance: "dark" | "light"): void;
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 Updates root view classes including those of modals
 
