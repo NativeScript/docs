@@ -124,7 +124,7 @@ export default [
         icon: 'file',
       },
       {
-        text: 'vite.config.ts',
+        text: 'vite.config.mts',
         link: '/project-structure/vite-config',
         icon: 'file',
       },

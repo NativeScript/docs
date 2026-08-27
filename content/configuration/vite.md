@@ -7,6 +7,8 @@ contributors:
 
 All NativeScript apps can be bundled using [Vite](https://vite.dev/). To manage the required configuration, we maintain the `@nativescript/vite` package.
 
+Starting with NativeScript CLI 9.1, the Vite dev server is fully integrated into the CLI — `ns debug ios` and `ns debug android` start the dev server, pick a free port, and connect the device automatically. No extra npm scripts are needed.
+
 ## Setup
 
 Install the plugin.
@@ -33,7 +35,7 @@ Make sure your `nativescript.config.ts` includes the following to use Vite as th
 export default {
   // ...
   bundler: 'vite',
-  bundlerConfigPath: 'vite.config.ts',
+  bundlerConfigPath: 'vite.config.mts',
   // ...
 }
 ```
@@ -48,24 +50,23 @@ npx nativescript-vite init
 
 This will:
 
-- Generate a `vite.config.ts` using the detected project flavor (Angular, Vue, React, Solid, TypeScript, or JavaScript) and the corresponding helper from `@nativescript/vite`.
-- Add (or update) the following npm scripts in your app `package.json`:
-  - `dev:ios`
-  - `dev:android`
-  - `dev:server:ios`
-  - `dev:server:android`
-  - `ios`
-  - `android`
-- Add the devDependencies `concurrently` and `wait-on`.
-- Add the dependency `@valor/nativescript-websockets`.
+- Generate a `vite.config.mts` using the detected project flavor (Angular, Vue, React, Solid, TypeScript, or JavaScript) and the corresponding helper subpath from `@nativescript/vite`.
+- Add the dependency `@valor/nativescript-websockets` (the WebSocket polyfill the HMR client uses to talk to the dev server).
 - Append `.ns-vite-build` to `.gitignore` if it is not already present.
 
-After running `init`, you now have two ways to work with Vite:
+::: tip Why `vite.config.mts`?
 
-1. HMR workflow
+The `.mts` extension keeps the config ESM without setting `"type": "module"` in the app's `package.json` (which NativeScript apps leave unset), avoiding Vite's `configLoader: 'native'` forward-compat warning.
+
+:::
+
+After running `init`, you have two ways to work with Vite:
+
+1. HMR workflow (default — the CLI starts and manages the dev server for you)
 
 ```bash
-npm run dev:ios
+ns debug ios
+ns debug android
 ```
 
 2. Standard dev workflow (non-HMR)
@@ -77,7 +78,7 @@ ns debug android --no-hmr
 
 ## Configure
 
-The plugin comes with several framework integrations.
+The plugin comes with several framework integrations. Each is imported from its own subpath so unrelated framework tooling is never loaded.
 
 ### Vue
 
@@ -112,17 +113,6 @@ export default defineConfig(({ mode }): UserConfig => {
 })
 ```
 
-### Svelte
-
-```ts
-import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { svelteConfig } from '@nativescript/vite/svelte'
-
-export default defineConfig(({ mode }): UserConfig => {
-  return mergeConfig(svelteConfig({ mode }), {})
-})
-```
-
 ### React
 
 ```ts
@@ -138,10 +128,21 @@ export default defineConfig(({ mode }): UserConfig => {
 
 ```ts
 import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { typescriptConfig } from '@nativescript/vite'
+import { typescriptConfig } from '@nativescript/vite/typescript'
 
 export default defineConfig(({ mode }): UserConfig => {
   return mergeConfig(typescriptConfig({ mode }), {})
+})
+```
+
+### JavaScript (XML view)
+
+```ts
+import { defineConfig, mergeConfig } from 'vite'
+import { javascriptConfig } from '@nativescript/vite/javascript'
+
+export default defineConfig(({ mode }) => {
+  return mergeConfig(javascriptConfig({ mode }), {})
 })
 ```
 
@@ -167,9 +168,101 @@ You can also use an object form such as `typeCheck: { failOnError: false }`.
 For temporary overrides, `NS_VITE_TYPECHECK=warn` or `--env.typecheck=warn` will force warn mode for a run.
 If you want type errors to stay non-fatal without any Vite override, set `"noEmitOnError": false` in your project's `tsconfig.json`.
 
+## Dev server and HMR
+
+The NativeScript CLI owns the dev server lifecycle. For each session it picks:
+
+- **Port** — the first free port at or above `NS_HMR_PORT` (default `5173`), the same way `vite` moves off a busy port. Whatever it picks is baked into the device URLs, bound by the dev server and (on Android) tunnelled with `adb reverse`, so all three always agree.
+- **Staging directory** — `.ns-vite-build/<platform>`, so iOS and Android builds never overwrite each other's output.
+
+The environment settings described below only need to be visible to the `ns` process — the CLI propagates them (and the values it picks) to the dev server it spawns.
+
+### Running two platforms at once
+
+Start both; nothing to configure:
+
+```bash
+# Terminal 1
+ns debug ios       # dev server on 5173
+
+# Terminal 2
+ns debug android   # 5173 is busy → dev server on 5174
+```
+
+Each session gets its own port and staging directory.
+
+### Android: automatic `adb reverse`
+
+For Android HMR the CLI automatically runs `adb reverse tcp:<port> tcp:<port>` for the session's dev-server port, so the device reaches the dev server through the ADB tunnel at `127.0.0.1:<port>`. Relevant opt-outs:
+
+- `NS_HMR_NO_ADB_REVERSE=1` — skip the tunnel and use `10.0.2.2`.
+- `NS_HMR_PREFER_LAN_HOST=1` — physical device over Wi-Fi; emit the host's LAN IP.
+- `NS_HMR_HOST=<host[:port]>` — point the device at an explicit origin (CI / tunnels).
+
+### Advanced: running `vite serve` yourself
+
+The dev server is a plain `vite serve -- --env.<platform> --env.hmr` invocation. You can run it standalone for diagnostics, but do **not** run it alongside `ns run`/`ns debug` for the same platform — both would try to bind the same port. CLI-managed is the supported default.
+
+## Environment variables
+
+All flags are read from the environment of the `ns` process (the CLI forwards them to the dev server it spawns).
+
+### Dev server & connectivity
+
+| Environment variable             | Purpose                                                                                                               | Default                     |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| `NS_HMR_PORT`                    | Preferred Vite dev-server port; the CLI moves to the next free port when it is taken                                  | `5173`                      |
+| `NS_HMR_STRICT_PORT`             | Fail instead of moving when `NS_HMR_PORT` is taken (Vite's `strictPort`) — for tunnels / CI that forward a fixed port | unset                       |
+| `NS_HMR_HOST`                    | Explicit `host[:port]` origin baked into device URLs (CI / tunnels)                                                   | auto-detected               |
+| `NS_HMR_PROTO`                   | Force `http` or `https` for device URLs, overriding the `NS_HTTPS` default                                            | derived from `NS_HTTPS`     |
+| `NS_HMR_PREFER_LAN_HOST`         | `1` to emit the host's LAN IP — for a physical Android device over Wi-Fi                                              | unset                       |
+| `NS_HMR_NO_ADB_REVERSE`          | `1` to skip the automatic `adb reverse` tunnel and use `10.0.2.2`                                                     | unset                       |
+| `NS_HTTPS`                       | `1`/`true` to serve the dev server over TLS (also switches the HMR socket to `wss`)                                   | unset                       |
+| `NS_HTTPS_KEY` / `NS_HTTPS_CERT` | Paths to the TLS key and certificate files used when `NS_HTTPS` is enabled                                            | unset                       |
+| `NS_VITE_DIST_DIR`               | Project-relative staging directory used for Vite output before the NativeScript CLI copies it into the platform app   | `.ns-vite-build/<platform>` |
+
+### Build & tooling
+
+| Environment variable                      | Purpose                                                                                                                                                             | Default              |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| `NS_VITE_VERBOSE`                         | `1`/`true` for verbose build logs (same as `--env.verbose`)                                                                                                         | unset                |
+| `NS_VITE_TYPECHECK`                       | Type-check mode override: `error`, `warn`, or `off` (see [Type checking](#type-checking))                                                                           | from `tsconfig.json` |
+| `NS_VITE_TYPECHECK_LOG`                   | `0`/`false` to suppress printing individual type diagnostics                                                                                                        | enabled              |
+| `NS_VITE_PROGRESS_OVERLAY`                | `0`/`false` to disable the on-device HMR progress overlay                                                                                                           | enabled              |
+| `NS_NATIVE_ES_CLASSES`                    | `1` to skip the `@NativeClass` ES5 downlevel and let the iOS runtime register plain ES classes natively (same as `--env.nativeESClasses`; never applies to Android) | unset                |
+| `NS_APP_COMPONENTS`                       | Comma-separated paths to custom Android `Activity`/`Application` classes to include in the bundle                                                                   | unset                |
+| `NS_VENDOR_INCLUDE` / `NS_VENDOR_EXCLUDE` | Comma-separated package names to force into / keep out of the dev-session vendor bundle                                                                             | auto-detected        |
+| `NS_DISABLE_OPTIMIZEDEPS`                 | `1` to disable Vite's dependency pre-bundling discovery                                                                                                             | unset                |
+
+### Angular-specific
+
+| Environment variable          | Purpose                                                                              | Default |
+| ----------------------------- | ------------------------------------------------------------------------------------ | ------- |
+| `NS_VITE_ANGULAR_LIVE_RELOAD` | `0`/`false`/`off`/`no` to disable the Analog `liveReload` component-update path      | enabled |
+| `NS_STRICT_NG_LINK`           | `1` to make Angular partial-compilation linking errors fatal instead of warnings     | unset   |
+| `NS_ENABLE_ROLLUP_LINKER`     | `1` to run the Angular linker during the Rollup/Rolldown build (always on under HMR) | unset   |
+
+::: details Diagnostics and escape hatches (rarely needed)
+
+These exist for profiling and unusual workflows; the defaults are correct for normal development.
+
+- `NS_CORE_PER_MODULE=1` — serve `@nativescript/core` per-module instead of the single-eval core bundle (for live-editing core source in the NativeScript monorepo).
+- `NS_DEPS_PER_MODULE=1` — serve `node_modules` files per-module instead of the single-eval deps bundle (for `patch-package` workflows that edit `node_modules` mid-session).
+- `NS_VITE_HMR_DISABLE_POPULATE=1` — disable the server's background transform pre-population when profiling.
+- `NS_VITE_HMR_DISABLE_BOOT_RECORDING=1` — disable recording the boot URL set (used to speed up subsequent boots).
+- `NS_VITE_HMR_DISABLE_NSM_MEMO=1` — disable the served-module response memo cache.
+- `NS_VITE_HMR_TRANSFORM_CONCURRENCY=<n>` — override the transform fan-out (default `8`).
+- `NS_VITE_HMR_TRANSFORM_CACHE_MS=<ms>` — override the transform cache TTL.
+- `NS_VITE_HMR_BOOT_TRACE_IDLE_MS=<ms>` / `NS_VITE_HMR_BOOT_RECORD_IDLE_MS=<ms>` / `NS_VITE_HMR_BOOT_TRACE_PROGRESS_EVERY=<n>` — tune boot tracing/recording windows when profiling boot.
+- `NS_DEBUG_NATIVECLASS=1` — verbose logs from the `@NativeClass` transform.
+- `NS_CORE_EXTERNAL_DEBUG=1` — verbose logs from the `@nativescript/core` URL externalizer.
+- `NS_HMR_SELF_COMPILE_TEMPLATE=1` — (Vue) prefer self-compiled SFC template variants when serving.
+
+:::
+
 ## Advanced: HMR update hooks
 
-When using the HMR workflow (for example `npm run dev:ios` / `npm run dev:android` / `npm run dev:visionos`, etc.), you may want to run some custom logic after each HMR batch is applied on device.
+When running with HMR (the default `ns debug` workflow), you may want to run some custom logic after each HMR batch is applied on device.
 
 `@nativescript/vite` exposes a low-level hook for this:
 
@@ -252,16 +345,22 @@ Disable HMR (enabled by default)
 
 Prints verbose logs and the internal config before building
 
+### --env.typecheck
+
+Override the type-check mode for a run, e.g. `--env.typecheck=warn` (see [Type checking](#type-checking))
+
+### --env.nativeESClasses
+
+Skip the `@NativeClass` ES5 downlevel on Apple targets (same as `NS_NATIVE_ES_CLASSES=1`)
+
 ### Additional flags
 
-Additional env flags that are usually passed by the CLI automatically
+Additional env flags that are passed by the CLI automatically
 
-- `--env.appPath` - path to the app source (same as `appPath` in the `nativescript.config.ts`)
-- `--env.appResourcesPath` - path to App_Resources (same as `appResourcesPath` in the `nativescript.config.ts`)
-- `--env.nativescriptLibPath` - path to the currently running CLI's library.
-- `--env.android` - `true` when running on android
-- `--env.ios` - `true` when running on ios
-- `--env.platform=<platform>` - for specifying the platform to use. Can be `android` or `ios`, or a custom platform in the future.
+- `--env.android` - `true` when running on Android
+- `--env.ios` - `true` when running on iOS
+- `--env.visionos` - `true` when running on visionOS
+- `--env.platform=<platform>` - for specifying the platform to use. Can be `android`, `ios`, or `visionos`.
 - `--env.hmr` - `true` when building with HMR enabled
 
 ## Global "magic" variables
@@ -292,25 +391,34 @@ We define a few useful globally available variables that you can use to alter lo
     // we are running on visionOS
   }
   ```
+- `__APPLE__`, `true` when the platform is iOS or visionOS
+  ```ts
+  if (__APPLE__) {
+    // we are running on an Apple platform
+  }
+  ```
 
 ::: details The following variables are also defined, but are primarily intended to be used by NativeScript Core internally, or plugins that wish to use these.
 
 - `__NS_ENV_VERBOSE__` - `true` when `--env.verbose` is set
-- `__CSS_PARSER__` - the CSS parser used by NativeScript Core. The value is set based on the `cssParser` value in the `nativescript.config.ts` and defaults to `css-tree`
+- `__NS_WEBPACK__` - always `false` under Vite; lets plugins detect which bundler built the app
+- `__CSS_PARSER__` - the CSS parser used by NativeScript Core (`css-tree` under Vite)
 - `__UI_USE_XML_PARSER__` - a flag used by NativeScript Core to disable the XML parser when it's not used
 - `__UI_USE_EXTERNAL_RENDERER__` - a flag used by NativeScript Core to disable registering global modules when an external renderer is used.
+- `__CI__` - `true` when the build runs in a CI environment
+- `__TEST__` - `false` in app builds; various ecosystems (React, for example) check this global
 
 :::
 
 ## Configuration examples
 
-Here are some common examples of things you may want to do in your `vite.config.ts`.
+Here are some common examples of things you may want to do in your `vite.config.mts`.
 
 ### Adding a copy rule
 
 ```ts
 import { defineConfig, mergeConfig, UserConfig } from 'vite'
-import { typescriptConfig } from '@nativescript/vite'
+import { typescriptConfig } from '@nativescript/vite/typescript'
 import path from 'path'
 import { viteStaticCopy } from 'vite-plugin-static-copy'
 
@@ -403,7 +511,7 @@ If you see your app is not building with Vite, ensure that your `nativescript.co
 export default {
   // ...
   bundler: 'vite',
-  bundlerConfigPath: 'vite.config.ts',
+  bundlerConfigPath: 'vite.config.mts',
   // ...
 }
 ```
