@@ -8,7 +8,7 @@ contributors: false
 function parseCSSShadow(value: string): ShadowCSSValues;
 ```
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)
 
 Parse a string into ShadowCSSValues
 Supports any valid css box/text shadow combination.

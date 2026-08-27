@@ -8,7 +8,7 @@ contributors: false
 function sanitizeModuleName(moduleName: string, removeExtension?: boolean): string;
 ```
 
-Defined in: [utils/common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/common.ts)
+Defined in: [utils/common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/utils/common.ts)
 
 Helps sanitize a module name if it is prefixed with '~/', '~' or '/'
 

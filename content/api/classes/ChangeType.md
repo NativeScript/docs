@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable-array/index.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new ChangeType(): ChangeType;
 static Add: string;
 ```
 
-Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable-array/index.ts)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/Nat
 static Change: string;
 ```
 
-Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable-array/index.ts)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/Nat
 static Delete: string;
 ```
 
-Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable-array/index.ts)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/Nat
 static Splice: string;
 ```
 
-Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable-array/index.ts)
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/Nat
 static Update: string;
 ```
 
-Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable-array/index.ts)
+Defined in: [data/observable-array/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable-array/index.ts)

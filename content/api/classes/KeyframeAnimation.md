@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new KeyframeAnimation(): KeyframeAnimation;
 animations: Keyframe[];
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 delay: number;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 iterations: number;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ## Accessors
 
@@ -58,7 +58,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 get isPlaying(): boolean;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 ##### Returns
 
@@ -72,7 +72,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 _resetAnimations(): void;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 #### Returns
 
@@ -86,7 +86,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 _resolveAnimationFinishedPromise(): void;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 #### Returns
 
@@ -100,7 +100,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 cancel(): void;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 #### Returns
 
@@ -114,7 +114,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 play(view: View): Promise<void>;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript
 static keyframeAnimationFromInfo(info: KeyframeAnimationInfo): KeyframeAnimation;
 ```
 
-Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/animation/keyframe-animation.ts)
+Defined in: [ui/animation/keyframe-animation.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/animation/keyframe-animation.ts)
 
 #### Parameters
 

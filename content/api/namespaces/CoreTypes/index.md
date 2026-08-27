@@ -15,6 +15,7 @@ contributors: false
 | [AutocapitalizationType](namespaces/AutocapitalizationType/index.md) | - |
 | [AutofillType](namespaces/AutofillType/index.md) | - |
 | [BackgroundRepeat](namespaces/BackgroundRepeat/index.md) | - |
+| [CornerShape](namespaces/CornerShape/index.md) | - |
 | [DeviceOrientation](namespaces/DeviceOrientation/index.md) | - |
 | [DeviceType](namespaces/DeviceType/index.md) | - |
 | [Dock](namespaces/Dock/index.md) | - |
@@ -50,6 +51,7 @@ contributors: false
 | [AutocapitalizationInputType](type-aliases/AutocapitalizationInputType.md) | - |
 | [AutofillType](type-aliases/AutofillType.md) | - |
 | [BackgroundRepeatType](type-aliases/BackgroundRepeatType.md) | - |
+| [CornerShapeType](type-aliases/CornerShapeType.md) | - |
 | [CSSWideKeywords](type-aliases/CSSWideKeywords.md) | - |
 | [DeviceOrientationType](type-aliases/DeviceOrientationType.md) | - |
 | [dip](type-aliases/dip.md) | Denotes a length number that is in device independent pixel units. |

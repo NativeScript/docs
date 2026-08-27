@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/frame/index.d.ts:497](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L497)
+Defined in: [ui/frame/index.d.ts:507](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L507)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [ui/frame/index.d.ts:497](https://github.com/NativeScript/NativeScri
 getRootView(): View;
 ```
 
-Defined in: [ui/frame/index.d.ts:498](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L498)
+Defined in: [ui/frame/index.d.ts:508](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L508)
 
 #### Returns
 
@@ -33,7 +33,7 @@ onActivityResult(
    superFunc: Function): any;
 ```
 
-Defined in: [ui/frame/index.d.ts:509](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L509)
+Defined in: [ui/frame/index.d.ts:519](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L519)
 
 #### Parameters
 
@@ -57,7 +57,7 @@ Defined in: [ui/frame/index.d.ts:509](https://github.com/NativeScript/NativeScri
 onBackPressed(activity: any, superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:507](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L507)
+Defined in: [ui/frame/index.d.ts:517](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L517)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ onCreate(
    superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:501](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L501)
+Defined in: [ui/frame/index.d.ts:511](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L511)
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: [ui/frame/index.d.ts:501](https://github.com/NativeScript/NativeScri
 onDestroy(activity: any, superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:506](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L506)
+Defined in: [ui/frame/index.d.ts:516](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L516)
 
 #### Parameters
 
@@ -130,7 +130,7 @@ onNewIntent(
    superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:510](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L510)
+Defined in: [ui/frame/index.d.ts:520](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L520)
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: [ui/frame/index.d.ts:510](https://github.com/NativeScript/NativeScri
 onPostResume(activity: any, superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:505](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L505)
+Defined in: [ui/frame/index.d.ts:515](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L515)
 
 #### Parameters
 
@@ -179,7 +179,7 @@ onRequestPermissionsResult(
    superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:508](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L508)
+Defined in: [ui/frame/index.d.ts:518](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L518)
 
 #### Parameters
 
@@ -206,7 +206,7 @@ onSaveInstanceState(
    superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:502](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L502)
+Defined in: [ui/frame/index.d.ts:512](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L512)
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: [ui/frame/index.d.ts:502](https://github.com/NativeScript/NativeScri
 onStart(activity: any, superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:503](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L503)
+Defined in: [ui/frame/index.d.ts:513](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L513)
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: [ui/frame/index.d.ts:503](https://github.com/NativeScript/NativeScri
 onStop(activity: any, superFunc: Function): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:504](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L504)
+Defined in: [ui/frame/index.d.ts:514](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L514)
 
 #### Parameters
 
@@ -267,16 +267,17 @@ Defined in: [ui/frame/index.d.ts:504](https://github.com/NativeScript/NativeScri
 ### resetActivityContent()
 
 ```ts
-resetActivityContent(activity: any): void;
+resetActivityContent(activity: any, view?: View): void;
 ```
 
-Defined in: [ui/frame/index.d.ts:499](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/frame/index.d.ts#L499)
+Defined in: [ui/frame/index.d.ts:509](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/frame/index.d.ts#L509)
 
 #### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
 | `activity` | `any` |
+| `view?` | [`View`](../classes/View.md) |
 
 #### Returns
 

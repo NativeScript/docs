@@ -5,7 +5,7 @@ description: Event data containing information about application css change.
 contributors: false
 ---
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Event data containing information about application css change.
 
@@ -21,7 +21,7 @@ Event data containing information about application css change.
 optional android?: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Gets the native Android event arguments. Valid only when running on Android.
 
@@ -37,7 +37,7 @@ Gets the native Android event arguments. Valid only when running on Android.
 optional cssFile?: string;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 ***
 
@@ -47,7 +47,7 @@ Defined in: [application/application-interfaces.ts](https://github.com/NativeScr
 optional cssText?: string;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [application/application-interfaces.ts](https://github.com/NativeScr
 eventName: string;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The name of the event.
 
@@ -73,7 +73,7 @@ The name of the event.
 optional ios?: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Gets the native iOS event arguments. Valid only when running on iOS.
 
@@ -89,7 +89,7 @@ Gets the native iOS event arguments. Valid only when running on iOS.
 object: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The instance that has raised the event.
 

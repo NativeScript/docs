@@ -8,7 +8,7 @@ contributors: false
 function PseudoClassHandler(...pseudoClasses: string[]): MethodDecorator;
 ```
 
-Defined in: [ui/core/view/index.d.ts:21](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/index.d.ts#L21)
+Defined in: [ui/core/view/index.d.ts:22](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/index.d.ts#L22)
 
 ## Parameters
 

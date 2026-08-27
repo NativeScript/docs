@@ -8,7 +8,7 @@ contributors: false
 function isMainThread(): boolean;
 ```
 
-Defined in: [utils/mainthread-helper.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/mainthread-helper.d.ts#L10)
+Defined in: [utils/mainthread-helper.d.ts:10](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/utils/mainthread-helper.d.ts#L10)
 
 ## Returns
 

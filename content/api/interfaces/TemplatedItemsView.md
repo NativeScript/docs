@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/list-view/index.d.ts:282](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L282)
+Defined in: [ui/list-view/index.d.ts:294](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L294)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [ui/list-view/index.d.ts:282](https://github.com/NativeScript/Native
 items: any[] | ItemsSource;
 ```
 
-Defined in: [ui/list-view/index.d.ts:283](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L283)
+Defined in: [ui/list-view/index.d.ts:295](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L295)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [ui/list-view/index.d.ts:283](https://github.com/NativeScript/Native
 itemTemplate: string | Template;
 ```
 
-Defined in: [ui/list-view/index.d.ts:284](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L284)
+Defined in: [ui/list-view/index.d.ts:296](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L296)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [ui/list-view/index.d.ts:284](https://github.com/NativeScript/Native
 optional itemTemplates?: string | KeyedTemplate[];
 ```
 
-Defined in: [ui/list-view/index.d.ts:285](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L285)
+Defined in: [ui/list-view/index.d.ts:297](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L297)
 
 ## Methods
 
@@ -47,7 +47,7 @@ off(
    thisArg?: any): void;
 ```
 
-Defined in: [ui/list-view/index.d.ts:288](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L288)
+Defined in: [ui/list-view/index.d.ts:300](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L300)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ on(
    thisArg?: any): void;
 ```
 
-Defined in: [ui/list-view/index.d.ts:287](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L287)
+Defined in: [ui/list-view/index.d.ts:299](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L299)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: [ui/list-view/index.d.ts:287](https://github.com/NativeScript/Native
 refresh(): void;
 ```
 
-Defined in: [ui/list-view/index.d.ts:286](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L286)
+Defined in: [ui/list-view/index.d.ts:298](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L298)
 
 #### Returns
 
