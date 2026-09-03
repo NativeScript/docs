@@ -505,6 +505,8 @@ Be sure to have a proper security policy in place using something as follows:
 
 If you run into issues or have questions, please visit the [NativeScript Community Discord](https://nativescript.org/discord).
 
+### App not bundling with Vite
+
 If you see your app is not building with Vite, ensure that your `nativescript.config.ts` has the correct bundler set:
 
 ```ts
@@ -515,3 +517,29 @@ export default {
   // ...
 }
 ```
+
+### Android connection crash on start of dev session
+
+If you see a crash on Android when starting a dev session, it may be due to the `adb reverse` command failing. This can happen if the device is not connected or if there are multiple devices connected, or if spare processes are holding onto a port it's trying to use. For example:
+
+```
+Restarting application on device emulator-5554...
+  TNS.Native: NativeScript: module graph walk missed http://127.0.0.1:5173/ns/core/xhr — falling back to a blocking synchronous fetch. This should not happen; please report it.
+  System.err: An uncaught Exception occurred on "main" thread.
+  System.err: Unable to create application com.tns.NativeScriptApplication: com.tns.NativeScriptException: Cannot instantiate module /data/data/org.nativescript.nsoctane/files/app/bundle.mjs
+  System.err: Error: HTTP import failed: http://127.0.0.1:5173/ns/core/xhr (network error)
+  System.err:
+  System.err: StackTrace:
+  System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7510)
+  System.err: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+  System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+  System.err: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+  System.err: 	at android.os.Looper.loopOnce(Looper.java:232)
+  System.err: 	at android.os.Looper.loop(Looper.java:317)
+  System.err: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+  System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+  System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+  System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+```
+
+Double check your running processes and shut down any running instances (often `node` processes) to ensure the port availability and IP is correct when it tried to connect. Then run again.
