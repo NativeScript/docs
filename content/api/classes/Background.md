@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ## Constructors
 
@@ -26,7 +26,7 @@ new Background(): Background;
 borderBottomColor: Color;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderBottomLeftRadius: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderBottomRightRadius: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderBottomWidth: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderLeftColor: Color;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -76,7 +76,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderLeftWidth: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderRightColor: Color;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderRightWidth: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderTopColor: Color;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -116,7 +116,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderTopLeftRadius: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -126,7 +126,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderTopRightRadius: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -136,7 +136,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 borderTopWidth: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 boxShadows: BoxShadow[];
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -156,7 +156,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 clearFlags: number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -166,7 +166,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 clipPath: string | ClipPathFunction;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -176,7 +176,17 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 color: Color;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
+
+***
+
+### cornerShape
+
+```ts
+cornerShape: CornerShapeType;
+```
+
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -186,7 +196,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 image: string | LinearGradient;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -196,7 +206,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 position: string;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -206,7 +216,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 repeat: BackgroundRepeatType;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -216,7 +226,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 size: string;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ***
 
@@ -226,7 +236,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 static default: Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 ## Methods
 
@@ -236,7 +246,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 getBoxShadows(): BoxShadow[];
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -250,7 +260,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 getUniformBorderColor(): Color;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -264,7 +274,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 getUniformBorderRadius(): number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -278,7 +288,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 getUniformBorderWidth(): number;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -292,7 +302,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasBorder(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -306,7 +316,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasBorderColor(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -320,7 +330,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasBorderRadius(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -334,7 +344,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasBorderWidth(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -348,7 +358,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasBoxShadows(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -362,7 +372,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasUniformBorder(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -376,7 +386,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasUniformBorderColor(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -390,7 +400,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasUniformBorderRadius(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -404,7 +414,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 hasUniformBorderWidth(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -418,7 +428,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 isEmpty(): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -432,7 +442,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 toString(): string;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Returns
 
@@ -446,7 +456,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderBottomColor(value: Color): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -466,7 +476,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderBottomLeftRadius(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -486,7 +496,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderBottomRightRadius(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -506,7 +516,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderBottomWidth(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -526,7 +536,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderLeftColor(value: Color): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -546,7 +556,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderLeftWidth(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -566,7 +576,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderRightColor(value: Color): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -586,7 +596,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderRightWidth(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -606,7 +616,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderTopColor(value: Color): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -626,7 +636,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderTopLeftRadius(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -646,7 +656,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderTopRightRadius(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -666,7 +676,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBorderTopWidth(value: number): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -686,7 +696,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withBoxShadows(value: BoxShadow[]): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -706,7 +716,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withClipPath(value: string | ClipPathFunction): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -726,7 +736,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withColor(value: Color): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -740,13 +750,33 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 
 ***
 
+### withCornerShape()
+
+```ts
+withCornerShape(value: CornerShapeType): Background;
+```
+
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | [`CornerShapeType`](../namespaces/CoreTypes/type-aliases/CornerShapeType.md) |
+
+#### Returns
+
+`Background`
+
+***
+
 ### withImage()
 
 ```ts
 withImage(value: string | LinearGradient): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -766,7 +796,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withPosition(value: string): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -786,7 +816,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withRepeat(value: BackgroundRepeatType): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -806,7 +836,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 withSize(value: string): Background;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 
@@ -826,7 +856,7 @@ Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/Na
 static equals(value1: Background, value2: Background): boolean;
 ```
 
-Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/background-common.ts)
+Defined in: [ui/styling/background-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/background-common.ts)
 
 #### Parameters
 

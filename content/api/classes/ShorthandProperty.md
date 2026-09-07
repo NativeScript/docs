@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 ## Type Parameters
 
@@ -25,7 +25,7 @@ Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/Native
 new ShorthandProperty<T, P>(options: ShorthandPropertyOptions<P>): ShorthandProperty<T, P>;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 
@@ -45,7 +45,7 @@ Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/Native
 readonly cssLocalName: string;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -61,7 +61,7 @@ ShorthandProperty.cssLocalName
 readonly cssName: string;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -77,7 +77,7 @@ ShorthandProperty.cssName
 protected readonly cssValueDescriptor: PropertyDescriptor;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -93,7 +93,7 @@ ShorthandProperty.cssValueDescriptor
 readonly key: symbol;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -109,7 +109,7 @@ ShorthandProperty.key
 protected readonly localValueDescriptor: PropertyDescriptor;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -125,28 +125,12 @@ ShorthandProperty.localValueDescriptor
 readonly name: string;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
 ```ts
 ShorthandProperty.name
-```
-
-***
-
-### propertyBagDescriptor
-
-```ts
-protected readonly propertyBagDescriptor: PropertyDescriptor;
-```
-
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
-
-#### Implementation of
-
-```ts
-ShorthandProperty.propertyBagDescriptor
 ```
 
 ***
@@ -157,7 +141,7 @@ ShorthandProperty.propertyBagDescriptor
 readonly sourceKey: symbol;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Implementation of
 
@@ -173,7 +157,7 @@ ShorthandProperty.sourceKey
 register(cls: typeof Style): void;
 ```
 
-Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/index.ts)
+Defined in: [ui/core/properties/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/index.ts)
 
 #### Parameters
 

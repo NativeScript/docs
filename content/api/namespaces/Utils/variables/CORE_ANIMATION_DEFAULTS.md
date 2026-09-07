@@ -17,7 +17,7 @@ const CORE_ANIMATION_DEFAULTS: {
 };
 ```
 
-Defined in: [utils/animation-helpers.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/animation-helpers.ts)
+Defined in: [utils/animation-helpers.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/utils/animation-helpers.ts)
 
 Default animation values used throughout core
 

@@ -8,7 +8,7 @@ contributors: false
 function eachDescendant(view: ViewBase, callback: (child: ViewBase) => boolean): void;
 ```
 
-Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view-base/index.ts)
+Defined in: [ui/core/view-base/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view-base/index.ts)
 
 Iterates through all child views (via visual tree) and executes a function.
 

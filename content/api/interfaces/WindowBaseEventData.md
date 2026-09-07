@@ -1,0 +1,62 @@
+---
+title: WindowBaseEventData
+titleTemplate: :title - API / NativeScript
+description: Base event data for window surface events.
+contributors: false
+---
+
+Defined in: [native-window/native-window-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/native-window/native-window-interfaces.ts)
+
+Base event data for window surface events.
+
+## Extends
+
+- [`EventData`](EventData.md)
+
+## Extended by
+
+- [`NativeWindowEventData`](NativeWindowEventData.md)
+
+## Properties
+
+### eventName
+
+```ts
+eventName: string;
+```
+
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
+
+The name of the event.
+
+#### Inherited from
+
+[`EventData`](EventData.md).[`eventName`](EventData.md#eventname)
+
+***
+
+### object
+
+```ts
+object: Observable;
+```
+
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
+
+The Observable instance that has raised the event.
+
+#### Inherited from
+
+[`EventData`](EventData.md).[`object`](EventData.md#object)
+
+***
+
+### window
+
+```ts
+window: WindowBase;
+```
+
+Defined in: [native-window/native-window-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/native-window/native-window-interfaces.ts)
+
+The window that emitted the event.

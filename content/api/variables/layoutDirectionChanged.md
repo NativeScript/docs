@@ -8,7 +8,7 @@ contributors: false
 const layoutDirectionChanged: any;
 ```
 
-Defined in: [application/application-shims.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-shims.ts)
+Defined in: [application/application-shims.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-shims.ts)
 
 ## Deprecated
 

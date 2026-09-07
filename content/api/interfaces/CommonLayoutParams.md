@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 bottomMargin: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 bottomMarginPercent: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 height: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 heightPercent: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 horizontalAlignment: HorizontalAlignmentType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 leftMargin: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 leftMarginPercent: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 rightMargin: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 rightMarginPercent: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 topMargin: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 topMarginPercent: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 verticalAlignment: VerticalAlignmentType;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 width: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)
 
 ***
 
@@ -144,4 +144,4 @@ Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeSc
 widthPercent: number;
 ```
 
-Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/style/index.ts)
+Defined in: [ui/styling/style/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/style/index.ts)

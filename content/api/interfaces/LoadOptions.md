@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/builder/index.ts)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/b
 optional attributes?: any;
 ```
 
-Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/b
 optional exports?: any;
 ```
 
-Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/b
 name: string;
 ```
 
-Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/b
 optional page?: Page;
 ```
 
-Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/builder/index.ts)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/b
 path: string;
 ```
 
-Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/builder/index.ts)
+Defined in: [ui/builder/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/builder/index.ts)

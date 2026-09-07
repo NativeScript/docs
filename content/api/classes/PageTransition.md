@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/transition/page-transition.d.ts:2](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/page-transition.d.ts#L2)
+Defined in: [ui/transition/page-transition.d.ts:2](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/page-transition.d.ts#L2)
 
 ## Extends
 
@@ -21,7 +21,7 @@ new PageTransition(
    pageLoadedTimeout?: number): PageTransition;
 ```
 
-Defined in: [ui/transition/page-transition.d.ts:3](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/page-transition.d.ts#L3)
+Defined in: [ui/transition/page-transition.d.ts:3](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/page-transition.d.ts#L3)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: [ui/transition/page-transition.d.ts:3](https://github.com/NativeScri
 id: number;
 ```
 
-Defined in: [ui/transition/index.d.ts:23](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L23)
+Defined in: [ui/transition/index.d.ts:23](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L23)
 
 #### Inherited from
 
@@ -61,7 +61,7 @@ Defined in: [ui/transition/index.d.ts:23](https://github.com/NativeScript/Native
 optional interactiveController?: any;
 ```
 
-Defined in: [ui/transition/index.d.ts:29](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L29)
+Defined in: [ui/transition/index.d.ts:29](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L29)
 
 #### Inherited from
 
@@ -75,7 +75,7 @@ Defined in: [ui/transition/index.d.ts:29](https://github.com/NativeScript/Native
 optional name?: string;
 ```
 
-Defined in: [ui/transition/index.d.ts:27](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L27)
+Defined in: [ui/transition/index.d.ts:27](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L27)
 
 (Optional) Provide a unique name to identify this transition
 
@@ -91,7 +91,7 @@ Defined in: [ui/transition/index.d.ts:27](https://github.com/NativeScript/Native
 optional presented?: any;
 ```
 
-Defined in: [ui/transition/index.d.ts:30](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L30)
+Defined in: [ui/transition/index.d.ts:30](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L30)
 
 #### Inherited from
 
@@ -105,7 +105,7 @@ Defined in: [ui/transition/index.d.ts:30](https://github.com/NativeScript/Native
 optional presenting?: any;
 ```
 
-Defined in: [ui/transition/index.d.ts:31](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L31)
+Defined in: [ui/transition/index.d.ts:31](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L31)
 
 #### Inherited from
 
@@ -117,6 +117,7 @@ Defined in: [ui/transition/index.d.ts:31](https://github.com/NativeScript/Native
 
 ```ts
 optional sharedElements?: {
+  _allPresentingViews?: View[];
   independent?: SharedElementSettings & {
      isPresented?: boolean;
   }[];
@@ -125,7 +126,13 @@ optional sharedElements?: {
 };
 ```
 
-Defined in: [ui/transition/index.d.ts:32](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L32)
+Defined in: [ui/transition/index.d.ts:32](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L32)
+
+#### \_allPresentingViews?
+
+```ts
+optional _allPresentingViews?: View[];
+```
 
 #### independent?
 
@@ -159,7 +166,7 @@ optional presenting?: SharedElementSettings[];
 optional transitionController?: any;
 ```
 
-Defined in: [ui/transition/index.d.ts:28](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L28)
+Defined in: [ui/transition/index.d.ts:28](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L28)
 
 #### Inherited from
 
@@ -178,7 +185,7 @@ static optional AndroidTransitionType?: {
 };
 ```
 
-Defined in: [ui/transition/index.d.ts:38](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L38)
+Defined in: [ui/transition/index.d.ts:39](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L39)
 
 #### enter?
 
@@ -219,7 +226,7 @@ optional androidFragmentTransactionCallback(
    newEntry: BackstackEntry): void;
 ```
 
-Defined in: [ui/transition/index.d.ts:58](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L58)
+Defined in: [ui/transition/index.d.ts:59](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L59)
 
 #### Parameters
 
@@ -249,7 +256,7 @@ animateIOSTransition(
    operation: any): void;
 ```
 
-Defined in: [ui/transition/index.d.ts:43](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L43)
+Defined in: [ui/transition/index.d.ts:44](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L44)
 
 #### Parameters
 
@@ -276,7 +283,7 @@ Defined in: [ui/transition/index.d.ts:43](https://github.com/NativeScript/Native
 createAndroidAnimator(transitionType: string): any;
 ```
 
-Defined in: [ui/transition/index.d.ts:44](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L44)
+Defined in: [ui/transition/index.d.ts:45](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L45)
 
 #### Parameters
 
@@ -300,7 +307,7 @@ Defined in: [ui/transition/index.d.ts:44](https://github.com/NativeScript/Native
 getCurve(): any;
 ```
 
-Defined in: [ui/transition/index.d.ts:42](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L42)
+Defined in: [ui/transition/index.d.ts:43](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L43)
 
 #### Returns
 
@@ -318,7 +325,7 @@ Defined in: [ui/transition/index.d.ts:42](https://github.com/NativeScript/Native
 getDuration(): number;
 ```
 
-Defined in: [ui/transition/index.d.ts:40](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L40)
+Defined in: [ui/transition/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L41)
 
 #### Returns
 
@@ -336,7 +343,7 @@ Defined in: [ui/transition/index.d.ts:40](https://github.com/NativeScript/Native
 optional iosDismissedController(dismissed: any): any;
 ```
 
-Defined in: [ui/transition/index.d.ts:48](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L48)
+Defined in: [ui/transition/index.d.ts:49](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L49)
 
 #### Parameters
 
@@ -360,7 +367,7 @@ Defined in: [ui/transition/index.d.ts:48](https://github.com/NativeScript/Native
 optional iosInteractionDismiss(animator: any): any;
 ```
 
-Defined in: [ui/transition/index.d.ts:52](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L52)
+Defined in: [ui/transition/index.d.ts:53](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L53)
 
 #### Parameters
 
@@ -384,7 +391,7 @@ Defined in: [ui/transition/index.d.ts:52](https://github.com/NativeScript/Native
 optional iosInteractionPresented(animator: any): any;
 ```
 
-Defined in: [ui/transition/index.d.ts:54](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L54)
+Defined in: [ui/transition/index.d.ts:55](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L55)
 
 #### Parameters
 
@@ -412,7 +419,7 @@ optional iosNavigatedController(
    toVC: any): any;
 ```
 
-Defined in: [ui/transition/index.d.ts:56](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L56)
+Defined in: [ui/transition/index.d.ts:57](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L57)
 
 #### Parameters
 
@@ -442,7 +449,7 @@ optional iosPresentedController(
    source: any): any;
 ```
 
-Defined in: [ui/transition/index.d.ts:50](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L50)
+Defined in: [ui/transition/index.d.ts:51](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L51)
 
 #### Parameters
 
@@ -468,7 +475,7 @@ Defined in: [ui/transition/index.d.ts:50](https://github.com/NativeScript/Native
 setDuration(value: number): void;
 ```
 
-Defined in: [ui/transition/index.d.ts:41](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L41)
+Defined in: [ui/transition/index.d.ts:42](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L42)
 
 #### Parameters
 
@@ -492,7 +499,7 @@ Defined in: [ui/transition/index.d.ts:41](https://github.com/NativeScript/Native
 optional setupInteractiveGesture(startCallback: () => void, view: View): void;
 ```
 
-Defined in: [ui/transition/index.d.ts:46](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/index.d.ts#L46)
+Defined in: [ui/transition/index.d.ts:47](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/index.d.ts#L47)
 
 #### Parameters
 

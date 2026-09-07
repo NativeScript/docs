@@ -16,48 +16,80 @@ const SceneEvents: {
 };
 ```
 
-Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-common.ts)
+Defined in: [application/application-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-common.ts)
 
 ## Type Declaration
 
-### sceneContentSetup
+### ~~sceneContentSetup~~
 
 ```ts
 sceneContentSetup: string;
 ```
 
-### sceneDidActivate
+#### Deprecated
+
+Use the Application 'windowOpen' event and NativeWindow.setContent() instead.
+
+### ~~sceneDidActivate~~
 
 ```ts
 sceneDidActivate: string;
 ```
 
-### sceneDidDisconnect
+#### Deprecated
+
+Use `NativeWindowEvents.sceneDidActivate` instead.
+
+### ~~sceneDidDisconnect~~
 
 ```ts
 sceneDidDisconnect: string;
 ```
 
-### sceneDidEnterBackground
+#### Deprecated
+
+Use `NativeWindowEvents.sceneDidDisconnect` instead.
+
+### ~~sceneDidEnterBackground~~
 
 ```ts
 sceneDidEnterBackground: string;
 ```
 
-### sceneWillConnect
+#### Deprecated
+
+Use `NativeWindowEvents.sceneDidEnterBackground` instead.
+
+### ~~sceneWillConnect~~
 
 ```ts
 sceneWillConnect: string;
 ```
 
-### sceneWillEnterForeground
+#### Deprecated
+
+Use `NativeWindowEvents.sceneWillConnect` instead.
+
+### ~~sceneWillEnterForeground~~
 
 ```ts
 sceneWillEnterForeground: string;
 ```
 
-### sceneWillResignActive
+#### Deprecated
+
+Use `NativeWindowEvents.sceneWillEnterForeground` instead.
+
+### ~~sceneWillResignActive~~
 
 ```ts
 sceneWillResignActive: string;
 ```
+
+#### Deprecated
+
+Use `NativeWindowEvents.sceneWillResignActive` instead.
+
+## Deprecated
+
+Use `NativeWindowEvents` from `@nativescript/core/native-window` instead.

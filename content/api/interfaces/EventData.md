@@ -5,13 +5,17 @@ description: Base event data.
 contributors: false
 ---
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 Base event data.
 
 ## Extended by
 
 - [`LaunchEventData`](LaunchEventData.md)
+- [`WindowBaseEventData`](WindowBaseEventData.md)
+- [`WindowOpenEventData`](WindowOpenEventData.md)
+- [`WindowCloseEventData`](WindowCloseEventData.md)
+- [`PrimaryWindowChangedEventData`](PrimaryWindowChangedEventData.md)
 - [`ChangedData`](ChangedData.md)
 - [`PropertyChangeData`](PropertyChangeData.md)
 - [`EventDataValue`](EventDataValue.md)
@@ -40,7 +44,7 @@ Base event data.
 eventName: string;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -52,6 +56,6 @@ The name of the event.
 object: Observable;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.

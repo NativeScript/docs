@@ -9,6 +9,6 @@ contributors: false
 const unsetValue: any;
 ```
 
-Defined in: [ui/core/properties/property-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/properties/property-shared.ts)
+Defined in: [ui/core/properties/property-shared.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/properties/property-shared.ts)
 
 Value specifying that Property should be set to its initial value.

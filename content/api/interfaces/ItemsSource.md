@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/list-view/index.d.ts:277](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L277)
+Defined in: [ui/list-view/index.d.ts:289](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L289)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [ui/list-view/index.d.ts:277](https://github.com/NativeScript/Native
 length: number;
 ```
 
-Defined in: [ui/list-view/index.d.ts:278](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L278)
+Defined in: [ui/list-view/index.d.ts:290](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L290)
 
 ## Methods
 
@@ -24,7 +24,7 @@ Defined in: [ui/list-view/index.d.ts:278](https://github.com/NativeScript/Native
 getItem(index: number): any;
 ```
 
-Defined in: [ui/list-view/index.d.ts:279](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/list-view/index.d.ts#L279)
+Defined in: [ui/list-view/index.d.ts:291](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/list-view/index.d.ts#L291)
 
 #### Parameters
 

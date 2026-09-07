@@ -8,7 +8,7 @@ contributors: false
 function CSSType(type: string): ClassDecorator;
 ```
 
-Defined in: [ui/core/view/index.d.ts:37](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/index.d.ts#L37)
+Defined in: [ui/core/view/index.d.ts:38](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/index.d.ts#L38)
 
 Specifies the type name for the instances of this View class,
 that is used when matching CSS type selectors.

@@ -8,7 +8,7 @@ contributors: false
 function getAndroidAccessibilityManager(): any;
 ```
 
-Defined in: [application/application.d.ts:278](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L278)
+Defined in: [application/application.d.ts:375](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L375)
 
 ## Returns
 

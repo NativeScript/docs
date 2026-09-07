@@ -8,7 +8,7 @@ contributors: false
 function getNativeApp<T>(): T;
 ```
 
-Defined in: [application/helpers-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/helpers-common.ts)
+Defined in: [application/helpers-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/helpers-common.ts)
 
 Get the current application instance.
 

@@ -8,7 +8,7 @@ contributors: false
 function timeConverter(value: string): number;
 ```
 
-Defined in: [ui/styling/converters.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/converters.ts)
+Defined in: [ui/styling/converters.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/converters.ts)
 
 ## Parameters
 

@@ -8,4 +8,4 @@ contributors: false
 const Application: ApplicationCommon;
 ```
 
-Defined in: [application/application.d.ts:7](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L7)
+Defined in: [application/application.d.ts:11](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L11)

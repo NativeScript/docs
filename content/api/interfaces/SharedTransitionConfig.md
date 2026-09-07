@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 ## Properties
 
@@ -16,7 +16,7 @@ optional interactive?: {
 };
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Interactive transition settings. (iOS only at the moment)
 
@@ -37,7 +37,7 @@ Defaults to using 'pan' gesture for dismissal however you can customize your own
 optional pageEnd?: SharedTransitionPageWithDurationProperties;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings applied to the incoming page to end your transition with.
 
@@ -49,7 +49,7 @@ View settings applied to the incoming page to end your transition with.
 optional pageOut?: SharedTransitionPageWithDurationProperties;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings applied to the outgoing page in your transition.
 
@@ -59,6 +59,7 @@ View settings applied to the outgoing page in your transition.
 
 ```ts
 optional pageReturn?: SharedRect & {
+  cornerRadius?: number;
   opacity?: number;
   scale?: {
      x?: number;
@@ -76,11 +77,22 @@ optional pageReturn?: SharedRect & {
 };
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings to return to the original page with.
 
 #### Type Declaration
+
+##### cornerRadius?
+
+```ts
+optional cornerRadius?: number;
+```
+
+(iOS only) Page-level corner radius to animate alongside the transition.
+Useful for sheet-style modals where the top corners are rounded at the
+starting offscreen position and flatten as the page reaches fullscreen
+(and vice versa for dismiss). Top-left + top-right corners are masked.
 
 ##### opacity?
 
@@ -168,6 +180,6 @@ Note: you can try enabling this property in cases where your return animation do
 optional pageStart?: SharedTransitionPageProperties;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 View settings applied to the incoming page to start your transition with.

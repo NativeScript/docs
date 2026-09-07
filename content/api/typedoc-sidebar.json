@@ -413,6 +413,35 @@
                 ]
               },
               {
+                "text": "CornerShape",
+                "link": "/api/namespaces/CoreTypes/namespaces/CornerShape/",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Variables",
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "text": "isValid",
+                        "link": "/api/namespaces/CoreTypes/namespaces/CornerShape/variables/isValid"
+                      },
+                      {
+                        "text": "parse",
+                        "link": "/api/namespaces/CoreTypes/namespaces/CornerShape/variables/parse"
+                      },
+                      {
+                        "text": "round",
+                        "link": "/api/namespaces/CoreTypes/namespaces/CornerShape/variables/round"
+                      },
+                      {
+                        "text": "squircle",
+                        "link": "/api/namespaces/CoreTypes/namespaces/CornerShape/variables/squircle"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "text": "DeviceOrientation",
                 "link": "/api/namespaces/CoreTypes/namespaces/DeviceOrientation/",
                 "collapsed": true,
@@ -1181,6 +1210,10 @@
                 "link": "/api/namespaces/CoreTypes/type-aliases/BackgroundRepeatType"
               },
               {
+                "text": "CornerShapeType",
+                "link": "/api/namespaces/CoreTypes/type-aliases/CornerShapeType"
+              },
+              {
                 "text": "CSSWideKeywords",
                 "link": "/api/namespaces/CoreTypes/type-aliases/CSSWideKeywords"
               },
@@ -1320,12 +1353,28 @@
                 "link": "/api/namespaces/CSSUtils/variables/CLASS_PREFIX"
               },
               {
+                "text": "LAYOUT_DIRECTION_CSS_CLASSES",
+                "link": "/api/namespaces/CSSUtils/variables/LAYOUT_DIRECTION_CSS_CLASSES"
+              },
+              {
                 "text": "MODAL_ROOT_VIEW_CSS_CLASS",
                 "link": "/api/namespaces/CSSUtils/variables/MODAL_ROOT_VIEW_CSS_CLASS"
               },
               {
+                "text": "ORIENTATION_CSS_CLASSES",
+                "link": "/api/namespaces/CSSUtils/variables/ORIENTATION_CSS_CLASSES"
+              },
+              {
                 "text": "ROOT_VIEW_CSS_CLASS",
                 "link": "/api/namespaces/CSSUtils/variables/ROOT_VIEW_CSS_CLASS"
+              },
+              {
+                "text": "SYSTEM_APPEARANCE_CSS_CLASSES",
+                "link": "/api/namespaces/CSSUtils/variables/SYSTEM_APPEARANCE_CSS_CLASSES"
+              },
+              {
+                "text": "WINDOW_SCOPED_CSS_CLASSES",
+                "link": "/api/namespaces/CSSUtils/variables/WINDOW_SCOPED_CSS_CLASSES"
               }
             ]
           },
@@ -1782,6 +1831,10 @@
               {
                 "text": "getPositionFromFrame",
                 "link": "/api/namespaces/IOSHelper/functions/getPositionFromFrame"
+              },
+              {
+                "text": "hasIOSManagedInsetAncestor",
+                "link": "/api/namespaces/IOSHelper/functions/hasIOSManagedInsetAncestor"
               },
               {
                 "text": "invalidateStatusBarAppearance",
@@ -2346,8 +2399,8 @@
             "collapsed": true,
             "items": [
               {
-                "text": "NativeWindow",
-                "link": "/api/namespaces/Utils/type-aliases/NativeWindow"
+                "text": "PlatformWindow",
+                "link": "/api/namespaces/Utils/type-aliases/PlatformWindow"
               }
             ]
           },
@@ -2954,6 +3007,10 @@
         "link": "/api/classes/ModuleNameResolver"
       },
       {
+        "text": "NativeWindow",
+        "link": "/api/classes/NativeWindow"
+      },
+      {
         "text": "NavigationButton",
         "link": "/api/classes/NavigationButton"
       },
@@ -3120,6 +3177,10 @@
       {
         "text": "WebView",
         "link": "/api/classes/WebView"
+      },
+      {
+        "text": "WindowBase",
+        "link": "/api/classes/WindowBase"
       },
       {
         "text": "WrapLayout",
@@ -3368,6 +3429,10 @@
         "link": "/api/interfaces/NativeScriptError"
       },
       {
+        "text": "NativeWindowEventData",
+        "link": "/api/interfaces/NativeWindowEventData"
+      },
+      {
         "text": "NavigatedData",
         "link": "/api/interfaces/NavigatedData"
       },
@@ -3412,6 +3477,10 @@
         "link": "/api/interfaces/Point3D"
       },
       {
+        "text": "PrimaryWindowChangedEventData",
+        "link": "/api/interfaces/PrimaryWindowChangedEventData"
+      },
+      {
         "text": "PromptOptions",
         "link": "/api/interfaces/PromptOptions"
       },
@@ -3440,8 +3509,20 @@
         "link": "/api/interfaces/RotationGestureEventData"
       },
       {
+        "text": "SceneContinueUserActivityEventData",
+        "link": "/api/interfaces/SceneContinueUserActivityEventData"
+      },
+      {
         "text": "SceneEventData",
         "link": "/api/interfaces/SceneEventData"
+      },
+      {
+        "text": "SceneOpenURLContextsEventData",
+        "link": "/api/interfaces/SceneOpenURLContextsEventData"
+      },
+      {
+        "text": "ScenePerformActionForShortcutItemEventData",
+        "link": "/api/interfaces/ScenePerformActionForShortcutItemEventData"
       },
       {
         "text": "ScrollEventData",
@@ -3530,6 +3611,38 @@
       {
         "text": "ViewEntry",
         "link": "/api/interfaces/ViewEntry"
+      },
+      {
+        "text": "WindowBaseEventData",
+        "link": "/api/interfaces/WindowBaseEventData"
+      },
+      {
+        "text": "WindowCloseEventData",
+        "link": "/api/interfaces/WindowCloseEventData"
+      },
+      {
+        "text": "WindowContentRequest",
+        "link": "/api/interfaces/WindowContentRequest"
+      },
+      {
+        "text": "WindowLayoutDirectionChangedEventData",
+        "link": "/api/interfaces/WindowLayoutDirectionChangedEventData"
+      },
+      {
+        "text": "WindowOpenEventData",
+        "link": "/api/interfaces/WindowOpenEventData"
+      },
+      {
+        "text": "WindowOpenOptions",
+        "link": "/api/interfaces/WindowOpenOptions"
+      },
+      {
+        "text": "WindowOrientationChangedEventData",
+        "link": "/api/interfaces/WindowOrientationChangedEventData"
+      },
+      {
+        "text": "WindowSystemAppearanceChangedEventData",
+        "link": "/api/interfaces/WindowSystemAppearanceChangedEventData"
       }
     ]
   },
@@ -3642,6 +3755,10 @@
         "link": "/api/type-aliases/ModuleListProvider"
       },
       {
+        "text": "NativeWindowEventName",
+        "link": "/api/type-aliases/NativeWindowEventName"
+      },
+      {
         "text": "percent",
         "link": "/api/type-aliases/percent"
       },
@@ -3708,6 +3825,18 @@
       {
         "text": "WebViewNavigationType",
         "link": "/api/type-aliases/WebViewNavigationType"
+      },
+      {
+        "text": "WindowContentResolver",
+        "link": "/api/type-aliases/WindowContentResolver"
+      },
+      {
+        "text": "WindowRole",
+        "link": "/api/type-aliases/WindowRole"
+      },
+      {
+        "text": "WindowState",
+        "link": "/api/type-aliases/WindowState"
       }
     ]
   },
@@ -3838,6 +3967,14 @@
       {
         "text": "colorProperty",
         "link": "/api/variables/colorProperty"
+      },
+      {
+        "text": "columnGapProperty",
+        "link": "/api/variables/columnGapProperty"
+      },
+      {
+        "text": "cornerShapeProperty",
+        "link": "/api/variables/cornerShapeProperty"
       },
       {
         "text": "CSSHelper",
@@ -4032,8 +4169,16 @@
         "link": "/api/variables/marginTopProperty"
       },
       {
+        "text": "maxHeightProperty",
+        "link": "/api/variables/maxHeightProperty"
+      },
+      {
         "text": "maxLengthProperty",
         "link": "/api/variables/maxLengthProperty"
+      },
+      {
+        "text": "maxWidthProperty",
+        "link": "/api/variables/maxWidthProperty"
       },
       {
         "text": "minHeightProperty",
@@ -4042,6 +4187,10 @@
       {
         "text": "minWidthProperty",
         "link": "/api/variables/minWidthProperty"
+      },
+      {
+        "text": "NativeWindowEvents",
+        "link": "/api/variables/NativeWindowEvents"
       },
       {
         "text": "notify",
@@ -4122,6 +4271,10 @@
       {
         "text": "rotateYProperty",
         "link": "/api/variables/rotateYProperty"
+      },
+      {
+        "text": "rowGapProperty",
+        "link": "/api/variables/rowGapProperty"
       },
       {
         "text": "run",
@@ -4240,6 +4393,10 @@
         "link": "/api/variables/widthProperty"
       },
       {
+        "text": "WindowEvents",
+        "link": "/api/variables/WindowEvents"
+      },
+      {
         "text": "zIndexProperty",
         "link": "/api/variables/zIndexProperty"
       }
@@ -4249,6 +4406,10 @@
     "text": "Functions",
     "collapsed": true,
     "items": [
+      {
+        "text": "_hasPaddingSetNativeOverrides",
+        "link": "/api/functions/hasPaddingSetNativeOverrides"
+      },
       {
         "text": "_resolveAnimationCurve",
         "link": "/api/functions/resolveAnimationCurve"
@@ -4344,10 +4505,6 @@
       {
         "text": "getViewById",
         "link": "/api/functions/getViewById"
-      },
-      {
-        "text": "initializeSdkVersionClass",
-        "link": "/api/functions/initializeSdkVersionClass"
       },
       {
         "text": "isAccessibilityServiceEnabled",

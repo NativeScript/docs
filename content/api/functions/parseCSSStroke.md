@@ -8,7 +8,7 @@ contributors: false
 function parseCSSStroke(value: string): StrokeCSSValues;
 ```
 
-Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-stroke.ts)
+Defined in: [ui/styling/css-stroke.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-stroke.ts)
 
 Parse a string into StrokeCSSValues
 https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke

@@ -5,7 +5,7 @@ description: Base event data.
 contributors: false
 ---
 
-Defined in: [ui/scroll-view/index.d.ts:94](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/scroll-view/index.d.ts#L94)
+Defined in: [ui/scroll-view/index.d.ts:105](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/scroll-view/index.d.ts#L105)
 
 Base event data.
 
@@ -21,7 +21,7 @@ Base event data.
 eventName: string;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 The name of the event.
 
@@ -37,7 +37,7 @@ The name of the event.
 object: Observable;
 ```
 
-Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/data/observable/index.ts)
+Defined in: [data/observable/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/data/observable/index.ts)
 
 The Observable instance that has raised the event.
 
@@ -53,7 +53,7 @@ The Observable instance that has raised the event.
 scrollX: number;
 ```
 
-Defined in: [ui/scroll-view/index.d.ts:95](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/scroll-view/index.d.ts#L95)
+Defined in: [ui/scroll-view/index.d.ts:106](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/scroll-view/index.d.ts#L106)
 
 ***
 
@@ -63,4 +63,4 @@ Defined in: [ui/scroll-view/index.d.ts:95](https://github.com/NativeScript/Nativ
 scrollY: number;
 ```
 
-Defined in: [ui/scroll-view/index.d.ts:96](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/scroll-view/index.d.ts#L96)
+Defined in: [ui/scroll-view/index.d.ts:107](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/scroll-view/index.d.ts#L107)

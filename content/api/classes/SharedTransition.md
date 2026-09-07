@@ -5,7 +5,7 @@ description: Shared Element Transitions (preview) Allows you to auto animate bet
 contributors: false
 ---
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Shared Element Transitions (preview)
 Allows you to auto animate between shared elements on two different screesn to create smooth navigational experiences.
@@ -31,7 +31,7 @@ new SharedTransition(): SharedTransition;
 static DEBUG: boolean;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Enable to see various console logging output of Shared Element Transition behavior.
 
@@ -43,7 +43,7 @@ Enable to see various console logging output of Shared Element Transition behavi
 static finishedEvent: string;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 When the transition finishes.
 
@@ -55,7 +55,7 @@ When the transition finishes.
 static inProgress: boolean;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Whether a transition is in progress or not.
 Note: used internally however exposed in case custom state ordering is needed.
@@ -69,7 +69,7 @@ Updated when transitions start/end/cancel.
 static interactiveCancelledEvent: string;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 When the interactive transition cancels.
 
@@ -81,7 +81,7 @@ When the interactive transition cancels.
 static interactiveUpdateEvent: string;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 When the interactive transition updates with the percent value.
 
@@ -93,7 +93,7 @@ When the interactive transition updates with the percent value.
 static startedEvent: string;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 When the transition starts.
 
@@ -107,7 +107,7 @@ static custom(transition: Transition, options?: SharedTransitionConfig): {
 };
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Configure a custom transition with presentation/dismissal options.
 
@@ -142,7 +142,7 @@ instance: Transition;
 static events(): SharedTransitionObservable;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Listen to various shared element transition events.
 
@@ -160,7 +160,7 @@ Observable
 static finishState(id: number): void;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Finish transition state.
 
@@ -186,7 +186,7 @@ static getSharedElements(fromPage: ViewBase, toPage: ViewBase): {
 };
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Gather view collections based on sharedTransitionTag details.
 
@@ -235,7 +235,7 @@ sharedElements: View[];
 static getState(id: number): SharedTransitionState;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Get current state for any transition.
 
@@ -257,7 +257,7 @@ Get current state for any transition.
 static notifyEvent(eventName: string, data: SharedTransitionEventDataPayload): void;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Notify a Shared Transition event.
 
@@ -274,13 +274,66 @@ Notify a Shared Transition event.
 
 ***
 
+### registerExternalRoot()
+
+```ts
+static registerExternalRoot(root: ViewBase): void;
+```
+
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
+
+Register an NS view subtree that should be searched for sharedTransitionTag
+elements in addition to the source page. Use this for views that are attached
+to the native UI but aren't reachable from the page via the NS view tree —
+for example, a TabView's `iosBottomAccessory`. The root and any of its
+descendants with a `sharedTransitionTag` will then participate in transitions
+originating from any page.
+
+Registration is idempotent. Pair with `unregisterExternalRoot` on teardown
+to avoid leaking detached views into future transitions.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `root` | [`ViewBase`](ViewBase.md) |
+
+#### Returns
+
+`void`
+
+***
+
+### unregisterExternalRoot()
+
+```ts
+static unregisterExternalRoot(root: ViewBase): void;
+```
+
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
+
+Remove a previously registered external root. No-op if the root wasn't
+registered.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `root` | [`ViewBase`](ViewBase.md) |
+
+#### Returns
+
+`void`
+
+***
+
 ### updateState()
 
 ```ts
 static updateState(id: number, state: SharedTransitionState): void;
 ```
 
-Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/transition/shared-transition.ts)
+Defined in: [ui/transition/shared-transition.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/transition/shared-transition.ts)
 
 Update transition state.
 

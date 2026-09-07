@@ -4,7 +4,7 @@ titleTemplate: :title - API / NativeScript
 contributors: false
 ---
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScr
 optional blurRadius?: LengthType;
 ```
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScr
 color: Color;
 ```
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScr
 inset: boolean;
 ```
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScr
 offsetX: LengthType;
 ```
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScr
 offsetY: LengthType;
 ```
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScr
 optional spreadRadius?: LengthType;
 ```
 
-Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-shadow.ts)
+Defined in: [ui/styling/css-shadow.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-shadow.ts)

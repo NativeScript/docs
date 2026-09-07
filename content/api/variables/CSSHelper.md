@@ -11,6 +11,7 @@ const CSSHelper: {
   createSelector: typeof createSelector;
   fromAstNode: typeof fromAstNode;
   InvalidSelector: typeof InvalidSelector;
+  matchSelectorCandidates: typeof matchSelectorCandidates;
   MediaQuerySelectorScope: typeof MediaQuerySelectorScope;
   PseudoClassSelector: typeof PseudoClassSelector;
   RuleSet: typeof RuleSet;
@@ -26,7 +27,7 @@ const CSSHelper: {
 };
 ```
 
-Defined in: [ui/styling/css-selector.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/styling/css-selector.ts)
+Defined in: [ui/styling/css-selector.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/styling/css-selector.ts)
 
 ## Type Declaration
 
@@ -58,6 +59,12 @@ fromAstNode: typeof fromAstNode;
 
 ```ts
 InvalidSelector: typeof InvalidSelector;
+```
+
+### matchSelectorCandidates
+
+```ts
+matchSelectorCandidates: typeof matchSelectorCandidates;
 ```
 
 ### MediaQuerySelectorScope

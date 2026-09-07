@@ -8,7 +8,7 @@ contributors: false
 function updateAccessibilityProperties(view: View): void;
 ```
 
-Defined in: [application/application.d.ts:283](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L283)
+Defined in: [application/application.d.ts:380](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L380)
 
 Update accessibility properties on nativeView
 
@@ -16,7 +16,7 @@ Update accessibility properties on nativeView
 
 | Parameter | Type |
 | ------ | ------ |
-| `view` | `View` |
+| `view` | [`View`](../classes/View.md) |
 
 ## Returns
 

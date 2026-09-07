@@ -11,7 +11,7 @@ function merge(
    compareFunc: any): any[];
 ```
 
-Defined in: [utils/common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/utils/common.ts)
+Defined in: [utils/common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/utils/common.ts)
 
 ## Parameters
 

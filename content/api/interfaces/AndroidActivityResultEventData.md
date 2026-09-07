@@ -5,7 +5,7 @@ description: Data for the Android activity result event.
 contributors: false
 ---
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 Data for the Android activity result event.
 
@@ -21,7 +21,7 @@ Data for the Android activity result event.
 activity: AppCompatActivity;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The activity.
 
@@ -37,7 +37,7 @@ The activity.
 eventName: string;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The name of the event.
 
@@ -53,7 +53,7 @@ The name of the event.
 intent: Intent;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The intent.
 
@@ -65,7 +65,7 @@ The intent.
 object: any;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The instance that has raised the event.
 
@@ -81,7 +81,7 @@ The instance that has raised the event.
 requestCode: number;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The request code.
 
@@ -93,6 +93,22 @@ The request code.
 resultCode: number;
 ```
 
-Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application-interfaces.ts)
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
 
 The result code.
+
+***
+
+### window?
+
+```ts
+optional window?: NativeWindow;
+```
+
+Defined in: [application/application-interfaces.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application-interfaces.ts)
+
+The NativeWindow the activity belongs to, when one is registered for it.
+
+#### Inherited from
+
+[`AndroidActivityEventData`](AndroidActivityEventData.md).[`window`](AndroidActivityEventData.md#window)

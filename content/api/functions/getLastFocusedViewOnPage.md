@@ -5,10 +5,10 @@ contributors: false
 ---
 
 ```ts
-function getLastFocusedViewOnPage(page: Page): any;
+function getLastFocusedViewOnPage(page: Page): View;
 ```
 
-Defined in: [application/application.d.ts:298](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/application/application.d.ts#L298)
+Defined in: [application/application.d.ts:395](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/application/application.d.ts#L395)
 
 Find the last view focused on a page.
 
@@ -16,8 +16,8 @@ Find the last view focused on a page.
 
 | Parameter | Type |
 | ------ | ------ |
-| `page` | `Page` |
+| `page` | [`Page`](../classes/Page.md) |
 
 ## Returns
 
-`any`
+[`View`](../classes/View.md)

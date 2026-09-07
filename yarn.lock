@@ -416,10 +416,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@nativescript/core@^9.0.20":
-  version "9.0.20"
-  resolved "https://registry.yarnpkg.com/@nativescript/core/-/core-9.0.20.tgz#3ed43c6652d6bdd9454483410e05c67ae11e5f6f"
-  integrity sha512-zx+4mGO6aUCeVIV3c6x+b3H+ZTBJAvHAYqtjpOYJGiPZc0AG3OwVzXhp4qyAteWha8cnFFHU5+trnve9O0q2xg==
+"@nativescript/core@9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@nativescript/core/-/core-9.1.0.tgz#3399cf9d00cb8e7272047258dab613b9a69d81cf"
+  integrity sha512-3aXJ3Xh69aLtpplACdKL1OUesjYCj0PGv7M8PNIZfQHoZLVF7d0piFl2wFABph00bGDBXop7OQmUsuW7Bht3OA==
   dependencies:
     "@csstools/css-calc" "~2.1.4"
     "@csstools/css-color-parser" "^3.0.10"

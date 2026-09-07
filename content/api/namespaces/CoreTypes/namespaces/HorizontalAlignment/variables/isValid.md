@@ -8,7 +8,7 @@ contributors: false
 const isValid: (value: any) => value is HorizontalAlignmentType;
 ```
 
-Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/core-types/index.ts)
+Defined in: [core-types/index.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/core-types/index.ts)
 
 ## Parameters
 

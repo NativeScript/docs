@@ -30,6 +30,7 @@ Various iOS view helper methods
 | [getFrameFromPosition](functions/getFrameFromPosition.md) | - |
 | [getParentWithViewController](functions/getParentWithViewController.md) | Returns a view with viewController or undefined if no such found along the view's parent chain. |
 | [getPositionFromFrame](functions/getPositionFromFrame.md) | - |
+| [hasIOSManagedInsetAncestor](functions/hasIOSManagedInsetAncestor.md) | - |
 | [invalidateStatusBarAppearance](functions/invalidateStatusBarAppearance.md) | - |
 | [layoutView](functions/layoutView.md) | - |
 | [shrinkToSafeArea](functions/shrinkToSafeArea.md) | - |

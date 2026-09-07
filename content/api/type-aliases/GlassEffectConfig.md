@@ -14,7 +14,7 @@ type GlassEffectConfig = {
 };
 ```
 
-Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-common.ts)
+Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/view-common.ts)
 
 ## Properties
 
@@ -24,7 +24,7 @@ Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/Native
 optional animateChangeDuration?: number;
 ```
 
-Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-common.ts)
+Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/view-common.ts)
 
 Duration in milliseconds to animate effect changes (default is 300ms)
 
@@ -36,7 +36,7 @@ Duration in milliseconds to animate effect changes (default is 300ms)
 optional interactive?: boolean;
 ```
 
-Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-common.ts)
+Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/view-common.ts)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/Native
 optional spacing?: number;
 ```
 
-Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-common.ts)
+Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/view-common.ts)
 
 (LiquidGlassContainer only) spacing between child elements (default is 8)
 
@@ -58,7 +58,7 @@ Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/Native
 optional tint?: string | Color;
 ```
 
-Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-common.ts)
+Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/view-common.ts)
 
 ***
 
@@ -68,4 +68,4 @@ Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/Native
 optional variant?: GlassEffectVariant;
 ```
 
-Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/core/view/view-common.ts)
+Defined in: [ui/core/view/view-common.ts](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/core/view/view-common.ts)

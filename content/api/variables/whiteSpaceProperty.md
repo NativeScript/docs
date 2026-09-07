@@ -8,4 +8,4 @@ contributors: false
 const whiteSpaceProperty: InheritedCssProperty<Style, WhiteSpaceType>;
 ```
 
-Defined in: [ui/text-base/index.d.ts:227](https://github.com/NativeScript/NativeScript/blob/9.0.20-core/packages/core/ui/text-base/index.d.ts#L227)
+Defined in: [ui/text-base/index.d.ts:227](https://github.com/NativeScript/NativeScript/blob/9.1.0-core/packages/core/ui/text-base/index.d.ts#L227)

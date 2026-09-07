@@ -118,6 +118,7 @@ contributors: false
 | [ListView](classes/ListView.md) | Represents a view that shows items in a vertically scrolling list. |
 | [ModalTransition](classes/ModalTransition.md) | - |
 | [ModuleNameResolver](classes/ModuleNameResolver.md) | - |
+| [NativeWindow](classes/NativeWindow.md) | A window surface that hosts a NativeScript view tree. |
 | [NavigationButton](classes/NavigationButton.md) | Represents the navigation (a.k.a. "back") button. |
 | [Observable](classes/Observable.md) | Observable is used when you want to be notified when a change occurs. Use on/off methods to add/remove listener. Please note that should you be using the `new Observable({})` constructor, it is **obsolete** since v3.0, and you have to migrate to the "data/observable" `fromObject({})` or the `fromObjectRecursive({})` functions. |
 | [ObservableArray](classes/ObservableArray.md) | Advanced array like class used when you want to be notified when a change occurs. |
@@ -160,6 +161,7 @@ contributors: false
 | [ViewHelper](classes/ViewHelper.md) | - |
 | [VirtualArray](classes/VirtualArray.md) | Advanced array like class that helps loading items on demand. |
 | [WebView](classes/WebView.md) | Represents a standard WebView widget. |
+| [WindowBase](classes/WindowBase.md) | Cross-platform base for any window surface. |
 | [WrapLayout](classes/WrapLayout.md) | WrapLayout position children in rows or columns depending on orientation property until space is filled and then wraps them on new row or column. |
 | [WrappedValue](classes/WrappedValue.md) | Helper class that is used to fire property change even when real object is the same. By default property change will not be fired for a same object. By wrapping object into a WrappedValue instance `same object restriction` will be passed. |
 | [XmlParser](classes/XmlParser.md) | A simple non-validating SAX parser based on https://github.com/vflash/easysax version 0.1.14 |
@@ -225,6 +227,7 @@ contributors: false
 | [LoginResult](interfaces/LoginResult.md) | Provides result data from the login dialog. |
 | [NativeScriptConfig](interfaces/NativeScriptConfig.md) | IMPORTANT: this is not generated automatically due to this issue: https://github.com/microsoft/TypeScript/issues/36763 the reference path above will get rewritten and break on compilation unless kept here Once issue is resolve we can remove this index.d.ts from repo and go back to auto generation on tsc |
 | [NativeScriptError](interfaces/NativeScriptError.md) | An extended JavaScript Error which will have the nativeError property initialized in case the error is caused by executing platform-specific code. |
+| [NativeWindowEventData](interfaces/NativeWindowEventData.md) | Base event data for NativeWindow events. |
 | [NavigatedData](interfaces/NavigatedData.md) | Defines the data for the page navigation events. |
 | [NavigationContext](interfaces/NavigationContext.md) | Represents a context passed to navigation methods. |
 | [NavigationData](interfaces/NavigationData.md) | Base event data. |
@@ -236,6 +239,7 @@ contributors: false
 | [PinchGestureEventData](interfaces/PinchGestureEventData.md) | Base event data. |
 | [PlatformContext](interfaces/PlatformContext.md) | Used with qualifier matchers and module resolution |
 | [Point3D](interfaces/Point3D.md) | - |
+| [PrimaryWindowChangedEventData](interfaces/PrimaryWindowChangedEventData.md) | Event data fired on Application when the primary window changes. |
 | [PromptOptions](interfaces/PromptOptions.md) | Provides options for the prompt dialog. |
 | [PromptResult](interfaces/PromptResult.md) | Provides result data from the prompt dialog. |
 | [PropertyAnimation](interfaces/PropertyAnimation.md) | - |
@@ -243,7 +247,10 @@ contributors: false
 | [PropertyChangeData](interfaces/PropertyChangeData.md) | Data for the "propertyChange" event. |
 | [RootLayoutOptions](interfaces/RootLayoutOptions.md) | - |
 | [RotationGestureEventData](interfaces/RotationGestureEventData.md) | Base event data. |
+| [SceneContinueUserActivityEventData](interfaces/SceneContinueUserActivityEventData.md) | iOS event data for the `sceneContinueUserActivity` event, raised for Handoff and universal links directed at a scene. |
 | [SceneEventData](interfaces/SceneEventData.md) | iOS Event data containing information for scene lifecycle events (iOS 13+). |
+| [SceneOpenURLContextsEventData](interfaces/SceneOpenURLContextsEventData.md) | iOS event data for the `sceneOpenURLContexts` event, raised when a scene is asked to open URLs. |
+| [ScenePerformActionForShortcutItemEventData](interfaces/ScenePerformActionForShortcutItemEventData.md) | iOS event data for the `scenePerformActionForShortcutItem` event, raised when a home screen quick action targets a scene. |
 | [ScrollEventData](interfaces/ScrollEventData.md) | Base event data. |
 | [SearchEventData](interfaces/SearchEventData.md) | Event data containing information for the search text change event. |
 | [SelectedIndexChangedEventData](interfaces/SelectedIndexChangedEventData.md) | Defines the data for the SegmentedBar.selectedIndexChanged event. |
@@ -266,6 +273,14 @@ contributors: false
 | [TraceWriter](interfaces/TraceWriter.md) | An interface used to define a writer used by trace to print (log). |
 | [UnhandledErrorEventData](interfaces/UnhandledErrorEventData.md) | Event data containing information about unhandled application errors. |
 | [ViewEntry](interfaces/ViewEntry.md) | Represents an entry to be used to create a view or load it form file |
+| [WindowBaseEventData](interfaces/WindowBaseEventData.md) | Base event data for window surface events. |
+| [WindowCloseEventData](interfaces/WindowCloseEventData.md) | Event data fired on Application when a window closes. |
+| [WindowContentRequest](interfaces/WindowContentRequest.md) | Describes the window asking for content. |
+| [WindowLayoutDirectionChangedEventData](interfaces/WindowLayoutDirectionChangedEventData.md) | Event data for the `layoutDirectionChanged` event of a NativeWindow. |
+| [WindowOpenEventData](interfaces/WindowOpenEventData.md) | Event data fired on Application when a window opens. |
+| [WindowOpenOptions](interfaces/WindowOpenOptions.md) | Options for opening a new window. |
+| [WindowOrientationChangedEventData](interfaces/WindowOrientationChangedEventData.md) | Event data for the `orientationChanged` event of a NativeWindow. |
+| [WindowSystemAppearanceChangedEventData](interfaces/WindowSystemAppearanceChangedEventData.md) | Event data for the `systemAppearanceChanged` event of a NativeWindow. |
 
 ## Type Aliases
 
@@ -297,6 +312,7 @@ contributors: false
 | [~~LengthPxUnit~~](type-aliases/LengthPxUnit.md) | - |
 | [~~LengthType~~](type-aliases/LengthType.md) | - |
 | [ModuleListProvider](type-aliases/ModuleListProvider.md) | - |
+| [NativeWindowEventName](type-aliases/NativeWindowEventName.md) | - |
 | [~~percent~~](type-aliases/percent.md) | - |
 | [~~PercentLengthType~~](type-aliases/PercentLengthType.md) | - |
 | [~~px~~](type-aliases/px.md) | - |
@@ -314,6 +330,9 @@ contributors: false
 | [~~VerticalAlignment~~](type-aliases/VerticalAlignment.md) | - |
 | [VisionHoverOptions](type-aliases/VisionHoverOptions.md) | - |
 | [WebViewNavigationType](type-aliases/WebViewNavigationType.md) | Represents navigation type |
+| [WindowContentResolver](type-aliases/WindowContentResolver.md) | Supplies the UI for a window that needs content. Called once per window that needs it. |
+| [WindowRole](type-aliases/WindowRole.md) | The purpose a window surface serves. |
+| [WindowState](type-aliases/WindowState.md) | The lifecycle state of a window surface. |
 
 ## Variables
 
@@ -350,6 +369,8 @@ contributors: false
 | [borderTopWidthProperty](variables/borderTopWidthProperty.md) | - |
 | [clipPathProperty](variables/clipPathProperty.md) | - |
 | [colorProperty](variables/colorProperty.md) | - |
+| [columnGapProperty](variables/columnGapProperty.md) | - |
+| [cornerShapeProperty](variables/cornerShapeProperty.md) | - |
 | [CSSHelper](variables/CSSHelper.md) | - |
 | [Device](variables/Device.md) | Gets the current device information. |
 | [Dialogs](variables/Dialogs.md) | Singular rollup for convenience of all dialog methods |
@@ -398,9 +419,12 @@ contributors: false
 | [marginLeftProperty](variables/marginLeftProperty.md) | - |
 | [marginRightProperty](variables/marginRightProperty.md) | - |
 | [marginTopProperty](variables/marginTopProperty.md) | - |
+| [maxHeightProperty](variables/maxHeightProperty.md) | - |
 | [maxLengthProperty](variables/maxLengthProperty.md) | - |
+| [maxWidthProperty](variables/maxWidthProperty.md) | - |
 | [minHeightProperty](variables/minHeightProperty.md) | - |
 | [minWidthProperty](variables/minWidthProperty.md) | - |
+| [NativeWindowEvents](variables/NativeWindowEvents.md) | Events emitted by a NativeWindow instance. |
 | [~~notify~~](variables/notify.md) | - |
 | [~~off~~](variables/off.md) | - |
 | [~~on~~](variables/on.md) | - |
@@ -421,10 +445,11 @@ contributors: false
 | [rotateProperty](variables/rotateProperty.md) | - |
 | [rotateXProperty](variables/rotateXProperty.md) | - |
 | [rotateYProperty](variables/rotateYProperty.md) | - |
+| [rowGapProperty](variables/rowGapProperty.md) | - |
 | [~~run~~](variables/run.md) | - |
 | [scaleXProperty](variables/scaleXProperty.md) | - |
 | [scaleYProperty](variables/scaleYProperty.md) | - |
-| [SceneEvents](variables/SceneEvents.md) | - |
+| [~~SceneEvents~~](variables/SceneEvents.md) | - |
 | [~~setAutoSystemAppearanceChanged~~](variables/setAutoSystemAppearanceChanged.md) | - |
 | [~~setCssFileName~~](variables/setCssFileName.md) | - |
 | [~~setMaxRefreshRate~~](variables/setMaxRefreshRate.md) | - |
@@ -450,12 +475,14 @@ contributors: false
 | [visibilityProperty](variables/visibilityProperty.md) | - |
 | [whiteSpaceProperty](variables/whiteSpaceProperty.md) | - |
 | [widthProperty](variables/widthProperty.md) | - |
+| [WindowEvents](variables/WindowEvents.md) | Application-level events related to window management. |
 | [zIndexProperty](variables/zIndexProperty.md) | - |
 
 ## Functions
 
 | Function | Description |
 | ------ | ------ |
+| [\_hasPaddingSetNativeOverrides](functions/hasPaddingSetNativeOverrides.md) | Whether a subclass overrides any of the per-side [padding*Property.setNative] handlers `coreProto` defines. An override owns padding application - the consolidated paddingInternal write must stand down, or it would apply padding around handlers designed to intercept it. |
 | [\_resolveAnimationCurve](functions/resolveAnimationCurve.md) | - |
 | [\_setResolver](functions/setResolver.md) | Used to set a global singular instance of ModuleNameResolver |
 | [action](functions/action.md) | The action() method displays a action box that prompts the visitor to choose some action. |
@@ -480,7 +507,6 @@ contributors: false
 | [getRootLayoutById](functions/getRootLayoutById.md) | - |
 | [getTransformedText](functions/getTransformedText.md) | - |
 | [getViewById](functions/getViewById.md) | Gets a child view by id. |
-| [initializeSdkVersionClass](functions/initializeSdkVersionClass.md) | - |
 | [isAccessibilityServiceEnabled](functions/isAccessibilityServiceEnabled.md) | Is Android TalkBack or iOS VoiceOver enabled? |
 | [isEmbedded](functions/isEmbedded.md) | Whether the app is embedded into a host project or standalone project |
 | [login](functions/login.md) | The login() method displays a login dialog box that prompts the visitor for user name and password. |

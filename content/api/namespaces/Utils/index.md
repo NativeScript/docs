@@ -23,7 +23,7 @@ contributors: false
 
 | Type Alias | Description |
 | ------ | ------ |
-| [NativeWindow](type-aliases/NativeWindow.md) | - |
+| [PlatformWindow](type-aliases/PlatformWindow.md) | - |
 
 ## Variables
 
