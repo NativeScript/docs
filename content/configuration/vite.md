@@ -543,3 +543,97 @@ Restarting application on device emulator-5554...
 ```
 
 Double check your running processes and shut down any running instances (often `node` processes) to ensure the port availability and IP is correct when it tried to connect. Then run again.
+
+## Common cases when moving from webpack to vite
+
+Some of these are specific to Vue however others are similar across any framework when moving from `@nativescript/webpack` to `@nativescript/vite` 8.x (NativeScript 9.1). Most are things webpack silently handled.
+
+---
+
+### 1. `Cannot find package '@vitejs/plugin-vue-jsx'`
+
+**Problem:** `failed to load config from vite.config.mts … Cannot find package '@vitejs/plugin-vue-jsx' imported from @nativescript/vite/configuration/vue.js`. Right after fixing it, the build fails again on `vue-tsc`.
+
+**Solution:** The Vue flavor imports these directly, and type-checks with `vue-tsc` by default. Install both:
+
+```bash
+npm i -D @vitejs/plugin-vue-jsx vue-tsc
+```
+
+---
+
+### 2. `vue-tsc` reports errors `tsc` never did
+
+**Problem:** New type errors during the Vite build: `Conversion of type 'UIView' to type 'View'` in `.android.ts` files, `Cannot find module '<plugin>'`, or plugin options reported as unknown properties.
+
+**Solution:** The build runs `vue-tsc --moduleSuffixes .ios,.native,` (or `.android`) over the whole project. So:
+- **Other-platform files get the wrong typings.** `nativeViewProtected` is `UIView` inside an `.android.ts` file. Use `this.nativeView` (typed `any`) for platform casts.
+- **Some plugin typings stop resolving.** A `typings` field naming a missing file, or `import from '../x'` landing on `x.ios.d.ts`, can break. Fix with an ambient `declare module` or a module augmentation in your `types/` folder.
+- **`.vue` templates are checked for the first time.**
+
+To defer the check: `vueConfig({ mode }, { typeCheck: 'warn' | 'off' })`, or `NS_VITE_TYPECHECK=off`. By default it only fails the build when `tsconfig` sets `noEmitOnError`.
+
+---
+
+### 3. `HTTP import failed: http://<ip>:5173/ns/core/xhr (network error)`
+
+**Problem:** The app dies at launch with `Error instantiating module …/bundle.mjs`, after `module graph walk missed http://<ip>:5173/…`.
+
+**Solution:** A dev build has the dev server URL baked in, and the device couldn't reach it. The simulator log (`xcrun simctl spawn <udid> log show --predicate 'process == "<app>"'`) shows `Connection refused` when nothing is listening. The Vite server only lives as long as the `ns run` / `ns debug` session:
+- Launch from a running `ns run`/`ns debug` session, not by relaunching the app afterwards.
+- Check the CLI output for `Vite dev server for ios exited with code …`.
+- Confirm the server is reachable: `curl http://<ip>:5173/ns/core/xhr` should return 200.
+- If the LAN IP is unreachable (VPN, firewall), use `NS_HMR_HOST=<host>`. For simulator-only work, `NS_HMR_PREFER_LAN_HOST=0` forces localhost.
+
+---
+
+### 4. Node-only packages in `dependencies` crash the dev session
+
+**Problem:** `[ns-entry] deterministic dev session bootstrap failed`, with a stack through `/ns/deps-bundle.mjs`. Examples:
+- `Cannot read properties of undefined (reading 'substr')` in `graceful-fs` ← `fs-extra` ← `patch-package`
+- `Cannot read properties of undefined (reading 'custom')` in `object-inspect` ← `qs` ← `url`
+
+**Solution:** In an HMR session, every package in `dependencies` is bundled into `/ns/deps-bundle.mjs` and **evaluated on the device at startup**, whether or not the app imports it. Webpack only bundled what was imported. Move build tooling and webpack polyfill shims (`patch-package`, `url`, `path-browserify`, …) to `devDependencies`. The `node_modules/<pkg>` frames in the stack name the offender.
+
+---
+
+### 5. A dependency's own copy of `vue` breaks `getCurrentInstance()`
+
+**Problem:** `Cannot read properties of undefined (reading '$router')` in `RouterView` (`router-vue-native`), or any plugin whose `getCurrentInstance()`/`inject()` returns nothing.
+
+**Solution:** The package pins its own `vue` (`npm ls vue` shows a nested copy), so it runs against a second Vue that knows nothing about your app. Webpack hid this with a global `vue` → `nativescript-vue` alias. Vite's `resolve.alias` does the same for app code and production builds, but the HMR deps bundle is built separately and doesn't apply it. Force a single copy:
+
+```json
+"overrides": { "router-vue-native": { "vue": "$vue" } }
+```
+
+Then run `npm install`, confirm with `npm ls vue`, and clear `node_modules/.vite`.
+
+---
+
+### 6. Relative `require()` returns `{}`
+
+**Problem:** `viewClass is not a constructor` when an element renders. Or a lazy `require('../some-module')` in app code yields `undefined` exports.
+
+**Solution:** Webpack resolved `require` at build time. Vite leaves it as a runtime call, and a **relative** path can't be resolved on the device, so it returns `{}`. For example, `@nativescript/google-mobile-ads/vue` registers its views with `require('../').BannerAd`. Bare package names like `require('<package>')` do resolve.
+- **Plugins:** skip the plugin's Vue install and register its elements yourself:
+  ```ts
+  registerElement('BannerAd', () => require('@nativescript/google-mobile-ads').BannerAd)
+  ```
+- **App code:** replace lazy relative requires (often used to break import cycles) with `import('../module')`.
+
+---
+
+### Quick diagnostics
+
+- **Which element failed to construct?** Attach the debugger (`ns debug ios` prints a `devtools://` URL) and call `getViewClass('<Tag>')` from the vendored `nativescript-vue`. It is reachable through `globalThis.__nsVendorRegistry.get('nativescript-vue')`; a resolver returning `undefined` is the culprit.
+- **What is actually in the deps bundle?** `curl http://<ip>:5173/ns/deps-bundle.mjs` and grep for `// node_modules/` headers. Duplicated packages show up here.
+- **After changing `package.json`:** the next run does a full native rebuild, so budget a few minutes.
+
+---
+
+### Related, not Vite-specific: `@nativescript/types` 9.1 nullability
+
+**Problem:** After upgrading to types 9.1, `'m' is possibly 'null'` on calls like `SCNGeometry.firstMaterial`, `UIImage.imageWithContentsOfFile`, `NSDateFormatter.dateFormatFromTemplateOptionsLocale`, `ContentResolver.openInputStream`.
+
+**Solution:** The typings now carry the platform headers' nullability. Handle the ones that really can be null (for example, `openInputStream`). Use `!` where the API can't return null in your usage, such as the default material of a freshly created `SCNSphere`.
