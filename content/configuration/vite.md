@@ -520,7 +520,7 @@ export default {
 
 ### Android connection crash on start of dev session
 
-If you see a crash on Android when starting a dev session, it may be due to the `adb reverse` command failing. This can happen if the device is not connected or if there are multiple devices connected, or if spare processes are holding onto a port it's trying to use. For example:
+If you see a crash on Android when starting a dev session, it may be due to the `adb reverse` command failing. There's a couple reasons this could occur. First, ensure you have [Network Security Config Setup](https://docs.nativescript.org/configuration/vite#android-notes). This can also happen if the device is not connected or if there are multiple devices connected, or if spare processes are holding onto a port it's trying to use. For example:
 
 ```
 Restarting application on device emulator-5554...
