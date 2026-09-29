@@ -161,6 +161,10 @@ export default [
         link: '/configuration/vite',
       },
       {
+        text: 'Vite Framework Flavors',
+        link: '/configuration/vite-framework-flavors',
+      },
+      {
         text: 'Webpack Reference',
         link: '/configuration/webpack',
       },
