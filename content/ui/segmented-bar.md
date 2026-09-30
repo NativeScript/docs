@@ -121,3 +121,4 @@ Emitted when an item in the SegmentedBar is tapped.
 
 - Android: [`android.widget.TabHost`](https://developer.android.com/reference/android/widget/TabHost.html)
 - iOS: [`UISegmentedControl`](https://developer.apple.com/documentation/uikit/uisegmentedcontrol)
+- Windows: [`Microsoft.UI.Xaml.Controls.StackPanel`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.stackpanel) of [`Microsoft.UI.Xaml.Controls.Primitives.ToggleButton`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.primitives.togglebutton)

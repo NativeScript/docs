@@ -291,3 +291,4 @@ See [login()](/api/#login).
 
 - Android: [android.app.AlertDialog.Builder](https://developer.android.com/reference/android/app/AlertDialog.Builder)
 - iOS: [UIAlertController](https://developer.apple.com/documentation/uikit/uialertcontroller)
+- Windows: [`Microsoft.UI.Xaml.Controls.Primitives.Popup`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.primitives.popup) (an in-window overlay)

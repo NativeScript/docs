@@ -30,6 +30,7 @@ ns native add java com.company.OtherAwesomeClass
 1. You can also manually add native code to [App_Resources](/project-structure/app-resources):
    - [Adding Java/Kotlin code to an application](/guide/native-code/android)
    - [Adding ObjectiveC/Swift Code to an application](/guide/native-code/ios)
+   - [Adding Windows native code (C#, C++/WinRT, Win32) to an application](/guide/native-code/windows)
 2. Optionally [generate TypeScript types for the added APIs](/guide/native-code/generate-typings)
 
 Additionally, NativeScript also supports Jetpack Compose and SwiftUI through plugins.
