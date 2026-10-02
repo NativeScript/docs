@@ -143,3 +143,4 @@ Emitted when the selected time changes.
 
 - Android: [`android.widget.TimePicker`](https://developer.android.com/reference/android/widget/TimePicker)
 - iOS: [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker)
+- Windows: [`Microsoft.UI.Xaml.Controls.TimePicker`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.timepicker)

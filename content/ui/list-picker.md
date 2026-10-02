@@ -95,3 +95,4 @@ Emitted when the currently selected item (index) changes.
 
 - Android: [`android.widget.NumberPicker`](https://developer.android.com/reference/android/widget/NumberPicker.html)
 - iOS: [`UIPickerView`](https://developer.apple.com/documentation/uikit/uipickerview)
+- Windows: [`Microsoft.UI.Xaml.Controls.ComboBox`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.combobox)

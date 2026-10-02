@@ -23,12 +23,13 @@ Using platform files:
 
 - `file.ios.ts`
 - `file.android.ts`
+- `file.windows.ts` (when targeting [Windows](/guide/windows/))
 
 The advent of tree shaking and webpack builds does away with quite a bit of worry in this area however there's a few things to consider here.
 
 ## Conditional with tree shaking
 
-When speaking of tree shaking ever since NativeScript 7, you've been able to use `__ANDROID__` or `global.isIOS` and anytime those are used as conditional splits in your code, only the applicable code for the platform that's being built would actually end up in your compiled code alleviating a lot of concern here.
+When speaking of tree shaking ever since NativeScript 7, you've been able to use `__ANDROID__`, `__WINDOWS__` or `global.isIOS` and anytime those are used as conditional splits in your code, only the applicable code for the platform that's being built would actually end up in your compiled code alleviating a lot of concern here.
 
 ## Future maintenance
 

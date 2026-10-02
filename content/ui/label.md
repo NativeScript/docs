@@ -191,3 +191,4 @@ Emitted when the label text is changed. -->
 
 - Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
 - iOS: [`UILabel`](https://developer.apple.com/documentation/uikit/uilabel)
+- Windows: [`Microsoft.UI.Xaml.Controls.TextBlock`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.textblock)

@@ -212,3 +212,49 @@ The above can be ignored by adding the following to your `tsconfig.json`:
 <!--  -->
 
 :::
+
+## Windows
+
+::: warning Experimental
+The Windows platform is experimental. See [Developing for Windows](/guide/windows/).
+:::
+
+### Deployment fails with 0x80073CFF
+
+During development, the CLI registers the app from its build output, which requires Developer Mode. Enable it in **Settings › System › For developers** (Windows 11) or **Settings › Update & Security › For developers** (Windows 10), then run the app again. See [Enabling Developer Mode](/setup/windows#enabling-developer-mode).
+
+### The app doesn't start after `ns run windows`
+
+If the app was installed but nothing happens when it's launched, its development registration may be stale (for example after the `platforms` folder was deleted). Remove the package and run the app again:
+
+```powershell
+Get-AppxPackage -Name <app id> | Remove-AppxPackage
+```
+
+`<app id>` is the [`id`](/configuration/nativescript#id) (or [`windows.id`](/configuration/nativescript#windows-id)) from your `nativescript.config.ts`.
+
+### Release package fails to install with 0x800B0100
+
+The `.msix` package isn't signed. Build it with `--certificate <path.pfx>` or `--certificate-thumbprint <thumbprint>`, and make sure the certificate is trusted on the machine. See [Publishing to the Microsoft Store › Sideloading](/guide/publishing/microsoft-store#sideloading-outside-of-the-store).
+
+### Text looks blurry on high-DPI displays
+
+The app is missing a DPI aware `app.manifest`. Add one to `App_Resources/Windows` as described in [App_Resources › DPI awareness](/project-structure/app-resources#dpi-awareness-app-manifest).
+
+### The app closes without an error (0xC000027B)
+
+Some XAML errors terminate the process immediately, before any JavaScript or runtime error handler runs. The most common cause is changing the XAML tree (adding, removing or reparenting elements) synchronously inside a layout or rendering callback, such as `CompositionTarget.Rendering`, `LayoutUpdated` or `SizeChanged`. Defer such changes with `setTimeout(() => { ... }, 0)`.
+
+To find the cause, check the crash logs described in [Debugging › Crash logs](/guide/debugging#crash-logs), look for the error in **Event Viewer › Windows Logs › Application**, or capture a crash dump with [ProcDump](https://learn.microsoft.com/sysinternals/downloads/procdump):
+
+```bash
+procdump -e -ma -w <ProjectName>.exe
+```
+
+### TypeError: Invalid FFI String type, expected String
+
+WinRT `String` parameters and properties only accept JavaScript strings. Convert the value first, for example `textBlock.Text = String(value)`. See [Windows Marshalling › Primitive types](/guide/windows-marshalling#primitive-types).
+
+### Build fails because a file is in use
+
+A running instance of the app can lock files in `platforms/windows`. Close the app (or run `ns clean`, which stops running instances of the app) and build again.
