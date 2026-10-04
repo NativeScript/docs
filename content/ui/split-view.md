@@ -220,3 +220,4 @@ Emitted whenever the inspector column changes visibility. Payload contains a `da
 ## Native component
 
 - iOS: [`UISplitViewController`](https://developer.apple.com/documentation/uikit/uisplitviewcontroller)
+- Windows: [`Microsoft.UI.Xaml.Controls.Grid`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.grid) (columns for the primary, supplementary and secondary views)

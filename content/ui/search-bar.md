@@ -139,3 +139,4 @@ Emitted when the search input is cleared through the **&cross;** button in the i
 
 - Android: [`android.widget.SearchView`](https://developer.android.com/reference/android/widget/SearchView.html)
 - iOS: [`UISearchBar`](https://developer.apple.com/documentation/uikit/uisearchbar)
+- Windows: [`Microsoft.UI.Xaml.Controls.AutoSuggestBox`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox)

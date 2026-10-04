@@ -371,3 +371,4 @@ If set to `true`, it clears the navigation history backstack.
 
 - Android: [`org.nativescript.widgets.ContentLayout`](https://github.com/NativeScript/tns-core-modules-widgets/blob/master/android/widgets/src/main/java/org/nativescript/widgets/ContentLayout.java)
 - iOS: [`UINavigationController`](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
+- Windows: [`Microsoft.UI.Xaml.Controls.Grid`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.grid) (hosts the navigation bar and the current page)

@@ -360,7 +360,8 @@ Additional env flags that are passed by the CLI automatically
 - `--env.android` - `true` when running on Android
 - `--env.ios` - `true` when running on iOS
 - `--env.visionos` - `true` when running on visionOS
-- `--env.platform=<platform>` - for specifying the platform to use. Can be `android`, `ios`, or `visionos`.
+- `--env.windows` - `true` when running on Windows
+- `--env.platform=<platform>` - for specifying the platform to use. Can be `android`, `ios`, `visionos`, or `windows`.
 - `--env.hmr` - `true` when building with HMR enabled
 
 ## Global "magic" variables
@@ -395,6 +396,12 @@ We define a few useful globally available variables that you can use to alter lo
   ```ts
   if (__APPLE__) {
     // we are running on an Apple platform
+  }
+  ```
+- `__WINDOWS__`, `true` when the platform is Windows
+  ```ts
+  if (__WINDOWS__) {
+    // we are running on Windows
   }
   ```
 

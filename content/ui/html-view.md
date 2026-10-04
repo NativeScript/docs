@@ -88,3 +88,4 @@ For additional inherited properties, refer to the [API Reference](/api/class/Htm
 
 - Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
 - iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)
+- Windows: [`Microsoft.UI.Xaml.Controls.RichTextBlock`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.richtextblock) (supports a subset of HTML: `p`, `br`, `b`/`strong`, `i`/`em`, `u`, `a`, `span`)
