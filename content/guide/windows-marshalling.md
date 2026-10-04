@@ -109,7 +109,7 @@ datePicker.SelectedDate = null
 
 ### `Object` (`IInspectable`) values
 
-When a parameter or property is typed as `Object`, JavaScript strings, numbers and booleans are boxed automatically. To box to a specific WinRT type, use the `interop` helpers:
+When a parameter or property is typed as `Object`, JavaScript strings, numbers and booleans are boxed automatically, and boxed values read back as JavaScript primitives (`element.Tag = 'a'` then `element.Tag === 'a'`). To box to a specific WinRT type, use the `interop` helpers:
 
 ```ts
 const values = new Windows.Foundation.Collections.PropertySet()
@@ -323,6 +323,6 @@ Supported types are `void`, `bool`, `i8`, `i16`, `i32`, `i64`, `u8`, `u16`, `u32
 
 ## Threading
 
-JavaScript runs on the WinUI UI thread, so WinRT and XAML APIs can be called directly. A callback that WinRT or .NET invokes on a background thread (an event, a delegate, an overridden member, a `Task` continuation) runs on the UI thread, while the calling thread waits for it. Its return value or exception is passed back to the caller. See [Multithreading](/guide/multithreading#windows).
+JavaScript runs on the WinUI UI thread, so WinRT and XAML APIs can be called directly. A callback that WinRT or .NET invokes on a background thread (an event, a delegate, an overridden member, a `Task` continuation) runs on the UI thread (or on the worker that created it), while the calling thread waits for it. Its return value or exception is passed back to the caller. See [Multithreading](/guide/multithreading#windows).
 
 You can add, remove and reparent XAML elements from any handler, including `CompositionTarget.Rendering`, `LayoutUpdated` and `SizeChanged`.
