@@ -372,5 +372,5 @@ On Windows, JavaScript runs on the WinUI UI thread, so WinRT and XAML APIs are c
 Keep the following in mind:
 
 - Messages are serialized using the structured clone algorithm, so values such as `Date`, `Map`, `Set`, `ArrayBuffer` and typed arrays can be sent. Native (WinRT) objects can't be sent.
-- JavaScript callbacks only run on the thread that created them. If WinRT invokes a callback (event handler, delegate or async completion) on a background thread, it is not delivered to JavaScript. Subscribe to events and await async operations on the thread that uses the results.
+- JavaScript callbacks run on the thread that created them. When WinRT or .NET invokes a callback created on the UI thread (an event handler, delegate, overridden member or async completion) from a background thread, it runs on the UI thread while the calling thread waits for it, so return values and exceptions reach the caller, as on iOS and Android. As on those platforms, a UI thread blocked waiting for that background thread deadlocks. Callbacks created in a worker are only delivered on the worker's thread.
 - To get results from a worker back to the UI, `postMessage` them to the main thread. `Utils.isMainThread()` tells you whether the current code runs on the UI thread.
