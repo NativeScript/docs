@@ -26,6 +26,7 @@ App_Resources/
 │  ├─ before-plugins.props  # imported before plugin files
 │  ├─ after-plugins.props   # imported after plugin files
 │  ├─ Package.appxmanifest
+│  ├─ src/                  # C# sources, compiled into the app
 │  └─ Assets/
 └─ ... more
 ```
@@ -73,49 +74,48 @@ Add a `PackageReference` to `App_Resources/Windows/app.csproj`:
 </Project>
 ```
 
-Then register the root namespace of the library with the assembly that contains it, and use it from JavaScript:
+Then use it from JavaScript. The root namespaces of the app's assemblies (`Newtonsoft` here) are globals, like `System`:
 
 ```ts
-NSWinRT.dotnet.registerNamespace('Newtonsoft', 'Newtonsoft.Json')
-
 const json = Newtonsoft.Json.JsonConvert.SerializeObject({ hello: 'world' })
 ```
 
-`registerNamespace(root, assemblyName)` defines a global for the namespace root (`Newtonsoft` above), which resolves types from the given assembly. Assemblies are loaded from the app's output folder, including its `libs` and `plugins` subfolders.
+Assemblies are loaded from the app's output folder, including its `libs` and `plugins` subfolders.
 
 ### Adding your own C# code
 
-To add your own C# code, create a .NET class library targeting `net10.0` (or `net10.0-windows10.0.xxxxx.0` if it uses WinRT APIs) in your project, for example in `native/windows/MyLibrary`, and reference it from `App_Resources/Windows/app.csproj`:
-
-```xml
-<Project>
-  <ItemGroup>
-    <ProjectReference Include="$(MSBuildProjectDirectory)\..\..\..\native\windows\MyLibrary\MyLibrary.csproj" />
-  </ItemGroup>
-</Project>
-```
+Add C# files to `App_Resources/Windows`, for example in `App_Resources/Windows/src`. They are compiled into the app, the way Java/Kotlin files in `App_Resources/Android/src` and Objective-C/Swift files in `App_Resources/iOS/src` are, and their types are available from JavaScript by namespace:
 
 ```cs
-// native/windows/MyLibrary/Greeter.cs
+// App_Resources/Windows/src/Greeter.cs
 namespace MyCompany.Native;
 
-public static class Greeter
+public class Greeter
 {
-    public static string Hello(string name) => $"Hello {name} from C#!";
+    public string Name { get; set; } = "C#";
+
+    public string Hello(string who) => $"Hello {who} from {Name}!";
+
+    public static int Add(int a, int b) => a + b;
 }
 ```
 
 ```ts
-NSWinRT.dotnet.registerNamespace('MyCompany', 'MyLibrary')
-
-console.log(MyCompany.Native.Greeter.Hello('NativeScript'))
-// prints: Hello NativeScript from C#!
+const greeter = new MyCompany.Native.Greeter()
+console.log(greeter.Hello('NativeScript')) // Hello NativeScript from C#!
+console.log(MyCompany.Native.Greeter.Add(2, 3)) // 5
 ```
 
-### .NET tasks and delegates
+Public members are available, including those of internal types. Add the NuGet packages your code needs to `App_Resources/Windows/app.csproj`. JavaScript classes can also [extend your C# classes](/guide/extending-classes-and-implementing-interfaces-windows).
 
-- Convert a returned `Task` to a promise with `NSWinRT.toPromise(task)`.
-- Create a .NET delegate (for example a `System.Action`) with `NSWinRT.dotnet.asDelegate('System.Action', fn)`. For WinRT delegates use `NSWinRT.asDelegate` instead, see [Windows Marshalling › Events](/guide/windows-marshalling#events).
+For a larger code base, a separate .NET class library works too: reference it from `app.csproj` with a `ProjectReference` (`$(MSBuildProjectDirectory)\..\..\..\` is your project root).
+
+### .NET tasks, delegates and structs
+
+- A method returning a `Task` returns an awaitable: `const data = await MyCompany.Native.Api.LoadAsync()`. `NSWinRT.toPromise(task)` converts it explicitly.
+- Pass a JavaScript function where a method expects a delegate (`Func<>`, `Action<>` or another delegate type). Its return value is returned to the caller. `NSWinRT.dotnet.asDelegate(typeName, fn)` creates one explicitly; for WinRT delegates see [Windows Marshalling › Events](/guide/windows-marshalling#events).
+- Subscribe to .NET events with their `add_`/`remove_` methods: `greeter.add_Greeted((sender, message) => {})`.
+- Pass a plain object where a struct is expected (`{ Width: 120, Height: 40 }`). Structs passed to JavaScript callbacks arrive as plain objects.
 - .NET objects are released when they are garbage collected. Call `obj.release()` to release one immediately.
 
 ## Adding C++/WinRT components
@@ -220,10 +220,11 @@ my-plugin/
 ├─ plugin.targets    # optional, imported by the host project
 └─ platforms/
    └─ windows/
+      ├─ src/        # C# sources, compiled into the app
       ├─ x64/
       └─ arm64/
 ```
 
-The CLI copies the contents of `platforms/windows` into the host project (under `plugins/<plugin-name>/`) and imports the plugin's `plugin.props` and `plugin.targets` files. Use them to add package references, copy native files to the output folder or register activatable classes, the same way an app does with `app.csproj`. When a plugin has no `plugin.props`/`plugin.targets`, the CLI generates default ones that copy the plugin's files into `plugins\<plugin-name>` in the app output folder.
+The CLI copies the contents of `platforms/windows` into the host project (under `plugins/<plugin-name>/`) and imports the plugin's `plugin.props` and `plugin.targets` files. C# files are compiled into the app, so a plugin can ship its native code as source, as Android and iOS plugins do. Use them to add package references, copy native files to the output folder or register activatable classes, the same way an app does with `app.csproj`. When a plugin has no `plugin.props`/`plugin.targets`, the CLI generates default ones that copy the plugin's files into `plugins\<plugin-name>` in the app output folder.
 
 See [`@nativescript/core`'s `plugin.targets`](https://github.com/NativeScript/NativeScript/blob/main/packages/core/plugin.targets) for a complete example that deploys a C++/WinRT component and registers its classes.

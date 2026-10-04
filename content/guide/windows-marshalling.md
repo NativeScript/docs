@@ -262,6 +262,16 @@ datePicker.SelectedDateChanged = NSWinRT.asDelegate(
 Keep a reference to handlers you create with `NSWinRT.asDelegate` (for example on your view instance) for as long as the subscription is needed.
 :::
 
+Static events are assigned on the class the same way:
+
+```ts
+Microsoft.UI.Xaml.Media.CompositionTarget.Rendering = () => {
+  // called once per frame
+}
+// ...
+Microsoft.UI.Xaml.Media.CompositionTarget.Rendering = null
+```
+
 ## Async operations
 
 WinRT async operations (`IAsyncAction`, `IAsyncOperation<T>`) are not promises. Convert them with `NSWinRT.toPromise`:
@@ -285,7 +295,7 @@ await NSWinRT.toPromise(operation, { timeoutMs: 10000 })
 
 ## .NET types
 
-.NET libraries are available through the `System` global and other registered namespaces. .NET `Task` objects are converted with `NSWinRT.toPromise` as well:
+.NET libraries are available through the `System` global and the root namespaces of the app's other assemblies. Methods returning a .NET `Task` return an awaitable, which `NSWinRT.toPromise` also accepts:
 
 ```ts
 const stopwatch = System.Diagnostics.Stopwatch.StartNew()
@@ -313,8 +323,6 @@ Supported types are `void`, `bool`, `i8`, `i16`, `i32`, `i64`, `u8`, `u16`, `u32
 
 ## Threading
 
-JavaScript runs on the WinUI UI thread, so WinRT and XAML APIs can be called directly. JavaScript callbacks can only run on that thread: a delegate invoked by WinRT on a background thread is not delivered to JavaScript. See [Multithreading](/guide/multithreading#windows).
+JavaScript runs on the WinUI UI thread, so WinRT and XAML APIs can be called directly. A callback that WinRT or .NET invokes on a background thread (an event, a delegate, an overridden member, a `Task` continuation) runs on the UI thread, while the calling thread waits for it. Its return value or exception is passed back to the caller. See [Multithreading](/guide/multithreading#windows).
 
-::: danger Don't change the UI during layout
-Adding, removing or reparenting XAML elements synchronously inside `CompositionTarget.Rendering`, `LayoutUpdated` or `SizeChanged` handlers crashes the app (error `0xC000027B`). Defer those changes with `setTimeout(() => { ... }, 0)`.
-:::
+You can add, remove and reparent XAML elements from any handler, including `CompositionTarget.Rendering`, `LayoutUpdated` and `SizeChanged`.
