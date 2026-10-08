@@ -8,6 +8,8 @@ export default [
     text: 'Getting Started',
     items: [
       { text: 'Introduction', link: '/' },
+      { text: 'Two pathways', link: '/guide/pathways' },
+      { text: 'SwiftUI, live', link: '/guide/swiftui-live' },
       {
         text: 'Environment Setup',
         link: '/setup/',
@@ -50,6 +52,12 @@ export default [
       {
         text: 'Publishing',
         link: '/guide/publishing/',
+        items: [
+          { text: 'Compiled releases', link: '/guide/publishing/compiled' },
+          { text: 'Apple App Store', link: '/guide/publishing/apple-app-store' },
+          { text: 'Google Play', link: '/guide/publishing/android-google-play' },
+          { text: 'ns publish ios', link: '/guide/publishing/ns-publish' },
+        ],
       },
       {
         text: 'Plugins',
