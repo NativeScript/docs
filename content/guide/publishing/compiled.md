@@ -54,10 +54,11 @@ npm install --save-dev @nativescript/compiler
 
 Requirements:
 
-- **Node.js 23.6 or newer** for now: the compiler runs its TypeScript sources directly. A precompiled build that runs
-  on the Node versions the CLI supports is planned.
-- **iOS:** Xcode and [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`). The deployment
-  target is at least iOS 17; a lower one in `build.xcconfig` is raised, and the build says so.
+- **Node.js 20 or newer**, as for the CLI.
+- **iOS:** Xcode. The Xcode project is generated with [XcodeGen](https://github.com/yonaskolb/XcodeGen): yours if it is
+  installed, otherwise a pinned release the compiler downloads once into `~/Library/Caches/nativescript`, checked
+  against its published checksum. The deployment target is at least iOS 17; a lower one in `build.xcconfig` is raised,
+  and the build says so.
 - **Android:** the Android SDK. The compiler ships its own Gradle wrapper. Windows is not supported yet.
 
 ### Build, run, deploy
@@ -118,15 +119,17 @@ your app (TypeScript, templates, CSS)            plugins (their TypeScript sourc
 
 1. **Your framework's own parser reads your templates.** Angular, Vue, React, Svelte, Solid and Octane templates are
    parsed by each framework's own compiler, so what you write means what it means in the framework.
-2. **Your styles go through your own build.** Your CSS pipeline (Tailwind, PostCSS) runs as your app's build runs it; the
-   result is applied as core applies CSS.
+2. **Your styles go through your own build.** Your CSS pipeline (Tailwind, PostCSS, Sass) runs as your app's build runs
+   it; the result is applied as core applies CSS. Components' own styles (Vue `<style>`, including `scoped`; Angular
+   `styles` and `styleUrl`, encapsulated as NativeScript Angular encapsulates them; Svelte `<style>` where your Svelte
+   configuration injects component CSS) are scoped as their framework scopes them and added in the same order.
 3. **Everything is type-checked as one program.** The app and its plugins are checked against `@nativescript/core`'s
    declarations, then translated. JavaScript semantics (numbers, promises and microtasks, closures, `Map`/`Set`,
    iteration order) are reproduced exactly; the compiler's differential tests run each case under Node and as
    compiled code and require the same output.
 4. **Core becomes NativeScriptKit.** What `@nativescript/core` does through the JavaScript runtime, the compiled app
    does through NativeScriptKit: core's views, layouts, styling, property system and platform APIs as Swift and
-   Kotlin. NativeScriptKit is being generated from core's own TypeScript by the same compiler, so it follows core
+   Kotlin. On iOS, NativeScriptKit is generated from core's own TypeScript by the same compiler, so it follows core
    release by release (see [Under the hood](#under-the-hood)).
 5. **Plugins compile from their own TypeScript.** For each plugin the compiler fetches the exact source its published
    version was built from, checks it against the published JavaScript, and compiles it with your app. The plugin's
@@ -149,7 +152,7 @@ your app (TypeScript, templates, CSS)            plugins (their TypeScript sourc
 | React (react-nativescript) | Supported |
 | Solid | Supported |
 | Octane | Supported |
-| Plain TypeScript with XML | Not yet |
+| Plain TypeScript with XML | In progress: core's own Builder makes the views from your XML, as in the JavaScript build |
 
 ### Platforms
 
@@ -157,7 +160,8 @@ your app (TypeScript, templates, CSS)            plugins (their TypeScript sourc
 | --- | --- | --- |
 | Pixel-identical to the JavaScript release | Recipes in six frameworks; gallery (40 screens); ns-octane; openjs-app's tabs | Recipes in six frameworks; gallery (169 of 171 shots); ns-octane |
 | Verified on | Simulators and an iPhone 16 Pro | Emulators |
-| NativeScriptKit | Generated from core (in progress) | Hand port of core, on core's own `org.nativescript.widgets` |
+| NativeScriptKit | Generated from core | Hand port of core, on core's own `org.nativescript.widgets` |
+| Runs on | iOS 17 and later; checked on iOS 26 and 27 | Android 7 (API 24) and later |
 
 ### Plugins
 
@@ -174,12 +178,14 @@ The compiler refuses what it cannot compile faithfully, and says so with the fil
 
 - **Inherently:** `eval`, `new Function`, loading code at run time and over-the-air JavaScript updates. There is no
   JavaScript to evaluate or replace. Apps that depend on these keep the JavaScript release.
-- **A core property the compiled build does not apply yet.** The build names the view, the property and the line.
-  `release: { allowUnimplementedProperties: true }` builds anyway, with a warning for each.
+- **Android: a core property the hand-ported kit does not apply yet.** The build names the view, the property and
+  the line. `release: { allowUnimplementedProperties: true }` builds anyway, with a warning for each. On iOS every
+  core property applies, as the kit is core.
 - **Language constructs not supported yet**, such as a class declared inside a function, a `default` clause before
   other cases, symbol-named members, or `return` in a `finally` block. Each message names the construct.
 - **Framework features not supported yet**, such as Angular `OnPush` under zone.js, Angular pipes other than
-  `async`, JSX spread attributes, and Vue Options-API keys beyond the common ones.
+  `async`, more than one Angular `@Component` in a file, Vue `<style module>`, JSX spread attributes, and Vue
+  Options-API keys beyond the common ones.
 - **Plugin native code the build does not carry yet:** a prebuilt `.framework` or `.a` (an `.xcframework` is
   fine), a resource `.bundle`, a `.podspec`, Android `jniLibs`/`.so` files, and plugin hooks.
 - **Not at parity yet:** RTL layout, Dynamic Type and font scale, `background-image: url()`, inset box shadows,
@@ -221,8 +227,9 @@ How it went for real apps:
 
 Treat a compiled release like any new build: compare it with the JavaScript release before you ship it.
 
-1. Build both: `ns build ios --release` and `ns build ios --compiled`. They use the same app id, so install them on
-   separate simulators, or uninstall between them (installing over a different build keeps stale files).
+1. Build both: `ns build ios --release` and `ns build ios --compiled`, on the same version of `@nativescript/core`
+   (the compiler's kit is core at its own version). They use the same app id, so install them on separate
+   simulators, or uninstall between them (installing over a different build keeps stale files).
 2. Walk the same screens and taps in both, focusing and typing in every input, and compare. The proof apps are
    compared pixel by pixel; differences that come from the platform itself (the clock, animation timing) are
    expected.
@@ -333,7 +340,7 @@ Who touches what:
 | The CLI (`nativescript`) | `--compiled`, the `release` config, building, signing and installing the compiled project | App developers |
 | `@nativescript/compiler` | The compiler, and NativeScriptKit's sources for Swift and Kotlin | App developers, as a devDependency |
 | NativeScriptKit | `@nativescript/core` as native code, linked by every compiled app | Nobody directly; it comes with the compiler |
-| Core's kit generator (`tools/native-kit` in the NativeScript repo) | Compiles core's TypeScript into NativeScriptKit, once per core release, checked by CI | Core maintainers |
+| Core's kit generator (`tools/native-kit` and `packages/compiler` in the NativeScript repo) | Compiles core's TypeScript into NativeScriptKit, once per core release, checked by CI, which builds every file of the kit; the compiler is published at core's version | Core maintainers |
 
 NativeScriptKit started as a hand port of core and matched it wherever it was ported, but a hand port drifts
 everywhere else. It is now generated from core's own TypeScript by the same compiler that compiles apps, so every
@@ -343,14 +350,13 @@ runs the proof apps; Android still uses the hand port.
 ## What is still open
 
 - Publishing `@nativescript/compiler` and releasing the CLI flag.
-- Running on the Node versions the CLI supports (a precompiled build), and building without XcodeGen.
-- Device signing and `ns publish ios` end to end for compiled builds.
+- Plain TypeScript apps with XML pages (in progress), and core's own UI test suite run as a compiled app.
 - Plugins: `.framework` and static libraries, resource bundles, plugin hooks, and a way for plugin authors to ship
   native counterparts of engine-bound code.
 - Android: the kit generated from core, and real-device verification.
 - Accessibility, RTL, Dynamic Type and localization at core parity.
-- Archive size: the generated kit compiles every core module into every app today; compiling only what the app
-  reaches is next.
+- A command that compares a compiled release with its JavaScript release for you (`ns compiled verify`), and
+  uploading the compiled code's TypeScript line maps to crash reporters.
 
 ## See also
 
