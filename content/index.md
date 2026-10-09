@@ -9,6 +9,15 @@ contributors:
 
 NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience. 
 
+### Two pathways: develop live, ship native
+
+NativeScript can now be your development runtime without being your production runtime:
+
+1. **[SwiftUI, live](/guide/swiftui-live)**: write SwiftUI in your Xcode project and see each save in the running app in about a third of a second, state kept. On Android, the same SwiftUI source runs live, rendered by Jetpack Compose. What ships is your Swift. _(Preview)_
+2. **[TypeScript, compiled](/guide/publishing/compiled)**: write TypeScript with the framework you like and the JavaScript ecosystem, develop on the JavaScript runtime as always, and build the release with `--compiled`: Swift and Kotlin, with no JavaScript engine inside. _(Preview)_
+
+[Compare the two pathways](/guide/pathways). Releases on the JavaScript runtime remain the default and fully supported.
+
 Some popular use cases:
 
 - Building Web, iOS, Android and Vision Pro apps with a shared codebase (aka, cross platform apps)
