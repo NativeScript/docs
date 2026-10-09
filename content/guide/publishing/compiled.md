@@ -152,7 +152,7 @@ your app (TypeScript, templates, CSS)            plugins (their TypeScript sourc
 | React (react-nativescript) | Supported |
 | Solid | Supported |
 | Octane | Supported |
-| Plain TypeScript with XML | In progress: core's own Builder makes the views from your XML, as in the JavaScript build |
+| Plain TypeScript with XML | Supported: core's own Builder makes the views from your XML, as in the JavaScript build: `{{ }}` bindings, code-behind, custom components (`xmlns:my`) and ListView templates |
 
 ### Platforms
 
@@ -181,7 +181,8 @@ The compiler refuses what it cannot compile faithfully, and says so with the fil
 - **Android: a core property the hand-ported kit does not apply yet.** The build names the view, the property and
   the line. `release: { allowUnimplementedProperties: true }` builds anyway, with a warning for each. On iOS every
   core property applies, as the kit is core.
-- **Language constructs not supported yet**, such as a class declared inside a function, a `default` clause before
+- **Language constructs not supported yet**, such as a class declared inside a function that reads the function's
+  own variables (one that reads none compiles), a `default` clause before
   other cases, symbol-named members, or `return` in a `finally` block. Each message names the construct.
 - **Framework features not supported yet**, such as Angular `OnPush` under zone.js, Angular pipes other than
   `async`, more than one Angular `@Component` in a file, Vue `<style module>`, JSX spread attributes, and Vue
@@ -203,6 +204,7 @@ What some needed was configuration, all of it in `release`:
 | You patch a plugin with patch-package | The same patch against the plugin's TypeScript source, in `native-release/patches/<package>+<version>.patch`. The compiler compiles source, not the published JavaScript your existing patch changes |
 | You patch `@nativescript/core` with patch-package | The compiler recognizes common core patches and applies their effect; a core patch it does not recognize stops the build, so you know to raise it |
 | A core property the compiled build does not apply yet | Fix it in the kit, or `allowUnimplementedProperties: true` to ship without it |
+| An `Info.plist` that declares no `UIApplicationSceneManifest` (older app templates) | Nothing: the build adds the template's and says so. Apps built with the current iOS SDK must adopt scenes |
 
 ```ts
 // nativescript.config.ts: every option
@@ -350,7 +352,8 @@ runs the proof apps; Android still uses the hand port.
 ## What is still open
 
 - Publishing `@nativescript/compiler` and releasing the CLI flag.
-- Plain TypeScript apps with XML pages (in progress), and core's own UI test suite run as a compiled app.
+- Core's own test app (`apps/automated`) run as a compiled app, as a measure of compliance: it compiles to Swift; the
+  last of its Swift build is in progress.
 - Plugins: `.framework` and static libraries, resource bundles, plugin hooks, and a way for plugin authors to ship
   native counterparts of engine-bound code.
 - Android: the kit generated from core, and real-device verification.
