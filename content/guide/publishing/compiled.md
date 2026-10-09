@@ -154,6 +154,13 @@ your app (TypeScript, templates, CSS)            plugins (their TypeScript sourc
 | Octane | Supported |
 | Plain TypeScript with XML | Supported: core's own Builder makes the views from your XML, as in the JavaScript build: `{{ }}` bindings, code-behind, custom components (`xmlns:my`) and ListView templates |
 
+Core's own behavior comes with it on iOS, where the kit is core: RTL layout, Dynamic Type through
+`ios-a11y-adjusts-font-size`, `font://` icons, `background-image: url()`, box shadows and the accessibility
+properties render as in the JavaScript build, pixel for pixel. The web globals the NativeScript runtime provides are
+there too: `crypto` (`randomUUID`, `getRandomValues`, and `subtle` with SHA digests, HMAC and RSA-OAEP),
+`TextEncoder`/`TextDecoder`, `atob`/`btoa`, timers, `queueMicrotask` and `console`. `fetch` and `XMLHttpRequest`
+are not yet available in a compiled release.
+
 ### Platforms
 
 | | iOS | Android |
@@ -188,9 +195,12 @@ The compiler refuses what it cannot compile faithfully, and says so with the fil
   `async`, more than one Angular `@Component` in a file, Vue `<style module>`, JSX spread attributes, and Vue
   Options-API keys beyond the common ones.
 - **Plugin native code the build does not carry yet:** a prebuilt `.framework` or `.a` (an `.xcframework` is
-  fine), a resource `.bundle`, a `.podspec`, Android `jniLibs`/`.so` files, and plugin hooks.
-- **Not at parity yet:** RTL layout, Dynamic Type and font scale, `background-image: url()`, inset box shadows,
-  `font://` icons. Accessibility and localization are not yet checked against core.
+  fine), a resource `.bundle`, a `.podspec`, and Android `jniLibs`/`.so` files.
+
+Your project's hooks run as they do for a JavaScript build: `before-prepare`/`after-prepare` and
+`before-buildIOS`/`after-buildIOS` (`buildAndroid` on Android), with the same arguments. In a compiled build
+`projectRoot` is the compiled project (`platforms/compiled/<platform>`), so a hook that edits the runtime's Xcode or
+Gradle project under `platforms/ios` or `platforms/android` has nothing to change there.
 
 ## What your app may need
 
@@ -237,7 +247,18 @@ Treat a compiled release like any new build: compare it with the JavaScript rele
    expected.
 3. Watch for crashes as well as pixels: a screen can match and still fail on interaction.
 
-A command that runs this comparison for you (`ns compiled verify`) is planned.
+`ns compiled verify` does this for you on an iOS Simulator. It builds both releases, runs the same steps on each
+(from the project's `verify.json`: taps, swipes, typing, waits and shots, each screen from a fresh launch), compares
+every shot pixel by pixel once the screen settles, and fails on a difference or on an app that stops running. The
+screenshots and a `report.json` go to `platforms/compiled/verify`.
+
+```json
+{
+  "screens": [
+    { "name": "home", "steps": [["shot", "start"], ["tap", 200, 400], ["wait", 1], ["type", "Ada"], ["shot", "typed"]] }
+  ]
+}
+```
 
 ## FAQ
 
@@ -352,14 +373,13 @@ runs the proof apps; Android still uses the hand port.
 ## What is still open
 
 - Publishing `@nativescript/compiler` and releasing the CLI flag.
-- Core's own test app (`apps/automated`) run as a compiled app, as a measure of compliance: it compiles to Swift; the
-  last of its Swift build is in progress.
-- Plugins: `.framework` and static libraries, resource bundles, plugin hooks, and a way for plugin authors to ship
-  native counterparts of engine-bound code.
-- Android: the kit generated from core, and real-device verification.
-- Accessibility, RTL, Dynamic Type and localization at core parity.
-- A command that compares a compiled release with its JavaScript release for you (`ns compiled verify`), and
-  uploading the compiled code's TypeScript line maps to crash reporters.
+- Core's own apps as compliance: `apps/automated` (core's unit tests) and `apps/toolbox`, compiled, run and
+  compared with their JavaScript builds.
+- Plugins: `.framework` and static libraries, resource bundles, and a way for plugin authors to ship native
+  counterparts of engine-bound code. A corpus of widely used plugins and npm libraries, built in CI.
+- Android: the kit generated from core (in progress), WinterTC globals, and real-device verification.
+- `fetch` and `XMLHttpRequest`; localization checked against core.
+- Uploading the compiled code's TypeScript line maps to crash reporters.
 
 ## See also
 
