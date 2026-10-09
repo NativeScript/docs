@@ -12,8 +12,7 @@ Publishing takes two steps: build a release of the app, then submit that build t
 
 ## 1. Build a release
 
-NativeScript builds a release in one of two ways. Your development workflow (`ns run`, `ns debug`, HMR) is the same
-for both.
+NativeScript builds a release in one of two ways.
 
 |  | JavaScript runtime release | Compiled release |
 | --- | --- | --- |

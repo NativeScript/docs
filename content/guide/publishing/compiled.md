@@ -1,6 +1,6 @@
 ---
 title: Compiled releases
-description: Build a release of your NativeScript app compiled to Swift and Kotlin, with no JavaScript runtime inside, using one flag. Develop exactly as you do today.
+description: Build a release of your NativeScript app compiled to Swift and Kotlin, with no JavaScript runtime inside, using one flag.
 contributors:
   - NathanWalker
 ---
@@ -8,15 +8,13 @@ contributors:
 <!-- Keep in step with the compiler's CLI.md, README.md and STATUS.md in NativeScript/swiftui-live. -->
 
 ::: warning Preview
-Compiled releases are in preview. The `--compiled` flag is in the CLI's `feat/native-release` branch, and
-`@nativescript/compiler` is not yet published to npm. This page describes how it works today, what it supports, and
-what is still open, so you can judge it against your app.
+Compiled releases are in preview. To use, `npm install -g nativescript@beta`. The `--compiled` flag works with the `beta` CLI and the
+`@nativescript/compiler`. This page describes how it works and what it supports.
 :::
 
 A compiled release is the TypeScript pathway's release (see [Two pathways](/guide/pathways)). You develop with
-`ns run` exactly as today: the JavaScript runtime, HMR, Chrome DevTools. When you build the release, one flag
-compiles your app to **Swift on iOS and Kotlin on Android**, and the app that ships has no JavaScript engine, no
-bundle and no NativeScript runtime.
+`ns run|debug` exactly as today: using the JavaScript runtime, HMR, Chrome DevTools. When you build the release, the `--compiled` flag 
+compiles your app to **Swift on iOS and Kotlin on Android**, and the app ships no JavaScript engine, no bundle and no NativeScript runtime.
 
 ```bash
 ns build ios --compiled
