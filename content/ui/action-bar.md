@@ -348,13 +348,16 @@ See [R.drawable](https://developer.android.com/reference/android/R.drawable.html
 
 - Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
 - iOS: [UINavigationBar](https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc)
+- Windows: rendered by the parent Frame's navigation bar, a [Microsoft.UI.Xaml.Controls.Grid](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.grid) containing the title and action items
 
 ### ActionItem
 
 - Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
 - iOS: [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca)
+- Windows: [Microsoft.UI.Xaml.Controls.Button](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.button)
 
 ### NavigationButton
 
 - Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
 - iOS: [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca)
+- Windows: [Microsoft.UI.Xaml.Controls.Button](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.button)

@@ -244,3 +244,4 @@ Emitted when the TextField loses focus.
 
 - Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
 - iOS: [`UITextField`](https://developer.apple.com/documentation/uikit/uitextfield)
+- Windows: [`Microsoft.UI.Xaml.Controls.TextBox`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.textbox) ([`Microsoft.UI.Xaml.Controls.PasswordBox`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.passwordbox) when `secure` is `true`)

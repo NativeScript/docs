@@ -160,3 +160,4 @@ See [ScrollEventData](/api/interface/ScrollEventData).
 
 - Android: [`android.view`](https://developer.android.com/reference/android/view/View.html)
 - iOS: [`UIScrollView`](https://developer.apple.com/documentation/uikit/uiscrollview)
+- Windows: [`Microsoft.UI.Xaml.Controls.ScrollViewer`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.scrollviewer)

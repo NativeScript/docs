@@ -157,6 +157,10 @@ There are 4 primary ways to target styles at iOS or Android:
 
 ///
 
+::: tip Windows
+The same conventions apply to the [Windows platform](/guide/windows/): `<file-name>.windows.css` stylesheets, `<windows> ... </windows>` markup blocks, `windows:` attributes and `.ns-windows` CSS rules.
+:::
+
 The most common and maintainable pattern for managing platform-agnostic and platform-specific styles in NativeScript is with multiple stylesheets and CSS imports.
 
 /// flavor plain
@@ -598,7 +602,7 @@ To allow for flexible styling and theming, NativeScript provides the following C
 
 - `.ns-root` - a class assigned to the application root view
 - `.ns-modal` - a class assigned to the modal root view
-- `.ns-android`, `.ns-ios` - classes that specify the application platform
+- `.ns-android`, `.ns-ios`, `.ns-windows` - classes that specify the application platform
 - `.ns-phone`, `.ns-tablet` - classes that specify the device type
 - `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - classes that specify the application orientation
 - `.ns-light`, `.ns-dark` - classes that specify the system appearance.

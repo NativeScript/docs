@@ -217,6 +217,83 @@ If any of the above failed, we recommend asking in [our Community Discord](https
 
 :::
 
+## Setting up Windows for Windows desktop
+
+::: warning Experimental
+The Windows platform is experimental. APIs, tooling and requirements may change between releases. See [Developing for Windows](/guide/windows/) for the current status.
+:::
+
+NativeScript can build native Windows desktop apps using [WinUI 3](https://learn.microsoft.com/windows/apps/winui/winui3/) and the [Windows App SDK](https://learn.microsoft.com/windows/apps/windows-app-sdk/). Apps are packaged as MSIX and run on the local machine.
+
+You will need:
+
+- Windows 10 version 1809 (build 17763) or newer, or Windows 11 &mdash; x64 or arm64
+- Node &mdash; see [Installing Node](#installing-node) above
+- The .NET 10 SDK
+- Developer Mode enabled
+- The NativeScript CLI
+
+### Installing the .NET SDK
+
+The Windows app host is a .NET project that is built with `dotnet build`. Install the **.NET 10 SDK** using one of the following methods:
+
+::: code-group
+
+```bash [winget]
+winget install Microsoft.DotNet.SDK.10
+```
+
+```text [Installer]
+https://dotnet.microsoft.com/download/dotnet/10.0
+```
+
+:::
+
+Open a new terminal and verify a 10.x SDK is listed:
+
+```bash
+dotnet --list-sdks
+```
+
+::: tip Visual Studio is optional
+Visual Studio is **not** required to build and run NativeScript Windows apps. You only need [Visual Studio](https://visualstudio.microsoft.com/) (with the **Desktop development with C++** workload and a Windows SDK) if you want to author your own [C++/WinRT components](/guide/native-code/windows#adding-c-winrt-components).
+:::
+
+### Enabling Developer Mode
+
+During development the CLI registers your app directly from its build output, which requires Developer Mode.
+
+- **Windows 11**: open **Settings › System › For developers** and turn on **Developer Mode**.
+- **Windows 10**: open **Settings › Update & Security › For developers** and select **Developer mode**.
+
+See [Enable your device for development](https://learn.microsoft.com/windows/apps/get-started/enable-your-device-for-development) for more details.
+
+### Installing the NativeScript CLI
+
+If you haven't already, install the NativeScript CLI globally:
+
+```bash
+npm install -g nativescript
+```
+
+### Verifying the environment
+
+Open a new terminal and run:
+
+```bash
+ns doctor windows
+```
+
+`ns doctor windows` checks that a .NET SDK 10 or newer is installed and that Developer Mode is enabled. If you see **No issues were detected** your environment is ready.
+
+Your machine should also be listed as a `Windows` device:
+
+```bash
+ns devices windows
+```
+
+You're now ready to [add the Windows platform to a project](/guide/windows/#adding-windows-to-a-project).
+
 ## Setting up Windows for iOS
 
 :::danger :x: Unsupported

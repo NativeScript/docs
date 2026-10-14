@@ -5,7 +5,7 @@ contributors:
   - NathanWalker
 ---
 
-The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform.
+The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform (and a `Windows` subfolder when [targeting Windows](/guide/windows/)).
 
 This page serves as a quick reference to understand how most settings in App_Resources affect the behavior and the look of a NativeScript app.
 
@@ -211,3 +211,133 @@ For a list of available entitlements refer to [Apple's Entitlements documentatio
 ### Adding ObjectiveC/Swift Code to an application
 
 See [Adding ObjectiveC/Swift Code to an application](/guide/native-code/ios).
+
+## Windows specific resources
+
+::: warning Experimental
+The Windows platform is experimental. See [Developing for Windows](/guide/windows/).
+:::
+
+```bash
+App_Resources/
+├─ Windows/
+│  ├─ Package.appxmanifest   # package identity, display name, logos, capabilities
+│  ├─ app.manifest           # Win32 application manifest (DPI awareness)
+│  ├─ app.csproj             # MSBuild customizations (package references, properties)
+│  ├─ before-plugins.props   # optional, imported before plugins
+│  ├─ after-plugins.props    # optional, imported after plugins
+│  └─ Assets/                # logos and splash screen images
+└─ ... more
+```
+
+All files are optional, the Windows host project provides defaults. New projects created from the official templates include an [`App_Resources/Windows`](https://github.com/NativeScript/nativescript-app-templates/tree/main/shared-mobile/App_Resources/Windows) folder that you can copy into existing projects.
+
+### Package.appxmanifest
+
+The [package manifest](https://learn.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest) defines the app's identity, display name, logos, capabilities and dependencies. Values from `App_Resources/Windows/Package.appxmanifest` are merged into the host project's manifest, with your values taking precedence. The `__APP_IDENTIFIER__` and `__PROJECT_NAME__` tokens are replaced with your app id and project name.
+
+```xml
+<Package ...>
+  <Identity Name="__APP_IDENTIFIER__" Publisher="CN=My Company" Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>Your app name</DisplayName>
+    <PublisherDisplayName>My Company</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Your app name"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
+        Description="Your app description"
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
+```
+
+::: warning Note
+Keep the `Application` `Id="App"` and the `runFullTrust` capability, the CLI relies on them to launch the app.
+:::
+
+### Windows app display name
+
+Set `AppDisplayName` (and optionally `AppDescription`) in `App_Resources/Windows/app.csproj`:
+
+```xml
+<Project>
+  <PropertyGroup>
+    <AppDisplayName>My App</AppDisplayName>
+    <AppDescription>My Windows App, built with NativeScript.</AppDescription>
+  </PropertyGroup>
+</Project>
+```
+
+The display name is applied to both the package (`<Properties>`) and the app tile, Start menu and taskbar (`<uap:VisualElements>`) of the generated manifest. It defaults to the project name.
+
+### Capabilities
+
+Declare the [capabilities](https://learn.microsoft.com/windows/uwp/packaging/app-capability-declarations) your app needs (for example `webcam`, `microphone` or `location`) in the `<Capabilities>` element of `Package.appxmanifest`.
+
+### Logos and splash screen
+
+Images in `App_Resources/Windows/Assets/` are copied into the app package and referenced from `Package.appxmanifest`. Provide the standard MSIX sizes (`Square44x44Logo`, `Square150x150Logo`, `Wide310x150Logo`, `StoreLogo`, `SplashScreen`, ...) with [scale variants](https://learn.microsoft.com/windows/apps/design/style/iconography/app-icon-construction) such as `Square150x150Logo.scale-200.png`.
+
+To use different files, or to change the splash screen background color (`#65ADF1` by default), set the corresponding properties in `App_Resources/Windows/app.csproj`:
+
+```xml
+<Project>
+  <PropertyGroup>
+    <SplashBackgroundColor>#FFFFFF</SplashBackgroundColor>
+    <SplashImage>Assets\SplashScreen.png</SplashImage>
+    <Square150x150Logo>Assets\Square150x150Logo.png</Square150x150Logo>
+    <Square44x44Logo>Assets\Square44x44Logo.png</Square44x44Logo>
+    <Wide310x150Logo>Assets\Wide310x150Logo.png</Wide310x150Logo>
+    <StoreLogo>Assets\StoreLogo.png</StoreLogo>
+    <LockScreenLogo>Assets\LockScreenLogo.png</LockScreenLogo>
+  </PropertyGroup>
+</Project>
+```
+
+Images in `Assets/` can also be used from your app with `res://` URLs, for example `res://icon` loads `Assets/icon.png`.
+
+### DPI awareness (app.manifest)
+
+To render crisp text on high-DPI displays, the app must declare Per-Monitor V2 DPI awareness in an `app.manifest`:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity version="1.0.0.0" name="NativeScript.app" />
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true/PM</dpiAware>
+      <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2</dpiAwareness>
+    </windowsSettings>
+  </application>
+</assembly>
+```
+
+And reference it from `App_Resources/Windows/app.csproj`:
+
+```xml
+<Project>
+  <PropertyGroup>
+    <ApplicationManifest Condition="'$(ApplicationManifest)' == '' and Exists('$(MSBuildThisFileDirectory)app.manifest')">$(MSBuildThisFileDirectory)app.manifest</ApplicationManifest>
+  </PropertyGroup>
+</Project>
+```
+
+### Adding native code to a Windows application
+
+See [Adding Windows native code](/guide/native-code/windows).

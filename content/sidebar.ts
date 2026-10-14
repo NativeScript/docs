@@ -245,6 +245,19 @@ export default [
     ]
   },
   {
+    text: 'Developing for Windows',
+    items: [
+      {
+        text: 'Developing for Windows',
+        link: '/guide/windows/',
+      },
+      {
+        text: 'Publishing to the Microsoft Store',
+        link: '/guide/publishing/microsoft-store',
+      },
+    ]
+  },
+  {
     text: 'Agentic Coding',
     items: [
       {
@@ -273,6 +286,10 @@ export default [
             link: '/guide/native-code/ios',
           },
           {
+            text: 'Adding Windows Code',
+            link: '/guide/native-code/windows',
+          },
+          {
             text: 'Generating TypeScript types',
             link: '/guide/native-code/generate-typings',
           }
@@ -289,6 +306,10 @@ export default [
           {
             text: 'iOS',
             link: '/guide/extending-classes-and-conforming-to-protocols-ios',
+          },
+          {
+            text: 'Windows',
+            link: '/guide/extending-classes-and-implementing-interfaces-windows',
           },
         ],
       },
@@ -339,6 +360,10 @@ export default [
           {
             text: 'Android Marshalling',
             link: '/guide/android-marshalling',
+          },
+          {
+            text: 'Windows Marshalling',
+            link: '/guide/windows-marshalling',
           },
         ],
       },

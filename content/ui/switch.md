@@ -103,3 +103,4 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 - Android: [`android.widget.Switch`](https://developer.android.com/reference/android/widget/Switch.html)
 - iOS: [`UISwitch`](https://developer.apple.com/documentation/uikit/uiswitch)
+- Windows: [`Microsoft.UI.Xaml.Controls.ToggleSwitch`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.toggleswitch)

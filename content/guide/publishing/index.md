@@ -9,5 +9,6 @@ breadcrumbs:
 
 ## [Publishing to Google Play](/guide/publishing/android-google-play)
 ## [Publishing to Apple App Store](/guide/publishing/apple-app-store)
+## [Publishing to the Microsoft Store (Windows)](/guide/publishing/microsoft-store)
 ## [Publishing iOS updated using ns publish ios](/guide/publishing/ns-publish)
 ## [Publishing with Fastlane](https://blog.nativescript.org/automatic-nativescript-app-deployments-with-fastlane/)

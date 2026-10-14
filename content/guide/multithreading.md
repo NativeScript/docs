@@ -360,3 +360,17 @@ There are certain limitations to keep in mind when working with workers:
 - **No object transferring**. If you are a web developer you may be familiar with the ArrayBuffer and MessagePort transferring support in browsers. Currently, in NativeScript there is no such concept as object transferring.
 - **Debugging workers is not currently possible.**
 - **No nested workers support**. We want to hear from the community if this is something we need to support.
+
+## Windows
+
+::: warning Experimental
+The Windows platform is experimental. See [Developing for Windows](/guide/windows/).
+:::
+
+On Windows, JavaScript runs on the WinUI UI thread, so WinRT and XAML APIs are called directly without any thread marshalling. Each worker runs in its own thread with its own JavaScript runtime and has access to the WinRT APIs (but not to XAML/UI).
+
+Keep the following in mind:
+
+- Messages are serialized using the structured clone algorithm, so values such as `Date`, `Map`, `Set`, `ArrayBuffer` and typed arrays can be sent. Native (WinRT) objects can't be sent.
+- JavaScript callbacks run on the thread that created them. When WinRT or .NET invokes a callback created on the UI thread (an event handler, delegate, overridden member or async completion) from a background thread, it runs on the UI thread while the calling thread waits for it, so return values and exceptions reach the caller, as on iOS and Android. As on those platforms, a UI thread blocked waiting for that background thread deadlocks. Callbacks created in a worker are only delivered on the worker's thread.
+- To get results from a worker back to the UI, `postMessage` them to the main thread. `Utils.isMainThread()` tells you whether the current code runs on the UI thread.

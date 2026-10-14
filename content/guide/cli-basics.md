@@ -57,6 +57,8 @@ Example output:
 | 3 | iPhone 14 Pro  | iOS      | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX | Emulator | Connected | Local           |
 ```
 
+On a Windows host, the local machine is also listed as a `Windows` device, which is the target used by `ns run windows` (see [Developing for Windows](/guide/windows/)).
+
 ## Setting the default package manager
 
 To set the default package manager that the CLI uses (unless overridden in [nativescript.config.ts](/project-structure/nativescript-config#cli-packagemanager)):
