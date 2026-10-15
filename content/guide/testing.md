@@ -291,6 +291,8 @@ To execute your test suite in CI make sure to add `--justlaunch`. This parameter
 ns test ios --emulator --justlaunch
 ```
 
+Recent versions of the NativeScript CLI also turn watch mode off automatically when the `CI` or `JENKINS_HOME` environment variable is set, so `ns test` exits once the tests finish.
+
 Each execution of `ns test` consists of the following steps, performed automatically.
 
 1. The CLI starts a Karma server on the development machine.
@@ -306,15 +308,17 @@ Each execution of `ns test` consists of the following steps, performed automatic
 
 The NativeScript can continuously monitor your code for changes and when such changes occur, it can deploy those changes to your testing devices and re-run your tests.
 
-To enable this behavior, run your `ns test` command with the `--watch` flag. For example:
+This behavior is on by default: the NativeScript CLI remains active and re-runs tests on code change. To unlock the console, press `Ctrl+C` to stop the process.
+
+To run the tests once and exit instead, pass `--no-watch`:
 
 ```bash
-ns test android --watch
-ns test ios --watch
-ns test ios --emulator --watch
+ns test android --no-watch
+ns test ios --no-watch
+ns test ios --emulator --no-watch
 ```
 
-The NativeScript CLI remains active and re-runs tests on code change. To unlock the console, press `Ctrl+C` to stop the process.
+In CI environments (when the `CI` or `JENKINS_HOME` environment variable is set), watch mode is off by default. Pass `--watch` to turn it back on.
 
 #### Configure the Karma Server
 
