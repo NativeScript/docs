@@ -8,8 +8,10 @@ contributors:
 <!-- Keep in step with the compiler's docs/CLI.md and the support table (SUPPORT.md) in NativeScript/swiftui-live. -->
 
 ::: warning Alpha
-Compiled releases are in alpha: `nativescript`, `@nativescript/core` and `@nativescript/compiler` are published with
-the `alpha` tag. Check each compiled build against your JavaScript release before you ship it.
+Compiled releases are a public preview: `nativescript`, `@nativescript/core` and `@nativescript/compiler` are
+published with the `alpha` tag. What isn't implemented yet stops the build (see
+[Preview limits](/guide/publishing/compiled-differences#preview-limits)). Check each compiled build against your
+JavaScript release before you ship it.
 :::
 
 A compiled release is how the TypeScript option ships (see [TypeScript or SwiftUI](/guide/pathways)). You develop with
@@ -116,6 +118,8 @@ two must match.
 
 ## What is still open
 
+- The [preview limits](/guide/publishing/compiled-differences#preview-limits): Angular forms, `[ngClass]` and
+  `[ngStyle]`, route guards and resolvers, `<ng-content>`, and binary-only plugins.
 - The [differences and unsupported patterns](/guide/publishing/compiled-differences#not-fixed-yet) listed today.
 - The speed of the runtime library and of typed member access.
 - Plugins: `.framework` and static libraries, resource bundles, and a way for plugin authors to ship native

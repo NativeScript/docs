@@ -12,7 +12,7 @@ before you ship it.
 
 ## 1. Install the alpha
 
-The CLI, `@nativescript/core` and `@nativescript/compiler` must be the same alpha:
+Install the `alpha` tag of all three. `@nativescript/core` and `@nativescript/compiler` must be the same version:
 
 ```bash
 npm install -g nativescript@alpha
@@ -21,10 +21,6 @@ npm install -g nativescript@alpha
 npm install @nativescript/core@alpha
 npm install --save-dev @nativescript/compiler@alpha
 ```
-
-::: tip webpack 5.112
-Until `@nativescript/webpack` 5.0.39 is out, a new webpack-based project needs `npm install -D webpack@5.111.1` for `ns run` (the JavaScript dev loop). Compiled builds aren't affected.
-:::
 
 The CLI runs the compiler from your project's `node_modules`. The build stops if your `@nativescript/core` is not
 the version the compiler was made from, or if your framework is outside the

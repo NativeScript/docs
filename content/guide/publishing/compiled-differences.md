@@ -43,8 +43,11 @@ warning).
 
 Framework features not supported yet stop the build with a message. The main ones:
 
-- **Angular:** under zone.js, a component that doesn't set `changeDetection: ChangeDetectionStrategy.Default`;
-  pipes other than `async`; a pipe inside `*ngFor`/`@for`; more than one `@Component` in a file. RxJS is a subset.
+- **Angular:** under zone.js (`provideZoneChangeDetection()`), a component that doesn't set
+  `changeDetection: ChangeDetectionStrategy.Default`; more than one `@Component` in a file; the `currency`,
+  `i18nPlural` and `i18nSelect` pipes (`async`, `date`, `number`, `percent`, `uppercase`, `lowercase`, `titlecase`,
+  `json`, `slice`, `keyvalue` and your own `@Pipe`s work). RxJS compiles from its source on iOS and is a subset on
+  Android. Forms, route guards and the other Angular features in [Preview limits](#preview-limits).
 - **React:** a component body may hold function declarations, variable declarations and the `return`; a bare
   statement such as `useEffect(() => …, [])` on its own line is refused. JSX spread attributes are refused.
 - **Vue:** `<style module>`, `<style src>`, a prop `default`, and Options API keys other than `name`, `components`,
@@ -58,6 +61,7 @@ Framework features not supported yet stop the build with a message. The main one
 | Native code in `platforms/ios` / `platforms/android`                 | Linked unchanged                                                        |
 | Installs objects into the JavaScript engine (`@nativescript/canvas`) | Needs a native counterpart in the kit; canvas has one on both platforms |
 | Only meaningful with a JavaScript runtime (over-the-air updates)     | Replace it with `release.pluginReplacements`                            |
+| Binary-only, no TypeScript source (`nativescript-ui-*`)              | Stops the build; see [Preview limits](#binary-only-plugins)             |
 
 Plugin native packaging not carried yet stops the build: a prebuilt `.framework` or `.a` (an `.xcframework` is
 fine), a resource `.bundle`, a `.podspec`; on Android, `jniLibs/`, `.so` files, `assets/` and `cpp/` in a plugin's
@@ -100,6 +104,71 @@ The build also stops when:
 
 A few valid constructs still fail later, in the Swift or Kotlin compile, reported at your TypeScript line. The ones
 known today are listed in [Not fixed yet](#not-fixed-yet).
+
+## Preview limits
+
+`9.2.0-alpha.1` is a public preview. The features below aren't implemented in a compiled release yet. Rather than
+compile to something that silently does nothing, each one stops the build with a message naming the file and what
+it found, most of them ending in "is not supported in a release build yet". The JavaScript release supports all
+of them.
+
+### Angular
+
+| Refused                                                                                                                                                                                                                | Instead, for now                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `@angular/forms` in templates: `[formGroup]`, `formGroupName`, `[formControl]`, `formControlName`, `formArray`, `formArrayName`, `[(ngModel)]`, `[ngModel]`, `(ngModelChange)`, `ngModelGroup`, `ngForm`, `(ngSubmit)` | Bind the view's property and handle its change event (`[text]` with `(textChange)`, `[checked]` with `(checkedChange)`) |
+| `[ngClass]`, `[ngStyle]`                                                                                                                                                                                               | `[class.name]="condition"`, `[style.color]="value"`                                                                     |
+| `ngPlural`, `ngPluralCase`, `ngComponentOutlet`; `ngIf`, `ngForOf` or `ngSwitchCase` on an element without `*`; `[ngTemplateOutlet]` anywhere but `<ng-container>`                                                     | `@if`, `@for`, `@switch`, or the `*` form                                                                               |
+| `<ng-content>` (content projection), and content inside an element that hosts an attribute-selected component                                                                                                          | Pass the data as inputs and render it in the child's own template                                                       |
+| `*pagerItem`, and structural directives other than `*ngIf`, `*ngFor`, `*ngTemplateOutlet`, `*ngSwitchCase` and `*ngSwitchDefault`                                                                                      | For a pager, `<Pager [items]>` with an `<ng-template let-item>`                                                         |
+| Route guards and resolvers: `canActivate`, `canActivateChild`, `canDeactivate`, `canMatch`, `canLoad`, `resolve`                                                                                                       | Check the condition where you navigate, and load the data in the routed component                                       |
+| Route fields other than `path`, `pathMatch`, `component`, `loadComponent`, `redirectTo`, `outlet`, `children`, `loadChildren`, `title` and `runGuardsAndResolvers` (such as `data`, `providers`, `matcher`)            |                                                                                                                         |
+| A `path`, `pathMatch`, `redirectTo` or `outlet` that isn't a string literal; a `component` that isn't a class name                                                                                                     |                                                                                                                         |
+| Router features other than `withPreloading()` and `withDebugTracing()`; `forRoot` options other than `enableTracing`, `useHash`, `preloadingStrategy`, `scrollPositionRestoration`, `anchorScrolling`, `scrollOffset`  |                                                                                                                         |
+| In a routes table outside the app's entry (an NgModule's routing module): `children`, `loadChildren`, `loadComponent`, `outlet`, and a redirect from a path other than `''`                                            | Give the routes to `provideNativeScriptRouter(routes)` in the entry                                                     |
+| Angular's `routerLink` and `routerLinkActive`, and `nsRouterLinkActive`                                                                                                                                                | `nsRouterLink`                                                                                                          |
+| `animate.enter`, `animate.leave` and animation events; `(window:…)` and `(document:…)` events                                                                                                                          |                                                                                                                         |
+| `<ng-container>` with a `#ref`, an event, a directive of yours, or an input other than `ngSwitch`, `ngTemplateOutlet` and `ngTemplateOutletContext`                                                                    |                                                                                                                         |
+| `<page-router-outlet>` with anything but `name` and `actionBarVisibility="auto"`                                                                                                                                       |                                                                                                                         |
+| `@Component` `host`, `providers`, `viewProviders`, `inputs`, `outputs`, `queries`, `hostDirectives`, `interpolation`, `preserveWhitespaces: true`                                                                      | `providedIn: 'root'` services; `input()` and `output()`                                                                 |
+| `viewChild()`, `viewChildren()`, `contentChild()`, `contentChildren()`; an `input()` or `model()` option other than `alias`; an `output()` option                                                                      | `@ViewChild` and `@ViewChildren`                                                                                        |
+| In a `@Directive`: fields other than `selector`, `inputs` and `host`; `input()`, `output()`, `model()` and signal queries; lifecycle hooks other than `ngOnInit`, `ngOnChanges`, `ngAfterViewInit`, `ngOnDestroy`      |                                                                                                                         |
+| An app `@NgModule`'s `providers`                                                                                                                                                                                       |                                                                                                                         |
+| A plugin element whose `registerElement` meta adds its children itself (`insertChild`, `removeChild`), when it has children; one registered with `skipAddToDom`                                                        |                                                                                                                         |
+
+A name in the first rows that a directive or attribute-selected component of your own takes as an input is
+yours, and isn't refused.
+
+### Binary-only plugins
+
+`nativescript-ui-listview`, `-sidedrawer`, `-calendar`, `-chart`, `-dataform`, `-autocomplete` and `-gauge` ship
+no TypeScript source, so there is nothing to compile. The build stops and names each one, with two remedies:
+replace the package with a module of your app (`release.pluginReplacements`), or build it as an empty stand-in
+(`release.stubPlugins`). See [Configuration](/guide/publishing/compiled-configuration#plugin-options).
+
+### Android: an instance's own function for a class method
+
+Assigning a function to a method that a class compiled with your app declares (`logger.log = (m) => …`, where
+`log` is a method of `Logger`) stops an Android build: "giving an instance its own Logger.log in place of the
+class's method". In the Kotlin output, calls go straight to the class's method, so the assignment would be ignored.
+iOS supports it. **Instead:** declare `log` as a field holding a function, or override the method in a subclass.
+
+### Converted values are copies, not the same object (iOS and Android)
+
+This one compiles and runs, and behaves differently. A value with no static type (`any`, parsed JSON, a value from
+a non-strict module) becomes a typed object where your code gives it an interface type. That conversion makes a new
+object each time:
+
+- The same object read as an interface twice gives two objects: `a === b` is `false`, so are their arrays
+  (`a.items === b.items`), and a `Map` or `Set` keyed by one doesn't find the other. A memoized selector that
+  compares its input by identity recomputes every time.
+- A typed array (`Float32Array`), or an untyped array, passed to a `number[]` parameter is copied, so what the
+  function writes into it doesn't reach the caller's array. On Android, an untyped array whose elements already
+  have the parameter's element type is passed as it is.
+
+**Instead:** give the value its type once, where it enters your code, and pass that typed reference on. Compare
+records by an id rather than `===`. Have a function return the values it computes instead of writing into an
+array argument, or pass it a `number[]`.
 
 ## JavaScript coverage
 
