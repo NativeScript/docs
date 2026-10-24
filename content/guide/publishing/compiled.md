@@ -118,8 +118,8 @@ two must match.
 
 ## What is still open
 
-- The [preview limits](/guide/publishing/compiled-differences#preview-limits): Angular forms, `[ngClass]` and
-  `[ngStyle]`, route guards and resolvers, `<ng-content>`, and binary-only plugins.
+- The [preview limits](/guide/publishing/compiled-differences#preview-limits): some Angular forms placements,
+  `canLoad` and `resolve`, `<ng-content>`, and binary-only plugins.
 - The [differences and unsupported patterns](/guide/publishing/compiled-differences#not-fixed-yet) listed today.
 - The speed of the runtime library and of typed member access.
 - Plugins: `.framework` and static libraries, resource bundles, and a way for plugin authors to ship native
