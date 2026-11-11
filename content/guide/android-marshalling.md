@@ -628,11 +628,6 @@ let MyVersatileCopyWriter = java.lang.Object.extend({
 ```ts
 @Interfaces([com.a.b.Printer, com.a.b.Copier, com.a.b.Writer]) /* the interfaces that will be inherited by the resulting MyVersatileCopyWriter class */
 class MyVersatileCopyWriter extends java.lang.Object {
-    constructor() {
-        super();
-        return global.__native(this);
-    }
-
     print() { ... }
     copy() { ... }
     write() { ... }
@@ -653,10 +648,6 @@ Java/Kotlin method overloads are handled by the developer by explicitly checking
 
 ```ts
 class MyVersatileCopyWriter extends ... {
-    constructor() {
-        super();
-        return global.__native(this);
-    }
     ...
     print() {
         let content = "";

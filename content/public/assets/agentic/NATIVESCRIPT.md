@@ -167,16 +167,13 @@ Rogue timers cause memory leaks and unexpected behavior.
 ```typescript
 @NativeClass()
 class MyButton extends android.widget.Button {
-  constructor() {
-    super()
-    return global.__native(this)
-  }
-
   setEnabled(enabled: boolean): void {
     this.super.setEnabled(enabled)
   }
 }
 ```
+
+Do not add `return global.__native(this)` to constructors. It is a legacy pattern that is not needed with TypeScript 2.0 and newer; a constructor only needs `super(...)`, and can be omitted if it does nothing else.
 
 ### iOS (using @NativeClass decorator)
 
