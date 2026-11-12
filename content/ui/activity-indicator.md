@@ -99,3 +99,4 @@ See [EventData](/api/interface/EventData).
 
 - Android: [`android.widget.ProgressBar` (indeterminate = true)](https://developer.android.com/reference/android/widget/ProgressBar.html)
 - iOS: [`UIActivityIndicatorView`](https://developer.apple.com/documentation/uikit/uiactivityindicatorview)
+- Linux: [`GtkSpinner`](https://docs.gtk.org/gtk4/class.Spinner.html)

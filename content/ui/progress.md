@@ -96,3 +96,4 @@ For additional inherited properties, refer to the [API Reference](/api/class/Pro
 
 - Android: [`android.widget.ProgressBar` (indeterminate = false)](https://developer.android.com/reference/android/widget/ProgressBar.html)
 - iOS: [`UIProgressView`](https://developer.apple.com/documentation/uikit/uiprogressview)
+- Linux: [`GtkProgressBar`](https://docs.gtk.org/gtk4/class.ProgressBar.html)

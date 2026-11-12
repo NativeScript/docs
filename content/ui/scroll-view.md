@@ -160,3 +160,4 @@ See [ScrollEventData](/api/interface/ScrollEventData).
 
 - Android: [`android.view`](https://developer.android.com/reference/android/view/View.html)
 - iOS: [`UIScrollView`](https://developer.apple.com/documentation/uikit/uiscrollview)
+- Linux: [`GtkScrolledWindow`](https://docs.gtk.org/gtk4/class.ScrolledWindow.html)

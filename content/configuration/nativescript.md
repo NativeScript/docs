@@ -37,7 +37,7 @@ export default {
 id: string = 'com.mycompany.myapp'
 ```
 
-Controls the Application ID of your app, this setting can be overridden per platform via [ios.id](#ios-id) and [android.id](#android-id).
+Controls the Application ID of your app, this setting can be overridden per platform via [ios.id](#ios-id), [android.id](#android-id) and [linux.id](#linux-id).
 
 ### main
 
@@ -162,6 +162,14 @@ ios: Object = {}
 ```
 
 See [iOS Configuration Reference](#ios-configuration-reference)
+
+### linux
+
+```ts
+linux: Object = {}
+```
+
+See [Linux Configuration Reference](#linux-configuration-reference)
 
 ### hooks
 
@@ -507,6 +515,109 @@ ios: {
   ],
 }
 ```
+
+## Linux Configuration Reference
+
+::: warning Experimental
+The Linux platform is experimental. See [Developing for Linux](/guide/linux/).
+:::
+
+### <span>linux.id</span>
+
+```ts
+linux.id: string = 'org.mycompany.MyApp';
+```
+
+Controls the app id on Linux, this setting overrides the value set in [id](#id). It names the app's desktop entry (`<id>.desktop`), icon and install folder, and must be a reverse DNS name (letters, digits, `_` and `-`, separated by dots).
+
+### linux.window
+
+```ts
+linux.window: {
+  width?: number
+  height?: number
+  minWidth?: number
+  minHeight?: number
+  resizable?: boolean
+  title?: string
+} = {}
+```
+
+The initial size of the app's windows, in logical pixels, and their minimum size. Defaults to `1024` by `768`, resizable, with the app name as the title.
+
+```ts
+export default {
+  // ...
+  linux: {
+    window: {
+      width: 1280,
+      height: 800,
+      minWidth: 480,
+      minHeight: 360,
+    },
+  },
+} as NativeScriptConfig
+```
+
+### linux.appearance
+
+```ts
+linux.appearance: 'system' | 'light' | 'dark' = 'system';
+```
+
+Keeps the app's native controls light or dark, whatever the desktop uses. Defaults to `'system'`, which follows the desktop.
+
+### linux.v8Flags
+
+```ts
+linux.v8Flags: string = '--expose_gc';
+```
+
+V8 flags set before the runtime starts. During development, the `NS_V8_FLAGS` environment variable adds to them.
+
+### linux.bundle
+
+```ts
+linux.bundle: boolean = true;
+```
+
+When enabled, **release** builds pack the app's files into one read-only `app.nsbundle` next to the executable. App code reads it with the usual file APIs, and writing to app files fails. Debug builds always use a plain folder. Defaults to `true`.
+
+### linux.bundleUnpack
+
+```ts
+linux.bundleUnpack: string[] = ['fonts/**'];
+```
+
+Globs, relative to the app folder, of files that are kept as real files in `app.nsbundle.unpacked`, for code that opens them by path. Native addons (`.node` and `.so` files) are always unpacked. Defaults to `['fonts/**']`.
+
+### linux.sourceProtect
+
+```ts
+linux.sourceProtect: boolean = true;
+```
+
+When enabled, **release** builds encrypt the `app.nsbundle` with a key generated for each build and embedded in the executable, so the app's sources aren't shipped readable. Defaults to `false`.
+
+This can be overridden per build with `--source-protect` or `--no-source-protect`. The encryption key can be provided with `--source-protect-key-hex <key>` or the `NS_LINUX_BUNDLE_KEY` environment variable. If source protection is requested and can't be applied, the build fails.
+
+### linux.fuses
+
+```ts
+linux.fuses: {
+  bundleIntegrity?: boolean
+  onlyLoadAppFromBundle?: boolean
+  inspector?: boolean
+  envOverrides?: boolean
+} = {}
+```
+
+Settings written into the executable of **release** builds:
+
+- `bundleIntegrity` - refuse an `app.nsbundle` that doesn't match the build. Defaults to `true` when the app is bundled.
+- `onlyLoadAppFromBundle` - only run the app from `app.nsbundle`, never from a plain app folder. Defaults to `true` when the app is bundled.
+- `inspector` - allow attaching a debugger with `--inspect`. Defaults to `false`.
+- `envOverrides` - honor the runtime's command line flags and environment variables (such as `NS_V8_FLAGS`). Defaults to `false`.
 
 ## Hooks Configuration Reference
 

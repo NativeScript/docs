@@ -244,3 +244,4 @@ Emitted when the TextField loses focus.
 
 - Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
 - iOS: [`UITextField`](https://developer.apple.com/documentation/uikit/uitextfield)
+- Linux: [`GtkEntry`](https://docs.gtk.org/gtk4/class.Entry.html)

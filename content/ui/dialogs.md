@@ -291,3 +291,4 @@ See [login()](/api/#login).
 
 - Android: [android.app.AlertDialog.Builder](https://developer.android.com/reference/android/app/AlertDialog.Builder)
 - iOS: [UIAlertController](https://developer.apple.com/documentation/uikit/uialertcontroller)
+- Linux: a modal [`GtkWindow`](https://docs.gtk.org/gtk4/class.Window.html)

@@ -201,3 +201,4 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 - Android: [`android.widget.DatePicker`](https://developer.android.com/reference/android/widget/DatePicker.html)
 - iOS: [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker)
+- Linux: [`GtkCalendar`](https://docs.gtk.org/gtk4/class.Calendar.html) (with [`GtkSpinButton`](https://docs.gtk.org/gtk4/class.SpinButton.html)s for the time when `showTime` is set)

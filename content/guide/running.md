@@ -14,6 +14,7 @@ To run a project, use the `ns run` command. There's also a `ns debug` command co
 ```bash
 ns run android
 ns run ios
+ns run linux # experimental, Linux host only
 ```
 
 The `run` command runs the app on all connected devices matching the platform. You can control which devices to run on with the following flags:
@@ -120,6 +121,30 @@ The app should install and launch on the iOS device.
 ::: warning Note
 Xcode network devices sometimes get disconnected or have an unreliable connection. We recommend using a wired connection to avoid these occasional issues.
 :::
+
+## Running on Linux
+
+::: warning Experimental
+The Linux platform is experimental. See [Developing for Linux](/guide/linux/) for the current status.
+:::
+
+Linux apps run on the local machine, there is no emulator or remote device involved. When running on a Linux host with the [Linux environment set up](/setup/linux#setting-up-linux-for-linux-desktop), the local machine is listed as a `Linux` device:
+
+```bash
+ns devices linux
+```
+
+To build and launch the app:
+
+```bash
+ns run linux
+```
+
+The app runs as a child process of the CLI. Its console output is streamed to the terminal, and the app is closed when the CLI exits. The debug build is in `platforms/linux/<ProjectName>/bin/`, and the CLI also adds it to the desktop's app launcher (as `~/.local/share/applications/<app id>.desktop`), so that the app shows its name and icon.
+
+Changes to your app are synced to the build folder. With the [Vite bundler](/configuration/vite) changes are applied with HMR, with webpack the app reloads on every change.
+
+`ns run linux --release` runs a [release build](/guide/publishing/linux).
 
 ## Running on virtual devices
 

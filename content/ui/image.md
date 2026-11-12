@@ -308,3 +308,4 @@ For additional inherited properties, refer to the [API Reference](/api/class/Ima
 
 - Android: [`android.widget.ImageView`](https://developer.android.com/reference/android/widget/ImageView)
 - iOS: [`UIImageView`](https://developer.apple.com/documentation/uikit/uiimageview)
+- Linux: [`GtkPicture`](https://docs.gtk.org/gtk4/class.Picture.html)

@@ -212,3 +212,39 @@ The above can be ignored by adding the following to your `tsconfig.json`:
 <!--  -->
 
 :::
+
+## Linux
+
+::: warning Experimental
+The Linux platform is experimental. See [Developing for Linux](/guide/linux/).
+:::
+
+### The CLI says Linux apps can't be built on this OS
+
+Linux apps can only be built on a Linux machine. On macOS and Windows, `ns run linux` and `ns build linux` fail with `Applications for platform Linux can not be built on this OS`. See [Setting up Linux for Linux desktop](/setup/linux#setting-up-linux-for-linux-desktop).
+
+### `ns doctor` reports that GTK 4 is missing
+
+Install the GTK 4 library with your distribution's package manager, for example `sudo apt install libgtk-4-1` or `sudo dnf install gtk4`. See [Installing GTK 4](/setup/linux#installing-gtk-4).
+
+### Building native code fails because a tool is missing
+
+Building C or C++ code in `App_Resources/Linux` or a plugin requires a C compiler, `pkg-config` and, for `CMakeLists.txt` projects, `cmake`. On Debian and Ubuntu run `sudo apt install build-essential pkg-config cmake`, and install the development packages of the libraries listed in `native.json` (for example `libgtk-4-dev` for `gtk4`).
+
+### A C function is `undefined`
+
+The function's library couldn't be loaded, or the library doesn't export the function. The runtime prints the library names it tried when a library doesn't load. Check that the library is installed, and that the `link` entries of your [module map](/guide/native-code/linux#using-module-maps) name it correctly.
+
+Function-like C macros (such as `G_OBJECT()` or `G_TYPE_STRING`) are not functions and are never available, see [Linux Marshalling](/guide/linux-marshalling#functions-enums-and-constants).
+
+### Writing a file fails with EROFS
+
+In release builds the app's files are packed into a read-only `app.nsbundle`. Write files to `knownFolders.documents()` or `knownFolders.temp()` instead of the app folder, or disable [`linux.bundle`](/configuration/nativescript#linux-bundle).
+
+### The app shows a generic icon or name in the dock
+
+The desktop matches the app's windows to its desktop entry by the app id. Run the app at least once with `ns run linux` to install the debug desktop entry, and make sure `Icon` and `StartupWMClass` in `App_Resources/Linux/app.desktop` are `__APP_ID__`.
+
+### GTK warnings or critical messages in the console
+
+`Gtk-CRITICAL` and `GLib-GObject-CRITICAL` messages come from GTK, usually when a C function is called with an invalid argument (for example a `NULL` widget, or a widget that was already destroyed). To find where they come from, see [Debugging native code with GDB](/guide/debugging#debugging-native-code-with-gdb).

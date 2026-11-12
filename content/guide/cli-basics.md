@@ -57,6 +57,8 @@ Example output:
 | 3 | iPhone 14 Pro  | iOS      | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX | Emulator | Connected | Local           |
 ```
 
+On a Linux host, the local machine is also listed as a `Linux` device. `ns run linux` runs the app on it (see [Developing for Linux](/guide/linux/)).
+
 ## Setting the default package manager
 
 To set the default package manager that the CLI uses (unless overridden in [nativescript.config.ts](/project-structure/nativescript-config#cli-packagemanager)):

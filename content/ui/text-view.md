@@ -264,3 +264,4 @@ Emitted when the TextView loses focus.
 
 - Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
 - iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)
+- Linux: [`GtkTextView`](https://docs.gtk.org/gtk4/class.TextView.html) in a [`GtkScrolledWindow`](https://docs.gtk.org/gtk4/class.ScrolledWindow.html)

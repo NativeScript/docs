@@ -139,3 +139,4 @@ Emitted when the search input is cleared through the **&cross;** button in the i
 
 - Android: [`android.widget.SearchView`](https://developer.android.com/reference/android/widget/SearchView.html)
 - iOS: [`UISearchBar`](https://developer.apple.com/documentation/uikit/uisearchbar)
+- Linux: [`GtkSearchEntry`](https://docs.gtk.org/gtk4/class.SearchEntry.html)

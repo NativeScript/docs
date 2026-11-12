@@ -220,3 +220,4 @@ Emitted whenever the inspector column changes visibility. Payload contains a `da
 ## Native component
 
 - iOS: [`UISplitViewController`](https://developer.apple.com/documentation/uikit/uisplitviewcontroller)
+- Linux: a [`GtkFixed`](https://docs.gtk.org/gtk4/class.Fixed.html) container, the columns are laid out by NativeScript

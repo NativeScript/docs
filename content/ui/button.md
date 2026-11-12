@@ -121,3 +121,4 @@ See [TapGestureEventData](/api/interface/TapGestureEventData).
 
 - Android: [`android.widget.Button`](https://developer.android.com/reference/android/widget/Button.html)
 - iOS: [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton)
+- Linux: [`GtkButton`](https://docs.gtk.org/gtk4/class.Button.html)

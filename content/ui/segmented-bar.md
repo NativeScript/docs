@@ -121,3 +121,4 @@ Emitted when an item in the SegmentedBar is tapped.
 
 - Android: [`android.widget.TabHost`](https://developer.android.com/reference/android/widget/TabHost.html)
 - iOS: [`UISegmentedControl`](https://developer.apple.com/documentation/uikit/uisegmentedcontrol)
+- Linux: a [`GtkBox`](https://docs.gtk.org/gtk4/class.Box.html) of [`GtkToggleButton`](https://docs.gtk.org/gtk4/class.ToggleButton.html)s

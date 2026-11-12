@@ -110,6 +110,89 @@ ns doctor android
 
 If you see **No issues were detected** then you have successfully set up your system.
 
+## Setting up Linux for Linux desktop
+
+::: warning Experimental
+The Linux platform is experimental. APIs, tooling and requirements may change between releases. See [Developing for Linux](/guide/linux/) for the current status.
+:::
+
+NativeScript can build native Linux desktop apps with [GTK 4](https://www.gtk.org/). Apps run on the local machine.
+
+You will need:
+
+- A glibc based Linux distribution released in 2018 or later (glibc 2.28 or newer), x64 or arm64
+- GTK 4
+- Node &mdash; see [Setting up Linux for Android](#setting-up-linux-for-android) above
+- The NativeScript CLI
+
+### Installing GTK 4
+
+Most desktop distributions already ship GTK 4. If yours doesn't, install it with your package manager:
+
+::: code-group
+
+```bash [Debian / Ubuntu]
+sudo apt install libgtk-4-1
+```
+
+```bash [Fedora]
+sudo dnf install gtk4
+```
+
+```bash [Arch]
+sudo pacman -S gtk4
+```
+
+:::
+
+### Installing a C toolchain (optional)
+
+Apps and plugins that include their own C or C++ code (see [Adding Linux native code](/guide/native-code/linux)) also need a C compiler, `pkg-config` and, for CMake projects, `cmake`, as well as the development packages of the libraries they use:
+
+::: code-group
+
+```bash [Debian / Ubuntu]
+sudo apt install build-essential pkg-config cmake libgtk-4-dev
+```
+
+```bash [Fedora]
+sudo dnf install gcc gcc-c++ pkgconf-pkg-config cmake gtk4-devel
+```
+
+```bash [Arch]
+sudo pacman -S base-devel cmake gtk4
+```
+
+:::
+
+Apps that only use JavaScript/TypeScript don't need these.
+
+### Installing the NativeScript CLI
+
+If you haven't already, install the NativeScript CLI globally:
+
+```bash
+npm install -g nativescript
+```
+
+### Verifying the environment
+
+Run:
+
+```bash
+ns doctor
+```
+
+On Linux the output includes a Linux section, which checks that the GTK 4 library (`libgtk-4.so.1`) is installed. If it reports no issues, your environment is ready.
+
+Your machine is also listed as a `Linux` device:
+
+```bash
+ns devices linux
+```
+
+You're now ready to [add the Linux platform to a project](/guide/linux/#adding-linux-to-a-project).
+
 ## Setting up Linux for iOS
 
 :::danger :x: Unsupported

@@ -180,3 +180,4 @@ See [LoadEventData](/api/interface/LoadEventData).
 
 - Android: [`android.webkit.WebView`](https://developer.android.com/reference/android/webkit/WebView)
 - iOS: [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview)
+- Linux: not supported yet, shows the URL and a button that opens it in the default browser

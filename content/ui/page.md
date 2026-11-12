@@ -454,3 +454,4 @@ See also: [enableEdgeToEdge](/core/utils#enableedgetoedge).
 
 - Android: [`org.nativescript.widgets.GridLayout`](https://github.com/NativeScript/NativeScript/blob/master/packages/ui-mobile-base/android/widgets/src/main/java/org/nativescript/widgets/GridLayout.java)
 - iOS: [`UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller)
+- Linux: a [`GtkFixed`](https://docs.gtk.org/gtk4/class.Fixed.html) container
