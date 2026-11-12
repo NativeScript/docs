@@ -43,8 +43,11 @@ export default defineConfig({
       {
         async: 'true',
         src: 'https://vueschool.io/banner.js?affiliate=NSCRIPT&type=top',
-      }  
+      }
     ],
+    // The banner is fixed at z-index 99999; without this it covers the
+    // full-screen DocSearch input on mobile.
+    ['style', {}, '.DocSearch.DocSearch-Container{z-index:100000}'],
   ],
   ignoreDeadLinks: true,
   cleanUrls: true,
