@@ -53,9 +53,6 @@ class MyButton extends android.widget.Button {
   constructor() {
     super()
     constructorCalled = true
-
-    // necessary when extending TypeScript constructors
-    return global.__native(this)
   }
 
   setEnabled(enabled: boolean): void {
@@ -88,6 +85,10 @@ const button = new MyButton(context)
 In the above example, the `setEnabled` function's use of `this` keyword points to the JavaScript object that proxies the extended native instance. The `this.super` usage provides access to the base class method implementation.
 :::
 
+:::tip Note
+Older examples end the constructor with `return global.__native(this)`. This is not needed with TypeScript 2.0 and newer. The runtime keeps `global.__native` only for backward compatibility, so existing calls are harmless and can be removed.
+:::
+
 ### Creating an anonymous Java class which extends from the base Java `java.lang.Object` class
 
 ::: code-group
@@ -95,12 +96,6 @@ In the above example, the `setEnabled` function's use of `this` keyword points t
 ```ts [via TypeScript]
 @NativeClass
 class MyClass extends java.lang.Object {
-  constructor() {
-    super()
-    // necessary when extending TypeScript constructors
-    return global.__native(this)
-  }
-
   toString(): string {
     // override Object's toString
   }
@@ -135,13 +130,6 @@ To create a named Java class which extends from the `java.lang.Object` class:
 @NativeClass
 @JavaProxy('org.nativescript.example.MyClass')
 class MyClass extends java.lang.Object {
-  // constructor
-  constructor() {
-    super()
-    // necessary when extending TypeScript constructors
-    return global.__native(this)
-  }
-
   toString(): string {
     // override Object's toString
   }
@@ -545,13 +533,6 @@ class ClickListener
   extends java.lang.Object
   implements android.view.View.OnClickListener
 {
-  constructor() {
-    super()
-
-    // necessary when extending TypeScript constructors
-    return global.__native(this)
-  }
-
   onClick(view: android.view.View): void {
     // Perform action on click
   }

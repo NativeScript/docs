@@ -588,6 +588,7 @@ npm i -D @vitejs/plugin-vue-jsx vue-tsc
 **Problem:** New type errors during the Vite build: `Conversion of type 'UIView' to type 'View'` in `.android.ts` files, `Cannot find module '<plugin>'`, or plugin options reported as unknown properties.
 
 **Solution:** The build runs `vue-tsc --moduleSuffixes .ios,.native,` (or `.android`) over the whole project. So:
+
 - **Other-platform files get the wrong typings.** `nativeViewProtected` is `UIView` inside an `.android.ts` file. Use `this.nativeView` (typed `any`) for platform casts.
 - **Some plugin typings stop resolving.** A `typings` field naming a missing file, or `import from '../x'` landing on `x.ios.d.ts`, can break. Fix with an ambient `declare module` or a module augmentation in your `types/` folder.
 - **`.vue` templates are checked for the first time.**
@@ -601,6 +602,7 @@ To defer the check: `vueConfig({ mode }, { typeCheck: 'warn' | 'off' })`, or `NS
 **Problem:** The app dies at launch with `Error instantiating module …/bundle.mjs`, after `module graph walk missed http://<ip>:5173/…`.
 
 **Solution:** A dev build has the dev server URL baked in, and the device couldn't reach it. The simulator log (`xcrun simctl spawn <udid> log show --predicate 'process == "<app>"'`) shows `Connection refused` when nothing is listening. The Vite server only lives as long as the `ns run` / `ns debug` session:
+
 - Launch from a running `ns run`/`ns debug` session, not by relaunching the app afterwards.
 - Check the CLI output for `Vite dev server for ios exited with code …`.
 - Confirm the server is reachable: `curl http://<ip>:5173/ns/core/xhr` should return 200.
@@ -611,6 +613,7 @@ To defer the check: `vueConfig({ mode }, { typeCheck: 'warn' | 'off' })`, or `NS
 ### 4. Node-only packages in `dependencies` crash the dev session
 
 **Problem:** `[ns-entry] deterministic dev session bootstrap failed`, with a stack through `/ns/deps-bundle.mjs`. Examples:
+
 - `Cannot read properties of undefined (reading 'substr')` in `graceful-fs` ← `fs-extra` ← `patch-package`
 - `Cannot read properties of undefined (reading 'custom')` in `object-inspect` ← `qs` ← `url`
 
@@ -637,9 +640,13 @@ Then run `npm install`, confirm with `npm ls vue`, and clear `node_modules/.vite
 **Problem:** `viewClass is not a constructor` when an element renders. Or a lazy `require('../some-module')` in app code yields `undefined` exports.
 
 **Solution:** Webpack resolved `require` at build time. Vite leaves it as a runtime call, and a **relative** path can't be resolved on the device, so it returns `{}`. For example, `@nativescript/google-mobile-ads/vue` registers its views with `require('../').BannerAd`. Bare package names like `require('<package>')` do resolve.
+
 - **Plugins:** skip the plugin's Vue install and register its elements yourself:
   ```ts
-  registerElement('BannerAd', () => require('@nativescript/google-mobile-ads').BannerAd)
+  registerElement(
+    'BannerAd',
+    () => require('@nativescript/google-mobile-ads').BannerAd,
+  )
   ```
 - **App code:** replace lazy relative requires (often used to break import cycles) with `import('../module')`.
 
