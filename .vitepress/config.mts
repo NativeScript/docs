@@ -45,9 +45,13 @@ export default defineConfig({
         src: 'https://vueschool.io/banner.js?affiliate=NSCRIPT&type=top',
       }
     ],
-    // The banner is fixed at z-index 99999; without this it covers the
-    // full-screen DocSearch input on mobile.
-    ['style', {}, '.DocSearch.DocSearch-Container{z-index:100000}'],
+    // The banner is fixed at z-index 99999 and covers DocSearch's input when
+    // the modal goes full-screen (DocSearch's 768px breakpoint).
+    [
+      'style',
+      {},
+      '@media (max-width:768px){body.DocSearch--active #bb-banner-container{display:none!important}}',
+    ],
   ],
   ignoreDeadLinks: true,
   cleanUrls: true,
