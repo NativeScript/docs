@@ -191,3 +191,4 @@ Emitted when the label text is changed. -->
 
 - Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
 - iOS: [`UILabel`](https://developer.apple.com/documentation/uikit/uilabel)
+- Linux: [`GtkLabel`](https://docs.gtk.org/gtk4/class.Label.html)

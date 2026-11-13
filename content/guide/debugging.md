@@ -5,7 +5,7 @@ contributors:
   - rigor789
 ---
 
-There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments or the Android Studio developer tools.
+There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments, the Android Studio developer tools or GDB on Linux.
 
 ## Console
 
@@ -41,7 +41,7 @@ console.timeEnd('myLabel')
 To start a Chrome debugging session, run your app in debug mode:
 
 ```bash
-ns debug android|ios
+ns debug android|ios|linux
 ```
 
 The `ns debug` command builds and deploys the app on a connected device or emulator, in case you have multiple devices available you will need to pick one from a list, or pass in the `--device <id>` from `ns devices`.
@@ -163,3 +163,58 @@ Since NativeScript follows a standard gradle/android application structure, you 
 - [Android Studio: Layout Inspector](https://developer.android.com/studio/debug/layout-inspector)
 - [Android Studio: view Logcat logs](https://developer.android.com/studio/debug/am-logcat)
 - [Androud Studio: Debug your app](https://developer.android.com/studio/debug#startdebug)
+
+## Debugging on Linux
+
+::: warning Experimental
+The Linux platform is experimental. See [Developing for Linux](/guide/linux/).
+:::
+
+### Chrome DevTools
+
+Start a debug session on the local machine with:
+
+```bash
+ns debug linux
+```
+
+The command builds and launches the app with the V8 inspector enabled. Once the inspector is listening, a URL is printed to the console:
+
+```bash
+To start debugging, open the following URL in Chrome:
+devtools://devtools/bundled/inspector.html?ws=127.0.0.1:9229/<id>
+```
+
+Open the printed URL in Google Chrome or Chromium to attach to the debugger session. The inspector listens on port `9229`, which can be changed with the `NS_LINUX_INSPECTOR_PORT` environment variable.
+
+The app also shows up in `chrome://inspect`, and other clients that speak the Chrome DevTools Protocol, such as the VS Code JavaScript debugger, can attach to `127.0.0.1:9229`.
+
+The same options as on the other platforms are supported:
+
+- `--debug-brk` - pauses on the first line of JavaScript until the debugger connects.
+- `--start` - attaches to an app that is already running with the debugger enabled (started with `ns debug linux`), without restarting it.
+- `--timeout` - number of seconds the CLI waits for the inspector to start. Default is 90 seconds.
+
+`ns run linux` doesn't start the inspector, use `ns debug linux` instead. The debugger is only available with the default `@nativescript/linux` (V8) runtime, and it is turned off in release builds unless the [`inspector` fuse](/configuration/nativescript#linux-fuses) is enabled.
+
+The debugger, console, sources, CPU profiling and memory snapshots are provided by V8's inspector. In CPU profiles, time spent in C functions is shown under the C function's name. Network requests made with `@nativescript/core` HTTP APIs are shown in the **Network** tab.
+
+### Console output
+
+`ns run linux` and `ns debug linux` stream the app's standard output and standard error (including `console` calls and uncaught errors) to your terminal. Run the CLI with `--log trace` to also see when the app starts and exits, with its exit code or signal.
+
+An app started from the desktop's app launcher writes its output wherever the desktop session sends it, usually the systemd journal (`journalctl --user -f`).
+
+### Debugging native code with GDB
+
+To debug C code (your own [native code](/guide/native-code/linux), GTK or the runtime), attach [GDB](https://www.sourceware.org/gdb/) to the running app:
+
+```bash
+ns run linux
+# in another terminal
+gdb -p $(pgrep -n <ProjectName>)
+```
+
+Native code in debug builds is compiled with `-O0 -g`, so GDB can show its sources and variables.
+
+To debug GTK warnings and critical messages, set `G_DEBUG=fatal-criticals` in the environment before running the CLI. The app then stops at the first critical message, and GDB shows where it came from.

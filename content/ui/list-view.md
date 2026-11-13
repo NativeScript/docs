@@ -384,3 +384,4 @@ See `SearchEventData` in the API reference for the shape of the event.
 
 - Android: [`android.widget.ListView`](https://developer.android.com/reference/android/widget/ListView.html)
 - iOS: [`UITableView`](https://developer.apple.com/documentation/uikit/uitableview)
+- Linux: [`GtkListView`](https://docs.gtk.org/gtk4/class.ListView.html) in a [`GtkScrolledWindow`](https://docs.gtk.org/gtk4/class.ScrolledWindow.html)

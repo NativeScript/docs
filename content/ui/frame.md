@@ -371,3 +371,4 @@ If set to `true`, it clears the navigation history backstack.
 
 - Android: [`org.nativescript.widgets.ContentLayout`](https://github.com/NativeScript/tns-core-modules-widgets/blob/master/android/widgets/src/main/java/org/nativescript/widgets/ContentLayout.java)
 - iOS: [`UINavigationController`](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
+- Linux: a [`GtkFixed`](https://docs.gtk.org/gtk4/class.Fixed.html) container that hosts the current page

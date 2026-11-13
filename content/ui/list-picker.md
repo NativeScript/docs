@@ -95,3 +95,4 @@ Emitted when the currently selected item (index) changes.
 
 - Android: [`android.widget.NumberPicker`](https://developer.android.com/reference/android/widget/NumberPicker.html)
 - iOS: [`UIPickerView`](https://developer.apple.com/documentation/uikit/uipickerview)
+- Linux: [`GtkDropDown`](https://docs.gtk.org/gtk4/class.DropDown.html)

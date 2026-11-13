@@ -5,7 +5,7 @@ contributors:
   - NathanWalker
 ---
 
-The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform.
+The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform (and a `Linux` subfolder when [targeting Linux](/guide/linux/)).
 
 This page serves as a quick reference to understand how most settings in App_Resources affect the behavior and the look of a NativeScript app.
 
@@ -211,3 +211,84 @@ For a list of available entitlements refer to [Apple's Entitlements documentatio
 ### Adding ObjectiveC/Swift Code to an application
 
 See [Adding ObjectiveC/Swift Code to an application](/guide/native-code/ios).
+
+## Linux specific resources
+
+::: warning Experimental
+The Linux platform is experimental. See [Developing for Linux](/guide/linux/).
+:::
+
+```bash
+App_Resources/
+├─ Linux/
+│  ├─ icon.png             # app icon, 512x512 (or icon.svg)
+│  ├─ app.desktop          # desktop entry template
+│  ├─ app.metainfo.xml     # AppStream metadata template
+│  ├─ images/              # images used with res:// URLs
+│  ├─ native-api-usage.json # optional, metadata filtering rules
+│  └─ src/, include/, lib/, native.json, CMakeLists.txt  # optional, native code
+└─ ... more
+```
+
+If the project doesn't have an `App_Resources/Linux` folder, the CLI adds the default one the first time you prepare the app for Linux.
+
+The following tokens are replaced in `app.desktop` and `app.metainfo.xml`:
+
+| Token             | Value                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------- |
+| `__APP_ID__`      | the app id ([`id`](/configuration/nativescript#id) or [`linux.id`](/configuration/nativescript#linux-id)) |
+| `__APP_NAME__`    | the project name                                                                                          |
+| `__APP_VERSION__` | the `version` from `package.json`                                                                         |
+| `__APP_DATE__`    | the build date                                                                                            |
+| `__EXEC__`        | the path of the app executable, set when the app is installed                                             |
+
+### App icon
+
+`icon.png` is the app's icon, used for its windows and in the desktop's app launcher. Use a 512&times;512 PNG, or an `icon.svg`, which is used instead when present. The icon is installed as `<app id>` in the `hicolor` icon theme.
+
+### Desktop entry (app.desktop)
+
+The [desktop entry](https://specifications.freedesktop.org/desktop-entry-spec/latest/) makes the app show up in the desktop's app launcher, with its name and icon. It is written as `<app id>.desktop`:
+
+```ini
+[Desktop Entry]
+Type=Application
+Name=__APP_NAME__
+Exec=__EXEC__
+Icon=__APP_ID__
+Categories=Utility;
+Terminal=false
+StartupWMClass=__APP_ID__
+```
+
+Change `Name` to your app's display name, and set the [categories](https://specifications.freedesktop.org/menu-spec/latest/category-registry.html) the app belongs to. Keep `Exec`, `Icon` and `StartupWMClass` as they are, they are needed to launch the app and to match its windows to the desktop entry.
+
+### AppStream metadata (app.metainfo.xml)
+
+[AppStream metadata](https://www.freedesktop.org/software/appstream/docs/) describes the app for software centers (such as GNOME Software, KDE Discover and Flathub). It is written as `<app id>.metainfo.xml`:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>__APP_ID__</id>
+  <name>__APP_NAME__</name>
+  <summary>A NativeScript application</summary>
+  <description>
+    <p>__APP_NAME__ is a desktop application built with NativeScript and GTK 4.</p>
+  </description>
+  <metadata_license>CC0-1.0</metadata_license>
+  <launchable type="desktop-id">__APP_ID__.desktop</launchable>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="__APP_VERSION__" date="__APP_DATE__" />
+  </releases>
+</component>
+```
+
+### Images
+
+Images in `App_Resources/Linux/images/` can be used from your app with `res://` URLs, for example `res://logo` loads `images/logo.png` (or `logo.svg` or `logo.jpg`).
+
+### Adding native code to a Linux application
+
+See [Adding Linux native code](/guide/native-code/linux).
