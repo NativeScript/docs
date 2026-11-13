@@ -127,6 +127,8 @@ console.log(getpid())
 
 const label = gtk_label_new('Hello from JavaScript')
 gtk_label_set_selectable(label, true)
+label.set_selectable(true) // the same call, as a method
+label.selectable = true // or through the GObject property
 ```
 
 Every `@nativescript/core` view exposes the underlying GTK widget (a `GtkWidget *`) through `nativeView`:
@@ -139,15 +141,15 @@ const button = new Button()
 gtk_widget_set_tooltip_text(button.nativeView, 'Click me')
 ```
 
-GTK signals are connected with `g_signal_connect`:
+GTK signals are connected with `connect` (or `g_signal_connect`):
 
 ```ts
-g_signal_connect(button.nativeView, 'clicked', () => {
+button.nativeView.connect('clicked', () => {
   console.log('clicked')
 })
 ```
 
-Read [Linux Marshalling](/guide/linux-marshalling) to learn how JavaScript values are converted to C types, how to work with pointers, structs and callbacks, and how to manage the memory of GObjects.
+Read [Linux Marshalling](/guide/linux-marshalling) to learn how JavaScript values are converted to C types, how to work with pointers, structs and callbacks, and how GObjects, their methods, properties, signals and memory work.
 
 GObject classes, such as GTK widgets, can be extended from JavaScript, and GObject interfaces implemented. See [Extending GObject classes and implementing interfaces](/guide/extending-classes-and-implementing-interfaces-linux).
 

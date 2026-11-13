@@ -31,18 +31,18 @@ Calls are checked against the C signature: passing the wrong number of arguments
 
 ## Primitive types
 
-| C type                                                          | JavaScript to C                                                                      | C to JavaScript                                                 |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
-| `char`, `short`, `int` (signed and unsigned), enums             | `number` (truncated to the C type's size)                                            | `number`                                                        |
-| `long`, `long long`, `int64_t`, `size_t`, `gsize`, `GType`, ... | `number` or `bigint`                                                                 | `number`, or `bigint` for values outside &plusmn;2<sup>53</sup> |
-| `float`, `double`, `long double`                                | `number`                                                                             | `number`                                                        |
-| `bool` (`_Bool`)                                                | any value, converted to `true` or `false`                                            | `boolean`                                                       |
-| `gboolean`                                                      | `number` or `boolean`                                                                | `number` (`0` or `1`), because `gboolean` is a C `int`          |
-| `const char *`                                                  | `string`, `interop.Pointer` or `null`                                                | `string`, or `null` for `NULL`                                  |
-| `char *`                                                        | `string`, `interop.Pointer` or `null`                                                | `interop.Pointer`, see [Strings](#strings)                      |
-| pointers (`void *`, `GtkWidget *`, ...)                         | `interop.Pointer`, `interop.Reference`, struct, `ArrayBuffer`, typed array or `null` | `interop.Pointer`, or `null` for `NULL`                         |
-| function pointers                                               | a JavaScript function, see [Callbacks](#callbacks)                                   | a callable JavaScript function                                  |
-| structs and unions (by value)                                   | a struct instance or a plain object                                                  | a struct instance, see [Structs](#structs)                      |
+| C type                                                          | JavaScript to C                                                                      | C to JavaScript                                                                                          |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| `char`, `short`, `int` (signed and unsigned), enums             | `number` (truncated to the C type's size)                                            | `number`                                                                                                 |
+| `long`, `long long`, `int64_t`, `size_t`, `gsize`, `GType`, ... | `number` or `bigint`                                                                 | `number`, or `bigint` for values outside &plusmn;2<sup>53</sup>                                          |
+| `float`, `double`, `long double`                                | `number`                                                                             | `number`                                                                                                 |
+| `bool` (`_Bool`)                                                | any value, converted to `true` or `false`                                            | `boolean`                                                                                                |
+| `gboolean`                                                      | `number` or `boolean`                                                                | `number` (`0` or `1`), because `gboolean` is a C `int`                                                   |
+| `const char *`                                                  | `string`, `interop.Pointer` or `null`                                                | `string`, or `null` for `NULL`                                                                           |
+| `char *`                                                        | `string`, `interop.Pointer` or `null`                                                | `interop.Pointer`, see [Strings](#strings)                                                               |
+| pointers (`void *`, `GtkWidget *`, ...)                         | `interop.Pointer`, `interop.Reference`, struct, `ArrayBuffer`, typed array or `null` | `interop.Pointer`, or `null` for `NULL`; a pointer to a GObject is its object, see [GObjects](#gobjects) |
+| function pointers                                               | a JavaScript function, see [Callbacks](#callbacks)                                   | a callable JavaScript function                                                                           |
+| structs and unions (by value)                                   | a struct instance or a plain object                                                  | a struct instance, see [Structs](#structs)                                                               |
 
 `null` and `undefined` are passed as `NULL` (or `0` for numbers).
 
@@ -55,17 +55,15 @@ atoll('9007199254740993') // 9007199254740993n
 
 ## Pointers
 
-Pointers are `interop.Pointer` objects. Every call returns a new object, so compare pointers with `equals()`, not `===`:
+Pointers are `interop.Pointer` objects. A GObject is the same object every time it reaches JavaScript (see [GObjects](#gobjects)), but other pointers are new objects on every call, so compare them with `equals()`, not `===`:
 
 ```ts
-const box = gtk_box_new(GtkOrientation.VERTICAL, 0)
-const label = gtk_label_new('Hello')
-gtk_box_append(box, label)
+const text = g_strdup('hello')
+text.equals(text.add(0)) // true
+text === text.add(0) // false
 
-gtk_widget_get_parent(label).equals(box) // true
-
-box.toHexString() // '0x5581f3a0c2d0'
-box.add(8) // a pointer 8 bytes further
+text.toHexString() // '0x5581f3a0c2d0'
+text.add(8) // a pointer 8 bytes further
 new interop.Pointer(0x1000) // a pointer from an address
 ```
 
@@ -194,9 +192,9 @@ timer.it_interval = { tv_sec: 2, tv_usec: 0 }
 - Pointer fields are read as `interop.Pointer`. To view a struct that a pointer points to, use `new interop.Reference(StructType, pointer).value`.
 
 ```ts
-const label = g_object_ref_sink(gtk_label_new('Hello'))
+const label = gtk_label_new('Hello')
 const object = new interop.Reference(GObject, label).value
-console.log(object.ref_count) // 1
+console.log(object.ref_count) // 1, the reference the JavaScript object holds
 ```
 
 ## Callbacks
@@ -235,41 +233,89 @@ const compare = interop.callback((a, b) => int(a) - int(b), {
 
 Keep the following in mind:
 
-- The C function generated for a JavaScript function stays valid until you call `interop.release(fn)`, so it is safe to use for callbacks that are called later (signal handlers, timeouts and idle callbacks). Release callbacks you no longer need.
+- The C function generated for a JavaScript function stays valid until you call `interop.release(fn)`, so it is safe to use for callbacks that are called later (timeouts and idle callbacks). Release callbacks you no longer need. Signal handlers are released for you, see [GObject signals](#gobject-signals).
 - A string returned from a callback is only valid until the callback returns. Return `interop.cstring()` (and keep a reference to it) or `g_strdup()` instead.
 - An exception thrown in a callback doesn't reach the C caller. It is reported as an uncaught error, and the C caller receives `0` (or `NULL`).
 - Callbacks always run on the JavaScript thread that created them, see [Threading](#threading).
 
-## GObject signals
+## GObjects
 
-`g_signal_connect` and `g_signal_connect_after` connect a JavaScript function to a GObject signal. The handler receives the instance, the signal's arguments and the user data:
+A GObject that reaches JavaScript (the result of a C function declared to return a GObject class or interface, a struct field, a signal argument or a property value) is an object of its class. There is one JavaScript object per GObject, so `===` works:
 
 ```ts
-g_signal_connect(button, 'clicked', (self) => {
-  console.log('clicked')
+const box = gtk_box_new(GtkOrientation.VERTICAL, 0)
+const label = gtk_label_new('Hello')
+gtk_box_append(box, label)
+
+gtk_widget_get_parent(label) === box // true
+label instanceof GtkLabel // true, and GtkWidget, GObject
+```
+
+A class's C functions are methods of its objects, named without the type's prefix, and so are the functions of the interfaces it implements. Its GObject properties are JavaScript properties in camelCase:
+
+```ts
+label.set_text('Hi') // gtk_label_set_text(label, 'Hi')
+box.append(gtk_label_new('More')) // gtk_box_append, from GtkBox
+entry.set_text('x') // gtk_editable_set_text, from the GtkEditable interface
+
+label.maxWidthChars = 20 // the max-width-chars property
+label.visible // true, a boolean
+```
+
+- A property has a getter if it's readable and a setter if it's writable after construction, so assigning a read-only property throws in strict mode. When the class has a matching C getter or setter (`gtk_widget_get_opacity` for `opacity`), the property calls it directly.
+- Calling the C functions still works the same way, and a method costs what the C call does.
+- Create objects with `new`, passing construct properties as with `g_object_new`. Abstract classes throw.
+
+```ts
+const window = new GtkWindow({ title: 'Hello', defaultWidth: 400 })
+```
+
+GObjects are still `interop.Pointer` values, so they pass to any C function and support `equals()` and `toHexString()`. Functions declared to return `gpointer` (`g_list_model_get_item`) return an `interop.Pointer` with no class; use a typed variant when there is one (`g_list_model_get_object`).
+
+## GObject signals
+
+`connect` and `disconnect`, or `g_signal_connect`, `g_signal_connect_after` and `g_signal_handler_disconnect`, connect a JavaScript function to a GObject signal. The handler receives the instance, the signal's arguments and the user data:
+
+```ts
+const id = button.connect('clicked', (self) => {
+  console.log('clicked', self === button) // true
 })
+button.disconnect(id)
 
 g_signal_connect(toggle, 'notify::active', (self) => {
-  console.log(gtk_switch_get_active(self))
+  console.log(self.active)
 })
 ```
 
-The argument types are read from the signal's definition. String arguments are passed as pointers, read them with `interop.stringFromCString()`.
+- The argument types are read from the signal's definition: GObject arguments are their objects. String arguments are passed as pointers, read them with `interop.stringFromCString()`.
+- A handler is released when it's disconnected or its object is finalized, so you don't need `interop.release()` for it. Connecting the same function more than once is fine.
+- `emit(signal, ...args)` emits a signal, as `g_signal_emit_by_name` does.
 
 ## GObject memory management
 
-GObjects are `interop.Pointer` values, and their reference counts are not managed by the runtime. Follow the [GObject ownership rules](https://docs.gtk.org/gobject/concepts.html#object-memory-management) as you would in C: unref objects you own when you are done with them, or adopt them so they are unreffed when the pointer is garbage collected:
+The JavaScript object of a GObject holds a reference on it (a toggle reference):
+
+- While native code also references the GObject (a parent widget, a `GListStore`), the JavaScript object stays alive, with any fields you set on it.
+- When only JavaScript references it, the JavaScript object can be garbage collected, which releases the GObject.
+
+The C headers don't say who owns a function's result, so the JavaScript object always takes a reference of its own. A floating reference, as new widgets have, becomes the JavaScript object's, so there is nothing to release:
 
 ```ts
-const label = interop.adopt(
-  g_object_ref_sink(gtk_label_new('hi')),
-  g_object_unref,
-)
+const label = gtk_label_new('hi') // floating: owned by its JavaScript object
+box.append(label)
 ```
 
-Widgets added to a parent widget are owned by the parent and don't need to be unreffed.
+A function that returns a new reference (`transfer full` in the GTK docs, often `*_new`, `*_dup_*` and `*_ref`) leaves that reference to you, as in C. Unref it when you no longer need it; the JavaScript object keeps its own:
 
-Instances of [JavaScript GObject classes](/guide/extending-classes-and-implementing-interfaces-linux) are managed for you: their JavaScript object holds a reference on the GObject.
+```ts
+const file = g_file_new_for_path('/tmp')
+g_object_unref(file) // the reference g_file_new_for_path returned
+file.get_path() // still valid
+```
+
+Objects created with `new`, and instances of [JavaScript GObject classes](/guide/extending-classes-and-implementing-interfaces-linux), don't need to be unreffed.
+
+A C function that keeps the reference you pass it (`transfer full` parameters, such as `gtk_widget_set_layout_manager`) takes the JavaScript object's reference. Pass `g_object_ref(object)` to such functions.
 
 ## Variadic functions
 

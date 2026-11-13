@@ -66,7 +66,8 @@ class CountingButton extends GtkButton {
 ```
 
 - Vfuncs are named as in the class structs of the C headers (`GtkWidgetClass.snapshot`, `GObjectClass.constructed`), in snake_case or camelCase (`size_allocate` or `sizeAllocate`). Vfuncs receive the instance as `this`, followed by their other arguments.
-- `super.method(...)` calls the parent's implementation, a JavaScript one or the native one.
+- `super.method(...)` calls the parent's implementation, a JavaScript one or the native one. That includes vfuncs with a public function of the same name: in an override of `GtkWidgetClass.measure`, `super.measure()` calls the parent's vfunc, not `gtk_widget_measure`.
+- Instances have the methods and properties of their native classes (`this.queue_draw()`, `this.visible`), see [GObjects](/guide/linux-marshalling#gobjects). Calling a method you override, such as `swatch.measure(...)`, calls your override.
 - An instance is passed to C functions as the GObject (`gtk_box_append(box, swatch)`), and fields you set on `this` are visible when native code calls your overrides.
 - `instanceof` works for your class and its native parents.
 - Classes can be extended again, from JavaScript.
@@ -248,7 +249,7 @@ An instance of a JavaScript class is a JavaScript object together with the GObje
 
 You don't need to unref instances you create with `new`. Use `dispose` (not `finalize`) to release resources, and call `super.dispose()`.
 
-Signal arguments, property values and vfunc instances that are instances of a JavaScript class are passed to JavaScript as their JavaScript object. C functions that return them return an `interop.Pointer` to the GObject. To compare it with an instance, use `interop.handleof(instance).equals(pointer)`.
+Signal arguments, property values, vfunc instances and the results of C functions that return GObject types are passed to JavaScript as the instance's JavaScript object. Functions declared to return `gpointer` (such as `g_list_model_get_item`) return an `interop.Pointer` to the GObject; to compare it with an instance, use `interop.handleof(instance).equals(pointer)`.
 
 ## How it works
 
