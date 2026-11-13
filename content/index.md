@@ -7,7 +7,7 @@ contributors:
 
 ## What is NativeScript?
 
-NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience. 
+NativeScript provides platform APIs directly to the JavaScript runtime (_with strong types_) for a rich TypeScript development experience. It can also be used to provide a faster SwiftUI development experience, [read more here](/guide/pathways).
 
 Some popular use cases:
 

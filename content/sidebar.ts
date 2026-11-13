@@ -50,6 +50,11 @@ export default [
       {
         text: 'Publishing',
         link: '/guide/publishing/',
+        items: [
+          { text: 'Apple App Store', link: '/guide/publishing/apple-app-store' },
+          { text: 'Google Play', link: '/guide/publishing/android-google-play' },
+          { text: 'ns publish ios', link: '/guide/publishing/ns-publish' },
+        ],
       },
       {
         text: 'Plugins',
@@ -69,6 +74,27 @@ export default [
         hideChildren: true,
         items: updatingItems,
       },
+    ],
+  },
+  {
+    text: 'Dev Options',
+    items: [
+      { text: 'TypeScript or SwiftUI', link: '/guide/pathways' },
+      {
+        text: 'TypeScript, Compiled',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/guide/publishing/compiled' },
+          { text: 'Getting Started', link: '/guide/publishing/compiled-getting-started' },
+          { text: 'Configuration', link: '/guide/publishing/compiled-configuration' },
+          { text: 'iOS', link: '/guide/publishing/compiled-ios' },
+          { text: 'Android', link: '/guide/publishing/compiled-android' },
+          { text: 'What Works', link: '/guide/publishing/compiled-differences' },
+          { text: 'Reporting Issues', link: '/guide/publishing/compiled-report' },
+          { text: 'FAQ', link: '/guide/publishing/compiled-faq' },
+        ],
+      },
+      { text: 'SwiftUI, Live (Preview)', link: '/guide/swiftui-live' },
     ],
   },
   {
