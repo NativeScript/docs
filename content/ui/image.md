@@ -308,3 +308,4 @@ For additional inherited properties, refer to the [API Reference](/api/class/Ima
 
 - Android: [`android.widget.ImageView`](https://developer.android.com/reference/android/widget/ImageView)
 - iOS: [`UIImageView`](https://developer.apple.com/documentation/uikit/uiimageview)
+- Windows: [`Microsoft.UI.Xaml.Controls.Image`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.image)

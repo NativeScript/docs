@@ -96,7 +96,9 @@ Additional env flags that are usually passed by the CLI automatically
 - `--env.nativescriptLibPath` - path to the currently running CLI's library.
 - `--env.android` - `true` when running on android
 - `--env.ios` - `true` when running on ios
-- `--env.platform=<platform>` - for specifying the platform to use. Can be `android` or `ios`, or a custom platform in the future.
+- `--env.visionos` - `true` when running on visionOS
+- `--env.windows` - `true` when running on Windows
+- `--env.platform=<platform>` - for specifying the platform to use. Can be `android`, `ios`, `visionos`, `windows`, or a custom platform.
 - `--env.hmr` - `true` when building with HMR enabled
 
 ## Global "magic" variables
@@ -119,6 +121,12 @@ We define a few useful globally available variables that you can use to alter lo
   ```ts
   if (global.isIOS) {
     // we are running on iOS
+  }
+  ```
+- `__WINDOWS__` (also available as `global.isWindows`) - `true` when the platform is Windows
+  ```ts
+  if (__WINDOWS__) {
+    // we are running on Windows
   }
   ```
 

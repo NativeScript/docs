@@ -121,3 +121,4 @@ See [TapGestureEventData](/api/interface/TapGestureEventData).
 
 - Android: [`android.widget.Button`](https://developer.android.com/reference/android/widget/Button.html)
 - iOS: [`UIButton`](https://developer.apple.com/documentation/uikit/uibutton)
+- Windows: [`Microsoft.UI.Xaml.Controls.Button`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.button)

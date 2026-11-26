@@ -180,3 +180,4 @@ See [LoadEventData](/api/interface/LoadEventData).
 
 - Android: [`android.webkit.WebView`](https://developer.android.com/reference/android/webkit/WebView)
 - iOS: [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview)
+- Windows: [`Microsoft.UI.Xaml.Controls.WebView2`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.webview2)

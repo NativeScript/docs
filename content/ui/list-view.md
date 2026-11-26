@@ -384,3 +384,4 @@ See `SearchEventData` in the API reference for the shape of the event.
 
 - Android: [`android.widget.ListView`](https://developer.android.com/reference/android/widget/ListView.html)
 - iOS: [`UITableView`](https://developer.apple.com/documentation/uikit/uitableview)
+- Windows: [`Microsoft.UI.Xaml.Controls.ListView`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.listview)

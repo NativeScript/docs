@@ -201,3 +201,4 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 - Android: [`android.widget.DatePicker`](https://developer.android.com/reference/android/widget/DatePicker.html)
 - iOS: [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker)
+- Windows: [`Microsoft.UI.Xaml.Controls.DatePicker`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.datepicker)

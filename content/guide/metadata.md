@@ -133,3 +133,26 @@ if (android.os.Build.VERSION.SDK_INT >= 21) {
 ## iOS Metadata
 
 This is our own custom data format for listing the iOS APIs we are aware of and can handle. It stores the minimal required information and provides a small size and highly efficient read access. iOS supports type introspection to some extent but along with the C APIs embedded all the way in the native APIs we had to store a lot of extra information. The Metadata is pre-generated at compile time from the SDK header files and embedded in the app package (ipa).
+
+## Windows Metadata
+
+::: warning Experimental
+The Windows platform is experimental. See [Developing for Windows](/guide/windows/).
+:::
+
+Unlike iOS and Android, Windows doesn't need metadata to be generated at build time. The Windows Runtime describes every API in `.winmd` metadata files, which the NativeScript Windows runtime reads on demand while the app is running:
+
+- The system `Windows.*` APIs are resolved from the metadata that ships with Windows.
+- `Microsoft.*` (WinUI 3 and the Windows App SDK) is resolved from the Windows App SDK the app depends on.
+- Any other `.winmd` file placed next to the app executable or in the app root is loaded automatically on startup. See [Adding C++/WinRT components](/guide/native-code/windows#adding-c-winrt-components).
+
+As a result there are no metadata filtering rules on Windows: every WinRT API available on the machine running the app can be called.
+
+::: tip Inspecting a type
+To see what the runtime knows about a type, call `__nsDescribeWinRTType` with its full name. It returns a JSON description of the type's methods and properties:
+
+```ts
+console.log(__nsDescribeWinRTType('Windows.Foundation.Uri'))
+```
+
+:::

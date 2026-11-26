@@ -295,3 +295,4 @@ tabView.iosBottomAccessory = accessory
 
 - Android: [`androidx.viewpager.widget.ViewPager`](https://developer.android.com/reference/androidx/viewpager/widget/ViewPager)
 - iOS: [`UITabBarController`](https://developer.apple.com/documentation/uikit/uitabbarcontroller)
+- Windows: [`Microsoft.UI.Xaml.Controls.Grid`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.grid) (a tab strip of buttons above the content area)

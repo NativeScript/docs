@@ -37,7 +37,7 @@ export default {
 id: string = 'com.mycompany.myapp'
 ```
 
-Controls the Application ID of your app, this setting can be overridden per platform via [ios.id](#ios-id) and [android.id](#android-id).
+Controls the Application ID of your app, this setting can be overridden per platform via [ios.id](#ios-id), [android.id](#android-id) and [windows.id](#windows-id).
 
 ### main
 
@@ -162,6 +162,14 @@ ios: Object = {}
 ```
 
 See [iOS Configuration Reference](#ios-configuration-reference)
+
+### windows
+
+```ts
+windows: Object = {}
+```
+
+See [Windows Configuration Reference](#windows-configuration-reference)
 
 ### hooks
 
@@ -507,6 +515,48 @@ ios: {
   ],
 }
 ```
+
+## Windows Configuration Reference
+
+::: warning Experimental
+The Windows platform is experimental. See [Developing for Windows](/guide/windows/).
+:::
+
+### <span>windows.id</span>
+
+```ts
+windows.id: string = 'com.mycompany.myapp';
+```
+
+Controls the package identity name of your Windows app, this setting overrides the value set in [id](#id). The value is written to the `Name` attribute of the `<Identity>` element in the generated `Package.appxmanifest`, and the CLI uses it to find, install and remove the app package.
+
+### windows.sourceProtect
+
+```ts
+windows.sourceProtect: boolean = true;
+```
+
+When enabled, **release** builds seal the bundled JavaScript into an encrypted `app.nsbundle` instead of shipping it as plain `.js` files. Defaults to `false`.
+
+This can be overridden per build with `--source-protect` or `--no-source-protect`. The encryption key can be provided with `--source-protect-key-hex <key>` or the `NS_WINDOWS_BUNDLE_KEY` environment variable.
+
+```ts
+export default {
+  // ...
+  windows: {
+    sourceProtect: true,
+  },
+} as NativeScriptConfig
+```
+
+### windows.phoneProductId / windows.phonePublisherId
+
+```ts
+windows.phoneProductId: string = '00000000-0000-0000-0000-000000000000';
+windows.phonePublisherId: string = '00000000-0000-0000-0000-000000000000';
+```
+
+Values written to the `mp:PhoneIdentity` element of the generated `Package.appxmanifest`. When `phoneProductId` isn't set (or is empty/all zeros), the CLI generates a stable GUID derived from the app id. Can be overridden with `--phone-product-id` and `--phone-publisher-id`.
 
 ## Hooks Configuration Reference
 

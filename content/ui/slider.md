@@ -99,3 +99,4 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 - Android: [`android.widget.SeekBar`](https://developer.android.com/reference/android/widget/SeekBar.html)
 - iOS: [`UISlider`](https://developer.apple.com/documentation/uikit/uislider)
+- Windows: [`Microsoft.UI.Xaml.Controls.Slider`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.slider)

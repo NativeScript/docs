@@ -14,6 +14,7 @@ To run a project, use the `ns run` command. There's also a `ns debug` command co
 ```bash
 ns run android
 ns run ios
+ns run windows # experimental, Windows host only
 ```
 
 The `run` command runs the app on all connected devices matching the platform. You can control which devices to run on with the following flags:
@@ -120,6 +121,34 @@ The app should install and launch on the iOS device.
 ::: warning Note
 Xcode network devices sometimes get disconnected or have an unreliable connection. We recommend using a wired connection to avoid these occasional issues.
 :::
+
+## Running on Windows
+
+::: warning Experimental
+The Windows platform is experimental. See [Developing for Windows](/guide/windows/) for the current status.
+:::
+
+Windows apps run on the local machine, there is no emulator or remote device involved. When running on a Windows host with the [Windows environment set up](/setup/windows#setting-up-windows-for-windows-desktop), the local machine is listed as a `Windows` device:
+
+```bash
+ns devices windows
+```
+
+To build, install and launch the app:
+
+```bash
+ns run windows
+```
+
+In debug mode the CLI builds the app with `dotnet build`, registers it as a development package (this requires [Developer Mode](https://learn.microsoft.com/windows/apps/get-started/enable-your-device-for-development) to be enabled) and launches it. Console output from the app is streamed to the terminal.
+
+Changes to your app are synced to the registered package folder. With the [Vite bundler](/configuration/vite) changes are applied with HMR, with webpack the app is restarted on every change.
+
+You can pick the target architecture with `--arch`:
+
+```bash
+ns run windows --arch arm64 # defaults to x64
+```
 
 ## Running on virtual devices
 

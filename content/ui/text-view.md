@@ -264,3 +264,4 @@ Emitted when the TextView loses focus.
 
 - Android: [`android.widget.EditText`](https://developer.android.com/reference/android/widget/EditText.html)
 - iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)
+- Windows: [`Microsoft.UI.Xaml.Controls.TextBox`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.textbox) (multiline)

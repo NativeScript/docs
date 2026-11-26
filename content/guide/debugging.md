@@ -5,7 +5,7 @@ contributors:
   - rigor789
 ---
 
-There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments or the Android Studio developer tools.
+There are multiple ways to debug issues in your apps, starting with the simplest form using `console.logs`. For more complex issues, you may need to use an actual debugger, like Chrome DevTools, XCode developer tools and instruments, the Android Studio developer tools or Visual Studio on Windows.
 
 ## Console
 
@@ -41,7 +41,7 @@ console.timeEnd('myLabel')
 To start a Chrome debugging session, run your app in debug mode:
 
 ```bash
-ns debug android|ios
+ns debug android|ios|windows
 ```
 
 The `ns debug` command builds and deploys the app on a connected device or emulator, in case you have multiple devices available you will need to pick one from a list, or pass in the `--device <id>` from `ns devices`.
@@ -163,3 +163,62 @@ Since NativeScript follows a standard gradle/android application structure, you 
 - [Android Studio: Layout Inspector](https://developer.android.com/studio/debug/layout-inspector)
 - [Android Studio: view Logcat logs](https://developer.android.com/studio/debug/am-logcat)
 - [Androud Studio: Debug your app](https://developer.android.com/studio/debug#startdebug)
+
+## Debugging on Windows
+
+::: warning Experimental
+The Windows platform is experimental. See [Developing for Windows](/guide/windows/).
+:::
+
+### Chrome DevTools
+
+Start a debug session on the local machine with:
+
+```bash
+ns debug windows
+```
+
+The command builds, deploys and launches the app with the V8 inspector enabled. Once the inspector is listening, a URL is printed to the console:
+
+```bash
+# NativeScript Debugger started #
+To start debugging, open the following URL in Chrome:
+devtools://devtools/bundled/inspector.html?ws=127.0.0.1:43000
+```
+
+Open the printed URL in Google Chrome to attach to the debugger session. The inspector listens on port `43000` (iOS uses `41000` and Android `42000`), or the next free port if `43000` is taken.
+
+Alternatively open `chrome://inspect` in Chrome, click **Configure...**, add `127.0.0.1:43000`, and select the app from the **Remote Target** list. Any other client that speaks the Chrome DevTools Protocol can connect to the same address.
+
+The same options as on the other platforms are supported:
+
+- `--debug-brk` - pauses on the first line of JavaScript until the debugger connects. The app waits up to 30 seconds for a debugger, then continues.
+- `--start` - attaches to an app that is already running with the debugger enabled (started with `ns debug windows`), without restarting it.
+- `--timeout` - number of seconds the CLI waits for the inspector to start. Default is 60 seconds.
+
+`ns run windows` doesn't start the inspector, use `ns debug windows` instead.
+
+The debugger, console, sources, CPU profiling and memory snapshots are provided by V8's inspector. Network requests made with `@nativescript/core` HTTP APIs are shown in the **Network** tab.
+
+### Console output
+
+`ns run windows` and `ns debug windows` stream the app's console output to your terminal. The output is also written to:
+
+- the debugger output (visible in the Visual Studio **Output** window or [DebugView](https://learn.microsoft.com/sysinternals/downloads/debugview))
+- `%LOCALAPPDATA%\Packages\<PackageFamilyName>\LocalState\console.log`
+
+### Crash logs
+
+When the app crashes, the runtime writes diagnostic files to the app's `LocalState` folder (`%LOCALAPPDATA%\Packages\<PackageFamilyName>\LocalState\`):
+
+- `nativescript-crash.log` &mdash; unhandled JavaScript and XAML errors (also streamed to the terminal)
+- `nativescript-panic.log` &mdash; internal runtime errors
+- `nativescript-veh.log` &mdash; fatal native exceptions
+
+In debug builds, an uncaught JavaScript error during startup shows a **NativeScript Runtime Error** dialog with the error details and the option to copy them or restart the app.
+
+Some XAML errors terminate the process immediately (for example error `0xC000027B`) without reaching these logs. In that case check **Event Viewer › Windows Logs › Application**, or capture a crash dump with [ProcDump](https://learn.microsoft.com/sysinternals/downloads/procdump). See [Troubleshooting › Windows](/troubleshooting#windows).
+
+### Debugging native code with Visual Studio
+
+To debug native (C#, C++ or WinRT) code, run the app with `ns run windows`, then in [Visual Studio](https://visualstudio.microsoft.com/) use **Debug › Attach to Process...**, select your app's process, and choose the **Managed** and/or **Native** code types. You can also open the generated host project in `platforms/windows/<ProjectName>/` in Visual Studio to browse and set breakpoints in its code.

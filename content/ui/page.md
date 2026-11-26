@@ -454,3 +454,4 @@ See also: [enableEdgeToEdge](/core/utils#enableedgetoedge).
 
 - Android: [`org.nativescript.widgets.GridLayout`](https://github.com/NativeScript/NativeScript/blob/master/packages/ui-mobile-base/android/widgets/src/main/java/org/nativescript/widgets/GridLayout.java)
 - iOS: [`UIViewController`](https://developer.apple.com/documentation/uikit/uiviewcontroller)
+- Windows: [`Microsoft.UI.Xaml.Controls.Grid`](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.grid)
