@@ -245,6 +245,19 @@ export default [
     ]
   },
   {
+    text: 'Developing for Linux',
+    items: [
+      {
+        text: 'Developing for Linux',
+        link: '/guide/linux/',
+      },
+      {
+        text: 'Distributing Linux apps',
+        link: '/guide/publishing/linux',
+      },
+    ]
+  },
+  {
     text: 'Agentic Coding',
     items: [
       {
@@ -273,6 +286,10 @@ export default [
             link: '/guide/native-code/ios',
           },
           {
+            text: 'Adding Linux Code',
+            link: '/guide/native-code/linux',
+          },
+          {
             text: 'Generating TypeScript types',
             link: '/guide/native-code/generate-typings',
           }
@@ -289,6 +306,10 @@ export default [
           {
             text: 'iOS',
             link: '/guide/extending-classes-and-conforming-to-protocols-ios',
+          },
+          {
+            text: 'Linux',
+            link: '/guide/extending-classes-and-implementing-interfaces-linux',
           },
         ],
       },
@@ -339,6 +360,10 @@ export default [
           {
             text: 'Android Marshalling',
             link: '/guide/android-marshalling',
+          },
+          {
+            text: 'Linux Marshalling',
+            link: '/guide/linux-marshalling',
           },
         ],
       },

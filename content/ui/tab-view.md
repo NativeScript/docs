@@ -295,3 +295,4 @@ tabView.iosBottomAccessory = accessory
 
 - Android: [`androidx.viewpager.widget.ViewPager`](https://developer.android.com/reference/androidx/viewpager/widget/ViewPager)
 - iOS: [`UITabBarController`](https://developer.apple.com/documentation/uikit/uitabbarcontroller)
+- Linux: [`GtkNotebook`](https://docs.gtk.org/gtk4/class.Notebook.html)

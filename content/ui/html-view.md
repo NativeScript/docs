@@ -88,3 +88,4 @@ For additional inherited properties, refer to the [API Reference](/api/class/Htm
 
 - Android: [`android.widget.TextView`](https://developer.android.com/reference/android/widget/TextView.html)
 - iOS: [`UITextView`](https://developer.apple.com/documentation/uikit/uitextview)
+- Linux: [`GtkLabel`](https://docs.gtk.org/gtk4/class.Label.html), showing the HTML converted to [Pango markup](https://docs.gtk.org/Pango/pango_markup.html) (a basic subset of HTML is supported)

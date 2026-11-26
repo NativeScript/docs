@@ -143,3 +143,4 @@ Emitted when the selected time changes.
 
 - Android: [`android.widget.TimePicker`](https://developer.android.com/reference/android/widget/TimePicker)
 - iOS: [`UIDatePicker`](https://developer.apple.com/documentation/uikit/uidatepicker)
+- Linux: a [`GtkBox`](https://docs.gtk.org/gtk4/class.Box.html) of [`GtkSpinButton`](https://docs.gtk.org/gtk4/class.SpinButton.html)s

@@ -99,3 +99,4 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 - Android: [`android.widget.SeekBar`](https://developer.android.com/reference/android/widget/SeekBar.html)
 - iOS: [`UISlider`](https://developer.apple.com/documentation/uikit/uislider)
+- Linux: [`GtkScale`](https://docs.gtk.org/gtk4/class.Scale.html)

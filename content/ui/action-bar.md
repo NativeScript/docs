@@ -348,13 +348,16 @@ See [R.drawable](https://developer.android.com/reference/android/R.drawable.html
 
 - Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
 - iOS: [UINavigationBar](https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc)
+- Linux: a [GtkCenterBox](https://docs.gtk.org/gtk4/class.CenterBox.html) at the top of the page, containing the navigation button, the title and the action items
 
 ### ActionItem
 
 - Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
 - iOS: [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca)
+- Linux: [GtkButton](https://docs.gtk.org/gtk4/class.Button.html)
 
 ### NavigationButton
 
 - Android: [android.widget.Toolbar](https://developer.android.com/reference/android/widget/Toolbar.html)
 - iOS: [UINavigationItem](https://developer.apple.com/documentation/uikit/uinavigationitem?language=objca)
+- Linux: [GtkButton](https://docs.gtk.org/gtk4/class.Button.html)

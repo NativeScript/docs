@@ -103,3 +103,4 @@ See [PropertyChangeData](/api/interface/PropertyChangeData).
 
 - Android: [`android.widget.Switch`](https://developer.android.com/reference/android/widget/Switch.html)
 - iOS: [`UISwitch`](https://developer.apple.com/documentation/uikit/uiswitch)
+- Linux: [`GtkSwitch`](https://docs.gtk.org/gtk4/class.Switch.html)

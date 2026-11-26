@@ -16,6 +16,7 @@ Some popular use cases:
 - Augmenting JavaScript projects with platform API capabilities
 - AndroidTV and Watch development
 - watchOS development
+- Linux desktop development (experimental, see [Developing for Linux](/guide/linux/))
 - Learning native platforms through JavaScript understanding
 - Exploring platform API documentation by trying APIs [directly from a web browser](https://preview.nativescript.org/) without requiring a platform development machine setup.
 

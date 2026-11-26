@@ -360,3 +360,17 @@ There are certain limitations to keep in mind when working with workers:
 - **No object transferring**. If you are a web developer you may be familiar with the ArrayBuffer and MessagePort transferring support in browsers. Currently, in NativeScript there is no such concept as object transferring.
 - **Debugging workers is not currently possible.**
 - **No nested workers support**. We want to hear from the community if this is something we need to support.
+
+## Linux
+
+::: warning Experimental
+The Linux platform is experimental. See [Developing for Linux](/guide/linux/).
+:::
+
+On Linux, JavaScript runs on the main thread, which runs the GLib main loop together with GTK. Each worker runs in its own thread with its own JavaScript runtime and its own GLib main context, and has access to all C APIs, but GTK may only be used from the main thread.
+
+Keep the following in mind:
+
+- Messages are serialized using the structured clone algorithm, so values such as `Date`, `Map`, `Set`, `ArrayBuffer` and typed arrays can be sent. To send native data, copy it into an `ArrayBuffer` or send the pointer's address.
+- JavaScript callbacks run on the thread that created them. When C code invokes a callback from another thread, the call is queued to the callback's JavaScript thread, and the calling thread waits until it has run. Blocking the JavaScript thread while waiting for that thread deadlocks.
+- To update the UI with results from a worker, `postMessage` them to the main thread.
